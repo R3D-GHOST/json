@@ -1,42 +1,37 @@
-[
-  {
-    "title": "Cuentos de Terramar",
-    "logo": "https://telechancho.github.io/telechancho-iptv/covers/movies/Cuentos_de_Terramar-162148520-large.jpg",
-    "url": "http://ia802200.us.archive.org/26/items/Peliculas-wii/Cuentos%20de%20Terramar.mp4"
-  },
-  {
-    "title": "Earwig y la bruja",
-    "logo": "https://telechancho.github.io/telechancho-iptv/covers/movies/Earwig_y_la_bruja-802898174-large.jpg",
-    "url": "http://ia802200.us.archive.org/26/items/Peliculas-wii/Earwig%20y%20la%20bruja.mp4"
-  },
-  {
-    "title": "El castillo en el cielo",
-    "logo": "https://telechancho.github.io/telechancho-iptv/covers/movies/El_castillo_en_el_cielo-382969111-large.jpg",
-    "url": "http://ia802200.us.archive.org/26/items/Peliculas-wii/El%20castillo%20en%20el%20cielo.mp4"
-  },
-  {
-    "title": "El cuento de la princesa Kaguya",
-    "logo": "https://telechancho.github.io/telechancho-iptv/covers/movies/El_cuento_de_la_princesa_Kaguya-619798113-large.jpg",
-    "url": "http://ia802200.us.archive.org/26/items/Peliculas-wii/El%20cuento%20de%20la%20princesa%20Kaguya.mp4"
-  },
-  {
-    "title": "El increible castillo vagabundo",
-    "logo": "https://telechancho.github.io/telechancho-iptv/covers/movies/El_incre_ble_castillo_vagabundo-661679030-large.jpg",
-    "url": "http://ia802200.us.archive.org/26/items/Peliculas-wii/El%20increible%20castillo%20vagabundo.mp4"
-  },
-  {
-    "title": "El mundo secreto de Arrietty",
-    "logo": "https://telechancho.github.io/telechancho-iptv/covers/movies/El_mundo_secreto_de_Arrietty-356171620-large.jpg",
-    "url": "http://ia802200.us.archive.org/26/items/Peliculas-wii/El%20mundo%20secreto%20de%20Arrietty.mp4"
-  },
-  {
-    "title": "El recuerdo de Marnie",
-    "logo": "https://telechancho.github.io/telechancho-iptv/covers/movies/El_recuerdo_de_Marnie-366882456-large.jpg",
-    "url": "http://ia802200.us.archive.org/26/items/Peliculas-wii/El%20recuerdo%20de%20Marnie.mp4"
-  },
-  {
-    "title": "El regreso del gato",
-    "logo": "https://telechancho.github.io/telechancho-iptv/covers/movies/Haru_en_el_reino_de_los_gatos-963174131-large.jpg",
-    "url": "http://ia802200.us.archive.org/26/items/Peliculas-wii/El%20regreso%20del%20gato.mp4"
-  }
-]
+{
+  "peliculas": [
+    {
+      "title": "Cuentos de Terramar",
+      "logo": "https://telechancho.github.io/telechancho-iptv/covers/movies/Cuentos_de_Terramar-162148520-large.jpg",
+      "url": "http://ia802200.us.archive.org/26/items/Peliculas-wii/Cuentos%20de%20Terramar.mp4",
+      "description": "Un joven hechicero y un príncipe atormentado enfrentan fuerzas oscuras mientras intentan restaurar el equilibrio del mundo.",
+      "genre": "Fantasía, Aventura"
+    },
+    {
+      "title": "Earwig y la bruja",
+      "logo": "https://telechancho.github.io/telechancho-iptv/covers/movies/Earwig_y_la_bruja-802898174-large.jpg",
+      "url": "http://ia802200.us.archive.org/26/items/Peliculas-wii/Earwig%20y%20la%20bruja.mp4",
+      "description": "Una niña huérfana es adoptada por una bruja y descubre sus propios poderes en una casa llena de magia y secretos.",
+      "genre": "Animación, Fantasía"
+    }
+    // ...añadir las demás películas con su descripción y género
+  ],
+  "series": [
+    {
+      "title": "Aventuras mágicas",
+      "logo": "https://example.com/logos/aventuras-magicas.jpg",
+      "description": "Una serie animada sobre un grupo de jóvenes hechiceros que descubren un portal a un reino encantado, enfrentándose a desafíos mágicos y criaturas míticas en cada episodio.",
+      "genre": "Fantasía, Aventura",
+      "episodes": [
+        {
+          "episode_title": "Episodio 1: El comienzo",
+          "url": "http://example.com/series/aventuras-magicas/episodio1.mp4"
+        },
+        {
+          "episode_title": "Episodio 2: El bosque encantado",
+          "url": "http://example.com/series/aventuras-magicas/episodio2.mp4"
+        }
+      ]
+    }
+  ]
+}
