@@ -1,0 +1,253 @@
+  "peliculas": [
+    {
+      "titulo": "Big Buck Bunny",
+      "genero": "Animación",
+      "sinopsis": "Un conejo gigante defiende el bosque.",
+      "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4",
+      "poster": "https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217",
+      "posterPortrait": "https://i.pinimg.com/originals/a7/9d/b1/a79db1c52136018c1ed788f553f4d6d6.jpg" // Example portrait poster
+    },
+    {
+      "titulo": "Sintel",
+      "genero": "Animación, Fantasía",
+      "sinopsis": "Una joven busca a su dragón perdido.",
+      "url": "https://media.w3.org/2010/05/sintel/trailer.mp4",
+      "poster": "https://media.w3.org/2010/05/sintel/poster.png",
+      "posterPortrait": "https://static.tvtropes.org/pmwiki/pub/images/sintel_poster_small_9666.jpg" // Example portrait poster
+    },
+    {
+      "titulo": "Tears of Steel",
+      "genero": "Ciencia Ficción",
+      "sinopsis": "Un grupo intenta revivir un pasado.",
+      "url": "https://download.blender.org/mango/tears_of_steel_720p.mp4",
+      "poster": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Tears_of_Steel_screenshot_1.jpg/640px-Tears_of_Steel_screenshot_1.jpg",
+      "posterPortrait": "https://m.media-amazon.com/images/M/MV5BMjA1OTY0NTA0OF5BMl5BanBnXkFtZTcwNTg5Njk4OA@@._V1_.jpg" // Example portrait poster
+    },
+    {
+      "titulo": "Spider-Man: Into the Spider-Verse",
+      "genero": "Animación, Aventura, Acción",
+      "sinopsis": "Miles Morales se convierte en Spider-Man y se une a otros Spider-People de diferentes dimensiones para salvar toda la realidad.",
+      "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4", // Placeholder URL
+      "poster": "https://image.tmdb.org/t/p/w500/iiZZdoQBWMUad6z3J7C0YqA6pQ.jpg",
+      "posterPortrait": "https://image.tmdb.org/t/p/w500/iiZZdoQBWMUad6z3J7C0YqA6pQ.jpg"
+    },
+    {
+      "titulo": "Your Name",
+      "genero": "Animación, Romance, Drama",
+      "sinopsis": "Dos adolescentes, un chico de Tokio y una chica de un pueblo rural, descubren que están cambiando de cuerpo.",
+      "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4", // Placeholder URL
+      "poster": "https://image.tmdb.org/t/p/w500/q719jXXEzOoYAD9kOaznpkyuDf2.jpg",
+      "posterPortrait": "https://image.tmdb.org/t/p/w500/q719jXXEzOoYAD9kOaznpkyuDf2.jpg"
+    },
+    {
+      "titulo": "El Viaje de Chihiro",
+      "genero": "Animación, Fantasía",
+      "sinopsis": "Una niña se adentra en el mundo de los espíritus para salvar a sus padres.",
+      "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4", // Placeholder URL
+      "poster": "https://image.tmdb.org/t/p/w500/3oTIEgH7p6VzYk7fK4X9XlJgJ2.jpg",
+      "posterPortrait": "https://image.tmdb.org/t/p/w500/3oTIEgH7p6VzYk7fK4X9XlJgJ2.jpg"
+    },
+    {
+      "titulo": "Forrest Gump",
+      "genero": "Drama, Romance",
+      "sinopsis": "La vida de un hombre simple que experimenta varios eventos históricos.",
+      "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4", // Placeholder URL
+      "poster": "https://image.tmdb.org/t/p/w500/saHp97yS9Yg1lB7Xg0t8oX59z0t.jpg",
+      "posterPortrait": "https://image.tmdb.org/t/p/w500/saHp97yS9Yg1lB7Xg0t8oX59z0t.jpg"
+    },
+    {
+      "titulo": "Interstellar",
+      "genero": "Ciencia Ficción, Aventura, Drama",
+      "sinopsis": "Un equipo de exploradores viaja a través de un agujero de gusano en el espacio en un intento de asegurar la supervivencia de la humanidad.",
+      "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4", // Placeholder URL
+      "poster": "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6rjQnsYpGZxGj.jpg",
+      "posterPortrait": "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6rjQnsYpGZxGj.jpg"
+    },
+    {
+      "titulo": "Parásitos",
+      "genero": "Comedia, Drama, Suspense",
+      "sinopsis": "La familia de los Kim, pobre, planea un esquema para convertirse en empleados de la rica familia de los Park.",
+      "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4", // Placeholder URL
+      "poster": "https://image.tmdb.org/t/p/w500/7RV34zQv15V7s43zQjC2P0qG3.jpg",
+      "posterPortrait": "https://image.tmdb.org/t/p/w500/7RV34zQv15V7s43zQjC2P0qG3.jpg"
+    },
+    {
+      "titulo": "La La Land",
+      "genero": "Musical, Drama, Romance",
+      "sinopsis": "Una aspirante a actriz y un músico de jazz se enamoran en Los Ángeles.",
+      "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4", // Placeholder URL
+      "poster": "https://image.tmdb.org/t/p/w500/uO0Jd1V5S07v3Tz6TfT5S6uP3Kk.jpg",
+      "posterPortrait": "https://image.tmdb.org/t/p/w500/uO0Jd1V5S07v3Tz6TfT5S6uP3Kk.jpg"
+    },
+    {
+      "titulo": "Joker",
+      "genero": "Crimen, Drama, Thriller",
+      "sinopsis": "Arthur Fleck, un comediante fallido, se embarca en un camino de revolución y crimen en Gotham City.",
+      "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4", // Placeholder URL
+      "poster": "https://image.tmdb.org/t/p/w500/udDclJoHjfjb8JptgfdBOg82KFK.jpg",
+      "posterPortrait": "https://image.tmdb.org/t/p/w500/udDclJoHjfjb8JptgfdBOg82KFK.jpg"
+    },
+    {
+      "titulo": "Origen",
+      "genero": "Ciencia Ficción, Acción, Aventura",
+      "sinopsis": "Un ladrón que roba información corporativa a través de la tecnología de sueños compartidos recibe la tarea inversa de implantar una idea en la mente de un director ejecutivo.",
+      "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4", // Placeholder URL
+      "poster": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7EO0t5HTs.jpg",
+      "posterPortrait": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7EO0t5HTs.jpg"
+    }
+  ],
+  "series": [
+    {
+      "titulo": "Big Buck Bunny Serie",
+      "genero": "Animación",
+      "sinopsis": "Aventuras del conejo gigante.",
+      "poster": "https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217",
+      "posterPortrait": "https://i.pinimg.com/originals/a7/9d/b1/a79db1c52136018c1ed788f553f4d6d6.jpg", // Example portrait poster
+      "temporadas": [
+        {
+          "numero": 1,
+          "capitulos": [
+            { "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4" },
+            { "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_2mb.mp4" },
+            { "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_5mb.mp4" }
+          ]
+        },
+        {
+          "numero": 2,
+          "capitulos": [
+            { "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_5mb.mp4" },
+            { "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4" }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Sintel: El Viaje",
+      "genero": "Animación, Fantasía",
+      "sinopsis": "Expansión del universo de Sintel.",
+      "poster": "https://media.w3.org/2010/05/sintel/poster.png",
+      "posterPortrait": "https://static.tvtropes.org/pmwiki/pub/images/sintel_poster_small_9666.jpg", // Example portrait poster
+      "temporadas": [
+        {
+          "numero": 1,
+          "capitulos": [
+            { "url": "https://media.w3.org/2010/05/sintel/trailer.mp4" },
+            { "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4" }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Stranger Things",
+      "genero": "Ciencia Ficción, Drama, Terror",
+      "sinopsis": "Cuando un niño desaparece, sus amigos, la familia y la policía se ven envueltos en un misterio extraordinario que involucra experimentos secretos del gobierno, fuerzas sobrenaturales aterradoras y una niña muy extraña.",
+      "poster": "https://image.tmdb.org/t/p/w500/x2LSRK2Cm7MZhjluni1msVJ3Nnw.jpg",
+      "posterPortrait": "https://image.tmdb.org/t/p/w500/x2LSRK2Cm7MZhjluni1msVJ3Nnw.jpg",
+      "temporadas": [
+        { "numero": 1, "capitulos": [{ "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4" }] },
+        { "numero": 2, "capitulos": [{ "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_2mb.mp4" }] },
+        { "numero": 3, "capitulos": [{ "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_5mb.mp4" }] }
+      ]
+    },
+    {
+      "titulo": "The Crown",
+      "genero": "Drama, Histórica",
+      "sinopsis": "Sigue la rivalidad política y los romances de la Reina Isabel II, así como los eventos que dieron forma a la segunda mitad del siglo XX.",
+      "poster": "https://image.tmdb.org/t/p/w500/sT9Zp27V4zGf682s7gN1j0bY4zE.jpg",
+      "posterPortrait": "https://image.tmdb.org/t/p/w500/sT9Zp27V4zGf682s7gN1j0bY4zE.jpg",
+      "temporadas": [
+        { "numero": 1, "capitulos": [{ "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4" }] },
+        { "numero": 2, "capitulos": [{ "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_2mb.mp4" }] }
+      ]
+    },
+    {
+      "titulo": "La Casa de Papel",
+      "genero": "Crimen, Drama, Thriller",
+      "sinopsis": "Ocho ladrones toman rehenes y se encierran en la Fábrica Nacional de Moneda y Timbre de España, mientras un genio criminal manipula a la policía para llevar a cabo su plan.",
+      "poster": "https://image.tmdb.org/t/p/w500/wUvS4n2oH9q3pQ0Fk0sJvQJ4c2s.jpg",
+      "posterPortrait": "https://image.tmdb.org/t/p/w500/wUvS4n2oH9q3pQ0Fk0sJvQJ4c2s.jpg",
+      "temporadas": [
+        { "numero": 1, "capitulos": [{ "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4" }] },
+        { "numero": 2, "capitulos": [{ "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_2mb.mp4" }] }
+      ]
+    },
+    {
+      "titulo": "Black Mirror",
+      "genero": "Ciencia Ficción, Drama, Thriller",
+      "sinopsis": "Serie de antología que explora un futuro cercano donde las mayores innovaciones de la humanidad chocan con sus instintos más oscuros.",
+      "poster": "https://image.tmdb.org/t/p/w500/qj8fA18B9fFzN9k13jF9m2F9o9F.jpg",
+      "posterPortrait": "https://image.tmdb.org/t/p/w500/qj8fA18B9fFzN9k13jF9o9F.jpg",
+      "temporadas": [
+        { "numero": 1, "capitulos": [{ "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4" }] },
+        { "numero": 2, "capitulos": [{ "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_2mb.mp4" }] },
+        { "numero": 3, "capitulos": [{ "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_5mb.mp4" }] }
+      ]
+    },
+    {
+      "titulo": "Breaking Bad",
+      "genero": "Crimen, Drama, Thriller",
+      "sinopsis": "Un profesor de química de secundaria que lucha contra el cáncer de pulmón inoperable se asocia con un antiguo alumno para asegurar el futuro de su familia cocinando y vendiendo metanfetamina.",
+      "poster": "https://image.tmdb.org/t/p/w500/gg7D5jB74G3TzRz2536n1YV7xM.jpg",
+      "posterPortrait": "https://image.tmdb.org/t/p/w500/gg7D5jB74G3TzRz2536n1YV7xM.jpg",
+      "temporadas": [
+        { "numero": 1, "capitulos": [{ "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4" }] },
+        { "numero": 2, "capitulos": [{ "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_2mb.mp4" }] },
+        { "numero": 3, "capitulos": [{ "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_5mb.mp4" }] }
+      ]
+    },
+    {
+      "titulo": "Game of Thrones",
+      "genero": "Fantasía, Drama, Aventura",
+      "sinopsis": "Nueve familias nobles luchan por el control de las tierras míticas de Westeros, mientras una antigua amenaza se despierta en el norte y una reina exiliada planea reclamar su trono.",
+      "poster": "https://image.tmdb.org/t/p/w500/u3bZgnGQ9T0SVEsWfCdzK9EaE2N.jpg", // Corrected GoT poster
+      "posterPortrait": "https://image.tmdb.org/t/p/w500/u3bZgnGQ9T0SVEsWfCdzK9EaE2N.jpg", // Corrected GoT poster
+      "temporadas": [
+        { "numero": 1, "capitulos": [{ "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4" }] },
+        { "numero": 2, "capitulos": [{ "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_2mb.mp4" }] }
+      ]
+    },
+    {
+      "titulo": "The Mandalorian",
+      "genero": "Ciencia Ficción, Aventura, Acción",
+      "sinopsis": "Las aventuras de un pistolero solitario en los confines exteriores de la galaxia, lejos de la autoridad de la Nueva República.",
+      "poster": "https://image.tmdb.org/t/p/w500/bZ0R04X3l9hRj1rM4N0Ym1N1X0.jpg",
+      "posterPortrait": "https://image.tmdb.org/t/p/w500/bZ0R04X3l9hRj1rM4N0Ym1N1X0.jpg",
+      "temporadas": [
+        { "numero": 1, "capitulos": [{ "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4" }] },
+        { "numero": 2, "capitulos": [{ "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_2mb.mp4" }] }
+      ]
+    },
+    {
+      "titulo": "Attack on Titan",
+      "genero": "Animación, Acción, Drama",
+      "sinopsis": "Después de que su ciudad natal es destruida y su madre asesinada, Eren Jaeger jura limpiar la Tierra de los gigantes humanoides que han llevado a la humanidad al borde de la extinción.",
+      "poster": "https://image.tmdb.org/t/p/w500/d7e0R9qD4zJ4rXgP618Vw5Hh2c.jpg",
+      "posterPortrait": "https://image.tmdb.org/t/p/w500/d7e0R9qD4zJ4rXgP618Vw5Hh2c.jpg",
+      "temporadas": [
+        { "numero": 1, "capitulos": [{ "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4" }] },
+        { "numero": 2, "capitulos": [{ "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_2mb.mp4" }] }
+      ]
+    },
+    {
+      "titulo": "Arcane",
+      "genero": "Animación, Acción, Aventura",
+      "sinopsis": "En medio del conflicto entre las ciudades gemelas de Piltover y Zaun, dos hermanas luchan en lados opuestos de una guerra de ideologías y tecnologías.",
+      "poster": "https://image.tmdb.org/t/p/w500/f8F3Yn1wHqT5n7W6sWp9mQ3tQ1.jpg",
+      "posterPortrait": "https://image.tmdb.org/t/p/w500/f8F3Yn1wHqT5n7W6sWp9mQ3tQ1.jpg",
+      "temporadas": [
+        { "numero": 1, "capitulos": [{ "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4" }] }
+      ]
+    },
+    {
+      "titulo": "The Queen's Gambit",
+      "genero": "Drama",
+      "sinopsis": "En un orfanato de mediados del siglo XX, una joven prodigio del ajedrez cultiva una increíble habilidad mientras lucha contra la adicción.",
+      "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4", // Placeholder URL
+      "poster": "https://image.tmdb.org/t/p/w500/zU0htwkhNvSyWPQf1C8oX4LSDPH.jpg",
+      "posterPortrait": "https://image.tmdb.org/t/p/w500/zU0htwkhNvSyWPQf1C8oX4LSDPH.jpg",
+      "temporadas": [
+        { "numero": 1, "capitulos": [{ "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4" }] }
+      ]
+    }
+  ]
+};
