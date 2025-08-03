@@ -1,253 +1,698 @@
-  "peliculas": [
+[
+  {
+    "title": "Your Name",
+    "description": "Una conmovedora historia de dos almas que se encuentran a través del tiempo y el espacio.",
+    "coverImage": "https://imgsrv.crunchyroll.com/cdn-cgi/image/format=auto,fit=contain,width=480,height=720,quality=85/catalog/crunchyroll/c9947dfac4b57728c3c7eb81ed77ac09.jpe",
+    "genre": ["Película"],
+    "video_url": "https://drive.google.com/file/d/1gaUi61dQShlonGcXbdSgZ56ECel3JtTy/preview"
+  },
+  {
+    "title": "Dragon Ball Z El Ataque del Dragons",
+    "description": "Los Guerreros Z usan las esferas del dragón para abrir una vieja caja de la que sale un joven llamado Tapion... que reclama que lo devuelvan a la caja o si no la tierra será destruida",
+    "coverImage": "https://pics.filmaffinity.com/Dragon_Ball_Z_El_ataque_del_dragaon-742764500-large.jpg",
+    "genre": ["Película"],
+    "video_url": "https://drive.google.com/file/d/1uD7VQW0fYOb-opv-_JWQ50psUyuoe0LQ/preview"
+  },
+{
+  "title": "Huntik Secretos y Buscadores - Temporada 1",
+  "description": "Huntik es una serie de aventura de acción y drama sobre un grupo de buscadores que viajan por todo el mundo en busca de amuletos antiguos que pueden invocar diferentes tipos de titanes.",
+  "coverImage": "https://m.media-amazon.com/images/M/MV5BZjZiMDczZjEtNTAzNS00ZjI0LWEyNjktYjYyZDNkNmQ1MmU0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  "genre": ["Serie", "Temporada 1"],
+  "episodeWallpaper": "https://www.1zoom.me/big2/94/223136-aliya06.jpg",
+  "episodes": [
+    { "video_url": "https://mega.nz/embed/wq8hjR4L#Ojdjfhj3ipy487OWe6UVHtp1aHAsoRIBU15Ztk1wias", "description": "Lok encuentra el diario de su padre y un amuleto." },
+    { "video_url": "https://mega.nz/embed/028lQYqT#NqVn0AouFeMwbphI73frLrGdCHSAotafhb-pqKGJ2O0", "description": "Sophie revela su conexión con los Buscadores." },
+    { "video_url": "https://mega.nz/embed/orEkWTSL#7mHae5v0cy4fcYouWqO9-gjRjeaI8BgC1PuyljcYYw0", "description": "Aprenden a invocar Titanes." },
+    { "video_url": "https://mega.nz/embed/Fv9xkJCZ#oBM5Pp4EBdEzURQAJbRbmLo-kp65hhkVvNLt38YlpZs", "description": "Zhalia se une al grupo con intenciones dudosas." },
+    { "video_url": "https://mega.nz/embed/0y9yyRYC#KvWkMsmTHI6SJrJZV4tBj9DrtRCjnezUEksjEKuaUmY", "description": "Viajan a las ruinas de la Atlántida." },
+    { "video_url": "https://mega.nz/embed/w79zjQzI#UlmKkfiaqJr-lAcWFA92NFy5Eb3RcR8UoeUOCUXpAtk", "description": "Buscan un poderoso Titán." },
+    { "video_url": "https://mega.nz/embed/U30g1SBJ#yzwEyTNNpIEpIalhFCCXRuerWFvBsn5wjGS2j2N9d5Y", "description": "Viajan a las montañas heladas." },
+    { "video_url": "https://mega.nz/embed/s6lQXB7R#3GPui9bEUNffAYigIl610MAwnjDK62RoSjkv3orI9Tk", "description": "Enfrentan peligros en Egipto." },
+    { "video_url": "https://mega.nz/embed/hu0HnSKQ#hoFpkpZrDbxAktnoamS_SiEuxZvmMY0cCVeYejXviNE", "description": "Prueban su lealtad al equipo." },
+    { "video_url": "https://mega.nz/embed/1qVh3aJT#sdRG9ukHVD3BBU1qamsatqSLxwkqVTXXzfA0m9EL1qM", "description": "Un enemigo ataca desde las sombras." },
+    { "video_url": "https://mega.nz/embed/oykgGAAL#WA11A4amCVA4syJAls2bfPcMqZQnwQJaeyM5JEq4U2E", "description": "Viajan a Grecia siguiendo al Argo." },
+    { "video_url": "https://mega.nz/embed/0v9zATjJ#GmZExxcuk532GOXBUlTXf7TLvOSZqNqzg7k6Po93l9o", "description": "Grier busca detener la guerra." },
+    { "video_url": "https://mega.nz/embed/Q6V0ERjY#a6FijiBXqF2eChv-5K698Z7SGFXEfuG9Bn2GuM4HZpE", "description": "Lok visita a su madre y oculta su misión." },
+    { "video_url": "https://mega.nz/embed/suMgSZhC#ZyO_TNHgO_vGrWA0Bc455dzYuW8LJUq8_CEGEpbrCEQ", "description": "Sophie busca financiación para seguir la búsqueda." },
+    { "video_url": "https://mega.nz/embed/gq9HgToJ#dikge1BcJhLGU5VXmK27_AD1Y1EA4d6HwqHauMFgDKE", "description": "Exploran la tumba de Nefertiti; Zhalia traiciona." },
+    { "video_url": "https://mega.nz/embed/17V0iBqS#RKSkpvAuVYLb1lTsRahGg8G_nHsQavywy2pw--GVwaE", "description": "Encuentran una librería misteriosa." },
+    { "video_url": "https://mega.nz/embed/cmlGFCaY#hKxj4dWhT6Ug5oN8cfS8CU0S9KZEjCtd4cWHS-SnzmM", "description": "Zhalia enfrenta su pasado en Transilvania." },
+    { "video_url": "https://mega.nz/embed/A7M03ToJ#CD6o1p_-t2Jt0uC13-c8bnsyQYnf8Cmd85jXQAOJEZg", "description": "Buscan a Lancelot en París." },
+    { "video_url": "https://mega.nz/embed/xzURhQRA#5udzsxkBcuG0gZOWBdFhVdtYDABe5MZfwBNJwUl5mak", "description": "Rescatan a un amigo en la Amazonía." },
+    { "video_url": "https://mega.nz/embed/B7MmyJxI#ZcjBTrVF_j4KR1aqw6Oqrg09IqeiIsDwdBH29yrxJF8", "description": "Se enfrentan a la Organización por Behemoth." },
+    { "video_url": "https://mega.nz/embed/NrVmBTiT#garxW1L2yxUUUSGAZVtuSC4Fa-705gTGvgIxjfljv2o", "description": "Pruebas para llegar al Amuleto de la Voluntad." },
+    { "video_url": "https://mega.nz/embed/Rml31QRK#6iSIcIlPKuf-ObzPTraTqnis39pikeiUD3UlggCCGbo", "description": "Continúan la búsqueda del amuleto." },
+    { "video_url": "https://mega.nz/embed/IuVinLgT#PriOa2vVRTYOyPD0hYVv8F6OHMWnT5fsCK5TWMIh5FY", "description": "Se alían con Montehue en las minas." },
+    { "video_url": "https://mega.nz/embed/ViEQ2TbS#bB5DdCbt65nBu5ig1Ud5Fg0sU3nkzgQ9SZKEKGrjc1s", "description": "Revelan secretos de la Organización y un Titán." },
+    { "video_url": "https://mega.nz/embed/c6EznK5A#mxmDicttoVS0IleFrJLbaouU03Iq7UPQ0H3JHPEdVsY", "description": "El Profesor roba el amuleto y el diario." },
+    { "video_url": "https://mega.nz/embed/B2NXnbAQ#5Ir3v6WC-FPLC-2Tli16B7I5h9qQQ1Q9k1oxHvyMD8s", "description": "Combate final contra la Organización." }
+  ]
+},
+
+
+  {
+    "title": "La Telaraña De Charlotte 2 La Gran De Wilbur",
+    "description": "Wilbur el Cerdito sabe lo importante que es la amistad, una lección que aprendió de la araña Charlotte. Asi que cuando conoce a Cardigan, un cordero solitario, enseguida se hace su amigo. Wilbur enseña a Cardigan todas las maravillas de la vida en la granja y le presenta a 3 arañas muy especiales -Nellie, Aranea y Joy - las hijas de Charlotte. Cuando el granjero Zuckerman vende a Cardigan a otra granja, enseguida sabe lo que tiene que hacer. Acompañados de la ingeniosa rata Templeton, Wilbur y las 3 hijas de Charlotte emprenden un viaje inolvidable para encontrar a Cardigan, durante el cual descubrirán que con valor, coraje y el amor de los amigos se puede conseguir prácticamente de todo",
+    "coverImage": "https://www.lavanguardia.com/peliculas-series/images/movie/poster/2003/3/w1280/xpmo49PpzQBVgEata6GZy7Ae8cy.jpg",
+    "genre": ["Película"],
+    "video_url": "https://drive.google.com/file/d/1Fu0kUACs54itWHwx2edm7W7MMvoeqXPs/preview"
+  },
+  {
+    "title": "Antz (Hormigaz)",
+    "description": "Z-4196 es tan sólo una neurótica hormiga obrera macho, una más entre sus millones de hermanas. Después de bailar con la princesa Bala, se enamora de ella, pero se trata de un amor imposible. Convence, sin embargo, a un amigo para que le ceda su puesto en un desfile militar para poder estar cerca de la princesa. La excavación de un nuevo túnel es supervisada por el general Mandible, una hormiga ambiciosa que convence a la reina de la necesidad de enviar al batallón del hormiguero a la guerra contra las termitas. Y en ese batallón se encuentra el asustadizo y cobarde",
+    "coverImage": "https://m.media-amazon.com/images/S/pv-target-images/dd82baf735ca2a19d2b9bfd6e98248646df56239fa5789c1508564b7a2c7d3a9.jpg",
+    "genre": ["Película"],
+    "video_url": "https://drive.google.com/file/d/1QXL-Xv052eCfkC4XMY-nO6tE5dVr5jL0/preview"
+  },
+  {
+    "title": "El Dorado",
+    "description": "Dos pícaros españoles se topan con un mapa del tesoro de El Dorado y se embarcan como polizones en uno de los barcos de Cortez. Cuando encuentra la ciudad, el principal sacerdote los proclama dioses dentro de un elaborado plan para hacer con el control de la ciudad. Allí conocerán también a una bella joven que les ayudará a mantener las apariencias.",
+    "coverImage": "https://m.media-amazon.com/images/S/pv-target-images/dd0534126bd6c862015e2f4312f0122d1fd6db513390695d30e229053cd591ad.jpg",
+    "genre": ["Película"],
+    "video_url": "https://drive.google.com/file/d/1Qf67aXmfcoPeoSEBkgPkELHGtJBkFZW1/preview"
+  },
+  {
+    "title": "Hotel Transylvania",
+    "description": "Desde su nacimiento, Mavis vive en el lujoso hotel Transylvania, que fue creado para proteger a los monstruos de la amenaza de los seres humanos. Cuando Mavis está a punto de cumplir la mayoría de edad (118 años), su padre, el conde Drácula, le prepara una fiesta a la que acuden los mejores amigos de la familia: desde Frankenstein al Hombre Invisible o la Momia; pero también asiste a la celebración un hombre que se enamora de Mavis",
+    "coverImage": "https://pics.filmaffinity.com/hotel_transylvania-382209595-mmed.jpg",
+    "genre": ["Película"],
+    "video_url": "https://drive.google.com/file/d/1pDiFBrS-rRlwy_HvpXVgKjnJ0oSkqBFU/preview"
+  },
+  {
+    "title": "Los pitufos La aldea escondida",
+    "description": "Pitufina y sus hermanos practican senderismo por el desconocido Bosque Encantado tratando de encontrar un legendario pueblo para los Pitufos. Deben hacerlo antes de que su némesis, el malvado mago Gargamel, lo haga. Durante el camino, algunos de los misterios de los Pitufos empiezan a salir a la luz.",
+    "coverImage": "https://pics.filmaffinity.com/smurfs_the_lost_village-621707823-mmed.jpg",
+    "genre": ["Película"],
+    "video_url": "https://drive.google.com/file/d/1KVEDfXu3K77I3PkaTT2MZrPcBRM2jCiM/preview"
+  },
+  {
+    "title": "Spider-Man (2002)",
+    "description": "Tras la muerte de sus padres, Peter Parker, un tímido estudiante, vive con su tía May y su tío Ben. Precisamente debido a su retraimiento no es un chico muy popular en el instituto. Un día le muerde una araña que ha sido modificada genéticamente; a la mañana siguiente, descubre estupefacto que posee la fuerza y la agilidad de ese insecto. Las aventuras del hombre araña se basan en el famoso cómic de Stan Lee y Steve Ditko.",
+    "coverImage": "https://pics.filmaffinity.com/spider_man_spiderman-945131720-mmed.jpg",
+    "genre": ["Película"],
+    "video_url": "https://drive.google.com/file/d/0ByibEzjq_Q9Lb3pKamk2am1aOG8/preview?resourcekey=0-gVbMTU_tmudnIx_ZQyinpg"
+  },
+  {
+    "title": "Spider-Man 2 (2004)",
+    "description": "Como si Peter Parker no tuviera suficiente con sus propios problemas, estudios y su amor por Mary Jane, ahora tiene que salvar a la ciudad de un nuevo villano, el Doctor Octopus.",
+    "coverImage": "https://pics.filmaffinity.com/spider_man_2-876729560-mmed.jpg",
+    "genre": ["Película"],
+    "video_url": "https://drive.google.com/file/d/0ByibEzjq_Q9LVGlWa3hOS2s3Zlk/preview?t=470&resourcekey=0-QajRsokeGBjDoySWOX6USw"
+  },
+  {
+    "title": "Spider-Man 3 (2007)",
+    "description": "Peter Parker sufre una terrible transformación cuando su traje se vuelve negro y libera su personalidad oscura y vengativa. Afrontará el mayor desafío de su vida al tener que redescubrir la humildad y compasión que lo hacen ser quien es: un héroe.",
+    "coverImage": "https://es.web.img2.acsta.net/medias/nmedia/18/67/67/65/20054918.jpg",
+    "genre": ["Película"],
+    "video_url": "https://drive.google.com/file/d/17IzoyitCWZXyNX58bSnPdhdD4z9okfPK/preview"
+  },
+{
+  "title": "Tekken Linaje",
+  "description": "La historia gira en torno a Jin Kazama, que ha aprendido las artes familiares de defensa personal, las artes marciales tradicionales estilo Kazama, gracias a su madre.",
+  "coverImage": "https://pics.filmaffinity.com/Tekken_Linaje_Miniserie_de_TV-622889422-large.jpg",
+  "genre": ["Serie"],
+  "episodeWallpaper": "https://occ-0-8407-90.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABXNgEF5hADt_u_UHN4oVHjQ4Xtt1nTM0bcZ96trdiUDXh1fNKN9j-aJMX1_EZ7tyy_zjcJzVs058Hz_gtY8INDFut9vtZs1zFEku.jpg?r=8cb",
+  "episodes": [
+    { "video_url": "https://drive.google.com/file/d/1Q7_Xgfep8sbyOChczVcjJ3QmggI0n05H/preview?t=1", "description": "Tras una tragedia personal, Jin Kazama comienza su entrenamiento intensivo con su madre." },
+    { "video_url": "https://drive.google.com/file/d/1l_P_tXDWc1Lhy9ivtr2pKcBT4nRDmqEt/preview", "description": "Jin busca respuestas sobre su linaje mientras el peligro acecha desde las sombras." },
+    { "video_url": "https://drive.google.com/file/d/1W6neswUuZVeXfqnjHMW6_A4PjyKp4kCQ/preview", "description": "Un encuentro inesperado lo lleva hasta Heihachi Mishima y los oscuros secretos de su familia." },
+    { "video_url": "https://drive.google.com/file/d/1f8na15m7450NEfHPv-mY54IXqIkgJajB/preview", "description": "Bajo la tutela de Heihachi, Jin se entrena para controlar la rabia que crece dentro de él." },
+    { "video_url": "https://drive.google.com/file/d/13G8ZzlSZyJixuJuUz-pkmIvL5qea5Siz/preview", "description": "El Torneo del Rey del Puño de Hierro comienza y Jin se enfrenta a poderosos rivales." },
+    { "video_url": "https://drive.google.com/file/d/15SDtkhoDZJiO0K6xrOzbuBxH5lyh59xw/preview?t=1", "description": "La verdad sale a la luz y Jin debe tomar una decisión que definirá su destino y el de su familia." }
+  ]
+},
+
+
     {
-      "titulo": "Big Buck Bunny",
-      "genero": "Animación",
-      "sinopsis": "Un conejo gigante defiende el bosque.",
-      "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4",
-      "poster": "https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217",
-      "posterPortrait": "https://i.pinimg.com/originals/a7/9d/b1/a79db1c52136018c1ed788f553f4d6d6.jpg" // Example portrait poster
+    "title": "El Señor de los Anillos: la Comunidad del Anillo",
+    "description": "En la Tierra Media, el Señor Oscuro Sauron ordenó a los Elfos que forjaran los Grandes Anillos de Poder. Tres para los reyes Elfos, siete para los Señores Enanos, y nueve para los Hombres Mortales. Pero Saurón también forjó, en secreto, el Anillo Único, que tiene el poder de esclavizar toda la Tierra Media. Con la ayuda de sus amigos y de valientes aliados, el joven hobbit Frodo emprende un peligroso viaje con la misión de destruir el Anillo Único. Pero el malvado Sauron ordena la persecución del grupo, compuesto por Frodo y sus leales amigos hobbits, un mago, un hombre, un elfo y un enano. La misión es casi suicida pero necesaria, pues si Sauron con su ejército de orcos lograra recuperar el Anillo, sería el final de la Tierra Media.",
+    "coverImage": "https://es.web.img2.acsta.net/c_310_420/medias/nmedia/18/89/67/45/20061512.jpg",
+    "genre": ["Película"],
+    "video_url": "https://drive.google.com/file/d/0B7ovj3Exa2bdZnZHaTh1dk5reXc/preview?resourcekey=0-6TeC0rqrXh3eIwp805PLuA"
+  },
+
+
+  
+ {
+  "title": "Huntik Secretos y Buscadores - Temporada 2",
+  "description": "Huntik es una serie de aventura de acción y drama sobre un grupo de buscadores que viajan por todo el mundo en busca de amuletos antiguos que pueden invocar diferentes tipos de titanes.",
+  "coverImage": "https://cdn.flixboss.com/80020971/posters/AAAABWsPoUKNmhBCbgEj_Yes5BO7u7xmiOi6e6-3OPiFwE4DcLiRztnMkltvLy151xFml8MqhjKBp0RBH8plOIMUZF5Fog.jpg",
+  "genre": ["Serie", "Temporada 2"],
+  "episodeWallpaper": "https://cdn.flixboss.com/80020971/backdrops/large/6779c88e2a962212b94f18c9e5d6544f2d8f97a9.jpg",
+  "episodes": [
+    { "video_url": "https://mega.nz/embed/Ui1niKRK#Im-DQjmIYkewcSq5clxu1lzErzNbGeF2oWet4wT_x4k", "description": "Lok y Dante regresan con nuevas misiones tras los eventos de la primera temporada." },
+    { "video_url": "https://mega.nz/embed/d7NEkBjZ#Z4_m7i_O5K0YC3wL3hEnsM22LcuJzN1djs7PksvJGVo", "description": "El equipo investiga un antiguo templo donde se ocultan secretos de los Casterwill." },
+    { "video_url": "https://mega.nz/embed/A2VyFRrY#ub1PU0vL7qmtFTKsEBXjLCzok0Cf8G-qNUBMuuyFpQs", "description": "Sophie recibe una misteriosa visión que guía al equipo hacia una nueva búsqueda." },
+    { "video_url": "https://mega.nz/embed/9udl2KIL#aEImibQM32Sl46xrSOC61PlzGdVbpmSakl1c2DoHLeI", "description": "Zhalia se enfrenta a su pasado mientras una sombra amenaza desde la oscuridad." },
+    { "video_url": "https://mega.nz/embed/dz0nTbgJ#X9gkVw5jylqeHPzpMBJi3abex-Dq-P0YwQQwoGNohsc", "description": "Un nuevo titán es despertado por accidente, causando caos en la ciudad." },
+    { "video_url": "https://mega.nz/embed/JrlDjIDJ#_eLM_8licY1jrmbLD2IhxT--BRiwB0UPANXXg3Z-CAo", "description": "Lok descubre un mensaje oculto de su padre que lo conduce a un amuleto perdido." },
+    { "video_url": "https://mega.nz/embed/s3dBSIxZ#zUrczQtBZHrru3Pj8ugn-odglA7cUUOG9-7ubGvACH0", "description": "La Fundación se infiltra en una ruina sagrada; los buscadores deben detenerlos." },
+    { "video_url": "https://mega.nz/embed/dic2yTAa#YsvhqFgyxFuwn2rAkMXtOqCZrvOq12BCcf2bzg60ozE", "description": "Una traición sacude al equipo mientras un enemigo inesperado revela su rostro." },
+    { "video_url": "https://mega.nz/embed/16ETiI7K#PlxQJ__ty5ZG56Kb0DyALBJYWL1sEPKK9dMVagMqP6U", "description": "El equipo debe trabajar con un antiguo rival para detener una catástrofe inminente." },
+    { "video_url": "https://mega.nz/embed/lqshyI6D#bOqbUnw_CaSYSW2HW3MwhjAm6XApZ1WKrvX_c9dXQL4", "description": "Zhalia lucha por controlar un titán salvaje que pone en riesgo su vida." },
+    { "video_url": "https://mega.nz/embed/oqVlWB7T#6gMHMrkVvn-hFTZT4I8uktkbvJh1MAOSrSU4K3J_prA", "description": "Una carrera contra el tiempo para salvar a un titán corrompido por energía oscura." },
+    { "video_url": "https://mega.nz/embed/0uNFyR5S#0_WBuANqg9PodcEnRQC0AfxfuhyLpxCIc-WKEBcUWD4", "description": "Dante revela una verdad oculta sobre los orígenes de los buscadores." },
+    { "video_url": "https://mega.nz/embed/x3cCTYKb#Qj0vfAusWQ5YTZPAqFdRUZl8iuH34JJ-_Vj_5v5iHo4", "description": "Sophie y Lok quedan atrapados en una dimensión alternativa con versiones distorsionadas de sus titanes." },
+    { "video_url": "https://mega.nz/embed/IvlymDTI#fbRgRtheIgDalatQG7ZUVmbk5PmM1lTCXwn-0hWyvYY", "description": "El regreso de un antiguo enemigo pone en peligro la estabilidad de los amuletos." },
+    { "video_url": "https://mega.nz/embed/dmkDTCQI#yFNMWzZVWobMRZrCDic_p5p25x5mKybyoHjIT7EyuCs", "description": "Una misión en Egipto desentierra secretos que podrían cambiar el futuro de la Fundación." },
+    { "video_url": "https://mega.nz/embed/Vi8xESRI#dtyAHAUAJbJPzfBl5qefRmaO3w3cM5mzuRg2TPYkicA", "description": "Lok debe tomar una decisión que definirá su destino como buscador." },
+    { "video_url": "https://mega.nz/embed/NykEDLCD#gTgf-P1HKneI0gTvxuLumzZk5fOmshigeKBTUypNB1s", "description": "Una reliquia ancestral despierta un poder que ni siquiera Dante puede controlar." },
+    { "video_url": "https://mega.nz/embed/l3MHBDSa#ltjDchHATY4EVu3hmiWvhYa6Bj_l8W5gCXFxJwUhK4U", "description": "Los buscadores son traicionados desde dentro; el equilibrio del mundo está en juego." },
+    { "video_url": "https://mega.nz/embed/46FRmBrQ#vP0rC8zYN6dcEhat9RvmSZODN4TtnHmUSXqOFxlcnZs", "description": "Zhalia se enfrenta a su prueba más dura en un combate sin reglas." },
+    { "video_url": "https://mega.nz/embed/cjFWjLyb#i20PcU17ewkD-KyjAFBrYyzA37CW3uB7bQyFIUrGwik", "description": "Una revelación sobre el linaje de Lok cambia el curso de la guerra contra la Fundación." },
+    { "video_url": "https://mega.nz/embed/wvtSkCiR#GHPyK5R-dPDINTiIFV8Q6QkVfdURe_r2NlnWhf8zvyE", "description": "Sophie recupera un amuleto legendario, pero su uso tiene consecuencias oscuras." },
+    { "video_url": "https://mega.nz/embed/kmVnRaqY#LlFyXjb2ZxMj-KPRVHfT8Rwf4jEON7em2d2cnOO", "description": "Una alianza inesperada da al equipo la ventaja que necesitan para la batalla final." },
+    { "video_url": "https://mega.nz/embed/Yu0mjRBS#s9_dljl1veLxd4svbfrPXHbb3KOXISNDTcNnRY7lGtA", "description": "El titán perdido de los Casterwill resurge del abismo con intenciones inciertas." },
+    { "video_url": "https://mega.nz/embed/Aq1iAZTa#I1RR6GiVsV_0skj9eyQ1ad2p4ZRFp-q1OZpT24bK91Y", "description": "Los buscadores reúnen sus fuerzas para enfrentar la amenaza final." },
+    { "video_url": "https://mega.nz/embed/o7lRzLbI#UrdCLHMOUPqbf53nmGoAiGns0K0E8vEn5gSQJYt8T8A", "description": "La batalla culminante define el futuro del mundo de los buscadores." },
+    { "video_url": "https://mega.nz/embed/I2tDUIoI#5DiSvRoibFhpsOWVsau6mACpRzIN0flwpi8yaAJKsgM", "description": "Con la Fundación derrotada, Lok y su equipo miran hacia un nuevo comienzo." }
+  ]
+},
+
+
+{
+  "title": "Hazbin Hotel",
+  "description": "Hazbin Hotel es una serie animada de comedia musical para adultos que sigue a Charlie, la princesa del Infierno, quien intenta redimir a los pecadores y abrir un hotel de rehabilitación para que consigan la redención y puedan ir al Cielo.",
+  "coverImage": "https://m.media-amazon.com/images/M/MV5BNjU0M2Y0YmItMTBlMi00NTlhLThlZmItMDkzNzIzNGI1OWM4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  "genre": ["Serie", "Animación", "Comedia", "Musical", "Adultos"],
+  "episodeWallpaper": "https://elrefugiodelpirata.com/wp-content/uploads/2024/02/AvsNXUbP7UKCVnypyx2eWp8z2N3.jpg.webp",
+  "episodes": [
+    {
+      "video_url": "https://mega.nz/embed/5jsCgSpB#xofC-cWlRSn451Jh8EQ2sACS4x45s313Vw8UzaguPdw",
+      "description": "Charlie presenta su idea de redimir a los demonios mediante un hotel, enfrentando escepticismo y desafíos iniciales."
     },
     {
-      "titulo": "Sintel",
-      "genero": "Animación, Fantasía",
-      "sinopsis": "Una joven busca a su dragón perdido.",
-      "url": "https://media.w3.org/2010/05/sintel/trailer.mp4",
-      "poster": "https://media.w3.org/2010/05/sintel/poster.png",
-      "posterPortrait": "https://static.tvtropes.org/pmwiki/pub/images/sintel_poster_small_9666.jpg" // Example portrait poster
+      "video_url": "https://mega.nz/embed/trMR1AjQ#SW0UgXShWUWPj_17d8VNwGMYZ4qZczH1jrfDBUljQ_I",
+      "description": "El hotel enfrenta su primera gran prueba cuando un demonio poderoso pone en duda la viabilidad del proyecto de Charlie."
     },
     {
-      "titulo": "Tears of Steel",
-      "genero": "Ciencia Ficción",
-      "sinopsis": "Un grupo intenta revivir un pasado.",
-      "url": "https://download.blender.org/mango/tears_of_steel_720p.mp4",
-      "poster": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Tears_of_Steel_screenshot_1.jpg/640px-Tears_of_Steel_screenshot_1.jpg",
-      "posterPortrait": "https://m.media-amazon.com/images/M/MV5BMjA1OTY0NTA0OF5BMl5BanBnXkFtZTcwNTg5Njk4OA@@._V1_.jpg" // Example portrait poster
+      "video_url": "https://mega.nz/embed/s7NVlBpZ#dFUflLQS-DCpwrWER0PoOT27kDNAvqsh1EvaEEYs-lw",
+      "description": "Se revelan secretos del pasado de algunos personajes, complicando las relaciones dentro del hotel."
     },
     {
-      "titulo": "Spider-Man: Into the Spider-Verse",
-      "genero": "Animación, Aventura, Acción",
-      "sinopsis": "Miles Morales se convierte en Spider-Man y se une a otros Spider-People de diferentes dimensiones para salvar toda la realidad.",
-      "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4", // Placeholder URL
-      "poster": "https://image.tmdb.org/t/p/w500/iiZZdoQBWMUad6z3J7C0YqA6pQ.jpg",
-      "posterPortrait": "https://image.tmdb.org/t/p/w500/iiZZdoQBWMUad6z3J7C0YqA6pQ.jpg"
+      "video_url": "https://mega.nz/embed/8uFmAA6a#fEE9-k7xa1qNF3-UmSwbTI9RA03ndL9zc-vHauF1538",
+      "description": "Una fiesta en el hotel se convierte en caos cuando antiguos enemigos resurgen, poniendo en peligro la estabilidad del lugar."
     },
     {
-      "titulo": "Your Name",
-      "genero": "Animación, Romance, Drama",
-      "sinopsis": "Dos adolescentes, un chico de Tokio y una chica de un pueblo rural, descubren que están cambiando de cuerpo.",
-      "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4", // Placeholder URL
-      "poster": "https://image.tmdb.org/t/p/w500/q719jXXEzOoYAD9kOaznpkyuDf2.jpg",
-      "posterPortrait": "https://image.tmdb.org/t/p/w500/q719jXXEzOoYAD9kOaznpkyuDf2.jpg"
+      "video_url": "https://mega.nz/embed/QuMXSahB#GuC2z1wsJ9LHLs6F2kj9Q1YppfF5T3Oc2oLJQlSKsrc",
+      "description": "Charlie enfrenta conflictos familiares que amenazan con desestabilizar su misión de redención."
     },
     {
-      "titulo": "El Viaje de Chihiro",
-      "genero": "Animación, Fantasía",
-      "sinopsis": "Una niña se adentra en el mundo de los espíritus para salvar a sus padres.",
-      "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4", // Placeholder URL
-      "poster": "https://image.tmdb.org/t/p/w500/3oTIEgH7p6VzYk7fK4X9XlJgJ2.jpg",
-      "posterPortrait": "https://image.tmdb.org/t/p/w500/3oTIEgH7p6VzYk7fK4X9XlJgJ2.jpg"
+      "video_url": "https://mega.nz/embed/By8jTTBL#cmH1F8MB3BFIY9Ayi7fgORsqz8DpjCSW7HL8dyG0TqE",
+      "description": "Una visita al Cielo revela tensiones entre los reinos y desafíos inesperados para el equipo del hotel."
     },
     {
-      "titulo": "Forrest Gump",
-      "genero": "Drama, Romance",
-      "sinopsis": "La vida de un hombre simple que experimenta varios eventos históricos.",
-      "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4", // Placeholder URL
-      "poster": "https://image.tmdb.org/t/p/w500/saHp97yS9Yg1lB7Xg0t8oX59z0t.jpg",
-      "posterPortrait": "https://image.tmdb.org/t/p/w500/saHp97yS9Yg1lB7Xg0t8oX59z0t.jpg"
+      "video_url": "https://mega.nz/embed/RvUxxQaA#gKMzcJnRmfrzXmRVr3N9c5XRwi7FF8hWciWLW0-_zhc",
+      "description": "Nuevas alianzas se forman mientras el hotel se prepara para enfrentar una amenaza inminente."
     },
     {
-      "titulo": "Interstellar",
-      "genero": "Ciencia Ficción, Aventura, Drama",
-      "sinopsis": "Un equipo de exploradores viaja a través de un agujero de gusano en el espacio en un intento de asegurar la supervivencia de la humanidad.",
-      "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4", // Placeholder URL
-      "poster": "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6rjQnsYpGZxGj.jpg",
-      "posterPortrait": "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6rjQnsYpGZxGj.jpg"
-    },
-    {
-      "titulo": "Parásitos",
-      "genero": "Comedia, Drama, Suspense",
-      "sinopsis": "La familia de los Kim, pobre, planea un esquema para convertirse en empleados de la rica familia de los Park.",
-      "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4", // Placeholder URL
-      "poster": "https://image.tmdb.org/t/p/w500/7RV34zQv15V7s43zQjC2P0qG3.jpg",
-      "posterPortrait": "https://image.tmdb.org/t/p/w500/7RV34zQv15V7s43zQjC2P0qG3.jpg"
-    },
-    {
-      "titulo": "La La Land",
-      "genero": "Musical, Drama, Romance",
-      "sinopsis": "Una aspirante a actriz y un músico de jazz se enamoran en Los Ángeles.",
-      "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4", // Placeholder URL
-      "poster": "https://image.tmdb.org/t/p/w500/uO0Jd1V5S07v3Tz6TfT5S6uP3Kk.jpg",
-      "posterPortrait": "https://image.tmdb.org/t/p/w500/uO0Jd1V5S07v3Tz6TfT5S6uP3Kk.jpg"
-    },
-    {
-      "titulo": "Joker",
-      "genero": "Crimen, Drama, Thriller",
-      "sinopsis": "Arthur Fleck, un comediante fallido, se embarca en un camino de revolución y crimen en Gotham City.",
-      "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4", // Placeholder URL
-      "poster": "https://image.tmdb.org/t/p/w500/udDclJoHjfjb8JptgfdBOg82KFK.jpg",
-      "posterPortrait": "https://image.tmdb.org/t/p/w500/udDclJoHjfjb8JptgfdBOg82KFK.jpg"
-    },
-    {
-      "titulo": "Origen",
-      "genero": "Ciencia Ficción, Acción, Aventura",
-      "sinopsis": "Un ladrón que roba información corporativa a través de la tecnología de sueños compartidos recibe la tarea inversa de implantar una idea en la mente de un director ejecutivo.",
-      "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4", // Placeholder URL
-      "poster": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7EO0t5HTs.jpg",
-      "posterPortrait": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7EO0t5HTs.jpg"
-    }
-  ],
-  "series": [
-    {
-      "titulo": "Big Buck Bunny Serie",
-      "genero": "Animación",
-      "sinopsis": "Aventuras del conejo gigante.",
-      "poster": "https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217",
-      "posterPortrait": "https://i.pinimg.com/originals/a7/9d/b1/a79db1c52136018c1ed788f553f4d6d6.jpg", // Example portrait poster
-      "temporadas": [
-        {
-          "numero": 1,
-          "capitulos": [
-            { "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4" },
-            { "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_2mb.mp4" },
-            { "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_5mb.mp4" }
-          ]
-        },
-        {
-          "numero": 2,
-          "capitulos": [
-            { "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_5mb.mp4" },
-            { "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4" }
-          ]
-        }
-      ]
-    },
-    {
-      "titulo": "Sintel: El Viaje",
-      "genero": "Animación, Fantasía",
-      "sinopsis": "Expansión del universo de Sintel.",
-      "poster": "https://media.w3.org/2010/05/sintel/poster.png",
-      "posterPortrait": "https://static.tvtropes.org/pmwiki/pub/images/sintel_poster_small_9666.jpg", // Example portrait poster
-      "temporadas": [
-        {
-          "numero": 1,
-          "capitulos": [
-            { "url": "https://media.w3.org/2010/05/sintel/trailer.mp4" },
-            { "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4" }
-          ]
-        }
-      ]
-    },
-    {
-      "titulo": "Stranger Things",
-      "genero": "Ciencia Ficción, Drama, Terror",
-      "sinopsis": "Cuando un niño desaparece, sus amigos, la familia y la policía se ven envueltos en un misterio extraordinario que involucra experimentos secretos del gobierno, fuerzas sobrenaturales aterradoras y una niña muy extraña.",
-      "poster": "https://image.tmdb.org/t/p/w500/x2LSRK2Cm7MZhjluni1msVJ3Nnw.jpg",
-      "posterPortrait": "https://image.tmdb.org/t/p/w500/x2LSRK2Cm7MZhjluni1msVJ3Nnw.jpg",
-      "temporadas": [
-        { "numero": 1, "capitulos": [{ "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4" }] },
-        { "numero": 2, "capitulos": [{ "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_2mb.mp4" }] },
-        { "numero": 3, "capitulos": [{ "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_5mb.mp4" }] }
-      ]
-    },
-    {
-      "titulo": "The Crown",
-      "genero": "Drama, Histórica",
-      "sinopsis": "Sigue la rivalidad política y los romances de la Reina Isabel II, así como los eventos que dieron forma a la segunda mitad del siglo XX.",
-      "poster": "https://image.tmdb.org/t/p/w500/sT9Zp27V4zGf682s7gN1j0bY4zE.jpg",
-      "posterPortrait": "https://image.tmdb.org/t/p/w500/sT9Zp27V4zGf682s7gN1j0bY4zE.jpg",
-      "temporadas": [
-        { "numero": 1, "capitulos": [{ "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4" }] },
-        { "numero": 2, "capitulos": [{ "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_2mb.mp4" }] }
-      ]
-    },
-    {
-      "titulo": "La Casa de Papel",
-      "genero": "Crimen, Drama, Thriller",
-      "sinopsis": "Ocho ladrones toman rehenes y se encierran en la Fábrica Nacional de Moneda y Timbre de España, mientras un genio criminal manipula a la policía para llevar a cabo su plan.",
-      "poster": "https://image.tmdb.org/t/p/w500/wUvS4n2oH9q3pQ0Fk0sJvQJ4c2s.jpg",
-      "posterPortrait": "https://image.tmdb.org/t/p/w500/wUvS4n2oH9q3pQ0Fk0sJvQJ4c2s.jpg",
-      "temporadas": [
-        { "numero": 1, "capitulos": [{ "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4" }] },
-        { "numero": 2, "capitulos": [{ "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_2mb.mp4" }] }
-      ]
-    },
-    {
-      "titulo": "Black Mirror",
-      "genero": "Ciencia Ficción, Drama, Thriller",
-      "sinopsis": "Serie de antología que explora un futuro cercano donde las mayores innovaciones de la humanidad chocan con sus instintos más oscuros.",
-      "poster": "https://image.tmdb.org/t/p/w500/qj8fA18B9fFzN9k13jF9m2F9o9F.jpg",
-      "posterPortrait": "https://image.tmdb.org/t/p/w500/qj8fA18B9fFzN9k13jF9o9F.jpg",
-      "temporadas": [
-        { "numero": 1, "capitulos": [{ "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4" }] },
-        { "numero": 2, "capitulos": [{ "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_2mb.mp4" }] },
-        { "numero": 3, "capitulos": [{ "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_5mb.mp4" }] }
-      ]
-    },
-    {
-      "titulo": "Breaking Bad",
-      "genero": "Crimen, Drama, Thriller",
-      "sinopsis": "Un profesor de química de secundaria que lucha contra el cáncer de pulmón inoperable se asocia con un antiguo alumno para asegurar el futuro de su familia cocinando y vendiendo metanfetamina.",
-      "poster": "https://image.tmdb.org/t/p/w500/gg7D5jB74G3TzRz2536n1YV7xM.jpg",
-      "posterPortrait": "https://image.tmdb.org/t/p/w500/gg7D5jB74G3TzRz2536n1YV7xM.jpg",
-      "temporadas": [
-        { "numero": 1, "capitulos": [{ "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4" }] },
-        { "numero": 2, "capitulos": [{ "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_2mb.mp4" }] },
-        { "numero": 3, "capitulos": [{ "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_5mb.mp4" }] }
-      ]
-    },
-    {
-      "titulo": "Game of Thrones",
-      "genero": "Fantasía, Drama, Aventura",
-      "sinopsis": "Nueve familias nobles luchan por el control de las tierras míticas de Westeros, mientras una antigua amenaza se despierta en el norte y una reina exiliada planea reclamar su trono.",
-      "poster": "https://image.tmdb.org/t/p/w500/u3bZgnGQ9T0SVEsWfCdzK9EaE2N.jpg", // Corrected GoT poster
-      "posterPortrait": "https://image.tmdb.org/t/p/w500/u3bZgnGQ9T0SVEsWfCdzK9EaE2N.jpg", // Corrected GoT poster
-      "temporadas": [
-        { "numero": 1, "capitulos": [{ "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4" }] },
-        { "numero": 2, "capitulos": [{ "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_2mb.mp4" }] }
-      ]
-    },
-    {
-      "titulo": "The Mandalorian",
-      "genero": "Ciencia Ficción, Aventura, Acción",
-      "sinopsis": "Las aventuras de un pistolero solitario en los confines exteriores de la galaxia, lejos de la autoridad de la Nueva República.",
-      "poster": "https://image.tmdb.org/t/p/w500/bZ0R04X3l9hRj1rM4N0Ym1N1X0.jpg",
-      "posterPortrait": "https://image.tmdb.org/t/p/w500/bZ0R04X3l9hRj1rM4N0Ym1N1X0.jpg",
-      "temporadas": [
-        { "numero": 1, "capitulos": [{ "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4" }] },
-        { "numero": 2, "capitulos": [{ "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_2mb.mp4" }] }
-      ]
-    },
-    {
-      "titulo": "Attack on Titan",
-      "genero": "Animación, Acción, Drama",
-      "sinopsis": "Después de que su ciudad natal es destruida y su madre asesinada, Eren Jaeger jura limpiar la Tierra de los gigantes humanoides que han llevado a la humanidad al borde de la extinción.",
-      "poster": "https://image.tmdb.org/t/p/w500/d7e0R9qD4zJ4rXgP618Vw5Hh2c.jpg",
-      "posterPortrait": "https://image.tmdb.org/t/p/w500/d7e0R9qD4zJ4rXgP618Vw5Hh2c.jpg",
-      "temporadas": [
-        { "numero": 1, "capitulos": [{ "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4" }] },
-        { "numero": 2, "capitulos": [{ "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_2mb.mp4" }] }
-      ]
-    },
-    {
-      "titulo": "Arcane",
-      "genero": "Animación, Acción, Aventura",
-      "sinopsis": "En medio del conflicto entre las ciudades gemelas de Piltover y Zaun, dos hermanas luchan en lados opuestos de una guerra de ideologías y tecnologías.",
-      "poster": "https://image.tmdb.org/t/p/w500/f8F3Yn1wHqT5n7W6sWp9mQ3tQ1.jpg",
-      "posterPortrait": "https://image.tmdb.org/t/p/w500/f8F3Yn1wHqT5n7W6sWp9mQ3tQ1.jpg",
-      "temporadas": [
-        { "numero": 1, "capitulos": [{ "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4" }] }
-      ]
-    },
-    {
-      "titulo": "The Queen's Gambit",
-      "genero": "Drama",
-      "sinopsis": "En un orfanato de mediados del siglo XX, una joven prodigio del ajedrez cultiva una increíble habilidad mientras lucha contra la adicción.",
-      "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4", // Placeholder URL
-      "poster": "https://image.tmdb.org/t/p/w500/zU0htwkhNvSyWPQf1C8oX4LSDPH.jpg",
-      "posterPortrait": "https://image.tmdb.org/t/p/w500/zU0htwkhNvSyWPQf1C8oX4LSDPH.jpg",
-      "temporadas": [
-        { "numero": 1, "capitulos": [{ "url": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4" }] }
-      ]
+      "video_url": "https://mega.nz/embed/tuMRVRhR#VPs8hNLHfSn1Ni3i5cy9IY5K2uGPYBWrLG7s5CHwxFs",
+      "description": "El enfrentamiento final pone a prueba la determinación de Charlie y su equipo en su misión de redención."
     }
   ]
-};
+},
+
+  {
+    "title": "Perros Callejeros",
+    "description": "Una pandilla de quinceañeros que viven en los suburbios de Barcelona se han especializado en el robo de coches. Con ellos se dedican a dar el tirón, a asaltar tiendas para malvender las mercancías y a atacar a parejas en lugares apartados con el fin de desvalijarlas y abusar de las mujeres. Sorprendidos a veces en flagrante delito, son perseguidos por la policía; para zafarse invaden la calzada, circulan en dirección contraria y se saltan controles, resultando a veces malheridos",
+    "coverImage": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS0b1RyHDT8Spb23SxNtIGngAT1p16CZxoBToS7bLE4iCUFyPbC",
+    "genre": ["Película"],
+    "video_url": "https://drive.google.com/file/d/1-C6_6Le4PQn5OrC6BNbvcdyEmk1TZJAJ/preview?t=172"
+  },
+
+ {
+  "title": "Zero no Tsukaima",
+  "description": "Zero no Tsukaima es una serie de anime que sigue a Louise, una aprendiz de maga sin talento, y su familiar Saito, un joven de nuestro mundo que es invocado a un mundo mágico.",
+  "coverImage": "https://images.justwatch.com/poster/181658718/s166/zero-no-tsukaima.avif",
+  "genre": ["Anime", "Acción", "Comedia", "Fantasía", "Romance", "Temporada 1"],
+  "episodeWallpaper": "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=1200,height=675/catalog/crunchyroll/d148cc31da6bc72b188e201e4a0910e2.jpg",
+  "episodes": [
+    { "video_url": "https://drive.google.com/file/d/1y-Ix5GfQ_jM665p5fq0JDVSXGYQSOK5g/preview", "description": "Louise invoca accidentalmente a Saito como su familiar, sorprendiendo a todos." },
+    { "video_url": "https://drive.google.com/file/d/1pDg4xnrfLrGx4kqdqbk7PQlZ4yimK2Sk/preview", "description": "Saito comienza a adaptarse a su nueva vida como sirviente de Louise." },
+    { "video_url": "https://drive.google.com/file/d/1LK09OMChoVMgWxKiofyfD0lUZdqmSeQA/preview", "description": "Un duelo mágico pone a prueba el vínculo entre Louise y Saito." },
+    { "video_url": "https://drive.google.com/file/d/1XjQs3t97rYcvnDcSLHZPcROklKN-4dPI/preview", "description": "Saito demuestra tener habilidades inesperadas con la espada." },
+    { "video_url": "https://drive.google.com/file/d/1MGboTaJNCNVgAzugWzzzwSFY93P1aKCn/preview", "description": "Una misión de rescate lleva a Louise y Saito a enfrentarse a nuevos peligros." },
+    { "video_url": "https://drive.google.com/file/d/11jS8RZSZZiRaKR010M7fZ0Ny3Ot0D0KY/preview", "description": "Los sentimientos entre Louise y Saito comienzan a aflorar." },
+    { "video_url": "https://drive.google.com/file/d/13trEM3xcBsq56U7zRtye5Y4K03b3fV4B/preview", "description": "Una fiesta real saca a la luz la rivalidad y los celos entre magos." },
+    { "video_url": "https://drive.google.com/file/d/1Fz34zeti8KbS2ZwRVT9KMWBqQQeO_7CW/preview", "description": "Louise es puesta a prueba cuando una conspiración amenaza al reino." },
+    { "video_url": "https://drive.google.com/file/d/1FqIONcOFyNU49f84Jn51k3M5yBMWs_MU/preview", "description": "Saito enfrenta a una poderosa enemiga con un arma misteriosa." },
+    { "video_url": "https://drive.google.com/file/d/1hBILSrbV78CGVkeBbc_FEDfgQkAEJ0YU/preview", "description": "El pasado de Saito comienza a interferir en su presente mágico." },
+    { "video_url": "https://drive.google.com/file/d/1aqFaWv0ruvejU51VpAhgfGk0rHBKvTKm/preview", "description": "Louise y Saito descubren un secreto que podría cambiar su destino." },
+    { "video_url": "https://drive.google.com/file/d/1NuiMWpPqFEENUBgpnTx0L0NWGT1KntHl/preview", "description": "Se avecina una guerra, y los protagonistas deben tomar partido." },
+    { "video_url": "https://drive.google.com/file/d/1thRrn_jRfqeI8uGfpVft6Vu6U_yI2pDc/preview", "description": "El destino del reino y de la relación entre Louise y Saito se decide en una batalla final." }
+  ]
+},
+
+
+{
+  "title": "Gormiti: El regreso de los Señores de la Naturaleza - Temporada 1",
+  "description": "Cuatro jóvenes se convierten en los Señores de la Naturaleza para defender Gorm de las fuerzas del mal lideradas por Magmion.",
+  "coverImage": "https://www.lavanguardia.com/peliculas-series/images/serie/poster/2009/10/w300/1BLaYyvuUXJk5fFCp7Evj2r6NyX.jpg",
+  "genre": ["Animación", "Acción", "Aventura", "Fantasía"],
+  "episodeWallpaper": "https://i.ytimg.com/vi/Uu-tfmOc9Kw/maxresdefault.jpg",
+  "episodes": [
+    { "video_url": "https://mega.nz/embed/Zj8lABKR#Oaf0VSdZErKsuFHFqcsSeJMATq4QNiFseKgcPlDwvgc", "description": "La piedra sulfúrea es robada y los Señores deben recuperarla." },
+    { "video_url": "https://mega.nz/embed/EjlDXRCL#hFZ9J2e2UWw4qSHxpqZiCwevc5lrXrfMN9j48cNbJn0", "description": "Lucas empieza a cambiar cuando absorbe poderes de la naturaleza." },
+    { "video_url": "https://mega.nz/embed/4n8VFTqI#j5rE3OgDAkPY2pRbA_XJHvkdy1j_4u9ptTJO2wuSA3M", "description": "Un amuleto antiguo pone a prueba a los Señores de la Naturaleza." },
+    { "video_url": "https://mega.nz/embed/92cXmSTK#VdMVxj9TR5eZbp0sQldEqPwDS5klemPEpu590vGYFco", "description": "Un maremoto amenaza la costa; los héroes deben intervenir." },
+    { "video_url": "https://mega.nz/embed/g39zFIbY#GTxVhl879lEN6-_qsm8wWiWCyUfQV-1EZKShJx4dYos", "description": "Una corona maldita corrompe a quien la posea." },
+    { "video_url": "https://mega.nz/embed/xmFlmBQZ#e5TQhmaoRXEwfOvTdBdV82AKB_XASp3j6SbLOz9uHvo", "description": "Los antiguos guardianes despiertan para defender Gorm." },
+    { "video_url": "https://mega.nz/embed/5zVjSCqB#3M1a4bL82rS3YOUnN6QGeQO4-g7d_nWKz4hdYTT9xLk", "description": "Estatuas halcón esconden un gran poder elemental." },
+    { "video_url": "https://mega.nz/embed/1v8yWSYa#gB0Da5OCNOupIFBwKhzHqRe7aS2Arc-dYbKrZdwCWEw", "description": "Cristales de sal negra alteran el equilibrio natural." },
+    { "video_url": "https://mega.nz/embed/4isSHRJS#H7PiC79FcvaAG58z6KsSw9tXjsA-VGVeA5JZf_SlNKs", "description": "Magmion lanza un hechizo para dividir a los héroes." },
+    { "video_url": "https://mega.nz/embed/JjkwDSJD#q85CeNZlVIjUevqW0tfwh_5GuB_opVXcmOdjmNU_9GE", "description": "Una niebla cubre Gorm e impide ver la amenaza real." },
+    { "video_url": "https://mega.nz/embed/orVSSCQC#yJLv-KKNjIH0dN4JC7JYDzfJuzwZM9wHYL5dUuIZP4k", "description": "Una raíz maligna infecta el bosque y lo vuelve hostil." },
+    { "video_url": "https://mega.nz/embed/grcXCYKT#DGTTnaSt8wr-JhIsvaFCcDquPWgfACPaTkyzZzjim_o", "description": "Un cañón que absorbe energía pone en peligro a los Gormiti." },
+    { "video_url": "https://mega.nz/embed/t3kznRAY#zwhT2wWLzxz3Ja9ErMYKbOcHnOjocLEBJF7oWwjNRY0", "description": "Un día de descanso se convierte en una nueva misión." },
+    { "video_url": "https://mega.nz/embed/0rM33TRK#AbOWSGwyoxzPB9yzPf40BRKykXaI5gc9Y_wMyFPEqU0", "description": "Un misterioso fruto mágico aparece en Gorm." },
+    { "video_url": "https://mega.nz/embed/VyVmhIgY#5qtHzzdSx2EVLirHPwIWCU53tfZu50EX2Xc7PeWUzvU", "description": "Los Gormiti deben enseñar buenos modales a una criatura rebelde." },
+    { "video_url": "https://mega.nz/embed/I7ETDBhB#AkiWkZovaQ6M4KG1wzolJ0sHjRU93WFlGOePU37uLpA", "description": "Una fruta mágica causa descontrol entre los elementos." },
+    { "video_url": "https://mega.nz/embed/Qr0x3aLD#ab0YxHlCUG32h8-g_dHxSMRj7U0vfeW7mUMSP83dicw", "description": "El pueblo de la Tierra es atacado y pide ayuda." },
+    { "video_url": "https://mega.nz/embed/g3sBTbaK#aUZql5YxerSskb05RhZ1a14_QKIV4ZSjdG_MEEw64iU", "description": "Sapos mágicos invaden la ciudad con extraños efectos." },
+    { "video_url": "https://mega.nz/embed/9m11iA6S#RoqGR6JlInJ_Mqe_IYWe8LoBEyCr_dN4AaaLI4GlPNo", "description": "Un espejo antiguo muestra visiones del futuro." },
+    { "video_url": "https://mega.nz/embed/ly0hRIgQ#wZEJHhalxtQZuZwpI7i0Rs2_2AQYOVKl9-pleFsI4zc", "description": "Lavion despierta de su letargo y se une a la lucha." },
+    { "video_url": "https://mega.nz/embed/t29mSaYB#1gevMj9zgyPvrXCEFpi7urFdrTz65XfZoq-4XlXcaO0", "description": "Un canto mágico pone a los héroes en trance." },
+    { "video_url": "https://mega.nz/embed/5zdEiTzJ#ipb_fTV8ItoFPQLlHfP20itcYq3pRL9EPG4667JjLIw", "description": "Obscurio regresa del exilio con nuevos poderes." },
+    { "video_url": "https://mega.nz/embed/Mv1jUZRC#tXGBHynvwG-Vt4jb0Eyg9pGEdbdBUSINbO_Nfp2iztQ", "description": "Una fisura amenaza con destruir Gorm desde dentro (Parte I)." },
+    { "video_url": "https://mega.nz/embed/Ay1znLqB#xBwaaj2JG9pb-ehTu0GPWRWXoIYNpjggUzwV6_zjR7g", "description": "La fisura dimensional comienza a absorber el templo (Parte II)." },
+    { "video_url": "https://mega.nz/embed/0yMjHYxZ#d2CP_X1t7vWIytAfbEuLaRvXa-z99XUrdNkT20GeR3c", "description": "Un eclipse afecta los poderes elementales de los héroes." },
+    { "video_url": "https://mega.nz/embed/E29hja5C#SJ_f21O82W5LNXAVaXR_yG0bY8mhAiyxqZQ6wT1yCsk", "description": "La batalla final por el destino de Gorm ha comenzado." }
+  ]
+},
+
+{
+  "title": "Rick y Morty - Temporada 3",
+  "description": "Rick y Morty regresan con más aventuras interdimensionales, humor negro y sátira científica en una tercera temporada llena de caos, existencialismo y genialidad animada.",
+  "coverImage": "https://m.media-amazon.com/images/I/61oHIG0T-YL._AC_UF894,1000_QL80_.jpg",
+  "genre": ["Animación", "Ciencia ficción", "Comedia", "Aventura", "Adultos", "Temporada 3"],
+  "episodeWallpaper": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSySDaD4oDVV3XFZwKPqZNal9C9bw9bRWO3Q&s",
+  "episodes": [
+    { "video_url": "https://mega.nz/embed/YzlQyCzC#XY2wHkJe5aClN8m1PlddKcvzbyAaMmn4UBJ0EUGPCq4", "description": "Rick escapa de la prisión galáctica y lanza su venganza contra la Federación." },
+    { "video_url": "https://mega.nz/embed/tnd30JDb#A-H1MlU6xEZk8pYkc14VAy12IJQ03TLDIZlamuapIOU", "description": "Morty y Summer lidian con el divorcio de sus padres con una aventura bizarra." },
+    { "video_url": "https://mega.nz/embed/lqkEQYwZ#wqQTsMIH-eUrfF97k2cWkK7JZwIv5XT_5cXVGyXuukE", "description": "Rick transforma a un Pickle para evitar una terapia familiar." },
+    { "video_url": "https://mega.nz/embed/sytA0DSL#QC4gvFIMHwRNsMY7qfLowBpI6ACiRKnK5mQIEc1jhwE", "description": "Una visita al Mad Maxverse se convierte en una lección de confianza y muerte." },
+    { "video_url": "https://mega.nz/embed/VzUC1TwD#H4uKDCdlwo3OVt-dPvydMWB8dpZUFeFuoxErCRuOYAE", "description": "Jerry encuentra una nueva relación mientras Rick y Morty enfrentan criaturas tóxicas." },
+    { "video_url": "https://mega.nz/embed/w60xQTZQ#h9LVUyg2Kv8pY4KN4EwSqXDb6swcuSwNn2nhFVnm52I", "description": "Una misión para recolectar cristales se convierte en una matanza intergaláctica." },
+    { "video_url": "https://mega.nz/embed/V79FnQIS#b_T9AATdDHrM-OHAJ7hZrTS_y5Z0EjSuJoCReAGxpUM", "description": "Morty usa un cristal de visión futura que lo consume completamente." },
+    { "video_url": "https://mega.nz/embed/xj8Rkbwb#GqxQeBZncXewqz6N6WXDPy9IVDfFXH8S5rp9hSCS6ko", "description": "Rick y Beth enfrentan sus traumas familiares en una dimensión de terapia." },
+    { "video_url": "https://mega.nz/embed/QzNnwDIR#r7RO8qkRqRkT0qNR-_ONG4aRRE2g7IwavK-oBdrPIJc", "description": "Rick manipula la realidad para crear una cena familiar perfecta... o no." },
+    { "video_url": "https://mega.nz/embed/c7MgxKBK#BC8ZLlrICVhFpFS2J9m4Sr8Ffol7X7WldHvi8ht8KDM", "description": "La rebelión de los Citadel alcanza su punto crítico. Se revela el verdadero Morty Malvado." }
+  ]
+},
+
+{
+  "title": "Rick y Morty - Temporada 4",
+  "description": "Rick y Morty vuelven con una cuarta temporada llena de humor ácido, viajes interdimensionales y situaciones absurdas que solo ellos pueden enfrentar.",
+  "coverImage": "https://images.justwatch.com/poster/309176182/s166/temporada-4.avif",
+  "genre": ["Animación", "Ciencia ficción", "Comedia", "Aventura", "Adultos", "Temporada 4"],
+  "episodeWallpaper": "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2019/11/rick-morty.jpeg?tf=3840x",
+  "episodes": [
+    { "video_url": "https://mega.nz/embed/KlYyWKbS#MPvUUlbqpdfAXYcagOh4v3T7WPS0UbTW6pYwVkCBYUg", "description": "Rick escapa de una situación inesperada y arrastra a Morty a nuevas locuras." },
+    { "video_url": "https://mega.nz/embed/y5ISkCRR#Fhsy9lMGUWdaRCANjDxvKzFUJ-wjbq-AcJP14VdcrRM", "description": "Morty y Summer intentan sobrevivir a una amenaza desconocida." },
+    { "video_url": "https://mega.nz/embed/r4IAXBSL#ietp1YCztVh2_d2Bwkpn-0iUFij4nyI-Gwz0XX3dOKE", "description": "Rick se enfrenta a sus enemigos más peligrosos en un universo alternativo." },
+    { "video_url": "https://mega.nz/embed/KlIjEbKS#jzQLElIgtjM0kjOTSO1XD8M1KPIBQJKdWnmqSbgFfbg", "description": "Nuevas alianzas se forman para salvar a la familia Smith." },
+    { "video_url": "https://mega.nz/embed/L85lAYbL#70gdsfr6K1cSBXtYZeUICjusmIG-zMPM5rOuMrguF7g", "description": "Un giro inesperado pone en peligro todo lo que conocen." },
+    { "video_url": "https://mega.nz/embed/j5pG0RaY#FjczXWKlCPGA9wf2uAY9_0eqpLY9244jQnrG9eLHX1c", "description": "Morty aprende lecciones duras sobre poder y responsabilidad." },
+    { "video_url": "https://mega.nz/embed/TlpzSBra#87tN-d4GjJO8GnioG57fWFdY-V1oEIGEUbGIk0YhnXA", "description": "Rick enfrenta las consecuencias de sus decisiones pasadas." },
+    { "video_url": "https://mega.nz/embed/K5YzBKKI#jrh9g7WzJcYRuJomtSgI5CDBpZOwhjzxISQDei3VThM", "description": "Una batalla épica amenaza la estabilidad del multiverso." },
+    { "video_url": "https://mega.nz/embed/yph0BBDQ#c14uEK0jxfmx-8qxnQ3oKet8s7QMwnKmawW0f09luPg", "description": "Los lazos familiares se ponen a prueba en medio del caos." },
+    { "video_url": "https://mega.nz/embed/TpRGVQCL#IkGuS8fYG_fMzlgoq5NWv0I5i4ykLG0BhVW81wQQ9wo", "description": "La temporada concluye con un final inesperado y explosivo." }
+  ]
+},
+
+{
+  "title": "Rick y Morty - Temporada 5",
+  "description": "Rick y Morty regresan con más aventuras salvajes, explorando universos nuevos, enfrentando dilemas éticos y desatando caos en cada episodio.",
+  "coverImage": "https://www.formulatv.com/images/series/posters/1500/1524/5_m3.webp",
+  "genre": ["Animación", "Ciencia ficción", "Comedia", "Aventura", "Adultos", "Temporada 5"],
+  "episodeWallpaper": "https://hips.hearstapps.com/hmg-prod/images/rick-morty-season-5-finale-1631266872.jpg",
+  "episodes": [
+    {
+      "video_url": "https://mega.nz/embed/4MpFAJCD#QuuuiMDA_mis8P6HRghl0pL2MJjCwgDBDNwaSN7KjxA",
+      "description": "Rick y Morty exploran una dimensión donde los sueños se hacen realidad, pero con consecuencias inesperadas."
+    },
+    {
+      "video_url": "https://mega.nz/embed/1UhHVYRI#4NnlC67aHqTkA4Jj6EPnkZkTYz-4ARdw309rrYVaL8o",
+      "description": "Summer y Morty luchan contra una invasión alienígena que amenaza la Tierra."
+    },
+    {
+      "video_url": "https://mega.nz/embed/RMZDQawa#BjAnga1CCgUvN-6uiT4SaaYrfJ7HPDIA2miWJfD94g4",
+      "description": "Rick enfrenta a un viejo rival en una batalla que podría destruir el multiverso."
+    },
+    {
+      "video_url": "https://mega.nz/embed/9dwWBKKB#wLRbu6nobWV2Su5-YQToj0QS6ZVDjVb7XIEhHy9esHU",
+      "description": "Morty toma una decisión que cambia la dinámica familiar para siempre."
+    },
+    {
+      "video_url": "https://mega.nz/embed/MVRgxQKJ#FLyklZ4K5JA2olG4wuwbCH0T5z27Xg_Pfotldwk1qBg",
+      "description": "Un experimento de Rick sale mal y pone a todos en peligro."
+    },
+    {
+      "video_url": "https://mega.nz/embed/wYJTwTqa#0ehrgt_S07zVoGmXDG4ufLis-aMnnI8vV_Lg2gZ-hYQ",
+      "description": "Summer descubre secretos oscuros sobre su propio pasado."
+    },
+    {
+      "video_url": "https://mega.nz/embed/xI5hER4Y#1n9BM_tY5kR0dCcm0dbqHc1s5KnC_ihQbuUushQGEpY",
+      "description": "Rick y Morty se ven atrapados en un bucle temporal sin fin."
+    },
+    {
+      "video_url": "https://mega.nz/embed/4VAXgZja#_joOkEUBCNF90YiCypoO5pDD9joMkwqv-AKEdyrJ6is",
+      "description": "Una aventura en una galaxia lejana pone a prueba la lealtad del equipo."
+    },
+    {
+      "video_url": "https://mega.nz/embed/9QRzDBQL#6TDF6bX5eKgmsjpPWdphIeEliFTm2h_6t53FY5nrufA",
+      "description": "Morty intenta salvar a Rick de sus propios demonios internos."
+    },
+    {
+      "video_url": "https://mega.nz/embed/9EBwCaba#lYmlTUbhh20ccMMif0LBHXVZlMLhCPQBLtd3-Gvg4y8",
+      "description": "La temporada concluye con un enfrentamiento épico y revelaciones impactantes."
+    }
+  ]
+},
+
+{
+  "title": "Rick y Morty - Temporada 6",
+  "description": "La temporada 6 trae nuevas locuras interdimensionales, conflictos inesperados y más humor ácido con Rick y Morty en sus aventuras más desafiantes.",
+  "coverImage": "https://images.justwatch.com/poster/309176033/s166/temporada-6.avif",
+  "genre": ["Animación", "Ciencia ficción", "Comedia", "Aventura", "Adultos", "Temporada 6"],
+  "episodeWallpaper": "https://images.justwatch.com/backdrop/328639907/s1920/temporada-6.avif",
+  "episodes": [
+    {
+      "video_url": "https://mega.nz/embed/cVQDRIQT#FW0EVLTYsTfAXBmeUlfJ_NDAXPYzthyQ1tIDAAYusEM",
+      "description": "Episodio 1"
+    },
+    {
+      "video_url": "https://mega.nz/embed/JYIBwB7J#ATld2ReAQNfKCzsBZs4j-PGijSR-mEOdbnGOD-X0dy4",
+      "description": "Episodio 2"
+    },
+    {
+      "video_url": "https://mega.nz/embed/ZRo3zDJC#OHIXUML3quDf4eHQ9HnX8HsBQKCLOgDfJYTSB-zjDjc",
+      "description": "Episodio 3"
+    },
+    {
+      "video_url": "https://mega.nz/embed/kBQCSTiR#u98DUg5IQlI0fj13Oy-vtuJ6eROOoGqiWVhWsgN8ZKY",
+      "description": "Episodio 4"
+    },
+    {
+      "video_url": "https://mega.nz/embed/5dQXDKAb#OU49GrNxaBdrsXmtp27Kgp4ymiGb1QJwX6NRZmE6yfM",
+      "description": "Episodio 5"
+    },
+    {
+      "video_url": "https://mega.nz/embed/gMpkyAgY#CRatoEIvLebJgzZn3KifquPp9tz2LBUBfzTfJ0HspuY",
+      "description": "Episodio 6"
+    },
+    {
+      "video_url": "https://mega.nz/embed/1UpwERBS#r2L-ZuiZfe9PsepBhtAu8Wzhh_00jU1zD_5SwGBQxbk",
+      "description": "Episodio 7"
+    },
+    {
+      "video_url": "https://mega.nz/embed/tQ4FyQyB#5PnFhfAOFN4EUIZNE1Dhcuprnfq8-4yl7y5ZDTnB8Yo",
+      "description": "Episodio 8"
+    },
+    {
+      "video_url": "https://mega.nz/embed/tFZnXITD#5xrviTohFM22DDVBnKm0ObHt0AeMsS26GSWhlvRgn-A",
+      "description": "Episodio 9"
+    },
+    {
+      "video_url": "https://mega.nz/embed/NdYxVQpJ#7VrMVWr35ufswMUlibaBRVErKQZcxzSWVLqoErWYMEE",
+      "description": "Episodio 10"
+    }
+  ]
+},
+
+{
+  "title": "Rick y Morty - Temporada 7",
+  "description": "Séptima temporada de Rick y Morty, donde el dúo continúa con sus absurdas y caóticas aventuras a través del multiverso, enfrentándose a nuevas amenazas y dilemas existenciales.",
+  "coverImage": "https://images.justwatch.com/poster/309176189/s166/temporada-7.avif",
+  "genre": ["Animación", "Ciencia ficción", "Comedia", "Aventura", "Adultos", "Temporada 7"],
+  "episodeWallpaper": "https://m.media-amazon.com/images/S/pv-target-images/315bc8592752bf7b80a8bd8673ee1a5f834d49e6ca44ee804182928a6eeb08aa.jpg",
+  "episodes": [
+    {
+      "video_url": "https://mega.nz/embed/LNFURKyA#WCYMzxhidqWYurEE42YFin04KZQPA0z3PgLF0l5Kgi0",
+      "description": "Episodio 1"
+    },
+    {
+      "video_url": "https://mega.nz/embed/2ENXQbxQ#nK3xVDcN9ycun5ewRuqjeDXgf6EBdhnBQKsq1kHHByk",
+      "description": "Episodio 2"
+    },
+    {
+      "video_url": "https://mega.nz/embed/6YET3RBJ#FERRgbd44goRFnO_8XiKBMbdLuWIkD312AQ5Lv-mkuo",
+      "description": "Episodio 3"
+    },
+    {
+      "video_url": "https://mega.nz/embed/nQ1WQLBQ#MzAuznIO5qCFD-PMhumrJsBolzS2u4sSBoGHhatGQL8",
+      "description": "Episodio 4"
+    },
+    {
+      "video_url": "https://mega.nz/embed/XRNVlCaI#3HKfgNqO_YEEBYKYF3Qc_nK59Ur4GAeiPKJaJ4dk2RI",
+      "description": "Episodio 5"
+    },
+    {
+      "video_url": "https://mega.nz/embed/XBlSDTQQ#zIX5bAZCpUW-71l0ErLUz_zbqXIIgdDqOwhsJfdks_0",
+      "description": "Episodio 6"
+    },
+    {
+      "video_url": "https://mega.nz/embed/XRdlHb4b#bZixQA8NTwgJsZe_epoudvnC4zw2AU4fk7tQWTrnVdc",
+      "description": "Episodio 7"
+    },
+    {
+      "video_url": "https://mega.nz/embed/3d800ZzI#TFcUB6877pW5BJLYaETkpuGdKRBA-YEAfuw-UHY_Z84",
+      "description": "Episodio 8"
+    },
+    {
+      "video_url": "https://mega.nz/embed/KEsnBbZQ#LS0qLZQAgDL5hk1mKSy25Up_XrB2i2MJPK3EYitc8zc",
+      "description": "Episodio 9"
+    },
+    {
+      "video_url": "https://mega.nz/embed/KAMnWDJJ#_4za8M4advD8pJesO7u4L71JlS3-Qh0bJGfYgeImpaU",
+      "description": "Episodio 10"
+    }
+  ]
+},
+
+{
+  "title": "Gormiti: El Regreso de los Señores de la Naturaleza - Temporada 3",
+  "description": "La tercera temporada de Gormiti continúa las aventuras de los Guardianes en la Isla de Gorm mientras enfrentan nuevos retos, revelaciones y enemigos más poderosos que nunca.",
+  "coverImage": "https://www.lavanguardia.com/peliculas-series/images/serie/poster/2009/10/w300/1BLaYyvuUXJk5fFCp7Evj2r6NyX.jpg",
+  "genre": ["Serie", "Animación", "Aventura", "Fantasía", "Temporada 3"],
+  "episodeWallpaper": "https://i.ytimg.com/vi/Uu-tfmOc9Kw/maxresdefault.jpg",
+  "episodes": [
+    { "video_url": "https://mega.nz/embed/4mFWTbxR#dZgg5w_Y3N-Kg7bAWsQm5fU-TN0SCAfuYMmPZML3hDA", "description": "Un nuevo peligro surge de las profundidades de la isla de Gorm." },
+    { "video_url": "https://mega.nz/embed/ouNB0R4S#4xBDA00xDEF3z3FjEO-iVNM0_-_Abv7pHQesrxWs6zE", "description": "Los Guardianes investigan misteriosas desapariciones en el Bosque Vital." },
+    { "video_url": "https://mega.nz/embed/dmFCELQC#0Z0GcVQxT8iJvSWWEsKFBEw09X5SnRJjP7w7NsQxnyw", "description": "Ao-Ki encuentra una fuente de poder olvidada." },
+    { "video_url": "https://mega.nz/embed/R6lDhASA#5L_3M7gE-Vr2oQ8Uuza-EeVrAPQKcKa0mvyqNWLF33g", "description": "Ikor lidera una expedición a las ruinas de los Señores Antiguos." },
+    { "video_url": "https://mega.nz/embed/pyF1BALa#5JL0KYKhLA7foM1OwEi9jMMhYKGeA-KJHopkkW-mZVM", "description": "Un nuevo enemigo pone a prueba la unidad del equipo." },
+    { "video_url": "https://mega.nz/embed/R2cnjBgD#7KFYyfDKtrIil_Dg4D9HFyUngVsI7rAlIsSFLHqnblM", "description": "El equilibrio elemental comienza a fracturarse." },
+    { "video_url": "https://mega.nz/embed/U2sAzKbT#2XOm9IuF0EtlfZg9PSQf-Egu14rkiBmhPSTsGzhiwvc", "description": "Trek descubre una conexión entre su pasado y los Gormiti originales." },
+    { "video_url": "https://mega.nz/embed/g70klbDT#jHcxMo4qJOEeRbXoCUWmk0Muu9xrHfnDACFmfY1DREo", "description": "Un eclipse oscurece los poderes de los Guardianes." },
+    { "video_url": "https://mega.nz/embed/9nV23LhZ#chxRne65oWFI1Ni-P2wzM_fdZLZC-K7T0EzV_1b9JiU", "description": "Los Guardianes deben enfrentarse entre sí bajo un hechizo de confusión." },
+    { "video_url": "https://mega.nz/embed/QvtEFK4L#dWvfLe2Bd5pEFSEVzT145GLMLOm8S4YBpq41L5est9w", "description": "Se revela la existencia de un Quinto Elemento oculto." },
+    { "video_url": "https://mega.nz/embed/Zjtj2YSa#tprLiA_OMjL-cr7GEHcWXDT_na2xWdig0FWGQL22U9k", "description": "Voidus lanza un ataque sorpresa con tecnología ancestral." },
+    { "video_url": "https://mega.nz/embed/QjlR3ZZT#kqn9R6SMqLpgOTsg_rvLW1J-JTeo2D2mVARpJ9kO2Jg", "description": "Una misión al núcleo de Gorm revela secretos enterrados." },
+    { "video_url": "https://mega.nz/embed/Fj9QzaDZ#yvacaXZNc1TeQprBTHI3W7gbVGWDhHGtiqpfPDv7kJY", "description": "El destino de todos los elementos se decide en una épica batalla final." }
+  ]
+},
+
+{
+  "title": "Gormiti: El Regreso de los Señores de la Naturaleza - Temporada 2",
+  "description": "La lucha entre los Guardianes y los Darkans continúa mientras nuevos aliados, enemigos y secretos del pasado emergen en la Isla de Gorm. Esta segunda temporada lleva a los héroes a un nuevo nivel de poder y responsabilidad.",
+  "coverImage": "https://www.lavanguardia.com/peliculas-series/images/serie/poster/2009/10/w300/1BLaYyvuUXJk5fFCp7Evj2r6NyX.jpg",
+  "genre": ["Serie", "Animación", "Aventura", "Fantasía", "Temporada 2"],
+  "episodeWallpaper": "https://i.ytimg.com/vi/Uu-tfmOc9Kw/maxresdefault.jpg",
+  "episodes": [
+    { "video_url": "https://mega.nz/embed/hj0jxZKJ#qTju0g_XehzuO9IA85IUrHal92TQW828vYvLJAcvjaM", "description": "Los guardianes enfrentan un extraño fenómeno que convierte Gorm en piedra." },
+    { "video_url": "https://mega.nz/embed/02VC3BiB#gCyn-GQwxDHHDEx_smbI-lshc-l_MULl_6eO3Wbdp_8", "description": "Una invasión de arácnidos pone en peligro a los habitantes del bosque." },
+    { "video_url": "https://mega.nz/embed/QiM22BqA#GZgR14vOzyZNzct-cz6betKFvEM3BlBx33GqPx7Mg_4", "description": "El equipo descubre una nueva fuente de poder elemental." },
+    { "video_url": "https://mega.nz/embed/Mq10jADK#OyR6INIKJ5iQUHn6LsagIQiUwD7m0OSJgIO-qDiMEMc", "description": "Un artefacto antiguo revela secretos del pasado de Riff." },
+    { "video_url": "https://mega.nz/embed/Y7sU3KyC#u-y-7uJUJnPV_eND8mzmcogrC7D183BVUytcq7stuAE", "description": "El volcán sagrado entra en erupción cuando el equilibrio se rompe." },
+    { "video_url": "https://mega.nz/embed/lzdyQDrZ#ZPs7qp7SfLUjM4Pik5B0Sk6_KXEgAA4qqqA2ChRHz14", "description": "Un nuevo Darkan desafía el liderazgo de Voidus." },
+    { "video_url": "https://mega.nz/embed/Ei1AlTwb#jJKgV4wdnsVhYKp8Jly4aUhNybaUxsL-tlIJ8eBvHSw", "description": "Los Guardianes deben unir sus poderes para salvar a Ao-Ki." },
+    { "video_url": "https://mega.nz/embed/Vvl3QC6L#NitmaDyCTILQTcp4JazirVxvoeHRuuMpkNQS3DPgRVk", "description": "Un torneo elemental decidirá el futuro de los reinos de Gorm." },
+    { "video_url": "https://mega.nz/embed/k20X1J5K#ATIdfLE4bKJs8XNoh9VpaQgn3r5Vz7gCjM8XC8dJQFw", "description": "Ikor lidera una expedición al Reino Sombrío." },
+    { "video_url": "https://mega.nz/embed/47lWmZpT#KcV5E23-I64KL9TgX8fCUYjdWTWUxbzdyj3RB15BgUw", "description": "El pasado de Voidus es revelado a través de una visión ancestral." },
+    { "video_url": "https://mega.nz/embed/87M33ZjR#tZzxjuLPlDt3ch9qXVRkYNkUtzbgjpf-DRjFGCakMGg", "description": "Un eclipse total desata una oleada de caos mágico." },
+    { "video_url": "https://mega.nz/embed/silE2YaC#oAHKk-e0UGoT7PZT9rWa6pJ6pdsp_3VPjsH16lyIPhU", "description": "Una antigua arma es activada y amenaza con destruir todo Gorm." },
+    { "video_url": "https://mega.nz/embed/hmFwmDKK#oEiDwp0RjdrJ75lUjmq9-W9tvVhTnKsgwU8BGY8iybY", "description": "El equipo se divide tras una discusión interna crítica." },
+    { "video_url": "https://mega.nz/embed/ViNlRCjT#AytnY-AwMn4lkUKIwvXUR9QzQRMrjJoVnknvdzTWabk", "description": "Un traidor entre los Guardianes complica la misión." },
+    { "video_url": "https://mega.nz/embed/8zUj1BYZ#b-b1hLZxRG21T24E5NrO4vsEVUHQyDYyxwS6ZeD-T0g", "description": "Ao-Ki revela una conexión con los antiguos Señores." },
+    { "video_url": "https://mega.nz/embed/o7VE3QIJ#FwIcE6OeSTPRjQYfwS0GZRRfxctnd4on_2vFHC8TXoY", "description": "Una reliquia elemental transforma el destino de Trek." },
+    { "video_url": "https://mega.nz/embed/Rrk1HbqS#eBBAwY0Stg2Q7oM-wweyBa1wybk7ybDxOXsG-SEUcfg", "description": "Una batalla bajo tierra pone a prueba la valentía del equipo." },
+    { "video_url": "https://mega.nz/embed/svUR1aob#7Hskpds4PW7MVHEZ_bWTzbsvB7X-y1BUjKGif29EaRI", "description": "La furia del océano se desata tras la caída de un tótem sagrado." },
+    { "video_url": "https://mega.nz/embed/gu1yyBhY#L9NBPTmyihQfRkAinER1EtFfW0bfAlTplSf4JONqdY8", "description": "Voidus lanza su ataque final durante la noche eterna." },
+    { "video_url": "https://mega.nz/embed/E69VwQZC#7LkKQEZtUq9WE9yhSTHGXdKhhHUYgcp5AqMq4kz7Tx4", "description": "La luz del Guardián Supremo se revela al fin." },
+    { "video_url": "https://mega.nz/embed/0zFhjazC#oCZ8WqADMzCF2BlwAR55mOmd3kLLfa542fIu9yG45dk", "description": "Los Guardianes descubren el verdadero propósito de su poder." },
+    { "video_url": "https://mega.nz/embed/N7lHzT5A#P9mma5LelPUDqWAmSkc2kYWR1MPBYRNn6DSjjY2PiTg", "description": "Se revela un nuevo enemigo que manipula la energía pura." },
+    { "video_url": "https://mega.nz/embed/Q70ChTDJ#yJAgeQS6DlNte1wbTVgAxyExG-tlcKDwaoSEGrwI0zY", "description": "La conexión entre los mundos de Gorm y la Tierra se hace más fuerte." },
+    { "video_url": "https://mega.nz/embed/AjlSCByS#SSFDhb0nQfytY06LgBfyriGyMqpj_6nOAODyDgzcrMo", "description": "Una tormenta mágica separa a los Guardianes." },
+    { "video_url": "https://mega.nz/embed/9vVCEbSB#SK7s9bpJYc1p9sn9sfK0KgGN0Wx9OIeO8Y1ouHVW1uI", "description": "Ikor desafía a Voidus en un duelo definitivo." },
+    { "video_url": "https://mega.nz/embed/pr8glKxL#9AFwHPRq5huKm5t-1J7dTjIE71Gw70daQJcz2dkCM2U", "description": "El destino de Gorm se decide en una batalla final que cambiará todo." }
+  ]
+},
+
+
+{
+  "title": "Cars",
+  "description": "Cars es una película animada de Pixar que sigue a Rayo McQueen, un coche de carreras joven y arrogante que termina en un pequeño pueblo y aprende lecciones sobre la amistad y la humildad.",
+  "coverImage": "https://i.pinimg.com/736x/e1/24/83/e12483c1ac7895dd90c9eb29044a761c.jpg",
+  "genre": ["Película", "Animación", "Aventura", "Comedia", "Familiar"],
+  "video_url": "https://drive.google.com/file/d/1jg4h2y99j0oX2rnW6sFGQYgsEhqRi-xp/preview"
+},
+
+{
+  "title": "Cars 2",
+  "description": "Cars 2 es la secuela de la película animada que sigue a Rayo McQueen y su amigo Mate en una aventura internacional llena de espionaje y carreras.",
+  "coverImage": "https://www.aceprensa.com/wp-content/uploads/2011/07/49013-0.jpg",
+  "genre": ["Película", "Animación", "Aventura", "Comedia", "Familiar"],
+  "video_url": "https://drive.google.com/file/d/1LpQbl5Fmz_PDMPiZalf-9gyvwEUxNhFg/preview"
+},
+
+{
+  "title": "Cars 3",
+  "description": "Cars 3 es la tercera entrega de la saga animada de Pixar, donde Rayo McQueen enfrenta a nuevos y veloces competidores, poniendo en duda su lugar en el mundo de las carreras.",
+  "coverImage": "https://i.discogs.com/1N6uhQlivjb3lx985h3UsNzWrh-C6YexIAuxvkEfgFM/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1MTM5/NTg2LTE1ODcyMDIw/NDAtOTkzMC5qcGVn.jpeg",
+  "genre": ["Película", "Animación", "Aventura", "Comedia", "Familiar"],
+  "video_url": "https://drive.google.com/file/d/1wl-QtHW0jPvlSfOmjRQH8ct3G_tFGjgJ/preview"
+},
+
+{
+  "title": "Coco",
+  "description": "Coco es una película animada de Disney Pixar que sigue a Miguel, un joven que sueña con ser músico y se embarca en una aventura en la Tierra de los Muertos para descubrir la historia de su familia.",
+  "coverImage": "https://lumiere-a.akamaihd.net/v1/images/p_coco_19736_fd5fa537.jpeg?region=0,0,540,810",
+  "genre": ["Película", "Animación", "Aventura", "Familiar", "Musical"],
+  "video_url": "https://drive.google.com/file/d/1gLRynDa_TDGqbyDUOBdDoVVJaeOqqQ_s/preview"
+},
+
+{
+  "title": "Sonic: La Película",
+  "description": "Sonic, un erizo azul con velocidad supersónica, llega a la Tierra para escapar de fuerzas malignas que buscan aprovechar su poder. Tras causar un apagón masivo, se convierte en el objetivo del gobierno, que contrata al Dr. Robotnik para capturarlo. Con la ayuda de su nuevo amigo humano, Tom Wachowski, Sonic deberá enfrentarse a su enemigo y salvar el mundo.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTiSbcfDZzTT0iEYYtQwedcnj-w1nd8BNsDQ&s",
+  "genre": ["Película", "Animación", "Aventura", "Comedia", "Familiar"],
+  "video_url": "https://mega.nz/embed/7DwTAbbb#9LZgTwAoJSlkeMn6NMoqBeb1JTIbDb9_4os1xPt2L-s"
+},
+
+{
+  "title": "¡Shazam! La furia de los dioses",
+  "description": "Billy Batson y sus hermanos adoptivos han recibido los poderes de los dioses, pero aún están aprendiendo a compaginar sus vidas de adolescentes con sus alter egos superheróicos. Cuando las Hijas de Atlas, un trío de antiguas diosas vengativas, llegan a la Tierra en busca de la magia que les robaron hace mucho tiempo, Billy —alias Shazam— y su familia se ven envueltos en una batalla por sus superpoderes, sus vidas y el destino del mundo.",
+  "coverImage": "https://es.web.img2.acsta.net/pictures/23/01/26/16/45/5513824.jpg",
+  "genre": ["Película", "Acción", "Aventura", "Comedia", "Fantasía", "Superhéroes"],
+  "video_url": "https://drive.google.com/file/d/10fdJ_dqUgaDFr_3Bx1uh944-NNzrzKEM/preview"
+},
+
+{
+  "title": "Minecraft: La Película",
+  "description": "Una aventura dentro del icónico mundo de bloques donde los protagonistas deben enfrentarse a peligros, construir refugios y descubrir los secretos de este universo pixelado. Ideal para fans del videojuego y de la animación creativa.",
+  "coverImage": "https://artesiete.es/Posters/unapeliculademinecraft.jpg",
+  "genre": ["Película", "Animación", "Aventura"],
+  "video_url": "https://drive.google.com/file/d/1B20rNEjrsAB16Z0e34KaIHxu_r7a0ZSB/preview"
+},
+
+{
+  "title": "Rick y Morty - Temporada 1",
+  "description": "La primera temporada de Rick y Morty sigue las absurdas y alocadas aventuras de un científico loco y su nieto a través del multiverso.",
+  "coverImage": "https://pics.filmaffinity.com/rick_and_morty-157026175-mmed.jpg",
+  "genre": ["Animación", "Ciencia Ficción", "Temporada 1"],
+  "episodeWallpaper": "https://www.tonica.la/img/2020/05/16/rick-and-morty-portada_1.jpg?__scale=w:1200,h:675,t:2",
+  "episodes": [
+    {
+      "video_url": "https://mega.nz/embed/esoVQRTS#8KNIHOWwULm0gA0HPSYDGw9NiAZk68kduGVEfmm6haE",
+      "description": "Rick convence a Morty de abandonar la escuela para aventuras interdimensionales."
+    },
+    {
+      "video_url": "https://mega.nz/embed/ahhTlb7J#Fr8Ik6hSuKiGI8kw5xtiUSUf7Npl4LxNRApYrVC2vxA",
+      "description": "Rick crea un suero de amor que se sale de control."
+    },
+    {
+      "video_url": "https://mega.nz/embed/awwDGaKa#7VrbuQfplWg0pnCXZZ8_7JrwlEEamoilN2jw9AHHZcs",
+      "description": "La familia va a terapia mientras Rick y Morty enfrentan un problema gigante."
+    },
+    {
+      "video_url": "https://mega.nz/embed/DoI1wLzZ#B44QOp6klAMQ4ahp8Xp2FzgNv-KHkUmwkSZbK7lCQMg",
+      "description": "Un microverso dentro de la batería del auto de Rick trae dilemas morales."
+    },
+    {
+      "video_url": "https://mega.nz/embed/ylAWgaoK#0a99v_-38I_7xfT99jJ86C-SZIgQmxsdXHOkV-RUfqs",
+      "description": "Morty exige tener su propia aventura, lo que los lleva a una realidad de cuentos de hadas."
+    },
+    {
+      "video_url": "https://mega.nz/embed/H0ogCALZ#3KHWMZUg3X9S50XbMRnt-vK4mMyn1zXLUQKFcVTdRj4",
+      "description": "Rick y Summer van de fiesta con criaturas alienígenas en una dimensión postapocalíptica."
+    },
+    {
+      "video_url": "https://mega.nz/embed/TsgVHTyB#S0X9CUF6iV_TdcCq6GnqPUKdSA4POPGjVEzOe3bmZeQ",
+      "description": "Rick transforma a un humanoide perro en una amenaza global."
+    },
+    {
+      "video_url": "https://mega.nz/embed/ShpXBRyR#Nnq90P530VWybo5AALT2f9arhJgq-up2qMBQ3N1Ttb0",
+      "description": "Un experimento para mejorar la inteligencia de Jerry sale mal."
+    },
+    {
+      "video_url": "https://mega.nz/embed/28xUUawD#FczEeIeBaw7MKI03dUMEPLyFIipkn1idXun6runWVHU",
+      "description": "La familia se enfrenta a los consejos de seguridad de una televisión alienígena."
+    },
+    {
+      "video_url": "https://mega.nz/embed/L0JRgBhA#uPOJJa7GQ9VQB8KobfGC4POWau2XxgntKPAKOkdUcMo",
+      "description": "Rick se enfrenta a un grupo de Ricks de otras dimensiones."
+    },
+    {
+      "video_url": "https://mega.nz/embed/i05jTAgB#Ds2if4sleTnd5DtJOaX3uUrAN5sHnkhkAt9Vn7fseXg",
+      "description": "Morty descubre los verdaderos motivos de Rick durante una misión suicida."
+    }
+  ]
+},
+
+{
+  "title": "Rick y Morty - Temporada 2",
+  "description": "La segunda temporada de Rick y Morty continúa con sus alocadas y caóticas aventuras interdimensionales, explorando el multiverso con aún más locura y profundidad emocional.",
+  "coverImage": "https://es.web.img3.acsta.net/c_210_280/pictures/18/10/31/17/34/3276204.jpg",
+  "genre": ["Animación", "Ciencia Ficción", "Temporada 2"],
+  "episodeWallpaper": "https://m.media-amazon.com/images/S/pv-target-images/2a4b90dbdf4f72151540a2579705e0bf78849a070297a3acdcbbdc233220e491._SX1080_FMjpg_.jpg",
+  "episodes": [
+    {
+      "video_url": "https://mega.nz/embed/rxZGmIRD#Ulz8_3JEnJ1o_5_ozrKPdDlZcxcE_eR3QFaTd1D-HwI",
+      "description": "Rick y Morty intentan reparar las grietas del espacio-tiempo causadas por un accidente cuántico."
+    },
+    {
+      "video_url": "https://mega.nz/embed/6pwE2DRC#V4iXymqTDVp-bggcw7H6FFZYFxJnPIsODAfNmvOoW3Q",
+      "description": "Una colmena alienígena atrapa a Rick y a su familia en un control mental colectivo."
+    },
+    {
+      "video_url": "https://mega.nz/embed/uwAxVByC#xC32TasznWI4g8TfsORyMe29FZ588pn6pXNKZny288I",
+      "description": "Rick se convierte en un pickle para evitar la terapia familiar, pero termina en una misión brutal."
+    },
+    {
+      "video_url": "https://mega.nz/embed/W9wzyb4T#pKqeX0SauwD4BON62E4fgK3GIYzLr8evTjwgq7bXAss",
+      "description": "Un planeta diminuto idolatra a Jerry como a un dios. ¿Qué podría salir mal?"
+    },
+    {
+      "video_url": "https://mega.nz/embed/64YxgZQD#UBAgLfyzJJv3OaiABinXnt5EVC4HE16GJJa-x5UGoYs",
+      "description": "Rick y Morty viajan al universo de 'Interdimensional Cable 2'."
+    },
+    {
+      "video_url": "https://mega.nz/embed/XkxQQSAL#H5kiQjQtjgAiSrXqzZX_41CDSBNkn2ONsALFSHLL41w",
+      "description": "Summer y Morty buscan a Rick luego de que abandona la familia."
+    },
+    {
+      "video_url": "https://mega.nz/embed/Oh4gXKqa#6gz_vb9b6qwdRZc_dIS1Qplx6zfa_gGs_Q0hj1GEb-g",
+      "description": "Rick crea un parque temático dentro del cuerpo de un vagabundo moribundo."
+    },
+    {
+      "video_url": "https://mega.nz/embed/H8wwRD5K#5E-CTk_ZwuRQZPvxOjNBeXY3iQUgaEaAPHg87JLp1hs",
+      "description": "Beth y Jerry enfrentan problemas matrimoniales en un planeta de terapia."
+    },
+    {
+      "video_url": "https://mega.nz/embed/25gFEaAC#DlgkEomqFBQAiUthd6xp8n-dTsEDz76R3IJSnVUTSRc",
+      "description": "Morty asume el liderazgo cuando Rick está ausente en una misión peligrosa."
+    },
+    {
+      "video_url": "https://mega.nz/embed/H4gGEQyI#h33Eh5PJw5WfVE1wJQ9wdraD35K9fBeHb8uT4CCemH4",
+      "description": "Rick sacrifica su libertad por la seguridad de su familia en un impactante final de temporada."
+    }
+  ]
+}
+
+
+
+
+
+
+]
