@@ -40,7 +40,29 @@ https://cdnlive.codev8.net/rtvalive/smil:channel42.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Cuatro.es" tvg-name="Cuatro" tvg-logo="https://pixelesypalomitas.es/images/post/es_ES_vod/canales-cuatro.svg" group-title="Entretenimiento",Cuatro
 http://185.189.225.150:85/CuatroHD/index.m3u8
 
+#EXTINF:-1 tvg-id="FDF.es" tvg-name="FDF" tvg-logo="https://pbs.twimg.com/profile_images/1023883511961452544/m-tx1pJP_200x200.jpg" group-title="Entretenimiento",FDF
+http://185.189.225.150:85/fdf/index.m3u8
+
+
+#EXTINF:-1 tvg-id="Nova.es" tvg-name="NOVA" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_PijuRhwA19F-y7ZuvoqHhNNyJAaYubnEcw&s" group-title="Entretenimiento",NOVA
+http://185.189.225.150:85/nova/index.m3u8
+
+
+#EXTINF:-1 tvg-id="NEOX.es" tvg-name="NEOX" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo73jlp7YnSxUxZVj7SIQsmAa5NyI-NGFC-g&s" group-title="Entretenimiento",NEOX
+http://185.189.225.150:85/neox/index.m3u8
+
+#EXTINF:-1 tvg-id="Telemadrid.es" tvg-name="Telemadrid" tvg-logo="https://www.mundoplus.tv/wp-content/uploads/2021/04/tvamlogo2017.png" group-title="Noticias",Telemadrid 
+https://eventos-23-secure2.akamaized.net/eventos_1-hls/master.m3u8 
+
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
+
+
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
 
@@ -58,6 +80,34 @@ http://185.189.225.150:85/CuatroHD/index.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
 
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
