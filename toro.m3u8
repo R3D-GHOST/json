@@ -103,8 +103,7 @@ https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8
 #EXTINF:-1 tvg-id="F1.us" tvg-name="Formula 1 TV" tvg-logo="https://play-lh.googleusercontent.com/XCIO93FsyRFQB8JFrD1ITNzz5oWVcE62oqQmH4SwtCzM9a0q7xViHMamOU-77Pjvpg" group-title="Deportes", Formula 1 TV
 https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/65c69ee3d77d450008c80438/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=web&servertSideAds=false&&deviceMake=github.com/inspirationlinks&deviceDNT=1https://is.gd/rVSZEu?US600011Q2.m3u8
 
-#EXTINF:-1 tvg-id="+18" tvg-name="Angela White" tvg-logo="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/47f91c68-09f2-4c6f-95e1-db394b3a1d44/dgzr5pr-ed85877d-b600-4e9b-a992-036e28e01141.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzQ3ZjkxYzY4LTA5ZjItNGM2Zi05NWUxLWRiMzk0YjNhMWQ0NFwvZGd6cjVwci1lZDg1ODc3ZC1iNjAwLTRlOWItYTk5Mi0wMzZlMjhlMDExNDEuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.geaW3t2jnKx_ikf2wXTLYM2Z4LvReGlHgGH7VNX3wJw" group-title="Adultos", Ángela White
-http://fortv.cc:8080/0n8u9R/169324/160052
+
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
 
@@ -136,3 +135,17 @@ http://fortv.cc:8080/0n8u9R/169324/160052
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
+
+
+
+
+
+#EXTINF:-1 tvg-id="" tvg-name="Venus Latino" tvg-logo="https://static.epg.best/ar/Venus.ar.png" group-title="ADULTOS XXX",Venus Latino
+http://compitv.info:8080/2525/2525/321228
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: PUBLIC AGENT" tvg-logo="https://previews.123rf.com/images/mingman/mingman1408/mingman140800122/30915459-xxx-listo-para-material-de-contenido-para-adultos.jpg?fj=1" group-title="ADULTOS XXX",PORNBOX: PUBLIC AGENT
+http://compitv.info:8080/2525/2525/321229
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: PUBLIC PICKUPS" tvg-logo="https://previews.123rf.com/images/mingman/mingman1408/mingman140800150/30871475-cine-nominal-y-de-puntuaci%C3%B3n-cr%C3%ADticos-de-cine.jpg?fj=1" group-title="ADULTOS XXX",PORNBOX: PUBLIC PICKUPS
+http://compitv.info:8080/2525/2525/321230
+#EXTINF:-1 tvg-id="" tvg-name="XXX | BRAZZER" tvg-logo="https://previews.123rf.com/images/mingman/mingman1408/mingman140800150/30871475-cine-nominal-y-de-puntuaci%C3%B3n-cr%C3%ADticos-de-cine.jpg?fj=1" group-title="ADULTOS XXX",XXX | BRAZZER
+http://compitv.info:8080/2525/2525/321231
+
