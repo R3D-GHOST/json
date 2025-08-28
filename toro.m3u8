@@ -73,10 +73,8 @@ https://3ea22335.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdX
 #EXTINF:-1 tvg-id="UFC.us" tvg-name="UFC" tvg-logo="https://static-cdn.jtvnw.net/jtv_user_pictures/a5bd8efa-e2d9-433b-8af3-58e0df4c3abf-profile_image-300x300.png" group-title="Deportes", UFC
 https://fl1.moveonjoy.com/UFC/index.m3u8
 
-#EXTINF:-1 tvg-id="Poker.us" tvg-name="World Poker" tvg-logo="https://www.poker.pro/wp-content/uploads/wpt_global_2023_08_where_to_play_banner.webp" group-title="Deportes", Poker 
-https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/6080381ab7c9ea00074ec64c/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceMod
-
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
+#EXTINF:-1 tvg-id="Tennis.us" tvg-name="Tennis Channel" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-3bN5mrNJZaOUYhpxcx5gevMwmvQkQ81umQ&s" group-title="Deportes", Tennis Channel 
+https://tennischannel-int-samsunguk.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
 
