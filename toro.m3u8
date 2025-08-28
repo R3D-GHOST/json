@@ -76,8 +76,7 @@ https://fl1.moveonjoy.com/UFC/index.m3u8
 #EXTINF:-1 tvg-id="Tennis.us" tvg-name="Tennis Channel" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-3bN5mrNJZaOUYhpxcx5gevMwmvQkQ81umQ&s" group-title="Deportes", Tennis Channel 
 https://tennischannel-int-samsunguk.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="Elhormiguero.es" tvg-name="El hormiguero" tvg-logo="https://fotografias.larazon.es/clipping/cmsimages02/2025/08/20/43A1257F-2B0A-4A14-AA31-491549EB1C3C/pablo-motos-junto-trancas-barrancas-plato-hormiguero-que-regresa-1-septiembre-temporada-numero-20_69.jpg?crop=1280,720,x0,y0&width=1280&height=720&optimize=low&format=webply" group-title="Entretenimiento", El Hormiguero 
-https://fast-channels.atresmedia.com/648ef5882bfab0e4627e0d61/648ef5882bfab0e4627e0d61.m3u8
+
 
 #EXTINF:-1 tvg-id="AMC.es" tvg-name="AMC" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROm3tfy7w_dbrPuWAvOxUBY0pgmxEb6E1dYw&s" group-title="Entretenimiento", AMC 
 http://vegafibratv.com:8085/AMC/index.m3u8
