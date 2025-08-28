@@ -55,7 +55,8 @@ http://185.189.225.150:85/neox/index.m3u8
 https://eventos-23-secure2.akamaized.net/eventos_1-hls/master.m3u8 
 
 #EXTINF:-1 tvg-id="Tdp.es" tvg-name="Teledeportes" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYEMbVv7wa7SS8grL2WjPzJcjqTH7heSuAZg&s" group-title="Deportes", Teledeportes
-https://rtvelivestream.akamaized.net/rtvesec/tdp/tdp_main.m3u8
+https://rtvelivestream.rtve.es/rtvesec/tdp/tdp_main.m3u8
+
 
 #EXTINF:-1 tvg-id="NFL.us" tvg-name="NFL" tvg-logo="https://cms-images.acc.indazn.com/di/library/DAZN_News/2e/a5/nfl-en-dazn_1dmzu7wl91ykt1q7li69sk73s8.jpg?t=-1242584999&quality=80&w=750&h=422" group-title="Deportes",NFL
 https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5ced7d5df64be98e07ed47b6livestitch/master.m3u8?deviceType=samsung-tvplus&devi
