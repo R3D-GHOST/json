@@ -76,18 +76,24 @@ https://fl1.moveonjoy.com/UFC/index.m3u8
 #EXTINF:-1 tvg-id="Tennis.us" tvg-name="Tennis Channel" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-3bN5mrNJZaOUYhpxcx5gevMwmvQkQ81umQ&s" group-title="Deportes", Tennis Channel 
 https://tennischannel-int-samsunguk.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
+#EXTINF:-1 tvg-id="Elhormiguero.es" tvg-name="El hormiguero" tvg-logo="https://fotografias.larazon.es/clipping/cmsimages02/2025/08/20/43A1257F-2B0A-4A14-AA31-491549EB1C3C/pablo-motos-junto-trancas-barrancas-plato-hormiguero-que-regresa-1-septiembre-temporada-numero-20_69.jpg?crop=1280,720,x0,y0&width=1280&height=720&optimize=low&format=webply" group-title="Entretenimiento", El Hormiguero 
+https://fast-channels.atresmedia.com/648ef5882bfab0e4627e0d61/648ef5882bfab0e4627e0d61.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
+#EXTINF:-1 tvg-id="AMC.es" tvg-name="AMC" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROm3tfy7w_dbrPuWAvOxUBY0pgmxEb6E1dYw&s" group-title="Entretenimiento", AMC 
+http://vegafibratv.com:8085/AMC/index.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
+#EXTINF:-1 tvg-id="Mega.es" tvg-name="Mega" tvg-logo="https://pbs.twimg.com/profile_images/1809497033092272128/IhEJs_Hn_200x200.jpg" group-title="Entretenimiento", Mega 
+http://185.189.225.150:85/mega/index.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
+#EXTINF:-1 tvg-id="Bein Sport ñ" tvg-name="Bein Sport ñ" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx2e72uAXdo6Jl3oBZhjqjysZQ8AVZNtlHwg&s" group-title="Deportes", Bein Sport ñ 
+https://bein-esp-xumo.amagi.tv/playlistR1080p.m3u8
 
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
+#EXTINF:-1 tvg-id="EuroSport" tvg-name="EuroSport" tvg-logo="https://imgresizer.eurosport.com/unsafe/640x480/filters:format(jpeg)/origin-imgresizer.eurosport.com/2015/11/12/1731323-36624687-640-480.png" group-title="Deportes", Eurosport 1 
+http://185.189.225.157/EuroSport1/index.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
+#EXTINF:-1 tvg-id="Eurosport" tvg-name="Eurosport" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlef_ZQwj81xSKQKvw3kXWO9xUO4tL9bPXSA&s" group-title="Deportes", Eurosport 2 
+http://185.189.225.157/EuroSport2/index.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
 
