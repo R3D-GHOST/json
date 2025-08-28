@@ -71,13 +71,14 @@ http://185.189.225.150:85/boing/index.m3u8
 #EXTINF:-1 tvg-id="Nickelodeon" tvg-name="Nickelodeon" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjeJ29QA1YgeECiGIvyfNtr--OaMW7VidAgMG-T5Sane_4jmoCDNCzLTV7g4qdVgRNeZqve3lEBzEb3tFIwZN23kSugJXSKtcfN9ExDf0q5EInIiUP_aCM2EP5bEd2Eda0_eljLXdthYQDoCZtcU5j2jTOa9j9eIaoS0bAam_o2IoihidbTugfcgAd0G2E/s640/NickSplat2023.png" group-title="Infantil", 
 http://185.189.225.150:85/nickelodeon/index.m3u8
 
-#EXTINF:-1 tvg-id="REDBULL.us" tvg-name="REDBULL" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnkzJliMFPf4ubDb42pMmKcIlLr6N4HEVFRQ&s" group-title="Desportes", RED BULL 
+#EXTINF:-1 tvg-id="REDBULL.us" tvg-name="REDBULL" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnkzJliMFPf4ubDb42pMmKcIlLr6N4HEVFRQ&s" group-title="Deportes", RED BULL 
 https://3ea22335.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWdiX1JlZEJ1bGxUVl9ITFM/playlist.m3u8
 
-#EXTINF:-1 tvg-id="Wipeout.us" tvg-name="Wipeout" tvg-logo="https://upload.wikimedia.org/wikipedia/vi/5/53/Wipeout_2011_logo.png" group-title="Entretenimiento", Wipeout 
+#EXTINF:-1 tvg-id="Wipeout.us" tvg-name="Wipeout" tvg-logo="https://upload.wikimedia.org/wikipedia/vi/5/53/Wipeout_2011_logo.png" group-title="Infantil", Wipeout 
 http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/604f8125c6669b00077f7699/master.m3u8?deviceType=unknown&deviceMake=unknown&deviceM
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
+#EXTINF:-1 tvg-id="Plutotv" tvg-name="Pluto TV Anime" tvg-logo="https://images.pluto.tv/channels/608181d420fc8500075f612a/featuredImage_1747395462700.jpg?auto=&q=70&fit=fill&fill=blur&ixlib=react-9.1.5" group-title="Adolescente", Pluto TV Anime
+https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/608035b8d8705f0007260287/master.m3u8?deviceType=unknown&deviceMake=u
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
 
