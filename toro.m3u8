@@ -22,14 +22,18 @@ http://185.189.225.150:85/LaSexta/index.m3u8
 
 
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
-
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
-
-
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
+#EXTINF:-1 tvg-id="Telecinco.es" tvg-name="Telecinco" tvg-logo="https://fotografias.larazon.es/clipping/cmsimages02/2024/08/30/3DD0E2BA-4BE0-4612-A053-1C37DE834C09/telecinco-revoluciona-imagen-cortinillas-slow-motion-modo-noche-innovador_98.jpg?crop=1024,576,x0,y0&width=1900&height=1069&optimize=low&format=webply" group-title="Noticias",Telecinco 
+http://185.189.225.150:85/TeleCincoHD/index.m3u8
 
 
+#EXTINF:-1 tvg-id="Antena3.es" tvg-name="Antena 3" tvg-logo="https://fotografias.antena3.com/clipping/cmsimages02/2025/01/27/62AFA8B2-2481-4117-9FE5-F5041DBD43A4/antena3-logo-principal_96.jpg?crop=2720,1530,x0,y0&width=1200&height=675&optimize=low&format=jpg" group-title="Noticias",Antena 3 
+http://185.189.225.150:85/Antena3HD/index.m3u8
+
+
+
+
+#EXTINF:-1 tvg-id="CanalSur.es" tvg-name="Canal Sur" tvg-logo="https://www.canalsur.es/resources/archivos_offline/2020/9/1/159894700333503_LOGO_CSRTV_NEGATIVO_HORIZONTAL.jpg" group-title="Noticias",Canal Sur
+https://live-24-canalsur.interactvty.pro/9bb0f4edcb8946e79f5017ddca6c02b0/26af5488cda642ed2eddd27a6328c93b9c03e9181b9d0a825147a7d978
 
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
