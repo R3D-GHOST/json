@@ -97,7 +97,8 @@ http://185.189.225.157/EuroSport2/index.m3u8
 #EXTINF:-1 tvg-id="Castilla la Mancha media.es" tvg-name="Castilla la Mancha Media" tvg-logo="https://yt3.googleusercontent.com/WTjfmzMvfNTJUGWNt-vuqh3l4Io_wCa6URgrJKO1lcmwU4adCNxrughq9vsyU724J-ZGrHa1GcU=s900-c-k-c0x00ffffff-no-rj" group-title="Noticias", Castilla la Mancha Media 
 https://cdnapisec.kaltura.com/p/2288691/sp/228869100/playManifest/entryId/1_sqa9madm/protocol/https/format/applehttp/a.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
+#EXTINF:-1 tvg-id="realmadrid.es" tvg-name="Real Madrid TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHuCwPz8o7yq5uwhbbDivBOLHjhy7Oooa2PQ&s" group-title="Deportes", Real Madrid TV
+https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
 
