@@ -118,6 +118,16 @@ https://live20.bozztv.com/giatvplayout7/giatv-208410/playlist.m3u8
 
 
 
+
+
+
+
+
+
+
+
+
+
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe_16jOpFaQ-u0WfgBf7HOVBtroJAlxFQg7Q&s" group-title="Deportes", ESPN
 https://cdn1.intercom.cdn.moderntv.eu/intercom/stream/ESPN/40-hls/live-media.m3u8
 
@@ -145,6 +155,63 @@ https://cdn1.intercom.cdn.moderntv.eu/intercom/stream/ESPN7/40-hls/live-media.m3
 
 #EXTINF:-1 tvg-logo="https://play-lh.googleusercontent.com/oRYBaA2ZU5oF5d9R6wOuqT24jaWhrWSRXH8fjwgs-9d4rEPwMBpk9aelQSvxqZ4NEw=w240-h480-rw" group-title="Entrenamiento", History
 https://cdn1.intercom.cdn.moderntv.eu/intercom/stream/HISTORY1/40-hls/live-media.m3u8
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#EXTINF:-1 tvg-logo="https://static1.cbrimages.com/wordpress/wp-content/uploads/2023/06/ezgif-com-webp-to-jpg.jpg" group-title="Netflix", Netflix
+http://xcm.budtv-ultra.com:9000/budtv/websline/eWmWuCeW3j9F/168559.m3u8
+
+#EXTINF:-1 tvg-logo="https://static1.cbrimages.com/wordpress/wp-content/uploads/2023/06/ezgif-com-webp-to-jpg.jpg" group-title="Netflix", Netflix 2
+http://xcm.budtv-ultra.com:9000/budtv/websline/eWmWuCeW3j9F/168562.m3u8
+
+#EXTINF:-1 tvg-logo="https://static1.cbrimages.com/wordpress/wp-content/uploads/2023/06/ezgif-com-webp-to-jpg.jpg" group-title="Netflix", Netflix 3
+http://xcm.budtv-ultra.com:9000/budtv/websline/eWmWuCeW3j9F/168563.m3u8
+
+#EXTINF:-1 tvg-logo="https://static1.cbrimages.com/wordpress/wp-content/uploads/2023/06/ezgif-com-webp-to-jpg.jpg" group-title="Netflix", Netflix 4
+http://xcm.budtv-ultra.com:9000/budtv/websline/eWmWuCeW3j9F/168564.m3u8
+
+#EXTINF:-1 tvg-logo="https://static1.cbrimages.com/wordpress/wp-content/uploads/2023/06/ezgif-com-webp-to-jpg.jpg" group-title="Netflix", Netflix 5
+http://xcm.budtv-ultra.com:9000/budtv/websline/eWmWuCeW3j9F/168565.m3u8
+
+#EXTINF:-1 tvg-logo="https://static1.cbrimages.com/wordpress/wp-content/uploads/2023/06/ezgif-com-webp-to-jpg.jpg" group-title="Netflix", Netflix 6
+http://xcm.budtv-ultra.com:9000/budtv/websline/eWmWuCeW3j9F/168566.m3u8
+
+#EXTINF:-1 tvg-logo="https://static1.cbrimages.com/wordpress/wp-content/uploads/2023/06/ezgif-com-webp-to-jpg.jpg" group-title="Netflix", Netflix 7
+http://xcm.budtv-ultra.com:9000/budtv/websline/eWmWuCeW3j9F/168567.m3u8
+
+#EXTINF:-1 tvg-logo="https://static1.cbrimages.com/wordpress/wp-content/uploads/2023/06/ezgif-com-webp-to-jpg.jpg" group-title="Netflix", Netflix 8
+http://xcm.budtv-ultra.com:9000/budtv/websline/eWmWuCeW3j9F/168568.m3u8
+
+#EXTINF:-1 tvg-logo="https://static1.cbrimages.com/wordpress/wp-content/uploads/2023/06/ezgif-com-webp-to-jpg.jpg" group-title="Netflix", Netflix 9
+http://xcm.budtv-ultra.com:9000/budtv/websline/eWmWuCeW3j9F/168569.m3u8
+
+#EXTINF:-1 tvg-logo="https://static1.cbrimages.com/wordpress/wp-content/uploads/2023/06/ezgif-com-webp-to-jpg.jpg" group-title="Netflix", Netflix 10
+http://xcm.budtv-ultra.com:9000/budtv/websline/eWmWuCeW3j9F/168570.m3u8
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
