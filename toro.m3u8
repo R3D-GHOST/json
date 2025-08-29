@@ -114,6 +114,39 @@ https://live20.bozztv.com/giatvplayout7/giatv-208708/playlist.m3u8
 https://live20.bozztv.com/giatvplayout7/giatv-208410/playlist.m3u8
 
 
+
+
+
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe_16jOpFaQ-u0WfgBf7HOVBtroJAlxFQg7Q&s" group-title="Deportes", ESPN
+https://cdn1.intercom.cdn.moderntv.eu/intercom/stream/ESPN/40-hls/live-media.m3u8
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe_16jOpFaQ-u0WfgBf7HOVBtroJAlxFQg7Q&s" group-title="Deportes", ESPN2
+https://cdn1.intercom.cdn.moderntv.eu/intercom/stream/ESPN2/40-hls/live-media.m3u8
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe_16jOpFaQ-u0WfgBf7HOVBtroJAlxFQg7Q&s" group-title="Deportes", ESPN3
+https://cdn1.intercom.cdn.moderntv.eu/intercom/stream/ESPN3/40-hls/live-media.m3u8
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe_16jOpFaQ-u0WfgBf7HOVBtroJAlxFQg7Q&s" group-title="Deportes", ESPN5
+https://cdn1.intercom.cdn.moderntv.eu/intercom/stream/ESPN5/40-hls/live-media.m3u8
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe_16jOpFaQ-u0WfgBf7HOVBtroJAlxFQg7Q&s" group-title="Deportes", ESPN6
+https://cdn1.intercom.cdn.moderntv.eu/intercom/stream/ESPN6/40-hls/live-media.m3u8
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe_16jOpFaQ-u0WfgBf7HOVBtroJAlxFQg7Q&s" group-title="Deportes", ESPN7
+https://cdn1.intercom.cdn.moderntv.eu/intercom/stream/ESPN7/40-hls/live-media.m3u8
+
+
+
+
+
+
+
+
+
+
+
+
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
 
