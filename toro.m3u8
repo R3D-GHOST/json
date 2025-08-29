@@ -1,5 +1,10 @@
 
 
+#EXTINF:-1 tvg-logo="http://x.playerlatino.live/ligadecampeones.png" group-title="Deportes",Liga de Campeones
+#EXTVLCOPT:http-user-agent=dfghdfghfghdfghdfg
+http://user.tvcluboficial.com/live/m/m/890.m3u8
+
+
 
 
 
