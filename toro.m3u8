@@ -107,7 +107,8 @@ https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/65c69ee3d77d450008c80
 #EXTINF:-1 tvg-id="dbz.lt" tvg-name="Dragón Ball Z" tvg-logo="https://areajugones.sport.es/wp-content/uploads/2024/11/diferencias-dragon-ball-z-y-z-kai-1-1560x880.jpg.webp" group-title="Infantil", Dragón ball Z 
 https://live20.bozztv.com/giatvplayout7/giatv-208725/playlist.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
+#EXTINF:-1 tvg-id="dbsuper.lt" tvg-name="Dragón Ball Super" tvg-logo="https://http2.mlstatic.com/D_NQ_NP_937665-MLB54982748474_042023-O-painel-festa-banner-dragonball-dragon-ball-120x80.webp" group-title="Infantil", Dragón ball Super 
+https://live20.bozztv.com/giatvplayout7/giatv-208708/playlist.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
 
