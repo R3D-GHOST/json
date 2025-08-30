@@ -2,8 +2,7 @@
 
 #EXTM3U
 
-#EXTINF:-1 tvg-id="mlaliga" tvg-name="LaLiga Eventos" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO8-9d8hRMvFwVEmTbVNZZ6YDSphNeXFQg8A&s" group-title="Deportes",LaLiga 
-http://URL_DEL_STREAM.m3u8
+
 
 
 
@@ -225,77 +224,10 @@ http://xcm.budtv-ultra.com:9000/budtv/websline/eWmWuCeW3j9F/168570.m3u8
 
 
 
+#EXTINF:-1 tvg-id="mlaliga" tvg-name="LaLiga Eventos" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO8-9d8hRMvFwVEmTbVNZZ6YDSphNeXFQg8A&s" group-title="Eventos",La Liga 
+,
 
 
-
-
-
-
-
-
-
-
-
-
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
-
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
-
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
-
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
-
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
-
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
-
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
-
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
-
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
-
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
-
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
-
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
-
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
-
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
-
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
-
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
-
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
-
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
-
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
-
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
-
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
-
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
-
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
-
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
-
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
-
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
-
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
-
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="", 
 
 
 
