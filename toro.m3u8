@@ -7,13 +7,13 @@
 
 
 #EXTINF:-1 tvg-id="" tvg-name="LaLiga MOVISTAR" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcHPG9APUnrCs-3DFp4bowsSAov7SX5y--bg&s" group-title="Deportes", La Liga Movistar
-
+https://cdn1.intercom.cdn.moderntv.eu/intercom/stream/ESPN/40-hls/live-media.m3u8
 
 
 
 
 #EXTINF:-1 tvg-id="" tvg-name="LaLiga DAZN" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6DRGyqTOx-1p02IdZIoHYoMbQ1h69CZ--JA&s" group-title="Deportes", La Liga Dazn
-
+http://ejemplo.com/tv.m3u8
 
 
 #EXTINF:-1 tvg-id="" tvg-name="DAZN" tvg-logo="" group-title="Deportes", DAZN 1 
