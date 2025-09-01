@@ -107,6 +107,10 @@ https://fl1.moveonjoy.com/UFC/index.m3u8
 #EXTINF:-1 tvg-id="Tennis.us" tvg-name="Tennis Channel" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-3bN5mrNJZaOUYhpxcx5gevMwmvQkQ81umQ&s" group-title="Deportes", Tennis Channel 
 https://tennischannel-int-samsunguk.amagi.tv/playlist.m3u8
 
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrLKHc9tcIsp5SNof6JlNGX_83WdvuWroXlg&s" group-title="Deportes", Movistar Liga de Campeones
+https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
+
 
 
 #EXTINF:-1 tvg-id="AMC.es" tvg-name="AMC" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROm3tfy7w_dbrPuWAvOxUBY0pgmxEb6E1dYw&s" group-title="Entretenimiento", AMC 
@@ -162,6 +166,9 @@ https://user.tvcluboficial.com/live/m/m/427.m3u8
 
 
 
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://statics.goltelevision.com/shared/assets/logos/og-image2.jpg", GOLTV
+https://cdn1.intercom.cdn.moderntv.eu/intercom/stream/GOLTV/40-hls/live-media.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe_16jOpFaQ-u0WfgBf7HOVBtroJAlxFQg7Q&s" group-title="Deportes", ESPN
@@ -240,9 +247,6 @@ http://xcm.budtv-ultra.com:9000/budtv/websline/eWmWuCeW3j9F/168570.m3u8
 
 
 
-#EXTM3U
-#EXTINF:-1 tvg-logo="https://statics.goltelevision.com/shared/assets/logos/og-image2.jpg", GOLTV
-https://cdn1.intercom.cdn.moderntv.eu/intercom/stream/GOLTV/40-hls/live-media.m3u8
 
  
 
