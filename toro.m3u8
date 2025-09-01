@@ -1,5 +1,8 @@
 
 
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdFK_heqWba22Mvq468L1tEM42AcS0CHGuiA&s", DSPORTS
+http://179.63.6.17:9000/play/a08e
 
 
 
