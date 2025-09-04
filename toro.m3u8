@@ -155,6 +155,12 @@ https://live20.bozztv.com/giatvplayout7/giatv-208410/playlist.m3u8
 
 
 
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiiKzKFRJL66mY76SgPuG_1u6j3r2nABbJnw&s" group-title="Entretenimiento",NATGEO
+https://cdn1.intercom.cdn.moderntv.eu/intercom/stream/NATGEO/40-hls/live-media.m3u8
+
+
+
 
 
 
