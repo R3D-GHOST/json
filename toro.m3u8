@@ -63,7 +63,7 @@ http://185.189.225.150:85/Antena3HD/index.m3u8
 
 
 
-#EXTINF:-1 tvg-id="CanalSur.es" tvg-name="Canal Sur" tvg-logo="https://www.canalsur.es/resources/archivos_offline/2020/9/1/159894700333503_LOGO_CSRTV_NEGATIVO_HORIZONTAL.jpg" group-title="Noticias",Canal Sur
+#EXTINF:-1 tvg-id="CanalSur.es" tvg-name="Canal Sur" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8Dy3GOcLxWnQnp0zMlCsg2LkEO7ikL6Xm8Q&s" group-title="Noticias",Canal Sur
 https://cdnlive.codev8.net/rtvalive/smil:channel42.smil/playlist.m3u8
 
 
