@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -36,7 +35,7 @@ body {
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
     background-image: url('');
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -87,6 +86,35 @@ body {
 }
 
 .watch-button:hover { background: #f40612; transform: scale(1.05); }
+
+/* Controles mini-slider En Directo */
+.direct-slider {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.direct-arrow {
+    cursor: pointer;
+    font-size: 2rem;
+    color: var(--primary-color);
+    user-select: none;
+    padding: 0 10px;
+}
+.direct-channel {
+    flex: 0 0 auto;
+    width: 80px;
+    height: 45px;
+    margin: 0 5px;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.direct-channel.selected {
+    border-color: var(--primary-color);
+}
 
 /* Main contenido */
 .main-content {
@@ -139,6 +167,7 @@ body {
     .hero-content { padding:40px 20px; }
     .match-title { font-size:2.5rem; }
     .channel-card-landscape { width:240px; height:135px; }
+    .direct-channel { width:60px; height:35px; }
 }
     </style>
 </head>
@@ -152,6 +181,9 @@ body {
                 <h1 class="match-title">Cargando...</h1>
                 <p class="match-subtitle">EN VIVO •</p>
                 <a href="#" class="watch-button" target="_blank">En Directo</a>
+
+                <!-- Mini-slider En Directo -->
+                <div class="direct-slider" id="direct-slider"></div>
             </div>
         </div>
     </header>
@@ -199,10 +231,9 @@ async function cargarM3U8(url) {
 
 function renderCanales(canales) {
     const container = document.getElementById('slider-canales');
-    // Filtrar para excluir el grupo "En Directo" del slider
     const canalesRestantes = canales.filter(canal => canal.grupo !== "En Directo");
-    
-    canalesRestantes.forEach((canal, index) => {
+
+    canalesRestantes.forEach(canal => {
         const div = document.createElement('div');
         div.className = 'channel-card-landscape';
 
@@ -247,19 +278,37 @@ function actualizarHeader(canal) {
     if (canal) {
         matchTitle.textContent = canal.nombre;
         watchButton.href = canal.url;
-
-        // Usar logo si existe, si no, imagen de fallback
         const logoUrl = canal.logo || 'https://via.placeholder.com/800x450?text=En+Directo';
         heroBackground.style.backgroundImage = `url(${logoUrl})`;
     }
 }
 
+function renderDirectSlider(canalesEnDirecto) {
+    const slider = document.getElementById('direct-slider');
+    slider.innerHTML = '';
+    canalesEnDirecto.forEach((canal, idx) => {
+        const div = document.createElement('div');
+        div.className = 'direct-channel';
+        if (idx === 0) div.classList.add('selected');
+        div.style.backgroundImage = canal.logo ? `url(${canal.logo})` : 'none';
+        div.title = canal.nombre;
+        div.addEventListener('click', () => {
+            document.querySelectorAll('.direct-channel').forEach(c => c.classList.remove('selected'));
+            div.classList.add('selected');
+            actualizarHeader(canal);
+        });
+        slider.appendChild(div);
+    });
+}
+
 (async function init() {
     const canales = await cargarM3U8("https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/toro.m3u8");
-    
-    // Tomar primer canal "En Directo" para header
-    const canalEnDirecto = canales.find(canal => canal.grupo === "En Directo");
-    if (canalEnDirecto) actualizarHeader(canalEnDirecto);
+
+    const canalesEnDirecto = canales.filter(canal => canal.grupo === "En Directo");
+    if (canalesEnDirecto.length > 0) {
+        actualizarHeader(canalesEnDirecto[0]);
+        renderDirectSlider(canalesEnDirecto);
+    }
 
     renderCanales(canales);
 })();
