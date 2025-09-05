@@ -3,17 +3,6 @@
 #EXTINF:-1 tvg-id="" tvg-name="LaLiga MOVISTAR" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcHPG9APUnrCs-3DFp4bowsSAov7SX5y--bg&s" group-title="En Directo", La Liga Movistar
 https://cdn1.intercom.cdn.moderntv.eu/intercom/stream/ESPN/40-hls/live-media.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="LaLiga DAZN" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6DRGyqTOx-1p02IdZIoHYoMbQ1h69CZ--JA&s" group-title="Deportes", La Liga Dazn
-http://ejemplo.com/tv.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="DAZN" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVkmgZZMucNuUseV7TWtukF_JFmkPA1C2Lyg&s" group-title="Deportes", DAZN 1
-http://ejemplo.com/test.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="DAZN 2" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRaNURxwzJTkPwUEq_nbjq87GXMjo1TWYdZQ&s" group-title="Deportes", DAZN 2
-http://ejemplo.com/dazn.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="DAZN F1" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpEgPmqhKEhMoYgrZRkDh0F0MG_qiT3xngUg&s" group-title="Deportes", DAZN F1
-http://ejemplo.com/f1.m3u8
 
 
 
@@ -98,9 +87,6 @@ https://fl1.moveonjoy.com/UFC/index.m3u8
 #EXTINF:-1 tvg-id="Tennis.us" tvg-name="Tennis Channel" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-3bN5mrNJZaOUYhpxcx5gevMwmvQkQ81umQ&s" group-title="Deportes", Tennis Channel 
 https://tennischannel-int-samsunguk.amagi.tv/playlist.m3u8
 
-#EXTM3U
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrLKHc9tcIsp5SNof6JlNGX_83WdvuWroXlg&s" group-title="Deportes", Movistar Liga de Campeones
-https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
 
 
 
@@ -108,9 +94,7 @@ https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tear
 http://vegafibratv.com:8085/AMC/index.m3u8
 
 #EXTINF:-1 tvg-id="Mega.es" tvg-name="Mega" tvg-logo="https://pbs.twimg.com/profile_images/1809497033092272128/IhEJs_Hn_200x200.jpg" group-title="Entretenimiento", Mega 
-http://185.189.225.150:85/mega/index.m3u8
-
-#EXTINF:-1 tvg-id="Bein Sport ñ" tvg-name="Bein Sport ñ" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx2e72uAXdo6Jl3oBZhjqjysZQ8AVZNtlHwg&s" group-title="Deportes", Bein Sport ñ 
+http://185.189.225.150:85/mega/index.m3u8#EXTINF:-1 tvg-id="Bein Sport ñ" tvg-name="Bein Sport ñ" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx2e72uAXdo6Jl3oBZhjqjysZQ8AVZNtlHwg&s" group-title="Deportes", Bein Sport ñ 
 https://bein-esp-xumo.amagi.tv/playlistR1080p.m3u8
 
 
@@ -139,11 +123,6 @@ https://live20.bozztv.com/giatvplayout7/giatv-208708/playlist.m3u8
 #EXTINF:-1 tvg-id="losimpon.lt" tvg-name="Los Simpson" tvg-logo="https://static.posters.cz/image/hp/71043.jpg" group-title="Infantil", Los Simpson 
 https://live20.bozztv.com/giatvplayout7/giatv-208410/playlist.m3u8
 
-
-
-
-#EXTINF:-1 tvg-logo="https://torosdelidia.es/wp-content/uploads/2024/04/ONE-TORO-ANUNCIO.jpg" group-title="Deportes", Onetoro
-https://bigboss.bemtv.cn/STREAM/23021/chunks.m3u8
 
 
 
