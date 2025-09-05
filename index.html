@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>IPTV La Liga</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <style>
+<meta charset="UTF-8">
+<title>IPTV La Liga</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
 :root {
     --primary-color: #e50914;
     --bg-dark: #0a0a0a;
@@ -38,7 +38,11 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    transition: opacity 1s ease, background-image 0.5s ease;
+    opacity: 1;
 }
+
+.hero-background.fade-out { opacity: 0; }
 
 .hero-background::before {
     content: '';
@@ -63,7 +67,10 @@ body {
     font-weight: 800;
     margin-bottom: 8px;
     text-shadow: 3px 3px 6px rgba(0,0,0,0.8);
+    transition: opacity 0.5s ease;
 }
+
+.match-title.fade { opacity: 0; }
 
 .match-subtitle {
     font-size: 1.3rem;
@@ -92,19 +99,13 @@ body {
     display: flex;
     align-items: center;
     margin-top: 20px;
-}
-.direct-arrow {
-    cursor: pointer;
-    font-size: 2rem;
-    color: var(--primary-color);
-    user-select: none;
-    padding: 0 10px;
+    overflow-x: auto;
+    gap: 5px;
 }
 .direct-channel {
     flex: 0 0 auto;
     width: 80px;
     height: 45px;
-    margin: 0 5px;
     background-size: cover;
     background-position: center;
     border: 2px solid transparent;
@@ -112,9 +113,7 @@ body {
     cursor: pointer;
     transition: all 0.3s ease;
 }
-.direct-channel.selected {
-    border-color: var(--primary-color);
-}
+.direct-channel.selected { border-color: var(--primary-color); }
 
 /* Main contenido */
 .main-content {
@@ -169,31 +168,31 @@ body {
     .channel-card-landscape { width:240px; height:135px; }
     .direct-channel { width:60px; height:35px; }
 }
-    </style>
+</style>
 </head>
 <body>
 
-    <!-- Header -->
-    <header class="hero-section">
-        <div class="hero-background"></div>
-        <div class="hero-content">
-            <div class="match-info-left">
-                <h1 class="match-title">Cargando...</h1>
-                <p class="match-subtitle">EN VIVO •</p>
-                <a href="#" class="watch-button" target="_blank">En Directo</a>
+<!-- Header -->
+<header class="hero-section">
+    <div class="hero-background"></div>
+    <div class="hero-content">
+        <div class="match-info-left">
+            <h1 class="match-title">Cargando...</h1>
+            <p class="match-subtitle">EN VIVO •</p>
+            <a href="#" class="watch-button" target="_blank">En Directo</a>
 
-                <!-- Mini-slider En Directo -->
-                <div class="direct-slider" id="direct-slider"></div>
-            </div>
+            <!-- Mini-slider En Directo -->
+            <div class="direct-slider" id="direct-slider"></div>
         </div>
-    </header>
+    </div>
+</header>
 
-    <!-- Slider de canales -->
-    <main class="main-content">
-        <div class="channels-horizontal-scroll" id="slider-canales"></div>
-    </main>
+<!-- Slider de canales -->
+<main class="main-content">
+    <div class="channels-horizontal-scroll" id="slider-canales"></div>
+</main>
 
-    <script>
+<script>
 async function cargarM3U8(url) {
     try {
         const resp = await fetch(url);
@@ -275,12 +274,18 @@ function actualizarHeader(canal) {
     const watchButton = document.querySelector('.watch-button');
     const heroBackground = document.querySelector('.hero-background');
 
-    if (canal) {
+    // Animación fade
+    matchTitle.classList.add('fade');
+    heroBackground.classList.add('fade-out');
+
+    setTimeout(() => {
         matchTitle.textContent = canal.nombre;
         watchButton.href = canal.url;
         const logoUrl = canal.logo || 'https://via.placeholder.com/800x450?text=En+Directo';
         heroBackground.style.backgroundImage = `url(${logoUrl})`;
-    }
+        matchTitle.classList.remove('fade');
+        heroBackground.classList.remove('fade-out');
+    }, 500);
 }
 
 function renderDirectSlider(canalesEnDirecto) {
@@ -296,23 +301,47 @@ function renderDirectSlider(canalesEnDirecto) {
             document.querySelectorAll('.direct-channel').forEach(c => c.classList.remove('selected'));
             div.classList.add('selected');
             actualizarHeader(canal);
+            clearInterval(autoRotate); // reset automatic rotation al hacer clic
+            startAutoRotate(); // reinicia
         });
         slider.appendChild(div);
     });
 }
 
+// Rotación automática
+let currentIndex = 0;
+let autoRotate;
+
+function startAutoRotate() {
+    const canalesEnDirecto = Array.from(document.querySelectorAll('.direct-channel'));
+    if (canalesEnDirecto.length <= 1) return;
+
+    autoRotate = setInterval(() => {
+        canalesEnDirecto[currentIndex].classList.remove('selected');
+        currentIndex = (currentIndex + 1) % canalesEnDirecto.length;
+        canalesEnDirecto[currentIndex].classList.add('selected');
+
+        // Actualizar header al canal actual
+        const canal = canalesData[currentIndex];
+        actualizarHeader(canal);
+    }, 30000); // cada 5 segundos
+}
+
+let canalesData = [];
+
 (async function init() {
     const canales = await cargarM3U8("https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/toro.m3u8");
 
-    const canalesEnDirecto = canales.filter(canal => canal.grupo === "En Directo");
-    if (canalesEnDirecto.length > 0) {
-        actualizarHeader(canalesEnDirecto[0]);
-        renderDirectSlider(canalesEnDirecto);
+    canalesData = canales.filter(canal => canal.grupo === "En Directo");
+    if (canalesData.length > 0) {
+        actualizarHeader(canalesData[0]);
+        renderDirectSlider(canalesData);
+        startAutoRotate();
     }
 
     renderCanales(canales);
 })();
-    </script>
+</script>
 
 </body>
 </html>
