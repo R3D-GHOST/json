@@ -1,33 +1,24 @@
+#EXTM3U
 
-
-
-
-
-
-
-#EXTINF:-1 tvg-id="" tvg-name="LaLiga MOVISTAR" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcHPG9APUnrCs-3DFp4bowsSAov7SX5y--bg&s" group-title="Deportes", La Liga Movistar
+#EXTINF:-1 tvg-id="" tvg-name="LaLiga MOVISTAR" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcHPG9APUnrCs-3DFp4bowsSAov7SX5y--bg&s" group-title="En Directo", La Liga Movistar
 https://cdn1.intercom.cdn.moderntv.eu/intercom/stream/ESPN/40-hls/live-media.m3u8
-
-
-
 
 #EXTINF:-1 tvg-id="" tvg-name="LaLiga DAZN" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6DRGyqTOx-1p02IdZIoHYoMbQ1h69CZ--JA&s" group-title="Deportes", La Liga Dazn
 http://ejemplo.com/tv.m3u8
 
-
-#EXTINF:-1 tvg-id="" tvg-name="DAZN" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVkmgZZMucNuUseV7TWtukF_JFmkPA1C2Lyg&s" group-title="Deportes", DAZN 1 
+#EXTINF:-1 tvg-id="" tvg-name="DAZN" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVkmgZZMucNuUseV7TWtukF_JFmkPA1C2Lyg&s" group-title="Deportes", DAZN 1
 http://ejemplo.com/test.m3u8
 
-
-
-#EXTINF:-1 tvg-id="" tvg-name="DAZN 2" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRaNURxwzJTkPwUEq_nbjq87GXMjo1TWYdZQ&s" group-title="Deportes",DAZN 2
+#EXTINF:-1 tvg-id="" tvg-name="DAZN 2" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRaNURxwzJTkPwUEq_nbjq87GXMjo1TWYdZQ&s" group-title="Deportes", DAZN 2
 http://ejemplo.com/dazn.m3u8
 
-
-
-
-#EXTINF:-1 tvg-id="" tvg-name="DAZN F1" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpEgPmqhKEhMoYgrZRkDh0F0MG_qiT3xngUg&s" group-title="Deportes",DAZN F1 
+#EXTINF:-1 tvg-id="" tvg-name="DAZN F1" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpEgPmqhKEhMoYgrZRkDh0F0MG_qiT3xngUg&s" group-title="Deportes", DAZN F1
 http://ejemplo.com/f1.m3u8
+
+
+
+
+
 
 #EXTM3U
 
