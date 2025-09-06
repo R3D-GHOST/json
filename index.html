@@ -94,27 +94,6 @@ body {
 
 .watch-button:hover { background: #f40612; transform: scale(1.05); }
 
-/* Controles mini-slider En Directo */
-.direct-slider {
-    display: flex;
-    align-items: center;
-    margin-top: 20px;
-    overflow-x: auto;
-    gap: 5px;
-}
-.direct-channel {
-    flex: 0 0 auto;
-    width: 80px;
-    height: 45px;
-    background-size: cover;
-    background-position: center;
-    border: 2px solid transparent;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-.direct-channel.selected { border-color: var(--primary-color); }
-
 /* Main contenido */
 .main-content {
     padding: 40px 20px;
@@ -166,7 +145,6 @@ body {
     .hero-content { padding:40px 20px; }
     .match-title { font-size:2.5rem; }
     .channel-card-landscape { width:240px; height:135px; }
-    .direct-channel { width:60px; height:35px; }
 }
 </style>
 </head>
@@ -180,9 +158,6 @@ body {
             <h1 class="match-title">Cargando...</h1>
             <p class="match-subtitle">EN VIVO •</p>
             <a href="#" class="watch-button" target="_blank">En Directo</a>
-
-            <!-- Mini-slider En Directo -->
-            <div class="direct-slider" id="direct-slider"></div>
         </div>
     </div>
 </header>
@@ -230,6 +205,7 @@ async function cargarM3U8(url) {
 
 function renderCanales(canales) {
     const container = document.getElementById('slider-canales');
+    // Filtrar para no mostrar los canales del grupo "En Directo" en el slider
     const canalesRestantes = canales.filter(canal => canal.grupo !== "En Directo");
 
     canalesRestantes.forEach(canal => {
@@ -274,7 +250,6 @@ function actualizarHeader(canal) {
     const watchButton = document.querySelector('.watch-button');
     const heroBackground = document.querySelector('.hero-background');
 
-    // Animación fade
     matchTitle.classList.add('fade');
     heroBackground.classList.add('fade-out');
 
@@ -288,55 +263,19 @@ function actualizarHeader(canal) {
     }, 500);
 }
 
-function renderDirectSlider(canalesEnDirecto) {
-    const slider = document.getElementById('direct-slider');
-    slider.innerHTML = '';
-    canalesEnDirecto.forEach((canal, idx) => {
-        const div = document.createElement('div');
-        div.className = 'direct-channel';
-        if (idx === 0) div.classList.add('selected');
-        div.style.backgroundImage = canal.logo ? `url(${canal.logo})` : 'none';
-        div.title = canal.nombre;
-        div.addEventListener('click', () => {
-            document.querySelectorAll('.direct-channel').forEach(c => c.classList.remove('selected'));
-            div.classList.add('selected');
-            actualizarHeader(canal);
-            clearInterval(autoRotate); // reset automatic rotation al hacer clic
-            startAutoRotate(); // reinicia
-        });
-        slider.appendChild(div);
-    });
-}
-
-// Rotación automática
-let currentIndex = 0;
-let autoRotate;
-
-function startAutoRotate() {
-    const canalesEnDirecto = Array.from(document.querySelectorAll('.direct-channel'));
-    if (canalesEnDirecto.length <= 1) return;
-
-    autoRotate = setInterval(() => {
-        canalesEnDirecto[currentIndex].classList.remove('selected');
-        currentIndex = (currentIndex + 1) % canalesEnDirecto.length;
-        canalesEnDirecto[currentIndex].classList.add('selected');
-
-        // Actualizar header al canal actual
-        const canal = canalesData[currentIndex];
-        actualizarHeader(canal);
-    }, 5000); // cada 5 segundos
-}
-
-let canalesData = [];
-
 (async function init() {
     const canales = await cargarM3U8("https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/toro.m3u8");
 
-    canalesData = canales.filter(canal => canal.grupo === "En Directo");
-    if (canalesData.length > 0) {
-        actualizarHeader(canalesData[0]);
-        renderDirectSlider(canalesData);
-        startAutoRotate();
+    const canalesEnDirecto = canales.filter(canal => canal.grupo === "En Directo");
+    if (canalesEnDirecto.length > 0) {
+        actualizarHeader(canalesEnDirecto[0]);
+
+        // Rotación automática cada 10 segundos
+        let idx = 0;
+        setInterval(() => {
+            idx = (idx + 1) % canalesEnDirecto.length;
+            actualizarHeader(canalesEnDirecto[idx]);
+        }, 10000);
     }
 
     renderCanales(canales);
