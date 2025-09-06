@@ -1,5 +1,8 @@
 #EXTM3U
 
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ62pNUwZWkS637Nj8c3yf5e4Uiq7_WLKqvaQ&s" group-title="En Directo", Toros 
+https://cdnapisec.kaltura.com/p/2288691/sp/228869100/playManifest/entryId/1_sqa9madm/protocol/https/format/applehttp/a.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=1f3zmlzr4pamc1jnkm6bjh64of_image-header_pEs_1704473541000" group-title="En Directo", LaLiga Hypermotion
 
@@ -9,8 +12,7 @@
 https://d3bb58xoj568xi.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-don7i7nmbho0q/index.m3u8
 
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ62pNUwZWkS637Nj8c3yf5e4Uiq7_WLKqvaQ&s" group-title="En Directo", Toros 
-https://cdnapisec.kaltura.com/p/2288691/sp/228869100/playManifest/entryId/1_sqa9madm/protocol/https/format/applehttp/a.m3u8
+
 
 
 
