@@ -1,7 +1,7 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ62pNUwZWkS637Nj8c3yf5e4Uiq7_WLKqvaQ&s" group-title="En Directo", Toros 
-https://cdnapisec.kaltura.com/p/2288691/sp/228869100/playManifest/entryId/1_sqa9madm/protocol/https/format/applehttp/a.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://wallpapercave.com/wp/wp15057887.webp" group-title="En Directo", CINE 
+https://cdn1.intercom.cdn.moderntv.eu/intercom/stream/GOLDENEDGE/40-hls/live-media.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=1f3zmlzr4pamc1jnkm6bjh64of_image-header_pEs_1704473541000" group-title="En Directo", LaLiga Hypermotion
