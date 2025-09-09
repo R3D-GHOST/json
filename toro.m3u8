@@ -1,1 +1,165 @@
 
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=g4xuuh9i2y2b13yamobxm8men_image-header_pEs_1723035920000" group-title="En Directo", DAZN 1
+
+
+
+#EXTINF:-1 tvg-logo="https://images.pexels.com/photos/20772871/pexels-photo-20772871/free-photo-of-hombre-animal-sombrero-gorro.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" group-title="En Directo",  Toros - Hora:18:00
+https://cdnapisec.kaltura.com/p/2288691/sp/228869100/playManifest/entryId/1_sqa9madm/protocol/https/format/applehttp/a.m3u8
+
+
+
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://wallpapercave.com/wp/wp1894700.jpg" group-title="En Directo", La Liga Inside
+https://d3bb58xoj568xi.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-don7i7nmbho0q/index.m3u8
+
+
+
+
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="En Directo", 
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="En Directo", 
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="En Directo", 
+
+
+
+
+#EXTINF:-1 tvg-name="Antena 3" tvg-logo="https://i.imgur.com/j3SP4BS.png" tvg-id="Antena3.es" group-title="Spain",Antena 3
+http://185.189.225.150:85/Antena3HD/index.m3u8
+#EXTINF:-1 tvg-name="Cuatro" tvg-logo="https://i.imgur.com/zROxNap.png" tvg-id="Cuatro.es" group-title="Spain",Cuatro
+http://185.189.225.150:85/CuatroHD/index.m3u8
+#EXTINF:-1 tvg-name="Telecinco" tvg-logo="https://i.imgur.com/JECsKdk.png" tvg-id="Telecinco.es" group-title="Spain",Telecinco
+http://185.189.225.150:85/TeleCincoHD/index.m3u8
+#EXTINF:-1 tvg-name="La Sexta" tvg-logo="https://i.imgur.com/b59MxgM.png" tvg-id="LaSexta.es" group-title="Spain",La Sexta
+http://185.189.225.150:85/LaSexta/index.m3u8
+#EXTINF:-1 tvg-name="TVE Internacional Europe-Asia" tvg-logo="https://i.imgur.com/ow1HArj.png" tvg-id="TVEInternacionalEuropeAsia.es" group-title="Spain",TVE Internacional Europe-Asia
+https://rtvelivestream.akamaized.net/rtvesec/int/tvei_eu_main_dvr.m3u8
+#EXTINF:-1 tvg-name="Neox Ⓢ" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/spain/neox-es.png" tvg-id="Neox.es" group-title="Spain",Neox Ⓢ
+http://185.189.225.150:85/neox/index.m3u8
+#EXTINF:-1 tvg-name="Nova Ⓢ" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/spain/nova-es.png" tvg-id="Nova.es" group-title="Spain",Nova Ⓢ
+http://185.189.225.150:85/nova/index.m3u8
+#EXTINF:-1 tvg-name="Mega Ⓢ" tvg-logo="https://i.imgur.com/Udrt2eK.png" tvg-id="Mega.es" group-title="Spain",Mega Ⓢ
+http://185.189.225.150:85/mega/index.m3u8
+#EXTINF:-1 tvg-name="Atreseries Ⓢ" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/spain/atreseries-es.png" tvg-id="Atreseries.es" group-title="Spain",Atreseries Ⓢ
+http://181.78.109.48:8000/play/a00l/index.m3u8
+#EXTINF:-1 tvg-name="FDF" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/spain/fdf-es.png" tvg-id="FactoriadeFiccion.es" group-title="Spain",FDF
+http://185.189.225.150:85/fdf/index.m3u8
+
+#EXTINF:-1 tvg-name="Boing" tvg-logo="https://i.imgur.com/nUYuCAP.png" tvg-id="Boing.es" group-title="Spain",Boing
+http://185.189.225.150:85/boing/index.m3u8
+
+
+
+
+#EXTINF:-1 tvg-name="Telemadrid" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/TeleMadrid.svg/512px-TeleMadrid.svg.png" tvg-id="Telemadrid.es" group-title="Spain",Telemadrid
+https://telemadrid-23-secure2.akamaized.net/master.m3u8
+
+
+
+
+
+
+
+#EXTINF:-1 tvg-id="EuroSport" tvg-name="EuroSport" tvg-logo="https://imgresizer.eurosport.com/unsafe/2560x1440/filters:format(jpeg)/origin-imgresizer.eurosport.com/2015/11/12/1731323-36624686-2560-1440.png" group-title="Deportes", Eurosport 1 
+http://185.189.225.157/EuroSport1/index.m3u8
+
+#EXTINF:-1 tvg-id="Eurosport" tvg-name="Eurosport" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlef_ZQwj81xSKQKvw3kXWO9xUO4tL9bPXSA&s" group-title="Deportes", Eurosport 2 
+http://185.189.225.157/EuroSport2/index.m3u8
+
+#EXTINF:-1 tvg-id="Castilla la Mancha media.es" tvg-name="Castilla la Mancha Media" tvg-logo="https://yt3.googleusercontent.com/WTjfmzMvfNTJUGWNt-vuqh3l4Io_wCa6URgrJKO1lcmwU4adCNxrughq9vsyU724J-ZGrHa1GcU=s900-c-k-c0x00ffffff-no-rj" group-title="Noticias", Castilla la Mancha Media 
+https://cdnapisec.kaltura.com/p/2288691/sp/228869100/playManifest/entryId/1_sqa9madm/protocol/https/format/applehttp/a.m3u8
+
+
+
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe_16jOpFaQ-u0WfgBf7HOVBtroJAlxFQg7Q&s" group-title="Deportes", ESPN
+https://cdn1.intercom.cdn.moderntv.eu/intercom/stream/ESPN/40-hls/live-media.m3u8
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe_16jOpFaQ-u0WfgBf7HOVBtroJAlxFQg7Q&s" group-title="Deportes", ESPN2
+https://cdn1.intercom.cdn.moderntv.eu/intercom/stream/ESPN2/40-hls/live-media.m3u8
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe_16jOpFaQ-u0WfgBf7HOVBtroJAlxFQg7Q&s" group-title="Deportes", ESPN3
+https://cdn1.intercom.cdn.moderntv.eu/intercom/stream/ESPN3/40-hls/live-media.m3u8
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe_16jOpFaQ-u0WfgBf7HOVBtroJAlxFQg7Q&s" group-title="Deportes", ESPN5
+https://cdn1.intercom.cdn.moderntv.eu/intercom/stream/ESPN5/40-hls/live-media.m3u8
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe_16jOpFaQ-u0WfgBf7HOVBtroJAlxFQg7Q&s" group-title="Deportes", ESPN6
+https://cdn1.intercom.cdn.moderntv.eu/intercom/stream/ESPN6/40-hls/live-media.m3u8
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe_16jOpFaQ-u0WfgBf7HOVBtroJAlxFQg7Q&s" group-title="Deportes", ESPN7
+https://cdn1.intercom.cdn.moderntv.eu/intercom/stream/ESPN7/40-hls/live-media.m3u8
+
+
+
+
+
+
+
+
+#EXTINF:-1 tvg-logo="https://play-lh.googleusercontent.com/oRYBaA2ZU5oF5d9R6wOuqT24jaWhrWSRXH8fjwgs-9d4rEPwMBpk9aelQSvxqZ4NEw=w240-h480-rw" group-title="Entretenimiento", History
+https://cdn1.intercom.cdn.moderntv.eu/intercom/stream/HISTORY1/40-hls/live-media.m3u8
+
+
+
+
+
+
+#EXTINF:-1 tvg-id="Extremadura.TV" tvg-logo="https://graph.facebook.com/CanalExtremadura/picture?width=200&height=200" group-title="Extremadura" tvg-name="Canal Extremadura",Canal Extremadura
+https://canalextremadura-live.flumotion.cloud/canalextremadura/live_all/playlist_dvr.m3u8
+
+
+
+
+#EXTINF:-1 tvg-id="7RM.TV" tvg-logo="https://graph.facebook.com/la7tele/picture?width=200&height=200" group-title="R. de Murcia" tvg-name="7 R. de Murcia",7 R. de Murcia
+https://rtv-murcia-live.globalmest.com/secundario/smil:secundario.smil/playlist.m3u8
+
+
+
+
+#EXTM3U
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/VaF3s36.png" group-title="Run Time", Run Time TV y Películas
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=2649
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/VaF3s36.png" group-title="Run Time", Run Time Acción
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=3058
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/VaF3s36.png" group-title="Run Time", Run Time Comedia
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=3057
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/VaF3s36.png" group-title="Run Time", Run Time Thriller y Terror
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=3054
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/VaF3s36.png" group-title="Run Time", Run Time Crimen
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=3527
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/VaF3s36.png" group-title="Run Time", Run Time Romance
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=3056
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/VaF3s36.png" group-title="Run Time", Run Time Clásicos
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=3053
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/VaF3s36.png" group-title="Run Time", Run Time Series
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=3434
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/VaF3s36.png" group-title="Run Time", Run Time Ana y los 7
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=2722
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/VaF3s36.png" group-title="Run Time", Run Time Curro Jiménez
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=3435
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/VaF3s36.png" group-title="Run Time", Run Time Familia
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=3528
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/VaF3s36.png" group-title="Run Time", Run Time Trash
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=4647
+
+
+
