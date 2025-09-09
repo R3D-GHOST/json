@@ -1,12 +1,12 @@
 
 
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=g4xuuh9i2y2b13yamobxm8men_image-header_pEs_1723035920000" group-title="En Directo", DAZN 1
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK7S7hILEITwx3XArInG1uqh4JFJgcfHEieA&s" group-title="En Directo", Águila Roja 
+https://djpkijcsi04ot.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-534sg92d7s442/aguro.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.consent=%7BTC_STRING%7D&ads.ssai_vendor=SSSLIVE&ads.service_id=ES500005BP
 
 
-
-#EXTINF:-1 tvg-logo="https://images.pexels.com/photos/20772871/pexels-photo-20772871/free-photo-of-hombre-animal-sombrero-gorro.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" group-title="En Directo",  Toros - Hora:18:00
-https://cdnapisec.kaltura.com/p/2288691/sp/228869100/playManifest/entryId/1_sqa9madm/protocol/https/format/applehttp/a.m3u8
+#EXTINF:-1 tvg-logo="https://images.pexels.com/photos/20772871/pexels-photo-20772871/free-photo-of-hombre-animal-sombrero-gorro.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" group-title="En Directo",  Toros 
+#https://cdnapisec.kaltura.com/p/2288691/sp/228869100/playManifest/entryId/1_sqa9madm/protocol/https/format/applehttp/a.m3u8
 
 
 
