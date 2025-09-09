@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <title>PlutoTV Style – M3U8 Player</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-        /* ---------- RESET ---------- */
+  <style>
+/* ---------- RESET ---------- */
 *,
 *::before,
 *::after {
@@ -34,61 +34,13 @@ body {
   position: sticky;
   top: 0;
   z-index: 10;
-  flex-wrap: wrap;
-  gap: 1rem;
-}
-
-.header__section {
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-}
-
-.header__logo {
-  font-size: 1.75rem;
-  font-weight: 700;
-  letter-spacing: 1px;
-  color: #e50914;
-}
-
-.header__nav {
-  display: flex;
-  gap: 0.5rem;
-}
-
-.nav__btn {
-  background: transparent;
-  border: none;
-  color: #808080;
-  padding: 0.5rem 1rem;
-  font-size: 1rem;
-  cursor: pointer;
-  border-radius: 4px;
-  transition: all 0.3s ease;
-}
-
-.nav__btn:hover {
-  color: #ffffff;
-  background: rgba(255,255,255,0.1);
-}
-
-.nav__btn--active {
-  color: #ffffff;
-  background: #e50914;
-}
-
-/* ---------- SEARCH ---------- */
-.header__search {
-  position: relative;
-  display: flex;
-  align-items: center;
 }
 
 .search__input {
   background: rgba(255,255,255,0.1);
   border: 1px solid rgba(255,255,255,0.2);
   color: #ffffff;
-  padding: 0.5rem 2.5rem 0.5rem 1rem;
+  padding: 0.5rem 1rem;
   border-radius: 25px;
   font-size: 0.9rem;
   width: 200px;
@@ -102,107 +54,13 @@ body {
   width: 250px;
 }
 
-.search__icon {
-  position: absolute;
-  right: 10px;
-  color: #808080;
-  pointer-events: none;
-}
-
 /* ---------- MAIN ---------- */
 .main {
   flex: 1;
   padding: 1.5rem;
 }
 
-/* ---------- CHANNELS GRID ---------- */
-.channels {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 1.25rem;
-  will-change: auto;
-}
-
-/* ---------- CARD ---------- */
-.card {
-  background: #1c1c1c;
-  border-radius: 12px;
-  overflow: hidden;
-  position: relative;
-  cursor: pointer;
-  aspect-ratio: 16/9;
-  transition: none;
-  border: 2px solid rgba(255,255,255,0.15);
-}
-
-.card:hover {
-  transform: none;
-  box-shadow: none;
-}
-
-.card__wrapper {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.card__thumb {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-  border-radius: 0;
-  aspect-ratio: 16/9;
-  width: 100%;
-  height: 100%;
-  margin: auto;
-  border: 2px solid rgba(255,255,255,0.15);
-}
-
-.card__play-btn {
-  position: absolute;
-  width: 60px;
-  height: 60px;
-  background: rgba(229,9,20,.9);
-  border-radius: 50%;
-  display: none;
-  align-items: center;
-  justify-content: center;
-  transition: background .3s ease;
-}
-
-.card__play-btn:hover {
-  background: #e50914;
-}
-
-.card__play-icon {
-  color: #ffffff;
-  font-size: 1.5rem;
-  margin-left: 4px;
-}
-
-.card__title {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: .5rem;
-  font-size: .85rem;
-  text-align: center;
-  color: #ffffff;
-  background: rgba(0,0,0,0.6);
-  opacity: 0;
-  transition: opacity .3s ease;
-}
-
-.card:hover .card__title {
-  opacity: 1;
-}
-
-/* ---------- HERO SLIDER (TWITCH-STYLE) ---------- */
+/* ---------- HERO SLIDER ---------- */
 .hero-slider {
   width: 100%;
   height: 45vh;
@@ -237,7 +95,17 @@ body {
   background: linear-gradient(90deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.3) 50%, transparent 100%);
 }
 
-/* botón EN VIVO fijo abajo-izquierda */
+/* título del canal */
+.hero-title {
+  position: relative;
+  z-index: 5;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 4rem;
+}
+
+/* botón EN VIVO */
 .hero-live-btn {
   position: absolute;
   bottom: 1.5rem;
@@ -280,83 +148,36 @@ body {
   background: #e50914;
 }
 
-/* ocultar flecha next en móvil */
 .hero-next {
-  display: none;
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #e50914;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  padding: 0.6rem 1rem;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 5;
 }
 
 .hero-next:hover {
-  transform: scale(1.1);
   background: #ff1a25;
-}
-
-.hero-next::after {
-  content: "▶";
 }
 
 /* ---------- RESPONSIVE ---------- */
 @media (max-width: 768px) {
-  .header {
-    flex-direction: column;
-    align-items: stretch;
-  }
-  
-  .header__section {
-    justify-content: space-between;
-  }
-  
-  .search__input {
-    width: 100%;
-  }
-  
-  .search__input:focus {
-    width: 100%;
-  }
-  
-  .channels {
-    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-  }
-  
   .hero-slider {
     height: 35vh;
     min-height: 200px;
   }
 }
-
-@media (min-width: 1200px) {
-  .header__logo {
-    font-size: 2.5rem;
-  }
-  
-  .nav__btn {
-    font-size: 1.2rem;
-    padding: 0.75rem 1.5rem;
-  }
-  
-  .channels {
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 1.75rem;
-  }
-  
-  .card__title {
-    font-size: 1.1rem;
-  }
-  
-  .hero-slider {
-    height: 55vh;
-    min-height: 400px;
-  }
-}
-
-@media (min-width: 1920px) {
-  .channels {
-    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-  }
-}
-    </style>
+  </style>
 </head>
 <body>
-  <!-- header simplificado -->
+  <!-- header -->
   <header class="header">
     <input type="text" id="searchInput" class="search__input" placeholder="Buscar canales...">
   </header>
@@ -368,6 +189,8 @@ body {
     <div class="hero-dots" id="heroDots"></div>
     <!-- botón En Vivo fijo -->
     <a class="hero-live-btn" id="heroLiveBtn" href="#" target="_blank">EN VIVO</a>
+    <!-- botón siguiente -->
+    <button class="hero-next" id="heroNext" aria-label="Siguiente">▶</button>
   </section>
 
   <!-- grid -->
@@ -375,28 +198,17 @@ body {
     <section class="channels" id="channels"></section>
   </main>
 
-  <!-- botón slider -->
-  <button class="hero-next" id="heroNext" aria-label="Siguiente"></button>
-
   <script type="module">
-
-    const M3U_URLS = [
+const M3U_URLS = [
   "https://raw.githubusercontent.com/HelmerLuzo/PlutoTV_HL/refs/heads/main/tv/m3u/PlutoTV_tv_ES.m3u",
   "https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/toro.m3u8",
   "https://raw.githubusercontent.com/HelmerLuzo/SamsungTVPlus_HL/refs/heads/main/tv/m3u/SamsungTVPlus_tv_ES.m3u"
 ];
 
-const channelsContainer = document.getElementById("channels");
-const searchInput = document.getElementById("searchInput");
-const navButtons = document.querySelectorAll('.nav__btn');
 const heroTrack = document.getElementById('heroTrack');
-
 let allChannels = [];
-let filteredChannels = [];
 let heroIndex = 0;
 let heroInterval;
-const BATCH = 30;
-let rendered = 0;
 
 async function fetchM3U(url) {
   try {
@@ -431,81 +243,14 @@ function parseM3U(data) {
   return channels;
 }
 
-function renderChannel(ch) {
-  const card = document.createElement("article");
-  card.className = "card";
-  card.innerHTML = `
-    <div class="card__wrapper">
-      <img class="card__thumb" src="${ch.logo || ''}" alt="${ch.name}" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-      <div class="card__play-btn">
-        <span class="card__play-icon">▶</span>
-      </div>
-      <h3 class="card__title">${ch.name}</h3>
-    </div>
-  `;
-  card.addEventListener("click", () => {
-    window.open(ch.url, "_blank");
-  });
-  channelsContainer.appendChild(card);
-}
-
-function renderChannels(channels) {
-  channelsContainer.innerHTML = "";
-  rendered = 0;
-  loadMore(channels);
-  setupInfiniteScroll(channels);
-}
-
-function loadMore(channels) {
-  const slice = channels.slice(rendered, rendered + BATCH);
-  slice.forEach(renderChannel);
-  rendered += slice.length;
-}
-
-function setupInfiniteScroll(channels) {
-  const io = new IntersectionObserver((entries) => {
-    if (entries[0].isIntersecting && rendered < channels.length) {
-      loadMore(channels);
-    }
-  }, { threshold: 0.1 });
-
-  const sentinel = document.createElement('div');
-  sentinel.id = 'sentinel';
-  channelsContainer.after(sentinel);
-  io.observe(sentinel);
-}
-
-function filterChannels(query) {
-  const searchTerm = query.toLowerCase();
-  filteredChannels = allChannels.filter(ch => 
-    ch.name.toLowerCase().includes(searchTerm)
-  );
-  renderChannels(filteredChannels);
-}
-
-function setupNavigation() {
-  navButtons.forEach(btn => {
-    btn.addEventListener('click', () => {
-      navButtons.forEach(b => b.classList.remove('nav__btn--active'));
-      btn.classList.add('nav__btn--active');
-      
-      const filter = btn.dataset.filter;
-      if (filter === 'all') {
-        renderChannels(allChannels);
-      } else {
-        renderChannels(filteredChannels);
-      }
-    });
-  });
-}
-
 function buildHeroSlider(channels) {
   heroTrack.innerHTML = "";
-  const selected = channels.filter(ch => ch.grupo === "En Directo").slice(0, 6);
+  const selected = channels.slice(0, 6);
   selected.forEach((ch, idx) => {
     const slide = document.createElement('div');
     slide.className = 'hero-slide';
     slide.style.backgroundImage = `url(${ch.logo || 'https://via.placeholder.com/1920x1080/222/fff?text=TV'})`;
+    slide.innerHTML = `<h2 class="hero-title">${ch.name}</h2>`;
     heroTrack.appendChild(slide);
   });
 
@@ -515,33 +260,34 @@ function buildHeroSlider(channels) {
   selected.forEach((_, idx) => {
     const dot = document.createElement('span');
     dot.className = 'hero-dot' + (idx === 0 ? ' hero-dot--active' : '');
-    dot.addEventListener('click', () => goToSlide(idx));
+    dot.addEventListener('click', () => {
+      goToSlide(idx, selected);
+    });
     dots.appendChild(dot);
   });
 
-  // actualizar botón EN VIVO con el primer canal
   if (selected.length) {
-    const liveBtn = document.getElementById('heroLiveBtn');
-    liveBtn.href = selected[0].url;
+    document.getElementById('heroLiveBtn').href = selected[0].url;
   }
 
-  startAutoSlide(selected.length);
+  startAutoSlide(selected.length, selected);
 }
 
-function goToSlide(idx) {
+function goToSlide(idx, selected) {
   heroIndex = idx;
   heroTrack.style.transform = `translateX(-${idx * 100}%)`;
   document.querySelectorAll('.hero-dot').forEach((d, i) => {
     d.classList.toggle('hero-dot--active', i === idx);
   });
+  document.getElementById('heroLiveBtn').href = selected[idx].url;
 }
 
-function startAutoSlide(len) {
+function startAutoSlide(len, selected) {
   if (heroInterval) clearInterval(heroInterval);
   heroInterval = setInterval(() => {
     heroIndex = (heroIndex + 1) % len;
-    goToSlide(heroIndex);
-  }, 30000); // 30s
+    goToSlide(heroIndex, selected);
+  }, 10000); // 10s
 }
 
 async function loadChannels() {
@@ -552,21 +298,14 @@ async function loadChannels() {
     allChannels.push(...channels);
   }
   buildHeroSlider(allChannels);
-  // No mostrar canales del grupo "En Directo" en el grid
-  const filteredForGrid = allChannels.filter(ch => ch.grupo !== "En Directo");
-  renderChannels(filteredForGrid);
-  setupNavigation();
 }
-
-searchInput.addEventListener("input", (e) => {
-  filterChannels(e.target.value);
-});
 
 document.getElementById('heroNext').addEventListener('click', () => {
   const total = document.querySelectorAll('.hero-slide').length;
   if (total === 0) return;
   heroIndex = (heroIndex + 1) % total;
-  goToSlide(heroIndex);
+  const selected = allChannels.slice(0, 6);
+  goToSlide(heroIndex, selected);
 });
 
 loadChannels();
