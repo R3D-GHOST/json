@@ -1,314 +1,347 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>PlutoTV Style – M3U8 Player</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-/* ---------- RESET ---------- */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+<meta charset="UTF-8">
+<title>IPTV La Liga</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root {
+    --primary-color: #e50914;
+    --bg-dark: #0a0a0a;
+    --text-primary: #ffffff;
+    --text-secondary: #b3b3b3;
 }
+
+* { margin:0; padding:0; box-sizing:border-box; }
 
 body {
-  background: #0d0d0d;
-  color: #ffffff;
-  font-family: "Segoe UI", Arial, sans-serif;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+    font-family: 'Inter', sans-serif;
+    background: var(--bg-dark);
+    color: var(--text-primary);
+    overflow-x: hidden;
 }
 
-/* ---------- HEADER ---------- */
-.header {
-  background: #141414;
-  padding: 1rem 1.5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 0 2px 6px rgba(0,0,0,.4);
-  position: sticky;
-  top: 0;
-  z-index: 10;
+/* Header con hero */
+.hero-section {
+    position: relative;
+    height: 80vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    overflow: hidden;
 }
 
-.search__input {
-  background: rgba(255,255,255,0.1);
-  border: 1px solid rgba(255,255,255,0.2);
-  color: #ffffff;
-  padding: 0.5rem 1rem;
-  border-radius: 25px;
-  font-size: 0.9rem;
-  width: 200px;
-  transition: all 0.3s ease;
+.hero-background {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: opacity 1s ease, background-image 0.5s ease;
+    opacity: 1;
 }
 
-.search__input:focus {
-  outline: none;
-  border-color: #e50914;
-  background: rgba(255,255,255,0.15);
-  width: 250px;
+.hero-background.fade-out { opacity: 0; }
+
+.hero-background::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: linear-gradient(90deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0.1) 100%);
 }
 
-/* ---------- MAIN ---------- */
-.main {
-  flex: 1;
-  padding: 1.5rem;
+.hero-content {
+    position: relative;
+    z-index: 10;
+    padding: 60px;
 }
 
-/* ---------- HERO SLIDER ---------- */
-.hero-slider {
-  width: 100%;
-  height: 45vh;
-  min-height: 280px;
-  overflow: hidden;
-  position: relative;
-  background: #0d0d0d;
+.match-info-left {
+    text-align: left;
+    max-width: 500px;
 }
 
-.hero-slider__track {
-  display: flex;
-  height: 100%;
-  transition: transform .6s ease;
+.match-title {
+    font-size: clamp(2.5rem, 6vw, 4rem);
+    font-weight: 800;
+    margin-bottom: 8px;
+    text-shadow: 3px 3px 6px rgba(0,0,0,0.8);
+    transition: opacity 0.5s ease;
 }
 
-.hero-slide {
-  flex: 0 0 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-start;
-  padding: 2rem;
-  position: relative;
+.match-title.fade { opacity: 0; }
+
+.match-subtitle {
+    font-size: 1.3rem;
+    color: var(--text-secondary);
+    margin-bottom: 20px;
 }
 
-.hero-slide::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(90deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.3) 50%, transparent 100%);
+.watch-button {
+    display: inline-block;
+    background: var(--primary-color);
+    color: white;
+    padding: 14px 48px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
 }
 
-/* título del canal */
-.hero-title {
-  position: relative;
-  z-index: 5;
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #fff;
-  margin-bottom: 4rem;
+.watch-button:hover { background: #f40612; transform: scale(1.05); }
+
+/* Controles mini-slider En Directo */
+.direct-slider {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    overflow-x: auto;
+    gap: 5px;
+}
+.direct-channel {
+    flex: 0 0 auto;
+    width: 80px;
+    height: 45px;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.direct-channel.selected { border-color: var(--primary-color); }
+
+/* Main contenido */
+.main-content {
+    padding: 40px 20px;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
-/* botón EN VIVO */
-.hero-live-btn {
-  position: absolute;
-  bottom: 1.5rem;
-  left: 1.5rem;
-  background: #e50914;
-  color: #ffffff;
-  padding: .6rem 1.2rem;
-  border-radius: 4px;
-  font-weight: 700;
-  text-decoration: none;
-  z-index: 5;
-  transition: background .3s ease;
+/* Slider horizontal */
+.channels-horizontal-scroll {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 10px 0;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+}
+.channels-horizontal-scroll::-webkit-scrollbar { display: none; }
+
+/* Canal */
+.channel-card-landscape {
+    flex: 0 0 auto;
+    width: 280px;
+    height: 160px;
+    background: rgba(255,255,255,0.05);
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    backdrop-filter: blur(10px);
+}
+.channel-card-landscape:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(229,9,20,0.3);
 }
 
-.hero-live-btn:hover {
-  background: #ff1a25;
-}
+.channel-link-landscape { display: block; width: 100%; height: 100%; text-decoration:none; color:var(--text-primary); position:relative; }
 
-/* dots */
-.hero-dots {
-  position: absolute;
-  bottom: 1rem;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  gap: .5rem;
-  z-index: 3;
-}
+.channel-thumbnail { width:100%; height:100%; position:relative; overflow:hidden; }
 
-.hero-dot {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background: rgba(255,255,255,.4);
-  cursor: pointer;
-  transition: background .3s ease;
+.channel-overlay {
+    position: absolute;
+    bottom: 0; left:0; right:0;
+    background: linear-gradient(transparent, rgba(0,0,0,0.8));
+    padding: 10px;
 }
+.channel-name-landscape { font-size:16px; font-weight:600; }
+.channel-group { font-size:12px; color:var(--text-secondary); }
 
-.hero-dot--active {
-  background: #e50914;
+@media(max-width:768px) {
+    .hero-content { padding:40px 20px; }
+    .match-title { font-size:2.5rem; }
+    .channel-card-landscape { width:240px; height:135px; }
+    .direct-channel { width:60px; height:35px; }
 }
-
-.hero-next {
-  position: absolute;
-  right: 1rem;
-  top: 50%;
-  transform: translateY(-50%);
-  background: #e50914;
-  border: none;
-  color: white;
-  font-size: 1.2rem;
-  padding: 0.6rem 1rem;
-  border-radius: 50%;
-  cursor: pointer;
-  z-index: 5;
-}
-
-.hero-next:hover {
-  background: #ff1a25;
-}
-
-/* ---------- RESPONSIVE ---------- */
-@media (max-width: 768px) {
-  .hero-slider {
-    height: 35vh;
-    min-height: 200px;
-  }
-}
-  </style>
+</style>
 </head>
 <body>
-  <!-- header -->
-  <header class="header">
-    <input type="text" id="searchInput" class="search__input" placeholder="Buscar canales...">
-  </header>
 
-  <!-- slider -->
-  <section class="hero-slider" id="heroSlider">
-    <div class="hero-slider__track" id="heroTrack"></div>
-    <!-- dots -->
-    <div class="hero-dots" id="heroDots"></div>
-    <!-- botón En Vivo fijo -->
-    <a class="hero-live-btn" id="heroLiveBtn" href="#" target="_blank">EN VIVO</a>
-    <!-- botón siguiente -->
-    <button class="hero-next" id="heroNext" aria-label="Siguiente">▶</button>
-  </section>
+<!-- Header -->
+<header class="hero-section">
+    <div class="hero-background"></div>
+    <div class="hero-content">
+        <div class="match-info-left">
+            <h1 class="match-title">Cargando...</h1>
+            <p class="match-subtitle">EN VIVO •</p>
+            <a href="#" class="watch-button" target="_blank">En Directo</a>
 
-  <!-- grid -->
-  <main class="main">
-    <section class="channels" id="channels"></section>
-  </main>
+            <!-- Mini-slider En Directo -->
+            <div class="direct-slider" id="direct-slider"></div>
+        </div>
+    </div>
+</header>
 
-  <script type="module">
-const M3U_URLS = [
-  "https://raw.githubusercontent.com/HelmerLuzo/PlutoTV_HL/refs/heads/main/tv/m3u/PlutoTV_tv_ES.m3u",
-  "https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/toro.m3u8",
-  "https://raw.githubusercontent.com/HelmerLuzo/SamsungTVPlus_HL/refs/heads/main/tv/m3u/SamsungTVPlus_tv_ES.m3u"
-];
+<!-- Slider de canales -->
+<main class="main-content">
+    <div class="channels-horizontal-scroll" id="slider-canales"></div>
+</main>
 
-const heroTrack = document.getElementById('heroTrack');
-let allChannels = [];
-let heroIndex = 0;
-let heroInterval;
+<script>
+async function cargarM3U8(url) {
+    try {
+        const resp = await fetch(url);
+        const texto = await resp.text();
+        const lineas = texto.split("\n");
+        const canales = [];
+        let canal = null;
 
-async function fetchM3U(url) {
-  try {
-    const res = await fetch(url);
-    if (!res.ok) throw new Error("Error al cargar " + url);
-    return await res.text();
-  } catch (err) {
-    console.error("Fallo al cargar M3U:", err);
-    return "";
-  }
-}
+        lineas.forEach(linea => {
+            linea = linea.trim();
+            if (linea.startsWith("#EXTINF:")) {
+                const nombre = linea.split(",").pop().trim();
+                const logoMatch = linea.match(/tvg-logo="([^"]*)"/);
+                const grupoMatch = linea.match(/group-title="([^"]*)"/);
 
-function parseM3U(data) {
-  const lines = data.split("\n");
-  const channels = [];
-  let current = {};
-  for (const rawLine of lines) {
-    const line = rawLine.trim();
-    if (line.startsWith("#EXTINF:")) {
-      const nameMatch = line.match(/,(.*)$/);
-      if (nameMatch) current.name = nameMatch[1].trim();
-      const logoMatch = line.match(/tvg-logo="([^"]+)"/);
-      if (logoMatch) current.logo = logoMatch[1];
-      const grupoMatch = line.match(/group-title="([^"]+)"/);
-      if (grupoMatch) current.grupo = grupoMatch[1];
-    } else if (line && !line.startsWith("#")) {
-      current.url = line;
-      if (current.name) channels.push(current);
-      current = {};
+                canal = {
+                    nombre: nombre || "Canal sin nombre",
+                    logo: logoMatch ? logoMatch[1] : null,
+                    grupo: grupoMatch ? grupoMatch[1] : "General",
+                    url: null
+                };
+            } else if (linea.startsWith("http") && canal) {
+                canal.url = linea;
+                canales.push(canal);
+                canal = null;
+            }
+        });
+
+        return canales;
+    } catch(e) {
+        console.error("Error al cargar lista:", e);
+        return [];
     }
-  }
-  return channels;
 }
 
-function buildHeroSlider(channels) {
-  heroTrack.innerHTML = "";
-  const selected = channels.slice(0, 6);
-  selected.forEach((ch, idx) => {
-    const slide = document.createElement('div');
-    slide.className = 'hero-slide';
-    slide.style.backgroundImage = `url(${ch.logo || 'https://via.placeholder.com/1920x1080/222/fff?text=TV'})`;
-    slide.innerHTML = `<h2 class="hero-title">${ch.name}</h2>`;
-    heroTrack.appendChild(slide);
-  });
+function renderCanales(canales) {
+    const container = document.getElementById('slider-canales');
+    const canalesRestantes = canales.filter(canal => canal.grupo !== "En Directo");
 
-  // dots
-  const dots = document.getElementById('heroDots');
-  dots.innerHTML = "";
-  selected.forEach((_, idx) => {
-    const dot = document.createElement('span');
-    dot.className = 'hero-dot' + (idx === 0 ? ' hero-dot--active' : '');
-    dot.addEventListener('click', () => {
-      goToSlide(idx, selected);
+    canalesRestantes.forEach(canal => {
+        const div = document.createElement('div');
+        div.className = 'channel-card-landscape';
+
+        const a = document.createElement('a');
+        a.href = canal.url;
+        a.target = '_blank';
+        a.className = 'channel-link-landscape';
+
+        const thumbnail = document.createElement('div');
+        thumbnail.className = 'channel-thumbnail';
+        thumbnail.style.backgroundImage = canal.logo ? `url(${canal.logo})` : 'none';
+        thumbnail.style.backgroundSize = 'cover';
+        thumbnail.style.backgroundPosition = 'center';
+        thumbnail.style.backgroundRepeat = 'no-repeat';
+        if (!canal.logo) thumbnail.style.backgroundColor = '#1a1a1a';
+
+        const overlay = document.createElement('div');
+        overlay.className = 'channel-overlay';
+
+        const name = document.createElement('div');
+        name.className = 'channel-name-landscape';
+        name.textContent = canal.nombre;
+
+        const group = document.createElement('div');
+        group.className = 'channel-group';
+        group.textContent = canal.grupo;
+
+        overlay.appendChild(name);
+        overlay.appendChild(group);
+        thumbnail.appendChild(overlay);
+        a.appendChild(thumbnail);
+        div.appendChild(a);
+        container.appendChild(div);
     });
-    dots.appendChild(dot);
-  });
-
-  if (selected.length) {
-    document.getElementById('heroLiveBtn').href = selected[0].url;
-  }
-
-  startAutoSlide(selected.length, selected);
 }
 
-function goToSlide(idx, selected) {
-  heroIndex = idx;
-  heroTrack.style.transform = `translateX(-${idx * 100}%)`;
-  document.querySelectorAll('.hero-dot').forEach((d, i) => {
-    d.classList.toggle('hero-dot--active', i === idx);
-  });
-  document.getElementById('heroLiveBtn').href = selected[idx].url;
+function actualizarHeader(canal) {
+    const matchTitle = document.querySelector('.match-title');
+    const watchButton = document.querySelector('.watch-button');
+    const heroBackground = document.querySelector('.hero-background');
+
+    // Animación fade
+    matchTitle.classList.add('fade');
+    heroBackground.classList.add('fade-out');
+
+    setTimeout(() => {
+        matchTitle.textContent = canal.nombre;
+        watchButton.href = canal.url;
+        const logoUrl = canal.logo || 'https://via.placeholder.com/800x450?text=En+Directo';
+        heroBackground.style.backgroundImage = `url(${logoUrl})`;
+        matchTitle.classList.remove('fade');
+        heroBackground.classList.remove('fade-out');
+    }, 500);
 }
 
-function startAutoSlide(len, selected) {
-  if (heroInterval) clearInterval(heroInterval);
-  heroInterval = setInterval(() => {
-    heroIndex = (heroIndex + 1) % len;
-    goToSlide(heroIndex, selected);
-  }, 10000); // 10s
+function renderDirectSlider(canalesEnDirecto) {
+    const slider = document.getElementById('direct-slider');
+    slider.innerHTML = '';
+    canalesEnDirecto.forEach((canal, idx) => {
+        const div = document.createElement('div');
+        div.className = 'direct-channel';
+        if (idx === 0) div.classList.add('selected');
+        div.style.backgroundImage = canal.logo ? `url(${canal.logo})` : 'none';
+        div.title = canal.nombre;
+        div.addEventListener('click', () => {
+            document.querySelectorAll('.direct-channel').forEach(c => c.classList.remove('selected'));
+            div.classList.add('selected');
+            actualizarHeader(canal);
+            clearInterval(autoRotate); // reset automatic rotation al hacer clic
+            startAutoRotate(); // reinicia
+        });
+        slider.appendChild(div);
+    });
 }
 
-async function loadChannels() {
-  for (const url of M3U_URLS) {
-    const data = await fetchM3U(url);
-    if (!data) continue;
-    const channels = parseM3U(data);
-    allChannels.push(...channels);
-  }
-  buildHeroSlider(allChannels);
+// Rotación automática
+let currentIndex = 0;
+let autoRotate;
+
+function startAutoRotate() {
+    const canalesEnDirecto = Array.from(document.querySelectorAll('.direct-channel'));
+    if (canalesEnDirecto.length <= 1) return;
+
+    autoRotate = setInterval(() => {
+        canalesEnDirecto[currentIndex].classList.remove('selected');
+        currentIndex = (currentIndex + 1) % canalesEnDirecto.length;
+        canalesEnDirecto[currentIndex].classList.add('selected');
+
+        // Actualizar header al canal actual
+        const canal = canalesData[currentIndex];
+        actualizarHeader(canal);
+    }, 5000); // cada 5 segundos
 }
 
-document.getElementById('heroNext').addEventListener('click', () => {
-  const total = document.querySelectorAll('.hero-slide').length;
-  if (total === 0) return;
-  heroIndex = (heroIndex + 1) % total;
-  const selected = allChannels.slice(0, 6);
-  goToSlide(heroIndex, selected);
-});
+let canalesData = [];
 
-loadChannels();
-  </script>
+(async function init() {
+    const canales = await cargarM3U8("https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/toro.m3u8");
+
+    canalesData = canales.filter(canal => canal.grupo === "En Directo");
+    if (canalesData.length > 0) {
+        actualizarHeader(canalesData[0]);
+        renderDirectSlider(canalesData);
+        startAutoRotate();
+    }
+
+    renderCanales(canales);
+})();
+</script>
+
 </body>
 </html>
