@@ -6,12 +6,13 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
 :root {
-    --primary-color: #e50914;
+    --disney-blue: #006ba6;
+    --disney-light-blue: #00a5e0;
     --bg-dark: #0a0a0a;
     --text-primary: #ffffff;
     --text-secondary: #b3b3b3;
-    --glass-bg: rgba(20,20,20,0.6);
-    --glass-border: rgba(255,255,255,0.08);
+    --glass-bg: rgba(26,26,26,0.8);
+    --glass-border: rgba(255,255,255,0.1);
 }
 
 * { margin:0; padding:0; box-sizing:border-box; }
@@ -23,7 +24,7 @@ body {
     overflow-x: hidden;
 }
 
-/* Header con hero */
+/* Header con hero estilo Disney+ */
 .hero-section {
     position: relative;
     height: 60vh;
@@ -56,7 +57,7 @@ body {
     content: '';
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
-    background: linear-gradient(90deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0.1) 100%);
+    background: linear-gradient(90deg, rgba(0,107,166,0.9) 0%, rgba(0,107,166,0.3) 50%, rgba(0,107,166,0.1) 100%);
 }
 
 .hero-content {
@@ -95,7 +96,7 @@ body {
 
 .watch-button {
     display: inline-block;
-    background: var(--primary-color);
+    background: var(--disney-blue);
     color: white;
     padding: 12px 36px;
     border-radius: 4px;
@@ -121,7 +122,7 @@ body {
 
 .watch-button:hover::before { left: 100%; }
 
-.watch-button:hover { background: #f40612; transform: scale(1.05); box-shadow: 0 0 20px rgba(229,9,20,0.6); }
+.watch-button:hover { background: var(--disney-light-blue); transform: scale(1.05); box-shadow: 0 0 20px rgba(0,107,166,0.6); }
 
 /* Main contenido */
 .main-content {
@@ -130,104 +131,117 @@ body {
     margin: 0 auto;
 }
 
-/* Grilla de canales estilo Netflix */
-#canales-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-    gap: 12px;
-    padding: 10px 0;
-    content-visibility: auto;
-    contain-intrinsic-size: auto 160px;
-}
-
-/* Canal estilo mosaico con glassmorfismo */
-.channel-card-grid {
-    aspect-ratio: 16/9;
+/* Contenedor de guía con scroll horizontal */
+.guide-container {
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin-top: 20px;
+    border-radius: 12px;
     background: var(--glass-bg);
     border: 1px solid var(--glass-border);
-    border-radius: 12px;
-    overflow: hidden;
-    transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
     backdrop-filter: blur(10px);
-    position: relative;
-    transform-style: preserve-3d;
-    animation: fadeInScale 0.6s ease-out;
-    will-change: transform;
-    contain: layout style paint;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
 }
 
-@keyframes fadeInScale {
-    from { opacity: 0; transform: scale(0.8); }
-    to { opacity: 1; transform: scale(1); }
+.guide-table {
+    min-width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
 }
 
-.channel-card-grid:hover {
-    transform: scale(1.08) rotateY(5deg);
-    box-shadow: 0 15px 35px rgba(229,9,20,0.4);
-    border-color: rgba(229,9,20,0.3);
+/* Cabecera de la guía */
+.guide-header {
+    background: rgba(0,107,166,0.2);
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 
-.channel-card-grid * {
-    will-change: opacity, transform;
-}
-
-.channel-link-grid { display: block; width: 100%; height: 100%; text-decoration:none; color:var(--text-primary); position:relative; }
-
-.channel-thumbnail {
-    width:100%; 
-    height:100%; 
-    position:relative; 
-    overflow:hidden;
-    background-color: #1a1a1a;
-    transition: background-image 0.3s ease;
-}
-
-.channel-overlay {
-    position: absolute;
-    bottom: 0; left:0; right:0;
-    background: linear-gradient(transparent, rgba(0,0,0,0.9));
-    padding: 8px;
-    transform: translateY(100%);
-    transition: transform 0.3s ease;
-}
-
-.channel-card-grid:hover .channel-overlay { transform: translateY(0); }
-
-.channel-name-grid { 
-    font-size:13px; 
-    font-weight:600; 
+.guide-header th {
+    padding: 12px 16px;
+    text-align: left;
+    font-weight: 600;
+    color: var(--text-primary);
+    border-bottom: 2px solid var(--disney-blue);
     white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    animation: slideInUp 0.3s ease;
 }
 
-@keyframes slideInUp {
-    from { transform: translateY(10px); opacity: 0; }
-    to { transform: translateY(0); opacity: 1; }
+.guide-header .channel-number {
+    width: 80px;
+    text-align: center;
 }
 
-/* Skeleton loading */
-.skeleton {
-    background: linear-gradient(90deg, #1a1a1a 25%, #2a2a2a 50%, #1a1a1a 75%);
-    background-size: 200% 100%;
-    animation: loading 1.2s infinite;
-    border-radius: 12px;
+.guide-header .channel-logo {
+    width: 100px;
 }
 
-@keyframes loading {
-    0% { background-position: 200% 0; }
-    100% { background-position: -200% 0; }
+.guide-header .channel-name {
+    min-width: 200px;
 }
 
-/* Parpadeo de en vivo */
-.live-indicator {
-    position: absolute;
-    top: 8px; right: 8px;
-    background: var(--primary-color);
+.guide-header .channel-group {
+    width: 150px;
+}
+
+.guide-header .channel-status {
+    width: 100px;
+    text-align: center;
+}
+
+/* Filas de canales */
+.guide-row {
+    border-bottom: 1px solid var(--glass-border);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.guide-row:hover {
+    background: rgba(0,107,166,0.1);
+    transform: scale(1.01);
+}
+
+.guide-row td {
+    padding: 12px 16px;
+    vertical-align: middle;
+}
+
+.channel-number-td {
+    text-align: center;
+    font-weight: 700;
+    color: var(--disney-blue);
+    font-size: 16px;
+}
+
+.channel-logo-td img {
+    width: 60px;
+    height: 34px;
+    object-fit: cover;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+.channel-name-td {
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.channel-group-td {
+    color: var(--text-secondary);
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.channel-status-td {
+    text-align: center;
+}
+
+.live-badge {
+    display: inline-block;
+    background: #e50914;
     color: white;
-    padding: 2px 6px;
-    border-radius: 3px;
+    padding: 4px 8px;
+    border-radius: 12px;
     font-size: 10px;
     font-weight: 700;
     animation: pulse 1.5s infinite;
@@ -236,6 +250,37 @@ body {
 @keyframes pulse {
     0%, 100% { opacity: 1; }
     50% { opacity: 0.7; }
+}
+
+/* Skeleton loading para la tabla */
+.skeleton-row {
+    background: linear-gradient(90deg, #1a1a1a 25%, #2a2a2a 50%, #1a1a1a 75%);
+    background-size: 200% 100%;
+    animation: loading 1.2s infinite;
+}
+
+@keyframes loading {
+    0% { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+}
+
+/* Scrollbar personalizada */
+.guide-container::-webkit-scrollbar {
+    height: 8px;
+}
+
+.guide-container::-webkit-scrollbar-track {
+    background: rgba(255,255,255,0.1);
+    border-radius: 4px;
+}
+
+.guide-container::-webkit-scrollbar-thumb {
+    background: var(--disney-blue);
+    border-radius: 4px;
+}
+
+.guide-container::-webkit-scrollbar-thumb:hover {
+    background: var(--disney-light-blue);
 }
 
 /* Reduce animaciones en dispositivos de gama baja */
@@ -252,9 +297,26 @@ body {
 @media(max-width:768px) {
     .hero-content { padding:30px 20px; }
     .match-title { font-size:2rem; }
-    #canales-grid { 
-        grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-        gap: 10px;
+    
+    .guide-table {
+        font-size: 12px;
+    }
+    
+    .guide-header th {
+        padding: 8px 12px;
+    }
+    
+    .guide-row td {
+        padding: 8px 12px;
+    }
+    
+    .channel-logo-td img {
+        width: 50px;
+        height: 28px;
+    }
+    
+    .channel-name-td {
+        min-width: 150px;
     }
 }
 </style>
@@ -275,15 +337,30 @@ body {
 
 <!-- Contenido principal -->
 <main class="main-content">
-    <!-- Grilla de canales -->
-    <div id="canales-grid"></div>
+    <!-- Guía de canales -->
+    <div class="guide-container">
+        <table class="guide-table">
+            <thead class="guide-header">
+                <tr>
+                    <th class="channel-number">#</th>
+                    <th class="channel-logo">Logo</th>
+                    <th class="channel-name">Canal</th>
+                    <th class="channel-group">Grupo</th>
+                    <th class="channel-status">Estado</th>
+                </tr>
+            </thead>
+            <tbody id="guide-body">
+                <!-- Las filas se cargarán dinámicamente -->
+            </tbody>
+        </table>
+    </div>
 </main>
 
 <script>
 let canalesData = [];
 let allCanales = [];
 let currentOffset = 0;
-const ITEMS_PER_BATCH = 30;
+const ITEMS_PER_BATCH = 50;
 
 // Array de URLs de playlists
 const PLAYLIST_URLS = [
@@ -305,15 +382,20 @@ async function cargarM3U8(url) {
                 const nombre = linea.split(",").pop().trim();
                 const logoMatch = linea.match(/tvg-logo="([^"]*)"/);
                 const grupoMatch = linea.match(/group-title="([^"]*)"/);
+                const idMatch = linea.match(/tvg-id="([^"]*)"/);
 
                 canal = {
                     nombre: nombre || "Canal sin nombre",
                     logo: logoMatch ? logoMatch[1] : null,
                     grupo: grupoMatch ? grupoMatch[1] : "General",
-                    url: null
+                    id: idMatch ? idMatch[1] : null,
+                    url: null,
+                    numero: null
                 };
             } else if (linea.startsWith("http") && canal) {
                 canal.url = linea;
+                // Asignar número de canal basado en el orden
+                canal.numero = canales.length + 1;
                 canales.push(canal);
                 canal = null;
             }
@@ -330,110 +412,88 @@ async function cargarTodasLasListas() {
     const todosLosCanales = [];
     
     for (const url of PLAYLIST_URLS) {
-        const canales = await cargarM3U8(url);
-        todosLosCanales.push(...canales);
+        if (url.trim()) {
+            const canales = await cargarM3U8(url);
+            todosLosCanales.push(...canales);
+        }
     }
     
     return todosLosCanales;
 }
 
-function renderCanalesGrid(canales) {
-    const container = document.getElementById('canales-grid');
+function renderGuia(canales) {
+    const tbody = document.getElementById('guide-body');
     const fragment = document.createDocumentFragment();
     
-    canales.forEach((canal, idx) => {
-        const div = document.createElement('div');
-        div.className = 'channel-card-grid';
-        div.style.animationDelay = `${(idx % ITEMS_PER_BATCH) * 0.02}s`;
-
-        const link = document.createElement('a');
-        link.href = canal.url;
-        link.target = '_blank';
-        link.className = 'channel-link-grid';
-
-        const thumbnail = document.createElement('div');
-        thumbnail.className = 'channel-thumbnail';
+    // Limpiar skeletons si existen
+    document.querySelectorAll('.skeleton-row').forEach(s => s.remove());
+    
+    canales.forEach((canal, index) => {
+        const row = document.createElement('tr');
+        row.className = 'guide-row';
+        row.style.animationDelay = `${index * 0.02}s`;
+        row.style.animation = 'fadeInScale 0.6s ease-out';
         
-        // Lazy loading con Intersection Observer
-        thumbnail.dataset.src = canal.logo || '';
-        thumbnail.classList.add('lazy-load');
-        if (!canal.logo) thumbnail.style.backgroundColor = '#1a1a1a';
-
-        // Indicador de en vivo aleatorio
-        if (Math.random() > 0.7) {
-            const live = document.createElement('div');
-            live.className = 'live-indicator';
-            live.textContent = 'EN VIVO';
-            thumbnail.appendChild(live);
+        // Número de canal
+        const numberTd = document.createElement('td');
+        numberTd.className = 'channel-number-td';
+        numberTd.textContent = canal.numero || index + 1;
+        
+        // Logo
+        const logoTd = document.createElement('td');
+        logoTd.className = 'channel-logo-td';
+        if (canal.logo) {
+            const img = document.createElement('img');
+            img.src = canal.logo;
+            img.alt = canal.nombre;
+            img.loading = 'lazy';
+            logoTd.appendChild(img);
+        } else {
+            const placeholder = document.createElement('div');
+            placeholder.style.width = '60px';
+            placeholder.style.height = '34px';
+            placeholder.style.background = '#1a1a1a';
+            placeholder.style.borderRadius = '4px';
+            logoTd.appendChild(placeholder);
         }
-
-        const overlay = document.createElement('div');
-        overlay.className = 'channel-overlay';
-
-        const name = document.createElement('div');
-        name.className = 'channel-name-grid';
-        name.textContent = canal.nombre;
-
-        overlay.appendChild(name);
-        thumbnail.appendChild(overlay);
-        link.appendChild(thumbnail);
-        div.appendChild(link);
-        fragment.appendChild(div);
+        
+        // Nombre
+        const nameTd = document.createElement('td');
+        nameTd.className = 'channel-name-td';
+        nameTd.textContent = canal.nombre;
+        
+        // Grupo
+        const groupTd = document.createElement('td');
+        groupTd.className = 'channel-group-td';
+        groupTd.textContent = canal.grupo;
+        
+        // Estado
+        const statusTd = document.createElement('td');
+        statusTd.className = 'channel-status-td';
+        if (Math.random() > 0.7) {
+            const liveBadge = document.createElement('span');
+            liveBadge.className = 'live-badge';
+            liveBadge.textContent = 'EN VIVO';
+            statusTd.appendChild(liveBadge);
+        }
+        
+        // Click handler
+        row.addEventListener('click', () => {
+            if (canal.url) {
+                window.open(canal.url, '_blank');
+            }
+        });
+        
+        row.appendChild(numberTd);
+        row.appendChild(logoTd);
+        row.appendChild(nameTd);
+        row.appendChild(groupTd);
+        row.appendChild(statusTd);
+        
+        fragment.appendChild(row);
     });
     
-    container.appendChild(fragment);
-}
-
-// Lazy loading con Intersection Observer
-let lazyObserver;
-function setupLazyLoading() {
-    if ('IntersectionObserver' in window) {
-        lazyObserver = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    const img = entry.target;
-                    const src = img.dataset.src;
-                    if (src) {
-                        img.style.backgroundImage = `url(${src})`;
-                        img.style.backgroundSize = 'cover';
-                        img.style.backgroundPosition = 'center';
-                        img.style.backgroundRepeat = 'no-repeat';
-                    }
-                    img.classList.remove('lazy-load');
-                    lazyObserver.unobserve(img);
-                }
-            });
-        }, {
-            rootMargin: '50px 0px',
-            threshold: 0.01
-        });
-    }
-}
-
-function loadMore() {
-    const nextBatch = allCanales.slice(currentOffset, currentOffset + ITEMS_PER_BATCH);
-    if (nextBatch.length === 0) return;
-    
-    // Añadir skeleton mientras carga
-    const container = document.getElementById('canales-grid');
-    for (let i = 0; i < Math.min(ITEMS_PER_BATCH, 6); i++) {
-        const skeleton = document.createElement('div');
-        skeleton.className = 'channel-card-grid skeleton';
-        container.appendChild(skeleton);
-    }
-    
-    // Retrasar la carga real para mejorar percepción
-    setTimeout(() => {
-        // Eliminar skeletons
-        document.querySelectorAll('.skeleton').forEach(s => s.remove());
-        renderCanalesGrid(nextBatch);
-        currentOffset += ITEMS_PER_BATCH;
-        
-        // Observar nuevos elementos lazy
-        document.querySelectorAll('.lazy-load').forEach(img => {
-            lazyObserver.observe(img);
-        });
-    }, 100);
+    tbody.appendChild(fragment);
 }
 
 function actualizarHeader(canal) {
@@ -452,6 +512,47 @@ function actualizarHeader(canal) {
         matchTitle.classList.remove('fade');
         heroBackground.classList.remove('fade-out');
     }, 500);
+}
+
+// Rotación automática de canales en el header
+let currentIndex = 0;
+let autoRotate;
+
+function startAutoRotate() {
+    if (canalesData.length <= 1) return;
+    autoRotate = setInterval(() => {
+        currentIndex = (currentIndex + 1) % canalesData.length;
+        actualizarHeader(canalesData[currentIndex]);
+    }, 5000);
+}
+
+// Scroll infinito con lazy loading
+function loadMore() {
+    const nextBatch = allCanales.slice(currentOffset, currentOffset + ITEMS_PER_BATCH);
+    if (nextBatch.length === 0) return;
+    
+    // Añadir skeletons mientras carga
+    const tbody = document.getElementById('guide-body');
+    for (let i = 0; i < Math.min(ITEMS_PER_BATCH, 5); i++) {
+        const skeletonRow = document.createElement('tr');
+        skeletonRow.className = 'skeleton-row';
+        skeletonRow.innerHTML = `
+            <td><div style="height: 20px; width: 30px; margin: 0 auto; background: #2a2a2a; border-radius: 4px;"></div></td>
+            <td><div style="height: 34px; width: 60px; background: #2a2a2a; border-radius: 4px;"></div></td>
+            <td><div style="height: 20px; background: #2a2a2a; border-radius: 4px;"></div></td>
+            <td><div style="height: 16px; background: #2a2a2a; border-radius: 4px;"></div></td>
+            <td><div style="height: 20px; width: 40px; margin: 0 auto; background: #2a2a2a; border-radius: 4px;"></div></td>
+        `;
+        tbody.appendChild(skeletonRow);
+    }
+    
+    // Retrasar la carga real para mejorar percepción
+    setTimeout(() => {
+        // Eliminar skeletons
+        document.querySelectorAll('.skeleton-row').forEach(s => s.remove());
+        renderGuia(nextBatch);
+        currentOffset += ITEMS_PER_BATCH;
+    }, 100);
 }
 
 // Optimización del scroll con requestAnimationFrame
@@ -482,17 +583,15 @@ function requestScrollUpdate() {
 // Reemplazar el scroll listener anterior
 window.addEventListener('scroll', requestScrollUpdate, { passive: true });
 
-// Rotación automática de canales en el header
-let currentIndex = 0;
-let autoRotate;
-
-function startAutoRotate() {
-    if (canalesData.length <= 1) return;
-    autoRotate = setInterval(() => {
-        currentIndex = (currentIndex + 1) % canalesData.length;
-        actualizarHeader(canalesData[currentIndex]);
-    }, 5000);
+// CSS para animación de fade in
+const style = document.createElement('style');
+style.textContent = `
+@keyframes fadeInScale {
+    from { opacity: 0; transform: scale(0.8); }
+    to { opacity: 1; transform: scale(1); }
 }
+`;
+document.head.appendChild(style);
 
 (async function init() {
     // Cargar todas las playlists
@@ -508,8 +607,9 @@ function startAutoRotate() {
     }
 
     allCanales = canalesFiltrados;
-    setupLazyLoading();
-    loadMore(); // primera carga
+    
+    // Cargar primer batch de canales
+    loadMore();
 })();
 </script>
 
