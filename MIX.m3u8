@@ -139,6 +139,35 @@ https://ztnr.rtve.es/ztnr/5468585.m3u8
 
 
 
+#EXTINF:-1 tvg-id="EuroSport" tvg-name="EuroSport" tvg-logo="https://imgresizer.eurosport.com/unsafe/2560x1440/filters:format(jpeg)/origin-imgresizer.eurosport.com/2015/11/12/1731323-36624686-2560-1440.png" group-title="Deportes", Eurosport 1 
+http://185.189.225.157/EuroSport1/index.m3u8
+
+#EXTINF:-1 tvg-id="Eurosport" tvg-name="Eurosport" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlef_ZQwj81xSKQKvw3kXWO9xUO4tL9bPXSA&s" group-title="Deportes", Eurosport 2 
+http://185.189.225.157/EuroSport2/index.m3u8
+
+#EXTINF:-1 tvg-id="Castilla la Mancha media.es" tvg-name="Castilla la Mancha Media" tvg-logo="https://yt3.googleusercontent.com/WTjfmzMvfNTJUGWNt-vuqh3l4Io_wCa6URgrJKO1lcmwU4adCNxrughq9vsyU724J-ZGrHa1GcU=s900-c-k-c0x00ffffff-no-rj" group-title="Noticias", Castilla la Mancha Media 
+https://cdnapisec.kaltura.com/p/2288691/sp/228869100/playManifest/entryId/1_sqa9madm/protocol/https/format/applehttp/a.m3u8
+
+
+
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe_16jOpFaQ-u0WfgBf7HOVBtroJAlxFQg7Q&s" group-title="Deportes", ESPN
+https://cdn1.intercom.cdn.moderntv.eu/intercom/stream/ESPN/40-hls/live-media.m3u8
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe_16jOpFaQ-u0WfgBf7HOVBtroJAlxFQg7Q&s" group-title="Deportes", ESPN2
+https://cdn1.intercom.cdn.moderntv.eu/intercom/stream/ESPN2/40-hls/live-media.m3u8
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe_16jOpFaQ-u0WfgBf7HOVBtroJAlxFQg7Q&s" group-title="Deportes", ESPN3
+https://cdn1.intercom.cdn.moderntv.eu/intercom/stream/ESPN3/40-hls/live-media.m3u8
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe_16jOpFaQ-u0WfgBf7HOVBtroJAlxFQg7Q&s" group-title="Deportes", ESPN5
+https://cdn1.intercom.cdn.moderntv.eu/intercom/stream/ESPN5/40-hls/live-media.m3u8
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe_16jOpFaQ-u0WfgBf7HOVBtroJAlxFQg7Q&s" group-title="Deportes", ESPN6
+https://cdn1.intercom.cdn.moderntv.eu/intercom/stream/ESPN6/40-hls/live-media.m3u8
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe_16jOpFaQ-u0WfgBf7HOVBtroJAlxFQg7Q&s" group-title="Deportes", ESPN7
+https://cdn1.intercom.cdn.moderntv.eu/intercom/stream/ESPN7/40-hls/live-media.m3u8
 
 
 
@@ -147,6 +176,22 @@ https://ztnr.rtve.es/ztnr/5468585.m3u8
 
 
 
+#EXTINF:-1 tvg-logo="https://play-lh.googleusercontent.com/oRYBaA2ZU5oF5d9R6wOuqT24jaWhrWSRXH8fjwgs-9d4rEPwMBpk9aelQSvxqZ4NEw=w240-h480-rw" group-title="Entretenimiento", History
+https://cdn1.intercom.cdn.moderntv.eu/intercom/stream/HISTORY1/40-hls/live-media.m3u8
+
+
+
+
+
+
+#EXTINF:-1 tvg-id="Extremadura.TV" tvg-logo="https://graph.facebook.com/CanalExtremadura/picture?width=200&height=200" group-title="Extremadura" tvg-name="Canal Extremadura",Canal Extremadura
+https://canalextremadura-live.flumotion.cloud/canalextremadura/live_all/playlist_dvr.m3u8
+
+
+
+
+#EXTINF:-1 tvg-id="7RM.TV" tvg-logo="https://graph.facebook.com/la7tele/picture?width=200&height=200" group-title="R. de Murcia" tvg-name="7 R. de Murcia",7 R. de Murcia
+https://rtv-murcia-live.globalmest.com/secundario/smil:secundario.smil/playlist.m3u8
 
 
 
