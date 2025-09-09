@@ -1,347 +1,235 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-<meta charset="UTF-8">
-<title>IPTV La Liga</title>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-<style>
-:root {
-    --primary-color: #e50914;
-    --bg-dark: #0a0a0a;
-    --text-primary: #ffffff;
-    --text-secondary: #b3b3b3;
-}
+<!DOCTYPE html>                                                                           <html lang="es">
+<head>                                                                                        <meta charset="UTF-8">
+    <title>IPTV La Liga</title>                                                               <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">                                                             <style>
+        :root {                                                                                       --primary-color: #e50914;
+            --bg-dark: #0a0a0a;                                                                       --text-primary: #ffffff;
+            --text-secondary: #b3b3b3;                                                            }
+                                                                                                  * { margin:0; padding:0; box-sizing:border-box; }
+        body {                                                                                        font-family: 'Inter', sans-serif;
+            background: var(--bg-dark);                                                               color: var(--text-primary);
+            overflow-x: hidden;                                                                   }
+                                                                                                  /* Header con hero */
+        .hero-section {                                                                               position: relative;
+            height: 80vh;                                                                             display: flex;
+            align-items: flex-end;                                                                    justify-content: flex-start;
+            overflow: hidden;                                                                     }
+                                                                                                  .hero-background {
+            position: absolute;                                                                       top: 0; left: 0; right: 0; bottom: 0;
+            background-image: url('https://www.latribunadeciudadreal.es/media/IMG/2024/F54A2A5E-FAA7-ECC7-8FC91C17A6E6FF30.JPG');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
 
-* { margin:0; padding:0; box-sizing:border-box; }
+        .hero-background::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: linear-gradient(90deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0.1) 100%);
+        }
 
-body {
-    font-family: 'Inter', sans-serif;
-    background: var(--bg-dark);
-    color: var(--text-primary);
-    overflow-x: hidden;
-}
+        .hero-content {
+            position: relative;
+            z-index: 10;
+            padding: 60px;
+        }
 
-/* Header con hero */
-.hero-section {
-    position: relative;
-    height: 80vh;
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-start;
-    overflow: hidden;
-}
+        .match-info-left {
+            text-align: left;
+            max-width: 500px;
+        }
 
-.hero-background {
-    position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
-    background-image: url('');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    transition: opacity 1s ease, background-image 0.5s ease;
-    opacity: 1;
-}
+        .match-title {
+            font-size: clamp(2.5rem, 6vw, 4rem);
+            font-weight: 800;
+            margin-bottom: 8px;
+            text-shadow: 3px 3px 6px rgba(0,0,0,0.8);
+        }
 
-.hero-background.fade-out { opacity: 0; }
+        .match-subtitle {
+            font-size: 1.3rem;
+            color: var(--text-secondary);
+            margin-bottom: 20px;
+        }
 
-.hero-background::before {
-    content: '';
-    position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
-    background: linear-gradient(90deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0.1) 100%);
-}
+        .watch-button {
+            display: inline-block;
+            background: var(--primary-color);
+            color: white;
+            padding: 14px 48px;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
 
-.hero-content {
-    position: relative;
-    z-index: 10;
-    padding: 60px;
-}
+        .watch-button:hover { background: #f40612; transform: scale(1.05); }
 
-.match-info-left {
-    text-align: left;
-    max-width: 500px;
-}
+        /* Main contenido */
+        .main-content {
+            padding: 40px 20px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
 
-.match-title {
-    font-size: clamp(2.5rem, 6vw, 4rem);
-    font-weight: 800;
-    margin-bottom: 8px;
-    text-shadow: 3px 3px 6px rgba(0,0,0,0.8);
-    transition: opacity 0.5s ease;
-}
+        /* Slider horizontal */
+        .channels-horizontal-scroll {
+            display: flex;
+            overflow-x: auto;
+            gap: 20px;
+            padding: 10px 0;
+            scroll-behavior: smooth;
+            -webkit-overflow-scrolling: touch;
+        }
+        .channels-horizontal-scroll::-webkit-scrollbar { display: none; }
 
-.match-title.fade { opacity: 0; }
+        /* Canal */
+        .channel-card-landscape {
+            flex: 0 0 auto;
+            width: 280px;
+            height: 160px;
+            background: rgba(255,255,255,0.05);
+            border-radius: 12px;
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            backdrop-filter: blur(10px);
+        }
+        .channel-card-landscape:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(229,9,20,0.3);
+        }
 
-.match-subtitle {
-    font-size: 1.3rem;
-    color: var(--text-secondary);
-    margin-bottom: 20px;
-}
+        .channel-link-landscape { display: block; width: 100%; height: 100%; text-decoration:none; color:var(--text-primary); position:relative; }
 
-.watch-button {
-    display: inline-block;
-    background: var(--primary-color);
-    color: white;
-    padding: 14px 48px;
-    border-radius: 4px;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 1.1rem;
-    transition: all 0.3s ease;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-}
+        .channel-thumbnail { width:100%; height:100%; position:relative; overflow:hidden; }
+        .channel-thumbnail img { width:100%; height:100%; object-fit:cover; }
 
-.watch-button:hover { background: #f40612; transform: scale(1.05); }
+        .channel-overlay {
+            position: absolute;
+            bottom: 0; left:0; right:0;
+            background: linear-gradient(transparent, rgba(0,0,0,0.8));
+            padding: 10px;
+        }
+        .channel-name-landscape { font-size:16px; font-weight:600; }
+        .channel-group { font-size:12px; color:var(--text-secondary); }
 
-/* Controles mini-slider En Directo */
-.direct-slider {
-    display: flex;
-    align-items: center;
-    margin-top: 20px;
-    overflow-x: auto;
-    gap: 5px;
-}
-.direct-channel {
-    flex: 0 0 auto;
-    width: 80px;
-    height: 45px;
-    background-size: cover;
-    background-position: center;
-    border: 2px solid transparent;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-.direct-channel.selected { border-color: var(--primary-color); }
-
-/* Main contenido */
-.main-content {
-    padding: 40px 20px;
-    max-width: 1400px;
-    margin: 0 auto;
-}
-
-/* Slider horizontal */
-.channels-horizontal-scroll {
-    display: flex;
-    overflow-x: auto;
-    gap: 20px;
-    padding: 10px 0;
-    scroll-behavior: smooth;
-    -webkit-overflow-scrolling: touch;
-}
-.channels-horizontal-scroll::-webkit-scrollbar { display: none; }
-
-/* Canal */
-.channel-card-landscape {
-    flex: 0 0 auto;
-    width: 280px;
-    height: 160px;
-    background: rgba(255,255,255,0.05);
-    border-radius: 12px;
-    overflow: hidden;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    backdrop-filter: blur(10px);
-}
-.channel-card-landscape:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 30px rgba(229,9,20,0.3);
-}
-
-.channel-link-landscape { display: block; width: 100%; height: 100%; text-decoration:none; color:var(--text-primary); position:relative; }
-
-.channel-thumbnail { width:100%; height:100%; position:relative; overflow:hidden; }
-
-.channel-overlay {
-    position: absolute;
-    bottom: 0; left:0; right:0;
-    background: linear-gradient(transparent, rgba(0,0,0,0.8));
-    padding: 10px;
-}
-.channel-name-landscape { font-size:16px; font-weight:600; }
-.channel-group { font-size:12px; color:var(--text-secondary); }
-
-@media(max-width:768px) {
-    .hero-content { padding:40px 20px; }
-    .match-title { font-size:2.5rem; }
-    .channel-card-landscape { width:240px; height:135px; }
-    .direct-channel { width:60px; height:35px; }
-}
-</style>
+        @media(max-width:768px) {
+            .hero-content { padding:40px 20px; }
+            .match-title { font-size:2.5rem; }
+            .channel-card-landscape { width:240px; height:135px; }
+        }
+    </style>
 </head>
 <body>
 
-<!-- Header -->
-<header class="hero-section">
-    <div class="hero-background"></div>
-    <div class="hero-content">
-        <div class="match-info-left">
-            <h1 class="match-title">Cargando...</h1>
-            <p class="match-subtitle">EN VIVO •</p>
-            <a href="#" class="watch-button" target="_blank">En Directo</a>
-
-            <!-- Mini-slider En Directo -->
-            <div class="direct-slider" id="direct-slider"></div>
+    <!-- Header -->
+    <header class="hero-section">
+        <div class="hero-background"></div>
+        <div class="hero-content">
+            <div class="match-info-left">
+                <h1 class="match-title">Toros</h1>
+                <p class="match-subtitle">EN VIVO • </p>
+                <a href="https://cdnapisec.kaltura.com/p/2288691/sp/228869100/playManifest/entryId/1_sqa9madm/protocol/https/format/applehttp/a.m3u8" class="watch-button" target="_blank">En Directo</a>
+            </div>
         </div>
-    </div>
-</header>
+    </header>
 
-<!-- Slider de canales -->
-<main class="main-content">
-    <div class="channels-horizontal-scroll" id="slider-canales"></div>
-</main>
+    <!-- Slider de canales -->
+    <main class="main-content">
+        <div class="channels-horizontal-scroll" id="slider-canales"></div>
+    </main>
 
-<script>
-async function cargarM3U8(url) {
-    try {
-        const resp = await fetch(url);
-        const texto = await resp.text();
-        const lineas = texto.split("\n");
-        const canales = [];
-        let canal = null;
+    <script>
+        async function cargarM3U8(url) {
+            try {
+                const resp = await fetch(url);
+                const texto = await resp.text();
+                const lineas = texto.split("\n");
+                const canales = [];
+                let canal = null;
 
-        lineas.forEach(linea => {
-            linea = linea.trim();
-            if (linea.startsWith("#EXTINF:")) {
-                const nombre = linea.split(",").pop().trim();
-                const logoMatch = linea.match(/tvg-logo="([^"]*)"/);
-                const grupoMatch = linea.match(/group-title="([^"]*)"/);
+                lineas.forEach(linea => {
+                    linea = linea.trim();
+                    if (linea.startsWith("#EXTINF:")) {
+                        const nombre = linea.split(",").pop().trim();
+                        const logoMatch = linea.match(/tvg-logo="([^"]*)"/);
+                        const grupoMatch = linea.match(/group-title="([^"]*)"/);
 
-                canal = {
-                    nombre: nombre || "Canal sin nombre",
-                    logo: logoMatch ? logoMatch[1] : null,
-                    grupo: grupoMatch ? grupoMatch[1] : "General",
-                    url: null
-                };
-            } else if (linea.startsWith("http") && canal) {
-                canal.url = linea;
-                canales.push(canal);
-                canal = null;
+                        canal = {
+                            nombre: nombre || "Canal sin nombre",
+                            logo: logoMatch ? logoMatch[1] : null,
+                            grupo: grupoMatch ? grupoMatch[1] : "General",
+                            url: null
+                        };
+                    } else if (linea.startsWith("http") && canal) {
+                        canal.url = linea;
+                        canales.push(canal);
+                        canal = null;
+                    }
+                });
+
+                return canales;
+            } catch(e) {
+                console.error("Error al cargar lista:", e);
+                return [];
             }
-        });
+        }
 
-        return canales;
-    } catch(e) {
-        console.error("Error al cargar lista:", e);
-        return [];
-    }
-}
+        function renderCanales(canales) {
+            const container = document.getElementById('slider-canales');
+            canales.forEach(canal => {
+                const div = document.createElement('div');
+                div.className = 'channel-card-landscape';
 
-function renderCanales(canales) {
-    const container = document.getElementById('slider-canales');
-    const canalesRestantes = canales.filter(canal => canal.grupo !== "En Directo");
+                const a = document.createElement('a');
+                a.href = canal.url;
+                a.target = '_blank';
+                a.className = 'channel-link-landscape';
 
-    canalesRestantes.forEach(canal => {
-        const div = document.createElement('div');
-        div.className = 'channel-card-landscape';
+                const thumbnail = document.createElement('div');
+                thumbnail.className = 'channel-thumbnail';
 
-        const a = document.createElement('a');
-        a.href = canal.url;
-        a.target = '_blank';
-        a.className = 'channel-link-landscape';
+                const img = document.createElement('img');
+                img.src = canal.logo || 'https://via.placeholder.com/280x160?text=TV';
+                img.alt = canal.nombre;
+                img.loading = 'lazy';
+                thumbnail.appendChild(img);
 
-        const thumbnail = document.createElement('div');
-        thumbnail.className = 'channel-thumbnail';
-        thumbnail.style.backgroundImage = canal.logo ? `url(${canal.logo})` : 'none';
-        thumbnail.style.backgroundSize = 'cover';
-        thumbnail.style.backgroundPosition = 'center';
-        thumbnail.style.backgroundRepeat = 'no-repeat';
-        if (!canal.logo) thumbnail.style.backgroundColor = '#1a1a1a';
+                const overlay = document.createElement('div');
+                overlay.className = 'channel-overlay';
 
-        const overlay = document.createElement('div');
-        overlay.className = 'channel-overlay';
+                const name = document.createElement('div');
+                name.className = 'channel-name-landscape';
+                name.textContent = canal.nombre;
 
-        const name = document.createElement('div');
-        name.className = 'channel-name-landscape';
-        name.textContent = canal.nombre;
+                const group = document.createElement('div');
+                group.className = 'channel-group';
+                group.textContent = canal.grupo;
 
-        const group = document.createElement('div');
-        group.className = 'channel-group';
-        group.textContent = canal.grupo;
+                overlay.appendChild(name);
+                overlay.appendChild(group);
+                thumbnail.appendChild(overlay);
+                a.appendChild(thumbnail);
+                div.appendChild(a);
+                container.appendChild(div);
+            });
+        }
 
-        overlay.appendChild(name);
-        overlay.appendChild(group);
-        thumbnail.appendChild(overlay);
-        a.appendChild(thumbnail);
-        div.appendChild(a);
-        container.appendChild(div);
-    });
-}
-
-function actualizarHeader(canal) {
-    const matchTitle = document.querySelector('.match-title');
-    const watchButton = document.querySelector('.watch-button');
-    const heroBackground = document.querySelector('.hero-background');
-
-    // Animación fade
-    matchTitle.classList.add('fade');
-    heroBackground.classList.add('fade-out');
-
-    setTimeout(() => {
-        matchTitle.textContent = canal.nombre;
-        watchButton.href = canal.url;
-        const logoUrl = canal.logo || 'https://via.placeholder.com/800x450?text=En+Directo';
-        heroBackground.style.backgroundImage = `url(${logoUrl})`;
-        matchTitle.classList.remove('fade');
-        heroBackground.classList.remove('fade-out');
-    }, 500);
-}
-
-function renderDirectSlider(canalesEnDirecto) {
-    const slider = document.getElementById('direct-slider');
-    slider.innerHTML = '';
-    canalesEnDirecto.forEach((canal, idx) => {
-        const div = document.createElement('div');
-        div.className = 'direct-channel';
-        if (idx === 0) div.classList.add('selected');
-        div.style.backgroundImage = canal.logo ? `url(${canal.logo})` : 'none';
-        div.title = canal.nombre;
-        div.addEventListener('click', () => {
-            document.querySelectorAll('.direct-channel').forEach(c => c.classList.remove('selected'));
-            div.classList.add('selected');
-            actualizarHeader(canal);
-            clearInterval(autoRotate); // reset automatic rotation al hacer clic
-            startAutoRotate(); // reinicia
-        });
-        slider.appendChild(div);
-    });
-}
-
-// Rotación automática
-let currentIndex = 0;
-let autoRotate;
-
-function startAutoRotate() {
-    const canalesEnDirecto = Array.from(document.querySelectorAll('.direct-channel'));
-    if (canalesEnDirecto.length <= 1) return;
-
-    autoRotate = setInterval(() => {
-        canalesEnDirecto[currentIndex].classList.remove('selected');
-        currentIndex = (currentIndex + 1) % canalesEnDirecto.length;
-        canalesEnDirecto[currentIndex].classList.add('selected');
-
-        // Actualizar header al canal actual
-        const canal = canalesData[currentIndex];
-        actualizarHeader(canal);
-    }, 5000); // cada 5 segundos
-}
-
-let canalesData = [];
-
-(async function init() {
-    const canales = await cargarM3U8("https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/toro.m3u8");
-
-    canalesData = canales.filter(canal => canal.grupo === "En Directo");
-    if (canalesData.length > 0) {
-        actualizarHeader(canalesData[0]);
-        renderDirectSlider(canalesData);
-        startAutoRotate();
-    }
-
-    renderCanales(canales);
-})();
-</script>
-
+        (async function init() {
+            const canales = await cargarM3U8("https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/toro.m3u8");
+            renderCanales(canales);
+        })();
+    </script>
 </body>
 </html>
+
+
+
+
+
+
+
+  
