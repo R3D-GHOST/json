@@ -94,32 +94,44 @@ body {
 
 .watch-button:hover { background: #f40612; transform: scale(1.05); }
 
-/* Controles mini-slider En Directo */
-.direct-slider {
-    display: flex;
-    align-items: center;
-    margin-top: 20px;
-    overflow-x: auto;
-    gap: 5px;
-}
-.direct-channel {
-    flex: 0 0 auto;
-    width: 80px;
-    height: 45px;
-    background-size: cover;
-    background-position: center;
-    border: 2px solid transparent;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-.direct-channel.selected { border-color: var(--primary-color); }
-
 /* Main contenido */
 .main-content {
     padding: 40px 20px;
     max-width: 1400px;
     margin: 0 auto;
+}
+
+/* Buscador */
+.search-container {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#search-input {
+    width: 90%;
+    max-width: 600px;
+    padding: 12px 20px;
+    border-radius: 30px;
+    border: 1px solid rgba(255,255,255,0.2);
+    background: rgba(255,255,255,0.05);
+    color: var(--text-primary);
+    font-size: 1rem;
+    backdrop-filter: blur(10px);
+}
+
+#search-input::placeholder { color: var(--text-secondary); }
+
+/* Grupos */
+.grupo-section {
+    margin-bottom: 40px;
+}
+
+.grupo-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    border-left: 4px solid var(--primary-color);
 }
 
 /* Slider horizontal */
@@ -166,7 +178,6 @@ body {
     .hero-content { padding:40px 20px; }
     .match-title { font-size:2.5rem; }
     .channel-card-landscape { width:240px; height:135px; }
-    .direct-channel { width:60px; height:35px; }
 }
 </style>
 </head>
@@ -180,19 +191,24 @@ body {
             <h1 class="match-title">Cargando...</h1>
             <p class="match-subtitle">EN VIVO •</p>
             <a href="#" class="watch-button" target="_blank">En Directo</a>
-
-            <!-- Mini-slider En Directo -->
-            <div class="direct-slider" id="direct-slider"></div>
         </div>
     </div>
 </header>
 
-<!-- Slider de canales -->
+<!-- Contenido principal -->
 <main class="main-content">
-    <div class="channels-horizontal-scroll" id="slider-canales"></div>
+    <!-- Buscador -->
+    <div class="search-container">
+        <input type="text" id="search-input" placeholder="Buscar canal...">
+    </div>
+
+    <!-- Contenedor de grupos -->
+    <div id="grupos-container"></div>
 </main>
 
 <script>
+let canalesData = [];
+
 async function cargarM3U8(url) {
     try {
         const resp = await fetch(url);
@@ -228,44 +244,70 @@ async function cargarM3U8(url) {
     }
 }
 
-function renderCanales(canales) {
-    const container = document.getElementById('slider-canales');
-    const canalesRestantes = canales.filter(canal => canal.grupo !== "En Directo");
+function renderCanalesPorGrupos(canales) {
+    const container = document.getElementById('grupos-container');
+    container.innerHTML = '';
 
-    canalesRestantes.forEach(canal => {
-        const div = document.createElement('div');
-        div.className = 'channel-card-landscape';
+    // Agrupar por grupo
+    const grupos = {};
+    canales.forEach(canal => {
+        if (!grupos[canal.grupo]) grupos[canal.grupo] = [];
+        grupos[canal.grupo].push(canal);
+    });
 
-        const a = document.createElement('a');
-        a.href = canal.url;
-        a.target = '_blank';
-        a.className = 'channel-link-landscape';
+    // Renderizar cada grupo excepto "En Directo"
+    Object.entries(grupos).forEach(([grupo, canalesGrupo]) => {
+        if (grupo === "En Directo") return; // Ocultar grupo "En Directo"
+        const section = document.createElement('div');
+        section.className = 'grupo-section';
+        section.dataset.grupo = grupo.toLowerCase();
 
-        const thumbnail = document.createElement('div');
-        thumbnail.className = 'channel-thumbnail';
-        thumbnail.style.backgroundImage = canal.logo ? `url(${canal.logo})` : 'none';
-        thumbnail.style.backgroundSize = 'cover';
-        thumbnail.style.backgroundPosition = 'center';
-        thumbnail.style.backgroundRepeat = 'no-repeat';
-        if (!canal.logo) thumbnail.style.backgroundColor = '#1a1a1a';
+        const title = document.createElement('h2');
+        title.className = 'grupo-title';
+        title.textContent = grupo;
+        section.appendChild(title);
 
-        const overlay = document.createElement('div');
-        overlay.className = 'channel-overlay';
+        const scroll = document.createElement('div');
+        scroll.className = 'channels-horizontal-scroll';
 
-        const name = document.createElement('div');
-        name.className = 'channel-name-landscape';
-        name.textContent = canal.nombre;
+        canalesGrupo.forEach(canal => {
+            const card = document.createElement('div');
+            card.className = 'channel-card-landscape';
 
-        const group = document.createElement('div');
-        group.className = 'channel-group';
-        group.textContent = canal.grupo;
+            const link = document.createElement('a');
+            link.href = canal.url;
+            link.target = '_blank';
+            link.className = 'channel-link-landscape';
 
-        overlay.appendChild(name);
-        overlay.appendChild(group);
-        thumbnail.appendChild(overlay);
-        a.appendChild(thumbnail);
-        div.appendChild(a);
-        container.appendChild(div);
+            const thumbnail = document.createElement('div');
+            thumbnail.className = 'channel-thumbnail';
+            thumbnail.style.backgroundImage = canal.logo ? `url(${canal.logo})` : 'none';
+            thumbnail.style.backgroundSize = 'cover';
+            thumbnail.style.backgroundPosition = 'center';
+            thumbnail.style.backgroundRepeat = 'no-repeat';
+            if (!canal.logo) thumbnail.style.backgroundColor = '#1a1a1a';
+
+            const overlay = document.createElement('div');
+            overlay.className = 'channel-overlay';
+
+            const name = document.createElement('div');
+            name.className = 'channel-name-landscape';
+            name.textContent = canal.nombre;
+
+            const group = document.createElement('div');
+            group.className = 'channel-group';
+            group.textContent = canal.grupo;
+
+            overlay.appendChild(name);
+            overlay.appendChild(group);
+            thumbnail.appendChild(overlay);
+            link.appendChild(thumbnail);
+            card.appendChild(link);
+            scroll.appendChild(card);
+        });
+
+        section.appendChild(scroll);
+        container.appendChild(section);
     });
 }
 
@@ -274,7 +316,6 @@ function actualizarHeader(canal) {
     const watchButton = document.querySelector('.watch-button');
     const heroBackground = document.querySelector('.hero-background');
 
-    // Animación fade
     matchTitle.classList.add('fade');
     heroBackground.classList.add('fade-out');
 
@@ -288,46 +329,42 @@ function actualizarHeader(canal) {
     }, 500);
 }
 
-function renderDirectSlider(canalesEnDirecto) {
-    const slider = document.getElementById('direct-slider');
-    slider.innerHTML = '';
-    canalesEnDirecto.forEach((canal, idx) => {
-        const div = document.createElement('div');
-        div.className = 'direct-channel';
-        if (idx === 0) div.classList.add('selected');
-        div.style.backgroundImage = canal.logo ? `url(${canal.logo})` : 'none';
-        div.title = canal.nombre;
-        div.addEventListener('click', () => {
-            document.querySelectorAll('.direct-channel').forEach(c => c.classList.remove('selected'));
-            div.classList.add('selected');
-            actualizarHeader(canal);
-            clearInterval(autoRotate); // reset automatic rotation al hacer clic
-            startAutoRotate(); // reinicia
-        });
-        slider.appendChild(div);
-    });
-}
+// Buscador
+const searchInput = document.getElementById('search-input');
+searchInput.addEventListener('input', (e) => {
+    const query = e.target.value.toLowerCase();
+    const secciones = document.querySelectorAll('.grupo-section');
 
-// Rotación automática
+    secciones.forEach(seccion => {
+        const grupo = seccion.dataset.grupo;
+        const canales = seccion.querySelectorAll('.channel-card-landscape');
+        let grupoVisible = false;
+
+        canales.forEach(canal => {
+            const nombre = canal.querySelector('.channel-name-landscape').textContent.toLowerCase();
+            if (nombre.includes(query) || grupo.includes(query)) {
+                canal.style.display = 'block';
+                grupoVisible = true;
+            } else {
+                canal.style.display = 'none';
+            }
+        });
+
+        seccion.style.display = grupoVisible ? 'block' : 'none';
+    });
+});
+
+// Rotación automática de canales en el header
 let currentIndex = 0;
 let autoRotate;
 
 function startAutoRotate() {
-    const canalesEnDirecto = Array.from(document.querySelectorAll('.direct-channel'));
-    if (canalesEnDirecto.length <= 1) return;
-
+    if (canalesData.length <= 1) return;
     autoRotate = setInterval(() => {
-        canalesEnDirecto[currentIndex].classList.remove('selected');
-        currentIndex = (currentIndex + 1) % canalesEnDirecto.length;
-        canalesEnDirecto[currentIndex].classList.add('selected');
-
-        // Actualizar header al canal actual
-        const canal = canalesData[currentIndex];
-        actualizarHeader(canal);
+        currentIndex = (currentIndex + 1) % canalesData.length;
+        actualizarHeader(canalesData[currentIndex]);
     }, 5000); // cada 5 segundos
 }
-
-let canalesData = [];
 
 (async function init() {
     const canales = await cargarM3U8("https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/toro.m3u8");
@@ -335,11 +372,10 @@ let canalesData = [];
     canalesData = canales.filter(canal => canal.grupo === "En Directo");
     if (canalesData.length > 0) {
         actualizarHeader(canalesData[0]);
-        renderDirectSlider(canalesData);
         startAutoRotate();
     }
 
-    renderCanales(canales);
+    renderCanalesPorGrupos(canales);
 })();
 </script>
 
