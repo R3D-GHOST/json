@@ -196,6 +196,45 @@ https://rtv-murcia-live.globalmest.com/secundario/smil:secundario.smil/playlist.
 
 
 
+#EXTM3U
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/VaF3s36.png" group-title="Run Time", Run Time TV y Películas
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=2649
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/VaF3s36.png" group-title="Run Time", Run Time Acción
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=3058
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/VaF3s36.png" group-title="Run Time", Run Time Comedia
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=3057
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/VaF3s36.png" group-title="Run Time", Run Time Thriller y Terror
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=3054
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/VaF3s36.png" group-title="Run Time", Run Time Crimen
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=3527
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/VaF3s36.png" group-title="Run Time", Run Time Romance
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=3056
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/VaF3s36.png" group-title="Run Time", Run Time Clásicos
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=3053
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/VaF3s36.png" group-title="Run Time", Run Time Series
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=3434
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/VaF3s36.png" group-title="Run Time", Run Time Ana y los 7
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=2722
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/VaF3s36.png" group-title="Run Time", Run Time Curro Jiménez
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=3435
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/VaF3s36.png" group-title="Run Time", Run Time Familia
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=3528
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/VaF3s36.png" group-title="Run Time", Run Time Trash
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=4647
+
+
 
 
 
