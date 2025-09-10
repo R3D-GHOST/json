@@ -26,12 +26,14 @@ https://d3bb58xoj568xi.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 
 
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="En Directo", 
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://pixelesypalomitas.es/images/post/es_ES_vod/deportes-futbol-la-liga.svg" group-title="En Directo", Real Madrid VS Real Sociedad 
 
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="En Directo", 
 
 
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="En Directo", 
 
 
 #EXTINF:-1 tvg-name="Antena 3" tvg-logo="https://i.imgur.com/j3SP4BS.png" tvg-id="Antena3.es" group-title="Spain",Antena 3
