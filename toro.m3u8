@@ -183,9 +183,29 @@ http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/62568a94ed1f380007b021
 http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/61373c865ed5810007173fbc/master.m3u8?deviceType=unknown&deviceMake=unknown&deviceModel=unknown&deviceVersion=unknown&appVersion=unknown&deviceLat=90&deviceLon=0&deviceDNT=TARGETOPT&deviceId=PSID&advertisingId=PSID&us_privacy=1YNY&profileLimit=&profileFloor=&embedPartner=
 
 
+
+
+
+
+
+
+
+
+
+
 #EXTM3U
 #EXTINF:-1 group-title="Deportes" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlhCeQdnlHSBAL1yMsUjji_71UPTz1DjHCmuFV-YZ4coQiH2el-vqBF-w&s=10", UFC 
 https://fl1.moveonjoy.com/UFC/index.m3u8
+
+
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/8gFW5JR8/DRAGON-BALL-Z.png" group-title="Entretenimiento", DRAGON BALL Z
+https://live20.bozztv.com/giatvplayout7/giatv-208725/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/0j1QjYd5/DRAGON-BALL-SUPER.png" group-title="Entretenimiento", DRAGON BALL SUPER
+https://live20.bozztv.com/giatvplayout7/giatv-208708/playlist.m3u8
+
+
 
 
 
@@ -349,3 +369,191 @@ https://jmp2.uk/stvp-ESBD5100001G0
 #EXTINF:-1 tvg-id="ES900001SH" tvg-name="ES900001SH" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES900001SH_20241022T050553SQUARE.png" group-title="Niños" , Mr Bean Animated
 https://jmp2.uk/stvp-ES900001SH
 #EXTINF:-1 tvg-id="ESBD3200002V5" tvg-name="ESBD3200002V5" tvg-logo="https://
+
+
+
+
+
+
+
+
+
+#EXTINF:-1 tvg-logo="http://puu.sh/nvrR5/1bb233b647.png" group-title="TV Online", Miami TV
+http://59ec5453559f0.streamlock.net:1935/mexicotv/smil:miamitvmexicoROKU/chunklist_b1896000.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/DLEFDcv.png" group-title="TV Online", Jasmin TV
+http://109.71.162.112:1935/live/sd.jasminchannel.stream/media_w852484650_6656.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/pt/7/74/Logotipo_da_Playboy_TV.png" group-title="TV Online", PlayboyX Tv
+http://live.redtraffic.xyz/latina.m3u8
+
+#EXTINF:-1 tvg-logo="http://jarytec.com/wp-content/uploads/2017/02/logoxxx-1.png" group-title="TV Online", HOT
+http://live.redtraffic.xyz/blowjob.m3u8
+
+#EXTINF:-1 tvg-logo="http://jarytec.com/wp-content/uploads/2017/02/logoxxx-1.png" group-title="TV Online", Dusk
+http://live.redtraffic.xyz/milf.m3u8
+
+#EXTINF:-1 tvg-logo="http://jarytec.com/wp-content/uploads/2017/02/logoxxx-1.png" group-title="TV Online", Juice
+http://live.redtraffic.xyz/bigass.m3u8
+
+#EXTINF:-1 tvg-logo="http://totaltv.tv/oec/images/tv_channels/bdc6d5c54bd382de621a6c1ec682ff89.png" group-title="TV Online", SEXTATION
+http://live.redtraffic.xyz/teen.m3u8
+
+#EXTINF:-1 tvg-logo="http://jarytec.com/wp-content/uploads/2017/02/logoxxx-1.png" group-title="TV Online", You Porn
+http://live.redtraffic.xyz/pov.m3u8
+
+#EXTINF:-1 tvg-logo="http://jarytec.com/wp-content/uploads/2017/02/logoxxx-1.png" group-title="TV Online", PenthouseX
+http://live.redtraffic.xyz/pornstar.m3u8
+
+#EXTINF:-1 tvg-logo="http://vignette2.wikia.nocookie.net/logopedia/images/2/23/Sextreme.png" group-title="TV Online", Sextreme
+http://live.redtraffic.xyz/fetish.m3u8
+
+#EXTINF:-1 tvg-logo="http://www.tps.uk.com/img/products/120/Brazzers-TV-Viaccess-12-month.jpg" group-title="TV Online", BRAZZERS
+http://live.redtraffic.xyz/bigtits.m3u8
+
+#EXTINF:-1 tvg-logo="https://s19.postimg.org/t9qpt32f7/HUSTLER.png" group-title="TV Online", HustlerXXX
+http://live.redtraffic.xyz/bigdick.m3u8
+
+#EXTINF:-1 tvg-logo="http://www.diesl.com/wp-content/uploads/2013/04/hustlertv.png" group-title="TV Online", PrivateX
+http://live.redtraffic.xyz/cuckold.m3u8
+
+#EXTINF:-1 tvg-logo="http://vercanalestv.com/imagenes/redlight.png" group-title="TV Online", RedlightX
+http://live.redtraffic.xyz/russian.m3u8
+
+#EXTINF:-1 tvg-logo="http://vignette3.wikia.nocookie.net/logopedia/images/4/48/Logo_venus_out_color.jpg" group-title="TV Online", VENUS
+http://live.redtraffic.xyz/interracial.m3u8
+
+
+
+
+
+
+
+
+#EXTINF:-1 ,AVENGERS
+http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/168741.m3u8
+#EXTINF:-1 ,BIG BANG TERORY
+http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/168760.m3u8
+#EXTINF:-1 ,BOB SPONJA
+http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/279017.m3u8
+#EXTINF:-1 ,CANTINFLAS
+http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/168756.m3u8
+#EXTINF:-1 ,CINE DC COMIC
+http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/168727.m3u8
+#EXTINF:-1 ,CINE DISNEY
+http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/168736.m3u8
+#EXTINF:-1 ,CINE KIDS
+http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/168566.m3u8
+#EXTINF:-1 ,CINE KIDS 2
+http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/168567.m3u8
+#EXTINF:-1 ,CINE MARVEL
+http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/168728.m3u8
+#EXTINF:-1 ,CINE TERROR
+http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/168734.m3u8
+#EXTINF:-1 ,CSI LAS VEGAS
+http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/181401.m3u8
+#EXTINF:-1 ,DINOSAURIOS
+http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/279019.m3u8
+#EXTINF:-1 ,DOS HOMBRES Y MEDIO
+http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/279021.m3u8
+#EXTINF:-1 ,DR. HOUSE
+http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/279022.m3u8
+#EXTINF:-1 ,EDD Y EDDY
+http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/279006.m3u8
+#EXTINF:-1 ,EL CHAPULIN
+http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/279027.m3u8
+#EXTINF:-1 ,EL CHAVO
+http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/279007.m3u8
+#EXTINF:-1 ,FAMILIA PELUCHE
+http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/166690.m3u8
+#EXTINF:-1 ,FRIENDS
+http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/168762.m3u8
+#EXTINF:-1 ,FUTURAMA
+http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/279008.m3u8
+#EXTINF:-1 ,GARFIEL Y SUS AMIGOS
+http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/279034.m3u8
+#EXTINF:-1 ,JHONNY BRAVO
+http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/168758.m3u8
+#EXTINF:-1 ,JUEGO DE TRONOS
+http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/168730.m3u8
+#EXTINF:-1 ,LA INDIA MARIA
+http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/168754.m3u8
+#EXTINF:-1 ,LA PANTERA ROSA
+http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/168764.m3u8
+#EXTINF:-1 ,LA VACA Y EL POLLO
+http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/279005.m3u8
+#EXTINF:-1 ,LONEY TOONS
+http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/181395.m3u8
+#EXTINF:-1 ,LOS 3 CHIFLADOS
+http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/279037.m3u8
+#EXTINF:-1 ,LOS AVENGERS
+http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/168752.m3u8
+#EXTINF:-1 ,LOS CHICOS DEL BARRIO
+http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/279010.m3u8
+#EXTINF:-1 ,LOS PICAPIERDAS
+http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/279039.m3u8
+#EXTINF:-1 ,LOS PINGUINOS DE MADAGASCAR
+http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/181397.m3u8
+#EXTINF:-1 ,LOS SIMPSONS
+http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/168740.m3u8
+#EXTINF:-1 ,LOS SIMPSONS
+http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/168753.m3u8
+#EXTINF:-1 ,MALCON
+http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/168748.m3u8
+#EXTINF:-1 ,PAJARO LOCO
+http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/181398.m3u8
+#EXTINF:-1 ,PEDRO INFANTE
+http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/168744.m3u8
+#EXTINF:-1 ,POKEMON
+http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/158332.m3u8
+#EXTINF:-1 ,POKEMON
+http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/168751.m3u8
+#EXTINF:-1 ,SOUTH PARK
+http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/168763.m3u8
+#EXTINF:-1 ,THE WALKING DEAD
+http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/168738.m3u8
+#EXTINF:-1 ,THE WALKING DEATH
+http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/168761.m3u8
+#EXTINF:-1 ,TOM Y JERRY
+http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/277581.m3u8
+#EXTINF:-1 ,TRANSFORMERS
+http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/168767.m3u8
+
+#EXTINF:0,NETFLIX
+http://xcm.budtv-ultra.com:9000/budtv/websline/eWmWuCeW3j9F/168559.m3u8
+#EXTINF:0,NETFLIX
+http://xcm.budtv-ultra.com:9000/budtv/websline/eWmWuCeW3j9F/168562.m3u8
+#EXTINF:0,NETFLIX
+http://xcm.budtv-ultra.com:9000/budtv/websline/eWmWuCeW3j9F/168563.m3u8
+#EXTINF:0,NETFLIX
+http://xcm.budtv-ultra.com:9000/budtv/websline/eWmWuCeW3j9F/168564.m3u8
+#EXTINF:0,NETFLIX
+http://xcm.budtv-ultra.com:9000/budtv/websline/eWmWuCeW3j9F/168565.m3u8
+#EXTINF:0,NETFLIX
+http://xcm.budtv-ultra.com:9000/budtv/websline/eWmWuCeW3j9F/168566.m3u8
+#EXTINF:0,NETFLIX
+http://xcm.budtv-ultra.com:9000/budtv/websline/eWmWuCeW3j9F/168567.m3u8
+#EXTINF:0,NETFLIX
+http://xcm.budtv-ultra.com:9000/budtv/websline/eWmWuCeW3j9F/168568.m3u8
+#EXTINF:0,NETFLIX
+http://xcm.budtv-ultra.com:9000/budtv/websline/eWmWuCeW3j9F/168569.m3u8
+#EXTINF:0,NETFLIX
+http://xcm.budtv-ultra.com:9000/budtv/websline/eWmWuCeW3j9F/168570.m3u8
+
+#EXTINF:0,ULTRA CINE
+http://xcm.budtv-ultra.com:9000/budtv/websline/eWmWuCeW3j9F/180633.m3u8
+#EXTINF:0,ULTRA CLASICO
+http://xcm.budtv-ultra.com:9000/budtv/websline/eWmWuCeW3j9F/180633.m3u8
+#EXTINF:0,ULTRA DOCU
+http://xcm.budtv-ultra.com:9000/budtv/websline/eWmWuCeW3j9F/180634.m3u8
+#EXTINF:0,ULTRA FAMILIA
+http://xcm.budtv-ultra.com:9000/budtv/websline/eWmWuCeW3j9F/180635.m3u8
+#EXTINF:0,ULTRA FIESTA
+http://xcm.budtv-ultra.com:9000/budtv/websline/eWmWuCeW3j9F/180636.m3u8
+#EXTINF:0,ULTRA KIDS
+http://xcm.budtv-ultra.com:9000/budtv/websline/eWmWuCeW3j9F/180637.m3u8
+#EXTINF:0,ULTRA MEX
+http://xcm.budtv-ultra.com:9000/budtv/websline/eWmWuCeW3j9F/180638.m3u8
+
+
+
