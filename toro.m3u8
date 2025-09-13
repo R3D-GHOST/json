@@ -1,10 +1,5 @@
 
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://images.amcselekt.es/EqXj3CWkTa9Ens1sPrzQkKMbBdnc6bYbHKR2qvRE/4a8127de8f860b288b3a967452e029ca_og_dark.png" group-title="En Directo", DARK
-https://wal-force-manufacturing-ready.trycloudflare.com/hls/stream.m3u8
-
-
-
 #EXTINF:-1 tvg-logo="https://wallpapers.com/images/hd/bull-pictures-1920-x-1200-j97ymvuceslt5219.jpg" group-title="En Directo",  Toros® HORA:18:00
 https://cdnapisec.kaltura.com/p/2288691/sp/228869100/playManifest/entryId/1_sqa9madm/protocol/https/format/applehttp/a.m3u8
 
