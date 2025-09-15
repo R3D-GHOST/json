@@ -1,5 +1,14 @@
 [
   {
+  "title": "Akira",
+  "description": "En un Neo-Tokio posapocalíptico, un joven motociclista llamado Tetsuo adquiere poderes telequinéticos que amenazan con desatar una catástrofe. Su amigo Kaneda deberá detenerlo antes de que sea demasiado tarde.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ8H_MgwChXa_jCj_xHCZRfYcbroj0XDZWL57AoRjdAA&s=10",
+  "genre": ["Película", "Anime", "Ciencia Ficción", "Ciberpunk"],
+  "video_url": "https://archive.org/download/akira-1988_20230323/Akira%20%281988%29.mp4"
+  },
+
+
+  {
     "title": "Your Name",
     "description": "Una conmovedora historia de dos almas que se encuentran a través del tiempo y el espacio.",
     "coverImage": "https://imgsrv.crunchyroll.com/cdn-cgi/image/format=auto,fit=contain,width=480,height=720,quality=85/catalog/crunchyroll/c9947dfac4b57728c3c7eb81ed77ac09.jpe",
