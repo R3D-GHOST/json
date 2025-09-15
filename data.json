@@ -1056,7 +1056,101 @@
     { "video_url": "https://archive.org/download/dnangel03elsusurrodelunicornio/DN%20Angel%20-%2025%20La%20promesa%20eterna.mp4", "description": "Capítulo 25 - La promesa eterna" },
     { "video_url": "https://archive.org/download/dnangel03elsusurrodelunicornio/DN%20Angel%20-%2026%20Dark%20para%20siempre.mp4", "description": "Capítulo 26 - Dark para siempre" }
   ]
+},
+
+
+
+
+
+{
+  "title": "Spider-Man (1994) - Temporada 1",
+  "description": "La clásica serie animada de Spider-Man de 1994. Esta temporada sigue a Peter Parker en sus primeras grandes batallas contra villanos como el Lagarto, el Doctor Octopus, Kraven, Mysterio, el Escorpión y el Duende Verde.",
+  "coverImage": "https://m.media-amazon.com/images/M/MV5BYWRkN2M1NmQtZjhjMi00ODFjLTk2ODctYWJiOWNkNjg1OGY4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  "genre": ["Serie", "Animación", "Superhéroes"],
+  "episodeWallpaper": "https://upload.wikimedia.org/wikipedia/en/f/f1/Spider-Man_%281994_TV_series%29_title_card.jpg",
+  "episodes": [
+    {
+      "episode_number": 1,
+      "title": "La noche del lagarto",
+      "video_url": "https://archive.org/download/spiderman_202307/01x01%20La%20noche%20del%20lagarto.mp4",
+      "description": "Spider-Man debe enfrentar al Lagarto, una nueva amenaza en la ciudad."
+    },
+    {
+      "episode_number": 2,
+      "title": "El Mata Arañas",
+      "video_url": "https://archive.org/download/spiderman_202307/01x02%20El%20Mata%20Aranas.mp4",
+      "description": "Un villano cazador especializado en acabar con Spider-Man aparece en Nueva York."
+    },
+    {
+      "episode_number": 3,
+      "title": "El Regreso del Mata Arañas",
+      "video_url": "https://archive.org/download/spiderman_202307/01x03%20El%20Regreso%20del%20Mata%20arañas.mp4",
+      "description": "El cazador vuelve con un nuevo plan para derrotar al trepamuros."
+    },
+    {
+      "episode_number": 4,
+      "title": "La travesura de Misterio",
+      "video_url": "https://archive.org/download/spiderman_202307/01x04%20La%20travesura%20de%20Misterio.mp4",
+      "description": "Misterio utiliza ilusiones para inculpar a Spider-Man de crímenes."
+    },
+    {
+      "episode_number": 5,
+      "title": "El Doctor Pulpo",
+      "video_url": "https://archive.org/download/spiderman_202307/01x05%20El%20doctor%20pulpo.mp4",
+      "description": "Spider-Man se enfrenta al villano Doctor Octopus en su primer gran duelo."
+    },
+    {
+      "episode_number": 6,
+      "title": "El aguijón del Escorpión",
+      "video_url": "https://archive.org/download/spiderman_202307/01x06%20El%20aguijon%20del%20escorpion.mp4",
+      "description": "Un experimento crea a un nuevo enemigo: el Escorpión."
+    },
+    {
+      "episode_number": 7,
+      "title": "Kraven el Cazador",
+      "video_url": "https://archive.org/download/spiderman_202307/01x07%20Kraven%20el%20cazador.mp4",
+      "description": "Kraven llega a Nueva York en busca de Spider-Man."
+    },
+    {
+      "episode_number": 8,
+      "title": "El disfraz del alien (Parte 1)",
+      "video_url": "https://archive.org/download/spiderman_202307/01x08%20El%20disfraz%20del%20alien%20parte1.mp4",
+      "description": "Spider-Man encuentra un misterioso traje negro con poderes especiales."
+    },
+    {
+      "episode_number": 9,
+      "title": "El disfraz del alien (Parte 2)",
+      "video_url": "https://archive.org/download/spiderman_202307/01x09%20El%20disfraz%20del%20alien%20parte2.mp4",
+      "description": "El traje negro comienza a controlar a Peter Parker."
+    },
+    {
+      "episode_number": 10,
+      "title": "El disfraz del alien (Parte 3)",
+      "video_url": "https://archive.org/download/spiderman_202307/01x10%20El%20disfraz%20del%20alien%20parte3.mp4",
+      "description": "Spider-Man descubre el origen del traje alienígena y debe librarse de él."
+    },
+    {
+      "episode_number": 11,
+      "title": "El Duende Verde (Parte 1)",
+      "video_url": "https://archive.org/download/spiderman_202307/01x11%20El%20duende%20verde%20parte1.mp4",
+      "description": "El Duende Verde aparece y amenaza a Spider-Man."
+    },
+    {
+      "episode_number": 12,
+      "title": "El Duende Verde (Parte 2)",
+      "video_url": "https://archive.org/download/spiderman_202307/01x12%20El%20duende%20verde%20parte2.mp4",
+      "description": "Spider-Man lucha contra el Duende Verde para salvar a sus seres queridos."
+    },
+    {
+      "episode_number": 13,
+      "title": "El día del Camaleón",
+      "video_url": "https://archive.org/download/spiderman_202307/01x13%20El%20dia%20del%20camaleon.mp4",
+      "description": "El Camaleón utiliza su habilidad de disfrazarse para poner en problemas a Spider-Man."
+    }
+  ]
 }
+
+  
 
 
   
