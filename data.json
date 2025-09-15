@@ -1015,7 +1015,58 @@
     { "video_url": "https://archive.org/download/55_20231107/63.mp4", "description": "Episodio 63" },
     { "video_url": "https://archive.org/download/55_20231107/64.mp4", "description": "Episodio 64" }
   ]
+},
+
+
+
+
+
+
+{
+  "title": "D•N Angel - Temporada 1",
+  "description": "Daisuke Niwa es un estudiante de secundaria que al cumplir 14 años descubre que hereda una peculiar condición familiar: al experimentar sentimientos de amor se transforma en el legendario ladrón fantasma Dark. Junto a él, deberá enfrentar aventuras entre magia, romance y misterios.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTry2InGVR4Wowdjb41WGDTLhKWUkSN87lkQURSGlsLJw&s=10",
+  "genre": ["Anime", "Aventura", "Romance", "Fantástico"],
+  "episodeWallpaper": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTry2InGVR4Wowdjb41WGDTLhKWUkSN87lkQURSGlsLJw&s=10",
+  "episodes": [
+    { "video_url": "https://archive.org/download/dnangel03elsusurrodelunicornio/01.mp4", "description": "Episodio 1 - El renacer de Dark" },
+    { "video_url": "https://archive.org/download/dnangel03elsusurrodelunicornio/02.mp4", "description": "Episodio 2 - Sentimientos que resurgen" },
+    { "video_url": "https://archive.org/download/dnangel03elsusurrodelunicornio/03.mp4", "description": "Episodio 3 - El susurro del unicornio" },
+    { "video_url": "https://archive.org/download/dnangel03elsusurrodelunicornio/04.mp4", "description": "Episodio 4 - Entre la luz y la oscuridad" },
+    { "video_url": "https://archive.org/download/dnangel03elsusurrodelunicornio/05.mp4", "description": "Episodio 5 - Doble cocina" },
+    { "video_url": "https://archive.org/download/dnangel03elsusurrodelunicornio/06.mp4", "description": "Episodio 6 - Un persuasivo ladrón fantasma" },
+    { "video_url": "https://archive.org/download/dnangel03elsusurrodelunicornio/07.mp4", "description": "Episodio 7 - El chico de la isla" },
+    { "video_url": "https://archive.org/download/dnangel03elsusurrodelunicornio/08.mp4", "description": "Episodio 8 - Laberinto de agua" },
+    { "video_url": "https://archive.org/download/dnangel03elsusurrodelunicornio/09.mp4", "description": "Episodio 9 - La visión de una mujer" },
+    { "video_url": "https://archive.org/download/dnangel03elsusurrodelunicornio/10.mp4", "description": "Episodio 10 - Adiós al día lluvioso" },
+    { "video_url": "https://archive.org/download/dnangel03elsusurrodelunicornio/11.mp4", "description": "Episodio 11 - La promesa de un ángel" },
+    { "video_url": "https://archive.org/download/dnangel03elsusurrodelunicornio/12.mp4", "description": "Episodio 12 - El último antídoto" },
+    { "video_url": "https://archive.org/download/dnangel03elsusurrodelunicornio/13.mp4", "description": "Episodio 13 - Fuerzas oscuras" },
+    { "video_url": "https://archive.org/download/dnangel03elsusurrodelunicornio/14.mp4", "description": "Episodio 14 - Una navidad de dos" },
+    { "video_url": "https://archive.org/download/dnangel03elsusurrodelunicornio/15.mp4", "description": "Episodio 15 - Un ángel caído" },
+    { "video_url": "https://archive.org/download/dnangel03elsusurrodelunicornio/16.mp4", "description": "Episodio 16 - El héroe de las sombras" },
+    { "video_url": "https://archive.org/download/dnangel03elsusurrodelunicornio/17.mp4", "description": "Episodio 17 - El destino de los gemelos" },
+    { "video_url": "https://archive.org/download/dnangel03elsusurrodelunicornio/18.mp4", "description": "Episodio 18 - Alma de acero" },
+    { "video_url": "https://archive.org/download/dnangel03elsusurrodelunicornio/19.mp4", "description": "Episodio 19 - Un secreto revelado" },
+    { "video_url": "https://archive.org/download/dnangel03elsusurrodelunicornio/20.mp4", "description": "Episodio 20 - Destellos de amistad" },
+    { "video_url": "https://archive.org/download/dnangel03elsusurrodelunicornio/21.mp4", "description": "Episodio 21 - El precio del pasado" },
+    { "video_url": "https://archive.org/download/dnangel03elsusurrodelunicornio/22.mp4", "description": "Episodio 22 - Un lazo eterno" },
+    { "video_url": "https://archive.org/download/dnangel03elsusurrodelunicornio/23.mp4", "description": "Episodio 23 - Alas en el crepúsculo" },
+    { "video_url": "https://archive.org/download/dnangel03elsusurrodelunicornio/24.mp4", "description": "Episodio 24 - El despertar del amor" },
+    { "video_url": "https://archive.org/download/dnangel03elsusurrodelunicornio/25.mp4", "description": "Episodio 25 - Confesiones al atardecer" },
+    { "video_url": "https://archive.org/download/dnangel03elsusurrodelunicornio/26.mp4", "description": "Episodio 26 - Dark para siempre" }
+  ]
 }
+
+
+
+  
+
+
+
+
+
+  
 
 
 ]
