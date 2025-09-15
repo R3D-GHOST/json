@@ -855,9 +855,9 @@
 
 
   {
-  "title": "Pokémon (Serie Original)",
+  "title": "Pokémon",
   "description": "La primera serie de Pokémon que sigue a Ash Ketchum en su viaje para convertirse en Maestro Pokémon.",
-  "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpOiHjRLcWgSMaYIbwd1eAoqFYaGS7-fUQcg8qE8hjWg&s=10",
+  "poster": "https://i.pinimg.com/564x/96/a3/35/96a335cdb09abb42fe8fcb0eddc08ce5.jpg",
   "episodes": [
     { "video_url": "https://archive.org/download/19_20200429/01.mp4", "description": "Episodio 1" },
     { "video_url": "https://archive.org/download/19_20200429/02.mp4", "description": "Episodio 2" },
