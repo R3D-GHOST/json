@@ -1148,7 +1148,61 @@
       "description": "El Camaleón utiliza su habilidad de disfrazarse para poner en problemas a Spider-Man."
     }
   ]
+},
+
+
+
+
+
+{
+  "title": "El Zorro - Temporada 1",
+  "description": "Serie clásica de aventuras de Disney que narra las hazañas de Don Diego de la Vega, quien bajo la identidad secreta del Zorro lucha contra la injusticia en la California española.",
+  "coverImage": "https://m.media-amazon.com/images/M/MV5BNWJiZTc1ZjMtYWJlMC00MGZmLWI3YTAtNDAxYmIyMDUyNGU1XkEyXkFqcGc@._V1_.jpg",
+  "genre": ["Serie", "Aventura", "Clásico"],
+  "episodeWallpaper": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Zorro1957title.jpg",
+  "episodes": [
+    { "episode_number": 1, "title": "Presentando al Zorro", "video_url": "https://archive.org/download/el-zorro/01x01%28presentando%20al%20zorro%29.mp4" },
+    { "episode_number": 2, "title": "El pasadizo secreto del Zorro", "video_url": "https://archive.org/download/el-zorro/01x02%28El%20pasadizo%20secreto%20del%20Zorro%29.mp4" },
+    { "episode_number": 3, "title": "El Zorro cabalga a la misión", "video_url": "https://archive.org/download/el-zorro/01x03%28El%20Zorro%20cabalga%20a%20la%20misi%C3%B3n%29.mp4" },
+    { "episode_number": 4, "title": "El fantasma de la misión", "video_url": "https://archive.org/download/el-zorro/01x04%28El%20fantasma%20de%20la%20misi%C3%B3n%29.mp4" },
+    { "episode_number": 5, "title": "El romance del Zorro", "video_url": "https://archive.org/download/el-zorro/01x05%28El%20romance%20del%20Zorro%29.mp4" },
+    { "episode_number": 6, "title": "El Zorro salva a un amigo", "video_url": "https://archive.org/download/el-zorro/01x06%28El%20Zorro%20salva%20a%20un%20amigo%29.mp4" },
+    { "episode_number": 7, "title": "El Zorro captura a un espía", "video_url": "https://archive.org/download/el-zorro/01x07%28El%20Zorro%20captura%20a%20un%20espia%29.mp4" },
+    { "episode_number": 8, "title": "La maldición de la cabeza de cristal", "video_url": "https://archive.org/download/el-zorro/01x08%28La%20maldicion%20de%20la%20cabeza%20de%20cristal%29.mp4" },
+    { "episode_number": 9, "title": "Un enemigo inesperado", "video_url": "https://archive.org/download/el-zorro/01x09%28Un%20enemigo%20inesperado%29.mp4" },
+    { "episode_number": 10, "title": "La emboscada", "video_url": "https://archive.org/download/el-zorro/01x10%28La%20emboscada%29.mp4" },
+    { "episode_number": 11, "title": "La búsqueda del tesoro", "video_url": "https://archive.org/download/el-zorro/01x11%28La%20busqueda%20del%20tesoro%29.mp4" },
+    { "episode_number": 12, "title": "El Zorro y el traidor", "video_url": "https://archive.org/download/el-zorro/01x12%28El%20Zorro%20y%20el%20traidor%29.mp4" },
+    { "episode_number": 13, "title": "La leyenda del fantasma", "video_url": "https://archive.org/download/el-zorro/01x13%28La%20leyenda%20del%20fantasma%29.mp4" },
+    { "episode_number": 14, "title": "La trampa del Zorro", "video_url": "https://archive.org/download/el-zorro/01x14%28La%20trampa%20del%20Zorro%29.mp4" },
+    { "episode_number": 15, "title": "El regreso del Capitán Monasterio", "video_url": "https://archive.org/download/el-zorro/01x15%28El%20regreso%20del%20Capitan%20Monasterio%29.mp4" },
+    { "episode_number": 16, "title": "El secreto de la cueva", "video_url": "https://archive.org/download/el-zorro/01x16%28El%20secreto%20de%20la%20cueva%29.mp4" },
+    { "episode_number": 17, "title": "Un plan arriesgado", "video_url": "https://archive.org/download/el-zorro/01x17%28Un%20plan%20arriesgado%29.mp4" },
+    { "episode_number": 18, "title": "El juicio de Don Diego", "video_url": "https://archive.org/download/el-zorro/01x18%28El%20juicio%20de%20Don%20Diego%29.mp4" },
+    { "episode_number": 19, "title": "El desafío", "video_url": "https://archive.org/download/el-zorro/01x19%28El%20desafio%29.mp4" },
+    { "episode_number": 20, "title": "El rescate de un amigo", "video_url": "https://archive.org/download/el-zorro/01x20%28El%20rescate%20de%20un%20amigo%29.mp4" },
+    { "episode_number": 21, "title": "La conspiración", "video_url": "https://archive.org/download/el-zorro/01x21%28La%20conspiracion%29.mp4" },
+    { "episode_number": 22, "title": "La confesión", "video_url": "https://archive.org/download/el-zorro/01x22%28La%20confesion%29.mp4" },
+    { "episode_number": 23, "title": "Un golpe maestro", "video_url": "https://archive.org/download/el-zorro/01x23%28Un%20golpe%20maestro%29.mp4" },
+    { "episode_number": 24, "title": "El regreso del Zorro", "video_url": "https://archive.org/download/el-zorro/01x24%28El%20regreso%20del%20Zorro%29.mp4" },
+    { "episode_number": 25, "title": "El tesoro escondido", "video_url": "https://archive.org/download/el-zorro/01x25%28El%20tesoro%20escondido%29.mp4" },
+    { "episode_number": 26, "title": "El misterio de la misión", "video_url": "https://archive.org/download/el-zorro/01x26%28El%20misterio%20de%20la%20mision%29.mp4" },
+    { "episode_number": 27, "title": "El regreso de un enemigo", "video_url": "https://archive.org/download/el-zorro/01x27%28El%20regreso%20de%20un%20enemigo%29.mp4" },
+    { "episode_number": 28, "title": "El secuestro", "video_url": "https://archive.org/download/el-zorro/01x28%28El%20secuestro%29.mp4" },
+    { "episode_number": 29, "title": "El secreto revelado", "video_url": "https://archive.org/download/el-zorro/01x29%28El%20secreto%20revelado%29.mp4" },
+    { "episode_number": 30, "title": "El plan del Comandante", "video_url": "https://archive.org/download/el-zorro/01x30%28El%20plan%20del%20Comandante%29.mp4" },
+    { "episode_number": 31, "title": "El espía infiltrado", "video_url": "https://archive.org/download/el-zorro/01x31%28El%20espia%20infiltrado%29.mp4" },
+    { "episode_number": 32, "title": "La captura del Zorro", "video_url": "https://archive.org/download/el-zorro/01x32%28La%20captura%20del%20Zorro%29.mp4" },
+    { "episode_number": 33, "title": "La fuga", "video_url": "https://archive.org/download/el-zorro/01x33%28La%20fuga%29.mp4" },
+    { "episode_number": 34, "title": "La trampa de Monasterio", "video_url": "https://archive.org/download/el-zorro/01x34%28La%20trampa%20de%20Monasterio%29.mp4" },
+    { "episode_number": 35, "title": "El reto", "video_url": "https://archive.org/download/el-zorro/01x35%28El%20reto%29.mp4" },
+    { "episode_number": 36, "title": "La huida", "video_url": "https://archive.org/download/el-zorro/01x36%28La%20huida%29.mp4" },
+    { "episode_number": 37, "title": "El juicio del Zorro", "video_url": "https://archive.org/download/el-zorro/01x37%28El%20juicio%20del%20Zorro%29.mp4" },
+    { "episode_number": 38, "title": "El final de la conspiración", "video_url": "https://archive.org/download/el-zorro/01x38%28El%20final%20de%20la%20conspiracion%29.mp4" },
+    { "episode_number": 39, "title": "Victoria del Zorro", "video_url": "https://archive.org/download/el-zorro/01x39%28Victoria%20del%20Zorro%29.mp4" }
+  ]
 }
+
 
   
 
