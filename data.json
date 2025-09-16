@@ -8,7 +8,94 @@
   },
 
 
-
+{
+  "title": "The Batman - Temporada 1",
+  "description": "Serie animada que muestra los primeros años de Bruce Wayne como Batman en Gotham City, enfrentándose por primera vez a sus icónicos villanos.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREQ5jplivqiR0S_HnhpgC3U6plE_GyeS3E31w0EJg4-w&s=10",
+  "genre": ["Serie", "Animación", "Superhéroes"],
+  "episodeWallpaper": "https://upload.wikimedia.org/wikipedia/en/f/f8/The_Batman_animated_title_card.jpg",
+  "episodes": [
+    {
+      "episode_number": 1,
+      "title": "Temporada 1 Capitulo 1",
+      "video_url": "https://archive.org/download/t.-b.-temporada-1-capitulo-12/T.B.%20-%20Temporada%201%20Capitulo%201.mp4",
+      "description": "Primer encuentro de Batman con un nuevo villano en Gotham."
+    },
+    {
+      "episode_number": 2,
+      "title": "Temporada 1 Capitulo 2",
+      "video_url": "https://archive.org/download/t.-b.-temporada-1-capitulo-12/T.B.%20-%20Temporada%201%20Capitulo%202.mp4",
+      "description": "Batman sigue consolidando su papel como protector de Gotham."
+    },
+    {
+      "episode_number": 3,
+      "title": "Temporada 1 Capitulo 3",
+      "video_url": "https://archive.org/download/t.-b.-temporada-1-capitulo-12/T.B.%20-%20Temporada%201%20Capitulo%203.mp4",
+      "description": "Un nuevo caso pone a prueba las habilidades detectivescas de Batman."
+    },
+    {
+      "episode_number": 4,
+      "title": "Temporada 1 Capitulo 4",
+      "video_url": "https://archive.org/download/t.-b.-temporada-1-capitulo-12/T.B.%20-%20Temporada%201%20Capitulo%204.mp4",
+      "description": "Un villano amenaza la paz de Gotham y Batman debe detenerlo."
+    },
+    {
+      "episode_number": 5,
+      "title": "Temporada 1 Capitulo 5",
+      "video_url": "https://archive.org/download/t.-b.-temporada-1-capitulo-12/T.B.%20-%20Temporada%201%20Capitulo%205.mp4",
+      "description": "Batman enfrenta un reto inesperado que lo obliga a superarse."
+    },
+    {
+      "episode_number": 6,
+      "title": "Temporada 1 Capitulo 6",
+      "video_url": "https://archive.org/download/t.-b.-temporada-1-capitulo-12/T.B.%20-%20Temporada%201%20Capitulo%206.mp4",
+      "description": "El Caballero Oscuro se encuentra con un enemigo astuto."
+    },
+    {
+      "episode_number": 7,
+      "title": "Temporada 1 Capitulo 7",
+      "video_url": "https://archive.org/download/t.-b.-temporada-1-capitulo-12/T.B.%20-%20Temporada%201%20Capitulo%207.mp4",
+      "description": "Un caso misterioso revela los oscuros secretos de Gotham."
+    },
+    {
+      "episode_number": 8,
+      "title": "Temporada 1 Capitulo 8",
+      "video_url": "https://archive.org/download/t.-b.-temporada-1-capitulo-12/T.B.%20-%20Temporada%201%20Capitulo%208.mp4",
+      "description": "Batman debe usar toda su astucia para salvar a los inocentes."
+    },
+    {
+      "episode_number": 9,
+      "title": "Temporada 1 Capitulo 9",
+      "video_url": "https://archive.org/download/t.-b.-temporada-1-capitulo-12/T.B.%20-%20Temporada%201%20Capitulo%209.mp4",
+      "description": "Un enemigo del pasado regresa con un plan peligroso."
+    },
+    {
+      "episode_number": 10,
+      "title": "Temporada 1 Capitulo 10",
+      "video_url": "https://archive.org/download/t.-b.-temporada-1-capitulo-12/T.B.%20-%20Temporada%201%20Capitulo%2010.mp4",
+      "description": "El destino de Gotham está en juego cuando Batman enfrenta un gran desafío."
+    },
+    {
+      "episode_number": 11,
+      "title": "Temporada 1 Capitulo 11",
+      "video_url": "https://archive.org/download/t.-b.-temporada-1-capitulo-12/T.B.%20-%20Temporada%201%20Capitulo%2011.mp4",
+      "description": "Una peligrosa conspiración amenaza con desestabilizar la ciudad."
+    },
+    {
+      "episode_number": 12,
+      "title": "Temporada 1 Capitulo 12",
+      "video_url": "https://archive.org/download/t.-b.-temporada-1-capitulo-12/T.B.%20-%20Temporada%201%20Capitulo%2012.mp4",
+      "description": "Batman debe tomar una decisión crítica que pondrá a prueba su código moral."
+    },
+    {
+      "episode_number": 13,
+      "title": "Temporada 1 Capitulo 13",
+      "video_url": "https://archive.org/download/t.-b.-temporada-1-capitulo-12/T.B.%20-%20Temporada%201%20Capitulo%2013.mp4",
+      "description": "El enfrentamiento final de la temporada define el futuro de Gotham."
+    }
+  ]
+},
+  
 
 {
   "title": "Saint Seiya - Los Caballeros del Zodiaco",
