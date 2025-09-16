@@ -1,5 +1,176 @@
 [
 
+  {
+  "title": "Naruto Shippuden - Temporada 1 (Español Latino)",
+  "description": "La primera temporada de Naruto Shippuden marca el regreso de Naruto Uzumaki después de entrenar para enfrentar nuevas amenazas y reunirse con viejos amigos, mientras se acerca el peligro del pasado.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZMNkvZXMLHAzOmqtJXOWSop4W8FNd1jf34gfy0HK-lw&s=10",
+  "genre": ["Anime", "Acción", "Aventura", "Shounen"],
+  "episodeWallpaper": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZMNkvZXMLHAzOmqtJXOWSop4W8FNd1jf34gfy0HK-lw&s=10",
+  "episodes": [
+    {
+      "episode_number": 1,
+      "title": "Naruto Shippuden Episodio 1",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-1-espanol-latino_202509/Naruto%20Shippuden-001.mp4"
+    },
+    {
+      "episode_number": 2,
+      "title": "Naruto Shippuden Episodio 2",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-1-espanol-latino_202509/Naruto%20Shippuden-002.mp4"
+    },
+    {
+      "episode_number": 3,
+      "title": "Naruto Shippuden Episodio 3",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-1-espanol-latino_202509/Naruto%20Shippuden-003.mp4"
+    },
+    {
+      "episode_number": 4,
+      "title": "Naruto Shippuden Episodio 4",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-1-espanol-latino_202509/Naruto%20Shippuden-004.mp4"
+    },
+    {
+      "episode_number": 5,
+      "title": "Naruto Shippuden Episodio 5",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-1-espanol-latino_202509/Naruto%20Shippuden-005.mp4"
+    },
+    {
+      "episode_number": 6,
+      "title": "Naruto Shippuden Episodio 6",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-1-espanol-latino_202509/Naruto%20Shippuden-006.mp4"
+    },
+    {
+      "episode_number": 7,
+      "title": "Naruto Shippuden Episodio 7",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-1-espanol-latino_202509/Naruto%20Shippuden-007.mp4"
+    },
+    {
+      "episode_number": 8,
+      "title": "Naruto Shippuden Episodio 8",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-1-espanol-latino_202509/Naruto%20Shippuden-008.mp4"
+    },
+    {
+      "episode_number": 9,
+      "title": "Naruto Shippuden Episodio 9",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-1-espanol-latino_202509/Naruto%20Shippuden-009.mp4"
+    },
+    {
+      "episode_number": 10,
+      "title": "Naruto Shippuden Episodio 10",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-1-espanol-latino_202509/Naruto%20Shippuden-010.mp4"
+    },
+    {
+      "episode_number": 11,
+      "title": "Naruto Shippuden Episodio 11",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-1-espanol-latino_202509/Naruto%20Shippuden-011.mp4"
+    },
+    {
+      "episode_number": 12,
+      "title": "Naruto Shippuden Episodio 12",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-1-espanol-latino_202509/Naruto%20Shippuden-012.mp4"
+    },
+    {
+      "episode_number": 13,
+      "title": "Naruto Shippuden Episodio 13",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-1-espanol-latino_202509/Naruto%20Shippuden-013.mp4"
+    },
+    {
+      "episode_number": 14,
+      "title": "Naruto Shippuden Episodio 14",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-1-espanol-latino_202509/Naruto%20Shippuden-014.mp4"
+    },
+    {
+      "episode_number": 15,
+      "title": "Naruto Shippuden Episodio 15",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-1-espanol-latino_202509/Naruto%20Shippuden-015.mp4"
+    },
+    {
+      "episode_number": 16,
+      "title": "Naruto Shippuden Episodio 16",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-1-espanol-latino_202509/Naruto%20Shippuden-016.mp4"
+    },
+    {
+      "episode_number": 17,
+      "title": "Naruto Shippuden Episodio 17",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-1-espanol-latino_202509/Naruto%20Shippuden-017.mp4"
+    },
+    {
+      "episode_number": 18,
+      "title": "Naruto Shippuden Episodio 18",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-1-espanol-latino_202509/Naruto%20Shippuden-018.mp4"
+    },
+    {
+      "episode_number": 19,
+      "title": "Naruto Shippuden Episodio 19",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-1-espanol-latino_202509/Naruto%20Shippuden-019.mp4"
+    },
+    {
+      "episode_number": 20,
+      "title": "Naruto Shippuden Episodio 20",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-1-espanol-latino_202509/Naruto%20Shippuden-020.mp4"
+    },
+    {
+      "episode_number": 21,
+      "title": "Naruto Shippuden Episodio 21",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-1-espanol-latino_202509/Naruto%20Shippuden-021.mp4"
+    },
+    {
+      "episode_number": 22,
+      "title": "Naruto Shippuden Episodio 22",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-1-espanol-latino_202509/Naruto%20Shippuden-022.mp4"
+    },
+    {
+      "episode_number": 23,
+      "title": "Naruto Shippuden Episodio 23",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-1-espanol-latino_202509/Naruto%20Shippuden-023.mp4"
+    },
+    {
+      "episode_number": 24,
+      "title": "Naruto Shippuden Episodio 24",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-1-espanol-latino_202509/Naruto%20Shippuden-024.mp4"
+    },
+    {
+      "episode_number": 25,
+      "title": "Naruto Shippuden Episodio 25",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-1-espanol-latino_202509/Naruto%20Shippuden-025.mp4"
+    },
+    {
+      "episode_number": 26,
+      "title": "Naroto Shippuden Episodio 26",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-1-espanol-latino_202509/Naruto%20Shippuden-026.mp4"
+    },
+    {
+      "episode_number": 27,
+      "title": "Naroto Shippuden Episodio 27",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-1-espanol-latino_202509/Naruto%20Shippuden-027.mp4"
+    },
+    {
+      "episode_number": 28,
+      "title": "Naroto Shippuden Episodio 28",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-1-espanol-latino_202509/Naruto%20Shippuden-028.mp4"
+    },
+    {
+      "episode_number": 29,
+      "title": "Naroto Shippuden Episodio 29",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-1-espanol-latino_202509/Naruto%20Shippuden-029.mp4"
+    },
+    {
+      "episode_number": 30,
+      "title": "Narato Shippuden Episodio 30",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-1-espanol-latino_202509/Naruto%20Shippuden-030.mp4"
+    },
+    {
+      "episode_number": 31,
+      "title": "Naroto Shippuden Episodio 31",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-1-espanol-latino_202509/Naruto%20Shippuden-031.mp4"
+    },
+    {
+      "episode_number": 32,
+      "title": "Naroto Shippuden Episodio 32",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-1-espanol-latino_202509/Naruto%20Shippuden-032.mp4"
+    }
+  ]
+},
+
+  
 {
   "title": "Dragon Ball - Temporada 1",
   "description": "La historia clásica de Goku desde el principio: sus aventuras, amistades, combates y búsqueda de las Dragon Balls. Una saga llena de humor, acción y momentos inolvidables.",
