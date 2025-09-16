@@ -4,7 +4,14 @@
 
 
 
-
+{
+  "title": "El Aprendiz de Kung Fu",
+  "description": "Una película de artes marciales que narra la historia de un joven aprendiz decidido a dominar el kung fu, enfrentando desafíos, maestros y rivales en su camino hacia la superación.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEoKavgQ2i9zFRZvcDCnZ1U8fs0TWNhOg0jnxNIFMWNQ&s=10",
+  "genre": ["Película", "Acción", "Artes Marciales"],
+  "video_url": "https://archive.org/download/el-aprendiz-del-kung-fu/El%20aprendiz%20del%20kung%20fu.mp4"
+},
+  
 
 
 
