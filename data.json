@@ -8,7 +8,55 @@
   "video_url": "https://archive.org/download/yo-el-vaquilla_202509/Yo%2C%20El%20Vaquilla.mp4"
 },
 
-  
+    {
+      "title": "Sonic X",
+      "description": "Sonic y sus amigos llegan a la Tierra tras un accidente con las Chaos Emeralds, donde lucharán contra Eggman y vivirán aventuras con humanos.",
+      "coverImage": "https://upload.wikimedia.org/wikipedia/en/7/70/Sonic_X_DVD.jpg",
+      "genre": ["Animación", "Acción", "Aventura"],
+      "episodes": [
+        {
+      {"episodio": 1, "archivo": "Sonic X 01.mp4", "tamaño": "127.1M", "fecha": "06-Nov-2015 19:58"},
+    {"episodio": 2, "archivo": "Sonic X 02.mp4", "tamaño": "126.7M", "fecha": "06-Nov-2015 18:44"},
+    {"episodio": 3, "archivo": "Sonic X 03.mp4", "tamaño": "123.6M", "fecha": "06-Nov-2015 20:51"},
+    {"episodio": 4.1, "archivo": "Sonic X 04 1-2.mp4", "tamaño": "59.2M", "fecha": "06-Nov-2015 21:13"},
+    {"episodio": 4.2, "archivo": "Sonic X 04 2-2.mp4", "tamaño": "67.6M", "fecha": "06-Nov-2015 20:24"},
+    {"episodio": 5, "archivo": "Sonic X 05.mp4", "tamaño": "126.8M", "fecha": "07-Nov-2015 00:41"},
+    {"episodio": 6, "archivo": "Sonic X 06.mp4", "tamaño": "126.8M", "fecha": "06-Nov-2015 21:28"},
+    {"episodio": 7, "archivo": "Sonic X 07.mp4", "tamaño": "115.4M", "fecha": "07-Nov-2015 01:03"},
+    {"episodio": 8, "archivo": "Sonic X 08.mp4", "tamaño": "127.0M", "fecha": "06-Nov-2015 23:42"},
+    {"episodio": 9, "archivo": "Sonic X 09.mp4", "tamaño": "127.0M", "fecha": "07-Nov-2015 06:37"},
+    {"episodio": 10, "archivo": "Sonic X 10.mp4", "tamaño": "126.3M", "fecha": "07-Nov-2015 02:20"},
+    {"episodio": 11, "archivo": "Sonic X 11.mp4", "tamaño": "127.1M", "fecha": "07-Nov-2015 02:43"},
+    {"episodio": 12, "archivo": "Sonic X 12.mp4", "tamaño": "126.8M", "fecha": "07-Nov-2015 01:41"},
+    {"episodio": 13, "archivo": "Sonic X 13.mp4", "tamaño": "127.1M", "fecha": "07-Nov-2015 02:09"},
+    {"episodio": 14, "archivo": "Sonic X 14.mp4", "tamaño": "126.7M", "fecha": "07-Nov-2015 06:20"},
+    {"episodio": 15, "archivo": "Sonic X 15.mp4", "tamaño": "126.4M", "fecha": "07-Nov-2015 06:50"},
+    {"episodio": 16, "archivo": "Sonic X 16.mp4", "tamaño": "126.8M", "fecha": "07-Nov-2015 05:31"},
+    {"episodio": 17, "archivo": "Sonic X 17.mp4", "tamaño": "126.7M", "fecha": "07-Nov-2015 07:17"},
+    {"episodio": 18, "archivo": "Sonic X 18.mp4", "tamaño": "127.2M", "fecha": "07-Nov-2015 05:53"},
+    {"episodio": 19, "archivo": "Sonic X 19.mp4", "tamaño": "127.1M", "fecha": "07-Nov-2015 07:03"},
+    {"episodio": 20, "archivo": "Sonic X 20.mp4", "tamaño": "117.3M", "fecha": "07-Nov-2015 07:56"},
+    {"episodio": 21, "archivo": "Sonic X 21.mp4", "tamaño": "126.7M", "fecha": "06-Nov-2015 19:40"},
+    {"episodio": 22, "archivo": "Sonic X 22.mp4", "tamaño": "144.3M", "fecha": "06-Nov-2015 18:56"},
+    {"episodio": 23, "archivo": "Sonic X 23.mp4", "tamaño": "121.4M", "fecha": "07-Nov-2015 07:45"},
+    {"episodio": 24, "archivo": "Sonic X 24.mp4", "tamaño": "160.8M", "fecha": "07-Nov-2015 04:32"},
+    {"episodio": 25, "archivo": "Sonic X 25.mp4", "tamaño": "121.8M", "fecha": "07-Nov-2015 03:25"},
+    {"episodio": 26, "archivo": "Sonic X 26.mp4", "tamaño": "123.1M", "fecha": "07-Nov-2015 02:31"},
+    {"episodio": 27, "archivo": "Sonic X 27.mp4", "tamaño": "129.3M", "fecha": "07-Nov-2015 01:28"},
+    {"episodio": 28, "archivo": "Sonic X 28.mp4", "tamaño": "126.4M", "fecha": "06-Nov-2015 19:28"},
+    {"episodio": 29, "archivo": "Sonic X 29.mp4", "tamaño": "126.5M", "fecha": "06-Nov-2015 19:17"},
+    {"episodio": 30, "archivo": "Sonic X 30.mp4", "tamaño": "126.8M", "fecha": "06-Nov-2015 22:12"},
+    {"episodio": 31, "archivo": "SonicX31.mp4", "tamaño": "126.5M", "fecha": "06-Nov-2015 22:23"},
+    {"episodio": 32, "archivo": "SonicX32.mp4", "tamaño": "118.8M", "fecha": "06-Nov-2015 23:54"},
+    {"episodio": 33, "archivo": "SonicX33.mp4", "tamaño": "116.0M", "fecha": "06-Nov-2015 22:35"},
+    {"episodio": 34, "archivo": "SonicX34.mp4", "tamaño": "118.2M", "fecha": "06-Nov-2015 23:14"},
+    {"episodio": 35, "archivo": "SonicX35.mp4", "tamaño": "115.4M", "fecha": "06-Nov-2015 18:33"},
+    {"episodio": 36, "archivo": "SonicX36.mp4", "tamaño": "114.8M", "fecha": "07-Nov-2015 00:28"},
+    {"episodio": 37, "archivo": "SonicX37.mp4", "tamaño": "118.6M", "fecha": "07-Nov-2015 01:54"},
+    {"episodio": 38, "archivo": "SonicX38.mp4", "tamaño": "118.2M", "fecha": "06-Nov-2015 20:40"}
+        }
+      ]
+    }
 {
   "title": "Dragon Ball",
   "description": "Goku, Bulma y sus amigos buscan las Esferas del Dragón mientras enfrentan enemigos y viven aventuras.",
