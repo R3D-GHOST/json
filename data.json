@@ -846,6 +846,285 @@
 
 
 
+{
+  "title": "Naruto - Temporada 3 (Español Latino)",
+  "description": "La tercera temporada de Naruto continúa con aventuras intensas, desarrollo de personajes y misiones cada vez más peligrosas mientras Naruto sigue su camino para convertirse en Hokage.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1wrTIbhGNeO_by1HncvgR2fDw3wEdRN-fPdhbe_3aaQ&s=10",
+  "genre": ["Anime", "Acción", "Aventura", "Shounen"],
+  "episodeWallpaper": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1wrTIbhGNeO_by1HncvgR2fDw3wEdRN-fPdhbe_3aaQ&s=10",
+  "episodes": [
+    {
+      "episode_number": 105,
+      "title": "Naruto Episodio 105",
+      "video_url": "https://archive.org/download/naruto-temporada-3-espanol-latino_20250908/Naruto-105.mp4"
+    },
+    {
+      "episode_number": 106,
+      "title": "Naruto Episodio 106",
+      "video_url": "https://archive.org/download/naruto-temporada-3-espanol-latino_20250908/Naruto-106.mp4"
+    },
+    {
+      "episode_number": 107,
+      "title": "Naruto Episodio 107",
+      "video_url": "https://archive.org/download/naruto-temporada-3-espanol-latino_2025098/Naruto-107.mp4"
+    },
+    {
+      "episode_number": 108,
+      "title": "Naruto Episodio 108",
+      "video_url": "https://archive.org/download/naruto-temporada-3-espanol-latino_20250908/Naruto-108.mp4"
+    },
+    {
+      "episode_number": 109,
+      "title": "Naruto Episodio 109",
+      "video_url": "https://archive.org/download/naruto-temporada-3-espanol-latino_20250908/Naruto-109.mp4"
+    },
+    {
+      "episode_number": 110,
+      "title": "Naruto Episodio 110",
+      "video_url": "https://archive.org/download/naruto-temporada-3-espanol-latino_20250908/Naruto-110.mp4"
+    },
+    {
+      "episode_number": 111,
+      "title": "Naruto Episodio 111",
+      "video_url": "https://archive.org/download/naruto-temporada-3-espanol-latino_20250908/Naruto-111.mp4"
+    },
+    {
+      "episode_number": 112,
+      "title": "Naruto Episodio 112",
+      "video_url": "https://archive.org/download/naruto-temporada-3-espanol-latino_20250908/Naruto-112.mp4"
+    },
+    {
+      "episode_number": 113,
+      "title": "Naruto Episodio 113",
+      "video_url": "https://archive.org/download/naruto-temporada-3-espanol-latino_20250908/Naruto-113.mp4"
+    },
+    {
+      "episode_number": 114,
+      "title": "Naruto Episodio 114",
+      "video_url": "https://archive.org/download/naruto-temporada-3-espanol-latino_20250908/Naruto-114.mp4"
+    },
+    {
+      "episode_number": 115,
+      "title": "Naruto Episodio 115",
+      "video_url": "https://archive.org/download/naruto-temporada-3-espanol-latino_20250908/Naruto-115.mp4"
+    },
+    {
+      "episode_number": 116,
+      "title": "Naruto Episodio 116",
+      "video_url": "https://archive.org/download/naruto-temporada-3-espanol-latino_20250908/Naruto-116.mp4"
+    },
+    {
+      "episode_number": 117,
+      "title": "Naruto Episodio 117",
+      "video_url": "https://archive.org/download/naruto-temporada-3-espanol-latino_20250908/Naruto-117.mp4"
+    },
+    {
+      "episode_number": 118,
+      "title": "Naruto Episodio 118",
+      "video_url": "https://archive.org/download/naruto-temporada-3-espanol-latino_20250908/Naruto-118.mp4"
+    },
+    {
+      "episode_number": 119,
+      "title": "Naruto Episodio 119",
+      "video_url": "https://archive.org/download/naruto-temporada-3-espanol-latino_20250908/Naruto-119.mp4"
+    },
+    {
+      "episode_number": 120,
+      "title": "Naruto Episodio 120",
+      "video_url": "https://archive.org/download/naruto-temporada-3-espanol-latino_20250908/Naruto-120.mp4"
+    },
+    {
+      "episode_number": 121,
+      "title": "Naruto Episodio 121",
+      "video_url": "https://archive.org/download/naruto-temporada-3-espanol-latino_20250908/Naruto-121.mp4"
+    },
+    {
+      "episode_number": 122,
+      "title": "Naruto Episodio 122",
+      "video_url": "https://archive.org/download/naruto-temporada-3-espanol-latino_20250908/Naruto-122.mp4"
+    },
+    {
+      "episode_number": 123,
+      "title": "Naruto Episodio 123",
+      "video_url": "https://archive.org/download/naruto-temporada-3-espanol-latino_20250908/Naroto-123.mp4"
+    },
+    {
+      "episode_number": 124,
+      "title": "Naruto Episodio 124",
+      "video_url": "https://archive.org/download/naruto-temporada-3-espanol-latino_20250908/Naruto-124.mp4"
+    },
+    {
+      "episode_number": 125,
+      "title": "Naruto Episodio 125",
+      "video_url": "https://archive.org/download/naruto-temporada-3-espanol-latino_20250908/Naruto-125.mp4"
+    },
+    {
+      "episode_number": 126,
+      "title": "Naruto Episodio 126",
+      "video_url": "https://archive.org/download/naruto-temporada-3-espanol-latino_20250908/Naruto-126.mp4"
+    },
+    {
+      "episode_number": 127,
+      "title": "Naruto Episodio 127",
+      "video_url": "https://archive.org/download/naruto-temporada-3-espanol-latino_20250908/Naruto-127.mp4"
+    },
+    {
+      "episode_number": 128,
+      "title": "Naruto Episodio 128",
+      "video_url": "https://archive.org/download/naruto-temporada-3-espanol-latino_20250908/Naruto-128.mp4"
+    },
+    {
+      "episode_number": 129,
+      "title": "Naruto Episodio 129",
+      "video_url": "https://archive.org/download/naruto-temporada-3-espanol-latino_20250908/Naruto-129.mp4"
+    },
+    {
+      "episode_number": 130,
+      "title": "Naruto Episodio 130",
+      "video_url": "https://archive.org/download/naruto-temporada-3-espanol-latino_20250908/Naruto-130.mp4"
+    },
+    {
+      "episode_number": 131,
+      "title": "Naruto Episodio 131",
+      "video_url": "https://archive.org/download/naruto-temporada-3-espanol-latino_20250908/Naruto-131.mp4"
+    },
+    {
+      "episode_number": 132,
+      "title": "Naruto Episodio 132",
+      "video_url": "https://archive.org/download/naruto-temporada-3-espanol-latino_20250908/Naruto-132.mp4"
+    },
+    {
+      "episode_number": 133,
+      "title": "Naruto Episodio 133",
+      "video_url": "https://archive.org/download/naruto-temporada-3-espanol-latino_20250908/Naruto-133.mp4"
+    },
+    {
+      "episode_number": 134,
+      "title": "Naruto Episodio 134",
+      "video_url": "https://archive.org/download/naruto-temporada-3-espanol-latino_20250908/Naruto-134.mp4"
+    },
+    {
+      "episode_number": 135,
+      "title": "Naruto Episodio 135",
+      "video_url": "https://archive.org/download/naruto-temporada-3-espanol-latino_20250908/Naruto-135.mp4"
+    },
+    {
+      "episode_number": 136,
+      "title": "Naruto Episodio 136",
+      "video_url": "https://archive.org/download/naruto-temporada-3-espanol-latino_20250908/Naruto-136.mp4"
+    },
+    {
+      "episode_number": 137,
+      "title": "Naruto Episodio 137",
+      "video_url": "https://archive.org/download/naruto-temporada-3-espanol-latino_20250908/Naruto-137.mp4"
+    },
+    {
+      "episode_number": 138,
+      "title": "Naruto Episodio 138",
+      "video_url": "https://archive.org/download/naruto-temporada-3-espanol-latino_20250908/Naruto-138.mp4"
+    },
+    {
+      "episode_number": 139,
+      "title": "Naruto Episodio 139",
+      "video_url": "https://archive.org/download/naruto-temporada-3-espanol-latino_20250908/Naruto-139.mp4"
+    },
+    {
+      "episode_number": 140,
+      "title": "Naruto Episodio 140",
+      "video_url": "https://archive.org/download/naruto-temporada-3-espanol-latino_20250908/Naruto-140.mp4"
+    },
+    {
+      "episode_number": 141,
+      "title": "Naruto Episodio 141",
+      "video_url": "https://archive.org/download/naruto-temporada-3-espanol-latino_20250908/Naruto-141.mp4"
+    },
+    {
+      "episode_number": 142,
+      "title": "Naruto Episodio 142",
+      "video_url": "https://archive.org/download/naruto-temporada-3-espanol-latino_20250908/Naruto-142.mp4"
+    },
+    {
+      "episode_number": 143,
+      "title": "Naruto Episodio 143",
+      "video_url": "https://archive.org/download/naruto-temporada-3-espanol-latino_20250908/Naruto-143.mp4"
+    },
+    {
+      "episode_number": 144,
+      "title": "Naruto Episodio 144",
+      "video_url": "https://archive.org/download/naruto-temporada-3-espanol-latino_20250908/Naruto-144.mp4"
+    },
+    {
+      "episode_number": 145,
+      "title": "Naruto Episodio 145",
+      "video_url": "https://archive.org/download/naruto-temporada-3-espanol-latino_20250908/Naruto-145.mp4"
+    },
+    {
+      "episode_number": 146,
+      "title": "Naruto Episodio 146",
+      "video_url": "https://archive.org/download/naruto-temporada-3-espanol-latino_20250908/Naruto-146.mp4"
+    },
+    {
+      "episode_number": 147,
+      "title": "Naruto Episodio 147",
+      "video_url": "https://archive.org/download/naruto-temporada-3-espanol-latino_20250908/Naruto-147.mp4"
+    },
+    {
+      "episode_number": 148,
+      "title": "Naruto Episodio 148",
+      "video_url": "https://archive.org/download/naruto-temporada-3-espanol-latino_20250908/Naruto-148.mp4"
+    },
+    {
+      "episode_number": 149,
+      "title": "Naruto Episodio 149",
+      "video_url": "https://archive.org/download/naruto-temporada-3-espanol-latino_20250908/Naruto-149.mp4"
+    },
+    {
+      "episode_number": 150,
+      "title": "Naruto Episodio 150",
+      "video_url": "https://archive.org/download/naruto-temporada-3-espanol-latino_20250908/Naruto-150.mp4"
+    },
+    {
+      "episode_number": 151,
+      "title": "Naruto Episodio 151",
+      "video_url": "https://archive.org/download/naruto-temporada-3-espanol-latino_20250908/Naruto-151.mp4"
+    },
+    {
+      "episode_number": 152,
+      "title": "Naruto Episodio 152",
+      "video_url": "https://archive.org/download/naruto-temporada-3-espanol-latino_20250908/Naruto-152.mp4"
+    },
+    {
+      "episode_number": 153,
+      "title": "Naruto Episodio 153",
+      "video_url": "https://archive.org/download/naruto-temporada-3-espanol-latino_20250908/Naruto-153.mp4"
+    },
+    {
+      "episode_number": 154,
+      "title": "Naruto Episodio 154",
+      "video_url": "https://archive.org/download/naruto-temporada-3-espanol-latino_20250908/Naruto-154.mp4"
+    },
+    {
+      "episode_number": 155,
+      "title": "Naruto Episodio 155",
+      "video_url": "https://archive.org/download/naruto-temporada-3-espanol-latino_20250908/Naruto-155.mp4"
+    },
+    {
+      "episode_number": 156,
+      "title": "Naruto Episodio 156",
+      "video_url": "https://archive.org/download/naruto-temporada-3-espanol-latino_20250908/Naruto-156.mp4"
+    },
+    {
+      "episode_number": 157,
+      "title": "Naruto Episodio 157",
+      "video_url": "https://archive.org/download/naruto-temporada-3-espanol-latino_20250908/Naruto-157.mp4"
+    },
+    {
+      "episode_number": 158,
+      "title": "Naruto Episodio 158",
+      "video_url": "https://archive.org/download/naruto-temporada-3-espanol-latino_20250908/Naruto-158.mp4"
+    }
+  ]
+},
 
 
 
