@@ -3919,7 +3919,7 @@
   {
   "title": "Pokémon",
   "description": "La primera serie de Pokémon que sigue a Ash Ketchum en su viaje para convertirse en Maestro Pokémon.",
-  "poster": "https://es.web.img3.acsta.net/c_310_420/pictures/14/07/18/10/57/567741.jpg",
+  "coverImage": "https://media.senscritique.com/media/000006475427/300/pokemon.jpg",
   "episodes": [
     { "video_url": "https://archive.org/download/19_20200429/01.mp4", "description": "Episodio 1" },
     { "video_url": "https://archive.org/download/19_20200429/02.mp4", "description": "Episodio 2" },
