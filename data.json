@@ -66,7 +66,37 @@
     {"episode_number": 48, "title": "Sonic X 48", "video_url": "https://archive.org/download/SonicXLatam/SonicX48.mp4"},
     {"episode_number": 49.1, "title": "Sonic X 49 1-2", "video_url": "https://ia800502.us.archive.org/22/items/SonicXLatam/SonicX491-2.mp4"},
     {"episode_number": 49.2, "title": "Sonic X 49 2-2", "video_url": "https://archive.org/download/SonicXLatam/SonicX492-2.mp4"},
-    {"episode_number": 50, "title": "Sonic X 50", "video_url": "https://archive.org/download/SonicXLatam/SonicX50.mp4"}
+    {"episode_number": 50, "title": "Sonic X 50", "video_url": "https://archive.org/download/SonicXLatam/SonicX50.mp4"},
+    {"episode_number": 51, "title": "Episodio 51", "video_url": "https://archive.org/download/SonicXLatam/SonicX51.mp4"},
+    {"episode_number": 52, "title": "Episodio 52", "video_url": "https://archive.org/download/SonicXLatam/SonicX52.mp4"},
+    {"episode_number": 53, "title": "Episodio 53", "video_url": "https://archive.org/download/SonicXLatam/SonicX53.mp4"},
+    {"episode_number": 54, "title": "Episodio 54-1", "video_url": "https://archive.org/download/SonicXLatam/SonicX541-3Esp.mp4"},
+    {"episode_number": 55, "title": "Episodio 54-2", "video_url": "https://archive.org/download/SonicXLatam/SonicX542-3Esp.mp4"},
+    {"episode_number": 56, "title": "Episodio 54-3", "video_url": "https://archive.org/download/SonicXLatam/SonicX543-3Esp.mp4"},
+    {"episode_number": 57, "title": "Episodio 55-1", "video_url": "https://archive.org/download/SonicXLatam/SonicX551-2Esp.mp4"},
+    {"episode_number": 58, "title": "Episodio 55-2", "video_url": "https://archive.org/download/SonicXLatam/SonicX552-2Esp.mp4"},
+    {"episode_number": 59, "title": "Episodio 56-1", "video_url": "https://archive.org/download/SonicXLatam/SonicX561-2Esp.mp4"},
+    {"episode_number": 60, "title": "Episodio 56-2", "video_url": "https://archive.org/download/SonicXLatam/SonicX562-2Esp.mp4"},
+    {"episode_number": 61, "title": "Episodio 57-1", "video_url": "https://archive.org/download/SonicXLatam/SonicX571-2.mp4"},
+    {"episode_number": 62, "title": "Episodio 57-2", "video_url": "https://archive.org/download/SonicXLatam/SonicX572-2.mp4"},
+    {"episode_number": 63, "title": "Episodio 58-1", "video_url": "https://archive.org/download/SonicXLatam/SonicX581-2.mp4"},
+    {"episode_number": 64, "title": "Episodio 58-2", "video_url": "https://archive.org/download/SonicXLatam/SonicX582-2.mp4"},
+    {"episode_number": 65, "title": "Episodio 59", "video_url": "https://archive.org/download/SonicXLatam/SonicX59.mp4"},
+    {"episode_number": 66, "title": "Episodio 60", "video_url": "https://archive.org/download/SonicXLatam/SonicX60.mp4"},
+    {"episode_number": 67, "title": "Episodio 61", "video_url": "https://archive.org/download/SonicXLatam/SonicX61.mp4"},
+    {"episode_number": 68, "title": "Episodio 62-1", "video_url": "https://archive.org/download/SonicXLatam/SonicX621-3Esp.mp4"},
+    {"episode_number": 69, "title": "Episodio 62-2", "video_url": "https://archive.org/download/SonicXLatam/SonicX622-3Esp.mp4"},
+    {"episode_number": 70, "title": "Episodio 62-3", "video_url": "https://archive.org/download/SonicXLatam/SonicX623-3Esp.mp4"},
+    {"episode_number": 71, "title": "Episodio 63", "video_url": "https://archive.org/download/SonicXLatam/SonicX63.mp4"},
+    {"episode_number": 72, "title": "Episodio 64", "video_url": "https://archive.org/download/SonicXLatam/SonicX64.mp4"},
+    {"episode_number": 73, "title": "Episodio 65", "video_url": "https://archive.org/download/SonicXLatam/SonicX65.mp4"},
+    {"episode_number": 74, "title": "Episodio 66", "video_url": "https://archive.org/download/SonicXLatam/SonicX66.mp4"},
+    {"episode_number": 75, "title": "Episodio 67", "video_url": "https://archive.org/download/SonicXLatam/SonicX67.mp4"},
+    {"episode_number": 76, "title": "Episodio 68", "video_url": "https://archive.org/download/SonicXLatam/SonicX68.mp4"},
+    {"episode_number": 77, "title": "Episodio 69", "video_url": "https://archive.org/download/SonicXLatam/SonicX69.mp4"},
+    {"episode_number": 78, "title": "Episodio 70", "video_url": "https://archive.org/download/SonicXLatam/SonicX70.mp4"}
+
+    
         }
       ]
     },
