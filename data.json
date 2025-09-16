@@ -1,5 +1,40 @@
 [
 
+
+
+{
+  "title": "Naruto Shippuden - Temporada 2",
+  "description": "La segunda temporada de Naruto Shippuden sigue la misión de rescate de Gaara, el Kazekage, mientras Naruto, Sakura, Kakashi y el resto de los shinobi enfrentan a la organización Akatsuki.",
+  "coverImage": "https://es.web.img3.acsta.net/pictures/19/08/07/09/32/3108909.jpg",
+  "genre": ["Animación", "Acción", "Aventura", "Shonen"],
+  "episodes": [
+    {"episode_number": 33, "title": "Naruto Shippuden 033", "video_url": "https://archive.org/download/naruto-shippuden-temporada-2-espanol-latino/Naruto%20Shippuden-033.mp4"},
+    {"episode_number": 34, "title": "Naruto Shippuden 034", "video_url": "https://archive.org/download/naruto-shippuden-temporada-2-espanol-latino/Naruto%20Shippuden-034.mp4"},
+    {"episode_number": 35, "title": "Naruto Shippuden 035", "video_url": "https://archive.org/download/naruto-shippuden-temporada-2-espanol-latino/Naruto%20Shippuden-035.mp4"},
+    {"episode_number": 36, "title": "Naruto Shippuden 036", "video_url": "https://archive.org/download/naruto-shippuden-temporada-2-espanol-latino/Naruto%20Shippuden-036.mp4"},
+    {"episode_number": 37, "title": "Naruto Shippuden 037", "video_url": "https://archive.org/download/naruto-shippuden-temporada-2-espanol-latino/Naruto%20Shippuden-037.mp4"},
+    {"episode_number": 38, "title": "Naruto Shippuden 038", "video_url": "https://archive.org/download/naruto-shippuden-temporada-2-espanol-latino/Naruto%20Shippuden-038.mp4"},
+    {"episode_number": 39, "title": "Naruto Shippuden 039", "video_url": "https://archive.org/download/naruto-shippuden-temporada-2-espanol-latino/Naruto%20Shippuden-039.mp4"},
+    {"episode_number": 40, "title": "Naruto Shippuden 040", "video_url": "https://archive.org/download/naruto-shippuden-temporada-2-espanol-latino/Naruto%20Shippuden-040.mp4"},
+    {"episode_number": 41, "title": "Naruto Shippuden 041", "video_url": "https://archive.org/download/naruto-shippuden-temporada-2-espanol-latino/Naruto%20Shippuden-041.mp4"},
+    {"episode_number": 42, "title": "Naruto Shippuden 042", "video_url": "https://archive.org/download/naruto-shippuden-temporada-2-espanol-latino/Naruto%20Shippuden-042.mp4"},
+    {"episode_number": 43, "title": "Naruto Shippuden 043", "video_url": "https://archive.org/download/naruto-shippuden-temporada-2-espanol-latino/Naruto%20Shippuden-043.mp4"},
+    {"episode_number": 44, "title": "Naruto Shippuden 044", "video_url": "https://archive.org/download/naruto-shippuden-temporada-2-espanol-latino/Naruto%20Shippuden-044.mp4"},
+    {"episode_number": 45, "title": "Naruto Shippuden 045", "video_url": "https://archive.org/download/naruto-shippuden-temporada-2-espanol-latino/Naruto%20Shippuden-045.mp4"},
+    {"episode_number": 46, "title": "Naruto Shippuden 046", "video_url": "https://archive.org/download/naruto-shippuden-temporada-2-espanol-latino/Naruto%20Shippuden-046.mp4"},
+    {"episode_number": 47, "title": "Naruto Shippuden 047", "video_url": "https://archive.org/download/naruto-shippuden-temporada-2-espanol-latino/Naruto%20Shippuden-047.mp4"},
+    {"episode_number": 48, "title": "Naruto Shippuden 048", "video_url": "https://archive.org/download/naruto-shippuden-temporada-2-espanol-latino/Naruto%20Shippuden-048.mp4"},
+    {"episode_number": 49, "title": "Naruto Shippuden 049", "video_url": "https://archive.org/download/naruto-shippuden-temporada-2-espanol-latino/Naruto%20Shippuden-049.mp4"},
+    {"episode_number": 50, "title": "Naruto Shippuden 050", "video_url": "https://archive.org/download/naruto-shippuden-temporada-2-espanol-latino/Naruto%20Shippuden-050.mp4"},
+    {"episode_number": 51, "title": "Naruto Shippuden 051", "video_url": "https://archive.org/download/naruto-shippuden-temporada-2-espanol-latino/Naruto%20Shippuden-051.mp4"},
+    {"episode_number": 52, "title": "Naruto Shippuden 052", "video_url": "https://archive.org/download/naruto-shippuden-temporada-2-espanol-latino/Naruto%20Shippuden-052.mp4"},
+    {"episode_number": 53, "title": "Naruto Shippuden 053", "video_url": "https://archive.org/download/naruto-shippuden-temporada-2-espanol-latino/Naruto%20Shippuden-053.mp4"}
+  ]
+},
+  
+
+
+  
   {
   "title": "Yo, El Vaquilla",
   "description": "Basada en la vida de Juan José Moreno Cuenca, 'El Vaquilla', un joven delincuente de Barcelona en los años 70 y 80. La película narra su vida desde la infancia hasta su vida delictiva, mostrando la crudeza de su entorno y sus experiencias en prisión.",
