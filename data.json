@@ -8,6 +8,151 @@
   },
 
   {
+  "title": "Coraje, el perro cobarde - Temporada 4",
+  "description": "Cuarta temporada de Coraje con nuevas aventuras extrañas, misterios y criaturas que desafían al perro más cobarde de ninguna parte.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfCNO8JxLz2GmjD2bjo6aLrf8vH5xts4olYY9DmMZ3rQ&s=10",
+  "genre": ["Serie", "Animación", "Comedia", "Terror"],
+  "episodeWallpaper": "https://upload.wikimedia.org/wikipedia/en/0/05/Courage_the_Cowardly_Dog_title.jpg",
+  "episodes": [
+    {
+      "episode_number": 0,
+      "title": "Intro",
+      "video_url": "https://archive.org/download/Coraje-4/00%20-%20Intro.mp4"
+    },
+    {
+      "episode_number": 1,
+      "title": "La Historia de un Castor",
+      "video_url": "https://archive.org/download/Coraje-4/4x01%20-%20La Historia de un Castor.mp4"
+    },
+    {
+      "episode_number": 2,
+      "title": "El Cascanueces",
+      "video_url": "https://archive.org/download/Coraje-4/4x02%20-%20El Cascanueces.mp4"
+    },
+    {
+      "episode_number": 3,
+      "title": "Aventura en Escocia",
+      "video_url": "https://archive.org/download/Coraje-4/4x03%20-%20Aventura en Escocia.mp4"
+    },
+    {
+      "episode_number": 4,
+      "title": "La Casa Llama",
+      "video_url": "https://archive.org/download/Coraje-4/4x04%20-%20La Casa Llama.mp4"
+    },
+    {
+      "episode_number": 5,
+      "title": "Robo en un Globo",
+      "video_url": "https://archive.org/download/Coraje-4/4x05%20-%20Robo en un Globo.mp4"
+    },
+    {
+      "episode_number": 6,
+      "title": "Los Espíritus del Molino",
+      "video_url": "https://archive.org/download/Coraje-4/4x06%20-%20Los Espíritus del Molino.mp4"
+    },
+    {
+      "episode_number": 7,
+      "title": "Un Resfriado Poco Común",
+      "video_url": "https://archive.org/download/Coraje-4/4x07%20-%20Un Resfriado Poco Común.mp4"
+    },
+    {
+      "episode_number": 8,
+      "title": "Temporada de Caza",
+      "video_url": "https://archive.org/download/Coraje-4/4x08%20-%20Temporada de Caza.mp4"
+    },
+    {
+      "episode_number": 9,
+      "title": "La Novia del Monstruo del Pantano",
+      "video_url": "https://archive.org/download/Coraje-4/4x09%20-%20La Novia del Monstruo del Pantano.mp4"
+    },
+    {
+      "episode_number": 10,
+      "title": "La Cabra",
+      "video_url": "https://archive.org/download/Coraje-4/4x10%20-%20La Cabra.mp4"
+    },
+    {
+      "episode_number": 11,
+      "title": "Ensalada de Zanahoria",
+      "video_url": "https://archive.org/download/Coraje-4/4x11%20-%20Ensalada de Zanahoria.mp4"
+    },
+    {
+      "episode_number": 12,
+      "title": "Siluetas Con Vida",
+      "video_url": "https://archive.org/download/Coraje-4/4x12%20-%20Siluetas Con Vida.mp4"
+    },
+    {
+      "episode_number": 13,
+      "title": "La Máscara",
+      "video_url": "https://archive.org/download/Coraje-4/4x13%20-%20La Máscara.mp4"
+    },
+    {
+      "episode_number": 14,
+      "title": "Viaje a China",
+      "video_url": "https://archive.org/download/Coraje-4/4x14%20-%20Viaje a China.mp4"
+    },
+    {
+      "episode_number": 15,
+      "title": "Muriel Muda",
+      "video_url": "https://archive.org/download/Coraje-4/4x15%20-%20Muriel Muda.mp4"
+    },
+    {
+      "episode_number": 16,
+      "title": "El Granjero Acuático",
+      "video_url": "https://archive.org/download/Coraje-4/4x16%20-%20El Granjero Acuático.mp4"
+    },
+    {
+      "episode_number": 17,
+      "title": "La Comida del Dragón",
+      "video_url": "https://archive.org/download/Coraje-4/4x17%20-%20La Comida del Dragón.mp4"
+    },
+    {
+      "episode_number": 18,
+      "title": "Los Últimos Creadores de Estrellas",
+      "video_url": "https://archive.org/download/Coraje-4/4x18%20-%20Los Últimos Creadores de Estrellas.mp4"
+    },
+    {
+      "episode_number": 19,
+      "title": "Hijos de la Gallina del Espacio Exterior",
+      "video_url": "https://archive.org/download/Coraje-4/4x19%20-%20Hijos de la Gallina del Espacio Exterior.mp4"
+    },
+    {
+      "episode_number": 20,
+      "title": "La Cura",
+      "video_url": "https://archive.org/download/Coraje-4/4x20%20-%20La Cura.mp4"
+    },
+    {
+      "episode_number": 21,
+      "title": "Celos y Venganza",
+      "video_url": "https://archive.org/download/Coraje-4/4x21%20-%20Celos y Venganza.mp4"
+    },
+    {
+      "episode_number": 22,
+      "title": "El Cabaret Coraje",
+      "video_url": "https://archive.org/download/Coraje-4/4x22%20-%20El Cabaret Coraje.mp4"
+    },
+    {
+      "episode_number": 23,
+      "title": "La Ira de la Bibliotecaria",
+      "video_url": "https://archive.org/download/Coraje-4/4x23%20-%20La Ira de la Bibliotecaria.mp4"
+    },
+    {
+      "episode_number": 24,
+      "title": "La Historia de Coraje",
+      "video_url": "https://archive.org/download/Coraje-4/4x24%20-%20La Historia de Coraje.mp4"
+    },
+    {
+      "episode_number": 25,
+      "title": "Perfecto",
+      "video_url": "https://archive.org/download/Coraje-4/4x25%20-%20Perfecto.mp4"
+    },
+    {
+      "episode_number": 26,
+      "title": "La niebla de Coraje (2014)",
+      "video_url": "https://archive.org/download/Coraje-4/4x26%20-%20La niebla de Coraje (2014).mp4"
+    }
+  ]
+  },
+  
+  {
   "title": "Coraje, el perro cobarde - Temporada 3",
   "description": "Tercera temporada de Coraje, donde nuevas aventuras extrañas y aterradores seres ponen a prueba el valor de nuestro perro favorito.",
   "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfCNO8JxLz2GmjD2bjo6aLrf8vH5xts4olYY9DmMZ3rQ&s=10",
