@@ -6,6 +6,152 @@
   "genre": ["Película", "Anime", "Ciencia Ficción", "Ciberpunk"],
   "video_url": "https://archive.org/download/akira-1988_20230323/Akira%20%281988%29.mp4"
   },
+
+  {
+  "title": "Coraje, el perro cobarde - Temporada 3",
+  "description": "Tercera temporada de Coraje, donde nuevas aventuras extrañas y aterradores seres ponen a prueba el valor de nuestro perro favorito.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfCNO8JxLz2GmjD2bjo6aLrf8vH5xts4olYY9DmMZ3rQ&s=10",
+  "genre": ["Serie", "Animación", "Comedia", "Terror"],
+  "episodeWallpaper": "https://upload.wikimedia.org/wikipedia/en/0/05/Courage_the_Cowardly_Dog_title.jpg",
+  "episodes": [
+    {
+      "episode_number": 0,
+      "title": "Intro",
+      "video_url": "https://archive.org/download/Coraje-3/00%20-%20Intro.mp4"
+    },
+    {
+      "episode_number": 1,
+      "title": "La Doble de Muriel",
+      "video_url": "https://archive.org/download/Coraje-3/3x01%20-%20La%20Doble%20de%20Muriel.mp4"
+    },
+    {
+      "episode_number": 2,
+      "title": "Coraje Contra el Robot Coraje",
+      "video_url": "https://archive.org/download/Coraje-3/3x02%20-%20Coraje%20Contra%20el%20Robot%20Coraje.mp4"
+    },
+    {
+      "episode_number": 3,
+      "title": "El Campamento del Terror",
+      "video_url": "https://archive.org/download/Coraje-3/3x03%20-%20El%20Campamento%20del%20Terror.mp4"
+    },
+    {
+      "episode_number": 4,
+      "title": "El Disco Mágico",
+      "video_url": "https://archive.org/download/Coraje-3/3x04%20-%20El%20Disco%20M%C3%A1gico.mp4"
+    },
+    {
+      "episode_number": 5,
+      "title": "La Tormenta",
+      "video_url": "https://archive.org/download/Coraje-3/3x05%20-%20La%20Tormenta.mp4"
+    },
+    {
+      "episode_number": 6,
+      "title": "El Mago de los Sueños",
+      "video_url": "https://archive.org/download/Coraje-3/3x06%20-%20El%20Mago%20de%20los%20Sue%C3%B1os.mp4"
+    },
+    {
+      "episode_number": 7,
+      "title": "Coraje en el Disco Duro",
+      "video_url": "https://archive.org/download/Coraje-3/3x07%20-%20Coraje%20en%20el%20Disco%20Duro.mp4"
+    },
+    {
+      "episode_number": 8,
+      "title": "El Viaje de las Valkyrias",
+      "video_url": "https://archive.org/download/Coraje-3/3x08%20-%20El%20Viaje%20de%20las%20Valkyrias.mp4"
+    },
+    {
+      "episode_number": 9,
+      "title": "Buceo Increíble",
+      "video_url": "https://archive.org/download/Coraje-3/3x09%20-%20Buceo%20Incre%C3%ADble.mp4"
+    },
+    {
+      "episode_number": 10,
+      "title": "El Contaminador",
+      "video_url": "https://archive.org/download/Coraje-3/3x10%20-%20El%20Contaminador.mp4"
+    },
+    {
+      "episode_number": 11,
+      "title": "Viaje al Fondo del Mar",
+      "video_url": "https://archive.org/download/Coraje-3/3x11%20-%20Viaje%20al%20Fondo%20del%20Mar.mp4"
+    },
+    {
+      "episode_number": 12,
+      "title": "La Cortina de la Crueldad",
+      "video_url": "https://archive.org/download/Coraje-3/3x12%20-%20La%20Cortina%20de%20la%20Crueldad.mp4"
+    },
+    {
+      "episode_number": 13,
+      "title": "El Nuevo Estanque",
+      "video_url": "https://archive.org/download/Coraje-3/3x13%20-%20El%20Nuevo%20Estanque.mp4"
+    },
+    {
+      "episode_number": 14,
+      "title": "El Gusano de Tulip",
+      "video_url": "https://archive.org/download/Coraje-3/3x14%20-%20El%20Gusano%20de%20Tulip.mp4"
+    },
+    {
+      "episode_number": 15,
+      "title": "Romance en el Louvre",
+      "video_url": "https://archive.org/download/Coraje-3/3x15%20-%20Romance%20en%20el%20Louvre.mp4"
+    },
+    {
+      "episode_number": 16,
+      "title": "La Noche del Espantapájaros",
+      "video_url": "https://archive.org/download/Coraje-3/3x16%20-%20La%20Noche%20del%20Espantap%C3%A1jaros.mp4"
+    },
+    {
+      "episode_number": 17,
+      "title": "Magia",
+      "video_url": "https://archive.org/download/Coraje-3/3x17%20-%20Magia.mp4"
+    },
+    {
+      "episode_number": 18,
+      "title": "Niñera de Aves",
+      "video_url": "https://archive.org/download/Coraje-3/3x18%20-%20Ni%C3%B1era%20de%20Aves.mp4"
+    },
+    {
+      "episode_number": 19,
+      "title": "Juicio Submarino",
+      "video_url": "https://archive.org/download/Coraje-3/3x19%20-%20Juicio%20Submarino.mp4"
+    },
+    {
+      "episode_number": 20,
+      "title": "Gente Mala y Violenta",
+      "video_url": "https://archive.org/download/Coraje-3/3x20%20-%20Gente%20Mala%20y%20Violenta.mp4"
+    },
+    {
+      "episode_number": 21,
+      "title": "El Domo",
+      "video_url": "https://archive.org/download/Coraje-3/3x21%20-%20El%20Domo.mp4"
+    },
+    {
+      "episode_number": 22,
+      "title": "La Venganza del Muñeco de Nieve",
+      "video_url": "https://archive.org/download/Coraje-3/3x22%20-%20La%20Venganza%20del%20Mu%C3%B1eco%20de%20Nieve.mp4"
+    },
+    {
+      "episode_number": 23,
+      "title": "Club de Acolchados",
+      "video_url": "https://archive.org/download/Coraje-3/3x23%20-%20Club%20de%20Acolchados.mp4"
+    },
+    {
+      "episode_number": 24,
+      "title": "La Estafa",
+      "video_url": "https://archive.org/download/Coraje-3/3x24%20-%20La%20Estafa.mp4"
+    },
+    {
+      "episode_number": 25,
+      "title": "El Rey del Flan",
+      "video_url": "https://archive.org/download/Coraje-3/3x25%20-%20El%20Rey%20del%20Flan.mp4"
+    },
+    {
+      "episode_number": 26,
+      "title": "Coraje Bajo el Volcán",
+      "video_url": "https://archive.org/download/Coraje-3/3x26%20-%20Coraje%20Bajo%20el%20Volc%C3%A1n.mp4"
+    }
+  ]
+  },
+  
 {
   "title": "Coraje, el perro cobarde - Temporada 2",
   "description": "Segunda temporada de Coraje, donde nuevas aventuras extrañas, horrores y criaturas vienen a perturbar la paz de Coraje, Muriel y Justo en Ningún Lugar.",
