@@ -1,4 +1,95 @@
 [
+
+
+
+
+  
+{
+  "title": "Zero no Tsukaima - Temporada 1 (Latino)",
+  "description": "El joven Saito es transportado desde Japón al mundo mágico de Halkeginia. Allí se convierte en el familiar de la inepta pero poderosa maga Louise, con quien vivirá aventuras, criaturas mágicas, conflicto político y un romance prohibido.",
+  "coverImage": "https://www.nautiljon.com/images/anime/00/42/zero_no_tsukaima_224.webp",
+  "genre": ["Anime", "Fantasia", "Acción", "Romance"],
+  "episodeWallpaper": "https://www.nautiljon.com/images/anime/00/42/zero_no_tsukaima_224.webp",
+  "episodes": [
+    {
+      "episode_number": 1,
+      "title": "Zero no Tsukaima Latino 01",
+      "video_url": "https://archive.org/download/zero-no-tsukaima-latino-13/Zero%20no%20Tsukaima%20Latino%2001.mp4"
+    },
+    {
+      "episode_number": 2,
+      "title": "Zero no Tsukaima Latino 02",
+      "video_url": "https://archive.org/download/zero-no-tsukaima-latino-13/Zero%20no%20Tsukaima%20Latino%2002.mp4"
+    },
+    {
+      "episode_number": 3,
+      "title": "Zero no Tsukaima Latino 03",
+      "video_url": "https://archive.org/download/zero-no-tsukaima-latino-13/Zero%20no%20Tsukaima%20Latino%2003.mp4"
+    },
+    {
+      "episode_number": 4,
+      "title": "Zero no Tsukaima Latino 04",
+      "video_url": "https://archive.org/download/zero-no-tsukaima-latino-13/Zero%20no%20Tsukaima%20Latino%2004.mp4"
+    },
+    {
+      "episode_number": 5,
+      "title": "Zero no Tsukaima Latino 05",
+      "video_url": "https://archive.org/download/zero-no-tsukaima-latino-13/Zero%20no%20Tsukaima%20Latino%2005.mp4"
+    },
+    {
+      "episode_number": 6,
+      "title": "Zero no Tsukaima Latino 06",
+      "video_url": "https://archive.org/download/zero-no-tsukaima-latino-13/Zero%20no%20Tsukaima%20Latino%2006.mp4"
+    },
+    {
+      "episode_number": 7,
+      "title": "Zero no Tsukaima Latino 07",
+      "video_url": "https://archive.org/download/zero-no-tsukaima-latino-13/Zero%20no%20Tsukaima%20Latino%2007.mp4"
+    },
+    {
+      "episode_number": 8,
+      "title": "Zero no Tsukaima Latino 08",
+      "video_url": "https://archive.org/download/zero-no-tsukaima-latino-13/Zero%20no%20Tsukaima%20Latino%2008.mp4"
+    },
+    {
+      "episode_number": 9,
+      "title": "Zero no Tsukaima Latino 09",
+      "video_url": "https://archive.org/download/zero-no-tsukaima-latino-13/Zero%20no%20Tsukaima%20Latino%2009.mp4"
+    },
+    {
+      "episode_number": 10,
+      "title": "Zero no Tsukaima Latino 10",
+      "video_url": "https://archive.org/download/zero-no-tsukaima-latino-13/Zero%20no%20Tsukaima%20Latino%2010.mp4"
+    },
+    {
+      "episode_number": 11,
+      "title": "Zero no Tsukaima Latino 11",
+      "video_url": "https://archive.org/download/zero-no-tsukaima-latino-13/Zero%20no%20Tsukaima%20Latino%2011.mp4"
+    },
+    {
+      "episode_number": 12,
+      "title": "Zero no Tsukaima Latino 12",
+      "video_url": "https://archive.org/download/zero-no-tsukaima-latino-13/Zero%20no%20Tsukaima%20Latino%2012.mp4"
+    },
+    {
+      "episode_number": 13,
+      "title": "Zero no Tsukaima Latino 13",
+      "video_url": "https://archive.org/download/zero-no-tsukaima-latino-13/Zero%20no%20Tsukaima%20Latino%2013.mp4"
+    }
+  ]
+},
+  
+
+
+
+
+
+
+
+
+
+
+  
   {
   "title": "Akira",
   "description": "En un Neo-Tokio posapocalíptico, un joven motociclista llamado Tetsuo adquiere poderes telequinéticos que amenazan con desatar una catástrofe. Su amigo Kaneda deberá detenerlo antes de que sea demasiado tarde.",
