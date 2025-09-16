@@ -6,6 +6,41 @@
   "genre": ["Película", "Anime", "Ciencia Ficción", "Ciberpunk"],
   "video_url": "https://archive.org/download/akira-1988_20230323/Akira%20%281988%29.mp4"
   },
+{
+  "title": "Coraje, el perro cobarde - Temporada 2",
+  "description": "Segunda temporada de Coraje, donde nuevas aventuras extrañas, horrores y criaturas vienen a perturbar la paz de Coraje, Muriel y Justo en Ningún Lugar.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfCNO8JxLz2GmjD2bjo6aLrf8vH5xts4olYY9DmMZ3rQ&s=10",
+  "genre": ["Serie", "Animación", "Comedia", "Terror"],
+  "episodeWallpaper": "https://upload.wikimedia.org/wikipedia/en/0/05/Courage_the_Cowardly_Dog_title.jpg",
+  "episodes": [
+    { "episode_number": 0, "title": "Intro", "video_url": "https://archive.org/download/Coraje-2/00%20-%20Intro.mp4" },
+    { "episode_number": 1, "title": "El Árbol Mágico de Ningún Lugar", "video_url": "https://archive.org/download/Coraje-2/2x01%20-%20El%20%C3%81rbol%20M%C3%A1gico%20de%20Ning%C3%BAn%20Lugar.mp4" },
+    { "episode_number": 2, "title": "Randy el Robot", "video_url": "https://archive.org/download/Coraje-2/2x02%20-%20Randy%20el%20Robot.mp4" },
+    { "episode_number": 3, "title": "La Maldición de Shirley", "video_url": "https://archive.org/download/Coraje-2/2x03%20-%20La%20Maldici%C3%B3n%20de%20Shirley.mp4" },
+    { "episode_number": 4, "title": "Coraje en la Gran Ciudad Apestosa", "video_url": "https://archive.org/download/Coraje-2/2x04%20-%20Coraje%20en%20la%20Gran%20Ciudad%20Apestosa.mp4" },
+    { "episode_number": 5, "title": "Hasta en las Peores Familias", "video_url": "https://archive.org/download/Coraje-2/2x05%20-%20Hasta%20en%20las%20Peores%20Familias.mp4" },
+    { "episode_number": 6, "title": "1000 Años de Coraje", "video_url": "https://archive.org/download/Coraje-2/2x06%20-%201.000%20A%C3%B1os%20de%20Coraje.mp4" },
+    { "episode_number": 7, "title": "Coraje y La Momia", "video_url": "https://archive.org/download/Coraje-2/2x07%20-%20Coraje%20y%20La%20Momia.mp4" },
+    { "episode_number": 8, "title": "Muriel Invisible", "video_url": "https://archive.org/download/Coraje-2/2x08%20-%20Muriel%20Invisible.mp4" },
+    { "episode_number": 9, "title": "La Aspiradora", "video_url": "https://archive.org/download/Coraje-2/2x09%20-%20La%20Aspiradora.mp4" },
+    { "episode_number": 10, "title": "Misión al Sol", "video_url": "https://archive.org/download/Coraje-2/2x10%20-%20Misi%C3%B3n%20al%20Sol.mp4" },
+    { "episode_number": 11, "title": "La Mosca Coraje", "video_url": "https://archive.org/download/Coraje-2/2x11%20-%20La%20Mosca%20Coraje.mp4" },
+    { "episode_number": 12, "title": "El Eterno Segundo Lugar", "video_url": "https://archive.org/download/Coraje-2/2x12%20-%20El%20Eterno%20Segundo%20Lugar.mp4" },
+    { "episode_number": 13, "title": "Televisión de Ningún Lugar", "video_url": "https://archive.org/download/Coraje-2/2x13%20-%20Televisi%C3%B3n%20de%20Ning%C3%BAn%20Lugar.mp4" },
+    { "episode_number": 14, "title": "Mega Muriel la Magnífica", "video_url": "https://archive.org/download/Coraje-2/2x14%20-%20Mega%20Muriel%20la%20Magn%C3%ADfica.mp4" },
+    { "episode_number": 15, "title": "Un Día de Pelos", "video_url": "https://archive.org/download/Coraje-2/2x15%20-%20Un%20D%C3%ADa%20de%20Pelos.mp4" },
+    { "episode_number": 16, "title": "La Gorra de Oro", "video_url": "https://archive.org/download/Coraje-2/2x16%20-%20La%20Gorra%20de%20Oro.mp4" },
+    { "episode_number": 17, "title": "La Serpiente del Río del Mal", "video_url": "https://archive.org/download/Coraje-2/2x17%20-%20La%20Serpiente%20del%20R%C3%ADo%20del%20Mal.mp4" },
+    { "episode_number": 18, "title": "El Trasplante", "video_url": "https://archive.org/download/Coraje-2/2x18%20-%20El%20trasplante.mp4" },
+    { "episode_number": 19, "title": "El Extraterrestre", "video_url": "https://archive.org/download/Coraje-2/2x19%20-%20El%20Extraterrestre.mp4" },
+    { "episode_number": 20, "title": "El Vaquero Coraje", "video_url": "https://archive.org/download/Coraje-2/2x20%20-%20El%20Vaquero%20Coraje.mp4" },
+    { "episode_number": 21, "title": "La Mosca", "video_url": "https://archive.org/download/Coraje-2/2x21%20-%20La%20Mosca.mp4" },
+    { "episode_number": 22, "title": "El Fantasma de McPhearson", "video_url": "https://archive.org/download/Coraje-2/2x22%20-%20El%20Fantasma%20de%20McPhearson.mp4" },
+    { "episode_number": 23, "title": "La Maldición", "video_url": "https://archive.org/download/Coraje-2/2x23%20-%20La%20Maldici%C3%B3n.mp4" },
+    { "episode_number": 24, "title": "El Ataque de La Ballena de Arena", "video_url": "https://archive.org/download/Coraje-2/2x24%20-%20El%20Ataque%20de%20La%20Ballena%20de%20Arena.mp4" },
+    { "episode_number": 25, "title": "La Torre del Dr. Zalost", "video_url": "https://archive.org/download/Coraje-2/2x25%20-%20La%20Torre%20del%20Dr.%20Zalost.mp4" }
+  ]
+},
 
   {
   "title": "Coraje, el perro cobarde - Temporada 1",
