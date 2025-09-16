@@ -1,6 +1,75 @@
 [
 
 
+{
+  "title": "Zero no Tsukaima - Temporada 2 (Latino)",
+  "description": "Segunda temporada de Zero no Tsukaima. Nuevas aventuras mágicas, intrigas, batallas y el desarrollo del lazo entre Saito y Louise en el mundo de Halkeginia.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlZDz81QmPPfArpYIhhpdl_Pgo9ZhQWO9yHXWO4Y17QA&s=10",
+  "genre": ["Anime", "Fantasia", "Romance", "Acción"],
+  "episodeWallpaper": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlZDz81QmPPfArpYIhhpdl_Pgo9ZhQWO9yHXWO4Y17QA&s=10",
+  "episodes": [
+    {
+      "episode_number": 1,
+      "title": "Zero no Tsukaima T2 Episodio 1",
+      "video_url": "https://archive.org/download/zero-no-tsukaima-temporada-2/184_1.mp4"
+    },
+    {
+      "episode_number": 2,
+      "title": "Zero no Tsukaima T2 Episodio 2",
+      "video_url": "https://archive.org/download/zero-no-tsukaima-temporada-2/184_2.mp4"
+    },
+    {
+      "episode_number": 3,
+      "title": "Zero no Tsukaima T2 Episodio 3",
+      "video_url": "https://archive.org/download/zero-no-tsukaima-temporada-2/184_3.mp4"
+    },
+    {
+      "episode_number": 4,
+      "title": "Zero no Tsukaima T2 Episodio 4",
+      "video_url": "https://archive.org/download/zero-no-tsukaima-temporada-2/184_4.mp4"
+    },
+    {
+      "episode_number": 5,
+      "title": "Zero no Tsukaima T2 Episodio 5",
+      "video_url": "https://archive.org/download/zero-no-tsukaima-temporada-2/184_5.mp4"
+    },
+    {
+      "episode_number": 6,
+      "title": "Zero no Tsukaima T2 Episodio 6",
+      "video_url": "https://archive.org/download/zero-no-tsukaima-temporada-2/184_6.mp4"
+    },
+    {
+      "episode_number": 7,
+      "title": "Zero no Tsukaima T2 Episodio 7",
+      "video_url": "https://archive.org/download/zero-no-tsukaima-temporada-2/184_7.mp4"
+    },
+    {
+      "episode_number": 8,
+      "title": "Zero no Tsukaima T2 Episodio 8",
+      "video_url": "https://archive.org/download/zero-no-tsukaima-temporada-2/184_8.mp4"
+    },
+    {
+      "episode_number": 9,
+      "title": "Zero no Tsukaima T2 Episodio 9",
+      "video_url": "https://archive.org/download/zero-no-tsukaima-temporada-2/184_9.mp4"
+    },
+    {
+      "episode_number": 10,
+      "title": "Zero no Tsukaima T2 Episodio 10",
+      "video_url": "https://archive.org/download/zero-no-tsukaima-temporada-2/184_10.mp4"
+    },
+    {
+      "episode_number": 11,
+      "title": "Zero no Tsukaima T2 Episodio 11",
+      "video_url": "https://archive.org/download/zero-no-tsukaima-temporada-2/184_11.mp4"
+    },
+    {
+      "episode_number": 12,
+      "title": "Zero no Tsukaima T2 Episodio 12",
+      "video_url": "https://archive.org/download/zero-no-tsukaima-temporada-2/184_12.mp4"
+    }
+  ]
+},
 
 
   
