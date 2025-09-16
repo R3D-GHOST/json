@@ -1,6 +1,82 @@
 [
 
   {
+  "title": "Las Aventuras de Jackie Chan",
+  "description": "Serie animada llena de acción, humor y artes marciales, donde Jackie Chan y sus amigos enfrentan villanos misteriosos y aventuras sobrenaturales.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsUDEIvbzVknxiWKtRZLoL-NBwaGHmaVQxpCcK-MGLwA&s=10",
+  "genre": ["Serie", "Animación", "Aventura", "Acción", "Infantil"],
+  "episodeWallpaper": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsUDEIvbzVknxiWKtRZLoL-NBwaGHmaVQxpCcK-MGLwA&s=10",
+  "episodes": [
+    {
+      "episode_number": 1,
+      "title": "Jackie Chan 1x01 La Mano Del Mal",
+      "video_url": "https://archive.org/download/las-aventuras-de-jackie-chan/1x01La Mano Del Mal.mp4"
+    },
+    {
+      "episode_number": 2,
+      "title": "Jackie Chan 1x02 Los Poderes Magicos De Jade",
+      "video_url": "https://archive.org/download/las-aventuras-de-jackie-chan/1x02 Los Poderes Magicos De Jade.mp4"
+    },
+    {
+      "episode_number": 3,
+      "title": "Jackie Chan 1x03 La Mascara Del Toro",
+      "video_url": "https://archive.org/download/las-aventuras-de-jackie-chan/1x03 La Mascara Del Toro.mp4"
+    },
+    {
+      "episode_number": 4,
+      "title": "Jackie Chan 1x04 Viper",
+      "video_url": "https://archive.org/download/las-aventuras-de-jackie-chan/1x04 Viper.mp4"
+    },
+    {
+      "episode_number": 5,
+      "title": "Jackie Chan 1x05 Proyeccion Astral",
+      "video_url": "https://archive.org/download/las-aventuras-de-jackie-chan/1x05 Proyeccion Astral.mp4"
+    },
+    {
+      "episode_number": 6,
+      "title": "Jackie Chan 1x06 Donde quedo la bolita",
+      "video_url": "https://archive.org/download/las-aventuras-de-jackie-chan/1x06 Donde quedo la bolita.mp4"
+    },
+    {
+      "episode_number": 7,
+      "title": "Jackie Chan 1x07 Bravucones",
+      "video_url": "https://archive.org/download/las-aventuras-de-jackie-chan/1x07 Bravucones.mp4"
+    },
+    {
+      "episode_number": 8,
+      "title": "Jackie Chan 1x08 Animados",
+      "video_url": "https://archive.org/download/las-aventuras-de-jackie-chan/1x08 Animados.mp4"
+    },
+    {
+      "episode_number": 9,
+      "title": "Jackie Chan 1x09 La Roca",
+      "video_url": "https://archive.org/download/las-aventuras-de-jackie-chan/1x09 la roca.mp4"
+    },
+    {
+      "episode_number": 10,
+      "title": "Jackie Chan 1x10 El Mono Jade",
+      "video_url": "https://archive.org/download/las-aventuras-de-jackie-chan/1x10 el mono jade.mp4"
+    },
+    {
+      "episode_number": 11,
+      "title": "Jackie Chan 1x11 El Espectaculo del puerco y el perrito",
+      "video_url": "https://archive.org/download/las-aventuras-de-jackie-chan/1x11 El Espectaculo del puerco y el perrito.mp4"
+    },
+    {
+      "episode_number": 12,
+      "title": "Jackie Chan 1x12 El Tigre Y El Gatito",
+      "video_url": "https://archive.org/download/las-aventuras-de-jackie-chan/1x12 El Tigre Y El Gatito.mp4"
+    },
+    {
+      "episode_number": 13,
+      "title": "Jackie Chan 1x13 El Dia del Dragon",
+      "video_url": "https://archive.org/download/las-aventuras-de-jackie-chan/1x13 El dia del dragon.mp4"
+    }
+  ]
+  },
+
+  
+  {
   "title": "Los Diez Mandamientos",
   "description": "Un clásico épico que narra la vida de Moisés, desde su nacimiento hasta la liberación del pueblo hebreo de la esclavitud en Egipto y la entrega de las tablas de la ley en el Monte Sinaí.",
   "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJUnVaV6YBlG2qO9K6hYMtsKeGg9_ZcC68EjvGqNeACdn15gv48HlCMmo&s=10",
