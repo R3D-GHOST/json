@@ -1,5 +1,81 @@
 [
 
+
+  {
+  "title": "Hellsing",
+  "description": "La organización Hellsing combate criaturas sobrenaturales y enfrenta a vampiros que amenazan a la humanidad, con la ayuda del poderoso vampiro Alucard.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5YSETh3JnAk__28fmlTI9zrBkqMUcmEzzAXzUkViN2A&s=10",
+  "genre": ["Animación", "Acción", "Terror", "Sobrenatural"],
+  "episodeWallpaper": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5YSETh3JnAk__28fmlTI9zrBkqMUcmEzzAXzUkViN2A&s=10",
+  "episodes": [
+    {
+      "episode_number": 1,
+      "title": "Hellsing - Episodio 01",
+      "video_url": "https://archive.org/download/hellsing-latino_202010/1.mp4"
+    },
+    {
+      "episode_number": 2,
+      "title": "Hellsing - Episodio 02",
+      "video_url": "https://archive.org/download/hellsing-latino_202010/2.mp4"
+    },
+    {
+      "episode_number": 3,
+      "title": "Hellsing - Episodio 03",
+      "video_url": "https://archive.org/download/hellsing-latino_202010/3.mp4"
+    },
+    {
+      "episode_number": 4,
+      "title": "Hellsing - Episodio 04",
+      "video_url": "https://archive.org/download/hellsing-latino_202010/4.mp4"
+    },
+    {
+      "episode_number": 5,
+      "title": "Hellsing - Episodio 05",
+      "video_url": "https://archive.org/download/hellsing-latino_202010/5.mp4"
+    },
+    {
+      "episode_number": 6,
+      "title": "Hellsing - Episodio 06",
+      "video_url": "https://archive.org/download/hellsing-latino_202010/6.mp4"
+    },
+    {
+      "episode_number": 7,
+      "title": "Hellsing - Episodio 07",
+      "video_url": "https://archive.org/download/hellsing-latino_202010/7.mp4"
+    },
+    {
+      "episode_number": 8,
+      "title": "Hellsing - Episodio 08",
+      "video_url": "https://archive.org/download/hellsing-latino_202010/8.mp4"
+    },
+    {
+      "episode_number": 9,
+      "title": "Hellsing - Episodio 09",
+      "video_url": "https://archive.org/download/hellsing-latino_202010/9.mp4"
+    },
+    {
+      "episode_number": 10,
+      "title": "Hellsing - Episodio 10",
+      "video_url": "https://archive.org/download/hellsing-latino_202010/10.mp4"
+    },
+    {
+      "episode_number": 11,
+      "title": "Hellsing - Episodio 11",
+      "video_url": "https://archive.org/download/hellsing-latino_202010/11.mp4"
+    },
+    {
+      "episode_number": 12,
+      "title": "Hellsing - Episodio 12",
+      "video_url": "https://archive.org/download/hellsing-latino_202010/12.mp4"
+    },
+    {
+      "episode_number": 13,
+      "title": "Hellsing - Episodio 13",
+      "video_url": "https://archive.org/download/hellsing-latino_202010/13.mp4"
+    }
+  ]
+  },
+
   
 {
   "title": "Scooby-Doo! Misterios S.A.",
