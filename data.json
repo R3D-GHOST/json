@@ -1,5 +1,30 @@
 [
-
+{
+  "title": "Bola de Dragón (1986) - Castellano",
+  "description": "Serie original de Dragon Ball (1986) en castellano. Sigue las aventuras de Son Goku desde su niñez, cuando conoce a Bulma y comienza la búsqueda de las legendarias Bolas de Dragón, hasta los combates que marcaron el inicio de su leyenda.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc6hoMVStaQ-IYgaNuWxKjHZ4hZ1r8ZkGV36H89T6Kw7l1Yq2ih3klU2I9FVgC&s=10",
+  "genre": ["Anime", "Acción", "Aventura", "Fantasía", "Shonen"],
+  "episodeWallpaper": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc6hoMVStaQ-IYgaNuWxKjHZ4hZ1r8ZkGV36H89T6Kw7l1Yq2ih3klU2I9FVgC&s=10",
+  "episodes": [
+    {
+      "episode_number": 1,
+      "title": "Dragon Ball 001 - Bulma y Son Gokuh",
+      "video_url": "https://archive.org/download/bola-de-dragon-1986-castellano/Dragon_Ball_001_-_Bulma_Y_Son_Gokuh.mp4"
+    },
+    {
+      "episode_number": 2,
+      "title": "Dragon Ball 002 - No Hay Bolas!",
+      "video_url": "https://archive.org/download/bola-de-dragon-1986-castellano/Dragon_Ball_002_-_No_Hay_Bolas!.mp4"
+    },
+    {
+      "episode_number": 3,
+      "title": "Dragon Ball 003 - La Nube de Tortuga Duende",
+      "video_url": "https://archive.org/download/bola-de-dragon-1986-castellano/Dragon_Ball_003_-_La_Nube_De_Tortuga_Duende.mp4"
+    }
+    // ... Continúa con todos los episodios hasta el 153 ...
+  ]
+},
+  
 
 {
   "title": "El Espectacular Spiderman - Temporada 2",
