@@ -2,6 +2,275 @@
 
 
 
+{
+  "title": "Naruto - Temporada 1 (Español Latino)",
+  "description": "La primera temporada de Naruto sigue la historia del joven ninja Naruto Uzumaki, quien sueña con convertirse en Hokage. Junto a sus compañeros Sasuke y Sakura, bajo la guía de Kakashi, enfrentará misiones y pruebas que pondrán a prueba su valor y amistad.",
+  "coverImage": "https://es.web.img3.acsta.net/pictures/19/08/02/17/10/0279495.jpg",
+  "genre": ["Anime", "Acción", "Aventura", "Shounen"],
+  "episodeWallpaper": "https://es.web.img3.acsta.net/pictures/19/08/02/17/10/0279495.jpg",
+  "episodes": [
+    {
+      "episode_number": 1,
+      "title": "Naruto Episodio 1",
+      "video_url": "https://archive.org/download/naruto-temporada-1-espanol-latino/Naruto-001.mp4"
+    },
+    {
+      "episode_number": 2,
+      "title": "Naruto Episodio 2",
+      "video_url": "https://archive.org/download/naruto-temporada-1-espanol-latino/Naruto-002.mp4"
+    },
+    {
+      "episode_number": 3,
+      "title": "Naruto Episodio 3",
+      "video_url": "https://archive.org/download/naruto-temporada-1-espanol-latino/Naruto-003.mp4"
+    },
+    {
+      "episode_number": 4,
+      "title": "Naruto Episodio 4",
+      "video_url": "https://archive.org/download/naruto-temporada-1-espanol-latino/Naruto-004.mp4"
+    },
+    {
+      "episode_number": 5,
+      "title": "Naruto Episodio 5",
+      "video_url": "https://archive.org/download/naruto-temporada-1-espanol-latino/Naruto-005.mp4"
+    },
+    {
+      "episode_number": 6,
+      "title": "Naruto Episodio 6",
+      "video_url": "https://archive.org/download/naruto-temporada-1-espanol-latino/Naruto-006.mp4"
+    },
+    {
+      "episode_number": 7,
+      "title": "Naruto Episodio 7",
+      "video_url": "https://archive.org/download/naruto-temporada-1-espanol-latino/Naruto-007.mp4"
+    },
+    {
+      "episode_number": 8,
+      "title": "Naruto Episodio 8",
+      "video_url": "https://archive.org/download/naruto-temporada-1-espanol-latino/Naruto-008.mp4"
+    },
+    {
+      "episode_number": 9,
+      "title": "Naruto Episodio 9",
+      "video_url": "https://archive.org/download/naruto-temporada-1-espanol-latino/Naruto-009.mp4"
+    },
+    {
+      "episode_number": 10,
+      "title": "Naruto Episodio 10",
+      "video_url": "https://archive.org/download/naruto-temporada-1-espanol-latino/Naruto-010.mp4"
+    },
+    {
+      "episode_number": 11,
+      "title": "Naruto Episodio 11",
+      "video_url": "https://archive.org/download/naruto-temporada-1-espanol-latino/Naruto-011.mp4"
+    },
+    {
+      "episode_number": 12,
+      "title": "Naruto Episodio 12",
+      "video_url": "https://archive.org/download/naruto-temporada-1-espanol-latino/Naruto-012.mp4"
+    },
+    {
+      "episode_number": 13,
+      "title": "Naruto Episodio 13",
+      "video_url": "https://archive.org/download/naruto-temporada-1-espanol-latino/Naruto-013.mp4"
+    },
+    {
+      "episode_number": 14,
+      "title": "Naruto Episodio 14",
+      "video_url": "https://archive.org/download/naruto-temporada-1-espanol-latino/Naruto-014.mp4"
+    },
+    {
+      "episode_number": 15,
+      "title": "Naruto Episodio 15",
+      "video_url": "https://archive.org/download/naruto-temporada-1-espanol-latino/Naruto-015.mp4"
+    },
+    {
+      "episode_number": 16,
+      "title": "Naruto Episodio 16",
+      "video_url": "https://archive.org/download/naruto-temporada-1-espanol-latino/Naruto-016.mp4"
+    },
+    {
+      "episode_number": 17,
+      "title": "Naruto Episodio 17",
+      "video_url": "https://archive.org/download/naruto-temporada-1-espanol-latino/Naruto-017.mp4"
+    },
+    {
+      "episode_number": 18,
+      "title": "Naruto Episodio 18",
+      "video_url": "https://archive.org/download/naruto-temporada-1-espanol-latino/Naruto-018.mp4"
+    },
+    {
+      "episode_number": 19,
+      "title": "Naruto Episodio 19",
+      "video_url": "https://archive.org/download/naruto-temporada-1-espanol-latino/Naruto-019.mp4"
+    },
+    {
+      "episode_number": 20,
+      "title": "Naruto Episodio 20",
+      "video_url": "https://archive.org/download/naruto-temporada-1-espanol-latino/Naruto-020.mp4"
+    },
+    {
+      "episode_number": 21,
+      "title": "Naruto Episodio 21",
+      "video_url": "https://archive.org/download/naruto-temporada-1-espanol-latino/Naruto-021.mp4"
+    },
+    {
+      "episode_number": 22,
+      "title": "Naruto Episodio 22",
+      "video_url": "https://archive.org/download/naruto-temporada-1-espanol-latino/Naruto-022.mp4"
+    },
+    {
+      "episode_number": 23,
+      "title": "Naruto Episodio 23",
+      "video_url": "https://archive.org/download/naruto-temporada-1-espanol-latino/Naruto-023.mp4"
+    },
+    {
+      "episode_number": 24,
+      "title": "Naruto Episodio 24",
+      "video_url": "https://archive.org/download/naruto-temporada-1-espanol-latino/Naruto-024.mp4"
+    },
+    {
+      "episode_number": 25,
+      "title": "Naruto Episodio 25",
+      "video_url": "https://archive.org/download/naruto-temporada-1-espanol-latino/Naruto-025.mp4"
+    },
+    {
+      "episode_number": 26,
+      "title": "Naruto Episodio 26",
+      "video_url": "https://archive.org/download/naruto-temporada-1-espanol-latino/Naruto-026.mp4"
+    },
+    {
+      "episode_number": 27,
+      "title": "Naruto Episodio 27",
+      "video_url": "https://archive.org/download/naruto-temporada-1-espanol-latino/Naruto-027.mp4"
+    },
+    {
+      "episode_number": 28,
+      "title": "Naruto Episodio 28",
+      "video_url": "https://archive.org/download/naruto-temporada-1-espanol-latino/Naruto-028.mp4"
+    },
+    {
+      "episode_number": 29,
+      "title": "Naruto Episodio 29",
+      "video_url": "https://archive.org/download/naruto-temporada-1-espanol-latino/Naruto-029.mp4"
+    },
+    {
+      "episode_number": 30,
+      "title": "Naruto Episodio 30",
+      "video_url": "https://archive.org/download/naruto-temporada-1-espanol-latino/Naruto-030.mp4"
+    },
+    {
+      "episode_number": 31,
+      "title": "Naruto Episodio 31",
+      "video_url": "https://archive.org/download/naruto-temporada-1-espanol-latino/Naruto-031.mp4"
+    },
+    {
+      "episode_number": 32,
+      "title": "Naruto Episodio 32",
+      "video_url": "https://archive.org/download/naruto-temporada-1-espanol-latino/Naruto-032.mp4"
+    },
+    {
+      "episode_number": 33,
+      "title": "Naruto Episodio 33",
+      "video_url": "https://archive.org/download/naruto-temporada-1-espanol-latino/Naruto-033.mp4"
+    },
+    {
+      "episode_number": 34,
+      "title": "Naruto Episodio 34",
+      "video_url": "https://archive.org/download/naruto-temporada-1-espanol-latino/Naruto-034.mp4"
+    },
+    {
+      "episode_number": 35,
+      "title": "Naruto Episodio 35",
+      "video_url": "https://archive.org/download/naruto-temporada-1-espanol-latino/Naruto-035.mp4"
+    },
+    {
+      "episode_number": 36,
+      "title": "Naruto Episodio 36",
+      "video_url": "https://archive.org/download/naruto-temporada-1-espanol-latino/Naruto-036.mp4"
+    },
+    {
+      "episode_number": 37,
+      "title": "Naruto Episodio 37",
+      "video_url": "https://archive.org/download/naruto-temporada-1-espanol-latino/Naruto-037.mp4"
+    },
+    {
+      "episode_number": 38,
+      "title": "Naruto Episodio 38",
+      "video_url": "https://archive.org/download/naruto-temporada-1-espanol-latino/Naruto-038.mp4"
+    },
+    {
+      "episode_number": 39,
+      "title": "Naruto Episodio 39",
+      "video_url": "https://archive.org/download/naruto-temporada-1-espanol-latino/Naruto-039.mp4"
+    },
+    {
+      "episode_number": 40,
+      "title": "Naruto Episodio 40",
+      "video_url": "https://archive.org/download/naruto-temporada-1-espanol-latino/Naruto-040.mp4"
+    },
+    {
+      "episode_number": 41,
+      "title": "Naruto Episodio 41",
+      "video_url": "https://archive.org/download/naruto-temporada-1-espanol-latino/Naruto-041.mp4"
+    },
+    {
+      "episode_number": 42,
+      "title": "Naruto Episodio 42",
+      "video_url": "https://archive.org/download/naruto-temporada-1-espanol-latino/Naruto-042.mp4"
+    },
+    {
+      "episode_number": 43,
+      "title": "Naruto Episodio 43",
+      "video_url": "https://archive.org/download/naruto-temporada-1-espanol-latino/Naruto-043.mp4"
+    },
+    {
+      "episode_number": 44,
+      "title": "Naruto Episodio 44",
+      "video_url": "https://archive.org/download/naruto-temporada-1-espanol-latino/Naruto-044.mp4"
+    },
+    {
+      "episode_number": 45,
+      "title": "Naruto Episodio 45",
+      "video_url": "https://archive.org/download/naruto-temporada-1-espanol-latino/Naruto-045.mp4"
+    },
+    {
+      "episode_number": 46,
+      "title": "Naruto Episodio 46",
+      "video_url": "https://archive.org/download/naruto-temporada-1-espanol-latino/Naruto-046.mp4"
+    },
+    {
+      "episode_number": 47,
+      "title": "Naruto Episodio 47",
+      "video_url": "https://archive.org/download/naruto-temporada-1-espanol-latino/Naruto-047.mp4"
+    },
+    {
+      "episode_number": 48,
+      "title": "Naruto Episodio 48",
+      "video_url": "https://archive.org/download/naruto-temporada-1-espanol-latino/Naruto-048.mp4"
+    },
+    {
+      "episode_number": 49,
+      "title": "Naruto Episodio 49",
+      "video_url": "https://archive.org/download/naruto-temporada-1-espanol-latino/Naruto-049.mp4"
+    },
+    {
+      "episode_number": 50,
+      "title": "Naruto Episodio 50",
+      "video_url": "https://archive.org/download/naruto-temporada-1-espanol-latino/Naruto-050.mp4"
+    },
+    {
+      "episode_number": 51,
+      "title": "Naruto Episodio 51",
+      "video_url": "https://archive.org/download/naruto-temporada-1-espanol-latino/Naruto-051.mp4"
+    },
+    {
+      "episode_number": 52,
+      "title": "Naruto Episodio 52",
+      "video_url": "https://archive.org/download/naruto-temporada-1-espanol-latino/Naruto-052.mp4"
+    }
+  ]
+},
 
 
   
