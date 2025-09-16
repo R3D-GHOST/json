@@ -1,6 +1,14 @@
 [
 
   {
+  "title": "Maestro Borracho",
+  "description": "El maestro borracho es una clásica comedia de artes marciales de 1978 dirigida por Yuen Woo-ping y protagonizada por Jackie Chan. Relata la historia de Wong Fei-hung, un joven rebelde que causa problemas y aterriza como alumno de un maestro de kung fu prácticamente borracho, quien lo entrena en el estilizado ‘puño borracho’ para derrotar a un enemigo poderoso y limpiar el honor. :contentReference[oaicite:0]{index=0}",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfTsbbyafLD1FPlZKz659AqPlMPdF3twcFT9VuHpns4Q&s=10",
+  "genre": ["Película", "Acción", "Kung Fu", "Comedia", "Artes Marciales"],
+  "video_url": "https://archive.org/download/maestro-borracho-1/Maestro-Borracho-1.mp4"
+  },
+  
+  {
     "title": "Los Últimos Golpes Del Torete",
     "description": "Tercera parte de la trilogía \"Perros Callejeros\", con El Torete escapando del reformatorio, dá un último golpe antes de desaparecer. Incluye la figura de El Vaquilla como contrapunto. Dirigida por José Antonio de la Loma. Cine quinqui español. :contentReference[oaicite:0]{index=0}",
     "coverImage": "https://es.web.img2.acsta.net/pictures/14/12/02/12/21/331833.jpg",  
