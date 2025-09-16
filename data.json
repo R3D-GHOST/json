@@ -1,6 +1,66 @@
 [
 
+{
+  "title": "Bola de Dragón (1986)",
+  "description": "Las aventuras de Son Goku desde niño, acompañado por Bulma, Krilin y otros amigos, en la búsqueda de las Esferas del Dragón. A lo largo de su camino, Goku entrena en artes marciales, participa en torneos y enfrenta enemigos que pondrán a prueba su fuerza y espíritu.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUeZVfS4yW8nLC4XFXwnWkdQgYcDcA_CakUOE1bSkimw&s=10",
+  "genre": ["Animación", "Acción", "Aventura", "Comedia", "Fantasía", "Shonen"],
+  "episodeWallpaper": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUeZVfS4yW8nLC4XFXwnWkdQgYcDcA_CakUOE1bSkimw&s=10",
+  "episodes": [
+    {
+      "episode_number": 1,
+      "title": "Dragon Ball 001 - Bulma y Son Gokuh",
+      "video_url": "https://archive.org/download/bola-de-dragon-1986-castellano/Dragon_Ball_001_-_Bulma_Y_Son_Gokuh.mp4"
+    },
+    {
+      "episode_number": 2,
+      "title": "Dragon Ball 002 - No Hay Bolas!",
+      "video_url": "https://archive.org/download/bola-de-dragon-1986-castellano/Dragon_Ball_002_-_No_Hay_Bolas!.mp4"
+    },
+    {
+      "episode_number": 3,
+      "title": "Dragon Ball 003 - La Nube de Tortuga Duende",
+      "video_url": "https://archive.org/download/bola-de-dragon-1986-castellano/Dragon_Ball_003_-_La_Nube_De_Tortuga_Duende.mp4"
+    },
+    {
+      "episode_number": 4,
+      "title": "Dragon Ball 004 - Oolong el Temible Secuestrador",
+      "video_url": "https://archive.org/download/bola-de-dragon-1986-castellano/Dragon_Ball_004_-_Oolong_El_Temible_Secuestrador.mp4"
+    },
+    {
+      "episode_number": 5,
+      "title": "Dragon Ball 005 - Yamcha el Guerrero del Desierto",
+      "video_url": "https://archive.org/download/bola-de-dragon-1986-castellano/Dragon_Ball_005_-_Yamcha_El_Guerrero_Del_Desierto.mp4"
+    },
+    {
+      "episode_number": 6,
+      "title": "Dragon Ball 006 - ¿Qué es eso? ¿Una Chica Desnuda?",
+      "video_url": "https://archive.org/download/bola-de-dragon-1986-castellano/Dragon_Ball_006_-_Que_Es_Eso_Una_Chica_Desnuda.mp4"
+    },
+    {
+      "episode_number": 7,
+      "title": "Dragon Ball 007 - ¡La Montaña Frypan en Llamas!",
+      "video_url": "https://archive.org/download/bola-de-dragon-1986-castellano/Dragon_Ball_007_-_La_Montana_Frypan_En_Llamas.mp4"
+    },
+    {
+      "episode_number": 8,
+      "title": "Dragon Ball 008 - El Maestro Mutenroshi",
+      "video_url": "https://archive.org/download/bola-de-dragon-1986-castellano/Dragon_Ball_008_-_El_Maestro_Mutenroshi.mp4"
+    },
+    {
+      "episode_number": 9,
+      "title": "Dragon Ball 009 - ¡La Tortuga Marina! ¡Y el Kamehameha!",
+      "video_url": "https://archive.org/download/bola-de-dragon-1986-castellano/Dragon_Ball_009_-_La_Tortuga_Marina_Y_El_Kamehameha.mp4"
+    },
+    {
+      "episode_number": 10,
+      "title": "Dragon Ball 010 - ¡El Dragón Shenron Aparece!",
+      "video_url": "https://archive.org/download/bola-de-dragon-1986-castellano/Dragon_Ball_010_-_El_Dragon_Shenron_Aparece.mp4"
+    }
+  ]
+},
 
+  
   {
   "title": "Hellsing",
   "description": "La organización Hellsing combate criaturas sobrenaturales y enfrenta a vampiros que amenazan a la humanidad, con la ayuda del poderoso vampiro Alucard.",
