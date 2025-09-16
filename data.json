@@ -1,6 +1,15 @@
 [
 
   {
+  "title": "Los Diez Mandamientos",
+  "description": "Un clásico épico que narra la vida de Moisés, desde su nacimiento hasta la liberación del pueblo hebreo de la esclavitud en Egipto y la entrega de las tablas de la ley en el Monte Sinaí.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJUnVaV6YBlG2qO9K6hYMtsKeGg9_ZcC68EjvGqNeACdn15gv48HlCMmo&s=10",
+  "genre": ["Película", "Drama", "Épica", "Religión"],
+  "video_url": "https://archive.org/download/los-diez-mandamientos_202108/Los%20Diez%20Mandamientos.mp4"
+  },
+  
+
+  {
   "title": "Naruto Shippuden - Temporada 1 (Español Latino)",
   "description": "La primera temporada de Naruto Shippuden marca el regreso de Naruto Uzumaki después de entrenar para enfrentar nuevas amenazas y reunirse con viejos amigos, mientras se acerca el peligro del pasado.",
   "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZMNkvZXMLHAzOmqtJXOWSop4W8FNd1jf34gfy0HK-lw&s=10",
