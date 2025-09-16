@@ -1,7 +1,31 @@
 [
 
 
+[
+  {
+    "title": "Los Últimos Golpes Del Torete",
+    "description": "Tercera parte de la trilogía \"Perros Callejeros\", con El Torete escapando del reformatorio, dá un último golpe antes de desaparecer. Incluye la figura de El Vaquilla como contrapunto. Dirigida por José Antonio de la Loma. Cine quinqui español. :contentReference[oaicite:0]{index=0}",
+    "coverImage": "https://es.web.img2.acsta.net/pictures/14/12/02/12/21/331833.jpg",  
+    "genre": ["Película", "Drama", "Crimen", "Cine quinqui"],
+    "video_url": "https://archive.org/download/los-ultimos-golpes-del-torete_202509/Los%20Ultimos%20Golpes%20Del%20Torete.m4v"
+  },
+  {
+    "title": "Perros Callejeros II",
+    "description": "Segunda parte de la saga \"Perros Callejeros\" dirigida por José Antonio de la Loma, continúa explorando el mundo de la delincuencia juvenil en los barrios periféricos de Barcelona. :contentReference[oaicite:1]{index=1}",
+    "coverImage": "https://m.media-amazon.com/images/I/91QplAbSmeL._UF1000,1000_QL80_.jpg",
+    "genre": ["Película", "Drama", "Crimen", "Cine quinqui"],
+    "video_url": "https://archive.org/download/los-ultimos-golpes-del-torete_202509/Perros%20Callejeros%202.mp4"
+  },
+  {
+    "title": "Perros Callejeros (Original)",
+    "description": "Película original de 1977 de José Antonio de la Loma. Inicia la trilogía del cine quinqui con El Torete liderando una pandilla de adolescentes en los suburbios de Barcelona. :contentReference[oaicite:2]{index=2}",
+    "coverImage": "https://m.media-amazon.com/images/I/91RwHTLVsqL._UF1000,1000_QL80_.jpg",
+    "genre": ["Película", "Drama", "Crimen", "Cine quinqui"],
+    "video_url": "https://archive.org/download/los-ultimos-golpes-del-torete_202509/Perros%20Callejeros.m4v"
+  }
+],
 
+  
 {
   "title": "Naruto Shippuden - Temporada 2",
   "description": "La segunda temporada de Naruto Shippuden sigue la misión de rescate de Gaara, el Kazekage, mientras Naruto, Sakura, Kakashi y el resto de los shinobi enfrentan a la organización Akatsuki.",
