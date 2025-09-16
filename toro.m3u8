@@ -4,7 +4,7 @@
 
 
 #EXTINF:-1 tvg-logo="https://wallpapers.com/images/hd/bull-pictures-1920-x-1200-j97ymvuceslt5219.jpg" group-title="En Directo",  Toros HORA:18:00
-#https://cdnapisec.kaltura.com/p/2288691/sp/228869100/playManifest/entryId/1_sqa9madm/protocol/https/format/applehttp/a.m3u8
+https://cdnapisec.kaltura.com/p/2288691/sp/228869100/playManifest/entryId/1_sqa9madm/protocol/https/format/applehttp/a.m3u8
 
 
 
@@ -12,7 +12,7 @@
 
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://wallpapers.com/images/hd/bull-pictures-1920-x-1200-j97ymvuceslt5219.jpg" group-title="En Directo", Toros Hora: 21:00
-https://canalextremadura-live.flumotion.cloud/canalextremadura/live_all/playlist_dvr.m3u8
+#https://canalextremadura-live.flumotion.cloud/canalextremadura/live_all/playlist_dvr.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://wallpapercave.com/wp/wp8118028.jpg" group-title="En Directo", Águila Roja 
 https://jmp2.uk/stvp-ES500005BP
