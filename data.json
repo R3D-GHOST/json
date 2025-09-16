@@ -1,5 +1,274 @@
 [
 
+{
+  "title": "Naruto - Temporada 2 (Español Latino)",
+  "description": "La segunda temporada de Naruto continúa la misión de Naruto Uzumaki con sus compañeros, enfrentándose a nuevos enemigos, retos más fuertes y creciendo como ninja mientras sigue su sueño de ser Hokage.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3oa9idCzSlhND6JE3spRGNey5JzLdgBT4yBf8bCpm5A&s=10",
+  "genre": ["Anime", "Acción", "Aventura", "Shounen"],
+  "episodeWallpaper": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3oa9idCzSlhND6JE3spRGNey5JzLdgBT4yBf8bCpm5A&s=10",
+  "episodes": [
+    {
+      "episode_number": 53,
+      "title": "Naruto Episodio 53",
+      "video_url": "https://archive.org/download/naruto-temporada-2-espanol-latino/Naruto-053.mp4"
+    },
+    {
+      "episode_number": 54,
+      "title": "Naruto Episodio 54",
+      "video_url": "https://archive.org/download/naruto-temporada-2-espanol-latino/Naruto-054.mp4"
+    },
+    {
+      "episode_number": 55,
+      "title": "Naruto Episodio 55",
+      "video_url": "https://archive.org/download/naruto-temporada-2-espanol-latino/Naruto-055.mp4"
+    },
+    {
+      "episode_number": 56,
+      "title": "Naruto Episodio 56",
+      "video_url": "https://archive.org/download/naruto-temporada-2-espanol-latino/Naruto-056.mp4"
+    },
+    {
+      "episode_number": 57,
+      "title": "Naruto Episodio 57",
+      "video_url": "https://archive.org/download/naruto-temporada-2-espanol-latino/Naruto-057.mp4"
+    },
+    {
+      "episode_number": 58,
+      "title": "Naruto Episodio 58",
+      "video_url": "https://archive.org/download/naruto-temporada-2-espanol-latino/Naruto-058.mp4"
+    },
+    {
+      "episode_number": 59,
+      "title": "Naruto Episodio 59",
+      "video_url": "https://archive.org/download/naruto-temporada-2-espanol-latino/Naruto-059.mp4"
+    },
+    {
+      "episode_number": 60,
+      "title": "Naruto Episodio 60",
+      "video_url": "https://archive.org/download/naruto-temporada-2-espanol-latino/Naruto-060.mp4"
+    },
+    {
+      "episode_number": 61,
+      "title": "Naruto Episodio 61",
+      "video_url": "https://archive.org/download/naruto-temporada-2-espanol-latino/Naruto-061.mp4"
+    },
+    {
+      "episode_number": 62,
+      "title": "Naruto Episodio 62",
+      "video_url": "https://archive.org/download/naruto-temporada-2-espanol-latino/Naruto-062.mp4"
+    },
+    {
+      "episode_number": 63,
+      "title": "Naruto Episodio 63",
+      "video_url": "https://archive.org/download/naruto-temporada-2-espanol-latino/Naruto-063.mp4"
+    },
+    {
+      "episode_number": 64,
+      "title": "Naruto Episodio 64",
+      "video_url": "https://archive.org/download/naruto-temporada-2-espanol-latino/Naruto-064.mp4"
+    },
+    {
+      "episode_number": 65,
+      "title": "Naruto Episodio 65",
+      "video_url": "https://archive.org/download/naruto-temporada-2-espanol-latino/Naruto-065.mp4"
+    },
+    {
+      "episode_number": 66,
+      "title": "Naruto Episodio 66",
+      "video_url": "https://archive.org/download/naruto-temporada-2-espanol-latino/Naruto-066.mp4"
+    },
+    {
+      "episode_number": 67,
+      "title": "Naruto Episodio 67",
+      "video_url": "https://archive.org/download/naruto-temporada-2-espanol-latino/Naruto-067.mp4"
+    },
+    {
+      "episode_number": 68,
+      "title": "Naruto Episodio 68",
+      "video_url": "https://archive.org/download/naruto-temporada-2-espanol-latino/Naruto-068.mp4"
+    },
+    {
+      "episode_number": 69,
+      "title": "Naruto Episodio 69",
+      "video_url": "https://archive.org/download/naruto-temporada-2-espanol-latino/Naruto-069.mp4"
+    },
+    {
+      "episode_number": 70,
+      "title": "Naruto Episodio 70",
+      "video_url": "https://archive.org/download/naruto-temporada-2-espanol-latino/Naruto-070.mp4"
+    },
+    {
+      "episode_number": 71,
+      "title": "Naruto Episodio 71",
+      "video_url": "https://archive.org/download/naruto-temporada-2-espanol-latino/Naruto-071.mp4"
+    },
+    {
+      "episode_number": 72,
+      "title": "Naruto Episodio 72",
+      "video_url": "https://archive.org/download/naruto-temporada-2-espanol-latino/Naruto-072.mp4"
+    },
+    {
+      "episode_number": 73,
+      "title": "Naruto Episodio 73",
+      "video_url": "https://archive.org/download/naruto-temporada-2-espanol-latino/Naruto-073.mp4"
+    },
+    {
+      "episode_number": 74,
+      "title": "Naruto Episodio 74",
+      "video_url": "https://archive.org/download/naruto-temporada-2-espanol-latino/Naruto-074.mp4"
+    },
+    {
+      "episode_number": 75,
+      "title": "Naruto Episodio 75",
+      "video_url": "https://archive.org/download/naruto-temporada-2-espanol-latino/Naruto-075.mp4"
+    },
+    {
+      "episode_number": 76,
+      "title": "Naruto Episodio 76",
+      "video_url": "https://archive.org/download/naruto-temporada-2-espanol-latino/Naruto-076.mp4"
+    },
+    {
+      "episode_number": 77,
+      "title": "Naruto Episodio 77",
+      "video_url": "https://archive.org/download/naruto-temporada-2-espanol-latino/Naruto-077.mp4"
+    },
+    {
+      "episode_number": 78,
+      "title": "Naruto Episodio 78",
+      "video_url": "https://archive.org/download/naruto-temporada-2-espanol-latino/Naruto-078.mp4"
+    },
+    {
+      "episode_number": 79,
+      "title": "Naruto Episodio 79",
+      "video_url": "https://archive.org/download/naruto-temporada-2-espanol-latino/Naruto-079.mp4"
+    },
+    {
+      "episode_number": 80,
+      "title": "Naruto Episodio 80",
+      "video_url": "https://archive.org/download/naruto-temporada-2-espanol-latino/Naruto-080.mp4"
+    },
+    {
+      "episode_number": 81,
+      "title": "Naruto Episodio 81",
+      "video_url": "https://archive.org/download/naruto-temporada-2-espanol-latino/Naruto-081.mp4"
+    },
+    {
+      "episode_number": 82,
+      "title": "Naruto Episodio 82",
+      "video_url": "https://archive.org/download/naruto-temporada-2-espanol-latino/Naruto-082.mp4"
+    },
+    {
+      "episode_number": 83,
+      "title": "Naruto Episodio 83",
+      "video_url": "https://archive.org/download/naruto-temporada-2-espanol-latino/Naruto-083.mp4"
+    },
+    {
+      "episode_number": 84,
+      "title": "Naruto Episodio 84",
+      "video_url": "https://archive.org/download/naruto-temporada-2-espanol-latino/Naruto-084.mp4"
+    },
+    {
+      "episode_number": 85,
+      "title": "Naruto Episodio 85",
+      "video_url": "https://archive.org/download/naruto-temporada-2-espanol-latino/Naruto-085.mp4"
+    },
+    {
+      "episode_number": 86,
+      "title": "Naruto Episodio 86",
+      "video_url": "https://archive.org/download/naruto-temporada-2-espanol-latino/Naruto-086.mp4"
+    },
+    {
+      "episode_number": 87,
+      "title": "Naruto Episodio 87",
+      "video_url": "https://archive.org/download/naruto-temporada-2-espanol-latino/Naruto-087.mp4"
+    },
+    {
+      "episode_number": 88,
+      "title": "Naruto Episodio 88",
+      "video_url": "https://archive.org/download/naruto-temporada-2-espanol-latino/Naruto-088.mp4"
+    },
+    {
+      "episode_number": 89,
+      "title": "Naruto Episodio 89",
+      "video_url": "https://archive.org/download/naruto-temporada-2-espanol-latino/Naruto-089.mp4"
+    },
+    {
+      "episode_number": 90,
+      "title": "Naruto Episodio 90",
+      "video_url": "https://archive.org/download/naruto-temporada-2-espanol-latino/Naruto-090.mp4"
+    },
+    {
+      "episode_number": 91,
+      "title": "Naruto Episodio 91",
+      "video_url": "https://archive.org/download/naruto-temporada-2-espanol-latino/Naruto-091.mp4"
+    },
+    {
+      "episode_number": 92,
+      "title": "Naruto Episodio 92",
+      "video_url": "https://archive.org/download/naruto-temporada-2-espanol-latino/Naruto-092.mp4"
+    },
+    {
+      "episode_number": 93,
+      "title": "Naruto Episodio 93",
+      "video_url": "https://archive.org/download/naruto-temporada-2-espanol-latino/Naruto-093.mp4"
+    },
+    {
+      "episode_number": 94,
+      "title": "Naruto Episodio 94",
+      "video_url": "https://archive.org/download/naruto-temporada-2-espanol-latino/Naruto-094.mp4"
+    },
+    {
+      "episode_number": 95,
+      "title": "Naruto Episodio 95",
+      "video_url": "https://archive.org/download/naruto-temporada-2-espanol-latino/Naruto-095.mp4"
+    },
+    {
+      "episode_number": 96,
+      "title": "Naruto Episodio 96",
+      "video_url": "https://archive.org/download/naruto-temporada-2-espanol-latino/Naruto-096.mp4"
+    },
+    {
+      "episode_number": 97,
+      "title": "Naruto Episodio 97",
+      "video_url": "https://archive.org/download/naruto-temporada-2-espanol-latino/Naruto-097.mp4"
+    },
+    {
+      "episode_number": 98,
+      "title": "Naruto Episodio 98",
+      "video_url": "https://archive.org/download/naruto-temporada-2-espanol-latino/Naruto-098.mp4"
+    },
+    {
+      "episode_number": 99,
+      "title": "Naruto Episodio 99",
+      "video_url": "https://archive.org/download/naruto-temporada-2-espanol-latino/Naruto-099.mp4"
+    },
+    {
+      "episode_number": 100,
+      "title": "Naruto Episodio 100",
+      "video_url": "https://archive.org/download/naruto-temporada-2-espanol-latino/Naruto-100.mp4"
+    },
+    {
+      "episode_number": 101,
+      "title": "Naruto Episodio 101",
+      "video_url": "https://archive.org/download/naruto-temporada-2-espanol-latino/Naruto-101.mp4"
+    },
+    {
+      "episode_number": 102,
+      "title": "Naruto Episodio 102",
+      "video_url": "https://archive.org/download/naruto-temporada-2-espanol-latino/Naruto-102.mp4"
+    },
+    {
+      "episode_number": 103,
+      "title": "Naruto Episodio 103",
+      "video_url": "https://archive.org/download/naruto-temporada-2-espanol-latino/Naruto-103.mp4"
+    },
+    {
+      "episode_number": 104,
+      "title": "Naruto Episodio 104",
+      "video_url": "https://archive.org/download/naruto-temporada-2-espanol-latino/Naruto-104.mp4"
+    }
+  ]
+},
 
 
 {
