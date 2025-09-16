@@ -8,14 +8,16 @@
   "video_url": "https://archive.org/download/yo-el-vaquilla_202509/Yo%2C%20El%20Vaquilla.mp4"
 },
 
-    {
-      "title": "Sonic X",
-      "description": "Sonic y sus amigos llegan a la Tierra tras un accidente con las Chaos Emeralds, donde lucharán contra Eggman y vivirán aventuras con humanos.",
-      "coverImage": "https://m.media-amazon.com/images/I/81TmthpLhTL._SY445_.jpg",
-      "genre": ["Animación", "Acción", "Aventura"],
-      "episodes": [
-        {
-       {"episode_number": 1, "title": "Sonic X 01", "video_url": "https://archive.org/download/SonicXLatam/Sonic%20X%2001.mp4"},
+  {
+  "title": "Sonic X",
+  "description": "Sonic el erizo y sus amigos son transportados accidentalmente al mundo humano, donde deben enfrentarse al Dr. Eggman mientras buscan las Esmeraldas del Caos.",
+  "coverImage": "https://upload.wikimedia.org/wikipedia/en/3/3d/SonicXlogo.png",
+  "genre": ["Animación", "Acción", "Aventura", "Shonen"],
+  "episodeWallpaper": "https://upload.wikimedia.org/wikipedia/en/3/3d/SonicXlogo.png",
+  "episodes": [
+
+    
+  {"episode_number": 1, "title": "Sonic X 01", "video_url": "https://archive.org/download/SonicXLatam/Sonic%20X%2001.mp4"},
     {"episode_number": 2, "title": "Sonic X 02", "video_url": "https://archive.org/download/SonicXLatam/Sonic%20X%2002.mp4"},
     {"episode_number": 3, "title": "Sonic X 03", "video_url": "https://archive.org/download/SonicXLatam/Sonic%20X%2003.mp4"},
     {"episode_number": 4.1, "title": "Sonic X 04 1-2", "video_url": "https://ia800502.us.archive.org/22/items/SonicXLatam/Sonic%20X%2004%201-2.mp4"},
@@ -95,11 +97,10 @@
     {"episode_number": 76, "title": "Episodio 68", "video_url": "https://archive.org/download/SonicXLatam/SonicX68.mp4"},
     {"episode_number": 77, "title": "Episodio 69", "video_url": "https://archive.org/download/SonicXLatam/SonicX69.mp4"},
     {"episode_number": 78, "title": "Episodio 70", "video_url": "https://archive.org/download/SonicXLatam/SonicX70.mp4"}
-
     
-        }
-      ]
-    },
+  ]
+},
+
 {
   "title": "Dragon Ball",
   "description": "Goku, Bulma y sus amigos buscan las Esferas del Dragón mientras enfrentan enemigos y viven aventuras.",
