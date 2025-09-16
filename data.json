@@ -1,5 +1,118 @@
 [
 
+
+{
+  "title": "Bleach - Temporada 1",
+  "description": "La primera temporada de *Bleach* sigue al joven Ichigo Kurosaki, quien obtiene los poderes de un Shinigami tras un encuentro con Rukia. Ahora debe proteger a los vivos de hollows, guiar las almas perdidas y equilibrar su vida cotidiana con su nueva responsabilidad sobrenatural.",
+  "coverImage": "https://es.web.img2.acsta.net/pictures/16/02/03/17/47/271248.jpg",
+  "genre": ["Anime", "Acción", "Aventura", "Sobrenatural", "Shounen"],
+  "episodeWallpaper": "https://es.web.img2.acsta.net/pictures/16/02/03/17/47/271248.jpg",
+  "episodes": [
+    {
+      "episode_number": 1,
+      "title": "Bleach Episodio 1",
+      "video_url": "https://archive.org/download/bleach-temporada-1/Bleach%20001.mp4"
+    },
+    {
+      "episode_number": 2,
+      "title": "Bleach Episodio 2",
+      "video_url": "https://archive.org/download/bleach-temporada-1/Bleach%20002.mp4"
+    },
+    {
+      "episode_number": 3,
+      "title": "Bleach Episodio 3",
+      "video_url": "https://archive.org/download/bleach-temporada-1/Bleach%20003.mp4"
+    },
+    {
+      "episode_number": 4,
+      "title": "Bleach Episodio 4",
+      "video_url": "https://archive.org/download/bleach-temporada-1/Bleach%20004.mp4"
+    },
+    {
+      "episode_number": 5,
+      "title": "Bleach Episodio 5",
+      "video_url": "https://archive.org/download/bleach-temporada-1/Bleach%20005.mp4"
+    },
+    {
+      "episode_number": 6,
+      "title": "Bleach Episodio 6",
+      "video_url": "https://archive.org/download/bleach-temporada-1/Bleach%20006.mp4"
+    },
+    {
+      "episode_number": 7,
+      "title": "Bleach Episodio 7",
+      "video_url": "https://archive.org/download/bleach-temporada-1/Bleach%20007.mp4"
+    },
+    {
+      "episode_number": 8,
+      "title": "Bleach Episodio 8",
+      "video_url": "https://archive.org/download/bleach-temporada-1/Bleach%20008.mp4"
+    },
+    {
+      "episode_number": 9,
+      "title": "Bleach Episodio 9",
+      "video_url": "https://archive.org/download/bleach-temporada-1/Bleach%20009.mp4"
+    },
+    {
+      "episode_number": 10,
+      "title": "Bleach Episodio 10",
+      "video_url": "https://archive.org/download/bleach-temporada-1/Bleach%20010.mp4"
+    },
+    {
+      "episode_number": 11,
+      "title": "Bleach Episodio 11",
+      "video_url": "https://archive.org/download/bleach-temporada-1/Bleach%20011.mp4"
+    },
+    {
+      "episode_number": 12,
+      "title": "Bleach Episodio 12",
+      "video_url": "https://archive.org/download/bleach-temporada-1/Bleach%20012.mp4"
+    },
+    {
+      "episode_number": 13,
+      "title": "Bleach Episodio 13",
+      "video_url": "https://archive.org/download/bleach-temporada-1/Bleach%20013.mp4"
+    },
+    {
+      "episode_number": 14,
+      "title": "Bleach Episodio 14",
+      "video_url": "https://archive.org/download/bleach-temporada-1/Bleach%20014.mp4"
+    },
+    {
+      "episode_number": 15,
+      "title": "Bleach Episodio 15",
+      "video_url": "https://archive.org/download/bleach-temporada-1/Bleach%20015.mp4"
+    },
+    {
+      "episode_number": 16,
+      "title": "Bleach Episodio 16",
+      "video_url": "https://archive.org/download/bleach-temporada-1/Bleach%20016.mp4"
+    },
+    {
+      "episode_number": 17,
+      "title": "Bleach Episodio 17",
+      "video_url": "https://archive.org/download/bleach-temporada-1/Bleach%20017.mp4"
+    },
+    {
+      "episode_number": 18,
+      "title": "Bleach Episodio 18",
+      "video_url": "https://archive.org/download/bleach-temporada-1/Bleach%20018.mp4"
+    },
+    {
+      "episode_number": 19,
+      "title": "Bleach Episodio 19",
+      "video_url": "https://archive.org/download/bleach-temporada-1/Bleach%20019.mp4"
+    },
+    {
+      "episode_number": 20,
+      "title": "Bleach Episodio 20",
+      "video_url": "https://archive.org/download/bleach-temporada-1/Bleach%20020.mp4"
+    }
+  ]
+},
+
+  
+  
   {
   "title": "Las Aventuras de Jackie Chan",
   "description": "Serie animada llena de acción, humor y artes marciales, donde Jackie Chan y sus amigos enfrentan villanos misteriosos y aventuras sobrenaturales.",
@@ -255,316 +368,8 @@
   ]
 },
 
-  
-{
-  "title": "Dragon Ball - Temporada 1",
-  "description": "La historia clásica de Goku desde el principio: sus aventuras, amistades, combates y búsqueda de las Dragon Balls. Una saga llena de humor, acción y momentos inolvidables.",
-  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR26gFM2wNtGq2YdVb4ZIAMpDnXw6fE9dHcomPjr_jghA&s=10",
-  "genre": ["Anime", "Acción", "Aventura", "Comedia"],
-  "episodeWallpaper": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR26gFM2wNtGq2YdVb4ZIAMpDnXw6fE9dHcomPjr_jghA&s=10",
-  "episodes": [
-    {
-      "episode_number": 1,
-      "title": "Dragon Ball Episodio 1",
-      "video_url": "https://archive.org/download/db-07/DB%2001.mp4"
-    },
-    {
-      "episode_number": 2,
-      "title": "Dragon Ball Episodio 2",
-      "video_url": "https://archive.org/download/db-07/DB%2002.mp4"
-    },
-    {
-      "episode_number": 3,
-      "title": "Dragon Ball Episodio 3",
-      "video_url": "https://archive.org/download/db-07/DB%2003.mp4"
-    },
-    {
-      "episode_number": 4,
-      "title": "Dragon Ball Episodio 4",
-      "video_url": "https://archive.org/download/db-07/DB%2004.mp4"
-    },
-    {
-      "episode_number": 5,
-      "title": "Dragon Ball Episodio 5",
-      "video_url": "https://archive.org/download/db-07/DB%2005.mp4"
-    },
-    {
-      "episode_number": 6,
-      "title": "Dragon Ball Episodio 6",
-      "video_url": "https://archive.org/download/db-07/DB%2006.mp4"
-    },
-    {
-      "episode_number": 7,
-      "title": "Dragon Ball Episodio 7",
-      "video_url": "https://archive.org/download/db-07/DB%2007.mp4"
-    },
-    {
-      "episode_number": 8,
-      "title": "Dragon Ball Episodio 8",
-      "video_url": "https://archive.org/download/db-07/DB%2008.mp4"
-    },
-    {
-      "episode_number": 9,
-      "title": "Dragon Ball Episodio 9",
-      "video_url": "https://archive.org/download/db-07/DB%2009.mp4"
-    },
-    {
-      "episode_number": 10,
-      "title": "Dragon Ball Episodio 10",
-      "video_url": "https://archive.org/download/db-07/DB%2010.mp4"
-    },
-    {
-      "episode_number": 11,
-      "title": "Dragon Ball Episodio 11",
-      "video_url": "https://archive.org/download/db-07/DB%2011.mp4"
-    },
-    {
-      "episode_number": 12,
-      "title": "Dragon Ball Episodio 12",
-      "video_url": "https://archive.org/download/db-07/DB%2012.mp4"
-    },
-    {
-      "episode_number": 13,
-      "title": "Dragon Ball Episodio 13",
-      "video_url": "https://archive.org/download/db-07/DB%2013.mp4"
-    },
-    {
-      "episode_number": 14,
-      "title": "Dragon Ball Episodio 14",
-      "video_url": "https://archive.org/download/db-07/DB%2014.mp4"
-    },
-    {
-      "episode_number": 15,
-      "title": "Dragon Ball Episodio 15",
-      "video_url": "https://archive.org/download/db-07/DB%2015.mp4"
-    },
-    {
-      "episode_number": 16,
-      "title": "Dragon Ball Episodio 16",
-      "video_url": "https://archive.org/download/db-07/DB%2016.mp4"
-    },
-    {
-      "episode_number": 17,
-      "title": "Dragon Ball Episodio 17",
-      "video_url": "https://archive.org/download/db-07/DB%2017.mp4"
-    },
-    {
-      "episode_number": 18,
-      "title": "Dragon Ball Episodio 18",
-      "video_url": "https://archive.org/download/db-07/DB%2018.mp4"
-    },
-    {
-      "episode_number": 19,
-      "title": "Dragon Ball Episodio 19",
-      "video_url": "https://archive.org/download/db-07/DB%2019.mp4"
-    },
-    {
-      "episode_number": 20,
-      "title": "Dragon Ball Episodio 20",
-      "video_url": "https://archive.org/download/db-07/DB%2020.mp4"
-    },
-    {
-      "episode_number": 21,
-      "title": "Dragon Ball Episodio 21",
-      "video_url": "https://archive.org/download/db-07/DB%2021.mp4"
-    },
-    {
-      "episode_number": 22,
-      "title": "Dragon Ball Episodio 22",
-      "video_url": "https://archive.org/download/db-07/DB%2022.mp4"
-    },
-    {
-      "episode_number": 23,
-      "title": "Dragon Ball Episodio 23",
-      "video_url": "https://archive.org/download/db-07/DB%2023.mp4"
-    },
-    {
-      "episode_number": 24,
-      "title": "Dragon Ball Episodio 24",
-      "video_url": "https://archive.org/download/db-07/DB%2024.mp4"
-    },
-    {
-      "episode_number": 25,
-      "title": "Dragon Ball Episodio 25",
-      "video_url": "https://archive.org/download/db-07/DB%2025.mp4"
-    },
-    {
-      "episode_number": 26,
-      "title": "Dragon Ball Episodio 26",
-      "video_url": "https://archive.org/download/db-07/DB%2026.mp4"
-    },
-    {
-      "episode_number": 27,
-      "title": "Dragon Ball Episodio 27",
-      "video_url": "https://archive.org/download/db-07/DB%2027.mp4"
-    },
-    {
-      "episode_number": 28,
-      "title": "Dragon Ball Episodio 28",
-      "video_url": "https://archive.org/download/db-07/DB%2028.mp4"
-    },
-    {
-      "episode_number": 29,
-      "title": "Dragon Ball Episodio 29",
-      "video_url": "https://archive.org/download/db-07/DB%2029.mp4"
-    },
-    {
-      "episode_number": 30,
-      "title": "Dragon Ball Episodio 30",
-      "video_url": "https://archive.org/download/db-07/DB%2030.mp4"
-    },
-    {
-      "episode_number": 31,
-      "title": "Dragon Ball Episodio 31",
-      "video_url": "https://archive.org/download/db-07/DB%2031.mp4"
-    },
-    {
-      "episode_number": 32,
-      "title": "Dragon Ball Episodio 32",
-      "video_url": "https://archive.org/download/db-07/DB%2032.mp4"
-    },
-    {
-      "episode_number": 33,
-      "title": "Dragon Ball Episodio 33",
-      "video_url": "https://archive.org/download/db-07/DB%2033.mp4"
-    },
-    {
-      "episode_number": 34,
-      "title": "Dragon Ball Episodio 34",
-      "video_url": "https://archive.org/download/db-07/DB%2034.mp4"
-    },
-    {
-      "episode_number": 35,
-      "title": "Dragon Ball Episodio 35",
-      "video_url": "https://archive.org/download/db-07/DB%2035.mp4"
-    },
-    {
-      "episode_number": 36,
-      "title": "Dragon Ball Episodio 36",
-      "video_url": "https://archive.org/download/db-07/DB%2036.mp4"
-    },
-    {
-      "episode_number": 37,
-      "title": "Dragon Ball Episodio 37",
-      "video_url": "https://archive.org/download/db-07/DB%2037.mp4"
-    },
-    {
-      "episode_number": 38,
-      "title": "Dragon Ball Episodio 38",
-      "video_url": "https://archive.org/download/db-07/DB%2038.mp4"
-    },
-    {
-      "episode_number": 39,
-      "title": "Dragon Ball Episodio 39",
-      "video_url": "https://archive.org/download/db-07/DB%2039.mp4"
-    },
-    {
-      "episode_number": 40,
-      "title": "Dragon Ball Episodio 40",
-      "video_url": "https://archive.org/download/db-07/DB%2040.mp4"
-    },
-    {
-      "episode_number": 41,
-      "title": "Dragon Ball Episodio 41",
-      "video_url": "https://archive.org/download/db-07/DB%2041.mp4"
-    },
-    {
-      "episode_number": 42,
-      "title": "Dragon Ball Episodio 42",
-      "video_url": "https://archive.org/download/db-07/DB%2042.mp4"
-    },
-    {
-      "episode_number": 43,
-      "title": "Dragon Ball Episodio 43",
-      "video_url": "https://archive.org/download/db-07/DB%2043.mp4"
-    },
-    {
-      "episode_number": 44,
-      "title": "Dragon Ball Episodio 44",
-      "video_url": "https://archive.org/download/db-07/DB%2044.mp4"
-    },
-    {
-      "episode_number": 45,
-      "title": "Dragon Ball Episodio 45",
-      "video_url": "https://archive.org/download/db-07/DB%2045.mp4"
-    },
-    {
-      "episode_number": 46,
-      "title": "Dragon Ball Episodio 46",
-      "video_url": "https://archive.org/download/db-07/DB%2046.mp4"
-    },
-    {
-      "episode_number": 47,
-      "title": "Dragon Ball Episodio 47",
-      "video_url": "https://archive.org/download/db-07/DB%2047.mp4"
-    },
-    {
-      "episode_number": 48,
-      "title": "Dragon Ball Episodio 48",
-      "video_url": "https://archive.org/download/db-07/DB%2048.mp4"
-    },
-    {
-      "episode_number": 49,
-      "title": "Dragon Ball Episodio 49",
-      "video_url": "https://archive.org/download/db-07/DB%2049.mp4"
-    },
-    {
-      "episode_number": 50,
-      "title": "Dragon Ball Episodio 50",
-      "video_url": "https://archive.org/download/db-07/DB%2050.mp4"
-    },
-    {
-      "episode_number": 51,
-      "title": "Dragon Ball Episodio 51",
-      "video_url": "https://archive.org/download/db-07/DB%2051.mp4"
-    },
-    {
-      "episode_number": 52,
-      "title": "Dragon Ball Episodio 52",
-      "video_url": "https://archive.org/download/db-07/DB%2052.mp4"
-    },
-    {
-      "episode_number": 53,
-      "title": "Dragon Ball Episodio 53",
-      "video_url": "https://archive.org/download/db-07/DB%2053.mp4"
-    },
-    {
-      "episode_number": 54,
-      "title": "Dragon Ball Episodio 54",
-      "video_url": "https://archive.org/download/db-07/DB%2054.mp4"
-    },
-    {
-      "episode_number": 55,
-      "title": "Dragon Ball Episodio 55",
-      "video_url": "https://archive.org/download/db-07/DB%2055.mp4"
-    },
-    {
-      "episode_number": 56,
-      "title": "Dragon Ball Episodio 56",
-      "video_url": "https://archive.org/download/db-07/DB%2056.mp4"
-    },
-    {
-      "episode_number": 57,
-      "title": "Dragon Ball Episodio 57",
-      "video_url": "https://archive.org/download/db-07/DB%2057.mp4"
-    },
-    {
-      "episode_number": 58,
-      "title": "Dragon Ball Episodio 58",
-      "video_url": "https://archive.org/download/db-07/DB%2058.mp4"
-    },
-    {
-      "episode_number": 59,
-      "title": "Dragon Ball Episodio 59",
-      "video_url": "https://archive.org/download/db-07/DB%2059.mp4"
-    },
-    {
-      "episode_number": 60,
-      "title": "Dragon Ball Episodio 60",
-      "video_url": "https://archive.org/download/db-07/DB%2060.mp4"
-    }
-  ]
-},
+ 
+
 
 
 
