@@ -1,14 +1,12 @@
 [
 
-  
-{
-  "title": "Dragon Ball Z ",
-  "description": "La historia de Goku y sus amigos defendiendo la Tierra y el universo de poderosos enemigos.",
+  {
+  "title": "Dragon Ball Z - Temporada 3",
+  "description": "Saga de los Androides y Cell, donde Goku, Gohan y los Guerreros Z enfrentan a nuevos y poderosos enemigos.",
   "coverImage": "https://upload.wikimedia.org/wikipedia/en/7/74/Dragon_Ball_Z_Logo.png",
   "genre": ["Animación", "Acción", "Aventura", "Fantasía"],
-  "episodeWallpaper": "https://www.ecartelera.com/carteles-series/300/380/001_m.jpg",
   "episodes": [
-    {
+     {
       "episode_number": 1,
       "title": "Aparece un mini Goku, su nombre es Gohan",
       "video_url": "https://archive.org/download/dragon-ball-zvideoplaytv/%5B001%5D%20Aparece%20un%20mini%20Goku%2C%20su%20nombre%20es%20Gohan.mp4"
@@ -375,8 +373,11 @@
     {"episode_number": 159, "title": "Cell busca perfeccionar su cuerpo", "video_url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20141-199/%5B159%5D%20Cell%20busca%20perfeccionar%20su%20cuerpo.%20-%20Dragon%20Ball%20Sullc.mp4"},
     {"episode_number": 160, "title": "Cell, el dios de la destrucción", "video_url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%20141-199/%5B160%5D%20Cell%2C%20el%20dios%20de%20la%20destrucci%C3%B3n.%20-%20Dragon%20Ball%20Sullca.mp4"}
 
+
+
   ]
 },
+
 
   
 
