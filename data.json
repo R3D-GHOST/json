@@ -1,6 +1,277 @@
 [
 
   
+{
+  "title": "Scooby-Doo! Misterios S.A.",
+  "description": "Scooby-Doo y la pandilla de Misterio a la Orden resuelven casos paranormales y desentrañan una gran conspiración en Crystal Cove, el lugar más embrujado del mundo.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbj5DXRZfm1J5YejfTmrsTTPEhEMJUNRztNAK--AGX2w&s=10",
+  "genre": ["Animación", "Misterio", "Aventura", "Comedia"],
+  "episodeWallpaper": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbj5DXRZfm1J5YejfTmrsTTPEhEMJUNRztNAK--AGX2w&s=10",
+  "episodes": [
+    {
+      "episode_number": 1,
+      "title": "Scooby-Doo Misterios S.A. - Episodio 01",
+      "video_url": "https://archive.org/download/scooby-doo-misterios-s.a.-latino/Sdsa%20-%2001.mp4"
+    },
+    {
+      "episode_number": 2,
+      "title": "Scooby-Doo Misterios S.A. - Episodio 02",
+      "video_url": "https://archive.org/download/scooby-doo-misterios-s.a.-latino/Sdsa%20-%2002.mp4"
+    },
+    {
+      "episode_number": 3,
+      "title": "Scooby-Doo Misterios S.A. - Episodio 03",
+      "video_url": "https://archive.org/download/scooby-doo-misterios-s.a.-latino/Sdsa%20-%2003.mp4"
+    },
+    {
+      "episode_number": 4,
+      "title": "Scooby-Doo Misterios S.A. - Episodio 04",
+      "video_url": "https://archive.org/download/scooby-doo-misterios-s.a.-latino/Sdsa%20-%2004.mp4"
+    },
+    {
+      "episode_number": 5,
+      "title": "Scooby-Doo Misterios S.A. - Episodio 05",
+      "video_url": "https://archive.org/download/scooby-doo-misterios-s.a.-latino/Sdsa%20-%2005.mp4"
+    },
+    {
+      "episode_number": 6,
+      "title": "Scooby-Doo Misterios S.A. - Episodio 06",
+      "video_url": "https://archive.org/download/scooby-doo-misterios-s.a.-latino/Sdsa%20-%2006.mp4"
+    },
+    {
+      "episode_number": 7,
+      "title": "Scooby-Doo Misterios S.A. - Episodio 07",
+      "video_url": "https://archive.org/download/scooby-doo-misterios-s.a.-latino/Sdsa%20-%2007.mp4"
+    },
+    {
+      "episode_number": 8,
+      "title": "Scooby-Doo Misterios S.A. - Episodio 08",
+      "video_url": "https://archive.org/download/scooby-doo-misterios-s.a.-latino/Sdsa%20-%2008.mp4"
+    },
+    {
+      "episode_number": 9,
+      "title": "Scooby-Doo Misterios S.A. - Episodio 09",
+      "video_url": "https://archive.org/download/scooby-doo-misterios-s.a.-latino/Sdsa%20-%2009.mp4"
+    },
+    {
+      "episode_number": 10,
+      "title": "Scooby-Doo Misterios S.A. - Episodio 10",
+      "video_url": "https://archive.org/download/scooby-doo-misterios-s.a.-latino/Sdsa%20-%2010.mp4"
+    },
+    {
+      "episode_number": 11,
+      "title": "Scooby-Doo Misterios S.A. - Episodio 11",
+      "video_url": "https://archive.org/download/scooby-doo-misterios-s.a.-latino/Sdsa%20-%2011.mp4"
+    },
+    {
+      "episode_number": 12,
+      "title": "Scooby-Doo Misterios S.A. - Episodio 12",
+      "video_url": "https://archive.org/download/scooby-doo-misterios-s.a.-latino/Sdsa%20-%2012.mp4"
+    },
+    {
+      "episode_number": 13,
+      "title": "Scooby-Doo Misterios S.A. - Episodio 13",
+      "video_url": "https://archive.org/download/scooby-doo-misterios-s.a.-latino/Sdsa%20-%2013.mp4"
+    },
+    {
+      "episode_number": 14,
+      "title": "Scooby-Doo Misterios S.A. - Episodio 14",
+      "video_url": "https://archive.org/download/scooby-doo-misterios-s.a.-latino/Sdsa%20-%2014.mp4"
+    },
+    {
+      "episode_number": 15,
+      "title": "Scooby-Doo Misterios S.A. - Episodio 15",
+      "video_url": "https://archive.org/download/scooby-doo-misterios-s.a.-latino/Sdsa%20-%2015.mp4"
+    },
+    {
+      "episode_number": 16,
+      "title": "Scooby-Doo Misterios S.A. - Episodio 16",
+      "video_url": "https://archive.org/download/scooby-doo-misterios-s.a.-latino/Sdsa%20-%2016.mp4"
+    },
+    {
+      "episode_number": 17,
+      "title": "Scooby-Doo Misterios S.A. - Episodio 17",
+      "video_url": "https://archive.org/download/scooby-doo-misterios-s.a.-latino/Sdsa%20-%2017.mp4"
+    },
+    {
+      "episode_number": 18,
+      "title": "Scooby-Doo Misterios S.A. - Episodio 18",
+      "video_url": "https://archive.org/download/scooby-doo-misterios-s.a.-latino/Sdsa%20-%2018.mp4"
+    },
+    {
+      "episode_number": 19,
+      "title": "Scooby-Doo Misterios S.A. - Episodio 19",
+      "video_url": "https://archive.org/download/scooby-doo-misterios-s.a.-latino/Sdsa%20-%2019.mp4"
+    },
+    {
+      "episode_number": 20,
+      "title": "Scooby-Doo Misterios S.A. - Episodio 20",
+      "video_url": "https://archive.org/download/scooby-doo-misterios-s.a.-latino/Sdsa%20-%2020.mp4"
+    },
+    {
+      "episode_number": 21,
+      "title": "Scooby-Doo Misterios S.A. - Episodio 21",
+      "video_url": "https://archive.org/download/scooby-doo-misterios-s.a.-latino/Sdsa%20-%2021.mp4"
+    },
+    {
+      "episode_number": 22,
+      "title": "Scooby-Doo Misterios S.A. - Episodio 22",
+      "video_url": "https://archive.org/download/scooby-doo-misterios-s.a.-latino/Sdsa%20-%2022.mp4"
+    },
+    {
+      "episode_number": 23,
+      "title": "Scooby-Doo Misterios S.A. - Episodio 23",
+      "video_url": "https://archive.org/download/scooby-doo-misterios-s.a.-latino/Sdsa%20-%2023.mp4"
+    },
+    {
+      "episode_number": 24,
+      "title": "Scooby-Doo Misterios S.A. - Episodio 24",
+      "video_url": "https://archive.org/download/scooby-doo-misterios-s.a.-latino/Sdsa%20-%2024.mp4"
+    },
+    {
+      "episode_number": 25,
+      "title": "Scooby-Doo Misterios S.A. - Episodio 25",
+      "video_url": "https://archive.org/download/scooby-doo-misterios-s.a.-latino/Sdsa%20-%2025.mp4"
+    },
+    {
+      "episode_number": 26,
+      "title": "Scooby-Doo Misterios S.A. - Episodio 26",
+      "video_url": "https://archive.org/download/scooby-doo-misterios-s.a.-latino/Sdsa%20-%2026.mp4"
+    },
+    {
+      "episode_number": 27,
+      "title": "Scooby-Doo Misterios S.A. - Episodio 27",
+      "video_url": "https://archive.org/download/scooby-doo-misterios-s.a.-latino/Sdsa%2027.mp4"
+    },
+    {
+      "episode_number": 28,
+      "title": "Scooby-Doo Misterios S.A. - Episodio 28",
+      "video_url": "https://archive.org/download/scooby-doo-misterios-s.a.-latino/Sdsa%2028.mp4"
+    },
+    {
+      "episode_number": 29,
+      "title": "Scooby-Doo Misterios S.A. - Episodio 29",
+      "video_url": "https://archive.org/download/scooby-doo-misterios-s.a.-latino/Sdsa%2029.mp4"
+    },
+    {
+      "episode_number": 30,
+      "title": "Scooby-Doo Misterios S.A. - Episodio 30",
+      "video_url": "https://archive.org/download/scooby-doo-misterios-s.a.-latino/Sdsa%2030.mp4"
+    },
+    {
+      "episode_number": 31,
+      "title": "Scooby-Doo Misterios S.A. - Episodio 31",
+      "video_url": "https://archive.org/download/scooby-doo-misterios-s.a.-latino/Sdsa%2031.mp4"
+    },
+    {
+      "episode_number": 32,
+      "title": "Scooby-Doo Misterios S.A. - Episodio 32",
+      "video_url": "https://archive.org/download/scooby-doo-misterios-s.a.-latino/Sdsa%2032.mp4"
+    },
+    {
+      "episode_number": 33,
+      "title": "Scooby-Doo Misterios S.A. - Episodio 33",
+      "video_url": "https://archive.org/download/scooby-doo-misterios-s.a.-latino/Sdsa%2033.mp4"
+    },
+    {
+      "episode_number": 34,
+      "title": "Scooby-Doo Misterios S.A. - Episodio 34",
+      "video_url": "https://archive.org/download/scooby-doo-misterios-s.a.-latino/Sdsa%2034.mp4"
+    },
+    {
+      "episode_number": 35,
+      "title": "Scooby-Doo Misterios S.A. - Episodio 35",
+      "video_url": "https://archive.org/download/scooby-doo-misterios-s.a.-latino/Sdsa%2035.mp4"
+    },
+    {
+      "episode_number": 36,
+      "title": "Scooby-Doo Misterios S.A. - Episodio 36",
+      "video_url": "https://archive.org/download/scooby-doo-misterios-s.a.-latino/Sdsa%2036.mp4"
+    },
+    {
+      "episode_number": 37,
+      "title": "Scooby-Doo Misterios S.A. - Episodio 37",
+      "video_url": "https://archive.org/download/scooby-doo-misterios-s.a.-latino/Sdsa%2037.mp4"
+    },
+    {
+      "episode_number": 38,
+      "title": "Scooby-Doo Misterios S.A. - Episodio 38",
+      "video_url": "https://archive.org/download/scooby-doo-misterios-s.a.-latino/Sdsa%2038.mp4"
+    },
+    {
+      "episode_number": 39,
+      "title": "Scooby-Doo Misterios S.A. - Episodio 39",
+      "video_url": "https://archive.org/download/scooby-doo-misterios-s.a.-latino/Sdsa%2039.mp4"
+    },
+    {
+      "episode_number": 40,
+      "title": "Scooby-Doo Misterios S.A. - Episodio 40",
+      "video_url": "https://archive.org/download/scooby-doo-misterios-s.a.-latino/Sdsa%2040.mp4"
+    },
+    {
+      "episode_number": 41,
+      "title": "Scooby-Doo Misterios S.A. - Episodio 41",
+      "video_url": "https://archive.org/download/scooby-doo-misterios-s.a.-latino/Sdsa%2041.mp4"
+    },
+    {
+      "episode_number": 42,
+      "title": "Scooby-Doo Misterios S.A. - Episodio 42",
+      "video_url": "https://archive.org/download/scooby-doo-misterios-s.a.-latino/Sdsa%2042.mp4"
+    },
+    {
+      "episode_number": 43,
+      "title": "Scooby-Doo Misterios S.A. - Episodio 43",
+      "video_url": "https://archive.org/download/scooby-doo-misterios-s.a.-latino/Sdsa%2043.mp4"
+    },
+    {
+      "episode_number": 44,
+      "title": "Scooby-Doo Misterios S.A. - Episodio 44",
+      "video_url": "https://archive.org/download/scooby-doo-misterios-s.a.-latino/Sdsa%2044.mp4"
+    },
+    {
+      "episode_number": 45,
+      "title": "Scooby-Doo Misterios S.A. - Episodio 45",
+      "video_url": "https://archive.org/download/scooby-doo-misterios-s.a.-latino/Sdsa%2045.mp4"
+    },
+    {
+      "episode_number": 46,
+      "title": "Scooby-Doo Misterios S.A. - Episodio 46",
+      "video_url": "https://archive.org/download/scooby-doo-misterios-s.a.-latino/Sdsa%2046.mp4"
+    },
+    {
+      "episode_number": 47,
+      "title": "Scooby-Doo Misterios S.A. - Episodio 47",
+      "video_url": "https://archive.org/download/scooby-doo-misterios-s.a.-latino/Sdsa%2047.mp4"
+    },
+    {
+      "episode_number": 48,
+      "title": "Scooby-Doo Misterios S.A. - Episodio 48",
+      "video_url": "https://archive.org/download/scooby-doo-misterios-s.a.-latino/Sdsa%2048.mp4"
+    },
+    {
+      "episode_number": 49,
+      "title": "Scooby-Doo Misterios S.A. - Episodio 49",
+      "video_url": "https://archive.org/download/scooby-doo-misterios-s.a.-latino/Sdsa%2049.mp4"
+    },
+    {
+      "episode_number": 50,
+      "title": "Scooby-Doo Misterios S.A. - Episodio 50",
+      "video_url": "https://archive.org/download/scooby-doo-misterios-s.a.-latino/Sdsa%2050.mp4"
+    },
+    {
+      "episode_number": 51,
+      "title": "Scooby-Doo Misterios S.A. - Episodio 51",
+      "video_url": "https://archive.org/download/scooby-doo-misterios-s.a.-latino/Sdsa%2051.mp4"
+    },
+    {
+      "episode_number": 52,
+      "title": "Scooby-Doo Misterios S.A. - Episodio 52",
+      "video_url": "https://archive.org/download/scooby-doo-misterios-s.a.-latino/Sdsa%2052.mp4"
+    }
+  ]
+},
+
+  
 
 {
   "title": "El Espectacular Spiderman - Temporada 2",
