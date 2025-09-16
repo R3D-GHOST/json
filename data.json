@@ -2,7 +2,82 @@
 
 
 
+{
+  "title": "El Espectacular Spiderman - Temporada 1",
+  "description": "Serie animada centrada en las aventuras de Peter Parker, un estudiante de secundaria con poderes arácnidos que combate el crimen mientras equilibra su vida cotidiana, amistades y responsabilidades como Spider-Man.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS29sZfI_AARC4AHimyTPBpVQHvPF8u1RPv66bLiUEj0w&s=10",
+  "genre": ["Animación", "Acción", "Aventura", "Superhéroes"],
+  "episodeWallpaper": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS29sZfI_AARC4AHimyTPBpVQHvPF8u1RPv66bLiUEj0w&s=10",
+  "episodes": [
+    {
+      "episode_number": 1,
+      "title": "El Espectacular Spider-Man Temp 1-01",
+      "video_url": "https://archive.org/download/el-espectacular-spider-man/SSM2008T1/El%20espectacular%20Spider-Man%20Temp%201-01.mp4"
+    },
+    {
+      "episode_number": 2,
+      "title": "El Espectacular Spider-Man Temp 1-02",
+      "video_url": "https://archive.org/download/el-espectacular-spider-man/SSM2008T1/El%20espectacular%20Spider-Man%20Temp%201-02.mp4"
+    },
+    {
+      "episode_number": 3,
+      "title": "El Espectacular Spider-Man Temp 1-03",
+      "video_url": "https://archive.org/download/el-espectacular-spider-man/SSM2008T1/El%20espectacular%20Spider-Man%20Temp%201-03.mp4"
+    },
+    {
+      "episode_number": 4,
+      "title": "El Espectacular Spider-Man Temp 1-04",
+      "video_url": "https://archive.org/download/el-espectacular-spider-man/SSM2008T1/El%20espectacular%20Spider-Man%20Temp%201-04.mp4"
+    },
+    {
+      "episode_number": 5,
+      "title": "El Espectacular Spider-Man Temp 1-05",
+      "video_url": "https://archive.org/download/el-espectacular-spider-man/SSM2008T1/El%20espectacular%20Spider-Man%20Temp%201-05.mp4"
+    },
+    {
+      "episode_number": 6,
+      "title": "El Espectacular Spider-Man Temp 1-06",
+      "video_url": "https://archive.org/download/el-espectacular-spider-man/SSM2008T1/El%20espectacular%20Spider-Man%20Temp%201-06.mp4"
+    },
+    {
+      "episode_number": 7,
+      "title": "El Espectacular Spider-Man Temp 1-07",
+      "video_url": "https://archive.org/download/el-espectacular-spider-man/SSM2008T1/El%20espectacular%20Spider-Man%20Temp%201-07.mp4"
+    },
+    {
+      "episode_number": 8,
+      "title": "El Espectacular Spider-Man Temp 1-08",
+      "video_url": "https://archive.org/download/el-espectacular-spider-man/SSM2008T1/El%20espectacular%20Spider-Man%20Temp%201-08.mp4"
+    },
+    {
+      "episode_number": 9,
+      "title": "El Espectacular Spider-Man Temp 1-09",
+      "video_url": "https://archive.org/download/el-espectacular-spider-man/SSM2008T1/El%20espectacular%20Spider-Man%20Temp%201-09.mp4"
+    },
+    {
+      "episode_number": 10,
+      "title": "El Espectacular Spider-Man Temp 1-10",
+      "video_url": "https://archive.org/download/el-espectacular-spider-man/SSM2008T1/El%20espectacular%20Spider-Man%20Temp%201-10.mp4"
+    },
+    {
+      "episode_number": 11,
+      "title": "El Espectacular Spider-Man Temp 1-11",
+      "video_url": "https://archive.org/download/el-espectacular-spider-man/SSM2008T1/El%20espectacular%20Spider-Man%20Temp%201-11.mp4"
+    },
+    {
+      "episode_number": 12,
+      "title": "El Espectacular Spider-Man Temp 1-12",
+      "video_url": "https://archive.org/download/el-espectacular-spider-man/SSM2008T1/El%20espectacular%20Spider-Man%20Temp%201-12.mp4"
+    },
+    {
+      "episode_number": 13,
+      "title": "El Espectacular Spider-Man Temp 1-13",
+      "video_url": "https://archive.org/download/el-espectacular-spider-man/SSM2008T1/El%20espectacular%20Spider-Man%20Temp%201-13.mp4"
+    }
+  ]
+},
 
+  
 
 
 {
