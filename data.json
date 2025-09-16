@@ -1,5 +1,14 @@
 [
 
+  {
+  "title": "Yo, El Vaquilla",
+  "description": "Basada en la vida de Juan José Moreno Cuenca, 'El Vaquilla', un joven delincuente de Barcelona en los años 70 y 80. La película narra su vida desde la infancia hasta su vida delictiva, mostrando la crudeza de su entorno y sus experiencias en prisión.",
+  "coverImage": "https://m.media-amazon.com/images/I/51qhYMrQkSL._SY445_.jpg",
+  "genre": ["Película", "Drama", "Crimen", "Basado en hechos reales"],
+  "video_url": "https://ia601005.us.archive.org/29/items/yo-el-vaquilla_202509/Yo%2C%20El%20Vaquilla.mp4"
+}.
+
+  
 {
   "title": "Dragon Ball",
   "description": "Goku, Bulma y sus amigos buscan las Esferas del Dragón mientras enfrentan enemigos y viven aventuras.",
