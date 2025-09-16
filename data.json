@@ -1,13 +1,12 @@
 [
 
-
-{
-  "title": "Dragon Ball Z - Temporada 2",
-  "description": "La continuación de las aventuras de Goku y sus amigos, luchando en Namek contra poderosos enemigos como Freezer.",
-  "coverImage": "https://upload.wikimedia.org/wikipedia/en/7/74/Dragon_Ball_Z_Logo.png",
-  "genre": ["Animación", "Acción", "Aventura", "Fantasía"],
-  "episodeWallpaper": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2bNbbvPdDpp_S671gB1GXy_NpfR-eX5uT7QUWiMojTfF732MsOUGFqiH2_RNF_Gx1tt0&usqp=CAU",
-  "episodes": [
+    {
+"title": "Dragon Ball Z - Temporada 2",
+"description": "La continuación de las aventuras de Goku y sus amigos, luchando en Namek contra poderosos enemigos como Freezer.",
+"coverImage": "https://upload.wikimedia.org/wikipedia/en/7/74/Dragon_Ball_Z_Logo.png",
+"genre": ["Animación", "Acción", "Aventura", "Fantasía"],
+"episodeWallpaper": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2bNbbvPdDpp_S671gB1GXy_NpfR-eX5uT7QUWiMojTfF732MsOUGFqiH2_RNF_Gx1tt0&usqp=CAU",
+"episodes": [
     {
       "episode_number": 37,
       "title": "Un lugar misterioso llamado Yunzabit. ¡Busquemos la na",
@@ -130,10 +129,9 @@
 {"episode_number": 106, "title": "Namekusei explota. - Dragon Ball Sullca", "video_url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B106%5D%20Namekusei%20explota.%20-%20Dragon%20Ball%20Sullca.mp4"},
 {"episode_number": 107, "title": "Los Guerreros Z han revivido. - Dragon Ball Sullca", "video_url": "https://archive.org/download/dragon-ball-zvideoplaytv/Dragon%20ball%20Z%2037-107/%5B107%5D%20Los%20Guerreros%20Z%20han%20revivido.%20-%20Dragon%20Ball%20Sullca.mp4"}
 
-    },
-  
-},
 
+]
+},
   
 {
   "title": "Dragon Ball Z - Temporada 1",
