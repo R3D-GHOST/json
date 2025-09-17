@@ -1,5 +1,208 @@
 [
 
+
+
+{
+  "title": "Tom y Jerry",
+  "description": "Serie clásica del gato Tom y el ratón Jerry, quienes protagonizan situaciones cómicas llenas de persecuciones, ingenio y humor físico en episodios cortos.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHbM8VLjkE4Fknn6j7itkoEVEC4ZXTM7u7wbGSnElT0g&s=10",
+  "genre": ["Animación", "Comedia", "Cortos"],
+  "episodes": [
+    {
+      "episode_number": 1,
+      "title": "039. T0m sarampión",
+      "video_url": "https://archive.org/download/039.-t-0m-sarampion/039.T0m%20sarampi%C3%B3n.mp4"
+    },
+    {
+      "episode_number": 2,
+      "title": "040. El pequeño huérfano",
+      "video_url": "https://archive.org/download/039.-t-0m-sarampion/040.El%20peque%C3%B1o%20hu%C3%A9rfano.mp4"
+    },
+    {
+      "episode_number": 3,
+      "title": "041. Olvida tus problemas",
+      "video_url": "https://archive.org/download/039.-t-0m-sarampion/041.Olvida%20tus%20problemas.mp4"
+    },
+    {
+      "episode_number": 4,
+      "title": "042. Gato celestial",
+      "video_url": "https://archive.org/download/039.-t-0m-sarampion/042.Gato%20celestial.mp4"
+    },
+    {
+      "episode_number": 5,
+      "title": "043. Aventuras Submarinas",
+      "video_url": "https://archive.org/download/039.-t-0m-sarampion/043.Aventuras%20Submarinas.mp4"
+    },
+    {
+      "episode_number": 6,
+      "title": "044. Adoro a ese cachorro",
+      "video_url": "https://archive.org/download/039.-t-0m-sarampion/044.Adoro%20a%20ese%20cachorro.mp4"
+    },
+    {
+      "episode_number": 7,
+      "title": "045. El diario de J3rry",
+      "video_url": "https://archive.org/download/039.-t-0m-sarampion/045.El%20diario%20de%20J3rry.mp4"
+    },
+    {
+      "episode_number": 8,
+      "title": "046. El gran juego de Tenis",
+      "video_url": "https://archive.org/download/039.-t-0m-sarampion/046.El%20gran%20juego%20de%20Tenis.mp4"
+    },
+    {
+      "episode_number": 9,
+      "title": "047. El pequeño patito",
+      "video_url": "https://archive.org/download/039.-t-0m-sarampion/047.El%20peque%C3%B1o%20patito.mp4"
+    },
+    {
+      "episode_number": 10,
+      "title": "048. Gato sabatino",
+      "video_url": "https://archive.org/download/039.-t-0m-sarampion/048.Gato%20sabatino.mp4"
+    },
+    {
+      "episode_number": 11,
+      "title": "049. Texas T0m",
+      "video_url": "https://archive.org/download/039.-t-0m-sarampion/049.Texas%20T0m.mp4"
+    },
+    {
+      "episode_number": 12,
+      "title": "050. J3rry y el León",
+      "video_url": "https://archive.org/download/039.-t-0m-sarampion/050.J3rry%20y%20el%20Le%C3%B3n.mp4"
+    },
+    {
+      "episode_number": 13,
+      "title": "051. Día de seguridad",
+      "video_url": "https://archive.org/download/039.-t-0m-sarampion/051.D%C3%ADa%20de%20seguridad.mp4"
+    },
+    {
+      "episode_number": 14,
+      "title": "052. El Hollywood Bowl",
+      "video_url": "https://archive.org/download/039.-t-0m-sarampion/052.El%20Hollywood%20Bowl.mp4"
+    },
+    {
+      "episode_number": 15,
+      "title": "053. El gato engañado",
+      "video_url": "https://archive.org/download/039.-t-0m-sarampion/053.El%20gato%20engañado.mp4"
+    },
+    {
+      "episode_number": 16,
+      "title": "054. Billar gatuno",
+      "video_url": "https://archive.org/download/039.-t-0m-sarampion/054.Billar%20gatuno.mp4"
+    },
+    {
+      "episode_number": 17,
+      "title": "055. Gato Casanova",
+      "video_url": "https://archive.org/download/039.-t-0m-sarampion/055.Gato%20Casanova.mp4"
+    },
+    {
+      "episode_number": 18,
+      "title": "056. J3rry y el pececito",
+      "video_url": "https://archive.org/download/039.-t-0m-sarampion/056.J3rry%20y%20el%20pececito.mp4"
+    },
+    {
+      "episode_number": 19,
+      "title": "057. El primo de J3rry",
+      "video_url": "https://archive.org/download/039.-t-0m-sarampion/057.El%20primo%20de%20J3rry.mp4"
+    },
+    {
+      "episode_number": 20,
+      "title": "058. T0m dormilón",
+      "video_url": "https://archive.org/download/039.-t-0m-sarampion/058.T0m%20dormil%C3%B3n.mp4"
+    },
+    {
+      "episode_number": 21,
+      "title": "059. El ratón caníbal",
+      "video_url": "https://archive.org/download/039.-t-0m-sarampion/059.El%20rat%C3%B3n%20can%C3%ADbal.mp4"
+    },
+    {
+      "episode_number": 22,
+      "title": "060. Cachorro bañado",
+      "video_url": "https://archive.org/download/039.-t-0m-sarampion/060.Cachorro%20ba%C3%B1ado.mp4"
+    },
+    {
+      "episode_number": 23,
+      "title": "061. Gato desmemoriado",
+      "video_url": "https://archive.org/download/039.-t-0m-sarampion/061.Gato%20desmemoriado.mp4"
+    },
+    {
+      "episode_number": 24,
+      "title": "062. Siesta de gato",
+      "video_url": "https://archive.org/download/039.-t-0m-sarampion/062.Siesta%20de%20gato.mp4"
+    },
+    {
+      "episode_number": 25,
+      "title": "063. El gato volador",
+      "video_url": "https://archive.org/download/039.-t-0m-sarampion/063.El%20gato%20volador.mp4"
+    },
+    {
+      "episode_number": 26,
+      "title": "064. Patito doctor",
+      "video_url": "https://archive.org/download/039.-t-0m-sarampion/064.Patito%20doctor.mp4"
+    },
+    {
+      "episode_number": 27,
+      "title": "065. Los dos mosqueteros",
+      "video_url": "https://archive.org/download/039.-t-0m-sarampion/065.Los%20dos%20mosqueteros.mp4"
+    },
+    {
+      "episode_number": 28,
+      "title": "066. Gato enamorado",
+      "video_url": "https://archive.org/download/039.-t-0m-sarampion/066.Gato%20enamorado.mp4"
+    },
+    {
+      "episode_number": 29,
+      "title": "067. Problema triple",
+      "video_url": "https://archive.org/download/039.-t-0m-sarampion/067.Problema%20triple.mp4"
+    },
+    {
+      "episode_number": 30,
+      "title": "068. Pequeño fugitivo",
+      "video_url": "https://archive.org/download/039.-t-0m-sarampion/068.Peque%C3%B1o%20fugitivo.mp4"
+    },
+    {
+      "episode_number": 31,
+      "title": "069. Detesto estar agarrado",
+      "video_url": "https://archive.org/download/039.-t-0m-sarampion/069.Detesto%20estar%20agarrado.mp4"
+    },
+    {
+      "episode_number": 32,
+      "title": "070. Oprime el botón gatito",
+      "video_url": "https://archive.org/download/039.-t-0m-sarampion/070.Oprime%20el%20bot%C3%B3n%20gatito.mp4"
+    },
+    {
+      "episode_number": 33,
+      "title": "071. Gato en Crucero",
+      "video_url": "https://archive.org/download/039.-t-0m-sarampion/071.Gato%20en%20Crucero.mp4"
+    },
+    {
+      "episode_number": 34,
+      "title": "072. Casa de Perro",
+      "video_url": "https://archive.org/download/039.-t-0m-sarampion/072.Casa%20de%20Perro.mp4"
+    },
+    {
+      "episode_number": 35,
+      "title": "073. Ratón perdido",
+      "video_url": "https://archive.org/download/039.-t-0m-sarampion/073.Rat%C3%B3n%20perdido.mp4"
+    },
+    {
+      "episode_number": 36,
+      "title": "074. J3rry y Jumbo",
+      "video_url": "https://archive.org/download/039.-t-0m-sarampion/074.J3rry%20y%20Jumbo.mp4"
+    },
+    {
+      "episode_number": 37,
+      "title": "075. J0hann Ratón",
+      "video_url": "https://archive.org/download/039.-t-0m-sarampion/075.J0hann%20Rat%C3%B3n.mp4"
+    },
+    {
+      "episode_number": 38,
+      "title": "076. ¡Ese es mi cachorro!",
+      "video_url": "https://archive.org/download/039.-t-0m-sarampion/076.%C2%A1Ese%20es%20mi%20cachorro!.mp4"
+    }
+  ]
+},
+
+
+  
   {
   "title": "El Zorro, La Espada y La Rosa",
   "description": "Telenovela colombiana que narra las aventuras de El Zorro en su lucha por la justicia y el amor, combinando acción, romance e intriga en la época colonial.",
