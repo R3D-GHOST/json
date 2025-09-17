@@ -1,7 +1,131 @@
 [
 
+{
+  "title": "Inspector gadget",
+  "description": "Cuenta las aventuras del Inspector Gadget, un inspector torpe y despistado que es en realidad un cyborg con artilugios (gadgets) biónicos implantados en su cuerpo. Sus misiones consisten en detener los planes de su enemigo, el Dr. Claw, líder de la malvada organización MAD, para lo cual recibe inadvertidamente la ayuda de su sobrina y su perro. ",
+  "coverImage": "https://m.media-amazon.com/images/M/MV5BZjA4ZmI0MWEtMmFjNi00NDExLTk3ZDMtMTllMTRlYTk0OGRhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  "genre": ["Animación", "Comedia", "Cortos"],
+  "episodes": [
+      {
+    "episode_number": 1,
+    "title": "Ep. 50 [SATRip by CRiSPiN]",
+    "video_url": "https://archive.org/download/el-inspector-gadget/El%20Inspector%20Gadget%201x01%20Ep.%2050%20%5BSATRip%20by%20CRiSPiN%5D%5BTusSeries.com%5D.mp4"
+  },
+  {
+    "episode_number": 2,
+    "title": "Ep. 02 [SATRip by CRiSPiN]",
+    "video_url": "https://archive.org/download/el-inspector-gadget/El%20Inspector%20Gadget%201x03%20Ep.%2002%20%5BSATRip%20by%20CRiSPiN%5D%5BTusSeries.com%5D.mp4"
+  },
+  {
+    "episode_number": 3,
+    "title": "Ep. 03 [SATRip by CRiSPiN]",
+    "video_url": "https://archive.org/download/el-inspector-gadget/El%20Inspector%20Gadget%201x04%20Ep.%2003%20%5BSATRip%20by%20CRiSPiN%5D%5BTusSeries.com%5D.mp4"
+  },
+  {
+    "episode_number": 4,
+    "title": "Ep. 04 [SATRip by CRiSPiN]",
+    "video_url": "https://archive.org/download/el-inspector-gadget/El%20Inspector%20Gadget%201x05%20Ep.%2004%20%5BSATRip%20by%20CRiSPiN%5D%5BTusSeries.com%5D.mp4"
+  },
+  {
+    "episode_number": 5,
+    "title": "Ep. 05 [SATRip by CRiSPiN]",
+    "video_url": "https://archive.org/download/el-inspector-gadget/El%20Inspector%20Gadget%201x06%20Ep.%2005%20%5BSATRip%20by%20CRiSPiN%5D%5BTusSeries.com%5D.mp4"
+  },
+  {
+    "episode_number": 6,
+    "title": "Ep. 06 [SATRip by CRiSPiN]",
+    "video_url": "https://archive.org/download/el-inspector-gadget/El%20Inspector%20Gadget%201x07%20Ep.%2006%20%5BSATRip%20by%20CRiSPiN%5D%5BTusSeries.com%5D.mp4"
+  },
+  {
+    "episode_number": 7,
+    "title": "Ep. 08 [SATRip by CRiSPiN]",
+    "video_url": "https://archive.org/download/el-inspector-gadget/El%20Inspector%20Gadget%201x09%20Ep.%2008%20%5BSATRip%20by%20CRiSPiN%5D%5BTusSeries.com%5D.mp4"
+  },
+  {
+    "episode_number": 8,
+    "title": "Ep. 09 [SATRip by CRiSPiN]",
+    "video_url": "https://archive.org/download/el-inspector-gadget/El%20Inspector%20Gadget%201x10%20Ep.%2009%20%5BSATRip%20by%20CRiSPiN%5D%5BTusSeries.com%5D.mp4"
+  },
+  {
+    "episode_number": 9,
+    "title": "Ep. 12 [SATRip by CRiSPiN]",
+    "video_url": "https://archive.org/download/el-inspector-gadget/El%20Inspector%20Gadget%201x14%20Ep.%2012%20%5BSATRip%20by%20CRiSPiN%5D%5BTusSeries.com%5D.mp4"
+  },
+  {
+    "episode_number": 10,
+    "title": "Ep. 13 [SATRip by CRiSPiN]",
+    "video_url": "https://archive.org/download/el-inspector-gadget/El%20Inspector%20Gadget%201x15%20Ep.%2013%20%5BSATRip%20by%20CRiSPiN%5D%5BTusSeries.com%5D.mp4"
+  },
+  {
+    "episode_number": 11,
+    "title": "Ep. 15 [SATRip by CRiSPiN]",
+    "video_url": "https://archive.org/download/el-inspector-gadget/El%20Inspector%20Gadget%201x17%20Ep.%2015%20%5BSATRip%20by%20CRiSPiN%5D%5BTusSeries.com%5D.mp4"
+  },
+  {
+    "episode_number": 12,
+    "title": "Ep. 16 [SATRip by CRiSPiN]",
+    "video_url": "https://archive.org/download/el-inspector-gadget/El%20Inspector%20Gadget%201x18%20Ep.%2016%20%5BSATRip%20by%20CRiSPiN%5D%5BTusSeries.com%5D.mp4"
+  },
+  {
+    "episode_number": 13,
+    "title": "Ep. 18 [SATRip by CRiSPiN]",
+    "video_url": "https://archive.org/download/el-inspector-gadget/El%20Inspector%20Gadget%201x20%20Ep.%2018%20%5BSATRip%20by%20CRiSPiN%5D%5BTusSeries.com%5D.mp4"
+  },
+  {
+    "episode_number": 14,
+    "title": "Ep. 20 [SATRip by CRiSPiN]",
+    "video_url": "https://archive.org/download/el-inspector-gadget/El%20Inspector%20Gadget%201x23%20Ep.%2020%20%5BSATRip%20by%20CRiSPiN%5D%5BTusSeries.com%5D.mp4"
+  },
+  {
+    "episode_number": 15,
+    "title": "Ep. 28 [SATRip by CRiSPiN]",
+    "video_url": "https://archive.org/download/el-inspector-gadget/El%20Inspector%20Gadget%201x33%20Ep.%2028%20%5BSATRip%20by%20CRiSPiN%5D%5BTusSeries.com%5D.mp4"
+  },
+  {
+    "episode_number": 16,
+    "title": "Ep. 31 [SATRip by CRiSPiN]",
+    "video_url": "https://archive.org/download/el-inspector-gadget/El%20Inspector%20Gadget%201x37%20Ep.%2031%20%5BSATRip%20by%20CRiSPiN%5D%5BTusSeries.com%5D.mp4"
+  },
+  {
+    "episode_number": 17,
+    "title": "Ep. 75 [SATRip by CRiSPiN]",
+    "video_url": "https://archive.org/download/el-inspector-gadget/El%20Inspector%20Gadget%201x39%20Ep.%2075%20%5BSATRip%20by%20CRiSPiN%5D%5BTusSeries.com%5D.mp4"
+  },
+  {
+    "episode_number": 18,
+    "title": "Ep. 77 [SATRip by CRiSPiN]",
+    "video_url": "https://archive.org/download/el-inspector-gadget/El%20Inspector%20Gadget%201x41%20Ep.%2077%20%5BSATRip%20by%20CRiSPiN%5D%5BTusSeries.com%5D.mp4"
+  },
+  {
+    "episode_number": 19,
+    "title": "Ep. 29 [SATRip by CRiSPiN]",
+    "video_url": "https://archive.org/download/el-inspector-gadget/El%20Inspector%20Gadget%201x46%20Ep.%2029%20%5BSATRip%20by%20CRiSPiN%5D%5BTusSeries.com%5D.mp4"
+  },
+  {
+    "episode_number": 20,
+    "title": "Ep. 36 [SATRip by CRiSPiN]",
+    "video_url": "https://archive.org/download/el-inspector-gadget/El%20Inspector%20Gadget%201x48%20Ep.%2036%20%5BSATRip%20by%20CRiSPiN%5D%5BTusSeries.com%5D.mp4"
+  },
+  {
+    "episode_number": 21,
+    "title": "Ep. 37 [SATRip by CRiSPiN]",
+    "video_url": "https://archive.org/download/el-inspector-gadget/El%20Inspector%20Gadget%201x49%20Ep.%2037%20%5BSATRip%20by%20CRiSPiN%5D%5BTusSeries.com%5D.mp4"
+  },
+  {
+    "episode_number": 22,
+    "title": "Ep. 38 [SATRip by CRiSPiN]",
+    "video_url": "https://archive.org/download/el-inspector-gadget/El%20Inspector%20Gadget%201x50%20Ep.%2038%20%5BSATRip%20by%20CRiSPiN%5D%5BTusSeries.com%5D.mp4"
+  },
+  {
+    "episode_number": 23,
+    "title": "Ep. 81 [SATRip by CRiSPiN]",
+    "video_url": "https://archive.org/download/el-inspector-gadget/El%20Inspector%20Gadget%201x54%20Ep.%2081%20%5BSATRip%20by%20CRiSPiN%5D%5BTusSeries.com%5D.mp4"
+  }
+    
+  ]
+},
 
-
+  
 {
   "title": "Tom y Jerry",
   "description": "Serie clásica del gato Tom y el ratón Jerry, quienes protagonizan situaciones cómicas llenas de persecuciones, ingenio y humor físico en episodios cortos.",
