@@ -1,5 +1,139 @@
 [
 
+  {
+  "title": "The Garfield Show",
+  "description": "Sigue las divertidas aventuras de Garfield, el gato perezoso y sarcástico, junto a sus amigos y su dueño Jon. Cada episodio mezcla humor, travesuras y situaciones inesperadas en el día a día de Garfield.",
+  "coverImage": "https://static.wikia.nocookie.net/doblaje/images/a/a0/GarfieldShow.jpg/revision/latest?cb=20230718004630&path-prefix=es",
+  "genre": ["Animación", "Comedia", "Cortos"],
+  "episodes": [
+    {
+      "episode_number": 1,
+      "title": "La Guerra de las Pastas",
+      "video_url": "https://archive.org/download/s-01.-e-06-the-garfield-show-odie-enamorado/[S01.E01] The Garfield Show - La Guerra de las Pastas.mp4"
+    },
+    {
+      "episode_number": 2,
+      "title": "Jugando al Gato y al Ratón",
+      "video_url": "https://archive.org/download/s-01.-e-06-the-garfield-show-odie-enamorado/[S01.E02] The Garfield Show - Jugando al Gato y al Ratón.mp4"
+    },
+    {
+      "episode_number": 3,
+      "title": "La Pizza Perfecta",
+      "video_url": "https://archive.org/download/s-01.-e-06-the-garfield-show-odie-enamorado/[S01.E03] The Garfield Show - La Pizza Perfecta.mp4"
+    },
+    {
+      "episode_number": 4,
+      "title": "La Mamá Garfield",
+      "video_url": "https://archive.org/download/s-01.-e-06-the-garfield-show-odie-enamorado/[S01.E04] The Garfield Show - La Mamá Garfield.mp4"
+    },
+    {
+      "episode_number": 5,
+      "title": "Perro en la Perrera",
+      "video_url": "https://archive.org/download/s-01.-e-06-the-garfield-show-odie-enamorado/[S01.E05] The Garfield Show - Perro en la Perrera.mp4"
+    },
+    {
+      "episode_number": 6,
+      "title": "Odie Enamorado",
+      "video_url": "https://archive.org/download/s-01.-e-06-the-garfield-show-odie-enamorado/[S01.E06] The Garfield Show - Odie Enamorado.mp4"
+    },
+    {
+      "episode_number": 7,
+      "title": "El no tan Dulce Sonido de la Música",
+      "video_url": "https://archive.org/download/s-01.-e-06-the-garfield-show-odie-enamorado/[S01.E07] The Garfield Show - El no tan Dulce Sonido de la Música.mp4"
+    },
+    {
+      "episode_number": 8,
+      "title": "Problemas de Pavo",
+      "video_url": "https://archive.org/download/s-01.-e-06-the-garfield-show-odie-enamorado/[S01.E08] The Garfield Show - Problemas de Pavo.mp4"
+    },
+    {
+      "episode_number": 9,
+      "title": "El Ladrón",
+      "video_url": "https://archive.org/download/s-01.-e-06-the-garfield-show-odie-enamorado/[S01.E09] The Garfield Show - El Ladrón.mp4"
+    },
+    {
+      "episode_number": 10,
+      "title": "Agente X",
+      "video_url": "https://archive.org/download/s-01.-e-06-the-garfield-show-odie-enamorado/[S01.E10] The Garfield Show - Agente X.mp4"
+    },
+    {
+      "episode_number": 11,
+      "title": "Naranja y Negro",
+      "video_url": "https://archive.org/download/s-01.-e-06-the-garfield-show-odie-enamorado/[S01.E11] The Garfield Show - Naranja y Negro.mp4"
+    },
+    {
+      "episode_number": 12,
+      "title": "Lunes de Locura",
+      "video_url": "https://archive.org/download/s-01.-e-06-the-garfield-show-odie-enamorado/[S01.E12] The Garfield Show - Lunes de Locura.mp4"
+    },
+    {
+      "episode_number": 13,
+      "title": "El Rey Nermal",
+      "video_url": "https://archive.org/download/s-01.-e-06-the-garfield-show-odie-enamorado/[S01.E13] The Garfield Show - El Rey Nermal.mp4"
+    },
+    {
+      "episode_number": 14,
+      "title": "Desesperado",
+      "video_url": "https://archive.org/download/s-01.-e-06-the-garfield-show-odie-enamorado/[S01.E14] The Garfield Show - Desesperado.mp4"
+    },
+    {
+      "episode_number": 15,
+      "title": "La maldición del cachorro lobo",
+      "video_url": "https://archive.org/download/s-01.-e-06-the-garfield-show-odie-enamorado/[S01.E15] The Garfield Show - La maldición del cachorro lobo.mp4"
+    },
+    {
+      "episode_number": 16,
+      "title": "Los Padres de Liz",
+      "video_url": "https://archive.org/download/s-01.-e-06-the-garfield-show-odie-enamorado/[S01.E16] The Garfield Show - Los Padres de Liz.mp4"
+    },
+    {
+      "episode_number": 17,
+      "title": "En la Granja",
+      "video_url": "https://archive.org/download/s-01.-e-06-the-garfield-show-odie-enamorado/[S01.E17] The Garfield Show - En la Granja.mp4"
+    },
+    {
+      "episode_number": 18,
+      "title": "La Exposición de Mascotas",
+      "video_url": "https://archive.org/download/s-01.-e-06-the-garfield-show-odie-enamorado/[S01.E18] The Garfield Show - La Exposición de Mascotas.mp4"
+    },
+    {
+      "episode_number": 19,
+      "title": "Amos y Mascotas",
+      "video_url": "https://archive.org/download/s-01.-e-06-the-garfield-show-odie-enamorado/[S01.E19] The Garfield Show - Amos y Mascotas.mp4"
+    },
+    {
+      "episode_number": 20,
+      "title": "El Conjuro de la Buena Suerte",
+      "video_url": "https://archive.org/download/s-01.-e-06-the-garfield-show-odie-enamorado/[S01.E20] The Garfield Show - El Conjuro de la Buena Suerte.mp4"
+    },
+    {
+      "episode_number": 21,
+      "title": "Buscadores de Huesos",
+      "video_url": "https://archive.org/download/s-01.-e-06-the-garfield-show-odie-enamorado/[S01.E21] The Garfield Show - Buscadores de Huesos.mp4"
+    },
+    {
+      "episode_number": 22,
+      "title": "El robot",
+      "video_url": "https://archive.org/download/s-01.-e-06-the-garfield-show-odie-enamorado/[S01.E22] The Garfield Show - El robot.mp4"
+    },
+    {
+      "episode_number": 23,
+      "title": "Problemas con la Báscula",
+      "video_url": "https://archive.org/download/s-01.-e-06-the-garfield-show-odie-enamorado/[S01.E23] The Garfield Show - Problemas con la Báscula.mp4"
+    },
+    {
+      "episode_number": 24,
+      "title": "Las Andanzas Nocturnas de Jon",
+      "video_url": "https://archive.org/download/s-01.-e-06-the-garfield-show-odie-enamorado/[S01.E24] The Garfield Show - Las Andanzas Nocturnas de Jon.mp4"
+    },
+    {
+      "episode_number": 25,
+      "title": "La Maldición del Pueblo de los Gatos",
+      "video_url": "https://archive.org/download/s-01.-e-06-the-garfield-show-odie-enamorado/[S01.E25] The Garfield Show - La Maldición del Pueblo de los Gatos.mp4"
+    }
+  ]
+},
+
 {
   "title": "Inspector gadget",
   "description": "Cuenta las aventuras del Inspector Gadget, un inspector torpe y despistado que es en realidad un cyborg con artilugios (gadgets) biónicos implantados en su cuerpo. Sus misiones consisten en detener los planes de su enemigo, el Dr. Claw, líder de la malvada organización MAD, para lo cual recibe inadvertidamente la ayuda de su sobrina y su perro. ",
