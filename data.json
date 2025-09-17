@@ -1,7 +1,42 @@
 [
 
+{
+  "title": "Neon Genesis Evangelion",
+  "description": "La serie sigue a Shinji Ikari, un adolescente reclutado por NERV para pilotar un mecha llamado Evangelion y combatir a misteriosos seres llamados Ángeles, mientras enfrenta conflictos personales, emocionales y existenciales.",
+  "coverImage": "https://es.web.img2.acsta.net/pictures/18/12/07/12/40/4530128.jpg",
+  "genre": ["Anime", "Ciencia ficción", "Mecha", "Drama", "Psicológico"],
+  "episodes": [
+    {"episode": 1, "title": "El ataque del Ángel", "video_url": "https://archive.org/download/evangelioncastellano/01%20-%20El%20ataque%20del%20%C3%81ngel.mp4"},
+    {"episode": 2, "title": "Un techo desconocido", "video_url": "https://archive.org/download/evangelioncastellano/02%20-%20Un%20techo%20desconocido.mp4"},
+    {"episode": 3, "title": "El teléfono no suena", "video_url": "https://archive.org/download/evangelioncastellano/03%20-%20El%20tel%C3%A9fono%20no%20suena.mp4"},
+    {"episode": 4, "title": "Lluvia, después de la huida", "video_url": "https://archive.org/download/evangelioncastellano/04%20-%20Lluvia%2C%20despu%C3%A9s%20de%20la%20huida.mp4"},
+    {"episode": 5, "title": "Rei, al otro lado de su corazón", "video_url": "https://archive.org/download/evangelioncastellano/05%20%20-Rei%2C%20al%20otro%20lado%20de%20su%20coraz%C3%B3n.mp4"},
+    {"episode": 6, "title": "La batalla decisiva. Distrito3 Nuevo Tokio. Rei", "video_url": "https://archive.org/download/evangelioncastellano/06%20-%20La%20batalla%20decisiva.%20Distrito3%20Nuevo%20Tokio.%20Rei.mp4"},
+    {"episode": 7, "title": "Construído por los hombres", "video_url": "https://archive.org/download/evangelioncastellano/07%20-%20Constru%C3%ADdo%20por%20los%20hombres.mp4"},
+    {"episode": 8, "title": "Asuka llega a Japón", "video_url": "https://archive.org/download/evangelioncastellano/08%20-%20Asuka%20llega%20a%20Jap%C3%B3n.mp4"},
+    {"episode": 9, "title": "Un instante, una mente al unísono", "video_url": "https://archive.org/download/evangelioncastellano/09%20-%20Un%20instante%2C%20una%20mente%20al%20un%C3%ADsono.mp4"},
+    {"episode": 10, "title": "Sumergido en el magma", "video_url": "https://archive.org/download/evangelioncastellano/10%20-%20Sumergido%20en%20el%20magma.mp4"},
+    {"episode": 11, "title": "En las tinieblas inmóviles. Más allá de la oscuridad", "video_url": "https://archive.org/download/evangelioncastellano/11%20-%20En%20las%20tinieblas%20inm%C3%B3viles.%20M%C3%A1s%20all%C3%A1%20de%20la%20oscuridad.mp4"},
+    {"episode": 12, "title": "El valor de un milagro", "video_url": "https://archive.org/download/evangelioncastellano/12%20-%20El%20valor%20de%20un%20milagro.mp4"},
+    {"episode": 13, "title": "La invasión del Ángel", "video_url": "https://archive.org/download/evangelioncastellano/13%20-%20La%20invasi%C3%B3n%20del%20%C3%81ngel.mp4"},
+    {"episode": 14, "title": "Se el lugar de los espíritus. Tejiendo una historia", "video_url": "https://archive.org/download/evangelioncastellano/14%20-%20Se%20el%20lugar%20de%20los%20esp%C3%ADritus.%20Tejiendo%20una%20historia.mp4"},
+    {"episode": 15, "title": "Mentiras y silencio ansia de besos", "video_url": "https://archive.org/download/evangelioncastellano/15%20-%20Mentiras%20y%20silencio%20ansia%20de%20besos.mp4"},
+    {"episode": 16, "title": "Al borde de la muerte y después...", "video_url": "https://archive.org/download/evangelioncastellano/16%20-%20Al%20borde%20de%20la%20muerte%20y%20despu%C3%A9s....mp4"},
+    {"episode": 17, "title": "Apto para ser el cuarto elegido", "video_url": "https://archive.org/download/evangelioncastellano/17%20-%20Apto%20para%20ser%20el%20cuarto%20elegido.mp4"},
+    {"episode": 18, "title": "El juicio de la vida", "video_url": "https://archive.org/download/evangelioncastellano/18%20-%20El%20juicio%20de%20la%20vida.mp4"},
+    {"episode": 19, "title": "La lucha de un muchacho", "video_url": "https://archive.org/download/evangelioncastellano/19%20-%20La%20lucha%20de%20un%20muchacho.mp4"},
+    {"episode": 20, "title": "La forma de la mente", "video_url": "https://archive.org/download/evangelioncastellano/20%20-%20La%20forma%20de%20la%20mente.mp4"},
+    {"episode": 21, "title": "El nacimiento de NERV", "video_url": "https://archive.org/download/evangelioncastellano/21%20-%20El%20nacimiento%20de%20NERV.mp4"},
+    {"episode": 22, "title": "Al menos actúa como un ser humano", "video_url": "https://archive.org/download/evangelioncastellano/22%20-%20Al%20menos%20act%C3%BAa%20como%20un%20ser%20humano.mp4"},
+    {"episode": 23, "title": "Rei Lágrimas", "video_url": "https://archive.org/download/evangelioncastellano/23%20-%20Rei%20L%C3%A1grimas.mp4"},
+    {"episode": 24, "title": "El Último enviado", "video_url": "https://archive.org/download/evangelioncastellano/24%20-%20El%20%C3%9Altimo%20enviado.mp4"},
+    {"episode": 25, "title": "Aire: Un mundo que se acaba", "video_url": "https://archive.org/download/evangelioncastellano/25%20-%20Aire%20Un%20mundo%20que%20se%20acaba.mp4"},
+    {"episode": 26, "title": "La bestia que gritaba amor en el corazón del mundo", "video_url": "https://archive.org/download/evangelioncastellano/26%20-%20La%20bestia%20que%20gritaba%20amor%20en%20el%20coraz%C3%B3n%20del%20mundo.mp4"}
+  ]
+},
 
 
+  
 
 {
   "title": "Initial D: First Stage",
