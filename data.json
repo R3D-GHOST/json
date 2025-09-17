@@ -1,6 +1,51 @@
 [
 
 
+
+
+{
+  "title": "Initial D: First Stage",
+  "description": "Takumi Fujiwara, un estudiante de secundaria, se ve arrastrado al mundo de las carreras callejeras en las montañas de Gunma, Japón, tras entregar tofu en su Toyota AE86. Su habilidad al volante lo convierte en una leyenda local.",
+  "coverImage": "https://m.media-amazon.com/images/M/MV5BMWYzYWE3N2YtZDI0Yy00ZWU2LWI3YzgtMzEyNTg0ZjFmNWZjXkEyXkFqcGc@._V1_.jpg",
+  "genre": ["Anime", "Acción", "Deportes", "Drama"],
+  "episodes": [
+    {"episode": 1, "title": "El superderrape del repartidor", "video_url": "https://archive.org/download/initial-d-first-stage-espanol-latino/Initial%20D%20First%20Stage%20Episodio%2001.mp4"},
+    {"episode": 2, "title": "La carrera cuesta arriba", "video_url": "https://archive.org/download/initial-d-first-stage-espanol-latino/Initial%20D%20First%20Stage%20Episodio%2002.mp4"},
+    {"episode": 3, "title": "Duelo en descenso bajo la lluvia", "video_url": "https://archive.org/download/initial-d-first-stage-espanol-latino/Initial%20D%20First%20Stage%20Episodio%2003.mp4"},
+    {"episode": 4, "title": "El cometa blanco de Akina", "video_url": "https://archive.org/download/initial-d-first-stage-espanol-latino/Initial%20D%20First%20Stage%20Episodio%2004.mp4"},
+    {"episode": 5, "title": "La batalla definitiva", "video_url": "https://archive.org/download/initial-d-first-stage-espanol-latino/Initial%20D%20First%20Stage%20Episodio%2005.mp4"},
+    {"episode": 6, "title": "La nueva leyenda del descenso", "video_url": "https://archive.org/download/initial-d-first-stage-espanol-latino/Initial%20D%20First%20Stage%20Episodio%2006.mp4"},
+    {"episode": 7, "title": "El desafío de los Red Suns", "video_url": "https://archive.org/download/initial-d-first-stage-espanol-latino/Initial%20D%20First%20Stage%20Episodio%2007.mp4"},
+    {"episode": 8, "title": "La carrera cuesta abajo", "video_url": "https://archive.org/download/initial-d-first-stage-espanol-latino/Initial%20D%20First%20Stage%20Episodio%2008.mp4"},
+    {"episode": 9, "title": "La batalla en el monte Akina", "video_url": "https://archive.org/download/initial-d-first-stage-espanol-latino/Initial%20D%20First%20Stage%20Episodio%2009.mp4"},
+    {"episode": 10, "title": "El regreso del cometa blanco", "video_url": "https://archive.org/download/initial-d-first-stage-espanol-latino/Initial%20D%20First%20Stage%20Episodio%2010.mp4"},
+    {"episode": 11, "title": "La estrategia de Ryosuke", "video_url": "https://archive.org/download/initial-d-first-stage-espanol-latino/Initial%20D%20First%20Stage%20Episodio%2011.mp4"},
+    {"episode": 12, "title": "La carrera nocturna", "video_url": "https://archive.org/download/initial-d-first-stage-espanol-latino/Initial%20D%20First%20Stage%20Episodio%2012.mp4"},
+    {"episode": 13, "title": "El desafío final", "video_url": "https://archive.org/download/initial-d-first-stage-espanol-latino/Initial%20D%20First%20Stage%20Episodio%2013.mp4"},
+    {"episode": 14, "title": "La técnica del drift", "video_url": "https://archive.org/download/initial-d-first-stage-espanol-latino/Initial%20D%20First%20Stage%20Episodio%2014.mp4"},
+    {"episode": 15, "title": "El secreto del AE86", "video_url": "https://archive.org/download/initial-d-first-stage-espanol-latino/Initial%20D%20First%20Stage%20Episodio%2015.mp4"},
+    {"episode": 16, "title": "La carrera en Irohazaka", "video_url": "https://archive.org/download/initial-d-first-stage-espanol-latino/Initial%20D%20First%20Stage%20Episodio%2016.mp4"},
+    {"episode": 17, "title": "El regreso de los Red Suns", "video_url": "https://archive.org/download/initial-d-first-stage-espanol-latino/Initial%20D%20First%20Stage%20Episodio%2017.mp4"},
+    {"episode": 18, "title": "La batalla en el monte Akina II", "video_url": "https://archive.org/download/initial-d-first-stage-espanol-latino/Initial%20D%20First%20Stage%20Episodio%2018.mp4"},
+    {"episode": 19, "title": "La estrategia de Ryosuke II", "video_url": "https://archive.org/download/initial-d-first-stage-espanol-latino/Initial%20D%20First%20Stage%20Episodio%2019.mp4"},
+    {"episode": 20, "title": "La carrera en el monte Akina III", "video_url": "https://archive.org/download/initial-d-first-stage-espanol-latino/Initial%20D%20First%20Stage%20Episodio%2020.mp4"},
+    {"episode": 21, "title": "El desafío de los Red Suns II", "video_url": "https://archive.org/download/initial-d-first-stage-espanol-latino/Initial%20D%20First%20Stage%20Episodio%2021.mp4"},
+    {"episode": 22, "title": "La batalla en el monte Akina IV", "video_url": "https://archive.org/download/initial-d-first-stage-espanol-latino/Initial%20D%20First%20Stage%20Episodio%2022.mp4"},
+    {"episode": 23, "title": "La estrategia de Ryosuke III", "video_url": "https://archive.org/download/initial-d-first-stage-espanol-latino/Initial%20D%20First%20Stage%20Episodio%2023.mp4"},
+    {"episode": 24, "title": "La carrera en el monte Akina V", "video_url": "https://archive.org/download/initial-d-first-stage-espanol-latino/Initial%20D%20First%20Stage%20Episodio%2024.mp4"},
+    {"episode": 25, "title": "El regreso de los Red Suns III", "video_url": "https://archive.org/download/initial-d-first-stage-espanol-latino/Initial%20D%20First%20Stage%20Episodio%2025.mp4"},
+    {"episode": 26, "title": "La batalla final", "video_url": "https://archive.org/download/initial-d-first-stage-espanol-latino/Initial%20D%20First%20Stage%20Episodio%2026.mp4"}
+  ]
+},
+
+
+  
+
+
+  
+  
+  
+
 {
   "title": "La serpiente a la sombra del águila",
   "description": "Chien Fu (Jackie Chan), un huérfano maltratado en una escuela de kung fu, se hace amigo de un anciano que le enseña el estilo de la Serpiente. Tras aprenderlo, crea su propio estilo inspirado en la lucha entre una cobra y un gato, enfrentándose al maestro del Clan Águila.",
