@@ -1,6 +1,275 @@
 [
 
   {
+  "title": "El Zorro, La Espada y La Rosa",
+  "description": "Telenovela colombiana que narra las aventuras de El Zorro en su lucha por la justicia y el amor, combinando acción, romance e intriga en la época colonial.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMEXcPIS6hRbdUpc527EuuMZMixHI2wKk90p_jOOrZ8g&s=10",
+  "genre": [
+    "Drama",
+    "Acción",
+    "Romance",
+    "Histórica"
+  ],
+  "episodes": [
+    {
+      "episode_number": 1,
+      "title": "Capítulo 1 - Parte 1",
+      "video_url": "https://archive.org/download/el-zorro-la-espada-y-la-rosa/El%20Zorro_%20La%20Espada%20Y%20La%20Rosa%20-%20Cap%C3%ADtulo%201%20_%20Parte%201%20HD.mp4"
+    },
+    {
+      "episode_number": 1.2,
+      "title": "Capítulo 1 - Parte 2",
+      "video_url": "https://archive.org/download/el-zorro-la-espada-y-la-rosa/El%20Zorro_%20La%20Espada%20Y%20La%20Rosa%20-%20Cap%C3%ADtulo%201%20_%20Parte%202%20HD.mp4"
+    },
+    {
+      "episode_number": 2,
+      "title": "Capítulo 2",
+      "video_url": "https://archive.org/download/el-zorro-la-espada-y-la-rosa/El%20Zorro_%20La%20Espada%20Y%20La%20Rosa%20-%20Cap%C3%ADtulo%202%20HD.mp4"
+    },
+    {
+      "episode_number": 3,
+      "title": "Capítulo 3",
+      "video_url": "https://archive.org/download/el-zorro-la-espada-y-la-rosa/El%20Zorro_%20La%20Espada%20Y%20La%20Rosa%20-%20Cap%C3%ADtulo%203%20HD.mp4"
+    },
+    {
+      "episode_number": 4,
+      "title": "Capítulo 4",
+      "video_url": "https://archive.org/download/el-zorro-la-espada-y-la-rosa/El%20Zorro_%20La%20Espada%20Y%20La%20Rosa%20-%20Cap%C3%ADtulo%204%20HD.mp4"
+    },
+    {
+      "episode_number": 5,
+      "title": "Capítulo 5",
+      "video_url": "https://archive.org/download/el-zorro-la-espada-y-la-rosa/El%20Zorro_%20La%20Espada%20Y%20La%20Rosa%20-%20Cap%C3%ADtulo%205%20HD.mp4"
+    },
+    {
+      "episode_number": 6,
+      "title": "Capítulo 6",
+      "video_url": "https://archive.org/download/el-zorro-la-espada-y-la-rosa/El%20Zorro_%20La%20Espada%20Y%20La%20Rosa%20-%20Cap%C3%ADtulo%206%20HD.mp4"
+    },
+    {
+      "episode_number": 7,
+      "title": "Capítulo 7",
+      "video_url": "https://archive.org/download/el-zorro-la-espada-y-la-rosa/El%20Zorro_%20La%20Espada%20Y%20La%20Rosa%20-%20Cap%C3%ADtulo%207%20HD.mp4"
+    },
+    {
+      "episode_number": 8,
+      "title": "Capítulo 8",
+      "video_url": "https://archive.org/download/el-zorro-la-espada-y-la-rosa/El%20Zorro_%20La%20Espada%20Y%20La%20Rosa%20-%20Cap%C3%ADtulo%208%20HD.mp4"
+    },
+    {
+      "episode_number": 9,
+      "title": "Capítulo 9",
+      "video_url": "https://archive.org/download/el-zorro-la-espada-y-la-rosa/El%20Zorro_%20La%20Espada%20Y%20La%20Rosa%20-%20Cap%C3%ADtulo%209%20HD.mp4"
+    },
+    {
+      "episode_number": 10,
+      "title": "Capítulo 10",
+      "video_url": "https://archive.org/download/el-zorro-la-espada-y-la-rosa/El%20Zorro_%20La%20Espada%20Y%20La%20Rosa%20-%20Cap%C3%ADtulo%2010%20HD.mp4"
+    },
+    {
+      "episode_number": 11,
+      "title": "Capítulo 11",
+      "video_url": "https://archive.org/download/el-zorro-la-espada-y-la-rosa/El%20Zorro_%20La%20Espada%20Y%20La%20Rosa%20-%20Cap%C3%ADtulo%2011%20HD.mp4"
+    },
+    {
+      "episode_number": 12,
+      "title": "Capítulo 12",
+      "video_url": "https://archive.org/download/el-zorro-la-espada-y-la-rosa/El%20Zorro_%20La%20Espada%20Y%20La%20Rosa%20-%20Cap%C3%ADtulo%2012%20HD.mp4"
+    },
+    {
+      "episode_number": 13,
+      "title": "Capítulo 13",
+      "video_url": "https://archive.org/download/el-zorro-la-espada-y-la-rosa/El%20Zorro_%20La%20Espada%20Y%20La%20Rosa%20-%20Cap%C3%ADtulo%2013%20HD.mp4"
+    },
+    {
+      "episode_number": 14,
+      "title": "Capítulo 14",
+      "video_url": "https://archive.org/download/el-zorro-la-espada-y-la-rosa/El%20Zorro_%20La%20Espada%20Y%20La%20Rosa%20-%20Cap%C3%ADtulo%2014%20HD.mp4"
+    },
+    {
+      "episode_number": 15,
+      "title": "Capítulo 15",
+      "video_url": "https://archive.org/download/el-zorro-la-espada-y-la-rosa/El%20Zorro_%20La%20Espada%20Y%20La%20Rosa%20-%20Cap%C3%ADtulo%2015%20HD.mp4"
+    },
+    {
+      "episode_number": 16,
+      "title": "Capítulo 16",
+      "video_url": "https://archive.org/download/el-zorro-la-espada-y-la-rosa/El%20Zorro_%20La%20Espada%20Y%20La%20Rosa%20-%20Cap%C3%ADtulo%2016%20HD.mp4"
+    },
+    {
+      "episode_number": 17,
+      "title": "Capítulo 17",
+      "video_url": "https://archive.org/download/el-zorro-la-espada-y-la-rosa/El%20Zorro_%20La%20Espada%20Y%20La%20Rosa%20-%20Cap%C3%ADtulo%2017%20HD.mp4"
+    },
+    {
+      "episode_number": 18,
+      "title": "Capítulo 18",
+      "video_url": "https://archive.org/download/el-zorro-la-espada-y-la-rosa/El%20Zorro_%20La%20Espada%20Y%20La%20Rosa%20-%20Cap%C3%ADtulo%2018%20HD.mp4"
+    },
+    {
+      "episode_number": 19,
+      "title": "Capítulo 19",
+      "video_url": "https://archive.org/download/el-zorro-la-espada-y-la-rosa/El%20Zorro_%20La%20Espada%20Y%20La%20Rosa%20-%20Cap%C3%ADtulo%2019%20HD.mp4"
+    },
+    {
+      "episode_number": 20,
+      "title": "Capítulo 20",
+      "video_url": "https://archive.org/download/el-zorro-la-espada-y-la-rosa/El%20Zorro_%20La%20Espada%20Y%20La%20Rosa%20-%20Cap%C3%ADtulo%2020%20HD.mp4"
+    },
+    {
+      "episode_number": 21,
+      "title": "Capítulo 21",
+      "video_url": "https://archive.org/download/el-zorro-la-espada-y-la-rosa/El%20Zorro_%20La%20Espada%20Y%20La%20Rosa%20-%20Cap%C3%ADtulo%2021%20HD.mp4"
+    },
+    {
+      "episode_number": 22,
+      "title": "Capítulo 22",
+      "video_url": "https://archive.org/download/el-zorro-la-espada-y-la-rosa/El%20Zorro_%20La%20Espada%20Y%20La%20Rosa%20-%20Cap%C3%ADtulo%2022%20HD.mp4"
+    },
+    {
+      "episode_number": 23,
+      "title": "Capítulo 23",
+      "video_url": "https://archive.org/download/el-zorro-la-espada-y-la-rosa/El%20Zorro_%20La%20Espada%20Y%20La%20Rosa%20-%20Cap%C3%ADtulo%2023%20HD.mp4"
+    },
+    {
+      "episode_number": 24,
+      "title": "Capítulo 24",
+      "video_url": "https://archive.org/download/el-zorro-la-espada-y-la-rosa/El%20Zorro_%20La%20Espada%20Y%20La%20Rosa%20-%20Cap%C3%ADtulo%2024%20HD.mp4"
+    },
+    {
+      "episode_number": 25,
+      "title": "Capítulo 25",
+      "video_url": "https://archive.org/download/el-zorro-la-espada-y-la-rosa/El%20Zorro_%20La%20Espada%20Y%20La%20Rosa%20-%20Cap%C3%ADtulo%2025%20HD.mp4"
+    },
+    {
+      "episode_number": 26,
+      "title": "Capítulo 26",
+      "video_url": "https://archive.org/download/el-zorro-la-espada-y-la-rosa/El%20Zorro_%20La%20Espada%20Y%20La%20Rosa%20-%20Cap%C3%ADtulo%2026%20HD.mp4"
+    },
+    {
+      "episode_number": 27,
+      "title": "Capítulo 27",
+      "video_url": "https://archive.org/download/el-zorro-la-espada-y-la-rosa/El%20Zorro_%20La%20Espada%20Y%20La%20Rosa%20-%20Cap%C3%ADtulo%2027%20HD.mp4"
+    },
+    {
+      "episode_number": 28,
+      "title": "Capítulo 28",
+      "video_url": "https://archive.org/download/el-zorro-la-espada-y-la-rosa/El%20Zorro_%20La%20Espada%20Y%20La%20Rosa%20-%20Cap%C3%ADtulo%2028%20HD.mp4"
+    },
+    {
+      "episode_number": 29,
+      "title": "Capítulo 29",
+      "video_url": "https://archive.org/download/el-zorro-la-espada-y-la-rosa/El%20Zorro_%20La%20Espada%20Y%20La%20Rosa%20-%20Cap%C3%ADtulo%2029%20HD.mp4"
+    },
+    {
+      "episode_number": 30,
+      "title": "Capítulo 30",
+      "video_url": "https://archive.org/download/el-zorro-la-espada-y-la-rosa/El%20Zorro_%20La%20Espada%20Y%20La%20Rosa%20-%20Cap%C3%ADtulo%2030%20HD.mp4"
+    },
+    {
+      "episode_number": 31,
+      "title": "Capítulo 31",
+      "video_url": "https://archive.org/download/el-zorro-la-espada-y-la-rosa/El%20Zorro_%20La%20Espada%20Y%20La%20Rosa%20-%20Cap%C3%ADtulo%2031%20HD.mp4"
+    },
+    {
+      "episode_number": 32,
+      "title": "Capítulo 32",
+      "video_url": "https://archive.org/download/el-zorro-la-espada-y-la-rosa/El%20Zorro_%20La%20Espada%20Y%20La%20Rosa%20-%20Cap%C3%ADtulo%2032%20HD.mp4"
+    },
+    {
+      "episode_number": 33,
+      "title": "Capítulo 33",
+      "video_url": "https://archive.org/download/el-zorro-la-espada-y-la-rosa/El%20Zorro_%20La%20Espada%20Y%20La%20Rosa%20-%20Cap%C3%ADtulo%2033%20HD.mp4"
+    },
+    {
+      "episode_number": 34,
+      "title": "Capítulo 34",
+      "video_url": "https://archive.org/download/el-zorro-la-espada-y-la-rosa/El%20Zorro_%20La%20Espada%20Y%20La%20Rosa%20-%20Cap%C3%ADtulo%2034%20HD.mp4"
+    },
+    {
+      "episode_number": 35,
+      "title": "Capítulo 35",
+      "video_url": "https://archive.org/download/el-zorro-la-espada-y-la-rosa/El%20Zorro_%20La%20Espada%20Y%20La%20Rosa%20-%20Cap%C3%ADtulo%2035%20HD.mp4"
+    },
+    {
+      "episode_number": 36,
+      "title": "Capítulo 36",
+      "video_url": "https://archive.org/download/el-zorro-la-espada-y-la-rosa/El%20Zorro_%20La%20Espada%20Y%20La%20Rosa%20-%20Cap%C3%ADtulo%2036%20HD.mp4"
+    },
+    {
+      "episode_number": 37,
+      "title": "Capítulo 37",
+      "video_url": "https://archive.org/download/el-zorro-la-espada-y-la-rosa/El%20Zorro_%20La%20Espada%20Y%20La%20Rosa%20-%20Cap%C3%ADtulo%2037%20HD.mp4"
+    },
+    {
+      "episode_number": 38,
+      "title": "Capítulo 38",
+      "video_url": "https://archive.org/download/el-zorro-la-espada-y-la-rosa/El%20Zorro_%20La%20Espada%20Y%20La%20Rosa%20-%20Cap%C3%ADtulo%2038%20HD.mp4"
+    },
+    {
+      "episode_number": 39,
+      "title": "Capítulo 39",
+      "video_url": "https://archive.org/download/el-zorro-la-espada-y-la-rosa/El%20Zorro_%20La%20Espada%20Y%20La%20Rosa%20-%20Cap%C3%ADtulo%2039%20HD.mp4"
+    },
+    {
+      "episode_number": 40,
+      "title": "Capítulo 40",
+      "video_url": "https://archive.org/download/el-zorro-la-espada-y-la-rosa/El%20Zorro_%20La%20Espada%20Y%20La%20Rosa%20-%20Cap%C3%ADtulo%2040%20HD.mp4"
+    },
+    {
+      "episode_number": 41,
+      "title": "Capítulo 41",
+      "video_url": "https://archive.org/download/el-zorro-la-espada-y-la-rosa/El%20Zorro_%20La%20Espada%20Y%20La%20Rosa%20-%20Cap%C3%ADtulo%2041%20HD.mp4"
+    },
+    {
+      "episode_number": 42,
+      "title": "Capítulo 42",
+      "video_url": "https://archive.org/download/el-zorro-la-espada-y-la-rosa/El%20Zorro_%20La%20Espada%20Y%20La%20Rosa%20-%20Cap%C3%ADtulo%2042%20HD.mp4"
+    },
+    {
+      "episode_number": 43,
+      "title": "Capítulo 43",
+      "video_url": "https://archive.org/download/el-zorro-la-espada-y-la-rosa/El%20Zorro_%20La%20Espada%20Y%20La%20Rosa%20-%20Cap%C3%ADtulo%2043%20HD.mp4"
+    },
+    {
+      "episode_number": 44,
+      "title": "Capítulo 44",
+      "video_url": "https://archive.org/download/el-zorro-la-espada-y-la-rosa/El%20Zorro_%20La%20Espada%20Y%20La%20Rosa%20-%20Cap%C3%ADtulo%2044%20HD.mp4"
+    },
+    {
+      "episode_number": 45,
+      "title": "Capítulo 45",
+      "video_url": "https://archive.org/download/el-zorro-la-espada-y-la-rosa/El%20Zorro_%20La%20Espada%20Y%20La%20Rosa%20-%20Cap%C3%ADtulo%2045%20HD.mp4"
+    },
+    {
+      "episode_number": 46,
+      "title": "Capítulo 46",
+      "video_url": "https://archive.org/download/el-zorro-la-espada-y-la-rosa/El%20Zorro_%20La%20Espada%20Y%20La%20Rosa%20-%20Cap%C3%ADtulo%2046%20HD.mp4"
+    },
+    {
+      "episode_number": 47,
+      "title": "Capítulo 47",
+      "video_url": "https://archive.org/download/el-zorro-la-espada-y-la-rosa/El%20Zorro_%20La%20Espada%20Y%20La%20Rosa%20-%20Cap%C3%ADtulo%2047%20HD.mp4"
+    },
+    {
+      "episode_number": 48,
+      "title": "Capítulo 48",
+      "video_url": "https://archive.org/download/el-zorro-la-espada-y-la-rosa/El%20Zorro_%20La%20Espada%20Y%20La%20Rosa%20-%20Cap%C3%ADtulo%2048%20HD.mp4"
+    },
+    {
+      "episode_number": 49,
+      "title": "Capítulo 49",
+      "video_url": "https://archive.org/download/el-zorro-la-espada-y-la-rosa/El%20Zorro_%20La%20Espada%20Y%20La%20Rosa%20-%20Cap%C3%ADtulo%2049%20HD.mp4"
+    },
+    {
+      "episode_number": 50,
+      "title": "Capítulo 50",
+      "video_url": "https://archive.org/download/el-zorro-la-espada-y-la-rosa/El%20Zorro_%20La%20Espada%20Y%20La%20Rosa%20-%20Cap%C3%ADtulo%2050%20HD.mp4"
+    }
+  ]
+},
+
+  {
   "title": "Maestro Borracho",
   "description": "El maestro borracho es una clásica comedia de artes marciales de 1978 dirigida por Yuen Woo-ping y protagonizada por Jackie Chan. Relata la historia de Wong Fei-hung, un joven rebelde que causa problemas y aterriza como alumno de un maestro de kung fu prácticamente borracho, quien lo entrena en el estilizado ‘puño borracho’ para derrotar a un enemigo poderoso y limpiar el honor. :contentReference[oaicite:0]{index=0}",
   "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfTsbbyafLD1FPlZKz659AqPlMPdF3twcFT9VuHpns4Q&s=10",
