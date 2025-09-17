@@ -9,6 +9,23 @@
   },
   
 
+
+
+  {
+    "title": "Los Cocodrilos 1",
+    "description": "Los Cocodrilos son la pandilla divertida de la zona. Una noche, unos ladrones asaltan el negocio de la madre de Hannes, lo que pone en marcha una aventura para atrapar a los ladrones, cobrar la recompensa prometida y ayudar a Hannes y a su madre. ([Filmaffinity])", 
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrO_Mm9__oqzDxoGwf-fap57YdgWAgZc5Lk8SB_fG3FQ&s=10",
+    "genre": ["Película", "Aventura", "Familiar", "Infantil"],
+    "video_url": "https://archive.org/download/pelicula-completa-en-espanol-castellano-los-cocodrilos-2-360-p/Los%20Cocodrilos%201%20Pel%C3%ADcula%20completa%20en%20Espa%C3%B1ol%28360P%29.mp4"
+  },
+  {
+    "title": "Los Cocodrilos 2",
+    "description": "Continuación de las aventuras de la pandilla. Después de los sucesos del primer film, los miembros de los Cocodrilos se encontrarán nuevamente frente a nuevos retos, peligros, y la necesidad de trabajar en equipo para resolver un nuevo caso.", 
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp2VCBVsyvvERfaPttqOytms48QZbRSgd6dn11N_aq8A&s=10",
+    "genre": ["Película", "Aventura", "Familiar", "Infantil"],
+    "video_url": "https://archive.org/download/pelicula-completa-en-espanol-castellano-los-cocodrilos-2-360-p/Pel%C3%ADcula%20Completa%20En%20Espa%C3%B1ol%20Castellano%20Los%20Cocodrilos%202%28360P%29.mp4"
+  },
+
   
   {
     "title": "Perros Callejeros II",
