@@ -1,5 +1,72 @@
 [
 
+
+{
+  "title": "La Biblia",
+  "description": "Serie que relata relatos bíblicos fundamentales en episodios cortos y significativos, explorando historia, fe y enseñanzas clásicas.",
+  "coverImage": "https://m.media-amazon.com/images/M/MV5BZDlkOTQ5MjYtOGY0ZC00NWU1LThkMjktMTFiZjdkMDE0MDE2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  "genre": ["Religión", "Drama", "Historia"],
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "Episodio 1",
+      "video_url": "https://archive.org/download/MCLBS/01.mp4"
+    },
+    {
+      "episode": 2,
+      "title": "Episodio 2",
+      "video_url": "https://archive.org/download/MCLBS/02.mp4"
+    },
+    {
+      "episode": 3,
+      "title": "Episodio 3",
+      "video_url": "https://archive.org/download/MCLBS/03.mp4"
+    },
+    {
+      "episode": 4,
+      "title": "Episodio 4",
+      "video_url": "https://archive.org/download/MCLBS/04.mp4"
+    },
+    {
+      "episode": 5,
+      "title": "Episodio 5",
+      "video_url": "https://archive.org/download/MCLBS/05.mp4"
+    },
+    {
+      "episode": 6,
+      "title": "Episodio 6",
+      "video_url": "https://archive.org/download/MCLBS/06.mp4"
+    },
+    {
+      "episode": 7,
+      "title": "Episodio 7",
+      "video_url": "https://archive.org/download/MCLBS/07.mp4"
+    },
+    {
+      "episode": 8,
+      "title": "Episodio 8",
+      "video_url": "https://archive.org/download/MCLBS/08.mp4"
+    },
+    {
+      "episode": 9,
+      "title": "Episodio 9",
+      "video_url": "https://archive.org/download/MCLBS/09.mp4"
+    },
+    {
+      "episode": 10,
+      "title": "Episodio 10",
+      "video_url": "https://archive.org/download/MCLBS/10.mp4"
+    }
+  ]
+},
+
+
+
+
+
+
+
+  
 {
   "title": "La Biblia Continúa",
   "description": "Serie que continúa la narrativa bíblica con historias de fe, retos y milagros. Explora los eventos posteriores al ministerio inicial de Jesús, profundizando en las enseñanzas y cómo los personajes enfrentan sus destinos tras Él.",
