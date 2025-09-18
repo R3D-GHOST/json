@@ -1064,7 +1064,7 @@ a {
       <div class="detail-hero">
         <img id="detail-bg" class="detail-bg" src="" alt="">
         <div class="detail-overlay"></div>
-        <button id="detail-close" class="player-close"><i class="fas fa-times"></i></button>
+        <button id="detail-close" class="player-close"><i class="fas fa-arrow-left"></i></button>
       </div>
       <div class="detail-content">
         <div class="detail-header">
@@ -1400,6 +1400,7 @@ function renderHome() {
         ${allData.movies.slice(0, 8).map(movie => `
           <div class="content-card movie" data-url="${movie.video_url}" data-title="${movie.title}">
             <img src="${movie.coverImage || movie.poster || ''}" alt="${movie.title}" class="card-image" loading="lazy">
+            <div class="card-title-overlay">${movie.title}</div>
             <a href="#" class="video-link">
               <div class="play-indicator"><i class="fas fa-play"></i></div>
             </a>
@@ -1424,6 +1425,7 @@ function renderHome() {
         ${allData.series.slice(0, 8).map(series => `
           <div class="content-card series" data-series='${JSON.stringify(series)}'>
             <img src="${series.coverImage || series.poster || ''}" alt="${series.title}" class="card-image" loading="lazy">
+            <div class="card-title-overlay">${series.title}</div>
             <a href="#" class="video-link">
               <div class="play-indicator"><i class="fas fa-play"></i></div>
             </a>
@@ -1535,6 +1537,7 @@ function showDetail(item) {
   const detailPlay = document.getElementById('detail-play');
   const detailFavorite = document.getElementById('detail-favorite');
   const detailEpisodes = document.getElementById('detail-episodes');
+  const detailClose = document.getElementById('detail-close');
   
   detailBg.src = item.coverImage || item.poster || '';
   detailTitle.textContent = item.title;
@@ -1577,6 +1580,15 @@ function showDetail(item) {
     renderEpisodes(item);
   } else {
     detailEpisodes.style.display = 'none';
+  }
+  
+  // Cambiar el botón de cerrar para volver a series si es una serie
+  if (item.episodes) {
+    detailClose.innerHTML = '<i class="fas fa-arrow-left"></i>';
+    detailClose.onclick = () => switchScreen('series');
+  } else {
+    detailClose.innerHTML = '<i class="fas fa-times"></i>';
+    detailClose.onclick = () => switchScreen('home');
   }
   
   switchScreen('detail');
@@ -1663,14 +1675,24 @@ function setupSearch() {
     searchGrid.innerHTML = '';
     results.forEach(item => {
       const card = createContentCard(item);
+      // Mostrar título en el buscador
+      const titleOverlay = card.querySelector('.card-title-overlay');
+      if (titleOverlay) {
+        titleOverlay.style.opacity = '1';
+      } else {
+        const newTitleOverlay = document.createElement('div');
+        newTitleOverlay.className = 'card-title-overlay';
+        newTitleOverlay.textContent = item.title;
+        newTitleOverlay.style.opacity = '1';
+        card.appendChild(newTitleOverlay);
+      }
+      
       card.addEventListener('click', (e) => {
-        if (!item.video_url) {
-          e.preventDefault();
-          searchModal.classList.remove('active');
-          searchInput.value = '';
-          searchGrid.innerHTML = '';
-          showDetail(item);
-        }
+        e.preventDefault();
+        searchModal.classList.remove('active');
+        searchInput.value = '';
+        searchGrid.innerHTML = '';
+        showDetail(item);
       });
       searchGrid.appendChild(card);
     });
