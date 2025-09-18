@@ -5,7 +5,58 @@
 
 
 
+{
+  "title": "Naruto Shippuden Temporada 7 (Español Latino)",
+  "description": "La séptima temporada de Naruto Shippuden continúa con intensos enfrentamientos, revelaciones importantes y el avance de la historia hacia nuevos conflictos.",
+  "coverImage": "https://es.web.img3.acsta.net/pictures/19/08/07/09/33/3815681.jpg",
+  "genre": ["Anime", "Acción", "Aventura", "Shonen"],
+  "episodes": [
+    {
+      "episode": 144,
+      "title": "Naruto Shippuden-144",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-7-espanol-latino/Naruto%20Shippuden-144.mp4"
+    },
+    {
+      "episode": 145,
+      "title": "Naruto Shippuden-145",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-7-espanol-latino/Naroto%20Shippuden-145.mp4"
+    },
+    {
+      "episode": 146,
+      "title": "Naruto Shippuden-146",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-7-espanol-latino/Naroto%20Shippuden-146.mp4"
+    },
+    {
+      "episode": 147,
+      "title": "Naruto Shippuden-147",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-7-espanol-latino/Naroto%20Shippuden-147.mp4"
+    },
+    {
+      "episode": 148,
+      "title": "Naruto Shippuden-148",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-7-espanol-latino/Naroto%20Shippuden-148.mp4"
+    },
+    {
+      "episode": 149,
+      "title": "Naruto Shippuden-149",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-7-espanol-latino/Naroto%20Shippuden-149.mp4"
+    },
+    {
+      "episode": 150,
+      "title": "Naruto Shippuden-150",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-7-espanol-latino/Naroto%20Shippuden-150.mp4"
+    },
+    {
+      "episode": 151,
+      "title": "Naruto Shippuden-151",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-7-espanol-latino/Naroto%20Shippuden-151.mp4"
+    }
+  ]
+},
 
+
+
+  
 
 
 
