@@ -1,6 +1,87 @@
 [
 
 
+
+{
+  "title": "Boku no Hero Academia Temporada 1 (Español Latino)",
+  "description": "En un mundo donde la mayoría de la población tiene poderes especiales llamados Quirks, Izuku Midoriya sueña con ser héroe aunque nació sin uno. Todo cambia cuando conoce a All Might, quien lo selecciona para heredar su poder y entrenar para entrar en la prestigiosa escuela de héroes.",  
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLcmoIo8XPhmUFxiHT9mu2LAzWk1SJzWU13IWrcue_iQ&s=10",
+  "genre": ["Anime", "Acción", "Aventura", "Shonen", "Superhéroes"],
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "Episodio 1",
+      "video_url": "https://archive.org/download/boku-no-hero-academia-latino-s-1-ep-006/Boku%20no%20Hero%20Academia%20Latino%20S1%20-%20EP%20001.mp4"
+    },
+    {
+      "episode": 2,
+      "title": "Episodio 2",
+      "video_url": "https://archive.org/download/boku-no-hero-academia-latino-s-1-ep-006/Boku%20no%20Hero%20Academia%20Latino%20S1%20-%20EP%20002.mp4"
+    },
+    {
+      "episode": 3,
+      "title": "Episodio 3",
+      "video_url": "https://archive.org/download/boku-no-hero-academia-latino-s-1-ep-006/Boku%20no%20Hero%20Academia%20Latino%20S1%20-%20EP%20003.mp4"
+    },
+    {
+      "episode": 4,
+      "title": "Episodio 4",
+      "video_url": "https://archive.org/download/boku-no-hero-academia-latino-s-1-ep-006/Boku%20no%20Hero%20Academia%20Latino%20S1%20-%20EP%20004.mp4"
+    },
+    {
+      "episode": 5,
+      "title": "Episodio 5",
+      "video_url": "https://archive.org/download/boku-no-hero-academia-latino-s-1-ep-006/Boku%20no%20Hero%20Academia%20Latino%20S1%20-%20EP%20005.mp4"
+    },
+    {
+      "episode": 6,
+      "title": "Episodio 6",
+      "video_url": "https://archive.org/download/boku-no-hero-academia-latino-s-1-ep-006/Boku%20no%20Hero%20Academia%20Latino%20S1%20-%20EP%20006.mp4"
+    },
+    {
+      "episode": 7,
+      "title": "Episodio 7",
+      "video_url": "https://archive.org/download/boku-no-hero-academia-latino-s-1-ep-006/Boku%20no%20Hero%20Academia%20Latino%20S1%20-%20EP%20007.mp4"
+    },
+    {
+      "episode": 8,
+      "title": "Episodio 8",
+      "video_url": "https://archive.org/download/boku-no-hero-academia-latino-s-1-ep-006/Boku%20no%20Hero%20Academia%20Latino%20S1%20-%20EP%20008.mp4"
+    },
+    {
+      "episode": 9,
+      "title": "Episodio 9",
+      "video_url": "https://archive.org/download/boku-no-hero-academia-latino-s-1-ep-006/Boku%20no%20Hero%20Academia%20Latino%20S1%20-%20EP%20009.mp4"
+    },
+    {
+      "episode": 10,
+      "title": "Episodio 10",
+      "video_url": "https://archive.org/download/boku-no-hero-academia-latino-s-1-ep-006/Boku%20no%20Hero%20Academia%20Latino%20S1%20-%20EP%2010.mp4"
+    },
+    {
+      "episode": 11,
+      "title": "Episodio 11",
+      "video_url": "https://archive.org/download/boku-no-hero-academia-latino-s-1-ep-006/Boku%20no%20Hero%20Academia%20Latino%20S1%20-%20EP%2011.mp4"
+    },
+    {
+      "episode": 12,
+      "title": "Episodio 12",
+      "video_url": "https://archive.org/download/boku-no-hero-academia-latino-s-1-ep-006/Boku%20no%20Hero Academia Latino S1 - EP 12.mp4"
+    },
+    {
+      "episode": 13,
+      "title": "Episodio 13",
+      "video_url": "https://archive.org/download/boku-no-hero-academia-latino-s-1-ep-006/Boku%20no%20Hero Academia Latino S1 - EP 13.mp4"
+    }
+  ]
+},
+  
+
+
+
+
+
+  
 {
   "title": "La Biblia",
   "description": "Serie que relata relatos bíblicos fundamentales en episodios cortos y significativos, explorando historia, fe y enseñanzas clásicas.",
