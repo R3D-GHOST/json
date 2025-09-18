@@ -1,6 +1,26 @@
 [
 
 
+{
+  "title": "Cyberpunk: Edgerunners",
+  "description": "Serie animada ambientada en el universo de Cyberpunk 2077. Narra la historia de David, un joven que intenta sobrevivir en una ciudad del futuro obsesionada con la tecnología y la modificación corporal, convirtiéndose en un edgerunner: un mercenario fuera de la ley.",
+  "coverImage": "https://m.media-amazon.com/images/M/MV5BM2JkMzM2ZmYtNWU4MS00MjZhLWFhZWUtYWFjYTJkN2RhZDliXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  "genre": ["Anime", "Acción", "Ciencia ficción", "Drama"],
+  "episodes": [
+    {"episode": 1, "title": "Episodio 01", "video_url": "https://archive.org/download/cyberpunk-edgerunners-e-/Cyberpunk%20Edgerunners/Cyberpunk%20Edgerunners%20E01.mp4"},
+    {"episode": 2, "title": "Episodio 02", "video_url": "https://archive.org/download/cyberpunk-edgerunners-e-/Cyberpunk%20Edgerunners/Cyberpunk%20Edgerunners%20E02.mp4"},
+    {"episode": 3, "title": "Episodio 03", "video_url": "https://archive.org/download/cyberpunk-edgerunners-e-/Cyberpunk%20Edgerunners/Cyberpunk%20Edgerunners%20E03.mp4"},
+    {"episode": 4, "title": "Episodio 04", "video_url": "https://archive.org/download/cyberpunk-edgerunners-e-/Cyberpunk%20Edgerunners/Cyberpunk%20Edgerunners%20E04.mp4"},
+    {"episode": 5, "title": "Episodio 05", "video_url": "https://archive.org/download/cyberpunk-edgerunners-e-/Cyberpunk%20Edgerunners/Cyberpunk%20Edgerunners%20E05.mp4"},
+    {"episode": 6, "title": "Episodio 06", "video_url": "https://archive.org/download/cyberpunk-edgerunners-e-/Cyberpunk%20Edgerunners/Cyberpunk%20Edgerunners%20E06.mp4"},
+    {"episode": 7, "title": "Episodio 07", "video_url": "https://archive.org/download/cyberpunk-edgerunners-e-/Cyberpunk%20Edgerunners/Cyberpunk%20Edgerunners%20E07.mp4"},
+    {"episode": 8, "title": "Episodio 08", "video_url": "https://archive.org/download/cyberpunk-edgerunners-e-/Cyberpunk%20Edgerunners/Cyberpunk%20Edgerunners%20E08.mp4"},
+    {"episode": 9, "title": "Episodio 09", "video_url": "https://archive.org/download/cyberpunk-edgerunners-e-/Cyberpunk%20Edgerunners/Cyberpunk%20Edgerunners%20E09.mp4"},
+    {"episode": 10, "title": "Episodio 10", "video_url": "https://archive.org/download/cyberpunk-edgerunners-e-/Cyberpunk%20Edgerunners/Cyberpunk%20Edgerunners%20E10.mp4"}
+  ]
+},
+
+  
 
   {
     "title": "Barbie: Aventura de Princesas",
