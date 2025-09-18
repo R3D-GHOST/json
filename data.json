@@ -2,7 +2,14 @@
 
 
 
-
+  {
+    "title": "Barbie: Aventura de Princesas",
+    "description": "Barbie se embarca en una mágica aventura real llena de amistad, música y descubrimientos, mientras aprende lo que significa ser una verdadera princesa.",
+    "coverImage": "https://m.media-amazon.com/images/M/MV5BNmRkYWJjY2QtNmRlOS00MTFhLWFjNjUtYTgyYzM1ZjNiZjEwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "genre": ["Película", "Animación", "Infantil", "Musical", "Fantástico"],
+    "video_url": "https://ia903409.us.archive.org/32/items/barbie-aventura-de-princesas/Barbie%20-%20Aventura%20De%20Princesas.mp4"
+  },
+  
 
 
 
