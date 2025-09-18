@@ -1,5 +1,73 @@
 [
 
+{
+  "title": "La Biblia Continúa - Temporada 1",
+  "description": "Serie que continúa la narrativa bíblica con historias de fe, retos y milagros. Explora los eventos posteriores al ministerio inicial de Jesús, profundizando en las enseñanzas y cómo los personajes enfrentan sus destinos tras Él.",
+  "coverImage": "https://images.justwatch.com/poster/242850705/s332/temporada-1",
+  "genre": ["Religión", "Drama", "Historia", "Serie"],
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "Episodio 1",
+      "video_url": "https://archive.org/download/MCLBCS/01.mp4"
+    },
+    {
+      "episode": 2,
+      "title": "Episodio 2",
+      "video_url": "https://archive.org/download/MCLBCS/02.mp4"
+    },
+    {
+      "episode": 3,
+      "title": "Episodio 3",
+      "video_url": "https://archive.org/download/MCLBCS/03.mp4"
+    },
+    {
+      "episode": 4,
+      "title": "Episodio 4",
+      "video_url": "https://archive.org/download/MCLBCS/04.mp4"
+    },
+    {
+      "episode": 5,
+      "title": "Episodio 5",
+      "video_url": "https://archive.org/download/MCLBCS/05.mp4"
+    },
+    {
+      "episode": 6,
+      "title": "Episodio 6",
+      "video_url": "https://archive.org/download/MCLBCS/06.mp4"
+    },
+    {
+      "episode": 7,
+      "title": "Episodio 7",
+      "video_url": "https://archive.org/download/MCLBCS/07.mp4"
+    },
+    {
+      "episode": 8,
+      "title": "Episodio 8",
+      "video_url": "https://archive.org/download/MCLBCS/08.mp4"
+    },
+    {
+      "episode": 9,
+      "title": "Episodio 9",
+      "video_url": "https://archive.org/download/MCLBCS/09.mp4"
+    },
+    {
+      "episode": 10,
+      "title": "Episodio 10",
+      "video_url": "https://archive.org/download/MCLBCS/10.mp4"
+    },
+    {
+      "episode": 11,
+      "title": "Episodio 11",
+      "video_url": "https://archive.org/download/MCLBCS/11.mp4"
+    },
+    {
+      "episode": 12,
+      "title": "Episodio 12",
+      "video_url": "https://archive.org/download/MCLBCS/12.mp4"
+    }
+  ]
+},
 
 
 
