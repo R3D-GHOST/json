@@ -4,7 +4,7 @@
 
 
 #EXTINF:-1 tvg-logo="https://wallpapers.com/images/hd/bull-pictures-1920-x-1200-j97ymvuceslt5219.jpg" group-title="En Directo",  Toros HORA:18:00
-https://cdnapisec.kaltura.com/p/2288691/sp/228869100/playManifest/entryId/1_sqa9madm/protocol/https/format/applehttp/a.m3u8
+#https://cdnapisec.kaltura.com/p/2288691/sp/228869100/playManifest/entryId/1_sqa9madm/protocol/https/format/applehttp/a.m3u8
 
 
 
@@ -23,8 +23,8 @@ https://jmp2.uk/stvp-ES500005BP
 
 
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="En Directo",
-
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGEjhPGg0fMmEKXRt6j60Ej7l3n8DXINRIl4njGHn3kw&s=10" group-title="En Directo", M+ La liga de Campeones 
+https://essay-sound-myrtle-next.trycloudflare.com/hls/stream.m3u8
 
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="En Directo", 
