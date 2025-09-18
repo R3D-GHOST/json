@@ -1049,6 +1049,7 @@ a {
       <a href="#" class="nav-item active" data-screen="home">Inicio</a>
       <a href="#" class="nav-item" data-screen="movies">Películas</a>
       <a href="#" class="nav-item" data-screen="series">Series</a>
+      <a href="#" class="nav-item" data-screen="channels">Canales</a>
       <a href="#" class="nav-item" data-screen="favorites">Mi Lista</a>
     </nav>
     <div class="header-actions">
@@ -1100,6 +1101,16 @@ a {
       <h2 class="section-title">Series</h2>
       <div id="series-content" class="content-grid">
         <!-- Series se cargarán aquí -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Channels Screen -->
+  <div id="channels" class="screen">
+    <div class="content-section">
+      <h2 class="section-title">Canales de TV</h2>
+      <div id="channels-content" class="content-grid">
+        <!-- Canales se cargarán aquí -->
       </div>
     </div>
   </div>
@@ -1180,11 +1191,20 @@ a {
     <i class="fas fa-tv nav-icon"></i>
     <span class="nav-label">Series</span>
   </a>
+  <a href="#" class="nav-tab" data-screen="channels">
+    <i class="fas fa-broadcast-tower nav-icon"></i>
+    <span class="nav-label">Canales</span>
+  </a>
   <a href="#" class="nav-tab" data-screen="favorites">
     <i class="fas fa-star nav-icon"></i>
     <span class="nav-label">Mi Lista</span>
   </a>
 </nav>
+
+<!-- Agregar el reproductor de video oculto -->
+<div id="player" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: #000; z-index: 9999; cursor: pointer;">
+  <video id="video-player" style="width: 100%; height: 100%; object-fit: contain;" controls></video>
+</div>
 
 <script>
 // Service Worker Registration
@@ -1306,6 +1326,56 @@ async function loadData() {
   }
 }
 
+async function loadChannels() {
+  try {
+    const response = await fetch('https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/toro.m3u8');
+    const content = await response.text();
+    
+    // Parse simple M3U8 content
+    const channels = [];
+    const lines = content.split('\n');
+    let currentChannel = null;
+    
+    for (let i = 0; i < lines.length; i++) {
+      const line = lines[i].trim();
+      
+      if (line.startsWith('#EXTINF:')) {
+        // Extract name from line
+        const nameMatch = line.match(/,(.+)$/);
+        const name = nameMatch ? nameMatch[1].trim() : 'Canal ' + (channels.length + 1);
+        
+        // Extract logo if present
+        const logoMatch = line.match(/tvg-logo="([^"]+)"/);
+        
+        currentChannel = {
+          title: name,
+          name: name,
+          logo: logoMatch ? logoMatch[1] : null
+        };
+        
+      } else if (line && !line.startsWith('#') && line.includes('http') && currentChannel) {
+        // This is the URL
+        currentChannel.url = line;
+        
+        // Generate poster if no logo
+        if (!currentChannel.logo) {
+          currentChannel.poster = `https://via.placeholder.com/300x400/9333ea/ffffff?text=${encodeURIComponent(currentChannel.name.substring(0, 15))}`;
+        } else {
+          currentChannel.poster = currentChannel.logo;
+        }
+        
+        channels.push(currentChannel);
+        currentChannel = null;
+      }
+    }
+    
+    return channels;
+  } catch (error) {
+    console.error('Error loading channels:', error);
+    return [];
+  }
+}
+
 // Hero Section
 function setupHero() {
   heroFeatured = [...allData.movies, ...allData.series].slice(0, 5);
@@ -1350,66 +1420,51 @@ function createContentCard(item) {
   
   if (item.episodes) {
     card.classList.add('series');
+  } else if (item.url) {
+    card.classList.add('channel');
   } else {
     card.classList.add('movie');
   }
 
   const img = document.createElement('img');
   img.className = 'card-image';
-  img.src = item.coverImage || item.poster || '';
-  img.alt = item.title;
+  img.src = item.poster || item.coverImage || item.logo || '';
+  img.alt = item.title || item.name;
   img.loading = 'lazy';
 
-  // Crear enlace <a> para reproducción
+  // Title overlay
+  const titleOverlay = document.createElement('div');
+  titleOverlay.className = 'card-title-overlay';
+  titleOverlay.textContent = item.title || item.name;
+
+  // Video link
   const videoLink = document.createElement('a');
   videoLink.className = 'video-link';
   videoLink.href = '#';
   videoLink.innerHTML = '<div class="play-indicator"><i class="fas fa-play"></i></div>';
   
-  // Agregar barra de progreso
-  const progressBar = document.createElement('div');
-  progressBar.className = 'progress-bar';
-  const progressFill = document.createElement('div');
-  progressFill.className = 'progress-fill';
-  progressBar.appendChild(progressFill);
-  
-  // Verificar progreso guardado
-  const progressKey = `progress_${item.title}_0`;
-  const savedProgress = localStorage.getItem(progressKey);
-  if (savedProgress) {
-    const progressData = JSON.parse(savedProgress);
-    if (progressData.progress) {
-      progressFill.style.width = `${progressData.progress}%`;
-    }
-  }
-  
   videoLink.onclick = (e) => {
     e.preventDefault();
-    if (item.video_url) {
-      openVideoLink(item.video_url, item.title);
-    } else {
+    if (item.url) {
+      playVideo(item.url);
+    } else if (item.video_url) {
+      playVideo(item.video_url);
+    } else if (item.episodes) {
       showDetail(item);
     }
   };
 
-  if (item.episodes && item.season) {
-    const seasonIndicator = document.createElement('div');
-    seasonIndicator.className = 'season-indicator';
-    seasonIndicator.textContent = `Temporada ${item.season}`;
-    card.appendChild(seasonIndicator);
-  }
-
-  // Agregar botón de retroceso para series
-  if (item.episodes) {
-    const seriesBackBtn = document.createElement('button');
-    seriesBackBtn.className = 'series-back-btn';
-    seriesBackBtn.innerHTML = '<i class="fas fa-arrow-left"></i>';
-    card.appendChild(seriesBackBtn);
+  // Live indicator for channels
+  if (item.url) {
+    const channelIndicator = document.createElement('div');
+    channelIndicator.className = 'channel-indicator';
+    channelIndicator.textContent = 'EN VIVO';
+    card.appendChild(channelIndicator);
   }
 
   card.appendChild(img);
+  card.appendChild(titleOverlay);
   card.appendChild(videoLink);
-  card.appendChild(progressBar);
   return card;
 }
 
@@ -1523,6 +1578,21 @@ function renderHome() {
   });
 }
 
+function renderChannels() {
+  const container = document.getElementById('channels-content');
+  container.innerHTML = '';
+  
+  if (channels.length === 0) {
+    container.innerHTML = '<p style="text-align: center; color: var(--text-secondary); padding: 40px;">No se encontraron canales</p>';
+    return;
+  }
+  
+  channels.forEach(channel => {
+    const card = createContentCard(channel);
+    container.appendChild(card);
+  });
+}
+
 // Obtener porcentaje de progreso
 function getProgressPercentage(itemId, episodeIndex) {
   const progressKey = `progress_${itemId}_${episodeIndex}`;
@@ -1584,6 +1654,15 @@ function openVideoLink(url, itemId, episodeIndex = 0) {
   setTimeout(() => {
     tempVideo.remove();
   }, 1000);
+}
+
+function playVideo(url) {
+  // Abrir enlace en nueva pestaña
+  const link = document.createElement('a');
+  link.href = url;
+  link.target = '_blank';
+  link.rel = 'noopener noreferrer';
+  link.click();
 }
 
 // Detail Screen
@@ -1787,9 +1866,11 @@ document.getElementById('detail-close').onclick = () => switchScreen('home');
 // Initialization
 async function init() {
   await loadData();
+  channels = await loadChannels();
   setupHero();
   setupSearch();
   renderHome();
+  renderChannels();
   
   setTimeout(() => {
     loader.classList.add('hidden');
