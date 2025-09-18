@@ -1103,6 +1103,33 @@ a {
   padding: 4px;
   margin-left: 8px;
 }
+
+/* Ocultar controles originales del video */
+video::-webkit-media-controls {
+  display: none !important;
+}
+
+video::-webkit-media-controls-panel {
+  display: none !important;
+}
+
+video::-webkit-media-controls-enclosure {
+  display: none !important;
+}
+
+video::-moz-media-controls {
+  display: none !important;
+}
+
+video::-ms-media-controls {
+  display: none !important;
+}
+
+video {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
 </style>
 </head>
 <body>
@@ -1206,7 +1233,7 @@ a {
   </div>
 
   <div id="player" class="player-container" style="display: none;">
-    <video id="video-player" class="video-player" controls></video>
+    <video id="video-player" class="video-player"></video>
     <button id="player-close" class="player-close"><i class="fas fa-times"></i></button>
     <div id="player-controls" class="player-controls">
       <button id="player-play-pause" class="player-btn"><i class="fas fa-play"></i></button>
@@ -1383,7 +1410,7 @@ function setupHero() {
   document.getElementById('hero-play').onclick = () => {
     const item = heroFeatured[currentHeroIndex];
     if (item.video_url) {
-      playVideo(item.video_url);
+      playVideo(item.video_url, item.title);
     } else if (item.episodes) {
       showDetail(item);
     }
@@ -1499,7 +1526,7 @@ function renderHome() {
       </div>
       <div class="content-grid">
         ${allData.series.slice(0, 8).map(series => `
-          <div class="content-card series" data-series='${JSON.stringify(series).replace(/"/g, '"')}'>
+          <div class="content-card series" data-series='${JSON.stringify(series)}'>
             <img src="${series.coverImage || series.poster || ''}" alt="${series.title}" class="card-image" loading="lazy">
             ${series.season ? `<div class="season-indicator">Temporada ${series.season}</div>` : ''}
           </div>
@@ -1527,7 +1554,7 @@ function renderHome() {
   });
 }
 
-// Video Player
+// Video Player con guardado de progreso
 function playVideo(url, itemId = null, episodeIndex = null) {
   const player = document.getElementById('player');
   const video = document.getElementById('video-player');
@@ -1549,9 +1576,27 @@ function playVideo(url, itemId = null, episodeIndex = null) {
       video.currentTime = savedTime;
     }
     video.play();
+    // Activar pantalla completa automáticamente
+    enterFullscreen();
   };
   
   setupEnhancedPlayerControls(itemId, episodeIndex);
+}
+
+function enterFullscreen() {
+  const player = document.getElementById('player');
+  
+  if (player.requestFullscreen) {
+    player.requestFullscreen().catch(err => {
+      console.log('Error al entrar en pantalla completa:', err);
+    });
+  } else if (player.webkitRequestFullscreen) {
+    player.webkitRequestFullscreen();
+  } else if (player.mozRequestFullScreen) {
+    player.mozRequestFullScreen();
+  } else if (player.msRequestFullscreen) {
+    player.msRequestFullscreen();
+  }
 }
 
 function setupEnhancedPlayerControls(itemId = null, episodeIndex = null) {
@@ -1618,6 +1663,7 @@ function setupEnhancedPlayerControls(itemId = null, episodeIndex = null) {
     }
   };
   
+  // Click en el video para play/pause
   video.onclick = () => {
     if (video.paused) {
       video.play();
@@ -1645,8 +1691,14 @@ function setupEnhancedPlayerControls(itemId = null, episodeIndex = null) {
   };
   
   fullscreenBtn.onclick = () => {
-    if (video.requestFullscreen) {
-      video.requestFullscreen();
+    if (document.exitFullscreen) {
+      document.exitFullscreen();
+    } else if (document.webkitExitFullscreen) {
+      document.webkitExitFullscreen();
+    } else if (document.mozCancelFullScreen) {
+      document.mozCancelFullScreen();
+    } else if (document.msExitFullscreen) {
+      document.msExitFullscreen();
     }
   };
   
