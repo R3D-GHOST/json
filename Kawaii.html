@@ -616,7 +616,7 @@ a {
   opacity: 1;
 }
 
-/* --- Player Mejorado --- */
+/* --- Player Mejorado con Autoplay --- */
 .player-container {
   position: fixed;
   top: 0;
@@ -652,6 +652,12 @@ a {
   font-size: 24px;
   z-index: 10;
   transition: all 0.3s ease;
+  opacity: 1;
+}
+
+.player-close.hidden {
+  opacity: 0;
+  pointer-events: none;
 }
 
 .player-close:hover {
@@ -675,6 +681,7 @@ a {
 
 .player-controls.hidden {
   opacity: 0;
+  pointer-events: none;
 }
 
 .player-btn {
@@ -741,48 +748,31 @@ a {
   font-weight: 500;
 }
 
-/* --- Controles de volumen --- */
-.player-volume-container {
-  position: relative;
+/* Ocultar controles originales del video */
+video::-webkit-media-controls {
+  display: none !important;
 }
 
-.player-volume-slider {
-  position: absolute;
-  bottom: 60px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 40px;
-  height: 120px;
-  background: rgba(0,0,0,0.9);
-  border-radius: 20px;
-  padding: 20px 10px;
-  display: none;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
+video::-webkit-media-controls-panel {
+  display: none !important;
 }
 
-.player-volume-container:hover .player-volume-slider {
-  display: flex;
+video::-webkit-media-controls-enclosure {
+  display: none !important;
 }
 
-.volume-bar {
-  width: 6px;
-  height: 80px;
-  background: rgba(255,255,255,0.3);
-  border-radius: 3px;
-  position: relative;
-  cursor: pointer;
+video::-moz-media-controls {
+  display: none !important;
 }
 
-.volume-fill {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background: var(--accent-purple);
-  border-radius: 3px;
-  transition: height 0.2s ease;
+video::-ms-media-controls {
+  display: none !important;
+}
+
+video {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 /* --- Search Modal --- */
@@ -958,12 +948,6 @@ a {
   .player-time {
     font-size: 14px;
   }
-  
-  .player-close {
-    width: 40px;
-    height: 40px;
-    font-size: 20px;
-  }
 }
 
 @media (max-width: 480px) {
@@ -1103,33 +1087,6 @@ a {
   padding: 4px;
   margin-left: 8px;
 }
-
-/* Ocultar controles originales del video */
-video::-webkit-media-controls {
-  display: none !important;
-}
-
-video::-webkit-media-controls-panel {
-  display: none !important;
-}
-
-video::-webkit-media-controls-enclosure {
-  display: none !important;
-}
-
-video::-moz-media-controls {
-  display: none !important;
-}
-
-video::-ms-media-controls {
-  display: none !important;
-}
-
-video {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-}
 </style>
 </head>
 <body>
@@ -1233,7 +1190,8 @@ video {
   </div>
 
   <div id="player" class="player-container" style="display: none;">
-    <video id="video-player" class="video-player"></video>
+    <video id="video-player" class="video-player" autoplay></video>
+    <button id="player-close" class="player-close"><i class="fas fa-times"></i></button>
     <div id="player-controls" class="player-controls">
       <button id="player-play-pause" class="player-btn"><i class="fas fa-play"></i></button>
       <div class="player-progress">
@@ -1544,10 +1502,12 @@ function renderHome() {
   });
 }
 
-// Video Player con guardado de progreso
+// Video Player con Autoplay y controles que desaparecen
 function playVideo(url, itemId = null, episodeIndex = null) {
   const player = document.getElementById('player');
   const video = document.getElementById('video-player');
+  const closeBtn = document.getElementById('player-close');
+  const controls = document.getElementById('player-controls');
   
   // Obtener progreso guardado
   const progressKey = itemId ? `progress_${itemId}_${episodeIndex || 0}` : null;
@@ -1565,36 +1525,21 @@ function playVideo(url, itemId = null, episodeIndex = null) {
     if (savedTime > 0 && savedTime < video.duration) {
       video.currentTime = savedTime;
     }
-    video.play();
-    // Activar pantalla completa automáticamente
-    enterFullscreen();
+    video.play().catch(e => {
+      console.log('Autoplay bloqueado:', e);
+      // Si el autoplay falla, mostrar controles
+      showControls();
+    });
   };
   
-  setupEnhancedPlayerControls(itemId, episodeIndex);
+  setupPlayerControlsWithAutoHide(itemId, episodeIndex);
 }
 
-function enterFullscreen() {
-  const player = document.getElementById('player');
-  
-  if (player.requestFullscreen) {
-    player.requestFullscreen().catch(err => {
-      console.log('Error al entrar en pantalla completa:', err);
-    });
-  } else if (player.webkitRequestFullscreen) {
-    player.webkitRequestFullscreen();
-  } else if (player.mozRequestFullScreen) {
-    player.mozRequestFullScreen();
-  } else if (player.msRequestFullscreen) {
-    player.msRequestFullscreen();
-  }
-}
-
-function setupEnhancedPlayerControls(itemId = null, episodeIndex = null) {
+function setupPlayerControlsWithAutoHide(itemId = null, episodeIndex = null) {
   const video = document.getElementById('video-player');
   const playPauseBtn = document.getElementById('player-play-pause');
   const progressBar = document.getElementById('player-progress-bar');
   const timeDisplay = document.getElementById('player-time');
-  const fullscreenBtn = document.getElementById('player-fullscreen');
   const closeBtn = document.getElementById('player-close');
   const controls = document.getElementById('player-controls');
   const player = document.getElementById('player');
@@ -1619,13 +1564,15 @@ function setupEnhancedPlayerControls(itemId = null, episodeIndex = null) {
   }
   
   function showControls() {
-    controls.style.opacity = '1';
+    controls.classList.remove('hidden');
+    closeBtn.classList.remove('hidden');
     clearTimeout(hideControlsTimeout);
     hideControlsTimeout = setTimeout(() => {
       if (!video.paused) {
-        controls.style.opacity = '0';
+        controls.classList.add('hidden');
+        closeBtn.classList.add('hidden');
       }
-    }, 3000);
+    }, 5000);
   }
   
   // Guardar progreso cada 5 segundos
@@ -1678,26 +1625,23 @@ function setupEnhancedPlayerControls(itemId = null, episodeIndex = null) {
     video.src = '';
     player.style.display = 'none';
     clearTimeout(hideControlsTimeout);
-  };
-  
-  fullscreenBtn.onclick = () => {
-    if (document.exitFullscreen) {
-      document.exitFullscreen();
-    } else if (document.webkitExitFullscreen) {
-      document.webkitExitFullscreen();
-    } else if (document.mozCancelFullScreen) {
-      document.mozCancelFullScreen();
-    } else if (document.msExitFullscreen) {
-      document.msExitFullscreen();
-    }
+    
+    // Reset classes
+    controls.classList.remove('hidden');
+    closeBtn.classList.remove('hidden');
   };
   
   player.onmousemove = () => {
     showControls();
   };
   
+  video.onplay = () => {
+    showControls();
+  };
+  
   video.onended = () => {
-    controls.style.opacity = '1';
+    controls.classList.remove('hidden');
+    closeBtn.classList.remove('hidden');
     updatePlayPauseIcon();
     clearInterval(saveInterval);
     if (progressKey) {
