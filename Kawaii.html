@@ -1,23 +1,28 @@
+
 <!doctype html>
 <html lang="es">
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/>
-<title>Kawaii Play</title>
-<meta name="theme-color" content="#1a1a2e">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+<title>Kawaii Play v2</title>
+<meta name="theme-color" content="#0a0a0a">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <style>
 :root {
-  --primary-bg: linear-gradient(135deg, #fce4ec 0%, #e1f5fe 100%);
-  --secondary-bg: #ffffff;
-  --card-bg: #ffffff;
-  --text-primary: #1565c0;
-  --text-secondary: #f06292;
-  --accent-pink: #f06292;
-  --accent-blue: #2196f3;
-  --accent-purple: #ba68c8;
-  --border-color: #fce4ec;
-  --watched-color: #4caf50;
+  --primary-bg: #0a0a0a;
+  --secondary-bg: #141414;
+  --card-bg: #1a1a1a;
+  --text-primary: #ffffff;
+  --text-secondary: #a0a0a0;
+  --accent-purple: #9333ea;
+  --accent-pink: #ec4899;
+  --accent-blue: #3b82f6;
+  --border-color: #2a2a2a;
+  --watched-color: #10b981;
+  --gradient-1: linear-gradient(135deg, #9333ea 0%, #ec4899 100%);
+  --gradient-2: linear-gradient(135deg, #3b82f6 0%, #9333ea 100%);
+  --glass-bg: rgba(26, 26, 26, 0.8);
 }
 
 * {
@@ -27,7 +32,7 @@
 
 body {
   margin: 0;
-  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   background: var(--primary-bg);
   color: var(--text-primary);
   overscroll-behavior-y: contain;
@@ -50,8 +55,8 @@ body {
 .loader {
   width: 60px;
   height: 60px;
-  border: 3px solid rgba(255, 255, 255, 0.3);
-  border-top: 3px solid var(--accent-pink);
+  border: 3px solid rgba(147, 51, 234, 0.3);
+  border-top: 3px solid var(--accent-purple);
   border-radius: 50%;
   animation: spin 1s linear infinite;
 }
@@ -72,10 +77,11 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  background: linear-gradient(to bottom, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0) 100%);
+  background: linear-gradient(to bottom, rgba(10, 10, 10, 0.95) 0%, rgba(10, 10, 10, 0) 100%);
   padding: 16px 20px;
   z-index: 100;
   transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
 }
 
 .header-content {
@@ -87,10 +93,10 @@ body {
 }
 
 .logo {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
   font-size: 28px;
   font-weight: 700;
-  background: linear-gradient(135deg, var(--accent-pink) 0%, var(--accent-blue) 100%);
+  background: var(--gradient-1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -125,7 +131,7 @@ body {
   left: 0;
   right: 0;
   height: 2px;
-  background: var(--accent-pink);
+  background: var(--accent-purple);
 }
 
 .header-actions {
@@ -135,7 +141,7 @@ body {
 }
 
 .header-btn {
-  background: rgba(255, 255, 255, 0.1);
+  background: var(--glass-bg);
   border: none;
   border-radius: 50%;
   width: 40px;
@@ -146,10 +152,11 @@ body {
   cursor: pointer;
   transition: all 0.2s ease;
   color: var(--text-primary);
+  backdrop-filter: blur(10px);
 }
 
 .header-btn:hover {
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(147, 51, 234, 0.2);
   transform: scale(1.1);
 }
 
@@ -191,6 +198,7 @@ body {
   background-size: cover;
   background-position: center;
   transition: transform 0.8s ease;
+  filter: brightness(0.4);
 }
 
 .hero-overlay {
@@ -201,8 +209,8 @@ body {
   bottom: 0;
   background: linear-gradient(
     to bottom,
-    rgba(0, 0, 0, 0.3) 0%,
-    rgba(0, 0, 0, 0.7) 50%,
+    transparent 0%,
+    rgba(0, 0, 0, 0.5) 50%,
     rgba(0, 0, 0, 0.9) 100%
   );
 }
@@ -216,19 +224,18 @@ body {
 }
 
 .hero-title {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
   font-size: 4rem;
   font-weight: 700;
   margin: 0 0 20px 0;
   text-shadow: 2px 2px 20px rgba(0,0,0,0.8);
   line-height: 1.1;
-  background: linear-gradient(135deg, #ffffff 0%, #fce4ec 100%);
+  background: linear-gradient(135deg, #ffffff 0%, #ec4899 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 
-/* Ocultar el texto azul del header */
 .hero-description {
   display: none;
 }
@@ -255,24 +262,24 @@ body {
 }
 
 .hero-btn-primary {
-  background: var(--accent-pink);
+  background: var(--gradient-1);
   color: white;
 }
 
 .hero-btn-primary:hover {
-  background: #f40612;
   transform: scale(1.05);
+  box-shadow: 0 10px 30px rgba(147, 51, 234, 0.3);
 }
 
 .hero-btn-secondary {
-  background: rgba(255, 255, 255, 0.2);
+  background: var(--glass-bg);
   color: white;
   backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid var(--border-color);
 }
 
 .hero-btn-secondary:hover {
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.1);
 }
 
 /* --- Genre Navigation --- */
@@ -304,10 +311,11 @@ body {
 
 .genre-item:hover,
 .genre-item.active {
-  background: var(--accent-pink);
+  background: var(--accent-purple);
   color: white;
-  border-color: var(--accent-pink);
+  border-color: var(--accent-purple);
   transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(147, 51, 234, 0.3);
 }
 
 /* --- Content Sections --- */
@@ -335,21 +343,6 @@ body {
   font-size: 14px;
 }
 
-.content-row {
-  display: flex;
-  gap: 8px;
-  overflow-x: auto;
-  scroll-behavior: smooth;
-  padding: 10px 0;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
-
-.content-row::-webkit-scrollbar {
-  display: none;
-}
-
-/* Add these new styles */
 .content-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
@@ -358,7 +351,7 @@ body {
 }
 
 .card {
-  aspect-ratio: 3/4; /* Portrait ratio */
+  aspect-ratio: 3/4;
   background: var(--card-bg);
   border-radius: 8px;
   cursor: pointer;
@@ -374,18 +367,15 @@ body {
   display: block;
 }
 
-/* Remove title from cards */
 .card h3 {
   display: none;
 }
 
-/* Remove text decoration from all links */
 a {
   text-decoration: none;
   color: inherit;
 }
 
-/* Ensure posters are the only thing visible */
 .row {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
@@ -393,20 +383,17 @@ a {
   padding: 10px 20px;
 }
 
-/* Hide episode descriptions and other text overlays */
 .episode-description,
 .card-overlay,
 .card-meta {
   display: none;
 }
 
-/* Remove decoration from navigation */
 .nav-link,
 .nav-item {
   text-decoration: none;
 }
 
-/* Ensure content cards only show images */
 .content-card {
   display: block;
   position: relative;
@@ -424,13 +411,12 @@ a {
   display: none;
 }
 
-/* Add season indicator styles */
 .season-indicator {
   position: absolute;
   top: -8px;
   left: 50%;
   transform: translateX(-50%);
-  background: linear-gradient(135deg, var(--accent-pink) 0%, var(--accent-blue) 100%);
+  background: var(--gradient-1);
   color: white;
   padding: 4px 12px;
   border-radius: 16px;
@@ -446,13 +432,11 @@ a {
   opacity: 1;
 }
 
-/* Adjust card positioning to accommodate season indicator */
 .content-card {
   position: relative;
   margin-top: 12px;
 }
 
-/* Ensure season indicator appears on grid layouts */
 .content-grid .season-indicator,
 .search-grid .season-indicator,
 #movies-content .season-indicator,
@@ -461,7 +445,6 @@ a {
   display: block !important;
 }
 
-/* Hide season indicator for movies */
 .content-card.movie .season-indicator {
   display: none !important;
 }
@@ -526,6 +509,7 @@ a {
   font-weight: 700;
   margin: 0 0 20px 0;
   line-height: 1.2;
+  color: var(--text-primary);
 }
 
 .detail-meta {
@@ -565,13 +549,13 @@ a {
 }
 
 .action-btn-primary {
-  background: var(--accent-pink);
+  background: var(--gradient-1);
   color: white;
 }
 
 .action-btn-primary:hover {
-  background: #f40612;
   transform: scale(1.05);
+  box-shadow: 0 10px 30px rgba(147, 51, 234, 0.3);
 }
 
 .action-btn-secondary {
@@ -582,7 +566,7 @@ a {
 
 .action-btn-secondary:hover {
   background: var(--secondary-bg);
-  border-color: var(--accent-pink);
+  border-color: var(--accent-purple);
 }
 
 .detail-description {
@@ -611,12 +595,14 @@ a {
   cursor: pointer;
   transition: all 0.2s ease;
   border: 1px solid var(--border-color);
+  position: relative;
 }
 
 .episode-card:hover {
   background: var(--secondary-bg);
-  border-color: var(--accent-pink);
+  border-color: var(--accent-purple);
   transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(147, 51, 234, 0.2);
 }
 
 .episode-header {
@@ -629,7 +615,7 @@ a {
 .episode-number {
   font-size: 14px;
   font-weight: 600;
-  color: var(--accent-pink);
+  color: var(--accent-purple);
 }
 
 .episode-duration {
@@ -641,6 +627,22 @@ a {
   font-size: 16px;
   font-weight: 600;
   margin: 0 0 8px 0;
+}
+
+.episode-indicator {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 8px;
+  height: 8px;
+  background: var(--watched-color);
+  border-radius: 50%;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.episode-card.watched .episode-indicator {
+  opacity: 1;
 }
 
 /* --- Player --- */
@@ -661,7 +663,7 @@ a {
   position: absolute;
   top: 20px;
   right: 20px;
-  background: rgba(255,255,255,0.2);
+  background: var(--accent-purple);
   border: none;
   color: white;
   width: 40px;
@@ -728,7 +730,7 @@ a {
 }
 
 .search-input:focus {
-  border-color: var(--accent-pink);
+  border-color: var(--accent-purple);
 }
 
 .search-results {
@@ -772,7 +774,7 @@ a {
 }
 
 .nav-tab.active {
-  color: var(--accent-pink);
+  color: var(--accent-purple);
 }
 
 .nav-tab:hover {
@@ -780,7 +782,7 @@ a {
 }
 
 .nav-icon {
-  font-size: 24px;
+  font-size: 20px;
   margin-bottom: 4px;
 }
 
@@ -818,9 +820,15 @@ a {
     padding-right: 20px;
   }
   
-  .content-row {
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  .content-grid {
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
     gap: 15px;
+  }
+  
+  .card-title-overlay {
+    font-size: 13px;
+    padding: 35px 10px 14px;
+    min-height: 55px;
   }
   
   .detail-header {
@@ -847,6 +855,17 @@ a {
   .hero-btn {
     width: 100%;
     justify-content: center;
+  }
+  
+  .content-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 12px;
+  }
+  
+  .card-title-overlay {
+    font-size: 12px;
+    padding: 30px 8px 12px;
+    min-height: 50px;
   }
 }
 
@@ -879,7 +898,7 @@ a {
       <a href="#" class="nav-item" data-screen="favorites">Mi Lista</a>
     </nav>
     <div class="header-actions">
-      <button id="search-btn" class="header-btn">🔍</button>
+      <button id="search-btn" class="header-btn"><i class="fas fa-search"></i></button>
     </div>
   </div>
 </header>
@@ -895,11 +914,11 @@ a {
         <p id="hero-description" class="hero-description"></p>
         <div class="hero-actions">
           <a id="hero-play" class="hero-btn hero-btn-primary">
-            <span>▶</span>
+            <i class="fas fa-play"></i>
             <span>Reproducir</span>
           </a>
           <a id="hero-info" class="hero-btn hero-btn-secondary">
-            <span>ℹ</span>
+            <i class="fas fa-info-circle"></i>
             <span>Más información</span>
           </a>
         </div>
@@ -947,7 +966,7 @@ a {
       <div class="detail-hero">
         <img id="detail-bg" class="detail-bg" src="" alt="">
         <div class="detail-overlay"></div>
-        <button id="detail-close" class="player-close">✕</button>
+        <button id="detail-close" class="player-close"><i class="fas fa-times"></i></button>
       </div>
       <div class="detail-content">
         <div class="detail-header">
@@ -961,11 +980,11 @@ a {
             </div>
             <div class="detail-actions">
               <a id="detail-play" class="action-btn action-btn-primary">
-                <span>▶</span>
+                <i class="fas fa-play"></i>
                 <span>Reproducir</span>
               </a>
               <a id="detail-favorite" class="action-btn action-btn-secondary">
-                <span>+</span>
+                <i class="fas fa-heart"></i>
                 <span>Mi Lista</span>
               </a>
             </div>
@@ -982,7 +1001,7 @@ a {
   <!-- Search Modal -->
   <div id="search-modal" class="search-modal">
     <div class="search-header">
-      <button id="search-close" class="search-back">⬅</button>
+      <button id="search-close" class="search-back"><i class="fas fa-arrow-left"></i></button>
       <input id="search-input" type="text" class="search-input" placeholder="Buscar películas, series...">
     </div>
     <div class="search-results">
@@ -996,19 +1015,19 @@ a {
 <!-- Bottom Navigation -->
 <nav class="bottom-nav">
   <a href="#" class="nav-tab active" data-screen="home">
-    <span class="nav-icon">🏠</span>
+    <i class="fas fa-home nav-icon"></i>
     <span class="nav-label">Inicio</span>
   </a>
   <a href="#" class="nav-tab" data-screen="movies">
-    <span class="nav-icon">🎬</span>
+    <i class="fas fa-film nav-icon"></i>
     <span class="nav-label">Películas</span>
   </a>
   <a href="#" class="nav-tab" data-screen="series">
-    <span class="nav-icon">📺</span>
+    <i class="fas fa-tv nav-icon"></i>
     <span class="nav-label">Series</span>
   </a>
   <a href="#" class="nav-tab" data-screen="favorites">
-    <span class="nav-icon">⭐</span>
+    <i class="fas fa-star nav-icon"></i>
     <span class="nav-label">Mi Lista</span>
   </a>
 </nav>
@@ -1028,6 +1047,7 @@ let allData = { movies: [], series: [] };
 let favorites = JSON.parse(localStorage.getItem('kawaii_favorites')) || [];
 let currentHeroIndex = 0;
 let heroInterval;
+let heroFeatured = [];
 
 // --- Utility Functions ---
 function switchScreen(screenId) {
@@ -1106,11 +1126,11 @@ async function loadData() {
 
 // --- Hero Section ---
 function setupHero() {
-  const featured = [...allData.movies, ...allData.series].slice(0, 5);
-  if (featured.length === 0) return;
+  heroFeatured = [...allData.movies, ...allData.series].slice(0, 5);
+  if (heroFeatured.length === 0) return;
 
   function updateHero() {
-    const item = featured[currentHeroIndex];
+    const item = heroFeatured[currentHeroIndex];
     const heroBg = document.getElementById('hero-bg');
     const heroTitle = document.getElementById('hero-title');
     const heroDesc = document.getElementById('hero-description');
@@ -1118,16 +1138,17 @@ function setupHero() {
     heroBg.style.backgroundImage = `url(${item.coverImage || item.poster || ''})`;
     heroTitle.textContent = item.title;
     heroDesc.textContent = item.description || item.synopsis || 'Disfruta de este contenido exclusivo';
-    
-    currentHeroIndex = (currentHeroIndex + 1) % featured.length;
   }
 
   updateHero();
-  heroInterval = setInterval(updateHero, 5000);
+  heroInterval = setInterval(() => {
+    currentHeroIndex = (currentHeroIndex + 1) % heroFeatured.length;
+    updateHero();
+  }, 5000);
 
   // Hero actions
   document.getElementById('hero-play').onclick = () => {
-    const item = featured[currentHeroIndex];
+    const item = heroFeatured[currentHeroIndex];
     if (item.video_url) {
       window.open(item.video_url, '_blank');
     } else if (item.episodes) {
@@ -1136,39 +1157,17 @@ function setupHero() {
   };
 
   document.getElementById('hero-info').onclick = () => {
-    showDetail(featured[currentHeroIndex]);
+    showDetail(heroFeatured[currentHeroIndex]);
   };
 }
 
 // --- Genre Navigation ---
 function setupGenres() {
-  const genres = ['Acción', 'Comedia', 'Drama', 'Terror', 'Romance', 'Ciencia Ficción', 'Aventura', 'Suspenso', 'Fantasía'];
-  const genreList = document.getElementById('genre-list');
-  
-  genres.forEach(genre => {
-    const genreItem = document.createElement('div');
-    genreItem.className = 'genre-item';
-    genreItem.textContent = genre;
-    genreItem.style.borderColor = getGenreColor(genre);
-    genreItem.style.color = getGenreColor(genre);
-    
-    genreItem.onclick = () => {
-      document.querySelectorAll('.genre-item').forEach(item => item.classList.remove('active'));
-      genreItem.classList.add('active');
-      filterByGenre(genre);
-    };
-    
-    genreList.appendChild(genreItem);
-  });
-}
-
-function filterByGenre(genre) {
-  const filtered = [
-    ...allData.movies.filter(m => m.genre === genre),
-    ...allData.series.filter(s => s.genre === genre)
-  ];
-  
-  renderContentByGenre(filtered, genre);
+  // Eliminar completamente la sección de géneros
+  const genreNav = document.getElementById('genre-nav');
+  if (genreNav) {
+    genreNav.remove();
+  }
 }
 
 // --- Content Rendering ---
@@ -1343,21 +1342,21 @@ function showDetail(item) {
   detailBg.src = item.coverImage || item.poster || '';
   detailTitle.textContent = item.title;
   detailYear.textContent = item.year || 'N/A';
-  detailRating.textContent = `⭐ ${item.rating || 'N/A'}`;
+  detailRating.textContent = `★ ${item.rating || 'N/A'}`;
   detailDuration.textContent = item.duration || 'N/A';
   detailGenre.textContent = item.genre || 'Sin género';
   detailDesc.textContent = item.description || item.synopsis || 'Sin descripción disponible';
   
-  // Update favorite button - HACER MÁS VISIBLE
+  // Update favorite button
   const isFavorite = favorites.includes(item.title);
-  detailFavorite.innerHTML = `<span>${isFavorite ? '❤️' : '🤍'}</span><span>${isFavorite ? 'En Mi Lista' : 'Añadir a Mi Lista'}</span>`;
+  detailFavorite.innerHTML = `<i class="fas fa-heart${isFavorite ? '' : '-o'}"></i><span>${isFavorite ? 'En Mi Lista' : 'Añadir a Mi Lista'}</span>`;
   detailFavorite.className = `action-btn action-btn-secondary ${isFavorite ? 'active' : ''}`;
   
   detailFavorite.onclick = () => {
     toggleFavorite(item.title);
     // Actualizar el botón inmediatamente
     const newIsFavorite = favorites.includes(item.title);
-    detailFavorite.innerHTML = `<span>${newIsFavorite ? '❤️' : '🤍'}</span><span>${newIsFavorite ? 'En Mi Lista' : 'Añadir a Mi Lista'}</span>`;
+    detailFavorite.innerHTML = `<i class="fas fa-heart${newIsFavorite ? '' : '-o'}"></i><span>${newIsFavorite ? 'En Mi Lista' : 'Añadir a Mi Lista'}</span>`;
     detailFavorite.className = `action-btn action-btn-secondary ${newIsFavorite ? 'active' : ''}`;
   };
   
@@ -1391,14 +1390,28 @@ function renderEpisodes(series) {
   series.episodes.forEach((episode, index) => {
     const episodeCard = document.createElement('a');
     episodeCard.className = 'episode-card';
+    
+    // Check if episode was watched
+    const isWatched = isEpisodeWatched(series.title, index);
+    if (isWatched) {
+      episodeCard.classList.add('watched');
+    }
+    
     episodeCard.href = episode.video_url;
     episodeCard.target = '_blank';
     episodeCard.innerHTML = `
+      <div class="episode-indicator"></div>
       <div class="episode-header">
         <span class="episode-number">Episodio ${index + 1}</span>
         <span class="episode-duration">${episode.duration || 'N/A'}</span>
       </div>
     `;
+    
+    // Add click event to mark as watched
+    episodeCard.addEventListener('click', () => {
+      markEpisodeAsWatched(series.title, index);
+      episodeCard.classList.add('watched');
+    });
     
     episodesGrid.appendChild(episodeCard);
   });
@@ -1418,7 +1431,7 @@ function toggleFavorite(itemId) {
   // Update UI
   const detailFavorite = document.getElementById('detail-favorite');
   const isFavorite = favorites.includes(itemId);
-  detailFavorite.innerHTML = `<span>${isFavorite ? '❤️' : '🤍'}</span><span>${isFavorite ? 'En Mi Lista' : 'Añadir a Mi Lista'}</span>`;
+  detailFavorite.innerHTML = `<i class="fas fa-heart${isFavorite ? '' : '-o'}"></i><span>${isFavorite ? 'En Mi Lista' : 'Añadir a Mi Lista'}</span>`;
   detailFavorite.className = `action-btn action-btn-secondary ${isFavorite ? 'active' : ''}`;
 }
 
@@ -1497,6 +1510,7 @@ async function init() {
   setupHero();
   setupSearch();
   renderHome();
+  setupGenres();
   
   // Hide loader
   setTimeout(() => {
