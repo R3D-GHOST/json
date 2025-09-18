@@ -7,6 +7,110 @@
 
 
 
+
+{
+  "title": "Naruto Shippuden Temporada 4 (Español Latino)",
+  "description": "La cuarta temporada de Naruto Shippuden continúa con emocionantes batallas, desarrollo de personajes y nuevos desafíos para Naruto y sus amigos.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWyac9BXrGiOxXQF9xB642f_itMxT5_u4hhlXQMcbBsw&s=10",
+  "genre": ["Anime", "Acción", "Aventura", "Shonen"],
+  "episodes": [
+    {
+      "episode": 72,
+      "title": "Naruto Shippuden-072",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-4-espanol-latino/Naruto%20Shippuden-072.mp4"
+    },
+    {
+      "episode": 73,
+      "title": "Naruto Shippuden-073",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-4-espanol-latino/Naruto%20Shippuden-073.mp4"
+    },
+    {
+      "episode": 74,
+      "title": "Naruto Shippuden-074",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-4-espanol-latino/Naruto%20Shippuden-074.mp4"
+    },
+    {
+      "episode": 75,
+      "title": "Naruto Shippuden-075",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-4-espanol-latino/Naruto%20Shippuden-075.mp4"
+    },
+    {
+      "episode": 76,
+      "title": "Naruto Shippuden-076",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-4-espanol-latino/Naruto%20Shippuden-076.mp4"
+    },
+    {
+      "episode": 77,
+      "title": "Naruto Shippuden-077",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-4-espanol-latino/Naruto%20Shippuden-077.mp4"
+    },
+    {
+      "episode": 78,
+      "title": "Naruto Shippuden-078",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-4-espanol-latino/Naruto%20Shippuden-078.mp4"
+    },
+    {
+      "episode": 79,
+      "title": "Naruto Shippuden-079",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-4-espanol-latino/Naruto%20Shippuden-079.mp4"
+    },
+    {
+      "episode": 80,
+      "title": "Naruto Shippuden-080",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-4-espanol-latino/Naruto%20Shippuden-080.mp4"
+    },
+    {
+      "episode": 81,
+      "title": "Naruto Shippuden-081",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-4-espanol-latino/Naruto%20Shippuden-081.mp4"
+    },
+    {
+      "episode": 82,
+      "title": "Naruto Shippuden-082",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-4-espanol-latino/Naruto%20Shippuden-082.mp4"
+    },
+    {
+      "episode": 83,
+      "title": "Naruto Shippuden-083",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-4-espanol-latino/Naruto%20Shippuden-083.mp4"
+    },
+    {
+      "episode": 84,
+      "title": "Naruto Shippuden-084",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-4-espanol-latino/Naruto%20Shippuden-084.mp4"
+    },
+    {
+      "episode": 85,
+      "title": "Naruto Shippuden-085",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-4-espanol-latino/Naruto%20Shippuden-085.mp4"
+    },
+    {
+      "episode": 86,
+      "title": "Naruto Shippuden-086",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-4-espanol-latino/Naruto%20Shippuden-086.mp4"
+    },
+    {
+      "episode": 87,
+      "title": "Naruto Shippuden-087",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-4-espanol-latino/Naruto%20Shippuden-087.mp4"
+    },
+    {
+      "episode": 88,
+      "title": "Naruto Shippuden-088",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-4-espanol-latino/Naruto%20Shippuden-088.mp4"
+    }
+  ]
+},
+
+
+
+
+
+
+  
+
+
+
 {
   "title": "Naruto Shippuden Temporada 3 (Español Latino)",
   "description": "La tercera temporada de Naruto Shippuden continúa con las aventuras de Naruto Uzumaki tras varios retos, combates y alianzas, mientras se avecinan amenazas mayores para él y sus amigos.",
@@ -104,7 +208,7 @@
       "video_url": "https://archive.org/download/naruto-shippuden-temporada-3-espanol-latino/Naruto%20Shippuden-071.mp4"
     }
   ]
-}
+},
 
 
 
