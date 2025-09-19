@@ -1,5 +1,30 @@
 [
 
+
+  {
+    "title": "Robin Hood (1973)",
+    "description": "Robin Hood es una película animada de Disney que reimagina la leyenda de Robin Hood con animales antropomórficos. Robin Hood, Little John y su banda roban a los ricos para dar a los pobres en Nottingham, enfrentándose al Sheriff de Nottingham y al tiránico Príncipe Juan mientras Robin se enamora de Lady Marian. :contentReference[oaicite:0]{index=0}",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIgpqZ7DWWkiSGkjAqCuMqxIqmaLFF-FpWFNd28zOYuQ&s=10",
+    "genre": ["Animación", "Aventura", "Musical", "Clásico", "Familia"],
+    "video_url": "https://archive.org/download/1973-robin-hood_202509/1973%20Robin%20Hood.mp4"
+  },
+  {
+    "title": "Mulan (1998)",
+    "description": "Mulan es una joven que se disfraza de hombre para ocupar el lugar de su padre enfermo en el ejército cuando invasores Hun invaden China. Con ayuda del dragón Mushu, afronta el rígido entrenamiento, demuestra su valentía, salva a China del malvado Shan Yu y reivindica su honor familiar. :contentReference[oaicite:1]{index=1}",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3bMYVs8QQQkVdf7zaQcgqSAYs2_3WuD3j8zWCku_Ksg&s=10",
+    "genre": ["Animación", "Aventura", "Comedia", "Acción", "Familiar", "Musical"],
+    "video_url": "https://archive.org/download/1973-robin-hood_202509/1998%20Mulan.mp4"
+  },
+  {
+    "title": "El Rey León (1994)",
+    "description": "Simba, un cachorro de león, es el heredero al trono en las Tierras del Reino. Tras la traición de su tío Scar, que provoca la muerte de su padre Mufasa, Simba huye, vive exiliado, aprende quien es realmente y vuelve para enfrentarse a Scar y reclamar su lugar como rey. :contentReference[oaicite:2]{index=2}",
+    "coverImage": "https://static.wikia.nocookie.net/doblaje/images/e/e0/Lion_king_1.jpg/revision/latest?cb=20200726001925&path-prefix=es",
+    "genre": ["Animación", "Drama", "Musical", "Aventura", "Familiar"],
+    "video_url": "https://archive.org/download/1973-robin-hood_202509/1994%20El%20Rey%20Leon.mp4"
+  },
+
+
+  
 {
   "title": "Mickey, Donald y Goofy: Los Tres Mosqueteros",
   "description": "Mickey, Donald y Goofy son peones humildes que sueñan con convertirse en Mosqueteros. Cuando la princesa Minnie pide guardianes reales, el malvado Capitán Pete los selecciona a ellos pensando que serán fáciles de derrotar. Pero los tres héroes deberán demostrar valentía, ingenio y trabajo en equipo para proteger a Minnie y frustrar el complot de Pete. ([Wikipedia])",
