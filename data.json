@@ -1,6 +1,59 @@
 [
 
 
+
+
+
+
+{
+  "title": "El Chapulín Colorado (1973)",
+  "description": "Serie mexicana de comedia y superhéroes creada por Roberto Gómez Bolaños. El Chapulín Colorado, un héroe de buen corazón, acude al auxilio aunque sus métodos sean torpes.",
+  "coverImage": "https://www.lavanguardia.com/peliculas-series/images/serie/poster/1973/2/w1280/qF8NDpVBSTDhdLlEjVAhNhfqB8K.jpg",
+  "genre": ["Comedia", "Superhéroes", "Televisión clásica", "Familiar"],
+  "episodes": [
+    {"episode_id": "1973x01", "title": "El muñeco Chilpayate - Noche de espantos", "video_url": "https://archive.org/download/el-chapulin-colorado-1973_202412/1973x01%20El%20mu%C3%B1eco%20Chilpayate-Noche%20de%20espantos.mp4"},
+    {"episode_id": "1973x02", "title": "El huerfanito de la lotería - Los Duendes", "video_url": "https://archive.org/download/el-chapulin-colorado-1973_202412/1973x02%20El%20huerfanito%20de%20la%20loter%C3%ADa-Los%20Duendes.mp4"},
+    {"episode_id": "1973x03", "title": "Examen a los soldados - La Tribu Perdida", "video_url": "https://archive.org/download/el-chapulin-colorado-1973_202412/1973x03%20Examen%20a%20los%20soldados-La%20Tribu%20Perdida.mp4"},
+    {"episode_id": "1973x04", "title": "El actor debutante - Matrimonio a la fuerza", "video_url": "https://archive.org/download/el-chapulin-colorado-1973_202412/1973x04%20El%20actor%20debutante-Matrimonio%20a%20la%20fuerza.mp4"},
+    {"episode_id": "1973x05", "title": "Venta de frutas - La vecindad en ruinas", "video_url": "https://archive.org/download/el-chapulin-colorado-1973_202412/1973x05%20Venta%20de%20frutas-La%20vecindad%20en%20ruinas.mp4"},
+    {"episode_id": "1973x06", "title": "Cumpleaños - El perro atropellado - El Matafácil", "video_url": "https://archive.org/download/el-chapulin-colorado-1973_202412/1973x06%20Cumplea%C3%B1os-El%20perro%20atropellado-El%20Mataf%C3%A1cil.mp4"},
+    {"episode_id": "1973x07", "title": "La frontera - El pasajero majadero - La casa de los fantasmas", "video_url": "https://archive.org/download/el-chapulin-colorado-1973_202412/1973x07%20La%20frontera-El%20pasajero%20majadero-La%20casa%20de%20los%20fantasmas.mp4"},
+    {"episode_id": "1973x08", "title": "Escapando de la prisión - El Museo - El mendigo ladrón", "video_url": "https://archive.org/download/el-chapulin-colorado-1973_202412/1973x08%20Escapando%20de%20la%20prisi%C3%B3n-El%20Museo-El%20mendigo%20ladr%C3%B3n.mp4"},
+    {"episode_id": "1973x09", "title": "El conde Terranova - Los asaltantes de banco - El Vampiro", "video_url": "https://archive.org/download/el-chapulin-colorado-1973_202412/1973x09%20El%20conde%20Terranova-Los%20asaltantes%20de%20banco-El%20Vampiro.mp4"},
+    {"episode_id": "1973x10", "title": "Vagos paralizados - Chantaje - Agua helada", "video_url": "https://archive.org/download/el-chapulin-colorado-1973_202412/1973x10%20Vagos%20paralizados-Chantaje-Agua%20helada.mp4"},
+    {"episode_id": "1973x11", "title": "Un encuentro en el parque - El mesero majadero - El Peterete se escapó de la cárcel", "video_url": "https://archive.org/download/el-chapulin-colorado-1973_202412/1973x11%20Un%20encuentro%20en%20el%20parque-El%20mesero%20majadero-El%20Peterete%20se%20escap%C3%B3%20de%20la%20c%C3%A1rcel.mp4"},
+    {"episode_id": "1973x12", "title": "La mordida de la víbora - Intercambio de peso - La Llorona", "video_url": "https://archive.org/download/el-chapulin-colorado-1973_202412/1973x12%20La%20mordida%20de%20la%20v%C3%ADbora-Intercambio%20de%20peso-La%20Llorona.mp4"},
+    {"episode_id": "1973x13", "title": "Clases de golf - El regalo explosivo", "video_url": "https://archive.org/download/el-chapulin-colorado-1973_202412/1973x13%20Clases%20de%20golf-El%20regalo%20explosivo.mp4"},
+    {"episode_id": "1973x14", "title": "Una mosca en el café - El fantasma del piel roja", "video_url": "https://archive.org/download/el-chapulin-colorado-1973_202412/1973x14%20Una%20mosca%20en%20el%20caf%C3%A9-El%20fantasma%20del%20piel%20roja.mp4"},
+    {"episode_id": "1973x15", "title": "La muerte del Cuajinais", "video_url": "https://archive.org/download/el-chapulin-colorado-1973_202412/1973x15%20La%20muerte%20del%20Cuajinais.mp4"},
+    {"episode_id": "1973x16", "title": "Rabia", "video_url": "https://archive.org/download/el-chapulin-colorado-1973_202412/1973x16%20Rabia.mp4"},
+    {"episode_id": "1973x17", "title": "El hombre lobo", "video_url": "https://archive.org/download/el-chapulin-colorado-1973_202412/1973x17%20El%20hombre%20lobo.mp4"},
+    {"episode_id": "1973x18", "title": "El atropellado - Las bromas del tío Ramón", "video_url": "https://archive.org/download/el-chapulin-colorado-1973_202412/1973x18%20El%20atropellado-Las%20bromas%20del%20t%C3%ADo%20Ram%C3%B3n.mp4"},
+    {"episode_id": "1973x19", "title": "A huir de la prisión", "video_url": "https://archive.org/download/el-chapulin-colorado-1973_202412/1973x19%20A%20huir%20de%20la%20prisi%C3%B3n.mp4"},
+    {"episode_id": "1973x20", "title": "Médicos en quirófano - El marciano", "video_url": "https://archive.org/download/el-chapulin-colorado-1973_202412/1973x20%20M%C3%A9dicos%20en%20quir%C3%B3fano-El%20marciano.mp4"},
+    {"episode_id": "1973x21", "title": "Cómo matar un chapulín sin mortificar a la Sociedad Protectora de Animales", "video_url": "https://archive.org/download/el-chapulin-colorado-1973_202412/1973x21%20C%C3%B3mo%20matar%20un%20chapul%C3%ADn%20sin%20mortificar%20a%20la%20Sociedad%20Protectora%20de%20Animales.mp4"},
+    {"episode_id": "1973x22", "title": "Una momia bastante egipcia", "video_url": "https://archive.org/download/el-chapulin-colorado-1973_202412/1973x22%20Una%20momia%20bastante%20egipcia.mp4"},
+    {"episode_id": "1973x23", "title": "La autopsia - La casa del té de hierbabuena de la luna del 8 de agosto de 1974", "video_url": "https://archive.org/download/el-chapulin-colorado-1973_202412/1973x23%20La%20autopsia-La%20casa%20del%20t%C3%A9%20de%20hierbabuena%20de%20la%20luna%20del%208%20de%20agosto%20de%201974.mp4"},
+    {"episode_id": "1973x24", "title": "La boda de la enfermera - El pistolero veloz", "video_url": "https://archive.org/download/el-chapulin-colorado-1973_202412/1973x24%20La%20boda%20de%20la%20enfermera-El%20pistolero%20veloz.mp4"},
+    {"episode_id": "1973x25", "title": "El hotel", "video_url": "https://archive.org/download/el-chapulin-colorado-1973_202412/1973x25%20El%20hotel.mp4"},
+    {"episode_id": "1973x26", "title": "El hombre invisible es tan antipático que nadie lo puede ver", "video_url": "https://archive.org/download/el-chapulin-colorado-1973_202412/1973x26%20El%20hombre%20invisible%20es%20tan%20antip%C3%A1tico%20que%20nadie%20lo%20puede%20ver.mp4"},
+    {"episode_id": "1973x27", "title": "De noche, todos los gatos hacen miau", "video_url": "https://archive.org/download/el-chapulin-colorado-1973_202412/1973x27%20De%20noche%2C%20todos%20los%20gatos%20hacen%20miau.mp4"},
+    {"episode_id": "1973x28", "title": "Cuando los juguetes vuelan", "video_url": "https://archive.org/download/el-chapulin-colorado-1973_202412/1973x28%20Cuando%20los%20juguetes%20vuelan.mp4"},
+    {"episode_id": "1973x29", "title": "El gato - Un difunto bastante muerto", "video_url": "https://archive.org/download/el-chapulin-colorado-1973_202412/1973x29%20El%20gato-Un%20difunto%20bastante%20muerto.mp4"},
+    {"episode_id": "1973x30", "title": "Prohibido tirar bombas en horas de oficina", "video_url": "https://archive.org/download/el-chapulin-colorado-1973_202412/1973x30%20Prohibido%20tirar%20bombas%20en%20horas%20de%20oficina.mp4"},
+    {"episode_id": "1973x31", "title": "El futuro difunto - El lugar donde se ponen más inyecciones se llama hospital", "video_url": "https://archive.org/download/el-chapulin-colorado-1973_202412/1973x31%20El%20futuro%20difunto-El%20lugar%20donde%20se%20ponen%20m%C3%A1s%20inyecciones%20se%20llama%20hospital.mp4"},
+    {"episode_id": "1973x32", "title": "El bueno, el malo y el Chapulín", "video_url": "https://archive.org/download/el-chapulin-colorado-1973_202412/1973x32%20El%20bueno%2C%20el%20malo%20y%20el%20Chapul%C3%ADn.mp4"},
+    {"episode_id": "1973x33", "title": "Y líbranos también de los distraídos - De los metiches líbranos, Señor", "video_url": "https://archive.org/download/el-chapulin-colorado-1973_202412/1973x33%20Y%20l%C3%ADbranos%20tambi%C3%A9n%20de%20los%20distra%C3%ADdos-De%20los%20metiches%20l%C3%ADbranos%2C%20Se%C3%B1or.mp4"},
+    {"episode_id": "1973x34", "title": "La perla - El hombre que costó 6 pesos", "video_url": "https://archive.org/download/el-chapulin-colorado-1973_202412/1973x34%20La%20perla-El%20hombre%20que%20cost%C3%B3%206%20pesos.mp4"},
+    {"episode_id": "1973x35", "title": "Brindis a los recién casados - Los micrófonos están en la onda fresa", "video_url": "https://archive.org/download/el-chapulin-colorado-1973_202412/1973x35%20Brindis%20a%20los%20reci%C3%A9n%20casados-Los%20micr%C3%B3fonos%20est%C3%A1n%20en%20la%20onda%20fresa.mp4"}
+  ]
+},
+
+
+
+
+
+  
 {
   "title": "Turbo",
   "description": "Turbo es un caracol de jardín común que sueña con ser el caracol más rápido del mundo. Tras un accidente inesperado en el que pierde su ADN en un sobrealimentador de coche, adquiere supervelocidad. Con la ayuda de otros caracoles callejeros, intenta cumplir su sueño imposible: competir y ganar las 500 Millas de Indianápolis. :contentReference[oaicite:0]{index=0}",
