@@ -1,6 +1,15 @@
 [
 
+{
+  "title": "John Wick: Otro Día Para Matar",
+  "description": "Un exasesino a sueldo regresa al violento mundo del que intentaba alejarse, desatando una ola de venganza y acción implacable contra quienes le arrebataron la paz.",
+  "coverImage": "https://www.mubis.es/media/movies/7709/315484/john-wick-otro-dia-para-matar-original.jpg",
+  "genre": ["Película", "Acción", "Thriller", "Crimen"],
+  "video_url": "https://archive.org/download/otro-dia-para-matar-4-k-hdr/Otro%20dia%20para%20Matar%204K%20HDR.mp4"
+},
 
+
+  
 {
   "title": "Cyberpunk: Edgerunners",
   "description": "Serie animada ambientada en el universo de Cyberpunk 2077. Narra la historia de David, un joven que intenta sobrevivir en una ciudad del futuro obsesionada con la tecnología y la modificación corporal, convirtiéndose en un edgerunner: un mercenario fuera de la ley.",
