@@ -16,6 +16,22 @@
   "video_url": "https://archive.org/download/john-wick-2-pacto-de-sangre_202504/John%20Wick%202%20Pacto%20De%20Sangre.mp4"
 },
   
+  {
+  "title": "John Wick 3: Parabellum",
+  "description": "Después de ser excomulgado por la organización de asesinos a la que pertenecía, John Wick se encuentra siendo cazado por recompensas en todo el mundo. Se enfrenta a un enemigo implacable mientras trata de sobrevivir uno de los días más difíciles de su vida.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3DfnlkjHUrYlPUIa-1cBX414b9_aq0NmOEQ&s",
+  "genre": ["Película", "Acción", "Thriller", "Crimen"],
+  "video_url": "https://archive.org/download/john-wick-3-parabellum-2019/John%20Wick%203%20Parabellum%20%282019%29.mp4"
+},
+
+  {
+  "title": "John Wick 4",
+  "description": "John Wick se enfrenta a su batalla más difícil hasta ahora, luchando por sobrevivir contra los enemigos más poderosos que se interponen en su camino en una guerra sin tregua. Acción, honor y sacrificio llevan su historia al siguiente nivel.",
+  "coverImage": "https://m.media-amazon.com/images/I/81fk-N7tvbL._UF1000,1000_QL80_.jpg",
+  "genre": ["Película", "Acción", "Thriller", "Crimen"],
+  "video_url": "https://archive.org/download/john.-wick.-4.2023.-ts.-720p.-latino.-line.-mega-1080p/John.Wick.4.2023.Ts.720p.Latino.LINE.Mega1080p.mp4"
+},
+
   
 {
   "title": "Cyberpunk: Edgerunners",
