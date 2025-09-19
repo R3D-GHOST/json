@@ -1,6 +1,51 @@
 [
 
 {
+  "title": "Dragon Ball Z: La batalla de los dioses",
+  "description": "Tras la derrota de Majin Buu, Bills, el Dios de la Destrucción, se despierta y busca al Supersaiyan Dios. Goku debe enfrentarse a esta nueva amenaza para salvar la Tierra. Basada en la película de 2013 de Toei Animation. :contentReference[oaicite:0]{index=0}",
+  "coverImage": "https://es.web.img3.acsta.net/pictures/14/03/13/09/32/445665.jpg",
+  "genre": ["Animación", "Acción", "Fantasía", "Artes marciales"],
+  "video_url": "https://archive.org/download/dragon-ball-z-la-batalla-de-los-dioses-pelicula-completa-en-espanol-latino-hd/Dragon%20Ball%20Z%20%20%20La%20batalla%20de%20los%20dioses%20-%20Pelicula%20Completa%20En%20Espa%C3%B1ol%20Latino%20HD.mp4",
+},
+
+  
+{
+  "title": "Dragon Ball Z: La fusión de Goku y Vegeta",
+  "description": "Un monstruo malvado nace en el Otro Mundo y sólo la fusión de Gokú y Vegeta, dando origen a Gogeta, podrá detenerlo. Basada en el filme 'Dragon Ball Z: Fusion Reborn', la película mezcla acción, fantasía y artes marciales en una épica batalla para restaurar el orden entre los vivos y los muertos. :contentReference[oaicite:0]{index=0}",
+  "coverImage": "https://static.wikia.nocookie.net/doblaje/images/b/b8/Dbzmov12.jpg/revision/latest/thumbnail/width/360/height/360?cb=20240916183128&path-prefix=es",
+  "genre": ["Animación", "Acción", "Fantasía", "Artes marciales"],
+  "video_url": "https://archive.org/download/dbz-la-fusion-de-goku-y-vegeta/DBZ%20-%20La%20Fusion%20De%20Goku%20y%20Vegeta.mp4",
+},
+
+{
+  "title": "Dragon Ball: La Princesa Durmiente del Castillo del Mal",
+  "description": "En esta segunda película de Dragon Ball (1987), Goku y Krilin deben rescatar la 'Princesa Durmiente' en el Castillo del Mal para impresionar al Maestro Roshi. Se enfrentan a demonios y peligros, Bulma es secuestrada, y la verdad sobre la princesa resulta ser más extraña de lo que esperaban. :contentReference[oaicite:0]{index=0}",
+  "coverImage": "https://es.web.img3.acsta.net/pictures/21/04/19/11/49/4554160.jpg",
+  "genre": ["Animación", "Aventura", "Artes marciales", "Fantasy"],
+  "video_url": "https://archive.org/download/Dragon-Ball-La-Princesa-Durmiente-del-Castillo-del-Mal-1987/Dragon%20Ball%20La%20Princesa%20Durmiente%20del%20Castillo%20del%20Mal%20%281987%29.mp4",
+},
+
+  
+  {
+  "title": "Dragon Ball Z: ¡Devuélvanme a mi Gohan!",
+  "description": "La primera película de la etapa Dragon Ball Z. Garlic Jr. secuestra a Gohan para usar su poder latente como parte de sus pérfidos planes, lo que obliga a Goku, Piccolo y sus aliados a enfrentarse a una amenaza mortal para rescatarlo. Based on events shortly before la llegada de Raditz a la Tierra. :contentReference[oaicite:0]{index=0}",
+  "coverImage": "https://static.wikia.nocookie.net/doblaje/images/b/bc/POSTER_DBZ_MOVIE_1.png/revision/latest/thumbnail/width/360/height/360?cb=20240916182410&path-prefix=es",
+  "genre": ["Animación", "Aventura", "Acción", "Artes marciales", "Fantástico"],
+  "video_url": "https://archive.org/download/dbz-devuelveme-a-mi-gohan/2-DBZ.mp4",
+  },
+
+  
+  
+  {
+  "title": "Dragon Ball: La Princesa Durmiente del Castillo del Mal",
+  "description": "En esta segunda película de Dragon Ball (1987), Goku y Krilin deben rescatar la 'Princesa Durmiente' en el Castillo del Mal para impresionar al Maestro Roshi. Se enfrentan a demonios y peligros, Bulma es secuestrada, y la verdad sobre la princesa resulta ser más extraña de lo que esperaban. :contentReference[oaicite:0]{index=0}",
+  "coverImage": "https://es.web.img3.acsta.net/pictures/21/04/19/11/49/4554160.jpg",
+  "genre": ["Animación", "Aventura", "Artes marciales", "Fantasy"],
+  "video_url": "https://archive.org/download/Dragon-Ball-La-Princesa-Durmiente-del-Castillo-del-Mal-1987/Dragon%20Ball%20La%20Princesa%20Durmiente%20del%20Castillo%20del%20Mal%20%281987%29.mp4",
+  },
+
+  
+{
   "title": "Back to the Future Part III",
   "description": "En esta tercera entrega, Marty McFly recibe una carta escrita por el Doctor Emmett Brown desde 1885, donde le informa que ha quedado atrapado en el Viejo Oeste. Marty viaja a ese año para rescatarlo, enfrentándose a desafíos como la falta de gasolina, enfrentamientos con forajidos al mando de Buford “Mad Dog” Tannen, y el dilema del deber frente al amor cuando Doc se enamora de Clara Clayton. :contentReference[oaicite:0]{index=0}",
   "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwi4yG_cQOtfn1yAjZnIiXvgmJ-DCCKz7hzL5snG-BJw&s=10",
