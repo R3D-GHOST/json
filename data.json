@@ -1,5 +1,79 @@
 [
 
+  {
+  "title": "Solo Leveling",
+  "description": "Serie basada en la novela/manhwa ‘Solo Leveling’, donde el protagonista, un cazador débil, adquiere una habilidad única para hacerse más fuerte enfrentando desafíos y peligros en mundos llenos de monstruos.",
+  "coverImage": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRrfBM2ys17-MF1OKrgx0rPGBsRmFe2XrRr5KMfRz3_ph_9DVkuY53N3Qfh40CsEHCmI0us5f8qxVe2NL_UpvM8i4BTMzc8EejWcjrILa7f",
+  "genre": ["Anime", "Acción", "Aventura", "Fantástico"],
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "Solo Leveling - 01",
+      "video_url": "https://archive.org/download/solo-leveling-08/Solo%20Leveling%20-%2001.mp4"
+    },
+    {
+      "episode": 2,
+      "title": "Solo Leveling - 02",
+      "video_url": "https://archive.org/download/solo-leveling-08/Solo%20Leveling%20-%2002.mp4"
+    },
+    {
+      "episode": 3,
+      "title": "Solo Leveling - 03",
+      "video_url": "https://archive.org/download/solo-leveling-08/Solo%20Leveling%20-%2003.mp4"
+    },
+    {
+      "episode": 4,
+      "title": "Solo Leveling - 04",
+      "video_url": "https://archive.org/download/solo-leveling-08/Solo%20Leveling%20-%2004.mp4"
+    },
+    {
+      "episode": 5,
+      "title": "Solo Leveling - 05",
+      "video_url": "https://archive.org/download/solo-leveling-08/Solo%20Leveling%20-%2005.mp4"
+    },
+    {
+      "episode": 6,
+      "title": "Solo Leveling - 06",
+      "video_url": "https://archive.org/download/solo-leveling-08/Solo%20Leveling%20-%2006.mp4"
+    },
+    {
+      "episode": 7,
+      "title": "Solo Leveling - 07",
+      "video_url": "https://archive.org/download/solo-leveling-08/Solo%20Leveling%20-%2007.mp4"
+    },
+    {
+      "episode": 8,
+      "title": "Solo Leveling - 08",
+      "video_url": "https://archive.org/download/solo-leveling-08/Solo%20Leveling%20-%2008.mp4"
+    },
+    {
+      "episode": 9,
+      "title": "Solo Leveling - 09",
+      "video_url": "https://archive.org/download/solo-leveling-08/Solo%20Leveling%20-%2009.mp4"
+    },
+    {
+      "episode": 10,
+      "title": "Solo Leveling - 10",
+      "video_url": "https://archive.org/download/solo-leveling-08/Solo%20Leveling%20-%2010.mp4"
+    },
+    {
+      "episode": 11,
+      "title": "Solo Leveling - 11",
+      "video_url": "https://archive.org/download/solo-leveling-08/Solo%20Leveling%20-%2011.mp4"
+    },
+    {
+      "episode": 12,
+      "title": "Solo Leveling - 12",
+      "video_url": "https://archive.org/download/solo-leveling-08/Solo%20Leveling%20-%2012.mp4"
+    }
+  ]
+},
+
+
+
+
+
+  
 {
   "title": "John Wick: Otro Día Para Matar",
   "description": "Un exasesino a sueldo regresa al violento mundo del que intentaba alejarse, desatando una ola de venganza y acción implacable contra quienes le arrebataron la paz.",
