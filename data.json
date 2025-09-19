@@ -1,5 +1,83 @@
 [
 
+{
+  "title": "Tengo que dejar de fingir (Solo Leveling)",
+  "description": "Anime basado en la popular novela ligera y manhwa ‘Solo Leveling’. Sigue la historia de Sung Jin-Woo, un cazador de rango E considerado el más débil, que obtiene un misterioso poder que le permite ‘subir de nivel’ sin límites y convertirse en el cazador más fuerte del mundo.",
+  "coverImage": "https://upload.wikimedia.org/wikipedia/en/2/27/Solo_Leveling_vol_1.png",
+  "genre": ["Anime", "Acción", "Fantasía", "Aventura"],
+  "episodes": [
+    {
+      "number": 1,
+      "title": "No eres de Rango E",
+      "video_url": "https://archive.org/download/04-tengo-que-dejar-de-fingir-cas-dw-anime.net-720p-sd/01%20-%20No%20eres%20de%20Rango%20E%20%5BCAS%5D%20%5BDw-anime.net%5D%20%5B720p-SD%5D.mp4"
+    },
+    {
+      "number": 2,
+      "title": "Parece que tú mismo no lo sabes",
+      "video_url": "https://archive.org/download/04-tengo-que-dejar-de-fingir-cas-dw-anime.net-720p-sd/02%20-%20Parece%20que%20t%C3%BA%20mismo%20no%20lo%20sabes%20%5BCAS%5D%20%5BDw-anime.net%5D%20%5B720p-SD%5D.mp4"
+    },
+    {
+      "number": 3,
+      "title": "Aún queda mucho camino",
+      "video_url": "https://archive.org/download/04-tengo-que-dejar-de-fingir-cas-dw-anime.net-720p-sd/03%20-%20A%C3%BAn%20queda%20mucho%20camino%20%5BCAS%5D%20%5BDw-anime.net%5D%20%5B720p-SD%5D.mp4"
+    },
+    {
+      "number": 4,
+      "title": "Tengo que dejar de fingir",
+      "video_url": "https://archive.org/download/04-tengo-que-dejar-de-fingir-cas-dw-anime.net-720p-sd/04%20-%20Tengo%20que%20dejar%20de%20fingir%20%5BCAS%5D%20%5BDw-anime.net%5D%20%5B720p-SD%5D.mp4"
+    },
+    {
+      "number": 5,
+      "title": "Estamos entrenados para esto",
+      "video_url": "https://archive.org/download/04-tengo-que-dejar-de-fingir-cas-dw-anime.net-720p-sd/05%20-%20Estamos%20entrenados%20para%20esto%20%5BCAS%5D%20%5BDw-anime.net%5D%20%5B720p-SD%5D.mp4"
+    },
+    {
+      "number": 6,
+      "title": "No menosprecies a los míos",
+      "video_url": "https://archive.org/download/04-tengo-que-dejar-de-fingir-cas-dw-anime.net-720p-sd/06%20-%20No%20menosprecies%20a%20los%20m%C3%ADos%20%5BCAS%5D%20%5BDw-anime.net%5D%20%5B720p-SD%5D.mp4"
+    },
+    {
+      "number": 7,
+      "title": "El décimo Cazador de rango S",
+      "video_url": "https://archive.org/download/04-tengo-que-dejar-de-fingir-cas-dw-anime.net-720p-sd/07%20-%20El%20d%C3%A9cimo%20Cazador%20de%20rango%20S%20%5BCAS%5D%20%5BDw-anime.net%5D%20%5B720p-SD%5D.mp4"
+    },
+    {
+      "number": 8,
+      "title": "Mirar hacia arriba me estaba cansando",
+      "video_url": "https://archive.org/download/04-tengo-que-dejar-de-fingir-cas-dw-anime.net-720p-sd/08%20-%20Mirar%20hacia%20arriba%20me%20estaba%20cansando%20%5BCAS%5D%20%5BDw-anime.net%5D%20%5B720p-SD%5D.mp4"
+    },
+    {
+      "number": 9,
+      "title": "Valió la pena",
+      "video_url": "https://archive.org/download/04-tengo-que-dejar-de-fingir-cas-dw-anime.net-720p-sd/09%20-%20Vali%C3%B3%20la%20pena%20%5BCAS%5D%20%5BDw-anime.net%5D%20%5B720p-SD%5D.mp4"
+    },
+    {
+      "number": 10,
+      "title": "Necesitamos un héroe",
+      "video_url": "https://archive.org/download/04-tengo-que-dejar-de-fingir-cas-dw-anime.net-720p-sd/10%20-%20Necesitamos%20un%20h%C3%A9roe%20%5BCAS%5D%20%5BDw-anime.net%5D%20%5B720p-SD%5D.mp4"
+    },
+    {
+      "number": 11,
+      "title": "Se va a poner aún más intenso",
+      "video_url": "https://archive.org/download/04-tengo-que-dejar-de-fingir-cas-dw-anime.net-720p-sd/11%20-%20Se%20va%20a%20poner%20a%C3%BAn%20m%C3%A1s%20intenso%20%5BCAS%5D%20%5BDw-anime.net%5D%20%5B720p-SD%5D.mp4"
+    },
+    {
+      "number": 12,
+      "title": "¿Eres el rey de los humanos?",
+      "video_url": "https://archive.org/download/04-tengo-que-dejar-de-fingir-cas-dw-anime.net-720p-sd/12%20-%20%C2%BFEres%20el%20rey%20de%20los%20humanos%20%5BCAS%5D%20%5BDw-anime.net%5D%20%5B720p-SD%5D.mp4"
+    },
+    {
+      "number": 13,
+      "title": "Al siguiente objetivo",
+      "video_url": "https://archive.org/download/04-tengo-que-dejar-de-fingir-cas-dw-anime.net-720p-sd/13%20-%20Al%20siguiente%20objetivo%20%5BCAS%5D%20%5BDw-anime.net%5D%20%5B720p-SD%5D.mp4"
+    }
+  ]
+},
+
+
+
+
+  
 
   {
     "title": "Robin Hood (1973)",
