@@ -1,5 +1,27 @@
 [
 
+  
+{
+  "title": "El Pico",
+  "description": "Bilbao, años 80. Paco y Urko, dos adolescentes de entornos distintos, se enganchan a la heroína. Paco es hijo de un comandante de la Guardia Civil, Urko hijo de un líder político abertzale. Para conseguir droga, robarán, mentirán y llegarán al crimen. El padre de Paco descubre la situación, lo busca, y ambos padres —a pesar de sus diferencias— intentan intervenir en medio de un mundo violento y marginal. :contentReference[oaicite:0]{index=0}",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxOtYuWFVVK_BOf3op4rZzYh5QUCgydZlBqZovK0yRqw&s=10",
+  "genre": ["Película", "Drama", "Crimen", "Cine quinqui", "Adolescencia"],
+  "video_url": "https://archive.org/download/el-pico-2-zoowomaniacosokru/El%20pico%20%5Bzoowomaniacos%5D%5Bokru%5D.mp4"
+},
+
+
+
+{
+  "title": "El Pico 2",
+  "description": "Paco, hijo del comandante de la Guardia Civil Evaristo Torrecuadrada, se ve envuelto en Bilbao en el asesinato de una pareja de traficantes de heroína. A pesar de los esfuerzos de su padre por apartarlo de la droga y ocultar pruebas, Paco es arrestado, juzgado y enviado a una prisión donde vive los rigores del sistema penitenciario. Tras salir, sufrirá el estigma social, recaídas, violencia, y buscará una salida mientras la Guardia Civil lo persigue. (Secuela de “El Pico”) :contentReference[oaicite:0]{index=0}",
+  "coverImage": "https://images.eu-west-1.prod.magine.com/i/spanishflix/v/dceeacf1-c631-45ff-be2a-2110b4680115.jpg",
+  "genre": ["Película", "Drama", "Cine quinqui", "Crimen", "Drogas", "Secuela"],
+  "video_url": "https://archive.org/download/el-pico-2-zoowomaniacosokru/El%20pico%202%20%5Bzoowomaniacos%5D%5Bokru%5D.mp4"
+},
+
+  
+  
+
   {
   "title": "Solo Leveling",
   "description": "Serie basada en la novela/manhwa ‘Solo Leveling’, donde el protagonista, un cazador débil, adquiere una habilidad única para hacerse más fuerte enfrentando desafíos y peligros en mundos llenos de monstruos.",
