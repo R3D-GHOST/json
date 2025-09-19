@@ -1,5 +1,23 @@
 [
 
+{
+  "title": "Back to the Future Part III",
+  "description": "En esta tercera entrega, Marty McFly recibe una carta escrita por el Doctor Emmett Brown desde 1885, donde le informa que ha quedado atrapado en el Viejo Oeste. Marty viaja a ese año para rescatarlo, enfrentándose a desafíos como la falta de gasolina, enfrentamientos con forajidos al mando de Buford “Mad Dog” Tannen, y el dilema del deber frente al amor cuando Doc se enamora de Clara Clayton. :contentReference[oaicite:0]{index=0}",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwi4yG_cQOtfn1yAjZnIiXvgmJ-DCCKz7hzL5snG-BJw&s=10",
+  "genre": ["Película", "Ciencia Ficción", "Aventura", "Comedia", "Western"],
+  "video_url": "https://archive.org/download/back.to.the.future.-3.1990.1080p-dual-lat_202509/Back.to.the.future.3.1990.1080p-dual-lat.mp4"
+},
+
+
+{
+  "title": "Back to the Future Part II",
+  "description": "Marty McFly y el Dr. Emmett Brown viajan al año 2015 para impedir que el hijo de Marty termine en la cárcel, pero al regresar descubren que los cambios realizados han afectado el presente. Tendrán que regresar nuevamente al pasado para arreglar los errores en una historia que mezcla distorsiones temporales, futuros alternativos y dilemas morales. ([en.wikipedia.org](https://en.wikipedia.org/wiki/Back_to_the_Future_Part_II))",
+  "coverImage": "https://m.media-amazon.com/images/S/pv-target-images/68cd0fb1bb52e14c1b80ec375ede9fec7bafec7d86d4096682fafb2da994e3e6.jpg",
+  "genre": ["Película", "Ciencia Ficción", "Aventura", "Comedia"],
+  "video_url": "https://archive.org/download/back.to.the.future.-3.1990.1080p-dual-lat_202509/Back.to.the.future.2.1989.1080p-dual-lat.mp4"
+},
+
+  
   
 {
   "title": "El Pico",
