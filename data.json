@@ -8,7 +8,14 @@
   "video_url": "https://archive.org/download/otro-dia-para-matar-4-k-hdr/Otro%20dia%20para%20Matar%204K%20HDR.mp4"
 },
 
-
+{
+  "title": "John Wick 2: Pacto de Sangre",
+  "description": "John Wick es forzado a regresar al mundo criminal para saldar una deuda que amenaza lo poco que le queda tras los eventos de la primera película. Acción, honor y traición se entrelazan en cada escena.",
+  "coverImage": "https://m.media-amazon.com/images/S/pv-target-images/4d84337604635f48a46a7df9b6dc2861de642447211b6c10999ff6eb74f1401d.jpg",
+  "genre": ["Película", "Acción", "Thriller", "Crimen"],
+  "video_url": "https://archive.org/download/john-wick-2-pacto-de-sangre_202504/John%20Wick%202%20Pacto%20De%20Sangre.mp4"
+},
+  
   
 {
   "title": "Cyberpunk: Edgerunners",
