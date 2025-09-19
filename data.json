@@ -1,5 +1,29 @@
 [
 
+{
+  "title": "Mickey, Donald y Goofy: Los Tres Mosqueteros",
+  "description": "Mickey, Donald y Goofy son peones humildes que sueñan con convertirse en Mosqueteros. Cuando la princesa Minnie pide guardianes reales, el malvado Capitán Pete los selecciona a ellos pensando que serán fáciles de derrotar. Pero los tres héroes deberán demostrar valentía, ingenio y trabajo en equipo para proteger a Minnie y frustrar el complot de Pete. ([Wikipedia])",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyqE82um5rbW81wDCxyVSgp14uetW8QIlOy18G0cbi3A&s=10",
+  "genre": ["Animación", "Comedia", "Aventura", "Familiar", "Musical"],
+  "video_url": "https://archive.org/download/back.to.the.future.-1.1985.1080p-dual-lat_20250919/2004%20Los%20tres%20mosqueteros.mp4"
+},
+  
+{
+  "title": "Back to the Future",
+  "description": "Marty McFly es un estudiante de instituto en Hill Valley que, tras un experimento fallido de su amigo excéntrico científico Doc Brown, viaja accidentalmente al año 1955 usando un DeLorean convertido en máquina del tiempo. Allí interfiere sin querer con el primer encuentro de sus padres y pone en riesgo su propia existencia, por lo que tendrá que asegurarse de que Lorraine y George se enamoren y, además, encontrar la forma de volver al 1985. :contentReference[oaicite:0]{index=0}",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0QRSlMLyJwIGGk6kOoosopO9t2NCcI-5OxpIkz8Q0qw&s=10",
+  "genre": ["Película", "Ciencia Ficción", "Comedia", "Aventura", "Viajes en el tiempo"],
+  "video_url": "https://archive.org/download/back.to.the.future.-1.1985.1080p-dual-lat_20250919/Back.to.the.future.1.1985.1080p-dual-lat.mp4"
+},
+
+
+
+
+
+  
+
+
+
   
 {
   "title": "Dragon Ball Z: La batalla de los dioses",
