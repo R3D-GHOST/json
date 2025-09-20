@@ -1423,6 +1423,74 @@ a {
   box-shadow: 0 0 20px rgba(147, 51, 234, 0.5);
   z-index: 10;
 }
+
+/* Asegurar que los elementos se puedan enfocar */
+.content-card, .nav-item, .action-btn, .episode-card, .hero-btn, .search-back {
+  outline: none;
+  transition: transform 0.2s ease;
+}
+
+/* Mejorar el indicador de foco */
+.focus-indicator {
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 3px solid var(--accent-purple);
+  border-radius: 12px;
+  box-shadow: 0 0 30px rgba(147, 51, 234, 0.9), 0 0 60px rgba(147, 51, 234, 0.5);
+  display: none;
+  background: rgba(147, 51, 234, 0.1);
+  backdrop-filter: blur(2px);
+}
+
+.focus-indicator.active {
+  display: block;
+  animation: focus-pulse 2s infinite;
+}
+
+@keyframes focus-pulse {
+  0%, 100% { 
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% { 
+    transform: scale(1.02);
+    opacity: 0.8;
+  }
+}
+
+/* Efecto hover mejorado para elementos enfocados */
+.keyboard-navigation .content-card:focus,
+.keyboard-navigation .nav-item:focus,
+.keyboard-navigation .action-btn:focus,
+.keyboard-navigation .episode-card:focus,
+.keyboard-navigation .hero-btn:focus {
+  transform: scale(1.05) translateZ(0);
+  box-shadow: 0 10px 30px rgba(147, 51, 234, 0.4);
+  z-index: 10;
+}
+
+/* Asegurar que el sidebar sea navegable */
+.sidebar-nav .nav-item:focus {
+  background: rgba(147, 51, 234, 0.2);
+  transform: translateX(8px);
+  box-shadow: 0 4px 15px rgba(147, 51, 234, 0.3);
+}
+
+/* Indicador visual cuando un elemento está listo para seleccionar */
+.keyboard-navigation .ready-to-select {
+  animation: ready-pulse 1s infinite;
+}
+
+@keyframes ready-pulse {
+  0%, 100% { 
+    box-shadow: 0 0 20px rgba(147, 51, 234, 0.6);
+  }
+  50% { 
+    box-shadow: 0 0 40px rgba(147, 51, 234, 1);
+  }
+}
 </style>
 </head>
 <body>
@@ -2248,17 +2316,20 @@ function setupSearch() {
   const searchGrid = document.getElementById('search-grid');
   
   searchBtn.onclick = () => {
-    searchModal.classList.add('active');
-    searchInput.focus();
+    if (window.keyboardNav) {
+      window.keyboardNav.openSearch();
+    } else {
+      searchModal.classList.add('active');
+      searchInput.focus();
+    }
   };
   
   searchClose.onclick = () => {
     searchModal.classList.remove('active');
     searchInput.value = '';
     searchGrid.innerHTML = '';
-    // Volver a la navegación normal
     if (window.keyboardNav) {
-      window.keyboardNav.updateNavigation();
+      window.keyboardNav.closeSearch();
     }
   };
   
@@ -2277,16 +2348,9 @@ function setupSearch() {
     searchGrid.innerHTML = '';
     results.forEach(item => {
       const card = createContentCard(item);
-      // Mostrar título en el buscador
       const titleOverlay = card.querySelector('.card-title-overlay');
       if (titleOverlay) {
         titleOverlay.style.opacity = '1';
-      } else {
-        const newTitleOverlay = document.createElement('div');
-        newTitleOverlay.className = 'card-title-overlay';
-        newTitleOverlay.textContent = item.title;
-        newTitleOverlay.style.opacity = '1';
-        card.appendChild(newTitleOverlay);
       }
       
       card.addEventListener('click', (e) => {
@@ -2295,7 +2359,6 @@ function setupSearch() {
         searchInput.value = '';
         searchGrid.innerHTML = '';
         showDetail(item);
-        // Actualizar navegación después de cerrar búsqueda
         if (window.keyboardNav) {
           setTimeout(() => {
             window.keyboardNav.updateNavigation();
@@ -2309,26 +2372,26 @@ function setupSearch() {
       searchGrid.innerHTML = '<p style="text-align: center; color: var(--text-secondary); padding: 40px;">No se encontraron resultados</p>';
     }
     
-    // Actualizar navegación del buscador
     if (window.keyboardNav) {
-      window.keyboardNav.updateSearchNavigation();
+      setTimeout(() => {
+        if (window.keyboardNav.searchMode && !window.keyboardNav.searchFocused) {
+          window.keyboardNav.focusFirstSearchResult();
+        }
+      }, 200);
     }
   };
   
-  // Permitir navegación en el input de búsqueda
+  // Navegación dentro del input de búsqueda
   searchInput.addEventListener('keydown', (e) => {
-    if (e.key === 'Enter' && searchInput.value.length >= 2) {
-      e.preventDefault();
-      // Ir al primer resultado
-      const firstResult = searchGrid.querySelector('.content-card');
-      if (firstResult) {
-        firstResult.click();
-      }
-    } else if (e.key === 'ArrowDown') {
-      e.preventDefault();
-      // Mover al primer resultado
-      if (window.keyboardNav) {
-        window.keyboardNav.updateSearchNavigation();
+    if (window.keyboardNav) {
+      window.keyboardNav.handleSearchNavigation(e);
+    } else {
+      if (e.key === 'Enter' && searchInput.value.length >= 2) {
+        e.preventDefault();
+        const firstResult = searchGrid.querySelector('.content-card');
+        if (firstResult) {
+          firstResult.click();
+        }
       }
     }
   });
@@ -2368,20 +2431,19 @@ class KeyboardNavigation {
       detail: { items: [], rows: 0, cols: 0 }
     };
     
+    this.sidebarItems = [];
+    this.sidebarIndex = 0;
+    this.inSidebar = false;
+    this.searchMode = false;
+    this.searchFocused = false;
+    
     this.init();
   }
 
   init() {
-    // Crear indicador visual de foco
     this.createFocusIndicator();
-    
-    // Agregar clase para estilos de navegación
     document.body.classList.add('keyboard-navigation');
-    
-    // Configurar event listeners
     document.addEventListener('keydown', this.handleKeyPress.bind(this));
-    
-    // Inicializar navegación
     this.updateGridItems();
     this.focusCurrentItem();
   }
@@ -2395,31 +2457,57 @@ class KeyboardNavigation {
   handleKeyPress(e) {
     if (!this.isActive) return;
     
+    // Si estamos en el buscador
+    if (this.searchMode) {
+      this.handleSearchNavigation(e);
+      return;
+    }
+    
     switch(e.key) {
       case 'ArrowUp':
       case 'Up':
         e.preventDefault();
-        this.moveUp();
+        if (this.inSidebar) {
+          this.moveSidebarUp();
+        } else {
+          this.moveUp();
+        }
         break;
       case 'ArrowDown':
       case 'Down':
         e.preventDefault();
-        this.moveDown();
+        if (this.inSidebar) {
+          this.moveSidebarDown();
+        } else {
+          this.moveDown();
+        }
         break;
       case 'ArrowLeft':
       case 'Left':
         e.preventDefault();
-        this.moveLeft();
+        if (this.inSidebar) {
+          this.exitSidebar();
+        } else {
+          this.moveLeft();
+        }
         break;
       case 'ArrowRight':
       case 'Right':
         e.preventDefault();
-        this.moveRight();
+        if (this.inSidebar) {
+          this.exitSidebar();
+        } else {
+          this.moveRight();
+        }
         break;
       case 'Enter':
       case 'Accept':
         e.preventDefault();
-        this.selectItem();
+        if (this.inSidebar) {
+          this.selectSidebarItem();
+        } else {
+          this.selectItem();
+        }
         break;
       case 'Escape':
       case 'Back':
@@ -2435,38 +2523,69 @@ class KeyboardNavigation {
     }
   }
 
+  handleSearchNavigation(e) {
+    switch(e.key) {
+      case 'ArrowDown':
+        e.preventDefault();
+        this.focusFirstSearchResult();
+        break;
+      case 'Enter':
+        e.preventDefault();
+        if (this.searchFocused) {
+          const firstResult = document.querySelector('.search-results .content-card');
+          if (firstResult) {
+            firstResult.click();
+          }
+        }
+        break;
+      case 'Escape':
+        e.preventDefault();
+        this.closeSearch();
+        break;
+    }
+  }
+
   updateGridItems() {
     const activeScreen = document.querySelector('.screen.active');
     if (!activeScreen) return;
     
     this.currentSection = activeScreen.id;
     
-    // Obtener todos los elementos navegables
-    const items = activeScreen.querySelectorAll('.content-card, .nav-item, .nav-tab, .hero-btn, .action-btn, .episode-card, .search-back');
+    // Actualizar items del sidebar
+    const sidebar = document.querySelector('.sidebar-nav');
+    if (sidebar && sidebar.style.display !== 'none') {
+      this.sidebarItems = Array.from(sidebar.querySelectorAll('.nav-item'));
+    }
     
-    this.gridItems = Array.from(items);
+    // Obtener elementos navegables de la pantalla actual
+    let items = [];
+    
+    if (this.currentSection === 'detail') {
+      items = Array.from(activeScreen.querySelectorAll('.action-btn, .episode-card, .search-back'));
+    } else {
+      items = Array.from(activeScreen.querySelectorAll('.content-card, .hero-btn'));
+    }
+    
+    this.gridItems = items;
     this.currentIndex = 0;
     
-    // Calcular dimensiones del grid
+    // Calcular dimensiones
     this.calculateGridDimensions(activeScreen);
   }
 
   calculateGridDimensions(container) {
-    const items = container.querySelectorAll('.content-card, .nav-item, .action-btn, .episode-card');
-    if (items.length === 0) return;
+    const cards = container.querySelectorAll('.content-card, .hero-btn');
+    if (cards.length === 0) return;
     
-    const firstItem = items[0];
-    const itemRect = firstItem.getBoundingClientRect();
-    
-    // Calcular cuántos elementos caben por fila
+    const firstCard = cards[0];
+    const cardRect = firstCard.getBoundingClientRect();
     const containerWidth = container.clientWidth;
-    const itemWidth = itemRect.width + 30; // incluir gap
-    const cols = Math.floor(containerWidth / itemWidth);
-    const rows = Math.ceil(items.length / cols);
+    const cardWidth = cardRect.width + 30;
+    const cols = Math.floor(containerWidth / cardWidth);
     
     this.sections[this.currentSection] = {
-      items: Array.from(items),
-      rows: rows,
+      items: Array.from(cards),
+      rows: Math.ceil(cards.length / cols),
       cols: cols || 1
     };
   }
@@ -2497,7 +2616,7 @@ class KeyboardNavigation {
     const section = this.sections[this.currentSection];
     if (!section || section.cols === 0) return;
     
-    // Si estamos al principio de una fila, ir al menú lateral
+    // Si estamos al principio de una fila, ir al sidebar
     if (this.currentIndex % section.cols === 0) {
       this.focusSidebar();
     } else {
@@ -2521,13 +2640,53 @@ class KeyboardNavigation {
   }
 
   focusSidebar() {
-    const sidebar = document.querySelector('.sidebar-nav');
-    if (sidebar && sidebar.style.display !== 'none') {
-      const navItems = sidebar.querySelectorAll('.nav-item');
-      if (navItems.length > 0) {
-        navItems[0].focus();
-        this.updateFocusIndicator(navItems[0]);
-      }
+    if (this.sidebarItems.length > 0) {
+      this.inSidebar = true;
+      this.sidebarIndex = 0;
+      this.sidebarItems[0].focus();
+      this.updateFocusIndicator(this.sidebarItems[0]);
+    }
+  }
+
+  exitSidebar() {
+    this.inSidebar = false;
+    this.focusCurrentItem();
+  }
+
+  moveSidebarUp() {
+    if (this.sidebarIndex > 0) {
+      this.sidebarIndex--;
+      this.sidebarItems[this.sidebarIndex].focus();
+      this.updateFocusIndicator(this.sidebarItems[this.sidebarIndex]);
+    }
+  }
+
+  moveSidebarDown() {
+    if (this.sidebarIndex < this.sidebarItems.length - 1) {
+      this.sidebarIndex++;
+      this.sidebarItems[this.sidebarIndex].focus();
+      this.updateFocusIndicator(this.sidebarItems[this.sidebarIndex]);
+    }
+  }
+
+  selectSidebarItem() {
+    const item = this.sidebarItems[this.sidebarIndex];
+    if (item) {
+      const screenId = item.dataset.screen;
+      item.click();
+      
+      // Después de cambiar de sección, enfocar la primera portada
+      setTimeout(() => {
+        this.focusFirstContentCard();
+      }, 300);
+    }
+  }
+
+  focusFirstContentCard() {
+    const section = this.sections[this.currentSection];
+    if (section && section.items.length > 0) {
+      this.currentIndex = 0;
+      this.focusCurrentItem();
     }
   }
 
@@ -2538,8 +2697,6 @@ class KeyboardNavigation {
     const item = section.items[this.currentIndex];
     item.focus();
     this.updateFocusIndicator(item);
-    
-    // Desplazar al elemento si está fuera de vista
     item.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'nearest' });
   }
 
@@ -2560,11 +2717,9 @@ class KeyboardNavigation {
     
     const item = section.items[this.currentIndex];
     
-    // Simular click en el elemento
     if (item.tagName === 'A' || item.classList.contains('nav-item')) {
       item.click();
     } else if (item.classList.contains('content-card')) {
-      // Para tarjetas de contenido
       const link = item.querySelector('.video-link');
       if (link) {
         link.click();
@@ -2577,42 +2732,42 @@ class KeyboardNavigation {
   }
 
   goBack() {
-    // Volver a la pantalla anterior
     const currentScreen = document.querySelector('.screen.active');
     if (currentScreen.id === 'detail') {
       switchScreen('home');
     } else if (currentScreen.id !== 'home') {
       switchScreen('home');
+    } else if (this.inSidebar) {
+      this.exitSidebar();
     }
   }
 
   openSearch() {
+    this.searchMode = true;
+    this.searchFocused = true;
     searchModal.classList.add('active');
     searchInput.focus();
     
-    // Configurar navegación dentro del buscador
-    setTimeout(() => {
-      this.updateSearchNavigation();
-    }, 100);
+    // Configurar para que al salir del input se vaya a los resultados
+    const self = this;
+    searchInput.addEventListener('blur', function onBlur() {
+      searchInput.removeEventListener('blur', onBlur);
+      setTimeout(() => {
+        if (self.searchMode && document.querySelector('.search-results .content-card')) {
+          self.searchFocused = false;
+          self.focusFirstSearchResult();
+        }
+      }, 100);
+    });
   }
 
-  updateSearchNavigation() {
-    const searchResults = document.querySelector('.search-results');
-    if (!searchResults) return;
-    
-    const searchItems = searchResults.querySelectorAll('.content-card');
-    if (searchItems.length > 0) {
-      searchItems[0].focus();
-      this.updateFocusIndicator(searchItems[0]);
-    }
-  }
-
-  // Actualizar cuando cambia de pantalla
-  updateNavigation() {
-    setTimeout(() => {
-      this.updateGridItems();
-      this.focusCurrentItem();
-    }, 300);
+  closeSearch() {
+    this.searchMode = false;
+    this.searchFocused = false;
+    searchModal.classList.remove('active');
+    searchInput.value = '';
+    document.getElementById('search-grid').innerHTML = '';
+    this.focusCurrentItem();
   }
 }
 
@@ -2624,6 +2779,10 @@ window.switchScreen = function(screenId) {
   // Actualizar navegación de teclado si existe
   if (window.keyboardNav) {
     window.keyboardNav.updateNavigation();
+    // Enfocar el primer contenido de la sección
+    setTimeout(() => {
+      window.keyboardNav.focusFirstContentCard();
+    }, 400);
   }
 };
 
