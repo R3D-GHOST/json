@@ -1355,6 +1355,74 @@ a {
     display: none;
   }
 }
+
+/* --- Navegación con teclado/mando --- */
+.keyboard-navigation .content-card,
+.keyboard-navigation .nav-item,
+.keyboard-navigation .nav-tab,
+.keyboard-navigation .hero-btn,
+.keyboard-navigation .action-btn,
+.keyboard-navigation .episode-card,
+.keyboard-navigation .search-back {
+  position: relative;
+}
+
+.keyboard-navigation .content-card:focus,
+.keyboard-navigation .nav-item:focus,
+.keyboard-navigation .nav-tab:focus,
+.keyboard-navigation .hero-btn:focus,
+.keyboard-navigation .action-btn:focus,
+.keyboard-navigation .episode-card:focus,
+.keyboard-navigation .search-back:focus {
+  outline: 3px solid var(--accent-purple);
+  outline-offset: 2px;
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(147, 51, 234, 0.5);
+  z-index: 10;
+}
+
+.keyboard-navigation .content-card:focus .play-indicator,
+.keyboard-navigation .content-card:focus .card-title-overlay {
+  opacity: 1;
+}
+
+/* Indicador visual de foco */
+.focus-indicator {
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999;
+  transition: all 0.2s ease;
+  border: 3px solid var(--accent-purple);
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(147, 51, 234, 0.8);
+  display: none;
+}
+
+.focus-indicator.active {
+  display: block;
+}
+
+/* Animación de pulsación cuando está enfocado */
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.02); }
+  100% { transform: scale(1); }
+}
+
+.keyboard-navigation .focused {
+  animation: pulse 1s infinite;
+}
+
+/* --- Grid Navigation Helper --- */
+.grid-container {
+  position: relative;
+}
+
+.grid-item-focused {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(147, 51, 234, 0.5);
+  z-index: 10;
+}
 </style>
 </head>
 <body>
@@ -2188,6 +2256,10 @@ function setupSearch() {
     searchModal.classList.remove('active');
     searchInput.value = '';
     searchGrid.innerHTML = '';
+    // Volver a la navegación normal
+    if (window.keyboardNav) {
+      window.keyboardNav.updateNavigation();
+    }
   };
   
   searchInput.oninput = (e) => {
@@ -2223,6 +2295,12 @@ function setupSearch() {
         searchInput.value = '';
         searchGrid.innerHTML = '';
         showDetail(item);
+        // Actualizar navegación después de cerrar búsqueda
+        if (window.keyboardNav) {
+          setTimeout(() => {
+            window.keyboardNav.updateNavigation();
+          }, 300);
+        }
       });
       searchGrid.appendChild(card);
     });
@@ -2230,7 +2308,30 @@ function setupSearch() {
     if (results.length === 0) {
       searchGrid.innerHTML = '<p style="text-align: center; color: var(--text-secondary); padding: 40px;">No se encontraron resultados</p>';
     }
+    
+    // Actualizar navegación del buscador
+    if (window.keyboardNav) {
+      window.keyboardNav.updateSearchNavigation();
+    }
   };
+  
+  // Permitir navegación en el input de búsqueda
+  searchInput.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' && searchInput.value.length >= 2) {
+      e.preventDefault();
+      // Ir al primer resultado
+      const firstResult = searchGrid.querySelector('.content-card');
+      if (firstResult) {
+        firstResult.click();
+      }
+    } else if (e.key === 'ArrowDown') {
+      e.preventDefault();
+      // Mover al primer resultado
+      if (window.keyboardNav) {
+        window.keyboardNav.updateSearchNavigation();
+      }
+    }
+  });
 }
 
 // Navigation
@@ -2249,6 +2350,292 @@ navItems.forEach(item => {
 });
 
 document.getElementById('detail-close').onclick = () => switchScreen('home');
+
+// Navegación con teclado/mando
+class KeyboardNavigation {
+  constructor() {
+    this.gridItems = [];
+    this.currentIndex = 0;
+    this.currentSection = 'home';
+    this.isActive = true;
+    this.focusIndicator = null;
+    this.sections = {
+      home: { items: [], rows: 0, cols: 0 },
+      movies: { items: [], rows: 0, cols: 0 },
+      series: { items: [], rows: 0, cols: 0 },
+      channels: { items: [], rows: 0, cols: 0 },
+      favorites: { items: [], rows: 0, cols: 0 },
+      detail: { items: [], rows: 0, cols: 0 }
+    };
+    
+    this.init();
+  }
+
+  init() {
+    // Crear indicador visual de foco
+    this.createFocusIndicator();
+    
+    // Agregar clase para estilos de navegación
+    document.body.classList.add('keyboard-navigation');
+    
+    // Configurar event listeners
+    document.addEventListener('keydown', this.handleKeyPress.bind(this));
+    
+    // Inicializar navegación
+    this.updateGridItems();
+    this.focusCurrentItem();
+  }
+
+  createFocusIndicator() {
+    this.focusIndicator = document.createElement('div');
+    this.focusIndicator.className = 'focus-indicator';
+    document.body.appendChild(this.focusIndicator);
+  }
+
+  handleKeyPress(e) {
+    if (!this.isActive) return;
+    
+    switch(e.key) {
+      case 'ArrowUp':
+      case 'Up':
+        e.preventDefault();
+        this.moveUp();
+        break;
+      case 'ArrowDown':
+      case 'Down':
+        e.preventDefault();
+        this.moveDown();
+        break;
+      case 'ArrowLeft':
+      case 'Left':
+        e.preventDefault();
+        this.moveLeft();
+        break;
+      case 'ArrowRight':
+      case 'Right':
+        e.preventDefault();
+        this.moveRight();
+        break;
+      case 'Enter':
+      case 'Accept':
+        e.preventDefault();
+        this.selectItem();
+        break;
+      case 'Escape':
+      case 'Back':
+        e.preventDefault();
+        this.goBack();
+        break;
+      case 'Find':
+      case 'Search':
+      case 'F':
+        e.preventDefault();
+        this.openSearch();
+        break;
+    }
+  }
+
+  updateGridItems() {
+    const activeScreen = document.querySelector('.screen.active');
+    if (!activeScreen) return;
+    
+    this.currentSection = activeScreen.id;
+    
+    // Obtener todos los elementos navegables
+    const items = activeScreen.querySelectorAll('.content-card, .nav-item, .nav-tab, .hero-btn, .action-btn, .episode-card, .search-back');
+    
+    this.gridItems = Array.from(items);
+    this.currentIndex = 0;
+    
+    // Calcular dimensiones del grid
+    this.calculateGridDimensions(activeScreen);
+  }
+
+  calculateGridDimensions(container) {
+    const items = container.querySelectorAll('.content-card, .nav-item, .action-btn, .episode-card');
+    if (items.length === 0) return;
+    
+    const firstItem = items[0];
+    const itemRect = firstItem.getBoundingClientRect();
+    
+    // Calcular cuántos elementos caben por fila
+    const containerWidth = container.clientWidth;
+    const itemWidth = itemRect.width + 30; // incluir gap
+    const cols = Math.floor(containerWidth / itemWidth);
+    const rows = Math.ceil(items.length / cols);
+    
+    this.sections[this.currentSection] = {
+      items: Array.from(items),
+      rows: rows,
+      cols: cols || 1
+    };
+  }
+
+  moveUp() {
+    const section = this.sections[this.currentSection];
+    if (!section || section.cols === 0) return;
+    
+    const newIndex = this.currentIndex - section.cols;
+    if (newIndex >= 0) {
+      this.currentIndex = newIndex;
+      this.focusCurrentItem();
+    }
+  }
+
+  moveDown() {
+    const section = this.sections[this.currentSection];
+    if (!section || section.cols === 0) return;
+    
+    const newIndex = this.currentIndex + section.cols;
+    if (newIndex < section.items.length) {
+      this.currentIndex = newIndex;
+      this.focusCurrentItem();
+    }
+  }
+
+  moveLeft() {
+    const section = this.sections[this.currentSection];
+    if (!section || section.cols === 0) return;
+    
+    // Si estamos al principio de una fila, ir al menú lateral
+    if (this.currentIndex % section.cols === 0) {
+      this.focusSidebar();
+    } else {
+      this.currentIndex--;
+      this.focusCurrentItem();
+    }
+  }
+
+  moveRight() {
+    const section = this.sections[this.currentSection];
+    if (!section || section.cols === 0) return;
+    
+    const newIndex = this.currentIndex + 1;
+    const row = Math.floor(this.currentIndex / section.cols);
+    const maxInRow = (row + 1) * section.cols;
+    
+    if (newIndex < section.items.length && newIndex < maxInRow) {
+      this.currentIndex = newIndex;
+      this.focusCurrentItem();
+    }
+  }
+
+  focusSidebar() {
+    const sidebar = document.querySelector('.sidebar-nav');
+    if (sidebar && sidebar.style.display !== 'none') {
+      const navItems = sidebar.querySelectorAll('.nav-item');
+      if (navItems.length > 0) {
+        navItems[0].focus();
+        this.updateFocusIndicator(navItems[0]);
+      }
+    }
+  }
+
+  focusCurrentItem() {
+    const section = this.sections[this.currentSection];
+    if (!section || !section.items[this.currentIndex]) return;
+    
+    const item = section.items[this.currentIndex];
+    item.focus();
+    this.updateFocusIndicator(item);
+    
+    // Desplazar al elemento si está fuera de vista
+    item.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'nearest' });
+  }
+
+  updateFocusIndicator(element) {
+    if (!this.focusIndicator || !element) return;
+    
+    const rect = element.getBoundingClientRect();
+    this.focusIndicator.style.left = `${rect.left - 4}px`;
+    this.focusIndicator.style.top = `${rect.top - 4}px`;
+    this.focusIndicator.style.width = `${rect.width + 8}px`;
+    this.focusIndicator.style.height = `${rect.height + 8}px`;
+    this.focusIndicator.classList.add('active');
+  }
+
+  selectItem() {
+    const section = this.sections[this.currentSection];
+    if (!section || !section.items[this.currentIndex]) return;
+    
+    const item = section.items[this.currentIndex];
+    
+    // Simular click en el elemento
+    if (item.tagName === 'A' || item.classList.contains('nav-item')) {
+      item.click();
+    } else if (item.classList.contains('content-card')) {
+      // Para tarjetas de contenido
+      const link = item.querySelector('.video-link');
+      if (link) {
+        link.click();
+      } else {
+        item.click();
+      }
+    } else {
+      item.click();
+    }
+  }
+
+  goBack() {
+    // Volver a la pantalla anterior
+    const currentScreen = document.querySelector('.screen.active');
+    if (currentScreen.id === 'detail') {
+      switchScreen('home');
+    } else if (currentScreen.id !== 'home') {
+      switchScreen('home');
+    }
+  }
+
+  openSearch() {
+    searchModal.classList.add('active');
+    searchInput.focus();
+    
+    // Configurar navegación dentro del buscador
+    setTimeout(() => {
+      this.updateSearchNavigation();
+    }, 100);
+  }
+
+  updateSearchNavigation() {
+    const searchResults = document.querySelector('.search-results');
+    if (!searchResults) return;
+    
+    const searchItems = searchResults.querySelectorAll('.content-card');
+    if (searchItems.length > 0) {
+      searchItems[0].focus();
+      this.updateFocusIndicator(searchItems[0]);
+    }
+  }
+
+  // Actualizar cuando cambia de pantalla
+  updateNavigation() {
+    setTimeout(() => {
+      this.updateGridItems();
+      this.focusCurrentItem();
+    }, 300);
+  }
+}
+
+// Modificar la función switchScreen para actualizar navegación
+const originalSwitchScreen = switchScreen;
+window.switchScreen = function(screenId) {
+  originalSwitchScreen(screenId);
+  
+  // Actualizar navegación de teclado si existe
+  if (window.keyboardNav) {
+    window.keyboardNav.updateNavigation();
+  }
+};
+
+// Inicializar navegación con teclado
+let keyboardNav;
+document.addEventListener('DOMContentLoaded', () => {
+  // Esperar a que todo esté cargado
+  setTimeout(() => {
+    keyboardNav = new KeyboardNavigation();
+    window.keyboardNav = keyboardNav;
+  }, 1000);
+});
 
 // Initialization
 async function init() {
