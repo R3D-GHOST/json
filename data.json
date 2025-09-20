@@ -171,7 +171,7 @@
 
   
 {
-  "title": "Grimm (Temporada 1)",
+  "title": "Grimm Temporada 1",
   "description": "Nick Burkhardt, un detective de homicidios de Portland, descubre que es descendiente de los 'Grimm', una estirpe de guardianes encargados de mantener el equilibrio entre la humanidad y las criaturas mitológicas conocidas como Wesen. Mientras resuelve casos de homicidio, Nick debe enfrentarse a estos seres sobrenaturales y proteger a los inocentes.",
   "coverImage": "https://m.media-amazon.com/images/I/71tl3sKEvOL._UF1000,1000_QL80_.jpg",
   "genre": ["Fantasía", "Policíaco", "Drama", "Sobrenatural"],
@@ -291,7 +291,7 @@
 
 
 {
-  "title": "El Chapulín Colorado (1973)",
+  "title": "El Chapulín Colorado",
   "description": "Serie mexicana de comedia y superhéroes creada por Roberto Gómez Bolaños. El Chapulín Colorado, un héroe de buen corazón, acude al auxilio aunque sus métodos sean torpes.",
   "coverImage": "https://www.lavanguardia.com/peliculas-series/images/serie/poster/1973/2/w1280/qF8NDpVBSTDhdLlEjVAhNhfqB8K.jpg",
   "genre": ["Comedia", "Superhéroes", "Televisión clásica", "Familiar"],
@@ -429,21 +429,21 @@
   
 
   {
-    "title": "Robin Hood (1973)",
+    "title": "Robin Hood Disney",
     "description": "Robin Hood es una película animada de Disney que reimagina la leyenda de Robin Hood con animales antropomórficos. Robin Hood, Little John y su banda roban a los ricos para dar a los pobres en Nottingham, enfrentándose al Sheriff de Nottingham y al tiránico Príncipe Juan mientras Robin se enamora de Lady Marian. :contentReference[oaicite:0]{index=0}",
     "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIgpqZ7DWWkiSGkjAqCuMqxIqmaLFF-FpWFNd28zOYuQ&s=10",
     "genre": ["Animación", "Aventura", "Musical", "Clásico", "Familia"],
     "video_url": "https://archive.org/download/1973-robin-hood_202509/1973%20Robin%20Hood.mp4"
   },
   {
-    "title": "Mulan (1998)",
+    "title": "Mulan",
     "description": "Mulan es una joven que se disfraza de hombre para ocupar el lugar de su padre enfermo en el ejército cuando invasores Hun invaden China. Con ayuda del dragón Mushu, afronta el rígido entrenamiento, demuestra su valentía, salva a China del malvado Shan Yu y reivindica su honor familiar. :contentReference[oaicite:1]{index=1}",
     "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3bMYVs8QQQkVdf7zaQcgqSAYs2_3WuD3j8zWCku_Ksg&s=10",
     "genre": ["Animación", "Aventura", "Comedia", "Acción", "Familiar", "Musical"],
     "video_url": "https://archive.org/download/1973-robin-hood_202509/1998%20Mulan.mp4"
   },
   {
-    "title": "El Rey León (1994)",
+    "title": "El Rey León",
     "description": "Simba, un cachorro de león, es el heredero al trono en las Tierras del Reino. Tras la traición de su tío Scar, que provoca la muerte de su padre Mufasa, Simba huye, vive exiliado, aprende quien es realmente y vuelve para enfrentarse a Scar y reclamar su lugar como rey. :contentReference[oaicite:2]{index=2}",
     "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiKfqIUtNTI2WRWb5WrbN53nlLJ5XtecVfIzmBpOod7Q&s=10",
     "genre": ["Animación", "Drama", "Musical", "Aventura", "Familiar"],
@@ -696,7 +696,7 @@
 
 
 {
-  "title": "Magic Kaito 1412 (Latino)",
+  "title": "Magic Kaito 1412",
   "description": "Serie de misterio y aventuras donde Kaito Kuroba asume el rol de Kaitou Kid para resolver casos, enfrentar retos y descubrir secretos relacionados con su padre.",
   "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnj1Sg7KZAnnTykN7OAA9ls_KxUnKkMmbxmfzsQNuRQoXGGyUGmFtYlAE&s=10",
   "genre": ["Anime", "Misterio", "Aventura", "Suspenso"],
@@ -835,7 +835,7 @@
   
 
 {
-  "title": "Boku no Hero Academia Temporada 1 (Español Latino)",
+  "title": "Boku no Hero Academia Temporada 1",
   "description": "En un mundo donde la mayoría de la población tiene poderes especiales llamados Quirks, Izuku Midoriya sueña con ser héroe aunque nació sin uno. Todo cambia cuando conoce a All Might, quien lo selecciona para heredar su poder y entrenar para entrar en la prestigiosa escuela de héroes.",  
   "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLcmoIo8XPhmUFxiHT9mu2LAzWk1SJzWU13IWrcue_iQ&s=10",
   "genre": ["Anime", "Acción", "Aventura", "Shonen", "Superhéroes"],
@@ -1063,7 +1063,7 @@
 
   
 {
-  "title": "Naruto Shippuden Temporada 6 (Español Latino)",
+  "title": "Naruto Shippuden Temporada 6",
   "description": "La sexta temporada de Naruto Shippuden sigue con nuevos arcos argumentales, desarrollos de personajes y enfrentamientos decisivos para Naruto y sus compañeros.",
   "coverImage": "https://es.web.img3.acsta.net/pictures/19/08/07/09/33/2541145.jpg",
   "genre": ["Anime", "Acción", "Aventura", "Shonen"],
@@ -1232,7 +1232,7 @@
 
 
 {
-  "title": "Naruto Shippuden Temporada 5 (Español Latino)",
+  "title": "Naruto Shippuden Temporada 5",
   "description": "La quinta temporada de Naruto Shippuden continúa con nuevas misiones, enemigos más poderosos y desarrollos profundos de los personajes principales.",
   "coverImage": "https://es.web.img3.acsta.net/pictures/19/08/07/09/33/1171448.jpg",
   "genre": ["Anime", "Acción", "Aventura", "Shonen"],
@@ -1373,7 +1373,7 @@
 
 
 {
-  "title": "Naruto Shippuden Temporada 4 (Español Latino)",
+  "title": "Naruto Shippuden Temporada 4",
   "description": "La cuarta temporada de Naruto Shippuden continúa con emocionantes batallas, desarrollo de personajes y nuevos desafíos para Naruto y sus amigos.",
   "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWyac9BXrGiOxXQF9xB642f_itMxT5_u4hhlXQMcbBsw&s=10",
   "genre": ["Anime", "Acción", "Aventura", "Shonen"],
@@ -1476,7 +1476,7 @@
 
 
 {
-  "title": "Naruto Shippuden Temporada 3 (Español Latino)",
+  "title": "Naruto Shippuden Temporada 3",
   "description": "La tercera temporada de Naruto Shippuden continúa con las aventuras de Naruto Uzumaki tras varios retos, combates y alianzas, mientras se avecinan amenazas mayores para él y sus amigos.",
   "coverImage": "https://es.web.img2.acsta.net/pictures/19/08/07/09/32/4549054.jpg",
   "genre": ["Anime", "Acción", "Aventura", "Shonen"],
@@ -1623,7 +1623,7 @@
 
   
 {
-  "title": "Mirai Nikki (Diario del Futuro)",
+  "title": "Mirai Nikki",
   "description": "La historia sigue a Yuki Amano, un joven solitario que se ve envuelto en un juego de supervivencia mortal donde cada participante posee un diario que predice el futuro. Con la ayuda de su misteriosa compañera Yuno Gasai, Yuki lucha por sobrevivir y cambiar su destino.",
   "coverImage": "https://pics.filmaffinity.com/mirai_nikki-603583935-mmed.jpg",
   "genre": ["Anime", "Suspenso", "Psicológico", "Thriller", "Acción"],
@@ -4116,7 +4116,7 @@
   
 
 {
-  "title": "El Espectacular Spiderman - Temporada 2",
+  "title": "El Espectacular Spiderman Temporada 2",
   "description": "Peter Parker continúa sus aventuras como Spider-Man enfrentando nuevos villanos, problemas personales y los desafíos de mantener el equilibrio entre su vida estudiantil y su responsabilidad como héroe.",
   "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS29sZfI_AARC4AHimyTPBpVQHvPF8u1RPv66bLiUEj0w&s=10",
   "genre": ["Animación", "Acción", "Aventura", "Superhéroes"],
@@ -4193,7 +4193,7 @@
   
   
 {
-  "title": "El Espectacular Spiderman - Temporada 1",
+  "title": "El Espectacular Spiderman",
   "description": "Serie animada centrada en las aventuras de Peter Parker, un estudiante de secundaria con poderes arácnidos que combate el crimen mientras equilibra su vida cotidiana, amistades y responsabilidades como Spider-Man.",
   "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS29sZfI_AARC4AHimyTPBpVQHvPF8u1RPv66bLiUEj0w&s=10",
   "genre": ["Animación", "Acción", "Aventura", "Superhéroes"],
@@ -4270,7 +4270,7 @@
 
   
 {
-  "title": "Bleach - Temporada 1",
+  "title": "Bleach",
   "description": "Ichigo Kurosaki, un adolescente que puede ver espíritus, obtiene los poderes de un Shinigami y debe proteger a los vivos de los Hollows, al mismo tiempo que descubre el peligroso mundo de la Sociedad de Almas.",
   "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVjCTx0tbL-1ITDvmZ-hk2fijhleP-u9rC5lPl4aXenw&s=10",
   "genre": ["Animación", "Acción", "Aventura", "Sobrenatural", "Shonen"],
@@ -4467,7 +4467,7 @@
   
 
   {
-  "title": "Naruto Shippuden - Temporada 1 (Español Latino)",
+  "title": "Naruto Shippuden Temporada 1",
   "description": "La primera temporada de Naruto Shippuden marca el regreso de Naruto Uzumaki después de entrenar para enfrentar nuevas amenazas y reunirse con viejos amigos, mientras se acerca el peligro del pasado.",
   "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZMNkvZXMLHAzOmqtJXOWSop4W8FNd1jf34gfy0HK-lw&s=10",
   "genre": ["Anime", "Acción", "Aventura", "Shounen"],
@@ -4645,7 +4645,7 @@
   
 
 {
-  "title": "Naruto - Temporada 4 (Español Latino)",
+  "title": "Naruto Temporada 4",
   "description": "La cuarta temporada de Naruto continúa con aventuras más intensas, conflictos nuevos y personajes que evolucionan mientras Naruto se acerca cada vez más a su destino.",
   "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfS1G_SWYorcGuM1LlZakSWeaG5Col1507Ith9awNIM_J2Bw1DDjB0fGZ6&s=10",
   "genre": ["Anime", "Acción", "Aventura", "Shounen"],
@@ -4968,7 +4968,7 @@
 
   
 {
-  "title": "Naruto - Temporada 2 (Español Latino)",
+  "title": "Naruto Temporada 2 ",
   "description": "La segunda temporada de Naruto continúa la misión de Naruto Uzumaki con sus compañeros, enfrentándose a nuevos enemigos, retos más fuertes y creciendo como ninja mientras sigue su sueño de ser Hokage.",
   "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3oa9idCzSlhND6JE3spRGNey5JzLdgBT4yBf8bCpm5A&s=10",
   "genre": ["Anime", "Acción", "Aventura", "Shounen"],
@@ -5239,7 +5239,7 @@
 
 
 {
-  "title": "Naruto - Temporada 1 (Español Latino)",
+  "title": "Naruto Temporada 1",
   "description": "La primera temporada de Naruto sigue la historia del joven ninja Naruto Uzumaki, quien sueña con convertirse en Hokage. Junto a sus compañeros Sasuke y Sakura, bajo la guía de Kakashi, enfrentará misiones y pruebas que pondrán a prueba su valor y amistad.",
   "coverImage": "https://es.web.img3.acsta.net/pictures/19/08/02/17/10/0279495.jpg",
   "genre": ["Anime", "Acción", "Aventura", "Shounen"],
@@ -5512,7 +5512,7 @@
   
 
 {
-  "title": "Zero no Tsukaima - Temporada 4 (Finale)",
+  "title": "Zero no Tsukaima Temporada 4",
   "description": "La cuarta y última temporada de Zero no Tsukaima, titulada *F*. Louise y Saito deben enfrentar sus sentimientos mientras Halkeginia se sumerge en la guerra contra un enemigo poderoso. Las promesas entre amo y familiar se pondrán a prueba en medio de batallas épicas y decisiones que cambiarán su destino.",
   "coverImage": "https://m.media-amazon.com/images/I/61wiBQCotLL._UF894,1000_QL80_.jpg",
   "genre": ["Anime", "Fantasia", "Romance", "Acción"],
@@ -5589,7 +5589,7 @@
 
   
 {
-  "title": "Zero no Tsukaima - Temporada 3",
+  "title": "Zero no Tsukaima Temporada 3",
   "description": "las aventuras de Louise y Saito continúan no solo como ama y familiar, sino también con un amor cada vez más apasionado. Nuevos personajes como Illococoo Joseph de Gallia, Beatrice von Guldenhorf y otros, se suman a la trama, complicando los conflictos políticos y personales entre los reinos de Halkeginia.",
   "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4Q5aIW7LHBPI_lG-2RZljZg_lcsuKUeK-epJrA6264w&s=10",
   "genre": ["Anime", "Fantasia", "Romance", "Acción"],
@@ -5660,7 +5660,7 @@
 
 
 {
-  "title": "Zero no Tsukaima - Temporada 2",
+  "title": "Zero no Tsukaima Temporada 2",
   "description": "Segunda temporada de Zero no Tsukaima. Nuevas aventuras mágicas, intrigas, batallas y el desarrollo del lazo entre Saito y Louise en el mundo de Halkeginia.",
   "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlZDz81QmPPfArpYIhhpdl_Pgo9ZhQWO9yHXWO4Y17QA&s=10",
   "genre": ["Anime", "Fantasia", "Romance", "Acción"],
@@ -5732,7 +5732,7 @@
 
   
 {
-  "title": "Zero no Tsukaima - Temporada 1 (Latino)",
+  "title": "Zero no Tsukaima Temporada 1",
   "description": "El joven Saito es transportado desde Japón al mundo mágico de Halkeginia. Allí se convierte en el familiar de la inepta pero poderosa maga Louise, con quien vivirá aventuras, criaturas mágicas, conflicto político y un romance prohibido.",
   "coverImage": "https://www.nautiljon.com/images/anime/00/42/zero_no_tsukaima_224.webp",
   "genre": ["Anime", "Fantasia", "Acción", "Romance"],
@@ -5814,7 +5814,7 @@
 
 
 {
-  "title": "Naruto - Temporada 3 (Español Latino)",
+  "title": "Naruto Temporada 3",
   "description": "La tercera temporada de Naruto continúa con aventuras intensas, desarrollo de personajes y misiones cada vez más peligrosas mientras Naruto sigue su camino para convertirse en Hokage.",
   "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1wrTIbhGNeO_by1HncvgR2fDw3wEdRN-fPdhbe_3aaQ&s=10",
   "genre": ["Anime", "Acción", "Aventura", "Shounen"],
@@ -6105,7 +6105,7 @@
   },
 
   {
-  "title": "Coraje, el perro cobarde - Temporada 4",
+  "title": "Coraje, el perro cobarde Temporada 4",
   "description": "Cuarta temporada de Coraje con nuevas aventuras extrañas, misterios y criaturas que desafían al perro más cobarde de ninguna parte.",
   "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfCNO8JxLz2GmjD2bjo6aLrf8vH5xts4olYY9DmMZ3rQ&s=10",
   "genre": ["Serie", "Animación", "Comedia", "Terror"],
@@ -6250,7 +6250,7 @@
   },
   
   {
-  "title": "Coraje, el perro cobarde - Temporada 3",
+  "title": "Coraje, el perro cobarde Temporada 3",
   "description": "Tercera temporada de Coraje, donde nuevas aventuras extrañas y aterradores seres ponen a prueba el valor de nuestro perro favorito.",
   "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfCNO8JxLz2GmjD2bjo6aLrf8vH5xts4olYY9DmMZ3rQ&s=10",
   "genre": ["Serie", "Animación", "Comedia", "Terror"],
@@ -6395,7 +6395,7 @@
   },
   
 {
-  "title": "Coraje, el perro cobarde - Temporada 2",
+  "title": "Coraje, el perro cobarde Temporada 2",
   "description": "Segunda temporada de Coraje, donde nuevas aventuras extrañas, horrores y criaturas vienen a perturbar la paz de Coraje, Muriel y Justo en Ningún Lugar.",
   "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfCNO8JxLz2GmjD2bjo6aLrf8vH5xts4olYY9DmMZ3rQ&s=10",
   "genre": ["Serie", "Animación", "Comedia", "Terror"],
@@ -6431,7 +6431,7 @@
 },
 
   {
-  "title": "Coraje, el perro cobarde - Temporada 1",
+  "title": "Coraje, el perro cobarde Temporada 1",
   "description": "Serie animada que sigue a Coraje, un perro temeroso pero valiente que vive con Muriel y Justo en Ningún Lugar. A pesar de sus miedos, siempre enfrenta criaturas sobrenaturales y amenazas extrañas para proteger a su familia.",
   "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfCNO8JxLz2GmjD2bjo6aLrf8vH5xts4olYY9DmMZ3rQ&s=10",
   "genre": ["Serie", "Animación", "Comedia", "Terror"],
@@ -6575,7 +6575,7 @@
 
 
 {
-  "title": "The Batman - Temporada 1",
+  "title": "The Batman",
   "description": "Serie animada que muestra los primeros años de Bruce Wayne como Batman en Gotham City, enfrentándose por primera vez a sus icónicos villanos.",
   "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREQ5jplivqiR0S_HnhpgC3U6plE_GyeS3E31w0EJg4-w&s=10",
   "genre": ["Serie", "Animación", "Superhéroes"],
@@ -7033,7 +7033,7 @@
 
 
 {
-  "title": "Spider-Man (1994) - Temporada 1",
+  "title": "Spider-Man 1994",
   "description": "La clásica serie animada de Spider-Man de 1994. Esta temporada sigue a Peter Parker en sus primeras grandes batallas contra villanos como el Lagarto, el Doctor Octopus, Kraven, Mysterio, el Escorpión y el Duende Verde.",
   "coverImage": "https://m.media-amazon.com/images/M/MV5BYWRkN2M1NmQtZjhjMi00ODFjLTk2ODctYWJiOWNkNjg1OGY4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
   "genre": ["Serie", "Animación", "Superhéroes"],
@@ -7125,7 +7125,7 @@
 
 
 {
-  "title": "El Zorro - Temporada 1",
+  "title": "El Zorro Disney",
   "description": "Serie clásica de aventuras de Disney que narra las hazañas de Don Diego de la Vega, quien bajo la identidad secreta del Zorro lucha contra la injusticia en la California española.",
   "coverImage": "https://m.media-amazon.com/images/M/MV5BNWJiZTc1ZjMtYWJlMC00MGZmLWI3YTAtNDAxYmIyMDUyNGU1XkEyXkFqcGc@._V1_.jpg",
   "genre": ["Serie", "Aventura", "Clásico"],
