@@ -78,78 +78,11 @@ body {
   pointer-events: none;
 }
 
-/* --- Sidebar Navigation (Desktop) --- */
-.sidebar-nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100vh;
-  width: 240px;
-  background: var(--secondary-bg);
-  border-right: 1px solid var(--border-color);
-  display: flex;
-  flex-direction: column;
-  padding: 20px 0;
-  z-index: 200;
-  transform: translateX(0);
-  transition: transform 0.3s ease;
-}
-
-.sidebar-nav .logo {
-  font-family: 'Space Grotesk', sans-serif;
-  font-size: 24px;
-  font-weight: 700;
-  background: var(--gradient-1);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-decoration: none;
-  letter-spacing: -1px;
-  padding: 0 24px;
-  margin-bottom: 40px;
-}
-
-.sidebar-nav .nav-item {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-  padding: 12px 24px;
-  color: var(--text-secondary);
-  text-decoration: none;
-  font-size: 16px;
-  font-weight: 500;
-  transition: all 0.2s ease;
-  position: relative;
-}
-
-.sidebar-nav .nav-item:hover,
-.sidebar-nav .nav-item.active {
-  color: var(--text-primary);
-  background: rgba(147, 51, 234, 0.1);
-}
-
-.sidebar-nav .nav-item.active::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 4px;
-  height: 24px;
-  background: var(--accent-purple);
-  border-radius: 0 4px 4px 0;
-}
-
-.sidebar-nav .nav-icon {
-  font-size: 20px;
-  width: 24px;
-}
-
 /* --- Header --- */
 .header {
   position: fixed;
   top: 0;
-  left: 240px;
+  left: 0;
   right: 0;
   background: linear-gradient(to bottom, rgba(10, 10, 10, 0.95) 0%, rgba(10, 10, 10, 0) 100%);
   padding: 16px 20px;
@@ -234,45 +167,11 @@ body {
   transform: scale(1.1);
 }
 
-/* Ocultar buscador del header en desktop */
-.header-search-btn {
-  display: none;
-}
-
-/* Mostrar buscador del header solo en móvil */
-@media (max-width: 768px) {
-  .header-search-btn {
-    display: flex;
-  }
-}
-
-.menu-toggle {
-  display: none;
-  background: none;
-  border: none;
-  color: var(--text-primary);
-  font-size: 24px;
-  cursor: pointer;
-  padding: 8px;
-  border-radius: 50%;
-  transition: background-color 0.2s ease;
-}
-
-.menu-toggle:hover {
-  background: var(--card-bg);
-}
-
 /* --- Main Content --- */
 .main-content {
   padding-top: 80px;
   min-height: 100vh;
   padding-bottom: 80px;
-  margin-left: 240px;
-  transition: margin-left 0.3s ease;
-}
-
-.sidebar-nav.active ~ .main-content {
-  margin-left: 240px;
 }
 
 .screen {
@@ -1241,256 +1140,6 @@ a {
 .content-card.series .series-back-btn {
   display: none;
 }
-
-/* --- Media Queries para Sidebar --- */
-@media (min-width: 769px) {
-  .menu-toggle {
-    display: block;
-  }
-  
-  .nav-menu {
-    display: none;
-  }
-}
-
-@media (max-width: 768px) {
-  .sidebar-nav {
-    width: 280px;
-  }
-  
-  .sidebar-nav.active ~ .main-content {
-    margin-left: 0;
-  }
-  
-  .menu-toggle {
-    display: block;
-  }
-}
-
-/* --- Responsive --- */
-@media (max-width: 768px) {
-  .sidebar-nav {
-    transform: translateX(-100%);
-  }
-  
-  .main-content {
-    margin-left: 0;
-  }
-  
-  .header {
-    left: 0;
-  }
-  
-  .menu-toggle {
-    display: none;
-  }
-  
-  .sidebar-nav.active {
-    transform: translateX(-100%);
-  }
-}
-
-/* Ocultar sidebar en móvil */
-@media (max-width: 768px) {
-  .sidebar-nav {
-    display: none;
-  }
-  
-  .main-content {
-    margin-left: 0;
-  }
-  
-  .header {
-    left: 0;
-  }
-  
-  /* En móvil, mostrar el buscador del header y ocultar el del sidebar */
-  .header-actions #search-btn {
-    display: flex;
-  }
-  
-  .sidebar-nav #search-btn-sidebar {
-    display: none;
-  }
-}
-
-/* --- Botón de retroceso para series (versión mejorada) --- */
-.content-card.series .series-back-btn {
-  display: none;
-}
-
-/* --- Media Queries para Sidebar --- */
-@media (min-width: 769px) {
-  .menu-toggle {
-    display: block;
-  }
-  
-  .nav-menu {
-    display: none;
-  }
-}
-
-@media (max-width: 768px) {
-  .sidebar-nav {
-    width: 280px;
-  }
-  
-  .sidebar-nav.active ~ .main-content {
-    margin-left: 0;
-  }
-  
-  .menu-toggle {
-    display: block;
-  }
-}
-
-/* Ocultar logo en versión PC y TV */
-@media (min-width: 769px) {
-  .sidebar-nav .logo {
-    display: none;
-  }
-  
-  /* También ocultar el logo del header en desktop */
-  .header .logo {
-    display: none;
-  }
-}
-
-/* --- Navegación con teclado/mando --- */
-.keyboard-navigation .content-card,
-.keyboard-navigation .nav-item,
-.keyboard-navigation .nav-tab,
-.keyboard-navigation .hero-btn,
-.keyboard-navigation .action-btn,
-.keyboard-navigation .episode-card,
-.keyboard-navigation .search-back {
-  position: relative;
-}
-
-.keyboard-navigation .content-card:focus,
-.keyboard-navigation .nav-item:focus,
-.keyboard-navigation .nav-tab:focus,
-.keyboard-navigation .hero-btn:focus,
-.keyboard-navigation .action-btn:focus,
-.keyboard-navigation .episode-card:focus,
-.keyboard-navigation .search-back:focus {
-  outline: 3px solid var(--accent-purple);
-  outline-offset: 2px;
-  transform: scale(1.05);
-  box-shadow: 0 0 20px rgba(147, 51, 234, 0.5);
-  z-index: 10;
-}
-
-.keyboard-navigation .content-card:focus .play-indicator,
-.keyboard-navigation .content-card:focus .card-title-overlay {
-  opacity: 1;
-}
-
-/* Indicador visual de foco */
-.focus-indicator {
-  position: fixed;
-  pointer-events: none;
-  z-index: 9999;
-  transition: all 0.2s ease;
-  border: 3px solid var(--accent-purple);
-  border-radius: 8px;
-  box-shadow: 0 0 20px rgba(147, 51, 234, 0.8);
-  display: none;
-}
-
-.focus-indicator.active {
-  display: block;
-}
-
-/* Animación de pulsación cuando está enfocado */
-@keyframes pulse {
-  0% { transform: scale(1); }
-  50% { transform: scale(1.02); }
-  100% { transform: scale(1); }
-}
-
-.keyboard-navigation .focused {
-  animation: pulse 1s infinite;
-}
-
-/* --- Grid Navigation Helper --- */
-.grid-container {
-  position: relative;
-}
-
-.grid-item-focused {
-  transform: scale(1.05);
-  box-shadow: 0 0 20px rgba(147, 51, 234, 0.5);
-  z-index: 10;
-}
-
-/* Asegurar que los elementos se puedan enfocar */
-.content-card, .nav-item, .action-btn, .episode-card, .hero-btn, .search-back {
-  outline: none;
-  transition: transform 0.2s ease;
-}
-
-/* Mejorar el indicador de foco */
-.focus-indicator {
-  position: fixed;
-  pointer-events: none;
-  z-index: 9999;
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  border: 3px solid var(--accent-purple);
-  border-radius: 12px;
-  box-shadow: 0 0 30px rgba(147, 51, 234, 0.9), 0 0 60px rgba(147, 51, 234, 0.5);
-  display: none;
-  background: rgba(147, 51, 234, 0.1);
-  backdrop-filter: blur(2px);
-}
-
-.focus-indicator.active {
-  display: block;
-  animation: focus-pulse 2s infinite;
-}
-
-@keyframes focus-pulse {
-  0%, 100% { 
-    transform: scale(1);
-    opacity: 1;
-  }
-  50% { 
-    transform: scale(1.02);
-    opacity: 0.8;
-  }
-}
-
-/* Efecto hover mejorado para elementos enfocados */
-.keyboard-navigation .content-card:focus,
-.keyboard-navigation .nav-item:focus,
-.keyboard-navigation .action-btn:focus,
-.keyboard-navigation .episode-card:focus,
-.keyboard-navigation .hero-btn:focus {
-  transform: scale(1.05) translateZ(0);
-  box-shadow: 0 10px 30px rgba(147, 51, 234, 0.4);
-  z-index: 10;
-}
-
-/* Asegurar que el sidebar sea navegable */
-.sidebar-nav .nav-item:focus {
-  background: rgba(147, 51, 234, 0.2);
-  transform: translateX(8px);
-  box-shadow: 0 4px 15px rgba(147, 51, 234, 0.3);
-}
-
-/* Indicador visual cuando un elemento está listo para seleccionar */
-.keyboard-navigation .ready-to-select {
-  animation: ready-pulse 1s infinite;
-}
-
-@keyframes ready-pulse {
-  0%, 100% { 
-    box-shadow: 0 0 20px rgba(147, 51, 234, 0.6);
-  }
-  50% { 
-    box-shadow: 0 0 40px rgba(147, 51, 234, 1);
-  }
-}
 </style>
 </head>
 <body>
@@ -1498,36 +1147,6 @@ a {
 <div id="loader" class="loader-container">
     <div class="loader"></div>
 </div>
-
-<!-- Sidebar Navigation -->
-<nav class="sidebar-nav" id="sidebar-nav">
-  <a href="#" class="logo" data-screen="home">Kawaii Play</a>
-  <a href="#" class="nav-item active" data-screen="home">
-    <i class="fas fa-home nav-icon"></i>
-    Inicio
-  </a>
-  <a href="#" class="nav-item" data-screen="movies">
-    <i class="fas fa-film nav-icon"></i>
-    Películas
-  </a>
-  <a href="#" class="nav-item" data-screen="series">
-    <i class="fas fa-tv nav-icon"></i>
-    Series
-  </a>
-  <a href="#" class="nav-item" data-screen="channels">
-    <i class="fas fa-broadcast-tower nav-icon"></i>
-    Canales
-  </a>
-  <a href="#" class="nav-item" data-screen="favorites">
-    <i class="fas fa-star nav-icon"></i>
-    Mi Lista
-  </a>
-  <div style="margin-top: auto; padding: 20px 24px;">
-    <button id="search-btn-sidebar" class="header-btn" style="width: 100%; border-radius: 8px; height: 40px;">
-      <i class="fas fa-search"></i>
-    </button>
-  </div>
-</nav>
 
 <header class="header">
   <div class="header-content">
@@ -1540,7 +1159,7 @@ a {
       <a href="#" class="nav-item" data-screen="favorites">Mi Lista</a>
     </nav>
     <div class="header-actions">
-      <button id="search-btn" class="header-btn header-search-btn"><i class="fas fa-search"></i></button>
+      <button id="search-btn" class="header-btn"><i class="fas fa-search"></i></button>
     </div>
   </div>
 </header>
@@ -1747,37 +1366,6 @@ document.getElementById('install-close').addEventListener('click', () => {
   deferredPrompt = null;
 });
 
-// Sidebar Toggle
-// const menuToggle = document.getElementById('menu-toggle');
-// const sidebarNav = document.getElementById('sidebar-nav');
-
-// menuToggle.addEventListener('click', (e) => {
-//   e.preventDefault();
-//   sidebarNav.classList.toggle('active');
-// });
-
-// Close sidebar when clicking outside
-// document.addEventListener('click', (e) => {
-//   if (!sidebarNav.contains(e.target) && !menuToggle.contains(e.target)) {
-//     sidebarNav.classList.remove('active');
-//   }
-// });
-
-// Agregar funcionalidad al buscador del sidebar
-document.getElementById('search-btn-sidebar').addEventListener('click', () => {
-  searchModal.classList.add('active');
-  searchInput.focus();
-});
-
-// También mantener el buscador del header para móvil
-const searchBtnHeader = document.getElementById('search-btn');
-if (searchBtnHeader) {
-  searchBtnHeader.addEventListener('click', () => {
-    searchModal.classList.add('active');
-    searchInput.focus();
-  });
-}
-
 // DOM Elements
 const loader = document.getElementById('loader');
 const screens = document.querySelectorAll('.screen');
@@ -1804,9 +1392,6 @@ function switchScreen(screenId) {
   document.querySelectorAll(`[data-screen="${screenId}"]`).forEach(item => {
     item.classList.add('active');
   });
-  
-  // Close sidebar on mobile after navigation
-  sidebarNav.classList.remove('active');
 }
 
 function formatTime(seconds) {
@@ -2316,21 +1901,14 @@ function setupSearch() {
   const searchGrid = document.getElementById('search-grid');
   
   searchBtn.onclick = () => {
-    if (window.keyboardNav) {
-      window.keyboardNav.openSearch();
-    } else {
-      searchModal.classList.add('active');
-      searchInput.focus();
-    }
+    searchModal.classList.add('active');
+    searchInput.focus();
   };
   
   searchClose.onclick = () => {
     searchModal.classList.remove('active');
     searchInput.value = '';
     searchGrid.innerHTML = '';
-    if (window.keyboardNav) {
-      window.keyboardNav.closeSearch();
-    }
   };
   
   searchInput.oninput = (e) => {
@@ -2348,9 +1926,16 @@ function setupSearch() {
     searchGrid.innerHTML = '';
     results.forEach(item => {
       const card = createContentCard(item);
+      // Mostrar título en el buscador
       const titleOverlay = card.querySelector('.card-title-overlay');
       if (titleOverlay) {
         titleOverlay.style.opacity = '1';
+      } else {
+        const newTitleOverlay = document.createElement('div');
+        newTitleOverlay.className = 'card-title-overlay';
+        newTitleOverlay.textContent = item.title;
+        newTitleOverlay.style.opacity = '1';
+        card.appendChild(newTitleOverlay);
       }
       
       card.addEventListener('click', (e) => {
@@ -2359,11 +1944,6 @@ function setupSearch() {
         searchInput.value = '';
         searchGrid.innerHTML = '';
         showDetail(item);
-        if (window.keyboardNav) {
-          setTimeout(() => {
-            window.keyboardNav.updateNavigation();
-          }, 300);
-        }
       });
       searchGrid.appendChild(card);
     });
@@ -2371,30 +1951,7 @@ function setupSearch() {
     if (results.length === 0) {
       searchGrid.innerHTML = '<p style="text-align: center; color: var(--text-secondary); padding: 40px;">No se encontraron resultados</p>';
     }
-    
-    if (window.keyboardNav) {
-      setTimeout(() => {
-        if (window.keyboardNav.searchMode && !window.keyboardNav.searchFocused) {
-          window.keyboardNav.focusFirstSearchResult();
-        }
-      }, 200);
-    }
   };
-  
-  // Navegación dentro del input de búsqueda
-  searchInput.addEventListener('keydown', (e) => {
-    if (window.keyboardNav) {
-      window.keyboardNav.handleSearchNavigation(e);
-    } else {
-      if (e.key === 'Enter' && searchInput.value.length >= 2) {
-        e.preventDefault();
-        const firstResult = searchGrid.querySelector('.content-card');
-        if (firstResult) {
-          firstResult.click();
-        }
-      }
-    }
-  });
 }
 
 // Navigation
@@ -2413,388 +1970,6 @@ navItems.forEach(item => {
 });
 
 document.getElementById('detail-close').onclick = () => switchScreen('home');
-
-// Navegación con teclado/mando
-class KeyboardNavigation {
-  constructor() {
-    this.gridItems = [];
-    this.currentIndex = 0;
-    this.currentSection = 'home';
-    this.isActive = true;
-    this.focusIndicator = null;
-    this.sections = {
-      home: { items: [], rows: 0, cols: 0 },
-      movies: { items: [], rows: 0, cols: 0 },
-      series: { items: [], rows: 0, cols: 0 },
-      channels: { items: [], rows: 0, cols: 0 },
-      favorites: { items: [], rows: 0, cols: 0 },
-      detail: { items: [], rows: 0, cols: 0 }
-    };
-    
-    this.sidebarItems = [];
-    this.sidebarIndex = 0;
-    this.inSidebar = false;
-    this.searchMode = false;
-    this.searchFocused = false;
-    
-    this.init();
-  }
-
-  init() {
-    this.createFocusIndicator();
-    document.body.classList.add('keyboard-navigation');
-    document.addEventListener('keydown', this.handleKeyPress.bind(this));
-    this.updateGridItems();
-    this.focusCurrentItem();
-  }
-
-  createFocusIndicator() {
-    this.focusIndicator = document.createElement('div');
-    this.focusIndicator.className = 'focus-indicator';
-    document.body.appendChild(this.focusIndicator);
-  }
-
-  handleKeyPress(e) {
-    if (!this.isActive) return;
-    
-    // Si estamos en el buscador
-    if (this.searchMode) {
-      this.handleSearchNavigation(e);
-      return;
-    }
-    
-    switch(e.key) {
-      case 'ArrowUp':
-      case 'Up':
-        e.preventDefault();
-        if (this.inSidebar) {
-          this.moveSidebarUp();
-        } else {
-          this.moveUp();
-        }
-        break;
-      case 'ArrowDown':
-      case 'Down':
-        e.preventDefault();
-        if (this.inSidebar) {
-          this.moveSidebarDown();
-        } else {
-          this.moveDown();
-        }
-        break;
-      case 'ArrowLeft':
-      case 'Left':
-        e.preventDefault();
-        if (this.inSidebar) {
-          this.exitSidebar();
-        } else {
-          this.moveLeft();
-        }
-        break;
-      case 'ArrowRight':
-      case 'Right':
-        e.preventDefault();
-        if (this.inSidebar) {
-          this.exitSidebar();
-        } else {
-          this.moveRight();
-        }
-        break;
-      case 'Enter':
-      case 'Accept':
-        e.preventDefault();
-        if (this.inSidebar) {
-          this.selectSidebarItem();
-        } else {
-          this.selectItem();
-        }
-        break;
-      case 'Escape':
-      case 'Back':
-        e.preventDefault();
-        this.goBack();
-        break;
-      case 'Find':
-      case 'Search':
-      case 'F':
-        e.preventDefault();
-        this.openSearch();
-        break;
-    }
-  }
-
-  handleSearchNavigation(e) {
-    switch(e.key) {
-      case 'ArrowDown':
-        e.preventDefault();
-        this.focusFirstSearchResult();
-        break;
-      case 'Enter':
-        e.preventDefault();
-        if (this.searchFocused) {
-          const firstResult = document.querySelector('.search-results .content-card');
-          if (firstResult) {
-            firstResult.click();
-          }
-        }
-        break;
-      case 'Escape':
-        e.preventDefault();
-        this.closeSearch();
-        break;
-    }
-  }
-
-  updateGridItems() {
-    const activeScreen = document.querySelector('.screen.active');
-    if (!activeScreen) return;
-    
-    this.currentSection = activeScreen.id;
-    
-    // Actualizar items del sidebar
-    const sidebar = document.querySelector('.sidebar-nav');
-    if (sidebar && sidebar.style.display !== 'none') {
-      this.sidebarItems = Array.from(sidebar.querySelectorAll('.nav-item'));
-    }
-    
-    // Obtener elementos navegables de la pantalla actual
-    let items = [];
-    
-    if (this.currentSection === 'detail') {
-      items = Array.from(activeScreen.querySelectorAll('.action-btn, .episode-card, .search-back'));
-    } else {
-      items = Array.from(activeScreen.querySelectorAll('.content-card, .hero-btn'));
-    }
-    
-    this.gridItems = items;
-    this.currentIndex = 0;
-    
-    // Calcular dimensiones
-    this.calculateGridDimensions(activeScreen);
-  }
-
-  calculateGridDimensions(container) {
-    const cards = container.querySelectorAll('.content-card, .hero-btn');
-    if (cards.length === 0) return;
-    
-    const firstCard = cards[0];
-    const cardRect = firstCard.getBoundingClientRect();
-    const containerWidth = container.clientWidth;
-    const cardWidth = cardRect.width + 30;
-    const cols = Math.floor(containerWidth / cardWidth);
-    
-    this.sections[this.currentSection] = {
-      items: Array.from(cards),
-      rows: Math.ceil(cards.length / cols),
-      cols: cols || 1
-    };
-  }
-
-  moveUp() {
-    const section = this.sections[this.currentSection];
-    if (!section || section.cols === 0) return;
-    
-    const newIndex = this.currentIndex - section.cols;
-    if (newIndex >= 0) {
-      this.currentIndex = newIndex;
-      this.focusCurrentItem();
-    }
-  }
-
-  moveDown() {
-    const section = this.sections[this.currentSection];
-    if (!section || section.cols === 0) return;
-    
-    const newIndex = this.currentIndex + section.cols;
-    if (newIndex < section.items.length) {
-      this.currentIndex = newIndex;
-      this.focusCurrentItem();
-    }
-  }
-
-  moveLeft() {
-    const section = this.sections[this.currentSection];
-    if (!section || section.cols === 0) return;
-    
-    // Si estamos al principio de una fila, ir al sidebar
-    if (this.currentIndex % section.cols === 0) {
-      this.focusSidebar();
-    } else {
-      this.currentIndex--;
-      this.focusCurrentItem();
-    }
-  }
-
-  moveRight() {
-    const section = this.sections[this.currentSection];
-    if (!section || section.cols === 0) return;
-    
-    const newIndex = this.currentIndex + 1;
-    const row = Math.floor(this.currentIndex / section.cols);
-    const maxInRow = (row + 1) * section.cols;
-    
-    if (newIndex < section.items.length && newIndex < maxInRow) {
-      this.currentIndex = newIndex;
-      this.focusCurrentItem();
-    }
-  }
-
-  focusSidebar() {
-    if (this.sidebarItems.length > 0) {
-      this.inSidebar = true;
-      this.sidebarIndex = 0;
-      this.sidebarItems[0].focus();
-      this.updateFocusIndicator(this.sidebarItems[0]);
-    }
-  }
-
-  exitSidebar() {
-    this.inSidebar = false;
-    this.focusCurrentItem();
-  }
-
-  moveSidebarUp() {
-    if (this.sidebarIndex > 0) {
-      this.sidebarIndex--;
-      this.sidebarItems[this.sidebarIndex].focus();
-      this.updateFocusIndicator(this.sidebarItems[this.sidebarIndex]);
-    }
-  }
-
-  moveSidebarDown() {
-    if (this.sidebarIndex < this.sidebarItems.length - 1) {
-      this.sidebarIndex++;
-      this.sidebarItems[this.sidebarIndex].focus();
-      this.updateFocusIndicator(this.sidebarItems[this.sidebarIndex]);
-    }
-  }
-
-  selectSidebarItem() {
-    const item = this.sidebarItems[this.sidebarIndex];
-    if (item) {
-      const screenId = item.dataset.screen;
-      item.click();
-      
-      // Después de cambiar de sección, enfocar la primera portada
-      setTimeout(() => {
-        this.focusFirstContentCard();
-      }, 300);
-    }
-  }
-
-  focusFirstContentCard() {
-    const section = this.sections[this.currentSection];
-    if (section && section.items.length > 0) {
-      this.currentIndex = 0;
-      this.focusCurrentItem();
-    }
-  }
-
-  focusCurrentItem() {
-    const section = this.sections[this.currentSection];
-    if (!section || !section.items[this.currentIndex]) return;
-    
-    const item = section.items[this.currentIndex];
-    item.focus();
-    this.updateFocusIndicator(item);
-    item.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'nearest' });
-  }
-
-  updateFocusIndicator(element) {
-    if (!this.focusIndicator || !element) return;
-    
-    const rect = element.getBoundingClientRect();
-    this.focusIndicator.style.left = `${rect.left - 4}px`;
-    this.focusIndicator.style.top = `${rect.top - 4}px`;
-    this.focusIndicator.style.width = `${rect.width + 8}px`;
-    this.focusIndicator.style.height = `${rect.height + 8}px`;
-    this.focusIndicator.classList.add('active');
-  }
-
-  selectItem() {
-    const section = this.sections[this.currentSection];
-    if (!section || !section.items[this.currentIndex]) return;
-    
-    const item = section.items[this.currentIndex];
-    
-    if (item.tagName === 'A' || item.classList.contains('nav-item')) {
-      item.click();
-    } else if (item.classList.contains('content-card')) {
-      const link = item.querySelector('.video-link');
-      if (link) {
-        link.click();
-      } else {
-        item.click();
-      }
-    } else {
-      item.click();
-    }
-  }
-
-  goBack() {
-    const currentScreen = document.querySelector('.screen.active');
-    if (currentScreen.id === 'detail') {
-      switchScreen('home');
-    } else if (currentScreen.id !== 'home') {
-      switchScreen('home');
-    } else if (this.inSidebar) {
-      this.exitSidebar();
-    }
-  }
-
-  openSearch() {
-    this.searchMode = true;
-    this.searchFocused = true;
-    searchModal.classList.add('active');
-    searchInput.focus();
-    
-    // Configurar para que al salir del input se vaya a los resultados
-    const self = this;
-    searchInput.addEventListener('blur', function onBlur() {
-      searchInput.removeEventListener('blur', onBlur);
-      setTimeout(() => {
-        if (self.searchMode && document.querySelector('.search-results .content-card')) {
-          self.searchFocused = false;
-          self.focusFirstSearchResult();
-        }
-      }, 100);
-    });
-  }
-
-  closeSearch() {
-    this.searchMode = false;
-    this.searchFocused = false;
-    searchModal.classList.remove('active');
-    searchInput.value = '';
-    document.getElementById('search-grid').innerHTML = '';
-    this.focusCurrentItem();
-  }
-}
-
-// Modificar la función switchScreen para actualizar navegación
-const originalSwitchScreen = switchScreen;
-window.switchScreen = function(screenId) {
-  originalSwitchScreen(screenId);
-  
-  // Actualizar navegación de teclado si existe
-  if (window.keyboardNav) {
-    window.keyboardNav.updateNavigation();
-    // Enfocar el primer contenido de la sección
-    setTimeout(() => {
-      window.keyboardNav.focusFirstContentCard();
-    }, 400);
-  }
-};
-
-// Inicializar navegación con teclado
-let keyboardNav;
-document.addEventListener('DOMContentLoaded', () => {
-  // Esperar a que todo esté cargado
-  setTimeout(() => {
-    keyboardNav = new KeyboardNavigation();
-    window.keyboardNav = keyboardNav;
-  }, 1000);
-});
 
 // Initialization
 async function init() {
