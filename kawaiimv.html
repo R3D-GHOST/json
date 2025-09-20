@@ -1343,6 +1343,18 @@ a {
     display: block;
   }
 }
+
+/* Ocultar logo en versión PC y TV */
+@media (min-width: 769px) {
+  .sidebar-nav .logo {
+    display: none;
+  }
+  
+  /* También ocultar el logo del header en desktop */
+  .header .logo {
+    display: none;
+  }
+}
 </style>
 </head>
 <body>
