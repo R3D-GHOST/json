@@ -1,7 +1,32 @@
 [
 
+{
+    "title": "Jaimito el Chulo",
+    "description": "Giggi es un joven desempleado sin aspiraciones que, vestido de manera ridícula, presume ante todos, amenaza y vacila, lo que lo meterá en numerosos líos. (Comedia italiana con Álvaro Vitali).", 
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzB6kpoG6WOcQ2YojQO5JgpxVE0uvlcZCVVzRCxdrM1ME8v8VS9V38KJ9T&s=10",
+    "genre": ["Película", "Comedia", "Italiano", "Cine de los 80"],
+    "video_url": "https://archive.org/download/robots_20250921/jaimito%20el%20chulo.mp4"
+  },
+  {
+    "title": "Jaimito, el Conserje",
+    "description": "Mario y sus amigos, alumnos de secundaria, se dedican a gastar bromas a profesores y alumnos, incluyendo al conserje 'Jaimito', hasta que las chicas deciden darles una lección. (Comedia de instituto italiana del director Mariano Laurenti).", 
+    "coverImage": "https://image.tmdb.org/t/p/original/6KGV2eqwn9MCM2W1F3xtFcTozMz.jpg",
+    "genre": ["Película", "Comedia", "Italiano", "Colegial"],
+    "video_url": "https://archive.org/download/robots_20250921/jaimito%20el%20conserje.mp4"
+  },
+  {
+    "title": "Robots",
+    "description": "En un mundo poblado por robots inteligentes, Rodney Hojalata aspira a convertirse en inventor. Cuando descubre que su padre está endeudado y que los robots 'obsoletos' son descartados por sus partes, decide viajar a Ciudad Robot para enfrentar la injusticia y demostrar que la innovación también puede tener corazón. (Película animada de Blue Sky Studios).", 
+    "coverImage": "https://www.mubis.es/media/covers/1400/1718/robots-portada-l_cover.jpg",
+    "genre": ["Animación", "Aventura", "Familiar", "Comedia", "Ciencia Ficción"],
+    "video_url": "https://archive.org/download/robots_20250921/robots.mp4"
+  },
 
 
+
+
+
+  
 
 {
   "title": "Dumbo",
