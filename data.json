@@ -5,7 +5,129 @@
 
 
 {
-  "title": "Naruto Shippuden Temporada 8 (Español Latino)",
+  "title": "Naruto Shippuden Temporada 9",
+  "description": "Naruto Shippuden Temporada 9 abarca los episodios 176 al 196 en español latino.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgJyZwNQwQYVItQPeyZjn-R73y-y0-dpQ4QyPaqtklqQ&s=10",
+  "genre": ["Anime", "Acción", "Aventura", "Shonen"],
+  "episodes": [
+    {
+      "episode": 176,
+      "title": "Naruto Shippuden 176",
+      "video_url": "https://archive.org/download/naruto-shippuden-tenporada-9-espanol-latino/Naruto%20Shippuden-176.mp4"
+    },
+    {
+      "episode": 177,
+      "title": "Naruto Shippuden 177",
+      "video_url": "https://archive.org/download/naruto-shippuden-tenporada-9-espanol-latino/Naruto%20Shippuden-177.mp4"
+    },
+    {
+      "episode": 178,
+      "title": "Naruto Shippuden 178",
+      "video_url": "https://archive.org/download/naruto-shippuden-tenporada-9-espanol-latino/Naruto%20Shippuden-178.mp4"
+    },
+    {
+      "episode": 179,
+      "title": "Naruto Shippuden 179",
+      "video_url": "https://archive.org/download/naruto-shippuden-tenporada-9-espanol-latino/Naruto%20Shippuden-179.mp4"
+    },
+    {
+      "episode": 180,
+      "title": "Naruto Shippuden 180",
+      "video_url": "https://archive.org/download/naruto-shippuden-tenporada-9-espanol-latino/Naruto%20Shippuden-180.mp4"
+    },
+    {
+      "episode": 181,
+      "title": "Naruto Shippuden 181",
+      "video_url": "https://archive.org/download/naruto-shippuden-tenporada-9-espanol-latino/Naruto%20Shippuden-181.mp4"
+    },
+    {
+      "episode": 182,
+      "title": "Naruto Shippuden 182",
+      "video_url": "https://archive.org/download/naruto-shippuden-tenporada-9-espanol-latino/Naruto%20Shippuden-182.mp4"
+    },
+    {
+      "episode": 183,
+      "title": "Naruto Shippuden 183",
+      "video_url": "https://archive.org/download/naruto-shippuden-tenporada-9-espanol-latino/Naruto%20Shippuden-183.mp4"
+    },
+    {
+      "episode": 184,
+      "title": "Naruto Shippuden 184",
+      "video_url": "https://archive.org/download/naruto-shippuden-tenporada-9-espanol-latino/Naruto%20Shippuden-184.mp4"
+    },
+    {
+      "episode": 185,
+      "title": "Naruto Shippuden 185",
+      "video_url": "https://archive.org/download/naruto-shippuden-tenporada-9-espanol-latino/Naruto%20Shippuden-185.mp4"
+    },
+    {
+      "episode": 186,
+      "title": "Naruto Shippuden 186",
+      "video_url": "https://archive.org/download/naruto-shippuden-tenporada-9-espanol-latino/Naruto%20Shippuden-186.mp4"
+    },
+    {
+      "episode": 187,
+      "title": "Naruto Shippuden 187",
+      "video_url": "https://archive.org/download/naruto-shippuden-tenporada-9-espanol-latino/Naruto%20Shippuden-187.mp4"
+    },
+    {
+      "episode": 188,
+      "title": "Naruto Shippuden 188",
+      "video_url": "https://archive.org/download/naruto-shippuden-tenporada-9-espanol-latino/Naruto%20Shippuden-188.mp4"
+    },
+    {
+      "episode": 189,
+      "title": "Naruto Shippuden 189",
+      "video_url": "https://archive.org/download/naruto-shippuden-tenporada-9-espanol-latino/Naruto%20Shippuden-189.mp4"
+    },
+    {
+      "episode": 190,
+      "title": "Naruto Shippuden 190",
+      "video_url": "https://archive.org/download/naruto-shippuden-tenporada-9-espanol-latino/Naruto%20Shippuden-190.mp4"
+    },
+    {
+      "episode": 191,
+      "title": "Naruto Shippuden 191",
+      "video_url": "https://archive.org/download/naruto-shippuden-tenporada-9-espanol-latino/Naruto%20Shippuden-191.mp4"
+    },
+    {
+      "episode": 192,
+      "title": "Naruto Shippuden 192",
+      "video_url": "https://archive.org/download/naruto-shippuden-tenporada-9-espanol-latino/Naruto%20Shippuden-192.mp4"
+    },
+    {
+      "episode": 193,
+      "title": "Naruto Shippuden 193",
+      "video_url": "https://archive.org/download/naruto-shippuden-tenporada-9-espanol-latino/Naruto%20Shippuden-193.mp4"
+    },
+    {
+      "episode": 194,
+      "title": "Naruto Shippuden 194",
+      "video_url": "https://archive.org/download/naruto-shippuden-tenporada-9-espanol-latino/Naruto%20Shippuden-194.mp4"
+    },
+    {
+      "episode": 195,
+      "title": "Naruto Shippuden 195",
+      "video_url": "https://archive.org/download/naruto-shippuden-tenporada-9-espanol-latino/Naruto%20Shippuden-195.mp4"
+    },
+    {
+      "episode": 196,
+      "title": "Naruto Shippuden 196",
+      "video_url": "https://archive.org/download/naruto-shippuden-tenporada-9-espanol-latino/Naruto%20Shippuden-196.mp4"
+    }
+  ]
+},
+
+
+
+
+
+
+  
+
+
+{
+  "title": "Naruto Shippuden Temporada 8",
   "description": "En esta temporada, la historia sigue la invasión de Pain a Konoha y el enfrentamiento decisivo contra Naruto, marcando uno de los momentos más icónicos de la serie.",
   "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAzLNviluTRGsKDwaUyt7eS2wq1G_RC4Y0f-1c8vLXByYe5oawII3YNHmz&s=1",
   "genre": [
