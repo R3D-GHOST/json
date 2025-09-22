@@ -1,10 +1,360 @@
-
 [
 
 
 
 
 
+
+
+{
+  "title": "Chicho Terremoto",
+  "description": "Chicho Terremoto es una serie de anime de comedia emitida en 1981. Narra las disparatadas aventuras de Chicho, un joven bajito y travieso con una obsesión por el baloncesto y las chicas, que se mete en toda clase de enredos.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-qSIea0ovKPWKKd4wFr1ZXI8UU5eu6Xiu9wdcxbI5aQ&s=10",
+  "genre": [
+    "Comedia",
+    "Deportes",
+    "Romance",
+    "Shonen"
+  ],
+  "episodes": [
+    {
+      "episode": 0,
+      "title": "Opening",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_00_Opening.mp4"
+    },
+    {
+      "episode": 1,
+      "title": "Chicho Terremoto - 01",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_01.mp4"
+    },
+    {
+      "episode": 2,
+      "title": "Chicho Terremoto - 02",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_02.mp4"
+    },
+    {
+      "episode": 3,
+      "title": "Chicho Terremoto - 03",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_03.mp4"
+    },
+    {
+      "episode": 4,
+      "title": "Chicho Terremoto - 04",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_04.mp4"
+    },
+    {
+      "episode": 5,
+      "title": "Chicho Terremoto - 05",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_05.mp4"
+    },
+    {
+      "episode": 6,
+      "title": "Chicho Terremoto - 06",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_06.mp4"
+    },
+    {
+      "episode": 7,
+      "title": "Chicho Terremoto - 07",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_07.mp4"
+    },
+    {
+      "episode": 8,
+      "title": "Chicho Terremoto - 08",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_08.mp4"
+    },
+    {
+      "episode": 9,
+      "title": "Chicho Terremoto - 09",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_09.mp4"
+    },
+    {
+      "episode": 10,
+      "title": "Chicho Terremoto - 10",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_10.mp4"
+    },
+    {
+      "episode": 11,
+      "title": "Chicho Terremoto - 11",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_11.mp4"
+    },
+    {
+      "episode": 12,
+      "title": "Chicho Terremoto - 12",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_12.mp4"
+    },
+    {
+      "episode": 13,
+      "title": "Chicho Terremoto - 13",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_13.mp4"
+    },
+    {
+      "episode": 14,
+      "title": "Chicho Terremoto - 14",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_14.mp4"
+    },
+    {
+      "episode": 15,
+      "title": "Chicho Terremoto - 15",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_15.mp4"
+    },
+    {
+      "episode": 16,
+      "title": "Chicho Terremoto - 16",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_16.mp4"
+    },
+    {
+      "episode": 17,
+      "title": "Chicho Terremoto - 17",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_17.mp4"
+    },
+    {
+      "episode": 18,
+      "title": "Chicho Terremoto - 18",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_18.mp4"
+    },
+    {
+      "episode": 19,
+      "title": "Chicho Terremoto - 19",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_19.mp4"
+    },
+    {
+      "episode": 20,
+      "title": "Chicho Terremoto - 20",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_20.mp4"
+    },
+    {
+      "episode": 21,
+      "title": "Chicho Terremoto - 21",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_21.mp4"
+    },
+    {
+      "episode": 22,
+      "title": "Chicho Terremoto - 22",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_22.mp4"
+    },
+    {
+      "episode": 23,
+      "title": "Chicho Terremoto - 23",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_23.mp4"
+    },
+    {
+      "episode": 24,
+      "title": "Chicho Terremoto - 24",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_24.mp4"
+    },
+    {
+      "episode": 25,
+      "title": "Chicho Terremoto - 25",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_25.mp4"
+    },
+    {
+      "episode": 26,
+      "title": "Chicho Terremoto - 26",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_26.mp4"
+    },
+    {
+      "episode": 27,
+      "title": "Chicho Terremoto - 27",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_27.mp4"
+    },
+    {
+      "episode": 28,
+      "title": "Chicho Terremoto - 28",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_28.mp4"
+    },
+    {
+      "episode": 29,
+      "title": "Chicho Terremoto - 29",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_29.mp4"
+    },
+    {
+      "episode": 30,
+      "title": "Chicho Terremoto - 30",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_30.mp4"
+    },
+    {
+      "episode": 31,
+      "title": "Chicho Terremoto - 31",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_31.mp4"
+    },
+    {
+      "episode": 32,
+      "title": "Chicho Terremoto - 32",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_32.mp4"
+    },
+    {
+      "episode": 33,
+      "title": "Chicho Terremoto - 33",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_33.mp4"
+    },
+    {
+      "episode": 34,
+      "title": "Chicho Terremoto - 34",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_34.mp4"
+    },
+    {
+      "episode": 35,
+      "title": "Chicho Terremoto - 35",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_35.mp4"
+    },
+    {
+      "episode": 36,
+      "title": "Chicho Terremoto - 36",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_36.mp4"
+    },
+    {
+      "episode": 37,
+      "title": "Chicho Terremoto - 37",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_37.mp4"
+    },
+    {
+      "episode": 38,
+      "title": "Chicho Terremoto - 38",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_38.mp4"
+    },
+    {
+      "episode": 39,
+      "title": "Chicho Terremoto - 39",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_39.mp4"
+    },
+    {
+      "episode": 40,
+      "title": "Chicho Terremoto - 40",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_40.mp4"
+    },
+    {
+      "episode": 41,
+      "title": "Chicho Terremoto - 41",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_41.mp4"
+    },
+    {
+      "episode": 42,
+      "title": "Chicho Terremoto - 42",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_42.mp4"
+    },
+    {
+      "episode": 43,
+      "title": "Chicho Terremoto - 43",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_43.mp4"
+    },
+    {
+      "episode": 44,
+      "title": "Chicho Terremoto - 44",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_44.mp4"
+    },
+    {
+      "episode": 45,
+      "title": "Chicho Terremoto - 45",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_45.mp4"
+    },
+    {
+      "episode": 46,
+      "title": "Chicho Terremoto - 46",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_46.mp4"
+    },
+    {
+      "episode": 47,
+      "title": "Chicho Terremoto - 47",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_47.mp4"
+    },
+    {
+      "episode": 48,
+      "title": "Chicho Terremoto - 48",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_48.mp4"
+    },
+    {
+      "episode": 49,
+      "title": "Chicho Terremoto - 49",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_49.mp4"
+    },
+    {
+      "episode": 50,
+      "title": "Chicho Terremoto - 50",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_50.mp4"
+    },
+    {
+      "episode": 51,
+      "title": "Chicho Terremoto - 51",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_51.mp4"
+    },
+    {
+      "episode": 52,
+      "title": "Chicho Terremoto - 52",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_52.mp4"
+    },
+    {
+      "episode": 53,
+      "title": "Chicho Terremoto - 53",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_53.mp4"
+    },
+    {
+      "episode": 54,
+      "title": "Chicho Terremoto - 54",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_54.mp4"
+    },
+    {
+      "episode": 55,
+      "title": "Chicho Terremoto - 55",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_55.mp4"
+    },
+    {
+      "episode": 56,
+      "title": "Chicho Terremoto - 56",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_56.mp4"
+    },
+    {
+      "episode": 57,
+      "title": "Chicho Terremoto - 57",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_57.mp4"
+    },
+    {
+      "episode": 58,
+      "title": "Chicho Terremoto - 58",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_58.mp4"
+    },
+    {
+      "episode": 59,
+      "title": "Chicho Terremoto - 59",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_59.mp4"
+    },
+    {
+      "episode": 60,
+      "title": "Chicho Terremoto - 60",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_60.mp4"
+    },
+    {
+      "episode": 61,
+      "title": "Chicho Terremoto - 61",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_61.mp4"
+    },
+    {
+      "episode": 62,
+      "title": "Chicho Terremoto - 62",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_62.mp4"
+    },
+    {
+      "episode": 63,
+      "title": "Chicho Terremoto - 63",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_63.mp4"
+    },
+    {
+      "episode": 64,
+      "title": "Chicho Terremoto - 64",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_64.mp4"
+    },
+    {
+      "episode": 65,
+      "title": "Chicho Terremoto - 65",
+      "video_url": "https://archive.org/download/chicho_terremoto_1981dvdripmp4cap.-01_65aac2.0_castellano/Chicho%20Terremoto%20%5B1981%5D%5BDVDrip%20MP4%5D%5BCap.%2001_65%5D%5BAAC%202.0%20Castellano%5D/Chicho_Terremoto_Cap_65.mp4"
+    }
+  ]
+},
+
+
+
+
+
+  
 
 
 
