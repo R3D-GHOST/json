@@ -1,6 +1,39 @@
 [
 
 
+
+{
+  "title": "Naruto Shippuden Temporada 13",
+  "description": "Temporada 13 de Naruto Shippuden (episodios 276–295) en Español Latino.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThz5UEFS9xnJmcap0QmGaKF0zW-neihGLRm-j1C_0TLQquVlXA08qmZnA&s=10",
+  "genre": ["Anime", "Acción", "Aventura", "Shonen"],
+  "episodes": [
+    { "episode": 276, "title": "Naruto Shippuden - 276", "video_url": "https://archive.org/download/naruto-shippuden-temporada-13-espanol-latino/Naruto%20Shippuden-276.mp4" },
+    { "episode": 277, "title": "Naruto Shippuden - 277", "video_url": "https://archive.org/download/naruto-shippuden-temporada-13-espanol-latino/Naruto%20Shippuden-277.mp4" },
+    { "episode": 278, "title": "Naruto Shippuden - 278", "video_url": "https://archive.org/download/naruto-shippuden-temporada-13-espanol-latino/Naruto%20Shippuden-278.mp4" },
+    { "episode": 279, "title": "Naruto Shippuden - 279", "video_url": "https://archive.org/download/naruto-shippuden-temporada-13-espanol-latino/Naruto%20Shippuden-279.mp4" },
+    { "episode": 280, "title": "Naruto Shippuden - 280", "video_url": "https://archive.org/download/naruto-shippuden-temporada-13-espanol-latino/Naruto%20Shippuden-280.mp4" },
+    { "episode": 281, "title": "Naruto Shippuden - 281", "video_url": "https://archive.org/download/naruto-shippuden-temporada-13-espanol-latino/Naruto%20Shippuden-281.mp4" },
+    { "episode": 282, "title": "Naruto Shippuden - 282", "video_url": "https://archive.org/download/naruto-shippuden-temporada-13-espanol-latino/Naruto%20Shippuden-282.mp4" },
+    { "episode": 283, "title": "Naruto Shippuden - 283", "video_url": "https://archive.org/download/naruto-shippuden-temporada-13-espanol-latino/Naruto%20Shippuden-283.mp4" },
+    { "episode": 284, "title": "Naruto Shippuden - 284", "video_url": "https://archive.org/download/naruto-shippuden-temporada-13-espanol-latino/Naruto%20Shippuden-284.mp4" },
+    { "episode": 285, "title": "Naruto Shippuden - 285", "video_url": "https://archive.org/download/naruto-shippuden-temporada-13-espanol-latino/Naruto%20Shippuden-285.mp4" },
+    { "episode": 286, "title": "Naruto Shippuden - 286", "video_url": "https://archive.org/download/naruto-shippuden-temporada-13-espanol-latino/Naruto%20Shippuden-286.mp4" },
+    { "episode": 287, "title": "Naruto Shippuden - 287", "video_url": "https://archive.org/download/naruto-shippuden-temporada-13-espanol-latino/Naruto%20Shippuden-287.mp4" },
+    { "episode": 288, "title": "Naruto Shippuden - 288", "video_url": "https://archive.org/download/naruto-shippuden-temporada-13-espanol-latino/Naruto%20Shippuden-288.mp4" },
+    { "episode": 289, "title": "Naruto Shippuden - 289", "video_url": "https://archive.org/download/naruto-shippuden-temporada-13-espanol-latino/Naruto%20Shippuden-289.mp4" },
+    { "episode": 290, "title": "Naruto Shippuden - 290", "video_url": "https://archive.org/download/naruto-shippuden-temporada-13-espanol-latino/Naruto%20Shippuden-290.mp4" },
+    { "episode": 291, "title": "Naruto Shippuden - 291", "video_url": "https://archive.org/download/naruto-shippuden-temporada-13-espanol-latino/Naruto%20Shippuden-291.mp4" },
+    { "episode": 292, "title": "Naruto Shippuden - 292", "video_url": "https://archive.org/download/naruto-shippuden-temporada-13-espanol-latino/Naruto%20Shippuden-292.mp4" },
+    { "episode": 293, "title": "Naruto Shippuden - 293", "video_url": "https://archive.org/download/naruto-shippuden-temporada-13-espanol-latino/Naruto%20Shippuden-293.mp4" },
+    { "episode": 294, "title": "Naruto Shippuden - 294", "video_url": "https://archive.org/download/naruto-shippuden-temporada-13-espanol-latino/Naruto%20Shippuden-294.mp4" },
+    { "episode": 295, "title": "Naruto Shippuden - 295", "video_url": "https://archive.org/download/naruto-shippuden-temporada-13-espanol-latino/Naruto%20Shippuden-295.mp4" }
+  ]
+},
+
+
+  
+
 {
   "title": "Naruto Shippuden Temporada 12",
   "description": "Naruto Shippuden Temporada 12 cubre los episodios 243 al 275 en español latino.",
