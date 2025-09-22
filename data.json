@@ -2,6 +2,84 @@
 
 
 
+{
+  "title": "Naruto Shippuden Temporada 16",
+  "description": "Naruto Shippuden Temporada 16 cubre los episodios 349 al 361 en Español Latino.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpQy2pQG7bxyUyG-0KPqDX7mc4KqNqDyixparRI0ErFw&s=10",
+  "genre": ["Anime", "Acción", "Aventura", "Shonen"],
+  "episodes": [
+    {
+      "episode": 349,
+      "title": "Naruto Shippuden - 349",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-16-espanol-latino/Naruto%20Shippuden-349.mp4"
+    },
+    {
+      "episode": 350,
+      "title": "Naruto Shippuden - 350",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-16-espanol-latino/Naruto%20Shippuden-350.mp4"
+    },
+    {
+      "episode": 351,
+      "title": "Naruto Shippuden - 351",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-16-espanol-latino/Naruto%20Shippuden-351.mp4"
+    },
+    {
+      "episode": 352,
+      "title": "Naruto Shippuden - 352",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-16-espanol-latino/Naruto%20Shippuden-352.mp4"
+    },
+    {
+      "episode": 353,
+      "title": "Naruto Shippuden - 353",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-16-espanol-latino/Naruto%20Shippuden-353.mp4"
+    },
+    {
+      "episode": 354,
+      "title": "Naruto Shippuden - 354",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-16-espanol-latino/Naruto%20Shippuden-354.mp4"
+    },
+    {
+      "episode": 355,
+      "title": "Naruto Shippuden - 355",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-16-espanol-latino/Naruto%20Shippuden-355.mp4"
+    },
+    {
+      "episode": 356,
+      "title": "Naruto Shippuden - 356",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-16-espanol-latino/Naruto%20Shippuden-356.mp4"
+    },
+    {
+      "episode": 357,
+      "title": "Naruto Shippuden - 357",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-16-espanol-latino/Naruto%20Shippuden-357.mp4"
+    },
+    {
+      "episode": 358,
+      "title": "Naruto Shippuden - 358",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-16-espanol-latino/Naruto%20Shippuden-358.mp4"
+    },
+    {
+      "episode": 359,
+      "title": "Naruto Shippuden - 359",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-16-espanol-latino/Naruto%20Shippuden-359.mp4"
+    },
+    {
+      "episode": 360,
+      "title": "Naruto Shippuden - 360",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-16-espanol-latino/Naruto%20Shippuden-360.mp4"
+    },
+    {
+      "episode": 361,
+      "title": "Naruto Shippuden - 361",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-16-espanol-latino/Naruto%20Shippuden-361.mp4"
+    }
+  ]
+},
+
+
+
+  
+
 
 
 
