@@ -8,6 +8,90 @@
 
 
 
+  
+
+
+{
+  "title": "Elfen Lied",
+  "description": "Lucy, una joven diclonius con poderes letales, escapa de un laboratorio donde la mantenían cautiva. Tras un disparo que le daña la cabeza, desarrolla una personalidad dual: Lucy (letal) y Nyu (inocente). La serie explora temas de alienación, venganza, identidad y la naturaleza humana.",
+  "coverImage": "https://images.justwatch.com/poster/175569366/s718/elfen-lied.jpg",
+  "genre": ["Drama", "Horror", "Psicológico", "Sobrenatural"],
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "Elfen Lied - 01",
+      "video_url": "https://archive.org/download/elfen-lied_202309/Elfen%20Lied%2001.mp4"
+    },
+    {
+      "episode": 2,
+      "title": "Elfen Lied - 02",
+      "video_url": "https://archive.org/download/elfen-lied_202309/Elfen%20Lied%2002.mp4"
+    },
+    {
+      "episode": 3,
+      "title": "Elfen Lied - 03",
+      "video_url": "https://archive.org/download/elfen-lied_202309/Elfen%20Lied%2003.mp4"
+    },
+    {
+      "episode": 4,
+      "title": "Elfen Lied - 04",
+      "video_url": "https://archive.org/download/elfen-lied_202309/Elfen%20Lied%2004.mp4"
+    },
+    {
+      "episode": 5,
+      "title": "Elfen Lied - 05",
+      "video_url": "https://archive.org/download/elfen-lied_202309/Elfen%20Lied%2005.mp4"
+    },
+    {
+      "episode": 6,
+      "title": "Elfen Lied - 06",
+      "video_url": "https://archive.org/download/elfen-lied_202309/Elfen%20Lied%2006.mp4"
+    },
+    {
+      "episode": 7,
+      "title": "Elfen Lied - 07",
+      "video_url": "https://archive.org/download/elfen-lied_202309/Elfen%20Lied%2007.mp4"
+    },
+    {
+      "episode": 8,
+      "title": "Elfen Lied - 08",
+      "video_url": "https://archive.org/download/elfen-lied_202309/Elfen%20Lied%2008.mp4"
+    },
+    {
+      "episode": 9,
+      "title": "Elfen Lied - 09",
+      "video_url": "https://archive.org/download/elfen-lied_202309/Elfen%20Lied%2009.mp4"
+    },
+    {
+      "episode": 10,
+      "title": "Elfen Lied - 10",
+      "video_url": "https://archive.org/download/elfen-lied_202309/Elfen%20Lied%2010.mp4"
+    },
+    {
+      "episode": 11,
+      "title": "Elfen Lied - 11",
+      "video_url": "https://archive.org/download/elfen-lied_202309/Elfen%20Lied%2011.mp4"
+    },
+    {
+      "episode": 12,
+      "title": "Elfen Lied - 12",
+      "video_url": "https://archive.org/download/elfen-lied_202309/Elfen%20Lied%2012.mp4"
+    },
+    {
+      "episode": 13,
+      "title": "Elfen Lied - 13",
+      "video_url": "https://archive.org/download/elfen-lied_202309/Elfen%20Lied%2013.mp4"
+    },
+    {
+      "episode": 14,
+      "title": "Elfen Lied - OVA",
+      "video_url": "https://archive.org/download/elfen-lied_202309/Elfen%20Lied%20OVA.mp4"
+    }
+  ]
+},
+
+
+
 
   
 
