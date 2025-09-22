@@ -2,6 +2,172 @@
 
 
 
+
+
+
+
+
+
+
+  
+
+
+{
+  "title": "Naruto Shippuden Temporada 19",
+  "description": "Naruto Shippuden continúa con las aventuras de Naruto Uzumaki y sus aliados en medio de la guerra shinobi y los conflictos contra Akatsuki. Esta temporada abarca desde el episodio 394 hasta el 413 en latino.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFofLz9I-ALphC8j0dR5jcsmOTEo8vK1SNRECYy1pd_w&s=10",
+  "genre": ["Anime", "Acción", "Aventura", "Shonen"],
+  "episodes": [
+    {
+      "episode": 394,
+      "title": "Naruto Shippuden 394",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-espanol-latino/Naruto%20Shippuden-394.mp4"
+    },
+    {
+      "episode": 395,
+      "title": "Naruto Shippuden 395",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-espanol-latino/Naruto%20Shippuden-395.mp4"
+    },
+    {
+      "episode": 396,
+      "title": "Naruto Shippuden 396",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-espanol-latino/Naruto%20Shippuden-396.mp4"
+    },
+    {
+      "episode": 397,
+      "title": "Naruto Shippuden 397",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-espanol-latino/Naruto%20Shippuden-397.mp4"
+    },
+    {
+      "episode": 398,
+      "title": "Naruto Shippuden 398",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-espanol-latino/Naruto%20Shippuden-398.mp4"
+    },
+    {
+      "episode": 399,
+      "title": "Naruto Shippuden 399",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-espanol-latino/Naruto%20Shippuden-399.mp4"
+    },
+    {
+      "episode": 400,
+      "title": "Naruto Shippuden 400",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-espanol-latino/Naruto%20Shippuden-400.mp4"
+    },
+    {
+      "episode": 401,
+      "title": "Naruto Shippuden 401",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-espanol-latino/Naruto%20Shippuden-401.mp4"
+    },
+    {
+      "episode": 402,
+      "title": "Naruto Shippuden 402",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-espanol-latino/Naruto%20Shippuden-402.mp4"
+    },
+    {
+      "episode": 403,
+      "title": "Naruto Shippuden 403",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-espanol-latino/Naruto%20Shippuden-403.mp4"
+    },
+    {
+      "episode": 404,
+      "title": "Naruto Shippuden 404",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-espanol-latino/Naruto%20Shippuden-404.mp4"
+    },
+    {
+      "episode": 405,
+      "title": "Naruto Shippuden 405",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-espanol-latino/Naruto%20Shippuden-405.mp4"
+    },
+    {
+      "episode": 406,
+      "title": "Naruto Shippuden 406",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-espanol-latino/Naruto%20Shippuden-406.mp4"
+    },
+    {
+      "episode": 407,
+      "title": "Naruto Shippuden 407",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-espanol-latino/Naruto%20Shippuden-407.mp4"
+    },
+    {
+      "episode": 408,
+      "title": "Naruto Shippuden 408",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-espanol-latino/Naruto%20Shippuden-408.mp4"
+    },
+    {
+      "episode": 409,
+      "title": "Naruto Shippuden 409",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-espanol-latino/Naruto%20Shippuden-409.mp4"
+    },
+    {
+      "episode": 410,
+      "title": "Naruto Shippuden 410",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-espanol-latino/Naruto%20Shippuden-410.mp4"
+    },
+    {
+      "episode": 411,
+      "title": "Naruto Shippuden 411",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-espanol-latino/Naruto%20Shippuden-411.mp4"
+    },
+    {
+      "episode": 412,
+      "title": "Naruto Shippuden 412",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-espanol-latino/Naruto%20Shippuden-412.mp4"
+    },
+    {
+      "episode": 413,
+      "title": "Naruto Shippuden 413",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-espanol-latino/Naruto%20Shippuden-413.mp4"
+    }
+  ]
+},
+
+
+
+
+
+  
+
+
+
+{
+  "title": "Naruto Shippuden Temporada 18",
+  "description": "Temporada 18 de Naruto Shippuden, continúa la batalla entre la alianza ninja y Obito Uchiha. (21 episodios según fuentes oficiales).",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMa_5C5APMXouTmw8wgwx1GTnTQHlrZJdoQHA90uTE6Q&s=10",
+  "genre": ["Anime", "Acción", "Aventura", "Shonen"],
+  "episodes": [
+    { "episode": 375, "title": "Naruto Shippuden 375", "video_url": "https://archive.org/download/naruto-shippuden-temporada-18-espanol-latino/Naruto%20Shippuden-375.mp4" },
+    { "episode": 376, "title": "Naruto Shippuden 376", "video_url": "https://archive.org/download/naruto-shippuden-temporada-18-espanol-latino/Naruto%20Shippuden-376.mp4" },
+    { "episode": 377, "title": "Naruto Shippuden 377", "video_url": "https://archive.org/download/naruto-shippuden-temporada-18-espanol-latino/Naruto%20Shippuden-377.mp4" },
+    { "episode": 378, "title": "Naruto Shippuden 378", "video_url": "https://archive.org/download/naruto-shippuden-temporada-18-espanol-latino/Naruto%20Shippuden-378.mp4" },
+    { "episode": 379, "title": "Naruto Shippuden 379", "video_url": "https://archive.org/download/naruto-shippuden-temporada-18-espanol-latino/Naruto%20Shippuden-379.mp4" },
+    { "episode": 380, "title": "Naruto Shippuden 380", "video_url": "https://archive.org/download/naruto-shippuden-temporada-18-espanol-latino/Naruto%20Shippuden-380.mp4" },
+    { "episode": 381, "title": "Naruto Shippuden 381", "video_url": "https://archive.org/download/naruto-shippuden-temporada-18-espanol-latino/Naruto%20Shippuden-381.mp4" },
+    { "episode": 382, "title": "Naruto Shippuden 382", "video_url": "https://archive.org/download/naruto-shippuden-temporada-18-espanol-latino/Naruto%20Shippuden-382.mp4" },
+    { "episode": 383, "title": "Naruto Shippuden 383", "video_url": "https://archive.org/download/naruto-shippuden-temporada-18-espanol-latino/Naruto%20Shippuden-383.mp4" },
+    { "episode": 384, "title": "Naruto Shippuden 384", "video_url": "https://archive.org/download/naruto-shippuden-temporada-18-espanol-latino/Naruto%20Shippuden-384.mp4" },
+    { "episode": 385, "title": "Naruto Shippuden 385", "video_url": "https://archive.org/download/naruto-shippuden-temporada-18-espanol-latino/Naruto%20Shippuden-385.mp4" },
+    { "episode": 386, "title": "Naruto Shippuden 386", "video_url": "https://archive.org/download/naruto-shippuden-temporada-18-espanol-latino/Naruto%20Shippuden-386.mp4" },
+    { "episode": 387, "title": "Naruto Shippuden 387", "video_url": "https://archive.org/download/naruto-shippuden-temporada-18-espanol-latino/Naruto%20Shippuden-387.mp4" },
+    { "episode": 388, "title": "Naruto Shippuden 388", "video_url": "https://archive.org/download/naruto-shippuden-temporada-18-espanol-latino/Naruto%20Shippuden-388.mp4" },
+    { "episode": 389, "title": "Naruto Shippuden 389", "video_url": "https://archive.org/download/naruto-shippuden-temporada-18-espanol-latino/Naruto%20Shippuden-389.mp4" },
+    { "episode": 390, "title": "Naruto Shippuden 390", "video_url": "https://archive.org/download/naruto-shippuden-temporada-18-espanol-latino/Naruto%20Shippuden-390.mp4" },
+    { "episode": 391, "title": "Naruto Shippuden 391", "video_url": "https://archive.org/download/naruto-shippuden-temporada-18-espanol-latino/Naruto%20Shippuden-391.mp4" },
+    { "episode": 392, "title": "Naruto Shippuden 392", "video_url": "https://archive.org/download/naruto-shippuden-temporada-18-espanol-latino/Naruto%20Shippuden-392.mp4" },
+    { "episode": 393, "title": "Naruto Shippuden 393", "video_url": "https://archive.org/download/naruto-shippuden-temporada-18-espanol-latino/Naruto%20Shippuden-393.mp4" },
+    { "episode": 394, "title": "Naruto Shippuden 394", "video_url": "https://archive.org/download/naruto-shippuden-temporada-18-espanol-latino/Naruto%20Shippuden-394.mp4" },
+    { "episode": 395, "title": "Naruto Shippuden 395", "video_url": "https://archive.org/download/naruto-shippuden-temporada-18-espanol-latino/Naruto%20Shippuden-395.mp4" }
+  ]
+}
+
+
+
+
+
+
+  
+
+
+  
 {
   "title": "Naruto Shippuden Temporada 17",
   "description": "La Cuarta Gran Guerra Ninja alcanza un clímax. Los Hokages revividos se unen a la batalla contra Obito y Madara mientras Naruto y Sasuke toman decisiones cruciales.",
