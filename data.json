@@ -1,7 +1,144 @@
 [
 
 
-
+{
+  "title": "Naruto Shippuden Temporada 10 (Español Latino)",
+  "description": "Naruto Shippuden Temporada 10 cubre los episodios 197 al 221 en español latino.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnDu13Dc_CU79WSE30Gc0nCK8idWSBmjVIxrFfgfGvxg&s=10",
+  "genre": [
+    "Anime",
+    "Acción",
+    "Aventura",
+    "Shonen"
+  ],
+  "episodes": [
+    {
+      "episode": 197,
+      "title": "Naruto Shippuden 197",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-10-espanol-latino/Naruto%20Shippuden-197.mp4"
+    },
+    {
+      "episode": 198,
+      "title": "Naruto Shippuden 198",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-10-espanol-latino/Naruto%20Shippuden-198.mp4"
+    },
+    {
+      "episode": 199,
+      "title": "Naruto Shippuden 199",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-10-espanol-latino/Naruto%20Shippuden-199.mp4"
+    },
+    {
+      "episode": 200,
+      "title": "Naruto Shippuden 200",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-10-espanol-latino/Naruto%20Shippuden-200.mp4"
+    },
+    {
+      "episode": 201,
+      "title": "Naruto Shippuden 201",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-10-espanol-latino/Naruto%20Shippuden-201.mp4"
+    },
+    {
+      "episode": 202,
+      "title": "Naruto Shippuden 202",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-10-espanol-latino/Naruto%20Shippuden-202.mp4"
+    },
+    {
+      "episode": 203,
+      "title": "Naruto Shippuden 203",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-10-espanol-latino/Naruto%20Shippuden-203.mp4"
+    },
+    {
+      "episode": 204,
+      "title": "Naruto Shippuden 204",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-10-espanol-latino/Naruto%20Shippuden-204.mp4"
+    },
+    {
+      "episode": 205,
+      "title": "Naruto Shippuden 205",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-10-espanol-latino/Naruto%20Shippuden-205.mp4"
+    },
+    {
+      "episode": 206,
+      "title": "Naruto Shippuden 206",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-10-espanol-latino/Naruto%20Shippuden-206.mp4"
+    },
+    {
+      "episode": 207,
+      "title": "Naruto Shippuden 207",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-10-espanol-latino/Naruto%20Shippuden-207.mp4"
+    },
+    {
+      "episode": 208,
+      "title": "Naruto Shippuden 208",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-10-espanol-latino/Naruto%20Shippuden-208.mp4"
+    },
+    {
+      "episode": 209,
+      "title": "Naruto Shippuden 209",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-10-espanol-latino/Naruto%20Shippuden-209.mp4"
+    },
+    {
+      "episode": 210,
+      "title": "Naruto Shippuden 210",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-10-espanol-latino/Naruto%20Shippuden-210.mp4"
+    },
+    {
+      "episode": 211,
+      "title": "Naruto Shippuden 211",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-10-espanol-latino/Naruto%20Shippuden-211.mp4"
+    },
+    {
+      "episode": 212,
+      "title": "Naruto Shippuden 212",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-10-espanol-latino/Naruto%20Shippuden-212.mp4"
+    },
+    {
+      "episode": 213,
+      "title": "Naruto Shippuden 213",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-10-espanol-latino/Naruto%20Shippuden-213.mp4"
+    },
+    {
+      "episode": 214,
+      "title": "Naruto Shippuden 214",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-10-espanol-latino/Naruto%20Shippuden-214.mp4"
+    },
+    {
+      "episode": 215,
+      "title": "Naruto Shippuden 215",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-10-espanol-latino/Naruto%20Shippuden-215.mp4"
+    },
+    {
+      "episode": 216,
+      "title": "Naruto Shippuden 216",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-10-espanol-latino/Naruto%20Shippuden-216.mp4"
+    },
+    {
+      "episode": 217,
+      "title": "Naruto Shippuden 217",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-10-espanol-latino/Naruto%20Shippuden-217.mp4"
+    },
+    {
+      "episode": 218,
+      "title": "Naruto Shippuden 218",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-10-espanol-latino/Naruto%20Shippuden-218.mp4"
+    },
+    {
+      "episode": 219,
+      "title": "Naruto Shippuden 219",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-10-espanol-latino/Naruto%20Shippuden-219.mp4"
+    },
+    {
+      "episode": 220,
+      "title": "Naruto Shippuden 220",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-10-espanol-latino/Naruto%20Shippuden-220.mp4"
+    },
+    {
+      "episode": 221,
+      "title": "Naruto Shippuden 221",
+      "video_url": "https://archive.org/download/naruto-shippuden-temporada-10-espanol-latino/Naruto%20Shippuden-221.mp4"
+    }
+  ]
+},
 
 
 {
