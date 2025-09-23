@@ -1,6 +1,56 @@
 [
 
 
+
+{
+  "title": "Samurai Champloo",
+  "description": "Serie de anime Samurai Champloo en español latino, disponible en archive.org.",
+  "coverImage": "https://m.media-amazon.com/images/M/MV5BMjBhZTY4NzMtOGU3OC00ZDllLWE2ZjUtMGFjYTU5OWI0YTQ2XkEyXkFqcGc@._V1_.jpg",
+  "genre": [
+    "Anime",
+    "Acción",
+    "Aventura"
+  ],
+  "episodes": [
+    { "episode": 1, "title": "Samurai Champloo cap 1", "video_url": "https://archive.org/download/samurai-champloo-espanol/Samurai%20Champloo%20cap%201.mp4" },
+    { "episode": 2, "title": "Samurai Champloo cap 2", "video_url": "https://archive.org/download/samurai-champloo-espanol/Samurai%20Champloo%20cap%202.mp4" },
+    { "episode": 3, "title": "Samurai Champloo cap 3", "video_url": "https://archive.org/download/samurai-champloo-espanol/Samurai%20Champloo%20cap%203.mp4" },
+    { "episode": 4, "title": "Samurai Champloo cap 4", "video_url": "https://archive.org/download/samurai-champloo-espanol/Samurai%20Champloo%20cap%204.mp4" },
+    { "episode": 5, "title": "Samurai Champloo cap 5", "video_url": "https://archive.org/download/samurai-champloo-espanol/Samurai%20Champloo%20cap%205.mp4" },
+    { "episode": 6, "title": "Samurai Champloo cap 6", "video_url": "https://archive.org/download/samurai-champloo-espanol/Samurai%20Champloo%20cap%206.mp4" },
+    { "episode": 7, "title": "Samurai Champloo cap 7", "video_url": "https://archive.org/download/samurai-champloo-espanol/Samurai%20Champloo%20cap%207.mp4" },
+    { "episode": 8, "title": "Samurai Champloo cap 8", "video_url": "https://archive.org/download/samurai-champloo-espanol/Samurai%20Champloo%20cap%208.mp4" },
+    { "episode": 9, "title": "Samurai Champloo cap 9", "video_url": "https://archive.org/download/samurai-champloo-espanol/Samurai%20Champloo%20cap%209.mp4" },
+    { "episode": 10, "title": "Samurai Champloo cap 10", "video_url": "https://archive.org/download/samurai-champloo-espanol/Samurai%20Champloo%20Cap%2010.mp4" },
+    { "episode": 11, "title": "Samurai Champloo cap 11", "video_url": "https://archive.org/download/samurai-champloo-espanol/Samurai%20Champloo%20cap%2011.mp4" },
+    { "episode": 12, "title": "Samurai Champloo cap 12", "video_url": "https://archive.org/download/samurai-champloo-espanol/Samurai%20Champloo%20cap%2012.mp4" },
+    { "episode": 13, "title": "Samurai Champloo cap 13", "video_url": "https://archive.org/download/samurai-champloo-espanol/Samurai%20Champloo%20cap%2013.mp4" },
+    { "episode": 14, "title": "Samurai Champloo cap 14", "video_url": "https://archive.org/download/samurai-champloo-espanol/Samurai%20Champloo%20cap%2014.mp4" },
+    { "episode": 15, "title": "Samurai Champloo cap 15", "video_url": "https://archive.org/download/samurai-champloo-espanol/Samurai%20Champloo%20cap%2015.mp4" },
+    { "episode": 16, "title": "Samurai Champloo cap 16", "video_url": "https://archive.org/download/samurai-champloo-espanol/Samurai%20Champloo%20cap%2016.mp4" },
+    { "episode": 17, "title": "Samurai Champloo cap 17", "video_url": "https://archive.org/download/samurai-champloo-espanol/Samurai%20Champloo%20cap%2017.mp4" },
+    { "episode": 18, "title": "Samurai Champloo cap 18", "video_url": "https://archive.org/download/samurai-champloo-espanol/Samurai%20Champloo%20cap%2018.mp4" },
+    { "episode": 19, "title": "Samurai Champloo cap 19", "video_url": "https://archive.org/download/samurai-champloo-espanol/Samurai%20Champloo%20cap%2019.mp4" },
+    { "episode": 20, "title": "Samurai Champloo cap 20", "video_url": "https://archive.org/download/samurai-champloo-espanol/Samurai%20Champloo%20cap%2020.mp4" },
+    { "episode": 21, "title": "Samurai Champloo cap 21", "video_url": "https://archive.org/download/samurai-champloo-espanol/Samurai%20Champloo%20cap%2021.mp4" },
+    { "episode": 22, "title": "Samurai Champloo cap 22", "video_url": "https://archive.org/download/samurai-champloo-espanol/Samurai%20Champloo%20cap%2022.mp4" },
+    { "episode": 23, "title": "Samurai Champloo cap 23", "video_url": "https://archive.org/download/samurai-champloo-espanol/Samurai%20Champloo%20cap%2023.mp4" },
+    { "episode": 24, "title": "Samurai Champloo cap 24", "video_url": "https://archive.org/download/samurai-champloo-espanol/Samurai%20Champloo%20cap%2024.mp4" },
+    { "episode": 25, "title": "Samurai Champloo cap 25", "video_url": "https://archive.org/download/samurai-champloo-espanol/Samurai%20Champloo%20cap%2025.mp4" },
+    { "episode": 26, "title": "Samurai Champloo cap 26", "video_url": "https://archive.org/download/samurai-champloo-espanol/Samurai%20Champloo%20cap%2026.mp4" }
+  ]
+},
+
+
+
+
+
+  
+
+
+
+
+  
 {
   "title": "La que se avecina Temporada 15",
   "description": "Quincuagésima temporada de la serie española de comedia 'La que se avecina'.",
