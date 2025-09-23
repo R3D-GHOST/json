@@ -1,13 +1,91 @@
 [
 
+{
+  "title": "La que se avecina Temporada 1",
+  "description": "Primera temporada de la serie española de comedia 'La que se avecina'.",
+  "coverImage": "https://www.ecartelera.com/carteles-series/000/2/001.jpg",
+  "genre": [
+    "Comedia",
+    "Televisión española",
+    "Sitcom"
+  ],
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "La que se avecina 1x01",
+      "video_url": "https://archive.org/download/la-que-se-avecina-1x-01/LA%20QUE%20SE%20AVECINA%201x01.mp4"
+    },
+    {
+      "episode": 2,
+      "title": "La que se avecina 1x02",
+      "video_url": "https://archive.org/download/la-que-se-avecina-1x-01/LA%20QUE%20SE%20AVECINA%201x02.mp4"
+    },
+    {
+      "episode": 3,
+      "title": "La que se avecina 1x03",
+      "video_url": "https://archive.org/download/la-que-se-avecina-1x-01/LA%20QUE%20SE%20AVECINA%201x03.mp4"
+    },
+    {
+      "episode": 4,
+      "title": "La que se avecina 1x04",
+      "video_url": "https://archive.org/download/la-que-se-avecina-1x-01/LA%20QUE%20SE%20AVECINA%201x04.mp4"
+    },
+    {
+      "episode": 5,
+      "title": "La que se avecina 1x05",
+      "video_url": "https://archive.org/download/la-que-se-avecina-1x-01/LA%20QUE%20SE%20AVECINA%201x05.mp4"
+    },
+    {
+      "episode": 6,
+      "title": "La que se avecina 1x06",
+      "video_url": "https://archive.org/download/la-que-se-avecina-1x-01/LA%20QUE%20SE%20AVECINA%201x06.mp4"
+    },
+    {
+      "episode": 7,
+      "title": "La que se avecina 1x07",
+      "video_url": "https://archive.org/download/la-que-se-avecina-1x-01/LA%20QUE%20SE%20AVECINA%201x07.mp4"
+    },
+    {
+      "episode": 8,
+      "title": "La que se avecina 1x08",
+      "video_url": "https://archive.org/download/la-que-se-avecina-1x-01/LA%20QUE%20SE%20AVECINA%201x08.mp4"
+    },
+    {
+      "episode": 9,
+      "title": "La que se avecina 1x09",
+      "video_url": "https://archive.org/download/la-que-se-avecina-1x-01/LA%20QUE%20SE%20AVECINA%201x09.mp4"
+    },
+    {
+      "episode": 10,
+      "title": "La que se avecina 1x10",
+      "video_url": "https://archive.org/download/la-que-se-avecina-1x-01/LA%20QUE%20SE%20AVECINA%201x10.mp4"
+    },
+    {
+      "episode": 11,
+      "title": "La que se avecina 1x11",
+      "video_url": "https://archive.org/download/la-que-se-avecina-1x-01/LA%20QUE%20SE%20AVECINA%201x11.mp4"
+    },
+    {
+      "episode": 12,
+      "title": "La que se avecina 1x12",
+      "video_url": "https://archive.org/download/la-que-se-avecina-1x-01/LA%20QUE%20SE%20AVECINA%201x12.mp4"
+    },
+    {
+      "episode": 13,
+      "title": "La que se avecina 1x13",
+      "video_url": "https://archive.org/download/la-que-se-avecina-1x-01/LA%20QUE%20SE%20AVECINA%201x13.mp4"
+    }
+  ]
+},
 
+  
 
 
 
 
 {
   "title": "Don Quijote",
-  "description": "Serie animada 'Don Quijote' (colección en archive.org). MP4 links extraídos del índice público.",
+  "description": "Serie animada 'Don Quijote'",
   "coverImage": "https://m.media-amazon.com/images/S/pv-target-images/a2c9ee56aa5edeaf62c4f66b41cb609bd2214674d30afc010ba05863c83db3d7.jpg",
   "genre": ["Animación", "Aventura", "Clásicos"],
   "episodes": [
