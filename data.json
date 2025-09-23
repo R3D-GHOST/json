@@ -28,9 +28,92 @@
 
 
 {
+  "title": "La que se avecina Temporada 6",
+  "description": "Sexta temporada de la serie española de comedia 'La que se avecina'.",
+  "coverImage": "https://image.tmdb.org/t/p/w500/34Bq7JKnSACCx9Q9yFjFVmhN3IB.jpg",
+  "genre": [
+    "Comedia",
+    "Televisión española",
+    "Sitcom"
+  ],
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "La que se avecina 6x01",
+      "video_url": "https://archive.org/download/la-que-se-avecina-1x-01/LA%20QUE%20SE%20AVECINA%206x01.mp4"
+    },
+    {
+      "episode": 2,
+      "title": "La que se avecina 6x02",
+      "video_url": "https://archive.org/download/la-que-se-avecina-1x-01/LA%20QUE%20SE%20AVECINA%206x02.mp4"
+    },
+    {
+      "episode": 3,
+      "title": "La que se avecina 6x03",
+      "video_url": "https://archive.org/download/la-que-se-avecina-1x-01/LA%20QUE%20SE%20AVECINA%206x03.mp4"
+    },
+    {
+      "episode": 4,
+      "title": "La que se avecina 6x04",
+      "video_url": "https://archive.org/download/la-que-se-avecina-1x-01/LA%20QUE%20SE%20AVECINA%206x04.mp4"
+    },
+    {
+      "episode": 5,
+      "title": "La que se avecina 6x05",
+      "video_url": "https://archive.org/download/la-que-se-avecina-1x-01/LA%20QUE%20SE%20AVECINA%206x05.mp4"
+    },
+    {
+      "episode": 6,
+      "title": "La que se avecina 6x06",
+      "video_url": "https://archive.org/download/la-que-se-avecina-1x-01/LA%20QUE%20SE%20AVECINA%206x06.mp4"
+    },
+    {
+      "episode": 7,
+      "title": "La que se avecina 6x07",
+      "video_url": "https://archive.org/download/la-que-se-avecina-1x-01/LA%20QUE%20SE%20AVECINA%206x07.mp4"
+    },
+    {
+      "episode": 8,
+      "title": "La que se avecina 6x08",
+      "video_url": "https://archive.org/download/la-que-se-avecina-1x-01/LA%20QUE%20SE%20AVECINA%206x08.mp4"
+    },
+    {
+      "episode": 9,
+      "title": "La que se avecina 6x09",
+      "video_url": "https://archive.org/download/la-que-se-avecina-1x-01/LA%20QUE%20SE%20AVECINA%206x09.mp4"
+    },
+    {
+      "episode": 10,
+      "title": "La que se avecina 6x10",
+      "video_url": "https://archive.org/download/la-que-se-avecina-1x-01/LA%20QUE%20SE%20AVECINA%206x10.mp4"
+    },
+    {
+      "episode": 11,
+      "title": "La que se avecina 6x11",
+      "video_url": "https://archive.org/download/la-que-se-avecina-1x-01/LA%20QUE%20SE%20AVECINA%206x11.mp4"
+    },
+    {
+      "episode": 12,
+      "title": "La que se avecina 6x12",
+      "video_url": "https://archive.org/download/la-que-se-avecina-1x-01/LA%20QUE%20SE%20AVECINA%206x12.mp4"
+    },
+    {
+      "episode": 13,
+      "title": "La que se avecina 6x13",
+      "video_url": "https://archive.org/download/la-que-se-avecina-1x-01/LA%20QUE%20SE%20AVECINA%206x13.mp4"
+    }
+  ]
+},
+
+
+
+  
+
+
+{
   "title": "La que se avecina Temporada 5",
   "description": "Quinta temporada de la serie española de comedia 'La que se avecina'.",
-  "coverImage": "https://static.wikia.nocookie.net/miradordemontepinar/images/7/7c/La_que_se_avecina_Temporada_5.png/revision/latest?cb=20190802144111&path-prefix=es",
+  "coverImage": "https://m.media-amazon.com/images/I/71IiZsfF4QL._UF1000,1000_QL80_.jpg",
   "genre": [
     "Comedia",
     "Televisión española",
@@ -112,7 +195,7 @@
 {
   "title": "La que se avecina  Temporada 4",
   "description": "Cuarta temporada de la serie española de comedia 'La que se avecina'.",
-  "coverImage": "https://static.wikia.nocookie.net/miradordemontepinar/images/5/51/La_que_se_avecina_Temporada_4.png/revision/latest?cb=20190802144110&path-prefix=es",
+  "coverImage": "https://m.media-amazon.com/images/I/712lMGKWURL._UF894,1000_QL80_.jpg",
   "genre": [
     "Comedia",
     "Televisión española",
