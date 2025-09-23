@@ -1,5 +1,239 @@
 [
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+  "title": "La que se avecina Temporada 3",
+  "description": "Tercera temporada de la serie española de comedia 'La que se avecina'",
+  "coverImage": "https://static.wikia.nocookie.net/miradordemontepinar/images/a/ad/La_que_se_avecina_Temporada_3.png/revision/latest?cb=20190802144110&path-prefix=es",
+  "genre": [
+    "Comedia",
+    "Televisión española",
+    "Sitcom"
+  ],
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "La que se avecina 3x01",
+      "video_url": "https://archive.org/download/la-que-se-avecina-1x-01/LA%20QUE%20SE%20AVECINA%203x01.mp4"
+    },
+    {
+      "episode": 2,
+      "title": "La que se avecina 3x02",
+      "video_url": "https://archive.org/download/la-que-se-avecina-1x-01/LA%20QUE%20SE%20AVECINA%203x02.mp4"
+    },
+    {
+      "episode": 3,
+      "title": "La que se avecina 3x03",
+      "video_url": "https://archive.org/download/la-que-se-avecina-1x-01/LA%20QUE%20SE%20AVECINA%203x03.mp4"
+    },
+    {
+      "episode": 4,
+      "title": "La que se avecina 3x04",
+      "video_url": "https://archive.org/download/la-que-se-avecina-1x-01/LA%20QUE%20SE%20AVECINA%203x04.mp4"
+    },
+    {
+      "episode": 5,
+      "title": "La que se avecina 3x05",
+      "video_url": "https://archive.org/download/la-que-se-avecina-1x-01/LA%20QUE%20SE%20AVECINA%203x05.mp4"
+    },
+    {
+      "episode": 6,
+      "title": "La que se avecina 3x06",
+      "video_url": "https://archive.org/download/la-que-se-avecina-1x-01/LA%20QUE%20SE%20AVECINA%203x06.mp4"
+    },
+    {
+      "episode": 7,
+      "title": "La que se avecina 3x07",
+      "video_url": "https://archive.org/download/la-que-se-avecina-1x-01/LA%20QUE%20SE%20AVECINA%203x07.mp4"
+    },
+    {
+      "episode": 8,
+      "title": "La que se avecina 3x08",
+      "video_url": "https://archive.org/download/la-que-se-avecina-1x-01/LA%20QUE%20SE%20AVECINA%203x08.mp4"
+    },
+    {
+      "episode": 9,
+      "title": "La que se avecina 3x09",
+      "video_url": "https://archive.org/download/la-que-se-avecina-1x-01/LA%20QUE%20SE%20AVECINA%203x09.mp4"
+    },
+    {
+      "episode": 10,
+      "title": "La que se avecina 3x10",
+      "video_url": "https://archive.org/download/la-que-se-avecina-1x-01/LA%20QUE%20SE%20AVECINA%203x10.mp4"
+    },
+    {
+      "episode": 11,
+      "title": "La que se avecina 3x11",
+      "video_url": "https://archive.org/download/la-que-se-avecina-1x-01/LA%20QUE%20SE%20AVECINA%203x11.mp4"
+    },
+    {
+      "episode": 12,
+      "title": "La que se avecina 3x12",
+      "video_url": "https://archive.org/download/la-que-se-avecina-1x-01/LA%20QUE%20SE%20AVECINA%203x12.mp4"
+    },
+    {
+      "episode": 13,
+      "title": "La que se avecina 3x13",
+      "video_url": "https://archive.org/download/la-que-se-avecina-1x-01/LA%20QUE%20SE%20AVECINA%203x13.mp4"
+    }
+  ]
+},
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+{
+  "title": "La que se avecina Temporada 2",
+  "description": "Segunda temporada de la serie española de comedia 'La que se avecina'.",
+  "coverImage": "https://m.media-amazon.com/images/I/71pK60GqBNL._UF1000,1000_QL80_.jpg",
+  "genre": [
+    "Comedia",
+    "Televisión española",
+    "Sitcom"
+  ],
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "La que se avecina 2x01",
+      "video_url": "https://archive.org/download/la-que-se-avecina-1x-01/LA%20QUE%20SE%20AVECINA%202x01.mp4"
+    },
+    {
+      "episode": 2,
+      "title": "La que se avecina 2x02",
+      "video_url": "https://archive.org/download/la-que-se-avecina-1x-01/LA%20QUE%20SE%20AVECINA%202x02.mp4"
+    },
+    {
+      "episode": 3,
+      "title": "La que se avecina 2x03",
+      "video_url": "https://archive.org/download/la-que-se-avecina-1x-01/LA%20QUE%20SE%20AVECINA%202x03.mp4"
+    },
+    {
+      "episode": 4,
+      "title": "La que se avecina 2x04",
+      "video_url": "https://archive.org/download/la-que-se-avecina-1x-01/LA%20QUE%20SE%20AVECINA%202x04.mp4"
+    },
+    {
+      "episode": 5,
+      "title": "La que se avecina 2x05",
+      "video_url": "https://archive.org/download/la-que-se-avecina-1x-01/LA%20QUE%20SE%20AVECINA%202x05.mp4"
+    },
+    {
+      "episode": 6,
+      "title": "La que se avecina 2x06",
+      "video_url": "https://archive.org/download/la-que-se-avecina-1x-01/LA%20QUE%20SE%20AVECINA%202x06.mp4"
+    },
+    {
+      "episode": 7,
+      "title": "La que se avecina 2x07",
+      "video_url": "https://archive.org/download/la-que-se-avecina-1x-01/LA%20QUE%20SE%20AVECINA%202x07.mp4"
+    },
+    {
+      "episode": 8,
+      "title": "La que se avecina 2x08",
+      "video_url": "https://archive.org/download/la-que-se-avecina-1x-01/LA%20QUE%20SE%20AVECINA%202x08.mp4"
+    },
+    {
+      "episode": 9,
+      "title": "La que se avecina 2x09",
+      "video_url": "https://archive.org/download/la-que-se-avecina-1x-01/LA%20QUE%20SE%20AVECINA%202x09.mp4"
+    },
+    {
+      "episode": 10,
+      "title": "La que se avecina 2x10",
+      "video_url": "https://archive.org/download/la-que-se-avecina-1x-01/LA%20QUE%20SE%20AVECINA%202x10.mp4"
+    },
+    {
+      "episode": 11,
+      "title": "La que se avecina 2x11",
+      "video_url": "https://archive.org/download/la-que-se-avecina-1x-01/LA%20QUE%20SE%20AVECINA%202x11.mp4"
+    },
+    {
+      "episode": 12,
+      "title": "La que se avecina 2x12",
+      "video_url": "https://archive.org/download/la-que-se-avecina-1x-01/LA%20QUE%20SE%20AVECINA%202x12.mp4"
+    },
+    {
+      "episode": 13,
+      "title": "La que se avecina 2x13",
+      "video_url": "https://archive.org/download/la-que-se-avecina-1x-01/LA%20QUE%20SE%20AVECINA%202x13.mp4"
+    },
+    {
+      "episode": 14,
+      "title": "La que se avecina 2x14",
+      "video_url": "https://archive.org/download/la-que-se-avecina-1x-01/LA%20QUE%20SE%20AVECINA%202x14.mp4"
+    },
+    {
+      "episode": 15,
+      "title": "La que se avecina 2x15",
+      "video_url": "https://archive.org/download/la-que-se-avecina-1x-01/LA%20QUE%20SE%20AVECINA%202x15.mp4"
+    }
+  ]
+},
+
+
+
+
+
+
+
+
+  
+
 {
   "title": "La que se avecina Temporada 1",
   "description": "Primera temporada de la serie española de comedia 'La que se avecina'.",
