@@ -3,7 +3,7 @@
 {
   "title": "Cardcaptor Sakura",
   "description": "Serie de anime *Cardcaptor Sakura* en español latino, disponible en archive.org.",
-  "coverImage": "https://archive.org/services/img/sakura-card-captor-en-espanol-latino",
+  "coverImage": "https://static.wikia.nocookie.net/wiki-doblaje-espana/images/d/d1/Sakura%2C_Cazadora_de_Cartas_portada.png/revision/latest?cb=20241024174111&path-prefix=es",
   "genre": ["Anime", "Magical Girl", "Aventura"],
   "episodes": [
   {"episodio": 1, "url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%2001%20en%20Espa%C3%B1ol%20latino.mp4"},
