@@ -5,6 +5,220 @@
 
 
 
+{
+  "title": "Don Quijote - Animación",
+  "description": "Serie animada 'Don Quijote' (colección en archive.org). MP4 links extraídos del índice público.",
+  "coverImage": "https://archive.org/download/DONQUIJOTE_ANIMACION/DON%20QUIJOTE%20-%20Animacion/cover.jpg",
+  "genre": ["Animación", "Aventura", "Clásicos"],
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "EN UN LUGAR DE LA MANCHA",
+      "video_url": "https://archive.org/download/DONQUIJOTE_ANIMACION/DON%20QUIJOTE%20-%20Animacion/01-EN%20UN%20LUGAR%20DE%20LA%20MANCHA_%5B672x496%5D%20%5BH265-12bits%5D.mp4"
+    },
+    {
+      "episode": 2,
+      "title": "DON QUIJOTE ES ARMADO CABALLERO",
+      "video_url": "https://archive.org/download/DONQUIJOTE_ANIMACION/DON%20QUIJOTE%20-%20Animacion/02-DON%20QUIJOTE%20ES%20ARMADO%20CABALLERO_%5B672x494%5D%20%5BH265-12bits%5D.mp4"
+    },
+    {
+      "episode": 3,
+      "title": "ARDEN LOS LIBROS DE CABALLERIAS",
+      "video_url": "https://archive.org/download/DONQUIJOTE_ANIMACION/DON%20QUIJOTE%20-%20Animacion/03-ARDEN%20LOS%20LIBROS%20DE%20CABALLERIAS_%20%5B670x496%5D%20%5BH265-12bits%5D.mp4"
+    },
+    {
+      "episode": 4,
+      "title": "LA AVENTURA DE LOS MOLINOS",
+      "video_url": "https://archive.org/download/DONQUIJOTE_ANIMACION/DON%20QUIJOTE%20-%20Animacion/04-LA%20AVENTURA%20DE%20LOS%20MOLINOS_%20%5B654x494%5D%20%5BH265-12bits%5D.mp4"
+    },
+    {
+      "episode": 5,
+      "title": "LA BATALLA CON EL GALLARDO VIZCAINO",
+      "video_url": "https://archive.org/download/DONQUIJOTE_ANIMACION/DON%20QUIJOTE%20-%20Animacion/05-LA%20BATALLA%20CON%20EL%20GALLARDO%20VIZCAINO_%20%5B672x496%5D%20%5BH265-12bits%5D.mp4"
+    },
+    {
+      "episode": 6,
+      "title": "LA AVENTURA CON LOS YANGüESES",
+      "video_url": "https://archive.org/download/DONQUIJOTE_ANIMACION/DON%20QUIJOTE%20-%20Animacion/06-LA%20AVENTURA%20CON%20LOS%20YANG%C3%9CESES_%20%5B672x496%5D%20%5BH265-12bits%5D.mp4"
+    },
+    {
+      "episode": 7,
+      "title": "EL MANTEO DE SANCHO",
+      "video_url": "https://archive.org/download/DONQUIJOTE_ANIMACION/DON%20QUIJOTE%20-%20Animacion/07-EL%20MANTEO%20DE%20SANCHO_%20%5B666x496%5D%20%5BH265-12bits%5D.mp4"
+    },
+    {
+      "episode": 8,
+      "title": "EL COMBATE CON LOS REBAÑOS",
+      "video_url": "https://archive.org/download/DONQUIJOTE_ANIMACION/DON%20QUIJOTE%20-%20Animacion/08-EL%20COMBATE%20CON%20LOS%20REBA%C3%91OS_%20%5B672x496%5D%20%5BH265-12bits%5D.mp4"
+    },
+    {
+      "episode": 9,
+      "title": "EL YELMO DE MAMBRINO",
+      "video_url": "https://archive.org/download/DONQUIJOTE_ANIMACION/DON%20QUIJOTE%20-%20Animacion/09-EL%20YELMO%20DE%20MAMBRINO_%20%5B672x496%5D%20%5BH265-12bits%5D.mp4"
+    },
+    {
+      "episode": 10,
+      "title": "LA AVENTURA DE SIERRA MORENA",
+      "video_url": "https://archive.org/download/DONQUIJOTE_ANIMACION/DON%20QUIJOTE%20-%20Animacion/10-LA%20AVENTURA%20DE%20SIERRA%20MORENA_%20%5B672x496%5D%20%5BH265-12bits%5D.mp4"
+    },
+    {
+      "episode": 11,
+      "title": "DULCINEA DEL TOBOSO",
+      "video_url": "https://archive.org/download/DONQUIJOTE_ANIMACION/DON%20QUIJOTE%20-%20Animacion/11-DULCINEA%20DEL%20TOBOSO_%20%5B672x496%5D%20%5BH265-12bits%5D.mp4"
+    },
+    {
+      "episode": 12,
+      "title": "LA DESCOMUNAL BATALLA CON UNOS CUEROS DE VINO",
+      "video_url": "https://archive.org/download/DONQUIJOTE_ANIMACION/DON%20QUIJOTE%20-%20Animacion/12-LA%20DESCOMUNAL%20BATALLA%20CON%20UNOS%20CUEROS%20DE%20VINO_%20%5B672x496%5D%20%5BH265-12bits%5D.mp4"
+    },
+    {
+      "episode": 13,
+      "title": "NUEVAS AVENTURAS EN LA VENTA",
+      "video_url": "https://archive.org/download/DONQUIJOTE_ANIMACION/DON%20QUIJOTE%20-%20Animacion/13-NUEVAS%20AVENTURAS%20EN%20LA%20VENTA_%20%5B672x496%5D%20%5BH265-12bits%5D.mp4"
+    },
+    {
+      "episode": 14,
+      "title": "LA HISTORIA DEL CAUTIVO",
+      "video_url": "https://archive.org/download/DONQUIJOTE_ANIMACION/DON%20QUIJOTE%20-%20Animacion/14-LA%20HISTORIA%20DEL%20CAUTIVO_%20%5B668x496%5D%20%5BH265-12bits%5D.mp4"
+    },
+    {
+      "episode": 15,
+      "title": "LOS CUADRILLEROS DE LA SANTA HERMANDAD",
+      "video_url": "https://archive.org/download/DONQUIJOTE_ANIMACION/DON%20QUIJOTE%20-%20Animacion/15-LOS%20CUADRILLEROS%20DE%20LA%20SANTA%20HERMANDAD_%20%5B672x496%5D%20%5BH265-12bits%5D.mp4"
+    },
+    {
+      "episode": 16,
+      "title": "EL ENCANTAMIENTO DE DON QUIJOTE",
+      "video_url": "https://archive.org/download/DONQUIJOTE_ANIMACION/DON%20QUIJOTE%20-%20Animacion/16-EL%20ENCANTAMIENTO%20DE%20DON%20QUIJOTE_%20%5B670x496%5D%20%5BH265-12bits%5D.mp4"
+    },
+    {
+      "episode": 17,
+      "title": "LA PROCESION DE LOS ENCAPUCHADOS",
+      "video_url": "https://archive.org/download/DONQUIJOTE_ANIMACION/DON%20QUIJOTE%20-%20Animacion/17-LA%20PROCESION%20DE%20LOS%20ENCAPUCHADOS_%20%5B670x488%5D%20%5BH265-12bits%5D.mp4"
+    },
+    {
+      "episode": 18,
+      "title": "DON QUIJOTE REGRESA A SU ALDEA",
+      "video_url": "https://archive.org/download/DONQUIJOTE_ANIMACION/DON%20QUIJOTE%20-%20Animacion/18-DON%20QUIJOTE%20REGRESA%20A%20SU%20ALDEA_%20%5B672x496%5D%20%5BH265-12bits%5D.mp4"
+    },
+    {
+      "episode": 19,
+      "title": "DESCANSANDO HASTA NUEVAS AVENTURAS",
+      "video_url": "https://archive.org/download/DONQUIJOTE_ANIMACION/DON%20QUIJOTE%20-%20Animacion/19-DESCANSANDO%20HASTA%20NUEVAS%20AVENTURAS_%20%5B672x496%5D%20%5BH265-12bits%5D.mp4"
+    },
+    {
+      "episode": 20,
+      "title": "EL BACHILLER SANSON CARRASCO",
+      "video_url": "https://archive.org/download/DONQUIJOTE_ANIMACION/DON%20QUIJOTE%20-%20Animacion/20-EL%20BACHILLER%20SANSON%20CARRASCO_%20%5B668x496%5D%20%5BH265-12bits%5D.mp4"
+    },
+    {
+      "episode": 21,
+      "title": "EL ENCANTAMIENTO DE DULCINEA",
+      "video_url": "https://archive.org/download/DONQUIJOTE_ANIMACION/DON%20QUIJOTE%20-%20Animacion/21-EL%20ENCANTAMIENTO%20DE%20DULCINEA_%20%5B672x496%5D%20%5BH265-12bits%5D.mp4"
+    },
+    {
+      "episode": 22,
+      "title": "EL CABALLERO DE LOS ESPEJOS",
+      "video_url": "https://archive.org/download/DONQUIJOTE_ANIMACION/DON%20QUIJOTE%20-%20Animacion/22-EL%20CABALLERO%20DE%20LOS%20ESPEJOS_%20%5B668x496%5D%20%5BH265-12bits%5D.mp4"
+    },
+    {
+      "episode": 23,
+      "title": "EL CABALLERO DEL VERDE GABAN",
+      "video_url": "https://archive.org/download/DONQUIJOTE_ANIMACION/DON%20QUIJOTE%20-%20Animacion/23-EL%20CABALLERO%20DEL%20VERDE%20GABAN_%20%5B672x496%5D%20%5BH265-12bits%5D.mp4"
+    },
+    {
+      "episode": 24,
+      "title": "LAS BODAS DE CAMACHO",
+      "video_url": "https://archive.org/download/DONQUIJOTE_ANIMACION/DON%20QUIJOTE%20-%20Animacion/24-LAS%20BODAS%20DE%20CAMACHO_%20%5B672x496%5D%20%5BH265-12bits%5D.mp4"
+    },
+    {
+      "episode": 25,
+      "title": "LA CUEVA DE MONTESINOS",
+      "video_url": "https://archive.org/download/DONQUIJOTE_ANIMACION/DON%20QUIJOTE%20-%20Animacion/25-LA%20CUEVA%20DE%20MONTESINOS_%20%5B672x496%5D%20%5BH265-12bits%5D.mp4"
+    },
+    {
+      "episode": 26,
+      "title": "EL RETABLO DE MAESE PEDRO",
+      "video_url": "https://archive.org/download/DONQUIJOTE_ANIMACION/DON%20QUIJOTE%20-%20Animacion/26-EL%20RETABLO%20DE%20MAESE%20PEDRO_%20%5B672x496%5D%20%5BH265-12bits%5D.mp4"
+    },
+    {
+      "episode": 27,
+      "title": "EL BARCO ENCANTADO",
+      "video_url": "https://archive.org/download/DONQUIJOTE_ANIMACION/DON%20QUIJOTE%20-%20Animacion/27-EL%20BARCO%20ENCANTADO_%20%5B672x496%5D%20%5BH265-12bits%5D.mp4"
+    },
+    {
+      "episode": 28,
+      "title": "EN EL CASTILLO DE LOS DUQUES",
+      "video_url": "https://archive.org/download/DONQUIJOTE_ANIMACION/DON%20QUIJOTE%20-%20Animacion/28-EN%20EL%20CASTILLO%20DE%20LOS%20DUQUES_%20%5B672x494%5D%20%5BH265-12bits%5D.mp4"
+    },
+    {
+      "episode": 29,
+      "title": "HAY QUE DESENCANTAR A DULCINEA",
+      "video_url": "https://archive.org/download/DONQUIJOTE_ANIMACION/DON%20QUIJOTE%20-%20Animacion/29-HAY%20QUE%20DESENCANTAR%20A%20DULCINEA_%20%5B672x496%5D%20%5BH265-12bits%5D.mp4"
+    },
+    {
+      "episode": 30,
+      "title": "CLAVILEÑO",
+      "video_url": "https://archive.org/download/DONQUIJOTE_ANIMACION/DON%20QUIJOTE%20-%20Animacion/30-CLAVILE%C3%91O_%20%5B668x494%5D%20%5BH265-12bits%5D.mp4"
+    },
+    {
+      "episode": 31,
+      "title": "EL GOBERNADOR SANCHO PANZA",
+      "video_url": "https://archive.org/download/DONQUIJOTE_ANIMACION/DON%20QUIJOTE%20-%20Animacion/31-EL%20GOBERNADOR%20SANCHO%20PANZA_%20%5B672x496%5D%20%5BH265-12bits%5D.mp4"
+    },
+    {
+      "episode": 32,
+      "title": "LA INSULA BARATARIA",
+      "video_url": "https://archive.org/download/DONQUIJOTE_ANIMACION/DON%20QUIJOTE%20-%20Animacion/32-LA%20INSULA%20BARATARIA_%20%5B672x496%5D%20%5BH265-12bits%5D.mp4"
+    },
+    {
+      "episode": 33,
+      "title": "ADIOS A BARATARIA",
+      "video_url": "https://archive.org/download/DONQUIJOTE_ANIMACION/DON%20QUIJOTE%20-%20Animacion/33-ADIOS%20A%20BARATARIA_%20%5B672x496%5D%20%5BH265-12bits%5D.mp4"
+    },
+    {
+      "episode": 34,
+      "title": "EL RESCATE DE SANCHO PANZA",
+      "video_url": "https://archive.org/download/DONQUIJOTE_ANIMACION/DON%20QUIJOTE%20-%20Animacion/34-EL%20RESCATE%20DE%20SANCHO%20PANZA_%20%5B662x496%5D%20%5BH265-12bits%5D.mp4"
+    },
+    {
+      "episode": 35,
+      "title": "CAMINO DE BARCELONA",
+      "video_url": "https://archive.org/download/DONQUIJOTE_ANIMACION/DON%20QUIJOTE%20-%20Animacion/35-CAMINO%20DE%20BARCELONA_%20%5B672x496%5D%20%5BH265-12bits%5D.mp4"
+    },
+    {
+      "episode": 36,
+      "title": "AVENTURA EN LAS GALERAS",
+      "video_url": "https://archive.org/download/DONQUIJOTE_ANIMACION/DON%20QUIJOTE%20-%20Animacion/36-AVENTURA%20EN%20LAS%20GALERAS_%20%5B664x494%5D%20%5BH265-12bits%5D.mp4"
+    },
+    {
+      "episode": 37,
+      "title": "EL CABALLERO DE LA BLANCA LUNA",
+      "video_url": "https://archive.org/download/DONQUIJOTE_ANIMACION/DON%20QUIJOTE%20-%20Animacion/37-EL%20CABALLERO%20DE%20LA%20BLANCA%20LUNA_%20%5B672x496%5D%20%5BH265-12bits%5D.mp4"
+    },
+    {
+      "episode": 38,
+      "title": "LOS AZOTES DE SANCHO",
+      "video_url": "https://archive.org/download/DONQUIJOTE_ANIMACION/DON%20QUIJOTE%20-%20Animacion/38-LOS%20AZOTES%20DE%20SANCHO_%20%5B662x496%5D%20%5BH265-12bits%5D.mp4"
+    },
+
+    {
+  "episode": 39,
+  "title": "DON QUIJOTE CABALGA HACIA LAS ESTRELLAS",
+  "video_url": "https://archive.org/download/DONQUIJOTE_ANIMACION/DON%20QUIJOTE%20-%20Animacion/39-DON%20QUIJOTE%20CABALGA%20HACIA%20LAS%20ESTRELLAS_%20%5B672x496%5D%20%5BH265-12bits%5D.mp4"
+  }
+  ]
+},
+
+  
+
+
+
+
+  
+
+
+
 
 {
   "title": "Chicho Terremoto",
