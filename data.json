@@ -1,7 +1,369 @@
 [
 
 
-
+{
+  "title": "Sakura Card Captor",
+  "description": "Serie anime de CLAMP que sigue las aventuras de Sakura Kinomoto, una niña que accidentalmente libera un conjunto de cartas mágicas y debe recuperarlas con la ayuda de sus amigos.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT545WqppjzlwJ7smudtZDZtWkjaZs8qUvZrhZVP329nQ&s=10",
+  "genre": [
+    "Anime",
+    "Magia",
+    "Aventura",
+    "Shoujo"
+  ],
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "Sakura Card Captor - Episodio 1",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%201%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 2,
+      "title": "Sakura Card Captor - Episodio 2",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%202%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 3,
+      "title": "Sakura Card Captor - Episodio 3",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%203%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 4,
+      "title": "Sakura Card Captor - Episodio 4",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%204%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 5,
+      "title": "Sakura Card Captor - Episodio 5",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%205%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 6,
+      "title": "Sakura Card Captor - Episodio 6",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%206%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 7,
+      "title": "Sakura Card Captor - Episodio 7",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%207%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 8,
+      "title": "Sakura Card Captor - Episodio 8",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%208%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 9,
+      "title": "Sakura Card Captor - Episodio 9",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%209%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 10,
+      "title": "Sakura Card Captor - Episodio 10",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%2010%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 11,
+      "title": "Sakura Card Captor - Episodio 11",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%2011%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 12,
+      "title": "Sakura Card Captor - Episodio 12",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%2012%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 13,
+      "title": "Sakura Card Captor - Episodio 13",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%2013%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 14,
+      "title": "Sakura Card Captor - Episodio 14",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%2014%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 15,
+      "title": "Sakura Card Captor - Episodio 15",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%2015%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 16,
+      "title": "Sakura Card Captor - Episodio 16",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%2016%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 17,
+      "title": "Sakura Card Captor - Episodio 17",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%2017%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 18,
+      "title": "Sakura Card Captor - Episodio 18",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%2018%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 19,
+      "title": "Sakura Card Captor - Episodio 19",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%2019%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 20,
+      "title": "Sakura Card Captor - Episodio 20",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%2020%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 21,
+      "title": "Sakura Card Captor - Episodio 21",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%2021%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 22,
+      "title": "Sakura Card Captor - Episodio 22",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%2022%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 23,
+      "title": "Sakura Card Captor - Episodio 23",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%2023%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 24,
+      "title": "Sakura Card Captor - Episodio 24",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%2024%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 25,
+      "title": "Sakura Card Captor - Episodio 25",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%2025%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 26,
+      "title": "Sakura Card Captor - Episodio 26",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%2026%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 27,
+      "title": "Sakura Card Captor - Episodio 27",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%2027%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 28,
+      "title": "Sakura Card Captor - Episodio 28",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%2028%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 29,
+      "title": "Sakura Card Captor - Episodio 29",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%2029%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 30,
+      "title": "Sakura Card Captor - Episodio 30",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%2030%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 31,
+      "title": "Sakura Card Captor - Episodio 31",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%2031%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 32,
+      "title": "Sakura Card Captor - Episodio 32",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%2032%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 33,
+      "title": "Sakura Card Captor - Episodio 33",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%2033%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 34,
+      "title": "Sakura Card Captor - Episodio 34",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%2034%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 35,
+      "title": "Sakura Card Captor - Episodio 35",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%2035%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 36,
+      "title": "Sakura Card Captor - Episodio 36",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%2036%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 37,
+      "title": "Sakura Card Captor - Episodio 37",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%2037%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 38,
+      "title": "Sakura Card Captor - Episodio 38",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%2038%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 39,
+      "title": "Sakura Card Captor - Episodio 39",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%2039%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 40,
+      "title": "Sakura Card Captor - Episodio 40",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%2040%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 41,
+      "title": "Sakura Card Captor - Episodio 41",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%2041%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 42,
+      "title": "Sakura Card Captor - Episodio 42",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%2042%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 43,
+      "title": "Sakura Card Captor - Episodio 43",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%2043%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 44,
+      "title": "Sakura Card Captor - Episodio 44",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%2044%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 45,
+      "title": "Sakura Card Captor - Episodio 45",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%2045%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 46,
+      "title": "Sakura Card Captor - Episodio 46",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%2046%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 47,
+      "title": "Sakura Card Captor - Episodio 47",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%2047%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 48,
+      "title": "Sakura Card Captor - Episodio 48",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%2048%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 49,
+      "title": "Sakura Card Captor - Episodio 49",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%2049%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 50,
+      "title": "Sakura Card Captor - Episodio 50",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%2050%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 51,
+      "title": "Sakura Card Captor - Episodio 51",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%2051%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 52,
+      "title": "Sakura Card Captor - Episodio 52",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%2052%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 53,
+      "title": "Sakura Card Captor - Episodio 53",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%2053%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 54,
+      "title": "Sakura Card Captor - Episodio 54",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%2054%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 55,
+      "title": "Sakura Card Captor - Episodio 55",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%2055%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 56,
+      "title": "Sakura Card Captor - Episodio 56",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%2056%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 57,
+      "title": "Sakura Card Captor - Episodio 57",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%2057%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 58,
+      "title": "Sakura Card Captor - Episodio 58",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%2058%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 59,
+      "title": "Sakura Card Captor - Episodio 59",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%2059%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 60,
+      "title": "Sakura Card Captor - Episodio 60",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%2060%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 61,
+      "title": "Sakura Card Captor - Episodio 61",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%2061%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 62,
+      "title": "Sakura Card Captor - Episodio 62",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%2062%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 63,
+      "title": "Sakura Card Captor - Episodio 63",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%2063%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 64,
+      "title": "Sakura Card Captor - Episodio 64",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%2064%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 65,
+      "title": "Sakura Card Captor - Episodio 65",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%2065%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 66,
+      "title": "Sakura Card Captor - Episodio 66",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%2066%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 67,
+      "title": "Sakura Card Captor - Episodio 67",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%2067%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 68,
+      "title": "Sakura Card Captor - Episodio 68",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%2068%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 69,
+      "title": "Sakura Card Captor - Episodio 69",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%2069%20en%20Español%20latino.mp4"
+    },
+    {
+      "episode": 70,
+      "title": "Sakura Card Captor - Episodio 70 (Final)",
+      "video_url": "https://archive.org/download/sakura-card-captor-en-espanol-latino/Sakura%20Card%20Captor%20Episodio%2070%20%28Final%29.mp4"
+    }
+  ]
+},
   
 
   
