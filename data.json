@@ -7,7 +7,7 @@
 {
   "title": "Bluey",
   "description": "Serie de animación 'Bluey' en español latino, disponible en archive.org.",
-  "coverImage": "https://static.wikia.nocookie.net/doblaje/images/0/0b/Bluey_%282018%29.jpg/revision/latest/scale-to-width-down/1000?cb=20200330024610&path-prefix=es",
+  "coverImage": "https://images.cdn3.buscalibre.com/fit-in/360x360/fe/29/fe29755cfb506a9bbff2d0505331c8ee.jpg",
   "genre": ["Animación", "Infantil", "Comedia"],
   "episodes": [
     { "episode": 1, "title": "Episodio 1", "video_url": "https://archive.org/download/01-bluey/01%20Bluey.mp4" },
