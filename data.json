@@ -3,6 +3,40 @@
 
 
 
+
+{
+  "title": "Bluey",
+  "description": "Serie de animación 'Bluey' en español latino, disponible en archive.org.",
+  "coverImage": "https://static.wikia.nocookie.net/doblaje/images/0/0b/Bluey_%282018%29.jpg/revision/latest/scale-to-width-down/1000?cb=20200330024610&path-prefix=es",
+  "genre": ["Animación", "Infantil", "Comedia"],
+  "episodes": [
+    { "episode": 1, "title": "Episodio 1", "video_url": "https://archive.org/download/01-bluey/01%20Bluey.mp4" },
+    { "episode": 2, "title": "Episodio 2", "video_url": "https://archive.org/download/02-bluey/02%20Bluey.mp4" },
+    { "episode": 3, "title": "Episodio 3", "video_url": "https://archive.org/download/03-bluey-capitulos-completos-el-cono-2023-11-04-18-14-49/03%20Bluey%20_%20Cap%C3%ADtulos%20completos_%20El%20cono_2023-11-04_18-14-49.mp4" },
+    { "episode": 4, "title": "Episodio 4", "video_url": "https://archive.org/download/04-bluey-capitulos-completos-el-pastel-2023-11-04-18-16-33/04%20Bluey%20_%20Cap%C3%ADtulos%20completos_%20El%20pastel_2023-11-04_18-16-33.mp4" },
+    { "episode": 5, "title": "Episodio 5", "video_url": "https://archive.org/download/05-bluey-capitulos-completos-bebes-2023-11-04-18-17-11/05%20Bluey%20_%20Cap%C3%ADtulos%20completos_%20Beb%C3%A9s_2023-11-04_18-17-11.mp4" },
+    { "episode": 6, "title": "Episodio 6", "video_url": "https://archive.org/download/06-bluey-capitulos-completos-pascua-2023-11-04-18-17-20/06%20Bluey%20_%20Cap%C3%ADtulos%20Completos_%20Pascua_2023-11-04_18-17-20.mp4" },
+    { "episode": 7, "title": "Episodio 7", "video_url": "https://archive.org/download/07-bluey-capitulos-completos-papi-robot-2023-11-04-18-27-12/07%20Bluey%20_%20Cap%C3%ADtulos%20Completos_%20Papi%20robot_2023-11-04_18-27-12.mp4" },
+    { "episode": 8, "title": "Episodio 8", "video_url": "https://archive.org/download/08-bluey-capitulos-completos-murcielago-2023-11-04-18-27-47/08%20Bluey%20_%20Cap%C3%ADtulos%20Completos_%20Murci%C3%A9lago_2023-11-04_18-27-47.mp4" },
+    { "episode": 9, "title": "Episodio 9", "video_url": "https://archive.org/download/09-bluey-capitulos-completos-bob-el-conejo-2023-11-04-18-28-43/09%20Bluey%20_%20Cap%C3%ADtulos%20completos_%20Bob%20el%20conejo_2023-11-04_18-28-43.mp4" },
+    { "episode": 10, "title": "Episodio 10", "video_url": "https://archive.org/download/10-bluey-capitulos-completos-mariposas-2023-11-04-18-30-32/10%20Bluey%20_%20Cap%C3%ADtulos%20completos_%20Mariposas_2023-11-04_18-30-32.mp4" },
+    { "episode": 11, "title": "Episodio 11", "video_url": "https://archive.org/download/11-bluey-capitulos-completos-la-doctora-2023-11-04-18-32-28/11%20Bluey%20_%20Cap%C3%ADtulos%20completos_%20La%20doctora_2023-11-04_18-32-28.mp4" },
+    { "episode": 12, "title": "Episodio 12", "video_url": "https://archive.org/download/12-bluey-capitulos-completos-las-montanas-azules-2023-10-30-16-15-34/12%20Bluey%20_%20Cap%C3%ADtulos%20completos_%20Las%20monta%C3%B1as%20azules_2023-10-30_16-15-34.mp4" },
+    { "episode": 13, "title": "Episodio 13", "video_url": "https://archive.org/download/13-bluey-azteca-7-mexico/13%20Bluey%20Azteca%207%20Mexico.mp4" },
+    { "episode": 14, "title": "Episodio 14", "video_url": "https://archive.org/download/14-bluey-capitulos-completos-los-piratas-2023-10-31-18-32-30/14%20Bluey%20_%20Cap%C3%ADtulos%20completos_%20Los%20Piratas_2023-10-31_18-32-30.mp4" },
+    { "episode": 15, "title": "Episodio 15", "video_url": "https://archive.org/download/15-bluey-capitulos-completos-el-arrollo-2023-11-02-10-03-15/15%20Bluey%20_%20Cap%C3%ADtulos%20completos_%20El%20arrollo_2023-11-02_10-03-15.mp4" },
+    { "episode": 22, "title": "Episodio 22", "video_url": "https://archive.org/download/22-bluey-azteca-7-mexico/22%20Bluey%20Azteca%207%20Mexico.mp4" }
+  ]
+},
+
+
+  
+
+
+
+  
+
+
 {
   "title": "Los Mosqueteros",
   "description": "Serie de acción y aventuras 'Los Mosqueteros' de BBC.",
