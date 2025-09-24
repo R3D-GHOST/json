@@ -1,6 +1,91 @@
 [
 
 
+
+
+{
+  "title": "Los Mosqueteros",
+  "description": "Serie de acción y aventuras 'Los Mosqueteros' de BBC.",
+  "coverImage": "https://m.media-amazon.com/images/M/MV5BZDlhYjgwMjktZDkwMi00ODVjLWFkMWUtYTllZTJkNGE4NGIxXkEyXkFqcGc@._V1_QL75_UX190_CR0,2,190,281_.jpg",
+  "genre": ["Acción", "Aventura", "Drama"],
+  "episodes": [
+    { "episode": 1, "title": "Episodio 1", "video_url": "https://archive.org/download/1x-2_20250922/1x1.mp4" },
+    { "episode": 2, "title": "Episodio 2", "video_url": "https://archive.org/download/1x-2_20250922/1x2.mp4" },
+    { "episode": 3, "title": "Episodio 3", "video_url": "https://archive.org/download/1x-2_20250922/1x3.mp4" },
+    { "episode": 4, "title": "Episodio 4", "video_url": "https://archive.org/download/1x-2_20250922/1x4.mp4" },
+    { "episode": 5, "title": "Episodio 5", "video_url": "https://archive.org/download/1x-2_20250922/1x5.mp4" },
+    { "episode": 6, "title": "Episodio 6", "video_url": "https://archive.org/download/1x-2_20250922/1x6.mp4" },
+    { "episode": 7, "title": "Episodio 7", "video_url": "https://archive.org/download/1x-2_20250922/1x7.mp4" },
+    { "episode": 8, "title": "Episodio 8", "video_url": "https://archive.org/download/1x-2_20250922/1x8.mp4" },
+    { "episode": 9, "title": "Episodio 9", "video_url": "https://archive.org/download/1x-2_20250922/1x9.mp4" },
+    { "episode": 10, "title": "Episodio 10", "video_url": "https://archive.org/download/1x-10_202509/1x10.mp4" }
+  ]
+}
+
+
+  
+  
+
+
+{
+  "title": "1x-2",
+  "description": "Serie disponible en archive.org.",
+  "coverImage": "URL_de_imagen_aqui",
+  "genre": ["Género1", "Género2"],
+  "episodes": [
+
+  ]
+}
+
+  
+
+
+
+
+
+  
+{
+  "title": "Grimm Temporada 2",
+  "description": "Serie de TV Grimm Temporada 2.",
+  "coverImage": "https://m.media-amazon.com/images/I/71wTU58X7hL._UF1000,1000_QL80_.jpg",
+  "genre": [
+    "Serie",
+    "Fantasia",
+    "Misterio",
+    "Drama"
+  ],
+  "episodes": [
+    { "episode": 1, "title": "Grimm T2 C01", "video_url": "https://archive.org/download/grimm-t-2-c-01/Grimm%20T2%20C01.mp4" },
+    { "episode": 2, "title": "Grimm T2 C02", "video_url": "https://archive.org/download/grimm-t-2-c-01/Grimm%20T2%20C02.mp4" },
+    { "episode": 3, "title": "Grimm T2 C03", "video_url": "https://archive.org/download/grimm-t-2-c-01/Grimm%20T2%20C03.mp4" },
+    { "episode": 4, "title": "Grimm T2 C04", "video_url": "https://archive.org/download/grimm-t-2-c-01/Grimm%20T2%20C04.mp4" },
+    { "episode": 5, "title": "Grimm T2 C05", "video_url": "https://archive.org/download/grimm-t-2-c-01/Grimm%20T2%20C05.mp4" },
+    { "episode": 6, "title": "Grimm T2 C06", "video_url": "https://archive.org/download/grimm-t-2-c-01/Grimm%20T2%20C06.mp4" },
+    { "episode": 7, "title": "Grimm T2 C07", "video_url": "https://archive.org/download/grimm-t-2-c-01/Grimm%20T2%20C07.mp4" },
+    { "episode": 8, "title": "Grimm T2 C08", "video_url": "https://archive.org/download/grimm-t-2-c-01/Grimm%20T2%20C08.mp4" },
+    { "episode": 9, "title": "Grimm T2 C09", "video_url": "https://archive.org/download/grimm-t-2-c-01/Grimm%20T2%20C09.mp4" },
+    { "episode": 10, "title": "Grimm T2 C10", "video_url": "https://archive.org/download/grimm-t-2-c-01/Grimm%20T2%20C10.mp4" },
+    { "episode": 11, "title": "Grimm T2 C11", "video_url": "https://archive.org/download/grimm-t-2-c-01/Grimm%20T2%20C11.mp4" },
+    { "episode": 12, "title": "Grimm T2 C12", "video_url": "https://archive.org/download/grimm-t-2-c-01/Grimm%20T2%20C12.mp4" },
+    { "episode": 15, "title": "Grimm T2 C15", "video_url": "https://archive.org/download/grimm-t-2-c-21/Grimm%20T2%20C15.mp4" },
+    { "episode": 16, "title": "Grimm T2 C16", "video_url": "https://archive.org/download/grimm-t-2-c-21/Grimm%20T2%20C16.mp4" },
+    { "episode": 17, "title": "Grimm T2 C17", "video_url": "https://archive.org/download/grimm-t-2-c-21/Grimm%20T2%20C17.mp4" },
+    { "episode": 18, "title": "Grimm T2 C18", "video_url": "https://archive.org/download/grimm-t-2-c-21/Grimm%20T2%20C18.mp4" },
+    { "episode": 19, "title": "Grimm T2 C19", "video_url": "https://archive.org/download/grimm-t-2-c-21/Grimm%20T2%20C19.mp4" },
+    { "episode": 20, "title": "Grimm T2 C20", "video_url": "https://archive.org/download/grimm-t-2-c-21/Grimm%20T2%20C20.mp4" },
+    { "episode": 21, "title": "Grimm T2 C21", "video_url": "https://archive.org/download/grimm-t-2-c-21/Grimm%20T2%20C21.mp4" },
+    { "episode": 22, "title": "Grimm T2 C22", "video_url": "https://archive.org/download/grimm-t-2-c-21/Grimm%20T2%20C22.mp4" }
+  ]
+},
+
+
+
+
+  
+
+
+  
+
 {
   "title": "La Princesa Prometida",
   "description": "Una historia de fantasía, aventura y romance ambientada en el reino ficticio de Florin: la bella Buttercup está enamorada de Westley, un humilde mozo de granja que se va para buscar fortuna. Cuando él es dado por muerto, Buttercup es forzada a casarse con el príncipe Humperdinck. Pero su amor sobrevivirá gracias al ingenio, la valentía, espadachines vengativos, gigantes bondadosos, un hombre enmascarado misterioso y muchas sorpresas. Basada en la novela de William Goldman.",
