@@ -3,6 +3,253 @@
 
 
 
+{
+  "title": "Blue Lock",
+  "description": "Anime 'Blue Lock'.",
+  "coverImage": "https://images.justwatch.com/poster/321363018/s718/temporada-1.jpg",
+  "genre": ["Anime", "Deportes", "Acción", "Drama"],
+  "episodes": [
+    { "episode": 1, "title": "Episodio 1", "video_url": "https://archive.org/download/centro-mundo-anime-ep-22/CENTRO%20MUNDO%20ANIME%20EP%201.mp4" },
+    { "episode": 2, "title": "Episodio 2", "video_url": "https://archive.org/download/centro-mundo-anime-ep-22/CENTRO%20MUNDO%20ANIME%20EP%202.mp4" },
+    { "episode": 3, "title": "Episodio 3", "video_url": "https://archive.org/download/centro-mundo-anime-ep-22/CENTRO%20MUNDO%20ANIME%20EP%203.mp4" },
+    { "episode": 4, "title": "Episodio 4", "video_url": "https://archive.org/download/centro-mundo-anime-ep-22/CENTRO%20MUNDO%20ANIME%20EP%204.mp4" },
+    { "episode": 5, "title": "Episodio 5", "video_url": "https://archive.org/download/centro-mundo-anime-ep-22/CENTRO%20MUNDO%20ANIME%20EP%205.mp4" },
+    { "episode": 6, "title": "Episodio 6", "video_url": "https://archive.org/download/centro-mundo-anime-ep-22/CENTRO%20MUNDO%20ANIME%20EP%206.mp4" },
+    { "episode": 7, "title": "Episodio 7", "video_url": "https://archive.org/download/centro-mundo-anime-ep-22/CENTRO%20MUNDO%20ANIME%20EP%207.mp4" },
+    { "episode": 8, "title": "Episodio 8", "video_url": "https://archive.org/download/centro-mundo-anime-ep-22/CENTRO%20MUNDO%20ANIME%20EP%208.mp4" },
+    { "episode": 9, "title": "Episodio 9", "video_url": "https://archive.org/download/centro-mundo-anime-ep-22/CENTRO%20MUNDO%20ANIME%20EP%209.mp4" },
+    { "episode": 10, "title": "Episodio 10", "video_url": "https://archive.org/download/centro-mundo-anime-ep-22/CENTRO%20MUNDO%20ANIME%20EP%2010.mp4" },
+    { "episode": 11, "title": "Episodio 11", "video_url": "https://archive.org/download/centro-mundo-anime-ep-22/CENTRO%20MUNDO%20ANIME%20EP%2011.mp4" },
+    { "episode": 12, "title": "Episodio 12", "video_url": "https://archive.org/download/centro-mundo-anime-ep-22/CENTRO%20MUNDO%20ANIME%20EP%2012.mp4" },
+    { "episode": 13, "title": "Episodio 13", "video_url": "https://archive.org/download/centro-mundo-anime-ep-22/CENTRO%20MUNDO%20ANIME%20EP%2013.mp4" },
+    { "episode": 14, "title": "Episodio 14", "video_url": "https://archive.org/download/centro-mundo-anime-ep-22/CENTRO%20MUNDO%20ANIME%20EP%2014.mp4" },
+    { "episode": 15, "title": "Episodio 15", "video_url": "https://archive.org/download/centro-mundo-anime-ep-22/CENTRO%20MUNDO%20ANIME%20EP%2015.mp4" },
+    { "episode": 16, "title": "Episodio 16", "video_url": "https://archive.org/download/centro-mundo-anime-ep-22/CENTRO%20MUNDO%20ANIME%20EP%2016.mp4" },
+    { "episode": 17, "title": "Episodio 17", "video_url": "https://archive.org/download/centro-mundo-anime-ep-22/CENTRO%20MUNDO%20ANIME%20EP%2017.mp4" },
+    { "episode": 18, "title": "Episodio 18", "video_url": "https://archive.org/download/centro-mundo-anime-ep-22/CENTRO%20MUNDO%20ANIME%20EP%2018.mp4" },
+    { "episode": 19, "title": "Episodio 19", "video_url": "https://archive.org/download/centro-mundo-anime-ep-22/CENTRO%20MUNDO%20ANIME%20EP%2019.mp4" },
+    { "episode": 20, "title": "Episodio 20", "video_url": "https://archive.org/download/centro-mundo-anime-ep-22/CENTRO%20MUNDO%20ANIME%20EP%2020.mp4" },
+    { "episode": 21, "title": "Episodio 21", "video_url": "https://archive.org/download/centro-mundo-anime-ep-22/CENTRO%20MUNDO%20ANIME%20EP%2021.mp4" },
+    { "episode": 22, "title": "Episodio 22", "video_url": "https://archive.org/download/centro-mundo-anime-ep-22/CENTRO%20MUNDO%20ANIME%20EP%2022.mp4" },
+    { "episode": 23, "title": "Episodio 23", "video_url": "https://archive.org/download/centro-mundo-anime-ep-22/CENTRO%20MUNDO%20ANIME%20EP%2023.mp4" },
+    { "episode": 24, "title": "Episodio 24", "video_url": "https://archive.org/download/centro-mundo-anime-ep-22/CENTRO%20MUNDO%20ANIME%20EP%2024.mp4" }
+  ]
+},
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+{
+  "title": "Grimm",
+  "description": "Serie *Grimm* temporada 3.",
+  "coverImage": "https://m.media-amazon.com/images/I/71EDt39IgmL._UF894,1000_QL80_.jpg",
+  "genre": ["Drama", "Sobrenatural", "Policíaco", "Fantasía"],
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "Grimm T3 C01",
+      "video_url": "https://archive.org/download/grimm-t-3-c-01/Grimm%20T3%20C01.mp4"
+    },
+    {
+      "episode": 2,
+      "title": "Grimm T3 C02",
+      "video_url": "https://archive.org/download/grimm-t-3-c-01/Grimm%20T3%20C02.mp4"
+    },
+    {
+      "episode": 3,
+      "title": "Grimm T3 C03",
+      "video_url": "https://archive.org/download/grimm-t-3-c-01/Grimm%20T3%20C03.mp4"
+    },
+    {
+      "episode": 4,
+      "title": "Grimm T3 C04",
+      "video_url": "https://archive.org/download/grimm-t-3-c-01/Grimm%20T3%20C04.mp4"
+    },
+    {
+      "episode": 5,
+      "title": "Grimm T3 C05",
+      "video_url": "https://archive.org/download/grimm-t-3-c-01/Grimm%20T3%20C05.mp4"
+    },
+    {
+      "episode": 6,
+      "title": "Grimm T3 C06",
+      "video_url": "https://archive.org/download/grimm-t-3-c-01/Grimm%20T3%20C06.mp4"
+    },
+    {
+      "episode": 7,
+      "title": "Grimm T3 C07",
+      "video_url": "https://archive.org/download/grimm-t-3-c-01/Grimm%20T3%20C07.mp4"
+    },
+    {
+      "episode": 8,
+      "title": "Grimm T3 C08",
+      "video_url": "https://archive.org/download/grimm-t-3-c-01/Grimm%20T3%20C08.mp4"
+    },
+    {
+      "episode": 9,
+      "title": "Grimm T3 C09",
+      "video_url": "https://archive.org/download/grimm-t-3-c-01/Grimm%20T3%20C09.mp4"
+    },
+    {
+      "episode": 10,
+      "title": "Grimm T3 C10",
+      "video_url": "https://archive.org/download/grimm-t-3-c-01/Grimm%20T3%20C10.mp4"
+    },
+    {
+      "episode": 11,
+      "title": "Grimm T3 C11",
+      "video_url": "https://archive.org/download/grimm-t-3-c-01/Grimm%20T3%20C11.mp4"
+    },
+    {
+      "episode": 12,
+      "title": "Grimm T3 C12",
+      "video_url": "https://archive.org/download/grimm-t-3-c-01/Grimm%20T3%20C12.mp4"
+    },
+    {
+      "episode": 13,
+      "title": "Grimm T3 C13",
+      "video_url": "https://archive.org/download/grimm-t-3-c-01/Grimm%20T3%20C13.mp4"
+    },
+    {
+      "episode": 14,
+      "title": "Grimm T3 C14",
+      "video_url": "https://archive.org/download(grimm-t-3-c-01/Grimm%20T3%20C14.mp4"
+    },
+    {
+      "episode": 15,
+      "title": "Grimm T3 C15",
+      "video_url": "https://archive.org/download/grimm-t-3-c-01/Grimm%20T3%20C15.mp4"
+    },
+    {
+      "episode": 16,
+      "title": "Grimm T3 C16",
+      "video_url": "https://archive.org/download/grimm-t-3-c-01/Grimm%20T3%20C16.mp4"
+    },
+    {
+      "episode": 17,
+      "title": "Grimm T3 C17",
+      "video_url": "https://archive.org/download(grimm-t-3-c-01/Grimm%20T3%20C17.mp4"
+    },
+    {
+      "episode": 18,
+      "title": "Grimm T3 C18",
+      "video_url": "https://archive.org/download(grimm-t-3-c-01/Grimm%20T3%20C18.mp4"
+    },
+    {
+      "episode": 19,
+      "title": "Grimm T3 C19",
+      "video_url": "https://archive.org/download/grimm-t-3-c-01/Grimm%20T3%20C19.mp4"
+    },
+    {
+      "episode": 20,
+      "title": "Grimm T3 C20",
+      "video_url": "https://archive.org/download(grimm-t-3-c-01/Grimm%20T3%20C20.mp4"
+    },
+    {
+      "episode": 21,
+      "title": "Grimm T3 C21",
+      "video_url": "https://archive.org/download(grimm-t-3-c-01/Grimm%20T3%20C21.mp4"
+    },
+    {
+      "episode": 22,
+      "title": "Grimm T3 C22",
+      "video_url": "https://archive.org/download/grimm-t-3-c-01/Grimm%20T3%20C22.mp4"
+    }
+  ]
+},
+
+
+
+  
+
+  
+
+
+  
+{
+  "title": "Wedding Peach",
+  "description": "Anime 'Wedding Peach'.",
+  "coverImage": "https://m.media-amazon.com/images/M/MV5BNmEyNjUzN2MtMmJmMS00OTI0LThhZTAtNmExOTA3Y2YyM2QwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  "genre": ["Anime", "Magical Girls", "Romance", "Acción", "Comedia"],
+  "episodes": [
+    { "episode": 1, "title": "Capítulo 01", "video_url": "https://archive.org/download/wedding-peach-espanol-de-espana/Wedding%20Peach%20-%20Capitulo%2001%20%28Espa%C3%B1ol%20de%20Espa%C3%B1a%29.mp4" },
+    { "episode": 2, "title": "Capítulo 02", "video_url": "https://archive.org/download/wedding-peach-espanol-de-espana/Wedding%20Peach%20-%20Capitulo%2002%20%28Espa%C3%B1ol%20de%20Espa%C3%B1a%29.mp4" },
+    { "episode": 3, "title": "Capítulo 03", "video_url": "https://archive.org/download/wedding-peach-espanol-de-espana/Wedding%20Peach%20-%20Capitulo%2003%20%28Espa%C3%B1ol%20de%20Espa%C3%B1a%29.mp4" },
+    { "episode": 4, "title": "Capítulo 04", "video_url": "https://archive.org/download/wedding-peach-espanol-de-espana/Wedding%20Peach%20-%20Capitulo%2004%20%28Espa%C3%B1ol%20de%20Espa%C3%B1a%29.mp4" },
+    { "episode": 5, "title": "Capítulo 05", "video_url": "https://archive.org/download/wedding-peach-espanol-de-espana/Wedding%20Peach%20-%20Capitulo%2005%20%28Espa%C3%B1ol%20de%20Espa%C3%B1a%29.mp4" },
+    { "episode": 6, "title": "Capítulo 06", "video_url": "https://archive.org/download/wedding-peach-espanol-de-espana/Wedding%20Peach%20-%20Capitulo%2006%20%28Espa%C3%B1ol%20de%20Espa%C3%B1a%29.mp4" },
+    { "episode": 7, "title": "Capítulo 07", "video_url": "https://archive.org/download/wedding-peach-espanol-de-espana/Wedding%20Peach%20-%20Capitulo%2007%20%28Espa%C3%B1ol%20de%20Espa%C3%B1a%29.mp4" },
+    { "episode": 8, "title": "Capítulo 08", "video_url": "https://archive.org/download/wedding-peach-espanol-de-espana/Wedding%20Peach%20-%20Capitulo%2008%20%28Espa%C3%B1ol%20de%20Espa%C3%B1a%29.mp4" },
+    { "episode": 9, "title": "Capítulo 09", "video_url": "https://archive.org/download/wedding-peach-espanol-de-espana/Wedding%20Peach%20-%20Capitulo%2009%20%28Espa%C3%B1ol%20de%20Espa%C3%B1a%29.mp4" },
+    { "episode": 10, "title": "Capítulo 10", "video_url": "https://archive.org/download/wedding-peach-espanol-de-espana/Wedding%20Peach%20-%20Capitulo%2010%20%28Espa%C3%B1ol%20de%20Espa%C3%B1a%29.mp4" },
+    { "episode": 11, "title": "Capítulo 11", "video_url": "https://archive.org/download/wedding-peach-espanol-de-espana/Wedding%20Peach%20-%20Capitulo%2011%20%28Espa%C3%B1ol%20de%20Espa%C3%B1a%29.mp4" },
+    { "episode": 12, "title": "Capítulo 12", "video_url": "https://archive.org/download/wedding-peach-espanol-de-espana/Wedding%20Peach%20-%20Capitulo%2012%20%28Espa%C3%B1ol%20de%20Espa%C3%B1a%29.mp4" },
+    { "episode": 13, "title": "Capítulo 13", "video_url": "https://archive.org/download/wedding-peach-espanol-de-espana/Wedding%20Peach%20-%20Capitulo%2013%20%28Espa%C3%B1ol%20de%20Espa%C3%B1a%29.mp4" },
+    { "episode": 14, "title": "Capítulo 14", "video_url": "https://archive.org/download/wedding-peach-espanol-de-espana/Wedding%20Peach%20-%20Capitulo%2014%20%28Espa%C3%B1ol%20de%20Espa%C3%B1a%29.mp4" },
+    { "episode": 15, "title": "Capítulo 15", "video_url": "https://archive.org/download/wedding-peach-espanol-de-espana/Wedding%20Peach%20-%20Capitulo%2015%20%28Espa%C3%B1ol%20de%20Espa%C3%B1a%29.mp4" },
+    { "episode": 16, "title": "Capítulo 16", "video_url": "https://archive.org/download/wedding-peach-espanol-de-espana/Wedding%20Peach%20-%20Capitulo%2016%20%28Espa%C3%B1ol%20de%20Espa%C3%B1a%29.mp4" },
+    { "episode": 17, "title": "Capítulo 17", "video_url": "https://archive.org/download/wedding-peach-espanol-de-espana/Wedding%20Peach%20-%20Capitulo%2017%20%28Espa%C3%B1ol%20de%20Espa%C3%B1a%29.mp4" },
+    { "episode": 18, "title": "Capítulo 18", "video_url": "https://archive.org/download/wedding-peach-espanol-de-espana/Wedding%20Peach%20-%20Capitulo%2018%20%28Espa%C3%B1ol%20de%20Espa%C3%B1a%29.mp4" },
+    { "episode": 19, "title": "Capítulo 19", "video_url": "https://archive.org/download/wedding-peach-espanol-de-espana/Wedding%20Peach%20-%20Capitulo%2019%20%28Espa%C3%B1ol%20de%20Espa%C3%B1a%29.mp4" },
+    { "episode": 20, "title": "Capítulo 20", "video_url": "https://archive.org/download/wedding-peach-espanol-de-espana/Wedding%20Peach%20-%20Capitulo%2020%20%28Espa%C3%B1ol%20de%20Espa%C3%B1a%29.mp4" },
+    { "episode": 21, "title": "Capítulo 21", "video_url": "https://archive.org/download/wedding-peach-espanol-de-espana/Wedding%20Peach%20-%20Capitulo%2021%20%28Espa%C3%B1ol%20de%20Espa%C3%B1a%29.mp4" },
+    { "episode": 22, "title": "Capítulo 22", "video_url": "https://archive.org/download/wedding-peach-espanol-de-espana/Wedding%20Peach%20-%20Capitulo%2022%20%28Espa%C3%B1ol%20de%20Espa%C3%B1a%29.mp4" },
+    { "episode": 23, "title": "Capítulo 23", "video_url": "https://archive.org/download/wedding-peach-espanol-de-espana/Wedding%20Peach%20-%20Capitulo%2023%20%28Espa%C3%B1ol%20de%20Espa%C3%B1a%29.mp4" },
+    { "episode": 24, "title": "Capítulo 24", "video_url": "https://archive.org/download/wedding-peach-espanol-de-espana/Wedding%20Peach%20-%20Capitulo%2024%20%28Espa%C3%B1ol%20de%20Espa%C3%B1a%29.mp4" },
+    { "episode": 25, "title": "Capítulo 25", "video_url": "https://archive.org/download/wedding-peach-espanol-de-espana/Wedding%20Peach%20-%20Capitulo%2025%20%28Espa%C3%B1ol%20de%20Espa%C3%B1a%29.mp4" },
+    { "episode": 26, "title": "Capítulo 26", "video_url": "https://archive.org/download/wedding-peach-espanol-de-espana/Wedding%20Peach%20-%20Capitulo%2026%20%28Espa%C3%B1ol%20de%20Espa%C3%B1a%29.mp4" },
+    { "episode": 27, "title": "Capítulo 27", "video_url": "https://archive.org/download/wedding-peach-espanol-de-espana/Wedding%20Peach%20-%20Capitulo%2027%20%28Espa%C3%B1ol%20de%20Espa%C3%B1a%29.mp4" },
+    { "episode": 28, "title": "Capítulo 28", "video_url": "https://archive.org/download/wedding-peach-espanol-de-espana/Wedding%20Peach%20-%20Capitulo%2028%20%28Espa%C3%B1ol%20de%20Espa%C3%B1a%29.mp4" },
+    { "episode": 29, "title": "Capítulo 29", "video_url": "https://archive.org/download/wedding-peach-espanol-de-espana/Wedding%20Peach%20-%20Capitulo%2029%20%28Espa%C3%B1ol%20de%20Espa%C3%B1a%29.mp4" },
+    { "episode": 30, "title": "Capítulo 30", "video_url": "https://archive.org/download/wedding-peach-espanol-de-espana/Wedding%20Peach%20-%20Capitulo%2030%20%28Espa%C3%B1ol%20de%20Espa%C3%B1a%29.mp4" },
+    { "episode": 31, "title": "Capítulo 31", "video_url": "https://archive.org/download/wedding-peach-espanol-de-espana/Wedding%20Peach%20-%20Capitulo%2031%20%28Espa%C3%B1ol%20de%20Espa%C3%B1a%29.mp4" },
+    { "episode": 32, "title": "Capítulo 32", "video_url": "https://archive.org/download/wedding-peach-espanol-de-espana/Wedding%20Peach%20-%20Capitulo%2032%20%28Espa%C3%B1ol%20de%20Espa%C3%B1a%29.mp4" },
+    { "episode": 33, "title": "Capítulo 33", "video_url": "https://archive.org/download/wedding-peach-espanol-de-espana/Wedding%20Peach%20-%20Capitulo%2033%20%28Espa%C3%B1ol%20de%20Espa%C3%B1a%29.mp4" },
+    { "episode": 34, "title": "Capítulo 34", "video_url": "https://archive.org/download/wedding-peach-espanol-de-espana/Wedding%20Peach%20-%20Capitulo%2034%20%28Espa%C3%B1ol%20de%20Espa%C3%B1a%29.mp4" },
+    { "episode": 35, "title": "Capítulo 35", "video_url": "https://archive.org/download/wedding-peach-espanol-de-espana/Wedding%20Peach%20-%20Capitulo%2035%20%28Espa%C3%B1ol%20de%20Espa%C3%B1a%29.mp4" },
+    { "episode": 36, "title": "Capítulo 36", "video_url": "https://archive.org/download/wedding-peach-espanol-de-espana/Wedding%20Peach%20-%20Capitulo%2036%20%28Espa%C3%B1ol%20de%20Espa%C3%B1a%29.mp4" },
+    { "episode": 37, "title": "Capítulo 37", "video_url": "https://archive.org/download/wedding-peach-espanol-de-espana/Wedding%20Peach%20-%20Capitulo%2037%20%28Espa%C3%B1ol%20de%20Espa%C3%B1a%29.mp4" },
+    { "episode": 38, "title": "Capítulo 38", "video_url": "https://archive.org/download/wedding-peach-espanol-de-espana/Wedding%20Peach%20-%20Capitulo%2038%20%28Espa%C3%B1ol%20de%20Espa%C3%B1a%29.mp4" },
+    { "episode": 39, "title": "Capítulo 39", "video_url": "https://archive.org/download/wedding-peach-espanol-de-espana/Wedding%20Peach%20-%20Capitulo%2039%20%28Espa%C3%B1ol%20de%20Espa%C3%B1a%29.mp4" },
+    { "episode": 40, "title": "Capítulo 40", "video_url": "https://archive.org/download/wedding-peach-espanol-de-espana/Wedding%20Peach%20-%20Capitulo%2040%20%28Espa%C3%B1ol%20de%20Espa%C3%B1a%29.mp4" },
+    { "episode": 41, "title": "Capítulo 41", "video_url": "https://archive.org/download/wedding-peach-espanol-de-espana/Wedding%20Peach%20-%20Capitulo%2041%20%28Espa%C3%B1ol%20de%20Espa%C3%B1a%29.mp4" },
+    { "episode": 42, "title": "Capítulo 42", "video_url": "https://archive.org/download/wedding-peach-espanol-de-espana/Wedding%20Peach%20-%20Capitulo%2042%20%28Espa%C3%B1ol%20de%20Espa%C3%B1a%29.mp4" },
+    { "episode": 43, "title": "Capítulo 43", "video_url": "https://archive.org/download/wedding-peach-espanol-de-espana/Wedding%20Peach%20-%20Capitulo%2043%20%28Espa%C3%B1ol%20de%20Espa%C3%B1a%29.mp4" },
+    { "episode": 44, "title": "Capítulo 44", "video_url": "https://archive.org/download/wedding-peach-espanol-de-espana/Wedding%20Peach%20-%20Capitulo%2044%20%28Espa%C3%B1ol%20de%20Espa%C3%B1a%29.mp4" },
+    { "episode": 45, "title": "Capítulo 45", "video_url": "https://archive.org/download/wedding-peach-espanol-de-espana/Wedding%20Peach%20-%20Capitulo%2045%20%28Espa%C3%B1ol%20de%20Espa%C3%B1a%29.mp4" },
+    { "episode": 46, "title": "Capítulo 46", "video_url": "https://archive.org/download/wedding-peach-espanol-de-espana/Wedding%20Peach%20-%20Capitulo%2046%20%28Espa%C3%B1ol%20de%20Espa%C3%B1a%29.mp4" },
+    { "episode": 47, "title": "Capítulo 47", "video_url": "https://archive.org/download/wedding-peach-espanol-de-espana/Wedding%20Peach%20-%20Capitulo%2047%20%28Espa%C3%B1ol%20de%20Espa%C3%B1a%29.mp4" },
+    { "episode": 48, "title": "Capítulo 48", "video_url": "https://archive.org/download/wedding-peach-espanol-de-espana/Wedding%20Peach%20-%20Capitulo%2048%20%28Espa%C3%B1ol%20de%20Espa%C3%B1a%29.mp4" },
+    { "episode": 49, "title": "Capítulo 49", "video_url": "https://archive.org/download/wedding-peach-espanol-de-espana/Wedding%20Peach%20-%20Capitulo%2049%20%28Espa%C3%B1ol%20de%20Espa%C3%B1a%29.mp4" },
+    { "episode": 50, "title": "Capítulo 50", "video_url": "https://archive.org/download/wedding-peach-espanol-de-espana/Wedding%20Peach%20-%20Capitulo%2050%20%28Espa%C3%B1ol%20de%20Espa%C3%B1a%29.mp4" },
+    { "episode": 51, "title": "Capítulo 51 (Final)", "video_url": "https://archive.org/download/wedding-peach-espanol-de-espana/Wedding%20Peach%20-%20Capitulo%2051%20%28Espa%C3%B1ol%20de%20Espa%C3%B1a%29%20%5BFinal%5D.mp4" }
+  ]
+},
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+
 
 {
   "title": "Winx Club: El Secreto del Reino Perdido",
