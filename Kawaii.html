@@ -14,8 +14,6 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <script src="https://cdn.jsdelivr.net/npm/hls.js@4.0.0/dist/hls.min.js"></script>
-<link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
-<script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
 <style>
 :root {
   --primary-bg: #0a0a0a;
@@ -1143,9 +1141,53 @@ a {
   display: none;
 }
 
-/* --- Download Modal Styles --- */
-.download-modal {
+/* --- Remotion Player Styles --- */
+#player {
   position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  z-index: 9999;
+  display: none;
+}
+
+.player-close {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 48px;
+  height: 48px;
+  background: rgba(0,0,0,0.8);
+  border: 2px solid rgba(255,255,255,0.2);
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10000;
+  font-size: 18px;
+  backdrop-filter: blur(10px);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  display: none;
+}
+
+.player-close:hover {
+  background: var(--accent-purple);
+  border-color: var(--accent-purple);
+  transform: scale(1.1);
+}
+
+#remotion-player {
+  width: 100%;
+  height: 100%;
+}
+
+/* --- Video Player Overlay --- */
+.video-player-overlay {
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -1154,131 +1196,17 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 20000;
-  backdrop-filter: blur(10px);
+  z-index: 9998;
 }
 
-.download-btn-floating {
-  position: fixed;
-  top: 50%;
-  right: 20px;
-  transform: translateY(-50%);
-  width: 60px;
-  height: 60px;
-  background: var(--gradient-1);
-  color: white;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 24px;
-  box-shadow: 0 4px 20px rgba(147, 51, 234, 0.4);
-  z-index: 10001;
-  animation: pulse 2s infinite;
-  cursor: pointer;
-}
-
-@keyframes pulse {
-  0%, 100% { transform: translateY(-50%) scale(1); }
-  50% { transform: translateY(-50%) scale(1.1); }
-}
-
-/* --- Custom Player Styles --- */
-#custom-player {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+.video-player-container {
+  width: 90%;
+  max-width: 1200px;
+  height: 80%;
   background: #000;
-  z-index: 10000;
-  display: flex;
-  flex-direction: column;
-}
-
-#custom-player header {
-  background: rgba(0,0,0,0.8);
-  padding: 15px 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  backdrop-filter: blur(10px);
-}
-
-#custom-player header h3 {
-  color: white;
-  margin: 0;
-  font-size: 18px;
-}
-
-#custom-player header button {
-  background: none;
-  border: none;
-  color: white;
-  font-size: 24px;
-  cursor: pointer;
-}
-
-#player-video {
-  max-width: 100%;
-  max-height: 100%;
-}
-
-/* --- Download Modal Animation --- */
-@keyframes slideInUp {
-  from { transform: translateY(50px); opacity: 0; }
-  to { transform: translateY(0); opacity: 1; }
-}
-
-/* Reproductor de video nativo */
-#player {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #000;
-  z-index: 9999;
-  cursor: pointer;
-}
-
-#video-player {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-
-/* Animación para el modal de descarga */
-@keyframes slideInUp {
-  from { transform: translateY(50px); opacity: 0; }
-  to { transform: translateY(0); opacity: 1; }
-}
-
-/* Botón de descarga flotante */
-.download-btn-floating {
-  position: fixed;
-  top: 50%;
-  right: 20px;
-  transform: translateY(-50%);
-  width: 60px;
-  height: 60px;
-  background: var(--gradient-1);
-  color: white;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 24px;
-  box-shadow: 0 4px 20px rgba(147, 51, 234, 0.4);
-  z-index: 10001;
-  animation: pulse 2s infinite;
-  cursor: pointer;
-}
-
-@keyframes pulse {
-  0%, 100% { transform: translateY(-50%) scale(1); }
-  50% { transform: translateY(-50%) scale(1.1); }
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
 }
 </style>
 </head>
@@ -1295,6 +1223,7 @@ a {
       <a href="#" class="nav-item active" data-screen="home">Inicio</a>
       <a href="#" class="nav-item" data-screen="movies">Películas</a>
       <a href="#" class="nav-item" data-screen="series">Series</a>
+      <a href="#" class="nav-item" data-screen="channels">Canales</a>
       <a href="#" class="nav-item" data-screen="favorites">Mi Lista</a>
     </nav>
     <div class="header-actions">
@@ -1451,10 +1380,28 @@ a {
   </a>
 </nav>
 
-<!-- Agregar el reproductor de video oculto -->
-<div id="player" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: #000; z-index: 9999; cursor: pointer;">
-  <video id="video-player" style="width: 100%; height: 100%; object-fit: contain;" controls></video>
+<!-- Remotion Player Container -->
+<div id="player" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: #000; z-index: 9999;">
+  <!-- Video will be inserted here -->
 </div>
+
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@18.3.1?dev",
+    "react-dom": "https://esm.sh/react-dom@18.3.1?dev",
+    "react-dom/client": "https://esm.sh/react-dom@18.3.1/client?dev",
+    "react/jsx-runtime": "https://esm.sh/react@18.3.1/jsx-runtime?dev",
+    "react/jsx-dev-runtime": "https://esm.sh/react@18.3.1/jsx-dev-runtime?dev",
+    "remotion": "https://esm.sh/remotion@4.0.350?external=react,react-dom&dev",
+    "@remotion/player": "https://esm.sh/@remotion/player@4.0.350?external=react,react-dom&dev",
+    "@remotion/gif": "https://esm.sh/@remotion/gif@4.0.350?external=react,react-dom,remotion&dev",
+    "@remotion/transitions": "https://esm.sh/@remotion/transitions@4.0.350?external=react,react-dom,remotion&dev",
+    "@websim/remotion/player": "https://esm.websim.com/@websim/remotion/player",
+    "mediabunny": "https://esm.sh/mediabunny@1.19.1"
+  }
+}
+</script>
 
 <script>
 // Service Worker Registration
@@ -1519,6 +1466,7 @@ let currentHeroIndex = 0;
 let heroInterval;
 let heroFeatured = [];
 let channels = [];
+let currentPlayer = null;
 
 // Utility Functions
 function switchScreen(screenId) {
@@ -1653,7 +1601,7 @@ function setupHero() {
   document.getElementById('hero-play').onclick = () => {
     const item = heroFeatured[currentHeroIndex];
     if (item.video_url) {
-      openVideoLink(item.video_url, item.title);
+      playVideo(item.video_url, item.title);
     } else if (item.episodes) {
       showDetail(item);
     }
@@ -1808,7 +1756,7 @@ function renderHome() {
       e.preventDefault();
       const url = card.dataset.url;
       const title = card.dataset.title;
-      if (url) openVideoLink(url, title);
+      if (url) playVideo(url, title);
     });
   });
 
@@ -1847,68 +1795,75 @@ function getProgressPercentage(itemId, episodeIndex) {
   return 0;
 }
 
-// Abrir enlace de video con guardado de progreso
-function openVideoLink(url, itemId, episodeIndex = 0) {
+// Remotion Player Integration
+async function playVideo(videoUrl, title = 'Video') {
   const playerContainer = document.getElementById('player');
-  const videoPlayer = document.getElementById('video-player');
+  const videoElement = document.createElement('video');
   
-  // Guardar progreso al cerrar
-  function saveProgress() {
-    if (videoPlayer.currentTime > 0) {
-      const progressKey = `progress_${itemId}_${episodeIndex}`;
-      localStorage.setItem(progressKey, JSON.stringify({
-        currentTime: videoPlayer.currentTime,
-        duration: videoPlayer.duration
-      }));
+  // Configure video element
+  videoElement.id = 'native-video-player';
+  videoElement.src = videoUrl;
+  videoElement.style.cssText = 'width: 100%; height: 100%; object-fit: contain; background: #000;';
+  videoElement.controls = true;
+  videoElement.autoplay = true;
+  
+  // Request fullscreen
+  videoElement.addEventListener('loadedmetadata', () => {
+    if (videoElement.requestFullscreen) {
+      videoElement.requestFullscreen().catch(err => {
+        console.log('Fullscreen not available:', err);
+      });
+    } else if (videoElement.webkitRequestFullscreen) {
+      videoElement.webkitRequestFullscreen();
+    } else if (videoElement.msRequestFullscreen) {
+      videoElement.msRequestFullscreen();
     }
-  }
+  });
   
-  // Configurar video
-  videoPlayer.src = url;
+  // Clear previous content
+  playerContainer.innerHTML = '';
   
-  // Restaurar progreso
-  const progressKey = `progress_${itemId}_${episodeIndex}`;
-  const savedProgress = localStorage.getItem(progressKey);
-  if (savedProgress) {
-    const progress = JSON.parse(savedProgress);
-    videoPlayer.currentTime = progress.currentTime || 0;
-  }
+  // Create close button
+  const closeBtn = document.createElement('button');
+  closeBtn.className = 'player-close';
+  closeBtn.innerHTML = '<i class="fas fa-times"></i>';
+  closeBtn.onclick = closePlayer;
   
-  // Mostrar reproductor
+  // Add elements to player
+  playerContainer.appendChild(videoElement);
+  playerContainer.appendChild(closeBtn);
+  
+  // Show player
   playerContainer.style.display = 'block';
-  videoPlayer.play();
   
-  // Cerrar al hacer click fuera
-  playerContainer.onclick = (e) => {
-    if (e.target === playerContainer) {
-      saveProgress();
-      playerContainer.style.display = 'none';
-      videoPlayer.pause();
-      videoPlayer.src = '';
-    }
-  };
-  
-  // Guardar progreso al terminar
-  videoPlayer.onended = () => {
-    localStorage.removeItem(progressKey);
-    playerContainer.style.display = 'none';
-    videoPlayer.src = '';
-  };
-  
-  // Cerrar con ESC
-  document.addEventListener('keydown', function closeOnEsc(e) {
-    if (e.key === 'Escape') {
-      saveProgress();
-      playerContainer.style.display = 'none';
-      videoPlayer.pause();
-      videoPlayer.src = '';
-      document.removeEventListener('keydown', closeOnEsc);
-    }
+  // Try to play video
+  videoElement.play().catch(err => {
+    console.log('Autoplay prevented:', err);
   });
 }
 
-function playVideo(url) {
-  openVideoLink(url, 'direct', 0);
+function closePlayer() {
+  const playerContainer = document.getElementById('player');
+  const videoElement = document.getElementById('native-video-player');
+  
+  if (videoElement) {
+    videoElement.pause();
+    videoElement.src = '';
+  }
+  
+  // Exit fullscreen if active
+  if (document.fullscreenElement || document.webkitFullscreenElement || document.msFullscreenElement) {
+    if (document.exitFullscreen) {
+      document.exitFullscreen();
+    } else if (document.webkitExitFullscreen) {
+      document.webkitExitFullscreen();
+    } else if (document.msExitFullscreen) {
+      document.msExitFullscreen();
+    }
+  }
+  
+  playerContainer.style.display = 'none';
+  playerContainer.innerHTML = '';
 }
 
 // Detail Screen
@@ -1954,13 +1909,13 @@ function showDetail(item) {
     detailPlay.href = '#';
     detailPlay.onclick = (e) => {
       e.preventDefault();
-      openVideoLink(item.video_url, item.title);
+      playVideo(item.video_url, item.title);
     };
   } else if (item.episodes && item.episodes.length > 0) {
     detailPlay.href = '#';
     detailPlay.onclick = (e) => {
       e.preventDefault();
-      openVideoLink(item.episodes[0].video_url, item.title, 0);
+      playVideo(item.episodes[0].video_url, `${item.title} - Episodio 1`);
     };
   }
   
@@ -2016,7 +1971,7 @@ function renderEpisodes(series) {
       e.preventDefault();
       localStorage.setItem(`watched_${series.title}_${index}`, 'true');
       episodeCard.classList.add('watched');
-      openVideoLink(episode.video_url, series.title, index);
+      playVideo(episode.video_url, `${series.title} - Episodio ${index + 1}`);
     });
     
     episodesGrid.appendChild(episodeCard);
@@ -2151,104 +2106,5 @@ document.addEventListener('click', (e) => {
   }
 });
 </script>
-
-<!-- START: Modal de APK al inicio y tras 20 clics -->
-<style>
-.apk-overlay {
-  position: fixed;
-  top:0; left:0;
-  width:100%; height:100%;
-  background: rgba(0,0,0,0.7);
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  z-index: 10000;
-}
-.apk-modal {
-  background:#1e1e1e;
-  color:#fff;
-  border-radius:12px;
-  padding:20px;
-  width:90%;
-  max-width:400px;
-  text-align:center;
-  box-shadow:0 10px 30px rgba(0,0,0,0.6);
-  animation: fadeIn .3s ease;
-  font-family: Inter, sans-serif;
-}
-.apk-modal h2 {
-  margin:0 0 10px;
-  font-size:18px;
-}
-.apk-modal p {
-  font-size:14px;
-  color:#ccc;
-  margin-bottom:16px;
-}
-.apk-modal .apk-actions {
-  display:flex;
-  justify-content:space-around;
-  gap:10px;
-}
-.apk-modal button, .apk-modal a {
-  flex:1;
-  padding:10px;
-  border:none;
-  border-radius:8px;
-  cursor:pointer;
-  font-weight:600;
-  font-size:14px;
-  text-decoration:none;
-  text-align:center;
-}
-.apk-btn-download {
-  background:linear-gradient(90deg,#9333ea,#ec4899);
-  color:#fff;
-}
-.apk-btn-web {
-  background:#333;
-  color:#fff;
-}
-@keyframes fadeIn {
-  from {opacity:0; transform:scale(.9);}
-  to {opacity:1; transform:scale(1);}
-}
-</style>
-
-<!-- Modal -->
-<div id="apkOverlay" class="apk-overlay">
-  <div class="apk-modal">
-    <h2>¿Deseas descargar la APK?</h2>
-    <p>Puedes descargar el archivo APK o seguir navegando en la web.</p>
-    <div class="apk-actions">
-      <a href="https://www.mediafire.com/file/g0z4uihaxpe3qed/kawwaiiplayy.apk" target="_blank" class="apk-btn-download">Descargar APK</a>
-      <button id="apkContinue" class="apk-btn-web">Seguir en la web</button>
-    </div>
-  </div>
-</div>
-
-<script>
-(function() {
-  const overlay = document.getElementById('apkOverlay');
-  const continueBtn = document.getElementById('apkContinue');
-  let clickCount = 0;
-
-  // Cerrar modal al hacer clic en "Seguir en la web"
-  continueBtn.addEventListener('click', () => {
-    overlay.style.display = 'none';
-  });
-
-  // Contar clics en toda la página
-  document.addEventListener('click', () => {
-    clickCount++;
-    if (clickCount === 20) {
-      overlay.style.display = 'flex';
-      clickCount = 0; // reinicia para que se repita cada 20 clics
-    }
-  });
-})();
-</script>
-<!-- END: Modal de APK al inicio y tras 20 clics -->
-
 </body>
 </html>
