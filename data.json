@@ -3,9 +3,12 @@
 
 {
   "title": "Grimm Temporada 4",
-  "description": "",
+  "description": "Grimm Temporada 4 de la serie grimm",
   "coverImage": "https://m.media-amazon.com/images/I/A1pMWJ08okL._UF1000,1000_QL80_.jpg",
-  "genre": [],
+  "genre": [
+    Accion, Mitología,
+    Sobrenatural
+  ],
   "episodes": [
     {
       "episode": 1,
