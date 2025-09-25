@@ -14,6 +14,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <script src="https://cdn.jsdelivr.net/npm/hls.js@4.0.0/dist/hls.min.js"></script>
+<link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
+<script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
 <style>
 :root {
   --primary-bg: #0a0a0a;
@@ -1141,53 +1143,9 @@ a {
   display: none;
 }
 
-/* --- Remotion Player Styles --- */
-#player {
+/* --- Download Modal Styles --- */
+.download-modal {
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #000;
-  z-index: 9999;
-  display: none;
-}
-
-.player-close {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  width: 48px;
-  height: 48px;
-  background: rgba(0,0,0,0.8);
-  border: 2px solid rgba(255,255,255,0.2);
-  border-radius: 50%;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  z-index: 10000;
-  font-size: 18px;
-  backdrop-filter: blur(10px);
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  display: none;
-}
-
-.player-close:hover {
-  background: var(--accent-purple);
-  border-color: var(--accent-purple);
-  transform: scale(1.1);
-}
-
-#remotion-player {
-  width: 100%;
-  height: 100%;
-}
-
-/* --- Video Player Overlay --- */
-.video-player-overlay {
-  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -1196,117 +1154,131 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 9998;
+  z-index: 20000;
+  backdrop-filter: blur(10px);
 }
 
-.video-player-container {
-  width: 90%;
-  max-width: 1200px;
-  height: 80%;
-  background: #000;
-  border-radius: 12px;
-  overflow: hidden;
-  position: relative;
+.download-btn-floating {
+  position: fixed;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  width: 60px;
+  height: 60px;
+  background: var(--gradient-1);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  box-shadow: 0 4px 20px rgba(147, 51, 234, 0.4);
+  z-index: 10001;
+  animation: pulse 2s infinite;
+  cursor: pointer;
 }
 
-/* Access Modal Styles */
-.access-modal {
+@keyframes pulse {
+  0%, 100% { transform: translateY(-50%) scale(1); }
+  50% { transform: translateY(-50%) scale(1.1); }
+}
+
+/* --- Custom Player Styles --- */
+#custom-player {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: var(--primary-bg);
+  background: #000;
+  z-index: 10000;
+  display: flex;
+  flex-direction: column;
+}
+
+#custom-player header {
+  background: rgba(0,0,0,0.8);
+  padding: 15px 20px;
   display: flex;
   align-items: center;
-  justify-content: center;
-  z-index: 10000;
+  justify-content: space-between;
   backdrop-filter: blur(10px);
 }
 
-.access-container {
-  background: var(--card-bg);
-  border: 1px solid var(--border-color);
-  border-radius: 16px;
-  padding: 40px;
-  text-align: center;
-  max-width: 400px;
-  width: 90%;
-  box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+#custom-player header h3 {
+  color: white;
+  margin: 0;
+  font-size: 18px;
 }
 
-.access-header i {
-  font-size: 48px;
-  color: var(--accent-purple);
-  margin-bottom: 16px;
-}
-
-.access-header h2 {
+#custom-player header button {
+  background: none;
+  border: none;
+  color: white;
   font-size: 24px;
-  margin: 0 0 8px 0;
-  color: var(--text-primary);
+  cursor: pointer;
 }
 
-.access-header p {
-  color: var(--text-secondary);
-  margin: 0 0 32px 0;
+#player-video {
+  max-width: 100%;
+  max-height: 100%;
 }
 
-.access-inputs {
-  display: flex;
-  gap: 12px;
-  justify-content: center;
-  margin-bottom: 24px;
+/* --- Download Modal Animation --- */
+@keyframes slideInUp {
+  from { transform: translateY(50px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
 }
 
-.access-input {
+/* Reproductor de video nativo */
+#player {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  z-index: 9999;
+  cursor: pointer;
+}
+
+#video-player {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Animación para el modal de descarga */
+@keyframes slideInUp {
+  from { transform: translateY(50px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+/* Botón de descarga flotante */
+.download-btn-floating {
+  position: fixed;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
   width: 60px;
   height: 60px;
-  text-align: center;
-  font-size: 24px;
-  font-weight: 600;
-  background: var(--secondary-bg);
-  border: 2px solid var(--border-color);
-  border-radius: 8px;
-  color: var(--text-primary);
-  outline: none;
-  transition: all 0.3s ease;
-}
-
-.access-input:focus {
-  border-color: var(--accent-purple);
-  transform: scale(1.05);
-}
-
-.access-message {
-  height: 20px;
-  margin-bottom: 16px;
-  color: var(--accent-pink);
-  font-size: 14px;
-}
-
-.access-submit {
   background: var(--gradient-1);
   color: white;
-  border: none;
-  padding: 14px 32px;
-  border-radius: 8px;
-  font-size: 16px;
-  font-weight: 600;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  box-shadow: 0 4px 20px rgba(147, 51, 234, 0.4);
+  z-index: 10001;
+  animation: pulse 2s infinite;
   cursor: pointer;
-  transition: all 0.3s ease;
-  width: 100%;
 }
 
-.access-submit:hover {
-  transform: scale(1.05);
-  box-shadow: 0 10px 30px rgba(147, 51, 234, 0.3);
-}
-
-.access-submit:disabled {
-  opacity: 0.5;
-  cursor: not-allowed;
-  transform: none;
+@keyframes pulse {
+  0%, 100% { transform: translateY(-50%) scale(1); }
+  50% { transform: translateY(-50%) scale(1.1); }
 }
 </style>
 </head>
@@ -1314,24 +1286,6 @@ a {
 
 <div id="loader" class="loader-container">
     <div class="loader"></div>
-</div>
-
-<!-- Access Code Modal -->
-<div id="access-modal" class="access-modal">
-  <div class="access-container">
-    <div class="access-header">
-      <i class="fas fa-lock"></i>
-      <h2>Acceso Restringido</h2>
-      <p>Ingresa el código de 3 dígitos para continuar</p>
-    </div>
-    <div class="access-inputs">
-      <input type="text" class="access-input" maxlength="1" data-index="0">
-      <input type="text" class="access-input" maxlength="1" data-index="1">
-      <input type="text" class="access-input" maxlength="1" data-index="2">
-    </div>
-    <div class="access-message" id="access-message"></div>
-    <button class="access-submit" onclick="checkAccessCode()">Acceder</button>
-  </div>
 </div>
 
 <header class="header">
@@ -1498,28 +1452,10 @@ a {
   </a>
 </nav>
 
-<!-- Remotion Player Container -->
-<div id="player" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: #000; z-index: 9999;">
-  <!-- Video will be inserted here -->
+<!-- Agregar el reproductor de video oculto -->
+<div id="player" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: #000; z-index: 9999; cursor: pointer;">
+  <video id="video-player" style="width: 100%; height: 100%; object-fit: contain;" controls></video>
 </div>
-
-<script type="importmap">
-{
-  "imports": {
-    "react": "https://esm.sh/react@18.3.1?dev",
-    "react-dom": "https://esm.sh/react-dom@18.3.1?dev",
-    "react-dom/client": "https://esm.sh/react-dom@18.3.1/client?dev",
-    "react/jsx-runtime": "https://esm.sh/react@18.3.1/jsx-runtime?dev",
-    "react/jsx-dev-runtime": "https://esm.sh/react@18.3.1/jsx-dev-runtime?dev",
-    "remotion": "https://esm.sh/remotion@4.0.350?external=react,react-dom&dev",
-    "@remotion/player": "https://esm.sh/@remotion/player@4.0.350?external=react,react-dom&dev",
-    "@remotion/gif": "https://esm.sh/@remotion/gif@4.0.350?external=react,react-dom,remotion&dev",
-    "@remotion/transitions": "https://esm.sh/@remotion/transitions@4.0.350?external=react,react-dom,remotion&dev",
-    "@websim/remotion/player": "https://esm.websim.com/@websim/remotion/player",
-    "mediabunny": "https://esm.sh/mediabunny@1.19.1"
-  }
-}
-</script>
 
 <script>
 // Service Worker Registration
@@ -1570,136 +1506,6 @@ document.getElementById('install-close').addEventListener('click', () => {
   deferredPrompt = null;
 });
 
-// Access Code System
-const ACCESS_CODE = 'q2w'; // Código de acceso predeterminado
-let accessGranted = false;
-
-// Check if access is already granted in cache
-function checkCachedAccess() {
-  const cachedAccess = localStorage.getItem('kawaii_access_granted');
-  if (cachedAccess === 'true') {
-    accessGranted = true;
-    return true;
-  }
-  return false;
-}
-
-// Cache access granted
-function cacheAccessGranted() {
-  localStorage.setItem('kawaii_access_granted', 'true');
-  accessGranted = true;
-}
-
-// Auto-login if access is cached
-function autoLogin() {
-  if (checkCachedAccess()) {
-    const accessModal = document.getElementById('access-modal');
-    accessModal.style.display = 'none';
-    // Continue with normal initialization
-    if (typeof originalInit === 'function') {
-      originalInit();
-    }
-    return true;
-  }
-  return false;
-}
-
-// Initialize access modal
-function initAccessCode() {
-  // First check if access is already cached for auto-login
-  if (autoLogin()) {
-    return;
-  }
-  
-  const accessModal = document.getElementById('access-modal');
-  const inputs = document.querySelectorAll('.access-input');
-  
-  // Auto-focus next input
-  inputs.forEach((input, index) => {
-    input.addEventListener('input', (e) => {
-      if (e.target.value && index < inputs.length - 1) {
-        inputs[index + 1].focus();
-      }
-      if (index === inputs.length - 1 && e.target.value) {
-        // Auto-submit on last digit
-        setTimeout(() => checkAccessCode(), 100);
-      }
-    });
-    
-    // Allow only letters and numbers
-    input.addEventListener('keypress', (e) => {
-      const char = String.fromCharCode(e.which);
-      if (!/[a-zA-Z0-9]/.test(char)) {
-        e.preventDefault();
-      }
-    });
-    
-    // Handle backspace
-    input.addEventListener('keydown', (e) => {
-      if (e.key === 'Backspace' && !e.target.value && index > 0) {
-        inputs[index - 1].focus();
-      }
-    });
-  });
-  
-  // Focus first input
-  inputs[0].focus();
-}
-
-// Check access code
-function checkAccessCode() {
-  const inputs = document.querySelectorAll('.access-input');
-  const message = document.getElementById('access-message');
-  const submitBtn = document.querySelector('.access-submit');
-  
-  const enteredCode = Array.from(inputs).map(input => input.value.toLowerCase()).join('');
-  
-  if (enteredCode.length !== 3) {
-    message.textContent = 'Por favor ingresa 3 caracteres';
-    return;
-  }
-  
-  submitBtn.disabled = true;
-  
-  if (enteredCode === ACCESS_CODE) {
-    message.textContent = '';
-    
-    // Cache access granted for auto-login
-    cacheAccessGranted();
-    
-    // Hide access modal with animation
-    const modal = document.getElementById('access-modal');
-    modal.style.opacity = '0';
-    modal.style.transform = 'scale(0.9)';
-    
-    setTimeout(() => {
-      modal.style.display = 'none';
-      // Initialize app after access granted
-      if (typeof originalInit === 'function') {
-        originalInit();
-      }
-    }, 300);
-    
-  } else {
-    message.textContent = 'Código incorrecto. Intenta de nuevo.';
-    // Clear inputs
-    inputs.forEach(input => input.value = '');
-    inputs[0].focus();
-    submitBtn.disabled = false;
-  }
-}
-
-// Override init to require access code or auto-login
-const originalInit = init;
-init = function() {
-  // Try auto-login first
-  if (autoLogin()) {
-    return;
-  }
-  // If no cached access, show access code modal
-  initAccessCode();
-};
-
 // DOM Elements
 const loader = document.getElementById('loader');
 const screens = document.querySelectorAll('.screen');
@@ -1714,7 +1520,6 @@ let currentHeroIndex = 0;
 let heroInterval;
 let heroFeatured = [];
 let channels = [];
-let currentPlayer = null;
 
 // Utility Functions
 function switchScreen(screenId) {
@@ -1849,7 +1654,7 @@ function setupHero() {
   document.getElementById('hero-play').onclick = () => {
     const item = heroFeatured[currentHeroIndex];
     if (item.video_url) {
-      playVideo(item.video_url, item.title);
+      openVideoLink(item.video_url, item.title);
     } else if (item.episodes) {
       showDetail(item);
     }
@@ -2004,7 +1809,7 @@ function renderHome() {
       e.preventDefault();
       const url = card.dataset.url;
       const title = card.dataset.title;
-      if (url) playVideo(url, title);
+      if (url) openVideoLink(url, title);
     });
   });
 
@@ -2043,75 +1848,68 @@ function getProgressPercentage(itemId, episodeIndex) {
   return 0;
 }
 
-// Remotion Player Integration
-async function playVideo(videoUrl, title = 'Video') {
+// Abrir enlace de video con guardado de progreso
+function openVideoLink(url, itemId, episodeIndex = 0) {
   const playerContainer = document.getElementById('player');
-  const videoElement = document.createElement('video');
+  const videoPlayer = document.getElementById('video-player');
   
-  // Configure video element
-  videoElement.id = 'native-video-player';
-  videoElement.src = videoUrl;
-  videoElement.style.cssText = 'width: 100%; height: 100%; object-fit: contain; background: #000;';
-  videoElement.controls = true;
-  videoElement.autoplay = true;
-  
-  // Request fullscreen
-  videoElement.addEventListener('loadedmetadata', () => {
-    if (videoElement.requestFullscreen) {
-      videoElement.requestFullscreen().catch(err => {
-        console.log('Fullscreen not available:', err);
-      });
-    } else if (videoElement.webkitRequestFullscreen) {
-      videoElement.webkitRequestFullscreen();
-    } else if (videoElement.msRequestFullscreen) {
-      videoElement.msRequestFullscreen();
+  // Guardar progreso al cerrar
+  function saveProgress() {
+    if (videoPlayer.currentTime > 0) {
+      const progressKey = `progress_${itemId}_${episodeIndex}`;
+      localStorage.setItem(progressKey, JSON.stringify({
+        currentTime: videoPlayer.currentTime,
+        duration: videoPlayer.duration
+      }));
     }
-  });
+  }
   
-  // Clear previous content
-  playerContainer.innerHTML = '';
+  // Configurar video
+  videoPlayer.src = url;
   
-  // Create close button
-  const closeBtn = document.createElement('button');
-  closeBtn.className = 'player-close';
-  closeBtn.innerHTML = '<i class="fas fa-times"></i>';
-  closeBtn.onclick = closePlayer;
+  // Restaurar progreso
+  const progressKey = `progress_${itemId}_${episodeIndex}`;
+  const savedProgress = localStorage.getItem(progressKey);
+  if (savedProgress) {
+    const progress = JSON.parse(savedProgress);
+    videoPlayer.currentTime = progress.currentTime || 0;
+  }
   
-  // Add elements to player
-  playerContainer.appendChild(videoElement);
-  playerContainer.appendChild(closeBtn);
-  
-  // Show player
+  // Mostrar reproductor
   playerContainer.style.display = 'block';
+  videoPlayer.play();
   
-  // Try to play video
-  videoElement.play().catch(err => {
-    console.log('Autoplay prevented:', err);
+  // Cerrar al hacer click fuera
+  playerContainer.onclick = (e) => {
+    if (e.target === playerContainer) {
+      saveProgress();
+      playerContainer.style.display = 'none';
+      videoPlayer.pause();
+      videoPlayer.src = '';
+    }
+  };
+  
+  // Guardar progreso al terminar
+  videoPlayer.onended = () => {
+    localStorage.removeItem(progressKey);
+    playerContainer.style.display = 'none';
+    videoPlayer.src = '';
+  };
+  
+  // Cerrar con ESC
+  document.addEventListener('keydown', function closeOnEsc(e) {
+    if (e.key === 'Escape') {
+      saveProgress();
+      playerContainer.style.display = 'none';
+      videoPlayer.pause();
+      videoPlayer.src = '';
+      document.removeEventListener('keydown', closeOnEsc);
+    }
   });
 }
 
-function closePlayer() {
-  const playerContainer = document.getElementById('player');
-  const videoElement = document.getElementById('native-video-player');
-  
-  if (videoElement) {
-    videoElement.pause();
-    videoElement.src = '';
-  }
-  
-  // Exit fullscreen if active
-  if (document.fullscreenElement || document.webkitFullscreenElement || document.msFullscreenElement) {
-    if (document.exitFullscreen) {
-      document.exitFullscreen();
-    } else if (document.webkitExitFullscreen) {
-      document.webkitExitFullscreen();
-    } else if (document.msExitFullscreen) {
-      document.msExitFullscreen();
-    }
-  }
-  
-  playerContainer.style.display = 'none';
-  playerContainer.innerHTML = '';
+function playVideo(url) {
+  openVideoLink(url, 'direct', 0);
 }
 
 // Detail Screen
@@ -2157,13 +1955,13 @@ function showDetail(item) {
     detailPlay.href = '#';
     detailPlay.onclick = (e) => {
       e.preventDefault();
-      playVideo(item.video_url, item.title);
+      openVideoLink(item.video_url, item.title);
     };
   } else if (item.episodes && item.episodes.length > 0) {
     detailPlay.href = '#';
     detailPlay.onclick = (e) => {
       e.preventDefault();
-      playVideo(item.episodes[0].video_url, `${item.title} - Episodio 1`);
+      openVideoLink(item.episodes[0].video_url, item.title, 0);
     };
   }
   
@@ -2219,7 +2017,7 @@ function renderEpisodes(series) {
       e.preventDefault();
       localStorage.setItem(`watched_${series.title}_${index}`, 'true');
       episodeCard.classList.add('watched');
-      playVideo(episode.video_url, `${series.title} - Episodio ${index + 1}`);
+      openVideoLink(episode.video_url, series.title, index);
     });
     
     episodesGrid.appendChild(episodeCard);
@@ -2356,3 +2154,4 @@ document.addEventListener('click', (e) => {
 </script>
 </body>
 </html>
+
