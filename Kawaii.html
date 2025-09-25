@@ -1331,9 +1331,6 @@ a {
     </div>
     <div class="access-message" id="access-message"></div>
     <button class="access-submit" onclick="checkAccessCode()">Acceder</button>
-    <div style="margin-top: 20px; font-size: 12px; color: var(--text-secondary);">
-      ¿No tienes clave? <a href="https://t.me/KawaiiPlayy" target="_blank" style="color: var(--accent-purple); text-decoration: none; font-weight: 600;">Obtener clave aquí</a>
-    </div>
   </div>
 </div>
 
@@ -1502,8 +1499,8 @@ a {
 </nav>
 
 <!-- Remotion Player Container -->
-<div id="player" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: #000; z-index: 9999; cursor: pointer;">
-  <video id="video-player" style="width: 100%; height: 100%; object-fit: contain;" controls autoplay></video>
+<div id="player" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: #000; z-index: 9999;">
+  <!-- Video will be inserted here -->
 </div>
 
 <script type="importmap">
@@ -2048,41 +2045,73 @@ function getProgressPercentage(itemId, episodeIndex) {
 
 // Remotion Player Integration
 async function playVideo(videoUrl, title = 'Video') {
-  // Usar el reproductor interno del navegador
-  const player = document.getElementById('video-player');
   const playerContainer = document.getElementById('player');
+  const videoElement = document.createElement('video');
   
-  player.src = videoUrl;
-  player.title = title;
-  player.autoplay = true;
+  // Configure video element
+  videoElement.id = 'native-video-player';
+  videoElement.src = videoUrl;
+  videoElement.style.cssText = 'width: 100%; height: 100%; object-fit: contain; background: #000;';
+  videoElement.controls = true;
+  videoElement.autoplay = true;
   
+  // Request fullscreen
+  videoElement.addEventListener('loadedmetadata', () => {
+    if (videoElement.requestFullscreen) {
+      videoElement.requestFullscreen().catch(err => {
+        console.log('Fullscreen not available:', err);
+      });
+    } else if (videoElement.webkitRequestFullscreen) {
+      videoElement.webkitRequestFullscreen();
+    } else if (videoElement.msRequestFullscreen) {
+      videoElement.msRequestFullscreen();
+    }
+  });
+  
+  // Clear previous content
+  playerContainer.innerHTML = '';
+  
+  // Create close button
+  const closeBtn = document.createElement('button');
+  closeBtn.className = 'player-close';
+  closeBtn.innerHTML = '<i class="fas fa-times"></i>';
+  closeBtn.onclick = closePlayer;
+  
+  // Add elements to player
+  playerContainer.appendChild(videoElement);
+  playerContainer.appendChild(closeBtn);
+  
+  // Show player
   playerContainer.style.display = 'block';
-  playerContainer.style.cursor = 'default';
   
-  // Ocultar el botón de cerrar
-  const closeBtn = document.querySelector('.player-close');
-  if (closeBtn) {
-    closeBtn.style.display = 'none';
-  }
-  
-  // Salir con doble click
-  playerContainer.ondblclick = () => {
-    closePlayer();
-  };
-  
-  // Salir cuando termine el video
-  player.onended = () => {
-    closePlayer();
-  };
+  // Try to play video
+  videoElement.play().catch(err => {
+    console.log('Autoplay prevented:', err);
+  });
 }
 
 function closePlayer() {
   const playerContainer = document.getElementById('player');
-  const player = document.getElementById('video-player');
+  const videoElement = document.getElementById('native-video-player');
   
-  player.pause();
-  player.src = '';
+  if (videoElement) {
+    videoElement.pause();
+    videoElement.src = '';
+  }
+  
+  // Exit fullscreen if active
+  if (document.fullscreenElement || document.webkitFullscreenElement || document.msFullscreenElement) {
+    if (document.exitFullscreen) {
+      document.exitFullscreen();
+    } else if (document.webkitExitFullscreen) {
+      document.webkitExitFullscreen();
+    } else if (document.msExitFullscreen) {
+      document.msExitFullscreen();
+    }
+  }
+  
   playerContainer.style.display = 'none';
+  playerContainer.innerHTML = '';
 }
 
 // Detail Screen
@@ -2125,13 +2154,17 @@ function showDetail(item) {
   
   // Setup play button
   if (item.video_url) {
-    detailPlay.href = item.video_url;
-    detailPlay.target = '_blank';
-    detailPlay.rel = 'noopener noreferrer';
+    detailPlay.href = '#';
+    detailPlay.onclick = (e) => {
+      e.preventDefault();
+      playVideo(item.video_url, item.title);
+    };
   } else if (item.episodes && item.episodes.length > 0) {
-    detailPlay.href = item.episodes[0].video_url;
-    detailPlay.target = '_blank';
-    detailPlay.rel = 'noopener noreferrer';
+    detailPlay.href = '#';
+    detailPlay.onclick = (e) => {
+      e.preventDefault();
+      playVideo(item.episodes[0].video_url, `${item.title} - Episodio 1`);
+    };
   }
   
   // Show episodes if series
@@ -2186,12 +2219,7 @@ function renderEpisodes(series) {
       e.preventDefault();
       localStorage.setItem(`watched_${series.title}_${index}`, 'true');
       episodeCard.classList.add('watched');
-      // Abrir episodio en nueva pestalla
-      const link = document.createElement('a');
-      link.href = episode.video_url;
-      link.target = '_blank';
-      link.rel = 'noopener noreferrer';
-      link.click();
+      playVideo(episode.video_url, `${series.title} - Episodio ${index + 1}`);
     });
     
     episodesGrid.appendChild(episodeCard);
