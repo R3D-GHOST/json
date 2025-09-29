@@ -1,6 +1,117 @@
 [
 
 
+
+
+{
+  "title": "Blue Lock temporada 2",
+  "description": "Temporada 2 de blue lock.",
+  "coverImage": "https://m.media-amazon.com/images/I/81zEBy8yA+L._UF1000,1000_QL80_.jpg",
+  "genre": ["Anime", "Deportes", "Entretenimiento"],
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "ESTRENO CENTRO MUNDO ANIME EP 1",
+      "video_url": "https://archive.org/download/cma-ep-13-dob/ESTRENO%20CENTRO%20MUNDO%20ANIME%20EP%201%20DOB%20TU%20MEJOR%20OPCI%C3%93N.mp4"
+    },
+    {
+      "episode": 2,
+      "title": "CMA X LT EP 2",
+      "video_url": "https://archive.org/download/cma-ep-13-dob/CMA%20X%20LT%20EP%202%20TU%20MEJOR%20OPCI%C3%93N.mp4"
+    },
+    {
+      "episode": 3,
+      "title": "CMA EP 3",
+      "video_url": "https://archive.org/download/cma-ep-13-dob/CMA%20EP%203%20DOB%20TU%20MEJOR%20OPCION.mp4"
+    },
+    {
+      "episode": 4,
+      "title": "CMA EP 4",
+      "video_url": "https://archive.org/download/cma-ep-13-dob/CMA%20EP%204%20DOB%20CANAL%20VERIFICADO.mp4"
+    },
+    {
+      "episode": 5,
+      "title": "CMA EP 5",
+      "video_url": "https://archive.org/download/cma-ep-13-dob/CMA%20EP%205%20DOB%20CANAL%20AUTORIZADO.mp4"
+    },
+    {
+      "episode": 6,
+      "title": "CMA EP 6",
+      "video_url": "https://archive.org/download/cma-ep-13-dob/CMA%20EP%206%20DOBLAJE%20CANAL%20AUTORIZADO.mp4"
+    },
+    {
+      "episode": 7,
+      "title": "CMA EP 7",
+      "video_url": "https://archive.org/download/cma-ep-13-dob/CMA%20EP%207.mp4"
+    },
+    {
+      "episode": 8,
+      "title": "CMA EP 8",
+      "video_url": "https://archive.org/download/cma-ep-13-dob/CMA%20EP%208%20TU%20MEJOR%20OPCI%C3%93N.mp4"
+    },
+    {
+      "episode": 9,
+      "title": "CMA EP 9",
+      "video_url": "https://archive.org/download/cma-ep-13-dob/EP%209%20TU%20MEJOR%20OPCI%C3%93N.mp4"
+    },
+    {
+      "episode": 10,
+      "title": "CMA EP 10",
+      "video_url": "https://archive.org/download/cma-ep-13-dob/CMA%20EP%2010%20DOB.mp4"
+    },
+    {
+      "episode": 11,
+      "title": "CMA EP 11",
+      "video_url": "https://archive.org/download/cma-ep-13-dob/CMA%20EP%2011%20DOB.mp4"
+    },
+    {
+      "episode": 12,
+      "title": "CMA EP 12",
+      "video_url": "https://archive.org/download/cma-ep-13-dob/CMA%20EP%2012%20DOB.mp4"
+    },
+    {
+      "episode": 13,
+      "title": "CMA EP 13",
+      "video_url": "https://archive.org/download/cma-ep-13-dob/CMA%20EP%2013%20DOB.mp4"
+    },
+    {
+      "episode": 14,
+      "title": "CMA EP 14",
+      "video_url": "https://archive.org/download/cma-ep-13-dob/CMA%20EP%2014%20DOB.mp4"
+    }
+  ]
+},
+
+  
+
+
+
+
+
+
+
+
+  
+{
+  "title": "Bar El Coyote",
+  "description": "Ambientada en el mundo del bar clandestino “El Coyote”, la historia gira en torno a los personajes que se entrecruzan entre secretos, pasiones y conflictos que emergen en un ambiente cargado de tensión y misterio.",
+  "coverImage": "https://m.media-amazon.com/images/I/71qkzjqNqkL.jpg",
+  "genre": ["Película", "Drama", "Misterio"],
+  "video_url": "https://archive.org/download/bar-el-coyote/bar%20el%20coyote.mp4"
+},
+
+
+{
+  "title": "Dirty Dancing",
+  "description": "Una joven veraniega enamorada de la música y el baile se aventura más allá de sus límites cuando conoce al instructor de baile del resort donde vacaciona, aprendiendo sobre pasión, libertad y superación.",
+  "coverImage": "https://m.media-amazon.com/images/I/61Y6XcTk50L._UF1000,1000_QL80_.jpg",
+  "genre": ["Película", "Romance", "Drama", "Música", "Baile"],
+  "video_url": "https://archive.org/download/dirtydancing_202509/dirtydancing.mp4"
+},
+
+  
+
+  
 {
   "title": "Kickboxer",
   "description": "Kurt Sloane entrena en artes marciales para vengar a su hermano erguido, que quedó paralizado luego de enfrentar al campeón Tong Po en Tailandia. Para lograrlo, viaja hasta ese país, aprende técnicas de lucha tradicionales y se prepara para un duelo decisivo. (Película de acción y artes marciales clásica con Jean-Claude Van Damme).",
