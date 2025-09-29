@@ -1,69 +1,16 @@
 [
 
+
 {
-  "title": "Gibo to Musume no Blues",
-  "description": "Serie japonesa doblada al Español Latino.",
-  "coverImage": "https://i.mydramalist.com/j85lrf.jpg",
-  "genre": ["Drama", "Familia"],
-  "episodes": [
-    {
-      "episode": 1,
-      "title": "Gibo to Musume no Blues - 01",
-      "video_url": "https://dn720303.ca.archive.org/0/items/blues-de-madrastra-e-hijastra-gibo-to-musume-no-blues-espanol-latino/Gibo%20to%20Musume%20no%20Blues%20%5BEspa%C3%B1ol%20Latino%5D%20%281280x720%20%7C%201920x1080%20H264%20AAC%29/Gibo%20to%20Musume%20no%20Blues%20-%2001%20%5BEspa%C3%B1ol%20Latino%5D%20%28XHCDM-TDT%201280x720%20H264%20AAC%29.mp4"
-    },
-    {
-      "episode": 2,
-      "title": "Gibo to Musume no Blues - 02",
-      "video_url": "https://archive.org/download/blues-de-madrastra-e-hijastra-gibo-to-musume-no-blues-espanol-latino/Gibo%20to%20Musume%20no%20Blues%20-%2002%20%5BEspa%C3%B1ol%20Latino%5D%20%28XHCDM-TDT%201280x720%20H264%20AAC%29.mp4"
-    },
-    {
-      "episode": 3,
-      "title": "Gibo to Musume no Blues - 03",
-      "video_url": "https://archive.org/download/blues-de-madrastra-e-hijastra-gibo-to-musume-no-blues-espanol-latino/Gibo%20to%20Musume%20no%20Blues%20-%2003%20%5BEspa%C3%B1ol%20Latino%5D%20%28XHCDM-TDT%201280x720%20H264%20AAC%29.mp4"
-    },
-    {
-      "episode": 4,
-      "title": "Gibo to Musume no Blues - 04",
-      "video_url": "https://archive.org/download/blues-de-madrastra-e-hijastra-gibo-to-musume-no-blues-espanol-latino/Gibo%20to%20Musume%20no%20Blues%20-%2004%20%5BEspa%C3%B1ol%20Latino%5D%20%28SoloDoramasLatinos%201920x1080%20H264%20AAC%29.mp4"
-    },
-    {
-      "episode": 5,
-      "title": "Gibo to Musume no Blues - 05",
-      "video_url": "https://archive.org/download/blues-de-madrastra-e-hijastra-gibo-to-musume-no-blues-espanol-latino/Gibo%20to%20Musume%20no%20Blues%20-%2005%20%5BEspa%C3%B1ol%20Latino%5D%20%28XHCDM-TDT%201280x720%20H264%20AAC%29.mp4"
-    },
-    {
-      "episode": 6,
-      "title": "Gibo to Musume no Blues - 06",
-      "video_url": "https://archive.org/download/blues-de-madrastra-e-hijastra-gibo-to-musume-no-blues-espanol-latino/Gibo%20to%20Musume%20no%20Blues%20-%2006%20%5BEspa%C3%B1ol%20Latino%5D%20%28SoloDoramasLatinos%201920x1080%20H264%20AAC%29.mp4"
-    },
-    {
-      "episode": 7,
-      "title": "Gibo to Musume no Blues - 07",
-      "video_url": "https://archive.org/download/blues-de-madrastra-e-hijastra-gibo-to-musume-no-blues-espanol-latino/Gibo%20to%20Musume%20no%20Blues%20-%2007%20%5BEspa%C3%B1ol%20Latino%5D%20%28SoloDoramasLatinos%201920x1080%20H264%20AAC%29.mp4"
-    },
-    {
-      "episode": 8,
-      "title": "Gibo to Musume no Blues - 08",
-      "video_url": "https://archive.org/download/blues-de-madrastra-e-hijastra-gibo-to-musume-no-blues-espanol-latino/Gibo%20to%20Musume%20no%20Blues%20-%2008%20%5BEspa%C3%B1ol%20Latino%5D%20%28SoloDoramasLatinos%201920x1080%20H264%20AAC%29.mp4"
-    },
-    {
-      "episode": 9,
-      "title": "Gibo to Musume no Blues - 09",
-      "video_url": "https://archive.org/download/blues-de-madrastra-e-hijastra-gibo-to-musume-no-blues-espanol-latino/Gibo%20to%20Musume%20no%20Blues%20-%2009%20%5BEspa%C3%B1ol%20Latino%5D%20%28SoloDoramasLatinos%201920x1080%20H264%20AAC%29.mp4"
-    },
-    {
-      "episode": 10,
-      "title": "Gibo to Musume no Blues - 10",
-      "video_url": "https://archive.org/download/blues-de-madrastra-e-hijastra-gibo-to-musume-no-blues-espanol-latino/Gibo%20to%20Musume%20no%20Blues%20-%2010%20%5BEspa%C3%B1ol%20Latino%5D%20%28XHCDM-TDT%201280x720%20H264%20AAC%29.mp4"
-    },
-    {
-      "episode": 11,
-      "title": "Gibo to Musume no Blues - SP",
-      "video_url": "https://archive.org/download/blues-de-madrastra-e-hijastra-gibo-to-musume-no-blues-espanol-latino/Gibo%20to%20Musume%20no%20Blues%20-%20SP%20%5BEspa%C3%B1ol%20Latino%5D%20%28XHCDM-TDT%201280x720%20H264%20AAC%29.mp4"
-    }
-  ]
+  "title": "Kickboxer",
+  "description": "Kurt Sloane entrena en artes marciales para vengar a su hermano erguido, que quedó paralizado luego de enfrentar al campeón Tong Po en Tailandia. Para lograrlo, viaja hasta ese país, aprende técnicas de lucha tradicionales y se prepara para un duelo decisivo. (Película de acción y artes marciales clásica con Jean-Claude Van Damme).",
+  "coverImage": "https://m.media-amazon.com/images/M/MV5BYjQ2NjVkMjAtNGYzZC00ZTZiLWJlZjYtMTNlYWNiZDVlMDZkXkEyXkFqcGc@._V1_.jpg",
+  "genre": ["Película", "Acción", "Artes Marciales", "Venganza"],
+  "video_url": "https://archive.org/download/kickboxer-van-damme-1989-pelicula-en-espanol-480-p_202008/Kickboxer%20Van%20Damme%20%281989%29%20Pelicula%20en%20Espa%C3%B1ol%28480P%29.mp4"
 },
 
+
+  
 
 {
   "title": "Tokyo Revengers",
