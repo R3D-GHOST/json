@@ -2,7 +2,59 @@
 
 
 
+{
+  "title": "Hanzai Shokogun",
+  "description": "Serie Hanzai Shokogun en Español Latino.",
+  "coverImage": "https://artworks.thetvdb.com/banners/posters/326096-1.jpg",
+  "genre": ["Drama", "Crimen", "Thriller"],
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "Hanzai Shokogun - 01",
+      "video_url": "https://archive.org/download/hanzai-shokogun-s1-espanol-latino/Hanzai%20Shokogun%20%5BEspa%C3%B1ol%20Latino%5D%20%28XHCGA-TDT%20%7C%20XHCDM-TDT%20H264%20AAC%29/Hanzai%20Shokogun%20-%2001%20%5BEspa%C3%B1ol%20Latino%5D%20%28XHCGA-TDT%201920x1080%20H264%20AAC%29.mp4"
+    },
+    {
+      "episode": 2,
+      "title": "Hanzai Shokogun - 02",
+      "video_url": "https://archive.org/download/hanzai-shokogun-s1-espanol-latino/Hanzai%20Shokogun%20%5BEspa%C3%B1ol%20Latino%5D%20%28XHCGA-TDT%20%7C%20XHCDM-TDT%20H264%20AAC%29/Hanzai%20Shokogun%20-%2002%20%5BEspa%C3%B1ol%20Latino%5D%20%28XHCGA-TDT%201920x1080%20H264%20AAC%29.mp4"
+    },
+    {
+      "episode": 3,
+      "title": "Hanzai Shokogun - 03",
+      "video_url": "https://archive.org/download/hanzai-shokogun-s1-espanol-latino/Hanzai%20Shokogun%20%5BEspa%C3%B1ol%20Latino%5D%20%28XHCGA-TDT%20%7C%20XHCDM-TDT%20H264%20AAC%29/Hanzai%20Shokogun%20-%2003%20%5BEspa%C3%B1ol%20Latino%5D%20%28XHCGA-TDT%201920x1080%20H264%20AAC%29.mp4"
+    },
+    {
+      "episode": 4,
+      "title": "Hanzai Shokogun - 04",
+      "video_url": "https://archive.org/download/hanzai-shokogun-s1-espanol-latino/Hanzai%20Shokogun%20%5BEspa%C3%B1ol%20Latino%5D%20%28XHCGA-TDT%20%7C%20XHCDM-TDT%20H264%20AAC%29/Hanzai%20Shokogun%20-%2004%20%5BEspa%C3%B1ol%20Latino%5D%20%28XHCDM-TDT%201280x720%20H264%20AAC%29.mp4"
+    },
+    {
+      "episode": 5,
+      "title": "Hanzai Shokogun - 05",
+      "video_url": "https://archive.org/download/hanzai-shokogun-s1-espanol-latino/Hanzai%20Shokogun%20%5BEspa%C3%B1ol%20Latino%5D%20%28XHCGA-TDT%20%7C%20XHCDM-TDT%20H264%20AAC%29/Hanzai%20Shokogun%20-%2005%20%5BEspa%C3%B1ol%20Latino%5D%20%28XHCGA-TDT%201920x1080%20H264%20AAC%29.mp4"
+    },
+    {
+      "episode": 6,
+      "title": "Hanzai Shokogun - 06",
+      "video_url": "https://archive.org/download/hanzai-shokogun-s1-espanol-latino/Hanzai%20Shokogun%20%5BEspa%C3%B1ol%20Latino%5D%20%28XHCGA-TDT%20%7C%20XHCDM-TDT%20H264%20AAC%29/Hanzai%20Shokogun%20-%2006%20%5BEspa%C3%B1ol%20Latino%5D%20%28XHCGA-TDT%201920x1080%20H264%20AAC%29.mp4"
+    },
+    {
+      "episode": 7,
+      "title": "Hanzai Shokogun - 07",
+      "video_url": "https://archive.org/download/hanzai-shokogun-s1-espanol-latino/Hanzai%20Shokogun%20%5BEspa%C3%B1ol%20Latino%5D%20%28XHCGA-TDT%20%7C%20XHCDM-TDT%20H264%20AAC%29/Hanzai%20Shokogun%20-%2007%20%5BEspa%C3%B1ol%20Latino%5D%20%28XHCGA-TDT%201920x1080%20H264%20AAC%29.mp4"
+    },
+    {
+      "episode": 8,
+      "title": "Hanzai Shokogun - 08",
+      "video_url": "https://archive.org/download/hanzai-shokogun-s1-espanol-latino/Hanzai%20Shokogun%20%5BEspa%C3%B1ol%20Latino%5D%20%28XHCGA-TDT%20%7C%20XHCDM-TDT%20H264%20AAC%29/Hanzai%20Shokogun%20-%2008%20%5BEspa%C3%B1ol%20Latino%5D%20%28XHCGA-TDT%201920x1080%20H264%20AAC%29.mp4"
+    }
+  ]
+},
 
+
+
+
+  
 {
   "title": "Blue Lock temporada 2",
   "description": "Temporada 2 de blue lock.",
