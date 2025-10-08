@@ -1,5 +1,35 @@
 [
 
+
+
+{
+  "title": "DNA² (Castellano)",
+  "description": "Serie DNA² en español castellano con sus episodios de TV y OVAs, disponibles en archive.org.",
+  "coverImage": "https://m.media-amazon.com/images/I/81VlGYI7knL._UF894,1000_QL80_.jpg",
+  "genre": ["Anime", "Ciencia ficción", "Comedia romántica"],
+  "episodes": [
+    { "episode": 1, "title": "Episodio 01", "video_url": "https://archive.org/download/dna2-castellano-completa/DNA%C2%B2%20Episodio%2001%20-%201994.mp4" },
+    { "episode": 2, "title": "Episodio 02", "video_url": "https://archive.org/download/dna2-castellano-completa/DNA%C2%B2%20Episodio%2002%20-%201994.mp4" },
+    { "episode": 3, "title": "Episodio 03", "video_url": "https://archive.org/download/dna2-castellano-completa/DNA%C2%B2%20Episodio%2003%20-%201994.mp4" },
+    { "episode": 4, "title": "Episodio 04", "video_url": "https://archive.org/download/dna2-castellano-completa/DNA%C2%B2%20Episodio%2004%20-%201994.mp4" },
+    { "episode": 5, "title": "Episodio 05", "video_url": "https://archive.org/download/dna2-castellano-completa/DNA%C2%B2%20Episodio%2005%20-%201994.mp4" },
+    { "episode": 6, "title": "Episodio 06", "video_url": "https://archive.org/download/dna2-castellano-completa/DNA%C2%B2%20Episodio%2006%20-%201994.mp4" },
+    { "episode": 7, "title": "Episodio 07", "video_url": "https://archive.org/download/dna2-castellano-completa/DNA%C2%B2%20Episodio%2007%20-%201994.mp4" },
+    { "episode": 8, "title": "Episodio 08", "video_url": "https://archive.org/download/dna2-castellano-completa/DNA%C2%B2%20Episodio%2008%20-%201994.mp4" },
+    { "episode": 9, "title": "Episodio 09", "video_url": "https://archive.org/download/dna2-castellano-completa/DNA%C2%B2%20Episodio%2009%20-%201995.mp4" },
+    { "episode": 10, "title": "Episodio 10", "video_url": "https://archive.org/download/dna2-castellano-completa/DNA%C2%B2%20Episodio%2010%20-%201995.mp4" },
+    { "episode": 11, "title": "Episodio 11", "video_url": "https://archive.org/download/dna2-castellano-completa/DNA%C2%B2%20Episodio%2011%20-%201995.mp4" },
+    { "episode": 12, "title": "Episodio 12", "video_url": "https://archive.org/download/dna2-castellano-completa/DNA%C2%B2%20Episodio%2012%20-%201995.mp4" },
+    { "episode": 13, "title": "OVA 1", "video_url": "https://archive.org/download/dna2-castellano-completa/DNA%C2%B2%20OVA%201.mp4" },
+    { "episode": 14, "title": "OVA 2", "video_url": "https://archive.org/download/dna2-castellano-completa/DNA%C2%B2%20OVA%202.mp4" },
+    { "episode": 15, "title": "OVA 3", "video_url": "https://archive.org/download/dna2-castellano-completa/DNA%C2%B2%20OVA%203.mp4" }
+  ]
+},
+
+
+
+
+  
 {
   "title": "Your Name",
   "description": "Película animada japonesa (Your Name) doblada al español latino. Una joven del campo y un chico de ciudad descubren que intercambian cuerpos de forma misteriosa, y juntos intentan resolver el enigma que los une a través del tiempo y la memoria.",
