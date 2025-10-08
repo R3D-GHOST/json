@@ -2052,6 +2052,44 @@ document.addEventListener('click', (e) => {
     setTimeout(() => ripple.remove(), 600);
   }
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+  // Ruta al JSON local (debe estar en la misma carpeta que el HTML)
+  fetch("data.json")
+    .then(response => {
+      if (!response.ok) throw new Error("No se pudo cargar el JSON");
+      return response.json();
+    })
+    .then(data => {
+      console.log("Datos cargados:", data);
+
+      const container = document.querySelector(".content-grid") || document.body;
+      container.innerHTML = ""; // Limpia contenido previo
+
+      data.forEach(item => {
+        const card = document.createElement("div");
+        card.className = "card content-card";
+        card.innerHTML = `
+          <img src="${item.coverImage}" alt="${item.title}">
+          <div class="season-indicator">${item.episodes ? "Serie" : "Película"}</div>
+          <h3>${item.title}</h3>
+        `;
+        card.addEventListener("click", () => {
+          if (item.video_url) {
+            window.open(item.video_url, "_blank");
+          } else if (item.episodes) {
+            alert(item.title + " tiene " + item.episodes.length + " episodios");
+          }
+        });
+        container.appendChild(card);
+      });
+    })
+    .catch(err => {
+      console.error("Error al cargar el JSON:", err);
+    });
+});
+
+  
 </script>
 </body>
 </html>
