@@ -1,6 +1,14 @@
 [
 
+{
+  "title": "Your Name",
+  "description": "Película animada japonesa (Your Name) doblada al español latino. Una joven del campo y un chico de ciudad descubren que intercambian cuerpos de forma misteriosa, y juntos intentan resolver el enigma que los une a través del tiempo y la memoria.",
+  "coverImage": "https://m.media-amazon.com/images/I/91hkqY8yghL._UF1000,1000_QL80_.jpg",
+  "genre": ["Anime", "Romance", "Fantasía", "Drama"],
+  "video_url": "https://archive.org/download/tu-nombre-espanol-latino-cinema-movies/TU%20NOMBRE%20espa%C3%B1ol%20latino%7BCINEMA%20MOVIES%7D.mp4"
+},
 
+  
 
 {
   "title": "Golden Boy",
