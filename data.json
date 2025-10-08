@@ -2,7 +2,45 @@
 
 
 
-
+{
+  "title": "Golden Boy",
+  "description": "Serie Golden Boy en Español Castellano.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQsF_tRNiwwaC4xWiMGQKG7P1m33R5duJMjuJ68-7chg&s=10",
+  "genre": ["Comedia", "Aventura", "Anime"],
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "Golden Boy – 1",
+      "video_url": "https://archive.org/download/golden-boy-espanol-castellano-1/Golden%20Boy%20Espa%C3%B1ol%20Castellano%20%281%29.mp4"
+    },
+    {
+      "episode": 2,
+      "title": "Golden Boy – 2",
+      "video_url": "https://archive.org/download/golden-boy-espanol-castellano-1/Golden%20Boy%20Espa%C3%B1ol%20Castellano%20%282%29.mp4"
+    },
+    {
+      "episode": 3,
+      "title": "Golden Boy – 3",
+      "video_url": "https://archive.org/download/golden-boy-espanol-castellano-1/Golden%20Boy%20Espa%C3%B1ol%20Castellano%20%283%29.mp4"
+    },
+    {
+      "episode": 4,
+      "title": "Golden Boy – 4",
+      "video_url": "https://archive.org/download/golden-boy-espanol-castellano-1/Golden%20Boy%20Espa%C3%B1ol%20Castellano%20%284%29.mp4"
+    },
+    {
+      "episode": 5,
+      "title": "Golden Boy – 5",
+      "video_url": "https://archive.org/download/golden-boy-espanol-castellano-1/Golden%20Boy%20Espa%C3%B1ol%20Castellano%20%285%29.mp4"
+    },
+    {
+      "episode": 6,
+      "title": "Golden Boy – 6",
+      "video_url": "https://archive.org/download/golden-boy-espanol-castellano-1/Golden%20Boy%20Espa%C3%B1ol%20Castellano%20%286%29.mp4"
+    }
+  ]
+},
+  
 
 
 
