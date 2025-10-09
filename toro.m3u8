@@ -12,7 +12,7 @@ https://cdn1.intercom.cdn.moderntv.eu/intercom/stream/ESPN/40-hls/live-media.m3u
 
 
 #EXTINF:-1 tvg-id="" tvg-name="LaLiga DAZN" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6DRGyqTOx-1p02IdZIoHYoMbQ1h69CZ--JA&s" group-title="Deportes", La Liga Dazn
-http://ejemplo.com/tv.m3u8
+https://aw1wcm92zq.fubohd.com/espnpremium/mono.m3u8?token=40de85b14070dc32ac7cc5bb84bbb5db7edf557b-9c-1760060467-1760042467
 
 
 #EXTINF:-1 tvg-id="" tvg-name="DAZN" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVkmgZZMucNuUseV7TWtukF_JFmkPA1C2Lyg&s" group-title="Deportes", DAZN 1 
