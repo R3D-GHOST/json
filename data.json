@@ -3,6 +3,59 @@
 
 
 {
+  "title": "Devil May Cry",
+  "description": "Serie de anime basada en la saga de videojuegos de Capcom. Sigue a Dante, un cazador de demonios mitad humano y mitad demonio, mientras acepta encargos para eliminar criaturas infernales en un mundo oscuro lleno de acción, misterio y estilo.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPHjZGa6VPsKMJZh1IXELaHNO2L_CKCnCNxmdDfdtI2g&s=10",
+  "genre": ["Anime", "Acción", "Fantasía oscura", "Sobrenatural"],
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "Episodio 01",
+      "video_url": "https://ia600304.us.archive.org/6/items/vid-20251010-024050-636/VID_20251010_024050_636.mp4"
+    },
+    {
+      "episode": 2,
+      "title": "Episodio 02",
+      "video_url": "https://ia600304.us.archive.org/6/items/vid-20251010-024050-636/VID_20251010_024052_128.mp4"
+    },
+    {
+      "episode": 3,
+      "title": "Episodio 03",
+      "video_url": "https://ia600304.us.archive.org/6/items/vid-20251010-024050-636/VID_20251010_024054_623.mp4"
+    },
+    {
+      "episode": 4,
+      "title": "Episodio 04",
+      "video_url": "https://ia600304.us.archive.org/6/items/vid-20251010-024050-636/VID_20251010_024057_470.mp4"
+    },
+    {
+      "episode": 5,
+      "title": "Episodio 05",
+      "video_url": "https://ia600304.us.archive.org/6/items/vid-20251010-024050-636/VID_20251010_024100_514.mp4"
+    },
+    {
+      "episode": 6,
+      "title": "Episodio 06",
+      "video_url": "https://ia600304.us.archive.org/6/items/vid-20251010-024050-636/VID_20251010_024102_622.mp4"
+    },
+    {
+      "episode": 7,
+      "title": "Episodio 07",
+      "video_url": "https://ia800304.us.archive.org/6/items/vid-20251010-024050-636/VID_20251010_024104_692.mp4"
+    },
+    {
+      "episode": 8,
+      "title": "Episodio 08",
+      "video_url": "https://ia800304.us.archive.org/6/items/vid-20251010-024050-636/VID_20251010_024114_323.mp4"
+    }
+  ]
+},
+
+
+  
+
+
+{
   "title": "DNA²",
   "description": "Serie DNA² en español castellano con sus episodios de TV y OVA.",
   "coverImage": "https://m.media-amazon.com/images/I/81VlGYI7knL._UF894,1000_QL80_.jpg",
