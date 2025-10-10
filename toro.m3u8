@@ -76,7 +76,7 @@ https://cdnlive.codev8.net/rtvalive/smil:channel42.smil/playlist.m3u8
 http://185.189.225.150:85/CuatroHD/index.m3u8
 
 #EXTINF:-1 tvg-id="FDF.es" tvg-name="FDF" tvg-logo="https://pbs.twimg.com/profile_images/1023883511961452544/m-tx1pJP_200x200.jpg" group-title="Entretenimiento",FDF
-http://185.189.225.150:85/fdf/index.m3u8
+http://176.65.146.237:8401/play/a09p/index.m3u8
 
 
 #EXTINF:-1 tvg-id="Nova.es" tvg-name="NOVA" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_PijuRhwA19F-y7ZuvoqHhNNyJAaYubnEcw&s" group-title="Entretenimiento",NOVA
