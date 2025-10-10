@@ -62,7 +62,7 @@ http://185.189.225.150:85/TeleCincoHD/index.m3u8
 
 
 #EXTINF:-1 tvg-id="Antena3.es" tvg-name="Antena 3" tvg-logo="https://fotografias.antena3.com/clipping/cmsimages02/2025/01/27/62AFA8B2-2481-4117-9FE5-F5041DBD43A4/antena3-logo-principal_96.jpg?crop=2720,1530,x0,y0&width=1200&height=675&optimize=low&format=jpg" group-title="Noticias",Antena 3 
-http://185.189.225.150:85/Antena3HD/index.m3u8
+http://176.65.146.237:8401/play/a0ae/index.m3u8
 
 
 
