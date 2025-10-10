@@ -1,7 +1,6 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="IberaliaTV.es" tvg-name="ES: (HD) DAZN LALIGA" tvg-logo="https://docdog.top/logo/countries/spain/movistar/DAZN_LALIGA.png" group-title="ES | LALIGA VIP",ES: (HD) DAZN LALIGA
-http://vipforj.top:8080/VIP0176173538414492/11735384144745/243
-#EXTINF:-1 tvg-id="MLaLiga.es" tvg-name="ES: (HD REPUESTO) DAZN LALIGA" tvg-logo="https://docdog.top/logo/countries/spain/movistar/DAZN_LALIGA.png" group-title="ES | LALIGA VIP",ES: (HD REPUESTO) DAZN LALIGA
+https://deportes2.ksdjugfsddeports.com:9091/43_/tracks-v1a1/mono.ts.m3u8?remote=45.13.202.43&token=62d5c6a907c56d7a320e65fed02406825ce57736-54036fe11bfad5cd7ccb3adc18501bfa-1760156795-1760135195#EXTINF:-1 tvg-id="MLaLiga.es" tvg-name="ES: (HD REPUESTO) DAZN LALIGA" tvg-logo="https://docdog.top/logo/countries/spain/movistar/DAZN_LALIGA.png" group-title="ES | LALIGA VIP",ES: (HD REPUESTO) DAZN LALIGA
 http://vipforj.top:8080/VIP0176173538414492/11735384144745/244
 #EXTINF:-1 tvg-id="" tvg-name="ES: (HD REPUESTO2) DAZN LALIGA" tvg-logo="https://docdog.top/logo/countries/spain/movistar/DAZN_LALIGA.png" group-title="ES | LALIGA VIP",ES: (HD REPUESTO2) DAZN LALIGA
 http://vipforj.top:8080/VIP0176173538414492/11735384144745/147167
