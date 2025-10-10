@@ -113,7 +113,15 @@ https://tennischannel-int-samsunguk.amagi.tv/playlist.m3u8
 
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrLKHc9tcIsp5SNof6JlNGX_83WdvuWroXlg&s" group-title="Deportes", Movistar Liga de Campeones
-https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
+http://195.66.210.10:80/EdwinSP/EGPKP/203795
+
+
+
+
+#EXTINF:-1 tvg-id="" tvg-name="DEP ES | MOVISTAR TOROS" tvg-logo="https://2.bp.blogspot.com/-tw80i8Ugk3w/W4xJg60UhkI/AAAAAAAAbt4/21v6ej-DVlUwpNBosopfU1Yv_BAu3nSGgCLcBGAs/s1600/La%2Bpresentacion%2Bdel%2Blogotipo%2B.jpg" group-title="DEPORTES ESPAÑA",DEP ES | MOVISTAR TOROS
+http://195.66.210.10:80/EdwinSP/EGPKP/33528
+#EXTINF:-1 tvg-id="" tvg-name="DEP ES | MOVISTAR TOROS HD" tvg-logo="https://2.bp.blogspot.com/-tw80i8Ugk3w/W4xJg60UhkI/AAAAAAAAbt4/21v6ej-DVlUwpNBosopfU1Yv_BAu3nSGgCLcBGAs/s1600/La%2Bpresentacion%2Bdel%2Blogotipo%2B.jpg" group-title="DEPORTES ESPAÑA",DEP ES | MOVISTAR TOROS HD
+http://195.66.210.10:80/EdwinSP/EGPKP/517237
 
 
 
