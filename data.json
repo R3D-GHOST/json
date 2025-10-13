@@ -1,5 +1,22 @@
 [
 
+
+{
+  "title": "Nadie",
+  "description": "Hutch Mansell es un padre de familia subestimado que, tras el robo en su casa, renuncia inicialmente a defenderse, lo que provoca decepción en su esposa e hijo. Pero pronto su lado más oscuro sale a la luz cuando enfrenta represalias de un gángster ruso. Basada en la película estadounidense *Nobody* (2021).",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_vJe3Ql8idiOaG-1gFv3oEMKFq8p8PeL6ek24cKXlW1yrALRV2jRqqyf5&s=10",
+  "genre": ["Acción", "Thriller", "Crimen"],
+  "year": 2021,
+  "director": "Ilya Naishuller",
+  "cast": ["Bob Odenkirk", "Connie Nielsen", "RZA", "Aleksei Serebryakov", "Christopher Lloyd"],
+  "video_url": "https://archive.org/download/nadie_202510/nadie.mp4"
+},
+
+  
+
+
+
+  
 {
   "title": "Mashle",
   "description": "Serie de anime ambientada en un mundo donde la magia lo es todo. Mash Burnedead, un joven sin poderes mágicos, entrena su cuerpo para enfrentarse a los usuarios de magia con pura fuerza física, desafiando el sistema establecido.",
