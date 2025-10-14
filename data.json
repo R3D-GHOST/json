@@ -1,6 +1,14 @@
 [
 
 
+  {
+  "title": "Anonymous",
+  "description": "",
+  "coverImage": "https://imgs.search.brave.com/PmE8P5LKAGm_HWx6m6LATpMzyYLiQiQ-mLSoRj-THmw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9waWNz/LmZpbG1hZmZpbml0/eS5jb20vYW5vbnlt/b3VzX2FrYV9oYWNr/ZXItNDI0MzMzNTU0/LW1tZWQuanBn",
+  "video_url": "https://archive.org/download/anonymous_202510/Anonymous.mp4"
+}
+
+
 {
   "title": "Nadie",
   "description": "Hutch Mansell es un padre de familia subestimado que, tras el robo en su casa, renuncia inicialmente a defenderse, lo que provoca decepción en su esposa e hijo. Pero pronto su lado más oscuro sale a la luz cuando enfrenta represalias de un gángster ruso. Basada en la película estadounidense *Nobody* (2021).",
@@ -13,7 +21,516 @@
 },
 
   
+{
+  "title": "Sailor Moon",
+  "description": "Serie de anime que sigue las aventuras de Usagi Tsukino, una chica que se transforma en Sailor Moon para luchar contra el mal y proteger la Tierra.",
+  "coverImage": "https://imgs.search.brave.com/iOYICXiD_c3LK_W-V-uzghXmFxkarmmZNVApxF4pZ5E/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NTFXMVZoTm5BMEwu/anBn",
+  "genre": ["Anime", "Acción", "Aventura", "Magia", "Fantasía"],
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "Episodio 01",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/001%20Sailor%20Moon%20-%20La%20ni%C3%B1a%20llorona%20se%20convierte%20en%20guerrero.mp4"
+    },
+    {
+      "episode": 2,
+      "title": "Episodio 02",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/002%20Sailor%20Moon%20-%20Episodio%2002.mp4"
+    },
+    {
+      "episode": 3,
+      "title": "Episodio 03",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/003%20Sailor%20Moon%20-%20Episodio%2003.mp4"
+    },
+    {
+      "episode": 4,
+      "title": "Episodio 04",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/004%20Sailor%20Moon%20-%20Episodio%2004.mp4"
+    },
+    {
+      "episode": 5,
+      "title": "Episodio 05",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/005%20Sailor%20Moon%20-%20Episodio%2005.mp4"
+    },
+    {
+      "episode": 6,
+      "title": "Episodio 06",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/006%20Sailor%20Moon%20-%20Episodio%2006.mp4"
+    },
+    {
+      "episode": 7,
+      "title": "Episodio 07",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/007%20Sailor%20Moon%20-%20Episodio%2007.mp4"
+    },
+    {
+      "episode": 8,
+      "title": "Episodio 08",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/008%20Sailor%20Moon%20-%20Episodio%2008.mp4"
+    },
+    {
+      "episode": 9,
+      "title": "Episodio 09",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/009%20Sailor%20Moon%20-%20Episodio%2009.mp4"
+    },
+    {
+      "episode": 10,
+      "title": "Episodio 10",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/010%20Sailor%20Moon%20-%20Episodio%2010.mp4"
+    },
+    {
+      "episode": 11,
+      "title": "Episodio 11",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/011%20Sailor%20Moon%20-%20Episodio%2011.mp4"
+    },
+    {
+      "episode": 12,
+      "title": "Episodio 12",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/012%20Sailor%20Moon%20-%20Episodio%2012.mp4"
+    },
+    {
+      "episode": 13,
+      "title": "Episodio 13",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/013%20Sailor%20Moon%20-%20Episodio%2013.mp4"
+    },
+    {
+      "episode": 14,
+      "title": "Episodio 14",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/014%20Sailor%20Moon%20-%20Episodio%2014.mp4"
+    },
+    {
+      "episode": 15,
+      "title": "Episodio 15",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/015%20Sailor%20Moon%20-%20Episodio%2015.mp4"
+    },
+    {
+      "episode": 16,
+      "title": "Episodio 16",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/016%20Sailor%20Moon%20-%20Episodio%2016.mp4"
+    },
+    {
+      "episode": 17,
+      "title": "Episodio 17",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/017%20Sailor%20Moon%20-%20Episodio%2017.mp4"
+    },
+    {
+      "episode": 18,
+      "title": "Episodio 18",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/018%20Sailor%20Moon%20-%20Episodio%2018.mp4"
+    },
+    {
+      "episode": 19,
+      "title": "Episodio 19",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/019%20Sailor%20Moon%20-%20Episodio%2019.mp4"
+    },
+    {
+      "episode": 20,
+      "title": "Episodio 20",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/020%20Sailor%20Moon%20-%20Episodio%2020.mp4"
+    },
+    {
+      "episode": 21,
+      "title": "Episodio 21",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/021%20Sailor%20Moon%20-%20Episodio%2021.mp4"
+    },
+    {
+      "episode": 22,
+      "title": "Episodio 22",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/022%20Sailor%20Moon%20-%20Episodio%2022.mp4"
+    },
+    {
+      "episode": 23,
+      "title": "Episodio 23",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/023%20Sailor%20Moon%20-%20Episodio%2023.mp4"
+    },
+    {
+      "episode": 24,
+      "title": "Episodio 24",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/024%20Sailor%20Moon%20-%20Episodio%2024.mp4"
+    },
+    {
+      "episode": 25,
+      "title": "Episodio 25",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/025%20Sailor%20Moon%20-%20Episodio%2025.mp4"
+    },
+    {
+      "episode": 26,
+      "title": "Episodio 26",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/026%20Sailor%20Moon%20-%20Episodio%2026.mp4"
+    },
+    {
+      "episode": 27,
+      "title": "Episodio 27",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/027%20Sailor%20Moon%20-%20Episodio%2027.mp4"
+    },
+    {
+      "episode": 28,
+      "title": "Episodio 28",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/028%20Sailor%20Moon%20-%20Episodio%2028.mp4"
+    },
+    {
+      "episode": 29,
+      "title": "Episodio 29",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/029%20Sailor%20Moon%20-%20Episodio%2029.mp4"
+    },
+    {
+      "episode": 30,
+      "title": "Episodio 30",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/030%20Sailor%20Moon%20-%20Episodio%2030.mp4"
+    },
+    {
+      "episode": 31,
+      "title": "Episodio 31",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/031%20Sailor%20Moon%20-%20Episodio%2031.mp4"
+    },
+    {
+      "episode": 32,
+      "title": "Episodio 32",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/032%20Sailor%20Moon%20-%20Episodio%2032.mp4"
+    },
+    {
+      "episode": 33,
+      "title": "Episodio 33",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/033%20Sailor%20Moon%20-%20Episodio%2033.mp4"
+    },
+    {
+      "episode": 34,
+      "title": "Episodio 34",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/034%20Sailor%20Moon%20-%20Episodio%2034.mp4"
+    },
+    {
+      "episode": 35,
+      "title": "Episodio 35",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/035%20Sailor%20Moon%20-%20Episodio%2035.mp4"
+    },
+    {
+      "episode": 36,
+      "title": "Episodio 36",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/036%20Sailor%20Moon%20-%20Episodio%2036.mp4"
+    },
+    {
+      "episode": 37,
+      "title": "Episodio 37",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/037%20Sailor%20Moon%20-%20Episodio%2037.mp4"
+    },
+    {
+      "episode": 38,
+      "title": "Episodio 38",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/038%20Sailor%20Moon%20-%20Episodio%2038.mp4"
+    },
+    {
+      "episode": 39,
+      "title": "Episodio 39",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/039%20Sailor%20Moon%20-%20Episodio%2039.mp4"
+    },
+    {
+      "episode": 40,
+      "title": "Episodio 40",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/040%20Sailor%20Moon%20-%20Episodio%2040.mp4"
+    },
+    {
+      "episode": 41,
+      "title": "Episodio 41",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/041%20Sailor%20Moon%20-%20Episodio%2041.mp4"
+    },
+    {
+      "episode": 42,
+      "title": "Episodio 42",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/042%20Sailor%20Moon%20-%20Episodio%2042.mp4"
+    },
+    {
+      "episode": 43,
+      "title": "Episodio 43",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/043%20Sailor%20Moon%20-%20Episodio%2043.mp4"
+    },
+    {
+      "episode": 44,
+      "title": "Episodio 44",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/044%20Sailor%20Moon%20-%20Episodio%2044.mp4"
+    },
+    {
+      "episode": 45,
+      "title": "Episodio 45",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/045%20Sailor%20Moon%20-%20Episodio%2045.mp4"
+    },
+    {
+      "episode": 46,
+      "title": "Episodio 46",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/046%20Sailor%20Moon%20-%20Episodio%2046.mp4"
+    },
+    {
+      "episode": 47,
+      "title": "Episodio 47",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/047%20Sailor%20Moon%20-%20Episodio%2047.mp4"
+    },
+    {
+      "episode": 48,
+      "title": "Episodio 48",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/048%20Sailor%20Moon%20-%20Episodio%2048.mp4"
+    },
+    {
+      "episode": 49,
+      "title": "Episodio 49",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/049%20Sailor%20Moon%20-%20Episodio%2049.mp4"
+    },
+    {
+      "episode": 50,
+      "title": "Episodio 50",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/050%20Sailor%20Moon%20-%20Episodio%2050.mp4"
+    },
+    {
+      "episode": 51,
+      "title": "Episodio 51",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/051%20Sailor%20Moon%20-%20Episodio%2051.mp4"
+    },
+    {
+      "episode": 52,
+      "title": "Episodio 52",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/052%20Sailor%20Moon%20-%20Episodio%2052.mp4"
+    },
+    {
+      "episode": 53,
+      "title": "Episodio 53",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/053%20Sailor%20Moon%20-%20Episodio%2053.mp4"
+    },
+    {
+      "episode": 54,
+      "title": "Episodio 54",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/054%20Sailor%20Moon%20-%20Episodio%2054.mp4"
+    },
+    {
+      "episode": 55,
+      "title": "Episodio 55",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/055%20Sailor%20Moon%20-%20Episodio%2055.mp4"
+    },
+    {
+      "episode": 56,
+      "title": "Episodio 56",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/056%20Sailor%20Moon%20-%20Episodio%2056.mp4"
+    },
+    {
+      "episode": 57,
+      "title": "Episodio 57",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/057%20Sailor%20Moon%20-%20Episodio%2057.mp4"
+    },
+    {
+      "episode": 58,
+      "title": "Episodio 58",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/058%20Sailor%20Moon%20-%20Episodio%2058.mp4"
+    },
+    {
+      "episode": 59,
+      "title": "Episodio 59",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/059%20Sailor%20Moon%20-%20Episodio%2059.mp4"
+    },
+    {
+      "episode": 60,
+      "title": "Episodio 60",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/060%20Sailor%20Moon%20-%20Episodio%2060.mp4"
+    },
+    {
+      "episode": 61,
+      "title": "Episodio 61",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/061%20Sailor%20Moon%20-%20Episodio%2061.mp4"
+    },
+    {
+      "episode": 62,
+      "title": "Episodio 62",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/062%20Sailor%20Moon%20-%20Episodio%2062.mp4"
+    },
+    {
+      "episode": 63,
+      "title": "Episodio 63",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/063%20Sailor%20Moon%20-%20Episodio%2063.mp4"
+    },
+    {
+      "episode": 64,
+      "title": "Episodio 64",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/064%20Sailor%20Moon%20-%20Episodio%2064.mp4"
+    },
+    {
+      "episode": 65,
+      "title": "Episodio 65",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/065%20Sailor%20Moon%20-%20Episodio%2065.mp4"
+    },
+    {
+      "episode": 66,
+      "title": "Episodio 66",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/066%20Sailor%20Moon%20-%20Episodio%2066.mp4"
+    },
+    {
+      "episode": 67,
+      "title": "Episodio 67",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/067%20Sailor%20Moon%20-%20Episodio%2067.mp4"
+    },
+    {
+      "episode": 68,
+      "title": "Episodio 68",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/068%20Sailor%20Moon%20-%20Episodio%2068.mp4"
+    },
+    {
+      "episode": 69,
+      "title": "Episodio 69",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/069%20Sailor%20Moon%20-%20Episodio%2069.mp4"
+    },
+    {
+      "episode": 70,
+      "title": "Episodio 70",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/070%20Sailor%20Moon%20-%20Episodio%2070.mp4"
+    },
+    {
+      "episode": 71,
+      "title": "Episodio 71",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/071%20Sailor%20Moon%20-%20Episodio%2071.mp4"
+    },
+    {
+      "episode": 72,
+      "title": "Episodio 72",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/072%20Sailor%20Moon%20-%20Episodio%2072.mp4"
+    },
+    {
+      "episode": 73,
+      "title": "Episodio 73",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/073%20Sailor%20Moon%20-%20Episodio%2073.mp4"
+    },
+    {
+      "episode": 74,
+      "title": "Episodio 74",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/074%20Sailor%20Moon%20-%20Episodio%2074.mp4"
+    },
+    {
+      "episode": 75,
+      "title": "Episodio 75",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/075%20Sailor%20Moon%20-%20Episodio%2075.mp4"
+    },
+    {
+      "episode": 76,
+      "title": "Episodio 76",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/076%20Sailor%20Moon%20-%20Episodio%2076.mp4"
+    },
+    {
+      "episode": 77,
+      "title": "Episodio 77",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/077%20Sailor%20Moon%20-%20Episodio%2077.mp4"
+    },
+    {
+      "episode": 78,
+      "title": "Episodio 78",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/078%20Sailor%20Moon%20-%20Episodio%2078.mp4"
+    },
+    {
+      "episode": 79,
+      "title": "Episodio 79",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/079%20Sailor%20Moon%20-%20Episodio%2079.mp4"
+    },
+    {
+      "episode": 80,
+      "title": "Episodio 80",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/080%20Sailor%20Moon%20-%20Episodio%2080.mp4"
+    },
+    {
+      "episode": 81,
+      "title": "Episodio 81",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/081%20Sailor%20Moon%20-%20Episodio%2081.mp4"
+    },
+    {
+      "episode": 82,
+      "title": "Episodio 82",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/082%20Sailor%20Moon%20-%20Episodio%2082.mp4"
+    },
+    {
+      "episode": 83,
+      "title": "Episodio 83",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/083%20Sailor%20Moon%20-%20Episodio%2083.mp4"
+    },
+    {
+      "episode": 84,
+      "title": "Episodio 84",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/084%20Sailor%20Moon%20-%20Episodio%2084.mp4"
+    },
+    {
+      "episode": 85,
+      "title": "Episodio 85",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/085%20Sailor%20Moon%20-%20Episodio%2085.mp4"
+    },
+    {
+      "episode": 86,
+      "title": "Episodio 86",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/086%20Sailor%20Moon%20-%20Episodio%2086.mp4"
+    },
+    {
+      "episode": 87,
+      "title": "Episodio 87",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/087%20Sailor%20Moon%20-%20Episodio%2087.mp4"
+    },
+    {
+      "episode": 88,
+      "title": "Episodio 88",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/088%20Sailor%20Moon%20-%20Episodio%2088.mp4"
+    },
+    {
+      "episode": 89,
+      "title": "Episodio 89",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/089%20Sailor%20Moon%20-%20Episodio%2089.mp4"
+    },
+    {
+      "episode": 90,
+      "title": "Episodio 90",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/090%20Sailor%20Moon%20-%20Episodio%2090.mp4"
+    },
+    {
+      "episode": 91,
+      "title": "Episodio 91",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/091%20Sailor%20Moon%20-%20Episodio%2091.mp4"
+    },
+    {
+      "episode": 92,
+      "title": "Episodio 92",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/092%20Sailor%20Moon%20-%20Episodio%2092.mp4"
+    },
+    {
+      "episode": 93,
+      "title": "Episodio 93",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/093%20Sailor%20Moon%20-%20Episodio%2093.mp4"
+    },
+    {
+      "episode": 94,
+      "title": "Episodio 94",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/094%20Sailor%20Moon%20-%20Episodio%2094.mp4"
+    },
+    {
+      "episode": 95,
+      "title": "Episodio 95",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/095%20Sailor%20Moon%20-%20Episodio%2095.mp4"
+    },
+    {
+      "episode": 96,
+      "title": "Episodio 96",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/096%20Sailor%20Moon%20-%20Episodio%2096.mp4"
+    },
+    {
+      "episode": 97,
+      "title": "Episodio 97",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/097%20Sailor%20Moon%20-%20Episodio%2097.mp4"
+    },
+    {
+      "episode": 98,
+      "title": "Episodio 98",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/098%20Sailor%20Moon%20-%20Episodio%2098.mp4"
+    },
+    {
+      "episode": 99,
+      "title": "Episodio 99",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/099%20Sailor%20Moon%20-%20Episodio%2099.mp4"
+    },
+    {
+      "episode": 100,
+      "title": "Episodio 100",
+      "video_url": "https://archive.org/download/sailor-moon-1992-castellano/100%20Sailor%20Moon%20-%20Episodio%20100.mp4"
+    }
+  ]
+},
 
+  
 
 
   
