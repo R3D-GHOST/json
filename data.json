@@ -1,6 +1,27 @@
 [
 
-
+{
+  "title": "Ben 10",
+  "description": "Ben Tennyson es un niño que descubre un dispositivo extraterrestre llamado Omnitrix, el cual le permite transformarse en distintos alienígenas con habilidades únicas. Acompañado de su prima Gwen y su abuelo Max, lucha contra villanos y defiende la Tierra. (Franquicia creada por Man of Action) :contentReference[oaicite:0]{index=0}",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxo6-8N4tPSsG1a_wERBdgPZAAssp7W2WAz5eItoMtqw&s=10",
+  "genre": ["Animación", "Ciencia Ficción", "Aventura", "Superhéroes"],
+  "firstRelease": 2005,
+  "creator": ["Man of Action"] ,
+  "mainCharacters": ["Ben Tennyson", "Gwen Tennyson", "Max Tennyson"],
+  "universe": {
+    "originalSeries": {
+      "years": "2005-2008",
+      "episodes": 49,
+      "runtime": "22 minutos por episodio"  
+    },
+    "rebootSeries": {
+      "years": "2016-2021",
+      "characters": "Ben, Gwen, Max en nueva continuidad"  
+    }
+  },
+  "video_url": "https://drive.usercontent.google.com/download?id=1I7qaVi0wrmO46Qz_li8NMFtz4nJjXTAY&export=download"
+},
+  
 
 {
   "title": "Who Am I",
