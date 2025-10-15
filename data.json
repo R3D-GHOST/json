@@ -1,8 +1,21 @@
 [
+{
+  "title": "Who Am I",
+  "description": "Thriller alemán de 2014 centrado en Benjamin, un genio informático que se une a un grupo de hackers llamado CLAY. Lo que empieza como diversión termina volviéndose mortal cuando se enfrentan a agencias como el BND y Europol. “Ningún sistema es seguro” es su lema. :contentReference[oaicite:0]{index=0}",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPUGrdbWNRtKgbWOX-jG6rLeU_bMKFVjJDh3IDDSSX_6qCIYdYUQx4mXId&s=10",
+  "genre": ["Thriller", "Crimen", "Drama", "Tecnología"],
+  "year": 2014,
+  "director": "Baran bo Odar",
+  "cast": ["Tom Schilling", "Elyas M'Barek", "Wotan Wilke Möhring", "Hannah Herzsprung"],  
+  "runtime": "105 minutos",  
+  "language": "Alemán",  
+  "video_url": "https://archive.org/download/whoami_202510/whoami.mp4"
+},
 
+  
   {
   "title": "Anonymous",
-  "description": "",
+  "description": "Hackers que roban tarjetas de crédito usando técnicas de ingeniería social carding",
   "coverImage": "https://imgs.search.brave.com/PmE8P5LKAGm_HWx6m6LATpMzyYLiQiQ-mLSoRj-THmw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9waWNz/LmZpbG1hZmZpbml0/eS5jb20vYW5vbnlt/b3VzX2FrYV9oYWNr/ZXItNDI0MzMzNTU0/LW1tZWQuanBn",
   "video_url": "https://archive.org/download/anonymous_202510/Anonymous.mp4"
 },
