@@ -1,5 +1,12 @@
 [
-  
+  {
+  "title": "Culpa mía",
+  "description": "Noah deja su ciudad natal para mudarse a la mansión del nuevo esposo de su madre, donde conoce a su hermanastro Nick. Aunque sus personalidades chocan al principio, termina emergiendo una atracción prohibida entre ellos, marcada por sus respectivas historias y conflictos personales. Basada en la novela de Mercedes Ron. :contentReference[oaicite:0]{index=0}",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM5AUuXINTr6GVe5_ftQLYaZ_nwtinFgdUSMHBUWbzNA&s=10",
+  "genre": ["Romance juvenil", "Drama"],
+  "video_url": "https://pixeldrain.com/api/file/Cd7D1VpN"
+},
+
 
 {
   "title": "Who Am I",
