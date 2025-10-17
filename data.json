@@ -1,7 +1,62 @@
 [
 
+{
+  "title": "El quinto poder",
+  "description": "El quinto poder es un thriller dramático basado en hechos reales que narra el surgimiento de Wikileaks, creado por Julian Assange y Daniel Domscheit-Berg, y los conflictos éticos y personales que surgen al exponer secretos gubernamentales. :contentReference[oaicite:0]{index=0}",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-eh8O7J94MmKnoccXpQSKgY_0RK3-RlSJ_rnvxfrg1VDyKta9iG7jLCxc&s=10",
+  "genre": ["Biográfico", "Drama", "Thriller"],  
+  "video_url": "https://archive.org/download/el-quinto-poder_202510/El%20Quinto%20Poder.mp4"
+},
 
 
+{
+  "title": "Ali G anda suelto",
+  "originalTitle": "Ali G Indahouse",
+  "description": "Comedia satírica donde Ali G, líder de una pandilla en Staines, descubre que el centro recreativo de su barrio va a ser cerrado. En un giro absurdo, acaba involucrado en la política británica y convertido en candidato parlamentario, con planes extravagantes para “salvar” su barrio. :contentReference[oaicite:0]{index=0}",
+  "coverImage": "https://m.media-amazon.com/images/S/pv-target-images/2d6fb107bf3ded26059ccd9160c10fd4b0b1cef2e77d7de67200de11767e5c9a.jpg",
+  "genre": ["Comedia", "Satírica"],
+  "year": 2002,
+  "director": "Mark Mylod",
+  "cast": [
+    "Sacha Baron Cohen (Ali G / Borat)", 
+    "Michael Gambon", 
+    "Charles Dance", 
+    "Kellie Bright", 
+    "Martin Freeman", 
+    "Rhona Mitra", 
+    "Barbara New"
+  ],
+  "runtime": "88 minutos",
+  "language": ["Inglés", "Español (versión doblada)"],  
+  "rating": "R / clasificación para mayores de 18 (contenido sexual fuerte, humor crudo, lenguaje, drogas) :contentReference[oaicite:1]{index=1}",
+  "video_url": "https://archive.org/download/ali-g-anda-suelto/Ali%20G%20anda%20suelto%20-%20Pel%C3%ADcula%20en%20castellano.mp4"
+},
+
+
+{
+  "title": "Yo, Frankenstein",
+  "originalTitle": "I, Frankenstein",
+  "description": "Dos siglos después de su creación, el ser creado por el doctor Frankenstein, llamado Adam, sigue con vida y se ve atrapado en una guerra entre gárgolas y demonios. Mientras ambos bandos compiten por su lealtad y sus poderes, Adam deberá descubrir su propia identidad y su rol en la lucha por la humanidad. :contentReference[oaicite:0]{index=0}",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO-xqUwok3vCQdA-iFFbRLeemHQQgiABg_fdvYyDBja-w0k9ox-VR61hjJ&s=10",
+  "genre": ["Acción", "Fantasía", "Thriller", "Sobrenatural"],
+  "year": 2014,
+  "director": "Stuart Beattie",  
+  "cast": [
+    "Aaron Eckhart", 
+    "Miranda Otto", 
+    "Yvonne Strahovski", 
+    "Bill Nighy", 
+    "Jai Courtney",
+    "Caitlin Stasey",
+    "Aden Young"
+  ],
+  "runtime": "92 minutos",  
+  "language": "Inglés",
+  "rating": "PG-13 (secuencias de acción fantástica) :contentReference[oaicite:1]{index=1}",
+  "video_url": "https://archive.org/download/yo-frankenstein_202510/Yo%20Frankenstein%20pel%C3%ADcula%20completa%20en%20espa%C3%B1ol%20HD.mp4"
+},
+
+  
 {
   "title": "Who Am I",
   "description": "Thriller alemán de 2014 centrado en Benjamin, un genio informático que se une a un grupo de hackers llamado CLAY. Lo que empieza como diversión termina volviéndose mortal cuando se enfrentan a agencias como el BND y Europol. “Ningún sistema es seguro” es su lema. :contentReference[oaicite:0]{index=0}",
