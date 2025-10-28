@@ -2053,6 +2053,58 @@ document.addEventListener('click', (e) => {
     setTimeout(() => ripple.remove(), 600);
   }
 });
+
+// --- Scroll infinito: cargar 30 en 30 ---
+let moviesLoaded = 0;
+let seriesLoaded = 0;
+let channelsLoaded = 0;
+const batchSize = 30;
+
+function loadMoreMovies() {
+  const container = document.getElementById('movies-content');
+  const nextBatch = allData.movies.slice(moviesLoaded, moviesLoaded + batchSize);
+  nextBatch.forEach(movie => container.appendChild(createContentCard(movie)));
+  moviesLoaded += nextBatch.length;
+}
+
+function loadMoreSeries() {
+  const container = document.getElementById('series-content');
+  const nextBatch = allData.series.slice(seriesLoaded, seriesLoaded + batchSize);
+  nextBatch.forEach(series => container.appendChild(createContentCard(series)));
+  seriesLoaded += nextBatch.length;
+}
+
+function loadMoreChannels() {
+  const container = document.getElementById('channels-content');
+  const nextBatch = channels.slice(channelsLoaded, channelsLoaded + batchSize);
+  nextBatch.forEach(channel => container.appendChild(createContentCard(channel)));
+  channelsLoaded += nextBatch.length;
+}
+
+window.addEventListener('scroll', () => {
+  const screen = document.querySelector('.screen.active');
+  if (!screen) return;
+
+  if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 200) {
+    if (screen.id === 'movies' && moviesLoaded < allData.movies.length) {
+      loadMoreMovies();
+    } else if (screen.id === 'series' && seriesLoaded < allData.series.length) {
+      loadMoreSeries();
+    } else if (screen.id === 'channels' && channelsLoaded < channels.length) {
+      loadMoreChannels();
+    }
+  }
+});
+
+// Inicializar primeras 30 al entrar a cada pantalla
+document.querySelectorAll('[data-screen]').forEach(tab => {
+  tab.addEventListener('click', () => {
+    if (tab.dataset.screen === 'movies' && moviesLoaded === 0) loadMoreMovies();
+    if (tab.dataset.screen === 'series' && seriesLoaded === 0) loadMoreSeries();
+    if (tab.dataset.screen === 'channels' && channelsLoaded === 0) loadMoreChannels();
+  });
+});
+
 </script>
 </body>
 </html>
