@@ -1,5 +1,85 @@
 [
 
+
+  {
+  "title": "Another",
+  "description": "Serie Anime Horror en Español.",
+  "coverImage": "https://static.wikia.nocookie.net/doblaje/images/b/b4/Another_%28anime%29.jpg/revision/latest?cb=20190802182434&path-prefix=es",
+  "genre": ["Anime", "Horror", "Misterio"],
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "Cap1",
+      "video_url": "https://archive.org/download/serie-anime-horror-another-espanol/Another%20Cap1%20Serie%20Anime%20Horror%20Español.mp4"
+    },
+    {
+      "episode": 2,
+      "title": "Cap2",
+      "video_url": "https://archive.org/download/serie-anime-horror-another-espanol/Another%20Cap2%20Serie%20Anime%20Horror%20Español.mp4"
+    },
+    {
+      "episode": 3,
+      "title": "Cap3",
+      "video_url": "https://archive.org/download/serie-anime-horror-another-espanol/Another%20Cap3%20Serie%20Anime%20Horror%20Español.mp4"
+    },
+    {
+      "episode": 4,
+      "title": "Cap4",
+      "video_url": "https://archive.org/download/serie-anime-horror-another-espanol/Another%20Cap4%20Serie%20Anime%20Horror%20Español.mp4"
+    },
+    {
+      "episode": 5,
+      "title": "Cap5",
+      "video_url": "https://archive.org/download/serie-anime-horror-another-espanol/Another%20Cap5%20Serie%20Anime%20Horror%20Español.mp4"
+    },
+    {
+      "episode": 6,
+      "title": "Cap6",
+      "video_url": "https://archive.org/download/serie-anime-horror-another-espanol/Another%20Cap6%20Serie%20Anime%20Horror%20Español.mp4"
+    },
+    {
+      "episode": 7,
+      "title": "Cap7",
+      "video_url": "https://archive.org/download/serie-anime-horror-another-espanol/Another%20Cap7%20Serie%20Anime%20Horror%20Español.mp4"
+    },
+    {
+      "episode": 8,
+      "title": "Cap8",
+      "video_url": "https://archive.org/download/serie-anime-horror-another-espanol/Another%20Cap8%20Serie%20Anime%20Horror%20Español.mp4"
+    },
+    {
+      "episode": 9,
+      "title": "Cap9",
+      "video_url": "https://archive.org/download/serie-anime-horror-another-espanol/Another%20Cap9%20Serie%20Anime%20Horror%20Español.mp4"
+    },
+    {
+      "episode": 10,
+      "title": "Cap10",
+      "video_url": "https://archive.org/download/serie-anime-horror-another-espanol/Another%20Cap10%20Serie%20Anime%20Horror%20Español.mp4"
+    },
+    {
+      "episode": 11,
+      "title": "Cap11",
+      "video_url": "https://archive.org/download/serie-anime-horror-another-espanol/Another%20Cap11%20Serie%20Anime%20Horror%20Español.mp4"
+    },
+    {
+      "episode": 12,
+      "title": "Cap12",
+      "video_url": "https://archive.org/download/serie-anime-horror-another-espanol/Another%20Cap12%20Serie%20Anime%20Horror%20Español.mp4"
+    }
+  ]
+},
+
+    
+{
+  "title": "Another The Other",
+  "description": "Se muestra la historia de Mei Misaki y su hermana gemela, Misaki Fujioka, momentos antes de comenzar la historia principal. ",
+  "coverImage": "https://static.wikia.nocookie.net/doblaje/images/6/6e/Another_OVA.jpg/revision/latest/scale-to-width-down/1200?cb=20200331060857&path-prefix=es",
+  "genre": ["Biográfico", "Drama", "Thriller"],  
+  "video_url": "https://archive.org/download/serie-anime-horror-another-espanol/Another%20Cap0%20OVA%20Serie%20Anime%20Horror%20Español.mp4"
+},
+
+  
 {
   "title": "El quinto poder",
   "description": "El quinto poder es un thriller dramático basado en hechos reales que narra el surgimiento de Wikileaks, creado por Julian Assange y Daniel Domscheit-Berg, y los conflictos éticos y personales que surgen al exponer secretos gubernamentales. :contentReference[oaicite:0]{index=0}",
