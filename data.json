@@ -1,5 +1,75 @@
 [
 
+{
+  "title": "Komi-san",
+  "description": "Serie de anime Komi-san en Latino, basada en la comedia y slice of life.",
+  "coverImage": "https://pics.filmaffinity.com/Komi_san_no_puede_comunicarse_Serie_de_TV-821423565-large.jpg",
+  "genre": ["Anime", "Comedia", "Slice of Life", "Romance"],
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "Cap1",
+      "video_url": "https://archive.org/download/anime-online-ninja-komi-san-bd-latino-01/[AnimeOnlineNinja]_Komi-san_BD_Latino_01.mp4"
+    },
+    {
+      "episode": 2,
+      "title": "Cap2",
+      "video_url": "https://archive.org/download/anime-online-ninja-komi-san-bd-latino-01/[AnimeOnlineNinja]_Komi-san_BD_Latino_02.mp4"
+    },
+    {
+      "episode": 3,
+      "title": "Cap3",
+      "video_url": "https://archive.org/download/anime-online-ninja-komi-san-bd-latino-01/[AnimeOnlineNinja]_Komi-san_BD_Latino_03.mp4"
+    },
+    {
+      "episode": 4,
+      "title": "Cap4",
+      "video_url": "https://archive.org/download/anime-online-ninja-komi-san-bd-latino-01/[AnimeOnlineNinja]_Komi-san_BD_Latino_04.mp4"
+    },
+    {
+      "episode": 5,
+      "title": "Cap5",
+      "video_url": "https://archive.org/download/anime-online-ninja-komi-san-bd-latino-01/[AnimeOnlineNinja]_Komi-san_BD_Latino_05.mp4"
+    },
+    {
+      "episode": 6,
+      "title": "Cap6",
+      "video_url": "https://archive.org/download/anime-online-ninja-komi-san-bd-latino-01/[AnimeOnlineNinja]_Komi-san_BD_Latino_06.mp4"
+    },
+    {
+      "episode": 7,
+      "title": "Cap7",
+      "video_url": "https://archive.org/download/anime-online-ninja-komi-san-bd-latino-01/[AnimeOnlineNinja]_Komi-san_BD_Latino_07.mp4"
+    },
+    {
+      "episode": 8,
+      "title": "Cap8",
+      "video_url": "https://archive.org/download/anime-online-ninja-komi-san-bd-latino-01/[AnimeOnlineNinja]_Komi-san_BD_Latino_08.mp4"
+    },
+    {
+      "episode": 9,
+      "title": "Cap9",
+      "video_url": "https://archive.org/download/anime-online-ninja-komi-san-bd-latino-01/[AnimeOnlineNinja]_Komi-san_BD_Latino_09.mp4"
+    },
+    {
+      "episode": 10,
+      "title": "Cap10",
+      "video_url": "https://archive.org/download/anime-online-ninja-komi-san-bd-latino-01/[AnimeOnlineNinja]_Komi-san_BD_Latino_10.mp4"
+    },
+    {
+      "episode": 11,
+      "title": "Cap11",
+      "video_url": "https://archive.org/download/anime-online-ninja-komi-san-bd-latino-01/[AnimeOnlineNinja]_Komi-san_BD_Latino_11.mp4"
+    },
+    {
+      "episode": 12,
+      "title": "Cap12",
+      "video_url": "https://archive.org/download/anime-online-ninja-komi-san-bd-latino-01/[AnimeOnlineNinja]_Komi-san_BD_Latino_12.mp4"
+    }
+  ]
+},
+
+  
 
   {
   "title": "Another",
