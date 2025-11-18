@@ -1,11 +1,24 @@
 [
 
 
+
+
+  
+{
+  "title": "Code Lyoko El despertar de X.A.N.A.",
+  "description": "Precuela de la serie *Code Lyoko*. La historia narra el origen del superordenador y de la amenaza de X.A.N.A., mostrando cómo se desencadenaron los primeros eventos que pondrían en peligro tanto el mundo real como el virtual.",
+  "coverImage": "https://m.media-amazon.com/images/I/512PHYMC2XL._UF894,1000_QL80_.jpg",
+  "genre": ["Animación","Ciencia ficción","Aventura"],
+  "video_url": "https://archive.org/download/code-lyoko-capitulo-0-completo-480-p/Code%20Lyoko%20-%20Capitulo%200%20-%20Completo%28480P%29.mp4"
+},
+
+  
 {
   "title": "Code Lyoko",
   "description": "Los Lyoko Warriors, contra X.A.N.A",
-  "coverImage": "https://static.wikia.nocookie.net/codelyoko/images/e/e5/Code_lyoko_the_1st_season_official_artwork_-_Edited_%281%29.jpg/revision/latest?cb=20190904213940",
+  "coverImage": "https://static.wikia.nocookie.net/codigo-lyoko/images/f/f3/1.jpg/revision/latest?cb=20100826165201&path-prefix=es",
   "episodes": [
+    { "episode": 1, "title": "Osito Godzilla", "video_url": "https://archive.org/download/code-lyoko-capitulo-0-completo-480-p/C%C3%B3digo%20Lyoko%2001%20Osito%20Godzilla%20Espa%C3%B1ol%20HD%28480P%29.mp4" },
     { "episode": 2, "title": "Ver es creer", "video_url": "https://archive.org/download/code-lyoko-capitulo-0-completo-480-p/02%20%20Code%20Lyoko%20%20%20Ver%20es%20creer%28480P%29.mp4" },
     { "episode": 3, "title": "Vacaciones entre la niebla", "video_url": "https://archive.org/download/code-lyoko-capitulo-0-completo-480-p/03-%20Code%20Lyoko%20%20Vacaciones%20entre%20la%20niebla%20%28480P%29.mp4" },
     { "episode": 4, "title": "Diario de abordo", "video_url": "https://archive.org/download/code-lyoko-capitulo-0-completo-480-p/04-%20Code%20Lyoko%20Diario%20de%20abordo%20%28480P%29.mp4" },
