@@ -1,10 +1,42 @@
 [
 
 
+{
+  "title": "Code Lyoko",
+  "description": "Los Lyoko Warriors, contra X.A.N.A",
+  "coverImage": "https://static.wikia.nocookie.net/codelyoko/images/e/e5/Code_lyoko_the_1st_season_official_artwork_-_Edited_%281%29.jpg/revision/latest?cb=20190904213940",
+  "episodes": [
+    { "episode": 2, "title": "Ver es creer", "video_url": "https://archive.org/download/code-lyoko-capitulo-0-completo-480-p/02%20%20Code%20Lyoko%20%20%20Ver%20es%20creer%28480P%29.mp4" },
+    { "episode": 3, "title": "Vacaciones entre la niebla", "video_url": "https://archive.org/download/code-lyoko-capitulo-0-completo-480-p/03-%20Code%20Lyoko%20%20Vacaciones%20entre%20la%20niebla%20%28480P%29.mp4" },
+    { "episode": 4, "title": "Diario de abordo", "video_url": "https://archive.org/download/code-lyoko-capitulo-0-completo-480-p/04-%20Code%20Lyoko%20Diario%20de%20abordo%20%28480P%29.mp4" },
+    { "episode": 5, "title": "Un virus muy gordo", "video_url": "https://archive.org/download/code-lyoko-capitulo-0-completo-480-p/05-%20Code%20Lyoko%20Un%20virus%20muy%20gordo%20%28480P%29.mp4" },
+    { "episode": 6, "title": "Cruel dilema", "video_url": "https://archive.org/download/code-lyoko-capitulo-0-completo-480-p/06-%20Code%20Lyoko%20Cruel%20dilema%20%28480P%29.mp4" },
+    { "episode": 7, "title": "Un problema de imagen", "video_url": "https://archive.org/download/code-lyoko-capitulo-0-completo-480-p/07-%20Code%20Lyoko%20Un%20problema%20de%20imagen%20%28480P%29.mp4" },
+    { "episode": 8, "title": "Toma final", "video_url": "https://archive.org/download/code-lyoko-capitulo-0-completo-480-p/08-%20Code%20Lyoko%20Toma%20final%20%28480P%29.mp4" },
+    { "episode": 9, "title": "Satelite", "video_url": "https://archive.org/download/code-lyoko-capitulo-0-completo-480-p/09-%20Code%20Lyoko%20Satelite%20%28480P%29.mp4" },
+    { "episode": 10, "title": "Una criatura de ensueño", "video_url": "https://archive.org/download/code-lyoko-capitulo-0-completo-480-p/10-%20Code%20Lyoko%20Una%20criatura%20de%20ensue%C3%B1o%20%28480P%29.mp4" },
+    { "episode": 11, "title": "La plaga", "video_url": "https://archive.org/download/code-lyoko-capitulo-0-completo-480-p/11-%20Code%20Lyoko%20La%20plaga%20%28480P%29.mp4" },
+    { "episode": 12, "title": "Avispas al ataque", "video_url": "https://archive.org/download/code-lyoko-capitulo-0-completo-480-p/12-%20Code%20Lyoko%20Avispas%20al%20ataque%20%28480P%29.mp4" },
+    { "episode": 13, "title": "Justo a tiempo", "video_url": "https://archive.org/download/code-lyoko-capitulo-0-completo-480-p/13-%20Code%20Lyoko%20Justo%20a%20tiempo%20%28480P%29.mp4" },
+    { "episode": 14, "title": "La trampa", "video_url": "https://archive.org/download/code-lyoko-capitulo-0-completo-480-p/14-%20Code%20Lyoko%20La%20trampa%20%28480P%29.mp4" },
+    { "episode": 15, "title": "Ataque de risa", "video_url": "https://archive.org/download/code-lyoko-capitulo-0-completo-480-p/15-%20Code%20Lyoko%20Ataque%20de%20risa%20%28480P%29.mp4" },
+    { "episode": 16, "title": "Claustrofobia", "video_url": "https://archive.org/download/code-lyoko-capitulo-0-completo-480-p/16-%20Code%20Lyoko%20Claustrofobia%20%28480P%29.mp4" },
+    { "episode": 17, "title": "Amnesia", "video_url": "https://archive.org/download/code-lyoko-capitulo-0-completo-480-p/17-%20Code%20Lyoko%20Amnesia%20%28480P%29.mp4" },
+    { "episode": 18, "title": "Musica salvaje", "video_url": "https://archive.org/download/code-lyoko-capitulo-0-completo-480-p/18-%20Code%20Lyoko%20Musica%20salvaje%20%28480P%29.mp4" },
+    { "episode": 19, "title": "La frontera", "video_url": "https://archive.org/download/code-lyoko-capitulo-0-completo-480-p/19-%20Code%20Lyoko%20La%20frontera%20%28480P%29.mp4" },
+    { "episode": 20, "title": "Los robots", "video_url": "https://archive.org/download/code-lyoko-capitulo-0-completo-480-p/20-%20Code%20Lyoko%20Los%20robots%20%28480P%29.mp4" },
+    { "episode": 21, "title": "Zona de gravedad cero", "video_url": "https://archive.org/download/code-lyoko-capitulo-0-completo-480-p/21-%20Code%20Lyoko%20Zona%20de%20gravedad%20cero%20%28480P%29.mp4" },
+    { "episode": 23, "title": "Tocando fondo", "video_url": "https://archive.org/download/code-lyoko-capitulo-0-completo-480-p/23-%20Code%20Lyoko%20Tocando%20fondo%20%28480P%29.mp4" },
+    { "episode": 24, "title": "Canal fantasma", "video_url": "https://archive.org/download/code-lyoko-capitulo-0-completo-480-p/24-%20Code%20Lyoko%20Canal%20fantasma%20%28480P%29.mp4" },
+    { "episode": 25, "title": "Clave tierra", "video_url": "https://archive.org/download/code-lyoko-capitulo-0-completo-480-p/25-%20Code%20Lyoko%20Clave%20tierra%20%28480P%29.mp4" },
+    { "episode": 26, "title": "Salida en falso", "video_url": "https://archive.org/download/code-lyoko-capitulo-0-completo-480-p/26-%20Code%20Lyoko%20Salida%20en%20falso%20%28480P%29.mp4" },  ]
+},
+
+  
   {
   "title": "Huntik: Secrets & Seekers",
   "description": "Un equipo de buscadores viaja por el mundo resolviendo misterios ancestrales y enfrentando a la Organización mientras descubren secretos sobre los Titanes.",
-  "coverImage": "https://pics.filmaffinity.com/huntik_secrets_seekers_tv_series-722465678-mmed.jpg",
+  "coverImage": "https://m.media-amazon.com/images/M/MV5BZjZiMDczZjEtNTAzNS00ZjI0LWEyNjktYjYyZDNkNmQ1MmU0XkEyXkFqcGc@._V1_.jpg",
   "genre": ["Animación", "Aventura", "Acción", "Fantasia"],
   "episodes": [
 
