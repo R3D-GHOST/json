@@ -1,5 +1,173 @@
 [
 
+
+  {
+  "title": "Huntik: Secrets & Seekers",
+  "description": "Un equipo de buscadores viaja por el mundo resolviendo misterios ancestrales y enfrentando a la Organización mientras descubren secretos sobre los Titanes.",
+  "coverImage": "https://pics.filmaffinity.com/huntik_secrets_seekers_tv_series-722465678-mmed.jpg",
+  "genre": ["Animación", "Aventura", "Acción", "Fantasia"],
+  "episodes": [
+
+     {
+    "episode": 1,
+    "title": "Nace un buscador",
+    "video_url": "https://archive.org/download/01-nace-un-buscador/01%20Nace%20un%20buscador.mp4",
+    "img": "https://pics.filmaffinity.com/huntik_secrets_seekers_tv_series-722465678-mmed.jpg"
+  },
+  {
+    "episode": 2,
+    "title": "La clienta casterwill",
+    "video_url": "https://archive.org/download/01-nace-un-buscador/02%20La%20clienta%20casterwill.mp4",
+    "img": "https://pics.filmaffinity.com/huntik_secrets_seekers_tv_series-722465678-mmed.jpg"
+  },
+  {
+    "episode": 3,
+    "title": "Palabras de verdad, corazón de mentiras",
+    "video_url": "https://archive.org/download/01-nace-un-buscador/03%20Palabras%20de%20verdad%2C%20coraz%C3%B3n%20de%20mentiras.mp4",
+    "img": "https://pics.filmaffinity.com/huntik_secrets_seekers_tv_series-722465678-mmed.jpg"
+  },
+  {
+    "episode": 4,
+    "title": "En el río de los secretos",
+    "video_url": "https://archive.org/download/01-nace-un-buscador/04%20En%20el%20r%C3%ADo%20de%20los%20secretos.mp4",
+    "img": "https://pics.filmaffinity.com/huntik_secrets_seekers_tv_series-722465678-mmed.jpg"
+  },
+  {
+    "episode": 5,
+    "title": "Arrastrándose por las catacumbas",
+    "video_url": "https://archive.org/download/01-nace-un-buscador/05%20Arrastr%C3%A1ndose%20por%20las%20catacumbas.mp4",
+    "img": "https://pics.filmaffinity.com/huntik_secrets_seekers_tv_series-722465678-mmed.jpg"
+  },
+  {
+    "episode": 6,
+    "title": "Divide y conquistarás",
+    "video_url": "https://archive.org/download/01-nace-un-buscador/06%20Divide%20y%20conquistar%C3%A1s.mp4",
+    "img": "https://pics.filmaffinity.com/huntik_secrets_seekers_tv_series-722465678-mmed.jpg"
+  },
+  {
+    "episode": 7,
+    "title": "El legado de Thor",
+    "video_url": "https://archive.org/download/01-nace-un-buscador/07%20El%20legado%20de%20thor.mp4",
+    "img": "https://pics.filmaffinity.com/huntik_secrets_seekers_tv_series-722465678-mmed.jpg"
+  },
+  {
+    "episode": 8,
+    "title": "Dos poderes se hacen uno",
+    "video_url": "https://archive.org/download/01-nace-un-buscador/08%20Dos%20poderes%20se%20hacen%20uno.mp4",
+    "img": "https://pics.filmaffinity.com/huntik_secrets_seekers_tv_series-722465678-mmed.jpg"
+  },
+  {
+    "episode": 9,
+    "title": "Héroes ausentes",
+    "video_url": "https://archive.org/download/01-nace-un-buscador/09%20H%C3%A9roes%20ausentes.mp4",
+    "img": "https://pics.filmaffinity.com/huntik_secrets_seekers_tv_series-722465678-mmed.jpg"
+  },
+  {
+    "episode": 10,
+    "title": "Los tesoros de los argonautas",
+    "video_url": "https://archive.org/download/01-nace-un-buscador/10%20Los%20tesoros%20de%20los%20argonautas.mp4",
+    "img": "https://pics.filmaffinity.com/huntik_secrets_seekers_tv_series-722465678-mmed.jpg"
+  },
+  {
+    "episode": 11,
+    "title": "La bella trampa",
+    "video_url": "https://archive.org/download/01-nace-un-buscador/11%20La%20bella%20trampa.mp4",
+    "img": "https://pics.filmaffinity.com/huntik_secrets_seekers_tv_series-722465678-mmed.jpg"
+  },
+  {
+    "episode": 12,
+    "title": "Como la noche al día",
+    "video_url": "https://archive.org/download/01-nace-un-buscador/12%20Como%20la%20noche%20al%20d%C3%ADa.mp4",
+    "img": "https://pics.filmaffinity.com/huntik_secrets_seekers_tv_series-722465678-mmed.jpg"
+  },
+  {
+    "episode": 13,
+    "title": "De vuelta a casa",
+    "video_url": "https://archive.org/download/01-nace-un-buscador/13%20De%20vuelta%20a%20casa.mp4",
+    "img": "https://pics.filmaffinity.com/huntik_secrets_seekers_tv_series-722465678-mmed.jpg"
+  },
+  {
+    "episode": 14,
+    "title": "Tanto trabajo para nada",
+    "video_url": "https://archive.org/download/01-nace-un-buscador/14%20Tanto%20trabajo%20para%20nada.mp4",
+    "img": "https://pics.filmaffinity.com/huntik_secrets_seekers_tv_series-722465678-mmed.jpg"
+  },
+  {
+    "episode": 15,
+    "title": "La trampa del cetro",
+    "video_url": "https://archive.org/download/01-nace-un-buscador/15%20La%20trampa%20del%20cetro.mp4",
+    "img": "https://pics.filmaffinity.com/huntik_secrets_seekers_tv_series-722465678-mmed.jpg"
+  },
+  {
+    "episode": 16,
+    "title": "El cazador de la librería",
+    "video_url": "https://archive.org/download/01-nace-un-buscador/16%20El%20cazador%20de%20la%20librer%C3%ADa.mp4",
+    "img": "https://pics.filmaffinity.com/huntik_secrets_seekers_tv_series-722465678-mmed.jpg"
+  },
+  {
+    "episode": 17,
+    "title": "El vampiro pierde sus colmillos",
+    "video_url": "https://archive.org/download/01-nace-un-buscador/17%20El%20vampiro%20pierde%20sus%20colmillos.mp4",
+    "img": "https://pics.filmaffinity.com/huntik_secrets_seekers_tv_series-722465678-mmed.jpg"
+  },
+  {
+    "episode": 18,
+    "title": "El callejón de los recuerdos",
+    "video_url": "https://archive.org/download/01-nace-un-buscador/18%20El%20callej%C3%B3n%20de%20los%20recuerdos.mp4",
+    "img": "https://pics.filmaffinity.com/huntik_secrets_seekers_tv_series-722465678-mmed.jpg"
+  },
+  {
+    "episode": 19,
+    "title": "La elección de las damas",
+    "video_url": "https://archive.org/download/01-nace-un-buscador/19%20La%20elecci%C3%B3n%20de%20las%20damas.mp4",
+    "img": "https://pics.filmaffinity.com/huntik_secrets_seekers_tv_series-722465678-mmed.jpg"
+  },
+  {
+    "episode": 20,
+    "title": "El guía oculto",
+    "video_url": "https://archive.org/download/01-nace-un-buscador/20%20El%20gu%C3%ADa%20oculto.mp4",
+    "img": "https://pics.filmaffinity.com/huntik_secrets_seekers_tv_series-722465678-mmed.jpg"
+  },
+  {
+    "episode": 21,
+    "title": "Hacerse mayor",
+    "video_url": "https://archive.org/download/01-nace-un-buscador/21%20Hacerse%20mayor.mp4",
+    "img": "https://pics.filmaffinity.com/huntik_secrets_seekers_tv_series-722465678-mmed.jpg"
+  },
+  {
+    "episode": 22,
+    "title": "El aspid dorado",
+    "video_url": "https://archive.org/download/01-nace-un-buscador/22%20El%20aspid%20dorado.mp4",
+    "img": "https://pics.filmaffinity.com/huntik_secrets_seekers_tv_series-722465678-mmed.jpg"
+  },
+  {
+    "episode": 23,
+    "title": "Estar juntos",
+    "video_url": "https://archive.org/download/01-nace-un-buscador/23%20Estar%20juntos.mp4",
+    "img": "https://pics.filmaffinity.com/huntik_secrets_seekers_tv_series-722465678-mmed.jpg"
+  },
+  {
+    "episode": 24,
+    "title": "El secreto de dos generaciones",
+    "video_url": "https://archive.org/download/01-nace-un-buscador/24%20El%20secreto%20de%20dos%20generaciones.mp4",
+    "img": "https://pics.filmaffinity.com/huntik_secrets_seekers_tv_series-722465678-mmed.jpg"
+  },
+  {
+    "episode": 25,
+    "title": "La divina comedia",
+    "video_url": "https://archive.org/download/01-nace-un-buscador/25%20La%20divina%20comedia.mp4",
+    "img": "https://pics.filmaffinity.com/huntik_secrets_seekers_tv_series-722465678-mmed.jpg"
+  },
+  {
+    "episode": 26,
+    "title": "La misión",
+    "video_url": "https://archive.org/download/01-nace-un-buscador/26%20La%20misi%C3%B3n.mp4",
+    "img": "https://pics.filmaffinity.com/huntik_secrets_seekers_tv_series-722465678-mmed.jpg"
+  }
+  ]
+}
+
+
   {
   "title": "Fútbol Callejero: Especial La Final",
   "description": "Un equipo de jóvenes futbolistas de barrio se prepara para disputar la gran final de su torneo de fútbol callejero, enfrentándose a rivales más experimentados y luchando por demostrar que tienen talento y coraje para ganar.",
