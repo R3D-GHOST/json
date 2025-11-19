@@ -1,6 +1,68 @@
 #EXTM3U
 
-
+#EXTM3U
+#EXTINF:-1,Nick
+http://185.189.225.157/Nick/index.m3u8
+#EXTINF:-1,EuroSport2 HD
+http://185.189.225.157/EuroSport2/index.m3u8
+#EXTINF:-1,WarnerTV HD
+http://185.189.225.157/WarnerTV/index.m3u8
+#EXTINF:-1,disneychannel HD
+http://185.189.225.157/disneychannel/index.m3u8
+#EXTINF:-1,comedycentral
+http://185.189.225.157/comedycentral/index.m3u8
+#EXTINF:-1,SYFY
+http://185.189.225.157/SYFY/index.m3u8
+#EXTINF:-1,EuroSport1 HD
+http://185.189.225.157/EuroSport1/index.m3u8
+#EXTINF:-1,TELEHIT
+http://185.189.225.157/TELEHIT/index.m3u8
+#EXTINF:-1,La2 HD
+http://185.189.225.157/La2/index.m3u8
+#EXTINF:-1,nova
+http://185.189.225.157/nova/index.m3u8
+#EXTINF:-1,tv3 HD
+http://185.189.225.157/tv3/index.m3u8
+#EXTINF:-1,MTVHits
+http://185.189.225.157/MTVHits/index.m3u8
+#EXTINF:-1,BabyTV
+http://185.189.225.149/BabyTV/index.m3u8
+#EXTINF:-1,5USA
+http://185.189.225.149/5USA/index.m3u8
+#EXTINF:-1,SkyArts
+http://185.189.225.149/SkyArts/index.m3u8
+#EXTINF:-1,clan
+http://185.189.225.149/clan/index.m3u8
+#EXTINF:-1,paramount HD
+http://185.189.225.149/paramount/index.m3u8
+#EXTINF:-1,AXN
+http://185.189.225.149/AXN/index.m3u8
+#EXTINF:-1,HitTV
+http://185.189.225.149/HitTV/index.m3u8
+#EXTINF:-1,cctv
+http://185.189.225.149/cctv/index.m3u8
+#EXTINF:-1,mtv
+http://185.189.225.149/mtv/index.m3u8
+#EXTINF:-1,mega
+http://185.189.225.149/mega/index.m3u8
+#EXTINF:-1,TV1 HD
+http://185.189.225.150:85/TV1/index.m3u8
+#EXTINF:-1,panda
+http://185.189.225.150:85/panda/index.m3u8
+#EXTINF:-1,foodnetwork
+http://185.189.225.150:85/foodnetwork/index.m3u8
+#EXTINF:-1,TVE HD
+http://185.189.225.150:85/TVE/index.m3u8
+#EXTINF:-1,AMC HD
+http://185.189.225.150:85/AMC/index.m3u8
+#EXTINF:-1,TV2 HD
+http://185.189.225.150:85/TV2/index.m3u8
+#EXTINF:-1,boing HD
+http://185.189.225.150:85/boing/index.m3u8
+#EXTINF:-1,nickelodeon
+http://185.189.225.150:85/nickelodeon/index.m3u8
+#EXTINF:-1,Fox HD
+http://185.189.225.150:85/Fox/index.m3u8
 
 #EXTM3U
 #EXTINF:-1 tvg-id="RakutenTVTopMovies.es" tvg-name="Rakuten TV Top Movies" tvg-logo="https://i.imgur.com/Meew6eX.png" group-title="movies",Rakuten TV Top Movies
