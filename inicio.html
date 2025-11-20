@@ -178,7 +178,7 @@ main{
 
 /* 🃏 Tarjeta (Card) */
 .card{
-  flex: 0 0 120px;
+  flex: 0 0 130px;
   background:var(--bg-card);
   border-radius:6px;
   overflow:hidden;
@@ -385,7 +385,7 @@ main{
     .details h2{font-size:1.8rem}
 }
 @media (max-width:680px){
-    .card{flex: 0 0 100px;}.card img{height:160px;}
+    .card{flex: 0 0 120px;}.card img{height:160px;}
 }
 </style>
 </head>
@@ -451,7 +451,7 @@ main{
 
 <script>
 const ANIME_JSON = "https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/data.json";
-const M3U8_URL = "https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/toro.m3u8";
+const M3U8_URL = "https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/CV.m3u8";
 
 let animes = [], canales = [];
 let currentTab = 'anime', currentItem = null;
@@ -559,37 +559,30 @@ function renderPrimeVideoHome() {
     
     // ⭐️ LISTA COMPLETA DE CATEGORÍAS ⭐️
     const sections = [
-        { title: 'Novedades y Estrenos', list: animes.slice(0, 15) },
-        { title: 'Canales en Vivo', list: canales.slice(0, 15) },
+        { title: ' Novedades y Estrenos', list: animes.slice(0, 15) },
+        { title: ' Canales en Vivo', list: canales.slice(0, 15) },
         
         // Géneros de Acción y Combate
-        { title: 'Infantil', genre: 'Animacion' },
-        { title: ' Aventura Épica', genre: 'Aventuras' },
-        { title: ' Mechas y Combate Mecanizado', genre: '' },
-        { title: ' Militar y Policíaco', genre: 'Military' },
+        { title: ' Infantil', genre: 'Animacion' },
+        { title: ' Infantil', genre: 'Familiar' },
+        { title: ' Aventura', genre: 'Aventura' },
+
         
         // Géneros de Fantasía y Mundo
-        { title: 'Anime', genre: 'Anime' },
-        { title: 'Ciencia Ficción y Futuro', genre: 'Sci-Fi' },
-        { title: 'Misterio y Sobrenatural', genre: 'Sobrenatural' },
-        { title: 'Cyberpunk y Distopía', genre: 'Cyberpunk' },
+        { title: ' Anime', genre: 'Anime' },
+        { title: ' Sobrenatural', genre: 'Sobrenatural' },
+
 
         // Géneros de Vida y Sentimiento
-        { title: 'Drama y Emoción', genre: 'Drama' },
-        { title: 'Romance y Colegial', genre: 'Romance' },
-        { title: 'Vida Diaria (Slice of Life)', genre: '' },
+        { title: ' Drama', genre: 'Drama' },
+        { title: ' Romance', genre: 'Romance' },
         
         // Géneros Ligeros y Humor
-        { title: 'Comedia y Parodia', genre: 'Comedia' },
-        { title: 'Humor Desenfadado', genre: 'Parodia' },
-        { title: 'Harem / Ecchi', genre: 'Ecchi' },
+        { title: ' Comedia', genre: 'Comedia' },
+        { title: ' Harem / Ecchi', genre: 'Ecchi' },
         
         // Otros Temas
-        { title: 'Thriller y Terror', genre: 'Terror' },
-        { title: 'Deportes (Spokon)', genre: 'Sports' },
-        { title: 'Histórico y Samurai', genre: 'Historical' },
-        { title: 'Musical y Ídolos', genre: 'Music' },
-        { title: 'Animación Infantil', genre: 'Kids' } 
+        { title: ' Thriller', genre: 'Thriller' },
     ];
 
     sections.forEach(section => {
