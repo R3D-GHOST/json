@@ -3,6 +3,90 @@
 
 
 
+{
+  "title": "Harry Potter y la Piedra Filosofal",
+  "description": "Harry descubre en su undécimo cumpleaños que es un mago y es llevado al Colegio Hogwarts de Magia y Hechicería, donde deberá enfrentar el misterio de la Piedra Filosofal.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8ehN40Jq_S_aETxiu5KPPeQtrpCtXmkJ2bKJe4NRoVg&s=10",
+  "genre": ["Fantasía","Aventura","Magia"],
+  "video_url": "https://archive.org/download/hp7_20251120/hp1.mp4"
+},
+{
+  "title": "Harry Potter y la Cámara Secreta",
+  "description": "En su segundo año en Hogwarts, una oscura fuerza petrifica a los estudiantes y Harry deberá enfrentarse al legado de Slytherin para descubrir quién abrió la Cámara Secreta.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVTJwYq_ZTLJQ4xT5992c89AERnVZaq7yOKpmXdEYCvw&s=10",
+  "genre": ["Fantasía","Aventura","Magia"],
+  "video_url": "https://archive.org/download/hp7_20251120/hp2.mp4"
+},
+{
+  "title": "Harry Potter y el Prisionero de Azkaban",
+  "description": "Harry se entera de que Sirius Black, un peligroso asesino, ha escapado de Azkaban y parece tenerlo a él como objetivo, mientras un oscuro secreto sale a la luz.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRePaZpiE2mEbzTINJYOPt6B4npxWqaIZbvry5Ii7VuhQ&s",
+  "genre": ["Fantasía","Aventura","Magia"],
+  "video_url": "https://archive.org/download/hp7_20251120/hp3.ia.mp4"
+},
+{
+  "title": "Harry Potter y el Cáliz de Fuego",
+  "description": "Harry es misteriosamente inscrito en el Torneo de los Tres Magos, donde deberá enfrentar pruebas mortales mientras el regreso de Lord Voldemort se acerca.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoy-Ywk3EbXPSdrRIQlFIwFF_FtyfuFojYqxQNtU4vcg&s=10",
+  "genre": ["Fantasía","Aventura","Magia"],
+  "video_url": "https://archive.org/download/hp7_20251120/hp4.mp4"
+},
+{
+  "title": "Harry Potter y la Orden del Fénix",
+  "description": "El Ministerio de Magia niega el regreso de Voldemort, y Harry junto a sus amigos forma el Ejército de Dumbledore para aprender a defenderse del mal que se aproxima.",
+  "coverImage": "https://play-lh.googleusercontent.com/C8P107DqiTSF4ZvOhNP2HUi-vfY3xvdbccedbakmFnXENo26tTGvmqjVQSH6AfFeD6Mtx9qoxDLUMyVNMpjl",
+  "genre": ["Fantasía","Aventura","Magia"],
+  "video_url": "https://archive.org/download/hp7_20251120/hp5.mp4"
+},
+{
+  "title": "Harry Potter y el Misterio del Príncipe",
+  "description": "Harry descubre un viejo libro de pociones perteneciente al 'Príncipe Mestizo' mientras Dumbledore le revela recuerdos esenciales para derrotar a Voldemort.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwuyNwmS_yEsssBJxZClY4Kan9HOfqYFtRrhEsOQrgHA&s=10",
+  "genre": ["Fantasía","Aventura","Magia"],
+  "video_url": "https://archive.org/download/hp7_20251120/hp6.mp4"
+},
+{
+  "title": "Harry Potter y las Reliquias de la Muerte - Parte 1",
+  "description": "Harry, Ron y Hermione abandonan Hogwarts para destruir los Horrocruxes, mientras Voldemort se apodera del mundo mágico.",
+  "coverImage": "https://es.web.img2.acsta.net/medias/nmedia/18/82/10/76/19599753.jpg",
+  "genre": ["Fantasía","Aventura","Magia"],
+  "video_url": "https://archive.org/download/hp7_20251120/hp7.ia.mp4"
+},
+{
+  "title": "Harry Potter y las Reliquias de la Muerte - Parte 2",
+  "description": "La batalla final entre Harry y Voldemort llega a su clímax en Hogwarts, donde se decidirá el destino del mundo mágico.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRar0D4o2BXMgrU5_ifW065__TwI9ChJrsuIj-n3QXL5Nv2hen_vszeHJBh&s=10",
+  "genre": ["Fantasía","Aventura","Magia"],
+  "video_url": "https://archive.org/download/hp7_20251120/hp8.ia.mp4"
+},
+
+
+
+
+
+  
+{
+  "title": "Nadie 2",
+  "description": "Secuela del exitoso thriller de acción 'Nadie' protagonizado por Bob Odenkirk. Aún no existe sinopsis oficial, pero continúa la historia del inesperado asesino entrenado que vive como un ciudadano común.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkis1VaVdpaXh3SOAHixfvb4Uv9Md_T-B7qcQuktByAw&s=10",
+  "genre": ["Acción","Thriller"],
+  "video_url": "https://archive.org/download/hp7_20251120/nadie2.mp4"
+},
+
+
+  
+
+  
+{
+  "title": "Scream ",
+  "description": "Años después de los asesinatos de Woodsboro, Sidney Prescott regresa al pueblo, pero un nuevo Ghostface aparece y desata otra ola de terror.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKzzZfcxZIxvRSYnWhcLpRcFAtmIa8zTgYaNiWEPKS1g&s=10",
+  "genre": ["Terror","Suspenso","Slasher"],
+  "video_url": "https://archive.org/download/hp7_20251120/sc34m.mp4"
+},
+
+
+
   
 {
   "title": "Code Lyoko El despertar de X.A.N.A.",
