@@ -1,5 +1,12 @@
 [
 
+{
+  "title": "Bruce Lee vs Chuck Norris",
+  "description": "En un enfrentamiento legendario, Bruce Lee se enfrenta a Chuck Norris en un combate lleno de acción, técnica y artes marciales, recordado como un clásico del cine de kung-fu.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQH8I8fs_VaqKR7uyLY4ZLCeX1jJro1Plx0mCGu-XzqUQ&s=10",
+  "genre": ["Artes Marciales", "Acción"],
+  "video_url": "https://archive.org/download/youtube-67DjmpNI16U/67DjmpNI16U.mp4"
+},
 
 
 {
