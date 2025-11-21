@@ -1,5 +1,52 @@
 [
 
+
+
+{
+    "title": "Mortadelo y Filemón contra Jimmy el Cachondo",
+    "description": "Mortadelo y Filemón deben detener a Jimmy el Cachondo, un criminal que amenaza con hundir a la T.I.A. con ataques de risa descontrolada. La pareja de agentes deberá superar disparatadas misiones llenas de humor absurdo.",
+    "coverImage": "https://img2.rtve.es/v/5826891/vertical/?h=400",
+    "genre": ["Comedia", "Animación", "Aventura"],
+    "video_url": "https://archive.org/download/mortadelo-y-filemon-contra-jimmy-el-cachondo-m-1080p/Mortadelo%20y%20Filemon%20contra%20Jimmy%20el%20Cachondo%20m1080p.mp4"
+  },
+  {
+    "title": "Ace Ventura Jr.: Detective de Mascotas",
+    "description": "Ace Ventura Jr., hijo del legendario detective de mascotas, intenta demostrar que puede seguir el legado de su padre al involucrarse en un caso de animales desaparecidos.",
+    "coverImage": "https://upload.wikimedia.org/wikipedia/en/9/92/Ace_Venture_Jr._Pet_Detective_poster.jpg",
+    "genre": ["Comedia", "Familia"],
+    "video_url": "https://archive.org/download/9950-ace-ventura-pet-detective-jr.-2009-1080p-d-s-spa-eng-por-web-dl-v/9950-Ace%20Ventura%20Pet%20Detective%20Jr.%20%282009%29%201080p%20D%20S%20spa%20eng%20por%20WEB-DL%20v.mp4"
+  },
+  {
+    "title": "Ace Ventura: Detective de Mascotas",
+    "description": "Ace Ventura es un excéntrico detective especializado en encontrar animales. Cuando el delfín mascota de un equipo de fútbol desaparece, Ace deberá resolver el caso usando sus métodos únicos.",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtA_TvlmTXeG_LNNm8T63i9gtv5GvpoVq_fyTodyfRQg&s=10",
+    "genre": ["Comedia"],
+    "video_url": "https://archive.org/download/0076-ace-ventura-1-1994-720p-d-sspa-v/0076-Ace%20Ventura%201%20%281994%29%20720p%20D%20Sspa%20v.mp4"
+  },
+  {
+    "title": "Ace Ventura 2: Cuando la Naturaleza Llama",
+    "description": "Ace Ventura regresa para una nueva misión: encontrar un murciélago sagrado desaparecido, mientras se enfrenta a peligros selváticos y situaciones absurdamente cómicas.",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTffz_wovnUascliaB7fyxrHFvB_bl_G0fC6yQljend8Q&s=10",
+    "genre": ["Comedia", "Aventura"],
+    "video_url": "https://archive.org/download/0076-ace-ventura-1-1994-720p-d-sspa-v/0077-Ace%20Ventura%202%20%281995%29%20720p%20D%20Sspa%20v.mp4"
+  },
+  {
+    "title": "Historia de Ricky",
+    "description": "Ricky, un joven con fuerza sobrehumana, es enviado a una violenta prisión donde deberá enfrentarse a corruptos guardias y jefes criminales en una brutal lucha por sobrevivir.",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaUd93m0Yjl-SJEt1LtXzPuti5O6wbfPtle7GOFN6Md6gcJIxqJFsHy0U&s=10",
+    "genre": ["Acción", "Artes Marciales"],
+    "video_url": "https://archive.org/download/historia-de-ricky-1991-espanol-1080p/Historia%20de%20Ricky%201991%20Espa%C3%B1ol%201080p.mp4"
+  },
+  {
+    "title": "Terminator 2: El Juicio Final",
+    "description": "Un cyborg reprogramado regresa del futuro para proteger a John Connor, mientras un avanzado modelo T-1000 intenta eliminarlo en una batalla épica por el destino de la humanidad.",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtAl1ZASxlR4kCMswxhp_MC548JFExGqp1obKZvrJXOQ&s=10",
+    "genre": ["Acción", "Ciencia Ficción"],
+    "video_url": "https://archive.org/download/terminator-2_202409/Terminator%202.mp4"
+  },
+
+
+  
 {
   "title": "Coraline y la puerta secreta",
   "description": "Coraline es una niña de 11 años que acaba de mudarse con sus padres a una nueva casa. Allí descubre una pequeña puerta tapiada que, al abrirla, la transporta a un mundo paralelo donde sus otros “papás” parecen perfectos… hasta que descubre que ese mundo esconde un terror mucho mayor. :contentReference[oaicite:1]{index=1}",
