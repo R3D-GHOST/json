@@ -1,12 +1,36 @@
 [
 
+
+
+
+  
+  
+
+
+  
 {
-  "title": "Bruce Lee vs Chuck Norris",
-  "description": "En un enfrentamiento legendario, Bruce Lee se enfrenta a Chuck Norris en un combate lleno de acción, técnica y artes marciales, recordado como un clásico del cine de kung-fu.",
-  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQH8I8fs_VaqKR7uyLY4ZLCeX1jJro1Plx0mCGu-XzqUQ&s=10",
-  "genre": ["Artes Marciales", "Acción"],
-  "video_url": "https://archive.org/download/youtube-67DjmpNI16U/67DjmpNI16U.mp4"
+  "title": "Cars 3",
+  "description": "El legendario Rayo McQueen se enfrenta a una nueva generación de corredores tecnológicos y debe demostrar que todavía tiene lo necesario para seguir en la élite. :contentReference[oaicite:0]{index=0}",
+  "coverImage": "https://m.media-amazon.com/images/I/911pF4wxWCL._AC_UF894,1000_QL80_.jpg",
+  "genre": ["Animación","Aventura","Familia"],
+  "video_url": "https://archive.org/download/c4r2_20251121/carros3.ia.mp4"
 },
+{
+  "title": "Cars 2 (u otro “Cars” sin título claro)",
+  "description": "Película de animación de la saga Cars — vídeo sin información detallada — posiblemente una versión alternativa o sin título convencional.",
+  "coverImage": "https://static.wikia.nocookie.net/doblaje/images/9/94/Cars_3_poster.jpg/revision/latest?cb=20171205003608&path-prefix=es",
+  "genre": ["Animación","Aventura","Familia"],
+  "video_url": "https://archive.org/download/c4r2_20251121/c4r2.ia.mp4"
+},
+{
+  "title": "Celda 211",
+  "description": "Juan Oliver, un joven funcionario de prisiones, se encuentra atrapado en medio de un motín en la cárcel y debe hacerse pasar por preso para salvar su vida. :contentReference[oaicite:1]{index=1}",
+  "coverImage": "https://pics.filmaffinity.com/Celda_211-538678957-large.jpg",
+  "genre": ["Thriller","Drama","Crimen"],
+  "video_url": "https://archive.org/download/c4r2_20251121/cel211.mp4"
+},
+
+  
 
 
 {
