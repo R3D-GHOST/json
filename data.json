@@ -4,7 +4,14 @@
 
 
   
-  
+{
+  "title": "Yo-kai Watch: La película",
+  "description": "Nathan, Whisper y Jibanyan viajan al pasado para ayudar al joven Nathaniel a crear el primer Yo-kai Watch, después de que malvados Yo-kai roban el reloj para evitar la amistad entre humanos y Yo-kai. :contentReference[oaicite:1]{index=1}",
+  "coverImage": "https://m.media-amazon.com/images/I/71R2rSrb7IL._AC_UF894,1000_QL80_.jpg",
+  "genre": ["Animación", "Aventura", "Familia"],
+  "video_url": "https://archive.org/download/yo-kai-watch-la-pelicula-1-latino/Yo-Kai%20Watch_%20La%20pel%C3%ADcula%201%20Latino.mp4"
+},
+
 
 
   
