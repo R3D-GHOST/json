@@ -5,7 +5,7 @@
     "description": "Primera película de la saga Culpa Mía.",
     "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu27GzTMOKc8pmjNT44McJfpM4SIS4XMzMsYtrqv14gQ&s=10",
     "video_url": "https://archive.org/download/culpa.nuestra.-2025.1080p-dual-lat-cinecalidad.ro/Copia%20de%20YT%20TODU%20-Culpa.Mia.2023.Hd.ia.mp4",
-      "genre": ["Romance", "Animación","Fantasía","Aventura"],
+    "genre": ["Romance", "Animación","Fantasía","Aventura"],
     "tipo": "pelicula"
   },
   {
@@ -13,14 +13,14 @@
     "description": "Secuela directa de Culpa Mía.",
     "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpoW3LBotqwPf3fzwWACSwzyHmH2b52u9tlLjrN1HSUw&s=10",
     "video_url": "https://archive.org/download/culpa.nuestra.-2025.1080p-dual-lat-cinecalidad.ro/culpa%20tuya%20.mp4",
-    "genre": ["romance", "Animación","Fantasía","Aventura"],
+    "genre": ["Romance", "Animación","Fantasía","Aventura"],
     "tipo": "pelicula"
   },
   {
     "title": "Culpa Nuestra",
     "description": "Tercera entrega de la saga Culpa Mía.",
     "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfzH4_2anWr8iHhG8wTmK-U7LocbiICWSWgbsVFSesaQ&s=10",
-    "genre": ["romance", "Animación","Fantasía","Aventura"],
+    "genre": ["Romance", "Animación","Fantasía","Aventura"],
     "video_url": "https://archive.org/download/culpa.nuestra.-2025.1080p-dual-lat-cinecalidad.ro/Culpa.nuestra.2025.1080p-dual-lat-cinecalidad.ro.mp4",
     "tipo": "pelicula"
   },
