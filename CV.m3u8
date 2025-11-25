@@ -1,8 +1,9 @@
 
 
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-VQqjSGiPGM0C7_bRucnRfOkxkF58Zp_jGoUKMcHeLQ&s=10" group-title="Deportes", UFC Prueba HD
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-VQqjSGiPGM0C7_bRucnRfOkxkF58Zp_jGoUKMcHeLQ&s=10" group-title="Deportes", UFC 2
 https://s@broadcasthub.click/hls/CJ9AwYimdyUo/index.m3u8
+
 
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-VQqjSGiPGM0C7_bRucnRfOkxkF58Zp_jGoUKMcHeLQ&s=10" group-title="Deportes", UFC Prueba HD
