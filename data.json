@@ -1,5 +1,37 @@
 [
-
+{
+  "title": "The Flash Temporada 1",
+  "description": "Barry Allen, un científico forense, adquiere poderes de velocidad después de un accidente con un acelerador de partículas. Se convierte en El Flash y lucha contra metahumanos mientras descubre secretos sobre su pasado.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmWNfaKAICojh30SofokOsZ77KNAwynveggg1Ye9Cetw&s=10",
+  "genre": ["Acción", "Ciencia ficción", "Aventura", "Superhéroes"],
+  "fanart": "",
+  "episodes": [
+    { "episode": 1,  "title": "Capítulo 1",  "video_url": "https://archive.org/download/flash-temporada-1-capitulo-1_202511/Flash%20Temporada%201%20Capitulo%201.mp4" },
+    { "episode": 2,  "title": "Capítulo 2",  "video_url": "https://archive.org/download/flash-temporada-1-capitulo-1_202511/Flash%20Temporada%201%20Capitulo%202.mp4" },
+    { "episode": 3,  "title": "Capítulo 3",  "video_url": "https://archive.org/download/flash-temporada-1-capitulo-1_202511/Flash%20Temporada%201%20Capitulo%203.mp4" },
+    { "episode": 4,  "title": "Capítulo 4",  "video_url": "https://archive.org/download/flash-temporada-1-capitulo-1_202511/Flash%20Temporada%201%20Capitulo%204.mp4" },
+    { "episode": 5,  "title": "Capítulo 5",  "video_url": "https://archive.org/download/flash-temporada-1-capitulo-1_202511/Flash%20Temporada%201%20Capitulo%205.mp4" },
+    { "episode": 6,  "title": "Capítulo 6",  "video_url": "https://archive.org/download/flash-temporada-1-capitulo-1_202511/Flash%20Temporada%201%20Capitulo%206.mp4" },
+    { "episode": 7,  "title": "Capítulo 7",  "video_url": "https://archive.org/download/flash-temporada-1-capitulo-1_202511/Flash%20Temporada%201%20Capitulo%207.mp4" },
+    { "episode": 8,  "title": "Capítulo 8",  "video_url": "https://archive.org/download/flash-temporada-1-capitulo-1_202511/Flash%20Temporada%201%20Capitulo%208.mp4" },
+    { "episode": 9,  "title": "Capítulo 9",  "video_url": "https://archive.org/download/flash-temporada-1-capitulo-1_202511/Flash%20Temporada%201%20Capitulo%209.mp4" },
+    { "episode": 10, "title": "Capítulo 10", "video_url": "https://archive.org/download/flash-temporada-1-capitulo-1_202511/Flash%20Temporada%201%20Capitulo%2010.mp4" },
+    { "episode": 11, "title": "Capítulo 11", "video_url": "https://archive.org/download/flash-temporada-1-capitulo-1_202511/Flash%20Temporada%201%20Capitulo%2011.mp4" },
+    { "episode": 12, "title": "Capítulo 12", "video_url": "https://archive.org/download/flash-temporada-1-capitulo-1_202511/Flash%20Temporada%201%20Capitulo%2012.mp4" },
+    { "episode": 13, "title": "Capítulo 13", "video_url": "https://archive.org/download/flash-temporada-1-capitulo-1_202511/Flash%20Temporada%201%20Capitulo%2013.mp4" },
+    { "episode": 14, "title": "Capítulo 14", "video_url": "https://archive.org/download/flash-temporada-1-capitulo-1_202511/Flash%20Temporada%201%20Capitulo%2014.mp4" },
+    { "episode": 15, "title": "Capítulo 15", "video_url": "https://archive.org/download/flash-temporada-1-capitulo-1_202511/Flash%20Temporada%201%20Capitulo%2015.mp4" },
+    { "episode": 16, "title": "Capítulo 16", "video_url": "https://archive.org/download/flash-temporada-1-capitulo-1_202511/Flash%20Temporada%201%20Capitulo%2016.mp4" },
+    { "episode": 17, "title": "Capítulo 17", "video_url": "https://archive.org/download/flash-temporada-1-capitulo-1_202511/Flash%20Temporada%201%20Capitulo%2017.mp4" },
+    { "episode": 18, "title": "Capítulo 18", "video_url": "https://archive.org/download/flash-temporada-1-capitulo-1_202511/Flash%20Temporada%201%20Capitulo%2018.mp4" },
+    { "episode": 19, "title": "Capítulo 19", "video_url": "https://archive.org/download/flash-temporada-1-capitulo-1_202511/Flash%20Temporada%201%20Capitulo%2019.mp4" },
+    { "episode": 20, "title": "Capítulo 20", "video_url": "https://archive.org/download/flash-temporada-1-capitulo-1_202511/Flash%20Temporada%201%20Capitulo%2020.mp4" },
+    { "episode": 21, "title": "Capítulo 21", "video_url": "https://archive.org/download/flash-temporada-1-capitulo-1_202511/Flash%20Temporada%201%20Capitulo%2021.mp4" },
+    { "episode": 22, "title": "Capítulo 22", "video_url": "https://archive.org/download/flash-temporada-1-capitulo-1_202511/Flash%20Temporada%201%20Capitulo%2022.mp4" },
+    { "episode": 23, "title": "Capítulo 23", "video_url": "https://archive.org/download/flash-temporada-1-capitulo-1_202511/Flash%20Temporada%201%20Capitulo%2023.mp4" }
+  ]
+},
+  
   {
     "title": "Culpa Mía",
     "description": "Primera película de la saga Culpa Mía.",
