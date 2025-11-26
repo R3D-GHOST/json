@@ -1,4 +1,62 @@
 [
+
+
+{
+  "title": "Breaking Bad Temporada 1",
+  "description": "Un profesor de química con cáncer terminal comienza a fabricar metanfetamina para asegurar el futuro económico de su familia, desatando una cadena de consecuencias peligrosas.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9ib7u8qZ6oAxKlARL3iHs52llTDxANpBj66racEGsIQ&s=10",
+  "genre": ["Drama", "Crimen", "Suspenso"],
+  "fanart": "",
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "Piloto",
+      "video_url": "https://archive.org/download/breaking-bad-1x-01-lat/Breaking%20Bad%201x01%20Lat.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9ib7u8qZ6oAxKlARL3iHs52llTDxANpBj66racEGsIQ&s=10"
+    },
+    {
+      "episode": 2,
+      "title": "Gato en la bolsa",
+      "video_url": "https://archive.org/download/breaking-bad-1x-01-lat/Breaking%20Bad%201x02%20Lat.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9ib7u8qZ6oAxKlARL3iHs52llTDxANpBj66racEGsIQ&s=10"
+    },
+    {
+      "episode": 3,
+      "title": "…Y el perro se fue",
+      "video_url": "https://archive.org/download/breaking-bad-1x-01-lat/Breaking%20Bad%201x03%20Lat.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9ib7u8qZ6oAxKlARL3iHs52llTDxANpBj66racEGsIQ&s=10"
+    },
+    {
+      "episode": 4,
+      "title": "La carga",
+      "video_url": "https://archive.org/download/breaking-bad-1x-01-lat/Breaking%20Bad%201x04%20Lat.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9ib7u8qZ6oAxKlARL3iHs52llTDxANpBj66racEGsIQ&s=10"
+    },
+    {
+      "episode": 5,
+      "title": "Química y cocina",
+      "video_url": "https://archive.org/download/breaking-bad-1x-01-lat/Breaking%20Bad%201x05%20Lat.mkv",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9ib7u8qZ6oAxKlARL3iHs52llTDxANpBj66racEGsIQ&s=10"
+    },
+    {
+      "episode": 6,
+      "title": "Un final trágico",
+      "video_url": "https://archive.org/download/breaking-bad-1x-01-lat/Breaking%20Bad%201x06%20Lat.mkv",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9ib7u8qZ6oAxKlARL3iHs52llTDxANpBj66racEGsIQ&s=10"
+    },
+    {
+      "episode": 7,
+      "title": "La decisión",
+      "video_url": "https://archive.org/download/breaking-bad-1x-01-lat/Breaking%20Bad%201x07%20Lat.mkv",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9ib7u8qZ6oAxKlARL3iHs52llTDxANpBj66racEGsIQ&s=10"
+    }
+  ]
+},
+
+  
+
+
+  
 {
   "title": "The Flash Temporada 1",
   "description": "Barry Allen, un científico forense, adquiere poderes de velocidad después de un accidente con un acelerador de partículas. Se convierte en El Flash y lucha contra metahumanos mientras descubre secretos sobre su pasado.",
