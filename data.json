@@ -1,10 +1,26 @@
 [
 
 
+
+
+  
+
+  
+
+{
+  "title": "Kung Fu Panda",
+  "description": "Po, un panda torpe pero soñador, descubre que está destinado a convertirse en el Guerrero Dragón y proteger el Valle de la Paz del malvado Tai Lung.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgDXUBFXcy5bYyMbMjomEUHXhhtvXhxTGRvWNeU7WZOw&s=10",
+  "video_url": "https://archive.org/download/i-1-t-03/I1_t03.mp4",
+  "genre": ["Animación", "Aventura", "Acción", "Comedia"]
+},
+
+
+  
   {
     "title": "El Extraño Mundo de Jack",
     "description": "Película animada clásica de Tim Burton.",
-    "coverImage": "https://static.wikia.nocookie.net/doblaje/images/f/f6/Jack.jpg/revision/latest/scale-to-width-down/1200?cb=20240729163047&path-prefix=es",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzP2iS-_bNsSxRrr8pwsW5xqo4fDxvjqAMmzKZp8OZQA&s=10",
     "video_url": "https://archive.org/download/la-leyenda-de-la-nahuala-completa-en-espanol-latino/El%20Extra%C3%B1o%20Mundo%20de%20Jack%20%20%20Peliculas%20completas%20en%20espa%C3%B1ol%20animadas.ia.mp4",
     "genre": ["Animación", "Fantasía"]
   },
@@ -67,7 +83,7 @@
   {
     "title": "Narnia: El León, la Bruja y el Ropero",
     "description": "Primera entrega de la saga Narnia.",
-    "coverImage": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUTExMWFhUXGRgY...",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBaH938rvQK6WivdcRIoEFoEpe_tdWC6DcTEW1HCbtDQ&s=10",
     "video_url": "https://archive.org/download/los-cr-00ds-2013-audio-espanol/Narnia%20El%20leo%CC%81n%2C%20la%20bruja%20y%20el%20ropero.ia.mp4",
     "genre": ["Fantasía", "Aventura"]
   },
