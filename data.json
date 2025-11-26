@@ -9,6 +9,13 @@
   "coverImage": "https://imgs.search.brave.com/Twioc8snm3AZkn2BfnR4F98zUCyKMUPKO5AzPzn1swI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMud2lraWEubm9j/b29raWUubmV0L2Rv/YmxhamUvaW1hZ2Vz/LzEvMTkvQ29kZV9s/eW9rby5qcGcvcmV2/aXNpb24vbGF0ZXN0/L3NjYWxlLXRvLXdp/ZHRoLWRvd24vMjY4/P2NiPTIwMjAwOTA2/MDMxOTUyJnBhdGgt/cHJlZml4PWVz",
   "genre": ["Animación", "Aventura", "Acción", "Ciencia Ficción"],
   "episodes": [
+    
+    {
+      "episode": 1,
+      "title": "Osito Godzilla",
+      "video_url": "https://archive.org/download/code-lyoko-capitulo-0-completo-480-p/C%C3%B3digo%20Lyoko%2001%20Osito%20Godzilla%20Espa%C3%B1ol%20HD%28480P%29.ia.mp4",
+      "img": ""
+    },
     {
       "episode": 2,
       "title": "Ver es creer",
