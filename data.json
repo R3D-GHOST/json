@@ -1,76 +1,77 @@
 [
 
-  {
-    "titulo": "El Extraño Mundo de Jack",
-    "imagen": "https://static.wikia.nocookie.net/doblaje/images/f/f6/Jack.jpg/revision/latest/scale-to-width-down/1200?cb=20240729163047&path-prefix=es",
-    "descripcion": "Película animada clásica de Tim Burton.",
-    "video": "https://archive.org/download/la-leyenda-de-la-nahuala-completa-en-espanol-latino/El%20Extra%C3%B1o%20Mundo%20de%20Jack%20%20%20Peliculas%20completas%20en%20espa%C3%B1ol%20animadas.ia.mp4",
-    "tipo": "pelicula"
-  },
-  {
-    "titulo": "Mi Villano Favorito 1",
-    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAVekeqj1mTxi7d8JIl47f1y9Z7nkZObmO0d3YGIToWw&s=10",
-    "descripcion": "Comedia animada de Illumination.",
-    "video": "https://archive.org/download/los-cr-00ds-2013-audio-espanol/Mi%20villano%20favorito%201.ia.mp4",
-    "tipo": "pelicula"
-  },
-  {
-    "titulo": "Mi Villano Favorito 2",
-    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpIubtpqacO9zE0wphS34xVqa0IM-oyZuH-8mEgsozAg&s=10",
-    "descripcion": "Secuela animada de Gru y los Minions.",
-    "video": "https://archive.org/download/los-cr-00ds-2013-audio-espanol/Mi%20villano%20favorito%202.mp4",
-    "tipo": "pelicula"
-  },
-  {
-    "titulo": "Mi Villano Favorito 3",
-    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3W7XKLsI-iBWdrjmAOpE5qeNU7nUMs5ZSh9nfI8Cjeg&s=10",
-    "descripcion": "Tercera entrega de la saga Gru.",
-    "video": "https://archive.org/download/los-cr-00ds-2013-audio-espanol/Mi%20villano%20favorito%203.mp4",
-    "tipo": "pelicula"
-  },
-  {
-    "titulo": "El Rey Mono",
-    "imagen": "https://m.media-amazon.com/images/M/MV5BNWI3Y2IxMmYtYjY2Yi00Mzc3LWEzYWItODEwYmJmMTZjOTA2XkEyXkFqcGc@._V1_.jpg",
-    "descripcion": "Película animada 3D basada en la leyenda china.",
-    "video": "https://archive.org/download/la-leyenda-de-la-nahuala-completa-en-espanol-latino/EL%20REY%20MONO%20ANIMACI%C2%B4ON%203D%20PEL%C3%8DCULA%20COMPLETA%20ESPA%C3%91OL.ia.mp4",
-    "tipo": "pelicula"
-  },
-  {
-    "titulo": "Viaje al Centro de la Tierra",
-    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeex6mS9OJcqr440Ydsc4TCb0EY0BqOlv1ZNiF3vivCw&s=10",
-    "descripcion": "Aventura inspirada en la obra de Julio Verne.",
-    "video": "https://archive.org/download/la-leyenda-de-la-nahuala-completa-en-espanol-latino/Viaje%20al%20Centro%20de%20la%20Tierra.ia.mp4",
-    "tipo": "pelicula"
-  },
-  {
-    "titulo": "El Club de las Divorciadas (1996)",
-    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5eakR2xbAx9QnaHWdIHcCBGiH-aTgVsy5mI3ezHbnSg&s=10",
-    "descripcion": "Comedia clásica de 1996.",
-    "video": "https://archive.org/download/los-cr-00ds-2013-audio-espanol/El%20club%20de%20las%20divorciadas%20%281996%29.mp4",
-    "tipo": "pelicula"
-  },
-  {
-    "titulo": "Como Si Fuera la Primera Vez",
-    "imagen": "https://pics.filmaffinity.com/como_si_fuera_la_primera_vez-398210625-large.jpg",
-    "descripcion": "Clásica comedia romántica con Adam Sandler y Drew Barrymore.",
-    "video": "https://archive.org/download/los-cr-00ds-2013-audio-espanol/Como%20si%20fuera%20la%20primera%20vez%20%282004%29.mp4",
-    "tipo": "pelicula"
-  },
-  {
-    "titulo": "El Principito (2015)",
-    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9Bp7Zuc9Zg_4e9fCPQlm-GAQFTVJz8BmI3nOIWqQeSQ&s=10",
-    "descripcion": "Adaptación animada del famoso libro.",
-    "video": "https://archive.org/download/los-cr-00ds-2013-audio-espanol/El%20Principito%20%282015%29.mp4",
-    "tipo": "pelicula"
-  },
-  {
-    "titulo": "Narnia: El León, la Bruja y el Ropero",
-    "imagen": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUTExMWFhUXGRgY...",
-    "descripcion": "Primera entrega de la saga Narnia.",
-    "video": "https://archive.org/download/los-cr-00ds-2013-audio-espanol/Narnia%20El%20leo%CC%81n%2C%20la%20bruja%20y%20el%20ropero.ia.mp4",
-    "tipo": "pelicula"
-  },
 
+  {
+    "title": "El Extraño Mundo de Jack",
+    "description": "Película animada clásica de Tim Burton.",
+    "coverImage": "https://static.wikia.nocookie.net/doblaje/images/f/f6/Jack.jpg/revision/latest/scale-to-width-down/1200?cb=20240729163047&path-prefix=es",
+    "video_url": "https://archive.org/download/la-leyenda-de-la-nahuala-completa-en-espanol-latino/El%20Extra%C3%B1o%20Mundo%20de%20Jack%20%20%20Peliculas%20completas%20en%20espa%C3%B1ol%20animadas.ia.mp4",
+    "genre": ["Animación", "Fantasía"]
+  },
+  {
+    "title": "Mi Villano Favorito 1",
+    "description": "Comedia animada de Illumination.",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAVekeqj1mTxi7d8JIl47f1y9Z7nkZObmO0d3YGIToWw&s=10",
+    "video_url": "https://archive.org/download/los-cr-00ds-2013-audio-espanol/Mi%20villano%20favorito%201.ia.mp4",
+    "genre": ["Comedia", "Animación", "Familiar"]
+  },
+  {
+    "title": "Mi Villano Favorito 2",
+    "description": "Secuela animada de Gru y los Minions.",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpIubtpqacO9zE0wphS34xVqa0IM-oyZuH-8mEgsozAg&s=10",
+    "video_url": "https://archive.org/download/los-cr-00ds-2013-audio-espanol/Mi%20villano%20favorito%202.mp4",
+    "genre": ["Comedia", "Animación", "Familiar"]
+  },
+  {
+    "title": "Mi Villano Favorito 3",
+    "description": "Tercera entrega de la saga Gru.",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3W7XKLsI-iBWdrjmAOpE5qeNU7nUMs5ZSh9nfI8Cjeg&s=10",
+    "video_url": "https://archive.org/download/los-cr-00ds-2013-audio-espanol/Mi%20villano%20favorito%203.mp4",
+    "genre": ["Comedia", "Animación", "Familiar"]
+  },
+  {
+    "title": "El Rey Mono",
+    "description": "Película animada 3D basada en la leyenda china.",
+    "coverImage": "https://m.media-amazon.com/images/M/MV5BNWI3Y2IxMmYtYjY2Yi00Mzc3LWEzYWItODEwYmJmMTZjOTA2XkEyXkFqcGc@._V1_.jpg",
+    "video_url": "https://archive.org/download/la-leyenda-de-la-nahuala-completa-en-espanol-latino/EL%20REY%20MONO%20ANIMACI%C2%B4ON%203D%20PEL%C3%8DCULA%20COMPLETA%20ESPA%C3%91OL.ia.mp4",
+    "genre": ["Animación", "Fantasía", "Aventura"]
+  },
+  {
+    "title": "Viaje al Centro de la Tierra",
+    "description": "Aventura inspirada en la obra de Julio Verne.",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeex6mS9OJcqr440Ydsc4TCb0EY0BqOlv1ZNiF3vivCw&s=10",
+    "video_url": "https://archive.org/download/la-leyenda-de-la-nahuala-completa-en-espanol-latino/Viaje%20al%20Centro%20de%20la%20Tierra.ia.mp4",
+    "genre": ["Aventura", "Fantasía"]
+  },
+  {
+    "title": "El Club de las Divorciadas (1996)",
+    "description": "Comedia clásica de 1996.",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5eakR2xbAx9QnaHWdIHcCBGiH-aTgVsy5mI3ezHbnSg&s=10",
+    "video_url": "https://archive.org/download/los-cr-00ds-2013-audio-espanol/El%20club%20de%20las%20divorciadas%20%281996%29.mp4",
+    "genre": ["Comedia"]
+  },
+  {
+    "title": "Como Si Fuera la Primera Vez",
+    "description": "Clásica comedia romántica con Adam Sandler y Drew Barrymore.",
+    "coverImage": "https://pics.filmaffinity.com/como_si_fuera_la_primera_vez-398210625-large.jpg",
+    "video_url": "https://archive.org/download/los-cr-00ds-2013-audio-espanol/Como%20si%20fuera%20la%20primera%20vez%20%282004%29.mp4",
+    "genre": ["Romance", "Comedia"]
+  },
+  {
+    "title": "El Principito (2015)",
+    "description": "Adaptación animada del famoso libro.",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9Bp7Zuc9Zg_4e9fCPQlm-GAQFTVJz8BmI3nOIWqQeSQ&s=10",
+    "video_url": "https://archive.org/download/los-cr-00ds-2013-audio-espanol/El%20Principito%20%282015%29.mp4",
+    "genre": ["Animación", "Fantasía"]
+  },
+  {
+    "title": "Narnia: El León, la Bruja y el Ropero",
+    "description": "Primera entrega de la saga Narnia.",
+    "coverImage": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUTExMWFhUXGRgY...",
+    "video_url": "https://archive.org/download/los-cr-00ds-2013-audio-espanol/Narnia%20El%20leo%CC%81n%2C%20la%20bruja%20y%20el%20ropero.ia.mp4",
+    "genre": ["Fantasía", "Aventura"]
+  },
+  
 {
   "title": "Breaking Bad Temporada 1",
   "description": "Un profesor de química con cáncer terminal comienza a fabricar metanfetamina para asegurar el futuro económico de su familia, desatando una cadena de consecuencias peligrosas.",
