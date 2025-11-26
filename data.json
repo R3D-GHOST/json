@@ -1,5 +1,26 @@
 [
 
+{
+  "title": "El Invencible",
+  "description": "Un hombre marcado por la tragedia decide tomar justicia por su mano, enfrentándose a enemigos que subestiman su fuerza y determinación.",
+  "coverImage": "https://m.media-amazon.com/images/M/MV5BYTEzM2VhYWYtMzgwMS00MzUyLTk2MWUtZGRlMjk0Mjk5ZDUzXkEyXkFqcGc@._V1_QL75_UX140_CR0,1,140,207_.jpg",
+  "video_url": "https://archive.org/download/el-invencible_202501/El%20Invencible.mp4",
+  "genre": ["Acción", "Suspenso"]
+},
+{
+  "title": "Machete",
+  "description": "Después de ser traicionado, un ex-agente federal busca venganza utilizando cualquier arma a su alcance.",
+  "coverImage": "https://es.web.img3.acsta.net/medias/nmedia/18/78/01/78/20235294.jpg",
+  "video_url": "https://archive.org/download/el-invencible_202501/Machete%201.mp4",
+  "genre": ["Acción", "Crimen"]
+},
+{
+  "title": "Machete 2",
+  "description": "Machete regresa para enfrentar una nueva misión extrema: detener a un villano que amenaza al mundo entero.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt3HG_-5ChRVEtFHPc34O6WZyO0VJQEax5O7drFwtLsQ&s=10",
+  "video_url": "https://archive.org/download/el-invencible_202501/Machete%202.mp4",
+  "genre": ["Acción", "Crimen"]
+},
 
 
 
