@@ -1,6 +1,22 @@
 
 
 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwXD4l9RP0onZYqHdZLg-0F-cZIoIEcUsm4nXabGBuKw&s=10", TNT SPORT PREMIUM 
+http://177.234.230.206:8011/play/a00w/index.m3u8
+
+
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzavT0bpxMWw6ewriQNih7EDEjgYLd4GbK6pkJr0NSvQ&s=10", ESPN Premiun
+http://177.234.230.206:8011/play/a0fh/index.m3u8
+
+
+
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCO1_nxZd8wyTFhRf2UuVqJEhmIVrK4oeougiPCaxpuw&s=10", Comedi Central
+http://177.234.230.206:8011/play/a09j/index.m3u8
+
+
+
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROEKJAdVd3ToQnXFj6cGvaE5vOLFmSMEB0I7ylDIqVtg&s=10", ESPN
 http://177.234.230.206:8011/play/a0fe/index.m3u8
 
