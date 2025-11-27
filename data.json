@@ -1,5 +1,163 @@
 [
 
+  {
+  "title": "The Rising of the Shield Hero",
+  "description": "Naofumi Iwatani es invocado a un mundo paralelo como uno de los Cuatro Héroes Cardinales. Traicionado desde el inicio, debe levantarse como el Héroe del Escudo mientras enfrenta oleadas de monstruos y supera la injusticia que lo rodea.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFzHUog-Xa7Zt4DKwCzO60PQmef1FFouf2C1rkXdI14w&s=10",
+  "genre": ["Acción", "Aventura", "Fantasía", "Isekai"],
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "The Rising of the Shield Hero - Episodio 1",
+      "video_url": "https://archive.org/download/4-5931392261462955614/4_5931392261462955614.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFzHUog-Xa7Zt4DKwCzO60PQmef1FFouf2C1rkXdI14w&s=10"
+    },
+    {
+      "episode": 2,
+      "title": "The Rising of the Shield Hero - Episodio 2",
+      "video_url": "https://archive.org/download/4-5931392261462955614/4_5931392261462955615.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFzHUog-Xa7Zt4DKwCzO60PQmef1FFouf2C1rkXdI14w&s=10"
+    },
+    {
+      "episode": 3,
+      "title": "The Rising of the Shield Hero - Episodio 3",
+      "video_url": "https://archive.org/download/4-5931392261462955614/4_5931392261462955616.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFzHUog-Xa7Zt4DKwCzO60PQmef1FFouf2C1rkXdI14w&s=10"
+    },
+    {
+      "episode": 4,
+      "title": "The Rising of the Shield Hero - Episodio 4",
+      "video_url": "https://archive.org/download/4-5931392261462955614/4_5931392261462955617.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFzHUog-Xa7Zt4DKwCzO60PQmef1FFouf2C1rkXdI14w&s=10"
+    },
+    {
+      "episode": 5,
+      "title": "The Rising of the Shield Hero - Episodio 5",
+      "video_url": "https://archive.org/download/4-5931392261462955614/4_5931392261462955618.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFzHUog-Xa7Zt4DKwCzO60PQmef1FFouf2C1rkXdI14w&s=10"
+    },
+    {
+      "episode": 6,
+      "title": "The Rising of the Shield Hero - Episodio 6",
+      "video_url": "https://archive.org/download/4-5931392261462955614/4_5931392261462955619.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFzHUog-Xa7Zt4DKwCzO60PQmef1FFouf2C1rkXdI14w&s=10"
+    },
+    {
+      "episode": 7,
+      "title": "The Rising of the Shield Hero - Episodio 7",
+      "video_url": "https://archive.org/download/4-5931392261462955614/4_5931392261462955620.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFzHUog-Xa7Zt4DKwCzO60PQmef1FFouf2C1rkXdI14w&s=10"
+    },
+    {
+      "episode": 8,
+      "title": "The Rising of the Shield Hero - Episodio 8",
+      "video_url": "https://archive.org/download/4-5931392261462955614/4_5931392261462955622.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFzHUog-Xa7Zt4DKwCzO60PQmef1FFouf2C1rkXdI14w&s=10"
+    },
+    {
+      "episode": 9,
+      "title": "The Rising of the Shield Hero - Episodio 9",
+      "video_url": "https://archive.org/download/4-5931392261462955614/4_5931392261462955623.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFzHUog-Xa7Zt4DKwCzO60PQmef1FFouf2C1rkXdI14w&s=10"
+    },
+    {
+      "episode": 10,
+      "title": "The Rising of the Shield Hero - Episodio 10",
+      "video_url": "https://archive.org/download/4-5931392261462955614/4_5931392261462955624.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFzHUog-Xa7Zt4DKwCzO60PQmef1FFouf2C1rkXdI14w&s=10"
+    },
+    {
+      "episode": 11,
+      "title": "The Rising of the Shield Hero - Episodio 11",
+      "video_url": "https://archive.org/download/4-5931392261462955614/4_5931392261462955625.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFzHUog-Xa7Zt4DKwCzO60PQmef1FFouf2C1rkXdI14w&s=10"
+    },
+    {
+      "episode": 12,
+      "title": "The Rising of the Shield Hero - Episodio 12",
+      "video_url": "https://archive.org/download/4-5931392261462955614/4_5931392261462955626.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFzHUog-Xa7Zt4DKwCzO60PQmef1FFouf2C1rkXdI14w&s=10"
+    },
+    {
+      "episode": 13,
+      "title": "The Rising of the Shield Hero - Episodio 13",
+      "video_url": "https://archive.org/download/4-5931392261462955614/4_5931392261462955627.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFzHUog-Xa7Zt4DKwCzO60PQmef1FFouf2C1rkXdI14w&s=10"
+    },
+    {
+      "episode": 14,
+      "title": "The Rising of the Shield Hero - Episodio 14",
+      "video_url": "https://archive.org/download/4-5931392261462955614/4_5931392261462955628.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFzHUog-Xa7Zt4DKwCzO60PQmef1FFouf2C1rkXdI14w&s=10"
+    },
+    {
+      "episode": 15,
+      "title": "The Rising of the Shield Hero - Episodio 15",
+      "video_url": "https://archive.org/download/4-5931392261462955614/4_5931392261462955629.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFzHUog-Xa7Zt4DKwCzO60PQmef1FFouf2C1rkXdI14w&s=10"
+    },
+    {
+      "episode": 16,
+      "title": "The Rising of the Shield Hero - Episodio 16",
+      "video_url": "https://archive.org/download/4-5931392261462955614/4_5931392261462955630.mp4",
+      "img": "https://encrypted-tbn0_gshared2.gstatic.com/images?q=tbn:ANd9GcSFzHUog-Xa7Zt4DKwCzO60PQmef1FFouf2C1rkXdI14w&s=10"
+    },
+    {
+      "episode": 17,
+      "title": "The Rising of the Shield Hero - Episodio 17",
+      "video_url": "https://archive.org/download/4-5931392261462955614/4_5931392261462955631.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFzHUog-Xa7Zt4DKwCzO60PQmef1FFouf2C1rkXdI14w&s=10"
+    },
+    {
+      "episode": 18,
+      "title": "The Rising of the Shield Hero - Episodio 18",
+      "video_url": "https://archive.org/download/4-5931392261462955614/4_5931392261462955632.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFzHUog-Xa7Zt4DKwCzO60PQmef1FFouf2C1rkXdI14w&s=10"
+    },
+    {
+      "episode": 19,
+      "title": "The Rising of the Shield Hero - Episodio 19",
+      "video_url": "https://archive.org/download/4-5931392261462955614/4_5931392261462955633.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFzHUog-Xa7Zt4DKwCzO60PQmef1FFouf2C1rkXdI14w&s=10"
+    },
+    {
+      "episode": 20,
+      "title": "The Rising of the Shield Hero - Episodio 20",
+      "video_url": "https://archive.org/download/4-5931392261462955614/4_5931392261462955634.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFzHUog-Xa7Zt4DKwCzO60PQmef1FFouf2C1rkXdI14w&s=10"
+    },
+    {
+      "episode": 21,
+      "title": "The Rising of the Shield Hero - Episodio 21",
+      "video_url": "https://archive.org/download/4-5931392261462955614/4_5931392261462955635.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFzHUog-Xa7Zt4DKwCzO60PQmef1FFouf2C1rkXdI14w&s=10"
+    },
+    {
+      "episode": 22,
+      "title": "The Rising of the Shield Hero - Episodio 22",
+      "video_url": "https://archive.org/download/4-5931392261462955614/4_5931392261462955636.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFzHUog-Xa7Zt4DKwCzO60PQmef1FFouf2C1rkXdI14w&s=10"
+    },
+    {
+      "episode": 23,
+      "title": "The Rising of the Shield Hero - Episodio 23",
+      "video_url": "https://archive.org/download/4-5931392261462955614/4_5931392261462955638.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFzHUog-Xa7Zt4DKwCzO60PQmef1FFouf2C1rkXdI14w&s=10"
+    },
+    {
+      "episode": 24,
+      "title": "The Rising of the Shield Hero - Episodio 24",
+      "video_url": "https://archive.org/download/4-5931392261462955614/4_5931392261462955639.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFzHUog-Xa7Zt4DKwCzO60PQmef1FFouf2C1rkXdI14w&s=10"
+    },
+    {
+      "episode": 25,
+      "title": "The Rising of the Shield Hero - Episodio 25",
+      "video_url": "https://archive.org/download/4-5931392261462955614/4_5931392261462955640.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFzHUog-Xa7Zt4DKwCzO60PQmef1FFouf2C1rkXdI14w&s=10"
+    }
+  ]
+  },
 
 
 
