@@ -1,3 +1,20 @@
+
+
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROEKJAdVd3ToQnXFj6cGvaE5vOLFmSMEB0I7ylDIqVtg&s=10", ESPN
+http://177.234.230.206:8011/play/a0fe/index.m3u8
+
+
+
+
+
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjlYe25dv_PGDWk_yjy5azN3PcaSthztq20wFh1N1ksw&s=10", DAZN 2
+http://172.93.102.112:8989/278824_.m3u8
+
+
+
+
 #EXTINF:-1 tvg-id="ESBC43000013T" tvg-name="ESBC43000013T" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC43000013T_20241106T142336SQUARE.png" group-title="Telenovela" , Todo Novelas
 https://jmp2.uk/stvp-ESBC43000013T
 
