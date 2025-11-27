@@ -1,5 +1,83 @@
 [
 
+
+
+{
+  "title": "The Rising of the Shield Hero Temporada 2",
+  "description": "Naofumi, Raphtalia y Filo enfrentan nuevas amenazas mientras un misterioso Espíritu Tortuga amenaza con destruir el mundo. La temporada profundiza en conspiraciones, héroes de otros mundos y el verdadero origen de la destrucción.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbakxGcyalBi6TA5HYedM5ua-m7sCQISwUKU5bHzuOxw&s=10",
+  "genre": ["Acción", "Fantasía", "Aventura", "Isekai"],
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "Episodio 1",
+      "video_url": "https://archive.org/download/4-5951599288021686223/4_5951599288021686217.ia.mp4"
+    },
+    {
+      "episode": 2,
+      "title": "Episodio 2",
+      "video_url": "https://archive.org/download/4-5951599288021686223/4_5951599288021686219.ia.mp4"
+    },
+    {
+      "episode": 3,
+      "title": "Episodio 3",
+      "video_url": "https://archive.org/download/4-5951599288021686223/4_5951599288021686220.ia.mp4"
+    },
+    {
+      "episode": 4,
+      "title": "Episodio 4",
+      "video_url": "https://archive.org/download/4-5951599288021686223/4_5951599288021686221.ia.mp4"
+    },
+    {
+      "episode": 5,
+      "title": "Episodio 5",
+      "video_url": "https://archive.org/download/4-5951599288021686223/4_5951599288021686222.ia.mp4"
+    },
+    {
+      "episode": 6,
+      "title": "Episodio 6",
+      "video_url": "https://archive.org/download/4-5951599288021686223/4_5951599288021686223.ia.mp4"
+    },
+    {
+      "episode": 7,
+      "title": "Episodio 7",
+      "video_url": "https://archive.org/download/4-5951599288021686223/4_5951599288021686224.ia.mp4"
+    },
+    {
+      "episode": 8,
+      "title": "Episodio 8",
+      "video_url": "https://archive.org/download/4-5951599288021686223/4_5951599288021686225.ia.mp4"
+    },
+    {
+      "episode": 9,
+      "title": "Episodio 9",
+      "video_url": "https://archive.org/download/4-5951599288021686223/4_5951599288021686226.ia.mp4"
+    },
+    {
+      "episode": 10,
+      "title": "Episodio 10",
+      "video_url": "https://archive.org/download/4-5951599288021686223/4_5951599288021686227.ia.mp4"
+    },
+    {
+      "episode": 11,
+      "title": "Episodio 11",
+      "video_url": "https://archive.org/download/4-5951599288021686223/4_5951599288021686228.ia.mp4"
+    },
+    {
+      "episode": 12,
+      "title": "Episodio 12",
+      "video_url": "https://archive.org/download/4-5951599288021686223/4_5951599288021686229.ia.mp4"
+    },
+    {
+      "episode": 13,
+      "title": "Episodio 13",
+      "video_url": "https://archive.org/download/4-5951599288021686223/4_5951599288021686230.ia.mp4"
+    }
+  ]
+},
+
+
+  
   {
   "title": "The Flash Temporada 2",
   "description": "Barry Allen continúa su lucha contra nuevos metahumanos y amenazas provenientes de Tierras paralelas mientras asume las consecuencias del Agujero Negro.",
