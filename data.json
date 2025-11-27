@@ -1,5 +1,93 @@
 [
 
+
+  {
+  "title": "Breaking Bad Temporada 2",
+  "description": "Walter White continúa descendiendo en el mundo del crimen junto a Jesse Pinkman, enfrentándose a nuevas amenazas mientras su imperio de metanfetamina comienza a expandirse.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwOcTNcIMUeA1hwc7jMUYKDOdiMIMyqXj3EHqM8TOQRQ&s=10",
+  "genre": ["Drama", "Crimen", "Suspenso"],
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "Breaking Bad T2 - Episodio 1",
+      "video_url": "https://archive.org/download/1-5118858803533579151/1_4915965214190469864.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwOcTNcIMUeA1hwc7jMUYKDOdiMIMyqXj3EHqM8TOQRQ&s=10"
+    },
+    {
+      "episode": 2,
+      "title": "Breaking Bad T2 - Episodio 2",
+      "video_url": "https://archive.org/download/1-5118858803533579151/1_4915965214190469865.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwOcTNcIMUeA1hwc7jMUYKDOdiMIMyqXj3EHqM8TOQRQ&s=10"
+    },
+    {
+      "episode": 3,
+      "title": "Breaking Bad T2 - Episodio 3",
+      "video_url": "https://archive.org/download/1-5118858803533579151/1_4915965214190469866.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwOcTNcIMUeA1hwc7jMUYKDOdiMIMyqXj3EHqM8TOQRQ&s=10"
+    },
+    {
+      "episode": 4,
+      "title": "Breaking Bad T2 - Episodio 4",
+      "video_url": "https://archive.org/download/1-5118858803533579151/1_4915965214190469867.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwOcTNcIMUeA1hwc7jMUYKDOdiMIMyqXj3EHqM8TOQRQ&s=10"
+    },
+    {
+      "episode": 5,
+      "title": "Breaking Bad T2 - Episodio 5",
+      "video_url": "https://archive.org/download/1-5118858803533579151/1_5091639736057988015.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwOcTNcIMUeA1hwc7jMUYKDOdiMIMyqXj3EHqM8TOQRQ&s=10"
+    },
+    {
+      "episode": 6,
+      "title": "Breaking Bad T2 - Episodio 6",
+      "video_url": "https://archive.org/download/1-5118858803533579151/1_5091639736057988016.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwOcTNcIMUeA1hwc7jMUYKDOdiMIMyqXj3EHqM8TOQRQ&s=10"
+    },
+    {
+      "episode": 7,
+      "title": "Breaking Bad T2 - Episodio 7",
+      "video_url": "https://archive.org/download/1-5118858803533579151/1_5118858803533579136.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwOcTNcIMUeA1hwc7jMUYKDOdiMIMyqXj3EHqM8TOQRQ&s=10"
+    },
+    {
+      "episode": 8,
+      "title": "Breaking Bad T2 - Episodio 8",
+      "video_url": "https://archive.org/download/1-5118858803533579151/1_5118858803533579137.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwOcTNcIMUeA1hwc7jMUYKDOdiMIMyqXj3EHqM8TOQRQ&s=10"
+    },
+    {
+      "episode": 9,
+      "title": "Breaking Bad T2 - Episodio 9",
+      "video_url": "https://archive.org/download/1-5118858803533579151/1_5118858803533579138.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwOcTNcIMUeA1hwc7jMUYKDOdiMIMyqXj3EHqM8TOQRQ&s=10"
+    },
+    {
+      "episode": 10,
+      "title": "Breaking Bad T2 - Episodio 10",
+      "video_url": "https://archive.org/download/1-5118858803533579151/1_5118858803533579141.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwOcTNcIMUeA1hwc7jMUYKDOdiMIMyqXj3EHqM8TOQRQ&s=10"
+    },
+    {
+      "episode": 11,
+      "title": "Breaking Bad T2 - Episodio 11",
+      "video_url": "https://archive.org/download/1-5118858803533579151/1_5118858803533579146.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwOcTNcIMUeA1hwc7jMUYKDOdiMIMyqXj3EHqM8TOQRQ&s=10"
+    },
+    {
+      "episode": 12,
+      "title": "Breaking Bad T2 - Episodio 12",
+      "video_url": "https://archive.org/download/1-5118858803533579151/1_5118858803533579147.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwOcTNcIMUeA1hwc7jMUYKDOdiMIMyqXj3EHqM8TOQRQ&s=10"
+    },
+    {
+      "episode": 13,
+      "title": "Breaking Bad T2 - Episodio 13",
+      "video_url": "https://archive.org/download/1-5118858803533579151/1_5118858803533579151.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwOcTNcIMUeA1hwc7jMUYKDOdiMIMyqXj3EHqM8TOQRQ&s=10"
+    }
+  ]
+  },
+
   {
   "title": "The Rising of the Shield Hero",
   "description": "Naofumi Iwatani es invocado a un mundo paralelo como uno de los Cuatro Héroes Cardinales. Traicionado desde el inicio, debe levantarse como el Héroe del Escudo mientras enfrenta oleadas de monstruos y supera la injusticia que lo rodea.",
