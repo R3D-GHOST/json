@@ -35,383 +35,339 @@ http://172.93.102.112:8989/278842_.m3u8
 
 
 
-#EXTM3U
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLx2X8z-gDXoTFyRTkmFBbf36LW-6dINojPyzf3WjF5Q&s=10" group-title="Deportes", Champions League 
-http://172.93.102.112:8989/278845_.m3u8
 
 
-#EXTINF:-1 tvg-id="IberaliaTV.es" tvg-name="ES: (HD) DAZN LALIGA" tvg-logo="https://docdog.top/logo/countries/spain/movistar/DAZN_LALIGA.png" group-title="ES | LALIGA",ES: (HD) DAZN LALIGA
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/25125
-#EXTINF:-1 tvg-id="IberaliaTV.es" tvg-name="ES: (HD REPUESTO) DAZN LALIGA" tvg-logo="https://docdog.top/logo/countries/spain/movistar/DAZN_LALIGA.png" group-title="ES | LALIGA",ES: (HD REPUESTO) DAZN LALIGA
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/57344
-#EXTINF:-1 tvg-id="" tvg-name="ES: (HD REPUESTO2) DAZN LALIGA" tvg-logo="https://docdog.top/logo/countries/spain/movistar/DAZN_LALIGA.png" group-title="ES | LALIGA",ES: (HD REPUESTO2) DAZN LALIGA
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/63431
-#EXTINF:-1 tvg-id="IberaliaTV.es" tvg-name="ES: (FHD) DAZN LALIGA" tvg-logo="https://docdog.top/logo/countries/spain/movistar/DAZN_LALIGA.png" group-title="ES | LALIGA",ES: (FHD) DAZN LALIGA
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/54668
-#EXTINF:-1 tvg-id="IberaliaTV.es" tvg-name="ES: (FHD REPUESTO) DAZN LALIGA" tvg-logo="https://docdog.top/logo/countries/spain/movistar/DAZN_LALIGA.png" group-title="ES | LALIGA",ES: (FHD REPUESTO) DAZN LALIGA
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/57359
-#EXTINF:-1 tvg-id="DAZN LaLiga 2" tvg-name="ES: DAZN LALIGA 2" tvg-logo="https://docdog.top/logo/countries/spain/movistar/DAZN_LALIGA_2.png" group-title="ES | LALIGA",ES: DAZN LALIGA 2
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/57476
-#EXTINF:-1 tvg-id="IberaliaTV.es" tvg-name="ES: (HD) M+ LALIGA" tvg-logo="https://docdog.top/logo/countries/spain/movistar/M_LALIGA_TV_NEW.png" group-title="ES | LALIGA",ES: (HD) M+ LALIGA
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5758
-#EXTINF:-1 tvg-id="IberaliaTV.es" tvg-name="ES: (HD REPUESTO) M+ LALIGA" tvg-logo="https://docdog.top/logo/countries/spain/movistar/M_LALIGA_TV_NEW.png" group-title="ES | LALIGA",ES: (HD REPUESTO) M+ LALIGA
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/54535
-#EXTINF:-1 tvg-id="IberaliaTV.es" tvg-name="ES: (FHD) M+ LALIGA" tvg-logo="https://docdog.top/logo/countries/spain/movistar/M_LALIGA_TV_NEW.png" group-title="ES | LALIGA",ES: (FHD) M+ LALIGA
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/54532
-#EXTINF:-1 tvg-id="MLaLiga.es" tvg-name="ES: (FHD REPUESTO) M+ LALIGA" tvg-logo="https://docdog.top/logo/countries/spain/movistar/M_LALIGA_TV_NEW.png" group-title="ES | LALIGA",ES: (FHD REPUESTO) M+ LALIGA
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/57362
-#EXTINF:-1 tvg-id="" tvg-name="ES: M+ COPA DEL REY" tvg-logo="https://docdog.top/logo/countries/spain/movistar/M_COPA_DEL_REY.png" group-title="ES | LALIGA",ES: M+ COPA DEL REY
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/58303
-#EXTINF:-1 tvg-id="DAZN F1" tvg-name="ES: (HD) DAZN F1" tvg-logo="https://docdog.top/logo/countries/spain/movistar/DAZN_F1.png" group-title="ES | DEPORTES",ES: (HD) DAZN F1
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/57485
-#EXTINF:-1 tvg-id="DAZN F1" tvg-name="ES: (HD REPUESTO) DAZN F1" tvg-logo="https://docdog.top/logo/countries/spain/movistar/DAZN_F1.png" group-title="ES | DEPORTES",ES: (HD REPUESTO) DAZN F1
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/57484
-#EXTINF:-1 tvg-id="DAZN F1" tvg-name="ES: (FHD) DAZN F1" tvg-logo="https://docdog.top/logo/countries/spain/movistar/DAZN_F1.png" group-title="ES | DEPORTES",ES: (FHD) DAZN F1
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/57486
-#EXTINF:-1 tvg-id="DAZN F1" tvg-name="ES: (FHD REPUESTO) DAZN F1" tvg-logo="https://docdog.top/logo/countries/spain/movistar/DAZN_F1.png" group-title="ES | DEPORTES",ES: (FHD REPUESTO) DAZN F1
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/57483
-#EXTINF:-1 tvg-id="IberaliaTV.es" tvg-name="ES: (HD) M+ LIGA DE CAMPEONES" tvg-logo="https://docdog.top/logo/countries/spain/movistar/M_Liga_de_Campeones.png" group-title="ES | UEFA Liga de Campeones",ES: (HD) M+ LIGA DE CAMPEONES
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/57560
-#EXTINF:-1 tvg-id="IberaliaTV.es" tvg-name="ES: (HD REPUESTO) M+ LIGA DE CAMPEONES" tvg-logo="https://docdog.top/logo/countries/spain/movistar/M_Liga_de_Campeones.png" group-title="ES | UEFA Liga de Campeones",ES: (HD REPUESTO) M+ LIGA DE CAMPEONES
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/57356
-#EXTINF:-1 tvg-id="IberaliaTV.es" tvg-name="ES: (FHD) M+ LIGA DE CAMPEONES" tvg-logo="https://docdog.top/logo/countries/spain/movistar/M_Liga_de_Campeones.png" group-title="ES | UEFA Liga de Campeones",ES: (FHD) M+ LIGA DE CAMPEONES
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/54531
-#EXTINF:-1 tvg-id="IberaliaTV.es" tvg-name="ES: (FHD REPUESTO) M+ LIGA DE CAMPEONES" tvg-logo="https://docdog.top/logo/countries/spain/movistar/M_Liga_de_Campeones.png" group-title="ES | UEFA Liga de Campeones",ES: (FHD REPUESTO) M+ LIGA DE CAMPEONES
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/57363
-#EXTINF:-1 tvg-id="IberaliaTV.es" tvg-name="ES: (SD) M+ LIGA DE CAMPEONES" tvg-logo="https://docdog.top/logo/countries/spain/movistar/M_Liga_de_Campeones.png" group-title="ES | UEFA Liga de Campeones",ES: (SD) M+ LIGA DE CAMPEONES
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/57367
-#EXTINF:-1 tvg-id="" tvg-name="ES: (HD) M+ LIGA DE CAMPEONES 2" tvg-logo="https://docdog.top/logo/countries/spain/movistar/M_Liga_de_Campeones_2.png" group-title="ES | UEFA Liga de Campeones",ES: (HD) M+ LIGA DE CAMPEONES 2
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/58115
-#EXTINF:-1 tvg-id="0" tvg-name="ES: (FHD) M+ LIGA DE CAMPEONES 2" tvg-logo="https://docdog.top/logo/countries/spain/movistar/M_Liga_de_Campeones_2.png" group-title="ES | UEFA Liga de Campeones",ES: (FHD) M+ LIGA DE CAMPEONES 2
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5663
-#EXTINF:-1 tvg-id="" tvg-name="ES: (HD) M+ LIGA DE CAMPEONES 3" tvg-logo="https://docdog.top/logo/countries/spain/movistar/M_Liga_de_Campeones_3.png" group-title="ES | UEFA Liga de Campeones",ES: (HD) M+ LIGA DE CAMPEONES 3
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/58116
-#EXTINF:-1 tvg-id="0" tvg-name="ES: (FHD) M+ LIGA DE CAMPEONES 3" tvg-logo="https://docdog.top/logo/countries/spain/movistar/M_Liga_de_Campeones_3.png" group-title="ES | UEFA Liga de Campeones",ES: (FHD) M+ LIGA DE CAMPEONES 3
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5664
-#EXTINF:-1 tvg-id="IberaliaTV.es" tvg-name="ES: M+ LIGA DE CAMPEONES 4" tvg-logo="https://docdog.top/logo/countries/spain/movistar/M_Liga_de_Campeones_4.png" group-title="ES | UEFA Liga de Campeones",ES: M+ LIGA DE CAMPEONES 4
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5665
-#EXTINF:-1 tvg-id="es.MULTIFUT. 5" tvg-name="ES: M+ LIGA DE CAMPEONES 5" tvg-logo="https://docdog.top/logo/countries/spain/movistar/M_Liga_de_Campeones_5.png" group-title="ES | UEFA Liga de Campeones",ES: M+ LIGA DE CAMPEONES 5
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5666
-#EXTINF:-1 tvg-id="es.Multifútbol 6" tvg-name="ES: M+ LIGA DE CAMPEONES 6" tvg-logo="https://docdog.top/logo/countries/spain/movistar/M_Liga_de_Campeones_6.png" group-title="ES | UEFA Liga de Campeones",ES: M+ LIGA DE CAMPEONES 6
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5667
-#EXTINF:-1 tvg-id="es.Multifútbol 7" tvg-name="ES: M+ LIGA DE CAMPEONES 7" tvg-logo="https://docdog.top/logo/countries/spain/movistar/M_Liga_de_Campeones_7.png" group-title="ES | UEFA Liga de Campeones",ES: M+ LIGA DE CAMPEONES 7
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5668
-#EXTINF:-1 tvg-id="es.Multifútbol 8" tvg-name="ES: M+ LIGA DE CAMPEONES 8" tvg-logo="https://docdog.top/logo/countries/spain/movistar/M_Liga_de_Campeones_8.png" group-title="ES | UEFA Liga de Campeones",ES: M+ LIGA DE CAMPEONES 8
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5669
-#EXTINF:-1 tvg-id="LigaCampe9" tvg-name="ES: M+ LIGA DE CAMPEONES 9" tvg-logo="https://docdog.top/logo/countries/spain/movistar/M_Liga_de_Campeones_9.png" group-title="ES | UEFA Liga de Campeones",ES: M+ LIGA DE CAMPEONES 9
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5670
-#EXTINF:-1 tvg-id="LigaCampe10" tvg-name="ES: M+ LIGA DE CAMPEONES 10" tvg-logo="https://docdog.top/logo/countries/spain/movistar/M_Liga_de_Campeones_10.png" group-title="ES | UEFA Liga de Campeones",ES: M+ LIGA DE CAMPEONES 10
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5685
-#EXTINF:-1 tvg-id="LigaCampe11" tvg-name="ES: M+ LIGA DE CAMPEONES 11" tvg-logo="https://docdog.top/logo/countries/spain/movistar/M_Liga_de_Campeones_11.png" group-title="ES | UEFA Liga de Campeones",ES: M+ LIGA DE CAMPEONES 11
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5686
-#EXTINF:-1 tvg-id="LigaCampe12" tvg-name="ES: M+ LIGA DE CAMPEONES 12" tvg-logo="https://docdog.top/logo/countries/spain/movistar/M_Liga_de_Campeones_12.png" group-title="ES | UEFA Liga de Campeones",ES: M+ LIGA DE CAMPEONES 12
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5687
-#EXTINF:-1 tvg-id="LigaCampe13" tvg-name="ES: M+ LIGA DE CAMPEONES 13" tvg-logo="https://docdog.top/logo/countries/spain/movistar/M_Liga_de_Campeones_13.png" group-title="ES | UEFA Liga de Campeones",ES: M+ LIGA DE CAMPEONES 13
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/29360
-#EXTINF:-1 tvg-id="IberaliaTV.es" tvg-name="ES: (FHD) DAZN 1" tvg-logo="https://docdog.top/logo/countries/spain/movistar/DAZN_1.png" group-title="ES | DEPORTES",ES: (FHD) DAZN 1
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5589
-#EXTINF:-1 tvg-id="IberaliaTV.es" tvg-name="ES: (HD) DAZN 1" tvg-logo="https://docdog.top/logo/countries/spain/movistar/DAZN_1.png" group-title="ES | DEPORTES",ES: (HD) DAZN 1
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/57475
-#EXTINF:-1 tvg-id="0" tvg-name="ES: DAZN 2" tvg-logo="https://docdog.top/logo/countries/spain/movistar/DAZN_2.png" group-title="ES | DEPORTES",ES: DAZN 2
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5590
-#EXTINF:-1 tvg-id="DAZN 3" tvg-name="ES: DAZN 3" tvg-logo="https://docdog.top/logo/countries/spain/movistar/DAZN_3.png" group-title="ES | DEPORTES",ES: DAZN 3
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5591
-#EXTINF:-1 tvg-id="DAZN 4" tvg-name="ES: DAZN 4" tvg-logo="https://docdog.top/logo/countries/spain/movistar/DAZN_4.png" group-title="ES | DEPORTES",ES: DAZN 4
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5592
-#EXTINF:-1 tvg-id="IberaliaTV.es" tvg-name="ES: (FHD) M+ LALIGA TV BAR" tvg-logo="https://docdog.top/logo/countries/spain/movistar/laligabares.png" group-title="ES | LALIGA",ES: (FHD) M+ LALIGA TV BAR
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5661
-#EXTINF:-1 tvg-id="LaLiga SmartbankTV" tvg-name="ES: LALIGA TV HYPERMOTION" tvg-logo="https://docdog.top/logo/countries/spain/movistar/LALIGA_TV_HYPERMOTION.png" group-title="ES | LALIGA",ES: LALIGA TV HYPERMOTION
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/25128
-#EXTINF:-1 tvg-id="LaLiga SmartbankTV 2" tvg-name="ES: LALIGA TV HYPERMOTION 2" tvg-logo="https://docdog.top/logo/countries/spain/movistar/LALIGA_TV_HYPERMOTION_2.png" group-title="ES | LALIGA",ES: LALIGA TV HYPERMOTION 2
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/25953
-#EXTINF:-1 tvg-id="LaLiga SmartbankTV 3" tvg-name="ES: LALIGA TV HYPERMOTION 3" tvg-logo="https://docdog.top/logo/countries/spain/movistar/LALIGA_TV_HYPERMOTION_3.png" group-title="ES | LALIGA",ES: LALIGA TV HYPERMOTION 3
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/25954
-#EXTINF:-1 tvg-id="0" tvg-name="ES: (FHD) M+ LALIGA TV 3" tvg-logo="https://docdog.top/logo/countries/spain/movistar/M_LALIGA_TV_3_NEW.png" group-title="ES | LALIGA",ES: (FHD) M+ LALIGA TV 3
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5652
-#EXTINF:-1 tvg-id="IberaliaTV.es" tvg-name="ES: (FHD) M+ LALIGA TV 2" tvg-logo="https://docdog.top/logo/countries/spain/movistar/M_LALIGA_TV_2_NEW.png" group-title="ES | LALIGA",ES: (FHD) M+ LALIGA TV 2
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5651
-#EXTINF:-1 tvg-id="0" tvg-name="ES: M+ LALIGA TV 4" tvg-logo="https://docdog.top/logo/countries/spain/movistar/M_LALIGA_TV_4_NEW.png" group-title="ES | LALIGA",ES: M+ LALIGA TV 4
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/57248
-#EXTINF:-1 tvg-id="IberaliaTV.es" tvg-name="ES: (FHD) M+ DEPORTES" tvg-logo="https://docdog.top/logo/countries/spain/movistar/M_Deportes.png" group-title="ES | DEPORTES",ES: (FHD) M+ DEPORTES
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5643
-#EXTINF:-1 tvg-id="es.MultiDeporte" tvg-name="ES: (HD) M+ DEPORTES" tvg-logo="https://docdog.top/logo/countries/spain/movistar/M_Deportes.png" group-title="ES | DEPORTES",ES: (HD) M+ DEPORTES
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/57481
-#EXTINF:-1 tvg-id="IberaliaTV.es" tvg-name="ES: M+ DEPORTES 2" tvg-logo="https://docdog.top/logo/countries/spain/movistar/M_Deportes_2.png" group-title="ES | DEPORTES",ES: M+ DEPORTES 2
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5639
-#EXTINF:-1 tvg-id="M.Deportes3.es" tvg-name="ES: M+ DEPORTES 3" tvg-logo="https://docdog.top/logo/countries/spain/movistar/M_Deportes_3.png" group-title="ES | DEPORTES",ES: M+ DEPORTES 3
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5640
-#EXTINF:-1 tvg-id="M.Deportes4.es" tvg-name="ES: M+ DEPORTES 4" tvg-logo="https://docdog.top/logo/countries/spain/movistar/M_Deportes_4.png" group-title="ES | DEPORTES",ES: M+ DEPORTES 4
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5641
-#EXTINF:-1 tvg-id="M+ Deportes 5" tvg-name="ES: M+ DEPORTES 5" tvg-logo="https://docdog.top/logo/countries/spain/movistar/M_Deportes_5.png" group-title="ES | DEPORTES",ES: M+ DEPORTES 5
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5681
-#EXTINF:-1 tvg-id="M+ Deportes 6" tvg-name="ES: M+ DEPORTES 6" tvg-logo="https://docdog.top/logo/countries/spain/movistar/M_Deportes_6.png" group-title="ES | DEPORTES",ES: M+ DEPORTES 6
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5682
-#EXTINF:-1 tvg-id="M+ Deportes 7" tvg-name="ES: M+ DEPORTES 7" tvg-logo="https://docdog.top/logo/countries/spain/movistar/M_Deportes_7.png" group-title="ES | DEPORTES",ES: M+ DEPORTES 7
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5683
-#EXTINF:-1 tvg-id="IberaliaTV.es" tvg-name="ES: EUROSPORT 1" tvg-logo="https://docdog.top/logo/countries/spain/movistar/Eurosport_1.png" group-title="ES | DEPORTES",ES: EUROSPORT 1
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5607
-#EXTINF:-1 tvg-id="Eurosport2.es" tvg-name="ES: EUROSPORT 2" tvg-logo="https://docdog.top/logo/countries/spain/movistar/Eurosport_2.png" group-title="ES | DEPORTES",ES: EUROSPORT 2
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5608
-#EXTINF:-1 tvg-id="IberaliaTV.es" tvg-name="ES: (FHD) M+ VAMOS" tvg-logo="https://docdog.top/logo/countries/spain/movistar/M_Vamos.png" group-title="ES | DEPORTES",ES: (FHD) M+ VAMOS
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5630
-#EXTINF:-1 tvg-id="" tvg-name="ES: (LÍNEA 1) ONETORO" tvg-logo="https://docdog.top/logo/countries/spain/movistar/one_toro.png" group-title="ES | TOROS",ES: (LÍNEA 1) ONETORO
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/55943
-#EXTINF:-1 tvg-id="" tvg-name="ES: TOROLE TV" tvg-logo="https://docdog.top/logo/countries/spain/movistar/torole_tv.png" group-title="ES | TOROS",ES: TOROLE TV
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/56009
-#EXTINF:-1 tvg-id="" tvg-name="ES: (LÍNEA 2) ONETORO" tvg-logo="https://docdog.top/logo/countries/spain/movistar/one_toro.png" group-title="ES | TOROS",ES: (LÍNEA 2) ONETORO
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/56010
-#EXTINF:-1 tvg-id="" tvg-name="ES: ESPN DEPORTES" tvg-logo="https://docdog.top/logo/countries/spain/movistar/ESPN_DEPORTES.png" group-title="ES | DEPORTES",ES: ESPN DEPORTES
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5605
-#EXTINF:-1 tvg-id="Bar?a TV" tvg-name="ES: BARCA TV" tvg-logo="https://docdog.top/logo/countries/spain/barca-tv-es.png" group-title="ES | DEPORTES",ES: BARCA TV
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5560
-#EXTINF:-1 tvg-id="0" tvg-name="ES: REAL MADRID TV" tvg-logo="https://docdog.top/logo/countries/spain/movistar/Real_Madrid_TV.png" group-title="ES | DEPORTES",ES: REAL MADRID TV
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5729
-#EXTINF:-1 tvg-id="Betis TV" tvg-name="ES: BETIS TV" tvg-logo="https://docdog.top/logo/countries/spain/movistar/BETISTV.png" group-title="ES | DEPORTES",ES: BETIS TV
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/57269
-#EXTINF:-1 tvg-id="M+ Ellas #V" tvg-name="ES: M+ ELLAS V" tvg-logo="https://docdog.top/logo/countries/spain/movistar/M_Ellas_V.png" group-title="ES | DEPORTES",ES: M+ ELLAS V
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/29333
-#EXTINF:-1 tvg-id="Teledeporte.es" tvg-name="ES: TELEDEPORTE" tvg-logo="https://docdog.top/logo/countries/spain/movistar/Teledeporte.png" group-title="ES | DEPORTES",ES: TELEDEPORTE
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5735
-#EXTINF:-1 tvg-id="GOL.es" tvg-name="ES: GOL PLAY" tvg-logo="https://docdog.top/logo/countries/spain/movistar/GOL_PLAY.png" group-title="ES | DEPORTES",ES: GOL PLAY
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5617
-#EXTINF:-1 tvg-id="MovistarGolf.es" tvg-name="ES: M+ GOLF" tvg-logo="https://docdog.top/logo/countries/spain/movistar/M_Golf.png" group-title="ES | DEPORTES",ES: M+ GOLF
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5649
-#EXTINF:-1 tvg-id="Telecinco.es" tvg-name="ES: TELECINCO" tvg-logo="https://docdog.top/logo/countries/spain/movistar/Telecinco.png" group-title="ES | GENERAL",ES: TELECINCO
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5734
-#EXTINF:-1 tvg-id="IberaliaTV.es" tvg-name="ES: LA 1" tvg-logo="https://docdog.top/logo/countries/spain/movistar/LA_1.png" group-title="ES | GENERAL",ES: LA 1
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5622
-#EXTINF:-1 tvg-id="LA2.es" tvg-name="ES: LA 2" tvg-logo="https://docdog.top/logo/countries/spain/movistar/LA_2.png" group-title="ES | GENERAL",ES: LA 2
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5623
-#EXTINF:-1 tvg-id="Antena3.es" tvg-name="ES: ANTENA 3" tvg-logo="https://docdog.top/logo/countries/spain/movistar/Antena_3.png" group-title="ES | GENERAL",ES: ANTENA 3
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5555
-#EXTINF:-1 tvg-id="LaSexta.es" tvg-name="ES: LA SEXTA" tvg-logo="https://docdog.top/logo/countries/spain/movistar/La_Sexta.png" group-title="ES | GENERAL",ES: LA SEXTA
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5625
-#EXTINF:-1 tvg-id="Cuatro.es" tvg-name="ES: CUATRO" tvg-logo="https://docdog.top/logo/countries/spain/movistar/Cuatro.png" group-title="ES | GENERAL",ES: CUATRO
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5588
-#EXTINF:-1 tvg-id="Factoria de Ficcion" tvg-name="ES: FACTORÍA DE FICCIÓN" tvg-logo="https://docdog.top/logo/countries/spain/movistar/Factoria_de_Ficcion.png" group-title="ES | GENERAL",ES: FACTORÍA DE FICCIÓN
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5611
-#EXTINF:-1 tvg-id="Nova.es" tvg-name="ES: NOVA" tvg-logo="https://docdog.top/logo/countries/spain/movistar/Nova.png" group-title="ES | GENERAL",ES: NOVA
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5723
-#EXTINF:-1 tvg-id="Energy.es" tvg-name="ES: ENERGY" tvg-logo="https://docdog.top/logo/countries/spain/movistar/Energy.png" group-title="ES | GENERAL",ES: ENERGY
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5603
-#EXTINF:-1 tvg-id="TRECE" tvg-name="ES: TRECE" tvg-logo="https://docdog.top/logo/countries/spain/movistar/TRECE.png" group-title="ES | GENERAL",ES: TRECE
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5741
-#EXTINF:-1 tvg-id="24Horas.es" tvg-name="ES: 24 HORAS" tvg-logo="https://docdog.top/logo/countries/spain/movistar/24_Horas.png" group-title="ES | GENERAL",ES: 24 HORAS
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5550
-#EXTINF:-1 tvg-id="AMC" tvg-name="ES: AMC" tvg-logo="https://docdog.top/logo/countries/spain/movistar/AMC.png" group-title="ES | ENTRETENIMIENTO",ES: AMC
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5553
-#EXTINF:-1 tvg-id="Aragon TV" tvg-name="ES: ARAGÓN TV INT" tvg-logo="https://docdog.top/logo/countries/spain/movistar/Aragon_TV_Int.png" group-title="ES | REGIONALES",ES: ARAGÓN TV INT
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5556
-#EXTINF:-1 tvg-id="AXN.es" tvg-name="ES: AXN" tvg-logo="https://docdog.top/logo/countries/spain/movistar/AXN.png" group-title="ES | CINE & SERIES",ES: AXN
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5557
-#EXTINF:-1 tvg-id="AXNWhite.es" tvg-name="ES: AXN MOVIES" tvg-logo="https://docdog.top/logo/countries/spain/movistar/AXN_Movies.png" group-title="ES | CINE & SERIES",ES: AXN MOVIES
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5558
-#EXTINF:-1 tvg-id="BE MAD" tvg-name="ES: BE MAD" tvg-logo="https://docdog.top/logo/countries/spain/movistar/BE_MAD.png" group-title="ES | CINE & SERIES",ES: BE MAD
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5561
-#EXTINF:-1 tvg-id="Blaze.es" tvg-name="ES: AMC BREAK" tvg-logo="https://docdog.top/logo/countries/spain/movistar/AMC_BREAK.png" group-title="ES | ENTRETENIMIENTO",ES: AMC BREAK
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5564
-#EXTINF:-1 tvg-id="Calle13.es" tvg-name="ES: CALLE 13" tvg-logo="https://docdog.top/logo/countries/spain/movistar/Calle_13.png" group-title="ES | CINE & SERIES",ES: CALLE 13
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5567
-#EXTINF:-1 tvg-id="0" tvg-name="ES: CANAL COCINA" tvg-logo="https://docdog.top/logo/countries/spain/movistar/Canal_Cocina.png" group-title="ES | ENTRETENIMIENTO",ES: CANAL COCINA
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5570
-#EXTINF:-1 tvg-id="IberaliaTV.es" tvg-name="ES: MOVISTAR PLUS+" tvg-logo="https://docdog.top/logo/countries/spain/movistar/MPLUS.png" group-title="ES | CULTURA",ES: MOVISTAR PLUS+
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/57285
-#EXTINF:-1 tvg-id="CanalDecasa.es" tvg-name="ES: CANAL DECASA" tvg-logo="https://docdog.top/logo/countries/spain/movistar/Canal_Decasa.png" group-title="ES | CULTURA",ES: CANAL DECASA
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5571
-#EXTINF:-1 tvg-id="IberaliaTV.es" tvg-name="ES: CANAL SUR ANDALUCÍA" tvg-logo="https://docdog.top/logo/countries/spain/movistar/Canal_Sur_Andalucia.png" group-title="ES | OTHERS",ES: CANAL SUR ANDALUCÍA
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5576
-#EXTINF:-1 tvg-id="0" tvg-name="ES: CAZA Y PESCA" tvg-logo="https://docdog.top/logo/countries/spain/movistar/CAZHD.png" group-title="ES | CULTURA",ES: CAZA Y PESCA
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5578
-#EXTINF:-1 tvg-id="ClanTVE.es" tvg-name="ES: CLAN TVE" tvg-logo="https://docdog.top/logo/countries/spain/movistar/Clan_TVE.png" group-title="ES | NINOS",ES: CLAN TVE
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5580
-#EXTINF:-1 tvg-id="ComedyCentral.es" tvg-name="ES: COMEDY CENTRAL" tvg-logo="https://docdog.top/logo/countries/spain/movistar/Comedy_Central.png" group-title="ES | ENTRETENIMIENTO",ES: COMEDY CENTRAL
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5584
-#EXTINF:-1 tvg-id="CosmopolitanHD.es" tvg-name="ES: COSMO" tvg-logo="https://docdog.top/logo/countries/spain/movistar/COSMO.png" group-title="ES | ENTRETENIMIENTO",ES: COSMO
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5585
-#EXTINF:-1 tvg-id="0" tvg-name="ES: DISCOVERY" tvg-logo="https://docdog.top/logo/countries/spain/movistar/Discovery.png" group-title="ES | CULTURA",ES: DISCOVERY
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5594
-#EXTINF:-1 tvg-id="BabyTV.es" tvg-name="ES: BABY TV" tvg-logo="https://docdog.top/logo/countries/spain/movistar/Baby_TV.png" group-title="ES | NINOS",ES: BABY TV
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5559
-#EXTINF:-1 tvg-id="Boing.es" tvg-name="ES: BOING" tvg-logo="https://docdog.top/logo/countries/spain/movistar/Boing.png" group-title="ES | NINOS",ES: BOING
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5565
-#EXTINF:-1 tvg-id="Disney Channel" tvg-name="ES: DISNEY CHANNEL" tvg-logo="https://docdog.top/logo/countries/spain/movistar/Disney_Channel.png" group-title="ES | NINOS",ES: DISNEY CHANNEL
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5596
-#EXTINF:-1 tvg-id="DisneyJunior.es" tvg-name="ES: DISNEY JUNIOR" tvg-logo="https://docdog.top/logo/countries/spain/movistar/Disney_Junior.png" group-title="ES | NINOS",ES: DISNEY JUNIOR
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5597
-#EXTINF:-1 tvg-id="Dreamworks" tvg-name="ES: DREAMWORKS" tvg-logo="https://docdog.top/logo/countries/spain/movistar/Dreamworks.png" group-title="ES | NINOS",ES: DREAMWORKS
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5602
-#EXTINF:-1 tvg-id="NickJr.es" tvg-name="ES: NICK JR" tvg-logo="https://docdog.top/logo/countries/spain/movistar/NICK_JR.png" group-title="ES | NINOS",ES: NICK JR
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5720
-#EXTINF:-1 tvg-id="es.Nickelodeon" tvg-name="ES: NICKELODEON" tvg-logo="https://docdog.top/logo/countries/spain/movistar/Nickelodeon.png" group-title="ES | NINOS",ES: NICKELODEON
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5721
-#EXTINF:-1 tvg-id="Divinity.es" tvg-name="ES: DIVINITY" tvg-logo="https://docdog.top/logo/countries/spain/movistar/Divinity.png" group-title="ES | ENTRETENIMIENTO",ES: DIVINITY
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5599
-#EXTINF:-1 tvg-id="DKISS.es" tvg-name="ES: DKISS" tvg-logo="https://docdog.top/logo/countries/spain/movistar/DKISS.png" group-title="ES | ENTRETENIMIENTO",ES: DKISS
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5600
-#EXTINF:-1 tvg-id="Dmax.es" tvg-name="ES: DMAX" tvg-logo="https://docdog.top/logo/countries/spain/movistar/DMAX.png" group-title="ES | CULTURA",ES: DMAX
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5601
-#EXTINF:-1 tvg-id="Canal Extremadura" tvg-name="ES: CANAL EXTREMADURA SAT" tvg-logo="https://docdog.top/logo/countries/spain/movistar/Canal_Extremadura_Sat.png" group-title="ES | OTHERS",ES: CANAL EXTREMADURA SAT
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5609
-#EXTINF:-1 tvg-id="Fox.es" tvg-name="ES: STAR CHANNEL" tvg-logo="https://docdog.top/logo/countries/spain/movistar/STAR_Channel.png" group-title="ES | ENTRETENIMIENTO",ES: STAR CHANNEL
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5613
-#EXTINF:-1 tvg-id="0" tvg-name="ES: HISTORIA" tvg-logo="https://docdog.top/logo/countries/spain/movistar/Historia.png" group-title="ES | CULTURA",ES: HISTORIA
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5618
-#EXTINF:-1 tvg-id="IberaliaTV.es" tvg-name="ES: IBERALIA TV" tvg-logo="https://docdog.top/logo/countries/spain/movistar/Iberalia_TV.png" group-title="ES | CULTURA",ES: IBERALIA TV
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5621
-#EXTINF:-1 tvg-id="IberaliaTV.es" tvg-name="ES: M+ ACCIÓN" tvg-logo="https://docdog.top/logo/countries/spain/movistar/M_Accion.png" group-title="ES | CINE & SERIES",ES: M+ ACCIÓN
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5632
-#EXTINF:-1 tvg-id="CanalPlusComedia.es" tvg-name="ES: M+ COMEDIA" tvg-logo="https://docdog.top/logo/countries/spain/movistar/M_Comedia.png" group-title="ES | CINE & SERIES",ES: M+ COMEDIA
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5636
-#EXTINF:-1 tvg-id="LA 1" tvg-name="ES: M+ CINE ESPAÑOL" tvg-logo="https://docdog.top/logo/countries/spain/movistar/M_Cine_Espaol.png" group-title="ES | CINE & SERIES",ES: M+ CINE ESPAÑOL
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5633
-#EXTINF:-1 tvg-id="M+ Clasicos" tvg-name="ES: M+ CLÁSICOS" tvg-logo="https://docdog.top/logo/countries/spain/movistar/M_Clasicos.png" group-title="ES | CINE & SERIES",ES: M+ CLÁSICOS
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5634
-#EXTINF:-1 tvg-id="MovistarDrama.es" tvg-name="ES: M+ DRAMA" tvg-logo="https://docdog.top/logo/countries/spain/movistar/M_Drama.png" group-title="ES | CINE & SERIES",ES: M+ DRAMA
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5644
-#EXTINF:-1 tvg-id="MovistarEstrenos.es" tvg-name="ES: M+ CINE" tvg-logo="https://docdog.top/logo/countries/spain/movistar/M_Cine.png" group-title="ES | CINE & SERIES",ES: M+ CINE
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/57286
-#EXTINF:-1 tvg-id="LA 1" tvg-name="ES: M+ INDIE" tvg-logo="https://docdog.top/logo/countries/spain/movistar/M_Indie.png" group-title="ES | CINE & SERIES",ES: M+ INDIE
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/57282
-#EXTINF:-1 tvg-id="CanalPlusSeries.sp" tvg-name="ES: M+ SERIES" tvg-logo="https://docdog.top/logo/countries/spain/movistar/M_Series.png" group-title="ES | CINE & SERIES",ES: M+ SERIES
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5675
-#EXTINF:-1 tvg-id="Hollywood" tvg-name="ES: HOLLYWOOD" tvg-logo="https://docdog.top/logo/countries/spain/movistar/Hollywood.png" group-title="ES | CINE & SERIES",ES: HOLLYWOOD
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5619
-#EXTINF:-1 tvg-id="Paramount.es" tvg-name="ES: PARAMOUNT CHANNEL" tvg-logo="https://docdog.top/logo/countries/spain/movistar/Paramount_Network.png" group-title="ES | CINE & SERIES",ES: PARAMOUNT CHANNEL
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5727
-#EXTINF:-1 tvg-id="Somos.es" tvg-name="ES: SOMOS" tvg-logo="https://docdog.top/logo/countries/spain/movistar/Somos.png" group-title="ES | CINE & SERIES",ES: SOMOS
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5730
-#EXTINF:-1 tvg-id="TNT.sp" tvg-name="ES: WARNER TV" tvg-logo="https://docdog.top/logo/countries/spain/movistar/Warner_TV.png" group-title="ES | CINE & SERIES",ES: WARNER TV
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5739
-#EXTINF:-1 tvg-id="es.TCM" tvg-name="ES: TCM" tvg-logo="https://docdog.top/logo/countries/spain/movistar/TCM.png" group-title="ES | CINE & SERIES",ES: TCM
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5733
-#EXTINF:-1 tvg-id="Mega.es" tvg-name="ES: MEGA" tvg-logo="https://docdog.top/logo/countries/spain/movistar/Mega.png" group-title="ES | GENERAL",ES: MEGA
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5688
-#EXTINF:-1 tvg-id="Mezzo.es" tvg-name="ES: MEZZO LIVE" tvg-logo="https://docdog.top/logo/countries/spain/movistar/Mezzo_Live.png" group-title="ES | MUSICA",ES: MEZZO LIVE
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5689
-#EXTINF:-1 tvg-id="MTV 00s" tvg-name="ES: MTV 00S" tvg-logo="https://docdog.top/logo/countries/spain/movistar/MTV_00s.png" group-title="ES | MUSICA",ES: MTV 00S
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/25941
-#EXTINF:-1 tvg-id="MTVEsp.sp" tvg-name="ES: MTV" tvg-logo="https://docdog.top/logo/countries/spain/movistar/MTV.png" group-title="ES | MUSICA",ES: MTV
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5712
-#EXTINF:-1 tvg-id="NationalGeographic.es" tvg-name="ES: NATIONAL GEOGRAPHIC" tvg-logo="https://docdog.top/logo/countries/spain/movistar/National_Geographic.png" group-title="ES | CULTURA",ES: NATIONAL GEOGRAPHIC
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5714
-#EXTINF:-1 tvg-id="NatGeoWild.es" tvg-name="ES: NAT GEO WILD" tvg-logo="https://docdog.top/logo/countries/spain/movistar/Nat_Geo_Wild.png" group-title="ES | CULTURA",ES: NAT GEO WILD
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5715
-#EXTINF:-1 tvg-id="Neox.es" tvg-name="ES: NEOX" tvg-logo="https://docdog.top/logo/countries/spain/movistar/Neox.png" group-title="ES | GENERAL",ES: NEOX
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5718
-#EXTINF:-1 tvg-id="Odisea.es" tvg-name="ES: ODISEA" tvg-logo="https://docdog.top/logo/countries/spain/movistar/Odisea.png" group-title="ES | CULTURA",ES: ODISEA
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5724
-#EXTINF:-1 tvg-id="Enfamilia" tvg-name="ES: ENFAMILIA" tvg-logo="https://docdog.top/logo/countries/spain/movistar/Enfamilia.png" group-title="ES | NINOS",ES: ENFAMILIA
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5726
-#EXTINF:-1 tvg-id="Sundance.es" tvg-name="ES: SUNDANCE" tvg-logo="https://docdog.top/logo/countries/spain/movistar/Sundance.png" group-title="ES | ENTRETENIMIENTO",ES: SUNDANCE
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5731
-#EXTINF:-1 tvg-id="Scifi.sp" tvg-name="ES: SYFY" tvg-logo="https://docdog.top/logo/countries/spain/movistar/SYFY.png" group-title="ES | ENTRETENIMIENTO",ES: SYFY
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5732
-#EXTINF:-1 tvg-id="0" tvg-name="ES: TELEMADRID INT" tvg-logo="https://docdog.top/logo/countries/spain/movistar/Telemadrid_Int.png" group-title="ES | OTHERS",ES: TELEMADRID INT
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5736
-#EXTINF:-1 tvg-id="TEN.es" tvg-name="ES: TEN" tvg-logo="https://docdog.top/logo/countries/spain/movistar/Ten.png" group-title="ES | REGIONALES",ES: TEN
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5738
-#EXTINF:-1 tvg-id="TV3 Cat" tvg-name="ES: TV3 CAT" tvg-logo="https://docdog.top/logo/countries/spain/movistar/TV3_Cat.png" group-title="ES | REGIONALES",ES: TV3 CAT
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5743
-#EXTINF:-1 tvg-id="TVE Internacional" tvg-name="ES: TVE INTERNACIONAL" tvg-logo="https://docdog.top/logo/countries/spain/movistar/tve-internacional.png" group-title="ES | GENERAL",ES: TVE INTERNACIONAL
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5745
-#EXTINF:-1 tvg-id="Xtrm.es" tvg-name="ES: XTRM" tvg-logo="https://docdog.top/logo/countries/spain/movistar/XTRM.png" group-title="ES | CINE & SERIES",ES: XTRM
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5751
-#EXTINF:-1 tvg-id="ETB 2" tvg-name="ES: ETB 2" tvg-logo="https://docdog.top/logo/countries/spain/etb2-es.png" group-title="ES | REGIONALES",ES: ETB 2
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5759
-#EXTINF:-1 tvg-id="ETB 1" tvg-name="ES: ETB 1" tvg-logo="https://docdog.top/logo/countries/spain/etb1-es.png" group-title="ES | REGIONALES",ES: ETB 1
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/5760
-#EXTINF:-1 tvg-id="CNN Int" tvg-name="ES: CNN" tvg-logo="https://docdog.top/logo/countries/spain/movistar/CNN.png" group-title="ES | OTHERS",ES: CNN
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/25923
-#EXTINF:-1 tvg-id="A Punt" tvg-name="ES: À PUNT" tvg-logo="https://docdog.top/logo/countries/spain/A_Punt.png" group-title="ES | REGIONALES",ES: À PUNT
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/25925
-#EXTINF:-1 tvg-id="Blaze.es" tvg-name="ES: AMC BREAK" tvg-logo="https://docdog.top/logo/countries/spain/movistar/AMC_BREAK.png" group-title="ES | CULTURA",ES: AMC BREAK
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/25926
-#EXTINF:-1 tvg-id="AMC Crime" tvg-name="ES: AMC CRIME" tvg-logo="https://docdog.top/logo/countries/spain/movistar/AMC_Crime.png" group-title="ES | CULTURA",ES: AMC CRIME
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/25927
-#EXTINF:-1 tvg-id="Dark.es" tvg-name="ES: DARK" tvg-logo="https://docdog.top/logo/countries/spain/movistar/DARK.png" group-title="ES | CINE & SERIES",ES: DARK
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/25930
-#EXTINF:-1 tvg-id="El Toro TV" tvg-name="ES: EL TORO TV" tvg-logo="https://docdog.top/logo/countries/spain/movistar/El_Toro_TV.png" group-title="ES | GENERAL",ES: EL TORO TV
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/25932
-#EXTINF:-1 tvg-id="Euronews" tvg-name="ES: EURONEWS" tvg-logo="https://docdog.top/logo/countries/spain/movistar/Euronews.png" group-title="ES | OTHERS",ES: EURONEWS
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/25935
-#EXTINF:-1 tvg-id="La Resistencia" tvg-name="ES: LA RESISTENCIA" tvg-logo="https://docdog.top/logo/countries/spain/movistar/La_Resistencia.png" group-title="ES | ENTRETENIMIENTO",ES: LA RESISTENCIA
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/25938
-#EXTINF:-1 tvg-id="Telesur" tvg-name="ES: TELESUR" tvg-logo="https://docdog.top/logo/countries/spain/Telesur.png" group-title="ES | OTHERS",ES: TELESUR
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/25943
-#EXTINF:-1 tvg-id="Ubeat" tvg-name="ES: UBEAT" tvg-logo="https://docdog.top/logo/countries/spain/movistar/Ubeat.png" group-title="ES | OTHERS",ES: UBEAT
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/25951
-#EXTINF:-1 tvg-id="Atreseries" tvg-name="ES: ATRESERIES" tvg-logo="https://docdog.top/logo/countries/spain/movistar/Atreseries.png" group-title="ES | CINE & SERIES",ES: ATRESERIES
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/25952
-#EXTINF:-1 tvg-id="" tvg-name="ES: TELEONUBA" tvg-logo="https://docdog.top/logo/countries/spain/TELE_ONUBA_TV.png" group-title="ES | OTHERS",ES: TELEONUBA
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/29336
-#EXTINF:-1 tvg-id="" tvg-name="ES: STAR TVE" tvg-logo="https://docdog.top/logo/countries/spain/STAR_TVE.png" group-title="ES | OTHERS",ES: STAR TVE
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/29338
-#EXTINF:-1 tvg-id="" tvg-name="ES: CAZAVISIÓN" tvg-logo="https://docdog.top/logo/countries/spain/movistar/cazavision.png" group-title="ES | CULTURA",ES: CAZAVISIÓN
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/29358
-#EXTINF:-1 tvg-id="" tvg-name="ES: M+ GOLF 2" tvg-logo="https://docdog.top/logo/countries/spain/movistar/M_Golf_2.png" group-title="ES | DEPORTES",ES: M+ GOLF 2
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/57256
-#EXTINF:-1 tvg-id="" tvg-name="ES: M+ BUEN VIAJE" tvg-logo="https://docdog.top/logo/countries/spain/movistar/BuenViaje.png" group-title="ES | GENERAL",ES: M+ BUEN VIAJE
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/57259
-#EXTINF:-1 tvg-id="es.#0" tvg-name="ES: M+ ORIGINALES" tvg-logo="https://docdog.top/logo/countries/spain/movistar/M_Originales.png" group-title="ES | CINE & SERIES",ES: M+ ORIGINALES
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/57283
-#EXTINF:-1 tvg-id="" tvg-name="ES: M+ DOCUMENTALES" tvg-logo="https://docdog.top/logo/countries/spain/movistar/M_Documentales.png" group-title="ES | CULTURA",ES: M+ DOCUMENTALES
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/57284
-#EXTINF:-1 tvg-id="" tvg-name="ES: MAX PPV" tvg-logo="http://docdog.top/logo/countries/spain/movistar/max.png" group-title="ES | MAX AMAZON",ES: MAX PPV
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/58113
-#EXTINF:-1 tvg-id="" tvg-name="ES: PRIME PPV" tvg-logo="http://docdog.top/logo/countries/spain/movistar/prime.png" group-title="ES | MAX AMAZON",ES: PRIME PPV
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/58114
-#EXTINF:-1 tvg-id="" tvg-name="CH1" tvg-logo="" group-title="PPV",CH1
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/58313
-#EXTINF:-1 tvg-id="" tvg-name="CH4" tvg-logo="" group-title="PPV",CH4
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/58316
-#EXTINF:-1 tvg-id="" tvg-name="CH11" tvg-logo="" group-title="PPV",CH11
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/58323
-#EXTINF:-1 tvg-id="" tvg-name="CH12" tvg-logo="" group-title="PPV",CH12
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/58324
-#EXTINF:-1 tvg-id="" tvg-name="CH2" tvg-logo="" group-title="PPV",CH2
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/58314
-#EXTINF:-1 tvg-id="" tvg-name="CH3" tvg-logo="" group-title="PPV",CH3
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/58315
-#EXTINF:-1 tvg-id="" tvg-name="CH5" tvg-logo="" group-title="PPV",CH5
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/58317
-#EXTINF:-1 tvg-id="" tvg-name="CH6" tvg-logo="" group-title="PPV",CH6
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/58318
-#EXTINF:-1 tvg-id="" tvg-name="CH7" tvg-logo="" group-title="PPV",CH7
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/58319
-#EXTINF:-1 tvg-id="" tvg-name="CH8" tvg-logo="" group-title="PPV",CH8
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/58320
-#EXTINF:-1 tvg-id="" tvg-name="CH9" tvg-logo="" group-title="PPV",CH9
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/58321
-#EXTINF:-1 tvg-id="" tvg-name="CH10" tvg-logo="" group-title="PPV",CH10
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/58322
-#EXTINF:-1 tvg-id="" tvg-name="ES: RALLY TV" tvg-logo="https://docdog.top/logo/countries/spain/movistar/RallyTv.png" group-title="ES | DEPORTES",ES: RALLY TV
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/58325
-#EXTINF:-1 tvg-id="CMM.es" tvg-name="ES: CASTILLA LA MANCHA" tvg-logo="https://docdog.top/logo/countries/spain/movistar/cmm.png" group-title="ES | GENERAL",ES: CASTILLA LA MANCHA
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/58329
-#EXTINF:-1 tvg-id="" tvg-name="ES: M+ ESTRENOS" tvg-logo="https://docdog.top/logo/countries/spain/movistar/ESTRENOS.png" group-title="ES | CINE & SERIES",ES: M+ ESTRENOS
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/58330
-#EXTINF:-1 tvg-id="" tvg-name="ES: IBERALIA 100% CAZA" tvg-logo="https://docdog.top/logo/countries/spain/movistar/Iberalia_TV.png" group-title="ES | CULTURA",ES: IBERALIA 100% CAZA
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/58332
-#EXTINF:-1 tvg-id="" tvg-name="ES: IBERALIA 100% PESCA" tvg-logo="https://docdog.top/logo/countries/spain/movistar/Iberalia_TV.png" group-title="ES | CULTURA",ES: IBERALIA 100% PESCA
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/58333
-#EXTINF:-1 tvg-id="" tvg-name="ES: M+ HITS" tvg-logo="" group-title="ES | MUSICA",ES: M+ HITS
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/58881
-#EXTINF:-1 tvg-id="" tvg-name="ES: ACB Evento 01" tvg-logo="https://docdog.top/logo/countries/spain/movistar/DAZN_ACB.png" group-title="ES | DAZN ACB",ES: ACB Evento 01
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/63433
-#EXTINF:-1 tvg-id="" tvg-name="ES: ACB Evento 02" tvg-logo="https://docdog.top/logo/countries/spain/movistar/DAZN_ACB.png" group-title="ES | DAZN ACB",ES: ACB Evento 02
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/63434
-#EXTINF:-1 tvg-id="" tvg-name="ES: ACB Evento 03" tvg-logo="https://docdog.top/logo/countries/spain/movistar/DAZN_ACB.png" group-title="ES | DAZN ACB",ES: ACB Evento 03
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/63435
-#EXTINF:-1 tvg-id="" tvg-name="ES: ACB Evento 04" tvg-logo="https://docdog.top/logo/countries/spain/movistar/DAZN_ACB.png" group-title="ES | DAZN ACB",ES: ACB Evento 04
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/63436
-#EXTINF:-1 tvg-id="" tvg-name="ES: ACB Evento 05" tvg-logo="https://docdog.top/logo/countries/spain/movistar/DAZN_ACB.png" group-title="ES | DAZN ACB",ES: ACB Evento 05
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/63437
-#EXTINF:-1 tvg-id="" tvg-name="ES: ACB Evento 06" tvg-logo="https://docdog.top/logo/countries/spain/movistar/DAZN_ACB.png" group-title="ES | DAZN ACB",ES: ACB Evento 06
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/64831
-#EXTINF:-1 tvg-id="" tvg-name="ES: ACB Evento 07" tvg-logo="https://docdog.top/logo/countries/spain/movistar/DAZN_ACB.png" group-title="ES | DAZN ACB",ES: ACB Evento 07
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/64832
-#EXTINF:-1 tvg-id="" tvg-name="ES: ACB Evento 08" tvg-logo="https://docdog.top/logo/countries/spain/movistar/DAZN_ACB.png" group-title="ES | DAZN ACB",ES: ACB Evento 08
-http://nororqqyy.top:8080/FQ3vMtkecGb4/asjwmQWZYYHE/64833
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#EXTINF:-1 tvg-id="BBCDrama.uk@Spain",BBC Drama (720p)
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/60dafb9a0df1ba000758d37b/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&serverSideAds=false&studio_id=viacom&tags=ROKU_CONTENT_TAGS
+#EXTINF:-1 tvg-id="ComediaMadeinSpain.us@SD",Comedia Made in Spain (720p) [Not 24/7]
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f1abce155a03d0007718834/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5f1abce155a03d0007718834&deviceLat=41.1167&deviceLon=1.2500&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=ES&serverSideAds=false&sid=505&terminate=false&userId=
+#EXTINF:-1 tvg-id="",Pluto TV Ana y los 7 (720p)
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1acce7f17797000718f9be/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&is_lat=1&platform=web&rdid=channel&tags=ROKU_CONTENT_TAGS
+#EXTINF:-1 tvg-id="PlutoTVCineAccion.us@Spain",Pluto TV Cine Acción (720p)
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1ac2591dd8880007bb7d6d/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&is_lat=1&platform=web&rdid=channel&tags=ROKU_CONTENT_TAGS
+#EXTINF:-1 tvg-id="PlutoTVCineClasico.us@Spain",Pluto TV Cine Clásico (720p)
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/61373bb45168fe000773eecd/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&is_lat=1&platform=web&rdid=channel&tags=ROKU_CONTENT_TAGS
+#EXTINF:-1 tvg-id="PlutoTVCineEstelar.us@Spain",Pluto TV Cine Estelar (720p)
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1ac1f1b66c76000790ef27/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&is_lat=1&platform=web&rdid=channel&tags=ROKU_CONTENT_TAGS
+#EXTINF:-1 tvg-id="PlutoTVCocina.us@Spain",Pluto TV Cocina (720p) [Not 24/7]
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcde0657444a40009cd2422/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
+#EXTINF:-1 tvg-id="PlutoTVCocina.us@Spain",Pluto TV Cocina (720p)
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1acdaa8ba90f0007d5e760/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&is_lat=1&platform=web&rdid=channel&tags=ROKU_CONTENT_TAGS
+#EXTINF:-1 tvg-id="PlutoTVCocina.us@Spain",Pluto TV Cocina (Spain) (720p)
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f1acdaa8ba90f0007d5e760/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5f1acdaa8ba90f0007d5e760&deviceLat=41.1167&deviceLon=1.2500&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=ES&serverSideAds=false&sid=700&terminate=false&userId=
+#EXTINF:-1 tvg-id="",Pluto TV Comedia (Made in Spain) (720p) [Not 24/7]
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1abce155a03d0007718834/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&is_lat=1&platform=web&rdid=channel&tags=ROKU_CONTENT_TAGS
+#EXTINF:-1 tvg-id="ForensicFiles.us@SD",Pluto TV Forensic Files en ESP (720p)
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5e94cd036cc69d0007e8a1ba/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5e94cd036cc69d0007e8a1ba&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=933&terminate=false&userId=
+#EXTINF:-1 tvg-id="ForensicFiles.us@SD",Pluto TV Forensic Files en ESP (720p)
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5e94cd036cc69d0007e8a1ba/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
+#EXTINF:-1 tvg-id="PlutoTVKids.us@Spain",Pluto TV Kids (720p) [Not 24/7]
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dd6dae8ce788b0009eaf77b/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
+#EXTINF:-1 tvg-id="PlutoTVKids.us@Spain",Pluto TV Kids (720p) [Not 24/7]
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1214a637c6fd00079c652f/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
+#EXTINF:-1 tvg-id="PlutoTVKids.us@Spain",Pluto TV Kids (720p)
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/51c75f7bb6f26ba1cd00002f/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=51c75f7bb6f26ba1cd00002f&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=989&terminate=false&userId=
+#EXTINF:-1 tvg-id="PlutoTVKids.us@Spain",Pluto TV Kids (720p)
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5ad8d54be738977e2c310940/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
+#EXTINF:-1 tvg-id="PlutoTVKids.us@Spain",Pluto TV Kids (720p)
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1aab1d29b39600073e243f/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&is_lat=1&platform=web&rdid=channel&tags=ROKU_CONTENT_TAGS
+#EXTINF:-1 tvg-id="PlutoTVKids.us@Spain",Pluto TV Kids (720p)
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/51c75f7bb6f26ba1cd00002f/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
+#EXTINF:-1 tvg-id="PlutoTVKids.us@Spain",Pluto TV Kids (Spain) (720p)
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f1aab1d29b39600073e243f/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5f1aab1d29b39600073e243f&deviceLat=41.1167&deviceLon=1.2500&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=ES&serverSideAds=false&sid=910&terminate=false&userId=
+#EXTINF:-1 tvg-id="",Pluto TV MTV Catfish (Spain) (720p) [Not 24/7]
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f1ab3c7778230000735cf41/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5f1ab3c7778230000735cf41&deviceLat=41.1167&deviceLon=1.2500&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=ES&serverSideAds=false&sid=305&terminate=false&userId=
+#EXTINF:-1 tvg-id="MTVMusicMadeinSpain.us@Spain",Pluto TV MTV Music Made in Spain (720p) [Not 24/7]
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/60a26a056d55b30007918d5a/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&is_lat=1&platform=web&rdid=channel&serverSideAds=false&tags=ROKU_CONTENT_TAGS
+#EXTINF:-1 tvg-id="",Pluto TV MTV Originals (Spain) (480p)
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f1aadf373bed3000794d1d7/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5f1aadf373bed3000794d1d7&deviceLat=41.1167&deviceLon=1.2500&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=ES&serverSideAds=false&sid=300&terminate=false&userId=
+#EXTINF:-1 tvg-id="PlutoTVTelenovelas.us@Spain",Pluto TV Telenovelas (720p)
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/60b4c06717da110007ee1af6/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&serverSideAds=false&studio_id=viacom&tags=ROKU_CONTENT_TAGS
+#EXTINF:-1 tvg-id="TheWalkingDeadenEspanol.us@SD",Pluto TV The Walking Dead ESP (720p)
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5e82bb378601b80007b4bd78/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5e82bb378601b80007b4bd78&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=925&terminate=false&userId=
+#EXTINF:-1 tvg-id="TheWalkingDeadenEspanol.us@SD",Pluto TV The Walking Dead ESP (720p)
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5e82bb378601b80007b4bd78/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
+#EXTINF:-1 tvg-id="PlutoTVToonsClasico.us@Spain",Pluto TV Toons Clásico (720p)
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/609e7e423e9173000706a681/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
+#EXTINF:-1 tvg-id="TopGear.uk@SD",Top Gear (720p)
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/60d356a534f63f000850cdd7/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&serverSideAds=false&studio_id=viacom&tags=ROKU_CONTENT_TAGS
+
+
+
+
+
+
+
+
+
+
+
+#EXTINF:-1 tvg-id="",Beyblade en Español (1080p)
+https://amg01796-amg01796c8-rakuten-es-5333.playouts.now.amagi.tv/playlist/amg01796-fastmediafast-beybladees-rakutenes/playlist.m3u8
+#EXTINF:-1 tvg-id="CGTNSpanish.cn@SD",CGTN Spanish (1080p)
+https://amg01314-cgtn-amg01314c3-rakuten-uk-1318.playouts.now.amagi.tv/cgtn-es-rakuten/playlist.m3u8
+#EXTINF:-1 tvg-id="",Cops en Español (720p)
+https://rightsboosterltd-cops-1-es.rakuten.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="",Crímenes Reales (1080p)
+https://amg01796-amg01796c13-rakuten-gb-6739.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="",Estilo y Vida (1080p)
+https://4a7284f0c8334835adb8f223c36fbc37.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6232/master.m3u8
+#EXTINF:-1 tvg-id="",Grjngo Spain (720p)
+https://amogo-networx-grjngopelculasdeloeste-1-es.rakuten.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="",Ideas en 5 minutos (1080p)
+https://soul-5mincraftspa-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="LoneStar.us@SD",Lone Star (1080p)
+https://lonestar-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="",Los Gipsy Kings
+https://gipsy-kings-rakuten-tv-es.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6752/master.m3u8
+#EXTINF:-1 tvg-id="",Mr. Bean Anime Spain (1080p)
+https://amg00627-amg00627c30-rakuten-es-3990.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanescc-rakutenes/playlist.m3u8
+#EXTINF:-1 tvg-id="MyTimeMovieNetwork.es@SD",MyTime movie network Spain (1080p)
+https://appletree-mytimespain-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="NatureTime.es@SD",Nature Time (1080p)
+https://amg00090-amgnaturetimeemea-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="RakutenTVActionMovies.es@Spain",Rakuten TV Action Movies Spain (1080p)
+https://a9c57ec7ec5e4b7daeacc6316a0bb404.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6069/master.m3u8
+#EXTINF:-1 tvg-id="",Rakuten TV Cine Español (1080p)
+https://3ed8837c27bf41dabe8e2627be2e57e6.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6196/master.m3u8
+#EXTINF:-1 tvg-id="RakutenTVComedyMovies.es@Spain",Rakuten TV Comedy Movies Spain (1080p)
+https://71db867f03ce4d71a29e92155f07ab87.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6180/master.m3u8
+#EXTINF:-1 tvg-id="",Rakuten TV Crime Series Spain (1080p)
+https://4ac0fe739f05408abf89ce151aced344.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6220/master.m3u8
+#EXTINF:-1 tvg-id="RakutenTVDramaMovies.es@Spain",Rakuten TV Drama Movies Spain (1080p)
+https://a7089c89d85f453d850c4a1518b43076.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6092/master.m3u8
+#EXTINF:-1 tvg-id="RakutenTVFamilyMovies.es@Spain",Rakuten TV Family Movies Spain (1080p)
+https://b0d59c8c98974e708e5ccb9a27cdfdfc.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6205/master.m3u8
+#EXTINF:-1 tvg-id="",Rakuten TV Romance Movies Spain (1080p)
+https://4b95c0f7aa2b4cae80f6515600154151.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6105/master.m3u8
+#EXTINF:-1 tvg-id="",Rakuten TV Sci-Fi Spain
+https://sci-fi-rakuten-tv-es.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6740/master.m3u8
+#EXTINF:-1 tvg-id="",Rakuten TV Thrillers Spain (1080p)
+https://thriller-rakuten-tv-es.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6480/master.m3u8
+#EXTINF:-1 tvg-id="RakutenTVTopMovies.es@Spain",Rakuten TV Top Movies Spain (1080p)
+https://ff335120300e4742a2b135ee9a9e7df8.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-5983/master.m3u8
+#EXTINF:-1 tvg-id="",Rakuten TV Trailers Spain (1080p)
+https://1c4952408fa947df9b6aee4225ff9fd3.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-4452/master.m3u8
+#EXTINF:-1 tvg-id="RakutenViki.es@Spain",Rakuten Viki Spain (1080p)
+https://newidco-rakutenviki-3-es.rakuten.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="",Rantaró el ninja boy (1080p)
+https://rantaro-ninja-boy-rakuten-tv-es.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6432/master.m3u8
+#EXTINF:-1 tvg-id="",Stormcast Novelas
+https://stormcast-novelas-2-es.rakuten.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="",TOP Barça Spain (1080p)
+https://amg17560-fcb-amg17560c2-rakuten-es-4889.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="",Travelxp Spain (720p)
+https://travelxp-travelxp-5-eu.rakuten.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="VevoLatino.us@SD",Vevo Latino (1080p)
+https://amg00056-amg00056c13-rakuten-es-3246.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="",Vevo Pop Spain (1080p)
+https://amg00056-amg00056c10-rakuten-es-3242.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="KanalDDrama.tr@SD",Vive Kanal D Drama (1080p)
+https://thema-vivekanald-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="Wonder.uk@SD",Wonder (1080p)
+https://lds-wonder-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="YuGiOhenespanol.us@SD",Yu-Gi-Oh! en espanol
+https://amg01796-amg01796c18-rakuten-es-7491.playouts.now.amagi.tv/playlist/amg01796-fastmediafast-yugiohees-rakutenes/playlist.m3u8
+#EXTINF:-1 tvg-id="",Zylo Cine Friki (1080p)
+https://zylo-cinefriki-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="",Zylo Cine Western (1080p) [Geo-blocked]
+https://amg00711-zylo-amg00711c9-rakuten-es-5783.playouts.now.amagi.tv/playlist/amg00711-zylofast-cinewesternes-rakutenes/playlist.m3u8
+#EXTINF:-1 tvg-id="",Zylo Todo Novelas (1080p) [Geo-blocked]
+https://amg00711-zylo-amg00711c3-rakuten-es-5794.playouts.now.amagi.tv/playlist/amg00711-zylofast-frecuencianovelas-rakutenes/playlist.m3u8
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#########
+
+
+
+
+
+
+
+#EXTM3U 
+#EXTINF:-1 tvg-id="156" tvg-name="+ Listas en M3U.CL" tvg-logo="https://cdn.m3u.cl/logo/156___Listas_en_M3U_CL.png", + Listas en M3U.CL ✪ | CL
+https://scl.edge.grupoz.cl/transmision/live/playlist.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="771" tvg-name="Mundo de la Musica TV" tvg-logo="https://cdn.m3u.cl/logo/771_Mundo_de_la_Musica_TV.png", Mundo de la Musica TV ✪ | CL
+https://tv.arkeo.cl:1936/mundodelamusica/mundodelamusica/playlist.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="14" tvg-name="Urban TV" tvg-logo="https://cdn.m3u.cl/logo/14_Urban_TV.png", Urban TV ✪ | ES
+https://urbanrevolution.es:8443/live/TV/playlist.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="200" tvg-name="Pequeradio TV" tvg-logo="https://cdn.m3u.cl/logo/200_Pequeradio_TV.jpg", Pequeradio TV | ES
+http://canadaremar2.todostreaming.es/live/peque-pequetv.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="1475" tvg-name="101TV Sevilla" tvg-logo="https://cdn.m3u.cl/logo/1475_101TV_Sevilla.png", 101TV Sevilla | ES
+https://streaming101tv.es/hls/websevilla.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="1341" tvg-name="12tv" tvg-logo="https://cdn.m3u.cl/logo/1341_12tv.png", 12tv | ES
+https://cloud.streamingconnect.tv/hls/12tv/gcmin.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="599" tvg-name="324 Catalunya" tvg-logo="https://cdn.m3u.cl/logo/599_324_Catalunya.png", 324 Catalunya | ES
+https://directes-tv-int.ccma.cat/live-origin/canal324-hls/master.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="600" tvg-name="7TV Murcia" tvg-logo="https://cdn.m3u.cl/logo/600_7TV_Murcia.png", 7TV Murcia | ES
+https://ythls.onrender.com/channel/UCXi-7dpQ1mnf8kxIVCe9mCA.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="629" tvg-name="Alcarria TV" tvg-logo="https://cdn.m3u.cl/logo/629_Alcarria_TV.png", Alcarria TV | ES
+http://cls.alcarria.tv/alcarriatv/livestream/playlist.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="1045" tvg-name="Aragon TV" tvg-logo="https://cdn.m3u.cl/logo/1045_Aragon_TV.png", Aragon TV | ES
+https://cartv.streaming.aranova.es/hls/live/aragontv_canal1.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="601" tvg-name="Bon Dia" tvg-logo="https://cdn.m3u.cl/logo/601_Bon_Dia.png", Bon Dia | ES
+https://directes-tv-int.ccma.cat/live-origin/bondia-hls/master.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="1443" tvg-name="Cadena Joven Digital" tvg-logo="https://cdn.m3u.cl/logo/1443_Cadena_Joven_Digital.png", Cadena Joven Digital | ES
+https://streamtv2.elitecomunicacion.cloud:3738/hybrid/play.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="602" tvg-name="Canal 33 Madrid" tvg-logo="https://cdn.m3u.cl/logo/602_Canal_33_Madrid.png", Canal 33 Madrid | ES
+https://5ab29cc78f681.streamlock.net/canal33tvmadridgmailcom/livestream/playlist.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="603" tvg-name="Canal 4 Television Baleares" tvg-logo="https://cdn.m3u.cl/logo/603_Canal_4_Television_Baleares.png", Canal 4 Television Baleares | ES
+http://149.202.68.178:1935/live/peprecasens/chunklist_w194306632.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="627" tvg-name="Canal Costa" tvg-logo="https://cdn.m3u.cl/logo/627_Canal_Costa.png", Canal Costa | ES
+http://stream.canalcostatv.es:1935/web/IKbtqOuj/playlist.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="632" tvg-name="Canal Parlamento - Madrid" tvg-logo="https://cdn.m3u.cl/logo/632_Canal_Parlamento___Madrid.png", Canal Parlamento - Madrid | ES
+https://congresodirecto.akamaized.net/hls/live/2037973/canalparlamento/master.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="605" tvg-name="Castilla-La Mancha Media" tvg-logo="https://cdn.m3u.cl/logo/605_Castilla_La_Mancha_Media.png", Castilla-La Mancha Media | ES
+https://cdnapisec.kaltura.com/p/2288691/sp/228869100/playManifest/entryId/1_w9e95evt/protocol/https/format/applehttp/flavorIds/1_4h5yhwgv,1_pio2o58x,1_s3dc6p0p/a.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="633" tvg-name="Cultura 365" tvg-logo="https://cdn.m3u.cl/logo/633_Cultura_365.png", Cultura 365 | ES
+http://cultural-crtvg.flumotion.com/playlist.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="607" tvg-name="El 33" tvg-logo="https://cdn.m3u.cl/logo/607_El_33.png", El 33 | ES
+https://directes-tv-es.ccma.cat/live-origin/c33-super3-hls/master.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="885" tvg-name="El Futuro en tu Mano" tvg-logo="https://cdn.m3u.cl/logo/885_El_Futuro_en_tu_Mano.jpg", El Futuro en tu Mano | ES
+https://limited24.todostreaming.es/live/renjillo-livestream.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="608" tvg-name="El Toro" tvg-logo="https://cdn.m3u.cl/logo/608_El_Toro.png", El Toro | ES
+https://streaming011.gestec-video.com/hls/eltoro_bal.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="609" tvg-name="ETB SAT Pais Vasco" tvg-logo="https://cdn.m3u.cl/logo/609_ETB_SAT_Pais_Vasco.png", ETB SAT Pais Vasco | ES
+http://etbvnogeo-lh.akamaihd.net/i/ETBEITBEUS_1@300391/master.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="610" tvg-name="Euskal Telebista 1 Pais Vasco" tvg-logo="https://cdn.m3u.cl/logo/610_Euskal_Telebista_1_Pais_Vasco.png", Euskal Telebista 1 Pais Vasco | ES
+https://multimedia.eitb.eus/live-content/etb2hd-hls/master.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="611" tvg-name="Euskal Telebista 1 Pais Vasco" tvg-logo="https://cdn.m3u.cl/logo/611_Euskal_Telebista_1_Pais_Vasco.png", Euskal Telebista 1 Pais Vasco | ES
+https://multimedia.eitb.eus/live-content/etb1hd-hls/master.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="612" tvg-name="Extremadura" tvg-logo="https://cdn.m3u.cl/logo/612_Extremadura.png", Extremadura | ES
+https://cdnlive.shooowit.net/canalextremaduralive/channel1DVR.smil/chunklist_b1500000_DVR.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="613" tvg-name="La 1" tvg-logo="https://cdn.m3u.cl/logo/613_La_1.png", La 1 | ES
+https://ztnr.rtve.es/ztnr/1688877.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="614" tvg-name="La 2" tvg-logo="https://cdn.m3u.cl/logo/614_La_2.png", La 2 | ES
+https://ztnr.rtve.es/ztnr/1688885.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="626" tvg-name="La Otra" tvg-logo="https://cdn.m3u.cl/logo/626_La_Otra.png", La Otra | ES
+http://laotrahls-live.hls.adaptive.level3.net/telemadrid/laotra1/bitrate_2.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="615" tvg-name="Lancelot TV Canarias" tvg-logo="https://cdn.m3u.cl/logo/615_Lancelot_TV_Canarias.png", Lancelot TV Canarias | ES
+http://62.210.141.18:1935/directo/lancelot.television/playlist.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="616" tvg-name="Levante TV" tvg-logo="https://cdn.m3u.cl/logo/616_Levante_TV.png", Levante TV | ES
+https://i.imgur.com/Cc1CypC.mp4?PlaylistM3UCL
+#EXTINF:-1 tvg-id="597" tvg-name="Momentos G" tvg-logo="https://cdn.m3u.cl/logo/597_Momentos_G.png", Momentos G | ES
+http://momentog-crtvg.flumotion.com/playlist.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="617" tvg-name="Onda Algeciras" tvg-logo="https://cdn.m3u.cl/logo/617_Onda_Algeciras.png", Onda Algeciras | ES
+https://cloudtv.provideo.es/live/algecirastv-livestream.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="618" tvg-name="Onda Mezquita" tvg-logo="https://cdn.m3u.cl/logo/618_Onda_Mezquita.png", Onda Mezquita | ES
+https://593fa17dec176.streamlock.net//mezquita/mezquita/chunklist_w1592524042.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="619" tvg-name="Radio Television Ceuta" tvg-logo="https://cdn.m3u.cl/logo/619_Radio_Television_Ceuta.png", Radio Television Ceuta | ES
+http://teledifusion.tv:1935/rtvcetv/rtvcetvlive/playlist.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="620" tvg-name="Radiotelevision del Principado de Asturias" tvg-logo="https://cdn.m3u.cl/logo/620_Radiotelevision_del_Principado_de_Asturias.png", Radiotelevision del Principado de Asturias | ES
+https://cdnlive.shooowit.net/rtpalive/directo.smil/chunklist_b1500000.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="630" tvg-name="Real Madrid TV (English)" tvg-logo="https://cdn.m3u.cl/logo/630_Real_Madrid_TV__English_.png", Real Madrid TV (English) | ES
+https://rmtv24hweblive-lh.akamaihd.net/i/rmtv24hweben_1@300662/master.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="631" tvg-name="Real Madrid TV HD" tvg-logo="https://cdn.m3u.cl/logo/631_Real_Madrid_TV_HD.png", Real Madrid TV HD | ES
+https://rmtv24hweblive-lh.akamaihd.net/i/rmtv24hwebes_1@300661/master.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="1080" tvg-name="Super 3" tvg-logo="https://cdn.m3u.cl/logo/1080_Super_3.png", Super 3 | ES
+https://directes-tv-int.ccma.cat/int/ngrp:c33_web/playlist.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="886" tvg-name="Taroteame" tvg-logo="https://cdn.m3u.cl/logo/886_Taroteame.jpg", Taroteame | ES
+https://5b45171a7ade6.streamlock.net/taroteame/tarot_web/playlist.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="621" tvg-name="Telemadrid" tvg-logo="https://cdn.m3u.cl/logo/621_Telemadrid.png", Telemadrid | ES
+http://telemadridhls-live.hls.adaptive.level3.net/telemadrid/telemadrid1/bitrate_1.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="622" tvg-name="Television Municipal de Cordoba" tvg-logo="https://cdn.m3u.cl/logo/622_Television_Municipal_de_Cordoba.png", Television Municipal de Cordoba | ES
+http://teledifusion.tv/cordoba/cordobalive/index.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="623" tvg-name="Travel TV" tvg-logo="https://cdn.m3u.cl/logo/623_Travel_TV.png", Travel TV | ES
+http://194.179.53.124:1935/live/traveltv/chunklist_w706671974.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="624" tvg-name="TV Galicia Europa" tvg-logo="https://cdn.m3u.cl/logo/624_TV_Galicia_Europa.png", TV Galicia Europa | ES
+http://europa-crtvg.flumotion.com/playlist.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="625" tvg-name="TV3 Television de Catalunya" tvg-logo="https://cdn.m3u.cl/logo/625_TV3_Television_de_Catalunya.png", TV3 Television de Catalunya | ES
+https://directes-tv-int.ccma.cat/int/ngrp:tvi_web/playlist.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="628" tvg-name="Xabarin TV" tvg-logo="https://cdn.m3u.cl/logo/628_Xabarin_TV.png", Xabarin TV | ES
+http://infantil-crtvg.flumotion.com/playlist.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="512" tvg-name="ETB" tvg-logo="https://cdn.m3u.cl/logo/512_ETB.png", ETB | ES
+http://etbvnogeo-lh.akamaihd.net/i/ETBSTR1_1@595581/master.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="513" tvg-name="RTVE1" tvg-logo="https://cdn.m3u.cl/logo/513_RTVE1.png", RTVE1 | ES
+https://ztnr.rtve.es/ztnr/1688877.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="514" tvg-name="RTVE24" tvg-logo="https://cdn.m3u.cl/logo/514_RTVE24.png", RTVE24 | ES
+https://rtvelivestream.akamaized.net/24h_dvr_4000.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="515" tvg-name="TV Galicia America" tvg-logo="https://cdn.m3u.cl/logo/515_TV_Galicia_America.png", TV Galicia America | ES
+http://america-crtvg.flumotion.com/playlist.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="1075" tvg-name="Cadena Elite" tvg-logo="https://cdn.m3u.cl/logo/1075_Cadena_Elite.png", Cadena Elite | ES
+https://cloudvideo.servers10.com:8081/8004/index.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="1076" tvg-name="Fabulosa FM" tvg-logo="https://cdn.m3u.cl/logo/1076_Fabulosa_FM.png", Fabulosa FM | ES
+http://185.36.211.142:8080/tmp_hls/fabulosa/index.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="30" tvg-name="Ibiza Global TV" tvg-logo="https://cdn.m3u.cl/logo/30_Ibiza_Global_TV.png", Ibiza Global TV | ES
+https://ibgrtv.streaming-pro.com/hls/ibgrlive.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="1077" tvg-name="Molahits TV" tvg-logo="https://cdn.m3u.cl/logo/1077_Molahits_TV.png", Molahits TV | ES
+http://ventdelnord.tv:8080/mola/directe.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="1240" tvg-name="7NN" tvg-logo="https://cdn.m3u.cl/logo/1240_7NN.png", 7NN | ES
+https://dxf45ob769xpw.cloudfront.net/out/v1/90ce358337e14be3bb82b6566b50a8b1/index.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="598" tvg-name="TVE 24H" tvg-logo="https://cdn.m3u.cl/logo/598_TVE_24H.png", TVE 24H | ES
+https://ztnr.rtve.es/ztnr/1694255.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="196" tvg-name="Cristiana TV" tvg-logo="https://cdn.m3u.cl/logo/196_Cristiana_TV.png", Cristiana TV | ES
+https://cristianos2.todostreaming.es/live/malaga-livestream.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="198" tvg-name="TBN España" tvg-logo="https://cdn.m3u.cl/logo/198_TBN_Espana.png", TBN España | ES
+https://5e4e2e0bb2914.streamlock.net/live/ngrp:tbnlive_srt.stream_all/playlist.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="1692" tvg-name="PRIDEtv Latam" tvg-logo="https://cdn.m3u.cl/logo/1692_PRIDEtv_Latam.png", PRIDEtv Latam | CL
+https://backend.energeek.cl/webtv/pridetvweb/index.m3u8?token=D3m0M3UCLWeb&PlaylistM3UCL
+https://backend.energeek.cl/webtv/pridetvweb/index.m3u8?token=D3m0M3UCLWeb&PlaylistM3UCL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
