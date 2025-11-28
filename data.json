@@ -1,5 +1,19 @@
 [
 
+  {
+  "title": "Pokémon, la película: Mewtwo vs. Mew",
+  "originalTitle": "Pokémon: The First Movie – Mewtwo Strikes Back",
+  "description": "La primera película del universo Pokémon. Un experimento clona a un poderoso Pokémon mítico, dando origen a Mewtwo, quien tras rebelarse planea desafiar a toda la comunidad Pokémon y humana. Ash, Misty y Brock aceptan su invitación a una isla misteriosa, donde tendrán que enfrentarse a clones de sus Pokémon y tratar de detener los planes de dominación de Mewtwo. :contentReference[oaicite:1]{index=1}",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkRpGaLsIiAZy8UVS8aHeFwpBhF73ObQVXCxdRySUI-A&s=10",
+  "genre": ["Animación", "Aventura", "Fantasía", "Familiar"],
+  "year": 1998,
+  "director": "Kunihiko Yuyama",
+  "cast": ["Ash Ketchum", "Misty", "Brock", "Pikachu", "Mewtwo", "Mew"],
+  "runtime": "75–96 minutos (según versión) :contentReference[oaicite:2]{index=2}",
+  "language": ["Japonés", "Doblaje Latino/Español (según versión)"],
+  "video_url": "https://archive.org/download/pokemon-pelicula-1/P01MewVsMewtwo%20720p1998%20bunnydownloads.mp4"
+  },
+  
 
 
 {
