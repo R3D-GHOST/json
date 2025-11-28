@@ -1,6 +1,80 @@
 [
 
   {
+  "title": "Breaking Bad Temporada 3",
+  "description": "Tras los eventos de la temporada anterior, Walter White enfrenta nuevas amenazas mientras el cartel, Gus Fring y su doble vida como Heisenberg comienzan a presionarlo aún más. Jesse también cae más profundamente en el mundo del crimen.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZJ4NNz5nspOriXm2bXeAgr4hfQd13Rh6ltHIuW5aYFQ&s=10",
+  "genre": ["Drama", "Crimen", "Suspenso"],
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "Episodio 1",
+      "video_url": "https://archive.org/download/breaking-bad-3x-08-lat/Breaking%20Bad%203x01%20Lat.mkv"
+    },
+    {
+      "episode": 2,
+      "title": "Episodio 2",
+      "video_url": "https://archive.org/download/breaking-bad-3x-08-lat/Breaking%20Bad%203x02%20Lat.mkv"
+    },
+    {
+      "episode": 3,
+      "title": "Episodio 3",
+      "video_url": "https://archive.org/download/breaking-bad-3x-08-lat/Breaking%20Bad%203x03%20Lat.mkv"
+    },
+    {
+      "episode": 4,
+      "title": "Episodio 4",
+      "video_url": "https://archive.org/download/breaking-bad-3x-08-lat/Breaking%20Bad%203x04%20Lat.mkv"
+    },
+    {
+      "episode": 5,
+      "title": "Episodio 5",
+      "video_url": "https://archive.org/download/breaking-bad-3x-08-lat/Breaking%20Bad%203x05%20Lat.mkv"
+    },
+    {
+      "episode": 6,
+      "title": "Episodio 6",
+      "video_url": "https://archive.org/download/breaking-bad-3x-08-lat/Breaking%20Bad%203x06%20Lat.mkv"
+    },
+    {
+      "episode": 7,
+      "title": "Episodio 7",
+      "video_url": "https://archive.org/download/breaking-bad-3x-08-lat/Breaking%20Bad%203x07%20Lat.mkv"
+    },
+    {
+      "episode": 8,
+      "title": "Episodio 8",
+      "video_url": "https://archive.org/download/breaking-bad-3x-08-lat/Breaking%20Bad%203x08%20Lat.mkv"
+    },
+    {
+      "episode": 9,
+      "title": "Episodio 9",
+      "video_url": "https://archive.org/download/breaking-bad-3x-08-lat/Breaking%20Bad%203x09%20Lat.mkv"
+    },
+    {
+      "episode": 10,
+      "title": "Episodio 10",
+      "video_url": "https://archive.org/download/breaking-bad-3x-08-lat/Breaking%20Bad%203x10%20Lat.mkv"
+    },
+    {
+      "episode": 11,
+      "title": "Episodio 11",
+      "video_url": "https://archive.org/download/breaking-bad-3x-08-lat/Breaking%20Bad%203x11%20Lat.mkv"
+    },
+    {
+      "episode": 12,
+      "title": "Episodio 12",
+      "video_url": "https://archive.org/download/breaking-bad-3x-08-lat/Breaking%20Bad%203x12%20Lat.mkv"
+    },
+    {
+      "episode": 13,
+      "title": "Episodio 13",
+      "video_url": "https://archive.org/download/breaking-bad-3x-08-lat/Breaking%20Bad%203x13%20Lat.mkv"
+    }
+  ]
+},
+
+  {
   "title": "Pokémon, la película: Mewtwo vs. Mew",
   "originalTitle": "Pokémon: The First Movie – Mewtwo Strikes Back",
   "description": "La primera película del universo Pokémon. Un experimento clona a un poderoso Pokémon mítico, dando origen a Mewtwo, quien tras rebelarse planea desafiar a toda la comunidad Pokémon y humana. Ash, Misty y Brock aceptan su invitación a una isla misteriosa, donde tendrán que enfrentarse a clones de sus Pokémon y tratar de detener los planes de dominación de Mewtwo. :contentReference[oaicite:1]{index=1}",
