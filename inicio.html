@@ -7,7 +7,7 @@
 
 <meta name="theme-color" content="#0e1635">
 <meta name="mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-app-capable" content="yes">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -46,42 +46,9 @@ body{
   overflow-x:hidden;
   scroll-behavior:smooth;
   line-height:1.45;
+  padding-top: 0;
 }
 
-/* ------------------------------------------- */
-/* 🖼️ HEADER Y BUSCADOR (Ajustado) */
-/* ------------------------------------------- */
-header{
-  position:sticky;
-  top:0;
-  z-index:50;
-  display:flex;
-  align-items:center;
-  gap: 15px;
-  justify-content:space-between;
-  padding:12px 3vw;
-  background:var(--bg-primary);
-  box-shadow:0 2px 10px var(--shadow-dark);
-}
-header h1{
-  font-weight:700;
-  letter-spacing:2px;
-  color:var(--accent);
-  text-transform:uppercase;
-  font-family:'Roboto Mono',monospace;
-  font-size:1.5rem;
-  cursor: pointer;
-}
-#searchIcon {
-    font-size: 1.4rem;
-    color: var(--muted);
-    cursor: pointer;
-    transition: color 0.3s;
-    flex-shrink: 0;
-}
-#searchIcon:hover {
-    color: var(--accent);
-}
 
 /* 🚀 Contenido Principal */
 main{
@@ -92,14 +59,11 @@ main{
 
 /* 🔎 VISTA DE BUSCADOR */
 #searchView {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 100vh;
+    position: fixed; 
+    inset: 0;
     background: var(--bg-primary);
     z-index: 55;
-    padding-top: 24px;
+    padding-top: 24px; 
     display: none;
     overflow-y: auto;
     padding-bottom: calc(24px + var(--nav-height));
@@ -118,6 +82,7 @@ main{
     font-size: 1.5rem;
     color: var(--muted);
     cursor: pointer;
+    display: none; 
 }
 #searchInput {
     flex-grow: 1;
@@ -147,11 +112,9 @@ main{
     gap: 10px;
 }
 
-/* ------------------------------------------- */
-/* 🎬 HOME PRIME VIDEO (Carrusel Horizontal) */
-/* ------------------------------------------- */
+/* 🎬 SECCIONES DE CONTENIDO */
 #mainView {
-    padding-top: 24px;
+    padding-top: 0; 
 }
 .content-section {
     padding: 15px 0 25px 0;
@@ -165,20 +128,21 @@ main{
     border-left: 4px solid var(--accent);
     padding-left: 14px;
 }
+/* SLIDER DE SCROLL HORIZONTAL (Manual) */
 .horizontal-scroll {
     display: flex;
-    overflow-x: scroll;
+    overflow-x: scroll; /* Scroll manual activado */
     padding: 10px 3vw;
     gap: 15px;
     -webkit-overflow-scrolling: touch;
 }
 .horizontal-scroll::-webkit-scrollbar {
-    display: none;
+    display: none; /* Oculta la barra de scroll en navegadores Webkit */
 }
 
-/* 🃏 Tarjeta (Card) */
+/* 🃏 Tarjeta (Card) - AJUSTADA */
 .card{
-  flex: 0 0 130px;
+  flex: 0 0 140px; /* ANCHO AUMENTADO: 120px -> 140px */
   background:var(--bg-card);
   border-radius:6px;
   overflow:hidden;
@@ -192,7 +156,7 @@ main{
 .card img{
   display:block;
   width:100%;
-  height:180px;
+  height:200px; /* ALTO REDUCIDO: 220px -> 200px */
   object-fit:cover;
   transition:transform .3s;
 }
@@ -206,6 +170,74 @@ main{
     text-overflow:ellipsis;
 }
 .info span{display:block;margin-top:2px;color:var(--muted);font-size:.8rem;font-weight:300;}
+
+/* 🌟 HERO/HEADER DE NOVEDADES (Estatica) */
+.hero-static-container {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+    height: 300px; /* Altura del hero */
+    overflow: hidden;
+}
+
+.hero-static-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+.hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(0deg, var(--bg-primary) 0%, rgba(14,22,53,0.5) 50%, rgba(14,22,53,0) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 30px 3vw;
+}
+.hero-overlay h1 {
+    font-size: 2rem;
+    margin-bottom: 8px;
+    max-height: 2.8em; 
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.hero-overlay p {
+    color: var(--muted);
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+    max-height: 2.8em; 
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.play-button-hero {
+    background: var(--accent);
+    color: var(--bg-primary);
+    padding: 12px 25px;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 1.05rem;
+    cursor: pointer;
+    transition: background-color .3s, transform .3s, box-shadow .3s;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: fit-content;
+}
+.play-button-hero:hover {
+    background: var(--accent-2);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 15px var(--shadow-accent);
+}
+
+/* ------------------------------------------- */
+
 
 /* ------------------------------------------- */
 /* ⬇️ MENÚ DE NAVEGACIÓN INFERIOR */
@@ -237,6 +269,7 @@ main{
   font-weight: 500;
   cursor: pointer;
   user-select: none;
+  min-width: 0; 
 }
 .nav-item i {
   font-size: 1.2rem;
@@ -246,14 +279,32 @@ main{
   color: var(--accent);
 }
 
+/* Grid de resultados y paginación */
+#dynamicGrid {
+    padding: 0 3vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); 
+    gap: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#loadingIndicator {
+    display: none;
+    text-align: center;
+    padding: 15px;
+    color: var(--muted);
+}
+
+
 /* ------------------------------------------- */
-/* 🖼️ VISTA DE DETALLE (Modificada) */
+/* 🖼️ VISTA DE DETALLE */
 /* ------------------------------------------- */
 #detailView{
     position:fixed;
     inset:0;
     background:var(--bg-primary);
-    overflow-y:auto; /* El scroll principal de la vista de detalle */
+    overflow-y:auto; 
     display:none;
     z-index:200;
     animation:fade .3s ease-out;
@@ -298,7 +349,7 @@ main{
     transform: scale(1.1);
 }
 
-/* 🎬 SECCIÓN DE EPISODIOS/CAPÍTULOS (Revisada) */
+/* 🎬 SECCIÓN DE EPISODIOS/CAPÍTULOS */
 .episodes{margin-top:26px;padding-top:18px;border-top:1px solid rgba(255,255,255,.15);}
 .episodes h3{margin-bottom:12px;text-transform:uppercase;font-size:1.2rem;}
 .episodes-list{
@@ -306,23 +357,13 @@ main{
     flex-direction: column;
     gap: 8px;
     max-height: 400px; 
-    overflow-y: scroll; /* Cambiado a scroll para forzar la barra si el contenido excede */
+    overflow-y: scroll; 
     padding-right: 8px;
-    /* Optimización para scroll en dispositivos móviles (iOS) */
     -webkit-overflow-scrolling: touch; 
 }
-
-/* ESTILOS OPCIONALES PARA HACER VISIBLE LA BARRA (puedes probar si esto ayuda) */
-.episodes-list::-webkit-scrollbar {
-    width: 6px;
-}
-.episodes-list::-webkit-scrollbar-thumb {
-    background-color: var(--accent-2);
-    border-radius: 10px;
-}
-.episodes-list::-webkit-scrollbar-track {
-    background: #31406e;
-}
+.episodes-list::-webkit-scrollbar { width: 6px; }
+.episodes-list::-webkit-scrollbar-thumb { background-color: var(--accent-2); border-radius: 10px; }
+.episodes-list::-webkit-scrollbar-track { background: #31406e; }
 
 
 .episode-item{
@@ -383,23 +424,21 @@ main{
 /* 📱 Media Queries */
 @media (max-width:900px){
     .details h2{font-size:1.8rem}
+    .hero-overlay h1 { font-size: 1.6rem; }
 }
 @media (max-width:680px){
-    .card{flex: 0 0 120px;}.card img{height:160px;}
+    /* Ajuste para pantallas pequeñas */
+    .card{flex: 0 0 120px;}.card img{height:170px;} 
 }
 </style>
 </head>
 <body>
 
-<header>
-  <h1>+</h1>
-  <i class="fas fa-search" id="searchIcon"></i>
-</header>
-
 <main>
   <div id="mainView">
     <div id="content">
-      </div>
+        </div>
+    <div id="loadingIndicator">Cargando...</div>
   </div>
   
   <div id="searchView">
@@ -409,9 +448,9 @@ main{
     </div>
     <h2 id="searchResultsTitle"></h2>
     <div id="searchResultsGrid">
-        </div>
+    </div>
   </div>
-</main>
+</div>
 
 <div id="detailView">
     <div class="detail-header">
@@ -435,17 +474,29 @@ main{
 </div>
 
 <nav id="bottomNav">
-  <div class="nav-item active" data-tab="anime">
-    <i class="fas fa-home"></i>
-    <span>Inicio</span>
+  <div class="nav-item active" data-tab="home">
+    <i class="fas fa-house-chimney"></i>
+    <span></span>
   </div>
-  <div class="nav-item" data-tab="canales">
+  <div class="nav-item" data-tab="series">
+    <i class="fas fa-clapperboard"></i>
+    <span></span>
+  </div>
+  <div class="nav-item" data-tab="movies">
+    <i class="fas fa-film"></i>
+    <span></span>
+  </div>
+  <div class="nav-item" data-tab="channels">
     <i class="fas fa-tv"></i>
-    <span>Canales</span>
+    <span></span>
   </div>
   <div class="nav-item" data-tab="favorites">
     <i class="fas fa-heart"></i>
-    <span>Favoritos</span>
+    <span></span>
+  </div>
+  <div class="nav-item" data-tab="search">
+    <i class="fas fa-search"></i>
+    <span></span>
   </div>
 </nav>
 
@@ -453,17 +504,19 @@ main{
 const ANIME_JSON = "https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/data.json";
 const M3U8_URL = "https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/CV.m3u8";
 
-let animes = [], canales = [];
-let currentTab = 'anime', currentItem = null;
+let contentData = [], series = [], movies = [], channels = [];
+let currentTab = 'home', currentItem = null;
+let currentLoadLimit = 30;
+const LOAD_INCREMENT = 30; 
+let allContent = []; 
+let isLoading = false; 
 
 // Referencias del DOM
 const content = document.getElementById('content');
 const detailView = document.getElementById('detailView');
 const backBtn = document.getElementById('backBtn');
-const searchIcon = document.getElementById('searchIcon');
 const mainView = document.getElementById('mainView');
 const searchView = document.getElementById('searchView');
-const backFromSearch = document.getElementById('backFromSearch');
 const searchInput = document.getElementById('searchInput');
 const searchResultsGrid = document.getElementById('searchResultsGrid');
 const searchResultsTitle = document.getElementById('searchResultsTitle');
@@ -474,6 +527,7 @@ const detailName = document.getElementById('detailName');
 const detailDesc = document.getElementById('detailDesc');
 const detailGenres = document.getElementById('detailGenres');
 const episodesListContainer = document.querySelector('.episodes-list'); 
+const loadingIndicator = document.getElementById('loadingIndicator');
 
 // --- Lógica de Favoritos ---
 function getFavorites() {
@@ -510,42 +564,97 @@ function toggleFavorite(item) {
 // ----------------------------
 
 
-// --- Funciones de Datos ---
-async function fetchAnimes(){
-  try { animes = await (await fetch(ANIME_JSON)).json(); }
-  catch(e){ console.error(e); animes=[]; }
+// --- Funciones de Datos y Separación ---
+async function fetchData(){
+  try { 
+    loadingIndicator.style.display = 'block';
+    
+    // Suponemos que contentData está ordenado del más nuevo al más viejo.
+    contentData = await (await fetch(ANIME_JSON)).json(); 
+    series = contentData.filter(item => item.episodes && item.episodes.length > 0);
+    movies = contentData.filter(item => !item.episodes || item.episodes.length === 0);
+
+    await fetchChannels();
+    
+    combineAllContent(); 
+
+    loadingIndicator.style.display = 'none';
+    renderCurrentTab();
+
+  }
+  catch(e){ 
+    console.error("Error al cargar los datos:", e); 
+    contentData=[]; series=[]; movies=[]; channels=[]; 
+    content.innerHTML = `<p style="color:var(--accent); padding: 50px 3vw; text-align: center;">❌ Error al cargar los datos. Intenta recargar la página.</p>`;
+    loadingIndicator.style.display = 'none';
+  }
 }
+
 async function fetchChannels(){
   try {
     const res = await fetch(M3U8_URL);
     const text = await res.text();
     const lines = text.split(/\r?\n/);
-    let current = null; canales=[];
+    let current = null; channels=[];
     for(const lineRaw of lines){
       const line = lineRaw.trim();
       if(!line) continue;
       if(line.startsWith('#EXTINF:')){
         const logo = (line.match(/tvg-logo="([^"]*)"/)||[])[1]||null;
         const name = (line.match(/,(.*)$/)||[])[1]?.trim()||'Canal';
-        current = {id:name,title:name,logo,type:'channel',isChannel:true};
+        // Asignar una imagen de marcador de posición si el logo es nulo
+        const coverImage = logo || 'https://via.placeholder.com/140x200?text=TV';
+        current = {id:name,title:name,coverImage,logo,type:'channel',isChannel:true, video_url:'', genre: ['En Vivo', 'Canal']};
       } else if(!line.startsWith('#') && current){
         current.video_url = line;
-        canales.push(current);
+        channels.push(current);
         current=null;
       }
     }
-  } catch(e){ console.error(e); canales=[]; }
+  } catch(e){ console.error("Error al cargar canales:", e); channels=[]; }
+}
+
+function combineAllContent() {
+    // El orden en contentData (series y películas) se mantiene para priorizar la novedad
+    allContent = [...contentData, ...channels]; 
 }
 // ----------------------------
 
 
+// --- HERO Estático (Último Contenido Añadido) ---
+function renderStaticHero(item) {
+    if (!item) return null;
+    
+    const container = document.createElement('div');
+    container.className = 'hero-static-container';
+    
+    const heroCover = item.coverImage || 'https://via.placeholder.com/600x300?text=Última Novedad';
+    const itemId = item.id || item.title;
+
+    container.innerHTML = `
+        <img src="${heroCover}" alt="${item.title}" onerror="this.onerror=null;this.src='https://via.placeholder.com/600x300?text=Última Novedad';">
+        <div class="hero-overlay">
+            <h1>${item.title}</h1>
+            <p>${item.description || 'La última adición a nuestro catálogo premium. ¡No te la pierdas!'}</p>
+            <button class="play-button-hero" onclick="openDetail(allContent.find(i => (i.id || i.title) === '${itemId}'))">
+                <i class="fas fa-play"></i>
+                Reproducir Ahora
+            </button>
+        </div>
+    `;
+
+    return container;
+}
+// ----------------------------------------------------
+
+
 // --- Renderizado de Tarjeta ---
 function createCardHTML(item) {
-    const cover = item.coverImage || item.logo || '';
+    const cover = item.coverImage || item.logo || 'https://via.placeholder.com/140x200?text=Portada';
     const spanText = item.isChannel ? 'En vivo' : (item.genre ? item.genre[0] : '');
     const card = document.createElement('div');
     card.className = 'card';
-    card.innerHTML = `<img src="${cover}" alt="${item.title}"><div class="info"><h3>${item.title}</h3><span>${spanText}</span></div>`;
+    card.innerHTML = `<img src="${cover}" alt="${item.title}" onerror="this.onerror=null;this.src='https://via.placeholder.com/140x200?text=Portada';"><div class="info"><h3>${item.title}</h3><span>${spanText}</span></div>`;
     card.onclick = () => openDetail(item);
     setTimeout(() => card.classList.add('show'), 50);
     return card;
@@ -553,50 +662,51 @@ function createCardHTML(item) {
 // ----------------------------
 
 
-// --- Renderizado de Vistas Principales (Home) ---
-function renderPrimeVideoHome() {
+// --- Renderizado de Vistas Principales (Home y Scroll Infinito) ---
+function renderHomePage() {
     content.innerHTML = '';
     
-    // ⭐️ LISTA COMPLETA DE CATEGORÍAS ⭐️
+    // 🌟 Obtiene el último elemento añadido (el primero de la lista)
+    const featuredItem = allContent[0]; 
+    
+    // --- 1. Crear el Hero Estático (Última Novedad) ---
+    if (featuredItem) {
+        const heroElement = renderStaticHero(featuredItem);
+        if (heroElement) {
+            content.appendChild(heroElement);
+        }
+    }
+    
+    // --- 2. Definir las secciones de scroll horizontal (Géneros) ---
     const sections = [
-        { title: ' Novedades y Estrenos', list: animes.slice(0, 15) },
-        { title: ' Canales en Vivo', list: canales.slice(0, 15) },
-        
-        // Géneros de Acción y Combate
-        { title: ' Infantil', genre: 'Animacion' },
-        { title: ' Infantil', genre: 'Familiar' },
-        { title: ' Aventura', genre: 'Aventura' },
-
-        
-        // Géneros de Fantasía y Mundo
-        { title: ' Anime', genre: 'Anime' },
-        { title: ' Sobrenatural', genre: 'Sobrenatural' },
-
-
-        // Géneros de Vida y Sentimiento
-        { title: ' Drama', genre: 'Drama' },
-        { title: ' Romance', genre: 'Romance' },
-        
-        // Géneros Ligeros y Humor
-        { title: ' Comedia', genre: 'Comedia' },
-        { title: ' Harem / Ecchi', genre: 'Ecchi' },
-        
-        // Otros Temas
-        { title: ' Thriller', genre: 'Thriller' },
+        { title: ' Canales en Vivo', list: channels.slice(0, 10) },
+        { title: ' Acción', genre: 'Acción', listType: 'all' },
+        { title: ' Animación', genre: 'Animación', listType: 'all' },
+        { title: ' Anime', genre: 'Anime', listType: 'all' },
+        { title: ' Terror y Thriller', genre: 'Terror', listType: 'all' },
+        { title: ' Documentales', genre: 'Documental', listType: 'all' },
     ];
-
-    sections.forEach(section => {
+    
+    // Renderiza las secciones horizontales
+    sections.forEach((section) => {
         let list = section.list;
         
         if (section.genre) {
-            // Filtrar y tomar los primeros 15 elementos de cada género
-            list = animes.filter(a => a.genre && a.genre.includes(section.genre)).slice(0, 15);
+            let source = allContent;
+            if (section.listType === 'series') {
+                source = series;
+            } else if (section.listType === 'movies') {
+                source = movies;
+            }
+            
+            // Filtra por género y toma los 10 primeros (ordenados por novedad implícita)
+            list = source.filter(a => a.genre && a.genre.includes(section.genre)).slice(0, 10);
         }
 
         if (list && list.length > 0) {
             const sectionDiv = document.createElement('div');
             sectionDiv.className = 'content-section';
-            
+
             const titleElement = document.createElement('h2');
             titleElement.className = 'section-title';
             titleElement.textContent = section.title;
@@ -617,30 +727,104 @@ function renderPrimeVideoHome() {
     content.classList.add('loaded');
 }
 
-function renderGridPage(list, titleText) {
-    content.innerHTML = '';
-    
-    const title = document.createElement('h2');
-    title.className = 'section-title';
-    title.textContent = titleText;
-    title.style.paddingLeft = '3vw';
-    content.appendChild(title);
+function renderGridPagePaginated(list, titleText, initialLoad = true) {
+    if (initialLoad) {
+        content.innerHTML = '';
+        currentLoadLimit = LOAD_INCREMENT; 
+        
+        const title = document.createElement('h2');
+        title.className = 'section-title';
+        title.textContent = titleText;
+        title.style.paddingLeft = '3vw';
+        title.style.marginTop = '20px'; 
+        content.appendChild(title);
 
-    const gridDiv = document.createElement('div');
-    gridDiv.id = 'dynamicGrid';
-    gridDiv.style.cssText = 'display: grid; grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); gap: 10px; padding: 0 3vw;';
+        const gridDiv = document.createElement('div');
+        gridDiv.id = 'dynamicGrid';
+        content.appendChild(gridDiv);
+        content.appendChild(loadingIndicator); 
 
-    if (list.length === 0) {
-        gridDiv.innerHTML = `<p style="color:var(--muted); padding: 20px 0;">${currentTab === 'favorites' ? 'No tienes favoritos guardados.' : 'No hay contenido disponible.'}</p>`;
-    } else {
-        list.forEach(item => {
-            gridDiv.appendChild(createCardHTML(item));
-        });
+        if (list.length === 0) {
+            gridDiv.innerHTML = `<p style="color:var(--muted); padding: 20px 0; text-align: center;">${currentTab === 'favorites' ? 'No tienes favoritos guardados.' : 'No hay contenido disponible.'}</p>`;
+            loadingIndicator.style.display = 'none';
+            return;
+        }
     }
 
-    content.appendChild(gridDiv);
+    const gridDiv = document.getElementById('dynamicGrid');
+    
+    const itemsToRender = list.slice(0, currentLoadLimit);
+    const newItems = itemsToRender.slice(gridDiv.children.length);
+    
+    if (initialLoad) {
+        gridDiv.innerHTML = ''; 
+    }
+
+    newItems.forEach(item => {
+        gridDiv.appendChild(createCardHTML(item));
+    });
+
+    if (gridDiv.children.length < list.length) {
+        loadingIndicator.style.display = 'block';
+        loadingIndicator.textContent = `Cargando más contenido... (${gridDiv.children.length}/${list.length})`;
+    } else {
+        if(list.length > 0) {
+            loadingIndicator.style.display = 'block';
+            loadingIndicator.textContent = `Fin de resultados (${list.length} en total)`;
+        } else {
+            loadingIndicator.style.display = 'none';
+        }
+    }
+
     content.classList.add('loaded');
+    isLoading = false; 
 }
+// ----------------------------
+
+
+// --- Lógica de Scroll Infinito ---
+function handleScrollPagination() {
+    // Solo si estamos en una vista de cuadrícula paginada
+    if (['series', 'movies', 'channels', 'favorites'].includes(currentTab) && !isLoading) {
+
+        const scrollTop = document.documentElement.scrollTop;
+        const scrollHeight = document.documentElement.scrollHeight;
+        const clientHeight = document.documentElement.clientHeight;
+
+        const threshold = 100; 
+
+        if (scrollTop + clientHeight >= scrollHeight - threshold) {
+            let list = [];
+            let title = '';
+
+            if (currentTab === 'series') {
+                list = series; title = 'Todas las Series';
+            } else if (currentTab === 'movies') {
+                list = movies; title = 'Todas las Películas';
+            } else if (currentTab === 'channels') {
+                list = channels; title = 'Todos los Canales en Vivo';
+            } else if (currentTab === 'favorites') {
+                list = getFavorites(); title = 'Mis Favoritos';
+            }
+            
+            if (currentLoadLimit < list.length) {
+                isLoading = true; 
+                currentLoadLimit += LOAD_INCREMENT;
+                
+                setTimeout(() => {
+                    renderGridPagePaginated(list, title, false);
+                }, 100); 
+            } else {
+                if(list.length > 0) {
+                    loadingIndicator.style.display = 'block';
+                    loadingIndicator.textContent = `Fin de resultados (${list.length} en total)`;
+                }
+            }
+        }
+    }
+}
+
+window.addEventListener('scroll', handleScrollPagination);
 // ----------------------------
 
 
@@ -651,42 +835,73 @@ function showView(viewId) {
 }
 
 function renderCurrentTab(){
-    if(currentTab === 'anime'){
-        renderPrimeVideoHome();
-    } else if (currentTab === 'canales') {
-        renderGridPage(canales, 'Todos los Canales en Vivo');
+    // Limpiar el estado activo del botón Volver de la búsqueda
+    document.getElementById('backFromSearch').style.display = 'none';
+    
+    // Actualizar texto del nav-item
+    document.querySelector('.nav-item[data-tab="home"] span').textContent = 'Inicio';
+    document.querySelector('.nav-item[data-tab="series"] span').textContent = 'Series';
+    document.querySelector('.nav-item[data-tab="movies"] span').textContent = 'Películas';
+    document.querySelector('.nav-item[data-tab="channels"] span').textContent = 'Canales';
+    document.querySelector('.nav-item[data-tab="favorites"] span').textContent = 'Favoritos';
+    document.querySelector('.nav-item[data-tab="search"] span').textContent = 'Buscar';
+    
+    if(allContent.length > 0) {
+        loadingIndicator.style.display = 'none';
+    }
+    isLoading = false;
+
+    if (currentTab === 'search') {
+        showView('searchView');
+        searchInput.focus();
+        searchResultsGrid.innerHTML = '';
+        searchResultsTitle.textContent = "Empieza a escribir para buscar...";
+        document.getElementById('backFromSearch').style.display = 'block'; 
+        return;
+    }
+    
+    showView('mainView');
+    
+    if(currentTab === 'home'){
+        renderHomePage();
+    } else if (currentTab === 'series') {
+        renderGridPagePaginated(series, 'Todas las Series', true);
+    } else if (currentTab === 'movies') {
+        renderGridPagePaginated(movies, 'Todas las Películas', true);
+    } else if (currentTab === 'channels') {
+        renderGridPagePaginated(channels, 'Todos los Canales en Vivo', true);
     } else if (currentTab === 'favorites') {
-        renderGridPage(getFavorites(), 'Mis Favoritos');
+        renderGridPagePaginated(getFavorites(), 'Mis Favoritos', true);
     }
     window.scrollTo(0, 0);
-    showView('mainView');
 }
 
 // Eventos de Navegación Inferior
 bottomNavItems.forEach(btn => btn.onclick = () => {
   bottomNavItems.forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
-  currentTab=btn.dataset.tab;
   
-  if(searchView.style.display === 'block') backFromSearch.click();
+  if(currentTab === 'search' && btn.dataset.tab !== 'search') {
+    // Simular el cierre de la búsqueda al cambiar de pestaña
+    searchInput.value = '';
+    showView('mainView');
+    currentTab = btn.dataset.tab;
+  } else {
+    currentTab = btn.dataset.tab;
+  }
   
   renderCurrentTab();
 });
 
-// Eventos de Buscador
-searchIcon.onclick = () => {
-    showView('searchView');
-    searchInput.value = '';
-    searchResultsGrid.innerHTML = '';
-    searchResultsTitle.textContent = "Empieza a escribir para buscar...";
-    searchInput.focus();
-};
 
-backFromSearch.onclick = () => {
-    showView('mainView');
+// Eventos de Buscador
+document.getElementById('backFromSearch').onclick = () => {
     searchInput.value = '';
-    renderCurrentTab(); 
-};
+    currentTab = 'home';
+    document.querySelector('.nav-item.active').classList.remove('active');
+    document.querySelector('.nav-item[data-tab="home"]').classList.add('active');
+    renderCurrentTab();
+}
 
 searchInput.addEventListener('input', () => {
     const query = searchInput.value.toLowerCase().trim();
@@ -697,7 +912,6 @@ searchInput.addEventListener('input', () => {
         return;
     }
     
-    const allContent = [...animes, ...canales];
     const filtered = allContent.filter(item => 
         item.title.toLowerCase().includes(query) ||
         (item.genre && item.genre.join(' ').toLowerCase().includes(query)) ||
@@ -707,7 +921,7 @@ searchInput.addEventListener('input', () => {
     searchResultsTitle.textContent = `Resultados para "${query}" (${filtered.length})`;
 
     if (filtered.length === 0) {
-        searchResultsGrid.innerHTML = `<p style="color:var(--muted); padding: 20px 0;">No se encontraron resultados para "${query}".</p>`;
+        searchResultsGrid.innerHTML = `<p style="color:var(--muted); padding: 20px 0; text-align: center;">No se encontraron resultados para "${query}".</p>`;
     } else {
         filtered.forEach(item => {
             searchResultsGrid.appendChild(createCardHTML(item));
@@ -721,38 +935,35 @@ searchInput.addEventListener('input', () => {
 function openDetail(item){
     currentItem=item;
     
-    const coverUrl = item.coverImage || item.logo || '';
+    const coverUrl = item.coverImage || item.logo || 'https://via.placeholder.com/140x200?text=Portada';
     detailView.classList.add('active'); 
     detailView.style.display='block';
     detailView.scrollTo(0, 0);
     
-    // Rellenar detalles
     detailTitle.textContent=detailName.textContent=item.title;
-    detailDesc.textContent=item.description||'';
+    detailDesc.textContent=item.description||'No hay descripción disponible para este contenido.';
     detailGenres.textContent=Array.isArray(item.genre)&&item.genre.length?'🎭 '+item.genre.join(', '):'';
     
-    // Configurar favoritos
     favoriteBtn.onclick = () => toggleFavorite(item);
     if (isFavorite(item)) { favoriteBtn.classList.add('active'); } else { favoriteBtn.classList.remove('active'); }
 
-    // Limpiar y configurar lista de episodios
     episodesListContainer.innerHTML='';
     const episodesSection = document.getElementById('detailEpisodes');
     episodesSection.style.display = 'block';
 
     if(item.episodes && item.episodes.length){
+        // Si tiene episodios, se listan
         episodesSection.querySelector('h3').textContent = 'Capítulos';
 
         item.episodes.forEach((ep,i)=>{
             const episodeItem = document.createElement('div');
             episodeItem.className = 'episode-item';
             
-            const thumbUrl = ep.thumb || item.coverImage || ''; 
-            
+            const thumbUrl = ep.thumb || item.coverImage || 'https://via.placeholder.com/80x45?text=Episodio'; 
             const episodeTitle = `Episodio ${i+1}`;
 
             episodeItem.innerHTML = `
-                <div class="episode-thumb"><img src="${thumbUrl}" alt="Ep. ${i+1}"></div>
+                <div class="episode-thumb"><img src="${thumbUrl}" alt="Ep. ${i+1}" onerror="this.onerror=null;this.src='https://via.placeholder.com/80x45?text=Episodio';"></div>
                 <div class="episode-info">
                     <strong>${episodeTitle}</strong>
                     <span>${ep.title || item.title}</span>
@@ -769,22 +980,22 @@ function openDetail(item){
             episodesListContainer.appendChild(episodeItem);
         });
     } else if(item.video_url){
-        episodesSection.querySelector('h3').textContent = item.isChannel ? 'Ver Canal' : 'Ver Película';
+        // Si es Película o Canal, un solo botón de Reproducir
+        episodesSection.querySelector('h3').textContent = item.isChannel ? 'Ver Canal en Vivo' : 'Ver Película';
         
         const playItem = document.createElement('div');
-        playItem.className = 'episode-item';
+        playItem.className = 'episode-item active'; // Activo por defecto para destacar el botón
 
         playItem.innerHTML = `
-            <div class="episode-thumb"><img src="${coverUrl}" alt="Portada"></div>
+            <div class="episode-thumb"><img src="${coverUrl}" alt="Portada" onerror="this.onerror=null;this.src='https://via.placeholder.com/80x45?text=Portada';"></div>
             <div class="episode-info">
-                <strong>${item.isChannel ? 'Reproducir Canal' : 'Ver Película Ahora'}</strong>
+                <strong>${item.isChannel ? 'Reproducir Canal Ahora' : 'Ver Película Ahora'}</strong>
                 <span>${item.title}</span>
             </div>
             <i class="fas fa-play play-icon"></i>
         `;
 
         playItem.onclick = () => {
-            playItem.classList.add('active');
             window.open(item.video_url, '_blank');
         };
         episodesListContainer.appendChild(playItem);
@@ -803,9 +1014,7 @@ backBtn.onclick=()=>{
 
 // --- Inicialización ---
 document.addEventListener('DOMContentLoaded',async()=>{
-  await fetchAnimes();
-  await fetchChannels();
-  renderCurrentTab();
+  await fetchData();
 });
 </script>
 
