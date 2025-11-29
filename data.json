@@ -1,6 +1,46 @@
 [
 
   {
+  "title": "Peaky Blinders",
+  "description": "Thomas Shelby, líder de la familia criminal Peaky Blinders, comienza a expandir su poder en Birmingham mientras enfrenta a la policía y a enemigos peligrosos. Esta temporada marca el inicio del imperio Shelby.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4VpooBQVxiioyuTNoBeeeET_mJzm3dy-kd66ITPG-Xwaaug2or4vLfis&s=10",
+  "genre": ["Crimen", "Drama", "Histórica"],
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "Episodio 1",
+      "video_url": "https://archive.org/download/peaky-blinders-1x-03/Peaky%20Blinders%201x01.ia.mp4"
+    },
+    {
+      "episode": 2,
+      "title": "Episodio 2",
+      "video_url": "https://archive.org/download/peaky-blinders-1x-03/Peaky%20Blinders%201x02.ia.mp4"
+    },
+    {
+      "episode": 3,
+      "title": "Episodio 3",
+      "video_url": "https://archive.org/download/peaky-blinders-1x-03/Peaky%20Blinders%201x03.ia.mp4"
+    },
+    {
+      "episode": 4,
+      "title": "Episodio 4",
+      "video_url": "https://archive.org/download/peaky-blinders-1x-03/Peaky%20Blinders%201x04.ia.mp4"
+    },
+    {
+      "episode": 5,
+      "title": "Episodio 5",
+      "video_url": "https://archive.org/download/peaky-blinders-1x-03/Peaky%20Blinders%201x05.ia.mp4"
+    },
+    {
+      "episode": 6,
+      "title": "Episodio 6",
+      "video_url": "https://archive.org/download/peaky-blinders-1x-03/Peaky%20Blinders%201x06.ia.mp4"
+    }
+  ]
+},
+
+
+  {
   "title": "Breaking Bad Temporada 3",
   "description": "Tras los eventos de la temporada anterior, Walter White enfrenta nuevas amenazas mientras el cartel, Gus Fring y su doble vida como Heisenberg comienzan a presionarlo aún más. Jesse también cae más profundamente en el mundo del crimen.",
   "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZJ4NNz5nspOriXm2bXeAgr4hfQd13Rh6ltHIuW5aYFQ&s=10",
