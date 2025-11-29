@@ -1,5 +1,46 @@
 [
 
+{
+  "title": "Peaky Blinders Temporada 2",
+  "description": "Los Shelby expanden su imperio criminal más allá de Birmingham mientras Thomas se enfrenta a nuevos enemigos, alianzas peligrosas y decisiones que ponen a su familia en la línea de fuego.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI5-M7GLP1Jb8WAnh9ketrHy6V83W-aW6hf8nj5GFOuNJZ7tLtVKRQPRoH&s=10",
+  "genre": ["Crimen", "Drama", "Histórica"],
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "Episodio 1",
+      "video_url": "https://archive.org/download/peaky-blinders-2x-06-es-720p-you-tube-zona-grey-x/Peaky%20Blinders%202x01%20ES%20720p%20YouTube%40ZonaGreyX.mp4"
+    },
+    {
+      "episode": 2,
+      "title": "Episodio 2",
+      "video_url": "https://archive.org/download/peaky-blinders-2x-06-es-720p-you-tube-zona-grey-x/Peaky%20Blinders%202x02%20ES%20720p%20YouTube%40ZonaGreyX.mp4"
+    },
+    {
+      "episode": 3,
+      "title": "Episodio 3",
+      "video_url": "https://archive.org/download/peaky-blinders-2x-06-es-720p-you-tube-zona-grey-x/Peaky%20Blinders%202x03%20ES%20720p%20YouTube%40ZonaGreyX.mp4"
+    },
+    {
+      "episode": 4,
+      "title": "Episodio 4",
+      "video_url": "https://archive.org/download/peaky-blinders-2x-06-es-720p-you-tube-zona-grey-x/Peaky%20Blinders%202x04%20ES%20720p%20YouTube%40ZonaGreyX.mp4"
+    },
+    {
+      "episode": 5,
+      "title": "Episodio 5",
+      "video_url": "https://archive.org/download/peaky-blinders-2x-06-es-720p-you-tube-zona-grey-x/Peaky%20Blinders%202x05%20ES%20720p%20YouTube%40ZonaGreyX.mp4"
+    },
+    {
+      "episode": 6,
+      "title": "Episodio 6",
+      "video_url": "https://archive.org/download/peaky-blinders-2x-06-es-720p-you-tube-zona-grey-x/Peaky%20Blinders%202x06%20ES%20720p%20YouTube%40ZonaGreyX.mp4"
+    }
+  ]
+},
+  
+
+  
 
 {
   "title": "Huntik: Secrets & Seekers Temporada 2",
