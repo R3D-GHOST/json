@@ -1,5 +1,44 @@
 [
 
+
+{
+  "title": "Huntik: Secrets & Seekers Temporada 2",
+  "description": "Lok, Dante, Zhalia y Sophie continúan su misión como Buscadores enfrentándose a nuevos enemigos del Espiral mientras descubren titanes legendarios y secretos de los Casterwill.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5R89Hlev5qfDkVw4twjAPZqTknkZTs1wEe-dlFF24FQ&s=10",
+  "genre": ["Aventura", "Acción", "Fantasía"],
+  "episodes": [
+    { "episode": 1, "title": "La entrada a Huntik", "video_url": "https://archive.org/download/13-shophie-a-prueba/01%20La%20entrada%20a%20huntik.mp4" },
+    { "episode": 2, "title": "La torre de Nostradamus", "video_url": "https://archive.org/download/13-shophie-a-prueba/02%20La%20torre%20de%20nostradamus.mp4" },
+    { "episode": 3, "title": "La cueva de los Casterwill", "video_url": "https://archive.org/download/13-shophie-a-prueba/03%20La%20cueva%20de%20los%20casterwill.mp4" },
+    { "episode": 4, "title": "El caballero de la hoja de la voluntad", "video_url": "https://archive.org/download/13-shophie-a-prueba/04%20El%20caballero%20de%20la%20hoja%20de%20la%20voluntad.mp4" },
+    { "episode": 5, "title": "Buscando a Void", "video_url": "https://archive.org/download/13-shophie-a-prueba/05%20Buscando%20a%20void.mp4" },
+    { "episode": 6, "title": "El espiral de sangre", "video_url": "https://archive.org/download/13-shophie-a-prueba/06%20El%20espiral%20de%20sangre.mp4" },
+    { "episode": 7, "title": "Den contra Harrison", "video_url": "https://archive.org/download/13-shophie-a-prueba/07%20Den%20contra%20harrison.mp4" },
+    { "episode": 8, "title": "El titán legendario del destino", "video_url": "https://archive.org/download/13-shophie-a-prueba/08%20El%20titan%20legendario%20del%20destino.mp4" },
+    { "episode": 9, "title": "La misión de Zhalia", "video_url": "https://archive.org/download/13-shophie-a-prueba/09%20La%20mision%20de%20zhalia.mp4" },
+    { "episode": 10, "title": "Los chicos serán Buscadores", "video_url": "https://archive.org/download/13-shophie-a-prueba/10%20Los%20Chicos%20Seran%20Buscadores.mp4" },
+    { "episode": 11, "title": "La conexión Casterwill", "video_url": "https://archive.org/download/13-shophie-a-prueba/11%20La%20conexi%C3%B3n%20casterwill.mp4" },
+    { "episode": 12, "title": "El titán en el templo del sol", "video_url": "https://archive.org/download/13-shophie-a-prueba/12%20El%20tit%C3%A1n%20en%20el%20templo%20del%20sol.mp4" },
+    { "episode": 13, "title": "Sophie a prueba", "video_url": "https://archive.org/download/13-shophie-a-prueba/13%20Shophie%20A%20Prueba.mp4" },
+    { "episode": 14, "title": "La guerra del Espiral", "video_url": "https://archive.org/download/13-shophie-a-prueba/14%20La%20guerra%20del%20espiral.mp4" },
+    { "episode": 15, "title": "¡La plaga de los Gremlows!", "video_url": "https://archive.org/download/13-shophie-a-prueba/15%20%C2%A1La%20plaga%20de%20los%20gremlows%21.mp4" },
+    { "episode": 16, "title": "El poder de Umbra", "video_url": "https://archive.org/download/13-shophie-a-prueba/16%20El%20poder%20de%20umbra.mp4" },
+    { "episode": 17, "title": "El liderazgo de Lok", "video_url": "https://archive.org/download/13-shophie-a-prueba/17%20El%20liderazgo%20de%20lok.mp4" },
+    { "episode": 18, "title": "La isla sin magia", "video_url": "https://archive.org/download/13-shophie-a-prueba/18%20La%20isla%20sin%20magia.mp4" },
+    { "episode": 19, "title": "Las cenizas del fénix", "video_url": "https://archive.org/download/13-shophie-a-prueba/19%20Las%20cenizas%20del%20f%C3%A9nix.mp4" },
+    { "episode": 20, "title": "Un aliado de la Organización", "video_url": "https://archive.org/download/13-shophie-a-prueba/20%20Un%20aliado%20de%20la%20organizaci%C3%B3n.mp4" },
+    { "episode": 21, "title": "El secreto de Rassimov", "video_url": "https://archive.org/download/13-shophie-a-prueba/21%20El%20secreto%20de%20rassimov.mp4" },
+    { "episode": 22, "title": "De vuelta a casa", "video_url": "https://archive.org/download/13-shophie-a-prueba/22%20De%20vuelta%20a%20casa.mp4" },
+    { "episode": 23, "title": "Palabras de Eathon", "video_url": "https://archive.org/download/13-shophie-a-prueba/23%20Palabras%20de%20eathon.mp4" },
+    { "episode": 24, "title": "La marca del Espiral", "video_url": "https://archive.org/download/13-shophie-a-prueba/24%20La%20marca%20de%20el%20espiral.mp4" },
+    { "episode": 25, "title": "Lok y el traidor", "video_url": "https://archive.org/download/13-shophie-a-prueba/25%20Lok%20y%20el%20traidor.mp4" },
+    { "episode": 26, "title": "El regreso de Dante", "video_url": "https://archive.org/download/13-shophie-a-prueba/26%20El%20regreso%20de%20dante.mp4" }
+  ]
+},
+
+
+
+  
   {
   "title": "Peaky Blinders",
   "description": "Thomas Shelby, líder de la familia criminal Peaky Blinders, comienza a expandir su poder en Birmingham mientras enfrenta a la policía y a enemigos peligrosos. Esta temporada marca el inicio del imperio Shelby.",
