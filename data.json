@@ -1,5 +1,80 @@
 [
 
+  {
+  "title": "Breaking Bad Temporada 4",
+  "description": "Walter White y Jesse Pinkman enfrentan las consecuencias de su alianza con Gus Fring, en una temporada llena de tensión, estrategias mortales y una guerra silenciosa por el control.",
+  "coverImage": "https://imgs.search.brave.com/ZGuyiTgSn3QwCNEl64AtLIvQEgO1l1I2dV0e29K83sc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cuZm9ybXVsYXR2LmNvbS9pbWFnZXMvc2VyaWVzL3Bvc3RlcnMvMjAwLzIyOS81X20zLmpwZw",
+  "genre": ["Crimen", "Drama", "Thriller"],
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "Box Cutter",
+      "video_url": "https://archive.org/download/breaking-bad-4x-13-lat/Breaking%20Bad%204x01%20Lat.mkv"
+    },
+    {
+      "episode": 2,
+      "title": "Thirty-Eight Snub",
+      "video_url": "https://archive.org/download/breaking-bad-4x-13-lat/Breaking%20Bad%204x02%20Lat.mkv"
+    },
+    {
+      "episode": 3,
+      "title": "Open House",
+      "video_url": "https://archive.org/download/breaking-bad-4x-13-lat/Breaking%20Bad%204x03%20Lat.mkv"
+    },
+    {
+      "episode": 4,
+      "title": "Bullet Points",
+      "video_url": "https://archive.org/download/breaking-bad-4x-13-lat/Breaking%20Bad%204x04%20Lat.mkv"
+    },
+    {
+      "episode": 5,
+      "title": "Shotgun",
+      "video_url": "https://archive.org/download/breaking-bad-4x-13-lat/Breaking%20Bad%204x05%20Lat.mkv"
+    },
+    {
+      "episode": 6,
+      "title": "Cornered",
+      "video_url": "https://archive.org/download/breaking-bad-4x-13-lat/Breaking%20Bad%204x06%20Lat.mkv"
+    },
+    {
+      "episode": 7,
+      "title": "Problem Dog",
+      "video_url": "https://archive.org/download/breaking-bad-4x-13-lat/Breaking%20Bad%204x07%20Lat.mkv"
+    },
+    {
+      "episode": 8,
+      "title": "Hermanos",
+      "video_url": "https://archive.org/download/breaking-bad-4x-13-lat/Breaking%20Bad%204x08%20Lat.mkv"
+    },
+    {
+      "episode": 9,
+      "title": "Bug",
+      "video_url": "https://archive.org/download/breaking-bad-4x-13-lat/Breaking%20Bad%204x09%20Lat.mkv"
+    },
+    {
+      "episode": 10,
+      "title": "Salud",
+      "video_url": "https://archive.org/download/breaking-bad-4x-13-lat/Breaking%20Bad%204x10%20Lat.mkv"
+    },
+    {
+      "episode": 11,
+      "title": "Crawl Space",
+      "video_url": "https://archive.org/download/breaking-bad-4x-13-lat/Breaking%20Bad%204x11%20Lat.mkv"
+    },
+    {
+      "episode": 12,
+      "title": "End Times",
+      "video_url": "https://archive.org/download/breaking-bad-4x-13-lat/Breaking%20Bad%204x12%20Lat.mkv"
+    },
+    {
+      "episode": 13,
+      "title": "Face Off",
+      "video_url": "https://archive.org/download/breaking-bad-4x-13-lat/Breaking%20Bad%204x13%20Lat.mkv"
+    }
+  ]
+},
+
+  
 {
   "title": "Peaky Blinders Temporada 2",
   "description": "Los Shelby expanden su imperio criminal más allá de Birmingham mientras Thomas se enfrenta a nuevos enemigos, alianzas peligrosas y decisiones que ponen a su familia en la línea de fuego.",
