@@ -1,6 +1,18 @@
 [
 
-  
+  {
+  "title": "Pokémon 2: El poder de uno",
+  "originalTitle": "Pokémon the Movie 2000: The Power of One",
+  "description": "Ash y sus amigos llegan a la isla Shamouti, donde un coleccionista de Pokémon intenta capturar a las aves legendarias Articuno, Zapdos y Moltres —y así despertar al mítico guardián Lugia—, lo que amenaza con desequilibrar la naturaleza. Ash deberá reunir unas esferas legendarias para restaurar el equilibrio y salvar al mundo. ([wikipedia](https://en.wikipedia.org/wiki/Pok%C3%A9mon_the_Movie_2000))",
+  "coverImage": "https://static.wikia.nocookie.net/espokemon/images/8/85/Pok%C3%A9mon_2000_El_poder_de_uno.png/revision/latest?cb=20120919175616",
+  "genre": ["Animación", "Aventura", "Fantasía", "Familiar"],
+  "year": 1999,
+  "director": "Kunihiko Yuyama",
+  "cast": ["Ash Ketchum", "Pikachu", "Misty", "Tracey", "Lugia", "Articuno", "Zapdos", "Moltres"],
+  "runtime": "80–82 minutos",
+  "language": ["Japonés", "Doblaje español (según versión)"],
+  "video_url": "https://archive.org/download/pokemon-pelicula-2/P02ElPoderDeUno%20720p2000%20bunnydownloads.mp4"
+  },
 
 {
   "title": "Peaky Blinders Temporada 3"
