@@ -2,6 +2,44 @@
 
   
 
+{
+  "title": "Peaky Blinders Temporada 3"
+  "description": "Thomas Shelby se enfrenta a nuevas amenazas que pondrán a prueba su poder, su familia y sus alianzas mientras los Shelby se adentran en un mundo criminal cada vez más peligroso.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxtwMEwD7JvlQ_HZMsWhV_sksyyxkF5IZrsP1LJLSaiSyOacCN1zGdo6s&s=10",
+  "genre": ["Crimen", "Drama", "Histórico"],
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "Episode 1",
+      "video_url": "https://archive.org/download/peaky-blinders-3x-03-es-720p-you-tube-zona-grey-x/Peaky%20Blinders%203x01%20ES%20720p%20YouTube%40ZonaGreyX.mp4"
+    },
+    {
+      "episode": 2,
+      "title": "Episode 2",
+      "video_url": "https://archive.org/download/peaky-blinders-3x-03-es-720p-you-tube-zona-grey-x/Peaky%20Blinders%203x02%20ES%20720p%20YouTube%40ZonaGreyX.mp4"
+    },
+    {
+      "episode": 3,
+      "title": "Episode 3",
+      "video_url": "https://archive.org/download/peaky-blinders-3x-03-es-720p-you-tube-zona-grey-x/Peaky%20Blinders%203x03%20ES%20720p%20YouTube%40ZonaGreyX.mp4"
+    },
+    {
+      "episode": 4,
+      "title": "Episode 4",
+      "video_url": "https://archive.org/download/peaky-blinders-3x-03-es-720p-you-tube-zona-grey-x/Peaky%20Blinders%203x04%20ES%20720p%20YouTube%40ZonaGreyX.mp4"
+    },
+    {
+      "episode": 5,
+      "title": "Episode 5",
+      "video_url": "https://archive.org/download/peaky-blinders-3x-03-es-720p-you-tube-zona-grey-x/Peaky%20Blinders%203x05%20ES%20720p%20YouTube%40ZonaGreyX.mp4"
+    },
+    {
+      "episode": 6,
+      "title": "Episode 6",
+      "video_url": "https://archive.org/download/peaky-blinders-3x-03-es-720p-you-tube-zona-grey-x/Peaky%20Blinders%203x06%20ES%20720p%20YouTube%40ZonaGreyX.mp4"
+    }
+  ]
+},
 
 
   
