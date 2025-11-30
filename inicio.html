@@ -35,6 +35,7 @@
   --shadow-dark: rgba(0, 0, 0, 0.7);
   --shadow-accent: rgba(255, 71, 126, 0.5);
   --nav-height: 60px;
+  --watched-color: #58679b; /* Nuevo color para capítulos vistos */
 }
 
 /* 💻 Base */
@@ -374,7 +375,7 @@ main{
     border-radius: 8px;
     padding: 8px;
     cursor: pointer;
-    transition: background-color .3s, transform .2s;
+    transition: background-color .3s, transform .2s, border-color .3s;
     border: 1px solid transparent;
 }
 .episode-item:hover{
@@ -385,6 +386,21 @@ main{
     border-color: var(--accent);
     background: #31406e;
 }
+/* Estilo para el capítulo VISTO (NUEVO) */
+.episode-item.watched {
+    background-color: var(--watched-color); /* Fondo ligeramente diferente para indicar visto */
+    border-color: #31406e; /* Borde más sutil */
+    opacity: 0.85; /* Un poco de transparencia */
+}
+.episode-item.watched .play-icon {
+    color: var(--muted); /* Icono de play atenuado */
+}
+.episode-item.watched:hover {
+    background-color: #58679b; 
+    opacity: 1;
+}
+
+
 .episode-thumb{
     flex-shrink: 0;
     width: 80px;
@@ -529,6 +545,62 @@ const detailGenres = document.getElementById('detailGenres');
 const episodesListContainer = document.querySelector('.episodes-list'); 
 const loadingIndicator = document.getElementById('loadingIndicator');
 
+// ----------------------------------------------------
+// --- NUEVAS FUNCIONES DE EPISODIOS VISTOS (CACHE) ---
+// ----------------------------------------------------
+
+/**
+ * Obtiene la lista de episodios vistos del localStorage.
+ * La estructura es: { "serie_id_o_titulo": [1, 5, 10], "otra_serie": [2, 3] }
+ * @returns {Object} Un objeto con IDs de series como claves y arrays de índices de episodios vistos como valores.
+ */
+function getWatchedEpisodes() {
+    try {
+        const watched = localStorage.getItem('animebox_watched');
+        return watched ? JSON.parse(watched) : {};
+    } catch(e) { 
+        console.error("Error al leer episodios vistos:", e);
+        return {};
+    }
+}
+
+/**
+ * Marca un episodio como visto y lo guarda en localStorage.
+ * @param {string} seriesId El ID o título de la serie.
+ * @param {number} episodeIndex El índice del episodio (empezando en 0).
+ */
+function saveWatchedEpisode(seriesId, episodeIndex) {
+    let watched = getWatchedEpisodes();
+    
+    // Inicializa el array si es la primera vez que se ve un episodio de esta serie
+    if (!watched[seriesId]) {
+        watched[seriesId] = [];
+    }
+
+    // Solo añade si no está ya en la lista
+    if (!watched[seriesId].includes(episodeIndex)) {
+        watched[seriesId].push(episodeIndex);
+        try {
+            localStorage.setItem('animebox_watched', JSON.stringify(watched));
+            console.log(`Guardado: ${seriesId} - Episodio ${episodeIndex + 1} como visto.`);
+        } catch(e) {
+            console.error("Error al guardar episodio visto:", e);
+        }
+    }
+}
+
+/**
+ * Comprueba si un episodio específico ha sido marcado como visto.
+ * @param {string} seriesId El ID o título de la serie.
+ * @param {number} episodeIndex El índice del episodio (empezando en 0).
+ * @returns {boolean} True si el episodio está marcado como visto.
+ */
+function isEpisodeWatched(seriesId, episodeIndex) {
+    const watched = getWatchedEpisodes();
+    return watched[seriesId] && watched[seriesId].includes(episodeIndex);
+}
+
+// ----------------------------------------------------
 // --- Lógica de Favoritos ---
 function getFavorites() {
     try {
@@ -936,6 +1008,8 @@ function openDetail(item){
     currentItem=item;
     
     const coverUrl = item.coverImage || item.logo || 'https://via.placeholder.com/140x200?text=Portada';
+    const seriesId = item.id || item.title; // Usamos ID o Título como clave única para el cache de vistos
+    
     detailView.classList.add('active'); 
     detailView.style.display='block';
     detailView.scrollTo(0, 0);
@@ -956,11 +1030,18 @@ function openDetail(item){
         episodesSection.querySelector('h3').textContent = 'Capítulos';
 
         item.episodes.forEach((ep,i)=>{
+            const episodeIndex = i; // Índice base 0
+            const isWatched = isEpisodeWatched(seriesId, episodeIndex);
+            
             const episodeItem = document.createElement('div');
-            episodeItem.className = 'episode-item';
+            // Añade la clase 'watched' si ya fue visto
+            episodeItem.className = `episode-item ${isWatched ? 'watched' : ''}`;
             
             const thumbUrl = ep.thumb || item.coverImage || 'https://via.placeholder.com/80x45?text=Episodio'; 
             const episodeTitle = `Episodio ${i+1}`;
+            
+            // Cambiamos el icono para los vistos
+            const iconClass = isWatched ? 'fas fa-check-circle' : 'fas fa-play';
 
             episodeItem.innerHTML = `
                 <div class="episode-thumb"><img src="${thumbUrl}" alt="Ep. ${i+1}" onerror="this.onerror=null;this.src='https://via.placeholder.com/80x45?text=Episodio';"></div>
@@ -968,12 +1049,19 @@ function openDetail(item){
                     <strong>${episodeTitle}</strong>
                     <span>${ep.title || item.title}</span>
                 </div>
-                <i class="fas fa-play play-icon"></i>
+                <i class="${iconClass} play-icon"></i>
             `;
             
             episodeItem.onclick = () => {
                 document.querySelectorAll('.episode-item').forEach(x => x.classList.remove('active'));
-                episodeItem.classList.add('active');
+                
+                // --- NUEVA LÓGICA DE GUARDADO DE VISTO ---
+                saveWatchedEpisode(seriesId, episodeIndex); 
+                // Actualiza el estado visual al hacer clic (marcar como visto y activo)
+                episodeItem.classList.add('watched', 'active');
+                episodeItem.querySelector('.play-icon').className = 'fas fa-check-circle play-icon';
+                // ----------------------------------------
+                
                 window.open(ep.video_url, '_blank');
             };
             
@@ -984,7 +1072,7 @@ function openDetail(item){
         episodesSection.querySelector('h3').textContent = item.isChannel ? 'Ver Canal en Vivo' : 'Ver Película';
         
         const playItem = document.createElement('div');
-        playItem.className = 'episode-item active'; // Activo por defecto para destacar el botón
+        playItem.className = 'episode-item active'; 
 
         playItem.innerHTML = `
             <div class="episode-thumb"><img src="${coverUrl}" alt="Portada" onerror="this.onerror=null;this.src='https://via.placeholder.com/80x45?text=Portada';"></div>
