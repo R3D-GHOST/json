@@ -1,5 +1,46 @@
 [
 
+{
+  "title": "Peaky Blinders Temporada 4",
+  "description": "Tras los eventos del final de la temporada anterior, la familia Shelby enfrenta nuevas amenazas mortales cuando un enemigo del pasado regresa con sed de venganza. Thomas Shelby deberá tomar decisiones extremas para proteger a su familia y su imperio criminal.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaXiiM2ybUxTwBAZHx9MDg5sECvb2_VfFXE-edwsbDzg&s=10",
+  "genre": ["Crimen", "Drama", "Histórico"],
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "Episode 1",
+      "video_url": "https://archive.org/download/peaky-blinders-4x-01-es-720p-you-tube-zona-grey-x/Peaky%20Blinders%204x01%20ES%20720p%20YouTube%40ZonaGreyX.mp4"
+    },
+    {
+      "episode": 2,
+      "title": "Episode 2",
+      "video_url": "https://archive.org/download/peaky-blinders-4x-01-es-720p-you-tube-zona-grey-x/Peaky%20Blinders%204x02%20ES%20720p%20YouTube%40ZonaGreyX.mp4"
+    },
+    {
+      "episode": 3,
+      "title": "Episode 3",
+      "video_url": "https://archive.org/download/peaky-blinders-4x-01-es-720p-you-tube-zona-grey-x/Peaky%20Blinders%204x03%20ES%20720p%20YouTube%40ZonaGreyX.mkv"
+    },
+    {
+      "episode": 4,
+      "title": "Episode 4",
+      "video_url": "https://archive.org/download/peaky-blinders-4x-01-es-720p-you-tube-zona-grey-x/Peaky%20Blinders%204x04%20ES%20720p%20YouTube%40ZonaGreyX.mp4"
+    },
+    {
+      "episode": 5,
+      "title": "Episode 5",
+      "video_url": "https://archive.org/download/peaky-blinders-4x-01-es-720p-you-tube-zona-grey-x/Peaky%20Blinders%204x05%20ES%20720p%20YouTube%40ZonaGreyX.mp4"
+    },
+    {
+      "episode": 6,
+      "title": "Episode 6",
+      "video_url": "https://archive.org/download/peaky-blinders-4x-01-es-720p-you-tube-zona-grey-x/Peaky%20Blinders%204x06%20ES%20720p%20YouTube%40ZonaGreyX.mp4"
+    }
+  ]
+},
+
+
+  
   {
     "title": "Pokémon 2: El poder de uno",
     "originalTitle": "Pokémon the Movie 2000: The Power of One",
