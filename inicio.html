@@ -35,7 +35,7 @@
   --shadow-dark: rgba(0, 0, 0, 0.7);
   --shadow-accent: rgba(255, 71, 126, 0.5);
   --nav-height: 60px;
-  --watched-color: #58679b; /* Nuevo color para capítulos vistos */
+  --watched-color: #58679b; /* Color para capítulos vistos */
 }
 
 /* 💻 Base */
@@ -106,10 +106,11 @@ main{
     margin-bottom: 15px;
     color: var(--accent-2);
 }
+/* MODIFICADO: Cuadrícula de Búsqueda ahora usa minmax(140px, 1fr) */
 #searchResultsGrid {
     padding: 0 3vw;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); 
     gap: 10px;
 }
 
@@ -143,7 +144,7 @@ main{
 
 /* 🃏 Tarjeta (Card) - AJUSTADA */
 .card{
-  flex: 0 0 140px; /* ANCHO AUMENTADO: 120px -> 140px */
+  flex: 0 0 140px; /* ANCHO MÍNIMO DE 140px para la vista Home */
   background:var(--bg-card);
   border-radius:6px;
   overflow:hidden;
@@ -157,7 +158,7 @@ main{
 .card img{
   display:block;
   width:100%;
-  height:200px; /* ALTO REDUCIDO: 220px -> 200px */
+  height:200px; /* ALTO AJUSTADO */
   object-fit:cover;
   transition:transform .3s;
 }
@@ -281,10 +282,11 @@ main{
 }
 
 /* Grid de resultados y paginación */
+/* MODIFICADO: La cuadrícula principal ahora usa minmax(140px, 1fr) */
 #dynamicGrid {
     padding: 0 3vw;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); 
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); 
     gap: 10px;
     margin-bottom: 20px;
     margin-top: 20px;
@@ -386,14 +388,14 @@ main{
     border-color: var(--accent);
     background: #31406e;
 }
-/* Estilo para el capítulo VISTO (NUEVO) */
+/* Estilo para el capítulo VISTO */
 .episode-item.watched {
-    background-color: var(--watched-color); /* Fondo ligeramente diferente para indicar visto */
-    border-color: #31406e; /* Borde más sutil */
-    opacity: 0.85; /* Un poco de transparencia */
+    background-color: var(--watched-color); 
+    border-color: #31406e; 
+    opacity: 0.85; 
 }
 .episode-item.watched .play-icon {
-    color: var(--muted); /* Icono de play atenuado */
+    color: var(--muted); 
 }
 .episode-item.watched:hover {
     background-color: #58679b; 
@@ -444,7 +446,8 @@ main{
 }
 @media (max-width:680px){
     /* Ajuste para pantallas pequeñas */
-    .card{flex: 0 0 120px;}.card img{height:170px;} 
+    /* Mantenemos el tamaño base de la card en 140px, pero reducimos la altura de la imagen */
+    .card{flex: 0 0 140px;}.card img{height:170px;} 
 }
 </style>
 </head>
@@ -546,14 +549,8 @@ const episodesListContainer = document.querySelector('.episodes-list');
 const loadingIndicator = document.getElementById('loadingIndicator');
 
 // ----------------------------------------------------
-// --- NUEVAS FUNCIONES DE EPISODIOS VISTOS (CACHE) ---
+// --- FUNCIONES DE EPISODIOS VISTOS (CACHE) ---
 // ----------------------------------------------------
-
-/**
- * Obtiene la lista de episodios vistos del localStorage.
- * La estructura es: { "serie_id_o_titulo": [1, 5, 10], "otra_serie": [2, 3] }
- * @returns {Object} Un objeto con IDs de series como claves y arrays de índices de episodios vistos como valores.
- */
 function getWatchedEpisodes() {
     try {
         const watched = localStorage.getItem('animebox_watched');
@@ -563,21 +560,11 @@ function getWatchedEpisodes() {
         return {};
     }
 }
-
-/**
- * Marca un episodio como visto y lo guarda en localStorage.
- * @param {string} seriesId El ID o título de la serie.
- * @param {number} episodeIndex El índice del episodio (empezando en 0).
- */
 function saveWatchedEpisode(seriesId, episodeIndex) {
     let watched = getWatchedEpisodes();
-    
-    // Inicializa el array si es la primera vez que se ve un episodio de esta serie
     if (!watched[seriesId]) {
         watched[seriesId] = [];
     }
-
-    // Solo añade si no está ya en la lista
     if (!watched[seriesId].includes(episodeIndex)) {
         watched[seriesId].push(episodeIndex);
         try {
@@ -588,13 +575,6 @@ function saveWatchedEpisode(seriesId, episodeIndex) {
         }
     }
 }
-
-/**
- * Comprueba si un episodio específico ha sido marcado como visto.
- * @param {string} seriesId El ID o título de la serie.
- * @param {number} episodeIndex El índice del episodio (empezando en 0).
- * @returns {boolean} True si el episodio está marcado como visto.
- */
 function isEpisodeWatched(seriesId, episodeIndex) {
     const watched = getWatchedEpisodes();
     return watched[seriesId] && watched[seriesId].includes(episodeIndex);
@@ -1055,7 +1035,7 @@ function openDetail(item){
             episodeItem.onclick = () => {
                 document.querySelectorAll('.episode-item').forEach(x => x.classList.remove('active'));
                 
-                // --- NUEVA LÓGICA DE GUARDADO DE VISTO ---
+                // --- LÓGICA DE GUARDADO DE VISTO ---
                 saveWatchedEpisode(seriesId, episodeIndex); 
                 // Actualiza el estado visual al hacer clic (marcar como visto y activo)
                 episodeItem.classList.add('watched', 'active');
