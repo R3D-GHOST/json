@@ -1,5 +1,88 @@
 [
 
+
+{
+  "title": "Peaky Blinders Temporada 6",
+  "description": "En la temporada final, Tommy Shelby enfrenta sus demonios internos mientras se aproxima el caos político y el ascenso del fascismo en Europa. Tras una devastadora pérdida familiar, Tommy busca redención y venganza mientras su imperio criminal llega a un punto crítico.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0NARUsyDhDk8Rc82OsXUAR--M4d4Tklt9bAnbmVq_sg&s=10",
+  "genre": ["Crimen", "Drama", "Histórico"],
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "Episode 1",
+      "video_url": "https://archive.org/download/peaky-blinders-6x-06-es-1080p-you-tube-zona-grey-x/Peaky%20Blinders%206x01%20ES%201080p%20YouTube%40ZonaGreyX.ia.mp4"
+    },
+    {
+      "episode": 2,
+      "title": "Episode 2",
+      "video_url": "https://archive.org/download/peaky-blinders-6x-06-es-1080p-you-tube-zona-grey-x/Peaky%20Blinders%206x02%20ES%201080p%20YouTube%40ZonaGreyX.ia.mp4"
+    },
+    {
+      "episode": 3,
+      "title": "Episode 3",
+      "video_url": "https://archive.org/download/peaky-blinders-6x-06-es-1080p-you-tube-zona-grey-x/Peaky%20Blinders%206x03%20ES%201080p%20YouTube%40ZonaGreyX.ia.mp4"
+    },
+    {
+      "episode": 4,
+      "title": "Episode 4",
+      "video_url": "https://archive.org/download/peaky-blinders-6x-06-es-1080p-you-tube-zona-grey-x/Peaky%20Blinders%206x04%20ES%201080p%20YouTube%40ZonaGreyX.ia.mp4"
+    },
+    {
+      "episode": 5,
+      "title": "Episode 5",
+      "video_url": "https://archive.org/download/peaky-blinders-6x-06-es-1080p-you-tube-zona-grey-x/Peaky%20Blinders%206x05%20ES%201080p%20YouTube%40ZonaGreyX.ia.mp4"
+    },
+    {
+      "episode": 6,
+      "title": "Episode 6",
+      "video_url": "https://archive.org/download/peaky-blinders-6x-06-es-1080p-you-tube-zona-grey-x/Peaky%20Blinders%206x06%20ES%201080p%20YouTube%40ZonaGreyX.ia.mp4"
+    }
+  ]
+},
+
+
+  
+
+{
+  "title": "Peaky Blinders Temporada 5",
+  "description": "En 1929, tras el colapso financiero mundial, Tommy Shelby se enfrenta a nuevas amenazas políticas y criminales mientras una figura carismática y peligrosa asciende en el panorama británico. La familia Shelby vuelve a estar en el centro de una guerra de poder que podría destruirlo todo.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNPOhodT1jYoS9GEcII8bAQdII0OZklSRXvI0ZyGW-wzydzqdPRV8kBGvv&s=10",
+  "genre": ["Crimen", "Drama", "Histórico"],
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "Episode 1",
+      "video_url": "https://archive.org/download/peaky-blinders-5x-06-es-720p-you-tube-zona-grey-x/Peaky%20Blinders%205x01%20ES%20720p%20YouTube%40ZonaGreyX.ia.mp4"
+    },
+    {
+      "episode": 2,
+      "title": "Episode 2",
+      "video_url": "https://archive.org/download/peaky-blinders-5x-06-es-720p-you-tube-zona-grey-x/Peaky%20Blinders%205x02%20ES%20720p%20YouTube%40ZonaGreyX.ia.mp4"
+    },
+    {
+      "episode": 3,
+      "title": "Episode 3",
+      "video_url": "https://archive.org/download/peaky-blinders-5x-06-es-720p-you-tube-zona-grey-x/Peaky%20Blinders%205x03%20ES%20720p%20YouTube%40ZonaGreyX.ia.mp4"
+    },
+    {
+      "episode": 4,
+      "title": "Episode 4",
+      "video_url": "https://archive.org/download/peaky-blinders-5x-06-es-720p-you-tube-zona-grey-x/Peaky%20Blinders%205x04%20ES%20720p%20YouTube%40ZonaGreyX.ia.mp4"
+    },
+    {
+      "episode": 5,
+      "title": "Episode 5",
+      "video_url": "https://archive.org/download/peaky-blinders-5x-06-es-720p-you-tube-zona-grey-x/Peaky%20Blinders%205x05%20ES%20720p%20YouTube%40ZonaGreyX.ia.mp4"
+    },
+    {
+      "episode": 6,
+      "title": "Episode 6",
+      "video_url": "https://archive.org/download/peaky-blinders-5x-06-es-720p-you-tube-zona-grey-x/Peaky%20Blinders%205x06%20ES%20720p%20YouTube%40ZonaGreyX.ia.mp4"
+    }
+  ]
+},
+
+  
 {
   "title": "Peaky Blinders Temporada 4",
   "description": "Tras los eventos del final de la temporada anterior, la familia Shelby enfrenta nuevas amenazas mortales cuando un enemigo del pasado regresa con sed de venganza. Thomas Shelby deberá tomar decisiones extremas para proteger a su familia y su imperio criminal.",
