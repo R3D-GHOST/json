@@ -1,223 +1,284 @@
 [
 
-
   {
-    "title": "A Todo Gas: Tokio Race",
-    "description": "Dominic y Brian viajan a Tokio para infiltrarse en el mundo de las carreras callejeras y recuperar su honor.",
-    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLZ_iOhtRi12Pf4EP8mxJW0upn00XjtUyEHg&s",
-    "genre": ["Acción", "Carreras", "Aventura"],
-    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/03.-%20A%20TODO%20GAS%20Tokio%20Race%20%282006%29%20%E2%9C%94.ia.mp4"
-  },
-  {
-    "title": "Cincuenta Sombras Liberadas",
-    "description": "Anastasia y Christian enfrentan nuevas pruebas y secretos que pondrán a prueba su relación.",
-    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm8lYpVh0PmY-dsQ1P9OCr8Hbg2ShbrmFYMw&s",
-    "genre": ["Romance", "Drama", "Erótico"],
-    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/03.-%20CINCUENTA%20SOMBRAS%20LIBERADAS%20%282018%29%20%E2%9C%94.mp4"
-  },
-  {
-    "title": "Predators",
-    "description": "Un grupo de mercenarios es transportado a un planeta extraño donde son cazados por los mortales depredadores alienígenas.",
-    "coverImage": "https://www.mubis.es/media/covers/1019/982/predators-portada-original.jpg",
-    "genre": ["Acción", "Ciencia ficción", "Thriller"],
-    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/03.-%20PREDATORS%20%282010%29%20%E2%9C%94.mp4"
-  },
-  {
-    "title": "Ocho Apellidos Marroquíes",
-    "description": "La comedia continúa con más enredos culturales cuando los protagonistas viajan a Marruecos.",
-    "coverImage": "https://pics.filmaffinity.com/Ocho_apellidos_marroquais-652559649-large.jpg",
-    "genre": ["Comedia", "Romance"],
-    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/03.-%20Ocho%20apellidos%20marroquis%20%282023%29.mp4"
-  },
-  {
-    "title": "Saw 3",
-    "description": "Los sobrevivientes del juego macabro de Jigsaw enfrentan nuevas trampas mortales y misterios escalofriantes.",
-    "coverImage": "https://es.web.img3.acsta.net/medias/nmedia/18/89/73/03/20064127.jpg",
-    "genre": ["Terror", "Thriller", "Suspenso"],
-    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/03.-%20SAW%203%20%282006%29.mp4"
-  },
-  {
-    "title": "Scream 3",
-    "description": "El asesino Ghostface regresa mientras el pasado de Hollywood sale a la luz en esta tercera entrega.",
-    "coverImage": "https://es.web.img2.acsta.net/medias/nmedia/18/91/34/02/20449331.jpg",
-    "genre": ["Terror", "Thriller", "Suspenso"],
-    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/03.-%20SCREAM%203%20%282000%29.mp4"
-  },
-  {
-    "title": "Rocky 4",
-    "description": "Rocky viaja a Rusia para enfrentarse al poderoso boxeador Ivan Drago tras la muerte de su amigo Apollo.",
-    "coverImage": "https://pics.filmaffinity.com/Rocky_IV-104851625-large.jpg",
-    "genre": ["Deporte", "Drama", "Acción"],
-    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/04.-%20%20ROCKY%204%20%281985%29%20%E2%9C%94.ia.mp4"
-  },
-  {
-    "title": "A Todo Gas 4",
-    "description": "Dom y Brian enfrentan nuevos desafíos y carreras más peligrosas, fortaleciendo su amistad y familia.",
-    "coverImage": "https://pics.filmaffinity.com/fast_and_furious_4-818035556-large.jpg",
-    "genre": ["Acción", "Carreras", "Aventura"],
-    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/04.-%20A%20TODO%20GAS%20%20A%C3%BAn%20m%C3%A1s%20R%C3%A1pidos%20%282009%29%20%E2%9C%94.ia.mp4"
-  },
-  {
-    "title": "Aeropuerto 79 Concorde",
-    "description": "Un avión Concorde enfrenta una serie de desastres aéreos que amenazan la vida de los pasajeros.",
-    "coverImage": "https://static.wikia.nocookie.net/doblaje/images/e/ed/Airport79.jpg/revision/latest?cb=20111120064441&path-prefix=es",
-    "genre": ["Drama", "Suspenso", "Acción"],
-    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/04.-%20AEROPUERTO%2079%20CONCORDE%20%281979%29.mp4"
-  },
-  {
-    "title": "Saw 4",
-    "description": "El juego mortal de Jigsaw continúa con nuevas víctimas atrapadas en trampas complicadas y mortales.",
-    "coverImage": "https://pics.filmaffinity.com/saw_iv_saw_4-906819575-large.jpg",
-    "genre": ["Terror", "Thriller", "Suspenso"],
-    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/04.-%20SAW%204%20%282007%29.mp4"
-  },
-  {
-    "title": "Scream 4",
-    "description": "Ghostface regresa en Woodsboro, mientras nuevas víctimas deben enfrentar los secretos del pasado.",
-    "coverImage": "https://play-lh.googleusercontent.com/czY9Ni-mFlq9iSMXeWapMCXGSSWiSsrbDS2kmKkHDkv5xL-U3Un4X0zJGd1MG5S8k_0a",
-    "genre": ["Terror", "Thriller", "Suspenso"],
-    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/04.-%20SCREAM%204%20%282011%29.mp4"
-  },
-  {
-    "title": "Rocky 5",
-    "description": "Tras su retiro, Rocky entrena a un joven boxeador mientras enfrenta problemas financieros y familiares.",
-    "coverImage": "https://m.media-amazon.com/images/M/MV5BMTM2Mzc4MTYxM15BMl5BanBnXkFtZTcwODY5NTk1NA@@._V1_FMjpg_UX1000_.jpg",
-    "genre": ["Deporte", "Drama", "Acción"],
-    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/05.-%20%20ROCKY%205%20%281990%29%20%E2%9C%94.ia.mp4"
-  },
-  {
-    "title": "A Todo Gas 5",
-    "description": "El equipo se enfrenta a un narcotraficante internacional mientras compiten en carreras de alto riesgo.",
-    "coverImage": "https://static.fnac-static.com/multimedia/ES/images_produits/ES/ZoomPE/6/9/8/8414906403896/tsp20121118163015/A-todo-gas-5-Fast-Furious-5.jpg",
-    "genre": ["Acción", "Carreras", "Aventura"],
-    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/05.-%20A%20TODO%20GAS%205%20%282011%29%20%E2%9C%94.mp4"
-  },
-  {
-    "title": "El Destino de Sissi",
-    "description": "Una biografía romántica de la emperatriz Sissi y sus desafíos personales y políticos.",
-    "coverImage": "https://es.web.img2.acsta.net/pictures/14/01/28/13/58/557833.jpg",
-    "genre": ["Drama", "Romance", "Biografía"],
-    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/05.-%20EL%20DESTINO%20DE%20SISSI%20%281957%29%20%E2%9C%94.mp4"
-  },
-  {
-    "title": "Predator La Presa",
-    "description": "Una nueva generación de humanos es cazada por un depredador alienígena en una misión de supervivencia extrema.",
-    "coverImage": "https://m.media-amazon.com/images/M/MV5BOTc2Y2NmY2MtYWQ2ZS00ZGRjLTk2NTItNzVmNDViOTJhNThhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-    "genre": ["Acción", "Ciencia ficción", "Thriller"],
-    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/05.-%20PREDATOR%20LA%20PRESA%20%282022%29%20%E2%9C%94.ia.mp4"
-  },
-  {
-    "title": "Saw 5",
-    "description": "Nuevas víctimas deben enfrentarse a trampas mortales en la escalofriante saga de Jigsaw.",
-    "coverImage": "https://i.blogs.es/317b07/saw-20cinco-20te-20la-20hinco/450_1000.jpg",
-    "genre": ["Terror", "Thriller", "Suspenso"],
-    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/05.-%20SAW%205%20%282008%29.mp4"
-  },
-  {
-    "title": "Scream 2022",
-    "description": "Un nuevo asesino Ghostface amenaza a un grupo de adolescentes mientras secretos del pasado salen a la luz.",
-    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-N57cILNugcl7y8N0aHNWhGriKiZWJIwMBA&s",
-    "genre": ["Terror", "Thriller", "Suspenso"],
-    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/05.-%20SCREAM%20%282022%29.ia.mp4"
-  },
-  {
-    "title": "Saw 6",
-    "description": "El legado de Jigsaw continúa, poniendo a prueba a nuevas víctimas con trampas elaboradas y letales.",
-    "coverImage": "https://www.mubis.es/media/articles/31803/310473/teaser-trailer-de-scream-6-en-castellano-original.jpg",
-    "genre": ["Terror", "Thriller", "Suspenso"],
-    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/06.-%20SAW%206%20%282009%29.ia.mp4"
-  },
-    
-  {
-    "title": "A Todo Gas 1",
-    "description": "Un joven policía se infiltra en carreras ilegales de autos y se hace amigo de un líder de estas carreras.",
+    "title": "A TODO GAS 1 (2001)",
+    "description": "Un policía encubierto se infiltra en el mundo de las carreras callejeras de Los Ángeles para investigar una serie de robos de camiones, pero se siente atraído por el estilo de vida y la hermana del líder de la banda.",
     "coverImage": "https://es.web.img2.acsta.net/pictures/14/02/25/10/54/307930.jpg",
-    "genre": ["Acción", "Carreras", "Aventura"],
+    "genre": ["Acción", "Crimen", "Carreras"],
     "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/01.-%20A%20TODO%20GAS%201%20%282001%29.mp4"
   },
   {
-    "title": "Cincuenta Sombras de Grey",
-    "description": "La relación entre Anastasia Steele y Christian Grey se desarrolla con secretos y pasión intensa.",
+    "title": "CINCUENTA SOMBRAS DE GREY (2015)",
+    "description": "Una estudiante de literatura empieza una relación apasionada con un joven y rico empresario, descubriendo su estilo de vida y sus peculiares gustos eróticos.",
     "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUUCGThvYgrKygx3j-NJTKdhLc_V3n5_Emig&s",
-    "genre": ["Romance", "Drama", "Erótico"],
+    "genre": ["Drama", "Romance", "Erótico"],
     "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/01.-%20CINCUENTA%20SOMBRAS%20DE%20GREY%20%282015%29%20%E2%9C%94.ia.mp4"
   },
   {
-    "title": "Depredador 1",
-    "description": "Un equipo de élite es cazado por una criatura extraterrestre en la jungla mientras intentan sobrevivir.",
+    "title": "DEPREDADOR 1 (1987)",
+    "description": "Un equipo de rescate de élite en una misión en la selva centroamericana descubre que están siendo acechados por un cazador alienígena invisible y letal.",
     "coverImage": "https://es.web.img3.acsta.net/pictures/14/03/14/13/49/384885.jpg",
-    "genre": ["Acción", "Ciencia ficción", "Thriller"],
+    "genre": ["Ciencia Ficción", "Acción", "Terror"],
     "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/01.-%20DEPREDADOR%201%20%281987%29%20%E2%9C%94.ia.mp4"
   },
   {
-    "title": "Ocho Apellidos Vascos",
-    "description": "Un joven sevillano se enamora de una chica vasca y se ve envuelto en cómicas confusiones culturales.",
+    "title": "OCHO APELLIDOS VASCOS (2014)",
+    "description": "Un joven sevillano viaja al País Vasco para recuperar a la chica que conoció, fingiendo ser vasco para ganarse a su padre y a la comunidad.",
     "coverImage": "https://es.web.img3.acsta.net/pictures/14/01/22/10/05/427394.jpg",
     "genre": ["Comedia", "Romance"],
     "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/01.-%20OCHO%20APELLIDOS%20VASCOS%20%282014%29%20%E2%9C%94.ia.mp4"
   },
   {
-    "title": "Rocky 1",
-    "description": "Un boxeador desconocido tiene la oportunidad de enfrentarse al campeón del mundo, cambiando su vida para siempre.",
+    "title": "ROCKY 1 (1976)",
+    "description": "Un boxeador de Filadelfia desconocido tiene la oportunidad única de enfrentarse al campeón mundial de peso pesado, buscando demostrar su valía.",
     "coverImage": "https://pics.filmaffinity.com/Rocky-755606135-large.jpg",
-    "genre": ["Deporte", "Drama", "Romance"],
+    "genre": ["Drama", "Deportes"],
     "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/01.-%20ROCKY%201%20%281976%29%20%E2%9C%94.ia.mp4"
   },
   {
-    "title": "Saw 1",
-    "description": "Dos hombres se despiertan atrapados en un baño y deben cumplir pruebas mortales para sobrevivir al macabro juego de Jigsaw.",
+    "title": "SAW (2004)",
+    "description": "Dos hombres despiertan encadenados en un baño con un cadáver entre ellos y descubren que son víctimas de Jigsaw, un asesino en serie que somete a sus presas a 'juegos' mortales para que aprecien la vida.",
     "coverImage": "https://es.web.img3.acsta.net/medias/nmedia/18/89/75/36/20065254.jpg",
-    "genre": ["Terror", "Thriller", "Suspenso"],
+    "genre": ["Terror", "Misterio"],
     "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/01.-%20SAW%20%282004%29.ia.mp4"
   },
   {
-    "title": "Agente 007: Contra el Doctor No",
-    "description": "James Bond investiga la desaparición de un colega y enfrenta al villano Doctor No en su primera misión oficial.",
+    "title": "AGENTE 007 CONTRA EL DOCTOR NO (1962)",
+    "description": "El agente James Bond (007) es enviado a Jamaica para investigar la desaparición de un colega y termina enfrentándose al misterioso Dr. No, que planea sabotear un proyecto espacial estadounidense.",
     "coverImage": "https://www.mubis.es/media/covers/1233/1366/pack-james-bond-volumen-1-portada-l_cover.jpg",
-    "genre": ["Acción", "Espionaje", "Aventura"],
+    "genre": ["Acción", "Aventura", "Espías"],
     "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/01.AGENTE%20007%20CONTRA%20EL%20DOCTOR%20NO%20%281962%29%20%E2%9C%94.mp4"
   },
   {
-    "title": "Cazafantasmas 1",
-    "description": "Un grupo de científicos abre un negocio de exterminio de fantasmas mientras la ciudad de Nueva York enfrenta lo sobrenatural.",
+    "title": "CAZAFANTASMAS 1 (1984)",
+    "description": "Tres parapsicólogos universitarios desempleados deciden iniciar un negocio para atrapar fantasmas en Nueva York.",
     "coverImage": "https://www.originalfilmart.com/cdn/shop/products/ghostbusters_1984_german_a0_original_film_art_2756eecf-b6e1-47e1-a1a7-f87e95fb8559_5000x.webp?v=1676666632",
-    "genre": ["Comedia", "Fantasía", "Aventura"],
+    "genre": ["Comedia", "Ciencia Ficción", "Fantasía"],
     "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/01%20CAZAFANTASMAS%201%20%281984%29%20%E2%9C%94.mp4"
   },
   {
-    "title": "365 Días",
-    "description": "Una mujer es secuestrada por un hombre que le da 365 días para enamorarse de él, desatando una historia controversial de romance.",
+    "title": "365 DÍAS (2020)",
+    "description": "Una mujer de negocios se enamora de un jefe de la mafia siciliana que la secuestra y le da 365 días para enamorarse de él.",
     "coverImage": "https://es.web.img3.acsta.net/pictures/22/08/19/11/42/0577157.jpg",
-    "genre": ["Romance", "Drama", "Erótico"],
+    "genre": ["Drama", "Erótico", "Romance"],
     "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/01.-%20365%20DI%CC%81AS%20%28lat%29%20.mp4"
   },
   {
-    "title": "Cazafantasmas 2",
-    "description": "Los Cazafantasmas regresan para detener otra amenaza sobrenatural que pone en peligro a Nueva York.",
+    "title": "CAZAFANTASMAS 2 (1989)",
+    "description": "Los Cazafantasmas vuelven a la acción cuando un río de fango de energía negativa amenaza con ahogar la ciudad de Nueva York y liberar fuerzas malignas.",
     "coverImage": "https://cartelesmix.es/images/CartelesC/cazafantasmas2_89003.jpg",
-    "genre": ["Comedia", "Fantasía", "Aventura"],
+    "genre": ["Comedia", "Ciencia Ficción", "Fantasía"],
     "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/02%20CAZAFANTASMAS%202%20%281989%29%20%E2%9C%94.ia.mp4"
   },
   {
-    "title": "Matrix Reloaded",
-    "description": "Neo continúa su lucha contra las máquinas y descubre secretos que cambian la realidad de la humanidad.",
+    "title": "MATRIX RELOADED (2003)",
+    "description": "Neo y los rebeldes descubren que tienen solo 72 horas antes de que la última ciudad humana sea atacada por el ejército de las máquinas y Neo debe enfrentarse al Oráculo para encontrar una solución.",
     "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhR3f0Z7vShXjP5Hbo_IqnYEy10k35TxbDTQ&s",
-    "genre": ["Acción", "Ciencia ficción", "Aventura"],
+    "genre": ["Ciencia Ficción", "Acción"],
     "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/02.-%20%20%20MATRIX%20RELOADED%20%282003%29.ia.mp4"
   },
   {
-    "title": "Rocky 2",
-    "description": "Rocky acepta una revancha contra Apollo Creed mientras lucha con su vida personal y la presión de mantener su honor.",
+    "title": "ROCKY 2 (1979)",
+    "description": "Rocky Balboa intenta adaptarse a la vida normal después de su pelea con Apollo Creed, pero la presión de la revancha lo llama de nuevo al ring.",
     "coverImage": "https://es.web.img2.acsta.net/pictures/14/05/12/10/38/231381.jpg",
-    "genre": ["Deporte", "Drama", "Acción"],
+    "genre": ["Drama", "Deportes"],
     "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/02.-%20%20ROCKY%202%20%281979%29%20%E2%9C%94.ia.mp4"
   },
   {
-    "title": "Aeropuerto 77",
-    "description": "Un avión de lujo se estrella en el océano y la tripulación debe sobrevivir mientras enfrentan el peligro del agua y rescate limitado.",
+    "title": "A TODO GAS 2 (2003)",
+    "description": "El expolicía Brian O'Conner se une a un viejo amigo de la infancia para infiltrarse en el mundo del contrabando en Miami y limpiar su expediente.",
+    "coverImage": "https://play-lh.googleusercontent.com/z3Z2-hbpxxJNnXH7WUEv4mClyhi5riiz7HyLjDcrfjhh8U_ZSaYkE9eML6CoLKujFpgW",
+    "genre": ["Acción", "Crimen", "Carreras"],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/02.-%20A%20TODO%20GAS%202%20%282003%29%20%E2%9C%94.ia.mp4"
+  },
+  {
+    "title": "AEROPUERTO 75 (1974)",
+    "description": "Tras una colisión aérea, un avión comercial queda sin piloto y una azafata debe tomar el control mientras los equipos de tierra intentan rescatar a los pasajeros.",
+    "coverImage": "https://es.web.img3.acsta.net/pictures/210/443/21044329_20130926124712449.jpg",
+    "genre": ["Thriller", "Drama"],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/02.-%20AEROPUERTO%2075%20%281974%29.ia.mp4"
+  },
+  {
+    "title": "CINCUENTA SOMBRAS MÁS OSCURAS (2017)",
+    "description": "Una lastimada Anastasia Steele retoma su relación con Christian Grey, pero mientras él lucha con sus demonios internos, ella debe enfrentarse a la ira y envidia de las mujeres que vinieron antes que ella.",
+    "coverImage": "https://m.media-amazon.com/images/I/81ZBDtJAJiL._UF1000,1000_QL80_.jpg",
+    "genre": ["Drama", "Romance", "Erótico"],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/02.-%20CINCUENTA%20SOMBRAS%20M%C3%81S%20OSCURAS%20%282017%29%20%E2%9C%94.ia.mp4"
+  },
+  {
+    "title": "DEPREDADOR 2 (1990)",
+    "description": "En una ola de calor y crímenes en Los Ángeles, un teniente de policía y sus hombres se enfrentan a un depredador alienígena que busca cazar en la jungla urbana.",
+    "coverImage": "https://www.mubis.es/media/covers/2140/4487/depredador-2-portada-l_cover.jpg",
+    "genre": ["Ciencia Ficción", "Acción", "Terror"],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/02.-%20DEPREDADOR%202%20%281990%29%20%E2%9C%94.ia.mp4"
+  },
+  {
+    "title": "OCHO APELLIDOS CATALANES (2015)",
+    "description": "Koldo viaja a Cataluña para convencer a su hija de que no se case con un catalán, y se encuentra con su ex y el nuevo novio de su hija.",
+    "coverImage": "https://es.web.img2.acsta.net/pictures/15/10/20/17/17/160635.jpg",
+    "genre": ["Comedia", "Romance"],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/02.-%20OCHO%20APELLIDOS%20CATALANES%20%282015%29%20%E2%9C%94.ia.mp4"
+  },
+  {
+    "title": "SAW 2 (2005)",
+    "description": "El detective Eric Matthews debe encontrar una manera de rescatar a un grupo de personas atrapadas juntas en una casa con gas nervioso, mientras que el asesino Jigsaw le ofrece un 'juego'.",
+    "coverImage": "https://es.web.img3.acsta.net/medias/nmedia/18/89/76/42/20065613.jpg",
+    "genre": ["Terror", "Misterio"],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/02.-%20SAW%202%20%282005%29.ia.mp4"
+  },
+  {
+    "title": "SCREAM 2 (1997)",
+    "description": "Dos años después de la masacre original, Sidney Prescott y el resto de los supervivientes deben enfrentarse a un nuevo asesino que copia los crímenes de Ghostface.",
+    "coverImage": "https://es.web.img2.acsta.net/medias/nmedia/18/91/10/01/20129265.jpg",
+    "genre": ["Terror", "Slasher"],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/02.-%20SCREAM%202%20%281998%29.ia.mp4"
+  },
+  {
+    "title": "CAZAFANTASMAS 3 (2016) / CAZAFANTASMAS: MÁS ALLÁ",
+    "description": "Una madre soltera y sus dos hijos se mudan a una granja remota y descubren su conexión con los Cazafantasmas originales y el legado secreto que dejó su abuelo.",
+    "coverImage": "https://hips.hearstapps.com/hmg-prod/images/cazafantasmas-mas-alla-poster-fotogramas-1634620706.jpg?resize=980:*",
+    "genre": ["Comedia", "Ciencia Ficción", "Aventura"],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/03%20CAZAFANTASMAS%203%20%282016%29%20%E2%9C%94.mp4"
+  },
+  {
+    "title": "ROCKY 3 (1982)",
+    "description": "Después de lograr la cima de su carrera, Rocky Balboa pierde su título ante un nuevo y brutal retador. Con la ayuda de su antiguo rival, Apollo Creed, Rocky se entrena para recuperar el 'ojo del tigre'.",
+    "coverImage": "https://es.web.img3.acsta.net/pictures/210/582/21058253_20131115155115957.jpg",
+    "genre": ["Drama", "Deportes"],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/03.-%20%20ROCKY%203%20%281982%29%20%E2%9C%94.mp4"
+  },
+  {
+    "title": "A TODO GAS: TOKIO RACE (2006)",
+    "description": "Un joven forastero se mete en el mundo de las carreras de 'drift' en Tokio y se enfrenta al 'Rey del Drift' local.",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLZ_iOhtRi12Pf4EP8mxJW0upn00XjtUyEHg&s",
+    "genre": ["Acción", "Carreras", "Aventura"],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/03.-%20A%20TODO%20GAS%20Tokio%20Race%20%282006%29%20%E2%9C%94.ia.mp4"
+  },
+  {
+    "title": "AEROPUERTO 77 (1977)",
+    "description": "Un Boeing 747 modificado para llevar una colección de arte valiosa es secuestrado y se estrella en el Triángulo de las Bermudas.",
     "coverImage": "https://es.web.img3.acsta.net/pictures/210/560/21056045_20131108100033886.jpg",
-    "genre": ["Drama", "Suspenso", "Acción"],
+    "genre": ["Thriller", "Drama", "Aventura"],
     "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/03.-%20AEROPUERTO%2077%20%281977%29.mp4"
+  },
+  {
+    "title": "CINCUENTA SOMBRAS LIBERADAS (2018)",
+    "description": "Los recién casados Christian y Anastasia creen haber dejado atrás a las figuras oscuras de su pasado, pero nuevos desafíos amenazan su futuro y su vida juntos.",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm8lYpVh0PmY-dsQ1P9OCr8Hbg2ShbrmFYMw&s",
+    "genre": ["Drama", "Romance", "Erótico"],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/03.-%20CINCUENTA%20SOMBRAS%20LIBERADAS%20%282018%29%20%E2%9C%94.mp4"
+  },
+  {
+    "title": "PREDATORS (2010)",
+    "description": "Un grupo de élite de guerreros y asesinos son secuestrados y soltados en un planeta extraterrestre que sirve como coto de caza para una nueva raza de Depredadores.",
+    "coverImage": "https://www.mubis.es/media/covers/1019/982/predators-portada-original.jpg",
+    "genre": ["Ciencia Ficción", "Acción", "Terror"],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/03.-%20PREDATORS%20%282010%29%20%E2%9C%94.mp4"
+  },
+  {
+    "title": "Ocho apellidos marroquís (2023)",
+    "description": "Carmen intenta cumplir la última voluntad de su padre: encontrar el collar que le regaló a la madre de su amor de juventud, que vive en Marruecos.",
+    "coverImage": "https://pics.filmaffinity.com/Ocho_apellidos_marroquais-652559649-large.jpg",
+    "genre": ["Comedia", "Romance"],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/03.-%20Ocho%20apellidos%20marroquis%20%282023%29.mp4"
+  },
+  {
+    "title": "SAW 3 (2006)",
+    "description": "Jigsaw, enfermo y al borde de la muerte, secuestra a una doctora para mantenerlo vivo el tiempo suficiente para que complete su último juego con otra víctima.",
+    "coverImage": "https://es.web.img3.acsta.net/medias/nmedia/18/89/73/03/20064127.jpg",
+    "genre": ["Terror", "Misterio"],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/03.-%20SAW%203%20%282006%29.mp4"
+  },
+  {
+    "title": "SCREAM 3 (2000)",
+    "description": "Sidney Prescott debe salir de su escondite cuando un nuevo Ghostface empieza a matar a miembros del reparto de la película que se está haciendo sobre los crímenes anteriores.",
+    "coverImage": "https://es.web.img2.acsta.net/medias/nmedia/18/91/34/02/20449331.jpg",
+    "genre": ["Terror", "Slasher"],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/03.-%20SCREAM%203%20%282000%29.mp4"
+  },
+  {
+    "title": "ROCKY 4 (1985)",
+    "description": "Rocky viaja a la Unión Soviética para vengar la muerte de Apollo Creed en un combate de exhibición contra Ivan Drago, un boxeador soviético cibernético y brutal.",
+    "coverImage": "https://pics.filmaffinity.com/Rocky_IV-104851625-large.jpg",
+    "genre": ["Drama", "Deportes"],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/04.-%20%20ROCKY%204%20%281985%29%20%E2%9C%94.ia.mp4"
+  },
+  {
+    "title": "A TODO GAS: AÚN MÁS RÁPIDOS (2009)",
+    "description": "Brian O'Conner y Dominic Toretto regresan a Los Ángeles y se ven obligados a trabajar juntos para infiltrarse en un cartel de la droga y vengar una pérdida personal.",
+    "coverImage": "https://pics.filmaffinity.com/fast_and_furious_4-818035556-large.jpg",
+    "genre": ["Acción", "Crimen", "Carreras"],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/04.-%20A%20TODO%20GAS%20%20A%C3%BAn%20m%C3%A1s%20R%C3%A1pidos%20%282009%29%20%E2%9C%94.ia.mp4"
+  },
+  {
+    "title": "AEROPUERTO '79 CONCORDE (1979)",
+    "description": "Un Concorde se convierte en el objetivo de un misil durante un vuelo transatlántico, lo que obliga a la tripulación a realizar una arriesgada maniobra para salvar a los pasajeros.",
+    "coverImage": "https://static.wikia.nocookie.net/doblaje/images/e/ed/Airport79.jpg/revision/latest?cb=20111120064441&path-prefix=es",
+    "genre": ["Thriller", "Drama"],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/04.-%20AEROPUERTO%2079%20CONCORDE%20%281979%29.mp4"
+  },
+  {
+    "title": "SAW 4 (2007)",
+    "description": "Después de la muerte de Jigsaw, el agente del FBI Strahm y el detective Hoffman continúan investigando y se dan cuenta de que el juego acaba de empezar.",
+    "coverImage": "https://pics.filmaffinity.com/saw_iv_saw_4-906819575-large.jpg",
+    "genre": ["Terror", "Misterio"],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/04.-%20SAW%204%20%282007%29.mp4"
+  },
+  {
+    "title": "SCREAM 4 (2011)",
+    "description": "Sidney Prescott regresa a Woodsboro, donde el nuevo resurgimiento de Ghostface la persigue a ella y a sus familiares más cercanos.",
+    "coverImage": "https://play-lh.googleusercontent.com/czY9Ni-mFlq9iSMXeWapMCXGSSWiSsrbDS2kmKkHDkv5xL-U3Un4X0zJGd1MG5S8k_0a",
+    "genre": ["Terror", "Slasher"],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/04.-%20SCREAM%204%20%282011%29.mp4"
+  },
+  {
+    "title": "ROCKY 5 (1990)",
+    "description": "Después de arruinarse, Rocky vuelve a casa y entrena a un joven y prometedor luchador, solo para enfrentarse a su propio fracaso y a la traición de su protegido.",
+    "coverImage": "https://m.media-amazon.com/images/M/MV5BMTM2Mzc4MTYxM15BMl5BanBnXkFtZTcwODY5NTk1NA@@._V1_FMjpg_UX1000_.jpg",
+    "genre": ["Drama", "Deportes"],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/05.-%20%20ROCKY%205%20%281990%29%20%E2%9C%94.ia.mp4"
+  },
+  {
+    "title": "A TODO GAS 5 (2011)",
+    "description": "Dominic Toretto y su equipo se dirigen a Río de Janeiro para un último atraco que les dará la libertad, pero un implacable agente federal y un peligroso capo de la droga les pisan los talones.",
+    "coverImage": "https://static.fnac-static.com/multimedia/ES/images_produits/ES/ZoomPE/6/9/8/8414906403896/tsp20121118163015/A-todo-gas-5-Fast-Furious-5.jpg",
+    "genre": ["Acción", "Crimen", "Thriller"],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/05.-%20A%20TODO%20GAS%205%20%282011%29%20%E2%9C%94.mp4"
+  },
+  {
+    "title": "EL DESTINO DE SISSI (1957)",
+    "description": "Sissi, la emperatriz de Austria, sufre una grave enfermedad en el pulmón. Viaja a Madeira y más tarde a Corfú para recuperarse, intentando salvar su vida y su matrimonio.",
+    "coverImage": "https://es.web.img2.acsta.net/pictures/14/01/28/13/58/557833.jpg",
+    "genre": ["Drama", "Romance", "Historia"],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/05.-%20EL%20DESTINO%20DE%20SISSI%20%281957%29%20%E2%9C%94.mp4"
+  },
+  {
+    "title": "PREDATOR: LA PRESA (2022)",
+    "description": "En 1719, en las Grandes Llanuras del sur, una joven de la tribu Comanche, hábil cazadora, debe proteger a su pueblo de un depredador alienígena altamente evolucionado.",
+    "coverImage": "https://m.media-amazon.com/images/M/MV5BOTc2Y2NmY2MtYWQ2ZS00ZGRjLTk2NTItNzVmNDViOTJhNThhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "genre": ["Ciencia Ficción", "Acción", "Aventura"],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/05.-%20PREDATOR%20LA%20PRESA%20%282022%29%20%E2%9C%94.ia.mp4"
+  },
+  {
+    "title": "SAW 5 (2008)",
+    "description": "El detective Hoffman es la siguiente pieza del plan de Jigsaw para continuar con el legado. Cuando es expuesto, debe participar en un nuevo juego con cinco personas para encubrir su identidad.",
+    "coverImage": "https://i.blogs.es/317b07/saw-20cinco-20te-20la-20hinco/450_1000.jpg",
+    "genre": ["Terror", "Misterio"],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/05.-%20SAW%205%20%282008%29.mp4"
+  },
+  {
+    "title": "SCREAM (2022)",
+    "description": "Veinticinco años después de los asesinatos originales de Ghostface, un nuevo asesino ha tomado la máscara y comienza a atacar a un grupo de adolescentes para resucitar secretos del pasado mortal de Woodsboro.",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-N57cILNugcl7y8N0aHNWhGriKiZWJIwMBA&s",
+    "genre": ["Terror", "Slasher"],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/05.-%20SCREAM%20%282022%29.ia.mp4"
+  },
+  {
+    "title": "SAW 6 (2009)",
+    "description": "El Agente Hoffman es la mente maestra detrás de los juegos de Jigsaw y la aparición de Jill Tuck, ex esposa de Jigsaw, provoca una nueva serie de trampas.",
+    "coverImage": "https://www.mubis.es/media/articles/31803/310473/teaser-trailer-de-scream-6-en-castellano-original.jpg",
+    "genre": ["Terror", "Misterio"],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/06.-%20SAW%206%20%282009%29.ia.mp4"
   },
       
       {
