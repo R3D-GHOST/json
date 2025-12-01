@@ -1,5 +1,115 @@
 [
 
+
+{
+      "title": "Destino Final",
+      "originalTitle": "Final Destination",
+      "year": 2000,
+      "description": "Tras evitar un accidente aéreo gracias a una premonición, un grupo de jóvenes es perseguido por la muerte, que busca restaurar su orden.",
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPUDDYzBdVb3CtVt_Cm_gFTAbWLiHvvh7C7oxpWDxzVQ&s=10",
+      "genre": ["Terror", "Suspenso"],
+      "country": "Estados Unidos",
+      "director": "James Wong",
+      "runtime": "98 minutos",
+      "language": ["Español Latino"],
+      "video_url": "https://archive.org/download/destino-final_202407/Destino%20Final.mp4"
+    },
+    {
+      "title": "Destino Final 2",
+      "originalTitle": "Final Destination 2",
+      "year": 2003,
+      "description": "Una nueva premonición evita un accidente múltiple en carretera, desencadenando nuevamente la persecución de la muerte.",
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq1ERl2776PKcQbhFCNbuE6D7jO8Hhek9eH1heciF3Ojds8RHUhJiU1BY&s=10",
+      "genre": ["Terror", "Suspenso"],
+      "country": "Estados Unidos",
+      "director": "David R. Ellis",
+      "runtime": "91 minutos",
+      "language": ["Español Latino"],
+      "video_url": "https://archive.org/download/destino-final_202407/Destino%20Final%202.mp4"
+    },
+    {
+      "title": "Destino Final 3",
+      "originalTitle": "Final Destination 3",
+      "year": 2006,
+      "description": "Una joven tiene una visión sobre un mortal accidente en una montaña rusa, salvando varias vidas… pero no del destino.",
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIklzS3BAcekbYjEsmNZsG4Lh_pkjqMKXiw1bn1wSXRQ&s=10",
+      "genre": ["Terror", "Suspenso"],
+      "country": "Estados Unidos",
+      "director": "James Wong",
+      "runtime": "93 minutos",
+      "language": ["Español Latino"],
+      "video_url": "https://archive.org/download/destino-final_202407/Destino%20Final%203.mp4"
+    },
+    {
+      "title": "Destino Final 4",
+      "originalTitle": "The Final Destination",
+      "year": 2009,
+      "description": "Una visión sobre un accidente en un autódromo evita la tragedia, pero la muerte vuelve a reclamar a los sobrevivientes uno por uno.",
+      "coverImage": "https://pics.filmaffinity.com/Destino_final_4-201127616-large.jpg",
+      "genre": ["Terror", "Suspenso"],
+      "country": "Estados Unidos",
+      "director": "David R. Ellis",
+      "runtime": "82 minutos",
+      "language": ["Español Latino"],
+      "video_url": "https://archive.org/download/destino-final_202407/Destino%20Final%204.mp4"
+    },
+    {
+      "title": "Destino Final 5",
+      "originalTitle": "Final Destination 5",
+      "year": 2011,
+      "description": "Un derrumbe en un puente es evitado gracias a una premonición, pero la muerte vuelve a cerrar su ciclo.",
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwJlAAdxB_sqeJ9PmT1tpicLuZ-pv-eNR1pWpJA_q3vQ&s=10",
+      "genre": ["Terror", "Suspenso"],
+      "country": "Estados Unidos",
+      "director": "Steven Quale",
+      "runtime": "92 minutos",
+      "language": ["Español Latino"],
+      "video_url": "https://archive.org/download/destino-final_202407/Destino%20Final%205.mp4"
+    },
+  
+{
+  "title": "It (Eso)",
+  "originalTitle": "It",
+  "year": 2017,
+  "description": "Un grupo de niños en el pueblo de Derry se enfrenta a una entidad maligna que adopta la forma de Pennywise, un payaso que despierta cada 27 años para sembrar terror.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWqS2bXTmXA8NClt2DvgSoFU3fIfpLUlw0S2aNMQ2EOw&s=10",
+  "genre": ["Terror", "Suspenso"],
+  "country": "Estados Unidos",
+  "director": "Andy Muschietti",
+  "runtime": "135 minutos",
+  "language": ["Español Latino"],
+  "video_url": "https://archive.org/download/it-eso-2017-parte-2-hd-1080p-latino/IT%20ESO/IT%2C720p.mp4"
+},
+
+  {
+  "title": "It (Eso) - Parte 2",
+  "originalTitle": "It: Chapter Two",
+  "year": 2019,
+  "description": "Veintisiete años después, los miembros del Club de los Perdedores regresan a Derry para enfrentarse finalmente a Pennywise, cuyo poder es más aterrador que nunca.",
+  "coverImage": "https://es.web.img3.acsta.net/pictures/19/07/30/09/09/0763744.jpg",
+  "genre": ["Terror", "Suspenso"],
+  "country": "Estados Unidos",
+  "director": "Andy Muschietti",
+  "runtime": "169 minutos",
+  "language": ["Español Latino"],
+  "video_url": "https://archive.org/download/it-eso-2017-parte-2-hd-1080p-latino/IT%20ESO/It%20%28Eso%29%20%282017%29%20%20parte%202%20HD%201080p%20Latino.ia.mp4"
+  },
+  
+
+  {
+  "title": "It (Eso) - Parte 1",
+  "originalTitle": "It",
+  "year": 2017,
+  "description": "En el verano de 1989, un grupo de niños conocido como el Club de los Perdedores se une para enfrentar a Pennywise, un antiguo mal que acecha la ciudad de Derry.",
+  "coverImage": "https://es.web.img3.acsta.net/pictures/17/04/07/12/58/197841.jpg",
+  "genre": ["Terror", "Suspenso"],
+  "country": "Estados Unidos",
+  "director": "Andy Muschietti",
+  "runtime": "135 minutos",
+  "language": ["Español Latino"],
+  "video_url": "https://archive.org/download/it-eso-2017-parte-2-hd-1080p-latino/IT%20ESO/It%20%28Eso%29%20%282017%29%20%20parte%201%20HD%201080p%20Latino.mp4"
+  },
+  
 {
   "title": "Breaking Bad Temporada 5",
   "description": "La temporada final sigue la transformación definitiva de Walter White mientras su imperio criminal alcanza su punto más peligroso. Las tensiones con Jesse, la persecución de la DEA y la ambición desmedida de Walt culminan en un desenlace explosivo.",
