@@ -1,5 +1,37 @@
 [
 
+  
+  {
+    "title": "Karate Kid (1984)",
+    "description": "Daniel LaRusso aprende defensa personal y disciplina bajo la guía del Sr. Miyagi para enfrentarse a los abusadores y competir en un torneo de karate.",
+    "genre": ["Drama", "Acción", "Artes marciales"],
+    "coverImage": "https://pics.filmaffinity.com/the_karate_kid-914350571-large.jpg",
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/KARATE%20KID%201%20El%20Momento%20De%20La%20Verdad%20%281984%29%20%E2%9C%94.mp4"
+  },
+  {
+    "title": "Karate Kid 2 (1986)",
+    "description": "Daniel acompaña al Sr. Miyagi a Okinawa, donde se enfrenta a nuevas amenazas y aprende significados más profundos del honor y el karate.",
+    "genre": ["Drama", "Acción", "Artes marciales"],
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvvW9kuljtNiRxQOLdweIYmh4KmynN2u_NwmKxM_R1INQ9TQMNFZecrOO1&s=10",
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/KARATE%20KID%202%20La%20Historia%20Continua%20%281986%29%20%E2%9C%94.mp4"
+  },
+  {
+    "title": "Karate Kid 3 (1989)",
+    "description": "Daniel y Miyagi se ven envueltos en un plan de venganza cuando un viejo enemigo regresa para destruirlos mediante engaños y violencia.",
+    "genre": ["Drama", "Acción", "Artes marciales"],
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4p9CvaRiDT8twsZ1zRCrE7RcbcQJT26oC-B9yX81yCw&s=10",
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/KARATE%20KID%203%20El%20Desafio%20Final%20%20%281989%29%20%E2%9C%94.mp4"
+  },
+  {
+    "title": "Karate Kid 4: El Nuevo Karate Kid (1994)",
+    "description": "El Sr. Miyagi entrena a Julie Pierce, una adolescente con problemas que debe aprender paciencia, autocontrol y defensa personal.",
+    "genre": ["Drama", "Acción", "Artes marciales"],
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUumvRhP3KMGjq5C37u4lpuhansgACBkaaxpr8y7lsVw&s=10",
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/KARATE%20KID%204%20El%20Nuevo%20Karate%20Kid%20%281994%29%20%E2%9C%94.mp4"
+  },
+
+  
+
   {
     "title": "Ip Man (2008)",
     "description": "Biografía del maestro de Wing Chun que entrenó a Bruce Lee. Ip Man debe defender su ciudad durante la invasión japonesa.",
