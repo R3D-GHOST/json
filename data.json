@@ -1,5 +1,54 @@
 [
 
+      {
+      "title": "Shrek",
+      "originalTitle": "Shrek",
+      "year": 2001,
+      "description": "Un ogro cascarrabias se embarca en una misión para rescatar a una princesa y recuperar la paz en su pantano. Comienza una divertida aventura llena de humor, magia y amistad.",
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQvkUtQppX8HnBFQkzMhNT5rcDVObn8nxHV5gluJroZw&s",
+      "genre": ["Animación", "Comedia", "Aventura", "Fantasía"],
+      "country": "Estados Unidos",
+      "director": "Andrew Adamson, Vicky Jenson",
+      "language": ["Inglés", "Doblaje Español (según versión)"],
+      "video_url": "https://archive.org/download/shrek_202407/Shrek.mp4"
+    },
+    {
+      "title": "Shrek 2",
+      "originalTitle": "Shrek 2",
+      "year": 2004,
+      "description": "Shrek y Fiona visitan el reino de los padres de Fiona, donde deberán ganarse su aprobación mientras enfrentan nuevas amenazas. Una historia llena de humor y emociones.",
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP6GGoKIdye9_137bhe77QmX4FOSe1GmPAi_wj80HB9g&s=10",
+      "genre": ["Animación", "Comedia", "Aventura", "Fantasía"],
+      "country": "Estados Unidos",
+      "director": "Andrew Adamson, Kelly Asbury, Conrad Vernon",
+      "language": ["Inglés", "Doblaje Español (según versión)"],
+      "video_url": "https://archive.org/download/shrek_202407/Shrek%202.mp4"
+    },
+    {
+      "title": "Shrek Tercero",
+      "originalTitle": "Shrek the Third",
+      "year": 2007,
+      "description": "Shrek, Fiona y sus amigos deben buscar a un heredero al trono para evitar una guerra en el reino. Una aventura llena de humor, valentía y sorpresas.",
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjLf9gKG2rfdbYfJJyymtz1nXKTi8MpAsupcEsJOPA9A&s=10",
+      "genre": ["Animación", "Comedia", "Aventura", "Fantasía"],
+      "country": "Estados Unidos",
+      "director": "Chris Miller, Raman Hui",
+      "language": ["Inglés", "Doblaje Español (según versión)"],
+      "video_url": "https://archive.org/download/shrek_202407/Shrek%20Tercero.mp4"
+    },
+    {
+      "title": "Shrek Para Siempre",
+      "originalTitle": "Shrek Forever After",
+      "year": 2010,
+      "description": "Shrek vive una crisis de identidad y, tras un trato con un duende, descubre una realidad alternativa en la que nunca conoció a Fiona. Deberá recuperar su vida y su amor en una aventura épica.",
+      "coverImage": "https://play-lh.googleusercontent.com/grcD8dGCXJbRrbqEoDhk5GRwyZ9pl3q6bCbRgS2kNwS958hUzJiKmiusNBBhiMW7vP0G6CpjfypiLmt698cp",
+      "genre": ["Animación", "Comedia", "Aventura", "Fantasía"],
+      "country": "Estados Unidos",
+      "director": "Mike Mitchell",
+      "language": ["Inglés", "Doblaje Español (según versión)"],
+      "video_url": "https://archive.org/download/shrek_202407/Shrek%20Para%20Siempre.mp4"
+    },
+
 
 {
       "title": "Destino Final",
