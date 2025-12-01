@@ -1,5 +1,126 @@
 [
 
+{
+    "title": "A Todo Gas 1",
+    "description": "Dominic Toretto y Brian O'Conner se enfrentan en carreras ilegales de autos mientras se desarrollan traiciones y amistades peligrosas.",
+    "coverImage": "https://es.web.img2.acsta.net/pictures/14/02/25/10/54/307930.jpg",
+    "genre": ["Acción", "Aventura", "Carreras"],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/01.-%20A%20TODO%20GAS%201%20%282001%29.mp4"
+  },
+  {
+    "title": "Cincuenta Sombras de Grey",
+    "description": "Una joven universitaria conoce a un millonario enigmático y entra en un complejo mundo de amor, deseo y secretos.",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUUCGThvYgrKygx3j-NJTKdhLc_V3n5_Emig&s",
+    "genre": ["Romance", "Drama", "Erótico"],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/01.-%20CINCUENTA%20SOMBRAS%20DE%20GREY%20%282015%29%20%E2%9C%94.ia.mp4"
+  },
+  {
+    "title": "Depredador 1",
+    "description": "Un equipo de élite es cazado por un extraterrestre invisible y extremadamente peligroso en la selva de América Central.",
+    "coverImage": "https://es.web.img3.acsta.net/pictures/14/03/14/13/49/384885.jpg",
+    "genre": ["Acción", "Ciencia ficción", "Suspenso"],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/01.-%20DEPREDADOR%201%20%281987%29%20%E2%9C%94.ia.mp4"
+  },
+  {
+    "title": "Ocho Apellidos Vascos",
+    "description": "Un hombre andaluz se enamora de una chica vasca y debe adaptarse a su cultura mientras surgen situaciones cómicas y románticas.",
+    "coverImage": "https://es.web.img3.acsta.net/pictures/14/01/22/10/05/427394.jpg",
+    "genre": ["Comedia", "Romance"],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/01.-%20OCHO%20APELLIDOS%20VASCOS%20%282014%29%20%E2%9C%94.ia.mp4"
+  },
+  {
+    "title": "Rocky 1",
+    "description": "Un boxeador amateur de Filadelfia recibe la oportunidad de enfrentarse al campeón mundial de pesos pesados, cambiando su vida para siempre.",
+    "coverImage": "https://pics.filmaffinity.com/Rocky-755606135-large.jpg",
+    "genre": ["Deporte", "Drama", "Acción"],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/01.-%20ROCKY%201%20%281976%29%20%E2%9C%94.ia.mp4"
+  },
+  {
+    "title": "Saw 1",
+    "description": "Dos hombres se despiertan atrapados en un baño abandonado y deben resolver pistas mortales para sobrevivir a un macabro juego.",
+    "coverImage": "https://es.web.img3.acsta.net/medias/nmedia/18/89/75/36/20065254.jpg",
+    "genre": ["Terror", "Suspenso", "Thriller"],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/01.-%20SAW%20%282004%29.ia.mp4"
+  },
+  {
+    "title": "Agente 007 contra el Doctor No",
+    "description": "El espía James Bond investiga la misteriosa desaparición de un colega en Jamaica y se enfrenta a la organización criminal de Doctor No.",
+    "coverImage": "https://www.mubis.es/media/covers/1233/1366/pack-james-bond-volumen-1-portada-l_cover.jpg",
+    "genre": ["Acción", "Espionaje", "Aventura"],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/01.AGENTE%20007%20CONTRA%20EL%20DOCTOR%20NO%20%281962%29%20%E2%9C%94.mp4"
+  },
+  {
+    "title": "Cazafantasmas 1",
+    "description": "Un grupo de científicos se dedica a capturar fantasmas en Nueva York utilizando tecnología avanzada y enfrentándose a lo paranormal.",
+    "coverImage": "https://www.originalfilmart.com/cdn/shop/products/ghostbusters_1984_german_a0_original_film_art_2756eecf-b6e1-47e1-a1a7-f87e95fb8559_5000x.webp?v=1676666632",
+    "genre": ["Comedia", "Fantasía", "Aventura"],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/01%20CAZAFANTASMAS%201%20%281984%29%20%E2%9C%94.mp4"
+  },
+  {
+    "title": "365 Días",
+    "description": "Una joven es secuestrada por un hombre poderoso que le da 365 días para enamorarse de él, iniciando un romance peligroso y apasionado.",
+    "coverImage": "https://es.web.img3.acsta.net/pictures/22/08/19/11/42/0577157.jpg",
+    "genre": ["Romance", "Drama", "Erótico"],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/01.-%20365%20DI%CC%81AS%20%28lat%29%20.mp4"
+  },
+  {
+    "title": "Cazafantasmas 2",
+    "description": "Los Cazafantasmas deben enfrentarse a un nuevo y poderoso espíritu que amenaza con destruir Nueva York, combinando humor y acción sobrenatural.",
+    "coverImage": "https://cartelesmix.es/images/CartelesC/cazafantasmas2_89003.jpg",
+    "genre": ["Comedia", "Fantasía", "Aventura"],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/02%20CAZAFANTASMAS%202%20%281989%29%20%E2%9C%94.ia.mp4"
+  },
+  {
+    "title": "Matrix Reloaded",
+    "description": "Neo y los rebeldes continúan su lucha contra las máquinas en un mundo virtual mientras descubren secretos que cambiarán su destino.",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhR3f0Z7vShXjP5Hbo_IqnYEy10k35TxbDTQ&s",
+    "genre": ["Acción", "Ciencia ficción", "Aventura"],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/02.-%20%20%20MATRIX%20RELOADED%20%282003%29.ia.mp4"
+  },
+  {
+    "title": "Rocky 2",
+    "description": "Rocky Balboa busca revancha contra Apollo Creed y lucha por superar sus propios límites dentro y fuera del ring.",
+    "coverImage": "https://es.web.img2.acsta.net/pictures/14/05/12/10/38/231381.jpg",
+    "genre": ["Deporte", "Drama", "Acción"],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/02.-%20%20ROCKY%202%20%281979%29%20%E2%9C%94.ia.mp4"
+  },
+  {
+    "title": "A Todo Gas 2",
+    "description": "Brian y Dominic enfrentan nuevos desafíos en carreras ilegales y conflictos con criminales, fortaleciendo su vínculo y rivalidades.",
+    "coverImage": "https://play-lh.googleusercontent.com/z3Z2-hbpxxJNnXH7WUEv4mClyhi5riiz7HyLjDcrfjhh8U_ZSaYkE9eML6CoLKujFpgW",
+    "genre": ["Acción", "Aventura", "Carreras"],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/02.-%20A%20TODO%20GAS%202%20%282003%29%20%E2%9C%94.ia.mp4"
+  },
+  {
+    "title": "Aeropuerto 75",
+    "description": "Un avión enfrenta graves problemas técnicos mientras la tripulación y los pasajeros luchan por sobrevivir a un desastre inminente.",
+    "coverImage": "https://es.web.img3.acsta.net/pictures/210/443/21044329_20130926124712449.jpg",
+    "genre": ["Acción", "Drama", "Suspenso"],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/02.-%20AEROPUERTO%2075%20%281974%29.ia.mp4"
+  },
+  {
+    "title": "Cincuenta Sombras Más Oscuras",
+    "description": "Continúa la relación intensa y complicada entre Anastasia y Christian, enfrentando secretos y peligros del pasado.",
+    "coverImage": "https://m.media-amazon.com/images/I/81ZBDtJAJiL._UF1000,1000_QL80_.jpg",
+    "genre": ["Romance", "Drama", "Erótico"],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/02.-%20CINCUENTA%20SOMBRAS%20M%C3%81S%20OSCURAS%20%282017%29%20%E2%9C%94.ia.mp4"
+  },
+  {
+    "title": "Depredador 2",
+    "description": "Un letal extraterrestre acecha a la policía de Los Ángeles, mientras un detective intenta detenerlo antes de que cause más muertes.",
+    "coverImage": "https://www.mubis.es/media/covers/2140/4487/depredador-2-portada-l_cover.jpg",
+    "genre": ["Acción", "Ciencia ficción", "Suspenso"],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/02.-%20DEPREDADOR%202%20%281990%29%20%E2%9C%94.ia.mp4"
+  },
+  {
+    "title": "Ocho Apellidos Catalanes",
+    "description": "Un hombre andaluz debe adaptarse a la cultura catalana mientras surgen situaciones cómicas y románticas junto a su familia y su amor.",
+    "coverImage": "https://es.web.img2.acsta.net/pictures/15/10/20/17/17/160635.jpg",
+    "genre": ["Comedia", "Romance"],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/02.-%20OCHO%20APELLIDOS%20CATALANES%20%282015%29%20%E2%9C%94.ia.mp4"
+  },
+      
+      
       {
       "title": "Shrek",
       "originalTitle": "Shrek",
