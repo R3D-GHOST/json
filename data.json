@@ -1,6 +1,44 @@
 [
 
+  {
+    "title": "Ip Man (2008)",
+    "description": "Biografía del maestro de Wing Chun que entrenó a Bruce Lee. Ip Man debe defender su ciudad durante la invasión japonesa.",
+    "genre": ["Acción", "Artes marciales", "Biográfico"],
+    "coverImage": "https://m.media-amazon.com/images/I/71CvLHpVN3L._AC_UF894,1000_QL80_.jpg",
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/IP%20MAN%201%20%282008%29%20%E2%9C%94.mp4"
+  },
+  {
+    "title": "Ip Man 2 (2010)",
+    "description": "Ip Man se instala en Hong Kong y debe enfrentar a otros maestros locales mientras intenta abrir su escuela de Wing Chun.",
+    "genre": ["Acción", "Artes marciales"],
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj2o44zGPBJHLyYHed13Q-ocobphhC7gWgYtiIoDkcLA&s=10",
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/IP%20MAN%202%20%282010%29%20%E2%9C%94.mp4"
+  },
+  {
+    "title": "Ip Man 3 (2015)",
+    "description": "Ip Man vuelve a luchar para defender a su familia y a su escuela cuando un grupo de mafiosos amenaza a la comunidad.",
+    "genre": ["Acción", "Artes marciales"],
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOyn-5E0T3FDIW0K7JmpXRy_Zhtjd6gvJv0S1AxG579w&s=10",
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/IP%20MAN%203%20%282010%29%20%E2%9C%94.mp4"
+  },
+  {
+    "title": "Ip Man 4 (2019)",
+    "description": "Ip Man viaja a Estados Unidos, donde enfrenta discriminación y nuevos retos mientras ayuda a Bruce Lee.",
+    "genre": ["Acción", "Artes marciales"],
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNgAbZMNjqlnF4SdYwmYesgWzlW23c7O9f44KhxciIUg&s=10",
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/IP%20MAN%204%20%282018%29%20%E2%9C%94.mp4"
+  },
+  {
+    "title": "Ip Man: La Leyenda (2010)",
+    "description": "Una versión alternativa de la juventud de Ip Man y sus primeros años de aprendizaje dentro del Wing Chun.",
+    "genre": ["Acción", "Artes marciales"],
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS_c_uashYRczJ-PwVblPyuWB3yFQspvR-dbSPq4ZE3Q&s=10",
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/IP%20MAN%20LA%20LEYENDA%20%282010%29%20%E2%9C%94.mp4"
+  },
 
+
+
+  
 
   {
     "title": "Hombres de Negro 1",
