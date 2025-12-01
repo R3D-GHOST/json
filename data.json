@@ -1,6 +1,80 @@
 [
 
   {
+    "title": "A Todo Gas 6",
+    "description": "Dom y Brian enfrentan nuevos retos mientras expanden su imperio de carreras y enfrentan enemigos peligrosos.",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsJRz43zksQSqMhBQA4lXSTEuUP7ZEghRpKTsGjKwDmIChUqQb2pWX4gpl&s=10",
+    "genre": ["Acción", "Carreras", "Aventura"],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/06.-%20A%20TODO%20GAS%206%20%282013%29%20%E2%9C%94.ia.mp4"
+  },
+  {
+    "title": "A Todo Gas 7",
+    "description": "La familia de corredores enfrenta nuevos desafíos mientras luchan contra rivales y criminales en intensas carreras.",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSOnHlRPYBNLV7HvE43XcM8qDuVxHybiOwhkqEMRTxFw&s=10",
+    "genre": ["Acción", "Carreras", "Aventura"],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/07.-%20A%20TODO%20GAS%207%20%282015%29%20%E2%9C%94.ia.mp4"
+  },
+  {
+    "title": "A Todo Gas 8",
+    "description": "El equipo de Dom y Brian enfrenta nuevas amenazas en carreras internacionales y situaciones extremas.",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFO8bhL4d7kD20MShuu8Bpq68lruBtxuh6g084Hhc9yw&s=10",
+    "genre": ["Acción", "Carreras", "Aventura"],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/08.-%20A%20TODO%20GAS%208%20%282017%29%20%E2%9C%94.mp4"
+  },
+  {
+    "title": "Creed 1",
+    "description": "Adonis Johnson busca hacerse un nombre en el boxeo bajo la tutela de Rocky Balboa, enfrentando desafíos personales y profesionales.",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6lmiZQ35eu8o3jVZThzA0ql0GvOwo0m0fKCPQzjM2MA&s",
+    "genre": ["Deporte", "Drama", "Acción"],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/07.-%20CREED%201%20La%20leyenda%20de%20Rocky%20%282015%29%20%E2%9C%94.mp4"
+  },
+  {
+    "title": "Creed 2",
+    "description": "Adonis debe enfrentar a un rival del pasado de su familia mientras continúa aprendiendo de Rocky.",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTextviXFx0cXLyO_CeHp4bRZ5mS7J6I-NqP7n-ryZMCw&s=10",
+    "genre": ["Deporte", "Drama", "Acción"],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/08.-%20CREED%202%20La%20leyenda%20de%20Rocky%20%282018%29%20%E2%9C%94.mp4"
+  },
+  {
+    "title": "Creed 3",
+    "description": "Adonis enfrenta los mayores desafíos de su vida dentro y fuera del ring, luchando por su legado y familia.",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFnNmQFZgac44q8EmLm2g3tolI49pWrVx_ZLVWjIIeIQ&s=10",
+    "genre": ["Deporte", "Drama", "Acción"],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/09.-%20CREED%203%282023%29%20%E2%9C%94.ia.mp4"
+  },
+  {
+    "title": "La Leyenda del Zorro",
+    "description": "El Zorro lucha por proteger a su familia y mantener la justicia mientras enfrenta a nuevos enemigos.",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-X69ATJLao731G7mdAjID0Er7oyzbBjGwscQOiP3l8A&s=10",
+    "genre": ["Aventura", "Acción", "Romance"],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/2.%20LA%20LEYENDA%20DEL%20ZORRO%20%282005%29%20%E2%9C%94.mp4"
+  },
+  {
+    "title": "Cocodrilo Dundee",
+    "description": "Un aventurero australiano viaja a Nueva York y se enfrenta a la vida urbana mientras mantiene su espíritu salvaje.",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5CC_1senm_DCOEZnXLwcQ2PI5BkviHjoRgv1kg_vcrA&s=10",
+    "genre": ["Comedia", "Aventura", "Romance"],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/COCODRILO%20DUNDEE.mp4"
+  },
+  {
+    "title": "Cocodrilo Dundee 2",
+    "description": "El aventurero regresa y se enfrenta a nuevas aventuras, conflictos y peligros en su vida urbana y salvaje.",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp1pDz7Fs1m4y4oSozE4NOmoi21b_pAHrZvJMF7XjtxA&s=10",
+    "genre": ["Comedia", "Aventura", "Romance"],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/COCODRILO%20DUNDEE%202%20%281988%29.mp4"
+  },
+  {
+    "title": "Cocodrilo Dundee en Los Angeles",
+    "description": "El intrépido aventurero australiano se adapta a la vida en Los Ángeles mientras enfrenta situaciones cómicas y peligrosas.",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXX3Jlx590nCfCsVg0ihdzSmJnoWcnw4U_KG1Al5G6vVoSxgo4bhSpgIc&s=10",
+    "genre": ["Comedia", "Aventura", "Romance"],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/COCODRILO%20DUNDEE%20EN%20LOS%20ANGELES%20%282001%29.mp4"
+  },
+
+
+  
+
+  {
     "title": "A TODO GAS 1 (2001)",
     "description": "Un policía encubierto se infiltra en el mundo de las carreras callejeras de Los Ángeles para investigar una serie de robos de camiones, pero se siente atraído por el estilo de vida y la hermana del líder de la banda.",
     "coverImage": "https://es.web.img2.acsta.net/pictures/14/02/25/10/54/307930.jpg",
