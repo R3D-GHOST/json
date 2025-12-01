@@ -1,5 +1,95 @@
 [
 
+{
+  "title": "Breaking Bad Temporada 5",
+  "description": "La temporada final sigue la transformación definitiva de Walter White mientras su imperio criminal alcanza su punto más peligroso. Las tensiones con Jesse, la persecución de la DEA y la ambición desmedida de Walt culminan en un desenlace explosivo.",
+  "coverImage": "https://resizing.flixster.com/IEzZVQVr_Q_ZQKZqRAVgmgQkGiA=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p9181462_b_v9_aa.jpg",
+  "genre": ["Crimen", "Drama", "Thriller"],
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "Episode 1",
+      "video_url": "https://archive.org/download/1-5122875452653830833/1_5121110603347264286.mp4"
+    },
+    {
+      "episode": 2,
+      "title": "Episode 2",
+      "video_url": "https://archive.org/download/1-5122875452653830833/1_5121110603347264287.mp4"
+    },
+    {
+      "episode": 3,
+      "title": "Episode 3",
+      "video_url": "https://archive.org/download/1-5122875452653830833/1_5121110603347264288.mp4"
+    },
+    {
+      "episode": 4,
+      "title": "Episode 4",
+      "video_url": "https://archive.org/download/1-5122875452653830833/1_5121110603347264289.mp4"
+    },
+    {
+      "episode": 5,
+      "title": "Episode 5",
+      "video_url": "https://archive.org/download/1-5122875452653830833/1_5121110603347264290.mp4"
+    },
+    {
+      "episode": 6,
+      "title": "Episode 6",
+      "video_url": "https://archive.org/download/1-5122875452653830833/1_5121110603347264291.mp4"
+    },
+    {
+      "episode": 7,
+      "title": "Episode 7",
+      "video_url": "https://archive.org/download/1-5122875452653830833/1_5121110603347264292.mp4"
+    },
+    {
+      "episode": 8,
+      "title": "Episode 8",
+      "video_url": "https://archive.org/download/1-5122875452653830833/1_5121110603347264293.mp4"
+    },
+    {
+      "episode": 9,
+      "title": "Episode 9",
+      "video_url": "https://archive.org/download/1-5122875452653830833/1_5121110603347264297.mp4"
+    },
+    {
+      "episode": 10,
+      "title": "Episode 10",
+      "video_url": "https://archive.org/download/1-5122875452653830833/1_5122875452653830825.mp4"
+    },
+    {
+      "episode": 11,
+      "title": "Episode 11",
+      "video_url": "https://archive.org/download/1-5122875452653830833/1_5122875452653830827.mp4"
+    },
+    {
+      "episode": 12,
+      "title": "Episode 12",
+      "video_url": "https://archive.org/download/1-5122875452653830833/1_5122875452653830828.mp4"
+    },
+    {
+      "episode": 13,
+      "title": "Episode 13",
+      "video_url": "https://archive.org/download/1-5122875452653830833/1_5122875452653830829.mp4"
+    },
+    {
+      "episode": 14,
+      "title": "Episode 14",
+      "video_url": "https://archive.org/download/1-5122875452653830833/1_5122875452653830831.mp4"
+    },
+    {
+      "episode": 15,
+      "title": "Episode 15",
+      "video_url": "https://archive.org/download/1-5122875452653830833/1_5122875452653830832.mp4"
+    },
+    {
+      "episode": 16,
+      "title": "Episode 16 (Final)",
+      "video_url": "https://archive.org/download/1-5122875452653830833/1_5122875452653830833.mp4"
+    }
+  ]
+},
+
+  
 
 {
   "title": "Peaky Blinders Temporada 6",
@@ -1602,7 +1692,7 @@
 {
   "title": "Breaking Bad Temporada 1",
   "description": "Un profesor de química con cáncer terminal comienza a fabricar metanfetamina para asegurar el futuro económico de su familia, desatando una cadena de consecuencias peligrosas.",
-  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9ib7u8qZ6oAxKlARL3iHs52llTDxANpBj66racEGsIQ&s=10",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp4L_Tzl8T7dQrm8J4e0wutIhi2NSoHOFkqohxn660nQ&s=10",
   "genre": ["Drama", "Crimen", "Suspenso"],
   "fanart": "",
   "episodes": [
