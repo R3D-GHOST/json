@@ -1,6 +1,23 @@
 [
 
   {
+    "title": "A Todo Gas 9 (Fast & Furious 9)",
+    "description": "Dom y su equipo deben enfrentarse a un nuevo villano con habilidades mortales, mientras el pasado regresa para poner en jaque su familia y sus valores.",
+    "genre": ["Acción", "Carreras", "Aventura"],
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9TfSzut3SEMXPzLpmHq-DGptUw3oWO1sS1ZewY3-RDg&s=10",
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/10.-%20A%20TODO%20GAS%20F9%20%282021%29%20%E2%9C%94.mp4"
+  },
+  {
+    "title": "Fast & Furious X (2023)",
+    "description": "La última entrega de la saga reúne a todo el equipo en una misión final donde deberán superar sus límites para proteger a los suyos y cerrar un capítulo épico.",
+    "genre": ["Acción", "Carreras", "Aventura"],
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSswOfqBFpbb2yQgYRFp1vy6i_00VchYjhyO-fR0sD0rA&s=10",
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/11.-%20FAST%20AND%20FURIUS%20X%20%282023%29.ia.mp4"
+  },
+
+
+  
+  {
   "title": "Los Increíbles 1",
   "description": "Una familia de superhéroes vive ocultando sus poderes hasta que deben volver al combate para salvar al mundo de un villano peligroso.",
   "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAHkJsEdH7nZVsvRD3FN2IlHWaHRBUe0ClflymMlMhKg&s=10",
