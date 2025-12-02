@@ -1,5 +1,42 @@
 [
 
+
+  {
+  "title": "Demon Slayer: Kimetsu no Yaiba",
+  "description": "Tanjiro Kamado continúa su viaje para volverse más fuerte y enfrentar nuevas amenazas demoníacas mientras protege a su hermana Nezuko.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHeAEQQY4m1x336Aoj9KbpaEmgAYLb9LQVJgguDfyMgA&s=10",
+  "genre": ["Acción", "Aventura", "Fantasia oscura", "Shonen"],
+  "episodes": [
+    { "episode": 1,  "title": "Episode 1",  "video_url": "https://archive.org/download/4-5965484096950901485/4_5965484096950901468.ia.mp4" },
+    { "episode": 2,  "title": "Episode 2",  "video_url": "https://archive.org/download/4-5965484096950901485/4_5965484096950901469.ia.mp4" },
+    { "episode": 3,  "title": "Episode 3",  "video_url": "https://archive.org/download/4-5965484096950901485/4_5965484096950901470.ia.mp4" },
+    { "episode": 4,  "title": "Episode 4",  "video_url": "https://archive.org/download/4-5965484096950901485/4_5965484096950901472.ia.mp4" },
+    { "episode": 5,  "title": "Episode 5",  "video_url": "https://archive.org/download/4-5965484096950901485/4_5965484096950901473.ia.mp4" },
+    { "episode": 6,  "title": "Episode 6",  "video_url": "https://archive.org/download/4-5965484096950901485/4_5965484096950901474.ia.mp4" },
+    { "episode": 7,  "title": "Episode 7",  "video_url": "https://archive.org/download/4-5965484096950901485/4_5965484096950901475.ia.mp4" },
+    { "episode": 8,  "title": "Episode 8",  "video_url": "https://archive.org/download/4-5965484096950901485/4_5965484096950901476.ia.mp4" },
+    { "episode": 9,  "title": "Episode 9",  "video_url": "https://archive.org/download/4-5965484096950901485/4_5965484096950901477.ia.mp4" },
+    { "episode": 10, "title": "Episode 10", "video_url": "https://archive.org/download/4-5965484096950901485/4_5965484096950901478.ia.mp4" },
+    { "episode": 11, "title": "Episode 11", "video_url": "https://archive.org/download/4-5965484096950901485/4_5965484096950901479.ia.mp4" },
+    { "episode": 12, "title": "Episode 12", "video_url": "https://archive.org/download/4-5965484096950901485/4_5965484096950901480.ia.mp4" },
+    { "episode": 13, "title": "Episode 13", "video_url": "https://archive.org/download/4-5965484096950901485/4_5965484096950901481.ia.mp4" },
+    { "episode": 14, "title": "Episode 14", "video_url": "https://archive.org/download/4-5965484096950901485/4_5965484096950901482.ia.mp4" },
+    { "episode": 15, "title": "Episode 15", "video_url": "https://archive.org/download/4-5965484096950901485/4_5965484096950901483.ia.mp4" },
+    { "episode": 16, "title": "Episode 16", "video_url": "https://archive.org/download/4-5965484096950901485/4_5965484096950901484.ia.mp4" },
+    { "episode": 17, "title": "Episode 17", "video_url": "https://archive.org/download/4-5965484096950901485/4_5965484096950901485.ia.mp4" },
+    { "episode": 18, "title": "Episode 18", "video_url": "https://archive.org/download/4-5965484096950901485/4_5965484096950901487.ia.mp4" },
+    { "episode": 19, "title": "Episode 19", "video_url": "https://archive.org/download/4-5965484096950901485/4_5965484096950901488.ia.mp4" },
+    { "episode": 20, "title": "Episode 20", "video_url": "https://archive.org/download/4-5965484096950901485/4_5965484096950901489.ia.mp4" },
+    { "episode": 21, "title": "Episode 21", "video_url": "https://archive.org/download/4-5965484096950901485/4_5965484096950901490.ia.mp4" },
+    { "episode": 22, "title": "Episode 22", "video_url": "https://archive.org/download/4-5965484096950901485/4_5965484096950901491.mp4" },
+    { "episode": 23, "title": "Episode 23", "video_url": "https://archive.org/download/4-5965484096950901485/4_5965484096950901492.ia.mp4" },
+    { "episode": 24, "title": "Episode 24", "video_url": "https://archive.org/download/4-5965484096950901485/4_5965484096950901493.ia.mp4" },
+    { "episode": 25, "title": "Episode 25", "video_url": "https://archive.org/download/4-5965484096950901485/4_5965484096950901494.ia.mp4" },
+    { "episode": 26, "title": "Episode 26", "video_url": "https://archive.org/download/4-5965484096950901485/4_5965484096950901495.ia.mp4" }
+  ]
+  },
+  
+
   {
     "title": "A Todo Gas 9 (Fast & Furious 9)",
     "description": "Dom y su equipo deben enfrentarse a un nuevo villano con habilidades mortales, mientras el pasado regresa para poner en jaque su familia y sus valores.",
