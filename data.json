@@ -1,5 +1,32 @@
 [
 
+  {
+  "title": "Demon Slayer: Kimetsu no Yaiba Temporada 2",
+  "description": "Tanjiro continúa entrenando y enfrentando nuevas amenazas demoníacas mientras avanza hacia su objetivo de derrotar a Muzan Kibutsuji.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr9nmd2z907hv2-KTE1DWfypEBTuzujzwbmpFk-bxEiA&s=10",
+  "genre": ["Acción", "Aventura", "Fantasia oscura", "Shonen"],
+  "episodes": [
+    { "episode": 1,  "title": "Episode 1",  "video_url": "https://archive.org/download/4-5965484096950901509/4_5965484096950901505.ia.mp4" },
+    { "episode": 2,  "title": "Episode 2",  "video_url": "https://archive.org/download/4-5965484096950901509/4_5965484096950901506.ia.mp4" },
+    { "episode": 3,  "title": "Episode 3",  "video_url": "https://archive.org/download/4-5965484096950901509/4_5965484096950901507.ia.mp4" },
+    { "episode": 4,  "title": "Episode 4",  "video_url": "https://archive.org/download/4-5965484096950901509/4_5965484096950901508.ia.mp4" },
+    { "episode": 5,  "title": "Episode 5",  "video_url": "https://archive.org/download/4-5965484096950901509/4_5965484096950901509.ia.mp4" },
+    { "episode": 6,  "title": "Episode 6",  "video_url": "https://archive.org/download/4-5965484096950901509/4_5965484096950901510.ia.mp4" },
+    { "episode": 7,  "title": "Episode 7",  "video_url": "https://archive.org/download/4-5965484096950901509/4_5965484096950901511.ia.mp4" },
+    { "episode": 8,  "title": "Episode 8",  "video_url": "https://archive.org/download/4-5965484096950901509/4_5965484096950901513.ia.mp4" },
+    { "episode": 9,  "title": "Episode 9",  "video_url": "https://archive.org/download/4-5965484096950901509/4_5965484096950901514.ia.mp4" },
+    { "episode": 10, "title": "Episode 10", "video_url": "https://archive.org/download/4-5965484096950901509/4_5965484096950901515.mp4" },
+    { "episode": 11, "title": "Episode 11", "video_url": "https://archive.org/download/4-5965484096950901509/4_5965484096950901516.ia.mp4" },
+    { "episode": 12, "title": "Episode 12", "video_url": "https://archive.org/download/4-5965484096950901509/4_5965484096950901517.ia.mp4" },
+    { "episode": 13, "title": "Episode 13", "video_url": "https://archive.org/download/4-5965484096950901509/4_5965484096950901518.ia.mp4" },
+    { "episode": 14, "title": "Episode 14", "video_url": "https://archive.org/download/4-5965484096950901509/4_5965484096950901519.ia.mp4" },
+    { "episode": 15, "title": "Episode 15", "video_url": "https://archive.org/download/4-5965484096950901509/4_5965484096950901520.mp4" },
+    { "episode": 16, "title": "Episode 16", "video_url": "https://archive.org/download/4-5965484096950901509/4_5965484096950901521.ia.mp4" },
+    { "episode": 17, "title": "Episode 17", "video_url": "https://archive.org/download/4-5965484096950901509/4_5965484096950901522.mp4" },
+    { "episode": 18, "title": "Episode 18", "video_url": "https://archive.org/download/4-5965484096950901509/4_5965484096950901523.ia.mp4" }
+  ]
+  },
+  
 
   {
   "title": "Demon Slayer: Kimetsu no Yaiba",
