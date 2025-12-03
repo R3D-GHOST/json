@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -145,7 +144,7 @@ main{
 
 /* 🃏 Tarjeta (Card) - AJUSTADA */
 .card{
-  flex: 0 0 140px; /* ANCHO MÍNIMO DE 140px para la vista Home */
+  flex: 0 0 140px; /* ANCHO MÍNIMO DE 140px para la vista Home y el scroll horizontal */
   background:var(--bg-card);
   border-radius:6px;
   overflow:hidden;
@@ -288,7 +287,8 @@ main{
 #dynamicGrid {
     padding: 0 3vw;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); 
+    /* ➡️ MODIFICADO: Grid para PC (4 columnas o más) */
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); 
     gap: 10px;
     margin-bottom: 20px;
     margin-top: 20px;
@@ -446,11 +446,36 @@ main{
     .details h2{font-size:1.8rem}
     .hero-overlay h1 { font-size: 1.6rem; }
 }
+
+/* ➡️ MODIFICADO: Regla para móviles (max-width: 680px) */
 @media (max-width:680px){
     /* Ajuste para pantallas pequeñas */
-    .card{flex: 0 0 140px;}
-    /* ➡️ MODIFICADO: Altura reducida a 170px para móvil */
-    .card img{height:170px;} 
+    .card{
+        /* En la vista de cuadrícula (dynamicGrid) y búsqueda, las tarjetas se ajustan al grid */
+        flex: 1 1 auto; 
+    }
+    .card img{
+        /* Altura reducida a 170px para móvil en vista de cuadrícula */
+        height:170px;
+    } 
+
+    /* 🎯 CAMBIO CLAVE: En las vistas de Series/Películas, forzamos 3 columnas */
+    #dynamicGrid {
+        /* Fuerza 3 columnas de igual ancho para Series, Películas, Canales y Favoritos */
+        grid-template-columns: repeat(3, 1fr); 
+    }
+    
+    /* Ajuste para las tarjetas en el scroll horizontal, manteniendo el ancho fijo */
+    .horizontal-scroll .card {
+        flex: 0 0 140px; 
+    }
+}
+@media (max-width:480px){
+    /* Ajuste para pantallas aún más pequeñas (móviles muy pequeños) */
+    #dynamicGrid {
+        /* Permite que se adapten automáticamente si 3 es demasiado ancho (por ejemplo, 2 columnas) */
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); 
+    }
 }
 </style>
 </head>
@@ -466,7 +491,7 @@ main{
   <div id="searchView">
     <div id="searchHeader">
         <i class="fas fa-arrow-left" id="backFromSearch"></i>
-        <input type="text" id="searchInput" placeholder="Buscar contenido...">
+        <input type="text" id="searchInput" placeholder="Buscar contenido, género...">
     </div>
     <h2 id="searchResultsTitle"></h2>
     <div id="searchResultsGrid">
@@ -910,7 +935,7 @@ function renderCurrentTab(){
         showView('searchView');
         searchInput.focus();
         searchResultsGrid.innerHTML = '';
-        searchResultsTitle.textContent = "Empieza a escribir para buscar...";
+        searchResultsTitle.textContent = "Empieza a escribir para buscar (título o género)...";
         document.getElementById('backFromSearch').style.display = 'block'; 
         return;
     }
@@ -963,13 +988,14 @@ searchInput.addEventListener('input', () => {
     searchResultsGrid.innerHTML = '';
     
     if (query.length < 2) {
-        searchResultsTitle.textContent = "Empieza a escribir para buscar...";
+        searchResultsTitle.textContent = "Empieza a escribir para buscar (título o género)...";
         return;
     }
     
+    // MODIFICADO: Ahora el filtro es más robusto y busca en el género
     const filtered = allContent.filter(item => 
         item.title.toLowerCase().includes(query) ||
-        (item.genre && item.genre.join(' ').toLowerCase().includes(query)) ||
+        (item.genre && item.genre.some(g => g.toLowerCase().includes(query))) || // Busca si *algún* género coincide con la query
         (item.description && item.description.toLowerCase().includes(query))
     );
 
@@ -1091,3 +1117,4 @@ document.addEventListener('DOMContentLoaded',async()=>{
 
 </body>
 </html>
+
