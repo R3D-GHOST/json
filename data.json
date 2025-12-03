@@ -1,5 +1,108 @@
 [
 
+{
+  "title": "SEAL Team",
+  "description": "El equipo Bravo, una unidad de élite de los Navy SEAL, enfrenta misiones de alto riesgo en todo el mundo mientras lidian con los desafíos personales y emocionales derivados de su exigente vida militar.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS62mO__Ln7iEL398f45HuRD2HjD1ddxKctyolA7pGZIw&s=10",
+  "genre": ["Acción", "Militar", "Drama", "Suspenso"],
+  "episodes": [
+    { "episode": 1,  "title": "Episode 1",  "video_url": "https://archive.org/download/94-1_20210929/1x1%20Seal%20Team.mp4" },
+    { "episode": 2,  "title": "Episode 2",  "video_url": "https://archive.org/download/94-1_20210929/1x2%20Seal%20Team.mp4" },
+    { "episode": 3,  "title": "Episode 3",  "video_url": "https://archive.org/download/94-1_20210929/1x3%20Seal%20Team.mp4" },
+    { "episode": 4,  "title": "Episode 4",  "video_url": "https://archive.org/download/94-1_20210929/1x4%20Seal%20Team.mp4" },
+    { "episode": 5,  "title": "Episode 5",  "video_url": "https://archive.org/download/94-1_20210929/1x5%20Seal%20Team.mp4" },
+    { "episode": 6,  "title": "Episode 6",  "video_url": "https://archive.org/download/94-1_20210929/1x6%20Seal%20Team.mp4" },
+    { "episode": 7,  "title": "Episode 7",  "video_url": "https://archive.org/download/94-1_20210929/1x7%20Seal%20Team.mp4" },
+    { "episode": 8,  "title": "Episode 8",  "video_url": "https://archive.org/download/94-1_20210929/1x8%20Seal%20Team.mp4" },
+    { "episode": 9,  "title": "Episode 9",  "video_url": "https://archive.org/download/94-1_20210929/1x9%20Seal%20Team.mp4" },
+    { "episode": 10, "title": "Episode 10", "video_url": "https://archive.org/download/94-1_20210929/1x10%20Seal%20Team.mp4" },
+    { "episode": 11, "title": "Episode 11", "video_url": "https://archive.org/download/94-1_20210929/1x11%20Seal%20Team.mp4" },
+    { "episode": 12, "title": "Episode 12", "video_url": "https://archive.org/download/94-1_20210929/1x12%20Seal%20Team.mp4" },
+    { "episode": 13, "title": "Episode 13", "video_url": "https://archive.org/download/94-1_20210929/1x13%20Seal%20Team.mp4" },
+    { "episode": 14, "title": "Episode 14", "video_url": "https://archive.org/download/94-1_20210929/1x14%20Seal%20Team.mp4" },
+    { "episode": 15, "title": "Episode 15", "video_url": "https://archive.org/download/94-1_20210929/1x15%20Seal%20Team.mp4" },
+    { "episode": 16, "title": "Episode 16", "video_url": "https://archive.org/download/94-1_20210929/1x16%20Seal%20Team.mp4" },
+    { "episode": 17, "title": "Episode 17", "video_url": "https://archive.org/download/94-1_20210929/1x17%20Seal%20Team.mp4" },
+    { "episode": 18, "title": "Episode 18", "video_url": "https://archive.org/download/94-1_20210929/1x18%20Seal%20Team.mp4" },
+    { "episode": 19, "title": "Episode 19", "video_url": "https://archive.org/download/94-1_20210929/1x19%20Seal%20Team.mp4" },
+    { "episode": 20, "title": "Episode 20", "video_url": "https://archive.org/download/94-1_20210929/1x20%20Seal%20Team.mp4" },
+    { "episode": 21, "title": "Episode 21", "video_url": "https://archive.org/download/94-1_20210929/1x21%20Seal%20Team.mp4" },
+    { "episode": 22, "title": "Episode 22", "video_url": "https://archive.org/download/94-1_20210929/1x22%20Seal%20Team.mp4" }
+  ]
+},
+
+
+
+  
+{
+  "title": "Record of Ragnarok",
+  "description": "La humanidad enfrenta su posible extinción cuando los dioses deciden su destino. Trece humanos destacados deberán combatir a trece dioses en un torneo a muerte para decidir si la humanidad merece seguir existiendo.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREbu0azph4T0U4BPVCet8HtTmLDQUzL9rJYiYZnhn74A&s=10",
+  "genre": ["Acción", "Fantasía", "Mitología", "Seinen"],
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "Ragnarok",
+      "video_url": "https://archive.org/download/11-como-dentro-de-un-abismo-latino-anime-lbk-720p-sd/01%20-%20Ragnarok%20%5BLatino%5D%20%5BAnimeLBK%5D%20%5B720p-SD%5D.mp4"
+    },
+    {
+      "episode": 2,
+      "title": "Un Contrincante Digno",
+      "video_url": "https://archive.org/download/11-como-dentro-de-un-abismo-latino-anime-lbk-720p-sd/02%20-%20Un%20Contrincante%20Digno%20%5BLatino%5D%20%5BAnimeLBK%5D%20%5B720p-SD%5D.mp4"
+    },
+    {
+      "episode": 3,
+      "title": "Movimiento Letal",
+      "video_url": "https://archive.org/download/11-como-dentro-de-un-abismo-latino-anime-lbk-720p-sd/03%20-%20Movimiento%20letal%20%5BLatino%5D%20%5BAnimeLBK%5D%20%5B720p-SD%5D.mp4"
+    },
+    {
+      "episode": 4,
+      "title": "Dicha",
+      "video_url": "https://archive.org/download/11-como-dentro-de-un-abismo-latino-anime-lbk-720p-sd/04%20-%20Dicha%20%5BLatino%5D%20%5BAnimeLBK%5D%20%5B720p-SD%5D.mp4"
+    },
+    {
+      "episode": 5,
+      "title": "El Número 0000000001",
+      "video_url": "https://archive.org/download/11-como-dentro-de-un-abismo-latino-anime-lbk-720p-sd/05%20-%20El%20N%C3%BAmero%2000000000001%20%5BLatino%5D%20%5BAnimeLBK%5D%20%5B720p-SD%5D.mp4"
+    },
+    {
+      "episode": 6,
+      "title": "El Gran Emulador",
+      "video_url": "https://archive.org/download/11-como-dentro-de-un-abismo-latino-anime-lbk-720p-sd/06%20-%20El%20Gran%20Emulador%20%5BLatino%5D%20%5BAnimeLBK%5D%20%5B720p-SD%5D.mp4"
+    },
+    {
+      "episode": 7,
+      "title": "Expulsado del Paraíso",
+      "video_url": "https://archive.org/download/11-como-dentro-de-un-abismo-latino-anime-lbk-720p-sd/07%20-%20Expulsado%20del%20Para%C3%ADso%20%5BLatino%5D%20%5BAnimeLBK%5D%20%5B720p-SD%5D.mp4"
+    },
+    {
+      "episode": 8,
+      "title": "Gracia Abundante",
+      "video_url": "https://archive.org/download/11-como-dentro-de-un-abismo-latino-anime-lbk-720p-sd/08%20-%20Gracia%20Abundante%20%5BLatino%5D%20%5BAnimeLBK%5D%20%5B720p-SD%5D.mp4"
+    },
+    {
+      "episode": 9,
+      "title": "El Tirano de los Océanos",
+      "video_url": "https://archive.org/download/11-como-dentro-de-un-abismo-latino-anime-lbk-720p-sd/09%20-%20El%20Tirano%20de%20los%20Oc%C3%A9anos%20%5BLatino%5D%20%5BAnimeLBK%5D%20%5B720p-SD%5D.mp4"
+    },
+    {
+      "episode": 10,
+      "title": "El Mayor Perdedor",
+      "video_url": "https://archive.org/download/11-como-dentro-de-un-abismo-latino-anime-lbk-720p-sd/10%20-%20El%20Mayor%20Perdedor%20%5BLatino%5D%20%5BAnimeLBK%5D%20%5B720p-SD%5D.mp4"
+    },
+    {
+      "episode": 11,
+      "title": "Como Dentro de un Abismo",
+      "video_url": "https://archive.org/download/11-como-dentro-de-un-abismo-latino-anime-lbk-720p-sd/11%20-%20Como%20Dentro%20de%20un%20Abismo%20%5BLatino%5D%20%5BAnimeLBK%5D%20%5B720p-SD%5D.mp4"
+    },
+    {
+      "episode": 12,
+      "title": "Y Ragnarok Seguirá Luchando",
+      "video_url": "https://archive.org/download/11-como-dentro-de-un-abismo-latino-anime-lbk-720p-sd/12%20-%20Y%20Ragnarok%20Seguir%C3%A1%20Luchando%20%5BLatino%5D%20%5BAnimeLBK%5D%20%5B720p-SD%5D.mp4"
+    }
+  ]
+},
+  
   {
     "title": "Paranormal Activity (2009)",
     "description": "Un joven matrimonio comienza a ser acechado por una presencia oscura en su casa, lo que desatará una espiral de terror a través de grabaciones caseras.",
@@ -22,40 +125,7 @@
     "video_url": "https://archive.org/download/wendy-2020_202012/Paranormal%20Activity%20Tokyo%20Night%20%282010%29.mp4"
   },
 
-  {
-  "title": "Seal Team",
-  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS62mO__Ln7iEL398f45HuRD2HjD1ddxKctyolA7pGZIw&s=10",
-  "description": "un drama militar que sigue las misiones de alto riesgo y las vidas personales y profesionales de un equipo de élite de Navy SEALs",
-    "genre": [
-      "Drama",
-      "Accion",
-      "Militar"
-    ],
-    "episodes": [
-    { "ep": 1, "url": "https://archive.org/download/94-1_20210929/1x1%20Seal%20Team.mp4" },
-    { "ep": 2, "url": "https://archive.org/download/94-1_20210929/1x2%20Seal%20Team.mp4" },
-    { "ep": 3, "url": "https://archive.org/download/94-1_20210929/1x3%20Seal%20Team.mp4" },
-    { "ep": 4, "url": "https://archive.org/download/94-1_20210929/1x4%20Seal%20Team.mp4" },
-    { "ep": 5, "url": "https://archive.org/download/94-1_20210929/1x5%20Seal%20Team.mp4" },
-    { "ep": 6, "url": "https://archive.org/download/94-1_20210929/1x6%20Seal%20Team.mp4" },
-    { "ep": 7, "url": "https://archive.org/download/94-1_20210929/1x7%20Seal%20Team.mp4" },
-    { "ep": 8, "url": "https://archive.org/download/94-1_20210929/1x8%20Seal%20Team.mp4" },
-    { "ep": 9, "url": "https://archive.org/download/94-1_20210929/1x9%20Seal%20Team.mp4" },
-    { "ep": 10, "url": "https://archive.org/download/94-1_20210929/1x10%20Seal%20Team.mp4" },
-    { "ep": 11, "url": "https://archive.org/download/94-1_20210929/1x11%20Seal%20Team.mp4" },
-    { "ep": 12, "url": "https://archive.org/download/94-1_20210929/1x12%20Seal%20Team.mp4" },
-    { "ep": 13, "url": "https://archive.org/download/94-1_20210929/1x13%20Seal%20Team.mp4" },
-    { "ep": 14, "url": "https://archive.org/download/94-1_20210929/1x14%20Seal%20Team.mp4" },
-    { "ep": 15, "url": "https://archive.org/download/94-1_20210929/1x15%20Seal%20Team.mp4" },
-    { "ep": 16, "url": "https://archive.org/download/94-1_20210929/1x16%20Seal%20Team.mp4" },
-    { "ep": 17, "url": "https://archive.org/download/94-1_20210929/1x17%20Seal%20Team.mp4" },
-    { "ep": 18, "url": "https://archive.org/download/94-1_20210929/1x18%20Seal%20Team.mp4" },
-    { "ep": 19, "url": "https://archive.org/download/94-1_20210929/1x19%20Seal%20Team.mp4" },
-    { "ep": 20, "url": "https://archive.org/download/94-1_20210929/1x20%20Seal%20Team.mp4" },
-    { "ep": 21, "url": "https://archive.org/download/94-1_20210929/1x21%20Seal%20Team.mp4" },
-    { "ep": 22, "url": "https://archive.org/download/94-1_20210929/1x22%20Seal%20Team.mp4" }
-  ]
-  },
+
 
   {
     "title": "Bad Boys for Life",
