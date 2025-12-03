@@ -1,6 +1,35 @@
 [
 
   {
+  "title": "Seal Team - Temporada 1",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS62mO__Ln7iEL398f45HuRD2HjD1ddxKctyolA7pGZIw&s=10",
+  "episodes": [
+    { "ep": 1, "url": "https://archive.org/download/94-1_20210929/1x1%20Seal%20Team.mp4" },
+    { "ep": 2, "url": "https://archive.org/download/94-1_20210929/1x2%20Seal%20Team.mp4" },
+    { "ep": 3, "url": "https://archive.org/download/94-1_20210929/1x3%20Seal%20Team.mp4" },
+    { "ep": 4, "url": "https://archive.org/download/94-1_20210929/1x4%20Seal%20Team.mp4" },
+    { "ep": 5, "url": "https://archive.org/download/94-1_20210929/1x5%20Seal%20Team.mp4" },
+    { "ep": 6, "url": "https://archive.org/download/94-1_20210929/1x6%20Seal%20Team.mp4" },
+    { "ep": 7, "url": "https://archive.org/download/94-1_20210929/1x7%20Seal%20Team.mp4" },
+    { "ep": 8, "url": "https://archive.org/download/94-1_20210929/1x8%20Seal%20Team.mp4" },
+    { "ep": 9, "url": "https://archive.org/download/94-1_20210929/1x9%20Seal%20Team.mp4" },
+    { "ep": 10, "url": "https://archive.org/download/94-1_20210929/1x10%20Seal%20Team.mp4" },
+    { "ep": 11, "url": "https://archive.org/download/94-1_20210929/1x11%20Seal%20Team.mp4" },
+    { "ep": 12, "url": "https://archive.org/download/94-1_20210929/1x12%20Seal%20Team.mp4" },
+    { "ep": 13, "url": "https://archive.org/download/94-1_20210929/1x13%20Seal%20Team.mp4" },
+    { "ep": 14, "url": "https://archive.org/download/94-1_20210929/1x14%20Seal%20Team.mp4" },
+    { "ep": 15, "url": "https://archive.org/download/94-1_20210929/1x15%20Seal%20Team.mp4" },
+    { "ep": 16, "url": "https://archive.org/download/94-1_20210929/1x16%20Seal%20Team.mp4" },
+    { "ep": 17, "url": "https://archive.org/download/94-1_20210929/1x17%20Seal%20Team.mp4" },
+    { "ep": 18, "url": "https://archive.org/download/94-1_20210929/1x18%20Seal%20Team.mp4" },
+    { "ep": 19, "url": "https://archive.org/download/94-1_20210929/1x19%20Seal%20Team.mp4" },
+    { "ep": 20, "url": "https://archive.org/download/94-1_20210929/1x20%20Seal%20Team.mp4" },
+    { "ep": 21, "url": "https://archive.org/download/94-1_20210929/1x21%20Seal%20Team.mp4" },
+    { "ep": 22, "url": "https://archive.org/download/94-1_20210929/1x22%20Seal%20Team.mp4" }
+  ]
+  },
+
+  {
     "title": "Bad Boys for Life",
     "description": "Los detectives Mike Lowrey y Marcus Burnett vuelven a unirse para enfrentar una amenaza letal: una mafia mexicana que busca vengarse de Mike por antiguos asuntos. Marcus, a punto de retirarse, debe poner fin a su plan de jubilación.",
     "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp5LuWF3D_Lr7-8fM5kWKhLaq8-1aQz3LM05woFmXwxQ&s=10",
