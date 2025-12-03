@@ -1,6 +1,134 @@
 [
 
 
+{
+  "title": "Angry Birds",
+  "description": "Adaptación del popular videojuego donde las aves enfrentan a los traviesos cerditos.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT14DaPUf5DOH2uBFOjre-4hf8rB556rmpOJQNYDdfuEw&s=10",
+  "video_url": "https://archive.org/download/lluvia-de-hamburguesas-2_202306/ANGRY%20BIRDS%201.mp4",
+  "genre": ["Animación", "Comedia", "Familiar"]
+},
+{
+  "title": "Angry Birds 2",
+  "description": "Los pájaros y los puercos enemigos deben unir fuerzas para enfrentar un nuevo peligro.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKxoVeLL4KBDee-WBsQKsGZovREC7vDuRp2EnG6dotcg&s=10",
+  "video_url": "https://archive.org/download/lluvia-de-hamburguesas-2_202306/ANGRY%20BIRDS%202.mp4",
+  "genre": ["Animación", "Comedia", "Familiar"]
+},
+{
+  "title": "Bambi",
+  "description": "Un clásico animado que narra la vida del pequeño cervatillo Bambi en el bosque.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKAy89Db7vgX9RYWlSupeCwBoRDPhwi9MktDQPxsEXbg&s=10",
+  "video_url": "https://archive.org/download/lluvia-de-hamburguesas-2_202306/BAMBI%201.mp4",
+  "genre": ["Animación", "Aventura", "Familiar"]
+},
+{
+  "title": "Barbie en el Cascanueces",
+  "description": "Barbie revive la clásica historia del Cascanueces en un mundo mágico.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcVRCVHEBBkRuVJ2e2wx_h4CoxCRp9Id4_tcCUEG0aww&s=10",
+  "video_url": "https://archive.org/download/lluvia-de-hamburguesas-2_202306/BARBIE%20CASCANUECES.mp4",
+  "genre": ["Animación", "Fantasía", "Familiar"]
+},
+{
+  "title": "Barbie en Busca de Perritos",
+  "description": "Barbie y sus hermanas emprenden una aventura para encontrar a sus perritos perdidos.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw17twu9bWRo1lr1A3pwUew972R15ZOkbGaSpzNaQ4fQ&s=10",
+  "video_url": "https://archive.org/download/lluvia-de-hamburguesas-2_202306/BARBIE%20EN%20BUSCA%20DE%20PERRITOS.mp4",
+  "genre": ["Animación", "Aventura", "Familiar"]
+},
+{
+  "title": "Barbie Escuela de Princesas",
+  "description": "Barbie asiste a una escuela encantada donde deberá descubrir su verdadero lugar.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTapyQvMVGsAH_muEoAdZ3BvugdpCPCcimY1aIDq5NxOQ&s",
+  "video_url": "https://archive.org/download/lluvia-de-hamburguesas-2_202306/BARBIE%20ESCUELA%20DE%20PRINCESAS.mp4",
+  "genre": ["Animación", "Fantasía", "Familiar"]
+},
+{
+  "title": "Barbie: La Princesa y la Plebeya",
+  "description": "Barbie interpreta dos papeles en esta historia musical llena de magia.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-FI6Y9WBaDYVtS4ONtQShY6Rb9-i08Qv1bDdUW1QLwA&s=10",
+  "video_url": "https://archive.org/download/lluvia-de-hamburguesas-2_202306/BARBIE%20LA%20PRINCESA%20Y%20LA%20PLEBEYA.mp4",
+  "genre": ["Animación", "Musical", "Familiar"]
+},
+{
+  "title": "Barbie: La Princesa de las Islas",
+  "description": "Barbie vive una aventura en una isla mágica llena de criaturas fantásticas.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmxrhCw2JltX8UBCrzWSoz48mXvjCXJ52GEk6JqQIeBg&s=10",
+  "video_url": "https://archive.org/download/lluvia-de-hamburguesas-2_202306/BARBIE%20PRINCESA%20DE%20LAS%20ISLAS.mp4",
+  "genre": ["Animación", "Fantasía", "Familiar"]
+},
+{
+  "title": "Barbie Pulgarcita",
+  "description": "Barbie interpreta a una pequeña pulgarcita en una aventura encantada.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi4gNq01idnJQ4tp0ygtK5Gxtj1yYkW3095iU49X9XfA&s=10",
+  "video_url": "https://archive.org/download/lluvia-de-hamburguesas-2_202306/BARBIE%20PULGARCITA.mp4",
+  "genre": ["Animación", "Fantasía", "Familiar"]
+},
+{
+  "title": "Barbie: El Secreto de las Hadas",
+  "description": "Barbie se adentra en un mundo mágico de hadas para salvar a su amiga.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM4Uxp_-ScsFQcgERV0apMRiHWLYtnn4BGQVQK35Gg2A&s=10",
+  "video_url": "https://archive.org/download/lluvia-de-hamburguesas-2_202306/BARBIE%20SECRETO%20DE%20LAS%20HADAS.mp4",
+  "genre": ["Animación", "Fantasía", "Familiar"]
+},
+{
+  "title": "Barbie y las Tres Mosqueteras",
+  "description": "Barbie vive una aventura inspirada en los clásicos mosqueteros.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxGUWy-pEh8jnxwG9Gv-VToWKUs--HIAcSv7J7wtTiFw&s=10",
+  "video_url": "https://archive.org/download/lluvia-de-hamburguesas-2_202306/BARBIE%20TRES%20MOSQUETERAS.mp4",
+  "genre": ["Animación", "Aventura", "Familiar"]
+},
+{
+  "title": "Barbie: Una Aventura Espacial",
+  "description": "Barbie viaja al espacio en una misión para salvar el universo.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfhQz_PaYA5uDI-hkWAbzzz04sNnxal5Iw__5Q5P_qUg&s=10",
+  "video_url": "https://archive.org/download/lluvia-de-hamburguesas-2_202306/BARBIE%20UN%20AVENTURA%20ESPACIAL.mp4",
+  "genre": ["Animación", "Ciencia ficción", "Familiar"]
+},
+{
+  "title": "Barbie: Una Aventura de Caballos",
+  "description": "Barbie vive una historia acompañada de caballos y hermosos paisajes.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQkH1Tdpht1xUAYr8pcTxoq97PfOhUb5l49zM0Z4u7ow&s=10",
+  "video_url": "https://archive.org/download/lluvia-de-hamburguesas-2_202306/BARBIE%20UNA%20AVENTURA%20DE%20CABALLOS.mp4",
+  "genre": ["Animación", "Aventura", "Familiar"]
+},
+{
+  "title": "Bichos",
+  "description": "Una pequeña hormiga se embarca en una misión para salvar a su colonia.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSggvbPppOetg3LR4lsKADj5N3CpFgufZOSP_5HjdzROQ&s=10",
+  "video_url": "https://archive.org/download/lluvia-de-hamburguesas-2_202306/BICHOS.mp4",
+  "genre": ["Animación", "Aventura", "Familiar"]
+},
+{
+  "title": "Buscando a Dory",
+  "description": "Dory emprende un viaje para encontrar a su familia.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYNUujfniW9XdXtLw-6rpY-fZtzb5z6f77CnrxrXUkNQ&s=10",
+  "video_url": "https://archive.org/download/lluvia-de-hamburguesas-2_202306/BUSCANDO%20A%20DORY.mp4",
+  "genre": ["Animación", "Aventura", "Familiar"]
+},
+{
+  "title": "Buscando a Nemo",
+  "description": "Marlin atraviesa el océano para rescatar a su hijo Nemo.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtyquViCtBwxonRrEm7NoGEZOFP7CSZ8Ewm-wuij2e1A&s=10",
+  "video_url": "https://archive.org/download/lluvia-de-hamburguesas-2_202306/BUSCANDO%20A%20NEMO.mp4",
+  "genre": ["Animación", "Aventura", "Familiar"]
+},
+{
+  "title": "Los Increíbles 2",
+  "description": "La familia de superhéroes vuelve a la acción enfrentando nuevas amenazas.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIZDRGDpti4Iy7-LxG2QfxJzprJ3MkYFGQV7uTzWy9IA&s=10",
+  "video_url": "https://archive.org/download/lluvia-de-hamburguesas-2_202306/LOS%20INCREIBLES%202.mp4",
+  "genre": ["Animación", "Acción", "Familiar"]
+},
+{
+  "title": "Ratatouille",
+  "description": "Remy es una rata con un sueño: convertirse en chef en París.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZRPYCl3i_kI76LFMuHSK-G_tjhJyust3wo_PHJc6pKQ&s=10",
+  "video_url": "https://archive.org/download/lluvia-de-hamburguesas-2_202306/RATATOIULLE.mp4",
+  "genre": ["Animación", "Comedia", "Familiar"]
+},
+
+  
   {
     "title": "El Padrino (1972)",
     "description": "La historia del ascenso y declive de la familia Corleone, una de las mafias más poderosas de Nueva York.",
