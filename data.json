@@ -1,5 +1,154 @@
 [
 
+
+  {
+    "title": "El Padrino (1972)",
+    "description": "La historia del ascenso y declive de la familia Corleone, una de las mafias más poderosas de Nueva York.",
+    "genre": ["Crimen", "Drama"],
+    "coverImage": "https://imgs.search.brave.com/tNxWk_96eVsZMYYKnLoTNl9xpFpJJb16O_dfhAJailA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMud2lraWEubm9j/b29raWUubmV0L2Vs/cGFkcmlub3ltYXMv/aW1hZ2VzL2EvYWQv/RWxfUGFkcmlub19O/b3ZlbGFfUG9ydGFk/YV9JbmdsJUMzJUE5/cy5wbmcvcmV2aXNp/b24vbGF0ZXN0L3Nj/YWxlLXRvLXdpZHRo/LWRvd24vMjY4P2Ni/PTIwMjMwOTA0MDc0/NjQ2JnBhdGgtcHJl/Zml4PWVz",
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/EL%20PADRINO%201%20%281972%29%20%E2%9C%94.mp4"
+  },
+  {
+    "title": "El Padrino 2 (1974)",
+    "description": "Continuación de la historia de los Corleone, mostrando paralelamente el ascenso de Vito y el liderazgo de Michael.",
+    "genre": ["Crimen", "Drama"],
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6U-a1xCOBw_kn2JEj8VcpHf1A2xX7BB5YLw&s",
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/EL%20PADRINO%202%20%281974%29%20%E2%9C%94.mp4"
+  },
+  {
+    "title": "El Padrino 3 (1990)",
+    "description": "Michael Corleone intenta legitimar el negocio familiar mientras viejos enemigos vuelven a amenazarlo.",
+    "genre": ["Crimen", "Drama"],
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNEt572Lj0kLN7Ba3aLm6ICshNLWDOc9GhYw&s",
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/EL%20PADRINO%203%20%281990%29%20%E2%9C%94.mp4"
+  },
+  {
+    "title": "La Momia (1999)",
+    "description": "Un grupo de exploradores despierta por error a un antiguo sacerdote egipcio que desata el caos.",
+    "genre": ["Aventura", "Acción", "Fantasía"],
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWpsQWpPyQUE7Aw-Y7lyLrxXJ6ekOY_m0pJA&s",
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/LA%20MOMIA%201%20%281999%29%20%E2%9C%94.mp4"
+  },
+  {
+    "title": "La Momia Regresa (2001)",
+    "description": "Imhotep vuelve más poderoso que nunca, y una nueva amenaza despierta para destruir el mundo.",
+    "genre": ["Aventura", "Acción", "Fantasía"],
+    "coverImage": "https://pics.filmaffinity.com/the_mummy_returns-633071656-large.jpg",
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/LA%20MOMIA%202%20%282001%29%20%E2%9C%94.mp4"
+  },
+  {
+    "title": "La Momia 3: La Tumba del Emperador Dragón (2008)",
+    "description": "Una nueva momia, esta vez un emperador chino maldito, revive para conquistar el mundo.",
+    "genre": ["Aventura", "Acción", "Fantasía"],
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe5DSmmJLnDhe0fgVsBwfoiSfYS1dctWGfgg&s",
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/LA%20MOMIA%203%20%282008%29%20%E2%9C%94.mp4"
+  },
+  {
+    "title": "Los Juegos del Hambre (2012)",
+    "description": "Katniss Everdeen se convierte en símbolo de esperanza tras sobrevivir a un mortal torneo televisado.",
+    "genre": ["Acción", "Aventura", "Ciencia Ficción"],
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKjdXb1jCOv5fKJliZ_obQ3DJH-wPXD3q6ng&s",
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/LOS%20JUEGOS%20DEL%20HAMBRE%201%20%282012%29%20%E2%9C%94.mp4"
+  },
+  {
+    "title": "Los Juegos del Hambre: En Llamas (2013)",
+    "description": "Katniss vuelve a la arena mientras una rebelión comienza a despertar.",
+    "genre": ["Acción", "Aventura", "Ciencia Ficción"],
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRGZEobGYnB8l9aoSD2jgwKQO0wqO-EK0jPA&s",
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/LOS%20JUEGOS%20DEL%20HAMBRE%202%20%282013%29%20%E2%9C%94.ia.mp4"
+  },
+  {
+    "title": "Los Juegos del Hambre: Sinsajo Parte 1 (2014)",
+    "description": "Katniss se convierte oficialmente en el Sinsajo, símbolo de la rebelión contra el Capitolio.",
+    "genre": ["Acción", "Drama", "Ciencia Ficción"],
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBNT4e-TSKFEcWnGAaNhhViR1O1hOEKoFX4w&s",
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/LOS%20JUEGOS%20DEL%20HAMBRE%203%20SINJAJO%20PRT%201%20%282014%29%20%E2%9C%94.ia.mp4"
+  },
+  {
+    "title": "Los Juegos del Hambre: Sinsajo Parte 2 (2015)",
+    "description": "La guerra final entre los distritos y el Capitolio llega a su momento decisivo.",
+    "genre": ["Acción", "Drama", "Ciencia Ficción"],
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZzzUGqyweoXClCPpW45EqV1kTmNsIdpXlRQ&s",
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/LOS%20JUEGOS%20DEL%20HAMBRE%204%20SINJAJO%20PRT%202%20%282015%29%20%E2%9C%94.ia.mp4"
+  },
+  {
+    "title": "Mad Max (1979)",
+    "description": "Un policía lucha por sobrevivir en un mundo al borde del colapso.",
+    "genre": ["Acción", "Ciencia Ficción"],
+    "coverImage": "https://exorcine.wordpress.com/wp-content/uploads/2015/04/mad-max-1.jpg",
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/MAD%20MAX%201%20%281979%29%20%E2%9C%94.mp4"
+  },
+  {
+    "title": "Mad Max 2 (1981)",
+    "description": "Max se convierte en protector de una comunidad perseguida por saqueadores.",
+    "genre": ["Acción", "Ciencia Ficción"],
+    "coverImage": "https://play-lh.googleusercontent.com/ux-QwSoB9EsXCorZpfgGaGenr4XMSTBgU6JwhRWAzdQNkiE1xFdAZUc0fB3XaxmYO0awCQ",
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/MAD%20MAX%202%20%281981%29%20%E2%9C%94.ia.mp4"
+  },
+  {
+    "title": "Mad Max 3 (1985)",
+    "description": "Max llega a una ciudad donde deberá participar en un mortal combate para sobrevivir.",
+    "genre": ["Acción", "Ciencia Ficción"],
+    "coverImage": "https://play-lh.googleusercontent.com/-MHzRqQpazDkVBTpjBhJCXQl4fyFLB3_UE9_7soU3ltxFDpzwF90JlC0SLRCG7VCYZ-L",
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/MAD%20MAX%203%20%281985%29%20%E2%9C%94.mp4"
+  },
+  {
+    "title": "Mad Max: Fury Road (2015)",
+    "description": "Max y Furiosa huyen a través del desierto mientras un tirano los persigue sin descanso.",
+    "genre": ["Acción", "Ciencia Ficción"],
+    "coverImage": "https://sm.ign.com/ign_latam/movie/m/mad-max-4-/mad-max-4-fury-road_haqy.jpg",
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/MAD%20MAX%204%20%282015%29%20%20%E2%9C%94.mp4"
+  },
+  {
+    "title": "Padre No Hay Más Que Uno (2019)",
+    "description": "Un padre debe aprender a manejar solo a sus hijos cuando su esposa decide tomarse unas vacaciones.",
+    "genre": ["Comedia", "Familiar"],
+    "coverImage": "https://www.premiosgoya.com/wp-content/uploads/2019/11/system/uploads/feature_film/poster/1269/PNHMQU_CARTEL_SIN_VODAFONE-320x457.jpg",
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/PADRE%20NO%20HAY%20M%C3%81S%20QEU%20UNO%20%282019%29.mp4"
+  },
+  {
+    "title": "Padre No Hay Más Que Uno 2 (2020)",
+    "description": "La familia enfrenta nuevos desafíos con la llegada inesperada de la suegra.",
+    "genre": ["Comedia", "Familiar"],
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt-uwVN8JQum1hgfYHHQVxqMIMacoHTNSaKA&s",
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/PADRE%20NO%20HAY%20M%C3%81S%20QUE%20UNO%20%202%20La%20llegada%20de%20la%20suegra%20%282020%29.mp4"
+  },
+  {
+    "title": "Padre No Hay Más Que Uno 3 (2022)",
+    "description": "En Navidad, la familia vive nuevos enredos mientras preparan las fiestas.",
+    "genre": ["Comedia", "Familiar"],
+    "coverImage": "https://pics.filmaffinity.com/Padre_no_hay_maas_que_uno_3-748034108-large.jpg",
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/PADRE%20NO%20HAY%20M%C3%81S%20QUE%20UNO%203%20%282022%29.mp4"
+  },
+  {
+    "title": "Rambo (1982)",
+    "description": "Un veterano de guerra es perseguido por la policía local, desatando una violenta batalla.",
+    "genre": ["Acción", "Guerra"],
+    "coverImage": "https://www.mubis.es/media/covers/2304/5044/rambo-acorralado-portada-l_cover.jpg",
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/RAMBO%201%20%281982%29%20%E2%9C%94.mp4"
+  },
+  {
+    "title": "Rambo 2 (1985)",
+    "description": "Rambo es enviado de vuelta a Vietnam para rescatar a prisioneros americanos.",
+    "genre": ["Acción", "Guerra"],
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-kcKzb1yXs27seyWBIaAMQqoJazizaz9slQ&s",
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/RAMBO%202%20%281985%29%20%E2%9C%94.mp4"
+  },
+  {
+    "title": "Rambo 3 (1988)",
+    "description": "Rambo viaja a Afganistán para rescatar a su coronel secuestrado por fuerzas soviéticas.",
+    "genre": ["Acción", "Guerra"],
+    "coverImage": "https://es.web.img3.acsta.net/medias/nmedia/18/79/16/35/20148228.jpg",
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/RAMBO%203%20%281988%29%20%E2%9C%94.mp4"
+  },
+  {
+    "title": "Rambo 4 (2008)",
+    "description": "Rambo regresa para ayudar a un grupo de misioneros capturados en Birmania.",
+    "genre": ["Acción", "Guerra"],
+    "coverImage": "https://m.media-amazon.com/images/M/MV5BOTBhZTFmOTktYjc2ZS00ZjZjLTk5ODItOWJmN2Y0YzNhNGUzXkEyXkFqcGc@._V1_.jpg",
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/RAMBO%204%20%282008%29%20%E2%9C%94.mp4"
+  },
+  
 {
   "title": "SEAL Team",
   "description": "El equipo Bravo, una unidad de élite de los Navy SEAL, enfrenta misiones de alto riesgo en todo el mundo mientras lidian con los desafíos personales y emocionales derivados de su exigente vida militar.",
