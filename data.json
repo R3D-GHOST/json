@@ -1,9 +1,15 @@
 [
 
   {
-  "title": "Seal Team - Temporada 1",
+  "title": "Seal Team",
   "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS62mO__Ln7iEL398f45HuRD2HjD1ddxKctyolA7pGZIw&s=10",
-  "episodes": [
+  "description": "un drama militar que sigue las misiones de alto riesgo y las vidas personales y profesionales de un equipo de élite de Navy SEALs",
+    "genre": [
+      "Drama",
+      "Accion",
+      "Militar"
+    ],
+    "episodes": [
     { "ep": 1, "url": "https://archive.org/download/94-1_20210929/1x1%20Seal%20Team.mp4" },
     { "ep": 2, "url": "https://archive.org/download/94-1_20210929/1x2%20Seal%20Team.mp4" },
     { "ep": 3, "url": "https://archive.org/download/94-1_20210929/1x3%20Seal%20Team.mp4" },
