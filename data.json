@@ -1,6 +1,24 @@
 [
 
-
+{
+  "title": "Demon Slayer: Kimetsu no Yaiba Temporada 3",
+  "description": "Tanjiro viaja a la Aldea de los Herreros para reparar su nichirin mientras demonios de alto rango atacan el poblado. Él, Nezuko y nuevos aliados luchan contra amenazas devastadoras.",
+  "coverImage": "https://es.web.img2.acsta.net/pictures/23/04/06/09/18/0802333.jpg",
+  "genre": ["Acción", "Aventura", "Fantasía oscura", "Shonen"],
+  "episodes": [
+    { "episode": 1,  "title": "Episode 1",  "video_url": "https://archive.org/download/4-5965484096950901571/4_5965484096950901571.mp4" },
+    { "episode": 2,  "title": "Episode 2",  "video_url": "https://archive.org/download/4-5965484096950901571/4_5965484096950901572.mp4" },
+    { "episode": 3,  "title": "Episode 3",  "video_url": "https://archive.org/download/4-5965484096950901571/4_5965484096950901573.mp4" },
+    { "episode": 4,  "title": "Episode 4",  "video_url": "https://archive.org/download/4-5965484096950901571/4_5965484096950901574.mp4" },
+    { "episode": 5,  "title": "Episode 5",  "video_url": "https://archive.org/download/4-5965484096950901571/4_5965484096950901575.mp4" },
+    { "episode": 6,  "title": "Episode 6",  "video_url": "https://archive.org/download/4-5965484096950901571/4_5965484096950901576.mp4" },
+    { "episode": 7,  "title": "Episode 7",  "video_url": "https://archive.org/download/4-5965484096950901571/4_5965484096950901577.mp4" },
+    { "episode": 8,  "title": "Episode 8",  "video_url": "https://archive.org/download/4-5965484096950901571/4_5965484096950901578.mp4" },
+    { "episode": 9,  "title": "Episode 9",  "video_url": "https://archive.org/download/4-5965484096950901571/4_5965484096950901579.mp4" },
+    { "episode": 10, "title": "Episode 10", "video_url": "https://archive.org/download/4-5965484096950901571/4_5965484096950901580.mp4" },
+    { "episode": 11, "title": "Episode 11", "video_url": "https://archive.org/download/4-5965484096950901571/4_5965484096950901581.mp4" }
+  ]
+},
   
   {
   "title": "Demon Slayer: Kimetsu no Yaiba Temporada 2",
