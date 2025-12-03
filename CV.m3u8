@@ -1,29 +1,4 @@
 
-
-
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwXD4l9RP0onZYqHdZLg-0F-cZIoIEcUsm4nXabGBuKw&s=10", TNT SPORT PREMIUM 
-http://177.234.230.206:8011/play/a00w/index.m3u8
-
-
-
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzavT0bpxMWw6ewriQNih7EDEjgYLd4GbK6pkJr0NSvQ&s=10", ESPN Premiun
-http://177.234.230.206:8011/play/a0fh/index.m3u8
-
-
-
-
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCO1_nxZd8wyTFhRf2UuVqJEhmIVrK4oeougiPCaxpuw&s=10", Comedi Central
-http://177.234.230.206:8011/play/a09j/index.m3u8
-
-
-
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROEKJAdVd3ToQnXFj6cGvaE5vOLFmSMEB0I7ylDIqVtg&s=10", ESPN
-http://177.234.230.206:8011/play/a0fe/index.m3u8
-
-
-
-
-
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjlYe25dv_PGDWk_yjy5azN3PcaSthztq20wFh1N1ksw&s=10", DAZN 2
 http://172.93.102.112:8989/278824_.m3u8
@@ -31,8 +6,6 @@ http://172.93.102.112:8989/278824_.m3u8
 
 
 
-#EXTINF:-1 tvg-id="ESBC43000013T" tvg-name="ESBC43000013T" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC43000013T_20241106T142336SQUARE.png" group-title="Telenovela" , Todo Novelas
-https://jmp2.uk/stvp-ESBC43000013T
 
 
 
@@ -56,10 +29,6 @@ http://104.238.222.251:8989/278826_.m3u8
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bein-sports-xtra-en-espanol/playlist.m3u8
 
 
-
-
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT08JRnww3Nj5Z4tGNIaVjnpCbxRpZDR3MuQ41b6JIfcg&s" group-title="Deportes", M La Liga
-http://172.93.102.112:8989/278844_.m3u8
 
 
 
