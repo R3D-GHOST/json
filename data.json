@@ -1,6 +1,28 @@
 [
 
   {
+    "title": "Paranormal Activity (2009)",
+    "description": "Un joven matrimonio comienza a ser acechado por una presencia oscura en su casa, lo que desatará una espiral de terror a través de grabaciones caseras.",
+    "genre": ["Terror", "Suspenso", "Sobrenatural"],
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEoPBZrG8J8V8KdPjI31WcI0nU_-MlM_lY9fjIluNZag&s=10",
+    "video_url": "https://archive.org/download/wendy-2020_202012/Paranormal%20Activity%20%282009%29.mp4"
+  },
+  {
+    "title": "Paranormal Activity: Los Señalados (2014)",
+    "description": "Una nueva familia investiga extraños fenómenos tras mudarse a una casa antigua, desatando terrores ocultos.",
+    "genre": ["Terror", "Suspenso", "Sobrenatural"],
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4SVUQ4vRftn5jKDZUH5GaVPaJ1yd-bcEMBjkHjwWP6Q&s=10",
+    "video_url": "https://archive.org/download/wendy-2020_202012/Paranormal%20Activity%20Los%20sen%CC%83alados%20%282014%29.mp4"
+  },
+  {
+    "title": "Paranormal Activity: Tokyo Night (2010)",
+    "description": "Después de un suceso traumático, una joven visita Tokio buscando ayuda, pero lo que la espera es un horror aún más profundo.",
+    "genre": ["Terror", "Suspenso", "Sobrenatural"],
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSP7_YPDveXSVzOeS8AP9B1ZYvh1WXHClppZ0V59JEoBNTFcBOAmWnQC8A&s=10",
+    "video_url": "https://archive.org/download/wendy-2020_202012/Paranormal%20Activity%20Tokyo%20Night%20%282010%29.mp4"
+  },
+
+  {
   "title": "Seal Team",
   "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS62mO__Ln7iEL398f45HuRD2HjD1ddxKctyolA7pGZIw&s=10",
   "description": "un drama militar que sigue las misiones de alto riesgo y las vidas personales y profesionales de un equipo de élite de Navy SEALs",
