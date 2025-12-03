@@ -1,5 +1,61 @@
 [
 
+  {
+    "title": "Bad Boys for Life",
+    "description": "Los detectives Mike Lowrey y Marcus Burnett vuelven a unirse para enfrentar una amenaza letal: una mafia mexicana que busca vengarse de Mike por antiguos asuntos. Marcus, a punto de retirarse, debe poner fin a su plan de jubilación.",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp5LuWF3D_Lr7-8fM5kWKhLaq8-1aQz3LM05woFmXwxQ&s=10",
+    "genre": [
+      "Acción",
+      "Comedia",
+      "Crimen"
+    ],
+    "video_url": "https://archive.org/download/pack-5_202008/Bad%20Boys%20for%20life.ia.mp4"
+  },
+  {
+    "title": "Titanic",
+    "description": "Un joven artista de clase baja llamado Jack y una joven de la aristocracia llamada Rose se enamoran a bordo del lujoso e 'insumergible' transatlántico RMS Titanic durante su fatídico primer viaje en 1912.",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQndt1jUop1AHOz0C8nOUIvwbvm7IVN4h5SPmKc3dK0ng&s=10",
+    "genre": [
+      "Drama",
+      "Romance",
+      "Histórica"
+    ],
+    "video_url": "https://archive.org/download/pack-5_202008/Titanic.ia.mp4"
+  },
+  {
+    "title": "Los Goonies",
+    "description": "Un grupo de niños inadaptados se embarca en una aventura para encontrar el tesoro perdido de un legendario pirata, el 'Tuerto' Willy, con el fin de salvar sus hogares del desahucio.",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3u7ccWntri4E8uNxcLiEsfBEWcWjSXjMEHdW2-iO5Cw&s=10",
+    "genre": [
+      "Aventura",
+      "Familiar",
+      "Comedia"
+    ],
+    "video_url": "https://archive.org/download/pack-5_202008/Los%20Goonies.MP4"
+  },
+  {
+    "title": "Solo En Casa (Home Alone)",
+    "description": "El joven Kevin McCallister debe defender su casa de dos torpes ladrones después de que su familia lo olvida accidentalmente en casa al irse de vacaciones de Navidad.",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzOh0cqzd1q8gq_F7JBdUiHzFlHL5ldbvWqnnqG-KP6A&s=10",
+    "genre": [
+      "Comedia",
+      "Familiar",
+      "Navidad"
+    ],
+    "video_url": "https://archive.org/download/pack-5_202008/Solo%20En%20Casa.mp4"
+  },
+  {
+    "title": "Sonic: La Película",
+    "description": "El erizo azul superrápido Sonic se une a un sheriff de un pueblo pequeño para detener al malvado Dr. Robotnik, quien está tratando de capturarlo y usar sus poderes para dominar el mundo.",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKZ1PQj_et8rumxiToDagaCA2j6Vszk-DSiOfVkB70Bg&s=10",
+    "genre": [
+      "Acción",
+      "Comedia",
+      "Ciencia Ficción"
+    ],
+    "video_url": "https://archive.org/download/pack-5_202008/Sonic.mp4"
+  },
+
   
 {
   "title": "Demon Slayer: Kimetsu no Yaiba Temporada 3",
