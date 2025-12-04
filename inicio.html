@@ -45,7 +45,8 @@
         main{ 
             position: absolute; 
             top: 0; left: 0; right: 0; bottom: 0; 
-            padding-bottom: var(--nav-height); 
+            /* ** AJUSTE **: ELIMINAR EL PADDING INFERIOR EXCESIVO DEL MAIN */
+            padding-bottom: 0; 
             overflow: hidden; 
         } 
         /* Vistas con scroll interno */
@@ -56,7 +57,8 @@
             overflow-y: auto; 
             overflow-x: hidden; 
             position: relative; 
-            padding-bottom: var(--nav-height); 
+            /* ** AJUSTE **: MANTENER ESPACIO PARA EL MENÚ INFERIOR */
+            padding-bottom: calc(var(--nav-height) + 10px); 
             scroll-behavior: smooth; 
         } 
 
@@ -83,7 +85,8 @@
         } 
         /* 🎬 SECCIONES DE CONTENIDO */
         #mainView { padding-top: 0; transition: opacity 0.3s ease-out; } 
-        .content-section { padding: 15px 0 25px 0; margin-bottom: 5px; } 
+        /* ** AJUSTE **: REDUCIR MARGEN INFERIOR DE LAS SECCIONES DEL HOME */
+        .content-section { padding: 15px 0 5px 0; margin-bottom: 0px; } 
         .section-title { font-size: 1.6rem; font-weight: 700; padding: 0 3vw; margin-bottom: 10px; border-left: 4px solid var(--accent); padding-left: 14px; } 
         /* SLIDER DE SCROLL HORIZONTAL (Este es el que SÍ se mueve) */
         .horizontal-scroll { 
@@ -522,16 +525,19 @@
                 let current = null; channels=[]; 
                 for(const lineRaw of lines){ 
                     const line = lineRaw.trim(); 
-                    if(!line) continue; 
+                    if(!line.startsWith('#') && line.length > 0 && line.includes('://')) { // Simplificar la detección de URL
+                        if (current) {
+                            current.video_url = line;
+                            channels.push(current);
+                        }
+                        current = null;
+                        continue;
+                    }
                     if(line.startsWith('#EXTINF:')){ 
                         const logo = (line.match(/tvg-logo="([^"]*)"/)||[])[1]||null; 
                         const name = (line.match(/,(.*)$/)||[])[1]?.trim()||'Canal'; 
                         const coverImage = logo || 'https://via.placeholder.com/140x200?text=TV'; 
                         current = {id:name,title:name,coverImage,logo,type:'channel',isChannel:true, video_url:'', genre: ['En Vivo', 'Canal']}; 
-                    } else if(!line.startsWith('#') && current){ 
-                        current.video_url = line; 
-                        channels.push(current); 
-                        current=null; 
                     } 
                 } 
             } catch(e){ 
@@ -606,21 +612,23 @@
                     content.appendChild(heroElement); 
                 } 
             } 
+            
+            // ** LISTA DE SECCIONES ACTUALIZADA **
             const sections = [ 
                 { title: ' Canales en Vivo', list: channels.slice(0, 10) }, 
-                { title: ' Acción', genre: 'Acción', listType: 'all' }, 
-                { title: ' Animación', genre: 'Animación', listType: 'all' }, 
-                { title: ' Anime', genre: 'Anime', listType: 'all' }, 
-                { title: ' Terror y Thriller', genre: 'Terror', listType: 'all' }, 
+                { title: ' Infantil', genre: 'Infantil', listType: 'all' }, 
                 { title: ' Romance', genre: 'Romance', listType: 'all' }, 
                 { title: ' Misterio', genre: 'Misterio', listType: 'all' }, 
-                { title: ' Infantil', genre: 'Infantil', listType: 'all' }, 
+                { title: ' Documentales', genre: 'Documental', listType: 'all' }, 
+                { title: ' Anime', genre: 'Anime', listType: 'all' }, 
             ]; 
+
             sections.forEach((section) => { 
                 let list = section.list; 
                 if (section.genre) { 
                     let source = allContent; 
-                    list = source.filter(a => a.genre && a.genre.some(g => g === section.genre)).slice(0, 10); 
+                    // Aseguramos que haya contenido para mostrar antes de crear la sección
+                    list = source.filter(a => a.genre && a.genre.some(g => g === section.genre)).sort(() => 0.5 - Math.random()).slice(0, 10); 
                 } 
                 if (list && list.length > 0) { 
                     const sectionDiv = document.createElement('div'); 
@@ -667,7 +675,7 @@
                 return;
             }
 
-            // *** CAMBIO CLAVE: Eliminar el setTimeout para que la carga sea instantánea ***
+            // Eliminar el setTimeout para que la carga sea instantánea
             const fragment = document.createDocumentFragment();
             itemsToLoad.forEach(item => {
                 fragment.appendChild(createCardHTML(item));
@@ -739,7 +747,10 @@
         function renderCurrentTab(){ 
             document.getElementById('backFromSearch').style.display = 'none'; 
             bottomNavItems.forEach(b => b.classList.remove('active')); 
-            document.querySelector(`.nav-item[data-tab="${currentTab}"]`).classList.add('active'); 
+            const activeNavButton = document.querySelector(`.nav-item[data-tab="${currentTab}"]`);
+            if (activeNavButton) {
+                activeNavButton.classList.add('active'); 
+            }
 
             if (currentTab === 'search') { 
                 showView('searchView'); 
@@ -750,6 +761,7 @@
             } 
             
             showView('mainView'); 
+            // Esto asegura que al volver de un detalle o cambiar de pestaña, estemos arriba del todo
             mainView.scrollTo({top: 0, behavior: 'smooth'}); 
 
             if(currentTab === 'home'){ 
@@ -797,6 +809,22 @@
         } 
         searchInput.addEventListener('input', handleSearchInput); 
 
+        // ** FUNCIÓN CLAVE PARA VOLVER AL DETALLE TRAS REPRODUCIR **
+        function closeDetailAndUpdate() {
+            // Solo actualizamos y mostramos el detalle si todavía tenemos un item seleccionado
+            if (currentItem) {
+                detailView.style.display='none'; 
+                detailBackground.classList.remove('show');
+                // Reabrimos el detalle para actualizar el botón "Continuar Viendo"
+                openDetail(currentItem);
+            } else {
+                // Si por alguna razón perdemos el item, volvemos al inicio seguro.
+                detailView.style.display='none'; 
+                detailBackground.classList.remove('show');
+                renderCurrentTab();
+            }
+        }
+
         // ----------------------------
         // --- Lógica de Detalle ---
         function openDetail(item){ 
@@ -826,6 +854,7 @@
             reproduceBtn.style.display = 'none'; 
             episodesSection.style.display = 'block'; 
             const isSeries = item.episodes && item.episodes.length > 0; 
+
             if(isSeries){ 
                 let lastWatchedIndex = getLastWatchedEpisodeIndex(seriesId); 
                 let nextEpisodeIndex = lastWatchedIndex !== undefined ? lastWatchedIndex + 1 : 0; 
@@ -845,20 +874,24 @@
                 } else { 
                     reproduceBtn.innerHTML = `<i class="fas fa-play"></i> Ver Ahora (Cap. 1)`; 
                 } 
+                // Función de reproducción para el botón principal "Continuar Viendo"
                 reproduceBtn.onclick = () => { 
                     const episodeElement = episodesListContainer.children[indexToPlayOnButton]; 
                     if(episodeElement) { 
                         const scrollPos = episodeElement.offsetLeft - episodesListContainer.clientWidth / 2 + episodeElement.clientWidth / 2; 
                         episodesListContainer.scrollTo({ left: scrollPos, behavior: 'smooth' }); 
+                        // Simular clic en el elemento del episodio
                         setTimeout(() => episodeElement.click(), 500); 
                     } else { 
                         console.error("No se encontró el elemento del episodio para reproducir."); 
                         if (item.episodes[0]) { 
                             window.open(item.episodes[0].video_url, '_blank'); 
-                            setTimeout(() => renderCurrentTab(), 2000); 
+                            // ** VUELVE AL DETALLE Y ACTUALIZA (Serie principal) **
+                            setTimeout(closeDetailAndUpdate, 2000); 
                         } 
                     } 
                 }; 
+                
                 item.episodes.forEach((ep,i)=>{ 
                     const episodeIndex = i; 
                     const isWatched = isEpisodeWatched(seriesId, episodeIndex); 
@@ -883,16 +916,14 @@
                         getLastWatchedEpisodeIndex(seriesId, episodeIndex); 
                         episodeItem.classList.add('active'); 
                         saveWatchedEpisode(seriesId, episodeIndex); 
+                        // Aplicar clases de visto/activo directamente
+                        episodeItem.classList.remove('active'); // Se eliminará y se volverá a poner al recargar el detalle
                         episodeItem.classList.add('watched'); 
                         episodeItem.querySelector('.play-icon').className = 'fas fa-check-circle play-icon'; 
-                        const newNextIndex = episodeIndex + 1; 
-                        if (newNextIndex < item.episodes.length) { 
-                            reproduceBtn.innerHTML = `<i class="fas fa-forward"></i> Continuar viendo (Cap. ${newNextIndex + 1})`; 
-                        } else { 
-                            reproduceBtn.innerHTML = `<i class="fas fa-check"></i> Visto, Ver último (Cap. ${item.episodes.length})`; 
-                        } 
+                        
                         window.open(ep.video_url, '_blank'); 
-                        setTimeout(() => renderCurrentTab(), 2000); 
+                        // ** VUELVE AL DETALLE Y ACTUALIZA (Episodio) **
+                        setTimeout(closeDetailAndUpdate, 2000); 
                     }; 
                     episodesListContainer.appendChild(episodeItem); 
                     if(isActive && episodesListContainer.children.length > 0) { 
@@ -909,7 +940,8 @@
                 reproduceBtn.innerHTML = `<i class="fas fa-play"></i> ${item.isChannel ? 'Ver Canal en Vivo' : 'Reproducir Ahora'}`; 
                 reproduceBtn.onclick = () => { 
                     window.open(item.video_url, '_blank'); 
-                    setTimeout(() => renderCurrentTab(), 2000); 
+                    // ** VUELVE AL DETALLE Y ACTUALIZA (Película/Canal) **
+                    setTimeout(closeDetailAndUpdate, 2000); 
                 }; 
             } else { 
                 episodesSection.style.display = 'none'; 
@@ -932,9 +964,11 @@
             } 
         } 
 
+        // Acción de "Volver" Manual del Detalle (vuelve a la vista principal de la pestaña)
         backBtn.onclick=()=>{ 
             detailView.style.display='none'; 
             detailBackground.classList.remove('show'); 
+            currentItem = null; // Limpiar el item actual para que la recarga de home sea limpia
             renderCurrentTab(); 
         }; 
 
@@ -946,3 +980,4 @@
     </script>
 </body>
 </html>
+
