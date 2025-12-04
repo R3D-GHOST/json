@@ -1,5 +1,45 @@
 [
 
+{
+  "title": "Zorro: Generación Z",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_-nEOxsoMPlxrvUmo1JPitX_e_eMcXkZny0Kn7j_Teg&s=10",
+  "description": "Diego de la Vega, un adolescente en la futurista ciudad de Los Ángeles del siglo XXI, asume la identidad de Zorro para luchar contra la tiranía del malvado Alcalde Martínez.",
+  "genre": [
+    "Animación",
+    "Acción",
+    "Aventura"
+  ],
+  "episodes": [
+    { "episode": 1, "title": "Una nueva generación: Parte I", "video_url": "https://archive.org/download/zorro-generacion-z-los-recien-llegados-episode-25-480-p/Zorro_%20Generaci%C3%B3n%20Z%20-%20Una%20nueva%20generaci%C3%B3n_%20Parte%20I%20-%20Episode%201%28480P%29.ia.mp4" },
+    { "episode": 2, "title": "Una nueva generación: Parte II", "video_url": "https://archive.org/download/zorro-generacion-z-los-recien-llegados-episode-25-480-p/Zorro_%20Generaci%C3%B3n%20Z%20-%20Una%20nueva%20generaci%C3%B3n_%20Parte%20II%20-%20Episode%202%28480P%29.ia.mp4" },
+    { "episode": 3, "title": "Los cuatro temibles", "video_url": "https://archive.org/download/zorro-generacion-z-los-recien-llegados-episode-25-480-p/Zorro_%20Generaci%C3%B3n%20Z%20-%20Los%20cuatro%20temibles%20-%20Episode%203%28480P%29.ia.mp4" },
+    { "episode": 4, "title": "Los pecados del padre", "video_url": "https://archive.org/download/zorro-generacion-z-los-recien-llegados-episode-25-480-p/Zorro_%20Generaci%C3%B3n%20Z%20-%20Los%20pecados%20del%20padre%20-%20Episode%204%28480P%29.ia.mp4" },
+    { "episode": 5, "title": "Alcalde por un día", "video_url": "https://archive.org/download/zorro-generacion-z-los-recien-llegados-episode-25-480-p/Zorro_%20Generaci%C3%B3n%20Z%20-%20Alcalde%20por%20un%20d%C3%ADa%20-%20Episode%205%28480P%29.mp4" },
+    { "episode": 6, "title": "Se busca héroe a media jornada", "video_url": "https://archive.org/download/zorro-generacion-z-los-recien-llegados-episode-25-480-p/Zorro_%20Generaci%C3%B3n%20Z%20-%20Se%20busca%20h%C3%A9roe%20a%20media%20jornada%20%20-%20Episode%206%28480P%29.ia.mp4" },
+    { "episode": 7, "title": "La caza perfecta del Zorro", "video_url": "https://archive.org/download/zorro-generacion-z-los-recien-llegados-episode-25-480-p/Zorro_%20Generaci%C3%B3n%20Z%20-%20La%20caza%20perfecta%20del%20Zorro%20-%20Episode%207%28480P%29.ia.mp4" },
+    { "episode": 8, "title": "Una oferta hostil", "video_url": "https://archive.org/download/zorro-generacion-z-los-recien-llegados-episode-25-480-p/Zorro_%20Generaci%C3%B3n%20Z%20-%20Una%20oferta%20hostil%20%20-%20Episode%208%28480P%29.ia.mp4" },
+    { "episode": 9, "title": "El metro", "video_url": "https://archive.org/download/zorro-generacion-z-los-recien-llegados-episode-25-480-p/Zorro_%20Generaci%C3%B3n%20Z%20-%20El%20metro%20%20-%20Episode%209%28480P%29.mp4" },
+    { "episode": 10, "title": "El baile de disfraces", "video_url": "https://archive.org/download/zorro-generacion-z-los-recien-llegados-episode-25-480-p/Zorro_%20Generaci%C3%B3n%20Z%20-%20El%20baile%20de%20disfraces%20%20-%20Episode%2010%28480P%29.mp4" },
+    { "episode": 11, "title": "Doble cita", "video_url": "https://archive.org/download/zorro-generacion-z-los-recien-llegados-episode-25-480-p/Zorro_%20Generaci%C3%B3n%20Z%20-%20Doble%20cita%20%20-%20Episode%2011%28480P%29.mp4" },
+    { "episode": 12, "title": "El viejo espíritu de la escuela", "video_url": "https://archive.org/download/zorro-generacion-z-los-recien-llegados-episode-25-480-p/Zorro_%20Generaci%C3%B3n%20Z%20-%20El%20viejo%20esp%C3%ADritu%20de%20la%20escuela%20%20-%20Episode%2012%28480P%29.ia.mp4" },
+    { "episode": 13, "title": "Don Payaso", "video_url": "https://archive.org/download/zorro-generacion-z-los-recien-llegados-episode-25-480-p/Zorro_%20Generaci%C3%B3n%20Z%20-%20Don%20Payaso%20%20-%20Episode%2013%28480P%29.ia.mp4" },
+    { "episode": 14, "title": "La máquina de los terremotos", "video_url": "https://archive.org/download/zorro-generacion-z-los-recien-llegados-episode-25-480-p/Zorro_%20Generaci%C3%B3n%20Z%20-%20La%20m%C3%A1quina%20de%20los%20terremotos%20%20-%20Episode%2014%28480P%29.ia.mp4" },
+    { "episode": 15, "title": "Una Z en el tiempo", "video_url": "https://archive.org/download/zorro-generacion-z-los-recien-llegados-episode-25-480-p/Zorro_%20Generaci%C3%B3n%20Z%20-%20Una%20Z%20en%20el%20tiempo%20%20-%20Episode%2015%28480P%29.ia.mp4" },
+    { "episode": 16, "title": "Aplastar o ser aplastado", "video_url": "https://archive.org/download/zorro-generacion-z-los-recien-llegados-episode-25-480-p/Zorro_%20Generaci%C3%B3n%20Z%20-%20Aplastar%20o%20ser%20aplastado%20%20-%20Episode%2016%28480P%29.mp4" },
+    { "episode": 17, "title": "El Zorro herido", "video_url": "https://archive.org/download/zorro-generacion-z-los-recien-llegados-episode-25-480-p/Zorro_%20Generaci%C3%B3n%20Z%20-%20El%20Zorro%20herido%20%20-%20Episode%2017%28480P%29.mp4" },
+    { "episode": 18, "title": "Persona non grata", "video_url": "https://archive.org/download/zorro-generacion-z-los-recien-llegados-episode-25-480-p/Zorro_%20Generaci%C3%B3n%20Z%20-%20Persona%20non%20grata%20%20-%20Episode%2018%28480P%29.mp4" },
+    { "episode": 19, "title": "El primo de Diego", "video_url": "https://archive.org/download/zorro-generacion-z-los-recien-llegados-episode-25-480-p/Zorro_%20Generaci%C3%B3n%20Z%20-%20El%20primo%20de%20Diego%20%20-%20Episode%2019%28480P%29.mp4" },
+    { "episode": 20, "title": "Ola criminal", "video_url": "https://archive.org/download/zorro-generacion-z-los-recien-llegados-episode-25-480-p/Zorro_%20Generaci%C3%B3n%20Z%20-%20Ola%20criminal%20%20-%20Episode%2020%28480P%29.mp4" },
+    { "episode": 21, "title": "El virus Z", "video_url": "https://archive.org/download/zorro-generacion-z-los-recien-llegados-episode-25-480-p/Zorro_%20Generaci%C3%B3n%20Z%20-%20El%20virus%20Z%20%20-%20Episode%2021%28480P%29.ia.mp4" },
+    { "episode": 22, "title": "Loco por ti", "video_url": "https://archive.org/download/zorro-generacion-z-los-recien-llegados-episode-25-480-p/Zorro_%20Generaci%C3%B3n%20Z%20-%20Loco%20por%20ti%20-%20Episode%2022%28480P%29.ia.mp4" },
+    { "episode": 23, "title": "El rival", "video_url": "https://archive.org/download/zorro-generacion-z-los-recien-llegados-episode-25-480-p/Zorro_%20Generaci%C3%B3n%20Z%20-%20El%20rival%20%20-%20Episode%2023%28480P%29.mp4" },
+    { "episode": 24, "title": "El dragón dorado", "video_url": "https://archive.org/download/zorro-generacion-z-los-recien-llegados-episode-25-480-p/Zorro_%20Generaci%C3%B3n%20Z%20-%20El%20drag%C3%B3n%20dorado%20%20-%20Episode%2024%28480P%29.mp4" },
+    { "episode": 25, "title": "Los recién llegados", "video_url": "https://archive.org/download/zorro-generacion-z-los-recien-llegados-episode-25-480-p/Zorro_%20Generaci%C3%B3n%20Z%20-%20Los%20reci%C3%A9n%20llegados%20-%20Episode%2025%28480P%29.ia.mp4" },
+    { "episode": 26, "title": "Golpe electoral", "video_url": "https://archive.org/download/zorro-generacion-z-los-recien-llegados-episode-25-480-p/Zorro_%20Generaci%C3%B3n%20Z%20-%20Golpe%20electoral%20%20-%20Episode%2026%28480P%29.ia.mp4" }
+  ]
+},
+
+  
   {
   "title": "Hazbin Hotel Temporada 2",
   "description": "La continuación de las aventuras en el Hotel Hazbin, donde Charlie y sus amigos siguen tratando de redimir a los demonios del Infierno mientras nuevas amenazas aparecen.",
@@ -61,148 +101,6 @@
   ]
 },
 
-{
-  "title": "Zorro: Generación Z",
-  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_-nEOxsoMPlxrvUmo1JPitX_e_eMcXkZny0Kn7j_Teg&s=10",
-  "description": "Diego de la Vega, un adolescente en la futurista ciudad de Los Ángeles del siglo XXI, asume la identidad de Zorro para luchar contra la tiranía del malvado Alcalde Martínez.",
-    "genre": [
-      "Animación",
-      "Acción",
-      "Aventura"
-    ],
-    "episodes": [
-    { 
-        "ep": 1, 
-        "title": "Una nueva generación: Parte I", 
-        "url": "https://archive.org/download/zorro-generacion-z-los-recien-llegados-episode-25-480-p/Zorro_%20Generaci%C3%B3n%20Z%20-%20Una%20nueva%20generaci%C3%B3n_%20Parte%20I%20-%20Episode%201%28480P%29.ia.mp4" 
-    },
-    { 
-        "ep": 2, 
-        "title": "Una nueva generación: Parte II", 
-        "url": "https://archive.org/download/zorro-generacion-z-los-recien-llegados-episode-25-480-p/Zorro_%20Generaci%C3%B3n%20Z%20-%20Una%20nueva%20generaci%C3%B3n_%20Parte%20II%20-%20Episode%202%28480P%29.ia.mp4" 
-    },
-    { 
-        "ep": 3, 
-        "title": "Los cuatro temibles", 
-        "url": "https://archive.org/download/zorro-generacion-z-los-recien-llegados-episode-25-480-p/Zorro_%20Generaci%C3%B3n%20Z%20-%20Los%20cuatro%20temibles%20-%20Episode%203%28480P%29.ia.mp4" 
-    },
-    { 
-        "ep": 4, 
-        "title": "Los pecados del padre", 
-        "url": "https://archive.org/download/zorro-generacion-z-los-recien-llegados-episode-25-480-p/Zorro_%20Generaci%C3%B3n%20Z%20-%20Los%20pecados%20del%20padre%20-%20Episode%204%28480P%29.ia.mp4" 
-    },
-    { 
-        "ep": 5, 
-        "title": "Alcalde por un día", 
-        "url": "https://archive.org/download/zorro-generacion-z-los-recien-llegados-episode-25-480-p/Zorro_%20Generaci%C3%B3n%20Z%20-%20Alcalde%20por%20un%20d%C3%ADa%20-%20Episode%205%28480P%29.mp4" 
-    },
-    { 
-        "ep": 6, 
-        "title": "Se busca héroe a media jornada", 
-        "url": "https://archive.org/download/zorro-generacion-z-los-recien-llegados-episode-25-480-p/Zorro_%20Generaci%C3%B3n%20Z%20-%20Se%20busca%20h%C3%A9roe%20a%20media%20jornada%20%20-%20Episode%206%28480P%29.ia.mp4" 
-    },
-    { 
-        "ep": 7, 
-        "title": "La caza perfecta del Zorro", 
-        "url": "https://archive.org/download/zorro-generacion-z-los-recien-llegados-episode-25-480-p/Zorro_%20Generaci%C3%B3n%20Z%20-%20La%20caza%20perfecta%20del%20Zorro%20-%20Episode%207%28480P%29.ia.mp4" 
-    },
-    { 
-        "ep": 8, 
-        "title": "Una oferta hostil", 
-        "url": "https://archive.org/download/zorro-generacion-z-los-recien-llegados-episode-25-480-p/Zorro_%20Generaci%C3%B3n%20Z%20-%20Una%20oferta%20hostil%20%20-%20Episode%208%28480P%29.ia.mp4" 
-    },
-    { 
-        "ep": 9, 
-        "title": "El metro", 
-        "url": "https://archive.org/download/zorro-generacion-z-los-recien-llegados-episode-25-480-p/Zorro_%20Generaci%C3%B3n%20Z%20-%20El%20metro%20%20-%20Episode%209%28480P%29.mp4" 
-    },
-    { 
-        "ep": 10, 
-        "title": "El baile de disfraces", 
-        "url": "https://archive.org/download/zorro-generacion-z-los-recien-llegados-episode-25-480-p/Zorro_%20Generaci%C3%B3n%20Z%20-%20El%20baile%20de%20disfraces%20%20-%20Episode%2010%28480P%29.mp4" 
-    },
-    { 
-        "ep": 11, 
-        "title": "Doble cita", 
-        "url": "https://archive.org/download/zorro-generacion-z-los-recien-llegados-episode-25-480-p/Zorro_%20Generaci%C3%B3n%20Z%20-%20Doble%20cita%20%20-%20Episode%2011%28480P%29.mp4" 
-    },
-    { 
-        "ep": 12, 
-        "title": "El viejo espíritu de la escuela", 
-        "url": "https://archive.org/download/zorro-generacion-z-los-recien-llegados-episode-25-480-p/Zorro_%20Generaci%C3%B3n%20Z%20-%20El%20viejo%20esp%C3%ADritu%20de%20la%20escuela%20%20-%20Episode%2012%28480P%29.ia.mp4" 
-    },
-    { 
-        "ep": 13, 
-        "title": "Don Payaso", 
-        "url": "https://archive.org/download/zorro-generacion-z-los-recien-llegados-episode-25-480-p/Zorro_%20Generaci%C3%B3n%20Z%20-%20Don%20Payaso%20%20-%20Episode%2013%28480P%29.ia.mp4" 
-    },
-    { 
-        "ep": 14, 
-        "title": "La máquina de los terremotos", 
-        "url": "https://archive.org/download/zorro-generacion-z-los-recien-llegados-episode-25-480-p/Zorro_%20Generaci%C3%B3n%20Z%20-%20La%20m%C3%A1quina%20de%20los%20terremotos%20%20-%20Episode%2014%28480P%29.ia.mp4" 
-    },
-    { 
-        "ep": 15, 
-        "title": "Una Z en el tiempo", 
-        "url": "https://archive.org/download/zorro-generacion-z-los-recien-llegados-episode-25-480-p/Zorro_%20Generaci%C3%B3n%20Z%20-%20Una%20Z%20en%20el%20tiempo%20%20-%20Episode%2015%28480P%29.ia.mp4" 
-    },
-    { 
-        "ep": 16, 
-        "title": "Aplastar o ser aplastado", 
-        "url": "https://archive.org/download/zorro-generacion-z-los-recien-llegados-episode-25-480-p/Zorro_%20Generaci%C3%B3n%20Z%20-%20Aplastar%20o%20ser%20aplastado%20%20-%20Episode%2016%28480P%29.mp4" 
-    },
-    { 
-        "ep": 17, 
-        "title": "El Zorro herido", 
-        "url": "https://archive.org/download/zorro-generacion-z-los-recien-llegados-episode-25-480-p/Zorro_%20Generaci%C3%B3n%20Z%20-%20El%20Zorro%20herido%20%20-%20Episode%2017%28480P%29.mp4" 
-    },
-    { 
-        "ep": 18, 
-        "title": "Persona non grata", 
-        "url": "https://archive.org/download/zorro-generacion-z-los-recien-llegados-episode-25-480-p/Zorro_%20Generaci%C3%B3n%20Z%20-%20Persona%20non%20grata%20%20-%20Episode%2018%28480P%29.mp4" 
-    },
-    { 
-        "ep": 19, 
-        "title": "El primo de Diego", 
-        "url": "https://archive.org/download/zorro-generacion-z-los-recien-llegados-episode-25-480-p/Zorro_%20Generaci%C3%B3n%20Z%20-%20El%20primo%20de%20Diego%20%20-%20Episode%2019%28480P%29.mp4" 
-    },
-    { 
-        "ep": 20, 
-        "title": "Ola criminal", 
-        "url": "https://archive.org/download/zorro-generacion-z-los-recien-llegados-episode-25-480-p/Zorro_%20Generaci%C3%B3n%20Z%20-%20Ola%20criminal%20%20-%20Episode%2020%28480P%29.mp4" 
-    },
-    { 
-        "ep": 21, 
-        "title": "El virus Z", 
-        "url": "https://archive.org/download/zorro-generacion-z-los-recien-llegados-episode-25-480-p/Zorro_%20Generaci%C3%B3n%20Z%20-%20El%20virus%20Z%20%20-%20Episode%2021%28480P%29.ia.mp4" 
-    },
-    { 
-        "ep": 22, 
-        "title": "Loco por ti", 
-        "url": "https://archive.org/download/zorro-generacion-z-los-recien-llegados-episode-25-480-p/Zorro_%20Generaci%C3%B3n%20Z%20-%20Loco%20por%20ti%20-%20Episode%2022%28480P%29.ia.mp4" 
-    },
-    { 
-        "ep": 23, 
-        "title": "El rival", 
-        "url": "https://archive.org/download/zorro-generacion-z-los-recien-llegados-episode-25-480-p/Zorro_%20Generaci%C3%B3n%20Z%20-%20El%20rival%20%20-%20Episode%2023%28480P%29.mp4" 
-    },
-    { 
-        "ep": 24, 
-        "title": "El dragón dorado", 
-        "url": "https://archive.org/download/zorro-generacion-z-los-recien-llegados-episode-25-480-p/Zorro_%20Generaci%C3%B3n%20Z%20-%20El%20drag%C3%B3n%20dorado%20%20-%20Episode%2024%28480P%29.mp4" 
-    },
-    { 
-        "ep": 25, 
-        "title": "Los recién llegados", 
-        "url": "https://archive.org/download/zorro-generacion-z-los-recien-llegados-episode-25-480-p/Zorro_%20Generaci%C3%B3n%20Z%20-%20Los%20reci%C3%A9n%20llegados%20-%20Episode%2025%28480P%29.ia.mp4" 
-    },
-    { 
-        "ep": 26, 
-        "title": "Golpe electoral", 
-        "url": "https://archive.org/download/zorro-generacion-z-los-recien-llegados-episode-25-480-p/Zorro_%20Generaci%C3%B3n%20Z%20-%20Golpe%20electoral%20%20-%20Episode%2026%28480P%29.ia.mp4" 
-    }
-    ]
-},
   
 
 {
