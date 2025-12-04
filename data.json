@@ -1,5 +1,11 @@
 [
-
+{
+  "title": "My Hero Academia: Heroes Rising",
+  "description": "En esta película del universo de My Hero Academia, los estudiantes de UA deben proteger una isla donde habita un niño con un poder único, enfrentándose a un peligroso villano. Una mezcla de acción, amistad y heroísmo.",
+  "genre": ["Animación", "Acción", "Aventura", "Anime"],
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxTZt2GurIld7-ScqG1P6zBFJLY34jgQiPxM8p-VgRg5SZ4D2wPx7oi_ob&s=10",
+  "video_url": "https://archive.org/download/my-hero-academia-heroes-rising-latino-hd-5-bhenaojara.com-5-d.mp-4_202305/My_Hero_Academia_Heroes_Rising_Latino_HD_5Bhenaojara.com_5D.mp4.mp4"
+},
   {
   "title": "Fútbol Callejero Temporada 3",
   "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOj97mhgeGWmqRrqKE01yBJgRGvKrCWRwTfUsgTbWEBw&s=10",
