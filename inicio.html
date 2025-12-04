@@ -57,7 +57,6 @@
             overflow-x: hidden; 
             position: relative; 
             padding-bottom: var(--nav-height); 
-            /* ** CAMBIO CLAVE para el scroll infinito **: */
             scroll-behavior: smooth; 
         } 
 
@@ -90,7 +89,7 @@
         .horizontal-scroll { 
             display: flex; overflow-x: scroll; 
             padding: 10px 3vw; gap: 15px; -webkit-overflow-scrolling: touch; scroll-snap-type: x mandatory; 
-            scroll-behavior: smooth; /* Animación fluida en horizontal */
+            scroll-behavior: smooth; 
         } 
         .horizontal-scroll::-webkit-scrollbar { display: none; } 
         /* 🃏 Tarjeta (Card) - ANIMACIONES SUAVES MEJORADAS */
@@ -158,7 +157,6 @@
         /* Grid de resultados y paginación (Carga Infinita) */
         #dynamicGrid { 
             padding: 0 3vw; display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 10px; margin-bottom: 20px; margin-top: 20px; 
-            /* ** CAMBIO/ADICIÓN CLAVE para animación de carga ** */
             transition: opacity 0.5s ease-out;
         } 
 
@@ -169,7 +167,7 @@
             padding: 20px; 
             color: var(--muted);
             font-size: 1.1rem;
-            opacity: 0; /* Para la animación de entrada/salida */
+            opacity: 0; 
             transition: opacity 0.4s ease-in-out; 
         } 
         #loadingIndicator.show { 
@@ -239,7 +237,7 @@
             /* Convertir a scroll horizontal */
             display: flex; overflow-x: scroll; 
             padding: 10px 3vw; gap: 15px; padding-bottom: 10px; -webkit-overflow-scrolling: touch; scroll-snap-type: x mandatory; 
-            scroll-behavior: smooth; /* Animación fluida en horizontal */
+            scroll-behavior: smooth; 
         } 
         .episodes-list::-webkit-scrollbar { display: none; } 
         /* Aseguramos que el contenido principal del detalle se alinee con los capítulos */
@@ -486,7 +484,6 @@
                 favs.splice(index, 1); 
                 favoriteBtn.classList.remove('active'); 
                 if(currentTab === 'favorites') { 
-                    // Re-renderizar la cuadrícula de favoritos al eliminar
                     currentPage = 0; 
                     dynamicGrid.innerHTML = '';
                     loadMoreItems(getFavorites());
@@ -592,16 +589,15 @@
             card.className = 'card'; 
             card.innerHTML = `<img src="${cover}" alt="${item.title}" onerror="this.onerror=null;this.src='https://via.placeholder.com/140x200?text=Portada';"><div class="info"><h3>${item.title}</h3><span>${spanText}</span></div>`; 
             card.onclick = () => openDetail(item); 
-            setTimeout(() => card.classList.add('show'), Math.random() * 200 + 50); 
+            // Tiempo de espera reducido para una carga inicial más rápida de las tarjetas
+            setTimeout(() => card.classList.add('show'), Math.random() * 50); 
             return card; 
         } 
 
         function renderHomePage() { 
-            // 1. Limpiar la vista de Grid
             dynamicGrid.innerHTML = '';
             gridTitle.style.display = 'none';
 
-            // 2. Renderizar secciones estáticas (Héroe y Carruseles)
             content.innerHTML = ''; 
             const featuredItem = allContent[0]; 
             if (featuredItem) { 
@@ -642,24 +638,25 @@
             }); 
             content.classList.add('loaded'); 
             
-            // Ocultar el indicador de carga si no hay una cuadrícula paginada
             loadingIndicator.classList.remove('show');
         } 
 
-        // ** FUNCIÓN CLAVE: Lógica de carga 30 en 30 **
+        // ** FUNCIÓN CLAVE: Lógica de carga 30 en 30 (OPTIMIZADA) **
         function loadMoreItems(list) {
-            if (isPaginating) return; // Si ya está cargando, salir
+            if (isPaginating) return; 
             isPaginating = true;
-            loadingIndicator.classList.add('show');
-            loadingIndicator.innerHTML = `<i class="fas fa-spinner"></i> Cargando ${itemsPerLoad} más...`;
             
-            // Determinar el rango de la próxima carga
+            // Si es la primera carga (página 0) o hay más por cargar, mostrar el indicador rápidamente
+            if (currentPage > 0 && dynamicGrid.children.length < list.length) {
+                loadingIndicator.classList.add('show');
+                loadingIndicator.innerHTML = `<i class="fas fa-spinner"></i> Cargando ${itemsPerLoad} más...`;
+            }
+
             const startIndex = currentPage * itemsPerLoad;
             const endIndex = startIndex + itemsPerLoad;
             const itemsToLoad = list.slice(startIndex, endIndex);
 
             if (itemsToLoad.length === 0) {
-                // No hay más elementos
                 loadingIndicator.innerHTML = `Mostrando ${list.length} resultados. Fin del catálogo.`;
                 setTimeout(() => {
                     loadingIndicator.classList.remove('show');
@@ -668,26 +665,24 @@
                 return;
             }
 
-            // Simular un pequeño delay para la animación de carga
-            setTimeout(() => {
-                const fragment = document.createDocumentFragment();
-                itemsToLoad.forEach(item => {
-                    fragment.appendChild(createCardHTML(item));
-                });
-                dynamicGrid.appendChild(fragment);
+            // *** CAMBIO CLAVE: Eliminar el setTimeout para que la carga sea instantánea ***
+            const fragment = document.createDocumentFragment();
+            itemsToLoad.forEach(item => {
+                fragment.appendChild(createCardHTML(item));
+            });
+            dynamicGrid.appendChild(fragment);
 
-                currentPage++;
-                isPaginating = false;
-                
-                // Actualizar el indicador
-                loadingIndicator.innerHTML = `Mostrando ${dynamicGrid.children.length} de ${list.length} resultados.`;
-                if (dynamicGrid.children.length === list.length) {
-                    loadingIndicator.innerHTML = `Mostrando ${list.length} resultados. Fin del catálogo.`;
-                }
+            currentPage++;
+            isPaginating = false;
+            
+            // Ocultar el indicador después de la carga rápida
+            loadingIndicator.innerHTML = `Mostrando ${dynamicGrid.children.length} de ${list.length} resultados.`;
+            if (dynamicGrid.children.length === list.length) {
+                loadingIndicator.innerHTML = `Mostrando ${list.length} resultados. Fin del catálogo.`;
+            }
 
-                setTimeout(() => loadingIndicator.classList.remove('show'), 500);
-
-            }, 500); // 500ms para simular la carga y ver la animación fluida
+            // Ocultar rápidamente, dejando el mensaje visible por un instante
+            setTimeout(() => loadingIndicator.classList.remove('show'), 300);
         }
 
         function setupGridPage(list, titleText) {
@@ -703,29 +698,23 @@
             }
             
             currentList = list;
-            currentPage = 0; // Resetear la paginación
+            currentPage = 0; 
             loadMoreItems(list);
         }
 
         // ** Evento de Scroll para Carga Infinita **
         mainView.addEventListener('scroll', () => {
-            // Solo activar en las vistas de cuadrícula
             if (currentTab === 'home' || currentTab === 'search' || isPaginating) {
                 return;
             }
 
-            // Distancia del fondo que activa la carga (ej. 300px antes de llegar al final)
+            // Umbral de 300px antes de llegar al final
             const scrollThreshold = 300; 
             
-            // mainView.scrollTop: Distancia desplazada desde arriba
-            // mainView.clientHeight: Altura visible de la vista
-            // mainView.scrollHeight: Altura total del contenido
             if (mainView.scrollTop + mainView.clientHeight >= mainView.scrollHeight - scrollThreshold) {
-                // El usuario está cerca del final de la vista
                 if (dynamicGrid.children.length < currentList.length) {
                     loadMoreItems(currentList);
                 } else {
-                    // Ya cargó todo, ocultar el indicador si aún se muestra
                     loadingIndicator.classList.remove('show');
                 }
             }
@@ -759,7 +748,7 @@
             } 
             
             showView('mainView'); 
-            mainView.scrollTo({top: 0, behavior: 'smooth'}); // Scroll al inicio con animación fluida
+            mainView.scrollTo({top: 0, behavior: 'smooth'}); 
 
             if(currentTab === 'home'){ 
                 renderHomePage(); 
@@ -816,7 +805,7 @@
             detailBackgroundImage.src = coverUrl; 
             detailBackground.classList.add('show'); 
             showView('detailView'); 
-            detailView.scrollTo({top: 0, behavior: 'smooth'}); // Scroll al inicio de la vista de detalle con animación fluida
+            detailView.scrollTo({top: 0, behavior: 'smooth'}); 
             detailHeroImage.src = coverUrl; 
             detailHeroTitle.textContent = item.title; 
             detailTitle.textContent=item.title; 
