@@ -1,20 +1,10 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>PrimeBox+ | Streaming Premium</title>
-
-<meta name="theme-color" content="#0f171e"> 
-<meta name="mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-app-capable" content="yes">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;600;700&family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-
 <style>
 /* ------------------------------------------- */
 /* 🎨 CSS GLOBAL Y VARIABLES - ESTILO AMAZON PRIME VIDEO */
@@ -46,7 +36,7 @@ body, html{
   font-family:'Inter','Poppins',sans-serif;
   background:var(--bg-primary);
   color:var(--text);
-  height: 100%; /* Asegurar que ocupen toda la ventana */
+  height: 100%; 
   width: 100%;
   overflow: hidden; /* <--- ¡ESTO EVITA EL SCROLL PRINCIPAL! */
   scroll-behavior:smooth;
@@ -55,12 +45,12 @@ body, html{
 
 /* 💻 Contenedores de Vistas: Deben ser los que manejen el scroll vertical */
 main{
-  position: absolute; /* Permite que ocupe todo el espacio sin interferir con la navegación fija */
+  position: absolute; 
   top: 0;
   left: 0;
   right: 0;
-  bottom: 0; /* Cubrir todo el viewport */
-  padding-bottom: var(--nav-height); /* Espacio para el menú inferior */
+  bottom: 0; 
+  padding-bottom: var(--nav-height); 
   overflow: hidden; /* El contenedor principal de main no se mueve */
 }
 
@@ -69,13 +59,13 @@ main{
     height: 100%;
     width: 100%;
     /* Permitir el scroll vertical SOLO dentro de estas vistas */
-    overflow-y: auto; 
+    overflow-y: auto; /* <--- SCROLL VERTICAL AQUÍ */
     overflow-x: hidden; 
     position: relative;
-    padding-bottom: var(--nav-height); /* Espacio para el nav */
+    padding-bottom: var(--nav-height); 
 }
 
-/* 🔎 VISTA DE BUSCADOR */
+/* ... (Resto del CSS sin cambios) ... */
 #searchView {
     position: fixed; 
     inset: 0;
@@ -807,14 +797,16 @@ main{
 </nav>
 
 <script>
-// ... (Mismo código JS de constantes y variables) ...
+// ----------------------------------------------------
+// --- VARIABLES GLOBALES (MODIFICADAS) ---
+// ----------------------------------------------------
 const ANIME_JSON = "https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/data.json";
 const M3U8_URL = "https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/CV.m3u8";
 
 let contentData = [], series = [], movies = [], channels = [];
 let currentTab = 'home', currentItem = null;
-let currentLoadLimit = 30;
-const LOAD_INCREMENT = 30; 
+let currentLoadLimit = 30; // 🎯 Límite de carga inicial de 30
+const LOAD_INCREMENT = 30; // 🎯 Incremento de 30
 let allContent = []; 
 let isLoading = false; 
 
@@ -1055,43 +1047,103 @@ function renderHomePage() {
     content.classList.add('loaded');
 }
 
-// *** MODIFICACIÓN CLAVE EN LA PÁGINA DE CUADRÍCULA ***
-// La paginación por scroll de la ventana (body) ha sido eliminada.
-// La cuadrícula renderiza todo de golpe (o se puede modificar para paginar internamente con un botón "cargar más").
+/**
+ * 🎯 Muestra la cuadrícula de contenido con paginación de 30 en 30.
+ * @param {Array} list - La lista completa de elementos a mostrar.
+ * @param {string} titleText - Título de la sección.
+ * @param {boolean} initialLoad - Si es la carga inicial, reinicia el límite.
+ */
 function renderGridPagePaginated(list, titleText, initialLoad = true) {
-    // Si se necesita paginación en la vista, se debe manejar internamente, 
-    // pero para evitar el scroll del body, renderizamos todo lo cargado.
-    content.innerHTML = '';
+    const gridDiv = document.getElementById('dynamicGrid');
     
-    const title = document.createElement('h2');
-    title.className = 'section-title';
-    title.textContent = titleText;
-    title.style.paddingLeft = '3vw';
-    title.style.marginTop = '20px'; 
-    content.appendChild(title);
-    
-    const gridDiv = document.createElement('div');
-    gridDiv.id = 'dynamicGrid';
-    content.appendChild(gridDiv);
+    if (initialLoad) {
+        content.innerHTML = '';
+        currentLoadLimit = LOAD_INCREMENT; // 🎯 Reiniciar el límite a 30
+        
+        const title = document.createElement('h2');
+        title.className = 'section-title';
+        title.textContent = titleText;
+        title.style.paddingLeft = '3vw';
+        title.style.marginTop = '20px'; 
+        content.appendChild(title);
+        
+        const newGridDiv = document.createElement('div');
+        newGridDiv.id = 'dynamicGrid';
+        content.appendChild(newGridDiv);
+    }
     
     if (list.length === 0) {
-        gridDiv.innerHTML = `<p style="color:var(--muted); padding: 20px 0; text-align: center;">${currentTab === 'favorites' ? 'No tienes favoritos guardados.' : 'No hay contenido disponible.'}</p>`;
+        if (initialLoad) {
+            document.getElementById('dynamicGrid').innerHTML = `<p style="color:var(--muted); padding: 20px 0; text-align: center;">${currentTab === 'favorites' ? 'No tienes favoritos guardados.' : 'No hay contenido disponible.'}</p>`;
+        }
         loadingIndicator.style.display = 'none';
+        isLoading = false;
         return;
     }
     
-    // Renderiza todos los elementos (sin la limitación de scroll de ventana)
-    list.forEach(item => { gridDiv.appendChild(createCardHTML(item)); });
+    // 🎯 Determinar el número de elementos a renderizar en esta carga
+    const itemsToRender = list.slice(gridDiv ? gridDiv.children.length : 0, currentLoadLimit);
 
-    loadingIndicator.style.display = 'block';
-    loadingIndicator.textContent = `Mostrando ${list.length} resultados.`;
+    if (itemsToRender.length > 0) {
+        itemsToRender.forEach(item => { 
+            (gridDiv || document.getElementById('dynamicGrid')).appendChild(createCardHTML(item)); 
+        });
+        currentLoadLimit += LOAD_INCREMENT; 
+        isLoading = false;
+        loadingIndicator.textContent = `Mostrando ${Math.min(currentLoadLimit - LOAD_INCREMENT, list.length)} de ${list.length} resultados.`;
+        loadingIndicator.style.display = 'block';
+
+    } 
+    
+    if (currentLoadLimit - LOAD_INCREMENT >= list.length) {
+        loadingIndicator.textContent = `Mostrando ${list.length} resultados. Final de la lista.`;
+        isLoading = true; // Bloquear más cargas
+    }
+
     content.classList.add('loaded');
-    isLoading = false; 
 }
 
-// **ELIMINACIÓN DE LA FUNCIÓN handleScrollPagination**
-// YA NO NECESITAMOS ESCUCHAR EL SCROLL DE LA VENTANA.
-// window.addEventListener('scroll', handleScrollPagination);
+/**
+ * 🎯 Maneja la paginación al hacer scroll en la vista principal.
+ */
+function handleScrollPagination() {
+    // Solo paginar en vistas de cuadrícula
+    if (!['series', 'movies', 'channels', 'favorites'].includes(currentTab)) return;
+    
+    const { scrollTop, scrollHeight, clientHeight } = mainView;
+    const scrollThreshold = 100; // Cargar cuando estemos a 100px del final
+    
+    // Comprobar si estamos cerca del final
+    if (scrollHeight - scrollTop <= clientHeight + scrollThreshold && !isLoading) {
+        
+        let listToLoad = [];
+        let title = '';
+        
+        if (currentTab === 'series') { listToLoad = series; title = 'Todas las Series'; }
+        else if (currentTab === 'movies') { listToLoad = movies; title = 'Todas las Películas'; }
+        else if (currentTab === 'channels') { listToLoad = channels; title = 'Todos los Canales en Vivo'; }
+        else if (currentTab === 'favorites') { listToLoad = getFavorites(); title = 'Mis Favoritos'; }
+
+        // Si ya cargamos todo, salir.
+        if (currentLoadLimit > listToLoad.length) {
+            isLoading = true; // Marcar como finalizado
+            loadingIndicator.textContent = `Mostrando ${listToLoad.length} resultados. Final de la lista.`;
+            return; 
+        }
+        
+        isLoading = true;
+        loadingIndicator.textContent = 'Cargando más contenido...';
+        
+        // Simular un pequeño retraso para la carga asíncrona (opcional)
+        setTimeout(() => {
+            renderGridPagePaginated(listToLoad, title, false); // Carga adicional (initialLoad=false)
+        }, 300); 
+    }
+}
+
+// 🎯 ESCUCHADOR DE EVENTOS EN #mainView
+mainView.addEventListener('scroll', handleScrollPagination);
+
 
 // Lógica de Vistas (Navegación)
 function showView(viewId) {
@@ -1099,10 +1151,15 @@ function showView(viewId) {
         detailView.style.display = 'block';
         mainView.style.display = 'none';
         searchView.style.display = 'none';
+        mainView.removeEventListener('scroll', handleScrollPagination); // Desactivar scroll en detalle
     } else {
         mainView.style.display = 'block'; 
         searchView.style.display = viewId === 'searchView' ? 'block' : 'none';
         detailView.style.display = 'none';
+        
+        if (viewId === 'mainView') {
+            mainView.addEventListener('scroll', handleScrollPagination); // Activar scroll en vistas principales
+        }
     }
 }
 
@@ -1114,7 +1171,7 @@ function renderCurrentTab(){
 
 
     if(allContent.length > 0) { loadingIndicator.style.display = 'none'; }
-    isLoading = false;
+    
     
     if (currentTab === 'search') {
         showView('searchView');
@@ -1134,6 +1191,7 @@ function renderCurrentTab(){
     setTimeout(() => {
         if(currentTab === 'home'){
             renderHomePage();
+            loadingIndicator.style.display = 'none';
         } else if (currentTab === 'series') {
             renderGridPagePaginated(series, 'Todas las Series', true);
         } else if (currentTab === 'movies') {
