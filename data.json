@@ -4,7 +4,12 @@
   "title": "Hazbin Hotel Temporada 2",
   "description": "La continuación de las aventuras en el Hotel Hazbin, donde Charlie y sus amigos siguen tratando de redimir a los demonios del Infierno mientras nuevas amenazas aparecen.",
   "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBPQ-PAai8aXGbgTNXSHZRHW_VB7WycqEuNUfW1o_UyA&s=10",
-  "episodes": [
+  "genre": [
+      "Animación",
+      "Acción",
+      "Aventura"
+    ],
+    "episodes": [
     {
       "episode": 1,
       "title": "Episodio 1",
