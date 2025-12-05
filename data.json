@@ -1,6 +1,57 @@
 [
 
 {
+  "title": "Death Note",
+  "coverImage": "https://m.media-amazon.com/images/M/MV5BYTgyZDhmMTEtZDFhNi00MTc4LTg3NjUtYWJlNGE5Mzk2NzMxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  "description": "Light Yagami encuentra un cuaderno sobrenatural con el poder de matar a cualquier persona cuyo nombre sea escrito en él. Su objetivo: eliminar criminales y crear un nuevo mundo, mientras un misterioso detective conocido como L intenta detenerlo.",
+  "genre": [
+    "Anime",
+    "Suspenso",
+    "Misterio",
+    "Sobrenatural"
+  ],
+  "episodes": [
+    { "episode": 1, "title": "Renacer", "video_url": "https://archive.org/download/ded-note-espanol_202209/Ded note español.mp4" },
+    { "episode": 2, "title": "Confrontación", "video_url": "https://archive.org/download/ded-note-2-espanol_202209/ded note 2 español.mp4" },
+    { "episode": 3, "title": "Trato", "video_url": "https://archive.org/download/ded-note-3-esspanol/ded note 3 esspa%C3%B1ol.mp4" },
+    { "episode": 4, "title": "Pursuit", "video_url": "https://archive.org/download/ded-note-4-espanol/ded note 4 español.mp4" },
+    { "episode": 5, "title": "Tácticas", "video_url": "https://archive.org/download/ded-note-5-espanol/ded note 5 español.mp4" },
+    { "episode": 6, "title": "Luz", "video_url": "https://archive.org/download/ded-note-6-espanol/ded note 6 español.mp4" },
+    { "episode": 7, "title": "Tentación", "video_url": "https://archive.org/download/ded-note-7-espanol/ded note 7 español.mp4" },
+    { "episode": 8, "title": "Mirada", "video_url": "https://archive.org/download/ded-note-8-espanol/ded note 8 español.mp4" },
+    { "episode": 9, "title": "Contacto", "video_url": "https://archive.org/download/ded-note-9-espanol/ded note 9 español.mp4" },
+    { "episode": 10, "title": "Sospecha", "video_url": "https://archive.org/download/ded-note-10-espanol/ded note 10 español.mp4" },
+    { "episode": 11, "title": "Asalto", "video_url": "https://archive.org/download/ded-note-11-espanol/ded note 11 español.mp4" },
+    { "episode": 12, "title": "Maniobra", "video_url": "https://archive.org/download/ded-note-12-espanol/ded note 12 español.mp4" },
+    { "episode": 13, "title": "Confesión", "video_url": "https://archive.org/download/ded-note-13-espanol/ded note 13 español.mp4" },
+    { "episode": 14, "title": "Amigo", "video_url": "https://archive.org/download/ded-note-14-espanol/ded note 14 español.mp4" },
+    { "episode": 15, "title": "Apuesta", "video_url": "https://archive.org/download/ded-note-15-espanol/ded note 15 español.mp4" },
+    { "episode": 16, "title": "Decisión", "video_url": "https://archive.org/download/ded-note-16-espanol/ded note 16 español.mp4" },
+    { "episode": 17, "title": "Ejecución", "video_url": "https://archive.org/download/ded-note-17-espanol/ded note 17 español.mp4" },
+    { "episode": 18, "title": "Aliado", "video_url": "https://archive.org/download/ded-note-18-espanol/ded note 18 español.mp4" },
+    { "episode": 19, "title": "Matsuda", "video_url": "https://archive.org/download/ded-note-19-espanol/ded note 19 español.mp4" },
+    { "episode": 20, "title": "Maquiavélico", "video_url": "https://archive.org/download/ded-note-20-espanol/ded note 20 español.mp4" },
+    { "episode": 21, "title": "Actuación", "video_url": "https://archive.org/download/ded-note-21-espanol/ded note 21 español.mp4" },
+    { "episode": 22, "title": "Renovación", "video_url": "https://archive.org/download/ded-note-22-espanol/ded note 22 español.mp4" },
+    { "episode": 23, "title": "Locura", "video_url": "https://archive.org/download/ded-note-23-espanol/ded note 23 español.mp4" },
+    { "episode": 24, "title": "Resurrección", "video_url": "https://archive.org/download/ded-note-33-espanol/ded note 24 español.mp4" },
+    { "episode": 25, "title": "Silencio", "video_url": "https://archive.org/download/ded-note-33-espanol/ded note 25 español.mp4" },
+    { "episode": 26, "title": "Renacimiento", "video_url": "https://archive.org/download/ded-note-33-espanol/ded note 26 español.mkv" },
+    { "episode": 27, "title": "Abducción", "video_url": "https://archive.org/download/ded-note-33-espanol/ded note 27 español.mkv" },
+    { "episode": 28, "title": "Imaginación", "video_url": "https://archive.org/download/ded-note-33-espanol/ded note 28 español.mkv" },
+    { "episode": 29, "title": "Padre", "video_url": "https://archive.org/download/ded-note-33-espanol/ded note 29 español.mkv" },
+    { "episode": 30, "title": "Justicia", "video_url": "https://archive.org/download/ded-note-33-espanol/ded note 30 español.mkv" },
+    { "episode": 31, "title": "Transferencia", "video_url": "https://archive.org/download/ded-note-33-espanol/ded note 31 español.mkv" },
+    { "episode": 32, "title": "Selección", "video_url": "https://archive.org/download/ded-note-33-espanol/ded note 32 español.mkv" },
+    { "episode": 33, "title": "Corriente", "video_url": "https://archive.org/download/ded-note-33-espanol/ded note 33 español.mkv" },
+    { "episode": 34, "title": "Vigilancia", "video_url": "https://archive.org/download/ded-note-33-espanol/ded note 34 español.mkv" },
+    { "episode": 35, "title": "Toque", "video_url": "https://archive.org/download/ded-note-33-espanol/ded note 35 español.mkv" },
+    { "episode": 36, "title": "1.28", "video_url": "https://archive.org/download/ded-note-33-espanol/ded note 36 español.mkv" },
+    { "episode": 37, "title": "Nuevo mundo", "video_url": "https://archive.org/download/ded-note-33-espanol/ded note 37 español.mkv" }
+  ]
+},  
+  
+{
   "title": "Dragon Ball Super: Broly",
   "description": "Goku y Vegeta enfrentan a un poderoso guerrero saiyajin llamado Broly, cuyo pasado está conectado con el destino de su raza. La batalla desata un conflicto épico lleno de poder y transformación.",
   "genre": ["Acción", "Aventura", "Anime"],
