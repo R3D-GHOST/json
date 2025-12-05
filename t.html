@@ -1,0 +1,1135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrimeBox+ | Streaming Premium TV</title>
+    <meta name="theme-color" content="#0f171e">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;600;700&family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+    <style>
+        /* ------------------------------------------- */
+        /* 🎨 CSS GLOBAL Y VARIABLES - ESTILO AMAZON PRIME VIDEO */
+        /* ------------------------------------------- */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            /* Colores de Amazon Prime Video */
+            --bg-primary: #0f171e;
+            --bg-card: #1a242f;
+            --bg-darker: #000000;
+            --text: #ffffff;
+            --muted: #aeb4c6;
+            --accent: #00a8e1;
+            --accent-2: #4ec2e7;
+            --shadow-dark: rgba(0, 0, 0, 0.9);
+            --shadow-accent: rgba(0, 168, 225, 0.7); /* Sombra más fuerte para TV */
+            --nav-height: 80px; /* Navegación más alta para TV */
+            --watched-color: #3b4d61;
+            --tv-scale-factor: 1.25; /* Factor de escala para todos los elementos */
+        }
+
+        /* 🚀 BASE: ¡CLAVE! Desactivar todo scroll en el body y html, y aplicar escalado general */
+        body, html {
+            font-family: 'Inter', 'Poppins', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text);
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+            scroll-behavior: smooth;
+            line-height: 1.45;
+            /* Aplicar escalado base para TV */
+            font-size: calc(16px * var(--tv-scale-factor)); 
+        }
+        
+        /* 💻 Contenedores de Vistas: Deben ser los que manejen el scroll vertical */
+        main {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            /* Espacio para la navegación inferior de TV */
+            bottom: var(--nav-height); 
+            padding-bottom: 0;
+            overflow: hidden;
+        }
+
+        /* Vistas con scroll interno */
+        #mainView, #searchView, #detailView {
+            height: 100%;
+            width: 100%;
+            /* Permitir el scroll vertical SOLO dentro de estas vistas */
+            overflow-y: auto;
+            overflow-x: hidden;
+            position: relative;
+            /* ** IMPORTANTE: ELIMINAR EL PADDING INFERIOR DENTRO DEL SCROLL EN TV **
+            El MAIN ya tiene el espacio reservado, el scroll no debe tener padding extra. */
+            padding-bottom: 0; 
+            scroll-behavior: smooth;
+            /* Ajuste de padding lateral para TV */
+            padding-left: 5vw;
+            padding-right: 5vw;
+        }
+
+        /* ** AJUSTE CLAVE TV: Ocultar las barras de scroll en las vistas principales ** */
+        #mainView::-webkit-scrollbar, 
+        #searchView::-webkit-scrollbar, 
+        #detailView::-webkit-scrollbar,
+        .horizontal-scroll::-webkit-scrollbar {
+            display: none;
+        }
+        
+        /* ------------------------------------------- */
+        /* ⬇️ MENÚ DE NAVEGACIÓN INFERIOR (Darker) */
+        /* ------------------------------------------- */
+        #bottomNav {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: var(--nav-height);
+            background: var(--bg-darker);
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            box-shadow: 0 -8px 25px var(--shadow-dark);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            z-index: 100;
+            padding: 0 10px;
+        }
+
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 8px 0; /* Más padding para TV */
+            flex: 1;
+            color: var(--muted);
+            font-size: calc(0.9rem * var(--tv-scale-factor)); /* Fuente un poco más grande */
+            font-weight: 500;
+            cursor: pointer;
+            user-select: none;
+            min-width: 0;
+            transition: color 0.3s, transform 0.1s;
+        }
+
+        .nav-item i {
+            font-size: calc(1.8rem * var(--tv-scale-factor)); /* Iconos más grandes para TV */
+            margin-bottom: 4px;
+        }
+        
+        /* Estado de foco simulado con :hover (Control Remoto) y estado activo */
+        .nav-item:hover, .nav-item:focus, .nav-item.active {
+            color: var(--accent-2); /* Color de foco/activo en el icono */
+            outline: none;
+            background: rgba(255, 255, 255, 0.05);
+            transform: scale(1.05); /* Ligeramente más grande al estar activo/focado */
+        }
+        
+        .nav-item.active span {
+            color: var(--text); /* Texto más blanco en activo */
+            font-weight: 700;
+        }
+        
+        /* 🎬 SECCIONES DE CONTENIDO */
+        .content-section {
+            padding: 25px 0 15px 0; /* Más espacio vertical en TV */
+            margin-bottom: 0px;
+        }
+        
+        .section-title {
+            font-size: calc(1.8rem * var(--tv-scale-factor)); /* Título más grande */
+            font-weight: 700;
+            padding: 0 0; /* Padding lateral ya manejado por #mainView */
+            margin-bottom: 20px; /* Más margen para separación */
+            border-left: 6px solid var(--accent); /* Borde más grueso */
+            padding-left: 20px;
+        }
+
+        /* SLIDER DE SCROLL HORIZONTAL (Este es el que SÍ se mueve) */
+        .horizontal-scroll {
+            display: flex;
+            overflow-x: scroll;
+            padding: 15px 0; /* Más padding para TV */
+            gap: 20px; /* Más separación entre tarjetas */
+            scroll-snap-type: x mandatory;
+            scroll-behavior: smooth;
+        }
+        
+        /* 🃏 Tarjeta (Card) - ANIMACIONES SUAVES MEJORADAS */
+        .card {
+            flex: 0 0 calc(180px * var(--tv-scale-factor)); /* Tarjetas más anchas para TV */
+            background: var(--bg-card);
+            border-radius: 8px; /* Bordes más redondeados */
+            overflow: hidden;
+            cursor: pointer;
+            transition: transform .3s cubic-bezier(0.25, 0.46, 0.45, 0.94), box-shadow .3s ease-out, opacity .5s;
+            opacity: 0;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, .5);
+            scroll-snap-align: start;
+            /* Necesario para que el control de foco funcione bien */
+            tabindex: 0; 
+        }
+
+        .card.show {
+            opacity: 1;
+            transform: scale(0.98);
+        }
+
+        /* ** ESTADO DE FOCO CLAVE TV: Más grande y con un borde de color ** */
+        .card:hover, .card:focus {
+            transform: scale(1.15); /* Más zoom al enfocar */
+            box-shadow: 0 0 0 6px var(--accent), 0 15px 30px var(--shadow-dark);
+            z-index: 10;
+            outline: none;
+        }
+
+        .card img {
+            display: block;
+            width: 100%;
+            height: calc(260px * var(--tv-scale-factor)); /* Altura proporcionalmente mayor */
+            object-fit: cover;
+            transition: transform .3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        }
+
+        .card:hover img, .card:focus img {
+            transform: scale(1.03);
+        }
+
+        .info {
+            padding: 12px 8px; /* Más padding interno */
+            min-height: calc(70px * var(--tv-scale-factor));
+            background: rgba(0, 0, 0, 0.2);
+        }
+
+        .info h3 {
+            font-size: calc(1.1rem * var(--tv-scale-factor));
+            font-weight: 600;
+        }
+
+        .info span {
+            font-size: calc(.9rem * var(--tv-scale-factor));
+        }
+        
+        /* El resto del CSS original se mantiene con los ajustes de escala implícitos en root */
+        
+        /* 🌟 HERO/HEADER DE NOVEDADES (HOME) */
+        .hero-static-container {
+            height: calc(350px * var(--tv-scale-factor)); /* Altura de Hero más grande */
+            margin-bottom: 40px;
+            padding: 0; /* Eliminar padding lateral en el contenedor */
+            width: calc(100% + 10vw); /* Para que cubra el padding lateral de #mainView */
+            margin-left: -5vw; /* Compensar el padding lateral de #mainView */
+            margin-right: -5vw;
+        }
+        
+        .hero-overlay {
+            padding: 40px 5vw; /* Padding lateral consistente con la vista */
+        }
+        
+        .hero-overlay h1, .detail-hero-overlay h1 {
+            font-size: calc(3rem * var(--tv-scale-factor));
+        }
+        
+        .hero-overlay p {
+            font-size: calc(1.1rem * var(--tv-scale-factor));
+        }
+
+        .play-button-hero {
+            padding: 15px 30px;
+            font-size: calc(1.2rem * var(--tv-scale-factor));
+            border-radius: 6px;
+            tabindex: 0;
+        }
+        
+        .play-button-hero:hover, .play-button-hero:focus {
+            transform: scale(1.05); /* Más zoom al enfocar */
+            background: var(--accent-2);
+            box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.5), 0 8px 20px rgba(0,0,0,0.8);
+            outline: none;
+        }
+
+        /* 🔎 VISTA DE BUSCADOR */
+        #searchView {
+            padding-top: calc(40px * var(--tv-scale-factor));
+            /* Padding lateral ya manejado por #mainView */
+            padding-bottom: 0; 
+        }
+
+        #searchHeader {
+            padding: 0; /* Padding lateral ya manejado por #mainView */
+        }
+
+        #searchInput {
+            padding: 20px 24px;
+            border-radius: 10px;
+            font-size: calc(1.2rem * var(--tv-scale-factor));
+        }
+
+        /* 🖼️ VISTA DE DETALLE (INMERSIVA) */
+        .detail-header {
+            padding: 20px 5vw; /* Padding lateral consistente con la vista */
+        }
+
+        .btn {
+            padding: 12px 22px;
+            font-size: calc(1rem * var(--tv-scale-factor));
+            border-radius: 6px;
+            tabindex: 0;
+        }
+        
+        .btn:hover, .btn:focus {
+             transform: scale(1.05);
+             background: var(--accent-2);
+             box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.5), 0 6px 15px rgba(0,0,0,0.8);
+             outline: none;
+        }
+
+        /* Ajustes de detalle y botones */
+        .detail-main {
+            padding: 40px 5vw; /* Padding lateral consistente con la vista */
+        }
+
+        #reproduceBtn {
+            padding: 15px 30px;
+            font-size: calc(1.2rem * var(--tv-scale-factor));
+            border-radius: 6px;
+            tabindex: 0;
+        }
+        
+        #reproduceBtn:hover, #reproduceBtn:focus {
+             transform: scale(1.05);
+             background: var(--accent-2);
+             box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.5), 0 8px 20px rgba(0,0,0,0.8);
+             outline: none;
+        }
+
+        #favoriteBtn {
+            width: calc(60px * var(--tv-scale-factor));
+            height: calc(60px * var(--tv-scale-factor));
+            font-size: calc(1.5rem * var(--tv-scale-factor));
+            tabindex: 0;
+        }
+        
+        #favoriteBtn:hover, #favoriteBtn:focus, #favoriteBtn.active {
+            transform: scale(1.2);
+            box-shadow: 0 0 0 3px var(--accent-2), 0 8px 20px rgba(0,0,0,0.8);
+            outline: none;
+        }
+        
+        /* 🎬 SECCIÓN DE EPISODIOS/CAPÍTULOS - SCROLL HORIZONTAL */
+        .episodes {
+             margin-top: 35px;
+             border-top: 1px solid rgba(255,255,255,.25);
+        }
+        
+        .episodes-list {
+            padding: 20px 5vw; /* Padding lateral consistente con la vista */
+            gap: 25px;
+        }
+
+        .episode-item {
+            flex-shrink: 0;
+            width: calc(400px * var(--tv-scale-factor)); /* Episodios más anchos */
+            border-radius: 12px;
+            padding: 15px;
+            tabindex: 0;
+        }
+        
+        .episode-item:hover, .episode-item:focus, .episode-item.active {
+            transform: scale(1.08); /* Más zoom al enfocar */
+            box-shadow: 0 0 0 6px var(--accent), 0 15px 30px rgba(0, 0, 0, 0.5);
+            background-color: #2a385f;
+            outline: none;
+        }
+        
+        .episode-thumb {
+            height: calc(200px * var(--tv-scale-factor));
+        }
+
+        .episode-info strong {
+            font-size: calc(1.3rem * var(--tv-scale-factor));
+        }
+
+        .episode-info span {
+            font-size: calc(1.1rem * var(--tv-scale-factor));
+        }
+        
+        /* ------------------------------------------- */
+        /* MEDIA QUERIES - Ajustes mínimos de fallback */
+        /* ------------------------------------------- */
+         @media (max-width: 1400px) {
+            :root {
+                --tv-scale-factor: 1.0; 
+            }
+        }
+         @media (max-width: 900px) {
+            :root {
+                --tv-scale-factor: 0.8; 
+            }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div id="mainView">
+            <div id="content">
+                </div>
+            <div id="gridContainer" style="min-height: 100px;">
+                <h2 id="gridTitle" class="section-title" style="display:none; padding-top: 20px;"></h2>
+                <div id="dynamicGrid">
+                    </div>
+            </div>
+            <div id="loadingIndicator" tabindex="-1">
+                <i class="fas fa-spinner"></i> Cargando más contenido...
+            </div>
+        </div>
+        
+        <div id="searchView">
+            <div id="searchHeader">
+                <i class="fas fa-arrow-left" id="backFromSearch" tabindex="0"></i>
+                <input type="text" id="searchInput" placeholder="Buscar contenido, género..." tabindex="0">
+            </div>
+            <h2 id="searchResultsTitle" class="section-title"></h2>
+            <div id="searchResultsGrid">
+                <p style="color:var(--muted); padding: 50px 0; text-align: center;">Empieza a escribir para buscar (título o género)...</p>
+            </div>
+        </div>
+    </main>
+    
+    <div id="detailBackground">
+        <img id="detailBackgroundImage" src="" alt="Fondo de la portada">
+    </div>
+    
+    <div id="detailView">
+        <div class="detail-header">
+            <button id="backBtn" class="btn" tabindex="0">❮ Volver</button>
+            <h2 id="detailTitle" class="detail-title"></h2>
+        </div>
+        
+        <div id="detailHeroContainer" class="detail-hero-container">
+            <img id="detailHeroImage" src="" alt="Portada de la serie/película">
+            <div class="detail-hero-overlay">
+                <h1 id="detailHeroTitle"></h1>
+            </div>
+        </div>
+        
+        <div class="detail-main">
+            <div class="details">
+                <h2 id="detailName" style="display:none;"></h2>
+                <div id="detailActionButtons">
+                    <button id="reproduceBtn" style="display:none;" tabindex="0"></button> 
+                    <button id="favoriteBtn" tabindex="0"><i class="fas fa-heart"></i></button>
+                </div>
+                <p id="detailDesc"></p>
+                <p id="detailGenres"></p>
+            </div>
+        </div>
+        
+        <div id="detailEpisodes" class="episodes content-section" style="display:none;">
+            <h3>Capítulos</h3>
+            <div class="episodes-list horizontal-scroll">
+                </div>
+        </div>
+        
+        <div id="recommendationsSection" class="content-section" style="display:none;">
+            <h2 class="section-title">Recomendaciones</h2>
+            <div class="horizontal-scroll" id="recommendationsScroll">
+                </div>
+        </div>
+    </div>
+    
+    <nav id="bottomNav">
+        <div class="nav-item active" data-tab="home" tabindex="0">
+            <i class="fas fa-house-chimney"></i>
+            <span>Inicio</span>
+        </div>
+        <div class="nav-item" data-tab="series" tabindex="0">
+            <i class="fas fa-clapperboard"></i>
+            <span>Series</span>
+        </div>
+        <div class="nav-item" data-tab="movies" tabindex="0">
+            <i class="fas fa-film"></i>
+            <span>Películas</span>
+        </div>
+        <div class="nav-item" data-tab="channels" tabindex="0">
+            <i class="fas fa-tv"></i>
+            <span>Canales</span>
+        </div>
+        <div class="nav-item" data-tab="favorites" tabindex="0">
+            <i class="fas fa-heart"></i>
+            <span>Favoritos</span>
+        </div>
+        <div class="nav-item" data-tab="search" tabindex="0">
+            <i class="fas fa-search"></i>
+            <span>Buscar</span>
+        </div>
+    </nav>
+    
+    <script>
+        // --- CONSTANTES Y VARIABLES ---
+        const ANIME_JSON = "https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/data.json";
+        const M3U8_URL = "https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/CV.m3u8";
+        let contentData = [], series = [], movies = [], channels = [];
+        let currentTab = 'home', currentItem = null;
+        let allContent = [];
+        // ** VARIABLES DE PAGINACIÓN (CARGA INFINITA) **
+        const itemsPerLoad = 30;
+        let currentPage = 0;
+        let currentList = [];
+        let isPaginating = false; // Bandera para evitar cargas múltiples
+        
+        // Referencias del DOM
+        const content = document.getElementById('content');
+        const detailView = document.getElementById('detailView');
+        const detailBackground = document.getElementById('detailBackground');
+        const detailBackgroundImage = document.getElementById('detailBackgroundImage');
+        const backBtn = document.getElementById('backBtn');
+        const mainView = document.getElementById('mainView');
+        const searchView = document.getElementById('searchView');
+        const searchInput = document.getElementById('searchInput');
+        const searchResultsGrid = document.getElementById('searchResultsGrid');
+        const searchResultsTitle = document.getElementById('searchResultsTitle');
+        const bottomNavItems = document.querySelectorAll('.nav-item');
+        const favoriteBtn = document.getElementById('favoriteBtn');
+        const reproduceBtn = document.getElementById('reproduceBtn');
+        const detailTitle = document.getElementById('detailTitle');
+        const detailHeroImage = document.getElementById('detailHeroImage');
+        const detailHeroTitle = document.getElementById('detailHeroTitle');
+        const detailDesc = document.getElementById('detailDesc');
+        const detailGenres = document.getElementById('detailGenres');
+        const episodesSection = document.getElementById('detailEpisodes');
+        const episodesListContainer = document.querySelector('.episodes-list');
+        const loadingIndicator = document.getElementById('loadingIndicator');
+        const recommendationsSection = document.getElementById('recommendationsSection');
+        const recommendationsScroll = document.getElementById('recommendationsScroll');
+        const dynamicGrid = document.getElementById('dynamicGrid');
+        const gridTitle = document.getElementById('gridTitle');
+
+        // ----------------------------------------------------
+        // --- FUNCIONES DE ESTADO (CACHE) ---
+        function getLastWatchedEpisodeIndex(seriesId, episodeIndex = undefined) {
+            try {
+                const progress = localStorage.getItem('animebox_progress');
+                let progressData = progress ? JSON.parse(progress) : {};
+                if (episodeIndex !== undefined) {
+                    progressData[seriesId] = episodeIndex;
+                    localStorage.setItem('animebox_progress', JSON.stringify(progressData));
+                    return episodeIndex;
+                } else {
+                    return progressData[seriesId];
+                }
+            } catch(e) { return undefined; }
+        }
+        
+        function getWatchedEpisodes() {
+            try {
+                const watched = localStorage.getItem('animebox_watched');
+                return watched ? JSON.parse(watched) : {};
+            } catch(e) { return {}; }
+        }
+        
+        function isEpisodeWatched(seriesId, episodeIndex) {
+            const watched = getWatchedEpisodes();
+            return watched[seriesId] && watched[seriesId].includes(episodeIndex);
+        }
+        
+        function saveWatchedEpisode(seriesId, episodeIndex) {
+            let watched = getWatchedEpisodes();
+            if (!watched[seriesId]) { watched[seriesId] = []; }
+            if (!watched[seriesId].includes(episodeIndex)) {
+                watched[seriesId].push(episodeIndex);
+                localStorage.setItem('animebox_watched', JSON.stringify(watched));
+            }
+        }
+        
+        function getFavorites() {
+            try {
+                const favs = localStorage.getItem('animebox_favorites');
+                return favs ? JSON.parse(favs) : [];
+            } catch(e) { return []; }
+        }
+        
+        function saveFavorites(favs) {
+            try {
+                localStorage.setItem('animebox_favorites', JSON.stringify(favs));
+            } catch(e) { console.error("Error al guardar favoritos:", e); }
+        }
+        
+        function isFavorite(item) {
+            const favs = getFavorites();
+            const itemId = item.id || item.title;
+            return favs.some(fav => (fav.id || fav.title) === itemId);
+        }
+        
+        function toggleFavorite(item) {
+            let favs = getFavorites();
+            const itemId = item.id || item.title;
+            const index = favs.findIndex(fav => (fav.id || fav.title) === itemId);
+            const itemToSave = { ...item, id: itemId };
+            
+            if (index > -1) {
+                favs.splice(index, 1);
+                favoriteBtn.classList.remove('active');
+                if(currentTab === 'favorites') {
+                    // Refrescar lista si estamos en la pestaña de favoritos
+                    currentPage = 0;
+                    dynamicGrid.innerHTML = '';
+                    loadMoreItems(getFavorites());
+                }
+            } else {
+                favs.push(itemToSave);
+                favoriteBtn.classList.add('active');
+            }
+            saveFavorites(favs);
+        }
+
+        // ----------------------------
+        // --- Funciones de Datos y Separación --- 
+        async function fetchData(){
+            try {
+                loadingIndicator.classList.add('show');
+                contentData = await (await fetch(ANIME_JSON)).json();
+                series = contentData.filter(item => item.episodes && item.episodes.length > 0);
+                movies = contentData.filter(item => !item.episodes || item.episodes.length === 0);
+                await fetchChannels();
+                combineAllContent();
+                loadingIndicator.classList.remove('show');
+                renderCurrentTab();
+            } catch(e){
+                console.error("Error al cargar los datos:", e);
+                contentData=[]; series=[]; movies=[]; channels=[];
+                content.innerHTML = `<p style="color:var(--accent); padding: 50px 0; text-align: center;">❌ Error al cargar los datos. Intenta recargar la página.</p>`;
+                loadingIndicator.classList.remove('show');
+            }
+        }
+        
+        async function fetchChannels(){
+            // (Función de carga de canales M3U8 se mantiene igual)
+            try {
+                const res = await fetch(M3U8_URL);
+                const text = await res.text();
+                const lines = text.split(/\r?\n/);
+                let current = null;
+                channels=[];
+                for(const lineRaw of lines){
+                    const line = lineRaw.trim();
+                    if(!line.startsWith('#') && line.length > 0 && line.includes('://')) { // Simplificar la detección de URL
+                        if (current) { current.video_url = line; channels.push(current); }
+                        current = null;
+                        continue;
+                    }
+                    if(line.startsWith('#EXTINF:')){
+                        const logo = (line.match(/tvg-logo="([^"]*)"/)||[])[1]||null;
+                        const name = (line.match(/,(.*)$/)||[])[1]?.trim()||'Canal';
+                        const coverImage = logo || 'https://via.placeholder.com/140x200?text=TV';
+                        current = {id:name,title:name,coverImage,logo,type:'channel',isChannel:true, video_url:'', genre: ['En Vivo', 'Canal']};
+                    }
+                }
+            } catch(e){
+                console.error("Error al cargar canales:", e);
+                channels=[];
+            }
+        }
+        
+        function combineAllContent() {
+            allContent = [...contentData, ...channels];
+        }
+        
+        function getRecommendations(currentItem) {
+            if (!currentItem) return [];
+            const currentId = currentItem.id || currentItem.title;
+            const currentGenre = currentItem.genre || [];
+            let filteredContent = allContent.filter(item => (item.id || item.title) !== currentId);
+            
+            let genreRecs = [];
+            if (currentGenre.length > 0) {
+                genreRecs = filteredContent
+                    .filter(item => item.genre && item.genre.some(g => currentGenre.includes(g)))
+                    .sort(() => 0.5 - Math.random())
+                    .slice(0, 7);
+            }
+            
+            let fillerRecs = filteredContent
+                .filter(item => (item.episodes ? true : false) === (currentItem.episodes ? true : false))
+                .filter(item => !genreRecs.includes(item))
+                .sort(() => 0.5 - Math.random())
+                .slice(0, 10 - genreRecs.length);
+
+            return [...genreRecs, ...fillerRecs].slice(0, 10);
+        }
+
+        // ----------------------------
+        // --- Funciones de Renderizado ---
+        function renderStaticHero(item) {
+            if (!item) return null;
+            const container = document.createElement('div');
+            container.className = 'hero-static-container';
+            const heroCover = item.coverImage || 'https://via.placeholder.com/600x350?text=Última Novedad';
+            const itemId = item.id || item.title;
+            container.innerHTML = `
+                <img src="${heroCover}" alt="${item.title}" tabindex="-1" onerror="this.onerror=null;this.src='https://via.placeholder.com/600x350?text=Última Novedad';">
+                <div class="hero-overlay">
+                    <h1>${item.title}</h1>
+                    <p>${item.description || 'La última adición a nuestro catálogo premium. ¡No te la pierdas!'}</p>
+                    <button class="play-button-hero" onclick="openDetail(allContent.find(i => (i.id || i.title) === '${itemId}'))" tabindex="0">
+                        <i class="fas fa-play"></i> Reproducir Ahora
+                    </button>
+                </div>
+            `;
+            return container;
+        }
+
+        function createCardHTML(item) {
+            const cover = item.coverImage || item.logo || 'https://via.placeholder.com/140x200?text=Portada';
+            const spanText = item.isChannel ? 'En vivo' : (item.genre ? item.genre[0] : '');
+            const card = document.createElement('div');
+            card.className = 'card';
+            card.setAttribute('tabindex', '0'); // Hacer la tarjeta enfocable
+            card.innerHTML = `<img src="${cover}" alt="${item.title}" onerror="this.onerror=null;this.src='https://via.placeholder.com/140x200?text=Portada';"><div class="info"><h3>${item.title}</h3><span>${spanText}</span></div>`;
+            card.onclick = () => openDetail(item);
+            
+            // Permitir la activación con la tecla Enter (para Smart TV)
+            card.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter') {
+                    openDetail(item);
+                }
+            });
+
+            // Tiempo de espera reducido para una carga inicial más rápida de las tarjetas
+            setTimeout(() => card.classList.add('show'), Math.random() * 50); 
+            return card;
+        }
+
+        function renderHomePage() {
+            dynamicGrid.innerHTML = '';
+            gridTitle.style.display = 'none';
+            content.innerHTML = '';
+            
+            const featuredItem = allContent[0];
+            if (featuredItem) {
+                const heroElement = renderStaticHero(featuredItem);
+                if (heroElement) { content.appendChild(heroElement); }
+            }
+
+            // ** LISTA DE SECCIONES ACTUALIZADA **
+            const sections = [
+                { title: ' Canales en Vivo', list: channels.slice(0, 10) },
+                { title: ' Infantil', genre: 'Infantil', listType: 'all' },
+                { title: ' Romance', genre: 'Romance', listType: 'all' },
+                { title: ' Misterio', genre: 'Misterio', listType: 'all' },
+                { title: ' Documentales', genre: 'Documental', listType: 'all' },
+                { title: ' Anime', genre: 'Anime', listType: 'all' },
+            ];
+
+            sections.forEach((section) => {
+                let list = section.list;
+                if (section.genre) {
+                    let source = allContent;
+                    list = source.filter(a => a.genre && a.genre.some(g => g === section.genre)).sort(() => 0.5 - Math.random()).slice(0, 10);
+                }
+
+                if (list && list.length > 0) {
+                    const sectionDiv = document.createElement('div');
+                    sectionDiv.className = 'content-section';
+                    const titleElement = document.createElement('h2');
+                    titleElement.className = 'section-title';
+                    titleElement.textContent = section.title;
+                    const scrollDiv = document.createElement('div');
+                    scrollDiv.className = 'horizontal-scroll';
+                    
+                    list.forEach(item => {
+                        scrollDiv.appendChild(createCardHTML(item));
+                    });
+                    
+                    sectionDiv.appendChild(titleElement);
+                    sectionDiv.appendChild(scrollDiv);
+                    content.appendChild(sectionDiv);
+                }
+            });
+            content.classList.add('loaded');
+            loadingIndicator.classList.remove('show');
+        }
+
+        // ** FUNCIÓN CLAVE: Lógica de carga 30 en 30 (OPTIMIZADA) **
+        function loadMoreItems(list) {
+            if (isPaginating) return;
+            isPaginating = true;
+            
+            if (currentPage > 0 && dynamicGrid.children.length < list.length) {
+                loadingIndicator.classList.add('show');
+                loadingIndicator.innerHTML = `<i class="fas fa-spinner"></i> Cargando ${itemsPerLoad} más...`;
+            }
+
+            const startIndex = currentPage * itemsPerLoad;
+            const endIndex = startIndex + itemsPerLoad;
+            const itemsToLoad = list.slice(startIndex, endIndex);
+
+            if (itemsToLoad.length === 0) {
+                loadingIndicator.innerHTML = `Mostrando ${list.length} resultados. Fin del catálogo.`;
+                setTimeout(() => { loadingIndicator.classList.remove('show'); isPaginating = false; }, 1000);
+                return;
+            }
+
+            const fragment = document.createDocumentFragment();
+            itemsToLoad.forEach(item => {
+                fragment.appendChild(createCardHTML(item));
+            });
+            dynamicGrid.appendChild(fragment);
+            currentPage++;
+            isPaginating = false;
+
+            loadingIndicator.innerHTML = `Mostrando ${dynamicGrid.children.length} de ${list.length} resultados.`;
+            if (dynamicGrid.children.length === list.length) {
+                loadingIndicator.innerHTML = `Mostrando ${list.length} resultados. Fin del catálogo.`;
+            }
+            
+            setTimeout(() => loadingIndicator.classList.remove('show'), 300);
+        }
+
+        function setupGridPage(list, titleText) {
+            content.innerHTML = '';
+            gridTitle.textContent = titleText;
+            gridTitle.style.display = 'block';
+            dynamicGrid.innerHTML = '';
+            
+            if (list.length === 0) {
+                dynamicGrid.innerHTML = `<p style="color:var(--muted); padding: 20px 0; text-align: center;">${currentTab === 'favorites' ? 'No tienes favoritos guardados.' : 'No hay contenido disponible.'}</p>`;
+                loadingIndicator.classList.remove('show');
+                return;
+            }
+            
+            currentList = list;
+            currentPage = 0;
+            loadMoreItems(list);
+        }
+
+        // ** Evento de Scroll para Carga Infinita **
+        mainView.addEventListener('scroll', () => {
+            if (currentTab === 'home' || currentTab === 'search' || isPaginating) { return; }
+            
+            // Umbral de 300px antes de llegar al final
+            const scrollThreshold = 300; 
+            if (mainView.scrollTop + mainView.clientHeight >= mainView.scrollHeight - scrollThreshold) {
+                if (dynamicGrid.children.length < currentList.length) {
+                    loadMoreItems(currentList);
+                } else {
+                    loadingIndicator.classList.remove('show');
+                }
+            }
+        });
+
+        // --- Lógica de Vistas (Navegación) ---
+        function showView(viewId) {
+            if (viewId === 'detailView') {
+                detailView.style.display = 'block';
+                mainView.style.display = 'none';
+                searchView.style.display = 'none';
+            } else {
+                mainView.style.display = 'block';
+                searchView.style.display = viewId === 'searchView' ? 'block' : 'none';
+                detailView.style.display = 'none';
+            }
+        }
+
+        function renderCurrentTab(){
+            document.getElementById('backFromSearch').style.display = 'none';
+            bottomNavItems.forEach(b => b.classList.remove('active'));
+            const activeNavButton = document.querySelector(`.nav-item[data-tab="${currentTab}"]`);
+            if (activeNavButton) { activeNavButton.classList.add('active'); }
+
+            if (currentTab === 'search') {
+                showView('searchView');
+                // En TV, el enfoque debe ir al primer elemento enfocable, en este caso, el input
+                searchInput.focus(); 
+                handleSearchInput();
+                document.getElementById('backFromSearch').style.display = 'block';
+                return;
+            }
+
+            showView('mainView');
+            mainView.scrollTo({top: 0, behavior: 'smooth'});
+
+            if(currentTab === 'home'){
+                renderHomePage();
+            } else if (currentTab === 'series') {
+                setupGridPage(series, 'Todas las Series');
+            } else if (currentTab === 'movies') {
+                setupGridPage(movies, 'Todas las Películas');
+            } else if (currentTab === 'channels') {
+                setupGridPage(channels, 'Todos los Canales en Vivo');
+            } else if (currentTab === 'favorites') {
+                setupGridPage(getFavorites(), 'Mis Favoritos');
+            }
+        }
+
+        // Eventos de Navegación Inferior
+        bottomNavItems.forEach(btn => {
+            btn.onclick = () => { currentTab = btn.dataset.tab; renderCurrentTab(); };
+            btn.addEventListener('keydown', (e) => { // Soporte para Enter
+                 if (e.key === 'Enter') {
+                    currentTab = btn.dataset.tab; 
+                    renderCurrentTab(); 
+                }
+            });
+        });
+
+        // Eventos de Buscador
+        document.getElementById('backFromSearch').onclick = () => {
+            searchInput.value = '';
+            currentTab = 'home';
+            renderCurrentTab();
+        }
+        
+        document.getElementById('backFromSearch').addEventListener('keydown', (e) => { // Soporte para Enter
+             if (e.key === 'Enter') {
+                searchInput.value = '';
+                currentTab = 'home';
+                renderCurrentTab();
+            }
+        });
+
+        function handleSearchInput() {
+            const query = searchInput.value.toLowerCase().trim();
+            searchResultsGrid.innerHTML = '';
+            
+            if (query.length < 2) {
+                searchResultsTitle.textContent = "Empieza a escribir para buscar (título o género)...";
+                searchResultsGrid.innerHTML = `<p style="color:var(--muted); padding: 50px 0; text-align: center;">Escribe al menos dos caracteres para iniciar la búsqueda.</p>`;
+                return;
+            }
+
+            const filtered = allContent.filter(item => 
+                item.title.toLowerCase().includes(query) || 
+                (item.genre && item.genre.some(g => g.toLowerCase().includes(query))) || 
+                (item.description && item.description.toLowerCase().includes(query))
+            );
+
+            searchResultsTitle.textContent = `Resultados para "${query}" (${filtered.length})`;
+
+            if (filtered.length === 0) {
+                searchResultsGrid.innerHTML = `<p style="color:var(--muted); padding: 20px 0; text-align: center;">No se encontraron resultados para "${query}".</p>`;
+            } else {
+                filtered.forEach(item => {
+                    searchResultsGrid.appendChild(createCardHTML(item));
+                });
+            }
+        }
+        searchInput.addEventListener('input', handleSearchInput);
+
+
+        // ** FUNCIÓN CLAVE PARA VOLVER AL DETALLE TRAS REPRODUCIR **
+        function closeDetailAndUpdate() {
+            if (currentItem) {
+                detailView.style.display='none';
+                detailBackground.classList.remove('show');
+                // Reabrimos el detalle para actualizar el botón "Continuar Viendo"
+                openDetail(currentItem); 
+            } else {
+                detailView.style.display='none';
+                detailBackground.classList.remove('show');
+                renderCurrentTab();
+            }
+        }
+
+        // ----------------------------
+        // --- Lógica de Detalle ---
+        function openDetail(item){
+            currentItem=item;
+            const coverUrl = item.coverImage || item.logo || 'https://via.placeholder.com/140x200?text=Portada';
+            const seriesId = item.id || item.title;
+
+            // 1. Configurar Fondo Inmersivo y Header de Detalle
+            detailBackgroundImage.src = coverUrl;
+            detailBackground.classList.add('show');
+            showView('detailView');
+            detailView.scrollTo({top: 0, behavior: 'smooth'});
+            detailHeroImage.src = coverUrl;
+            detailHeroTitle.textContent = item.title;
+            detailTitle.textContent=item.title;
+
+            // 2. Rellenar detalles básicos
+            detailDesc.textContent=item.description||'No hay descripción disponible para este contenido.';
+            detailGenres.textContent=Array.isArray(item.genre)&&item.genre.length?'🎭 '+item.genre.join(', '):'';
+
+            // 3. Configurar Botón de Favoritos
+            favoriteBtn.onclick = () => toggleFavorite(item);
+            favoriteBtn.onkeydown = (e) => { if (e.key === 'Enter') toggleFavorite(item); }; // Soporte para Enter
+            
+            if (isFavorite(item)) {
+                favoriteBtn.classList.add('active');
+            } else {
+                favoriteBtn.classList.remove('active');
+            }
+
+            // 4. Lógica de Reproducción Dinámica
+            episodesListContainer.innerHTML='';
+            reproduceBtn.style.display = 'none';
+            episodesSection.style.display = 'block';
+            
+            const isSeries = item.episodes && item.episodes.length > 0;
+
+            if(isSeries){
+                let lastWatchedIndex = getLastWatchedEpisodeIndex(seriesId);
+                let nextEpisodeIndex = lastWatchedIndex !== undefined ? lastWatchedIndex + 1 : 0;
+                
+                if (nextEpisodeIndex >= item.episodes.length) {
+                    nextEpisodeIndex = item.episodes.length - 1;
+                } else if (nextEpisodeIndex < 0) {
+                    nextEpisodeIndex = 0;
+                }
+                
+                const indexToPlayOnButton = nextEpisodeIndex;
+                const hasStarted = lastWatchedIndex !== undefined;
+
+                episodesSection.querySelector('h3').textContent = 'Capítulos';
+                reproduceBtn.style.display = 'flex';
+                
+                if (hasStarted && lastWatchedIndex < item.episodes.length - 1) {
+                    reproduceBtn.innerHTML = `<i class="fas fa-forward"></i> Continuar viendo (Cap. ${indexToPlayOnButton + 1})`;
+                } else if (hasStarted && lastWatchedIndex === item.episodes.length - 1) {
+                    reproduceBtn.innerHTML = `<i class="fas fa-check"></i> Visto, Ver último (Cap. ${indexToPlayOnButton + 1})`;
+                } else {
+                    reproduceBtn.innerHTML = `<i class="fas fa-play"></i> Ver Ahora (Cap. 1)`;
+                }
+
+                // Función de reproducción para el botón principal "Continuar Viendo"
+                const playMainButton = () => {
+                    const episodeElement = episodesListContainer.children[indexToPlayOnButton];
+                    if(episodeElement) {
+                        const scrollPos = episodeElement.offsetLeft - episodesListContainer.clientWidth / 2 + episodeElement.clientWidth / 2;
+                        episodesListContainer.scrollTo({ left: scrollPos, behavior: 'smooth' });
+                        // Simular clic en el elemento del episodio
+                        setTimeout(() => episodeElement.click(), 500);
+                    } else if (item.episodes[indexToPlayOnButton]) {
+                        window.open(item.episodes[indexToPlayOnButton].video_url, '_blank'); 
+                        setTimeout(closeDetailAndUpdate, 2000);
+                    } else {
+                         console.error("No se encontró el episodio para reproducir.");
+                    }
+                };
+                
+                reproduceBtn.onclick = playMainButton;
+                reproduceBtn.onkeydown = (e) => { if (e.key === 'Enter') playMainButton(); }; // Soporte para Enter
+
+                item.episodes.forEach((ep,i)=>{
+                    const episodeIndex = i;
+                    const isWatched = isEpisodeWatched(seriesId, episodeIndex);
+                    const episodeItem = document.createElement('div');
+                    const isActive = isSeries && episodeIndex === indexToPlayOnButton;
+                    
+                    episodeItem.className = `episode-item ${isWatched ? 'watched' : ''} ${isActive ? 'active' : ''}`;
+                    episodeItem.setAttribute('tabindex', '0'); // Hacer el episodio enfocable
+
+                    const thumbUrl = ep.thumb || item.coverImage || 'https://via.placeholder.com/320x180?text=Episodio';
+                    const episodeTitle = `Episodio ${i+1}: ${ep.title || item.title}`;
+                    const iconClass = isWatched ? 'fas fa-check-circle' : 'fas fa-play-circle';
+
+                    episodeItem.innerHTML = `
+                        <div class="episode-thumb">
+                            <img src="${thumbUrl}" alt="Ep. ${i+1}" onerror="this.onerror=null;this.src='https://via.placeholder.com/320x180?text=Episodio';">
+                            <i class="${iconClass} play-icon"></i>
+                        </div>
+                        <div class="episode-info">
+                            <strong>${episodeTitle}</strong>
+                            <span>${ep.description || 'Sinopsis del episodio...'}</span>
+                        </div>
+                    `;
+
+                    const playEpisode = () => {
+                        document.querySelectorAll('.episode-item').forEach(x => x.classList.remove('active'));
+                        getLastWatchedEpisodeIndex(seriesId, episodeIndex);
+                        episodeItem.classList.add('active');
+                        saveWatchedEpisode(seriesId, episodeIndex); 
+                        episodeItem.classList.remove('active'); // Se elimina para que solo persista la clase 'watched'
+                        episodeItem.classList.add('watched');
+                        episodeItem.querySelector('.play-icon').className = 'fas fa-check-circle play-icon';
+                        window.open(ep.video_url, '_blank');
+                        // ** VUELVE AL DETALLE Y ACTUALIZA (Episodio) **
+                        setTimeout(closeDetailAndUpdate, 2000);
+                    }
+
+                    episodeItem.onclick = playEpisode;
+                    episodeItem.onkeydown = (e) => { if (e.key === 'Enter') playEpisode(); }; // Soporte para Enter
+                    
+                    episodesListContainer.appendChild(episodeItem);
+
+                    if(isActive && episodesListContainer.children.length > 0) {
+                        setTimeout(() => {
+                            const scrollPos = episodeItem.offsetLeft - episodesListContainer.clientWidth / 2 + episodeItem.clientWidth / 2;
+                            episodesListContainer.scrollTo({ left: scrollPos, behavior: 'smooth' });
+                            episodeItem.focus(); // Enfocar el episodio activo
+                        }, 50);
+                    }
+                });
+            } else if(item.video_url){
+                // Caso de Película o Canal en Vivo
+                episodesSection.style.display = 'none';
+                reproduceBtn.style.display = 'flex';
+                reproduceBtn.innerHTML = `<i class="fas fa-play"></i> ${item.isChannel ? 'Ver Canal en Vivo' : 'Reproducir Ahora'}`;
+                
+                const playMovieOrChannel = () => {
+                    window.open(item.video_url, '_blank'); 
+                    setTimeout(closeDetailAndUpdate, 2000);
+                }
+
+                reproduceBtn.onclick = playMovieOrChannel;
+                reproduceBtn.onkeydown = (e) => { if (e.key === 'Enter') playMovieOrChannel(); }; // Soporte para Enter
+
+            } else {
+                episodesSection.style.display = 'none';
+                reproduceBtn.style.display = 'none';
+            }
+
+            // 5. Renderizar Recomendaciones
+            renderRecommendations(item);
+        }
+
+        function renderRecommendations(item) {
+            recommendationsScroll.innerHTML = '';
+            const recommendations = getRecommendations(item);
+            
+            if (recommendations.length > 0) {
+                recommendationsSection.style.display = 'block';
+                recommendations.forEach(rec => {
+                    recommendationsScroll.appendChild(createCardHTML(rec));
+                });
+            } else {
+                recommendationsSection.style.display = 'none';
+            }
+        }
+
+        // Acción de "Volver" Manual del Detalle (vuelve a la vista principal de la pestaña)
+        backBtn.onclick=()=>{
+            detailView.style.display='none';
+            detailBackground.classList.remove('show');
+            currentItem = null; // Limpiar el item actual
+            renderCurrentTab();
+        };
+        
+        backBtn.onkeydown = (e) => { // Soporte para Enter
+            if (e.key === 'Enter') {
+                detailView.style.display='none';
+                detailBackground.classList.remove('show');
+                currentItem = null;
+                renderCurrentTab();
+            }
+        };
+
+        // ----------------------------
+        // --- Inicialización ---
+        document.addEventListener('DOMContentLoaded',async()=>{
+            await fetchData();
+        });
+    </script>
+</body>
+</html>
