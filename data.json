@@ -1,5 +1,42 @@
 [
 
+
+{
+  "title": "Five Nights at Freddy’s",
+  "description": "Una película de terror inspirada en el famoso videojuego, donde los protagonistas deben sobrevivir a una siniestra pizzería llena de animatrónicos peligrosos.",
+  "genre": ["Terror", "Suspenso"],
+  "coverImage": "https://pics.filmaffinity.com/Five_Nights_at_Freddy_s-397761188-large.jpg",
+  "video_url": "https://archive.org/download/fnafmv/fnafmv.mp4"
+},
+  
+
+{
+  "title": "Isekai wa Smartphone to Tomo ni",
+  "coverImage": "https://images.justwatch.com/poster/334028005/s718/isekai-wa-smartphone-to-tomo-ni.jpg",
+  "description": "Después de morir accidentalmente, Touya Mochizuki reencarna en un mundo de fantasía con su smartphone y habilidades mejoradas. Allí inicia una nueva vida llena de magia, aventuras y encuentros con nuevos compañeros.",
+  "genre": [
+    "Fantasia",
+    "Aventura",
+    "Isekai",
+    "Comedia"
+  ],
+  "episodes": [
+    { "episode": 1, "title": "Episode 1", "video_url": "https://archive.org/download/fnafmv/1.mp4" },
+    { "episode": 2, "title": "Episode 2", "video_url": "https://archive.org/download/fnafmv/2.mp4" },
+    { "episode": 3, "title": "Episode 3", "video_url": "https://archive.org/download/fnafmv/3.mp4" },
+    { "episode": 4, "title": "Episode 4", "video_url": "https://archive.org/download/fnafmv/4.mp4" },
+    { "episode": 5, "title": "Episode 5", "video_url": "https://archive.org/download/fnafmv/5.mp4" },
+    { "episode": 6, "title": "Episode 6", "video_url": "https://archive.org/download/fnafmv/6.mp4" },
+    { "episode": 7, "title": "Episode 7", "video_url": "https://archive.org/download/fnafmv/7.mp4" },
+    { "episode": 8, "title": "Episode 8", "video_url": "https://archive.org/download/fnafmv/8.mp4" },
+    { "episode": 9, "title": "Episode 9", "video_url": "https://archive.org/download/fnafmv/9.mp4" },
+    { "episode": 10, "title": "Episode 10", "video_url": "https://archive.org/download/fnafmv/10.mp4" },
+    { "episode": 11, "title": "Episode 11", "video_url": "https://archive.org/download/fnafmv/11.mp4" },
+    { "episode": 12, "title": "Episode 12", "video_url": "https://archive.org/download/fnafmv/12.mp4" }
+  ]
+},
+
+  
 {
   "title": "Death Note",
   "coverImage": "https://m.media-amazon.com/images/M/MV5BYTgyZDhmMTEtZDFhNi00MTc4LTg3NjUtYWJlNGE5Mzk2NzMxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
