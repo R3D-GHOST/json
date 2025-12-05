@@ -1,0 +1,1241 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrimeBox+ | Streaming Premium</title>
+    <meta name="theme-color" content="#0f171e">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-app-capable" content="yes">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;600;700&family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+    <link href="https://vjs.zencdn.net/8.6.1/video-js.css" rel="stylesheet" />
+
+    <style>
+        /* ------------------------------------------- */
+        /* 🎨 CSS GLOBAL Y VARIABLES - ESTILO AMAZON PRIME VIDEO */
+        /* ------------------------------------------- */
+        *{ box-sizing:border-box; margin:0; padding:0; }
+        :root{
+            /* Colores de Amazon Prime Video */
+            --bg-primary: #0f171e;
+            --bg-card: #1a242f;
+            --bg-darker: #000000;
+            --text: #ffffff;
+            --muted: #aeb4c6;
+            --accent: #00a8e1;
+            --accent-2: #4ec2e7;
+            --shadow-dark: rgba(0, 0, 0, 0.9);
+            --shadow-accent: rgba(0, 168, 225, 0.5);
+            --nav-height: 60px;
+            --watched-color: #3b4d61;
+        }
+        /* 🚀 BASE: ¡CLAVE! Desactivar todo scroll en el body y html */
+        body, html{
+            font-family:'Inter','Poppins',sans-serif;
+            background:var(--bg-primary);
+            color:var(--text);
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+            scroll-behavior:smooth;
+            line-height:1.45;
+        }
+
+        /* ------------------------------------------- */
+        /* 🔄 OPTIMIZACIÓN DE TRANSICIÓN DE VISTAS SUAVES (Slide) */
+        /* ------------------------------------------- */
+        #appContainer {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+        main{
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            padding-bottom: var(--nav-height);
+            overflow: hidden;
+            z-index: 10;
+        }
+        #mainView, #searchView {
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            overflow-y: auto;
+            overflow-x: hidden;
+            padding-bottom: var(--nav-height);
+            transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        }
+        #mainView { z-index: 20; }
+        #searchView {
+            transform: translateX(100%); 
+            z-index: 25;
+            background: var(--bg-primary);
+            padding-top: 24px;
+            padding-bottom: calc(24px + var(--nav-height));
+        }
+        body.view-search #mainView {
+            transform: translateX(-100%);
+        }
+        body.view-search #searchView {
+            transform: translateX(0);
+        }
+        #detailView{
+            position:fixed;
+            inset:0;
+            background:var(--bg-primary);
+            overflow-y:auto;
+            z-index:200;
+            display: block;
+            transform: translateY(100%);
+            transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        }
+        body.view-detail #detailView {
+            transform: translateY(0);
+        }
+
+        /* ------------------------------------------- */
+        /* 🖼️ ELEMENTOS DE LA INTERFAZ */
+        /* ------------------------------------------- */
+        #searchHeader {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 20px;
+            padding: 0 3vw;
+            position: sticky;
+            top: 0;
+            background: var(--bg-primary);
+            z-index: 60;
+            padding-top: 20px;
+            padding-bottom: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        }
+        #searchInput {
+            flex-grow: 1;
+            padding: 12px 18px;
+            border-radius: 6px;
+            border: 2px solid var(--bg-card);
+            font-size: 1.05rem;
+            background: var(--bg-card);
+            color: var(--text);
+            transition: border-color .3s, box-shadow .3s;
+        }
+        #searchResultsGrid {
+            padding: 0 3vw;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+            gap: 10px;
+        }
+        .section-title {
+            font-size: 1.6rem;
+            font-weight: 700;
+            padding: 0 3vw;
+            margin-bottom: 10px;
+            border-left: 4px solid var(--accent);
+            padding-left: 14px;
+        }
+        .horizontal-scroll {
+            display: flex;
+            overflow-x: scroll;
+            padding: 10px 3vw;
+            gap: 15px;
+            -webkit-overflow-scrolling: touch;
+            scroll-snap-type: x mandatory;
+        }
+        .horizontal-scroll::-webkit-scrollbar { display: none; }
+        
+        .card{
+            flex: 0 0 140px;
+            background:var(--bg-card);
+            border-radius:4px;
+            overflow:hidden;
+            cursor:pointer;
+            transition:transform .3s cubic-bezier(0.25, 0.46, 0.45, 0.94), box-shadow .3s ease-out, opacity .5s;
+            opacity:0;
+            box-shadow:0 1px 4px rgba(0,0,0,.5);
+        }
+        .card.show{
+            opacity:1;
+            transform: scale(0.98);
+        }
+        .card:hover{
+            transform:scale(1.08);
+            box-shadow:0 10px 20px var(--shadow-accent);
+            z-index: 10;
+            outline: none;
+        }
+        .card img{
+            display:block;
+            width:100%;
+            height:200px;
+            object-fit:cover;
+            transition:transform .3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        }
+        .hero-static-container, .detail-hero-container {
+            position: relative;
+            width: 100%;
+            height: 300px;
+            overflow: hidden;
+        }
+        .hero-overlay, .detail-hero-overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(0deg, var(--bg-primary) 0%, rgba(15,23,30,0) 50%);
+            padding: 30px 3vw;
+            display: flex;
+            align-items: flex-end;
+        }
+        .play-button-hero, #reproduceBtn {
+            background: var(--accent);
+            color: var(--text);
+            padding: 12px 25px;
+            border-radius: 4px;
+            font-weight: 700;
+            font-size: 1.05rem;
+            cursor: pointer;
+            transition: background-color .2s, transform .2s, box-shadow .2s;
+            border: none;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            width: fit-content;
+        }
+        
+        /* ------------------------------------------- */
+        /* ⬇️ MENÚ DE NAVEGACIÓN INFERIOR (Darker) */
+        /* ------------------------------------------- */
+        #bottomNav {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: var(--nav-height);
+            background: var(--bg-darker);
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            box-shadow: 0 -4px 15px var(--shadow-dark);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            z-index: 999;
+            padding: 0 5px;
+        }
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 4px 0;
+            flex: 1;
+            color: var(--muted);
+            font-size: 0.7rem;
+            font-weight: 500;
+            cursor: pointer;
+            user-select: none;
+            min-width: 0;
+            transition: color 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94), transform 0.1s;
+        }
+        .nav-item.active { color: var(--text); }
+
+        /* ------------------------------------------- */
+        /* 🖼️ VISTA DE DETALLE (Inmersiva) */
+        /* ------------------------------------------- */
+        #detailBackground.show { opacity: 1; }
+        .detail-header{
+            position:sticky;
+            top:0;
+            z-index:10;
+            display:flex;
+            align-items:center;
+            gap:16px;
+            padding:16px 3vw;
+            background:rgba(15, 23, 30, 0.85);
+            backdrop-filter:blur(10px);
+            box-shadow:0 2px 10px rgba(0,0,0,.5);
+        }
+        .btn{
+            border:0;
+            background:var(--accent);
+            color:var(--text);
+            padding:10px 18px;
+            border-radius:4px;
+            font-weight:600;
+            cursor:pointer;
+            transition: transform .2s, background-color .2s;
+        }
+        .detail-main{
+            padding:35px 3vw;
+            padding-top: 10px;
+            position: relative;
+            z-index: 5;
+        }
+        .episodes{
+            margin-top:26px;
+            padding-top:18px;
+            border-top:1px solid rgba(255,255,255,.15);
+            margin-left: -3vw;
+            margin-right: -3vw;
+            padding-left: 3vw;
+        }
+        .episodes-list{
+            display: flex;
+            overflow-x: scroll;
+            padding: 10px 3vw;
+            gap: 15px;
+            padding-bottom: 10px;
+        }
+        .episode-item{
+            flex-shrink: 0;
+            width: 320px;
+            background: var(--bg-card);
+            border-radius: 8px;
+            padding: 10px;
+            cursor: pointer;
+            transition: background-color .2s, transform .3s, border-color .2s, box-shadow .3s;
+            border: 2px solid transparent;
+            scroll-snap-align: start;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            position: relative;
+        }
+        .episode-item:hover, .episode-item.active { 
+            transform: scale(1.05);
+            box-shadow: 0 0 0 4px var(--accent-2), 0 10px 20px rgba(0, 0, 0, 0.5);
+            background-color: #2a385f;
+            z-index: 5;
+            outline: none;
+        }
+        .episode-item.watched {
+            background-color: var(--watched-color);
+            opacity: 0.9;
+        }
+        .episode-thumb{
+            width: 100%;
+            height: 180px;
+            overflow: hidden;
+            border-radius: 6px;
+            position: relative;
+            margin-bottom: 10px;
+        }
+        .episode-item.watched .play-icon {
+            color: #4CAF50;
+            font-size: 2rem;
+            background: none;
+            opacity: 1;
+        }
+        
+        /* 🆕 PROGRESO DE EPISODIOS */
+        .episode-progress-bar {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 6px;
+            background: var(--bg-primary);
+            border-radius: 0 0 6px 6px;
+            z-index: 10;
+            overflow: hidden;
+        }
+        .episode-thumb .episode-progress-bar { border-radius: 0; }
+        .episode-progress-bar-fill {
+            height: 100%;
+            background: var(--accent);
+            width: 0%;
+            transition: width 0.3s ease-out;
+        }
+        .episode-item.watched .episode-progress-bar-fill {
+            width: 100% !important;
+            background: #4CAF50;
+        }
+        .episode-item.last-watched:not(.watched) .episode-progress-bar-fill {
+            width: 50%;
+            background: var(--accent);
+        }
+
+        /* ------------------------------------------- */
+        /* 🎥 VISTA DEL REPRODUCTOR DE VIDEO (CUSTOM) */
+        /* ------------------------------------------- */
+        #videoPlayerView {
+            position: fixed;
+            inset: 0;
+            background: var(--bg-darker);
+            z-index: 1000;
+            display: none;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        body.view-player #videoPlayerView {
+            display: flex;
+        }
+        .video-container {
+            width: 100%;
+            max-width: 1000px;
+            height: 56.25vw;
+            max-height: 80vh;
+            background: #000;
+        }
+        .video-js {
+            width: 100%;
+            height: 100%;
+            color: var(--text);
+            font-family: inherit;
+        }
+        .player-controls-container {
+            width: 100%;
+            max-width: 1000px;
+            padding: 15px 3vw;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 10px;
+        }
+        #playerEpisodeTitle {
+            font-size: 1.2rem;
+            font-weight: 600;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            flex-grow: 1;
+            color: var(--text);
+        }
+        .player-nav-button {
+            background: var(--bg-card);
+            color: var(--text);
+            border: none;
+            padding: 10px 15px;
+            border-radius: 4px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background-color .2s, transform .2s;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            user-select: none;
+        }
+        .player-nav-button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            transform: none;
+        }
+        .player-nav-button:not(:disabled):hover {
+            background: var(--accent);
+            transform: translateY(-1px);
+        }
+        #backFromPlayer {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            z-index: 10;
+            font-size: 1.8rem;
+            color: var(--text);
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        /* 📱 Media Queries */
+        @media (max-width:480px){
+            .episode-item {
+                width: 90vw;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="appContainer">
+        <main>
+            <div id="mainView">
+                <div id="content">
+                </div>
+                <div id="loadingIndicator">Cargando...</div>
+            </div>
+
+            <div id="searchView">
+                <div id="searchHeader">
+                    <i class="fas fa-arrow-left" id="backFromSearch"></i>
+                    <input type="text" id="searchInput" placeholder="Buscar contenido, género...">
+                </div>
+                <h2 id="searchResultsTitle"></h2>
+                <div id="searchResultsGrid">
+                    <p style="color:var(--muted); padding: 50px 3vw; text-align: center;">Empieza a escribir para buscar (título o género)...</p>
+                </div>
+            </div>
+        </main>
+
+        <div id="detailBackground">
+            <img id="detailBackgroundImage" src="" alt="Fondo de la portada">
+        </div>
+
+        <div id="detailView">
+            <div class="detail-header">
+                <button id="backBtn" class="btn">❮ Volver</button>
+                <h2 id="detailTitle" class="detail-title"></h2>
+            </div>
+            <div id="detailHeroContainer" class="detail-hero-container">
+                <img id="detailHeroImage" src="" alt="Portada de la serie/película">
+                <div class="detail-hero-overlay">
+                    <h1 id="detailHeroTitle"></h1>
+                </div>
+            </div>
+            <div class="detail-main">
+                <div class="details">
+                    <h2 id="detailName"></h2>
+                    <div id="detailActionButtons">
+                        <button id="reproduceBtn" style="display:none;"></button>
+                        <button id="favoriteBtn"><i class="fas fa-heart"></i></button>
+                    </div>
+                    <p id="detailDesc"></p>
+                    <p id="detailGenres"></p>
+                </div>
+            </div>
+            <div id="detailEpisodes" class="episodes content-section">
+                <h3>Capítulos</h3>
+                <div class="episodes-list horizontal-scroll">
+                </div>
+            </div>
+            <div id="recommendationsSection" class="content-section">
+                <h2 class="section-title">Recomendaciones</h2>
+                <div class="horizontal-scroll" id="recommendationsScroll">
+                </div>
+            </div>
+        </div>
+
+        <div id="videoPlayerView">
+            <i class="fas fa-arrow-left" id="backFromPlayer"></i>
+            <div class="video-container">
+                <video id="customVideoPlayer" class="video-js vjs-big-play-centered" controls preload="auto" poster="" data-setup="{}">
+                    <p class="vjs-no-js">Para ver este video, habilite JavaScript y considere actualizar su navegador a uno que <a href="https://videojs.com/html5-video-support/" target="_blank">soporte video HTML5</a></p>
+                </video>
+            </div>
+            <div class="player-controls-container">
+                <button id="prevEpisodeBtn" class="player-nav-button" disabled>
+                    <i class="fas fa-backward"></i> Anterior
+                </button>
+                <span id="playerEpisodeTitle">Cargando...</span>
+                <button id="nextEpisodeBtn" class="player-nav-button" disabled>
+                    Siguiente <i class="fas fa-forward"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <nav id="bottomNav">
+        <div class="nav-item active" data-tab="home">
+            <i class="fas fa-house-chimney"></i>
+            <span>Inicio</span>
+        </div>
+        <div class="nav-item" data-tab="series">
+            <i class="fas fa-clapperboard"></i>
+            <span>Series</span>
+        </div>
+        <div class="nav-item" data-tab="movies">
+            <i class="fas fa-film"></i>
+            <span>Películas</span>
+        </div>
+        <div class="nav-item" data-tab="channels">
+            <i class="fas fa-tv"></i>
+            <span>Canales</span>
+        </div>
+        <div class="nav-item" data-tab="favorites">
+            <i class="fas fa-heart"></i>
+            <span>Favoritos</span>
+        </div>
+        <div class="nav-item" data-tab="search">
+            <i class="fas fa-search"></i>
+            <span>Buscar</span>
+        </div>
+    </nav>
+
+    <script src="https://vjs.zencdn.net/8.6.1/video.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/videojs-contrib-hls@5.15.0/dist/videojs-contrib-hls.min.js"></script>
+
+    <script>
+        // --- CONSTANTES Y VARIABLES ---
+        const ANIME_JSON = "https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/data.json";
+        const M3U8_URL = "https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/CV.m3u8";
+        let contentData = [], series = [], movies = [], channels = [];
+        let currentTab = 'home', currentItem = null;
+        let allContent = [];
+        let player = null; 
+        let currentEpisodeIndex = 0; 
+
+        // Referencias del DOM
+        const appContainer = document.getElementById('appContainer');
+        const content = document.getElementById('content');
+        const detailView = document.getElementById('detailView');
+        const detailBackground = document.getElementById('detailBackground');
+        const detailBackgroundImage = document.getElementById('detailBackgroundImage');
+        const backBtn = document.getElementById('backBtn');
+        const mainView = document.getElementById('mainView');
+        const searchView = document.getElementById('searchView');
+        const searchInput = document.getElementById('searchInput');
+        const searchResultsGrid = document.getElementById('searchResultsGrid');
+        const searchResultsTitle = document.getElementById('searchResultsTitle');
+        const bottomNavItems = document.querySelectorAll('.nav-item');
+        const favoriteBtn = document.getElementById('favoriteBtn');
+        const reproduceBtn = document.getElementById('reproduceBtn');
+        const detailTitle = document.getElementById('detailTitle');
+        const detailHeroImage = document.getElementById('detailHeroImage');
+        const detailHeroTitle = document.getElementById('detailHeroTitle');
+        const detailDesc = document.getElementById('detailDesc');
+        const detailGenres = document.getElementById('detailGenres');
+        const episodesSection = document.getElementById('detailEpisodes');
+        const episodesListContainer = document.querySelector('.episodes-list');
+        const loadingIndicator = document.getElementById('loadingIndicator');
+        const recommendationsSection = document.getElementById('recommendationsSection');
+        const recommendationsScroll = document.getElementById('recommendationsScroll');
+
+        // Referencias del Reproductor
+        const videoPlayerView = document.getElementById('videoPlayerView');
+        const backFromPlayer = document.getElementById('backFromPlayer');
+        const playerEpisodeTitle = document.getElementById('playerEpisodeTitle');
+        const prevEpisodeBtn = document.getElementById('prevEpisodeBtn');
+        const nextEpisodeBtn = document.getElementById('nextEpisodeBtn');
+
+        // ----------------------------------------------------
+        // --- FUNCIONES DE ESTADO (CACHE) ---
+
+        function getLastWatchedEpisodeIndex(seriesId, episodeIndex = undefined) {
+             try {
+                const progress = localStorage.getItem('animebox_progress');
+                let progressData = progress ? JSON.parse(progress) : {};
+                if (episodeIndex !== undefined) {
+                    progressData[seriesId] = episodeIndex;
+                    localStorage.setItem('animebox_progress', JSON.stringify(progressData));
+                    return episodeIndex;
+                } else {
+                    return progressData[seriesId];
+                }
+            } catch(e) { return undefined; }
+        }
+
+        function getWatchedEpisodes() {
+            try {
+                const watched = localStorage.getItem('animebox_watched');
+                return watched ? JSON.parse(watched) : {};
+            } catch(e) { return {}; }
+        }
+
+        function isEpisodeWatched(seriesId, episodeIndex) {
+            const watched = getWatchedEpisodes();
+            return watched[seriesId] && watched[seriesId].includes(episodeIndex);
+        }
+
+        function saveWatchedEpisode(seriesId, episodeIndex) {
+            let watched = getWatchedEpisodes();
+            if (!watched[seriesId]) { watched[seriesId] = []; }
+            if (!watched[seriesId].includes(episodeIndex)) {
+                watched[seriesId].push(episodeIndex);
+                localStorage.setItem('animebox_watched', JSON.stringify(watched));
+            }
+        }
+
+        function getFavorites() {
+            try {
+                const favs = localStorage.getItem('animebox_favorites');
+                return favs ? JSON.parse(favs) : [];
+            } catch(e) { return []; }
+        }
+
+        function saveFavorites(favs) {
+            try {
+                localStorage.setItem('animebox_favorites', JSON.stringify(favs));
+            } catch(e) { console.error("Error al guardar favoritos:", e); }
+        }
+
+        function isFavorite(item) {
+            const favs = getFavorites();
+            const itemId = item.id || item.title;
+            return favs.some(fav => (fav.id || fav.title) === itemId);
+        }
+
+        function toggleFavorite(item) {
+            let favs = getFavorites();
+            const itemId = item.id || item.title;
+            const index = favs.findIndex(fav => (fav.id || fav.title) === itemId);
+            const itemToSave = { ...item, id: itemId };
+            if (index > -1) {
+                favs.splice(index, 1);
+                favoriteBtn.classList.remove('active');
+                if(currentTab === 'favorites') { renderCurrentTab(); }
+            } else {
+                favs.push(itemToSave);
+                favoriteBtn.classList.add('active');
+            }
+            saveFavorites(favs);
+        }
+
+        // ----------------------------
+        // --- Funciones de Datos y Separación ---
+        
+        async function fetchData(){
+            try {
+                loadingIndicator.style.display = 'block';
+                contentData = await (await fetch(ANIME_JSON)).json();
+                series = contentData.filter(item => item.episodes && item.episodes.length > 0);
+                movies = contentData.filter(item => !item.episodes || item.episodes.length === 0);
+                await fetchChannels();
+                combineAllContent();
+                loadingIndicator.style.display = 'none';
+                renderCurrentTab();
+            } catch(e){
+                console.error("Error al cargar los datos:", e);
+                contentData=[]; series=[]; movies=[]; channels=[];
+                content.innerHTML = `<p style="color:var(--accent); padding: 50px 3vw; text-align: center;">❌ Error al cargar los datos. Intenta recargar la página.</p>`;
+                loadingIndicator.style.display = 'none';
+            }
+        }
+
+        async function fetchChannels(){
+            try {
+                const res = await fetch(M3U8_URL);
+                const text = await res.text();
+                const lines = text.split(/\r?\n/);
+                let current = null;
+                channels=[];
+                for(const lineRaw of lines){
+                    const line = lineRaw.trim();
+                    if(!line) continue;
+                    if(line.startsWith('#EXTINF:')){
+                        const logo = (line.match(/tvg-logo="([^"]*)"/)||[])[1]||null;
+                        const name = (line.match(/,(.*)$/)||[])[1]?.trim()||'Canal';
+                        const coverImage = logo || 'https://via.placeholder.com/140x200?text=TV';
+                        current = {id:name,title:name,coverImage,logo,type:'channel',isChannel:true, video_url:'', genre: ['En Vivo', 'Canal']};
+                    } else if(!line.startsWith('#') && current){
+                        current.video_url = line;
+                        channels.push(current);
+                        current=null;
+                    }
+                }
+            } catch(e){
+                console.error("Error al cargar canales:", e);
+                channels=[];
+            }
+        }
+
+        function combineAllContent() {
+            allContent = [...contentData, ...channels];
+        }
+
+        function getRecommendations(currentItem) {
+            if (!currentItem) return [];
+            const currentId = currentItem.id || currentItem.title;
+            const currentGenre = currentItem.genre || [];
+            let filteredContent = allContent.filter(item => (item.id || item.title) !== currentId);
+            let genreRecs = [];
+            if (currentGenre.length > 0) {
+                genreRecs = filteredContent
+                    .filter(item => item.genre && item.genre.some(g => currentGenre.includes(g)))
+                    .sort(() => 0.5 - Math.random())
+                    .slice(0, 7);
+            }
+            let fillerRecs = filteredContent
+                .filter(item => (item.episodes ? true : false) === (currentItem.episodes ? true : false))
+                .filter(item => !genreRecs.includes(item))
+                .sort(() => 0.5 - Math.random())
+                .slice(0, 10 - genreRecs.length);
+            return [...genreRecs, ...fillerRecs].slice(0, 10);
+        }
+
+        // --- Funciones de Renderizado ---
+        
+        function renderStaticHero(item) {
+            if (!item) return null;
+            const container = document.createElement('div');
+            container.className = 'hero-static-container';
+            const heroCover = item.coverImage || 'https://via.placeholder.com/600x350?text=Última Novedad';
+            const itemId = item.id || item.title;
+            container.innerHTML = `
+                <img src="${heroCover}" alt="${item.title}" tabindex="-1" onerror="this.onerror=null;this.src='https://via.placeholder.com/600x350?text=Última Novedad';">
+                <div class="hero-overlay">
+                    <h1>${item.title}</h1>
+                    <p>${item.description || 'La última adición a nuestro catálogo premium. ¡No te la pierdas!'}</p>
+                    <button class="play-button-hero" onclick="openDetail(allContent.find(i => (i.id || i.title) === '${itemId}'))">
+                        <i class="fas fa-play"></i> Reproducir Ahora
+                    </button>
+                </div>
+            `;
+            return container;
+        }
+
+        function createCardHTML(item) {
+            const cover = item.coverImage || item.logo || 'https://via.placeholder.com/140x200?text=Portada';
+            const spanText = item.isChannel ? 'En vivo' : (item.genre ? item.genre[0] : '');
+            const card = document.createElement('div');
+            card.className = 'card';
+            card.innerHTML = `<img src="${cover}" alt="${item.title}" onerror="this.onerror=null;this.src='https://via.placeholder.com/140x200?text=Portada';"><div class="info"><h3>${item.title}</h3><span>${spanText}</span></div>`;
+            card.onclick = () => openDetail(item);
+            setTimeout(() => card.classList.add('show'), Math.random() * 200 + 50);
+            return card;
+        }
+
+        function renderHomePage() {
+            content.innerHTML = '';
+            const featuredItem = allContent[0];
+            if (featuredItem) {
+                const heroElement = renderStaticHero(featuredItem);
+                if (heroElement) {
+                    content.appendChild(heroElement);
+                }
+            }
+
+            const sections = [
+                { title: ' Canales en Vivo', list: channels.slice(0, 10) },
+                { title: ' Acción', genre: 'Acción', listType: 'all' },
+                { title: ' Animación', genre: 'Animación', listType: 'all' },
+                { title: ' Anime', genre: 'Anime', listType: 'all' },
+                { title: ' Terror y Thriller', genre: 'Terror', listType: 'all' },
+                { title: ' Documentales', genre: 'Documental', listType: 'all' },
+            ];
+
+            sections.forEach((section) => {
+                let list = section.list;
+                if (section.genre) {
+                    let source = allContent;
+                    list = source.filter(a => a.genre && a.genre.some(g => g === section.genre)).slice(0, 10);
+                }
+
+                if (list && list.length > 0) {
+                    const sectionDiv = document.createElement('div');
+                    sectionDiv.className = 'content-section';
+
+                    const titleElement = document.createElement('h2');
+                    titleElement.className = 'section-title';
+                    titleElement.textContent = section.title;
+
+                    const scrollDiv = document.createElement('div');
+                    scrollDiv.className = 'horizontal-scroll';
+                    list.forEach(item => {
+                        scrollDiv.appendChild(createCardHTML(item));
+                    });
+
+                    sectionDiv.appendChild(titleElement);
+                    sectionDiv.appendChild(scrollDiv);
+                    content.appendChild(sectionDiv);
+                }
+            });
+            content.classList.add('loaded');
+        }
+
+        function renderGridPage(list, titleText) {
+            content.innerHTML = '';
+            const title = document.createElement('h2');
+            title.className = 'section-title';
+            title.textContent = titleText;
+            title.style.paddingLeft = '3vw';
+            title.style.marginTop = '20px';
+            content.appendChild(title);
+
+            const gridDiv = document.createElement('div');
+            gridDiv.id = 'dynamicGrid';
+            content.appendChild(gridDiv);
+
+            if (list.length === 0) {
+                gridDiv.innerHTML = `<p style="color:var(--muted); padding: 20px 0; text-align: center;">${currentTab === 'favorites' ? 'No tienes favoritos guardados.' : 'No hay contenido disponible.'}</p>`;
+                loadingIndicator.style.display = 'none';
+                return;
+            }
+
+            list.forEach(item => {
+                gridDiv.appendChild(createCardHTML(item));
+            });
+            
+            loadingIndicator.style.display = 'block';
+            loadingIndicator.textContent = `Mostrando ${list.length} resultados.`;
+            content.classList.add('loaded');
+        }
+
+        // --- Lógica de Vistas (Navegación con Transiciones) ---
+
+        function showView(viewId) {
+            document.body.classList.remove('view-search', 'view-detail', 'view-player');
+            mainView.scrollTo(0, 0);
+
+            if (viewId === 'searchView') {
+                document.body.classList.add('view-search');
+                searchView.scrollTo(0, 0);
+            } else if (viewId === 'detailView') {
+                document.body.classList.add('view-detail');
+            } else if (viewId === 'videoPlayerView') {
+                document.body.classList.add('view-player');
+            }
+        }
+
+        function renderCurrentTab(){
+            document.getElementById('backFromSearch').style.display = 'none';
+            bottomNavItems.forEach(b => b.classList.remove('active'));
+            
+            let tabToRender = currentTab;
+            if (currentTab === 'search') {
+                document.querySelector(`.nav-item[data-tab="search"]`).classList.add('active');
+                showView('searchView'); 
+                searchInput.focus();
+                if(searchInput.value.trim() === '') {
+                    searchResultsTitle.textContent = "Empieza a escribir para buscar (título o género)...";
+                    searchResultsGrid.innerHTML = `<p style="color:var(--muted); padding: 50px 3vw; text-align: center;">Escribe al menos dos caracteres para iniciar la búsqueda.</p>`;
+                } else {
+                    handleSearchInput();
+                }
+                document.getElementById('backFromSearch').style.display = 'block';
+                return;
+            }
+            
+            document.querySelector(`.nav-item[data-tab="${tabToRender}"]`).classList.add('active');
+            showView('mainView'); 
+
+            setTimeout(() => {
+                if(tabToRender === 'home'){
+                    renderHomePage();
+                } else if (tabToRender === 'series') {
+                    renderGridPage(series, 'Todas las Series');
+                } else if (tabToRender === 'movies') {
+                    renderGridPage(movies, 'Todas las Películas');
+                } else if (tabToRender === 'channels') {
+                    renderGridPage(channels, 'Todos los Canales en Vivo');
+                } else if (tabToRender === 'favorites') {
+                    renderGridPage(getFavorites(), 'Mis Favoritos');
+                }
+                mainView.scrollTo(0, 0);
+            }, 50);
+        }
+
+        // Eventos de Navegación Inferior
+        bottomNavItems.forEach(btn => btn.onclick = () => {
+            currentTab = btn.dataset.tab;
+            renderCurrentTab();
+        });
+
+        // Eventos de Buscador
+        document.getElementById('backFromSearch').onclick = () => {
+            searchInput.value = '';
+            currentTab = 'home'; 
+            renderCurrentTab();
+        }
+
+        function handleSearchInput() {
+            const query = searchInput.value.toLowerCase().trim();
+            searchResultsGrid.innerHTML = '';
+
+            if (query.length < 2) {
+                searchResultsTitle.textContent = "Empieza a escribir para buscar (título o género)...";
+                searchResultsGrid.innerHTML = `<p style="color:var(--muted); padding: 50px 3vw; text-align: center;">Escribe al menos dos caracteres para iniciar la búsqueda.</p>`;
+                return;
+            }
+
+            const filtered = allContent.filter(item => 
+                item.title.toLowerCase().includes(query) || 
+                (item.genre && item.genre.some(g => g.toLowerCase().includes(query))) || 
+                (item.description && item.description.toLowerCase().includes(query))
+            );
+
+            searchResultsTitle.textContent = `Resultados para "${query}" (${filtered.length})`;
+            
+            if (filtered.length === 0) {
+                searchResultsGrid.innerHTML = `<p style="color:var(--muted); padding: 20px 0; text-align: center;">No se encontraron resultados para "${query}".</p>`;
+            } else {
+                filtered.forEach(item => {
+                    searchResultsGrid.appendChild(createCardHTML(item));
+                });
+            }
+        }
+
+        searchInput.addEventListener('input', handleSearchInput);
+
+        // ----------------------------------------------------
+        // --- LÓGICA DEL REPRODUCTOR DE VIDEO (CUSTOM) ---
+
+        function playEpisode(item, index, shouldAutoplay = false) {
+            const seriesId = item.id || item.title;
+            const isSeries = item.episodes && item.episodes.length > 0;
+            const contentToPlay = isSeries ? item.episodes[index] : item;
+            
+            if (!contentToPlay || !contentToPlay.video_url) {
+                alert("❌ Error: Enlace de video no encontrado para este contenido.");
+                return;
+            }
+
+            currentEpisodeIndex = index;
+            currentItem = item;
+            
+            // 1. Mostrar la vista del reproductor
+            showView('videoPlayerView');
+
+            // 2. Inicializar Video.js si no existe
+            if (!player) {
+                player = videojs('customVideoPlayer');
+
+                // 2.1. Lógica de AUTOPLAY AL SIGUIENTE
+                player.on('ended', () => {
+                    // Marcar el episodio actual como visto
+                    if (isSeries) {
+                        saveWatchedEpisode(seriesId, currentEpisodeIndex);
+                        
+                        // Intentar reproducir el siguiente
+                        if (currentEpisodeIndex < item.episodes.length - 1) {
+                            // Actualizar el botón principal en la vista de detalle
+                            updateDetailViewProgress(item, currentEpisodeIndex);
+                            playEpisode(item, currentEpisodeIndex + 1, true); // Autoplay true para el siguiente
+                        } else {
+                            // Si es el último, actualizar el estado y cerrar el reproductor
+                            updateDetailViewProgress(item, currentEpisodeIndex);
+                            alert("¡Has terminado de ver esta serie!");
+                            closePlayer();
+                        }
+                    } else {
+                        // Es una película o canal, solo cerrar
+                        closePlayer();
+                    }
+                });
+            }
+
+            // 3. Configurar la fuente del video
+            const videoUrl = contentToPlay.video_url;
+            const sourceType = getSourceType(videoUrl);
+
+            player.src({ src: videoUrl, type: sourceType });
+            
+            // 4. Configurar información y botones de navegación
+            const episodeTitle = isSeries 
+                ? `${item.title} - Cap. ${index + 1}: ${contentToPlay.title || 'Sin título'}`
+                : item.title;
+            playerEpisodeTitle.textContent = episodeTitle;
+
+            prevEpisodeBtn.disabled = !isSeries || index === 0;
+            nextEpisodeBtn.disabled = !isSeries || index === item.episodes.length - 1;
+
+            // 5. Autoplay y reproducción
+            if (shouldAutoplay) {
+                player.play().catch(error => {
+                    console.warn("Autoplay falló:", error);
+                    player.pause();
+                });
+            } else {
+                player.pause();
+            }
+
+            // 6. Marcar progreso (Simular que se ha empezado)
+            if (isSeries) {
+                getLastWatchedEpisodeIndex(seriesId, index);
+                // Actualizar la vista de detalle en segundo plano (simulando progreso)
+                updateDetailViewProgress(item, index);
+            }
+        }
+
+        function getSourceType(url) {
+            const ext = url.split('.').pop().toLowerCase();
+            if (ext === 'm3u8') return 'application/x-mpegURL';
+            if (ext === 'mpd') return 'application/dash+xml';
+            if (ext === 'mp4') return 'video/mp4';
+            return 'video/mp4'; 
+        }
+
+        function closePlayer() {
+            if (player) {
+                player.pause();
+            }
+            document.body.classList.remove('view-player');
+            // Volver a mostrar la vista de detalle
+            if(currentItem) openDetail(currentItem); else renderCurrentTab();
+        }
+
+        // Control de Siguiente/Anterior
+        prevEpisodeBtn.onclick = () => {
+            if (currentEpisodeIndex > 0) {
+                playEpisode(currentItem, currentEpisodeIndex - 1, true);
+            }
+        };
+
+        nextEpisodeBtn.onclick = () => {
+            if (currentItem && currentItem.episodes && currentEpisodeIndex < currentItem.episodes.length - 1) {
+                playEpisode(currentItem, currentEpisodeIndex + 1, true);
+            }
+        };
+
+        backFromPlayer.onclick = closePlayer;
+
+
+        // ----------------------------------------------------
+        // --- LÓGICA DE DETALLE ACTUALIZADA ---
+
+        function updateDetailViewProgress(item, episodeIndex) {
+            const seriesId = item.id || item.title;
+            const episodeElements = episodesListContainer.querySelectorAll('.episode-item');
+
+            episodeElements.forEach((ep, i) => {
+                ep.classList.remove('active', 'last-watched');
+                ep.querySelector('.episode-progress-bar-fill').style.width = '0%';
+                
+                if (isEpisodeWatched(seriesId, i)) {
+                    ep.classList.add('watched');
+                    ep.querySelector('.episode-progress-bar-fill').style.width = '100%';
+                    ep.querySelector('.play-icon').className = 'fas fa-check-circle play-icon';
+                }
+            });
+
+            if (episodeElements[episodeIndex] && !isEpisodeWatched(seriesId, episodeIndex)) {
+                 const currentEpEl = episodeElements[episodeIndex];
+                 currentEpEl.classList.add('active', 'last-watched');
+                 currentEpEl.querySelector('.episode-progress-bar-fill').style.width = '50%';
+                 currentEpEl.querySelector('.play-icon').className = 'fas fa-play-circle play-icon';
+            }
+
+            openDetail(item);
+        }
+
+        function openDetail(item){
+            currentItem=item;
+            const coverUrl = item.coverImage || item.logo || 'https://via.placeholder.com/140x200?text=Portada';
+            const seriesId = item.id || item.title;
+
+            detailBackgroundImage.src = coverUrl;
+            detailBackground.classList.add('show');
+            showView('detailView');
+            detailView.scrollTo(0, 0);
+            detailHeroImage.src = coverUrl;
+            detailHeroTitle.textContent = item.title;
+            detailTitle.textContent=item.title;
+
+            detailDesc.textContent=item.description||'No hay descripción disponible para este contenido.';
+            detailGenres.textContent=Array.isArray(item.genre)&&item.genre.length?'🎭 '+item.genre.join(', '):'';
+
+            favoriteBtn.onclick = () => toggleFavorite(item);
+            if (isFavorite(item)) { favoriteBtn.classList.add('active'); } else { favoriteBtn.classList.remove('active'); }
+
+            episodesListContainer.innerHTML='';
+            reproduceBtn.style.display = 'none';
+            episodesSection.style.display = 'block';
+
+            const isSeries = item.episodes && item.episodes.length > 0;
+            
+            if(isSeries){
+                let lastWatchedIndex = getLastWatchedEpisodeIndex(seriesId);
+                
+                let nextEpisodeIndex = 0;
+                for(let i=0; i<item.episodes.length; i++){
+                    if(!isEpisodeWatched(seriesId, i)){
+                        nextEpisodeIndex = i;
+                        break;
+                    }
+                    if(i === item.episodes.length - 1) {
+                        nextEpisodeIndex = item.episodes.length - 1;
+                    }
+                }
+                
+                const indexToPlayOnButton = nextEpisodeIndex;
+                const hasStarted = lastWatchedIndex !== undefined;
+
+                episodesSection.querySelector('h3').textContent = 'Capítulos';
+                reproduceBtn.style.display = 'flex';
+
+                if (hasStarted && indexToPlayOnButton < item.episodes.length - 1) {
+                    reproduceBtn.innerHTML = `<i class="fas fa-forward"></i> Continuar viendo (Cap. ${indexToPlayOnButton + 1})`;
+                } else if (hasStarted && indexToPlayOnButton === item.episodes.length - 1) {
+                    reproduceBtn.innerHTML = `<i class="fas fa-check"></i> Terminado, Ver último (Cap. ${indexToPlayOnButton + 1})`;
+                } else {
+                    reproduceBtn.innerHTML = `<i class="fas fa-play"></i> Ver Ahora (Cap. 1)`;
+                }
+
+                reproduceBtn.onclick = () => {
+                    playEpisode(item, indexToPlayOnButton, true);
+                };
+
+                item.episodes.forEach((ep,i)=>{
+                    const episodeIndex = i;
+                    const isWatched = isEpisodeWatched(seriesId, episodeIndex);
+                    const isLastWatched = lastWatchedIndex === episodeIndex && !isWatched; 
+                    const isActive = episodeIndex === indexToPlayOnButton;
+
+                    const episodeItem = document.createElement('div');
+                    episodeItem.className = `episode-item ${isWatched ? 'watched' : ''} ${isLastWatched ? 'last-watched' : ''} ${isActive ? 'active' : ''}`;
+                    
+                    const thumbUrl = ep.thumb || item.coverImage || 'https://via.placeholder.com/320x180?text=Episodio';
+                    const episodeTitle = `Episodio ${i+1}: ${ep.title || item.title}`;
+                    const iconClass = isWatched ? 'fas fa-check-circle' : 'fas fa-play-circle';
+                    const progressWidth = isWatched ? '100%' : (isLastWatched ? '50%' : '0%');
+
+                    episodeItem.innerHTML = `
+                        <div class="episode-thumb">
+                            <img src="${thumbUrl}" alt="Ep. ${i+1}" onerror="this.onerror=null;this.src='https://via.placeholder.com/320x180?text=Episodio';">
+                            <i class="${iconClass} play-icon"></i>
+                            <div class="episode-progress-bar">
+                                <div class="episode-progress-bar-fill" style="width: ${progressWidth};"></div>
+                            </div>
+                        </div>
+                        <div class="episode-info">
+                            <strong>${episodeTitle}</strong>
+                            <span>${ep.description || 'Sinopsis del episodio...'}</span>
+                        </div>
+                    `;
+
+                    episodeItem.onclick = (e) => {
+                        playEpisode(item, episodeIndex, true);
+                    };
+
+                    episodesListContainer.appendChild(episodeItem);
+
+                    if(isActive && episodesListContainer.children.length > 0) {
+                        setTimeout(() => {
+                            const scrollPos = episodeItem.offsetLeft - episodesListContainer.clientWidth / 2 + episodeItem.clientWidth / 2;
+                            episodesListContainer.scrollTo({ left: scrollPos, behavior: 'smooth' });
+                        }, 50);
+                    }
+                });
+
+            } else if(item.video_url){
+                episodesSection.style.display = 'none';
+                reproduceBtn.style.display = 'flex';
+                reproduceBtn.innerHTML = `<i class="fas fa-play"></i> ${item.isChannel ? 'Ver Canal en Vivo' : 'Reproducir Ahora'}`;
+                reproduceBtn.onclick = () => {
+                    playEpisode(item, 0, true);
+                };
+            } else {
+                episodesSection.style.display = 'none';
+                reproduceBtn.style.display = 'none';
+            }
+
+            renderRecommendations(item);
+        }
+
+        function renderRecommendations(item) {
+            recommendationsScroll.innerHTML = '';
+            const recommendations = getRecommendations(item);
+
+            if (recommendations.length > 0) {
+                recommendationsSection.style.display = 'block';
+                recommendations.forEach(rec => {
+                    recommendationsScroll.appendChild(createCardHTML(rec));
+                });
+            } else {
+                recommendationsSection.style.display = 'none';
+            }
+        }
+
+        backBtn.onclick=()=>{
+            detailBackground.classList.remove('show');
+            renderCurrentTab(); 
+        };
+
+        // --- Inicialización ---
+        document.addEventListener('DOMContentLoaded',async()=>{
+            await fetchData();
+        });
+    </script>
+</body>
+</html>
