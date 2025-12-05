@@ -1,6 +1,15 @@
 [
 
 {
+  "title": "Dragon Ball Super: Broly",
+  "description": "Goku y Vegeta enfrentan a un poderoso guerrero saiyajin llamado Broly, cuyo pasado está conectado con el destino de su raza. La batalla desata un conflicto épico lleno de poder y transformación.",
+  "genre": ["Acción", "Aventura", "Anime"],
+  "coverImage": "https://m.media-amazon.com/images/S/pv-target-images/4a249a49ebf02a3ed2d7f15682fbd1f315faace76769f5a033e22b500e00de09.jpg",
+  "video_url": "https://archive.org/download/ver-dragon-ball-super-broly-2018-online-cuevana-3-peliculas-online/Ver%20Dragon%20Ball%20Super-%20Broly%20%282018%29%20Online%20-%20Cuevana%203%20Peliculas%20Online.ia.mp4"
+},
+  
+
+{
   "title": "Spiderman: Homecoming",
   "description": "Después de su experiencia con los Vengadores, Peter Parker intenta equilibrar su vida como estudiante y superhéroe mientras enfrenta una nueva amenaza en Nueva York.",
   "genre": ["Acción", "Aventura", "Superhéroes"],
