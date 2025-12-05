@@ -1,0 +1,502 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/>
+<title>Kawaii Play TV</title>
+<meta name="theme-color" content="#0a0a0a">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<script src="https://cdn.jsdelivr.net/npm/hls.js@1.4.0/dist/hls.min.js"></script>
+<link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
+<script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
+
+<style>
+/* --- VARIABLES --- */
+:root {
+    --bg-main: #0f0f0f;
+    --bg-sidebar: #050505;
+    --bg-card: #1a1a1a;
+    --accent: #8b5cf6; /* Morado TV */
+    --text-main: #ffffff;
+    --text-muted: #a3a3a3;
+    --focus-border: #ffffff;
+    --sidebar-width: 250px;
+}
+
+* { box-sizing: border-box; outline: none; }
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: var(--bg-main);
+    color: var(--text-main);
+    overflow-x: hidden;
+}
+
+/* --- LAYOUT PRINCIPAL (SIDEBAR + CONTENIDO) --- */
+.app-container {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* Sidebar Vertical (TV Menu) */
+.sidebar {
+    width: var(--sidebar-width);
+    background: var(--bg-sidebar);
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    z-index: 100;
+    transition: transform 0.3s ease;
+    border-right: 1px solid #222;
+}
+
+.logo {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 24px;
+    color: var(--text-main);
+    margin-bottom: 50px;
+    padding-left: 15px;
+    background: linear-gradient(45deg, #8b5cf6, #ec4899);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px 20px;
+    color: var(--text-muted);
+    text-decoration: none;
+    border-radius: 12px;
+    font-weight: 600;
+    transition: all 0.2s ease;
+    font-size: 16px;
+}
+
+.nav-item i { width: 20px; text-align: center; }
+
+/* Efecto Focus/Hover en el menú */
+.nav-item:hover, .nav-item.active, .nav-item:focus {
+    background: var(--accent);
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(139, 92, 246, 0.4);
+}
+
+/* Área de contenido principal */
+.main-view {
+    margin-left: var(--sidebar-width);
+    flex: 1;
+    padding: 0;
+    width: calc(100% - var(--sidebar-width));
+}
+
+/* --- PANTALLAS --- */
+.screen { display: none; padding-bottom: 50px; animation: fade 0.4s ease; }
+.screen.active { display: block; }
+
+@keyframes fade { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+
+/* --- HERO SECTION --- */
+.hero {
+    height: 70vh;
+    position: relative;
+    width: 100%;
+}
+.hero-bg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+}
+.hero-content {
+    position: absolute;
+    bottom: 20%;
+    left: 40px;
+    max-width: 600px;
+}
+.hero-title { font-size: 4rem; margin: 0 0 20px; line-height: 1; font-weight: 800; }
+.hero-desc { font-size: 1.1rem; color: #ddd; margin-bottom: 30px; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+
+/* Botones de acción */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.1rem;
+    transition: all 0.2s;
+    border: none;
+    cursor: pointer;
+}
+.btn-primary { background: white; color: black; }
+.btn-secondary { background: rgba(255,255,255,0.2); color: white; backdrop-filter: blur(10px); margin-left: 15px; }
+
+.btn:hover, .btn:focus { transform: scale(1.1); box-shadow: 0 0 20px rgba(255,255,255,0.3); outline: 2px solid white; }
+
+/* --- GRILLAS DE CONTENIDO --- */
+.section-title { font-size: 1.5rem; margin: 40px 40px 20px; font-weight: 600; }
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 20px;
+    padding: 0 40px;
+}
+
+/* Tarjetas */
+.card {
+    position: relative;
+    aspect-ratio: 2/3;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+    background: var(--bg-card);
+}
+.card img { width: 100%; height: 100%; object-fit: cover; }
+.card:focus, .card:hover {
+    transform: scale(1.1);
+    z-index: 10;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    outline: 3px solid var(--accent);
+}
+
+/* --- EPISODIOS EN SCROLL HORIZONTAL (NUEVO) --- */
+.episodes-container {
+    padding: 20px 40px;
+    width: 100%;
+}
+.episodes-scroll {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 20px 0;
+    scroll-behavior: smooth;
+    /* Ocultar barra scroll pero mantener funcionalidad */
+    scrollbar-width: none; 
+}
+.episodes-scroll::-webkit-scrollbar { display: none; }
+
+.episode-card {
+    min-width: 250px;
+    width: 250px;
+    background: var(--bg-card);
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.2s;
+    flex-shrink: 0; /* Evita que se encojan */
+    border: 1px solid #333;
+}
+
+.episode-img {
+    height: 140px;
+    width: 100%;
+    background: #333;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.episode-info { padding: 15px; }
+.episode-title { font-weight: 600; margin-bottom: 5px; display: block; font-size: 14px;}
+.episode-num { color: var(--accent); font-size: 12px; font-weight: bold; }
+
+.episode-card:focus, .episode-card:hover {
+    transform: scale(1.05);
+    outline: 2px solid var(--accent);
+    background: #252525;
+}
+
+/* --- REPRODUCTOR --- */
+#player-overlay {
+    position: fixed;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: black;
+    z-index: 9999;
+    display: none;
+}
+/* La etiqueta A que cubre la tarjeta para reproducir */
+.play-link {
+    position: absolute; top:0; left:0; width:100%; height:100%; z-index: 2;
+}
+
+/* --- RESPONSIVE (MÓVIL) --- */
+@media (max-width: 768px) {
+    .sidebar { display: none; }
+    .main-view { margin-left: 0; width: 100%; padding-bottom: 80px; }
+    .bottom-nav { display: flex; position: fixed; bottom: 0; width: 100%; background: #111; padding: 10px; justify-content: space-around; z-index: 100; border-top: 1px solid #333; }
+    .hero-title { font-size: 2.5rem; }
+    .grid { grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); padding: 0 20px; }
+    .episodes-container { padding: 0 20px; }
+}
+@media (min-width: 769px) { .bottom-nav { display: none; } }
+</style>
+</head>
+<body>
+
+<nav class="sidebar">
+    <div class="logo">Kawaii TV</div>
+    <div class="nav-menu">
+        <a href="#" class="nav-item active" onclick="navTo('home')" tabindex="1"><i class="fas fa-home"></i> Inicio</a>
+        <a href="#" class="nav-item" onclick="navTo('movies')" tabindex="2"><i class="fas fa-film"></i> Películas</a>
+        <a href="#" class="nav-item" onclick="navTo('series')" tabindex="3"><i class="fas fa-tv"></i> Series</a>
+        <a href="#" class="nav-item" onclick="navTo('favorites')" tabindex="4"><i class="fas fa-heart"></i> Mi Lista</a>
+        <a href="#" class="nav-item" onclick="toggleSearch()" tabindex="5"><i class="fas fa-search"></i> Buscar</a>
+    </div>
+</nav>
+
+<div class="bottom-nav">
+    <a href="#" class="nav-item" onclick="navTo('home')"><i class="fas fa-home"></i></a>
+    <a href="#" class="nav-item" onclick="navTo('movies')"><i class="fas fa-film"></i></a>
+    <a href="#" class="nav-item" onclick="navTo('series')"><i class="fas fa-tv"></i></a>
+</div>
+
+<div class="main-view">
+    <div id="home" class="screen active">
+        <div class="hero">
+            <img id="hero-img" class="hero-bg" src="" alt="Hero">
+            <div class="hero-content">
+                <h1 id="hero-title" class="hero-title">Cargando...</h1>
+                <p id="hero-desc" class="hero-desc"></p>
+                <a id="hero-play-btn" href="#" class="btn btn-primary" tabindex="6"><i class="fas fa-play"></i> Ver ahora</a>
+                <button onclick="showDetails(currentHeroItem)" class="btn btn-secondary" tabindex="7">Más info</button>
+            </div>
+        </div>
+        
+        <h2 class="section-title">Tendencias</h2>
+        <div id="home-grid" class="grid"></div>
+    </div>
+
+    <div id="movies" class="screen">
+        <h2 class="section-title">Películas</h2>
+        <div id="movies-grid" class="grid"></div>
+    </div>
+
+    <div id="series" class="screen">
+        <h2 class="section-title">Series</h2>
+        <div id="series-grid" class="grid"></div>
+    </div>
+
+    <div id="detail" class="screen">
+        <div class="hero" style="height: 50vh;">
+            <img id="detail-bg" class="hero-bg" src="">
+            <div class="hero-content">
+                <button onclick="goBack()" class="btn btn-secondary" style="margin: 0 0 20px 0; padding: 8px 15px; font-size: 0.9rem;" tabindex="8">
+                    <i class="fas fa-arrow-left"></i> Volver
+                </button>
+                <h1 id="detail-title" class="hero-title" style="font-size: 3rem;"></h1>
+                <p id="detail-meta" style="color: var(--accent); font-weight: bold;"></p>
+                <p id="detail-desc" class="hero-desc"></p>
+            </div>
+        </div>
+
+        <div id="episodes-area" class="episodes-container">
+            <h2 class="section-title" style="margin-left: 0;">Episodios</h2>
+            <div id="episodes-scroll" class="episodes-scroll">
+                </div>
+        </div>
+    </div>
+</div>
+
+<div id="player-overlay">
+    <video id="player" style="width: 100%; height: 100%;" controls crossorigin playsinline></video>
+</div>
+
+<script>
+/* --- CONFIGURACIÓN Y DATOS --- */
+const DATA_URL = "https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/data.json";
+let allData = [];
+let currentHeroItem = null;
+let plyrInstance = null;
+
+/* --- INICIO --- */
+async function init() {
+    try {
+        const res = await fetch(DATA_URL);
+        const data = await res.json();
+        allData = data;
+        
+        setupHero();
+        renderGrid(allData.filter(i => !i.episodes).slice(0, 10), 'home-grid'); // Mix para home
+        renderGrid(allData.filter(i => !i.episodes), 'movies-grid');
+        renderGrid(allData.filter(i => i.episodes), 'series-grid');
+        
+    } catch (e) { console.error("Error loading data", e); }
+}
+
+/* --- NAVEGACIÓN --- */
+function navTo(screenId) {
+    document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+    document.getElementById(screenId).classList.add('active');
+    
+    document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
+    // Encontrar el nav-item que corresponde y activarlo
+    const activeBtn = document.querySelector(`.nav-item[onclick*="${screenId}"]`);
+    if(activeBtn) activeBtn.classList.add('active');
+    
+    window.scrollTo({top:0, behavior:'smooth'});
+}
+
+function goBack() {
+    navTo('home');
+    document.getElementById('player-overlay').style.display = 'none';
+    if(plyrInstance) plyrInstance.stop();
+}
+
+/* --- RENDERIZADO --- */
+function setupHero() {
+    const item = allData[Math.floor(Math.random() * allData.length)];
+    currentHeroItem = item;
+    
+    document.getElementById('hero-img').src = item.coverImage || item.poster;
+    document.getElementById('hero-title').textContent = item.title;
+    document.getElementById('hero-desc').textContent = item.description || item.synopsis || "Sin descripción";
+    
+    // Configurar el botón de reproducir principal como <a>
+    const playBtn = document.getElementById('hero-play-btn');
+    
+    if (item.episodes) {
+        // Si es serie, lleva al detalle
+        playBtn.href = "#";
+        playBtn.onclick = (e) => { e.preventDefault(); showDetails(item); };
+    } else {
+        // Si es peli, reproduce directo
+        playBtn.href = "#"; // Semánticamente es un enlace
+        playBtn.onclick = (e) => { e.preventDefault(); playVideo(item.video_url); };
+    }
+}
+
+function renderGrid(items, containerId) {
+    const container = document.getElementById(containerId);
+    container.innerHTML = '';
+    
+    items.forEach(item => {
+        const card = document.createElement('div');
+        card.className = 'card';
+        card.tabIndex = 0; // Importante para TV Focus
+        
+        // Creamos una etiqueta <a> que ocupa todo el espacio para ser el "trigger"
+        const link = document.createElement('a');
+        link.className = 'play-link';
+        link.href = '#';
+        
+        link.onclick = (e) => {
+            e.preventDefault();
+            if (item.episodes) showDetails(item);
+            else playVideo(item.video_url);
+        };
+
+        card.innerHTML = `
+            <img src="${item.poster || item.coverImage}" loading="lazy" alt="${item.title}">
+        `;
+        
+        card.appendChild(link);
+        
+        // Evento teclado (Enter) en la tarjeta
+        card.addEventListener('keydown', (e) => {
+            if(e.key === 'Enter') link.click();
+        });
+        
+        container.appendChild(card);
+    });
+}
+
+/* --- DETALLES Y EPISODIOS EN SCROLL HORIZONTAL --- */
+function showDetails(item) {
+    navTo('detail');
+    
+    document.getElementById('detail-bg').src = item.coverImage || item.poster;
+    document.getElementById('detail-title').textContent = item.title;
+    document.getElementById('detail-desc').textContent = item.description || item.synopsis;
+    document.getElementById('detail-meta').textContent = `${item.year || ''} • ${item.genre || ''}`;
+    
+    const epContainer = document.getElementById('episodes-scroll');
+    const epArea = document.getElementById('episodes-area');
+    epContainer.innerHTML = '';
+    
+    if (item.episodes && item.episodes.length > 0) {
+        epArea.style.display = 'block';
+        
+        item.episodes.forEach((ep, idx) => {
+            const card = document.createElement('a'); // Usamos <a> para cada episodio
+            card.className = 'episode-card';
+            card.href = '#'; // Href válido
+            card.tabIndex = 0; // Focus TV
+            
+            card.innerHTML = `
+                <div class="episode-img">
+                    <i class="fas fa-play" style="font-size: 24px; color: white;"></i>
+                </div>
+                <div class="episode-info">
+                    <span class="episode-num">EPISODIO ${idx + 1}</span>
+                    <span class="episode-title">Reproducir</span>
+                </div>
+            `;
+            
+            card.onclick = (e) => {
+                e.preventDefault();
+                playVideo(ep.video_url);
+            };
+            
+            epContainer.appendChild(card);
+        });
+    } else {
+        epArea.style.display = 'none';
+    }
+}
+
+/* --- REPRODUCTOR (<a> como trigger) --- */
+function playVideo(url) {
+    const overlay = document.getElementById('player-overlay');
+    const videoElem = document.getElementById('player');
+    
+    overlay.style.display = 'block';
+    
+    if (Hls.isSupported() && url.includes('.m3u8')) {
+        const hls = new Hls();
+        hls.loadSource(url);
+        hls.attachMedia(videoElem);
+    } else {
+        videoElem.src = url;
+    }
+    
+    if (!plyrInstance) {
+        plyrInstance = new Plyr(videoElem, {
+            controls: ['play-large', 'play', 'progress', 'current-time', 'mute', 'volume', 'fullscreen']
+        });
+    }
+    
+    videoElem.play();
+    videoElem.focus(); // Foco al player para control remoto
+    
+    // Salir con tecla Atrás/Escape
+    document.addEventListener('keydown', function escHandler(e) {
+        if(e.key === 'Escape' || e.key === 'Backspace') {
+            overlay.style.display = 'none';
+            plyrInstance.stop();
+            document.removeEventListener('keydown', escHandler);
+            goBack();
+        }
+    });
+}
+
+init();
+</script>
+</body>
+</html>
