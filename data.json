@@ -1,5 +1,13 @@
 [
-
+ 
+{
+  "title": "Kung Fusion (2004)",
+  "description": "En una caótica ciudad controlada por peligrosas bandas, un joven aspirante a gánster se ve envuelto en una lucha entre criminales y maestros de artes marciales. La comedia, la acción exagerada y el estilo visual único definen esta parodia del cine kung-fu.",
+  "genre": ["Acción", "Comedia", "Artes Marciales"],
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfNJvXWBz2V7zh-G863PI17D0VT2NAh5WJ2mdYlcmGLA&s=10",
+  "video_url": "https://archive.org/download/0Kung0Fusion0/0Kung0Fusion0.mp4"
+},
+ 
  {
   "title": "Campeones (2018)",
   "description": "Marco, un entrenador de baloncesto profesional, termina haciendo trabajos sociales entrenando a un equipo formado por personas con discapacidad intelectual. Lo que empieza como un castigo se convierte en una lección de vida, solidaridad y superación. La película mezcla humor, emoción y humanidad. ",
