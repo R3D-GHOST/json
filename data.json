@@ -1,4 +1,25 @@
 [
+ {
+  "title": "Kung Fu Panda 2 (2011)",
+  "description": "Po debe enfrentarse a un nuevo villano que amenaza con conquistar China con un arma capaz de acabar con el kung-fu. Mientras lucha para salvar su mundo, Po descubre la verdad sobre sus orígenes.",
+  "genre": ["Animación", "Acción", "Aventura", "Comedia"],
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1QLCvPSyRAgnYKW-7bH_L7tTVGWLP1KWS_DoS7mw_hw&s=10",
+  "video_url": "https://archive.org/download/k2_20251206/k2.mp4"
+},
+ {
+  "title": "Kung Fu Panda 3 (2016)",
+  "description": "Cuando el padre biológico de Po reaparece, ambos viajan a una aldea secreta de pandas. Pero un poderoso enemigo del mundo espiritual amenaza con destruir todo, y Po deberá encontrar su verdadero poder para salvar a su gente.",
+  "genre": ["Animación", "Acción", "Aventura", "Comedia"],
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6A-EKe5O9hmzEwEwKrlkBmDKy5H_V_Hw2kyyFt0S6SQ&s=10",
+  "video_url": "https://archive.org/download/k2_20251206/k3.mp4"
+ },
+ {
+  "title": "Solo en casa 2: Perdido en Nueva York (1992)",
+  "description": "Kevin McCallister se separa accidentalmente de su familia y termina en Nueva York, donde deberá enfrentarse de nuevo a los ladrones Harry y Marv. Esta vez, con toda la ciudad como su campo de juego.",
+  "genre": ["Comedia", "Familiar", "Aventura"],
+  "coverImage": "https://es.web.img2.acsta.net/medias/nmedia/18/82/42/49/20415955.jpg",
+  "video_url": "https://archive.org/download/k2_20251206/solo2.mp4"
+ },
  
 {
   "title": "Kung Fusion (2004)",
@@ -21,7 +42,7 @@
   "description": "Película española protagonizada por Marisol en su debut cinematográfico. La historia sigue a una niña huérfana con un talento extraordinario para el canto y el baile, cuya alegría y luz transforman a todos los que la rodean. Es una comedia musical familiar llena de ternura y números musicales clásicos.",
   "genre": ["Musical", "Familiar", "Comedia"],
   "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTToBPgM9MG1e6U5v6lFAYJ4fvCQBGeh7Kqi7JI-v6LOg&s=10",
-  "video_url": "https://ia801506.us.archive.org/22/items/un-rayo-de-luz-1960_202412/Un%20Rayo%20De%20Luz%20%281960%29.mp4"
+  "video_url": "https://archive.org/download/k2_20251206/marisol.mp4"
 },
  {
   "title": "Calzonzin Inspector (1974)",
