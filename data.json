@@ -1,6 +1,177 @@
 [
-
-
+  {
+  "title": "El juego del calamar: El Desafío",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8FiB7wPUvad3IcKQi5SW7Gx3tYd4IwvsyEh7sCKI4bg&s=10",
+  "description": "Una competencia real inspirada en los juegos de la serie original. Más de 400 participantes enfrentan pruebas físicas y psicológicas, alianzas, traiciones y estrategias, todos luchando por un premio millonario que solo uno podrá ganar.",
+  "genre": [
+    "Reality",
+    "Competencia",
+    "Suspenso"
+  ],
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "Episodio 1",
+      "video_url": "https://archive.org/download/el-juego-del-calamar-el-desafio-202333/El%20juego%20del%20calamar%20El%20desaf%C3%ADo%20-%20S01E01%20-%20vip.hdlatino.us.mp4"
+    },
+    {
+      "episode": 2,
+      "title": "Episodio 2",
+      "video_url": "https://archive.org/download/el-juego-del-calamar-el-desafio-202333/El%20juego%20del%20calamar%20El%20desaf%C3%ADo%20-%20S01E02%20-%20vip.hdlatino.us.mp4"
+    },
+    {
+      "episode": 3,
+      "title": "Episodio 3",
+      "video_url": "https://archive.org/download/el-juego-del-calamar-el-desafio-202333/El%20juego%20del%20calamar%20El%20desaf%C3%ADo%20-%20S01E03%20-%20vip.hdlatino.us.mp4"
+    },
+    {
+      "episode": 4,
+      "title": "Episodio 4",
+      "video_url": "https://archive.org/download/el-juego-del-calamar-el-desafio-202333/El%20juego%20del%20calamar%20El%20desaf%C3%ADo%20-%20S01E04%20-%20vip.hdlatino.us.mp4"
+    },
+    {
+      "episode": 5,
+      "title": "Episodio 5",
+      "video_url": "https://archive.org/download/el-juego-del-calamar-el-desafio-202333/El%20juego%20del%20calamar%20El%20desaf%C3%ADo%20-%20S01E05%20-%20vip.hdlatino.us.mp4"
+    },
+    {
+      "episode": 6,
+      "title": "Episodio 6",
+      "video_url": "https://archive.org/download/el-juego-del-calamar-el-desafio-202333/El%20juego%20del%20calamar%20El%20desaf%C3%ADo%20-%20S01E06%20-%20vip.hdlatino.us.mp4"
+    },
+    {
+      "episode": 7,
+      "title": "Episodio 7",
+      "video_url": "https://archive.org/download/el-juego-del-calamar-el-desafio-202333/El%20juego%20del%20calamar%20El%20desaf%C3%ADo%20-%20S01E07%20-%20vip.hdlatino.us.mp4"
+    },
+    {
+      "episode": 8,
+      "title": "Episodio 8",
+      "video_url": "https://archive.org/download/el-juego-del-calamar-el-desafio-202333/El%20juego%20del%20calamar%20El%20desaf%C3%ADo%20-%20S01E08%20-%20vip.hdlatino.us.mp4"
+    },
+    {
+      "episode": 9,
+      "title": "Episodio 9",
+      "video_url": "https://archive.org/download/el-juego-del-calamar-el-desafio-202333/El%20juego%20del%20calamar%20El%20desaf%C3%ADo%20-%20S01E09%20-%20vip.hdlatino.us.mp4"
+    },
+    {
+      "episode": 10,
+      "title": "Episodio 10",
+      "video_url": "https://archive.org/download/el-juego-del-calamar-el-desafio-202333/El%20juego%20del%20calamar%20El%20desaf%C3%ADo%20-%20S01E10%20-%20vip.hdlatino.us.mp4"
+    }
+  ]
+},
+ {
+  "title": "El juego del calamar Temporada 3",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxW_ISPaJ2uk3OKZPESLagNv_05-sUzxSLmX3ZSjBL-A&s=10",
+  "description": "Una nueva ronda del mortal concurso comienza, superando los límites de tensión, violencia y estrategia. Viejos jugadores regresan mientras nuevos competidores descubren que detrás del juego se oculta una conspiración más grande que nunca.",
+  "genre": [
+    "Suspenso",
+    "Drama",
+    "Acción"
+  ],
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "Episodio 1",
+      "video_url": "https://archive.org/download/el-juego-del-calamar-3-20255555/Squid%20Game%20-%20S03E01%20-%20vip.hdlatino.us.mp4"
+    },
+    {
+      "episode": 2,
+      "title": "Episodio 2",
+      "video_url": "https://archive.org/download/el-juego-del-calamar-3-20255555/Squid%20Game%20-%20S03E02%20-%20vip.hdlatino.us.mp4"
+    },
+    {
+      "episode": 3,
+      "title": "Episodio 3",
+      "video_url": "https://archive.org/download/el-juego-del-calamar-3-20255555/Squid%20Game%20-%20S03E03%20-%20vip.hdlatino.us.mp4"
+    },
+    {
+      "episode": 4,
+      "title": "Episodio 4",
+      "video_url": "https://archive.org/download/el-juego-del-calamar-3-20255555/Squid%20Game%20-%20S03E04%20-%20vip.hdlatino.us.mp4"
+    },
+    {
+      "episode": 5,
+      "title": "Episodio 5",
+      "video_url": "https://archive.org/download/el-juego-del-calamar-3-20255555/Squid%20Game%20-%20S03E05%20-%20vip.hdlatino.us.mp4"
+    },
+    {
+      "episode": 6,
+      "title": "Episodio 6",
+      "video_url": "https://archive.org/download/el-juego-del-calamar-3-20255555/Squid%20Game%20-%20S03E06%20-%20vip.hdlatino.us.mp4"
+    }
+  ]
+}, 
+  {
+  "title": "El juego del calamar Temporada 2",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgvKO2uRH0wJ4A-Q7pIgk3-YFmGntr4mSd26L8iioOOA&s=10",
+  "description": "La esperada continuación del peligroso concurso: nuevos participantes, desafíos más crudos y revelaciones que cambiarán el juego. Mientras el conflicto y la tensión aumentan, los jugadores deberán decidir hasta dónde están dispuestos a llegar para sobrevivir y qué precio pagar por la verdad.",
+  "genre": [
+    "Suspenso",
+    "Drama",
+    "Acción"
+  ],
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "Episodio 1",
+      "video_url": "https://archive.org/download/el-juego-del-calamar-temporada-2-ep-1_202501/El%20juego%20del%20Calamar%20Temporada%202%20Ep1.mp4"
+    },
+    {
+      "episode": 2,
+      "title": "Episodio 2",
+      "video_url": "https://archive.org/download/el-juego-del-calamar-temporada-2-ep-2/El%20juego%20del%20Calamar%20Temporada%202%20Ep2.mp4"
+    },
+    {
+      "episode": 3,
+      "title": "Episodio 3",
+      "video_url": "https://archive.org/download/el-juego-del-calamar-temporada-2-ep-3/El%20juego%20del%20Calamar%20Temporada%202%20Ep3.mp4"
+    },
+    {
+      "episode": 4,
+      "title": "Episodio 4",
+      "video_url": "https://archive.org/download/el-juego-del-calamar-temporada-2-ep-4_202501/El%20juego%20del%20Calamar%20Temporada%202%20Ep4.mp4"
+    },
+    {
+      "episode": 5,
+      "title": "Episodio 5",
+      "video_url": "https://archive.org/download/el-juego-del-calamar-temporada-2-ep-5/El%20juego%20del%20Calamar%20Temporada%202%20Ep5.mp4"
+    },
+    {
+      "episode": 6,
+      "title": "Episodio 6",
+      "video_url": "https://archive.org/download/el-juego-del-calamar-temporada-2-ep-6/El%20juego%20del%20Calamar%20Temporada%202%20Ep6.mp4"
+    },
+    {
+      "episode": 7,
+      "title": "Episodio 7",
+      "video_url": "https://archive.org/download/el-juego-del-calamar-temporada-2-capitulo-7_202506/El%20juego%20del%20calamar%20Temporada%202%20C%C3%A1pitulo%207.mp4"
+    }
+  ]
+},
+ {
+  "title": "El juego del calamar",
+  "coverImage": "https://image.tmdb.org/t/p/w500/9PgvLKv0vSnJnCAhy3EivGTtHzF.jpg",
+  "description": "Un misterioso concurso invita a cientos de personas con problemas económicos a competir en versiones mortales de juegos infantiles por un enorme premio en efectivo. Solo uno podrá sobrevivir.",
+  "genre": [
+    "Suspenso",
+    "Drama",
+    "Acción"
+  ],
+  "episodes": [
+    { "episode": 1, "title": "Luz roja, luz verde", "video_url": "https://dn710104.ca.archive.org/0/items/el-juego-del-calamar-temporada-1-capitulo-1/El%20juego%20del%20calamar%20Temporada%201%20C%C3%A1pitulo%201.ia.mp4" },
+    { "episode": 2, "title": "Infierno", "video_url": "https://ia600609.us.archive.org/26/items/el-juego-del-calamar-temporada-1-capitulo-2/El%20juego%20del%20calamar%20Temporada%201%20C%C3%A1pitulo%202.ia.mp4" },
+    { "episode": 3, "title": "El hombre del paraguas", "video_url": "https://dn710106.ca.archive.org/0/items/el-juego-del-calamar-temporada-1-capitulo-3/El%20juego%20del%20calamar%20Temporada%201%20C%C3%A1pitulo%203.ia.mp4" },
+    { "episode": 4, "title": "No abandones el equipo", "video_url": "https://archive.org/download/el-juego-del-calamar-temporada-1-capitulo-4/El%20juego%20del%20calamar%20Temporada%201%20C%C3%A1pitulo%204.ia.mp4" },
+    { "episode": 5, "title": "Un mundo justo", "video_url": "https://archive.org/download/el-juego-del-calamar-temporada-1-capitulo-5_202412/El%20juego%20del%20calamar%20Temporada%201%20C%C3%A1pitulo%205.ia.mp4" },
+    { "episode": 6, "title": "Gganbu", "video_url": "https://archive.org/download/el-juego-del-calamar-temporada-1-capitulo-6/El%20juego%20del%20calamar%20Temporada%201%20C%C3%A1pitulo%206.ia.mp4" },
+    { "episode": 7, "title": "VIPs", "video_url": "https://archive.org/download/el-juego-del-calamar-temporada-1-capitulo-7/El%20juego%20del-calamar-temporada-1-capitulo-7.mp4" },
+    { "episode": 8, "title": "El líder", "video_url": "https://archive.org/download/el-juego-del-calamar-temporada-1-capitulo-8/El%20juego%20del%20calamar%20Temporada%201%20C%C3%A1pitulo%208.ia.mp4" },
+    { "episode": 9, "title": "Un día de suerte", "video_url": "https://archive.org/download/el-juego-del-calamar-temporada-1-capitulo-9/El%20juego%20del%20calamar%20Temporada%201%20C%C3%A1pitulo%209.ia.mp4" }
+  ]
+ },
+  
 {
   "title": "Five Nights at Freddy’s",
   "description": "Una película de terror inspirada en el famoso videojuego, donde los protagonistas deben sobrevivir a una siniestra pizzería llena de animatrónicos peligrosos.",
