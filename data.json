@@ -1,5 +1,12 @@
 [
  {
+  "title": "Big Hero 6 (2014)",
+  "description": "Hiro, un joven prodigio de la robótica, forma un equipo de superhéroes junto a Baymax, un robot sanitario creado por su hermano. Juntos se enfrentarán a una amenaza tecnológica que pone en peligro la ciudad de San Fransokyo.",
+  "genre": ["Animación", "Acción", "Aventura", "Ciencia Ficción"],
+  "coverImage": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/0b940d25267129.5634362a10a6d.jpg",
+  "video_url": "https://archive.org/download/bg6_20251207/bg6.ia.mp4"
+ },
+ {
   "title": "Spy family",
   "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKMLxV7hgRYP3PZlAyi-6a9InGUoABtQpDyZiXBJq_R-T9zqLOeDmB7IY&s=10",
   "description": "Serie con sus episodios del 1 al 25.",
