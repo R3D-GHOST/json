@@ -1,5 +1,64 @@
 [
+ {
+  "title": "Cómo entrenar a tu dragón 3",
+  "description": "Hipo, Chimuelo y sus amigos sobreviven a nuevas amenazas y deben elegir entre su hogar y el mundo de los dragones en esta emotiva conclusión de la saga.",
+  "genre": ["Animación", "Aventura", "Familiar", "Fantasía"],
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2f5ABwDsuD3wIFuw1s8ZfvNWl4n-8RbjAdBleDOyeYQ&s=10",
+  "video_url": "https://archive.org/download/como-entrenar-a-tu-dragon-3_202512/C%C3%B3mo%20Entrenar%20a%20tu%20Drag%C3%B3n%203.mp4"
+},
+ {
+  "title": "Cómo entrenar a tu dragón",
+  "description": "Un joven vikingo, Hipo, desafía las tradiciones de su tribu al entablar amistad con un dragón herido llamado Chimuelo. Juntos demostrarán que la convivencia entre humanos y dragones es posible, cambiando sus vidas para siempre.",
+  "genre": ["Animación", "Aventura", "Familiar", "Fantasía"],
+  "coverImage": "https://play-lh.googleusercontent.com/GHrxlyOk_YT_fyUiumrWoMLWfZTWMq5aUmBdwhkDTRYES3yX6moIG5uavtwTtoMHu-au",
+  "video_url": "https://archive.org/download/como-entrenar-a-tu-dragon-1_202512/C%C3%B3mo%20Entrenar%20a%20tu%20Drag%C3%B3n%201.mp4"
+},
+ {
+  "title": "Cómo entrenar a tu dragón 2",
+  "description": "Hipo y Chimuelo descubren un mundo oculto de dragones y deben defenderlo de un enemigo decidido a cazarlos. Aventura, emoción y amistad en esta secuela épica.",
+  "genre": ["Animación", "Aventura", "Familiar", "Fantasía"],
+  "coverImage": "https://play-lh.googleusercontent.com/Gfep-RuzOSDoHY1nYN8iy24N4Q-YBeirBdWw3LJdhWnzgS0DQQhx9zz9uqbgDZcnzASUtA",
+  "video_url": "https://archive.org/download/como-entrenar-a-tu-dragon-2_202512/C%C3%B3mo%20Entrenar%20a%20Tu%20Drag%C3%B3n%202.mp4"
+},
  
+ {
+  "title": "ER - Emergencias - Temporada 3",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGliATBQgnteT9S8CICBQaj273h4M_yHqoX06E4xD71YhgvNXVJ3Ksos3U&s=10",
+  "description": "La tercera temporada continúa explorando la presión constante del personal del County General. Nuevos médicos, crisis emocionales, dilemas éticos y emergencias de alto riesgo ponen a prueba la fortaleza del equipo.",
+  "genre": [
+    "Drama",
+    "Medicina",
+    "Suspenso"
+  ],
+  "episodes": [
+    { "episode": 1,  "title": "El Dr. Carter", "video_url": "https://archive.org/download/ER-03/01%20-%20El%20Dr.%20Carter.mp4" },
+    { "episode": 2,  "title": "Que comiencen los juegos", "video_url": "https://archive.org/download/ER-03/02%20-%20Que%20comiencen%20los%20juegos.mp4" },
+    { "episode": 3,  "title": "No preguntes, no comentes", "video_url": "https://archive.org/download/ER-03/03%20-%20No%20preguntes%2C%20no%20comentes.mp4" },
+    { "episode": 4,  "title": "La última llamada", "video_url": "https://archive.org/download/ER-03/04%20-%20La%20%C3%BAltima%20llamada.ia.mp4" },
+    { "episode": 5,  "title": "Fantasmas", "video_url": "https://archive.org/download/ER-03/05%20-%20Fantasmas.ia.mp4" },
+    { "episode": 6,  "title": "Miedo a volar", "video_url": "https://archive.org/download/ER-03/06%20-%20Miedo%20a%20volar.ia.mp4" },
+    { "episode": 7,  "title": "Para ganar, hay que pensar", "video_url": "https://archive.org/download/ER-03/07%20-%20Para%20ganar%2C%20hay%20que%20pensar.ia.mp4" },
+    { "episode": 8,  "title": "Estación unión", "video_url": "https://archive.org/download/ER-03/08%20-%20Estaci%C3%B3n%20uni%C3%B3n.ia.mp4" },
+    { "episode": 9,  "title": "No me preguntes y no te diré mentiras", "video_url": "https://archive.org/download/ER-03/09%20-%20No%20me%20preguntes%20y%20no%20te%20dir%C3%A9%20mentiras.ia.mp4" },
+    { "episode": 10, "title": "Navidad sin hogar", "video_url": "https://archive.org/download/ER-03/10%20-%20Navidad%20sin%20hogar.ia.mp4" },
+    { "episode": 11, "title": "Turno noche", "video_url": "https://archive.org/download/ER-03/11%20-%20Turno%20noche.ia.mp4" },
+    { "episode": 12, "title": "Post Mortem", "video_url": "https://archive.org/download/ER-03/12%20-%20Post%20Mortem.ia.mp4" },
+    { "episode": 13, "title": "La suerte de los tontos", "video_url": "https://archive.org/download/ER-03/13%20-%20La%20suerte%20de%20los%20tontos.mp4" },
+    { "episode": 14, "title": "Cambio de roles", "video_url": "https://archive.org/download/ER-03/14%20-%20Cambio%20de%20roles.mp4" },
+    { "episode": 15, "title": "El camino más largo", "video_url": "https://archive.org/download/ER-03/15%20-%20El%20camino%20m%C3%A1s%20largo.ia.mp4" },
+    { "episode": 16, "title": "Fe", "video_url": "https://archive.org/download/ER-03/16%20-%20Fe.ia.mp4" },
+    { "episode": 17, "title": "Las tribus", "video_url": "https://archive.org/download/ER-03/17%20-%20Las%20tribus.ia.mp4" },
+    { "episode": 18, "title": "Apuesto mi vida", "video_url": "https://archive.org/download/ER-03/18%20-%20Apuesto%20mi%20vida.ia.mp4" },
+    { "episode": 19, "title": "Llamando a la Dra. Hathaway", "video_url": "https://archive.org/download/ER-03/19%20-%20Llamando%20a%20la%20Dra.%20Hathaway.ia.mp4" },
+    { "episode": 20, "title": "Actos al azar", "video_url": "https://archive.org/download/ER-03/20%20-%20Actos%20al%20azar.ia.mp4" },
+    { "episode": 21, "title": "Pide un deseo", "video_url": "https://archive.org/download/ER-03/21%20-%20Pide%20un%20deseo.ia.mp4" },
+    { 
+      "episode": 22,
+      "title": "Una esperanza en el camino",
+      "video_url": "https://archive.org/download/ER-03/22%20-%20Una%20esperanza%20en%20el%20camino.ia.mp4"
+    }
+  ]
+},
 {
   "title": "ER - Emergencias Temporada 2",
   "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq__w1IRtyijzVMH-QWeY-2HxYAyDYOkQh2vUIlOk3Jg&s=10",
