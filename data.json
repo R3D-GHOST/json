@@ -1,5 +1,43 @@
 [
  {
+  "title": "Ataque a los Titanes - Temporada 1",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR1WnV7udDA7gzLG-uw-_BYjVN4npXEpZTs8MsPE3Xbw&s=10",
+  "description": "La humanidad lucha por sobrevivir tras la aparición de gigantes devoradores de humanos conocidos como Titanes. Eren Jaeger y sus amigos se unen al ejército para enfrentar la amenaza y descubrir los secretos detrás de los muros.",
+  "genre": [
+    "Acción",
+    "Drama",
+    "Suspenso",
+    "Fantasía oscura"
+  ],
+  "episodes": [
+    { "episode": 1,  "title": "Episodio 1",  "video_url": "https://archive.org/download/01_20251207_20251207_1531/01.mp4" },
+    { "episode": 2,  "title": "Episodio 2",  "video_url": "https://archive.org/download/01_20251207_20251207_1531/02.mp4" },
+    { "episode": 3,  "title": "Episodio 3",  "video_url": "https://archive.org/download/01_20251207_20251207_1531/03.mp4" },
+    { "episode": 4,  "title": "Episodio 4",  "video_url": "https://archive.org/download/01_20251207_20251207_1531/04.mp4" },
+    { "episode": 5,  "title": "Episodio 5",  "video_url": "https://archive.org/download/01_20251207_20251207_1531/05.mp4" },
+    { "episode": 6,  "title": "Episodio 6",  "video_url": "https://archive.org/download/01_20251207_20251207_1531/06.mp4" },
+    { "episode": 7,  "title": "Episodio 7",  "video_url": "https://archive.org/download/01_20251207_20251207_1531/07.mp4" },
+    { "episode": 8,  "title": "Episodio 8",  "video_url": "https://archive.org/download/01_20251207_20251207_1531/08.mp4" },
+    { "episode": 9,  "title": "Episodio 9",  "video_url": "https://archive.org/download/01_20251207_20251207_1531/09.mp4" },
+    { "episode": 10, "title": "Episodio 10", "video_url": "https://archive.org/download/01_20251207_20251207_1531/10.mp4" },
+    { "episode": 11, "title": "Episodio 11", "video_url": "https://archive.org/download/01_20251207_20251207_1531/11.mp4" },
+    { "episode": 12, "title": "Episodio 12", "video_url": "https://archive.org/download/01_20251207_20251207_1531/12.mp4" },
+    { "episode": 13, "title": "Episodio 13", "video_url": "https://archive.org/download/01_20251207_20251207_1531/13.mp4" },
+    { "episode": 14, "title": "Episodio 14", "video_url": "https://archive.org/download/01_20251207_20251207_1531/14.mp4" },
+    { "episode": 15, "title": "Episodio 15", "video_url": "https://archive.org/download/01_20251207_20251207_1531/15.mp4" },
+    { "episode": 16, "title": "Episodio 16", "video_url": "https://archive.org/download/01_20251207_20251207_1531/16.mp4" },
+    { "episode": 17, "title": "Episodio 17", "video_url": "https://archive.org/download/01_20251207_20251207_1531/17.mp4" },
+    { "episode": 18, "title": "Episodio 18", "video_url": "https://archive.org/download/01_20251207_20251207_1531/18.mp4" },
+    { "episode": 19, "title": "Episodio 19", "video_url": "https://archive.org/download/01_20251207_20251207_1531/19.mp4" },
+    { "episode": 20, "title": "Episodio 20", "video_url": "https://archive.org/download/01_20251207_20251207_1531/20.mp4" },
+    { "episode": 21, "title": "Episodio 21", "video_url": "https://archive.org/download/01_20251207_20251207_1531/21.mp4" },
+    { "episode": 22, "title": "Episodio 22", "video_url": "https://archive.org/download/01_20251207_20251207_1531/22.mp4" },
+    { "episode": 23, "title": "Episodio 23", "video_url": "https://archive.org/download/01_20251207_20251207_1531/23.mp4" },
+    { "episode": 24, "title": "Episodio 24", "video_url": "https://archive.org/download/01_20251207_20251207_1531/24.mp4" },
+    { "episode": 25, "title": "Episodio 25", "video_url": "https://archive.org/download/01_20251207_20251207_1531/25.mp4" }
+  ]
+},
+ {
   "title": "Big Hero 6 (2014)",
   "description": "Hiro, un joven prodigio de la robótica, forma un equipo de superhéroes junto a Baymax, un robot sanitario creado por su hermano. Juntos se enfrentarán a una amenaza tecnológica que pone en peligro la ciudad de San Fransokyo.",
   "genre": ["Animación", "Acción", "Aventura", "Ciencia Ficción"],
