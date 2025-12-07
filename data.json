@@ -1,4 +1,39 @@
 [
+ 
+{
+  "title": "ER - Emergencias Temporada 2",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq__w1IRtyijzVMH-QWeY-2HxYAyDYOkQh2vUIlOk3Jg&s=10",
+  "description": "La segunda temporada sigue profundizando en las vidas personales y profesionales del equipo de médicos y enfermeros del County General. Emergencias intensas, decisiones éticas complejas y relaciones en constante evolución marcan cada episodio.",
+  "genre": [
+    "Drama",
+    "Medicina",
+    "Suspenso"
+  ],
+  "episodes": [
+    { "episode": 1,  "title": "¡Bienvenido de nuevo, Carter!", "video_url": "https://archive.org/download/ER-02/01%20-%20%C2%A1Bienvenido%20de%20nuevo%2C%20Carter%21.mp4" },
+    { "episode": 2,  "title": "Salidas de verano", "video_url": "https://archive.org/download/ER-02/02%20-%20Salidas%20de%20verano.mp4" },
+    { "episode": 3,  "title": "El discípulo y la muerte", "video_url": "https://archive.org/download/ER-02/03%20-%20El%20disc%C3%ADpulo%20y%20la%20muerte.mp4" },
+    { "episode": 4,  "title": "¿Esto es vida?", "video_url": "https://archive.org/download/ER-02/04%20-%20%C2%BFEsto%20es%20vida%3F.ia.mp4" },
+    { "episode": 5,  "title": "Y con la bebé somos dos", "video_url": "https://archive.org/download/ER-02/05%20-%20Y%20con%20la%20beb%C3%A9%20somos%20dos.ia.mp4" },
+    { "episode": 6,  "title": "Días como este", "video_url": "https://archive.org/download/ER-02/06%20-%20D%C3%ADas%20como%20este.ia.mp4" },
+    { "episode": 7,  "title": "Infierno en el agua", "video_url": "https://archive.org/download/ER-02/07%20-%20Infierno%20en%20el%20agua.ia.mp4" },
+    { "episode": 8,  "title": "Compartir un secreto", "video_url": "https://archive.org/download/ER-02/08%20-%20Compartir%20un%20secreto.ia.mp4" },
+    { "episode": 9,  "title": "Nuestra casa", "video_url": "https://archive.org/download/ER-02/09%20-%20Nuestra%20casa.ia.mp4" },
+    { "episode": 10, "title": "Aquí suceden milagros", "video_url": "https://archive.org/download/ER-02/10%20-%20Aqu%C3%AD%20suceden%20milagros.ia.mp4" },
+    { "episode": 11, "title": "En pleno invierno", "video_url": "https://archive.org/download/ER-02/11%20-%20En%20pleno%20invierno.ia.mp4" },
+    { "episode": 12, "title": "Mentiras verdaderas", "video_url": "https://archive.org/download/ER-02/12%20-%20Mentiras%20verdaderas.ia.mp4" },
+    { "episode": 13, "title": "No es fácil Dr. Greene", "video_url": "https://archive.org/download/ER-02/13%20-%20No%20es%20f%C3%A1cil%20Dr.%20Greene.ia.mp4" },
+    { "episode": 14, "title": "Ética", "video_url": "https://archive.org/download/ER-02/14%20-%20%C3%89tica.ia.mp4" },
+    { "episode": 15, "title": "El mejor regalo", "video_url": "https://archive.org/download/ER-02/15%20-%20El%20mejor%20regalo.ia.mp4" },
+    { "episode": 16, "title": "Héroes anónimos", "video_url": "https://archive.org/download/ER-02/16%20-%20H%C3%A9roes%20an%C3%B3nimos.ia.mp4" },
+    { "episode": 17, "title": "Demasiada felicidad", "video_url": "https://archive.org/download/ER-02/17%20-%20Demasiada%20felicidad.mp4" },
+    { "episode": 18, "title": "Turno de noche", "video_url": "https://archive.org/download/ER-02/18%20-%20Turno%20de%20noche.mp4" },
+    { "episode": 19, "title": "Amor y rencor", "video_url": "https://archive.org/download/ER-02/19%20-%20Amor%20y%20rencor.ia.mp4" },
+    { "episode": 20, "title": "Fiebres de origen desconocido", "video_url": "https://archive.org/download/ER-02/20%20-%20Fiebres%20de%20origen%20desconocido.ia.mp4" },
+    { "episode": 21, "title": "Toma estas alas rotas", "video_url": "https://archive.org/download/ER-02/21%20-%20Toma%20estas%20alas%20rotas.ia.mp4" },
+    { "episode": 22, "title": "El Dr. Carter", "video_url": "https://archive.org/download/ER-02/22%20-%20El%20Dr.%20Carter.ia.mp4" }
+  ]
+}, 
  {
   "title": "Ataque a los Titanes Temporada 2",
   "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStYcofLPOBiPyR-ateihz_gqS0mZhJEy3RsuAuTbc3iD7SOADPLhQe7L4&s=10",
