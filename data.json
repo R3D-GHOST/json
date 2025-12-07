@@ -1,4 +1,18 @@
 [
+{
+  "title": "Cars",
+  "description": "Un coche de carreras arrogante queda atrapado en un pequeño pueblo olvidado, donde aprende el valor de la amistad, la humildad y la comunidad.",
+  "genre": ["Animación", "Aventura", "Familiar", "Comedia"],
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMBkoYGxOyRYvq_eR9GdEjjF6csMeZsYe48GEVpLGqlBVsHo2TGvbequur&s=10",
+  "video_url": "https://archive.org/download/cars_20251207/cars.mp4"
+}, 
+ {
+  "title": "Coco",
+  "description": "Una conmovedora aventura animada sobre la familia, la memoria y las tradiciones, donde el joven Miguel viaja al mundo de los muertos para descubrir los secretos de sus antepasados.",
+  "genre": ["Animación", "Familiar", "Aventura", "Música"],
+  "coverImage": "https://lumiere-a.akamaihd.net/v1/images/p_coco_19736_fd5fa537.jpeg?region=0,0,540,810",
+  "video_url": "https://archive.org/download/cars_20251207/coco.ia.mp4"
+},
  {
   "title": "Cómo entrenar a tu dragón 3",
   "description": "Hipo, Chimuelo y sus amigos sobreviven a nuevas amenazas y deben elegir entre su hogar y el mundo de los dragones en esta emotiva conclusión de la saga.",
