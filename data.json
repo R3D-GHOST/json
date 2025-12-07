@@ -1,6 +1,31 @@
 [
  {
-  "title": "Ataque a los Titanes - Temporada 1",
+  "title": "Ataque a los Titanes Temporada 2",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStYcofLPOBiPyR-ateihz_gqS0mZhJEy3RsuAuTbc3iD7SOADPLhQe7L4&s=10",
+  "description": "Tras el descubrimiento de un Titán dentro del Muro Rose, nuevos misterios salen a la luz. El peligro aumenta cuando los Titanes avanzan de forma inexplicable, obligando al Cuerpo de Exploración a enfrentar traiciones, revelaciones y enemigos más inteligentes que nunca.",
+  "genre": [
+    "Acción",
+    "Drama",
+    "Suspenso",
+    "Fantasía oscura"
+  ],
+  "episodes": [
+    { "episode": 1,  "title": "Episodio 1",  "video_url": "https://archive.org/download/10_20251207/01.mp4" },
+    { "episode": 2,  "title": "Episodio 2",  "video_url": "https://archive.org/download/10_20251207/02.mp4" },
+    { "episode": 3,  "title": "Episodio 3",  "video_url": "https://archive.org/download/10_20251207/03.mp4" },
+    { "episode": 4,  "title": "Episodio 4",  "video_url": "https://archive.org/download/10_20251207/04.mp4" },
+    { "episode": 5,  "title": "Episodio 5",  "video_url": "https://archive.org/download/10_20251207/05.mp4" },
+    { "episode": 6,  "title": "Episodio 6",  "video_url": "https://archive.org/download/10_20251207/06.mp4" },
+    { "episode": 7,  "title": "Episodio 7",  "video_url": "https://archive.org/download/10_20251207/07.mp4" },
+    { "episode": 8,  "title": "Episodio 8",  "video_url": "https://archive.org/download/10_20251207/08.mp4" },
+    { "episode": 9,  "title": "Episodio 9",  "video_url": "https://archive.org/download/10_20251207/09.mp4" },
+    { "episode": 10, "title": "Episodio 10", "video_url": "https://archive.org/download/10_20251207/10.mp4" },
+    { "episode": 11, "title": "Episodio 11", "video_url": "https://archive.org/download/10_20251207/11.mp4" },
+    { "episode": 12, "title": "Episodio 12", "video_url": "https://archive.org/download/10_20251207/12.mp4" }
+  ]
+},
+ {
+  "title": "Ataque a los Titanes Temporada 1",
   "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR1WnV7udDA7gzLG-uw-_BYjVN4npXEpZTs8MsPE3Xbw&s=10",
   "description": "La humanidad lucha por sobrevivir tras la aparición de gigantes devoradores de humanos conocidos como Titanes. Eren Jaeger y sus amigos se unen al ejército para enfrentar la amenaza y descubrir los secretos detrás de los muros.",
   "genre": [
