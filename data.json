@@ -1,5 +1,19 @@
 [
   {
+  "title": "El Viaje de Chihiro",
+  "description": "Chihiro, una niña de diez años, queda atrapada en un mundo mágico lleno de espíritus, dioses y seres misteriosos. Para rescatar a sus padres y regresar a casa, deberá encontrar valor y aprender a confiar en sí misma.",
+  "genre": ["Animación", "Fantasía", "Aventura", "Drama"],
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUK4huET0C8EX1iwVDOOKv1oE_tS1FUPUncfD9Muns0g&s=10",
+  "video_url": "https://archive.org/download/el-viaje-de-chihiro.-2001.720.bdr-aquipelis.-net.lat/El%20Viaje%20De%20Chihiro.2001.720.bdrAQUIPELIS.NET.lat.mp4"
+},
+  {
+  "title": "Un Rayo de Luz",
+  "description": "Una niña prodigiosa con un talento extraordinario transforma la vida de quienes la rodean con su carisma, inocencia y habilidades únicas.",
+  "genre": ["Familiar", "Comedia", "Drama"],
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReZRgh9T633N-w2ERc4DQif66p0Jdv1FyRRNlLpBckRw&s=10",
+  "video_url": "https://archive.org/download/1960-un-rayo-de-luz/1960%20Un%20Rayo%20De%20Luz.mkv"
+},
+  {
     "title": "Volver al Futuro",
     "description": "Marty McFly viaja accidentalmente al pasado en una máquina del tiempo creada por el excéntrico Doc Brown, poniendo en riesgo su propia existencia.",
     "genre": ["Ciencia ficción", "Aventura", "Comedia"],
