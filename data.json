@@ -1,4 +1,25 @@
 [
+    {
+  "title": "Los Colegas del Barrio (1996)",
+  "description": "Una visión cruda de la vida urbana donde un grupo de jóvenes lucha por sobrevivir en un barrio difícil, enfrentando peligros, lealtades y desafíos personales.",
+  "genre": ["Crimen", "Drama", "Thriller"],
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR-FdMFnbBCpBbyKsfKPxswcv8NRlgqj_VEtgNSgRMnA&s=10",
+  "video_url": "https://archive.org/download/los-colegas-del-barrio-1996-remasterizado-en-4-k-pelicula-completa-en-espanol-latino/Los%20Colegas%20Del%20Barrio%20%281996%29%20%5BRemasterizado%20En%204K%5D%20%28Pelicula%20Completa%20En%20Espa%C3%B1ol%20Latino%29.ia.mp4"
+},
+    {
+    "title": "El Gato con Botas: El último deseo",
+    "description": "El Gato con Botas descubre que ha usado ya casi todas sus nueve vidas, y buscará un mítico deseo final mientras enfrenta peligros y antiguos enemigos.",
+    "genre": ["Animación", "Aventura", "Comedia", "Familiar"],
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCHm1DTtyBCT0WKdB4VYAFIGl02H2BsX4vXvpI6ySzDw&s=10",
+    "video_url": "https://archive.org/download/el-gato-con-botas-el-ultimo-deseo_202303/El%20Gato%20Con%20Botas%20El%20ultimo%20deseo.mp4"
+  },
+  {
+    "title": "El Gato con Botas",
+    "description": "El astuto Gato con Botas vive escapando de perseguidores hasta que decide emprender una aventura llena de acción y humor.",
+    "genre": ["Animación", "Aventura", "Comedia", "Familiar"],
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYPZ1xeN6qVTwqnAM8sMA5sUyT9nZQmcKlfRZWxuj_ag&s=10",
+    "video_url": "https://archive.org/download/el-gato-con-botas_202109/EL%20GATO%20CON%20BOTAS.mp4"
+  },
   {
   "title": "Los violadores (1981)",
   "description": "En Barcelona un play-boy adinerado comienza a tener problemas cuando choca con una banda de moteros nazis: lo que parecía una vida de lujos y seducción se convierte en venganza, violencia y peligro. Thriller de acción con tono de explotación tardío típico de los años 80. (Título original: Mad Foxes)",
