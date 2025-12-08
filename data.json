@@ -1,4 +1,25 @@
 [
+  {
+    "title": "Volver al Futuro",
+    "description": "Marty McFly viaja accidentalmente al pasado en una máquina del tiempo creada por el excéntrico Doc Brown, poniendo en riesgo su propia existencia.",
+    "genre": ["Ciencia ficción", "Aventura", "Comedia"],
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0QRSlMLyJwIGGk6kOoosopO9t2NCcI-5OxpIkz8Q0qw&s=10",
+    "video_url": "https://archive.org/download/volver-al-futuro-1_202509/Volver%20al%20futuro%201.mp4"
+  },
+  {
+    "title": "Volver al Futuro II",
+    "description": "Marty y Doc viajan al futuro, pero un cambio en la línea temporal provoca una realidad alternativa que deberán corregir viajando nuevamente al pasado.",
+    "genre": ["Ciencia ficción", "Aventura", "Comedia"],
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqZqt5g4w4UOzTM29nNW2-a60QCvDUKXM5aueANL7T0w&s=10",
+    "video_url": "https://archive.org/download/volver-al-futuro-2_202509/Volver%20al%20futuro%202.mp4"
+  },
+  {
+    "title": "Volver al Futuro III",
+    "description": "Marty viaja al Viejo Oeste para rescatar a Doc Brown y devolver todo a la normalidad, mientras enfrentan desafíos inesperados en 1885.",
+    "genre": ["Ciencia ficción", "Aventura", "Comedia"],
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfU_o5JmFNlvUYX7VIihRx5zYccjFtgq7PHm5AXodGbw&s=10",
+    "video_url": "https://archive.org/download/volver-al-futuro-3_202509/Volver%20al%20futuro%203.mp4"
+  },
  
 {
   "title": "La Leyenda del Dragón (Dragon Hunters)",
