@@ -1,6 +1,125 @@
 [
   {
-  "title": "Voltron: Defensor Legendario - Temporada 2",
+  "title": "Voltron: Defensor Legendario - Temporada 5",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-_Bz7UDj1q5UQSEmfl1_V-bWTh_rygZCrUijyd9q3xDfiSQntTaayhQLW&s=10",
+  "description": "Quinta temporada de Voltron: Defensor Legendario — nuevas misiones, conflictos familiares y peligros crecientes en la lucha contra el Imperio Galra.",
+  "genre": ["Acción", "Aventura", "Ciencia ficción", "Animación"],
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "El Prisionero",
+      "video_url": "https://archive.org/download/voltron-defensor-legendario-temporada-1-a-8-espanol-latino/VLD%205x01%20El%20Prisionero.ia.mp4"
+    },
+    {
+      "episode": 2,
+      "title": "Duelo Familiar",
+      "video_url": "https://archive.org/download/voltron-defensor-legendario-temporada-1-a-8-espanol-latino/VLD%205x02%20Duelo%20Familiar.ia.mp4"
+    },
+    {
+      "episode": 3,
+      "title": "Post Mortem",
+      "video_url": "https://archive.org/download/voltron-defensor-legendario-temporada-1-a-8-espanol-latino/VLD%205x03%20Post%20Mortem.mp4"
+    },
+    {
+      "episode": 4,
+      "title": "Kral Zera",
+      "video_url": "https://archive.org/download/voltron-defensor-legendario-temporada-1-a-8-espanol-latino/VLD%205x04%20Kral%20Zera.ia.mp4"
+    },
+    {
+      "episode": 5,
+      "title": "Linajes",
+      "video_url": "https://archive.org/download/voltron-defensor-legendario-temporada-1-a-8-espanol-latino/VLD%205x05%20Linajes.mp4"
+    },
+    {
+      "episode": 6,
+      "title": "León Blanco",
+      "video_url": "https://archive.org/download/voltron-defensor-legendario-temporada-1-a-8-espanol-latino/VLD%205x06%20Le%C3%B3n%20Blanco.mp4"
+    }
+  ]
+},
+  {
+  "title": "Voltron: Defensor Legendario Temporada 4",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiA7lsJsMtlYxdjN_pRblPef4XDAh_K2OLi8eBCY_EfQ&s=10",
+  "description": "Cuarta temporada de Voltron: Defensor Legendario en español latino — nuevas misiones, desafíos y batallas para los Paladines.",
+  "genre": ["Acción", "Aventura", "Ciencia ficción", "Animación"],
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "Código de Honor",
+      "video_url": "https://archive.org/download/voltron-defensor-legendario-temporada-1-a-8-espanol-latino/VLD%204x01%20C%C3%B3digo%20de%20Honor.mp4"
+    },
+    {
+      "episode": 2,
+      "title": "Reunión",
+      "video_url": "https://archive.org/download/voltron-defensor-legendario-temporada-1-a-8-espanol-latino/VLD%204x02%20Reuni%C3%B3n.mp4"
+    },
+    {
+      "episode": 3,
+      "title": "Área Oscura",
+      "video_url": "https://archive.org/download/voltron-defensor-legendario-temporada-1-a-8-espanol-latino/VLD%204x03%20%C3%81rea%20Oscura.ia.mp4"
+    },
+    {
+      "episode": 4,
+      "title": "¡El Show de Voltron!",
+      "video_url": "https://archive.org/download/voltron-defensor-legendario-temporada-1-a-8-espanol-latino/VLD%204x04%20%C2%A1El%20Show%20de%20Voltron%21.mp4"
+    },
+    {
+      "episode": 5,
+      "title": "Inicia el Ataque",
+      "video_url": "https://archive.org/download/voltron-defensor-legendario-temporada-1-a-8-espanol-latino/VLD%204x05%20Inicia%20el%20Ataque.ia.mp4"
+    },
+    {
+      "episode": 6,
+      "title": "Un Nuevo Defensor",
+      "video_url": "https://archive.org/download/voltron-defensor-legendario-temporada-1-a-8-espanol-latino/VLD%204x06%20Un%20Nuevo%20Defensor.mp4"
+    }
+  ]
+},
+  {
+  "title": "Voltron: Defensor Legendario Temporada 3",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS725ejABwGJDUecAhXIGTn6d63Jumro15IYcCEmiK_SZlzhgOUtlM8ecc&s=10",
+  "description": "Tercera temporada de Voltron: Defensor Legendario en español latino — los Paladines enfrentan nuevos retos y aventuras en su misión de proteger la galaxia.",
+  "genre": ["Acción", "Aventura", "Ciencia ficción", "Animación"],
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "Cambio de Guardia",
+      "video_url": "https://archive.org/download/voltron-defensor-legendario-temporada-1-a-8-espanol-latino/VLD%203x01%20Cambio%20de%20Guardia.mp4"
+    },
+    {
+      "episode": 2,
+      "title": "El Paladín Rojo",
+      "video_url": "https://archive.org/download/voltron-defensor-legendario-temporada-1-a-8-espanol-latino/VLD%203x02%20El%20Palad%C3%ADn%20Rojo.mp4"
+    },
+    {
+      "episode": 3,
+      "title": "Las Presas",
+      "video_url": "https://archive.org/download/voltron-defensor-legendario-temporada-1-a-8-espanol-latino/VLD%203x03%20Las%20Presas.ia.mp4"
+    },
+    {
+      "episode": 4,
+      "title": "Una Grieta en el Espacio",
+      "video_url": "https://archive.org/download/voltron-defensor-legendario-temporada-1-a-8-espanol-latino/VLD%203x04%20Una%20Grieta%20en%20el%20Espacio.ia.mp4"
+    },
+    {
+      "episode": 5,
+      "title": "El Viaje",
+      "video_url": "https://archive.org/download/voltron-defensor-legendario-temporada-1-a-8-espanol-latino/VLD%203x05%20El%20Viaje.ia.mp4"
+    },
+    {
+      "episode": 6,
+      "title": "Siguiendo el Cometa",
+      "video_url": "https://archive.org/download/voltron-defensor-legendario-temporada-1-a-8-espanol-latino/VLD%203x06%20Siguiendo%20el%20Cometa.mp4"
+    },
+    {
+      "episode": 7,
+      "title": "Nace la Leyenda",
+      "video_url": "https://archive.org/download/voltron-defensor-legendario-temporada-1-a-8-espanol-latino/VLD%203x07%20Nace%20La%20Leyenda.mp4"
+    }
+  ]
+  },
+  {
+  "title": "Voltron: Defensor Legendario Temporada 2",
   "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0U9z36oeBS6eaZTasXCciNFigakSx7VQKgLrjVYRlfQ&s=10",
   "description": "Los Paladines continúan su batalla contra el Imperio Galra mientras buscan pistas sobre el destino de Shiro y nuevas formas de fortalecer a Voltron. La guerra por el universo se intensifica.",
   "genre": ["Acción", "Aventura", "Ciencia ficción", "Animación"],
