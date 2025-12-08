@@ -1,5 +1,13 @@
 [
     {
+  "title": "Dante Inferno",
+  "description": "Una adaptación de la obra clásica de Dante Alighieri, explorando los círculos del Infierno y los desafíos del viaje espiritual.",
+  "genre": ["Animación", "Aventura", "Fantasía", "Clásico"],
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc6aSFwkjx8kgL_ueVO9bLCbfbsfCzEwyf1F4bFW1cFg&s=10",
+  "video_url": "https://archive.org/download/dante-inferno_202211/DANTE%20INFERNO.mp4"
+},
+    
+    {
   "title": "Los Colegas del Barrio (1996)",
   "description": "Una visión cruda de la vida urbana donde un grupo de jóvenes lucha por sobrevivir en un barrio difícil, enfrentando peligros, lealtades y desafíos personales.",
   "genre": ["Crimen", "Drama", "Thriller"],
