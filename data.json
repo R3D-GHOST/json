@@ -1,7 +1,215 @@
 [
+{
+  "title": "La Leyenda del Dragón (Dragon Hunters)",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFRdVgezYLzUaCtFzH6v5PXRZMnRMyi5yfeg15AbmJy5IlqhrTjoj9Vf0&s=10",
+  "description": "Ricky es un joven de 10 años que descubre que es el último de una línea de guerreros dragón. Con la ayuda de su abuela y de una antigua fuerza conocida como la Llama Dorada, debe reunir los Seis Círculos del Dragón para derrotar a la Maestra del Mal y salvar el mundo.",
+  "genre": [
+    "Animación",
+    "Aventura",
+    "Fantasía",
+    "Acción"
+  ],
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "Episodio 01",
+      "video_url": "https://archive.org/download/la-leyenda-del-dragon-01/La%20Leyenda%20Del%20Drag%C3%B3n%2001.mp4"
+    },
+    {
+      "episode": 2,
+      "title": "Episodio 02",
+      "video_url": "https://archive.org/download/la-leyenda-del-dragon-01/La%20Leyenda%20Del%20Drag%C3%B3n%2002.mp4"
+    },
+    {
+      "episode": 3,
+      "title": "Episodio 03",
+      "video_url": "https://archive.org/download/la-leyenda-del-dragon-01/La%20Leyenda%20Del%20Drag%C3%B3n%2003.mp4"
+    },
+    {
+      "episode": 4,
+      "title": "Episodio 04",
+      "video_url": "https://archive.org/download/la-leyenda-del-dragon-01/La%20Leyenda%20Del%20Drag%C3%B3n%2004.mp4"
+    },
+    {
+      "episode": 5,
+      "title": "Episodio 05",
+      "video_url": "https://archive.org/download/la-leyenda-del-dragon-01/La%20Leyenda%20Del%20Drag%C3%B3n%2005.mp4"
+    },
+    {
+      "episode": 6,
+      "title": "Episodio 06",
+      "video_url": "https://archive.org/download/la-leyenda-del-dragon-01/La%20Leyenda%20Del%20Drag%C3%B3n%2006.mp4"
+    },
+    {
+      "episode": 7,
+      "title": "Episodio 07",
+      "video_url": "https://archive.org/download/la-leyenda-del-dragon-01/La%20Leyenda%20Del%20Drag%C3%B3n%2007.mp4"
+    },
+    {
+      "episode": 8,
+      "title": "Episodio 08",
+      "video_url": "https://archive.org/download/la-leyenda-del-dragon-01/La%20Leyenda%20Del%20Drag%C3%B3n%2008.mp4"
+    },
+    {
+      "episode": 9,
+      "title": "Episodio 09",
+      "video_url": "https://archive.org/download/la-leyenda-del-dragon-01/La%20Leyenda%20Del%20Drag%C3%B3n%2009.mp4"
+    },
+    {
+      "episode": 10,
+      "title": "Episodio 10",
+      "video_url": "https://archive.org/download/la-leyenda-del-dragon-01/La%20Leyenda%20Del%20Drag%C3%B3n%2010.mp4"
+    },
+    {
+      "episode": 11,
+      "title": "Episodio 11",
+      "video_url": "https://archive.org/download/la-leyenda-del-dragon-01/La%20Leyenda%20Del%20Drag%C3%B3n%2011.mp4"
+    },
+    {
+      "episode": 12,
+      "title": "Episodio 12",
+      "video_url": "https://archive.org/download/la-leyenda-del-dragon-01/La%20Leyenda%20Del%20Drag%C3%B3n%2012.mp4"
+    },
+    {
+      "episode": 13,
+      "title": "Episodio 13",
+      "video_url": "https://archive.org/download/la-leyenda-del-dragon-01/La%20Leyenda%20Del%20Drag%C3%B3n%2013.mp4"
+    },
+    {
+      "episode": 14,
+      "title": "Episodio 14",
+      "video_url": "https://archive.org/download/la-leyenda-del-dragon-01/La%20Leyenda%20Del%20Drag%C3%B3n%2014.mp4"
+    },
+    {
+      "episode": 15,
+      "title": "Episodio 15",
+      "video_url": "https://archive.org/download/la-leyenda-del-dragon-01/La%20Leyenda%20Del%20Drag%C3%B3n%2015.mp4"
+    },
+    {
+      "episode": 16,
+      "title": "Episodio 16",
+      "video_url": "https://archive.org/download/la-leyenda-del-dragon-01/La%20Leyenda%20Del%20Drag%C3%B3n%2016.mp4"
+    },
+    {
+      "episode": 17,
+      "title": "Episodio 17",
+      "video_url": "https://archive.org/download/la-leyenda-del-dragon-01/La%20Leyenda%20Del%20Drag%C3%B3n%2017.mp4"
+    },
+    {
+      "episode": 18,
+      "title": "Episodio 18",
+      "video_url": "https://archive.org/download/la-leyenda-del-dragon-01/La%20Leyenda%20Del%20Drag%C3%B3n%2018.mp4"
+    },
+    {
+      "episode": 19,
+      "title": "Episodio 19",
+      "video_url": "https://archive.org/download/la-leyenda-del-dragon-01/La%20Leyenda%20Del%20Drag%C3%B3n%2019.mp4"
+    },
+    {
+      "episode": 20,
+      "title": "Episodio 20",
+      "video_url": "https://archive.org/download/la-leyenda-del-dragon-01/La%20Leyenda%20Del%20Drag%C3%B3n%2020.mp4"
+    },
+    {
+      "episode": 21,
+      "title": "Episodio 21",
+      "video_url": "https://archive.org/download/la-leyenda-del-dragon-01/La%20Leyenda%20Del%20Drag%C3%B3n%2021.mp4"
+    },
+    {
+      "episode": 22,
+      "title": "Episodio 22",
+      "video_url": "https://archive.org/download/la-leyenda-del-dragon-01/La%20Leyenda%20Del%20Drag%C3%B3n%2022.mp4"
+    },
+    {
+      "episode": 23,
+      "title": "Episodio 23",
+      "video_url": "https://archive.org/download/la-leyenda-del-dragon-01/La%20Leyenda%20Del%20Drag%C3%B3n%2023.mp4"
+    },
+    {
+      "episode": 24,
+      "title": "Episodio 24",
+      "video_url": "https://archive.org/download/la-leyenda-del-dragon-01/La%20Leyenda%20Del%20Drag%C3%B3n%2024.mp4"
+    },
+    {
+      "episode": 25,
+      "title": "Episodio 25",
+      "video_url": "https://archive.org/download/la-leyenda-del-dragon-01/La%20Leyenda%20Del%20Drag%C3%B3n%2025.mp4"
+    },
+    {
+      "episode": 26,
+      "title": "Episodio 26",
+      "video_url": "https://archive.org/download/la-leyenda-del-dragon-01/La%20Leyenda%20Del%20Drag%C3%B3n%2026.mp4"
+    },
+    {
+      "episode": 27,
+      "title": "Episodio 27",
+      "video_url": "https://archive.org/download/la-leyenda-del-dragon-01/La%20Leyenda%20Del%20Drag%C3%B3n%2027.mp4"
+    },
+    {
+      "episode": 28,
+      "title": "Episodio 28",
+      "video_url": "https://archive.org/download/la-leyenda-del-dragon-01/La%20Leyenda%20Del%20Drag%C3%B3n%2028.mp4"
+    },
+    {
+      "episode": 29,
+      "title": "Episodio 29",
+      "video_url": "https://archive.org/download/la-leyenda-del-dragon-01/La%20Leyenda%20Del%20Drag%C3%B3n%2029.mp4"
+    },
+    {
+      "episode": 30,
+      "title": "Episodio 30",
+      "video_url": "https://archive.org/download/la-leyenda-del-dragon-01/La%20Leyenda%20Del%20Drag%C3%B3n%2030.mp4"
+    },
+    {
+      "episode": 31,
+      "title": "Episodio 31",
+      "video_url": "https://archive.org/download/la-leyenda-del-dragon-01/La%20Leyenda%20Del%20Drag%C3%B3n%2031.mp4"
+    },
+    {
+      "episode": 32,
+      "title": "Episodio 32",
+      "video_url": "https://archive.org/download/la-leyenda-del-dragon-01/La%20Leyenda%20Del%20Drag%C3%B3n%2032.mp4"
+    },
+    {
+      "episode": 33,
+      "title": "Episodio 33",
+      "video_url": "https://archive.org/download/la-leyenda-del-dragon-01/La%20Leyenda%20Del%20Drag%C3%B3n%2033.mp4"
+    },
+    {
+      "episode": 34,
+      "title": "Episodio 34",
+      "video_url": "https://archive.org/download/la-leyenda-del-dragon-01/La%20Leyenda%20Del%20Drag%C3%B3n%2034.mp4"
+    },
+    {
+      "episode": 35,
+      "title": "Episodio 35",
+      "video_url": "https://archive.org/download/la-leyenda-del-dragon-01/La%20Leyenda%20Del%20Drag%C3%B3n%2035.mp4"
+    },
+    {
+      "episode": 36,
+      "title": "Episodio 36",
+      "video_url": "https://archive.org/download/la-leyenda-del-dragon-01/La%20Leyenda%20Del%20Drag%C3%B3n%2036.mp4"
+    },
+    {
+      "episode": 37,
+      "title": "Episodio 37",
+      "video_url": "https://archive.org/download/la-leyenda-del-dragon-01/La%20Leyenda%20Del%20Drag%C3%B3n%2037.mp4"
+    },
+    {
+      "episode": 38,
+      "title": "Episodio 38",
+      "video_url": "https://archive.org/download/la-leyenda-del-dragon-01/La%20Leyenda%20Del%20Drag%C3%B3n%2038.mp4"
+    },
+    {
+      "episode": 39,
+      "title": "Episodio 39",
+      "video_url": "https://archive.org/download/la-leyenda-del-dragon-01/La%20Leyenda%20Del%20Drag%C3%B3n%2039.mp4"
+    }
+  ]
+},
   {
   "title": "Heidi",
-  "coverImage": "https://static.wikia.nocookie.net/doblaje/images/7/76/Heidi.jpg/revision/latest?cb=20220315003908&path-prefix=es",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe1q1zNLAtNiPlzm8MCkPGeRST9iLrEhNB5HWMSH8x1g&s=10",
   "description": "Heidi es una huérfana de ocho años criada por su abuelo en las montañas suizas. Junto a su amigo Pedro, un joven cabrero, cuida de las cabras del abuelo y disfruta de la libertad en la montaña. Pero un día su tía Dete decide llevársela a Frankfurt.",
   "genre": ["Animación", "Infantil", "Aventura", "Familiar"],
   "episodes": [
