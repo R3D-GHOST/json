@@ -1,5 +1,78 @@
 [
   {
+  "title": "Voltron: Defensor Legendario Temporada 8",
+  "coverImage": "https://images.justwatch.com/poster/125276164/s718/temporada-8.jpg",
+  "description": "Octava y última temporada de Voltron: Defensor Legendario en español latino — el clímax de la batalla final y la resolución de las aventuras de los Paladines.",
+  "genre": ["Acción", "Aventura", "Ciencia ficción", "Animación"],
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "Día de Lanzamiento",
+      "video_url": "https://archive.org/download/voltron-defensor-legendario-temporada-1-a-8-espanol-latino/VLD%208x01%20D%C3%ADa%20de%20Lanzamiento.mp4"
+    },
+    {
+      "episode": 2,
+      "title": "Sombras",
+      "video_url": "https://archive.org/download/voltron-defensor-legendario-temporada-1-a-8-espanol-latino/VLD%208x02%20Sombras.mp4"
+    },
+    {
+      "episode": 3,
+      "title": "El Dilema del Prisionero",
+      "video_url": "https://archive.org/download/voltron-defensor-legendario-temporada-1-a-8-espanol-latino/VLD%208x03%20El%20Dilema%20del%20Prisionero.ia.mp4"
+    },
+    {
+      "episode": 4,
+      "title": "Cicatrices de Batalla",
+      "video_url": "https://archive.org/download/voltron-defensor-legendario-temporada-1-a-8-espanol-latino/VLD%208x04%20Cicatrices%20de%20Batalla.ia.mp4"
+    },
+    {
+      "episode": 5,
+      "title": "El Rencor",
+      "video_url": "https://archive.org/download/voltron-defensor-legendario-temporada-1-a-8-espanol-latino/VLD%208x05%20El%20Rencor.ia.mp4"
+    },
+    {
+      "episode": 6,
+      "title": "Génesis",
+      "video_url": "https://archive.org/download/voltron-defensor-legendario-temporada-1-a-8-espanol-latino/VLD%208x06%20G%C3%A9nesis.ia.mp4"
+    },
+    {
+      "episode": 7,
+      "title": "Día Cuarenta y Siete",
+      "video_url": "https://archive.org/download/voltron-defensor-legendario-temporada-1-a-8-espanol-latino/VLD%208x07%20D%C3%ADa%20Cuarenta%20y%20Siete.ia.mp4"
+    },
+    {
+      "episode": 8,
+      "title": "Día Despejado",
+      "video_url": "https://archive.org/download/voltron-defensor-legendario-temporada-1-a-8-espanol-latino/VLD%208x08%20D%C3%ADa%20Despejado.mp4"
+    },
+    {
+      "episode": 9,
+      "title": "Caballeros de la Luz P1",
+      "video_url": "https://archive.org/download/voltron-defensor-legendario-temporada-1-a-8-espanol-latino/VLD%208x09%20Caballeros%20de%20la%20Luz%20P1.ia.mp4"
+    },
+    {
+      "episode": 10,
+      "title": "Caballeros de la Luz P2",
+      "video_url": "https://archive.org/download/voltron-defensor-legendario-temporada-1-a-8-espanol-latino/VLD%208x10%20Caballeros%20de%20la%20Luz%20P2.ia.mp4"
+    },
+    {
+      "episode": 11,
+      "title": "Territorio Inexplorado",
+      "video_url": "https://archive.org/download/voltron-defensor-legendario-temporada-1-a-8-espanol-latino/VLD%208x11%20Territorio%20Inexplorado.ia.mp4"
+    },
+    {
+      "episode": 12,
+      "title": "El Cénit",
+      "video_url": "https://archive.org/download/voltron-defensor-legendario-temporada-1-a-8-espanol-latino/VLD%208x12%20El%20C%C3%A9nit.ia.mp4"
+    },
+    {
+      "episode": 13,
+      "title": "El Final es el Principio",
+      "video_url": "https://archive.org/download/voltron-defensor-legendario-temporada-1-a-8-espanol-latino/VLD%208x13%20El%20FInal%20es%20el%20Principio.ia.mp4"
+    }
+  ]
+},
+  {
   "title": "Voltron: Defensor Legendario Temporada 7",
   "coverImage": "https://images.justwatch.com/poster/125276207/s718/temporada-7.jpg",
   "description": "Séptima temporada de Voltron: Defensor Legendario en español latino — los Paladines enfrentan desafíos críticos y la batalla final se aproxima.",
