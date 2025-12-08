@@ -1,5 +1,42 @@
 [
   {
+  "title": "Bakugan",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeNsWD2XPHAlWDfhB_i4wMKZ6RqybJQKTRayfzuomNMQ&s=10",
+  "description": "Han pasado varios años desde la última gran batalla Bakugan. Un nuevo enemigo, los Vestals, invade Nueva Vestroia y captura a los Bakugan. Dan, Marucho y un nuevo equipo deben regresar para liberarlos y detener la opresión.",
+  "genre": [
+    "Acción",
+    "Aventura",
+    "Fantasía"
+  ],
+  "episodes": [
+    { "episode": 1, "title": "La invasión de los Vestals", "video_url": "https://archive.org/download/01.-la-invasion-de-los-vestals/01.La%20invasi%C3%B3n%20de%20los%20vestals.ia.mp4" },
+    { "episode": 2, "title": "Enfrentando a Ace", "video_url": "https://archive.org/download/01.-la-invasion-de-los-vestals/02.Enfrentando%20a%20Ace.ia.mp4" },
+    { "episode": 3, "title": "Psicosis", "video_url": "https://archive.org/download/01.-la-invasion-de-los-vestals/03.Psicosis.mp4" },
+    { "episode": 4, "title": "La misión de Marucho", "video_url": "https://archive.org/download/01.-la-invasion-de-los-vestals/04.La%20misi%C3%B3n%20de%20Marucho.ia.mp4" },
+    { "episode": 5, "title": "El sabor de la derrota", "video_url": "https://archive.org/download/01.-la-invasion-de-los-vestals/05.El%20sabor%20de%20la%20derrota.ia.mp4" },
+    { "episode": 6, "title": "El regreso de un amigo", "video_url": "https://archive.org/download/01.-la-invasion-de-los-vestals/06.El%20regreso%20de%20un%20amigo.ia.mp4" },
+    { "episode": 7, "title": "Ciber-Pesadilla", "video_url": "https://archive.org/download/01.-la-invasion-de-los-vestals/07.Ciber%20-%20Pesadilla.mp4" },
+    { "episode": 8, "title": "Cuál es el plan", "video_url": "https://archive.org/download/01.-la-invasion-de-los-vestals/08.Cual%20es%20el%20plan.mp4" },
+    { "episode": 9, "title": "Corriendo por la libertad", "video_url": "https://archive.org/download/01.-la-invasion-de-los-vestals/09.Corriendo%20por%20la%20libertad.mp4" },
+    { "episode": 10, "title": "El visitante sorpresa", "video_url": "https://archive.org/download/01.-la-invasion-de-los-vestals/10.El%20visitante%20sorpresa.mp4" },
+    { "episode": 11, "title": "Cruzando el portal", "video_url": "https://archive.org/download/01.-la-invasion-de-los-vestals/11.Cruzando%20El%20Portal.mp4" },
+    { "episode": 12, "title": "Desenmascarado", "video_url": "https://archive.org/download/01.-la-invasion-de-los-vestals/12.Desenmascarado.mp4" },
+    { "episode": 13, "title": "Voces en la noche", "video_url": "https://archive.org/download/01.-la-invasion-de-los-vestals/13.Voces%20en%20la%20noche.mp4" },
+    { "episode": 14, "title": "Duelo en las dunas", "video_url": "https://archive.org/download/01.-la-invasion-de-los-vestals/14.Duelo%20en%20las%20dunas.mp4" },
+    { "episode": 15, "title": "El peleador restante", "video_url": "https://archive.org/download/01.-la-invasion-de-los-vestals/15.El%20peleador%20restante.mp4" },
+    { "episode": 16, "title": "Muéstrame tu poder", "video_url": "https://archive.org/download/01.-la-invasion-de-los-vestals/16.Muestrame%20tu%20poder.mp4" },
+    { "episode": 17, "title": "Amigo, ¿dónde está mi Bakugan?", "video_url": "https://archive.org/download/01.-la-invasion-de-los-vestals/17.Amigo%2C%20D%C3%B3nde%20est%C3%A1%20mi%20bakugan.mp4" },
+    { "episode": 18, "title": "Adiós, adiós Bakugan", "video_url": "https://archive.org/download/01.-la-invasion-de-los-vestals/18.Adios%2C%20Adi%C3%B3s%20Bakugan.mp4" }
+  ]
+  },
+  {
+  "title": "No Game No Life: Zero",
+  "description": "En una guerra antigua que casi acaba con toda la existencia, un joven humano llamado Riku y una poderosa Ex Machina llamada Shuvi intentan cambiar el destino del mundo con una alianza improbable.",
+  "genre": ["Animación", "Fantasía", "Aventura", "Acción", "Drama"],
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxNeunozsD5NGu8mlVmYTwKaEwsdQQMUmxfQGj1DrDUw&s=10",
+  "video_url": "https://archive.org/download/no-game-no-life-zero-pelicula-completa-espanol-360-p/No%20Game%20No%20Life%20Zero%20%20Pelicula%20Completa%20Espa%C3%B1ol%28360P%29.mp4"
+},
+  {
     "title": "Star Wars: Episodio I – La Amenaza Fantasma",
     "description": "La República se ve amenazada mientras un joven Anakin Skywalker es descubierto y los Jedi enfrentan el regreso de un antiguo enemigo.",
     "genre": ["Ciencia ficción", "Aventura", "Acción", "Fantástico"],
