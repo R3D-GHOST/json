@@ -1,4 +1,72 @@
 [
+  {
+  "title": "El Internado: La Laguna Negra Temporada 4",
+  "coverImage": "https://es.web.img2.acsta.net/pictures/21/02/01/06/31/2249865.jpg",
+  "description": "La cuarta temporada continúa la intensa búsqueda de la verdad. Marcos descubre que su madre está viva y encarcelada en el internado por Ottox, mientras que los alumnos se enfrentan a más secretos oscuros, el misterio de los viejos huérfanos y la amenaza de una conspiración que se extiende mucho más allá de las paredes de la escuela.",
+  "genre": [
+    "Misterio",
+    "Thriller",
+    "Drama",
+    "Terror"
+  ],
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "Episodio 1",
+      "video_url": "https://archive.org/download/4_20251208_20251208_1413/1.mp4"
+    },
+    {
+      "episode": 2,
+      "title": "Episodio 2",
+      "video_url": "https://archive.org/download/4_20251208_20251208_1413/2.mp4"
+    },
+    {
+      "episode": 3,
+      "title": "Episodio 3",
+      "video_url": "https://archive.org/download/4_20251208_20251208_1413/3.mp4"
+    },
+    {
+      "episode": 4,
+      "title": "Episodio 4",
+      "video_url": "https://archive.org/download/4_20251208_20251208_1413/4.mp4"
+    },
+    {
+      "episode": 5,
+      "title": "Episodio 5",
+      "video_url": "https://archive.org/download/4_20251208_20251208_1413/5.mp4"
+    },
+    {
+      "episode": 6,
+      "title": "Episodio 6",
+      "video_url": "https://archive.org/download/4_20251208_20251208_1413/6.mp4"
+    },
+    {
+      "episode": 7,
+      "title": "Episodio 7",
+      "video_url": "https://archive.org/download/4_20251208_20251208_1413/7.mp4"
+    },
+    {
+      "episode": 8,
+      "title": "Episodio 8",
+      "video_url": "https://archive.org/download/4_20251208_20251208_1413/8.mp4"
+    },
+    {
+      "episode": 9,
+      "title": "Episodio 9",
+      "video_url": "https://archive.org/download/4_20251208_20251208_1413/9.mp4"
+    },
+    {
+      "episode": 10,
+      "title": "Episodio 10",
+      "video_url": "https://archive.org/download/4_20251208_20251208_1413/10.mp4"
+    },
+    {
+      "episode": 11,
+      "title": "Episodio 11",
+      "video_url": "https://archive.org/download/4_20251208_20251208_1413/11.mp4"
+    }
+  ]
+  },
 {
   "title": "La Leyenda del Dragón (Dragon Hunters)",
   "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFRdVgezYLzUaCtFzH6v5PXRZMnRMyi5yfeg15AbmJy5IlqhrTjoj9Vf0&s=10",
