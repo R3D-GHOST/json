@@ -1,5 +1,78 @@
 [
   {
+  "title": "Voltron: Defensor Legendario - Temporada 2",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0U9z36oeBS6eaZTasXCciNFigakSx7VQKgLrjVYRlfQ&s=10",
+  "description": "Los Paladines continúan su batalla contra el Imperio Galra mientras buscan pistas sobre el destino de Shiro y nuevas formas de fortalecer a Voltron. La guerra por el universo se intensifica.",
+  "genre": ["Acción", "Aventura", "Ciencia ficción", "Animación"],
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "A Través del Universo",
+      "video_url": "https://archive.org/download/voltron-defensor-legendario-temporada-1-a-8-espanol-latino/VLD%202X01%20A%20Trav%C3%A9s%20del%20Universo.mp4"
+    },
+    {
+      "episode": 2,
+      "title": "Las Profundidades",
+      "video_url": "https://archive.org/download/voltron-defensor-legendario-temporada-1-a-8-espanol-latino/VLD%202X02%20Las%20Profundidades.mp4"
+    },
+    {
+      "episode": 3,
+      "title": "El Secreto del Escape de Shiro",
+      "video_url": "https://archive.org/download/voltron-defensor-legendario-temporada-1-a-8-espanol-latino/VLD%202x03%20El%20Secreto%20del%20Escape%20de%20Shiro.mp4"
+    },
+    {
+      "episode": 4,
+      "title": "Problemas al Cubo",
+      "video_url": "https://archive.org/download/voltron-defensor-legendario-temporada-1-a-8-espanol-latino/VLD%202x04%20Problemas%20al%20Cubo.mp4"
+    },
+    {
+      "episode": 5,
+      "title": "El Ojo de la Tormenta",
+      "video_url": "https://archive.org/download/voltron-defensor-legendario-temporada-1-a-8-espanol-latino/VLD%202x05%20El%20Ojo%20de%20la%20Tormenta.mp4"
+    },
+    {
+      "episode": 6,
+      "title": "El Arca de Taujer",
+      "video_url": "https://archive.org/download/voltron-defensor-legendario-temporada-1-a-8-espanol-latino/VLD%202x06%20El%20Arca%20de%20Taujer.mp4"
+    },
+    {
+      "episode": 7,
+      "title": "Centro Espacial",
+      "video_url": "https://archive.org/download/voltron-defensor-legendario-temporada-1-a-8-espanol-latino/VLD%202x07%20Centro%20Espacial.mp4"
+    },
+    {
+      "episode": 8,
+      "title": "La Espada de Marmora",
+      "video_url": "https://archive.org/download/voltron-defensor-legendario-temporada-1-a-8-espanol-latino/VLD%202x08%20La%20Espada%20de%20Marmora.mp4"
+    },
+    {
+      "episode": 9,
+      "title": "El Vientre del Weeblum",
+      "video_url": "https://archive.org/download/voltron-defensor-legendario-temporada-1-a-8-espanol-latino/VLD%202x09%20El%20Vientre%20del%20Weeblum.mp4"
+    },
+    {
+      "episode": 10,
+      "title": "Escape de Betatraz",
+      "video_url": "https://archive.org/download/voltron-defensor-legendario-temporada-1-a-8-espanol-latino/VLD%202x10%20Escape%20de%20Betatraz.mp4"
+    },
+    {
+      "episode": 11,
+      "title": "Sobreviviendo",
+      "video_url": "https://archive.org/download/voltron-defensor-legendario-temporada-1-a-8-espanol-latino/VLD%202X11%20Sobreviviendo.mp4"
+    },
+    {
+      "episode": 12,
+      "title": "Plan en Marcha",
+      "video_url": "https://archive.org/download/voltron-defensor-legendario-temporada-1-a-8-espanol-latino/VLD%202x12%20Plan%20en%20Marcha.mp4"
+    },
+    {
+      "episode": 13,
+      "title": "Apagón",
+      "video_url": "https://archive.org/download/voltron-defensor-legendario-temporada-1-a-8-espanol-latino/VLD%202x13%20Apag%C3%B3n.mp4"
+    }
+  ]
+  },
+  {
   "title": "Voltron: Defensor Legendario Temporada 1",
   "coverImage": "https://m.media-amazon.com/images/M/MV5BMjA2MzMzNTg5NV5BMl5BanBnXkFtZTgwMzAzOTc4ODE@._V1_FMjpg_UX1000_.jpg",
   "description": "Cinco jóvenes pilotos descubren a los legendarios Leones Robóticos y se convierten en los Paladines de Voltron, el guerrero más poderoso del universo. Juntos deberán enfrentar al Imperio Galra y proteger la galaxia.",
