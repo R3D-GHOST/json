@@ -1,5 +1,29 @@
 [
   {
+  "title": "Voltron: Defensor Legendario Temporada 1",
+  "coverImage": "https://m.media-amazon.com/images/M/MV5BMjA2MzMzNTg5NV5BMl5BanBnXkFtZTgwMzAzOTc4ODE@._V1_FMjpg_UX1000_.jpg",
+  "description": "Cinco jóvenes pilotos descubren a los legendarios Leones Robóticos y se convierten en los Paladines de Voltron, el guerrero más poderoso del universo. Juntos deberán enfrentar al Imperio Galra y proteger la galaxia.",
+  "genre": [
+    "Acción",
+    "Aventura",
+    "Ciencia ficción",
+    "Animación"
+  ],
+  "episodes": [
+    { "episode": 1, "title": "El Origen de Voltron", "video_url": "https://archive.org/download/voltron-defensor-legendario-temporada-1-a-8-espanol-latino/VLD%201x01%20El%20Origen%20de%20Voltron.mp4" },
+    { "episode": 2, "title": "Instrucciones de Armado", "video_url": "https://archive.org/download/voltron-defensor-legendario-temporada-1-a-8-espanol-latino/VLD%201x02%20Instrucciones%20de%20Armado.mp4" },
+    { "episode": 3, "title": "El Regreso del Gladiador", "video_url": "https://archive.org/download/voltron-defensor-legendario-temporada-1-a-8-espanol-latino/VLD%201x03%20EL%20Regreso%20de%20Gladiador.mp4" },
+    { "episode": 4, "title": "La Caída del Castillo de los Leones", "video_url": "https://archive.org/download/voltron-defensor-legendario-temporada-1-a-8-espanol-latino/VLD%201x04%20La%20Caida%20del%20Castillo%20de%20Los%20Leones.mp4" },
+    { "episode": 5, "title": "El Llanto del Balmera", "video_url": "https://archive.org/download/voltron-defensor-legendario-temporada-1-a-8-espanol-latino/VLD%201x05%20El%20Llanto%20del%20Balmera.mp4" },
+    { "episode": 6, "title": "Emprendiendo el Vuelo", "video_url": "https://archive.org/download/voltron-defensor-legendario-temporada-1-a-8-espanol-latino/VLD%201x06%20Emprendiendo%20el%20Vuelo.mp4" },
+    { "episode": 7, "title": "El Regreso al Balmera", "video_url": "https://archive.org/download/voltron-defensor-legendario-temporada-1-a-8-espanol-latino/VLD%201x07%20El%20Regreso%20al%20Balmera.mp4" },
+    { "episode": 8, "title": "Renacimiento", "video_url": "https://archive.org/download/voltron-defensor-legendario-temporada-1-a-8-espanol-latino/VLD%201x08%20Renacimiento.mp4" },
+    { "episode": 9, "title": "Cristal Envenenado", "video_url": "https://archive.org/download/voltron-defensor-legendario-temporada-1-a-8-espanol-latino/VLD%201x09%20Cristal%20Envenenado.mp4" },
+    { "episode": 10, "title": "Obtención y Extracción", "video_url": "https://archive.org/download/voltron-defensor-legendario-temporada-1-a-8-espanol-latino/VLD%201x10%20Obtenci%C3%B3n%20y%20Extracci%C3%B3n.mp4" },
+    { "episode": 11, "title": "El Paladín Negro", "video_url": "https://archive.org/download/voltron-defensor-legendario-temporada-1-a-8-espanol-latino/VLD%201x11%20El%20Palad%C3%ADn%20Negro.mp4" }
+  ]
+  },
+  {
   "title": "Bakugan",
   "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeNsWD2XPHAlWDfhB_i4wMKZ6RqybJQKTRayfzuomNMQ&s=10",
   "description": "Han pasado varios años desde la última gran batalla Bakugan. Un nuevo enemigo, los Vestals, invade Nueva Vestroia y captura a los Bakugan. Dan, Marucho y un nuevo equipo deben regresar para liberarlos y detener la opresión.",
