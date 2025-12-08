@@ -1,5 +1,26 @@
 [
   {
+    "title": "Star Wars: Episodio I – La Amenaza Fantasma",
+    "description": "La República se ve amenazada mientras un joven Anakin Skywalker es descubierto y los Jedi enfrentan el regreso de un antiguo enemigo.",
+    "genre": ["Ciencia ficción", "Aventura", "Acción", "Fantástico"],
+    "coverImage": "https://m.media-amazon.com/images/I/51RkqYqrmgL._AC_UF894,1000_QL80_.jpg",
+    "video_url": "https://archive.org/download/st-4r-w-4rs-episodio-1/%40St4r%20W4rs%40%20Episodio%201.mp4"
+  },
+  {
+    "title": "Star Wars: Episodio II – El Ataque de los Clones",
+    "description": "Diez años después, Anakin comienza su entrenamiento Jedi mientras una amenaza separatista provoca el inicio de la Guerra de los Clones.",
+    "genre": ["Ciencia ficción", "Aventura", "Acción", "Fantástico"],
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlLqrmz7SCCucxDgH-iKpMVT7g82wiA81cQZm4sKeLIg&s=10",
+    "video_url": "https://archive.org/download/st-4r-w-4rs-episodio-1/Episodio%202.mp4"
+  },
+  {
+    "title": "Star Wars: Episodio III – La Venganza de los Sith",
+    "description": "La República cae en guerra mientras Anakin Skywalker es seducido por el lado oscuro, convirtiéndose en Darth Vader.",
+    "genre": ["Ciencia ficción", "Aventura", "Acción", "Fantástico"],
+    "coverImage": "https://static.wikia.nocookie.net/doblaje/images/5/52/20065302.jpg/revision/latest?cb=20151213215509&path-prefix=es",
+    "video_url": "https://archive.org/download/st-4r-w-4rs-episodio-1/Episodio%203.mp4"
+  },
+  {
   "title": "El Internado - Temporada 2",
   "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe-GdTowr-fu7mqJKCnAlh1ZlJ3ZDQ1nvAP4iBNUbajQ&s=10",
   "description": "Segunda temporada de 'El Internado', donde los misterios del colegio se profundizan y los alumnos deben enfrentarse a secretos cada vez más oscuros y peligrosos.",
