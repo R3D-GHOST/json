@@ -1,5 +1,22 @@
 [
+
+    
     {
+  "title": "Una Película de Minecraft (2025)",
+  "description": "Película de aventura ambientada en el mundo de Minecraft — 2025.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwAefDk7n2JFYK3LSCRnJL4xrWNrv20jGx3Q&s",
+  "video_url": "https://archive.org/download/una-pelicula-de-minecraft-2025_202507/Una%20Pelicula%20de%20Minecraft%20%282025%29.mp4",
+  "genre": ["Animación", "Aventura", "Familiar"]
+},
+    {
+  "title": "Robin Hood (1973)",
+  "description": "Versión clásica de Robin Hood en español latino.",
+  "coverImage": "https://m.media-amazon.com/images/I/81Ffb6a+r5L._AC_UF1000,1000_QL80_.jpg",
+  "video_url": "https://archive.org/download/robin-hood-1973-espanol-latino-c-mundial-tv/Robin%20Hood%20%20%281973%29%20%20Espa%C3%B1ol%20Latino%20%20%20%20%C2%A9MundialTV.mp4",
+  "genre": ["Aventura", "Clásico"]
+    },
+    
+  {
   "title": "Un Heroe Debil",
   "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYE_Q5NQicefbreQLv3PwRh5_Qu3JePVj2dA&s",
   "description": "Yeon Shi-eun es un estudiante modelo, brillante pero introvertido. Físicamente, parece un chico débil, pero, utilizando su inteligencia, sus herramientas y su psicología, lucha contra la violencia que tiene lugar dentro y fuera de su escuela.",
