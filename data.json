@@ -1,4 +1,11 @@
 [
+  {
+  "title": "El Gigante de Hierro",
+  "description": "Película animada / de aventuras sobre un gigantesco robot y la amistad con un niño.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFyBORVZkghkB-DFUR2AlWRniuhppllqIcLQ5SP3UEow&s=10",
+  "video_url": "https://archive.org/download/el.gigante.de.hierro.dvdrip.www.divxtotal.com.leoparis/El.Gigante.de.Hierro.DVDRip.%5Bwww.DivxTotal.com%5D.LeoParis.mp4",
+  "genre": ["Animación", "Aventura", "Fantasía"]
+},
 {
   "title": "Culpa Mía",
   "description": "Primera película de la saga Culpa Mía.",
