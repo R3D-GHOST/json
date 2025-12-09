@@ -1,4 +1,92 @@
 [
+    {
+  "title": "Un Heroe Debil",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYE_Q5NQicefbreQLv3PwRh5_Qu3JePVj2dA&s",
+  "description": "Yeon Shi-eun es un estudiante modelo, brillante pero introvertido. Físicamente, parece un chico débil, pero, utilizando su inteligencia, sus herramientas y su psicología, lucha contra la violencia que tiene lugar dentro y fuera de su escuela.",
+  "genre": ["Drama", "Accion", "Dorama" ],
+  "episodes": [
+  {
+    "episode": 1,
+    "title": "Heroe 01",
+    "video_url": "https://archive.org/download/heroe-16/Heroe%2001.mp4"
+  },
+  {
+    "episode": 2,
+    "title": "Heroe 02",
+    "video_url": "https://archive.org/download/heroe-16/Heroe%2002.mp4"
+  },
+  {
+    "episode": 3,
+    "title": "Heroe 03",
+    "video_url": "https://archive.org/download/heroe-16/Heroe%2003.mp4"
+  },
+  {
+    "episode": 4,
+    "title": "Heroe 04",
+    "video_url": "https://archive.org/download/heroe-16/Heroe%2004.mp4"
+  },
+  {
+    "episode": 5,
+    "title": "Heroe 05",
+    "video_url": "https://archive.org/download/heroe-16/Heroe%2005.mp4"
+  },
+  {
+    "episode": 6,
+    "title": "Heroe 06",
+    "video_url": "https://archive.org/download/heroe-16/Heroe%2006.mp4"
+  },
+  {
+    "episode": 7,
+    "title": "Heroe 07",
+    "video_url": "https://archive.org/download/heroe-16/Heroe%2007.mp4"
+  },
+  {
+    "episode": 8,
+    "title": "Heroe 08",
+    "video_url": "https://archive.org/download/heroe-16/Heroe%2008.mp4"
+  },
+  {
+    "episode": 9,
+    "title": "Heroe 09",
+    "video_url": "https://archive.org/download/heroe-16/Heroe%2009.mp4"
+  },
+  {
+    "episode": 10,
+    "title": "Heroe 10",
+    "video_url": "https://archive.org/download/heroe-16/Heroe%2010.mp4"
+  },
+  {
+    "episode": 11,
+    "title": "Heroe 11",
+    "video_url": "https://archive.org/download/heroe-16/Heroe%2011.mp4"
+  },
+  {
+    "episode": 12,
+    "title": "Heroe 12",
+    "video_url": "https://archive.org/download/heroe-16/Heroe%2012.mp4"
+  },
+  {
+    "episode": 13,
+    "title": "Heroe 13",
+    "video_url": "https://archive.org/download/heroe-16/Heroe%2013.mp4"
+  },
+  {
+    "episode": 14,
+    "title": "Heroe 14",
+    "video_url": "https://archive.org/download/heroe-16/Heroe%2014.mp4"
+  },
+  {
+    "episode": 15,
+    "title": "Heroe 15",
+    "video_url": "https://archive.org/download/heroe-16/Heroe%2015.mp4"
+  },
+  {
+    "episode": 16,
+    "title": "Heroe 16",
+    "video_url": "https://archive.org/download/heroe-16/Heroe%2016.mp4"
+  }
+]
+},   
   {
   "title": "Spy x Family",
   "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgWe5oc6HNWFWKcTLGQB3denj6MTHLhPkahw&s",
