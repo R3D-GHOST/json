@@ -1,5 +1,12 @@
 [
   {
+  "title": "Karate Kid: Legends",
+  "description": "Película de artes marciales — Karate Kid (edición Legends).",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmxcKDsIjsqSbEOvLVmGrcraaOTsgc3UZJacIl2EkEWA&s=10",
+  "video_url": "https://archive.org/download/karate-kid-legends-castellano-hdfull/Karate%20Kid-%20Legends%20Castellano%20%20HDFull.mp4",
+  "genre": ["Acción", "Artes Marciales", "Drama"]
+},
+  {
   "title": "F1: La película (2025)",
   "description": "Película de acción/deporte basada en el mundo de la Fórmula 1 — 2025.",
   "coverImage": "https://img.asmedia.epimg.net/resizer/v2/OOLTDRGJ6NEOZEZKF65342QGYM.jpg?auth=eb452597dfdceab148a1a849b169827795de8bc8907ff5662cb192fcc417324e&width=1472&height=828&smart=true",
