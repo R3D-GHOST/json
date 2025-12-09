@@ -1,5 +1,318 @@
 [
-  
+  {
+  "title": "Magical Doremi",
+  "coverImage": "https://m.media-amazon.com/images/M/MV5BYzgxMzVkMGItMTMxNC00ZWEyLTk4ZGItM2RmMmM3NTRmMDQ0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  "description": "centrada en Doremi Harukaze y sus amigas, aprendices de bruja que usan magia para resolver problemas cotidianos, destacando por su humor, sus lecciones sobre amistad, perseverancia y empatía, y su enfoque realista a pesar de la fantasía",
+  "genre": ["Animación", "Aventura", "Comedia", "Anime"],
+  "episodes": [
+  {
+    "season": 1,
+    "episode": 1,
+    "title": "Me llamo Doremi y me convierto en aprendiz de bruja",
+    "video_url": "https://archive.org/download/magical-doremi-en-castellano/Castellano/01%20Me%20llamo%20Doremi%20y%20me%20convierto%20en%20aprendiz%20de%20bruja.mp4"
+  },
+  {
+    "season": 1,
+    "episode": 2,
+    "title": "Me convierto en Hazukii",
+    "video_url": "https://archive.org/download/magical-doremi-en-castellano/Castellano/02%20Me%20convierto%20en%20Hazukii.mp4"
+  },
+  {
+    "season": 1,
+    "episode": 3,
+    "title": "Viene Aiko, una estudiante de Naniwa",
+    "video_url": "https://archive.org/download/magical-doremi-en-castellano/Castellano/03%20Viene%20Aiko%2C%20una%20estudiante%20de%20Naniwa.mp4"
+  },
+  {
+    "season": 1,
+    "episode": 4,
+    "title": "No os asusteis si también sois brujas",
+    "video_url": "https://archive.org/download/magical-doremi-en-castellano/Castellano/04%20No%20os%20asusteis%20si%20tambi%C3%A9n%20sois%20brujas.mp4"
+  },
+  {
+    "season": 1,
+    "episode": 5,
+    "title": "Inauguramos la tienda mágica",
+    "video_url": "https://archive.org/download/magical-doremi-en-castellano/Castellano/05%20Inauguramos%20la%20tienda%20m%C3%A1gica.mp4"
+  },
+  {
+    "season": 1,
+    "episode": 6,
+    "title": "La amistad basada en mentiras",
+    "video_url": "https://archive.org/download/magical-doremi-en-castellano/Castellano/06%20La%20amistad%20basada%20en%20mentiras.mp4"
+  },
+  {
+    "season": 1,
+    "episode": 7,
+    "title": "Tenemos que aprobar el nivel nueve",
+    "video_url": "https://archive.org/download/magical-doremi-en-castellano/Castellano/07%20Tenemos%20que%20aprobar%20el%20nivel%20nueve.mp4"
+  },
+  {
+    "season": 1,
+    "episode": 8,
+    "title": "Volvemos al mundo de las brujas",
+    "video_url": "https://archive.org/download/magical-doremi-en-castellano/Castellano/08%20Volvemos%20al%20mundo%20de%20las%20brujas.mp4"
+  },
+  {
+    "season": 1,
+    "episode": 9,
+    "title": "Dodo, ¿Dónde te has metido?",
+    "video_url": "https://archive.org/download/magical-doremi-en-castellano/Castellano/09%20Dodo%2C%20%C2%BFD%C3%B3nde%20te%20has%20metido.mp4"
+  },
+  {
+    "season": 1,
+    "episode": 10,
+    "title": "Tenemos problemas, la seño nos ha descubierto",
+    "video_url": "https://archive.org/download/magical-doremi-en-castellano/Castellano/10%20Tenemos%20problemas%2C%20la%20se%C3%B1o%20nos%20ha%20descubierto.mp4"
+  },
+  {
+    "season": 1,
+    "episode": 11,
+    "title": "La madrugadora amante de las flores",
+    "video_url": "https://archive.org/download/magical-doremi-en-castellano/Castellano/11%20La%20madrugadora%20amante%20de%20las%20flores.mp4"
+  },
+  {
+    "season": 1,
+    "episode": 12,
+    "title": "Un gra deseo trás una valiosa camiseta",
+    "video_url": "https://archive.org/download/magical-doremi-en-castellano/Castellano/12%20Un%20gra%20deseo%20tr%C3%A1s%20una%20valiosa%20camiseta.mp4"
+  },
+  {
+    "season": 1,
+    "episode": 13,
+    "title": "¿Aprobaremos todas el examen del nivel ocho?",
+    "video_url": "https://archive.org/download/magical-doremi-en-castellano/Castellano/13%20%C2%BFAprobaremos%20todas%20el%20examen%20del%20nivel%20ocho.mp4"
+  },
+  {
+    "season": 1,
+    "episode": 14,
+    "title": "Sonrie y perdoname!",
+    "video_url": "https://archive.org/download/magical-doremi-en-castellano/Castellano/14%20Sonrie%20y%20perdoname%21.mp4"
+  },
+  {
+    "season": 1,
+    "episode": 15,
+    "title": "La bruja Ruka en la guarderia",
+    "video_url": "https://archive.org/download/magical-doremi-en-castellano/Castellano/15%20La%20bruja%20Ruka%20en%20la%20guarderia.mp4"
+  },
+  {
+    "season": 1,
+    "episode": 16,
+    "title": "Flechazo durante la pesca",
+    "video_url": "https://archive.org/download/magical-doremi-en-castellano/Castellano/16%20Flechazo%20durante%20la%20pesca.mp4"
+  },
+  {
+    "season": 1,
+    "episode": 17,
+    "title": "Yada, ¿un busca problemas?",
+    "video_url": "https://archive.org/download/magical-doremi-en-castellano/Castellano/17%20Yada%2C%20%C2%BFun%20busca%20problemas.mp4"
+  },
+  {
+    "season": 1,
+    "episode": 18,
+    "title": "ya no puedo mas voy a usar la magia prohibida",
+    "video_url": "https://archive.org/download/magical-doremi-en-castellano/Castellano/18%20ya%20no%20puedo%20mas%20voy%20a%20usar%20la%20magia%20prohibida.mp4"
+  },
+  {
+    "season": 1,
+    "episode": 19,
+    "title": "Hazuki secuestrada",
+    "video_url": "https://archive.org/download/magical-doremi-en-castellano/Castellano/19%20Hazuki%20secuestrada.mp4"
+  },
+  {
+    "season": 1,
+    "episode": 20,
+    "title": "La eterna rival, problemas con la tienda mágica",
+    "video_url": "https://archive.org/download/magical-doremi-en-castellano/Castellano/20%20La%20eterna%20rival%2C%20problemas%20con%20la%20tienda%20m%C3%A1gica.mp4"
+  },
+  {
+    "season": 1,
+    "episode": 21,
+    "title": "Los amuletos de la bruja Ruka son muy peligrosos",
+    "video_url": "https://archive.org/download/magical-doremi-en-castellano/Castellano/21%20Los%20amuletos%20de%20la%20bruja%20Ruka%20son%20muy%20peligrosos.mp4"
+  },
+  {
+    "season": 1,
+    "episode": 22,
+    "title": "¿Entonces no conseguiremos examinarnos del nivel seis?",
+    "video_url": "https://archive.org/download/magical-doremi-en-castellano/Castellano/22%20%C2%BFEntonces%20no%20conseguiremos%20examinarnos%20del%20nivel%20seis.mp4"
+  },
+  {
+    "season": 1,
+    "episode": 23,
+    "title": "Una Prueba Para Las Aprendices De Bruja",
+    "video_url": "https://archive.org/download/magical-doremi-en-castellano/Castellano/23%20Una%20Prueba%20Para%20Las%20Aprendices%20De%20Bruja.mp4"
+  },
+  {
+    "season": 1,
+    "episode": 24,
+    "title": "La Bruja Ruka Contra Las Aprendices De Sexto Nivel",
+    "video_url": "https://archive.org/download/magical-doremi-en-castellano/Castellano/24%20La%20Bruja%20Ruka%20Contra%20Las%20Aprendices%20De%20Sexto%20Nivel.mp4"
+  },
+  {
+    "season": 1,
+    "episode": 25,
+    "title": "¿Poppu también se convierte en bruja?",
+    "video_url": "https://archive.org/download/magical-doremi-en-castellano/Castellano/25%20%C2%BFPoppu%20tambi%C3%A9n%20se%20convierte%20en%20bruja.mp4"
+  },
+  {
+    "season": 1,
+    "episode": 26,
+    "title": "Somos brujas purificadoras",
+    "video_url": "https://archive.org/download/magical-doremi-en-castellano/Castellano/26%20Somos%20brujas%20purificadoras.mp4"
+  },
+  {
+    "season": 1,
+    "episode": 27,
+    "title": "El Bigotes Hace Su Aparicion",
+    "video_url": "https://archive.org/download/magical-doremi-en-castellano/Castellano/27%20El%20Bigotes%20Hace%20Su%20Aparicion.mp4"
+  },
+  {
+    "season": 1,
+    "episode": 28,
+    "title": "El amor que fluye entre montañas",
+    "video_url": "https://archive.org/download/magical-doremi-en-castellano/Castellano/28%20El%20amor%20que%20fluye%20entre%20monta%C3%B1as.mp4"
+  },
+  {
+    "season": 1,
+    "episode": 29,
+    "title": "Se Me Ha Perdido El Medallon En El Festival",
+    "video_url": "https://archive.org/download/magical-doremi-en-castellano/Castellano/29%20Se%20Me%20Ha%20Perdido%20El%20Medallon%20En%20El%20Festival.mp4"
+  },
+  {
+    "season": 1,
+    "episode": 30,
+    "title": "Quiero encontrarme con el fantasma",
+    "video_url": "https://archive.org/download/magical-doremi-en-castellano/Castellano/30%20Quiero%20encontrarme%20con%20el%20fantasma.mp4"
+  },
+  {
+    "season": 1,
+    "episode": 31,
+    "title": "Un regalo desde Mongolia",
+    "video_url": "https://archive.org/download/magical-doremi-en-castellano/Castellano/31%20Un%20regalo%20desde%20Mongolia.mp4"
+  },
+  {
+    "season": 1,
+    "episode": 32,
+    "title": "Tenemos que vencer a Reika en las elecciones",
+    "video_url": "https://archive.org/download/magical-doremi-en-castellano/Castellano/32%20Tenemos%20que%20vencer%20a%20Reika%20en%20las%20elecciones.mp4"
+  },
+  {
+    "season": 1,
+    "episode": 33,
+    "title": "Panico en la carrera de obstaculos",
+    "video_url": "https://archive.org/download/magical-doremi-en-castellano/Castellano/33.%20Panico%20en%20la%20carrera%20de%20obstaculos.mp4"
+  },
+  {
+    "season": 1,
+    "episode": 34,
+    "title": "Quiero ver a mi madre",
+    "video_url": "https://archive.org/download/magical-doremi-en-castellano/Castellano/34.%20Quiero%20ver%20a%20mi%20madre.mp4"
+  },
+  {
+    "season": 1,
+    "episode": 35,
+    "title": "¿La nueva estudiante tambien es bruja!",
+    "video_url": "https://archive.org/download/magical-doremi-en-castellano/Castellano/35.%20%C2%BFLa%20nueva%20estudiante%20tambien%20es%20bruja%21.mp4"
+  },
+  {
+    "season": 1,
+    "episode": 36,
+    "title": "Dodo hace el examen de nivel 4",
+    "video_url": "https://archive.org/download/magical-doremi-en-castellano/Castellano/36.%20Dodo%20hace%20el%20examen%20de%20nivel%204.mp4"
+  },
+  {
+    "season": 1,
+    "episode": 37,
+    "title": "Lleno de brujas rana",
+    "video_url": "https://archive.org/download/magical-doremi-en-castellano/Castellano/37.%20Lleno%20de%20brujas%20rana.mp4"
+  },
+  {
+    "season": 1,
+    "episode": 38,
+    "title": "Ryuta y el monstruo de media noche",
+    "video_url": "https://archive.org/download/magical-doremi-en-castellano/Castellano/38.%20Ryuta%20y%20el%20monstruo%20de%20media%20noche.mp4"
+  },
+  {
+    "season": 1,
+    "episode": 39,
+    "title": "El novio de Doremi es estudiante de secundaria",
+    "video_url": "https://archive.org/download/magical-doremi-en-castellano/Castellano/39.%20El%20novio%20de%20Doremi%20es%20estudiante%20de%20secundaria.mp4"
+  },
+  {
+    "season": 1,
+    "episode": 40,
+    "title": "Doremi Suspende! El examen de nivel 3",
+    "video_url": "https://archive.org/download/magical-doremi-en-castellano/Castellano/40%20Doremi%20Suspende!%20El%20examen%20de%20nivel%203.mp4"
+  },
+  {
+    "season": 1,
+    "episode": 41,
+    "title": "Padre e hijo unidos para vencer",
+    "video_url": "https://archive.org/download/magical-doremi-en-castellano/Castellano/41.%20Padre%20e%20hijo%20unidos%20para%20vencer.mp4"
+  },
+  {
+    "season": 1,
+    "episode": 42,
+    "title": "Las brujas tontas luchando por la justicia!",
+    "video_url": "https://archive.org/download/magical-doremi-en-castellano/Castellano/42.%20Las%20brujas%20tontas%20luchando%20por%20la%20justicia%21.mp4"
+  },
+  {
+    "season": 1,
+    "episode": 43,
+    "title": "Papa, fuegos artificiales y triste recuerdos",
+    "video_url": "https://archive.org/download/magical-doremi-en-castellano/Castellano/43.%20Papa%2C%20fuegos%20artificiales%20y%20triste%20recuerdos.mp4"
+  },
+  {
+    "season": 1,
+    "episode": 44,
+    "title": "Quiero ser una chica de lucha libre",
+    "video_url": "https://archive.org/download/magical-doremi-en-castellano/Castellano/44.%20Quiero%20ser%20una%20chica%20de%20lucha%20libre.mp4"
+  },
+  {
+    "season": 1,
+    "episode": 45,
+    "title": "Salvemos a Santa Claus",
+    "video_url": "https://archive.org/download/magical-doremi-en-castellano/Castellano/45.%20Salvemos%20a%20Santa%20Claus.mp4"
+  },
+  {
+    "season": 1,
+    "episode": 46,
+    "title": "La fiesta de trucos de magia de las brujas",
+    "video_url": "https://archive.org/download/magical-doremi-en-castellano/Castellano/46.%20La%20fiesta%20de%20trucos%20de%20magia%20de%20las%20brujas.mp4"
+  },
+  {
+    "season": 1,
+    "episode": 47,
+    "title": "La cita matrimonial de papaa",
+    "video_url": "https://archive.org/download/magical-doremi-en-castellano/Castellano/47.%20La%20cita%20matrimonial%20de%20papaa.mp4"
+  },
+  {
+    "season": 1,
+    "episode": 48,
+    "title": "El email de Onpu es una carta de amor!",
+    "video_url": "https://archive.org/download/magical-doremi-en-castellano/Castellano/48.%20El%20email%20de%20Onpu%20es%20una%20carta%20de%20amor%21.mp4"
+  },
+  {
+    "season": 1,
+    "episode": 49,
+    "title": "Quiero ver a papa! El tren expreso de los sueños",
+    "video_url": "https://archive.org/download/magical-doremi-en-castellano/Castellano/49.%20Quiero%20ver%20a%20papa%21%20El%20tren%20expreso%20de%20los%20sue%C3%B1os.mp4"
+  },
+  {
+    "season": 1,
+    "episode": 50,
+    "title": "El examen final de las aprendices de bruja",
+    "video_url": "https://archive.org/download/magical-doremi-en-castellano/Castellano/50.%20El%20examen%20final%20de%20las%20aprendices%20de%20bruja.mp4"
+  },
+  {
+    "season": 1,
+    "episode": 51,
+    "title": "Adios tienda Mágica",
+    "video_url": "https://archive.org/download/magical-doremi-en-castellano/Castellano/51.%20Adios%20tienda%20M%C3%A1gica.mp4"
+  }
+ ]
+},
   {
   "title": "The Amazing Spiderman",
   "description": "Peter Parker debe enfrentarse a nuevos desafíos como Spiderman mientras equilibra su vida personal y la amenaza de un nuevo villano.",
