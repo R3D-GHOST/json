@@ -1,5 +1,133 @@
 [
+  {
+  "title": "Hazbin Hotel",
+  "season": 2,
+  "description": "Charlie Morningstar, la princesa del Infierno, sueña con rehabilitar demonios para reducir la sobrepoblación infernal. Para demostrar que la redención es posible, crea el Hotel Hazbin, un lugar donde los pecadores puedan mejorar y, algún día, alcanzar el Cielo. Con la ayuda de Vaggie, Angel Dust y el enigmático Alastor, Charlie intenta cambiar el Infierno mientras enfrenta caos, desconfianza y conspiraciones.",
+  "genre": [
+    "Animación para adultos",
+    "Comedia negra",
+    "Musical",
+    "Fantasía oscura",
+    "Sátira",
+    "Drama"
+  ],
+  "coverImage": "https://static.wikia.nocookie.net/doblaje/images/d/d6/Hotel_Hazbin_-_P%C3%B3ster_%28T2%29.png/revision/latest/scale-to-width/360?cb=20251031073437&path-prefix=es",
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "Episodio 1",
+      "video_url": "https://archive.org/download/hazbin-hotel-cast/2x1.mp4",
+      "img": "https://static.wikia.nocookie.net/doblaje/images/d/d6/Hotel_Hazbin_-_P%C3%B3ster_%28T2%29.png/revision/latest/scale-to-width/360?cb=20251031073437&path-prefix=es"
+    },
+    {
+      "episode": 2,
+      "title": "Episodio 2",
+      "video_url": "https://archive.org/download/hazbin-hotel-cast/2x2.mp4",
+      "img": "https://static.wikia.nocookie.net/doblaje/images/d/d6/Hotel_Hazbin_-_P%C3%B3ster_%28T2%29.png/revision/latest/scale-to-width/360?cb=20251031073437&path-prefix=es"
+    },
+    {
+      "episode": 3,
+      "title": "Episodio 3",
+      "video_url": "https://archive.org/download/hazbin-hotel-cast/2x3.mp4",
+      "img": "https://static.wikia.nocookie.net/doblaje/images/d/d6/Hotel_Hazbin_-_P%C3%B3ster_%28T2%29.png/revision/latest/scale-to-width/360?cb=20251031073437&path-prefix=es"
+    },
+    {
+      "episode": 4,
+      "title": "Episodio 4",
+      "video_url": "https://archive.org/download/hazbin-hotel-cast/2x4.mp4",
+      "img": "https://static.wikia.nocookie.net/doblaje/images/d/d6/Hotel_Hazbin_-_P%C3%B3ster_%28T2%29.png/revision/latest/scale-to-width/360?cb=20251031073437&path-prefix=es"
+    },
+    {
+      "episode": 5,
+      "title": "Episodio 5",
+      "video_url": "https://archive.org/download/hazbin-hotel-cast/2x5.mp4",
+      "img": "https://static.wikia.nocookie.net/doblaje/images/d/d6/Hotel_Hazbin_-_P%C3%B3ster_%28T2%29.png/revision/latest/scale-to-width/360?cb=20251031073437&path-prefix=es"
+    },
+    {
+      "episode": 6,
+      "title": "Episodio 6",
+      "video_url": "https://archive.org/download/hazbin-hotel-cast/2x6.mp4",
+      "img": "https://static.wikia.nocookie.net/doblaje/images/d/d6/Hotel_Hazbin_-_P%C3%B3ster_%28T2%29.png/revision/latest/scale-to-width/360?cb=20251031073437&path-prefix=es"
+    },
+    {
+      "episode": 7,
+      "title": "Episodio 7",
+      "video_url": "https://archive.org/download/hazbin-hotel-cast/2x7.mp4",
+      "img": "https://static.wikia.nocookie.net/doblaje/images/d/d6/Hotel_Hazbin_-_P%C3%B3ster_%28T2%29.png/revision/latest/scale-to-width/360?cb=20251031073437&path-prefix=es"
+    },
+    {
+      "episode": 8,
+      "title": "Episodio 8",
+      "video_url": "https://archive.org/download/hazbin-hotel-cast/2x8.mp4",
+      "img": "https://static.wikia.nocookie.net/doblaje/images/d/d6/Hotel_Hazbin_-_P%C3%B3ster_%28T2%29.png/revision/latest/scale-to-width/360?cb=20251031073437&path-prefix=es"
+    }
+  ]
+},
 
+{
+  "title": "Hazbin Hotel",
+  "season": 1,
+  "description": "Charlie Morningstar, la princesa del Infierno, sueña con rehabilitar demonios para reducir la sobrepoblación infernal. Para demostrar que la redención es posible, crea el Hotel Hazbin, un lugar donde los pecadores puedan mejorar y, algún día, alcanzar el Cielo. Con la ayuda de Vaggie, Angel Dust y el enigmático Alastor, Charlie intenta cambiar el Infierno mientras enfrenta caos, desconfianza y conspiraciones.",
+  "genre": [
+    "Animación para adultos",
+    "Comedia negra",
+    "Musical",
+    "Fantasía oscura",
+    "Sátira",
+    "Drama"
+  ],
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhExf3tYPgFlGfcLIPcYN8w7NZy8Cdu6pIC3BJmuxN1Q&s",
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "Episodio 1",
+      "video_url": "https://archive.org/download/hazbin-hotel-cast/1x1.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhExf3tYPgFlGfcLIPcYN8w7NZy8Cdu6pIC3BJmuxN1Q&s"
+    },
+    {
+      "episode": 2,
+      "title": "Episodio 2",
+      "video_url": "https://archive.org/download/hazbin-hotel-cast/1x2.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhExf3tYPgFlGfcLIPcYN8w7NZy8Cdu6pIC3BJmuxN1Q&s"
+    },
+    {
+      "episode": 3,
+      "title": "Episodio 3",
+      "video_url": "https://archive.org/download/hazbin-hotel-cast/1x3.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhExf3tYPgFlGfcLIPcYN8w7NZy8Cdu6pIC3BJmuxN1Q&s"
+    },
+    {
+      "episode": 4,
+      "title": "Episodio 4",
+      "video_url": "https://archive.org/download/hazbin-hotel-cast/1x4.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhExf3tYPgFlGfcLIPcYN8w7NZy8Cdu6pIC3BJmuxN1Q&s"
+    },
+    {
+      "episode": 5,
+      "title": "Episodio 5",
+      "video_url": "https://archive.org/download/hazbin-hotel-cast/1x5.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhExf3tYPgFlGfcLIPcYN8w7NZy8Cdu6pIC3BJmuxN1Q&s"
+    },
+    {
+      "episode": 6,
+      "title": "Episodio 6",
+      "video_url": "https://archive.org/download/hazbin-hotel-cast/1x6.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhExf3tYPgFlGfcLIPcYN8w7NZy8Cdu6pIC3BJmuxN1Q&s"
+    },
+    {
+      "episode": 7,
+      "title": "Episodio 7",
+      "video_url": "https://archive.org/download/hazbin-hotel-cast/1x7.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhExf3tYPgFlGfcLIPcYN8w7NZy8Cdu6pIC3BJmuxN1Q&s"
+    },
+    {
+      "episode": 8,
+      "title": "Episodio 8",
+      "video_url": "https://archive.org/download/hazbin-hotel-cast/1x8.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhExf3tYPgFlGfcLIPcYN8w7NZy8Cdu6pIC3BJmuxN1Q&s"
+    }
+  ]
+},
   {
   "title": "Cars 2",
   "description": "Segunda película de Cars — nuevas aventuras sobre ruedas.",
