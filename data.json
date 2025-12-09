@@ -1,7 +1,135 @@
-
 [
  {
-  "title": "Ataque a los Titanes Temporada 1",
+  "title": "Destino de Amor - Destiny of Love",
+  "originalTitle": "错嫁世子妃 (Cuo Jia Shizi Fei)",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR07saOGW_bp1MbK1ad2s8Q0KYHH5ymdo84HQ&s",
+  "description": "Una serie drama romantica asiatica che segue un destino intrecciato di amore e inganni. (Descrizione generica, da completare con i dettagli specifici della trama se disponibili).",
+  "genre": ["Drama", "Romance", "Storico" ],
+  "episodes": [
+    { 
+      "episode": 1, 
+      "title": "Episodio 01", 
+      "video_url": "https://archive.org/download/destino-de-amor-destiny-of-love-episodio-02/Destino%20de%20Amor%20-%20Destiny%20of%20Love%20%20-%20%E9%94%99%E5%AB%81%E4%B8%96%E5%AD%90%E5%A6%83%20%28Episodio%2001%29.mp4" 
+    },
+    { 
+      "episode": 2, 
+      "title": "Episodio 02", 
+      "video_url": "https://archive.org/download/destino-de-amor-destiny-of-love-episodio-02/Destino%20de%20Amor%20-%20Destiny%20of%20Love%20%20-%20%E9%94%99%E5%AB%81%E4%B8%96%E5%AD%90%E5%A6%83%20%28Episodio%2002%29.mp4" 
+    },
+    { 
+      "episode": 3, 
+      "title": "Episodio 03", 
+      "video_url": "https://archive.org/download/destino-de-amor-destiny-of-love-episodio-02/Destino%20de%20Amor%20-%20Destiny%20of%20Love%20%20-%20%E9%94%99%E5%AB%81%E4%B8%96%E5%AD%90%E5%A6%83%20%28Episodio%2003%29.mp4" 
+    },
+    { 
+      "episode": 4, 
+      "title": "Episodio 04", 
+      "video_url": "https://archive.org/download/destino-de-amor-destiny-of-love-episodio-02/Destino%20de%20Amor%20-%20Destiny%20of%20Love%20%20-%20%E9%94%99%E5%AB%81%E4%B8%96%E5%AD%90%E5%A6%83%20%28Episodio%2004%29.mp4" 
+    },
+    { 
+      "episode": 5, 
+      "title": "Episodio 05", 
+      "video_url": "https://archive.org/download/destino-de-amor-destiny-of-love-episodio-02/Destino%20de%20Amor%20-%20Destiny%20of%20Love%20%20-%20%E9%94%99%E5%AB%81%E4%B8%96%E5%AD%90%E5%A6%83%20%28Episodio%2005%29.mp4" 
+    },
+    { 
+      "episode": 6, 
+      "title": "Episodio 06", 
+      "video_url": "https://archive.org/download/destino-de-amor-destiny-of-love-episodio-02/Destino%20de%20Amor%20-%20Destiny%20of%20Love%20%20-%20%E9%94%99%E5%AB%81%E4%B8%96%E5%AD%90%E5%A6%83%20%28Episodio%2006%29.mp4" 
+    },
+    { 
+      "episode": 7, 
+      "title": "Episodio 07", 
+      "video_url": "https://archive.org/download/destino-de-amor-destiny-of-love-episodio-02/Destino%20de%20Amor%20-%20Destiny%20of%20Love%20%20-%20%E9%94%99%E5%AB%81%E4%B8%96%E5%AD%90%E5%A6%83%20%28Episodio%2007%29.mp4" 
+    },
+    { 
+      "episode": 8, 
+      "title": "Episodio 08", 
+      "video_url": "https://archive.org/download/destino-de-amor-destiny-of-love-episodio-02/Destino%20de%20Amor%20-%20Destiny%20of%20Love%20%20-%20%E9%94%99%E5%AB%81%E4%B8%96%E5%AD%90%E5%A6%83%20%28Episodio%2008%29.mp4" 
+    },
+    { 
+      "episode": 9, 
+      "title": "Episodio 09", 
+      "video_url": "https://archive.org/download/destino-de-amor-destiny-of-love-episodio-02/Destino%20de%20Amor%20-%20Destiny%20of%20Love%20%20-%20%E9%94%99%E5%AB%81%E4%B8%96%E5%AD%90%E5%A6%83%20%28Episodio%2009%29.mp4" 
+    },
+    { 
+      "episode": 10, 
+      "title": "Episodio 10", 
+      "video_url": "https://archive.org/download/destino-de-amor-destiny-of-love-episodio-02/Destino%20de%20Amor%20-%20Destiny%20of%20Love%20%20-%20%E9%94%99%E5%AB%81%E4%B8%96%E5%AD%90%E5%A6%83%20%28Episodio%2010%29.mp4" 
+    },
+    { 
+      "episode": 11, 
+      "title": "Episodio 11", 
+      "video_url": "https://archive.org/download/destino-de-amor-destiny-of-love-episodio-02/Destino%20de%20Amor%20-%20Destiny%20of%20Love%20%20-%20%E9%94%99%E5%AB%81%E4%B8%96%E5%AD%90%E5%A6%83%20%28Episodio%2011%29.mp4" 
+    },
+    { 
+      "episode": 12, 
+      "title": "Episodio 12", 
+      "video_url": "https://archive.org/download/destino-de-amor-destiny-of-love-episodio-02/Destino%20de%20Amor%20-%20Destiny%20of%20Love%20%20-%20%E9%94%99%E5%AB%81%E4%B8%96%E5%AD%90%E5%A6%83%20%28Episodio%2012%29.mp4" 
+    },
+    { 
+      "episode": 13, 
+      "title": "Episodio 13", 
+      "video_url": "https://archive.org/download/destino-de-amor-destiny-of-love-episodio-02/Destino%20de%20Amor%20-%20Destiny%20of%20Love%20%20-%20%E9%94%99%E5%AB%81%E4%B8%96%E5%AD%90%E5%A6%83%20%28Episodio%2013%29.mp4" 
+    },
+    { 
+      "episode": 14, 
+      "title": "Episodio 14", 
+      "video_url": "https://archive.org/download/destino-de-amor-destiny-of-love-episodio-02/Destino%20de%20Amor%20-%20Destiny%20of%20Love%20%20-%20%E9%94%99%E5%AB%81%E4%B8%96%E5%AD%90%E5%A6%83%20%28Episodio%2014%29.mp4" 
+    },
+    { 
+      "episode": 15, 
+      "title": "Episodio 15", 
+      "video_url": "https://archive.org/download/destino-de-amor-destiny-of-love-episodio-02/Destino%20de%20Amor%20-%20Destiny%20of%20Love%20%20-%20%E9%94%99%E5%AB%81%E4%B8%96%E5%AD%90%E5%A6%83%20%28Episodio%2015%29.mp4" 
+    },
+    { 
+      "episode": 16, 
+      "title": "Episodio 16", 
+      "video_url": "https://archive.org/download/destino-de-amor-destiny-of-love-episodio-02/Destino%20de%20Amor%20-%20Destiny%20of%20Love%20%20-%20%E9%94%99%E5%AB%81%E4%B8%96%E5%AD%90%E5%A6%83%20%28Episodio%2016%29.mp4" 
+    },
+    { 
+      "episode": 17, 
+      "title": "Episodio 17", 
+      "video_url": "https://archive.org/download/destino-de-amor-destiny-of-love-episodio-02/Destino%20de%20Amor%20-%20Destiny%20of%20Love%20%20-%20%E9%94%99%E5%AB%81%E4%B8%96%E5%AD%90%E5%A6%83%20%28Episodio%2017%29.mp4" 
+    },
+    { 
+      "episode": 18, 
+      "title": "Episodio 18", 
+      "video_url": "https://archive.org/download/destino-de-amor-destiny-of-love-episodio-02/Destino%20de%20Amor%20-%20Destiny%20of%20Love%20%20-%20%E9%94%99%E5%AB%81%E4%B8%96%E5%AD%90%E5%A6%83%20%28Episodio%2018%29.mp4" 
+    },
+    { 
+      "episode": 19, 
+      "title": "Episodio 19", 
+      "video_url": "https://archive.org/download/destino-de-amor-destiny-of-love-episodio-02/Destino%20de%20Amor%20-%20Destiny%20of%20Love%20%20-%20%E9%94%99%E5%AB%81%E4%B8%96%E5%AD%90%E5%A6%83%20%28Episodio%2019%29.mp4" 
+    },
+    { 
+      "episode": 20, 
+      "title": "Episodio 20", 
+      "video_url": "https://archive.org/download/destino-de-amor-destiny-of-love-episodio-02/Destino%20de%20Amor%20-%20Destiny%20of%20Love%20%20-%20%E9%94%99%E5%AB%81%E4%B8%96%E5%AD%90%E5%A6%83%20%28Episodio%2020%29.mp4" 
+    },
+    { 
+      "episode": 21, 
+      "title": "Episodio 21", 
+      "video_url": "https://archive.org/download/destino-de-amor-destiny-of-love-episodio-02/Destino%20de%20Amor%20-%20Destiny%20of%20Love%20%20-%20%E9%94%99%E5%AB%81%E4%B8%96%E5%AD%90%E5%A6%83%20%28Episodio%2021%29.mp4" 
+    },
+    { 
+      "episode": 22, 
+      "title": "Episodio 22", 
+      "video_url": "https://archive.org/download/destino-de-amor-destiny-of-love-episodio-02/Destino%20de%20Amor%20-%20Destiny%20of%20Love%20%20-%20%E9%94%99%E5%AB%81%E4%B8%96%E5%AD%90%E5%A6%83%20%28Episodio%2022%29.mp4" 
+    },
+    { 
+      "episode": 23, 
+      "title": "Episodio 23", 
+      "video_url": "https://archive.org/download/destino-de-amor-destiny-of-love-episodio-02/Destino%20de%20Amor%20-%20Destiny%20of%20Love%20%20-%20%E9%94%99%E5%AB%81%E4%B8%96%E5%AD%90%E5%A6%83%20%28Episodio%2023%29.mp4" 
+    },
+    { 
+      "episode": 24, 
+      "title": "Episodio 24", 
+      "video_url": "https://archive.org/download/destino-de-amor-destiny-of-love-episodio-02/Destino%20de%20Amor%20-%20Destiny%20of%20Love%20%20-%20%E9%94%99%E5%AB%81%E4%B8%96%E5%AD%90%E5%A6%83%20%28Episodio%2024%29.mp4" 
+    }
+  ]
+},
+ {
+  "title": "Ataque a los Titanes",
   "coverImage": "https://static.posters.cz/image/hp/65791.jpg",
   "description": "En un mundo donde la humanidad vive protegida por enormes muros contra los Titanes devoradores de hombres, un joven jura venganza y se une a las fuerzas de élite para luchar.",
   "genre": [
