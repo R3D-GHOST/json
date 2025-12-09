@@ -1,9 +1,39 @@
 [
+
+  {
+  "title": "Assassination Classroom",
+  "description": "Una clase de estudiantes de secundaria recibe la misión de asesinar a su profesor, un ser poderoso con habilidades extraordinarias, antes de que destruya la Tierra. Mientras tanto, los alumnos aprenden lecciones de vida y superan desafíos personales.",
+  "coverImage": "https://m.media-amazon.com/images/S/pv-target-images/53580c49b46ea403d35746f9a5033696d3e80ce2f23dea76adcaec485d631948.jpg",
+  "genre": ["Animación", "Acción", "Comedia", "Drama", "Aventura"],
+  "episodes": [
+    {"episode":1, "title":"Hora de asesinar", "video_url":"https://archive.org/download/Ass3sinat1onCl4ssr00mT1/01.Hora%20de%20asesinar.mp4", "img":"https://m.media-amazon.com/images/S/pv-target-images/53580c49b46ea403d35746f9a5033696d3e80ce2f23dea76adcaec485d631948.jpg"},
+    {"episode":2, "title":"Hora de béisbol", "video_url":"https://archive.org/download/Ass3sinat1onCl4ssr00mT1/02.Hora%20de%20b%C3%A9isbol.mp4", "img":"https://m.media-amazon.com/images/S/pv-target-images/53580c49b46ea403d35746f9a5033696d3e80ce2f23dea76adcaec485d631948.jpg"},
+    {"episode":3, "title":"Hora de karma", "video_url":"https://archive.org/download/Ass3sinat1onCl4ssr00mT1/03.Hora%20de%20karma.mp4", "img":"https://m.media-amazon.com/images/S/pv-target-images/53580c49b46ea403d35746f9a5033696d3e80ce2f23dea76adcaec485d631948.jpg"},
+    {"episode":4, "title":"Hora de los adultos", "video_url":"https://archive.org/download/Ass3sinat1onCl4ssr00mT1/04.Hora%20de%20los%20adultos.mp4", "img":"https://m.media-amazon.com/images/S/pv-target-images/53580c49b46ea403d35746f9a5033696d3e80ce2f23dea76adcaec485d631948.jpg"},
+    {"episode":5, "title":"Hora de la asamblea", "video_url":"https://archive.org/download/Ass3sinat1onCl4ssr00mT1/05.Hora%20de%20la%20asamblea.mp4", "img":"https://m.media-amazon.com/images/S/pv-target-images/53580c49b46ea403d35746f9a5033696d3e80ce2f23dea76adcaec485d631948.jpg"},
+    {"episode":6, "title":"Hora de los exámenes", "video_url":"https://archive.org/download/Ass3sinat1onCl4ssr00mT1/06.Hora%20de%20los%20ex%C3%A1menes.mp4", "img":"https://m.media-amazon.com/images/S/pv-target-images/53580c49b46ea403d35746f9a5033696d3e80ce2f23dea76adcaec485d631948.jpg"},
+    {"episode":7, "title":"Hora de la excursión pt.1", "video_url":"https://archive.org/download/Ass3sinat1onCl4ssr00mT1/07.Hora%20de%20la%20excursi%C3%B3n%20pt.1.mp4", "img":"https://m.media-amazon.com/images/S/pv-target-images/53580c49b46ea403d35746f9a5033696d3e80ce2f23dea76adcaec485d631948.jpg"},
+    {"episode":8, "title":"Hora de la excursión pt.2", "video_url":"https://archive.org/download/Ass3sinat1onCl4ssr00mT1/08.Hora%20de%20la%20excursi%C3%B3n%20pt.2.mp4", "img":"https://m.media-amazon.com/images/S/pv-target-images/53580c49b46ea403d35746f9a5033696d3e80ce2f23dea76adcaec485d631948.jpg"},
+    {"episode":9, "title":"Hora del estudiante de intercambio pt.1", "video_url":"https://archive.org/download/Ass3sinat1onCl4ssr00mT1/09.Hora%20del%20estudiante%20de%20intercambio%20pt.1.mp4", "img":"https://m.media-amazon.com/images/S/pv-target-images/53580c49b46ea403d35746f9a5033696d3e80ce2f23dea76adcaec485d631948.jpg"},
+    {"episode":10, "title":"Hora de L y R", "video_url":"https://archive.org/download/Ass3sinat1onCl4ssr00mT1/10.Hora%20de%20L%20y%20R.mp4", "img":"https://m.media-amazon.com/images/S/pv-target-images/53580c49b46ea403d35746f9a5033696d3e80ce2f23dea76adcaec485d631948.jpg"},
+    {"episode":11, "title":"Hora del estudiante de intercambio pt.2", "video_url":"https://archive.org/download/Ass3sinat1onCl4ssr00mT1/11.Hora%20del%20estudiante%20de%20intercambio%20pt.2.mp4", "img":"https://m.media-amazon.com/images/S/pv-target-images/53580c49b46ea403d35746f9a5033696d3e80ce2f23dea76adcaec485d631948.jpg"},
+    {"episode":12, "title":"Hora del torneo", "video_url":"https://archive.org/download/Ass3sinat1onCl4ssr00mT1/12.Hora%20del%20torneo.mp4", "img":"https://m.media-amazon.com/images/S/pv-target-images/53580c49b46ea403d35746f9a5033696d3e80ce2f23dea76adcaec485d631948.jpg"},
+    {"episode":13, "title":"Hora del talento", "video_url":"https://archive.org/download/Ass3sinat1onCl4ssr00mT1/13.Hora%20del%20talento.mp4", "img":"https://m.media-amazon.com/images/S/pv-target-images/53580c49b46ea403d35746f9a5033696d3e80ce2f23dea76adcaec485d631948.jpg"},
+    {"episode":14, "title":"Hora de la visión", "video_url":"https://archive.org/download/Ass3sinat1onCl4ssr00mT1/14.Hora%20de%20la%20visi%C3%B3n.mp4", "img":"https://m.media-amazon.com/images/S/pv-target-images/53580c49b46ea403d35746f9a5033696d3e80ce2f23dea76adcaec485d631948.jpg"},
+    {"episode":15, "title":"Hora de los exámenes finales", "video_url":"https://archive.org/download/Ass3sinat1onCl4ssr00mT1/15.Hora%20de%20los%20examenes%20finales.mp4", "img":"https://m.media-amazon.com/images/S/pv-target-images/53580c49b46ea403d35746f9a5033696d3e80ce2f23dea76adcaec485d631948.jpg"},
+    {"episode":16, "title":"Fin de las clases (primer trimestre)", "video_url":"https://archive.org/download/Ass3sinat1onCl4ssr00mT1/16.Fin%20de%20las%20clases%20%28primer%20trimestre%29.mp4", "img":"https://m.media-amazon.com/images/S/pv-target-images/53580c49b46ea403d35746f9a5033696d3e80ce2f23dea76adcaec485d631948.jpg"},
+    {"episode":17, "title":"Hora de la isla", "video_url":"https://archive.org/download/Ass3sinat1onCl4ssr00mT1/17.Hora%20de%20la%20isla.mp4", "img":"https://m.media-amazon.com/images/S/pv-target-images/53580c49b46ea403d35746f9a5033696d3e80ce2f23dea76adcaec485d631948.jpg"},
+    {"episode":18, "title":"Hora de la acción", "video_url":"https://archive.org/download/Ass3sinat1onCl4ssr00mT1/18.Hora%20de%20la%20acci%C3%B3n.mp4", "img":"https://m.media-amazon.com/images/S/pv-target-images/53580c49b46ea403d35746f9a5033696d3e80ce2f23dea76adcaec485d631948.jpg"},
+    {"episode":19, "title":"Hora del pandemonium", "video_url":"https://archive.org/download/Ass3sinat1onCl4ssr00mT1/19.Hora%20del%20pandemonium.mp4", "img":"https://m.media-amazon.com/images/S/pv-target-images/53580c49b46ea403d35746f9a5033696d3e80ce2f23dea76adcaec485d631948.jpg"},
+    {"episode":20, "title":"Hora de karma pt.2", "video_url":"https://archive.org/download/Ass3sinat1onCl4ssr00mT1/20.Hora%20de%20karma%20pt.2.mp4", "img":"https://m.media-amazon.com/images/S/pv-target-images/53580c49b46ea403d35746f9a5033696d3e80ce2f23dea76adcaec485d631948.jpg"},
+    {"episode":21, "title":"Hora de XX", "video_url":"https://archive.org/download/Ass3sinat1onCl4ssr00mT1/21.Hora%20de%20XX.mp4", "img":"https://m.media-amazon.com/images/S/pv-target-images/53580c49b46ea403d35746f9a5033696d3e80ce2f23dea76adcaec485d631948.jpg"},
+    {"episode":22, "title":"Hora de Nagisa", "video_url":"https://archive.org/download/Ass3sinat1onCl4ssr00mT1/22.Hora%20de%20Nagisa.mp4", "img":"https://m.media-amazon.com/images/S/pv-target-images/53580c49b46ea403d35746f9a5033696d3e80ce2f23dea76adcaec485d631948.jpg"}
+  ]
+},
   {
   "title": "Hazbin Hotel Temporada 2",
   "description": "Charlie Morningstar, la princesa del Infierno, sueña con rehabilitar demonios para reducir la sobrepoblación infernal. Para demostrar que la redención es posible, crea el Hotel Hazbin, un lugar donde los pecadores puedan mejorar y, algún día, alcanzar el Cielo. Con la ayuda de Vaggie, Angel Dust y el enigmático Alastor, Charlie intenta cambiar el Infierno mientras enfrenta caos, desconfianza y conspiraciones.",
   "genre": [
-    "Animación para adultos",
     "Fantasía oscura",
     "Sátira",
     "Drama"
