@@ -1,5 +1,87 @@
 [
   {
+  "title": "Highschool of the Dead",
+  "coverImage": "https://static.wikia.nocookie.net/manga/images/f/fe/Highschool_of_the_Dead_portada.jpg/revision/latest?cb=20140713191535&path-prefix=es",
+  "description": "Highschool of the Dead - Temporada 1 en castellano.",
+  "genre": ["Acción", "Terror", "Zombis", "Supervivencia"],
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "Episodio 1",
+      "video_url": "https://archive.org/download/hotd-castellano-01/HOTD/HOTD%20Castellano%2001.mp4"
+    },
+    {
+      "episode": 2,
+      "title": "Episodio 2",
+      "video_url": "https://archive.org/download/hotd-castellano-01/HOTD/HOTD%20Castellano%2002.mp4"
+    },
+    {
+      "episode": 3,
+      "title": "Episodio 3",
+      "video_url": "https://archive.org/download/hotd-castellano-01/HOTD/HOTD%20Castellano%2003.mp4"
+    },
+    {
+      "episode": 4,
+      "title": "Episodio 4",
+      "video_url": "https://archive.org/download/hotd-castellano-01/HOTD/HOTD%20Castellano%2004.mp4"
+    },
+    {
+      "episode": 5,
+      "title": "Episodio 5",
+      "video_url": "https://archive.org/download/hotd-castellano-01/HOTD/HOTD%20Castellano%2005.mp4"
+    },
+    {
+      "episode": 6,
+      "title": "Episodio 6",
+      "video_url": "https://archive.org/download/hotd-castellano-01/HOTD/HOTD%20Castellano%2006.mp4"
+    },
+    {
+      "episode": 7,
+      "title": "Episodio 7",
+      "video_url": "https://archive.org/download/hotd-castellano-01/HOTD/HOTD%20Castellano%2007.mp4"
+    },
+    {
+      "episode": 8,
+      "title": "Episodio 8",
+      "video_url": "https://archive.org/download/hotd-castellano-01/HOTD/HOTD%20Castellano%2008.mp4"
+    },
+    {
+      "episode": 9,
+      "title": "Episodio 9",
+      "video_url": "https://archive.org/download/hotd-castellano-01/HOTD/HOTD%20Castellano%2009.mp4"
+    },
+    {
+      "episode": 10,
+      "title": "Episodio 10",
+      "video_url": "https://archive.org/download/hotd-castellano-01/HOTD/HOTD%20Castellano%2010.mp4"
+    },
+    {
+      "episode": 11,
+      "title": "Episodio 11",
+      "video_url": "https://archive.org/download/hotd-castellano-01/HOTD/HOTD%20Castellano%2011.mp4"
+    },
+    {
+      "episode": 12,
+      "title": "Episodio 12",
+      "video_url": "https://archive.org/download/hotd-castellano-01/HOTD/HOTD%20Castellano%2012.mp4"
+    }
+  ]
+},
+  {
+  "title": "La Vida de Brian",
+  "description": "Brian, un hombre común que nace el mismo día que Jesús, es confundido accidentalmente con el mesías, provocando situaciones absurdas y satíricas.",
+  "genre": ["Comedia", "Sátira", "Clásico"],
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBRSobP1JWpYAy7klrwJSpl5Pg5hkFlwhHfCZmi1fk0cDoHG9RIWDDYxI&s=10",
+  "video_url": "https://archive.org/download/la-vida-de-brian-1979-360-p-1/LA%20VIDA%20DE%20BRIAN%20%281979%29%28360P%29_1.mp4"
+  },
+  {
+  "title": "HOTD Castellano OVA",
+  "description": "OVA especial del anime Highschool of the Dead, con contenido adicional fuera de la historia principal.",
+  "genre": ["Animación", "Acción", "Terror", "Ecchi"],
+  "coverImage": "https://m.media-amazon.com/images/M/MV5BYjcyNTUwYmQtZjFmZC00YTZmLWJkYzEtMGU4NTlkMjVjZTA2XkEyXkFqcGc@._V1_QL75_UY281_CR4,0,190,281_.jpg",
+  "video_url": "https://archive.org/download/hotd-castellano-01/HOTD/HOTD%20Castellano%20OVA.mp4"
+  },
+  {
     "title": "Harry Potter y la Piedra Filosofal",
     "description": "Harry descubre que es un mago y comienza su primera aventura en Hogwarts, donde enfrenta una antigua amenaza.",
     "genre": ["Fantasía", "Aventura", "Magia"],
