@@ -1,5 +1,218 @@
 [
 
+     {
+  "title": "Ben 10",
+  "coverImage": "https://m.media-amazon.com/images/M/MV5BYWVjODZjNDgtYjk4ZS00OTg5LTg5NDQtZDMxZDQ4ZmM5MGJmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  "description": " Ben Tennyson (Tara Strong), un niño de 10 años que se encuentra de vacaciones de verano en el campo, con su prima Gwen (Meagan Smith) y su abuelo Max (Paul Eiding).",
+  "genre": ["Accion", "Drama", "Aliens" ],
+  "episodes": [
+  {
+    "episode": 1,
+    "title": "Y fueron 10",
+    "video_url": "https://archive.org/download/ben-10-episodio-03-el-krakken_202512/Ben%2010%20-%20Episodio%2001%20-%20Y%20fueron%2010%20.mp4"
+  },
+  {
+    "episode": 2,
+    "title": "Aprendiendo a ser héroe",
+    "video_url": "https://archive.org/download/ben-10-episodio-03-el-krakken_202512/Ben%2010%20-%20Episodio%2002%20-%20Aprendiendo%20a%20ser%20heroe%20.mp4"
+  },
+  {
+    "episode": 3,
+    "title": "El Krakken",
+    "video_url": "https://archive.org/download/ben-10-episodio-03-el-krakken_202512/Ben%2010%20-%20Episodio%2003%20-%20El%20Krakken%20.mp4"
+  },
+  {
+    "episode": 4,
+    "title": "Retiro Permanente",
+    "video_url": "https://archive.org/download/ben-10-episodio-03-el-krakken_202512/Ben%2010%20-%20Episodio%2004%20-%20Retiro%20Permanente%20.mp4"
+  },
+  {
+    "episode": 5,
+    "title": "Cazado",
+    "video_url": "https://archive.org/download/ben-10-episodio-03-el-krakken_202512/Ben%2010%20-%20Episodio%2005%20-%20Cazado%20.mp4"
+  },
+  {
+    "episode": 6,
+    "title": "Trampa para turistas",
+    "video_url": "https://archive.org/download/ben-10-episodio-03-el-krakken_202512/Ben%2010%20-%20Episodio%2006%20-%20Trampa%20para%20turistas%20.mp4"
+  },
+  {
+    "episode": 7,
+    "title": "Kevin 11",
+    "video_url": "https://archive.org/download/ben-10-episodio-03-el-krakken_202512/Ben%2010%20-%20Episodio%2007%20-%20Kevin%2011%20.mp4"
+  },
+  {
+    "episode": 8,
+    "title": "La Alianza",
+    "video_url": "https://archive.org/download/ben-10-episodio-03-el-krakken_202512/Ben%2010%20-%20Episodio%2008%20-%20La%20Alianza%20.mp4"
+  },
+  {
+    "episode": 9,
+    "title": "Quien ríe al Último",
+    "video_url": "https://archive.org/download/ben-10-episodio-03-el-krakken_202512/Ben%2010%20-%20Episodio%2009%20-%20Quien%20rie%20al%20Ultimo%20.mp4"
+  },
+  {
+    "episode": 10,
+    "title": "La Afortunada",
+    "video_url": "https://archive.org/download/ben-10-episodio-03-el-krakken_202512/Ben%2010%20-%20Episodio%2010%20-%20La%20Afortunada%20.mp4"
+  },
+  {
+    "episode": 11,
+    "title": "Un pequeño problema",
+    "video_url": "https://archive.org/download/ben-10-episodio-03-el-krakken_202512/Ben%2010%20-%20Episodio%2011%20-%20Un%20peque%C3%B1o%20problema%20.mp4"
+  },
+  {
+    "episode": 12,
+    "title": "Efectos secundarios",
+    "video_url": "https://archive.org/download/ben-10-episodio-03-el-krakken_202512/Ben%2010%20-%20Episodio%2012%20-%20Efectos%20secundarios%20.mp4"
+  },
+  {
+    "episode": 13,
+    "title": "Secretos",
+    "video_url": "https://archive.org/download/ben-10-episodio-03-el-krakken_202512/Ben%2010%20-%20Episodio%2013%20-%20Secretos%20.mp4"
+  }
+]
+},
+    
+    
+     {
+  "title": "Huntik",
+  "coverImage": "https://static.wikia.nocookie.net/huntik/images/e/ef/Huntik_s1_poster.jpg/revision/latest/scale-to-width-down/250?cb=20180718175038",
+  "description": "Huntik es una serie de aventura de acción y drama sobre un grupo de buscadores que viajan por todo el mundo en busca de amuletos antiguos que pueden invocar diferentes tipos de titanes.",
+  "genre": ["Accion", "Drama", "Romance" ],
+  "episodes": [
+  {
+    "episode": 1,
+    "title": "Nace un buscador",
+    "video_url": "https://archive.org/download/ben-10-episodio-03-el-krakken_202512/01%20Nace%20un%20buscador.mp4"
+  },
+  {
+    "episode": 2,
+    "title": "La clienta casterwill",
+    "video_url": "https://archive.org/download/ben-10-episodio-03-el-krakken_202512/02%20La%20clienta%20casterwill.mp4"
+  },
+  {
+    "episode": 3,
+    "title": "Palabras de verdad, corazón de mentiras",
+    "video_url": "https://archive.org/download/ben-10-episodio-03-el-krakken_202512/03%20Palabras%20de%20verdad%2C%20coraz%C3%B3n%20de%20mentiras.mp4"
+  },
+  {
+    "episode": 4,
+    "title": "En el río de los secretos",
+    "video_url": "https://archive.org/download/ben-10-episodio-03-el-krakken_202512/04%20En%20el%20r%C3%ADo%20de%20los%20secretos.mp4"
+  },
+  {
+    "episode": 5,
+    "title": "Arrastrándose por las catacumbas",
+    "video_url": "https://archive.org/download/ben-10-episodio-03-el-krakken_202512/05%20Arrastr%C3%A1ndose%20por%20las%20catacumbas.mp4"
+  },
+  {
+    "episode": 6,
+    "title": "Divide y conquistarás",
+    "video_url": "https://archive.org/download/ben-10-episodio-03-el-krakken_202512/06%20Divide%20y%20conquistar%C3%A1s.mp4"
+  },
+  {
+    "episode": 7,
+    "title": "El legado de thor",
+    "video_url": "https://archive.org/download/ben-10-episodio-03-el-krakken_202512/07%20El%20legado%20de%20thor.mp4"
+  },
+  {
+    "episode": 8,
+    "title": "Dos poderes se hacen uno",
+    "video_url": "https://archive.org/download/ben-10-episodio-03-el-krakken_202512/08%20Dos%20poderes%20se%20hacen%20uno.mp4"
+  },
+  {
+    "episode": 9,
+    "title": "Héroes ausentes",
+    "video_url": "https://archive.org/download/ben-10-episodio-03-el-krakken_202512/09%20H%C3%A9roes%20ausentes.mp4"
+  },
+  {
+    "episode": 10,
+    "title": "Los tesoros de los argonautas",
+    "video_url": "https://archive.org/download/ben-10-episodio-03-el-krakken_202512/10%20Los%20tesoros%20de%20los%20argonautas.mp4"
+  },
+  {
+    "episode": 11,
+    "title": "La bella trampa",
+    "video_url": "https://archive.org/download/ben-10-episodio-03-el-krakken_202512/11%20La%20bella%20trampa.mp4"
+  },
+  {
+    "episode": 12,
+    "title": "Como la noche al día",
+    "video_url": "https://archive.org/download/ben-10-episodio-03-el-krakken_202512/12%20Como%20la%20noche%20al%20d%C3%ADa.mp4"
+  },
+  {
+    "episode": 13,
+    "title": "De vuelta a casa",
+    "video_url": "https://archive.org/download/ben-10-episodio-03-el-krakken_202512/13%20De%20vuelta%20a%20casa.mp4"
+  },
+  {
+    "episode": 14,
+    "title": "Tanto trabajo para nada",
+    "video_url": "https://archive.org/download/ben-10-episodio-03-el-krakken_202512/14%20Tanto%20trabajo%20para%20nada.mp4"
+  },
+  {
+    "episode": 15,
+    "title": "La trampa del cetro",
+    "video_url": "https://archive.org/download/ben-10-episodio-03-el-krakken_202512/15%20La%20trampa%20del%20cetro.mp4"
+  },
+  {
+    "episode": 16,
+    "title": "El cazador de la librería",
+    "video_url": "https://archive.org/download/ben-10-episodio-03-el-krakken_202512/16%20El%20cazador%20de%20la%20librer%C3%ADa.mp4"
+  },
+  {
+    "episode": 17,
+    "title": "El vampiro pierde sus colmillos",
+    "video_url": "https://archive.org/download/ben-10-episodio-03-el-krakken_202512/17%20El%20vampiro%20pierde%20sus%20colmillos.mp4"
+  },
+  {
+    "episode": 18,
+    "title": "El callejón de los recuerdos",
+    "video_url": "https://archive.org/download/ben-10-episodio-03-el-krakken_202512/18%20El%20callej%C3%B3n%20de%20los%20recuerdos.mp4"
+  },
+  {
+    "episode": 19,
+    "title": "La elección de las damas",
+    "video_url": "https://archive.org/download/ben-10-episodio-03-el-krakken_202512/19%20La%20elecci%C3%B3n%20de%20las%20damas.mp4"
+  },
+  {
+    "episode": 20,
+    "title": "El guía oculto",
+    "video_url": "https://archive.org/download/ben-10-episodio-03-el-krakken_202512/20%20El%20gu%C3%ADa%20oculto.mp4"
+  },
+  {
+    "episode": 21,
+    "title": "Hacerse mayor",
+    "video_url": "https://archive.org/download/ben-10-episodio-03-el-krakken_202512/21%20Hacerse%20mayor.mp4"
+  },
+  {
+    "episode": 22,
+    "title": "El aspid dorado",
+    "video_url": "https://archive.org/download/ben-10-episodio-03-el-krakken_202512/22%20El%20aspid%20dorado.mp4"
+  },
+  {
+    "episode": 23,
+    "title": "Estar juntos",
+    "video_url": "https://archive.org/download/ben-10-episodio-03-el-krakken_202512/23%20Estar%20juntos.mp4"
+  },
+  {
+    "episode": 24,
+    "title": "El secreto de dos generaciones",
+    "video_url": "https://archive.org/download/ben-10-episodio-03-el-krakken_202512/24%20El%20secreto%20de%20dos%20generaciones.mp4"
+  },
+  {
+    "episode": 25,
+    "title": "La divina comedia",
+    "video_url": "https://archive.org/download/ben-10-episodio-03-el-krakken_202512/25%20La%20divina%20comedia.mp4"
+  },
+  {
+    "episode": 26,
+    "title": "La misión",
+    "video_url": "https://archive.org/download/ben-10-episodio-03-el-krakken_202512/26%20La%20misi%C3%B3n.mp4"
+  }
+ ]
+},
     
     {
   "title": "Una Película de Minecraft (2025)",
