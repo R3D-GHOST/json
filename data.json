@@ -1,4 +1,161 @@
 [
+  
+  {
+  "title": "Steins;Gate",
+  "coverImage": "https://m.media-amazon.com/images/M/MV5BNTgzZWY0YmEtNTNlMy00YzU1LWI4NTUtYzBlNzQ0ODkzNzAwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  "description": "Steins;Gate sigue a un grupo de estudiantes que descubren la forma de cambiar el pasado a través de mensajes de texto, experimentando las ramificaciones de los viajes en el tiempo.",
+  "genre": [
+    "Ciencia ficción",
+    "Thriller",
+    "Anime"
+  ],
+  "episodes": [
+    {
+      "season": 1,
+      "episode": 1,
+      "title": "Steins;Gate 01",
+      "video_url": "https://archive.org/download/steins-gate-castellano/Steins%3BGate%20Castellano/Steins%3BGate_Castellano/Steins%3BGate%2001.mp4"
+    },
+    {
+      "season": 1,
+      "episode": 2,
+      "title": "Steins;Gate 02",
+      "video_url": "https://archive.org/download/steins-gate-castellano/Steins%3BGate%20Castellano/Steins%3BGate_Castellano/Steins%3BGate%2002.mp4"
+    },
+    {
+      "season": 1,
+      "episode": 3,
+      "title": "Steins;Gate 03",
+      "video_url": "https://archive.org/download/steins-gate-castellano/Steins%3BGate%20Castellano/Steins%3BGate_Castellano/Steins%3BGate%2003.mp4"
+    },
+    {
+      "season": 1,
+      "episode": 4,
+      "title": "Steins;Gate 04",
+      "video_url": "https://archive.org/download/steins-gate-castellano/Steins%3BGate%20Castellano/Steins%3BGate_Castellano/Steins%3BGate%2004.mp4"
+    },
+    {
+      "season": 1,
+      "episode": 5,
+      "title": "Steins;Gate 05",
+      "video_url": "https://archive.org/download/steins-gate-castellano/Steins%3BGate%20Castellano/Steins%3BGate_Castellano/Steins%3BGate%2005.mp4"
+    },
+    {
+      "season": 1,
+      "episode": 6,
+      "title": "Steins;Gate 06",
+      "video_url": "https://archive.org/download/steins-gate-castellano/Steins%3BGate%20Castellano/Steins%3BGate_Castellano/Steins%3BGate%2006.mp4"
+    },
+    {
+      "season": 1,
+      "episode": 7,
+      "title": "Steins;Gate 07",
+      "video_url": "https://archive.org/download/steins-gate-castellano/Steins%3BGate%20Castellano/Steins%3BGate_Castellano/Steins%3BGate%2007.mp4"
+    },
+    {
+      "season": 1,
+      "episode": 8,
+      "title": "Steins;Gate 08",
+      "video_url": "https://archive.org/download/steins-gate-castellano/Steins%3BGate%20Castellano/Steins%3BGate_Castellano/Steins%3BGate%2008.mp4"
+    },
+    {
+      "season": 1,
+      "episode": 9,
+      "title": "Steins;Gate 09",
+      "video_url": "https://archive.org/download/steins-gate-castellano/Steins%3BGate%20Castellano/Steins%3BGate_Castellano/Steins%3BGate%2009.mp4"
+    },
+    {
+      "season": 1,
+      "episode": 10,
+      "title": "Steins;Gate 10",
+      "video_url": "https://archive.org/download/steins-gate-castellano/Steins%3BGate%20Castellano/Steins%3BGate_Castellano/Steins%3BGate%2010.mp4"
+    },
+    {
+      "season": 1,
+      "episode": 11,
+      "title": "Steins;Gate 11",
+      "video_url": "https://archive.org/download/steins-gate-castellano/Steins%3BGate%20Castellano/Steins%3BGate_Castellano/Steins%3BGate%2011.mp4"
+    },
+    {
+      "season": 1,
+      "episode": 12,
+      "title": "Steins;Gate 12",
+      "video_url": "https://archive.org/download/steins-gate-castellano/Steins%3BGate%20Castellano/Steins%3BGate_Castellano/Steins%3BGate%2012.mp4"
+    },
+    {
+      "season": 1,
+      "episode": 13,
+      "title": "Steins;Gate 13",
+      "video_url": "https://archive.org/download/steins-gate-castellano/Steins%3BGate%20Castellano/Steins%3BGate_Castellano/Steins%3BGate%2013.mp4"
+    },
+    {
+      "season": 1,
+      "episode": 14,
+      "title": "Steins;Gate 14",
+      "video_url": "https://archive.org/download/steins-gate-castellano/Steins%3BGate%20Castellano/Steins%3BGate_Castellano/Steins%3BGate%2014.mp4"
+    },
+    {
+      "season": 1,
+      "episode": 15,
+      "title": "Steins;Gate 15",
+      "video_url": "https://archive.org/download/steins-gate-castellano/Steins%3BGate%20Castellano/Steins%3BGate_Castellano/Steins%3BGate%2015.mp4"
+    },
+    {
+      "season": 1,
+      "episode": 16,
+      "title": "Steins;Gate 16",
+      "video_url": "https://archive.org/download/steins-gate-castellano/Steins%3BGate%20Castellano/Steins%3BGate_Castellano/Steins%3BGate%2016.mp4"
+    },
+    {
+      "season": 1,
+      "episode": 17,
+      "title": "Steins;Gate 17",
+      "video_url": "https://archive.org/download/steins-gate-castellano/Steins%3BGate%20Castellano/Steins%3BGate_Castellano/Steins%3BGate%2017.mp4"
+    },
+    {
+      "season": 1,
+      "episode": 18,
+      "title": "Steins;Gate 18",
+      "video_url": "https://archive.org/download/steins-gate-castellano/Steins%3BGate%20Castellano/Steins%3BGate_Castellano/Steins%3BGate%2018.mp4"
+    },
+    {
+      "season": 1,
+      "episode": 19,
+      "title": "Steins;Gate 19",
+      "video_url": "https://archive.org/download/steins-gate-castellano/Steins%3BGate%20Castellano/Steins%3BGate_Castellano/Steins%3BGate%2019.mp4"
+    },
+    {
+      "season": 1,
+      "episode": 20,
+      "title": "Steins;Gate 20",
+      "video_url": "https://archive.org/download/steins-gate-castellano/Steins%3BGate%20Castellano/Steins%3BGate_Castellano/Steins%3BGate%2020.mp4"
+    },
+    {
+      "season": 1,
+      "episode": 21,
+      "title": "Steins;Gate 21",
+      "video_url": "https://archive.org/download/steins-gate-castellano/Steins%3BGate%20Castellano/Steins%3BGate_Castellano/Steins%3BGate%2021.mp4"
+    },
+    {
+      "season": 1,
+      "episode": 22,
+      "title": "Steins;Gate 22",
+      "video_url": "https://archive.org/download/steins-gate-castellano/Steins%3BGate%20Castellano/Steins%3BGate_Castellano/Steins%3BGate%2022.mp4"
+    },
+    {
+      "season": 1,
+      "episode": 23,
+      "title": "Steins;Gate 23",
+      "video_url": "https://archive.org/download/steins-gate-castellano/Steins%3BGate%20Castellano/Steins%3BGate_Castellano/Steins%3BGate%2023.mp4"
+    },
+    {
+      "season": 1,
+      "episode": 24,
+      "title": "Steins;Gate 24",
+      "video_url": "https://archive.org/download/steins-gate-castellano/Steins%3BGate%20Castellano/Steins%3BGate_Castellano/Steins%3BGate%2024.mp4"
+    }
+  ]
+},
   {
   "title": "Magical Doremi",
   "coverImage": "https://m.media-amazon.com/images/M/MV5BYzgxMzVkMGItMTMxNC00ZWEyLTk4ZGItM2RmMmM3NTRmMDQ0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
