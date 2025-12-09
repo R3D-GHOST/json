@@ -1,5 +1,73 @@
 [
   {
+  "title": "Spy x Family",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgWe5oc6HNWFWKcTLGQB3denj6MTHLhPkahw&s",
+  "description": "trata sobre el espía de élite Twilight (Loid Forger), quien debe formar una familia falsa para infiltrarse en la élite de Ostania y evitar una guerra con Westalis, adoptando una niña telepática llamada Anya y casándose con una asesina llamada Yor, sin que ninguno sepa los secretos del otro, creando una farsa familiar llena de comedia, acción y momentos tiernos mientras todos intentan cumplir sus objetivos",
+  "genre": ["Anime", "Accion", "Drama" ],
+  "episodes": [
+  {
+    "episode": 1,
+    "title": "Spy x Family - 01",
+    "video_url": "https://archive.org/download/spy-x-family-08_202512/Spy%20x%20Family%20-%2001.mp4"
+  },
+  {
+    "episode": 2,
+    "title": "Spy x Family - 02",
+    "video_url": "https://archive.org/download/spy-x-family-08_202512/Spy%20x%20Family%20-%2002.mp4"
+  },
+  {
+    "episode": 3,
+    "title": "Spy x Family - 03",
+    "video_url": "https://archive.org/download/spy-x-family-08_202512/Spy%20x%20Family%20-%2003.mp4"
+  },
+  {
+    "episode": 4,
+    "title": "Spy x Family - 04",
+    "video_url": "https://archive.org/download/spy-x-family-08_202512/Spy%20x%20Family%20-%2004.mp4"
+  },
+  {
+    "episode": 5,
+    "title": "Spy x Family - 05",
+    "video_url": "https://archive.org/download/spy-x-family-08_202512/Spy%20x%20Family%20-%2005.mp4"
+  },
+  {
+    "episode": 6,
+    "title": "Spy x Family - 06",
+    "video_url": "https://archive.org/download/spy-x-family-08_202512/Spy%20x%20Family%20-%2006.mp4"
+  },
+  {
+    "episode": 7,
+    "title": "Spy x Family - 07",
+    "video_url": "https://archive.org/download/spy-x-family-08_202512/Spy%20x%20Family%20-%2007.mp4"
+  },
+  {
+    "episode": 8,
+    "title": "Spy x Family - 08",
+    "video_url": "https://archive.org/download/spy-x-family-08_202512/Spy%20x%20Family%20-%2008.mp4"
+  },
+  {
+    "episode": 9,
+    "title": "Spy x Family - 09",
+    "video_url": "https://archive.org/download/spy-x-family-08_202512/Spy%20x%20Family%20-%2009.mp4"
+  },
+  {
+    "episode": 10,
+    "title": "Spy x Family - 10",
+    "video_url": "https://archive.org/download/spy-x-family-08_202512/Spy%20x%20Family%20-%2010.mp4"
+  },
+  {
+    "episode": 11,
+    "title": "Spy x Family - 11",
+    "video_url": "https://archive.org/download/spy-x-family-08_202512/Spy%20x%20Family%20-%2011.mp4"
+  },
+  {
+    "episode": 12,
+    "title": "Spy x Family - 12",
+    "video_url": "https://archive.org/download/spy-x-family-08_202512/Spy%20x%20Family%20-%2012.mp4"
+  }
+ ]
+},   
+  {
   "title": "El laboratorio de Dexter",
   "coverImage": "https://m.media-amazon.com/images/M/MV5BYmE4ZmI4YzMtYTU4My00YTRiLWIzOGEtOWEzNWYxM2NjYzgzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
   "description": "Dexter, un niño genio con un laboratorio secreto en su habitación donde crea inventos increíbles, pero sus planes casi siempre son arruinados por su molesta hermana mayor, Dee Dee, y su rival, Mandark, mientras sus padres no se dan cuenta de sus hazañas científicas",
