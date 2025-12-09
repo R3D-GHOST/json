@@ -1,5 +1,13 @@
 [
   {
+  "title": "F1: La película (2025)",
+  "description": "Película de acción/deporte basada en el mundo de la Fórmula 1 — 2025.",
+  "coverImage": "https://img.asmedia.epimg.net/resizer/v2/OOLTDRGJ6NEOZEZKF65342QGYM.jpg?auth=eb452597dfdceab148a1a849b169827795de8bc8907ff5662cb192fcc417324e&width=1472&height=828&smart=true",
+  "video_url": "https://archive.org/download/f1-la-pel-cula-2025-2castellano/f1-la-pel-cula-2025-2%5Bcastellano%5D.mp4",
+  "genre": ["Acción", "Deporte"]
+  },
+  
+  {
   "title": "El Gigante de Hierro",
   "description": "Película animada / de aventuras sobre un gigantesco robot y la amistad con un niño.",
   "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFyBORVZkghkB-DFUR2AlWRniuhppllqIcLQ5SP3UEow&s=10",
