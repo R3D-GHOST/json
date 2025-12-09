@@ -1,4 +1,218 @@
 [
+  {
+  "title": "El laboratorio de Dexter",
+  "coverImage": "https://m.media-amazon.com/images/M/MV5BYmE4ZmI4YzMtYTU4My00YTRiLWIzOGEtOWEzNWYxM2NjYzgzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  "description": "Dexter, un niño genio con un laboratorio secreto en su habitación donde crea inventos increíbles, pero sus planes casi siempre son arruinados por su molesta hermana mayor, Dee Dee, y su rival, Mandark, mientras sus padres no se dan cuenta de sus hazañas científicas",
+  "genre": ["Animacion", "Accion", "Drama" ],
+  "episodes": [
+  {
+    "episode": 1,
+    "title": "Episodio 01",
+    "video_url": "https://archive.org/download/destino-de-amor-destiny-of-love-episodio-02/Destino%20de%20Amor%20-%20Destiny%20of%20Love%20%20-%20%E9%94%99%E5%AB%81%E4%B8%96%E5%AD%90%E5%A6%83%20%28Episodio%2001%29.mp4"
+  },
+  {
+    "episode": "S00E06",
+    "title": "El laboratorio de Dexter 41 - Rude Removal",
+    "video_url": "https://archive.org/download/laboratorio-de-dexter-latino/S00E06%20-%20El%20laboratorio%20de%20Dexter%2041%20-%20Rude%20Removal%20%281080p%29%20%28Ingles%29%20%28Bryan-espa%29.mp4"
+  },
+  {
+    "episode": "S00E05",
+    "title": "El Viaje de Dexter (Ego Trip)",
+    "video_url": "https://archive.org/download/laboratorio-de-dexter-latino/S00E05%20-%20El%20laboratorio%20de%20Dexte%20-%20El%20Viaje%20de%20Dexter%20%28Ego%20Trip%29%20%28Bryan-espa%29.mp4"
+  },
+  {
+    "episode": "S01E01-S01E02-S01E03",
+    "title": "Viajera Del Tiempo - Magmanamus - Madres Al Combate",
+    "video_url": "https://archive.org/download/laboratorio-de-dexter-latino/S01E01-S01E02-S01E03%20-%20Viajera%20Del%20Tiempo%20-%20Magmanamus%20-%20Madres%20Al%20Combate%20%28Bryan-espa%29.mp4"
+  },
+  {
+    "episode": "S01E04-S01E05-S01E06",
+    "title": "El Juego De Dexter - El Gran Tonina - La Asistente De Dexter",
+    "video_url": "https://archive.org/download/laboratorio-de-dexter-latino/S01E04-S01E05-S01E06%20-%20El%20Juego%20De%20Dexter%20-%20El%20Gran%20Tonina%20-%20La%20Asistente%20De%20Dexter%20%28Bryan-espa%29.mp4"
+  },
+  {
+    "episode": "S01E07-S01E08-S01E09",
+    "title": "El Rival De Dexter - Simion - El viejo Dexter",
+    "video_url": "https://archive.org/download/laboratorio-de-dexter-latino/S01E07-S01E08-S01E09%20-%20El%20Rival%20De%20Dexter%20-%20Simion%20-%20El%20viejo%20Dexter%20%28Bryan-espa%29.mp4"
+  },
+  {
+    "episode": "S01E10-S01E11-S01E12",
+    "title": "Problema por duplicado - La Barbacoa Terrestre - Cambios_Ojo",
+    "video_url": "https://archive.org/download/laboratorio-de-dexter-latino/S01E10-S01E11-S01E12%20-%20Problema%20por%20duplicado%20-%20La%20Barbacoa%20Terrestre%20-%20Cambios_Ojo%20%28Bryan-espa%29.mp4"
+  },
+  {
+    "episode": "S01E13-S01E14-S01E15",
+    "title": "El Dinosaurio De Dexter - El Organillero - El Tonto De Dexter",
+    "video_url": "https://archive.org/download/laboratorio-de-dexter-latino/S01E13-S01E14-S01E15%20-%20El%20Dinosaurio%20De%20Dexter%20-%20El%20Organillero%20-%20El%20Tonto%20De%20Dexter%20%28Bryan-espa%29.mp4"
+  },
+  {
+    "episode": "S01E16-S01E17-S01E18",
+    "title": "La Habitación De Dee Dee - Huntor - Mi hermana mayor",
+    "video_url": "https://archive.org/download/laboratorio-de-dexter-latino/S01E16-S01E17-S01E18%20-%20La%20Habitaci%C3%B3n%20De%20Dee%20Dee%20-%20Huntor%20-%20Mi%20hermana%20mayor%20%28Bryan-espa%29.mp4"
+  },
+  {
+    "episode": "S01E19-S01E20-S01E21",
+    "title": "Amigo Contra El Mal - Súper Amigos En TV - Juego Concluido",
+    "video_url": "https://archive.org/download/laboratorio-de-dexter-latino/S01E19-S01E20-S01E21%20-%20Amigo%20Contra%20El%20Mal%20-%20S%C3%BAper%20Amigos%20En%20TV%20-%20Juego%20Concluido%20%28Bryan-espa%29.mp4"
+  },
+  {
+    "episode": "S01E22-S01E23-S01E24",
+    "title": "La Niñera - La Habitación De Val Hallen - La Máquina De Los Sueños",
+    "video_url": "https://archive.org/download/laboratorio-de-dexter-latino/S01E22-S01E23-S01E24%20-%20La%20Ni%C3%B1era%20-%20La%20Habitaci%C3%B3n%20De%20Val%20Hallen%20-%20La%20M%C3%A1quina%20De%20Los%20Sue%C3%B1os%20%28Bryan-espa%29.mp4"
+  },
+  {
+    "episode": "S01E25-S01E26-S01E27",
+    "title": "Drama En La Casa De Muñecas - La Novia De Gigantón - El Gran Queso",
+    "video_url": "https://archive.org/download/laboratorio-de-dexter-latino/S01E25-S01E26-S01E27%20-%20Drama%20En%20La%20Casa%20De%20Mu%C3%B1ecas%20-%20La%20Novia%20De%20Gigant%C3%B3n%20-%20El%20Gran%20Queso%20%28Bryan-espa%29.mp4"
+  },
+  {
+    "episode": "S01E28-S01E29-S01E30",
+    "title": "Al Estilo De Dee Dee - Dime, Tío Sam - La Tribu De Las Chicas",
+    "video_url": "https://archive.org/download/laboratorio-de-dexter-latino/S01E28-S01E29-S01E30%20-%20Al%20Estilo%20De%20Dee%20Dee%20-%20Dime%2C%20T%C3%ADo%20Sam%20-%20La%20Tribu%20De%20Las%20Chicas%20%28Bryan-espa%29.mp4"
+  },
+  {
+    "episode": "S01E31-S01E32-S01E33",
+    "title": "La Cápsula Espacial - Ratman - La Deuda De Dexter",
+    "video_url": "https://archive.org/download/laboratorio-de-dexter-latino/S01E31-S01E32-S01E33%20-%20La%20C%C3%A1psula%20Espacial%20-%20Ratman%20-%20La%20Deuda%20De%20Dexter%20%28Bryan-espa%29.mp4"
+  },
+  {
+    "episode": "S01E34-S01E35",
+    "title": "El Rival De Dexter - La Abeja  El Cerebro",
+    "video_url": "https://archive.org/download/laboratorio-de-dexter-latino/S01E34-S01E35%20-%20El%20Rival%20De%20Dexter%20-%20La%20Abeja%20%20El%20Cerebro%20%28Bryan-espa%29.mp4"
+  },
+  {
+    "episode": "S01E36-S01E37-S01E38",
+    "title": "Dee Dee Inflable - La Alergia - Monstruos",
+    "video_url": "https://archive.org/download/laboratorio-de-dexter-latino/S01E36-S01E37-S01E38%20-%20Dee%20Dee%20Inflable%20-%20La%20Alergia%20-%20Monstruos%20%28Bryan-espa%29.mp4"
+  },
+  {
+    "episode": "S02E01-S02E02-S02E03",
+    "title": "El Héroe Barbado - Quack, El Súper Pato - Vida De Hormigas",
+    "video_url": "https://archive.org/download/laboratorio-de-dexter-latino/S02E01-S02E02-S02E03%20-%20El%20H%C3%A9roe%20Barbado%20-%20Quack%2C%20El%20S%C3%BAper%20Pato%20-%20Vida%20De%20Hormigas%20%28Bryan-espa%29.mp4"
+  },
+  {
+    "episode": "S02E04-S02E05-S02E06",
+    "title": "Mamá Y Jerry  Pizzas - Chubby - Ese Loco Robot",
+    "video_url": "https://archive.org/download/laboratorio-de-dexter-latino/S02E04-S02E05-S02E06%20-%20Mam%C3%A1%20Y%20Jerry%20%20Pizzas%20-%20Chubby%20-%20Ese%20Loco%20Robot%20%28Bryan-espa%29.mp4"
+  },
+  {
+    "episode": "S02E07-S02E08",
+    "title": "Calabozos Y Dragones - Brazo De Acero",
+    "video_url": "https://archive.org/download/laboratorio-de-dexter-latino/S02E07-S02E08%20-%20Calabozos%20Y%20Dragones%20-%20Brazo%20De%20Acero%20%28Bryan-espa%29.mp4"
+  },
+  {
+    "episode": "S02E09-S02E10-S02E11",
+    "title": "Vegetales - El Amigo De Dee Dee - El Casco Del Tiempo",
+    "video_url": "https://archive.org/download/laboratorio-de-dexter-latino/S02E09-S02E10-S02E11%20-%20Vegetales%20-%20El%20Amigo%20De%20Dee%20Dee%20-%20El%20Casco%20Del%20Tiempo%20%28Bryan-espa%29.mp4"
+  },
+  {
+    "episode": "S02E100-S02E101-S02E102",
+    "title": "Pie Negro Y Delgada  Atraparlo - Con Mi Venganza - El Perico Perfecto",
+    "video_url": "https://archive.org/download/laboratorio-de-dexter-latino/S02E100-S02E101-S02E102%20-%20Pie%20Negro%20Y%20Delgada%20%20Atraparlo%20-%20Con%20Mi%20Venganza%20-%20El%20Perico%20Perfecto%20%28Bryan-espa%29.mp4"
+  },
+  {
+    "episode": "S02E103-S02E104-S02E105",
+    "title": "Dexter Y La Computadora -  Acaban Con Cerebro - Dolor De Muela - Dexter Vs.Santa Claws",
+    "video_url": "https://archive.org/download/laboratorio-de-dexter-latino/S02E103-S02E104-S02E105%20-%20Dexter%20Y%20La%20Computadora%20-%20%20Acaban%20Con%20Cerebro%20-%20Dolor%20De%20Muela%20-%20Dexter%20Vs.Santa%20Claws%20%28Bryan-espa%29.mp4"
+  },
+  {
+    "episode": "S02E106-S02E107",
+    "title": "El Perro Maravilla - El Libreto De Dexter",
+    "video_url": "https://archive.org/download/laboratorio-de-dexter-latino/S02E106-S02E107%20-%20El%20Perro%20Maravilla%20-%20El%20Libreto%20De%20Dexter%20%28Bryan-espa%29.mp4"
+  },
+  {
+    "episode": "S02E108",
+    "title": "Intercambio Estudiantil",
+    "video_url": "https://archive.org/download/laboratorio-de-dexter-latino/S02E108%20-%20Intercambio%20Estudiantil%20%28Bryan-espa%29.mp4"
+  },
+  {
+    "episode": "S02E12-S02E13-S02E14",
+    "title": "Ricitos Dee Dee Y El Monstruo Del Lago Ness - Paseo Familiar - Lector Del Mes",
+    "video_url": "https://archive.org/download/laboratorio-de-dexter-latino/S02E12-S02E13-S02E14%20-%20Ricitos%20Dee%20Dee%20Y%20El%20Monstruo%20Del%20Lago%20Ness%20-%20Paseo%20Familiar%20-%20Lector%20Del%20Mes%20%28Bryan-espa%29.mp4"
+  },
+  {
+    "episode": "S02E15-S02E16-S02E17",
+    "title": "El Nuevo Baile De Dee Dee - Gnomos - El Laboratorio Perdido",
+    "video_url": "https://archive.org/download/laboratorio-de-dexter-latino/S02E15-S02E16-S02E17%20-%20El%20Nuevo%20Baile%20De%20Dee%20Dee%20-%20Gnomos%20-%20El%20Laboratorio%20Perdido%20%28Bryan-espa%29.mp4"
+  },
+  {
+    "episode": "S02E18-S02E19-S02E20",
+    "title": "Etiquetas  El Concurso - El Viaje Fantástico",
+    "video_url": "https://archive.org/download/laboratorio-de-dexter-latino/S02E18-S02E19-S02E20%20-%20Etiquetas%20%20El%20Concurso%20-%20El%20Viaje%20Fant%C3%A1stico%20%28Bryan-espa%29.mp4"
+  },
+  {
+    "episode": "S02E21-S02E22",
+    "title": "El Fantasma De Filemón - El Diskette De Oro",
+    "video_url": "https://archive.org/download/laboratorio-de-dexter-latino/S02E21-S02E22%20-%20El%20Fantasma%20De%20Filem%C3%B3n%20-%20El%20Diskette%20De%20Oro%20%28Bryan-espa%29.mp4"
+  },
+  {
+    "episode": "S02E23-S02E24-S02E25",
+    "title": "Guerreros De Nieve - Muñeco No Incluido - Carreras De Autos",
+    "video_url": "https://archive.org/download/laboratorio-de-dexter-latino/S02E23-S02E24-S02E25%20-%20Guerreros%20De%20Nieve%20-%20Mu%C3%B1eco%20No%20Incluido%20-%20Carreras%20De%20Autos%20%28Bryan-espa%29.mp4"
+  },
+  {
+    "episode": "S02E26-S02E27-S02E28",
+    "title": "Carnaval - Confusión Nuclear - Invasión De Gérmenes",
+    "video_url": "https://archive.org/download/laboratorio-de-dexter-latino/S02E26-S02E27-S02E28%20-%20Carnaval%20-%20Confusi%C3%B3n%20Nuclear%20-%20Invasi%C3%B3n%20De%20G%C3%A9rmenes%20%28Bryan-espa%29.mp4"
+  },
+  {
+    "episode": "S02E29-S02E30-S02E31",
+    "title": "Un Gran Día Para La Ciencia - Dexter Y El Correcaminos - Aventura En El Mar",
+    "video_url": "https://archive.org/download/laboratorio-de-dexter-latino/S02E29-S02E30-S02E31%20-%20Un%20Gran%20D%C3%ADa%20Para%20La%20Ciencia%20-%20Dexter%20Y%20El%20Correcaminos%20-%20Aventura%20En%20El%20Mar%20%28Bryan-espa%29.mp4"
+  },
+  {
+    "episode": "S02E32-S02E33-S02E34",
+    "title": "El Monstruo Del Autobús - El Teletón - Ol McDexter",
+    "video_url": "https://archive.org/download/laboratorio-de-dexter-latino/S02E32-S02E33-S02E34%20-%20El%20Monstruo%20Del%20Autob%C3%BAs%20-%20El%20Telet%C3%B3n%20-%20Ol%20McDexter%20%28Bryan-espa%29.mp4"
+  },
+  {
+    "episode": "S02E35-S02E36",
+    "title": "Pie Grande - Revelado Fotográfico",
+    "video_url": "https://archive.org/download/laboratorio-de-dexter-latino/S02E35-S02E36%20-%20Pie%20Grande%20-%20Revelado%20Fotogr%C3%A1fico%20%28Bryan-espa%29.mp4"
+  },
+  {
+    "episode": "S02E37-S02E38-S02E39",
+    "title": "Viaje A Las Estrellas No Convencional - Remedio Contra El Baño - La Maldición Del Helado",
+    "video_url": "https://archive.org/download/laboratorio-de-dexter-latino/S02E37-S02E38-S02E39%20-%20Viaje%20A%20Las%20Estrellas%20No%20Convencional%20-%20Remedio%20Contra%20El%20Ba%C3%B1o%20-%20La%20Maldici%C3%B3n%20Del%20Helado%20%28Bryan-espa%29.mp4"
+  },
+  {
+    "episode": "S02E40-S02E41-S02E42",
+    "title": "Código De Honor - Súper Mamá - Ultra-Tonto 2000",
+    "video_url": "https://archive.org/download/laboratorio-de-dexter-latino/S02E40-S02E41-S02E42%20-%20C%C3%B3digo%20De%20Honor%20-%20S%C3%BAper%20Mam%C3%A1%20-%20Ultra-Tonto%202000%20%28Bryan-espa%29.mp4"
+  },
+  {
+    "episode": "S02E43-S02E44-S02E45",
+    "title": "La Tortuga Biónica - Sorpresa - El Chupacabras",
+    "video_url": "https://archive.org/download/laboratorio-de-dexter-latino/S02E43-S02E44-S02E45%20-%20La%20Tortuga%20Bi%C3%B3nica%20-%20Sorpresa%20-%20El%20Chupacabras%20%28Bryan-espa%29.mp4"
+  },
+  {
+    "episode": "S02E46-S02E47-S02E48",
+    "title": "Dee Dee Barítono - 911 - Los Basureros",
+    "video_url": "https://archive.org/download/laboratorio-de-dexter-latino/S02E46-S02E47-S02E48%20-%20Dee%20Dee%20Bar%C3%ADtono%20-%20911%20-%20Los%20Basureros%20%28Bryan-espa%29.mp4"
+  },
+  {
+    "episode": "S02E49-S02E50",
+    "title": "Las Galletas De La Mala Fortuna - El Rey Del Panqué",
+    "video_url": "https://archive.org/download/laboratorio-de-dexter-latino/S02E49-S02E50%20-%20Las%20Galletas%20De%20La%20Mala%20Fortuna%20-%20El%20Rey%20Del%20Panqu%C3%A9%20%28Bryan-espa%29.mp4"
+  },
+  {
+    "episode": "S02E51-S02E52-S02E53",
+    "title": "El Día De La Foto  El Estirón - El Castigo De Dexter",
+    "video_url": "https://archive.org/download/laboratorio-de-dexter-latino/S02E51-S02E52-S02E53%20-%20El%20D%C3%ADa%20De%20La%20Foto%20%20El%20Estir%C3%B3n%20-%20El%20Castigo%20De%20Dexter%20%28Bryan-espa%29.mp4"
+  },
+  {
+    "episode": "S02E54-S02E55-S02E56",
+    "title": "No Seas Un Bebé - Pieltra - Niñas Contra El Crimen",
+    "video_url": "https://archive.org/download/laboratorio-de-dexter-latino/S02E54-S02E55-S02E56%20-%20No%20Seas%20Un%20Beb%C3%A9%20-%20Pieltra%20-%20Ni%C3%B1as%20Contra%20El%20Crimen%20%28Bryan-espa%29.mp4"
+  },
+  {
+    "episode": "S02E57-S02E58-S02E59",
+    "title": "El Espíritu Deportivo - Koosalagoopagoop - El Proyecto De Dee Dee",
+    "video_url": "https://archive.org/download/laboratorio-de-dexter-latino/S02E57-S02E58-S02E59%20-%20El%20Esp%C3%ADritu%20Deportivo%20-%20Koosalagoopagoop%20-%20El%20Proyecto%20De%20Dee%20Dee%20%28Bryan-espa%29.mp4"
+  }
+ ]
+},
+   
  {
   "title": "Destino de Amor - Destiny of Love",
   "originalTitle": "错嫁世子妃 (Cuo Jia Shizi Fei)",
