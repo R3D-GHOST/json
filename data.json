@@ -1,5 +1,12 @@
 [
   {
+  "title": "El Camino: Una película de Breaking Bad",
+  "description": "Secuela cinematográfica de la serie Breaking Bad — una historia que continúa tras los hechos de la serie.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTitREmnbbym__Mgn6FtODa5NnNpdsk23HOevQ5FSKO7Q&s=10",
+  "video_url": "https://archive.org/download/el-camino-una-pelicula-de-breaking-bad_202507/El%20Camino%20-%20Una%20pel%C3%ADcula%20de%20Breaking%20Bad.mp4",
+  "genre": ["Drama", "Crimen", "Thriller"]
+  },
+  {
   "title": "Karate Kid: Legends",
   "description": "Película de artes marciales — Karate Kid (edición Legends).",
   "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmxcKDsIjsqSbEOvLVmGrcraaOTsgc3UZJacIl2EkEWA&s=10",
