@@ -1,5 +1,25 @@
 [
-
+{
+  "title": "Culpa Mía",
+  "description": "Primera película de la saga Culpa Mía.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc7aJ5Obh6N4l4mUUv6IN4GtxppGEAp51BuWXIiMwB-Q&s=10",
+  "video_url": "https://archive.org/download/culpa-mia_/Culpa%20mi%CC%81a.mp4",
+  "genre": ["Romance", "Drama"]
+},
+{
+  "title": "Culpa Tuya",
+  "description": "Segunda película de la saga Culpa Mía.",
+  "coverImage": "https://m.media-amazon.com/images/S/pv-target-images/96fbfd94714db0509cac95539985be651c4487472177e8075996accf9e790835._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/m-r/Prime/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kvf21cb47db8d34aa971cd86f57a65cf8d_.jpg",
+  "video_url": "https://archive.org/download/culpa-tuya/Culpa%20tuya.mp4",
+  "genre": ["Romance", "Drama"]
+},
+{
+  "title": "Culpa Nuestra",
+  "description": "Tercera película de la saga Culpa Mía.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS9j3D2PFnmZ_cBVWPYxVZdMG4tATPhihaKl4tBpjbbw&s=10",
+  "video_url": "https://archive.org/download/culpa.-nuestra.-2025.1080-p-dual-lat/culpa_nuestra_2025.mp4",
+  "genre": ["Romance", "Drama"]
+},
   {
   "title": "Assassination Classroom",
   "description": "Una clase de estudiantes de secundaria recibe la misión de asesinar a su profesor, un ser poderoso con habilidades extraordinarias, antes de que destruya la Tierra. Mientras tanto, los alumnos aprenden lecciones de vida y superan desafíos personales.",
@@ -30,6 +50,39 @@
     {"episode":22, "title":"Hora de Nagisa", "video_url":"https://archive.org/download/Ass3sinat1onCl4ssr00mT1/22.Hora%20de%20Nagisa.mp4", "img":"https://m.media-amazon.com/images/S/pv-target-images/53580c49b46ea403d35746f9a5033696d3e80ce2f23dea76adcaec485d631948.jpg"}
   ]
 },
+  {
+  "title": "Assassination Classroom - Temporada 2",
+  "description": "La clase continúa intentando asesinar a su profesor mientras enfrentan nuevos desafíos y aprenden valiosas lecciones de vida.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHoURxfdWjA30uZqCq7XG2fM01JgDuIRhetGekKghEgGGBVh7uUL7WJ-E&s=10",
+  "genre": ["Animación", "Acción", "Comedia"],
+  "episodes": [
+    {"episode":23, "title":"Hora del festival de verano", "video_url":"https://archive.org/download/Ass3s1n4ti0nCl4ssr00mT2/23.Hora%20del%20festival%20de%20verano.mp4"},
+    {"episode":24, "title":"Hora de Kaede", "video_url":"https://archive.org/download/Ass3s1n4ti0nCl4ssr00mT2/24.Hora%20de%20Kaede.mp4"},
+    {"episode":25, "title":"Hora de Itona Horibe", "video_url":"https://archive.org/download/Ass3s1n4ti0nCl4ssr00mT2/25.Hora%20de%20Itona%20Horibe.mp4"},
+    {"episode":26, "title":"Hora de hilar", "video_url":"https://archive.org/download/Ass3s1n4ti0nCl4ssr00mT2/26.Hora%20de%20hilar.mp4"},
+    {"episode":27, "title":"Hora de líder", "video_url":"https://archive.org/download/Ass3s1n4ti0nCl4ssr00mT2/27.Hora%20de%20lider.mp4"},
+    {"episode":28, "title":"Hora de before after", "video_url":"https://archive.org/download/Ass3s1n4ti0nCl4ssr00mT2/28.Hora%20de%20before%20after.mp4"},
+    {"episode":29, "title":"Hora de dios de la muerte pt.1", "video_url":"https://archive.org/download/Ass3s1n4ti0nCl4ssr00mT2/29.Hora%20de%20dios%20de%20la%20muerte%20pt.1.mp4"},
+    {"episode":30, "title":"Hora de dios de la muerte pt.2", "video_url":"https://archive.org/download/Ass3s1n4ti0nCl4ssr00mT2/30.Hora%20de%20dios%20de%20la%20muerte%20pt.2.mp4"},
+    {"episode":31, "title":"Hora de segunda ronda", "video_url":"https://archive.org/download/Ass3s1n4ti0nCl4ssr00mT2/31.Hora%20de%20segunda%20ronda.mp4"},
+    {"episode":32, "title":"Hora de festival escolar", "video_url":"https://archive.org/download/Ass3s1n4ti0nCl4ssr00mT2/32.Hora%20de%20festival%20escolar.mp4"},
+    {"episode":33, "title":"Hora de finales (segunda hora)", "video_url":"https://archive.org/download/Ass3s1n4ti0nCl4ssr00mT2/33.Hora%20de%20finales%20%28segunda%20hora%29.mp4"},
+    {"episode":34, "title":"Hora de pensar fuera de la caja", "video_url":"https://archive.org/download/Ass3s1n4ti0nCl4ssr00mT2/34.Hora%20de%20pensar%20fuera%20de%20la%20caja.mp4"},
+    {"episode":35, "title":"Hora de permitir vivir", "video_url":"https://archive.org/download/Ass3s1n4ti0nCl4ssr00mT2/35.Hora%20de%20permitir%20vivir.mp4"},
+    {"episode":36, "title":"Hora de identidad secreta", "video_url":"https://archive.org/download/Ass3s1n4ti0nCl4ssr00mT2/36.Hora%20de%20identidad%20secreta.mp4"},
+    {"episode":37, "title":"Hora de confesión", "video_url":"https://archive.org/download/Ass3s1n4ti0nCl4ssr00mT2/37.Hora%20de%20confesi%C3%B3n.mp4"},
+    {"episode":38, "title":"Hora de pasado", "video_url":"https://archive.org/download/Ass3s1n4ti0nCl4ssr00mT2/38.Hora%20de%20pasado.mp4"},
+    {"episode":39, "title":"Hora de discordia", "video_url":"https://archive.org/download/Ass3s1n4ti0nCl4ssr00mT2/39.Hora%20de%20discordia.mp4"},
+    {"episode":40, "title":"Hora de resultado", "video_url":"https://archive.org/download/Ass3s1n4ti0nCl4ssr00mT2/40.Hora%20de%20resultado.ia.mp4"},
+    {"episode":41, "title":"Hora de espacio exterior", "video_url":"https://archive.org/download/Ass3s1n4ti0nCl4ssr00mT2/41.Hora%20de%20espacio%20exterior.ia.mp4"},
+    {"episode":42, "title":"Hora de San Valentín", "video_url":"https://archive.org/download/Ass3s1n4ti0nCl4ssr00mT2/42.Hora%20de%20san%20Valent%C3%ADn.mp4"},
+    {"episode":43, "title":"Hora de confianza", "video_url":"https://archive.org/download/Ass3s1n4ti0nCl4ssr00mT2/43.Hora%20de%20confianza.mp4"},
+    {"episode":44, "title":"Hora de feliz cumpleaños", "video_url":"https://archive.org/download/Ass3s1n4ti0nCl4ssr00mT2/44.Hora%20de%20feliz%20cumplea%C3%B1os.mp4"},
+    {"episode":45, "title":"Hora de jefe final", "video_url":"https://archive.org/download/Ass3s1n4ti0nCl4ssr00mT2/45.Hora%20de%20jefe%20final.mp4"},
+    {"episode":46, "title":"Hora de graduación", "video_url":"https://archive.org/download/Ass3s1n4ti0nCl4ssr00mT2/46.Hora%20de%20graduaci%C3%B3n.mp4"},
+    {"episode":47, "title":"Hora de futuro", "video_url":"https://archive.org/download/Ass3s1n4ti0nCl4ssr00mT2/47.Hora%20de%20futuro.mp4"}
+  ]
+  },
   {
   "title": "Hazbin Hotel Temporada 2",
   "description": "Charlie Morningstar, la princesa del Infierno, sueña con rehabilitar demonios para reducir la sobrepoblación infernal. Para demostrar que la redención es posible, crea el Hotel Hazbin, un lugar donde los pecadores puedan mejorar y, algún día, alcanzar el Cielo. Con la ayuda de Vaggie, Angel Dust y el enigmático Alastor, Charlie intenta cambiar el Infierno mientras enfrenta caos, desconfianza y conspiraciones.",
