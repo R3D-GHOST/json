@@ -60,7 +60,170 @@
     }
   ]
 },
-
+{
+  "title": "Código Lyoko",
+  "description": "Cuatro adolescentes descubren un mundo virtual llamado Lyoko y luchan contra un superordenador llamado X.A.N.A. que amenaza el mundo real. Para detenerlo, deben entrar en Lyoko y combatir sus ejércitos digitales mientras equilibran su vida escolar y sus secretos.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7-bwdMedornMJIBo_jgGKTIhw4LuIHMRvcGVD4S5jZg&s=10",
+  "genre": ["Animación", "Ciencia ficción", "Aventura", "Drama", "Acción"],
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "Episodio 1",
+      "video_url": "https://archive.org/download/codigo-lyoko-12/C%C3%B3digo%20Lyoko%2001.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7-bwdMedornMJIBo_jgGKTIhw4LuIHMRvcGVD4S5jZg&s=10"
+    },
+    {
+      "episode": 2,
+      "title": "Episodio 2",
+      "video_url": "https://archive.org/download/codigo-lyoko-12/C%C3%B3digo%20Lyoko%2002.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7-bwdMedornMJIBo_jgGKTIhw4LuIHMRvcGVD4S5jZg&s=10"
+    },
+    {
+      "episode": 3,
+      "title": "Episodio 3",
+      "video_url": "https://archive.org/download/codigo-lyoko-12/C%C3%B3digo%20Lyoko%2003.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7-bwdMedornMJIBo_jgGKTIhw4LuIHMRvcGVD4S5jZg&s=10"
+    },
+    {
+      "episode": 4,
+      "title": "Episodio 4",
+      "video_url": "https://archive.org/download/codigo-lyoko-12/C%C3%B3digo%20Lyoko%2004.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7-bwdMedornMJIBo_jgGKTIhw4LuIHMRvcGVD4S5jZg&s=10"
+    },
+    {
+      "episode": 5,
+      "title": "Episodio 5",
+      "video_url": "https://archive.org/download/codigo-lyoko-12/C%C3%B3digo%20Lyoko%2005.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7-bwdMedornMJIBo_jgGKTIhw4LuIHMRvcGVD4S5jZg&s=10"
+    },
+    {
+      "episode": 6,
+      "title": "Episodio 6",
+      "video_url": "https://archive.org/download/codigo-lyoko-12/C%C3%B3digo%20Lyoko%2006.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7-bwdMedornMJIBo_jgGKTIhw4LuIHMRvcGVD4S5jZg&s=10"
+    },
+    {
+      "episode": 7,
+      "title": "Episodio 7",
+      "video_url": "https://archive.org/download/codigo-lyoko-12/C%C3%B3digo%20Lyoko%2007.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7-bwdMedornMJIBo_jgGKTIhw4LuIHMRvcGVD4S5jZg&s=10"
+    },
+    {
+      "episode": 8,
+      "title": "Episodio 8",
+      "video_url": "https://archive.org/download/codigo-lyoko-12/C%C3%B3digo%20Lyoko%2008.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7-bwdMedornMJIBo_jgGKTIhw4LuIHMRvcGVD4S5jZg&s=10"
+    },
+    {
+      "episode": 9,
+      "title": "Episodio 9",
+      "video_url": "https://archive.org/download/codigo-lyoko-12/C%C3%B3digo%20Lyoko%2009.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7-bwdMedornMJIBo_jgGKTIhw4LuIHMRvcGVD4S5jZg&s=10"
+    },
+    {
+      "episode": 10,
+      "title": "Episodio 10",
+      "video_url": "https://archive.org/download/codigo-lyoko-12/C%C3%B3digo%20Lyoko%2010.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7-bwdMedornMJIBo_jgGKTIhw4LuIHMRvcGVD4S5jZg&s=10"
+    },
+    {
+      "episode": 11,
+      "title": "Episodio 11",
+      "video_url": "https://archive.org/download/codigo-lyoko-12/C%C3%B3digo%20Lyoko%2011.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7-bwdMedornMJIBo_jgGKTIhw4LuIHMRvcGVD4S5jZg&s=10"
+    },
+    {
+      "episode": 12,
+      "title": "Episodio 12",
+      "video_url": "https://archive.org/download/codigo-lyoko-12/C%C3%B3digo%20Lyoko%2012.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7-bwdMedornMJIBo_jgGKTIhw4LuIHMRvcGVD4S5jZg&s=10"
+    },
+    {
+      "episode": 13,
+      "title": "Episodio 13",
+      "video_url": "https://archive.org/download/codigo-lyoko-12/C%C3%B3digo%20Lyoko%2013.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7-bwdMedornMJIBo_jgGKTIhw4LuIHMRvcGVD4S5jZg&s=10"
+    },
+    {
+      "episode": 14,
+      "title": "Episodio 14",
+      "video_url": "https://archive.org/download/codigo-lyoko-12/C%C3%B3digo%20Lyoko%2014.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7-bwdMedornMJIBo_jgGKTIhw4LuIHMRvcGVD4S5jZg&s=10"
+    },
+    {
+      "episode": 15,
+      "title": "Episodio 15",
+      "video_url": "https://archive.org/download/codigo-lyoko-12/C%C3%B3digo%20Lyoko%2015.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7-bwdMedornMJIBo_jgGKTIhw4LuIHMRvcGVD4S5jZg&s=10"
+    },
+    {
+      "episode": 16,
+      "title": "Episodio 16",
+      "video_url": "https://archive.org/download/codigo-lyoko-12/C%C3%B3digo%20Lyoko%2016.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7-bwdMedornMJIBo_jgGKTIhw4LuIHMRvcGVD4S5jZg&s=10"
+    },
+    {
+      "episode": 17,
+      "title": "Episodio 17",
+      "video_url": "https://archive.org/download/codigo-lyoko-12/C%C3%B3digo%20Lyoko%2017.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7-bwdMedornMJIBo_jgGKTIhw4LuIHMRvcGVD4S5jZg&s=10"
+    },
+    {
+      "episode": 18,
+      "title": "Episodio 18",
+      "video_url": "https://archive.org/download/codigo-lyoko-12/C%C3%B3digo%20Lyoko%2018.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7-bwdMedornMJIBo_jgGKTIhw4LuIHMRvcGVD4S5jZg&s=10"
+    },
+    {
+      "episode": 19,
+      "title": "Episodio 19",
+      "video_url": "https://archive.org/download/codigo-lyoko-12/C%C3%B3digo%20Lyoko%2019.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7-bwdMedornMJIBo_jgGKTIhw4LuIHMRvcGVD4S5jZg&s=10"
+    },
+    {
+      "episode": 20,
+      "title": "Episodio 20",
+      "video_url": "https://archive.org/download/codigo-lyoko-12/C%C3%B3digo%20Lyoko%2020.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7-bwdMedornMJIBo_jgGKTIhw4LuIHMRvcGVD4S5jZg&s=10"
+    },
+    {
+      "episode": 21,
+      "title": "Episodio 21",
+      "video_url": "https://archive.org/download/codigo-lyoko-12/C%C3%B3digo%20Lyoko%2021.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7-bwdMedornMJIBo_jgGKTIhw4LuIHMRvcGVD4S5jZg&s=10"
+    },
+    {
+      "episode": 22,
+      "title": "Episodio 22",
+      "video_url": "https://archive.org/download/codigo-lyoko-12/C%C3%B3digo%20Lyoko%2022.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7-bwdMedornMJIBo_jgGKTIhw4LuIHMRvcGVD4S5jZg&s=10"
+    },
+    {
+      "episode": 23,
+      "title": "Episodio 23",
+      "video_url": "https://archive.org/download/codigo-lyoko-12/C%C3%B3digo%20Lyoko%2023.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7-bwdMedornMJIBo_jgGKTIhw4LuIHMRvcGVD4S5jZg&s=10"
+    },
+    {
+      "episode": 24,
+      "title": "Episodio 24",
+      "video_url": "https://archive.org/download/codigo-lyoko-12/C%C3%B3digo%20Lyoko%2024.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7-bwdMedornMJIBo_jgGKTIhw4LuIHMRvcGVD4S5jZg&s=10"
+    },
+    {
+      "episode": 25,
+      "title": "Episodio 25",
+      "video_url": "https://archive.org/download/codigo-lyoko-12/C%C3%B3digo%20Lyoko%2025.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7-bwdMedornMJIBo_jgGKTIhw4LuIHMRvcGVD4S5jZg&s=10"
+    },
+    {
+      "episode": 26,
+      "title": "Episodio 26",
+      "video_url": "https://archive.org/download/codigo-lyoko-12/C%C3%B3digo%20Lyoko%2026.mp4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7-bwdMedornMJIBo_jgGKTIhw4LuIHMRvcGVD4S5jZg&s=10"
+    }
+  ]
+},
 {
   "title": "Hazbin Hotel",
   "description": "Charlie Morningstar, la princesa del Infierno, sueña con rehabilitar demonios para reducir la sobrepoblación infernal. Para demostrar que la redención es posible, crea el Hotel Hazbin, un lugar donde los pecadores puedan mejorar y, algún día, alcanzar el Cielo. Con la ayuda de Vaggie, Angel Dust y el enigmático Alastor, Charlie intenta cambiar el Infierno mientras enfrenta caos, desconfianza y conspiraciones.",
