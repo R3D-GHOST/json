@@ -1,6 +1,251 @@
+
 [
-     
-     
+  {
+    "title": "El Sorprendente Hombre Araña 2 La Amenaza De Electro",
+    "year": "2014",
+    "coverImage": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/320a1bb4-15a5-4a99-b8f5-4b724072bd3b/compose?aspectRatio=1.78&format=webp&width=1200",
+    "video_url": "https://archive.org/download/peliculas-de-marvel-comics/El%20Sorprendente%20Hombre%20Ara%C3%B1a%202%20La%20Amenaza%20De%20Electro.mp4"
+  },
+  {
+    "title": "Kraven El Cazador",
+    "year": "2023",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvjhPWYdpZv3dedHUuKMBiGAI0WH8UfnbDMIPV4_l1tg&s=10",
+    "video_url": "https://archive.org/download/peliculas-de-marvel-comics/Kraven%20El%20Cazador.mp4"
+  },
+  {
+    "title": "Madame Web",
+    "year": "2024",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_5bN973iG9lqMr1OAa6V5NZhSn_DEnHJ0WX-2c5-oDw&s=10",
+    "video_url": "https://archive.org/download/peliculas-de-marvel-comics/Madame%20Web.mp4"
+  },
+  {
+    "title": "Madame Web (2)",
+    "year": "2024",
+    "coverImage": "https://img2.rtve.es/v/16583348/vertical/?h=400",
+    "video_url": "https://archive.org/download/peliculas-de-marvel-comics/Madame%20Web.mp4"
+  },
+  {
+    "title": "Hulk",
+    "year": "2003",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwdAmk6C7GwuihZWaIfYRYdniU9XiN7PQmlUUv0IwnUQ&s=10",
+    "video_url": "https://archive.org/download/peliculas-de-marvel-comics/UMC%202003%20Hulk.mp4"
+  },
+  {
+    "title": "El Increíble Hulk",
+    "year": "2008",
+    "coverImage": "https://static.wikia.nocookie.net/doblaje/images/b/bb/Hulkposter.jpg/revision/latest?cb=20171130201932&path-prefix=es",
+    "video_url": "https://archive.org/download/peliculas-de-marvel-comics/UMC%202008%201%20El%20Incre%C3%ADble%20Hulk.mp4"
+  },
+  {
+    "title": "Iron Man El Hombre De Hierro",
+    "year": "2008",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMQ2se3igWuAGVnA8d-czpLm4JAI8W0yVB00vHuS66kg&s=10",
+    "video_url": "https://archive.org/download/peliculas-de-marvel-comics/UMC%202008%202%20Iron%20Man%20El%20Hombre%20De%20Hierro.mp4"
+  },
+  {
+    "title": "Iron Man 2",
+    "year": "2010",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzcV9kxbB7nCapZ6-HHUetOmAhncZk3Wcg7OkkaM_3Yw&s=10",
+    "video_url": "https://archive.org/download/peliculas-de-marvel-comics/UMC%202010%20Iron%20Man%202.mp4"
+  },
+  {
+    "title": "Thor",
+    "year": "2011",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvyrHpf1LSKyn-sf65odyGpEutnDPQUdKBFmpuqRjqh0fjAK3kGWuSYp0&s=10",
+    "video_url": "https://archive.org/download/peliculas-de-marvel-comics/UMC%202011%201%20Thor.mp4"
+  },
+  {
+    "title": "Capitán América El Primer Vengador",
+    "year": "2011",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqXKE5Of8ROitpoQuMCg8YT-zh82V8mglzSDrNrXZ0Bw&s=10",
+    "video_url": "https://archive.org/download/peliculas-de-marvel-comics/UMC%202011%202%20Capit%C3%A1n%20Am%C3%A9rica%20El%20Primer%20Vengador.mp4"
+  },
+  {
+    "title": "Los Vengadores",
+    "year": "2012",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStId1dNLqVZE0xi6gE59YNtYwNWzl8zABQ02OmKwygRQ&s=10",
+    "video_url": "https://archive.org/download/peliculas-de-marvel-comics/UMC%202012%20Los%20Vengadores.mp4"
+  },
+  {
+    "title": "Iron Man 3",
+    "year": "2013",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYYLa3jw3uROS82ZSVoWcHvNog1odfSajChD9xHjmliw&s=10",
+    "video_url": "https://archive.org/download/peliculas-de-marvel-comics/UMC%202013%201%20Iron%20Man%203.mp4"
+  },
+  {
+    "title": "Thor Un Mundo Oscuro",
+    "year": "2013",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3yL-ZfFtHVtQ8SHcKHc8jpi_glXwiEWHJnBCU90nacg&s=10",
+    "video_url": "https://archive.org/download/peliculas-de-marvel-comics/UMC%202013%202%20Thor%20Un%20Mundo%20Oscuro.mp4"
+  },
+  {
+    "title": "Capitán América Y El Soldado Del Invierno",
+    "year": "2014",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGOrRGd9ASr7sgbwKjcVSAfu6DUS5EFt1NPdNBNsJTNA&s=10",
+    "video_url": "https://archive.org/download/peliculas-de-marvel-comics/UMC%202014%201%20Capit%C3%A1n%20Am%C3%A9rica%20Y%20El%20Soldado%20Del%20Invierno.mp4"
+  },
+  {
+    "title": "Guardianes De La Galaxia",
+    "year": "2014",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQOWOpUamJx7qFwTbMVo_3jFpa3-HDsf-vc0_jBD0Cig&s=10",
+    "video_url": "https://archive.org/download/peliculas-de-marvel-comics/UMC%202014%202%20Guardianes%20De%20La%20Galaxia.mp4"
+  },
+  {
+    "title": "Los Vengadores La Era de Ultrón",
+    "year": "2015",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGDAxNQX96yBE9a5S_LKrrDiHGmc9FdevCKi3Jp3o3eA&s=10",
+    "video_url": "https://archive.org/download/peliculas-de-marvel-comics/UMC%202015%201%20Los%20Vengadores%20La%20Era%20de%20Ultr%C3%B3n.mp4"
+  },
+  {
+    "title": "Ant-Man El Hombre Hormiga",
+    "year": "2015",
+    "coverImage": "https://play-lh.googleusercontent.com/4Ol5d39t1STEtOLhGBil6U6qf2TFPB9K1CAjpwdmRq2PrtYft5kvn4qs_0hxa4UJFyd6",
+    "video_url": "https://archive.org/download/peliculas-de-marvel-comics/UMC%202015%202%20Ant-Man%20El%20Hombre%20Hormiga.mp4"
+  },
+  {
+    "title": "Capitán América Civil War",
+    "year": "2016",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiVNvtaOhvuUSPWFOxAYjigtYdqzoyvz0mQR-AzR4Z9Q&s=10",
+    "video_url": "https://archive.org/download/peliculas-de-marvel-comics/UMC%202016%201%20Capit%C3%A1n%20Am%C3%A9rica%20Civil%20War.mp4"
+  },
+  {
+    "title": "Doctor Strange Hechicero Supremo",
+    "year": "2016",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz3YqF1ez-jZpbYGdwwHArCidV5lnWGYCk5IbH1L9bbg&s=10",
+    "video_url": "https://archive.org/download/peliculas-de-marvel-comics/UMC%202016%202%20Doctor%20Strange%20Hechicero%20Supremo.mp4"
+  },
+  {
+    "title": "Guardianes De La Galaxia Vol 2",
+    "year": "2017",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUFHuXzeTiwmSQa4KtXC1c7JFCtD1y9K7extMCu5EfWw&s=10",
+    "video_url": "https://archive.org/download/peliculas-de-marvel-comics/UMC%202017%201%20Guardianes%20De%20La%20Galaxia%20Vol%202.mp4"
+  },
+  {
+    "title": "Spider-Man De Regreso A Casa",
+    "year": "2017",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSokkNK-co9DSHSpC_dhLYyW1QLwMBsJRXlsnKkXoSZzA&s=10",
+    "video_url": "https://archive.org/download/peliculas-de-marvel-comics/UMC%202017%202%20Spider-Man%20De%20Regreso%20A%20Casa.mp4"
+  },
+  {
+    "title": "Thor Ragnarok",
+    "year": "2017",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl1zjAHKPwR39MEqCc-NrJUBGGeEl-SsNKuAAWqImQIw&s=10",
+    "video_url": "https://archive.org/download/peliculas-de-marvel-comics/UMC%202017%203%20Thor%20Ragnarok.mp4"
+  },
+  {
+    "title": "Pantera Negra",
+    "year": "2018",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2Y3zUjMvOiXjxlGqad5WpUxgvs5aeShl-OtInClzHUQ&s=10",
+    "video_url": "https://archive.org/download/peliculas-de-marvel-comics/UMC%202018%201%20Pantera%20Negra.mp4"
+  },
+  {
+    "title": "Avengers Infinity War",
+    "year": "2018",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhGycWwAVsm0GVANCrTTGnPFS6B5trP7yE196Gz-sXPQ&s=10",
+    "video_url": "https://archive.org/download/peliculas-de-marvel-comics/UMC%202018%202%20Avengers%20Infinity%20War.mp4"
+  },
+  {
+    "title": "Ant-Man Y La Avispa",
+    "year": "2018",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRe7ghINygtlMD0lhUDmxBuLlgFYWvDgXRhjIRQx8TlQ&s=10",
+    "video_url": "https://archive.org/download/peliculas-de-marvel-comics/UMC%202018%203%20Ant-Man%20Y%20La%20Avispa.mp4"
+  },
+  {
+    "title": "Capitana Marvel",
+    "year": "2019",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-cleb9gsLfiDUvdtQLNm23bJ4p_ttAGXz6SY7a8s1zw&s=10",
+    "video_url": "https://archive.org/download/peliculas-de-marvel-comics/UMC%202019%201%20Capitana%20Marvel.mp4"
+  },
+  {
+    "title": "Avengers Endgame",
+    "year": "2019",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSftli7BHyKnBCrhw0D-D69bUmjv3kqJ2Q1facaFOyspQ&s=10",
+    "video_url": "https://archive.org/download/peliculas-de-marvel-comics/UMC%202019%202%20Avengers%20Endgame.mp4"
+  },
+  {
+    "title": "Spider Man Lejos De Casa",
+    "year": "2019",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHpLATMF0ct4uvuLU6FS6qCv1TQ8P-QfddaVIZ8LZepg&s=10",
+    "video_url": "https://archive.org/download/peliculas-de-marvel-comics/UMC%202019%203%20Spider%20Man%20Lejos%20De%20Casa.mp4"
+  },
+  {
+    "title": "Viuda Negra",
+    "year": "2021",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKkbIC_3eijOZJRp4yJw0rNrSNv8QPyeG-cJfJFqmKiA&s=10",
+    "video_url": "https://archive.org/download/peliculas-de-marvel-comics/UMC%202021%201%20Viuda%20Negra.mp4"
+  },
+  {
+    "title": "Shang-Chi y la leyenda de los Diez Anillos",
+    "year": "2021",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZfdLxuF3EcPU7U4ZtVKerC0asvnmK8zX7JKuX-9uV-g&s",
+    "video_url": "https://archive.org/download/peliculas-de-marvel-comics/UMC%202021%202%20Shang-Chi%20y%20la%20leyenda%20de%20los%20Diez%20Anillos.mp4"
+  },
+  {
+    "title": "Eternals",
+    "year": "2021",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpWILX0pwdclD610SEq7EvPcokprofwh95g2hq6t1uBvOYcP7q-TlXVxY&s=10",
+    "video_url": "https://archive.org/download/peliculas-de-marvel-comics/UMC%202021%203%20Eternals.mp4"
+  },
+  {
+    "title": "Spider-Man Sin Camino A Casa",
+    "year": "2021",
+    "coverImage": "https://static.wikia.nocookie.net/doblaje/images/6/6f/SMNWH_Poster.jpg/revision/latest?cb=20221016213751&path-prefix=es",
+    "video_url": "https://archive.org/download/peliculas-de-marvel-comics/UMC%202021%204%20Spider-Man%20Sin%20Camino%20A%20Casa.mp4"
+  },
+  {
+    "title": "Doctor Strange en el multiverso de la locura",
+    "year": "2022",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaFfbj05MEez22n-R4ngOCsTKFtyZ543VZZ_wLp8Xk6w&s=10",
+    "video_url": "https://archive.org/download/peliculas-de-marvel-comics/UMC%202022%201%20Doctor%20Strange%20en%20el%20multiverso%20de%20la%20locura.mp4"
+  },
+  {
+    "title": "Thor Amor y Trueno",
+    "year": "2022",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfKbaGgIEJEUg9p7XnMdi5G_VkFxisIiLyM64vD9EoEg&s=10",
+    "video_url": "https://archive.org/download/peliculas-de-marvel-comics/UMC%202022%202%20Thor%20Amor%20y%20Trueno.mp4"
+  },
+  {
+    "title": "Pantera Negra Wakanda Por Siempre",
+    "year": "2022",
+    "coverImage": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/1/15/Black_Panther_Wakanda_Forever_-_P%C3%B3ster_3.png/revision/latest?cb=20221003133703&path-prefix=es",
+    "video_url": "https://archive.org/download/peliculas-de-marvel-comics/UMC%202022%203%20Pantera%20Negra%20Wakanda%20Por%20Siempre.mp4"
+  },
+  {
+    "title": "Ant-Man Y La Avispa Quantumania",
+    "year": "2023",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSd1LfMFlsZkf2ahe4ZydNyLqNMoJFH30ijEbBtIPp_Og&s=10",
+    "video_url": "https://archive.org/download/peliculas-de-marvel-comics/UMC%202023%201%20Ant-Man%20Y%20La%20Avispa%20Quantumania.mp4"
+  },
+  {
+    "title": "Guardianes De La Galaxia Vol.3",
+    "year": "2023",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbHEoZYPz2cuAKBNOm1hioTo_zdm-S_PP485HPVVDNSg&s=10",
+    "video_url": "https://archive.org/download/peliculas-de-marvel-comics/UMC%202023%202%20Guardianes%20De%20La%20Galaxia%20Vol.3.mp4"
+  },
+  {
+    "title": "The Marvels",
+    "year": "2023",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKikjKkSdaBPxvbGhBE6BAOu8DEqY8P8YgipoENyYcRQ&s=10",
+    "video_url": "https://archive.org/download/peliculas-de-marvel-comics/UMC%202023%203%20The%20Marvels.mp4"
+  },
+  {
+    "title": "Deadpool & Wolverine",
+    "year": "2024",
+    "coverImage": "https://static.wikia.nocookie.net/xmen9260/images/4/4d/Peli_Deadpool_%26_Wolverine_-_POSTER.jpg/revision/latest?cb=20240624001048&path-prefix=es",
+    "video_url": "https://archive.org/download/peliculas-de-marvel-comics/UMC%202024%20Deadpool%20%26%20Wolverine.mp4"
+  },
+  {
+    "title": "Capitan America Un Nuevo Mundo",
+    "year": "2025",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROSQ3Gj7rq190J4zJ00xSERWSckN9XBNr-WOLm51A5iQ&s=10",
+    "video_url": "https://archive.org/download/peliculas-de-marvel-comics/UMC%202025%201%20Capitan%20America%20Un%20Nuevo%20Mundo.mp4"
+  },
+  {
+    "title": "Thunderbolts",
+    "year": "2025",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmqOazXaCeDlu7D2R5IBsNkPVgoda0Jn3S6RQef50siw&s=10",
+    "video_url": "https://archive.org/download/peliculas-de-marvel-comics/UMC%202025%202%20Thunderbolts.mp4"
+  },     
      {
   "title": "Matilda",
   "description": "Matilda, una niña extraordinariamente inteligente con habilidades especiales, enfrenta las dificultades de su familia y una directora cruel mientras descubre su verdadero potencial.",
