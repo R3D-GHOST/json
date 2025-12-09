@@ -1,5 +1,18 @@
 [
-  
+  {
+  "title": "The Amazing Spiderman",
+  "description": "Peter Parker debe enfrentarse a nuevos desafíos como Spiderman mientras equilibra su vida personal y la amenaza de un nuevo villano.",
+  "genre": ["Acción", "Aventura", "Superhéroes"],
+  "coverImage": "https://play-reactor.com/wp-content/uploads/2011/12/the-amazing-spider-man-banner-image-1.png",
+  "video_url": "https://archive.org/download/the-amazing-spiderman-en-espanol-latino/The%20Amazing%20Spiderman.mp4"
+  },
+  {
+  "title": "Demon Slayer: Kimetsu no Yaiba – Infinity Castle",
+  "description": "Tanjiro y los cazademonios enfrentan su batalla más peligrosa en el castillo infinito, luchando contra poderosos demonios para salvar la humanidad.",
+  "genre": ["Animación", "Acción", "Fantasía", "Aventura"],
+  "coverImage": "https://espadasymas.com/cdn/shop/articles/imagen_2025-09-10_045025380_3ce2c70d-3caf-45ed-b542-13133f3e6244.png?v=1757492035&width=1024",
+  "video_url": "https://archive.org/download/demon-slayer-kimetsu-no-yaiba-infinity-castle-1080p-latino/Demon%20Slayer%20-%20Kimetsu%20no%20Yaiba%20Infinity%20Castle%20%282025%29%20HDTS%201080p%20%28V2%29%20Latino.mp4"
+  },
   {
   "title": "Highschool of the Dead",
   "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOyZwPUY8Zj4W5rD1eIoNjmnVwGJTzbzTCx_5e8_o6FQ&s=10",
