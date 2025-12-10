@@ -1,4 +1,79 @@
 [
+  
+  {
+    "title": "Futurama",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB1Nur8tp1nGLENU-lWIV8Dg1nDQDyEI8-lw&s",
+    "description": "Fry, un repartidor de pizza de 1999, es accidentalmente congelado criogénicamente y se despierta mil años después para encontrar un nuevo hogar, un nuevo trabajo y nuevos amigos en la Nueva York del siglo XXXI.",
+    "genre": ["Animación", "Ciencia Ficción", "Comedia"],
+    "episodes": [
+      {
+        "episode": 1,
+        "title": "Piloto Espacial 3000",
+        "video_url": "https://archive.org/download/futurama-1x-02-la-serie-ha-aterrizado/Futurama_-_1x01_-_Piloto_Espacial_3000.mp4"
+      },
+      {
+        "episode": 2,
+        "title": "La Serie Ha Aterrizado",
+        "video_url": "https://archive.org/download/futurama-1x-02-la-serie-ha-aterrizado/Futurama_-_1x02_-_La_Serie_Ha_Aterrizado.mp4"
+      },
+      {
+        "episode": 3,
+        "title": "Yo Compañero De Piso",
+        "video_url": "https://archive.org/download/futurama-1x-02-la-serie-ha-aterrizado/Futurama_-_1x03_-_Yo_CompaNero_De_Piso.mp4"
+      },
+      {
+        "episode": 4,
+        "title": "Obras De Amor Perdidas En El Espacio",
+        "video_url": "https://archive.org/download/futurama-1x-02-la-serie-ha-aterrizado/Futurama_-_1x04_-_Obras_De_Amor_Perdidas_En_El_Espacio.mp4"
+      },
+      {
+        "episode": 5,
+        "title": "Temores De Un Planeta Robot",
+        "video_url": "https://archive.org/download/futurama-1x-02-la-serie-ha-aterrizado/Futurama_-_1x05_-_Temores_De_Un_Planeta_Robot.mp4"
+      },
+      {
+        "episode": 6,
+        "title": "Unos Valiosos Pececitos",
+        "video_url": "https://archive.org/download/futurama-1x-02-la-serie-ha-aterrizado/Futurama_-_1x06_-_Unos_Valiosos_Pececitos.mp4"
+      },
+      {
+        "episode": 7,
+        "title": "Mis Tres Soles",
+        "video_url": "https://archive.org/download/futurama-1x-02-la-serie-ha-aterrizado/Futurama_-_1x07_-_Mis_Tres_Soles.mp4"
+      },
+      {
+        "episode": 8,
+        "title": "Un Enorme Montón De Basura",
+        "video_url": "https://archive.org/download/futurama-1x-02-la-serie-ha-aterrizado/Futurama_-_1x08_-_Un_Enorme_Monton_De_Basura.mp4"
+      },
+      {
+        "episode": 9,
+        "title": "El Infierno Está En Los Demás Robots",
+        "video_url": "https://archive.org/download/futurama-1x-02-la-serie-ha-aterrizado/Futurama_-_1x09_-_El_Infierno_Esta_En_Los_Demas_Robots.mp4"
+      },
+      {
+        "episode": 10,
+        "title": "Un Vuelo Inolvidable",
+        "video_url": "https://archive.org/download/futurama-1x-02-la-serie-ha-aterrizado/Futurama_-_1x10_-_Un_Vuelo_Inolvidable.mp4"
+      },
+      {
+        "episode": 11,
+        "title": "La Universidad De Marte",
+        "video_url": "https://archive.org/download/futurama-1x-02-la-serie-ha-aterrizado/Futurama_-_1x11_-_La_Universidad_De_Marte.mp4"
+      },
+      {
+        "episode": 12,
+        "title": "Cuando Los Extraterrestres Atacan",
+        "video_url": "https://archive.org/download/futurama-1x-02-la-serie-ha-aterrizado/Futurama_-_1x12_-_Cuando_Los_Extraterrestres_Atacan.mp4"
+      },
+      {
+        "episode": 13,
+        "title": "Fry Y La Fábrica De Slurm",
+        "video_url": "https://archive.org/download/futurama-1x-02-la-serie-ha-aterrizado/Futurama_-_1x13_-_Fry_Y_La_Fabrica_De_Slurm.mp4"
+      }
+    ]
+  },
+  
   {
   "title": "Dino Rey",
   "coverImage": "https://m.media-amazon.com/images/M/MV5BYzk3ZmY1YjYtMjEyZi00NDM4LTk2MWQtYTEwNmI1NGU4NDE1XkEyXkFqcGc@._V1_.jpg",
