@@ -1,6 +1,42 @@
 [
 
   {
+    "title": "Piratas del Caribe: La Maldición de la Perla Negra (Piratas del Caribe 1)",
+    "description": "El herrero Will Turner se une al excéntrico Capitán Jack Sparrow para rescatar a la hija del gobernador, Elizabeth Swann, de su antigua tripulación pirata no muerta.",
+    "year": 2003,
+    "coverImage": "https://play-lh.googleusercontent.com/qP8uUbYIIVOgubRMIMUalej5DfPHz9OfjIGfv4YWHvFPThJazEGPip8KoRVNkaZj77Xtqg",
+    "genre": [
+      "Aventura",
+      "Fantasía",
+      "Acción"
+    ],
+    "video_url": "https://archive.org/download/piratas-del-caribe-2_202508/Piratas%20Del%20Caribe%201.mp4"
+  },
+  {
+    "title": "Piratas del Caribe: El Cofre del Hombre Muerto (Piratas del Caribe 2)",
+    "description": "El Capitán Jack Sparrow debe saldar una vieja deuda con Davy Jones, el legendario capitán del Holandés Errante, o enfrentarse a la condenación eterna.",
+    "year": 2006,
+    "coverImage": "https://es.web.img3.acsta.net/pictures/14/03/25/11/14/498694.jpg",
+    "genre": [
+      "Aventura",
+      "Fantasía",
+      "Acción"
+    ],
+    "video_url": "https://archive.org/download/piratas-del-caribe-2_202508/Piratas%20Del%20Caribe%202.mp4"
+  },
+  {
+    "title": "Piratas del Caribe: En el Fin del Mundo (Piratas del Caribe 3)",
+    "description": "Will Turner, Elizabeth Swann y el Capitán Barbossa deben viajar a los confines del mundo para rescatar a Jack Sparrow del casillero de Davy Jones y unirse para hacer frente a la Compañía de las Indias Orientales.",
+    "year": 2007,
+    "coverImage": "https://es.web.img2.acsta.net/r_1280_720/medias/nmedia/18/62/88/97/18754731.jpg",
+    "genre": [
+      "Aventura",
+      "Fantasía",
+      "Acción"
+    ],
+    "video_url": "https://archive.org/download/piratas-del-caribe-2_202508/Piratas%20del%20Caribe%203.mp4"
+  },
+  {
   "title": "Boku no hero academy Temporada 7",
   "coverImage": "https://a.storyblok.com/f/178900/849x1200/c3c4cdb7b9/my-hero-academia-season-seven-teaser-visual.jpg/m/filters:quality(95)format(webp)",
   "description": "My Hero Academia se centra en la llegada de Star and Stripe, la heroína #1 de EE. UU., para ayudar contra Shigaraki, la revelación del traidor de la U.A., y el inicio de la guerra final entre héroes y villanos, adaptando arcos como Star and Stripe, El Traidor de la U.A. y el principio de la Guerra Final",
@@ -367,7 +403,7 @@
   
   {
   "title": "Boku no Hero Academia Temporada 5",
-  "coverImage": "https://static.wikia.nocookie.net/bokunoheroacademia/images/d/d2/Season_5_Poster_3.png/revision/latest?cb=20210215034200&path-prefix=es",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqF_5ia__dUTR2ScjcNXTE4WjOXiGMX5UJjA&s",
   "description": "La quinta temporada de My Hero Academia, en Español Latino. **Nota:** Faltan los enlaces para el Episodio 22 en la fuente principal. El Episodio 03 fue añadido con el URL de respaldo proporcionado.",
   "genre": [
     "Anime",
