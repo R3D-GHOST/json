@@ -1,5 +1,316 @@
 [
   {
+    "title": "Death Note (2006)",
+    "description": "El estudiante Light Yagami encuentra un cuaderno sobrenatural llamado 'Death Note' que le permite matar a cualquier persona cuyo nombre y rostro conozca. Decide usarlo para limpiar el mundo de criminales y es perseguido por el brillante detective L.",
+    "coverImage": "https://imgs.search.brave.com/cGglyEBceSNPuJNdcGnLuWrRGSxwc1TIga67_b5Nt88/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tYW5oYXR0YW5zdHVkaW8uZXMvcF9uZXh0L2ltYWdlP3VybD1odHRwczovL2ltYWdlLnRtZGIub3JnL3QvcC93NTAwLy94aSlQWm50YXoxQk1vb1hmb3cyeVpBTVJoWS5qcGcmdz03NTAmcT03NQ",
+    "genre": [
+      "Misterio",
+      "Thriller",
+      "Fantástico"
+    ],
+    "video_url": "https://archive.org/download/ver-death-note-2006-online-cuevana-3-1/Ver_Death_Note_%282006%29_Online_-_CUEVANA_3_1.mp4"
+  },
+  {
+    "title": "Death Note: El Último Nombre (The Last Name) (2006)",
+    "description": "La continuación de la historia, donde el enfrentamiento intelectual entre Light (Kira) y L se intensifica con la aparición de un segundo Death Note y una segunda Kira, llevando su juego de estrategia al límite.",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUZtMd4LTRA2Tl7FmqF8sT8ecSs5PVX8jWqA&s",
+    "genre": [
+      "Misterio",
+      "Thriller",
+      "Crimen"
+    ],
+    "video_url": "https://archive.org/download/ver-death-note-2006-online-cuevana-3-1/Ver_Death_Note_2__El_%C3%BAltimo_nombre_%282006%29_Online_-_CUEVANA_3.mp4"
+  },
+  {
+    "title": "Death Note: El Nuevo Mundo (Light Up the New World) (2016)",
+    "description": "Diez años después de la batalla entre Kira y L, seis nuevos Death Notes caen a la Tierra, lo que desencadena una nueva confrontación entre los herederos de Light y L por el control de los cuadernos.",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8n53ERR_UUFuvwPOuIO_fPZCJ6FJzuCNgXQ&s",
+    "genre": [
+      "Misterio",
+      "Thriller",
+      "Ciencia Ficción"
+    ],
+    "video_url": "https://archive.org/download/ver-death-note-2006-online-cuevana-3-1/Ver_Death_Note__El_nuevo_mundo_%282016%29_Online_-_CUEVANA_3.mp4"
+  },
+  {
+    "title": "Super Mario Bros. (1993) [Castellano]",
+    "description": "Los hermanos fontaneros Mario y Luigi son transportados a un universo paralelo distópico donde deben rescatar a la Princesa Daisy y salvar al mundo de las garras del malvado Rey Koopa.",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO5-2Qr7UDkZgGy1EvRQU368R7QWaWjAT_gg&s",
+    "genre": [
+      "Aventura",
+      "Fantasía",
+      "Ciencia Ficción"
+    ],
+    "video_url": "https://archive.org/download/super-mario-castellano/super%20mario%20castellano.mp4"
+  },
+  {
+    "title": "17 Otra Vez (17 Again)",
+    "description": "Mike O'Donnell, insatisfecho con su vida a los 35 años, tiene la oportunidad de volver a ser un adolescente de 17 años para reevaluar sus decisiones y arreglar su vida.",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl3nn6RrdRkiUOae2ViaTRgUPZ6SvCIIzhDg&s",
+    "genre": [
+      "Comedia",
+      "Fantasía"
+    ],
+    "video_url": "https://archive.org/download/peliculas-2001-2010/17%20Otra%20Vez.mp4"
+  },
+  {
+    "title": "2 Hermanas (A Tale of Two Sisters)",
+    "description": "Dos hermanas vuelven a casa después de una convalecencia y se enfrentan a la creciente crueldad de su madrastra, en medio de una atmósfera inquietante con la posible aparición del fantasma de su madre.",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJYZS22BJA7uWEAeX7ucRrORU-9uwxsrSoAQ&s",
+    "genre": [
+      "Terror",
+      "Misterio"
+    ],
+    "video_url": "https://archive.org/download/peliculas-2001-2010/2%20Hermanas.mp4"
+  },
+  {
+    "title": "A Prueba De Hombres (Big Stan)",
+    "description": "Stan, un estafador condenado a prisión, contrata a un misterioso gurú de las artes marciales para que lo entrene rápidamente y así poder defenderse en la cárcel.",
+    "coverImage": "https://play-lh.googleusercontent.com/proxy/28Qk2yvR5rSVzi26eKoc1P_7_lWh1slP_lIenAzo9H9hz0hLlTeOS6EdZEoFlyjAMNfowyhO9DJGOV9si7-77Pt5MciDgDL-HrBV0035wIrxCMmIZ1_-mr8d0vYeJUKw-bHO8rB-uczVbXHLc4hxtomLtDbjougTudxTlA=w240-h480-rw",
+    "genre": [
+      "Comedia",
+      "Acción"
+    ],
+    "video_url": "https://archive.org/download/peliculas-2001-2010/A%20Prueba%20De%20Hombres.mp4"
+  },
+  {
+    "title": "A.I. Inteligencia Artificial",
+    "description": "En un futuro lejano, David, un niño robot pionero programado para amar, es abandonado. Ayudado por un androide, se embarca en un viaje en busca de su propia identidad, anhelando convertirse en un niño de verdad.",
+    "coverImage": "https://pics.filmaffinity.com/A_I_Inteligencia_Artificial-535598622-large.jpg",
+    "genre": [
+      "Ciencia Ficción",
+      "Drama"
+    ],
+    "video_url": "https://archive.org/download/peliculas-2001-2010/AI%20Inteligencia%20Artificial.mp4"
+  },
+  {
+    "title": "Año Uno (Year One)",
+    "description": "Dos nómadas holgazanes y socialmente ineptos, Zed y Oh, son expulsados de su aldea y comienzan un viaje épico a través de la antigüedad bíblica.",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSzEopUpr9QQsBumVdjz2ovgAMGHwQPLXecg&s",
+    "genre": [
+      "Comedia",
+      "Aventura"
+    ],
+    "video_url": "https://archive.org/download/peliculas-2001-2010/Ano%20Uno.mp4"
+  },
+  {
+    "title": "Arrástrame Al Infierno (Drag Me to Hell)",
+    "description": "Christine, una ambiciosa analista de crédito, rechaza la solicitud de una anciana de prorrogar su hipoteca, lo que provoca que la anciana le lance una terrible maldición demoníaca.",
+    "coverImage": "https://play-lh.googleusercontent.com/53gWFYeh6GpW6DyKHtK7t7Xk0oox0Tu62BNPeC4KrnAqBft7TRtNe4kQ5gko01tjQ_Zi",
+    "genre": [
+      "Terror",
+      "Comedia"
+    ],
+    "video_url": "https://archive.org/download/peliculas-2001-2010/Arr%C3%A1strame%20Al%20Infierno.mp4"
+  },
+  {
+    "title": "Un Asesino En Casa (A Killer Upstairs)",
+    "description": "Lauren, recién divorciada, se muda con su padre y se involucra con un vecino mientras descubre que el anterior dueño de la casa fue asesinado misteriosamente.",
+    "coverImage": "https://play-lh.googleusercontent.com/lAKRjW31CJvgdSxYOT2_fT_6ysWPjZBgFdil168QN-NSwVidhf6x_BBfeTGMvKzKjX4",
+    "genre": [
+      "Thriller",
+      "Misterio"
+    ],
+    "video_url": "https://archive.org/download/peliculas-2001-2010/Asesino%20En%20Casa.mp4"
+  },
+  {
+    "title": "Asesino Solitario (The American)",
+    "description": "Un asesino a sueldo, Jack, decide que su próximo trabajo será el último. Mientras se esconde en un pueblo italiano, se enfrenta a sus demonios y a la gente que intenta matarlo.",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKU8QQKzc_DpjkCg3D1RidZo6UEubkzLov6w&s",
+    "genre": [
+      "Thriller",
+      "Crimen"
+    ],
+    "video_url": "https://archive.org/download/peliculas-2001-2010/Asesino%20Solitario.mp4"
+  },
+  {
+    "title": "Atrápame Si Puedes (Catch Me If You Can)",
+    "description": "Basada en una historia real, Frank Abagnale, un joven estafador, se hace pasar por piloto, médico y abogado, mientras es perseguido incansablemente por el agente del FBI Carl Hanratty.",
+    "coverImage": "https://pics.filmaffinity.com/Atraapame_si_puedes-243022848-large.jpg",
+    "genre": [
+      "Biografía",
+      "Crimen",
+      "Drama"
+    ],
+    "video_url": "https://archive.org/download/peliculas-2001-2010/Atrapame%20Si%20Puedes.mp4"
+  },
+  {
+    "title": "Brigada A Los Magníficos (The A-Team)",
+    "description": "Una unidad de élite de las Fuerzas Especiales del Ejército de EE. UU. es acusada de un crimen que no cometió. Ahora, como fugitivos, se dedican a resolver problemas bajo encargo.",
+    "coverImage": "https://pics.filmaffinity.com/the_a_team-101932484-large.jpg",
+    "genre": [
+      "Acción",
+      "Aventura"
+    ],
+    "video_url": "https://archive.org/download/peliculas-2001-2010/Brigada%20A%20Los%20Magn%C3%ADficos.mp4"
+  },
+  {
+    "title": "Canguro Jack (Kangaroo Jack)",
+    "description": "Dos amigos que viajan a Australia para entregar dinero a un jefe de la mafia atropellan accidentalmente a un canguro y le colocan la chaqueta. El canguro se lleva el dinero y huyen para recuperarlo.",
+    "coverImage": "https://play-lh.googleusercontent.com/vHzs371lffq_5_ya08DRtx6HtosxLuZMDeRH1WFHW7fzsXgP-KZg8mw794LHN6uHIgBnq5rBHl2WVBKsb9Qd",
+    "genre": [
+      "Comedia",
+      "Aventura"
+    ],
+    "video_url": "https://archive.org/download/peliculas-2001-2010/Canguro%20Jack.mp4"
+  },
+  {
+    "title": "Cazadores De Trolls (Troll Hunter)",
+    "description": "Un grupo de estudiantes filma un documental sobre cazadores furtivos de osos. Descubren que el \"cazador\" en realidad es un agente gubernamental que se encarga de cazar a los Trolls que viven en Noruega.",
+    "coverImage": "https://m.media-amazon.com/images/M/MV5BMTkyMTgxNzIwOF5BMl5BanBnXkFtZTcwNjYyNjM5NA@@._V1_.jpg",
+    "genre": [
+      "Fantástico",
+      "Aventuras",
+      "Metraje encontrado"
+    ],
+    "video_url": "https://archive.org/download/peliculas-2001-2010/Cazadores%20De%20Trolls.mp4"
+  },
+  {
+    "title": "Charlie Y La Fábrica De Chocolate",
+    "description": "Charlie Bucket, un niño de una familia muy pobre, gana un concurso para visitar la gigantesca y misteriosa fábrica de chocolate dirigida por el excéntrico Willy Wonka.",
+    "coverImage": "https://m.media-amazon.com/images/M/MV5BNjM2NmM3NjUtMWU2MS00ZTgyLWEyYWEtN2M2NmE3YTk4MWE4XkEyXkFqcGc@._V1_.jpg",
+    "genre": [
+      "Familiar",
+      "Fantasía",
+      "Comedia"
+    ],
+    "video_url": "https://archive.org/download/peliculas-2001-2010/Charlie%20Y%20La%20F%C3%A1brica%20De%20Chocolate.mp4"
+  },
+  {
+    "title": "Chicas Pesadas (Mean Girls)",
+    "description": "Cady Heron, recién llegada de África, se encuentra con la despiadada jerarquía social de una escuela secundaria en Illinois y se infiltra en el grupo de las chicas más populares ('Las Plásticas').",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSOvTrHHzKfbLjZa3b_JmvHjpxcp2UqneVsQ&s",
+    "genre": [
+      "Comedia",
+      "Adolescente"
+    ],
+    "video_url": "https://archive.org/download/peliculas-2001-2010/Chicas%20Pesadas.mp4"
+  },
+  {
+    "title": "Chiquito Pero Peligroso (Little Man)",
+    "description": "Un ladrón de joyas de baja estatura se disfraza de bebé para engañar a una pareja y recuperar un diamante robado, pero su plan se complica al tener que vivir con ellos.",
+    "coverImage": "https://play-lh.googleusercontent.com/LxqKKdHe7goj6v1Plh5aYl4qN-CaXmOhtsaaFx-aZLBpjd4Ds6tnpPWFN3073bBUARY=w240-h480-rw",
+    "genre": [
+      "Comedia",
+      "Crimen"
+    ],
+    "video_url": "https://archive.org/download/peliculas-2001-2010/Chiquito%20Pero%20Peligroso.mp4"
+  },
+  {
+    "title": "CJ7",
+    "description": "La vida de un pobre obrero y su hijo da un giro cuando el padre le trae de un vertedero un objeto que resulta ser una extraña y fascinante mascota alienígena.",
+    "coverImage": "https://play-lh.googleusercontent.com/ItScUC6MZlDfbgIpGuTFLylfrsWMJGXZZ-q4GEg3Y-fyZ_0uz3jgzMt5grFZ94AccDuy",
+    "genre": [
+      "Ciencia Ficción",
+      "Comedia",
+      "Familiar"
+    ],
+    "video_url": "https://archive.org/download/peliculas-2001-2010/Cj7.mp4"
+  },
+  {
+    "title": "Constantine",
+    "description": "John Constantine, un exorcista que puede ver los ángeles y demonios, ayuda a una detective de policía a investigar el misterioso suicidio de su hermana gemela en Los Ángeles.",
+    "coverImage": "https://play-lh.googleusercontent.com/ACxgaHTyN3dVbYbyRaix9iK-rD_j455XQuKM1mYimY6oet3WzT973xXnQmVKywfaKXhN=w240-h480-rw",
+    "genre": [
+      "Acción",
+      "Fantasía"
+    ],
+    "video_url": "https://archive.org/download/peliculas-2001-2010/Constantine.mp4"
+  },
+  {
+    "title": "Cuando Un Extraño Llama (When a Stranger Calls)",
+    "description": "Una niñera se aterroriza mientras cuida a unos niños en una casa aislada al recibir llamadas telefónicas amenazantes, solo para descubrir que las llamadas vienen del interior de la casa.",
+    "coverImage": "https://play-lh.googleusercontent.com/cY1nSHgJQTqqCUl-Jge1cqD4KBHU9NMv84XRWcAsgNDvhOzINS-z81b5e8slhqDSHHeI",
+    "genre": [
+      "Terror",
+      "Thriller"
+    ],
+    "video_url": "https://archive.org/download/peliculas-2001-2010/Cuando%20Un%20Extra%C3%B1o%20Llama.mp4"
+  },
+  {
+    "title": "Cuarentena (Quarantine)",
+    "description": "Una reportera de televisión y su camarógrafo quedan atrapados en un edificio de apartamentos en Los Ángeles que es puesto en cuarentena por las autoridades tras el brote de una infección letal.",
+    "coverImage": "https://play-lh.googleusercontent.com/b5mBYpIY4aQyKpGLMSWVUc_5v42w76Pxq9W7DemzI2LgkVA1jzdHEpGS5b2un9zqDtt1=w240-h480-rw",
+    "genre": [
+      "Terror",
+      "Ciencia Ficción"
+    ],
+    "video_url": "https://archive.org/download/peliculas-2001-2010/Cuarentena.mp4"
+  },
+  {
+    "title": "Cuentos Que No Son Cuentos (Bedtime Stories)",
+    "description": "Skeeter Bronson, un empleado de hotel, descubre que los cuentos fantásticos que inventa cada noche para sus sobrinos se hacen realidad de forma misteriosa.",
+    "coverImage": "https://play-lh.googleusercontent.com/AAcmT65Ri3uz_ADH4xkq7q48kGpICw2Oj4YzsHDRkt_YzYtfwyQJ-VOtnE8rXmoA6Un=w240-h480-rw",
+    "genre": [
+      "Comedia",
+      "Familiar",
+      "Fantasía"
+    ],
+    "video_url": "https://archive.org/download/peliculas-2001-2010/Cuentos%20Que%20No%20Son%20Cuentos.mp4"
+  },
+  {
+    "title": "Diabólica Tentación (Jennifer's Body)",
+    "description": "Una porrista popular se convierte en un demonio sediento de sangre tras ser sacrificada en un ritual satánico. Ahora, su mejor amiga, Needy, debe detenerla.",
+    "coverImage": "https://pics.filmaffinity.com/Jennifer_s_Body-952096422-large.jpg",
+    "genre": [
+      "Terror",
+      "Comedia Negra"
+    ],
+    "video_url": "https://archive.org/download/peliculas-2001-2010/Diabolica%20Tentacion.mp4"
+  },
+  {
+    "title": "Dragonball Evolución",
+    "description": "En su cumpleaños 18, Goku recibe una Bola de Dragón y se embarca en una misión para evitar que el malvado Piccolo consiga las siete bolas y destruya el mundo.",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYxmxKgwbSRxZffRUGt_-qe22r82lb4G-q-w&s",
+    "genre": [
+      "Acción",
+      "Aventura",
+      "Fantasía"
+    ],
+    "video_url": "https://archive.org/download/peliculas-2001-2010/DragonBall%20Evoluci%C3%B3n.mp4"
+  },
+  {
+    "title": "El Amanecer De Los Muertos (Dawn of the Dead)",
+    "description": "Un grupo de supervivientes de una plaga de muertos vivientes se refugia en un centro comercial abandonado, donde deben lidiar no solo con los zombis, sino también con las tensiones internas.",
+    "coverImage": "https://m.media-amazon.com/images/M/MV5BNmVmODNmZmItNDYxNS00YTViLWEzM2MtZWI4YzZmZDA4YTBmXkEyXkFqcGc@._V1_.jpg",
+    "genre": [
+      "Terror",
+      "Acción"
+    ],
+    "video_url": "https://archive.org/download/peliculas-2001-2010/El%20Amanecer%20De%20Los%20Muertos.mp4"
+  },
+  {
+    "title": "El Aprendiz De Brujo (The Sorcerer's Apprentice)",
+    "description": "Balthazar Blake, un hechicero que trabaja para Merlín, busca a su sucesor, el 'Merliniano Supremo', y lo encuentra en Dave, un estudiante de física en Nueva York. Juntos deben enfrentarse a las fuerzas del mal.",
+    "coverImage": "https://es.web.img3.acsta.net/medias/nmedia/18/73/66/89/20235349.jpg",
+    "genre": [
+      "Fantasía",
+      "Aventura"
+    ],
+    "video_url": "https://archive.org/download/peliculas-2001-2010/El%20Aprendiz%20De%20Brujo.ia.mp4"
+  },
+  {
+    "title": "El Diablo Viste A La Moda (The Devil Wears Prada)",
+    "description": "Andrea Sachs, una aspirante a periodista recién graduada, consigue el codiciado pero infernal puesto de asistente personal de Miranda Priestly, la tiránica editora en jefe de una prestigiosa revista de moda.",
+    "coverImage": "https://static.wikia.nocookie.net/doblaje/images/b/b7/Diablo.jpg/revision/latest?cb=20100914212013&path-prefix=es",
+    "genre": [
+      "Drama",
+      "Comedia"
+    ],
+    "video_url": "https://archive.org/download/peliculas-2001-2010/El%20Diablo%20Viste%20A%20La%20Moda.ia.mp4"
+  },
+  {
+    "title": "V de Vendetta (V for Vendetta)",
+    "description": "En un futuro distópico, la Gran Bretaña se ha convertido en un estado policial. Un enigmático luchador por la libertad conocido solo como 'V' usa actos de terrorismo para inspirar una revolución contra el régimen totalitario.",
+    "coverImage": "https://pics.filmaffinity.com/V_de_Vendetta-296729466-large.jpg",
+    "genre": [
+      "Acción",
+      "Ciencia Ficción",
+      "Thriller"
+    ],
+    "video_url": "https://archive.org/download/peliculas-2001-2010/Virgen%20A%20Los%2040.ia.mp4"
+  },
+  {
   "title": "El Internado: Las Cumbres",
   "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi-oqhLSoXIwGAdcCvaQHoJEWtr8qFlJrkKDstVigOHw&s=10",
   "description": "Un reinicio de la popular serie 'El Internado', ambientado en un colegio para jóvenes rebeldes e internos, aislado en las montañas y rodeado de antiguos misterios y leyendas.",
