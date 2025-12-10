@@ -4757,26 +4757,6 @@
     "video_url": "https://archive.org/download/st-4r-w-4rs-episodio-1/Episodio%203.mp4"
   },
   {
-  "title": "El Internado - Temporada 2",
-  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe-GdTowr-fu7mqJKCnAlh1ZlJ3ZDQ1nvAP4iBNUbajQ&s=10",
-  "description": "Segunda temporada de 'El Internado', donde los misterios del colegio se profundizan y los alumnos deben enfrentarse a secretos cada vez más oscuros y peligrosos.",
-  "genre": [
-    "Suspenso",
-    "Drama",
-    "Misterio"
-  ],
-  "episodes": [
-    { "episode": 1, "title": "Episodio 1", "video_url": "https://archive.org/download/8_20251207_20251207_2336/1.mp4" },
-    { "episode": 2, "title": "Episodio 2", "video_url": "https://archive.org/download/8_20251207_20251207_2336/2.mp4" },
-    { "episode": 3, "title": "Episodio 3", "video_url": "https://archive.org/download/8_20251207_20251207_2336/3.mp4" },
-    { "episode": 4, "title": "Episodio 4", "video_url": "https://archive.org/download/8_20251207_20251207_2336/4.mp4" },
-    { "episode": 5, "title": "Episodio 5", "video_url": "https://archive.org/download/8_20251207_20251207_2336/5.mp4" },
-    { "episode": 6, "title": "Episodio 6", "video_url": "https://archive.org/download/8_20251207_20251207_2336/6.mp4" },
-    { "episode": 7, "title": "Episodio 7", "video_url": "https://archive.org/download/8_20251207_20251207_2336/7.mp4" },
-    { "episode": 8, "title": "Episodio 8", "video_url": "https://archive.org/download/8_20251207_20251207_2336/8.mp4" }
-  ]
-  },
-  {
   "title": "Digimon Adventure",
   "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWremARB6SYyS4YEZJQSDagYRSPmIyuON0oGQfbvry6g&s=10",
   "description": "La primera temporada de Digimon Adventure sigue a un grupo de niños elegidos transportados al Mundo Digital, donde deben formar lazos con sus Digimon compañeros para enfrentar diversas amenazas y salvar ambos mundos.",
