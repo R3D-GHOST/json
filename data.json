@@ -277,7 +277,7 @@
   "title": "Dino Rey",
   "coverImage": "https://m.media-amazon.com/images/M/MV5BYzk3ZmY1YjYtMjEyZi00NDM4LTk2MWQtYTEwNmI1NGU4NDE1XkEyXkFqcGc@._V1_.jpg",
   "description": "El Equipo D, compuesto por Max Taylor, Zoe Drake y Rex Owen, viajará alrededor del mundo para vencer a la malvada Pandilla Alfa",
-  "genre": ["Animaccion, Drama, Accion"],
+  "genre": ["Animacion,Drama,Accion"],
   "episodes": [
     {
       "episode": 1,
