@@ -1,5 +1,731 @@
 [
   
+{
+  "title": "Yu-Gi-Oh! GX Temporada 3",
+  "genre": [
+    "Anime",
+    "Juegos de Cartas",
+    "Fantasía",
+    "Aventura"
+  ],
+  "coverImage": "https://m.media-amazon.com/images/I/917acQJ1FyL._AC_UF894,1000_QL80_.jpg",
+  "description": "Jaden Yuki, un duelista prometedor, ingresa en la Academia de Duelos, una prestigiosa escuela fundada por Seto Kaiba, donde se enfrenta a poderosos oponentes y descubre antiguos secretos. Esta temporada narra el tercer año de Jaden en la Academia.",
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "Episodio 1 (T3E01)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T3E01.mp4"
+    },
+    {
+      "episode": 2,
+      "title": "Episodio 2 (T3E02)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T3E02.mp4"
+    },
+    {
+      "episode": 3,
+      "title": "Episodio 3 (T3E03)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T3E03.mp4"
+    },
+    {
+      "episode": 4,
+      "title": "Episodio 4 (T3E04)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T3E04.mp4"
+    },
+    {
+      "episode": 5,
+      "title": "Episodio 5 (T3E05)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T3E05.mp4"
+    },
+    {
+      "episode": 6,
+      "title": "Episodio 6 (T3E06)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T3E06.mp4"
+    },
+    {
+      "episode": 7,
+      "title": "Episodio 7 (T3E07)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T3E07.mp4"
+    },
+    {
+      "episode": 8,
+      "title": "Episodio 8 (T3E08)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T3E08.mp4"
+    },
+    {
+      "episode": 9,
+      "title": "Episodio 9 (T3E09)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T3E09.mp4"
+    },
+    {
+      "episode": 10,
+      "title": "Episodio 10 (T3E10)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T3E10.mp4"
+    },
+    {
+      "episode": 11,
+      "title": "Episodio 11 (T3E11)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T3E11.mp4"
+    },
+    {
+      "episode": 12,
+      "title": "Episodio 12 (T3E12)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T3E12.mp4"
+    },
+    {
+      "episode": 13,
+      "title": "Episodio 13 (T3E13)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T3E13.mp4"
+    },
+    {
+      "episode": 14,
+      "title": "Episodio 14 (T3E14)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T3E14.mp4"
+    },
+    {
+      "episode": 15,
+      "title": "Episodio 15 (T3E15)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T3E15.mp4"
+    },
+    {
+      "episode": 16,
+      "title": "Episodio 16 (T3E16)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T3E16.mp4"
+    },
+    {
+      "episode": 17,
+      "title": "Episodio 17 (T3E17)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T3E17.mp4"
+    },
+    {
+      "episode": 18,
+      "title": "Episodio 18 (T3E18)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T3E18.mp4"
+    },
+    {
+      "episode": 19,
+      "title": "Episodio 19 (T3E19)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T3E19.mp4"
+    },
+    {
+      "episode": 20,
+      "title": "Episodio 20 (T3E20)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T3E20.mp4"
+    },
+    {
+      "episode": 21,
+      "title": "Episodio 21 (T3E21)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T3E21.mp4"
+    },
+    {
+      "episode": 22,
+      "title": "Episodio 22 (T3E22)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T3E22.mp4"
+    },
+    {
+      "episode": 23,
+      "title": "Episodio 23 (T3E23)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T3E23.mp4"
+    },
+    {
+      "episode": 24,
+      "title": "Episodio 24 (T3E24)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T3E24.mp4"
+    },
+    {
+      "episode": 25,
+      "title": "Episodio 25 (T3E25)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T3E25.mp4"
+    },
+    {
+      "episode": 26,
+      "title": "Episodio 26 (T3E26)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T3E26.mp4"
+    },
+    {
+      "episode": 27,
+      "title": "Episodio 27 (T3E27)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T3E27.mp4"
+    },
+    {
+      "episode": 28,
+      "title": "Episodio 28 (T3E28)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T3E28.mp4"
+    },
+    {
+      "episode": 29,
+      "title": "Episodio 29 (T3E29)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T3E29.mp4"
+    },
+    {
+      "episode": 30,
+      "title": "Episodio 30 (T3E30)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T3E30.mp4"
+    },
+    {
+      "episode": 31,
+      "title": "Episodio 31 (T3E31)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T3E31.mp4"
+    },
+    {
+      "episode": 32,
+      "title": "Episodio 32 (T3E32)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T3E32.mp4"
+    },
+    {
+      "episode": 33,
+      "title": "Episodio 33 (T3E33)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T3E33.mp4"
+    }
+  ]
+},
+  
+{
+  "title": "Yu-Gi-Oh! GX  Temporada 2",
+  "genre": [
+    "Anime",
+    "Juegos de Cartas",
+    "Fantasía",
+    "Aventura"
+  ],
+  "coverImage": "https://images.justwatch.com/poster/301583999/s718/temporada-2.jpg",
+  "description": "Jaden Yuki, un duelista prometedor, ingresa en la Academia de Duelos, una prestigiosa escuela fundada por Seto Kaiba, donde se enfrenta a poderosos oponentes y descubre antiguos secretos. Esta temporada narra el segundo año de Jaden en la Academia.",
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "Episodio 1 (T2E01)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T2E01.mp4"
+    },
+    {
+      "episode": 2,
+      "title": "Episodio 2 (T2E02)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T2E02.mp4"
+    },
+    {
+      "episode": 3,
+      "title": "Episodio 3 (T2E03)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T2E03.mp4"
+    },
+    {
+      "episode": 4,
+      "title": "Episodio 4 (T2E04)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T2E04.mp4"
+    },
+    {
+      "episode": 5,
+      "title": "Episodio 5 (T2E05)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T2E05.mp4"
+    },
+    {
+      "episode": 6,
+      "title": "Episodio 6 (T2E06)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T2E06.mp4"
+    },
+    {
+      "episode": 7,
+      "title": "Episodio 7 (T2E07)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T2E07.mp4"
+    },
+    {
+      "episode": 8,
+      "title": "Episodio 8 (T2E08)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T2E08.mp4"
+    },
+    {
+      "episode": 9,
+      "title": "Episodio 9 (T2E09)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T2E09.mp4"
+    },
+    {
+      "episode": 10,
+      "title": "Episodio 10 (T2E10)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T2E10.mp4"
+    },
+    {
+      "episode": 11,
+      "title": "Episodio 11 (T2E11)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T2E11.mp4"
+    },
+    {
+      "episode": 12,
+      "title": "Episodio 12 (T2E12)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T2E12.mp4"
+    },
+    {
+      "episode": 13,
+      "title": "Episodio 13 (T2E13)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T2E13.mp4"
+    },
+    {
+      "episode": 14,
+      "title": "Episodio 14 (T2E14)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T2E14.mp4"
+    },
+    {
+      "episode": 15,
+      "title": "Episodio 15 (T2E15)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T2E15.mp4"
+    },
+    {
+      "episode": 16,
+      "title": "Episodio 16 (T2E16)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T2E16.mp4"
+    },
+    {
+      "episode": 17,
+      "title": "Episodio 17 (T2E17)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T2E17.mp4"
+    },
+    {
+      "episode": 18,
+      "title": "Episodio 18 (T2E18)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T2E18.mp4"
+    },
+    {
+      "episode": 19,
+      "title": "Episodio 19 (T2E19)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T2E19.mp4"
+    },
+    {
+      "episode": 20,
+      "title": "Episodio 20 (T2E20)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T2E20.mp4"
+    },
+    {
+      "episode": 21,
+      "title": "Episodio 21 (T2E21)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T2E21.mp4"
+    },
+    {
+      "episode": 22,
+      "title": "Episodio 22 (T2E22)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T2E22.mp4"
+    },
+    {
+      "episode": 23,
+      "title": "Episodio 23 (T2E23)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T2E23.mp4"
+    },
+    {
+      "episode": 24,
+      "title": "Episodio 24 (T2E24)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T2E24.mp4"
+    },
+    {
+      "episode": 25,
+      "title": "Episodio 25 (T2E25)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T2E25.mp4"
+    },
+    {
+      "episode": 26,
+      "title": "Episodio 26 (T2E26)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T2E26.mp4"
+    },
+    {
+      "episode": 27,
+      "title": "Episodio 27 (T2E27)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T2E27.mp4"
+    },
+    {
+      "episode": 28,
+      "title": "Episodio 28 (T2E28)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T2E28.mp4"
+    },
+    {
+      "episode": 29,
+      "title": "Episodio 29 (T2E29)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T2E29.mp4"
+    },
+    {
+      "episode": 30,
+      "title": "Episodio 30 (T2E30)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T2E30.mp4"
+    },
+    {
+      "episode": 31,
+      "title": "Episodio 31 (T2E31)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T2E31.mp4"
+    },
+    {
+      "episode": 32,
+      "title": "Episodio 32 (T2E32)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T2E32.mp4"
+    },
+    {
+      "episode": 33,
+      "title": "Episodio 33 (T2E33)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T2E33.mp4"
+    },
+    {
+      "episode": 34,
+      "title": "Episodio 34 (T2E34)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T2E34.mp4"
+    },
+    {
+      "episode": 35,
+      "title": "Episodio 35 (T2E35)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T2E35.mp4"
+    },
+    {
+      "episode": 36,
+      "title": "Episodio 36 (T2E36)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T2E36.mp4"
+    },
+    {
+      "episode": 37,
+      "title": "Episodio 37 (T2E37)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T2E37.mp4"
+    },
+    {
+      "episode": 38,
+      "title": "Episodio 38 (T2E38)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T2E38.mp4"
+    },
+    {
+      "episode": 39,
+      "title": "Episodio 39 (T2E39)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T2E39.mp4"
+    },
+    {
+      "episode": 40,
+      "title": "Episodio 40 (T2E40)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T2E40.mp4"
+    },
+    {
+      "episode": 41,
+      "title": "Episodio 41 (T2E41)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T2E41.mp4"
+    },
+    {
+      "episode": 42,
+      "title": "Episodio 42 (T2E42)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T2E42.mp4"
+    },
+    {
+      "episode": 43,
+      "title": "Episodio 43 (T2E43)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T2E43.mp4"
+    },
+    {
+      "episode": 44,
+      "title": "Episodio 44 (T2E44)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T2E44.mp4"
+    },
+    {
+      "episode": 45,
+      "title": "Episodio 45 (T2E45)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T2E45.mp4"
+    },
+    {
+      "episode": 46,
+      "title": "Episodio 46 (T2E46)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T2E46.mp4"
+    },
+    {
+      "episode": 47,
+      "title": "Episodio 47 (T2E47)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T2E47.mp4"
+    },
+    {
+      "episode": 48,
+      "title": "Episodio 48 (T2E48)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T2E48.mp4"
+    },
+    {
+      "episode": 49,
+      "title": "Episodio 49 (T2E49)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T2E49.mp4"
+    },
+    {
+      "episode": 50,
+      "title": "Episodio 50 (T2E50)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T2E50.mp4"
+    },
+    {
+      "episode": 51,
+      "title": "Episodio 51 (T2E51)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T2E51.mp4"
+    },
+    {
+      "episode": 52,
+      "title": "Episodio 52 (T2E52)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T2E52.mp4"
+    }
+  ]
+},
+  
+  {
+  "title": "Yu-Gi-Oh! GX  Temporada 1",
+  "genre": [
+    "Anime",
+    "Juegos de Cartas",
+    "Fantasía",
+    "Aventura"
+  ],
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT67COqF7HEG2ulWSs4CDubcEMlxRRlcg-e4A&s",
+  "description": "Jaden Yuki, un duelista prometedor, ingresa en la Academia de Duelos, una prestigiosa escuela fundada por Seto Kaiba, donde se enfrenta a poderosos oponentes y descubre antiguos secretos. Esta temporada narra el primer año de Jaden en la Academia.",
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "Episodio 1 (T1E01)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T1E01.mp4"
+    },
+    {
+      "episode": 2,
+      "title": "Episodio 2 (T1E02)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T1E02.mp4"
+    },
+    {
+      "episode": 3,
+      "title": "Episodio 3 (T1E03)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T1E03.mp4"
+    },
+    {
+      "episode": 4,
+      "title": "Episodio 4 (T1E04)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T1E04.mp4"
+    },
+    {
+      "episode": 5,
+      "title": "Episodio 5 (T1E05)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T1E05.mp4"
+    },
+    {
+      "episode": 6,
+      "title": "Episodio 6 (T1E06)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T1E06.mp4"
+    },
+    {
+      "episode": 7,
+      "title": "Episodio 7 (T1E07)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T1E07.mp4"
+    },
+    {
+      "episode": 8,
+      "title": "Episodio 8 (T1E08)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T1E08.mp4"
+    },
+    {
+      "episode": 9,
+      "title": "Episodio 9 (T1E09)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T1E09.mp4"
+    },
+    {
+      "episode": 10,
+      "title": "Episodio 10 (T1E10)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T1E10.mp4"
+    },
+    {
+      "episode": 11,
+      "title": "Episodio 11 (T1E11)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T1E11.mp4"
+    },
+    {
+      "episode": 12,
+      "title": "Episodio 12 (T1E12)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T1E12.mp4"
+    },
+    {
+      "episode": 13,
+      "title": "Episodio 13 (T1E13)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T1E13.mp4"
+    },
+    {
+      "episode": 14,
+      "title": "Episodio 14 (T1E14)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T1E14.mp4"
+    },
+    {
+      "episode": 15,
+      "title": "Episodio 15 (T1E15)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T1E15.mp4"
+    },
+    {
+      "episode": 16,
+      "title": "Episodio 16 (T1E16)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T1E16.mp4"
+    },
+    {
+      "episode": 17,
+      "title": "Episodio 17 (T1E17)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T1E17.mp4"
+    },
+    {
+      "episode": 18,
+      "title": "Episodio 18 (T1E18)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T1E18.mp4"
+    },
+    {
+      "episode": 19,
+      "title": "Episodio 19 (T1E19)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T1E19.mp4"
+    },
+    {
+      "episode": 20,
+      "title": "Episodio 20 (T1E20)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T1E20.mp4"
+    },
+    {
+      "episode": 21,
+      "title": "Episodio 21 (T1E21)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T1E21.mp4"
+    },
+    {
+      "episode": 22,
+      "title": "Episodio 22 (T1E22)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T1E22.mp4"
+    },
+    {
+      "episode": 23,
+      "title": "Episodio 23 (T1E23)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T1E23.mp4"
+    },
+    {
+      "episode": 24,
+      "title": "Episodio 24 (T1E24)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T1E24.mp4"
+    },
+    {
+      "episode": 25,
+      "title": "Episodio 25 (T1E25)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T1E25.mp4"
+    },
+    {
+      "episode": 26,
+      "title": "Episodio 26 (T1E26)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T1E26.mp4"
+    },
+    {
+      "episode": 27,
+      "title": "Episodio 27 (T1E27)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T1E27.mp4"
+    },
+    {
+      "episode": 28,
+      "title": "Episodio 28 (T1E28)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T1E28.mp4"
+    },
+    {
+      "episode": 29,
+      "title": "Episodio 29 (T1E29)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T1E29.mp4"
+    },
+    {
+      "episode": 30,
+      "title": "Episodio 30 (T1E30)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T1E30.mp4"
+    },
+    {
+      "episode": 31,
+      "title": "Episodio 31 (T1E31)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T1E31.mp4"
+    },
+    {
+      "episode": 32,
+      "title": "Episodio 32 (T1E32)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T1E32.mp4"
+    },
+    {
+      "episode": 33,
+      "title": "Episodio 33 (T1E33)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T1E33.mp4"
+    },
+    {
+      "episode": 34,
+      "title": "Episodio 34 (T1E34)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T1E34.mp4"
+    },
+    {
+      "episode": 35,
+      "title": "Episodio 35 (T1E35)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T1E35.mp4"
+    },
+    {
+      "episode": 36,
+      "title": "Episodio 36 (T1E36)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T1E36.mp4"
+    },
+    {
+      "episode": 37,
+      "title": "Episodio 37 (T1E37)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T1E37.mp4"
+    },
+    {
+      "episode": 38,
+      "title": "Episodio 38 (T1E38)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T1E38.mp4"
+    },
+    {
+      "episode": 39,
+      "title": "Episodio 39 (T1E39)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T1E39.mp4"
+    },
+    {
+      "episode": 40,
+      "title": "Episodio 40 (T1E40)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T1E40.mp4"
+    },
+    {
+      "episode": 41,
+      "title": "Episodio 41 (T1E41)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T1E41.mp4"
+    },
+    {
+      "episode": 42,
+      "title": "Episodio 42 (T1E42)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T1E42.mp4"
+    },
+    {
+      "episode": 43,
+      "title": "Episodio 43 (T1E43)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T1E43.mp4"
+    },
+    {
+      "episode": 44,
+      "title": "Episodio 44 (T1E44)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T1E44.mp4"
+    },
+    {
+      "episode": 45,
+      "title": "Episodio 45 (T1E45)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T1E45.mp4"
+    },
+    {
+      "episode": 46,
+      "title": "Episodio 46 (T1E46)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T1E46.mp4"
+    },
+    {
+      "episode": 47,
+      "title": "Episodio 47 (T1E47)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T1E47.mp4"
+    },
+    {
+      "episode": 48,
+      "title": "Episodio 48 (T1E48)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T1E48.mp4"
+    },
+    {
+      "episode": 49,
+      "title": "Episodio 49 (T1E49)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T1E49.mp4"
+    },
+    {
+      "episode": 50,
+      "title": "Episodio 50 (T1E50)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T1E50.mp4"
+    },
+    {
+      "episode": 51,
+      "title": "Episodio 51 (T1E51)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T1E51.mp4"
+    },
+    {
+      "episode": 52,
+      "title": "Episodio 52 (T1E52)",
+      "video_url": "https://archive.org/download/yu-gi-oh-gx-espanol-latino/Yu-Gi-Oh%21%20GX%20-%20T1E52.mp4"
+    }
+  ]
+},
   {
     "title": "Piratas del Caribe: La Maldición de la Perla Negra (Piratas del Caribe 1)",
     "description": "El herrero Will Turner se une al excéntrico Capitán Jack Sparrow para rescatar a la hija del gobernador, Elizabeth Swann, de su antigua tripulación pirata no muerta.",
