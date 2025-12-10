@@ -1,5 +1,123 @@
 [
 
+  {
+  "title": "boku no hero academy Temporada 7",
+  "coverImage": "https://a.storyblok.com/f/178900/849x1200/c3c4cdb7b9/my-hero-academia-season-seven-teaser-visual.jpg/m/filters:quality(95)format(webp)",
+  "description": "My Hero Academia se centra en la llegada de Star and Stripe, la heroína #1 de EE. UU., para ayudar contra Shigaraki, la revelación del traidor de la U.A., y el inicio de la guerra final entre héroes y villanos, adaptando arcos como Star and Stripe, El Traidor de la U.A. y el principio de la Guerra Final",
+  "genre": [
+    "Anime",
+    "Drama",
+    "Romance",
+    "Accion"
+  ],
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "Clip 1 (VID_20251018_102329_105)",
+      "video_url": "https://archive.org/download/vid-20251018-102545-056/VID_20251018_102329_105.mp4"
+    },
+    {
+      "episode": 2,
+      "title": "Clip 2 (VID_20251018_102331_885)",
+      "video_url": "https://archive.org/download/vid-20251018-102545-056/VID_20251018_102331_885.mp4"
+    },
+    {
+      "episode": 3,
+      "title": "Clip 3 (VID_20251018_102335_707)",
+      "video_url": "https://archive.org/download/vid-20251018-102545-056/VID_20251018_102335_707.mp4"
+    },
+    {
+      "episode": 4,
+      "title": "Clip 4 (VID_20251018_102337_759)",
+      "video_url": "https://archive.org/download/vid-20251018-102545-056/VID_20251018_102337_759.mp4"
+    },
+    {
+      "episode": 5,
+      "title": "Clip 5 (VID_20251018_102340_280)",
+      "video_url": "https://archive.org/download/vid-20251018-102545-056/VID_20251018_102340_280.mp4"
+    },
+    {
+      "episode": 6,
+      "title": "Clip 6 (VID_20251018_102342_931)",
+      "video_url": "https://archive.org/download/vid-20251018-102545-056/VID_20251018_102342_931.mp4"
+    },
+    {
+      "episode": 7,
+      "title": "Clip 7 (VID_20251018_102346_438)",
+      "video_url": "https://archive.org/download/vid-20251018-102545-056/VID_20251018_102346_438.mp4"
+    },
+    {
+      "episode": 8,
+      "title": "Clip 8 (VID_20251018_102519_939)",
+      "video_url": "https://archive.org/download/vid-20251018-102545-056/VID_20251018_102519_939.mp4"
+    },
+    {
+      "episode": 9,
+      "title": "Clip 9 (VID_20251018_102523_352)",
+      "video_url": "https://archive.org/download/vid-20251018-102545-056/VID_20251018_102523_352.mp4"
+    },
+    {
+      "episode": 10,
+      "title": "Clip 10 (VID_20251018_102525_539)",
+      "video_url": "https://archive.org/download/vid-20251018-102545-056/VID_20251018_102525_539.mp4"
+    },
+    {
+      "episode": 11,
+      "title": "Clip 11 (VID_20251018_102528_716)",
+      "video_url": "https://archive.org/download/vid-20251018-102545-056/VID_20251018_102528_716.mp4"
+    },
+    {
+      "episode": 12,
+      "title": "Clip 12 (VID_20251018_102531_505)",
+      "video_url": "https://archive.org/download/vid-20251018-102545-056/VID_20251018_102531_505.mp4"
+    },
+    {
+      "episode": 13,
+      "title": "Clip 13 (VID_20251018_102534_704)",
+      "video_url": "https://archive.org/download/vid-20251018-102545-056/VID_20251018_102534_704.mp4"
+    },
+    {
+      "episode": 14,
+      "title": "Clip 14 (VID_20251018_102536_896)",
+      "video_url": "https://archive.org/download/vid-20251018-102545-056/VID_20251018_102536_896.mp4"
+    },
+    {
+      "episode": 15,
+      "title": "Clip 15 (VID_20251018_102539_160)",
+      "video_url": "https://archive.org/download/vid-20251018-102545-056/VID_20251018_102539_160.mp4"
+    },
+    {
+      "episode": 16,
+      "title": "Clip 16 (VID_20251018_102542_363)",
+      "video_url": "https://archive.org/download/vid-20251018-102545-056/VID_20251018_102542_363.mp4"
+    },
+    {
+      "episode": 17,
+      "title": "Clip 17 (VID_20251018_102545_056)",
+      "video_url": "https://archive.org/download/vid-20251018-102545-056/VID_20251018_102545_056.mp4"
+    },
+    {
+      "episode": 18,
+      "title": "Clip 18 (VID_20251018_102547_503)",
+      "video_url": "https://archive.org/download/vid-20251018-102545-056/VID_20251018_102547_503.mp4"
+    },
+    {
+      "episode": 19,
+      "title": "Clip 19 (VID_20251018_102550_612)",
+      "video_url": "https://archive.org/download/vid-20251018-102545-056/VID_20251018_102550_612.mp4"
+    },
+    {
+      "episode": 20,
+      "title": "Clip 20 (VID_20251018_102552_907)",
+      "video_url": "https://archive.org/download/vid-20251018-102545-056/VID_20251018_102552_907.mp4"
+    },
+    {
+      "episode": 21,
+      "title": "Clip 21 (VID_20251018_102557_323)",
+      "video_url": "https://archive.org/download/vid-20251018-102545-056/VID_20251018_102557_323.mp4"
+    }
+  ]
+},
   
   {
   "title": "Boku no Hero Academia Temporada 6",
