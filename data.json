@@ -1,4 +1,334 @@
 [
+
+  
+  {
+    "title": "Mini Espías (Spy Kids) (2001)",
+    "description": "Los hijos de dos espías retirados deben convertirse en espías para rescatar a sus padres secuestrados por el malvado Fegan Floop.",
+    "year": 2001,
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0N1AVeEMDbJNCGB3YPiNkIkfnil1AWOSdaA&s",
+    "genre": [
+      "Aventura",
+      "Comedia",
+      "Familiar"
+    ],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/Mini%20Esp%C3%ADas%202001%20-%20Pelicula%20-%20Cuevana%203.ia.mp4"
+  },
+  {
+    "title": "Mini Espías 2: La Isla de los Sueños Perdidos (Spy Kids 2) (2002)",
+    "description": "Carmen y Juni Cortez se enfrentan a un científico loco en una isla donde habitan criaturas extrañas y deben recuperar un dispositivo que desestabiliza la Tierra.",
+    "year": 2002,
+    "coverImage": "https://static.wikia.nocookie.net/doblaje/images/d/d0/Espias2.jpg/revision/latest/thumbnail/width/360/height/450?cb=20250115044128&path-prefix=es",
+    "genre": [
+      "Aventura",
+      "Comedia",
+      "Familiar"
+    ],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/Mini%20esp%C3%ADas%202-%20La%20isla%20de%20los%20sue%C3%B1os%20perdidos%202002%20-%20Pelicula%20-%20Cuevana%203.ia.mp4"
+  },
+  {
+    "title": "Mini Espías 3-D (Spy Kids 3-D: Game Over) (2003)",
+    "description": "Juni debe adentrarse en un juego de realidad virtual para rescatar a su hermana y frustrar los planes de 'El Juguetero'.",
+    "year": 2003,
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8UB1GHLS7hCkZHuqSqsYTLlPpudGJHC-YCQ&s",
+    "genre": [
+      "Aventura",
+      "Ciencia Ficción",
+      "Familiar"
+    ],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/Mini%20esp%C3%ADas%203-D%202003%20-%20Pelicula%20-%20Cuevana%203.ia.mp4"
+  },
+  {
+    "title": "Mini espías 4: Los ladrones del tiempo (Spy Kids 4D) (2011)",
+    "description": "Una nueva generación de niños espías debe trabajar junto a Marisa Cortez (madrastra de Carmen y Juni) para detener a un villano conocido como 'El Guardián del Tiempo'.",
+    "year": 2011,
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxK9vh97UQ0hptPZ0zfC4y3zOUuyhPBjg8rw&s",
+    "genre": [
+      "Aventura",
+      "Comedia",
+      "Familiar"
+    ],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/Mini%20esp%C3%ADas%204-%20Los%20ladrones%20del%20tiempo%202011%20-%20Pelicula%20-%20Cuevana%203.mp4"
+  },
+  {
+    "title": "Percy Jackson y el Ladrón del Rayo (2010)",
+    "description": "Percy Jackson, un joven que descubre ser hijo de Poseidón, emprende un viaje a través de Estados Unidos para evitar una guerra entre los dioses del Olimpo.",
+    "year": 2010,
+    "coverImage": "https://play-lh.googleusercontent.com/w5sipsAvCKBB-eWX5Se5GyBBiYIsGXIzfAcbg9TzzzMcaYQ_4wKDrpuKdyHsHKhL3sdL",
+    "genre": [
+      "Fantasía",
+      "Aventura"
+    ],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/Percy%20Jackson%201%20y%20el%20Ladr%C3%B3n%20del%20Rayo%20%282010%29.ia.mp4"
+  },
+  {
+    "title": "Resacón en Las Vegas (The Hangover) (2009)",
+    "description": "Cuatro amigos viajan a Las Vegas para una despedida de soltero y se despiertan sin recordar nada de la noche anterior, con el novio desaparecido y un tigre en el baño.",
+    "year": 2009,
+    "coverImage": "https://es.web.img3.acsta.net/medias/nmedia/18/69/99/97/20028573.jpg",
+    "genre": [
+      "Comedia"
+    ],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/RESAC%C3%93N%201%20%282009%29%20%E2%9C%94.ia.mp4"
+  },
+  {
+    "title": "Resacón 2: Ahora en Tailandia (The Hangover Part II) (2011)",
+    "description": "Los amigos se reúnen para la boda de Stu en Tailandia, pero la despedida de soltero se convierte en otro desastre memorable con un simio y un tatuaje facial.",
+    "year": 2011,
+    "coverImage": "https://www.imdb.com/es-es/title/tt1411697/",
+    "genre": [
+      "Comedia"
+    ],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/RESAC%C3%93N%202%20%282011%29%20%E2%9C%94.ia.mp4"
+  },
+  {
+    "title": "Resacón 3 (The Hangover Part III) (2013)",
+    "description": "Esta vez, no hay boda ni despedida de soltero, pero el grupo de amigos se ve envuelto en una nueva aventura cuando intentan llevar a Alan a un centro de tratamiento.",
+    "year": 2013,
+    "coverImage": "https://pics.filmaffinity.com/R3sacaon-749776753-large.jpg",
+    "genre": [
+      "Comedia"
+    ],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/RESAC%C3%93N%203%20%282013%29%20%E2%9C%94.ia.mp4"
+  },
+  {
+    "title": "Resacón en Las Vegas ellas también (Hangover in Vegas) (2014)",
+    "description": "Película que parodia la saga Resacón, centrándose en una despedida de soltera en Las Vegas.",
+    "year": 2014,
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7Nl4zLPnApO5z08BmEIcawiqTY_SQujISHw&s",
+    "genre": [
+      "Comedia",
+      "Parodia"
+    ],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/RESAC%C3%93N%20EN%20LAS%20VEGAS%20ELLAS%20TAMBIEN%20%282014%29%20%E2%9C%94.ia.mp4"
+  },
+  {
+    "title": "American Pie (1999)",
+    "description": "Un grupo de adolescentes de secundaria hace un pacto para perder su virginidad antes de graduarse.",
+    "year": 1999,
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbooIzI_C-ZGXlEr7QHFidoctnfMkv1Gk8bg&s",
+    "genre": [
+      "Comedia",
+      "Adolescente"
+    ],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/AMERICAN%20PIE%201%20%281999%29%20%E2%9C%94.ia.mp4"
+  },
+  {
+    "title": "American Pie 2 (2001)",
+    "description": "Un año después de graduarse, los amigos se reúnen para pasar el verano juntos, enfrentando nuevas situaciones embarazosas y románticas.",
+    "year": 2001,
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_rj40D2oZpeoW8klOTAIffi8pr9JoYqvYrA&s",
+    "genre": [
+      "Comedia",
+      "Adolescente"
+    ],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/AMERICAN%20PIE%202%20%282001%29%20%E2%9C%94.ia.mp4"
+  },
+  {
+    "title": "American Pie 3: ¡Menuda Boda! (American Wedding) (2003)",
+    "description": "Jim y Michelle planean su boda, pero Stifler se encarga de que la preparación sea un caos total.",
+    "year": 2003,
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4IbKemAX04pSkP_X2GUPw1yZ6K9zNkDySVQ&s",
+    "genre": [
+      "Comedia"
+    ],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/AMERICAN%20PIE%203%20%21MENUDA%20BODA%21%20%282003%29%20%E2%9C%94.ia.mp4"
+  },
+  {
+    "title": "American Pie 4 presenta: Band Camp (American Pie Presents: Band Camp) (2005)",
+    "description": "La primera entrega spin-off de la saga, centrada en el hermano menor de Stifler en el campamento de verano.",
+    "year": 2005,
+    "coverImage": "https://play-lh.googleusercontent.com/afkCNyP3q1EVRiE-_0nH1s-jjlIi8zMyRYoOXWUY3eKHE4C6vu8pIn-DXxLmd7WdXck",
+    "genre": [
+      "Comedia"
+    ],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/AMERICAN%20PIE%204%20%20PRESENTA%20BAND%20CAMP%20%282005%29%20%E2%9C%94.ia.mp4"
+  },
+  {
+    "title": "American Pie 5: Una Fiesta de Pelotas (American Pie Presents: The Naked Mile) (2006)",
+    "description": "Otro spin-off que sigue a un familiar de los Stifler en la universidad y una infame carrera desnuda.",
+    "year": 2006,
+    "coverImage": "https://m.media-amazon.com/images/M/MV5BYzVhNjgwNGEtYzgzZS00MTc3LThiM2QtYzFiMTQ5ZGUzNGJlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "genre": [
+      "Comedia"
+    ],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/AMERICAN%20PIE%205%20UNA%20FIESTA%20DE%20PELOTAS%20%282006%29%20%E2%9C%94.ia.mp4"
+  },
+  {
+    "title": "American Pie 6: Fraternidad Beta (American Pie Presents: Beta House) (2007)",
+    "description": "La continuación de la historia del primo de Stifler y sus aventuras en la fraternidad Delta Beta Gamma.",
+    "year": 2007,
+    "coverImage": "https://m.media-amazon.com/images/I/51K7CLFZzxL._AC_UF894,1000_QL80_.jpg",
+    "genre": [
+      "Comedia"
+    ],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/AMERICAN%20PIE%206%20FRATERNIDAD%20BETA%20%282007%29%20%E2%9C%94.ia.mp4"
+  },
+  {
+    "title": "American Pie 7: El Libro del Amor (American Pie Presents: The Book of Love) (2009)",
+    "description": "Tres nuevos chicos descubren un legendario 'Libro del Amor' lleno de consejos sobre cómo conseguir chicas.",
+    "year": 2009,
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ55TJZSCIaPyGygVnUGvbKcDT6yMSBnc7wQ&s",
+    "genre": [
+      "Comedia"
+    ],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/AMERICAN%20PIE%207%20EL%20LIBRO%20DEL%20AMOR%20%282009%29%20%E2%9C%94.ia.mp4"
+  },
+  {
+    "title": "American Pie 8: El Reencuentro (American Reunion) (2012)",
+    "description": "El reparto original de la primera trilogía se reúne para su reunión de la escuela secundaria, enfrentando la nostalgia y las realidades de la vida adulta.",
+    "year": 2012,
+    "coverImage": "https://m.media-amazon.com/images/I/718aYA9Fs2L._AC_UF894,1000_QL80_.jpg",
+    "genre": [
+      "Comedia"
+    ],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/AMERICAN%20PIE%208%20EL%20REENCUENTRO%20%282012%29%20%E2%9C%94.ia.mp4"
+  },
+  {
+    "title": "Transporter (El Transportador) (2002)",
+    "description": "Frank Martin, un exsoldado de operaciones especiales, trabaja como un 'transportador' que entrega paquetes peligrosos sin hacer preguntas. Pero rompe su regla fundamental al abrir uno de ellos.",
+    "year": 2002,
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPTiB_8vTPcG8v2Ze9Jp3pkb21-HFmG_Xndw&s",
+    "genre": [
+      "Acción",
+      "Crimen",
+      "Thriller"
+    ],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/TRANSPORTER%201%20%282002%29%20%E2%9C%94.ia.mp4"
+  },
+  {
+    "title": "Transporter 2 (El Transportador 2) (2005)",
+    "description": "Frank Martin, ahora trabajando como chofer de la familia Billings en Miami, debe rescatar al hijo de la familia que ha sido secuestrado por una peligrosa red criminal.",
+    "year": 2005,
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRACF1Mc1yGKaHXWnohimu54U9k8WKztr8X4g&s",
+    "genre": [
+      "Acción",
+      "Crimen",
+      "Thriller"
+    ],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/TRANSPORTER%202%20%282005%29%20%E2%9C%94.ia.mp4"
+  },
+  {
+    "title": "Transporter 3 (El Transportador 3) (2008)",
+    "description": "Frank Martin es forzado a transportar a Valentina, la hija secuestrada de un oficial del gobierno ucraniano, a través de Europa, atado a un dispositivo explosivo.",
+    "year": 2008,
+    "coverImage": "https://play-lh.googleusercontent.com/Rs1nEKq-UydJ9Sd4qtm3azMAERKBdlV7t6Pc-u7jS9EFksfA5WIfpaXXhshbI-t46Bx7",
+    "genre": [
+      "Acción",
+      "Crimen",
+      "Thriller"
+    ],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/TRANSPORTER%203%20%282008%29%20%E2%9C%94.ia.mp4"
+  },
+  {
+    "title": "Transporter Legacy (Transporter Refueled) (2015)",
+    "description": "Reboot de la saga que presenta a un nuevo Frank Martin, quien se involucra en una misión de venganza planeada por una misteriosa femme fatale y tres compañeras.",
+    "year": 2015,
+    "coverImage": "https://m.media-amazon.com/images/I/81RlW5yPX1L._AC_UF1000,1000_QL80_.jpg",
+    "genre": [
+      "Acción",
+      "Thriller"
+    ],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/TRANSPORTER%20LEGACY%20%282015%29%20%E2%9C%94.ia.mp4"
+  },
+  {
+    "title": "Un Quijote sin mancha (1969)",
+    "description": "Comedia mexicana protagonizada por Cantinflas, que interpreta a un abogado honesto que se enfrenta a la corrupción de la burocracia, inspirado por Don Quijote.",
+    "year": 1969,
+    "coverImage": "https://pics.filmaffinity.com/Un_Quijote_sin_mancha-948529970-large.jpg",
+    "genre": [
+      "Comedia",
+      "Cine Mexicano"
+    ],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/%E2%98%85%2039.-%20Un%20Quijote%20sin%20mancha%20%281969%29.ia.mp4"
+  },
+  {
+    "title": "Don Quijote cabalga de nuevo (1973)",
+    "description": "Una adaptación cinematográfica de la novela de Cervantes, con la participación de Mario Moreno 'Cantinflas' como Sancho Panza y Fernando Fernán Gómez como Don Quijote.",
+    "year": 1973,
+    "coverImage": "https://play-lh.googleusercontent.com/proxy/wkxWUi1UnaXaU3wNO8j6VkAoQiisq2B_uuV-DnKYCNDoCoz2W-rn6DlG1MzTR0ng8gVKyJ-KnOFNa-Pw0fIheUDF-sYsptJyM7cwoH6S2lcPOL-PWNgQemgCSNket1T9WAAQo9_mgb34hg7a7vaXBJGzPDl1xr5xPfveHA",
+    "genre": [
+      "Aventura",
+      "Comedia"
+    ],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/%E2%98%85%2041.-%20Don%20Quijote%20cabalga%20de%20nuevo%20%281973%29.ia.mp4"
+  },
+  {
+    "title": "Matrix: Revoluciones (The Matrix Revolutions) (2003)",
+    "description": "Neo se prepara para su última batalla contra las máquinas, mientras el ejército de Sión defiende la última fortaleza humana de un ataque masivo.",
+    "year": 2003,
+    "coverImage": "https://play-lh.googleusercontent.com/GYnqXgUD_EhwOBx8n-uDjxSASJJzNw2riZVxyBxEgqFRWZUuclqr6LF6pP2CXyJLVKavWWZC1fcyouXZFQ",
+    "genre": [
+      "Ciencia Ficción",
+      "Acción"
+    ],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/%E2%9C%A0%20%203.-%20MATRIX%20REVOLUTIONS%20%282003%29%20%E2%9C%94.ia.mp4"
+  },
+  {
+    "title": "Matrix: Resurrecciones (The Matrix Resurrections) (2021)",
+    "description": "Neo vive una vida normal en San Francisco, pero cuando es confrontado por viejos recuerdos, una nueva versión de Morfeo le ofrece la píldora roja.",
+    "year": 2021,
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwkwyGpsYFsYPOlVFyz1LkTAAwTpaSrozPuw&s",
+    "genre": [
+      "Ciencia Ficción",
+      "Acción"
+    ],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/%E2%9C%A0%20%204.-%20MATRIX%20RESURRECTIONS%20%282021%29%20%E2%9C%94.ia.mp4"
+  },
+  {
+    "title": "Matrix (The Matrix) (1999)",
+    "description": "Un programador de computadoras descubre que la realidad es una simulación elaborada por máquinas y se une a una rebelión contra ellas.",
+    "year": 1999,
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ72pMC4CDCsB0hwuWGq5tZA---qO4yt4fTSg&s",
+    "genre": [
+      "Ciencia Ficción",
+      "Acción"
+    ],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/%E2%9C%A0%201.-%20MATRIX%20%281999%29%20%E2%9C%94.ia.mp4"
+  },
+  {
+    "title": "RoboCop (1987)",
+    "description": "Un policía es brutalmente asesinado y resucitado como un cyborg conocido como RoboCop en una Detroit distópica plagada de crimen.",
+    "year": 1987,
+    "coverImage": "https://m.media-amazon.com/images/M/MV5BZWM1YzRhODktZDE1MC00NzBlLTk0NGMtOGNhZDQyMmJiZGFiXkEyXkFqcGc@._V1_.jpg",
+    "genre": [
+      "Ciencia Ficción",
+      "Acción"
+    ],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/%E2%9C%A0%20ROBOCOP%20%281987%29.ia.mp4"
+  },
+  {
+    "title": "RoboCop (2014)",
+    "description": "Remake de la película de 1987, donde un policía de Detroit es convertido en un cyborg para luchar contra el crimen.",
+    "year": 2014,
+    "coverImage": "https://play-lh.googleusercontent.com/-h6lvwZLmhrPS4p5jYQpMHy-KpVgCZ1qs2w7bvl82WvaVSeX9Y2FdjZBr60way4oNBQp=w240-h480-rw",
+    "genre": [
+      "Ciencia Ficción",
+      "Acción"
+    ],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/%E2%9C%A0%20ROBOCOP%20%282014%29.ia.mp4"
+  },
+  {
+    "title": "RoboCop 2 (1990)",
+    "description": "RoboCop se enfrenta a una nueva amenaza: un nuevo ciborg de control de masas creado para reemplazarlo, llamado RoboCop 2.",
+    "year": 1990,
+    "coverImage": "https://play-lh.googleusercontent.com/r_Hts4bvPq6v39PNX0PEPHjLpQWXNRyWiC8vg5YHvmILDi_ZrJlQJP5TsEHpcM0C-NCR=w240-h480-rw",
+    "genre": [
+      "Ciencia Ficción",
+      "Acción"
+    ],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/%E2%9C%A0%20ROBOCOP%202%20%281990%29.ia.mp4"
+  },
+  {
+    "title": "RoboCop 3 (1993)",
+    "description": "RoboCop se une a un grupo de rebeldes que intentan evitar que la OCP desaloje por la fuerza a los residentes de Old Detroit.",
+    "year": 1993,
+    "coverImage": "https://pics.filmaffinity.com/robocop_3-758520258-large.jpg",
+    "genre": [
+      "Ciencia Ficción",
+      "Acción"
+    ],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/%E2%9C%A0%20ROBOCOP%203%20%281993%29.ia.mp4"
+  },
   
 {
   "title": "Yu-Gi-Oh! GX Temporada 3",
