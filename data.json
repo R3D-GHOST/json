@@ -1,4 +1,147 @@
 [
+{
+    "title": "George de la Jungla",
+    "coverImage": "https://static.wikia.nocookie.net/cartoonnetwork/images/1/11/George_de_la_Selva.jpg/revision/latest?cb=20160709060109&path-prefix=es",
+    "description": "George de la jungla es un niño atrapado en el cuerpo de un joven, un irreprimible, heroico y torpe buen hombre. Remake de la serie de 1967. George es el Rey de la Jungla que protege la selva de Mbebwe con la ayuda de sus amigos Simio y Úrsula.",
+    "genre": [
+      "Animación",
+      "Comedia",
+      "Aventura",
+      "Infantil"
+    ],
+    "episodes": [
+      {
+        "episode": 1,
+        "title": "George de la Jungla 1x01",
+        "video_url": "https://archive.org/download/george-de-la-jungla-1x-26/George%20de%20la%20Jungla%201x01.mp4"
+      },
+      {
+        "episode": 2,
+        "title": "George de la Jungla 1x02",
+        "video_url": "https://archive.org/download/george-de-la-jungla-1x-26/George%20de%20la%20Jungla%201x02.mp4"
+      },
+      {
+        "episode": 3,
+        "title": "George de la Jungla 1x03",
+        "video_url": "https://archive.org/download/george-de-la-jungla-1x-26/George%20de%20la%20Jungla%201x03.mp4"
+      },
+      {
+        "episode": 4,
+        "title": "George de la Jungla 1x04",
+        "video_url": "https://archive.org/download/george-de-la-jungla-1x-26/George%20de%20la%20Jungla%201x04.mp4"
+      },
+      {
+        "episode": 5,
+        "title": "George de la Jungla 1x05",
+        "video_url": "https://archive.org/download/george-de-la-jungla-1x-26/George%20de%20la%20Jungla%201x05.mp4"
+      },
+      {
+        "episode": 6,
+        "title": "George de la Jungla 1x06",
+        "video_url": "https://archive.org/download/george-de-la-jungla-1x-26/George%20de%20la%20Jungla%201x06.mp4"
+      },
+      {
+        "episode": 7,
+        "title": "George de la Jungla 1x07",
+        "video_url": "https://archive.org/download/george-de-la-jungla-1x-26/George%20de%20la%20Jungla%201x07.mp4"
+      },
+      {
+        "episode": 8,
+        "title": "George de la Jungla 1x08",
+        "video_url": "https://archive.org/download/george-de-la-jungla-1x-26/George%20de%20la%20Jungla%201x08.mp4"
+      },
+      {
+        "episode": 9,
+        "title": "George de la Jungla 1x09",
+        "video_url": "https://archive.org/download/george-de-la-jungla-1x-26/George%20de%20la%20Jungla%201x09.mp4"
+      },
+      {
+        "episode": 10,
+        "title": "George de la Jungla 1x10",
+        "video_url": "https://archive.org/download/george-de-la-jungla-1x-26/George%20de%20la%20Jungla%201x10.mp4"
+      },
+      {
+        "episode": 11,
+        "title": "George de la Jungla 1x11",
+        "video_url": "https://archive.org/download/george-de-la-jungla-1x-26/George%20de%20la%20Jungla%201x11.mp4"
+      },
+      {
+        "episode": 12,
+        "title": "George de la Jungla 1x12",
+        "video_url": "https://archive.org/download/george-de-la-jungla-1x-26/George%20de%20la%20Jungla%201x12.mp4"
+      },
+      {
+        "episode": 13,
+        "title": "George de la Jungla 1x13",
+        "video_url": "https://archive.org/download/george-de-la-jungla-1x-26/George%20de%20la%20Jungla%201x13.mp4"
+      },
+      {
+        "episode": 14,
+        "title": "George de la Jungla 1x14",
+        "video_url": "https://archive.org/download/george-de-la-jungla-1x-26/George%20de%20la%20Jungla%201x14.mp4"
+      },
+      {
+        "episode": 15,
+        "title": "George de la Jungla 1x15",
+        "video_url": "https://archive.org/download/george-de-la-jungla-1x-26/George%20de%20la%20Jungla%201x15.mp4"
+      },
+      {
+        "episode": 16,
+        "title": "George de la Jungla 1x16",
+        "video_url": "https://archive.org/download/george-de-la-jungla-1x-26/George%20de%20la%20Jungla%201x16.mp4"
+      },
+      {
+        "episode": 17,
+        "title": "George de la Jungla 1x17",
+        "video_url": "https://archive.org/download/george-de-la-jungla-1x-26/George%20de%20la%20Jungla%201x17.mp4"
+      },
+      {
+        "episode": 18,
+        "title": "George de la Jungla 1x18",
+        "video_url": "https://archive.org/download/george-de-la-jungla-1x-26/George%20de%20la%20Jungla%201x18.mp4"
+      },
+      {
+        "episode": 19,
+        "title": "George de la Jungla 1x19",
+        "video_url": "https://archive.org/download/george-de-la-jungla-1x-26/George%20de%20la%20Jungla%201x19.mp4"
+      },
+      {
+        "episode": 20,
+        "title": "George de la Jungla 1x20",
+        "video_url": "https://archive.org/download/george-de-la-jungla-1x-26/George%20de%20la%20Jungla%201x20.mp4"
+      },
+      {
+        "episode": 21,
+        "title": "George de la Jungla 1x21",
+        "video_url": "https://archive.org/download/george-de-la-jungla-1x-26/George%20de%20la%20Jungla%201x21.mp4"
+      },
+      {
+        "episode": 22,
+        "title": "George de la Jungla 1x22",
+        "video_url": "https://archive.org/download/george-de-la-jungla-1x-26/George%20de%20la%20Jungla%201x22.mp4"
+      },
+      {
+        "episode": 23,
+        "title": "George de la Jungla 1x23",
+        "video_url": "https://archive.org/download/george-de-la-jungla-1x-26/George%20de%20la%20Jungla%201x23.mp4"
+      },
+      {
+        "episode": 24,
+        "title": "George de la Jungla 1x24",
+        "video_url": "https://archive.org/download/george-de-la-jungla-1x-26/George%20de%20la%20Jungla%201x24.mp4"
+      },
+      {
+        "episode": 25,
+        "title": "George de la Jungla 1x25",
+        "video_url": "https://archive.org/download/george-de-la-jungla-1x-26/George%20de%20la%20Jungla%201x25.mp4"
+      },
+      {
+        "episode": 26,
+        "title": "George de la Jungla 1x26",
+        "video_url": "https://archive.org/download/george-de-la-jungla-1x-26/George%20de%20la%20Jungla%201x26.mp4"
+      }
+    ]
+  },
   
   {
     "title": "Futurama",
