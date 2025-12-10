@@ -1,5 +1,228 @@
 [
   {
+  "title": "Reideen",
+  "coverImage": "https://imgs.search.brave.com/Nber6nUMBWWud8QJ2rEhDdP2AZJj82HRLYthZvN8O0Y/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL00vTVY1Qk5XRTJOR00zT0dNdFl6azVPUzAwTXprekxUazBOR1F0WW1VM1pUTm1NMlExTkdOaFhrRXlYa0ZxY0djQC5qcGc",
+  "description": "Remake de la serie 'Yûsha Raidîn' de 1975. Junki Saiga es un estudiante de secundaria que, tras un viaje a unas ruinas, se encuentra con una misteriosa pulsera de oro con la inscripción 'El gran Reideen', involucrándose en una batalla contra una amenaza alienígena.",
+  "genre": [
+    "Anime",
+    "Ciencia Ficción",
+    "Mecha",
+    "Acción",
+    "Robots"
+  ],
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "Episodio 01 [Doblaje Castellaño]",
+      "video_url": "https://archive.org/download/reideen-2007-full-anime-with-spanish-dubbingspain/Reideen%20-%20EP%2001%20%5BDoblaje%20Castella%C3%B1o%5D.mp4"
+    },
+    {
+      "episode": 2,
+      "title": "Episodio 02 [Doblaje Castellaño]",
+      "video_url": "https://archive.org/download/reideen-2007-full-anime-with-spanish-dubbingspain/Reideen%20-%20EP%2002%20%5BDoblaje%20Castella%C3%B1o%5D.mp4"
+    },
+    {
+      "episode": 3,
+      "title": "Episodio 03 [Doblaje Castellaño]",
+      "video_url": "https://archive.org/download/reideen-2007-full-anime-with-spanish-dubbingspain/Reideen%20-%20EP%2003%20%5BDoblaje%20Castella%C3%B1o%5D.mp4"
+    },
+    {
+      "episode": 4,
+      "title": "Episodio 04 [Doblaje Castellaño]",
+      "video_url": "https://archive.org/download/reideen-2007-full-anime-with-spanish-dubbingspain/Reideen%20-%20EP%2004%20%5BDoblaje%20Castella%C3%B1o%5D.mp4"
+    },
+    {
+      "episode": 5,
+      "title": "Episodio 05 [Doblaje Castellaño]",
+      "video_url": "https://archive.org/download/reideen-2007-full-anime-with-spanish-dubbingspain/Reideen%20-%20EP%2005%20%5BDoblaje%20Castella%C3%B1o%5D.mp4"
+    },
+    {
+      "episode": 6,
+      "title": "Episodio 06 [Doblaje Castellaño]",
+      "video_url": "https://archive.org/download/reideen-2007-full-anime-with-spanish-dubbingspain/Reideen%20-%20EP%2006%20%5BDoblaje%20Castella%C3%B1o%5D.mp4"
+    },
+    {
+      "episode": 7,
+      "title": "Episodio 07 [Doblaje Castellaño]",
+      "video_url": "https://archive.org/download/reideen-2007-full-anime-with-spanish-dubbingspain/Reideen%20-%20EP%2007%20%5BDoblaje%20Castella%C3%B1o%5D.mp4"
+    },
+    {
+      "episode": 8,
+      "title": "Episodio 08 [Doblaje Castellaño]",
+      "video_url": "https://archive.org/download/reideen-2007-full-anime-with-spanish-dubbingspain/Reideen%20-%20EP%2008%20%5BDoblaje%20Castella%C3%B1o%5D.mp4"
+    },
+    {
+      "episode": 9,
+      "title": "Episodio 09 [Doblaje Castellaño]",
+      "video_url": "https://archive.org/download/reideen-2007-full-anime-with-spanish-dubbingspain/Reideen%20-%20EP%2009%20%5BDoblaje%20Castella%C3%B1o%5D.mp4"
+    },
+    {
+      "episode": 10,
+      "title": "Episodio 10 [Doblaje Castellaño]",
+      "video_url": "https://archive.org/download/reideen-2007-full-anime-with-spanish-dubbingspain/Reideen%20-%20EP%2010%20%5BDoblaje%20Castella%C3%B1o%5D.mp4"
+    },
+    {
+      "episode": 11,
+      "title": "Episodio 11 [Doblaje Castellaño]",
+      "video_url": "https://archive.org/download/reideen-2007-full-anime-with-spanish-dubbingspain/Reideen%20-%20EP%2011%20%5BDoblaje%20Castella%C3%B1o%5D.mp4"
+    },
+    {
+      "episode": 12,
+      "title": "Episodio 12 [Doblaje Castellaño]",
+      "video_url": "https://archive.org/download/reideen-2007-full-anime-with-spanish-dubbingspain/Reideen%20-%20EP%2012%20%5BDoblaje%20Castella%C3%B1o%5D.mp4"
+    },
+    {
+      "episode": 13,
+      "title": "Episodio 13 [Doblaje Castellaño]",
+      "video_url": "https://archive.org/download/reideen-2007-full-anime-with-spanish-dubbingspain/Reideen%20-%20EP%2013%20%5BDoblaje%20Castella%C3%B1o%5D.mp4"
+    },
+    {
+      "episode": 14,
+      "title": "Episodio 14 [Doblaje Castellaño]",
+      "video_url": "https://archive.org/download/reideen-2007-full-anime-with-spanish-dubbingspain/Reideen%20-%20EP%2014%20%5BDoblaje%20Castella%C3%B1o%5D.mp4"
+    },
+    {
+      "episode": 15,
+      "title": "Episodio 15 [Doblaje Castellaño]",
+      "video_url": "https://archive.org/download/reideen-2007-full-anime-with-spanish-dubbingspain/Reideen%20-%20EP%2015%20%5BDoblaje%20Castella%C3%B1o%5D.mp4"
+    },
+    {
+      "episode": 16,
+      "title": "Episodio 16 [Doblaje Castellaño]",
+      "video_url": "https://archive.org/download/reideen-2007-full-anime-with-spanish-dubbingspain/Reideen%20-%20EP%2016%20%5BDoblaje%20Castella%C3%B1o%5D.mp4"
+    },
+    {
+      "episode": 17,
+      "title": "Episodio 17 [Doblaje Castellaño]",
+      "video_url": "https://archive.org/download/reideen-2007-full-anime-with-spanish-dubbingspain/Reideen%20-%20EP%2017%20%5BDoblaje%20Castella%C3%B1o%5D.mp4"
+    },
+    {
+      "episode": 18,
+      "title": "Episodio 18 [Doblaje Castellaño]",
+      "video_url": "https://archive.org/download/reideen-2007-full-anime-with-spanish-dubbingspain/Reideen%20-%20EP%2018%20%5BDoblaje%20Castella%C3%B1o%5D.mp4"
+    },
+    {
+      "episode": 19,
+      "title": "Episodio 19 [Doblaje Castellaño]",
+      "video_url": "https://archive.org/download/reideen-2007-full-anime-with-spanish-dubbingspain/Reideen%20-%20EP%2019%20%5BDoblaje%20Castella%C3%B1o%5D.mp4"
+    },
+    {
+      "episode": 20,
+      "title": "Episodio 20 [Doblaje Castellaño]",
+      "video_url": "https://archive.org/download/reideen-2007-full-anime-with-spanish-dubbingspain/Reideen%20-%20EP%2020%20%5BDoblaje%20Castella%C3%B1o%5D.mp4"
+    },
+    {
+      "episode": 21,
+      "title": "Episodio 21 [Doblaje Castellaño]",
+      "video_url": "https://archive.org/download/reideen-2007-full-anime-with-spanish-dubbingspain/Reideen%20-%20EP%2021%20%5BDoblaje%20Castella%C3%B1o%5D.mp4"
+    },
+    {
+      "episode": 22,
+      "title": "Episodio 22 [Doblaje Castellaño]",
+      "video_url": "https://archive.org/download/reideen-2007-full-anime-with-spanish-dubbingspain/Reideen%20-%20EP%2022%20%5BDoblaje%20Castella%C3%B1o%5D.mp4"
+    },
+    {
+      "episode": 23,
+      "title": "Episodio 23 [Doblaje Castellaño]",
+      "video_url": "https://archive.org/download/reideen-2007-full-anime-with-spanish-dubbingspain/Reideen%20-%20EP%2023%20%5BDoblaje%20Castella%C3%B1o%5D.mp4"
+    },
+    {
+      "episode": 24,
+      "title": "Episodio 24 [Doblaje Castellaño]",
+      "video_url": "https://archive.org/download/reideen-2007-full-anime-with-spanish-dubbingspain/Reideen%20-%20EP%2024%20%5BDoblaje%20Castella%C3%B1o%5D.mp4"
+    },
+    {
+      "episode": 25,
+      "title": "Episodio 25 [Doblaje Castellaño]",
+      "video_url": "https://archive.org/download/reideen-2007-full-anime-with-spanish-dubbingspain/Reideen%20-%20EP%2025%20%5BDoblaje%20Castella%C3%B1o%5D.mp4"
+    },
+    {
+      "episode": 26,
+      "title": "Episodio 26 [Doblaje Castellaño]",
+      "video_url": "https://archive.org/download/reideen-2007-full-anime-with-spanish-dubbingspain/Reideen%20-%20EP%2026%20%5BDoblaje%20Castella%C3%B1o%5D.mp4"
+    }
+  ]
+},
+  {
+    "title": "Las Cuatro Bodas de Marisol (1967)",
+    "description": "Una comedia musical española protagonizada por Marisol, donde la joven se enfrenta a diferentes situaciones amorosas y las complejidades de elegir el camino de su vida.",
+    "year": 1967,
+    "coverImage": "https://imgs.search.brave.com/r0Vg6htF1ipzSrOwfrBvhKNu0jJhyxsqKbLm__ST-aM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1QlpUa3hNREJp/WWprdE9HUmpOUzAw/T1dZMExXRmhZbUV0/WkRsbE5UWTVZV1V5/TmpJeFhrRXlYa0Zx/Y0djQC5qcGc",
+    "genre": [
+      "Musical",
+      "Comedia"
+    ],
+    "video_url": "https://archive.org/download/las-cuatro-bodas-de-marisol-1967/Las%20Cuatro%20Bodas%20de%20Marisol%20%281967%29.mp4"
+  },
+  {
+    "title": "Solos los dos (1968)",
+    "description": "Una película musical y dramática protagonizada por Marisol y Palomo Linares. La historia se centra en el romance entre un torero y una cantante en el ambiente taurino.",
+    "year": 1968,
+    "coverImage": "https://imgs.search.brave.com/Pd6aNnN7uM8up8cKC_VLUHAP1MBeUR1MTYCDEvD3Zvo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1Qk5HVXlNV0Zo/WXpjdE9EWTBaUzAw/TVRJeExXRTNOR010/WTJKaE1EWmlZVEkw/TWpVeVhrRXlYa0Zx/Y0djQC5qcGc",
+    "genre": [
+      "Musical",
+      "Drama",
+      "Romance"
+    ],
+    "video_url": "https://archive.org/download/solos-los-dos-1968/Solos%20los%20dos%20%281968%29.mp4"
+  },
+  {
+    "title": "En Un Mundo Nuevo (1972)",
+    "description": "Una película española donde Marisol, ahora una joven mujer, se enfrenta a la fama y a la vida adulta en el mundo del espectáculo, mientras busca el amor verdadero.",
+    "year": 1972,
+    "coverImage": "https://imgs.search.brave.com/aer8yADWZ2uVFtlYmbGLvr2k2MkntYZdo-_VZQtYtA0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1QllXUmpZVEZt/TnpBdFlUY3pZUzAw/T1dRMExXSTJNalF0/T0RoaE5EQTBaamN6/T0RNd1hrRXlYa0Zx/Y0djQC5qcGc",
+    "genre": [
+      "Musical",
+      "Comedia"
+    ],
+    "video_url": "https://archive.org/download/en-un-mundo-nuevo-1972/En%20Un%20Mundo%20Nuevo%20%281972%29.mp4"
+  },
+  {
+    "title": "El Gallo De Oro",
+    "description": "Película mexicana basada en la obra de Juan Rulfo. Un humilde pregonero gana un gallo de pelea que le trae riqueza y problemas, incluyendo el enfrentamiento con un poderoso hacendado.",
+    "year": "N/A",
+    "coverImage": "https://imgs.search.brave.com/lPRWwzz-fbDUVa_LN4DxEAhEnKQz0FCef_JGcNpayZU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NTFDSW1KanVrSUwu/anBn",
+    "genre": [
+      "Drama",
+      "Cine Mexicano"
+    ],
+    "video_url": "https://archive.org/download/el-gallo-de-oro-ignacio-lopez-tarso/El%20Gallo%20De%20Oro%20%28%20Ignacio%20L%C3%B3pez%20Tarso%20%29.mp4"
+  },
+  {
+    "title": "La Princesa Hippie (Princesa y vagabunda) (1969)",
+    "description": "Comedia musical española sobre una joven de alta sociedad que se sumerge en el movimiento 'hippie' en busca de la libertad y un estilo de vida diferente.",
+    "year": 1969,
+    "coverImage": "https://imgs.search.brave.com/DBLKRYHodPYlcH0XEJsPgx-jf7actBfiJVK_GQZpueY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9waWNz/LmZpbG1hZmZpbml0/eS5jb20vbGFfcHJp/bmNlc2FfaGlwcGll/LTIwOTY0NjI2Mi1t/bWVkLmpwZw",
+    "genre": [
+      "Comedia",
+      "Musical"
+    ],
+    "video_url": "https://archive.org/download/la-princesa-hippie-princesa-y-vagabunda-1969/La%20Princesa%20Hippie%20%28Princesa%20y%20vagabunda-1969%29.mp4"
+  },
+  {
+    "title": "Como Dos Gotas de Agua (1964)",
+    "description": "Una comedia sobre dos jóvenes (interpretadas por Marisol y su hermana gemela) que se encuentran por casualidad y deciden intercambiar sus vidas, resultando en situaciones cómicas y románticas.",
+    "year": 1964,
+    "coverImage": "https://imgs.search.brave.com/CZd6n2dVQZjBtjoHoWulKelKfsU30M_05MRbZ1_5ZTY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1Qk5XTTBZMlV3/T1RRdFl6UTFZUzAw/TURnNUxXRmhOVFF0/TVRKaVlXSTJaVFJs/Wm1JeVhrRXlYa0Zx/Y0djQC5qcGc",
+    "genre": [
+      "Comedia",
+      "Musical"
+    ],
+    "video_url": "https://archive.org/download/como-dos-gotas-de-agua-1964/Como%20Dos%20Gotas%20de%20Agua%20%281964%29.mp4"
+  },
+  {
+    "title": "Un Novio para Dos Hermanas (1967)",
+    "description": "Una comedia romántica musical sobre dos hermanas con personalidades muy diferentes que se enamoran del mismo hombre, un joven que llega a la ciudad.",
+    "year": 1967,
+    "coverImage": "https://imgs.search.brave.com/oLHgY0DozqYRoByKumVf8g_rZWf75OUS7FPSMeU6QTk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9waWNz/LmZpbG1hZmZpbml0/eS5jb20vdW5fbm92/aW9fcGFyYV9kb3Nf/aGVybWFuYXMtNTYz/NTIxNzM1LW1tZWQu/anBn",
+    "genre": [
+      "Comedia",
+      "Musical",
+      "Romance"
+    ],
+    "video_url": "https://archive.org/download/un-novio-para-dos-hermanas-1967/Un%20Novio%20para%20Dos%20Hermanas%20%281967%29.mp4"
+  },
+  {
     "title": "Death Note (2006)",
     "description": "El estudiante Light Yagami encuentra un cuaderno sobrenatural llamado 'Death Note' que le permite matar a cualquier persona cuyo nombre y rostro conozca. Decide usarlo para limpiar el mundo de criminales y es perseguido por el brillante detective L.",
     "coverImage": "https://imgs.search.brave.com/Kr_U3jx9_zVfmheqO6DGAWF4tPN2kPJ0O0rZ5t3ggBk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9waWNz/LmZpbG1hZmZpbml0/eS5jb20vZGVzdV9u/b3RvX2RlYXRoX25v/dGUtNDk5MTk1MzEw/LW1tZWQuanBn",
