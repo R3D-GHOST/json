@@ -1,13 +1,5 @@
 [
-  
-  {
-    "title": "AK 47",
-    "description": "Película o contenido de video con la URL y la imagen de portada proporcionadas.",
-    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh2UvqwoGkj9Ct4EBAKAP-TlFoizN_JDgDS7ppHrcz76MH2tyTJAQv-ms&s=10",
-    "video_url": "https://m80.uqload.bz/3rfk23t7pjw2q4drdif7b5vvds35qcooqhdft3ot2zaqk2i76ei4nxxhzzba/v.mp4"
-  },
-
-  
+ 
   {
     "title": "Mini Espías (Spy Kids) (2001)",
     "description": "Los hijos de dos espías retirados deben convertirse en espías para rescatar a sus padres secuestrados por el malvado Fegan Floop.",
@@ -24,7 +16,7 @@
     "title": "Mini Espías 2: La Isla de los Sueños Perdidos (Spy Kids 2) (2002)",
     "description": "Carmen y Juni Cortez se enfrentan a un científico loco en una isla donde habitan criaturas extrañas y deben recuperar un dispositivo que desestabiliza la Tierra.",
     "year": 2002,
-    "coverImage": "https://static.wikia.nocookie.net/doblaje/images/d/d0/Espias2.jpg/revision/latest/thumbnail/width/360/height/450?cb=20250115044128&path-prefix=es",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToNrFCh1SlHZghzgU5EHI4YaHKY_MBF3YKki5QDPCucJbtH9qewJl1Y-c&s=10",
     "genre": [
       "Aventura",
       "Comedia",
@@ -81,7 +73,7 @@
     "title": "Resacón 2: Ahora en Tailandia (The Hangover Part II) (2011)",
     "description": "Los amigos se reúnen para la boda de Stu en Tailandia, pero la despedida de soltero se convierte en otro desastre memorable con un simio y un tatuaje facial.",
     "year": 2011,
-    "coverImage": "https://www.imdb.com/es-es/title/tt1411697/",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgDjkRVlOu6C4ipva2Slw_3bCfsYAoGzhqh4Kx07n3Vg&s=10",
     "genre": [
       "Comedia"
     ],
@@ -194,7 +186,7 @@
     "title": "Transporter (El Transportador) (2002)",
     "description": "Frank Martin, un exsoldado de operaciones especiales, trabaja como un 'transportador' que entrega paquetes peligrosos sin hacer preguntas. Pero rompe su regla fundamental al abrir uno de ellos.",
     "year": 2002,
-    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPTiB_8vTPcG8v2Ze9Jp3pkb21-HFmG_Xndw&s",
+    "coverImage": "https://m.media-amazon.com/images/M/MV5BMTk2NDc2MDAxN15BMl5BanBnXkFtZTYwNDc1NDY2._V1_FMjpg_UX1000_.jpg",
     "genre": [
       "Acción",
       "Crimen",
@@ -206,7 +198,7 @@
     "title": "Transporter 2 (El Transportador 2) (2005)",
     "description": "Frank Martin, ahora trabajando como chofer de la familia Billings en Miami, debe rescatar al hijo de la familia que ha sido secuestrado por una peligrosa red criminal.",
     "year": 2005,
-    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRACF1Mc1yGKaHXWnohimu54U9k8WKztr8X4g&s",
+    "coverImage": "https://play-lh.googleusercontent.com/78Hov6zqpAZm9UGcFChohQ8rZlunEkQMC1pUq64KyQJuplO6K1pS8VO60ixxyNKYuTkeng",
     "genre": [
       "Acción",
       "Crimen",
@@ -218,7 +210,7 @@
     "title": "Transporter 3 (El Transportador 3) (2008)",
     "description": "Frank Martin es forzado a transportar a Valentina, la hija secuestrada de un oficial del gobierno ucraniano, a través de Europa, atado a un dispositivo explosivo.",
     "year": 2008,
-    "coverImage": "https://play-lh.googleusercontent.com/Rs1nEKq-UydJ9Sd4qtm3azMAERKBdlV7t6Pc-u7jS9EFksfA5WIfpaXXhshbI-t46Bx7",
+    "coverImage": "https://es.web.img3.acsta.net/medias/nmedia/18/68/31/26/20388650.jpg",
     "genre": [
       "Acción",
       "Crimen",
