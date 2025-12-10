@@ -1,5 +1,258 @@
 [
   {
+  "title": "Dino Rey",
+  "coverImage": "https://m.media-amazon.com/images/M/MV5BYzk3ZmY1YjYtMjEyZi00NDM4LTk2MWQtYTEwNmI1NGU4NDE1XkEyXkFqcGc@._V1_.jpg",
+  "description": "El Equipo D, compuesto por Max Taylor, Zoe Drake y Rex Owen, viajará alrededor del mundo para vencer a la malvada Pandilla Alfa",
+  "genre": ["Animaccion, Drama, Accion"],
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "Clip ssstik.io_1764606684735",
+      "video_url": "https://archive.org/download/ssstik.io_1764606684735/ssstik.io_1764606684735.mp4"
+    },
+    {
+      "episode": 2,
+      "title": "Clip ssstik.io_1764606768117",
+      "video_url": "https://archive.org/download/ssstik.io_1764606684735/ssstik.io_1764606768117.mp4"
+    },
+    {
+      "episode": 3,
+      "title": "Clip ssstik.io_1764608626430",
+      "video_url": "https://archive.org/download/ssstik.io_1764606684735/ssstik.io_1764608626430.mp4"
+    },
+    {
+      "episode": 4,
+      "title": "Clip ssstik.io_1764608694459",
+      "video_url": "https://archive.org/download/ssstik.io_1764606684735/ssstik.io_1764608694459.mp4"
+    },
+    {
+      "episode": 5,
+      "title": "Clip ssstik.io_1764610536475",
+      "video_url": "https://archive.org/download/ssstik.io_1764606684735/ssstik.io_1764610536475.mp4"
+    },
+    {
+      "episode": 6,
+      "title": "Clip ssstik.io_1764610660397",
+      "video_url": "https://archive.org/download/ssstik.io_1764606684735/ssstik.io_1764610660397.mp4"
+    },
+    {
+      "episode": 7,
+      "title": "Clip ssstik.io_1764622149093",
+      "video_url": "https://archive.org/download/ssstik.io_1764606684735/ssstik.io_1764622149093.mp4"
+    },
+    {
+      "episode": 8,
+      "title": "Clip ssstik.io_1764622253912",
+      "video_url": "https://archive.org/download/ssstik.io_1764606684735/ssstik.io_1764622253912.mp4"
+    },
+    {
+      "episode": 9,
+      "title": "Clip ssstik.io_1764628962279",
+      "video_url": "https://archive.org/download/ssstik.io_1764606684735/ssstik.io_1764628962279.mp4"
+    },
+    {
+      "episode": 10,
+      "title": "Clip ssstik.io_1764629083547",
+      "video_url": "https://archive.org/download/ssstik.io_1764606684735/ssstik.io_1764629083547.mp4"
+    },
+    {
+      "episode": 11,
+      "title": "Clip ssstik.io_1764631865033",
+      "video_url": "https://archive.org/download/ssstik.io_1764606684735/ssstik.io_1764631865033.mp4"
+    },
+    {
+      "episode": 12,
+      "title": "Clip ssstik.io_1764632733032",
+      "video_url": "https://archive.org/download/ssstik.io_1764606684735/ssstik.io_1764632733032.mp4"
+    },
+    {
+      "episode": 13,
+      "title": "Clip ssstik.io_1764635126648",
+      "video_url": "https://archive.org/download/ssstik.io_1764606684735/ssstik.io_1764635126648.mp4"
+    },
+    {
+      "episode": 14,
+      "title": "Clip ssstik.io_1764635325005",
+      "video_url": "https://archive.org/download/ssstik.io_1764606684735/ssstik.io_1764635325005.mp4"
+    },
+    {
+      "episode": 15,
+      "title": "Clip ssstik.io_1764639593175",
+      "video_url": "https://archive.org/download/ssstik.io_1764606684735/ssstik.io_1764639593175.mp4"
+    },
+    {
+      "episode": 16,
+      "title": "Clip ssstik.io_1764640859970",
+      "video_url": "https://archive.org/download/ssstik.io_1764606684735/ssstik.io_1764640859970.mp4"
+    },
+    {
+      "episode": 17,
+      "title": "Clip ssstik.io_1764643181344",
+      "video_url": "https://archive.org/download/ssstik.io_1764606684735/ssstik.io_1764643181344.mp4"
+    },
+    {
+      "episode": 18,
+      "title": "Clip ssstik.io_1764643969798",
+      "video_url": "https://archive.org/download/ssstik.io_1764606684735/ssstik.io_1764643969798.mp4"
+    },
+    {
+      "episode": 19,
+      "title": "Clip ssstik.io_1764645758354",
+      "video_url": "https://archive.org/download/ssstik.io_1764606684735/ssstik.io_1764645758354.mp4"
+    },
+    {
+      "episode": 20,
+      "title": "Clip ssstik.io_1764646064067",
+      "video_url": "https://archive.org/download/ssstik.io_1764606684735/ssstik.io_1764646064067.mp4"
+    },
+    {
+      "episode": 21,
+      "title": "Clip ssstik.io_1764705372215",
+      "video_url": "https://archive.org/download/ssstik.io_1764606684735/ssstik.io_1764705372215.mp4"
+    },
+    {
+      "episode": 22,
+      "title": "Clip ssstik.io_1764705555980",
+      "video_url": "https://archive.org/download/ssstik.io_1764606684735/ssstik.io_1764705555980.mp4"
+    },
+    {
+      "episode": 23,
+      "title": "Clip ssstik.io_1764707229604",
+      "video_url": "https://archive.org/download/ssstik.io_1764606684735/ssstik.io_1764707229604.mp4"
+    },
+    {
+      "episode": 24,
+      "title": "Clip ssstik.io_1764707807203",
+      "video_url": "https://archive.org/download/ssstik.io_1764606684735/ssstik.io_1764707807203.mp4"
+    },
+    {
+      "episode": 25,
+      "title": "Clip ssstik.io_1764712563955",
+      "video_url": "https://archive.org/download/ssstik.io_1764606684735/ssstik.io_1764712563955.mp4"
+    },
+    {
+      "episode": 26,
+      "title": "Clip ssstik.io_1764713485235",
+      "video_url": "https://archive.org/download/ssstik.io_1764606684735/ssstik.io_1764713485235.mp4"
+    },
+    {
+      "episode": 27,
+      "title": "Clip ssstik.io_1764713761427",
+      "video_url": "https://archive.org/download/ssstik.io_1764606684735/ssstik.io_1764713761427.mp4"
+    },
+    {
+      "episode": 28,
+      "title": "Clip ssstik.io_1764716188703",
+      "video_url": "https://archive.org/download/ssstik.io_1764606684735/ssstik.io_1764716188703.mp4"
+    },
+    {
+      "episode": 29,
+      "title": "Clip ssstik.io_1764720589884",
+      "video_url": "https://archive.org/download/ssstik.io_1764606684735/ssstik.io_1764720589884.mp4"
+    },
+    {
+      "episode": 30,
+      "title": "Clip ssstik.io_1764721306189",
+      "video_url": "https://archive.org/download/ssstik.io_1764606684735/ssstik.io_1764721306189.mp4"
+    },
+    {
+      "episode": 31,
+      "title": "Clip ssstik.io_1764726841419",
+      "video_url": "https://archive.org/download/ssstik.io_1764606684735/ssstik.io_1764726841419.mp4"
+    },
+    {
+      "episode": 32,
+      "title": "Clip ssstik.io_1764727769759",
+      "video_url": "https://archive.org/download/ssstik.io_1764606684735/ssstik.io_1764727769759.mp4"
+    },
+    {
+      "episode": 33,
+      "title": "Clip ssstik.io_1764732263164",
+      "video_url": "https://archive.org/download/ssstik.io_1764606684735/ssstik.io_1764732263164.mp4"
+    },
+    {
+      "episode": 34,
+      "title": "Clip ssstik.io_1764778412948",
+      "video_url": "https://archive.org/download/ssstik.io_1764606684735/ssstik.io_1764778412948.mp4"
+    },
+    {
+      "episode": 35,
+      "title": "Clip ssstik.io_1764799474049",
+      "video_url": "https://archive.org/download/ssstik.io_1764606684735/ssstik.io_1764799474049.mp4"
+    },
+    {
+      "episode": 36,
+      "title": "Clip ssstik.io_1764799911425",
+      "video_url": "https://archive.org/download/ssstik.io_1764606684735/ssstik.io_1764799911425.mp4"
+    },
+    {
+      "episode": 37,
+      "title": "Clip ssstik.io_1764804391071",
+      "video_url": "https://archive.org/download/ssstik.io_1764606684735/ssstik.io_1764804391071.mp4"
+    },
+    {
+      "episode": 38,
+      "title": "Clip ssstik.io_1764807045758",
+      "video_url": "https://archive.org/download/ssstik.io_1764606684735/ssstik.io_1764807045758.mp4"
+    },
+    {
+      "episode": 39,
+      "title": "Clip ssstik.io_1764809033624",
+      "video_url": "https://archive.org/download/ssstik.io_1764606684735/ssstik.io_1764809033624.mp4"
+    },
+    {
+      "episode": 40,
+      "title": "Clip ssstik.io_1764809132037",
+      "video_url": "https://archive.org/download/ssstik.io_1764606684735/ssstik.io_1764809132037.mp4"
+    },
+    {
+      "episode": 41,
+      "title": "Clip ssstik.io_1764821359955",
+      "video_url": "https://archive.org/download/ssstik.io_1764606684735/ssstik.io_1764821359955.mp4"
+    },
+    {
+      "episode": 42,
+      "title": "Clip ssstik.io_1764821483773",
+      "video_url": "https://archive.org/download/ssstik.io_1764606684735/ssstik.io_1764821483773.mp4"
+    },
+    {
+      "episode": 43,
+      "title": "Clip ssstik.io_1764881783803",
+      "video_url": "https://archive.org/download/ssstik.io_1764606684735/ssstik.io_1764881783803.mp4"
+    },
+    {
+      "episode": 44,
+      "title": "Clip ssstik.io_1764882107404",
+      "video_url": "https://archive.org/download/ssstik.io_1764606684735/ssstik.io_1764882107404.mp4"
+    },
+    {
+      "episode": 45,
+      "title": "Clip ssstik.io_1764882317937",
+      "video_url": "https://archive.org/download/ssstik.io_1764606684735/ssstik.io_1764882317937.mp4"
+    },
+    {
+      "episode": 46,
+      "title": "Clip ssstik.io_1764882448892",
+      "video_url": "https://archive.org/download/ssstik.io_1764606684735/ssstik.io_1764882448892.mp4"
+    },
+    {
+      "episode": 47,
+      "title": "Clip ssstik.io_1764886965024",
+      "video_url": "https://archive.org/download/ssstik.io_1764606684735/ssstik.io_1764886965024.mp4"
+    },
+    {
+      "episode": 48,
+      "title": "Clip ssstik.io_1764887335351",
+      "video_url": "https://archive.org/download/ssstik.io_1764606684735/ssstik.io_1764887335351.mp4"
+    },
+    {
+      "episode": 49,
+      "title": "Clip ssstik.io_1764889259919",
+      "video_url": "https://archive.org/download/ssstik.io_1764606684735/ssstik.io_1764889259919.mp4"
+    }
+  ]
+},
+  {
     "title": "El Sorprendente Hombre Araña 2: La Amenaza De Electro",
     "description": "Peter Parker se enfrenta a un nuevo y poderoso enemigo, Electro, mientras intenta mantener su promesa de proteger a Gwen Stacy, descubriendo más sobre el pasado de su padre.",
     "genre": ["Acción", "Superhéroes", "Ciencia Ficción"],
