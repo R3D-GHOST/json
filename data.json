@@ -1,4 +1,128 @@
 [
+
+{
+    "title": "Urgencias (ER) Temporada 5",
+    "language": "Español Latino",
+    "genre": [
+      "Drama médico",
+      "Drama"
+    ],
+    "coverImage": "https://media.themoviedb.org/t/p/w500/pQ8GJhsuDsGA9N8HyZd4WuS6v6x.jpg",
+    "description": "La quinta temporada de Urgencias se centra en la llegada de la estudiante de medicina Lucy Knight, el conflicto entre la Dra. Corday y el Dr. Benton, quien lidia con la sordera de su hijo Reese, y la controversial salida del Dr. Doug Ross después de incumplir el protocolo médico.",
+    "episodes": [
+      {
+        "episode": 1,
+        "title": "Un dia para Knight",
+        "video_url": "https://archive.org/download/ER-05/01%20-%20Un%20dia%20para%20Knight.mp4"
+      },
+      {
+        "episode": 2,
+        "title": "Un Segundo",
+        "video_url": "https://archive.org/download/ER-05/02%20-%20Un%20Segundo.mp4"
+      },
+      {
+        "episode": 3,
+        "title": "Atienden Caballos, ¿verdad?",
+        "video_url": "https://archive.org/download/ER-05/03%20-%20Atienden%20Caballos,%20%C2%BFverdad%3F.mp4"
+      },
+      {
+        "episode": 4,
+        "title": "Desaparición",
+        "video_url": "https://archive.org/download/ER-05/04%20-%20Desaparici%C3%B3n.mp4"
+      },
+      {
+        "episode": 5,
+        "title": "Noche de Brujas",
+        "video_url": "https://archive.org/download/ER-05/05%20-%20Noche%20de%20Brujas.mp4"
+      },
+      {
+        "episode": 6,
+        "title": "Amarrado a ti",
+        "video_url": "https://archive.org/download/ER-05/06%20-%20Amarrado%20a%20ti.mp4"
+      },
+      {
+        "episode": 7,
+        "title": "Abrumado y Confuso",
+        "video_url": "https://archive.org/download/ER-05/07%20-%20Abrumado%20y%20Confuso.mp4"
+      },
+      {
+        "episode": 8,
+        "title": "Una Buena Pelea",
+        "video_url": "https://archive.org/download/ER-05/08%20-%20Una%20Buena%20Pelea.mp4"
+      },
+      {
+        "episode": 9,
+        "title": "Buena Suerte Ruth Johnson",
+        "video_url": "https://archive.org/download/ER-05/09%20-%20Buena%20Suerte%20Ruth%20Johnson.mp4"
+      },
+      {
+        "episode": 10,
+        "title": "El Maestro Milagroso",
+        "video_url": "https://archive.org/download/ER-05/10%20-%20El%20Maestro%20Milagroso.mp4"
+      },
+      {
+        "episode": 11,
+        "title": "A nadie le desagrada Amanda Lee",
+        "video_url": "https://archive.org/download/ER-05/11%20-%20A%20nadie%20le%20desagrada%20Amanda%20Lee.mp4"
+      },
+      {
+        "episode": 12,
+        "title": "Prueba Ciega",
+        "video_url": "https://archive.org/download/ER-05/12%20-%20Prueba%20Ciega.mp4"
+      },
+      {
+        "episode": 13,
+        "title": "Eligiendo a Joi",
+        "video_url": "https://archive.org/download/ER-05/13%20-%20Eligiendo%20a%20Joi.mp4"
+      },
+      {
+        "episode": 14,
+        "title": "La Tormenta (Parte I)",
+        "video_url": "https://archive.org/download/ER-05/14%20-%20La%20Tormenta%20%28Parte%20I%29.mp4"
+      },
+      {
+        "episode": 15,
+        "title": "La Tormenta (Parte II)",
+        "video_url": "https://archive.org/download/ER-05/15%20-%20La%20Tormenta%20%28Parte%20II%29.mp4"
+      },
+      {
+        "episode": 16,
+        "title": "Enmedio de la Nada",
+        "video_url": "https://archive.org/download/ER-05/16%20-%20Enmedio%20de%20la%20Nada.mp4"
+      },
+      {
+        "episode": 17,
+        "title": "A palos y Pedradas",
+        "video_url": "https://archive.org/download/ER-05/17%20-%20A%20palos%20y%20Pedradas.mp4"
+      },
+      {
+        "episode": 18,
+        "title": "En Busca del Origen",
+        "video_url": "https://archive.org/download/ER-05/18%20-%20En%20Busca%20del%20Origen.mp4"
+      },
+      {
+        "episode": 19,
+        "title": "Ritos de Primavera",
+        "video_url": "https://archive.org/download/ER-05/19%20-%20Ritos%20de%20Primavera.mp4"
+      },
+      {
+        "episode": 20,
+        "title": "Energía",
+        "video_url": "https://archive.org/download/ER-05/20%20-%20Energ%C3%ADa.mp4"
+      },
+      {
+        "episode": 21,
+        "title": "Partes Responsables",
+        "video_url": "https://archive.org/download/ER-05/21%20-%20Partes%20Responsables.mp4"
+      },
+      {
+        "episode": 22,
+        "title": "Conociendote",
+        "video_url": "https://archive.org/download/ER-05/22%20-%20Conociendote.mp4"
+      }
+    ]
+  },
+  
   {
     "title": "Dr. House Temporada 1",
     "language": "Español Latino",
