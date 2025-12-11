@@ -1,5 +1,396 @@
 [
- 
+
+ {
+  "title": "Jimmy Neutron",
+  "genre": [
+    "Animación",
+    "Ciencia Ficción",
+    "Comedia",
+    "Aventura"
+  ],
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvOPKJ0tivf8MZlnJqHLC-h4WwmmiBRVTmQA&s",
+  "description": "Las aventuras de Jimmy Neutron, un niño genio de Retroville que constantemente inventa dispositivos científicos avanzados, a menudo con resultados hilarantes e inesperados.",
+  "episodes": [
+    {
+      "season": "S00",
+      "episode": "E03",
+      "title": "Operation: Rescue Jet Fusion Part 2",
+      "size": "542.6M",
+      "video_url": "https://archive.org/download/Jimmy-Neutron-Latino/_ Boy Genius_S00E03_Operation_ Rescue Jet Fusion Part 2.mp4"
+    },
+    {
+      "season": "S00",
+      "episode": "E05",
+      "title": "Win, Lose, or Kaboom Part 3",
+      "size": "890.2M",
+      "video_url": "https://archive.org/download/Jimmy-Neutron-Latino/_ Boy Genius_S00E05_Win, Lose, or Kaboom Part 3.mp4"
+    },
+    {
+      "season": "S00",
+      "episode": "E06",
+      "title": "Attack of the Twonkies",
+      "size": "547.1M",
+      "video_url": "https://archive.org/download/Jimmy-Neutron-Latino/_ Boy Genius_S00E06_Attack of the Twonkies.mp4"
+    },
+    {
+      "season": "S00",
+      "episode": "E07",
+      "title": "The League of Villains Part 2",
+      "size": "546.4M",
+      "video_url": "https://archive.org/download/Jimmy-Neutron-Latino/_ Boy Genius_S00E07_The League of Villains Part 2.mp4"
+    },
+    {
+      "season": "S00",
+      "episode": "E08",
+      "title": "Jimmy Timmy Power Hour 2 - When Nerds Collide",
+      "size": "574.3M",
+      "video_url": "https://archive.org/download/Jimmy-Neutron-Latino/_ Boy Genius_S00E08_Jimmy Timmy Power Hour 2 - When Nerds Collide.mp4"
+    },
+    {
+      "season": "S01",
+      "episode": "E31",
+      "title": "A Beautiful Mine",
+      "size": "272.0M",
+      "video_url": "https://archive.org/download/Jimmy-Neutron-Latino/_ Boy Genius_S01E31_A Beautiful Mine.mp4"
+    },
+    {
+      "season": "S01",
+      "episode": "E32",
+      "title": "Sorry Wrong Era",
+      "size": "271.9M",
+      "video_url": "https://archive.org/download/Jimmy-Neutron-Latino/_ Boy Genius_S01E32_Sorry Wrong Era.mp4"
+    },
+    {
+      "season": "S02",
+      "episode": "E01",
+      "title": "Beach Party Mummy",
+      "size": "268.6M",
+      "video_url": "https://archive.org/download/Jimmy-Neutron-Latino/_ Boy Genius_S02E01_Beach Party Mummy.mp4"
+    },
+    {
+      "season": "S02",
+      "episode": "E02-E03",
+      "title": "Retroville 9 / Grumpy Young Men",
+      "size": "272.9M",
+      "video_url": "https://archive.org/download/Jimmy-Neutron-Latino/_ Boy Genius_S02E02-S02E03_Retroville 9_Grumpy Young Men.mp4"
+    },
+    {
+      "season": "S02",
+      "episode": "E04",
+      "title": "Nightmare in Retroville",
+      "size": "272.3M",
+      "video_url": "https://archive.org/download/Jimmy-Neutron-Latino/_ Boy Genius_S02E04_Nightmare in Retroville.mp4"
+    },
+    {
+      "season": "S02",
+      "episode": "E07",
+      "title": "Return of the Nanobots",
+      "size": "269.4M",
+      "video_url": "https://archive.org/download/Jimmy-Neutron-Latino/_ Boy Genius_S02E07_Return of the Nanobots.mp4"
+    },
+    {
+      "season": "S02",
+      "episode": "E10",
+      "title": "Sheen's Brain",
+      "size": "273.7M",
+      "video_url": "https://archive.org/download/Jimmy-Neutron-Latino/_ Boy Genius_S02E10_Sheen's Brain.mp4"
+    },
+    {
+      "season": "S02",
+      "episode": "E11-E12",
+      "title": "MaternoTron Knows Best / Send in the clones",
+      "size": "274.3M",
+      "video_url": "https://archive.org/download/Jimmy-Neutron-Latino/_ Boy Genius_S02E11-S02E12_MaternoTron Knows Best_Send in the clones.mp4"
+    },
+    {
+      "season": "S02",
+      "episode": "E13",
+      "title": "Attack of the Twonkies Part 2",
+      "size": "266.3M",
+      "video_url": "https://archive.org/download/Jimmy-Neutron-Latino/_ Boy Genius_S02E13_Attack of the Twonkies Part 2.mp4"
+    },
+    {
+      "season": "S02",
+      "episode": "E13",
+      "title": "The Great Egg Heist",
+      "size": "272.9M",
+      "video_url": "https://archive.org/download/Jimmy-Neutron-Latino/_ Boy Genius_S02E13_The Great Egg Heist.mp4"
+    },
+    {
+      "season": "S02",
+      "episode": "E14",
+      "title": "The Feud",
+      "size": "271.4M",
+      "video_url": "https://archive.org/download/Jimmy-Neutron-Latino/_ Boy Genius_S02E14_The Feud.mp4"
+    },
+    {
+      "season": "S02",
+      "episode": "E16",
+      "title": "The Junkman Cometh",
+      "size": "268.9M",
+      "video_url": "https://archive.org/download/Jimmy-Neutron-Latino/_ Boy Genius_S02E16_The Junkman Cometh.mp4"
+    },
+    {
+      "season": "S02",
+      "episode": "E17-E18",
+      "title": "Foul Bull / The Science Fair Affair",
+      "size": "273.9M",
+      "video_url": "https://archive.org/download/Jimmy-Neutron-Latino/_ Boy Genius_S02E17-S02E18_Foul Bull _ The Science Fair Affair.mp4"
+    },
+    {
+      "season": "S02",
+      "episode": "E19",
+      "title": "Men at Work",
+      "size": "269.6M",
+      "video_url": "https://archive.org/download/Jimmy-Neutron-Latino/_ Boy Genius_S02E19_Men at Work.mp4"
+    },
+    {
+      "season": "S02",
+      "episode": "E20-E21",
+      "title": "The Mighty Wheezers / Billion DOllar Boy",
+      "size": "273.2M",
+      "video_url": "https://archive.org/download/Jimmy-Neutron-Latino/_ Boy Genius_S02E20-S02E21_The Mighty Wheezers_Billion DOllar Boy.mp4"
+    },
+    {
+      "season": "S03",
+      "episode": "E01",
+      "title": "Lights! Camera! Danger!",
+      "size": "271.4M",
+      "video_url": "https://archive.org/download/Jimmy-Neutron-Latino/_ Boy Genius_S03E01_Lights! Camera! Danger!.mp4"
+    },
+    {
+      "season": "S03",
+      "episode": "E02",
+      "title": "The N Men",
+      "size": "271.3M",
+      "video_url": "https://archive.org/download/Jimmy-Neutron-Latino/_ Boy Genius_S03E02_The N Men.mp4"
+    },
+    {
+      "season": "S03",
+      "episode": "E03",
+      "title": "The Tomorrow Boys",
+      "size": "272.8M",
+      "video_url": "https://archive.org/download/Jimmy-Neutron-Latino/_ Boy Genius_S03E03_The Tomorrow Boys.mp4"
+    },
+    {
+      "season": "S03",
+      "episode": "E04",
+      "title": "Fundemonium",
+      "size": "268.4M",
+      "video_url": "https://archive.org/download/Jimmy-Neutron-Latino/_ Boy Genius_S03E04_Fundemonium.mp4"
+    },
+    {
+      "season": "S03",
+      "episode": "E05",
+      "title": "Stranded",
+      "size": "270.4M",
+      "video_url": "https://archive.org/download/Jimmy-Neutron-Latino/_ Boy Genius_S03E05_Stranded.mp4"
+    },
+    {
+      "season": "S03",
+      "episode": "E06",
+      "title": "Jimmy Goes to College",
+      "size": "270.4M",
+      "video_url": "https://archive.org/download/Jimmy-Neutron-Latino/_ Boy Genius_S03E06_Jimmy Goes to College.mp4"
+    },
+    {
+      "season": "S03",
+      "episode": "E07-E08",
+      "title": "Who's Your Mommy / Clash of the Cousins",
+      "size": "273.5M",
+      "video_url": "https://archive.org/download/Jimmy-Neutron-Latino/_ Boy Genius_S03E07-S03E08_Who's Your Mommy_Clash of the Cousins.mp4"
+    },
+    {
+      "season": "S03",
+      "episode": "E09",
+      "title": "My Big Fat Spy Wedding",
+      "size": "270.5M",
+      "video_url": "https://archive.org/download/Jimmy-Neutron-Latino/_ Boy Genius_S03E09_My Big Fat Spy Wedding.mp4"
+    },
+    {
+      "season": "S03",
+      "episode": "E10",
+      "title": "Crouching Jimmy, Hidden Sheen",
+      "size": "272.5M",
+      "video_url": "https://archive.org/download/Jimmy-Neutron-Latino/_ Boy Genius_S03E10_Crouching Jimmy, Hidden Sheen.mp4"
+    },
+    {
+      "season": "S03",
+      "episode": "E11",
+      "title": "The Incredible Shrinking Town",
+      "size": "268.3M",
+      "video_url": "https://archive.org/download/Jimmy-Neutron-Latino/_ Boy Genius_S03E11_The Incredible Shrinking Town.mp4"
+    },
+    {
+      "season": "S03",
+      "episode": "E12-E13",
+      "title": "One of Us / Vanishing Act",
+      "size": "271.6M",
+      "video_url": "https://archive.org/download/Jimmy-Neutron-Latino/_ Boy Genius_S03E12-S03E13_One of Us_Vanishing Act.mp4"
+    },
+    {
+      "season": "S03",
+      "episode": "E14",
+      "title": "The Troubles with Clones",
+      "size": "269.5M",
+      "video_url": "https://archive.org/download/Jimmy-Neutron-Latino/_ Boy Genius_S03E14_The Troubles with Clones.mp4"
+    },
+    {
+      "season": "S03",
+      "episode": "E15-E16",
+      "title": "The Evil Beneath / Carl Wheezer Boy Genius",
+      "size": "273.6M",
+      "video_url": "https://archive.org/download/Jimmy-Neutron-Latino/_ Boy Genius_S03E15-S03E16_The Evil Beneath_Carl Wheezer Boy Genius.mp4"
+    },
+    {
+      "season": "S03",
+      "episode": "E17-E18",
+      "title": "Who Framed Jimmy Neutron / Flippy",
+      "size": "270.9M",
+      "video_url": "https://archive.org/download/Jimmy-Neutron-Latino/_ Boy Genius_S03E17-S03E18_Who Framed Jimmy Neutron_Flippy.mp4"
+    },
+    {
+      "season": "S03",
+      "episode": "E19-E20",
+      "title": "How to Sink a Sub / Lady Sings the News",
+      "size": "273.1M",
+      "video_url": "https://archive.org/download/Jimmy-Neutron-Latino/_ Boy Genius_S03E19-S03E20_How to Sink a Sub_Lady Sings the News_1.mp4"
+    },
+    {
+      "season": "S03",
+      "episode": "E21",
+      "title": "King of Mars",
+      "size": "269.1M",
+      "video_url": "https://archive.org/download/Jimmy-Neutron-Latino/_ Boy Genius_S03E21_King of Mars.mp4"
+    },
+    {
+      "season": "S03",
+      "episode": "E22-E23",
+      "title": "El Magnifico / Best in show",
+      "size": "270.9M",
+      "video_url": "https://archive.org/download/Jimmy-Neutron-Latino/_ Boy Genius_S03E22-S03E23_El Magnifico_Best in show.mp4"
+    },
+    {
+      "season": "S00",
+      "episode": "E02",
+      "title": "Egg-Pire Strikes Back Part 2",
+      "size": "551.0M",
+      "video_url": "https://archive.org/download/Jimmy-Neutron-Latino/_S00E02_ Egg-Pire Strikes Back Part 2.mp4"
+    },
+    {
+      "season": "S01",
+      "episode": "E01",
+      "title": "Episodio 1",
+      "size": "189.8M",
+      "video_url": "https://archive.org/download/Jimmy-Neutron-Latino/_S01E01.mp4"
+    },
+    {
+      "season": "S01",
+      "episode": "E02-E03",
+      "title": "Normal / Birth a Salesman",
+      "size": "272.0M",
+      "video_url": "https://archive.org/download/Jimmy-Neutron-Latino/_S01E02-S01E03_Normal  _ Birth  a Salesman.mp4"
+    },
+    {
+      "season": "S01",
+      "episode": "E04-E05",
+      "title": "Brobot / Big Pinch",
+      "size": "273.9M",
+      "video_url": "https://archive.org/download/Jimmy-Neutron-Latino/_S01E04-S01E05_Brobot _  Big Pinch.mp4"
+    },
+    {
+      "season": "S01",
+      "episode": "E06-E07",
+      "title": "Granny Baby / Time Is Money",
+      "size": "275.0M",
+      "video_url": "https://archive.org/download/Jimmy-Neutron-Latino/_S01E06-S01E07_Granny Baby _ Time Is Money.mp4"
+    },
+    {
+      "season": "S01",
+      "episode": "E08-E09",
+      "title": "Battle Bands / On Ice",
+      "size": "273.5M",
+      "video_url": "https://archive.org/download/Jimmy-Neutron-Latino/_S01E08-S01E09_Battle   Bands _  On Ice.mp4"
+    },
+    {
+      "season": "S01",
+      "episode": "E10-E11",
+      "title": "I Dream / Raise Oozy Scab",
+      "size": "273.0M",
+      "video_url": "https://archive.org/download/Jimmy-Neutron-Latino/_S01E10-S01E11_I Dream   _ Raise  Oozy Scab.mp4"
+    },
+    {
+      "season": "S01",
+      "episode": "E12-E13",
+      "title": "See Run / Trading Faces",
+      "size": "274.4M",
+      "video_url": "https://archive.org/download/Jimmy-Neutron-Latino/_S01E12-S01E13_See  Run _ Trading Faces.mp4"
+    },
+    {
+      "season": "S01",
+      "episode": "E14-E15",
+      "title": "Phantom Retroland / My Son, Hamster",
+      "size": "272.8M",
+      "video_url": "https://archive.org/download/Jimmy-Neutron-Latino/_S01E14-S01E15_ Phantom  Retroland _ My Son,  Hamster.mp4"
+    },
+    {
+      "season": "S01",
+      "episode": "E16-E17",
+      "title": "Hall Monster / Hypno-Birthday to You",
+      "size": "270.9M",
+      "video_url": "https://archive.org/download/Jimmy-Neutron-Latino/_S01E16-S01E17_Hall Monster _ Hypno-Birthday to You.mp4"
+    },
+    {
+      "season": "S01",
+      "episode": "E18-E19",
+      "title": "Krunch Time / Substitute Creature",
+      "size": "270.9M",
+      "video_url": "https://archive.org/download/Jimmy-Neutron-Latino/_S01E18-S01E19_Krunch Time _ Substitute Creature.mp4"
+    },
+    {
+      "season": "S01",
+      "episode": "E20-E21",
+      "title": "Safety First / Crime Sheen Investigation",
+      "size": "271.8M",
+      "video_url": "https://archive.org/download/Jimmy-Neutron-Latino/_S01E20-S01E21_Safety First _ Crime Sheen Investigation.mp4"
+    },
+    {
+      "season": "S01",
+      "episode": "E22-E23",
+      "title": "Maximum Hugh / Augh! Wilderness",
+      "size": "287.6M",
+      "video_url": "https://archive.org/download/Jimmy-Neutron-Latino/_S01E22-S01E23_Maximum Hugh _ Augh! Wilderness.mp4"
+    },
+    {
+      "season": "S01",
+      "episode": "E24-E25",
+      "title": "Sleepless In Retroville / Ultra Sheen",
+      "size": "274.0M",
+      "video_url": "https://archive.org/download/Jimmy-Neutron-Latino/_S01E24-S01E25_Sleepless In Retroville_Ultra Sheen.mp4"
+    },
+    {
+      "season": "S01",
+      "episode": "E26-E27",
+      "title": "Pressor Calamitous / Journey to Center Carl",
+      "size": "268.0M",
+      "video_url": "https://archive.org/download/Jimmy-Neutron-Latino/_S01E26-S01E27_Pressor Calamitous _ Journey to  Center  Carl.mp4"
+    },
+    {
+      "season": "S01",
+      "episode": "E30",
+      "title": "Make Room for Daddy-O",
+      "size": "261.4M",
+      "video_url": "https://archive.org/download/Jimmy-Neutron-Latino/_S01E30_Make%20Room%20for%20Daddy-O.mp4"
+    },
+    {
+      "season": "S02",
+      "episode": "E09",
+      "title": "Love Potion #976_J",
+      "size": "269.7M",
+      "video_url": "https://archive.org/download/Jimmy-Neutron-Latino/_S02E09_Love Potion #976_J.mp4"
+    }
+  ]
+},
   {
     "title": "Mini Espías (Spy Kids) (2001)",
     "description": "Los hijos de dos espías retirados deben convertirse en espías para rescatar a sus padres secuestrados por el malvado Fegan Floop.",
