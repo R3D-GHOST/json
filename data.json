@@ -1,6 +1,182 @@
 [
   
   {
+    "title": "Supercampeones (Captain Tsubasa)",
+    "genre": [
+      "Anime",
+      "Deportes",
+      "Aventura"
+    ],
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfcI426lZjnCl4rfq973prPhq03At6fQHbJQ&s",
+    "description": "La historia sigue a Oliver Atom (Tsubasa Ozora), un joven prodigio del fútbol cuyo sueño es ganar la Copa Mundial para Japón. Esta etapa inicial se centra en su llegada a Nankatsu, su rivalidad con Benji Price (Genzo Wakabayashi) y su primer contacto con el fútbol a nivel escolar.",
+    "episodes": [
+      {
+        "episode": 1,
+        "title": "Un Gran Sueño",
+        "video_url": "https://archive.org/download/supercampeones-008/Supercampeones%20001.mp4"
+      },
+      {
+        "episode": 2,
+        "title": "El Gol de la Venganza",
+        "video_url": "https://archive.org/download/supercampeones-008/Supercampeones%20002.mp4"
+      },
+      {
+        "episode": 3,
+        "title": "El Comienzo",
+        "video_url": "https://archive.org/download/supercampeones-008/Supercampeones%20003.mp4"
+      },
+      {
+        "episode": 4,
+        "title": "El Vínculo con el Fútbol",
+        "video_url": "https://archive.org/download/supercampeones-008/Supercampeones%20004.mp4"
+      },
+      {
+        "episode": 5,
+        "title": "¿A Dónde Irá el Balón?",
+        "video_url": "https://archive.org/download/supercampeones-008/Supercampeones%20005.mp4"
+      },
+      {
+        "episode": 6,
+        "title": "Los Grandes Jugadores",
+        "video_url": "https://archive.org/download/supercampeones-008/Supercampeones%20006.mp4"
+      },
+      {
+        "episode": 7,
+        "title": "Una Lucha Difícil",
+        "video_url": "https://archive.org/download/supercampeones-008/Supercampeones%20007.mp4"
+      },
+      {
+        "episode": 8,
+        "title": "El Duelo de Capitanes",
+        "video_url": "https://archive.org/download/supercampeones-008/Supercampeones%20008.mp4"
+      },
+      {
+        "episode": 9,
+        "title": "Los Diez Magníficos",
+        "video_url": "https://archive.org/download/supercampeones-008/Supercampeones%20009.mp4"
+      },
+      {
+        "episode": 10,
+        "title": "El Camino a la Victoria",
+        "video_url": "https://archive.org/download/supercampeones-008/Supercampeones%20010.mp4"
+      }
+    ]
+  },
+  {
+    "title": "Samurai X (Rurouni Kenshin)",
+    "genre": [
+      "Anime",
+      "Acción",
+      "Aventura",
+      "Histórico"
+    ],
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfyr4-82Tuts0FPg6v_e0Jijc-SFLuApxGKw&s",
+    "description": "Ambientada en los primeros años de la Era Meiji, la historia sigue a Kenshin Himura, un ex asesino legendario conocido como 'Battousai el Asesino', quien ahora vaga por Japón como un espadachín errante prometiendo no volver a matar. Sus esfuerzos por vivir una vida pacífica son constantemente desafiados por su pasado y nuevos enemigos.",
+    "episodes": [
+      {
+        "episode": 1,
+        "title": "Kenshin Himura, el Hombre de la Espada de Filo Inverso",
+        "video_url": "https://archive.org/download/g-4-t-0-nx-1.9/G4T0NX%201.1.mp4"
+      },
+      {
+        "episode": 2,
+        "title": "Un Pupilo Imprevisto",
+        "video_url": "https://archive.org/download/g-4-t-0-nx-1.9/G4T0NX%201.2.mp4"
+      },
+      {
+        "episode": 3,
+        "title": "El Espadachín Oscuro",
+        "video_url": "https://archive.org/download/g-4-t-0-nx-1.9/G4T0NX%201.3.mp4"
+      },
+      {
+        "episode": 4,
+        "title": "La Pelea de Sanosuke: El Camino al Reto",
+        "video_url": "https://archive.org/download/g-4-t-0-nx-1.9/G4T0NX%201.4.mp4"
+      },
+      {
+        "episode": 5,
+        "title": "La Espada de la Cicatriz en la Frente",
+        "video_url": "https://archive.org/download/g-4-t-0-nx-1.9/G4T0NX%201.5.mp4"
+      },
+      {
+        "episode": 6,
+        "title": "El Visitante de la Oscuridad",
+        "video_url": "https://archive.org/download/g-4-t-0-nx-1.9/G4T0NX%201.6.mp4"
+      },
+      {
+        "episode": 7,
+        "title": "Duelo a Muerte: El Mejor Movimiento",
+        "video_url": "https://archive.org/download/g-4-t-0-nx-1.9/G4T0NX%201.7.mp4"
+      },
+      {
+        "episode": 8,
+        "title": "Una Nueva Batalla",
+        "video_url": "https://archive.org/download/g-4-t-0-nx-1.9/G4T0NX%201.8.mp4"
+      },
+      {
+        "episode": 9,
+        "title": "El Grupo de Oniwabanshu",
+        "video_url": "https://archive.org/download/g-4-t-0-nx-1.9/G4T0NX%201.9.mp4"
+      },
+      {
+        "episode": 10,
+        "title": "Aoshi, el Espadachín Solitario",
+        "video_url": "https://archive.org/download/g-4-t-0-nx-1.9/G4T0NX%201.10.mp4"
+      },
+      {
+        "episode": 11,
+        "title": "El Adiós del Oniwabanshu",
+        "video_url": "https://archive.org/download/g-4-t-0-nx-1.9/G4T0NX%201.11.mp4"
+      },
+      {
+        "episode": 12,
+        "title": "El Nacimiento de un Chico Espadachín",
+        "video_url": "https://archive.org/download/g-4-t-0-nx-1.9/G4T0NX%201.12.mp4"
+      },
+      {
+        "episode": 13,
+        "title": "El Tigre Ciego: El Primer Movimiento de Sano",
+        "video_url": "https://archive.org/download/g-4-t-0-nx-1.9/G4T0NX%201.13.mp4"
+      },
+      {
+        "episode": 14,
+        "title": "El Reto de Yahiko",
+        "video_url": "https://archive.org/download/g-4-t-0-nx-1.9/G4T0NX%201.14.mp4"
+      },
+      {
+        "episode": 15,
+        "title": "El Cirujano Kenshin",
+        "video_url": "https://archive.org/download/g-4-t-0-nx-1.9/G4T0NX%201.15.mp4"
+      },
+      {
+        "episode": 16,
+        "title": "El Juramento de Aoshi",
+        "video_url": "https://archive.org/download/g-4-t-0-nx-1.9/G4T0NX%201.16.mp4"
+      },
+      {
+        "episode": 17,
+        "title": "La Pelea del Tigre Contra el Lobo",
+        "video_url": "https://archive.org/download/g-4-t-0-nx-1.9/G4T0NX%201.17.mp4"
+      },
+      {
+        "episode": 18,
+        "title": "El Reto de Kaoru",
+        "video_url": "https://archive.org/download/g-4-t-0-nx-1.9/G4T0NX%201.18.mp4"
+      },
+      {
+        "episode": 19,
+        "title": "El Sueño de la Espada Rota",
+        "video_url": "https://archive.org/download/g-4-t-0-nx-1.9/G4T0NX%201.19.mp4"
+      },
+      {
+        "episode": 20,
+        "title": "La Revitalización del Estilo Kendo",
+        "video_url": "https://archive.org/download/g-4-t-0-nx-1.9/G4T0NX%201.20.mp4"
+      }
+    ]
+  },
+    
+  {
     "title": "Grimm Temporada 6",
     "genre": [
       "Fantasía",
