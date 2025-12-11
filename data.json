@@ -1,6 +1,4 @@
 [
-
-[
   {
     "title": "Dr. House Temporada 1",
     "language": "Español Latino",
@@ -8,118 +6,118 @@
       "Drama médico",
       "Misterio"
     ],
-     "coverImage": "https://m.media-amazon.com/images/I/91n7LAYhthL._AC_UF894,1000_QL80_.jpg",
+    "coverImage": "https://m.media-amazon.com/images/I/91n7LAYhthL._AC_UF894,1000_QL80_.jpg",
     "description": "La temporada de inicio que establece el formato y presenta al Dr. Gregory House y su equipo.",
     "episodes": [
       {
         "episode": 1,
         "title": "Piloto",
-        "video_url": "House%20(2004)%20-%20S01E01%20-%20Piloto.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S01E01%20-%20Piloto.mp4"
       },
       {
         "episode": 2,
         "title": "Paternidad",
-        "video_url": "House%20(2004)%20-%20S01E02%20-%20Paternidad.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S01E02%20-%20Paternidad.mp4"
       },
       {
         "episode": 3,
         "title": "La navaja de Occam",
-        "video_url": "House%20(2004)%20-%20S01E03%20-%20La%20navaja%20de%20Occam.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S01E03%20-%20La%20navaja%20de%20Occam.mp4"
       },
       {
         "episode": 4,
         "title": "Maternidad",
-        "video_url": "House%20(2004)%20-%20S01E04%20-%20Maternidad.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S01E04%20-%20Maternidad.mp4"
       },
       {
         "episode": 5,
         "title": "Fe",
-        "video_url": "House%20(2004)%20-%20S01E05%20-%20Fe.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S01E05%20-%20Fe.mp4"
       },
       {
         "episode": 6,
         "title": "El metodo socratico",
-        "video_url": "House%20(2004)%20-%20S01E06%20-%20El%20metodo%20socratico.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S01E06%20-%20El%20metodo%20socratico.mp4"
       },
       {
         "episode": 7,
         "title": "Fidelidad",
-        "video_url": "House%20(2004)%20-%20S01E07%20-%20Fidelidad.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S01E07%20-%20Fidelidad.mp4"
       },
       {
         "episode": 8,
         "title": "Veneno",
-        "video_url": "House%20(2004)%20-%20S01E08%20-%20Veneno.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S01E08%20-%20Veneno.mp4"
       },
       {
         "episode": 9,
         "title": "No RCP",
-        "video_url": "House%20(2004)%20-%20S01E09%20-%20No%20RCP.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S01E09%20-%20No%20RCP.mp4"
       },
       {
         "episode": 10,
         "title": "Historias",
-        "video_url": "House%20(2004)%20-%20S01E10%20-%20Historias.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S01E10%20-%20Historias.mp4"
       },
       {
         "episode": 11,
         "title": "Desintoxicacion",
-        "video_url": "House%20(2004)%20-%20S01E11%20-%20Desintoxicacion.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S01E11%20-%20Desintoxicacion.mp4"
       },
       {
         "episode": 12,
         "title": "Medicina deportiva",
-        "video_url": "House%20(2004)%20-%20S01E12%20-%20Medicina%20deportiva.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S01E12%20-%20Medicina%20deportiva.mp4"
       },
       {
         "episode": 13,
         "title": "La maldicion",
-        "video_url": "House%20(2004)%20-%20S01E13%20-%20La%20maldicion.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S01E13%20-%20La%20maldicion.mp4"
       },
       {
         "episode": 14,
         "title": "Control",
-        "video_url": "House%20(2004)%20-%20S01E14%20-%20Control.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S01E14%20-%20Control.mp4"
       },
       {
         "episode": 15,
         "title": "Las reglas de la mafia",
-        "video_url": "House%20(2004)%20-%20S01E15%20-%20Las%20reglas%20de%20la%20mafia.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S01E15%20-%20Las%20reglas%20de%20la%20mafia.mp4"
       },
       {
         "episode": 16,
         "title": "Peso",
-        "video_url": "House%20(2004)%20-%20S01E16%20-%20Peso.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S01E16%20-%20Peso.mp4"
       },
       {
         "episode": 17,
         "title": "Modelo a seguir",
-        "video_url": "House%20(2004)%20-%20S01E17%20-%20Modelo%20a%20seguir.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S01E17%20-%20Modelo%20a%20seguir.mp4"
       },
       {
         "episode": 18,
         "title": "Cuestion de muerte o muerte",
-        "video_url": "House%20(2004)%20-%20S01E18%20-%20Cuestion%20de%20muerte%20o%20muerte.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S01E18%20-%20Cuestion%20de%20muerte%20o%20muerte.mp4"
       },
       {
         "episode": 19,
         "title": "Chicos",
-        "video_url": "House%20(2004)%20-%20S01E19%20-%20Chicos.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S01E19%20-%20Chicos.mp4"
       },
       {
         "episode": 20,
         "title": "El amor duele",
-        "video_url": "House%20(2004)%20-%20S01E20%20-%20El%20amor%20duele.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S01E20%20-%20El%20amor%20duele.mp4"
       },
       {
         "episode": 21,
         "title": "Tres historias",
-        "video_url": "House%20(2004)%20-%20S01E21%20-%20Tres%20historias.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S01E21%20-%20Tres%20historias.mp4"
       },
       {
         "episode": 22,
         "title": "Luna de miel",
-        "video_url": "House%20(2004)%20-%20S01E22%20-%20Luna%20de%20miel.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S01E22%20-%20Luna%20de%20miel.mp4"
       }
     ]
   },
@@ -129,128 +127,128 @@
       "Drama médico",
       "Misterio"
     ],
-     "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvlApYUtUgjCAStHCgE6qDtfVn_9AmPYi4Rg&s",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvlApYUtUgjCAStHCgE6qDtfVn_9AmPYi4Rg&s",
     "description": "La segunda temporada ahonda en las relaciones personales de House y los límites éticos de su práctica.",
     "episodes": [
       {
         "episode": 1,
         "title": "Pena de muerte",
-        "video_url": "House%20(2004)%20-%20S02E01%20-%20Pena%20de%20muerte.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S02E01%20-%20Pena%20de%20muerte.mp4"
       },
       {
         "episode": 2,
         "title": "Autopsia",
-        "video_url": "House%20(2004)%20-%20S02E02%20-%20Autopsia.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S02E02%20-%20Autopsia.mp4"
       },
       {
         "episode": 3,
         "title": "La culpa",
-        "video_url": "House%20(2004)%20-%20S02E03%20-%20La%20culpa.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S02E03%20-%20La%20culpa.mp4"
       },
       {
         "episode": 4,
         "title": "Hipocresia",
-        "video_url": "House%20(2004)%20-%20S02E04%20-%20Hipocresia.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S02E04%20-%20Hipocresia.mp4"
       },
       {
         "episode": 5,
         "title": "Lazos familiares",
-        "video_url": "House%20(2004)%20-%20S02E05%20-%20Lazos%20familiares.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S02E05%20-%20Lazos%20familiares.mp4"
       },
       {
         "episode": 6,
         "title": "Etica",
-        "video_url": "House%20(2004)%20-%20S02E06%20-%20Etica.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S02E06%20-%20Etica.mp4"
       },
       {
         "episode": 7,
         "title": "Caceria",
-        "video_url": "House%20(2004)%20-%20S02E07%20-%20Caceria.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S02E07%20-%20Caceria.mp4"
       },
       {
         "episode": 8,
         "title": "Un pequeño error",
-        "video_url": "House%20(2004)%20-%20S02E08%20-%20Un%20pequeno%20error.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S02E08%20-%20Un%20pequeno%20error.mp4"
       },
       {
         "episode": 9,
         "title": "Decepcion",
-        "video_url": "House%20(2004)%20-%20S02E09%20-%20Decepcion.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S02E09%20-%20Decepcion.mp4"
       },
       {
         "episode": 10,
         "title": "Falla de comunicacion",
-        "video_url": "House%20(2004)%20-%20S02E10%20-%20Falla%20de%20comunicacion.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S02E10%20-%20Falla%20de%20comunicacion.mp4"
       },
       {
         "episode": 11,
         "title": "Necesidad de saber",
-        "video_url": "House%20(2004)%20-%20S02E11%20-%20Necesidad%20de%20saber.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S02E11%20-%20Necesidad%20de%20saber.mp4"
       },
       {
         "episode": 12,
         "title": "Distracciones",
-        "video_url": "House%20(2004)%20-%20S02E12%20-%20Distracciones.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S02E12%20-%20Distracciones.mp4"
       },
       {
         "episode": 13,
         "title": "Piel profunda",
-        "video_url": "House%20(2004)%20-%20S02E13%20-%20Piel%20profunda.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S02E13%20-%20Piel%20profunda.mp4"
       },
       {
         "episode": 14,
         "title": "El sexo mata",
-        "video_url": "House%20(2004)%20-%20S02E14%20-%20El%20sexo%20mata.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S02E14%20-%20El%20sexo%20mata.mp4"
       },
       {
         "episode": 15,
         "title": "Sin pista alguna",
-        "video_url": "House%20(2004)%20-%20S02E15%20-%20Sin%20pista%20alguna.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S02E15%20-%20Sin%20pista%20alguna.mp4"
       },
       {
         "episode": 16,
         "title": "A salvo",
-        "video_url": "House%20(2004)%20-%20S02E16%20-%20A%20salvo.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S02E16%20-%20A%20salvo.mp4"
       },
       {
         "episode": 17,
         "title": "Jugarselo todo",
-        "video_url": "House%20(2004)%20-%20S02E17%20-%20Jugarselo%20todo.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S02E17%20-%20Jugarselo%20todo.mp4"
       },
       {
         "episode": 18,
         "title": "Los perros dormilones mienten",
-        "video_url": "House%20(2004)%20-%20S02E18%20-%20Los%20perros%20dormilones%20mienten.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S02E18%20-%20Los%20perros%20dormilones%20mienten.mp4"
       },
       {
         "episode": 19,
         "title": "House contra Dios",
-        "video_url": "House%20(2004)%20-%20S02E19%20-%20House%20contra%20Dios.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S02E19%20-%20House%20contra%20Dios.mp4"
       },
       {
         "episode": 20,
         "title": "Euforia - Parte 1",
-        "video_url": "House%20(2004)%20-%20S02E20%20-%20Euforia%20-%20Parte%201.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S02E20%20-%20Euforia%20-%20Parte%201.mp4"
       },
       {
         "episode": 21,
         "title": "Euforia - Parte 2",
-        "video_url": "House%20(2004)%20-%20S02E21%20-%20Euforia%20-%20Parte%202.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S02E21%20-%20Euforia%20-%20Parte%202.mp4"
       },
       {
         "episode": 22,
         "title": "Cosas que no digo",
-        "video_url": "House%20(2004)%20-%20S02E22%20-%20Cosas%20que%20no%20digo.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S02E22%20-%20Cosas%20que%20no%20digo.mp4"
       },
       {
         "episode": 23,
         "title": "¿Quién es Daddy?",
-        "video_url": "House%20(2004)%20-%20S02E23%20-%20Quien%20es%20Daddy.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S02E23%20-%20Quien%20es%20Daddy.mp4"
       },
       {
         "episode": 24,
         "title": "Sin razon",
-        "video_url": "House%20(2004)%20-%20S02E24%20-%20Sin%20razon.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S02E24%20-%20Sin%20razon.mp4"
       }
     ]
   },
@@ -260,128 +258,128 @@
       "Drama médico",
       "Misterio"
     ],
-     "coverImage": "https://es.web.img3.acsta.net/c_225_300/pictures/210/527/21052759_20131024203648027.jpg",
+    "coverImage": "https://es.web.img3.acsta.net/c_225_300/pictures/210/527/21052759_20131024203648027.jpg",
     "description": "La tercera temporada explora las consecuencias del tiroteo de House, sus relaciones personales y más enigmas médicos que desafían a su equipo.",
     "episodes": [
       {
         "episode": 1,
         "title": "El Significado",
-        "video_url": "House%20(2004)%20-%20S03E01%20-%20El%20Significado.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S03E01%20-%20El%20Significado.mp4"
       },
       {
         "episode": 2,
         "title": "Caín y Abel",
-        "video_url": "House%20(2004)%20-%20S03E02%20-%20Cain%20y%20Abel.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S03E02%20-%20Cain%20y%20Abel.mp4"
       },
       {
         "episode": 3,
         "title": "Consentimiento informado",
-        "video_url": "House%20(2004)%20-%20S03E03%20-%20Consentimiento%20informado.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S03E03%20-%20Consentimiento%20informado.mp4"
       },
       {
         "episode": 4,
         "title": "Líneas de arena",
-        "video_url": "House%20(2004)%20-%20S03E04%20-%20Lineas%20de%20arena.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S03E04%20-%20Lineas%20de%20arena.mp4"
       },
       {
         "episode": 5,
         "title": "Engañados por el amor",
-        "video_url": "House%20(2004)%20-%20S03E05%20-%20Enganados%20por%20el%20amor.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S03E05%20-%20Enganados%20por%20el%20amor.mp4"
       },
       {
         "episode": 6,
         "title": "Que será será",
-        "video_url": "House%20(2004)%20-%20S03E06%20-%20Que%20sera%20sera.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S03E06%20-%20Que%20sera%20sera.mp4"
       },
       {
         "episode": 7,
         "title": "El hijo del hombre en coma",
-        "video_url": "House%20(2004)%20-%20S03E07%20-%20El%20hijo%20del%20hombre%20en%20coma.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S03E07%20-%20El%20hijo%20del%20hombre%20en%20coma.mp4"
       },
       {
         "episode": 8,
         "title": "Guacamole",
-        "video_url": "House%20(2004)%20-%20S03E08%20-%20Guacamole.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S03E08%20-%20Guacamole.mp4"
       },
       {
         "episode": 9,
         "title": "Buscando a Judas",
-        "video_url": "House%20(2004)%20-%20S03E09%20-%20Buscando%20a%20Judas.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S03E09%20-%20Buscando%20a%20Judas.mp4"
       },
       {
         "episode": 10,
         "title": "Una pequeña feliz Navidad",
-        "video_url": "House%20(2004)%20-%20S03E10%20-%20Una%20pequena%20feliz%20Navidad.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S03E10%20-%20Una%20pequena%20feliz%20Navidad.mp4"
       },
       {
         "episode": 11,
         "title": "Palabras y acciones",
-        "video_url": "House%20(2004)%20-%20S03E11%20-%20Palabras%20y%20acciones.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S03E11%20-%20Palabras%20y%20acciones.mp4"
       },
       {
         "episode": 12,
         "title": "Con el corazon",
-        "video_url": "House%20(2004)%20-%20S03E12%20-%20Con%20el%20corazon.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S03E12%20-%20Con%20el%20corazon.mp4"
       },
       {
         "episode": 13,
         "title": "Un sin techo llamado House",
-        "video_url": "House%20(2004)%20-%20S03E13%20-%20Un%20sin%20techo%20llamado%20House.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S03E13%20-%20Un%20sin%20techo%20llamado%20House.mp4"
       },
       {
         "episode": 14,
         "title": "Insensible",
-        "video_url": "House%20(2004)%20-%20S03E14%20-%20Insensible.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S03E14%20-%20Insensible.mp4"
       },
       {
         "episode": 15,
         "title": "Medio idiota",
-        "video_url": "House%20(2004)%20-%20S03E15%20-%20Medio%20idiota.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S03E15%20-%20Medio%20idiota.mp4"
       },
       {
         "episode": 16,
         "title": "Ultrasecreto",
-        "video_url": "House%20(2004)%20-%20S03E16%20-%20Ultrasecreto.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S03E16%20-%20Ultrasecreto.mp4"
       },
       {
         "episode": 17,
         "title": "Posicion fetal",
-        "video_url": "House%20(2004)%20-%20S03E17%20-%20Posicion%20fetal.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S03E17%20-%20Posicion%20fetal.mp4"
       },
       {
         "episode": 18,
         "title": "En el aire",
-        "video_url": "House%20(2004)%20-%20S03E18%20-%20En%20el%20aire.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S03E18%20-%20En%20el%20aire.mp4"
       },
       {
         "episode": 19,
         "title": "Actua de acuerdo a tu edad",
-        "video_url": "House%20(2004)%20-%20S03E19%20-%20Actua%20de%20acuerdo%20a%20tu%20edad.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S03E19%20-%20Actua%20de%20acuerdo%20a%20tu%20edad.mp4"
       },
       {
         "episode": 20,
         "title": "Tanto faz",
-        "video_url": "House%20(2004)%20-%20S03E20%20-%20Tanto%20faz.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S03E20%20-%20Tanto%20faz.mp4"
       },
       {
         "episode": 21,
         "title": "Familia",
-        "video_url": "House%20(2004)%20-%20S03E21%20-%20Familia.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S03E21%20-%20Familia.mp4"
       },
       {
         "episode": 22,
         "title": "Resignacion",
-        "video_url": "House%20(2004)%20-%20S03E22%20-%20Resignacion.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S03E22%20-%20Resignacion.mp4"
       },
       {
         "episode": 23,
         "title": "El cabron",
-        "video_url": "House%20(2004)%20-%20S03E23%20-%20El%20cabron.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S03E23%20-%20El%20cabron.mp4"
       },
       {
         "episode": 24,
         "title": "Fuga",
-        "video_url": "House%20(2004)%20-%20S03E24%20-%20Fuga.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S03E24%20-%20Fuga.mp4"
       }
     ]
   },
@@ -391,88 +389,88 @@
       "Drama médico",
       "Misterio"
     ],
-     "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-MBNpj4HyEy_sdV1kbXf681Ho5_V-b8mDEg&s",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-MBNpj4HyEy_sdV1kbXf681Ho5_V-b8mDEg&s",
     "description": "La cuarta temporada presenta un cambio de equipo y el desafío de House para encontrar nuevos genios diagnósticos.",
     "episodes": [
       {
         "episode": 1,
         "title": "Aislamiento",
-        "video_url": "House%20(2004)%20-%20S04E01%20-%20Aislamiento.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S04E01%20-%20Aislamiento.mp4"
       },
       {
         "episode": 2,
         "title": "El concepto de cancer",
-        "video_url": "House%20(2004)%20-%20S04E02%20-%20El%20concepto%20de%20cancer.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S04E02%20-%20El%20concepto%20de%20cancer.mp4"
       },
       {
         "episode": 3,
         "title": "Noventa segundos",
-        "video_url": "House%20(2004)%20-%20S04E03%20-%20Noventa%20segundos.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S04E03%20-%20Noventa%20segundos.mp4"
       },
       {
         "episode": 4,
         "title": "Guardianes de la fe",
-        "video_url": "House%20(2004)%20-%20S04E04%20-%20Guardianes%20de%20la%20fe.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S04E04%20-%20Guardianes%20de%20la%20fe.mp4"
       },
       {
         "episode": 5,
         "title": "Espejito espejito",
-        "video_url": "House%20(2004)%20-%20S04E05%20-%20Espejito%20espejito.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S04E05%20-%20Espejito%20espejito.mp4"
       },
       {
         "episode": 6,
         "title": "Cueste lo que cueste",
-        "video_url": "House%20(2004)%20-%20S04E06%20-%20Cueste%20lo%20que%20cueste.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S04E06%20-%20Cueste%20lo%20que%20cueste.mp4"
       },
       {
         "episode": 7,
         "title": "Feo",
-        "video_url": "House%20(2004)%20-%20S04E07%20-%20Feo.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S04E07%20-%20Feo.mp4"
       },
       {
         "episode": 8,
         "title": "No debes saberlo",
-        "video_url": "House%20(2004)%20-%20S04E08%20-%20No%20debes%20saberlo.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S04E08%20-%20No%20debes%20saberlo.mp4"
       },
       {
         "episode": 9,
         "title": "Juegos",
-        "video_url": "House%20(2004)%20-%20S04E09%20-%20Juegos.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S04E09%20-%20Juegos.mp4"
       },
       {
         "episode": 10,
         "title": "Mortal",
-        "video_url": "House%20(2004)%20-%20S04E10%20-%20Mortal.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S04E10%20-%20Mortal.mp4"
       },
       {
         "episode": 11,
         "title": "Congelacion",
-        "video_url": "House%20(2004)%20-%20S04E11%20-%20Congelacion.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S04E11%20-%20Congelacion.mp4"
       },
       {
         "episode": 12,
         "title": "Donante",
-        "video_url": "House%20(2004)%20-%20S04E12%20-%20Donante.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S04E12%20-%20Donante.mp4"
       },
       {
         "episode": 13,
         "title": "Se ha ido",
-        "video_url": "House%20(2004)%20-%20S04E13%20-%20Se%20ha%20ido.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S04E13%20-%20Se%20ha%20ido.mp4"
       },
       {
         "episode": 14,
         "title": "Manejar",
-        "video_url": "House%20(2004)%20-%20S04E14%20-%20Manejar.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S04E14%20-%20Manejar.mp4"
       },
       {
         "episode": 15,
         "title": "Esperando a House",
-        "video_url": "House%20(2004)%20-%20S04E15%20-%20Esperando%20a%20House.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S04E15%20-%20Esperando%20a%20House.mp4"
       },
       {
         "episode": 16,
         "title": "El final feliz",
-        "video_url": "House%20(2004)%20-%20S04E16%20-%20El%20final%20feliz.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S04E16%20-%20El%20final%20feliz.mp4"
       }
     ]
   },
@@ -482,128 +480,128 @@
       "Drama médico",
       "Misterio"
     ],
-     "coverImage": "https://m.media-amazon.com/images/I/71lSre-otUL._UF894,1000_QL80_.jpg",
+    "coverImage": "https://m.media-amazon.com/images/I/71lSre-otUL._UF894,1000_QL80_.jpg",
     "description": "La quinta temporada se centra en las consecuencias emocionales de los eventos anteriores y la lucha de House con sus problemas personales.",
     "episodes": [
       {
         "episode": 1,
         "title": "Morir cambia todo",
-        "video_url": "House%20(2004)%20-%20S05E01%20-%20Morir%20cambia%20todo.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S05E01%20-%20Morir%20cambia%20todo.mp4"
       },
       {
         "episode": 2,
         "title": "No es cancer",
-        "video_url": "House%20(2004)%20-%20S05E02%20-%20No%20es%20cancer.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S05E02%20-%20No%20es%20cancer.mp4"
       },
       {
         "episode": 3,
         "title": "Eventos adversos",
-        "video_url": "House%20(2004)%20-%20S05E03%20-%20Eventos%20adversos.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S05E03%20-%20Eventos%20adversos.mp4"
       },
       {
         "episode": 4,
         "title": "Marcas de nacimiento",
-        "video_url": "House%20(2004)%20-%20S05E04%20-%20Marcas%20de%20nacimiento.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S05E04%20-%20Marcas%20de%20nacimiento.mp4"
       },
       {
         "episode": 5,
         "title": "Placer culpable",
-        "video_url": "House%20(2004)%20-%20S05E05%20-%20Placer%20culpable.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S05E05%20-%20Placer%20culpable.mp4"
       },
       {
         "episode": 6,
         "title": "Dicha",
-        "video_url": "House%20(2004)%20-%20S05E06%20-%20Dicha.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S05E06%20-%20Dicha.mp4"
       },
       {
         "episode": 7,
         "title": "El cebo",
-        "video_url": "House%20(2004)%20-%20S05E07%20-%20El%20cebo.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S05E07%20-%20El%20cebo.mp4"
       },
       {
         "episode": 8,
         "title": "El equipo",
-        "video_url": "House%20(2004)%20-%20S05E08%20-%20El%20equipo.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S05E08%20-%20El%20equipo.mp4"
       },
       {
         "episode": 9,
         "title": "Entretencion",
-        "video_url": "House%20(2004)%20-%20S05E09%20-%20Entretencion.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S05E09%20-%20Entretencion.mp4"
       },
       {
         "episode": 10,
         "title": "Dejame en paz",
-        "video_url": "House%20(2004)%20-%20S05E10%20-%20Dejame%20en%20paz.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S05E10%20-%20Dejame%20en%20paz.mp4"
       },
       {
         "episode": 11,
         "title": "Pruebas definitivas",
-        "video_url": "House%20(2004)%20-%20S05E11%20-%20Pruebas%20definitivas.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S05E11%20-%20Pruebas%20definitivas.mp4"
       },
       {
         "episode": 12,
         "title": "Sin dolor",
-        "video_url": "House%20(2004)%20-%20S05E12%20-%20Sin%20dolor.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S05E12%20-%20Sin%20dolor.mp4"
       },
       {
         "episode": 13,
         "title": "Gran bebe",
-        "video_url": "House%20(2004)%20-%20S05E13%20-%20Gran%20bebe.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S05E13%20-%20Gran%20bebe.mp4"
       },
       {
         "episode": 14,
         "title": "El mejor de los mejores",
-        "video_url": "House%20(2004)%20-%20S05E14%20-%20El%20mejor%20de%20los%20mejores.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S05E14%20-%20El%20mejor%20de%20los%20mejores.mp4"
       },
       {
         "episode": 15,
         "title": "Infiel",
-        "video_url": "House%20(2004)%20-%20S05E15%20-%20Infiel.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S05E15%20-%20Infiel.mp4"
       },
       {
         "episode": 16,
         "title": "El camino mas facil",
-        "video_url": "House%20(2004)%20-%20S05E16%20-%20El%20camino%20mas%20facil.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S05E16%20-%20El%20camino%20mas%20facil.mp4"
       },
       {
         "episode": 17,
         "title": "El jefe",
-        "video_url": "House%20(2004)%20-%20S05E17%20-%20El%20jefe.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S05E17%20-%20El%20jefe.mp4"
       },
       {
         "episode": 18,
         "title": "Aqui me tienes",
-        "video_url": "House%20(2004)%20-%20S05E18%20-%20Aqui%20me%20tienes.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S05E18%20-%20Aqui%20me%20tienes.mp4"
       },
       {
         "episode": 19,
         "title": "Lo que sea necesario",
-        "video_url": "House%20(2004)%20-%20S05E19%20-%20Lo%20que%20sea%20necesario.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S05E19%20-%20Lo%20que%20sea%20necesario.mp4"
       },
       {
         "episode": 20,
         "title": "El don de House",
-        "video_url": "House%20(2004)%20-%20S05E20%20-%20El%20don%20de%20House.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S05E20%20-%20El%20don%20de%20House.mp4"
       },
       {
         "episode": 21,
         "title": "Tratamiento de choque",
-        "video_url": "House%20(2004)%20-%20S05E21%20-%20Tratamiento%20de%20choque.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S05E21%20-%20Tratamiento%20de%20choque.mp4"
       },
       {
         "episode": 22,
         "title": "Epoca de la cosecha",
-        "video_url": "House%20(2004)%20-%20S05E22%20-%20Epoca%20de%20la%20cosecha.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S05E22%20-%20Epoca%20de%20la%20cosecha.mp4"
       },
       {
         "episode": 23,
         "title": "Bajo mi piel",
-        "video_url": "House%20(2004)%20-%20S05E23%20-%20Under%20my%20skin.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S05E23%20-%20Under%20my%20skin.mp4"
       },
       {
         "episode": 24,
         "title": "Ambos lados de la historia",
-        "video_url": "House%20(2004)%20-%20S05E24%20-%20Ambos%20lados%20de%20la%20historia.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S05E24%20-%20Ambos%20lados%20de%20la%20historia.mp4"
       }
     ]
   },
@@ -612,119 +610,119 @@
     "genre": [
       "Drama médico",
       "Misterio"
-    ],  
-   "coverImage": "https://m.media-amazon.com/images/I/6101c1+7voL._AC_UF894,1000_QL80_.jpg",
+    ],
+    "coverImage": "https://m.media-amazon.com/images/I/6101c1+7voL._AC_UF894,1000_QL80_.jpg",
     "description": "La sexta temporada aborda la estancia de House en una institución mental y su camino hacia la recuperación y el regreso al hospital.",
     "episodes": [
       {
         "episode": 1,
         "title": "Quebrado",
-        "video_url": "House%20(2004)%20-%20S06E01%20-%20Quebrado.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S06E01%20-%20Quebrado.mp4"
       },
       {
         "episode": 2,
         "title": "Fracaso epico",
-        "video_url": "House%20(2004)%20-%20S06E02%20-%20Fracaso%20epico.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S06E02%20-%20Fracaso%20epico.mp4"
       },
       {
         "episode": 3,
         "title": "El dictador",
-        "video_url": "House%20(2004)%20-%20S06E03%20-%20El%20dictador.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S06E03%20-%20El%20dictador.mp4"
       },
       {
         "episode": 4,
         "title": "Karma instantaneo",
-        "video_url": "House%20(2004)%20-%20S06E04%20-%20Karma%20instantaneo.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S06E04%20-%20Karma%20instantaneo.mp4"
       },
       {
         "episode": 5,
         "title": "Corazon valiente",
-        "video_url": "House%20(2004)%20-%20S06E05%20-%20Corazon%20valiente.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S06E05%20-%20Corazon%20valiente.mp4"
       },
       {
         "episode": 6,
         "title": "El lado blando",
-        "video_url": "House%20(2004)%20-%20S06E06%20-%20El%20lado%20blando.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S06E06%20-%20El%20lado%20blando.mp4"
       },
       {
         "episode": 7,
         "title": "Diez de las ma",
-        "video_url": "House%20(2004)%20-%20S06E07%20-%20Diez%20de%20las%20ma%C3%B1ana.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S06E07%20-%20Diez%20de%20las%20ma%C3%B1ana.mp4"
       },
       {
         "episode": 8,
         "title": "Equipo humano",
-        "video_url": "House%20(2004)%20-%20S06E08%20-%20Equipo%20humano.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S06E08%20-%20Equipo%20humano.mp4"
       },
       {
         "episode": 9,
         "title": "Mundo plano",
-        "video_url": "House%20(2004)%20-%20S06E09%20-%20Mundo%20plano.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S06E09%20-%20Mundo%20plano.mp4"
       },
       {
         "episode": 10,
         "title": "Historia de perdedores",
-        "video_url": "House%20(2004)%20-%20S06E10%20-%20Historia%20de%20perdedores.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S06E10%20-%20Historia%20de%20perdedores.mp4"
       },
       {
         "episode": 11,
         "title": "La felicidad llega",
-        "video_url": "House%20(2004)%20-%20S06E11%20-%20La%20felicidad%20llega.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S06E11%20-%20La%20felicidad%20llega.mp4"
       },
       {
         "episode": 12,
         "title": "Remordimiento",
-        "video_url": "House%20(2004)%20-%20S06E12%20-%20Remordimiento.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S06E12%20-%20Remordimiento.mp4"
       },
       {
         "episode": 13,
         "title": "Enfrentamiento",
-        "video_url": "House%20(2004)%20-%20S06E13%20-%20Enfrentamiento.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S06E13%20-%20Enfrentamiento.mp4"
       },
       {
         "episode": 14,
         "title": "Vidas privadas",
-        "video_url": "House%20(2004)%20-%20S06E14%20-%20Vidas%20privadas.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S06E14%20-%20Vidas%20privadas.mp4"
       },
       {
         "episode": 15,
         "title": "Agujero negro",
-        "video_url": "House%20(2004)%20-%20S06E15%20-%20Agujero%20negro.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S06E15%20-%20Agujero%20negro.mp4"
       },
       {
         "episode": 16,
         "title": "Aislamiento",
-        "video_url": "House%20(2004)%20-%20S06E16%20-%20Aislamiento.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S06E16%20-%20Aislamiento.mp4"
       },
       {
         "episode": 17,
         "title": "Caballero fracasado",
-        "video_url": "House%20(2004)%20-%20S06E17%20-%20Caballero%20fracasado.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S06E17%20-%20Caballero%20fracasado.mp4"
       },
       {
         "episode": 18,
         "title": "Ayuda en camino",
-        "video_url": "House%20(2004)%20-%20S06E18%20-%20Ayuda%20en%20camino.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S06E18%20-%20Ayuda%20en%20camino.mp4"
       },
       {
         "episode": 19,
         "title": "La eleccion",
-        "video_url": "House%20(2004)%20-%20S06E19%20-%20La%20eleccion.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S06E19%20-%20La%20eleccion.mp4"
       },
       {
         "episode": 20,
         "title": "El punto de Cuddy",
-        "video_url": "House%20(2004)%20-%20S06E20%20-%20El%20punto%20de%20Cuddy.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S06E20%20-%20El%20punto%20de%20Cuddy.mp4"
       },
       {
         "episode": 21,
         "title": "El punto de House",
-        "video_url": "House%20(2004)%20-%20S06E21%20-%20El%20punto%20de%20House.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S06E21%20-%20El%20punto%20de%20House.mp4"
       },
       {
         "episode": 22,
         "title": "Ayuda en camino",
-        "video_url": "House%20(2004)%20-%20S06E22%20-%20Ayuda%20en%20camino.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S06E22%20-%20Ayuda%20en%20camino.mp4"
       }
     ]
   },
@@ -740,241 +738,365 @@
       {
         "episode": 1,
         "title": "Y ahora...",
-        "video_url": "House%20(2004)%20-%20S07E01%20-%20Y%20ahora...mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S07E01%20-%20Y%20ahora...mp4"
       },
       {
         "episode": 2,
         "title": "Auto-defensa",
-        "video_url": "House%20(2004)%20-%20S07E02%20-%20Auto-defensa.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S07E02%20-%20Auto-defensa.mp4"
       },
       {
         "episode": 3,
         "title": "El escritor",
-        "video_url": "House%20(2004)%20-%20S07E03%20-%20El%20escritor.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S07E03%20-%20El%20escritor.mp4"
       },
       {
         "episode": 4,
         "title": "Tercera historia",
-        "video_url": "House%20(2004)%20-%20S07E04%20-%20Tercera%20historia.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S07E04%20-%20Tercera%20historia.mp4"
       },
       {
         "episode": 5,
         "title": "Desventajas",
-        "video_url": "House%20(2004)%20-%20S07E05%20-%20Desventajas.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S07E05%20-%20Desventajas.mp4"
       },
       {
         "episode": 6,
         "title": "Politica de la oficina",
-        "video_url": "House%20(2004)%20-%20S07E06%20-%20Politica%20de%20la%20oficina.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S07E06%20-%20Politica%20de%20la%20oficina.mp4"
       },
       {
         "episode": 7,
         "title": "Viruela",
-        "video_url": "House%20(2004)%20-%20S07E07%20-%20Viruela.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S07E07%20-%20Viruela.mp4"
       },
       {
         "episode": 8,
         "title": "Pequeños sacrificios",
-        "video_url": "House%20(2004)%20-%20S07E08%20-%20Pequenos%20sacrificios.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S07E08%20-%20Pequenos%20sacrificios.mp4"
       },
       {
         "episode": 9,
         "title": "Heroico",
-        "video_url": "House%20(2004)%20-%20S07E09%20-%20Heroico.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S07E09%20-%20Heroico.mp4"
       },
       {
         "episode": 10,
         "title": "Escupe el chicle",
-        "video_url": "House%20(2004)%20-%20S07E10%20-%20Escupe%20el%20chicle.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S07E10%20-%20Escupe%20el%20chicle.mp4"
       },
       {
         "episode": 11,
         "title": "Receta para desastres",
-        "video_url": "House%20(2004)%20-%20S07E11%20-%20Receta%20para%20desastres.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S07E11%20-%20Receta%20para%20desastres.mp4"
       },
       {
         "episode": 12,
         "title": "Eres mi droga",
-        "video_url": "House%20(2004)%20-%20S07E12%20-%20Eres%20mi%20droga.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S07E12%20-%20Eres%20mi%20droga.mp4"
       },
       {
         "episode": 13,
         "title": "Dos historias",
-        "video_url": "House%20(2004)%20-%20S07E13%20-%20Dos%20historias.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S07E13%20-%20Dos%20historias.mp4"
       },
       {
         "episode": 14,
         "title": "La otra mujer",
-        "video_url": "House%20(2004)%20-%20S07E14%20-%20La%20otra%20mujer.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S07E14%20-%20La%20otra%20mujer.mp4"
       },
       {
         "episode": 15,
         "title": "Conciencia culpable",
-        "video_url": "House%20(2004)%20-%20S07E15%20-%20Conciencia%20culpable.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S07E15%20-%20Conciencia%20culpable.mp4"
       },
       {
         "episode": 16,
         "title": "El pozo de la culpa",
-        "video_url": "House%20(2004)%20-%20S07E16%20-%20El%20pozo%20de%20la%20culpa.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S07E16%20-%20El%20pozo%20de%20la%20culpa.mp4"
       },
       {
         "episode": 17,
         "title": "La caida de Icaro",
-        "video_url": "House%20(2004)%20-%20S07E17%20-%20La%20caida%20de%20Icaro.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S07E17%20-%20La%20caida%20de%20Icaro.mp4"
       },
       {
         "episode": 18,
         "title": "El corazon del Wilson",
-        "video_url": "House%20(2004)%20-%20S07E18%20-%20El%20corazon%20del%20Wilson.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S07E18%20-%20El%20corazon%20del%20Wilson.mp4"
       },
       {
         "episode": 19,
         "title": "La ultima tentacion",
-        "video_url": "House%20(2004)%20-%20S07E19%20-%20La%20ultima%20tentacion.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S07E19%20-%20La%20ultima%20tentacion.mp4"
       },
       {
         "episode": 20,
         "title": "Cambios",
-        "video_url": "House%20(2004)%20-%20S07E20%20-%20Cambios.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S07E20%20-%20Cambios.mp4"
       },
       {
         "episode": 21,
         "title": "El arreglo",
-        "video_url": "House%20(2004)%20-%20S07E21%20-%20El%20arreglo.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S07E21%20-%20El%20arreglo.mp4"
       },
       {
         "episode": 22,
         "title": "Despues de hora",
-        "video_url": "House%20(2004)%20-%20S07E22%20-%20Despues%20de%20hora.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S07E22%20-%20Despues%20de%20hora.mp4"
       },
       {
         "episode": 23,
         "title": "Dilema",
-        "video_url": "House%20(2004)%20-%20S07E23%20-%20Dilema.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S07E23%20-%20Dilema.mp4"
       }
     ]
   },
   {
-    "title": "Dr. House  Temporada 8",
+    "title": "Dr. House Temporada 8",
     "genre": [
       "Drama médico",
       "Misterio"
     ],
-     "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXRXu2aNisBFG63kSDL6l9mGv1io3F2cPqgA&s",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXRXu2aNisBFG63kSDL6l9mGv1io3F2cPqgA&s",
     "description": "La temporada final de House, que lo encuentra fuera de la cárcel y lidiando con su destino y el de sus amigos.",
     "episodes": [
       {
         "episode": 1,
         "title": "Veintiun segundos",
-        "video_url": "House%20(2004)%20-%20S08E01%20-%20Veintiun%20segundos.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S08E01%20-%20Veintiun%20segundos.mp4"
       },
       {
         "episode": 2,
         "title": "El perro se comio el zapato",
-        "video_url": "House%20(2004)%20-%20S08E02%20-%20El%20perro%20se%20comio%20el%20zapato.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S08E02%20-%20El%20perro%20se%20comio%20el%20zapato.mp4"
       },
       {
         "episode": 3,
         "title": "El jefe",
-        "video_url": "House%20(2004)%20-%20S08E03%20-%20El%20jefe.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S08E03%20-%20El%20jefe.mp4"
       },
       {
         "episode": 4,
         "title": "Mejoria",
-        "video_url": "House%20(2004)%20-%20S08E04%20-%20Mejoria.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S08E04%20-%20Mejoria.mp4"
       },
       {
         "episode": 5,
         "title": "El inadaptado",
-        "video_url": "House%20(2004)%20-%20S08E05%20-%20El%20inadaptado.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S08E05%20-%20El%20inadaptado.mp4"
       },
       {
         "episode": 6,
         "title": "Lugar de reunion",
-        "video_url": "House%20(2004)%20-%20S08E06%20-%20Lugar%20de%20reunion.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S08E06%20-%20Lugar%20de%20reunion.mp4"
       },
       {
         "episode": 7,
         "title": "Hombre de familia",
-        "video_url": "House%20(2004)%20-%20S08E07%20-%20Hombre%20de%20familia.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S08E07%20-%20Hombre%20de%20familia.mp4"
       },
       {
         "episode": 8,
         "title": "Riesgos de paranoia",
-        "video_url": "House%20(2004)%20-%20S08E08%20-%20Riesgos%20de%20paranoia.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S08E08%20-%20Riesgos%20de%20paranoia.mp4"
       },
       {
         "episode": 9,
         "title": "Media naranja",
-        "video_url": "House%20(2004)%20-%20S08E09%20-%20Media%20naranja.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S08E09%20-%20Media%20naranja.mp4"
       },
       {
         "episode": 10,
         "title": "Fugitiva",
-        "video_url": "House%20(2004)%20-%20S08E10%20-%20Fugitiva.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S08E10%20-%20Fugitiva.mp4"
       },
       {
         "episode": 11,
         "title": "Nadie lo sabe",
-        "video_url": "House%20(2004)%20-%20S08E11%20-%20Nadie%20lo%20sabe.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S08E11%20-%20Nadie%20lo%20sabe.mp4"
       },
       {
         "episode": 12,
         "title": "Chatarra",
-        "video_url": "House%20(2004)%20-%20S08E12%20-%20Chatarra.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S08E12%20-%20Chatarra.mp4"
       },
       {
         "episode": 13,
         "title": "El gran perdedor",
-        "video_url": "House%20(2004)%20-%20S08E13%20-%20El%20gran%20perdedor.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S08E13%20-%20El%20gran%20perdedor.mp4"
       },
       {
         "episode": 14,
         "title": "El hombre de las caderas de titanio",
-        "video_url": "House%20(2004)%20-%20S08E14%20-%20El%20hombre%20de%20las%20caderas%20de%20titanio.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S08E14%20-%20El%20hombre%20de%20las%20caderas%20de%20titanio.mp4"
       },
       {
         "episode": 15,
         "title": "El hombre de la casa",
-        "video_url": "House%20(2004)%20-%20S08E15%20-%20El%20hombre%20de%20la%20casa.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S08E15%20-%20El%20hombre%20de%20la%20casa.mp4"
       },
       {
         "episode": 16,
         "title": "Golpe al aire",
-        "video_url": "House%20(2004)%20-%20S08E16%20-%20Golpe%20al%20aire.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S08E16%20-%20Golpe%20al%20aire.mp4"
       },
       {
         "episode": 17,
         "title": "El mundo conocido",
-        "video_url": "House%20(2004)%20-%20S08E17%20-%20El%20mundo%20conocido.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S08E17%20-%20El%20mundo%20conocido.mp4"
       },
       {
         "episode": 18,
         "title": "Causa y efecto",
-        "video_url": "House%20(2004)%20-%20S08E18%20-%20Causa%20y%20efecto.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S08E18%20-%20Causa%20y%20efecto.mp4"
       },
       {
         "episode": 19,
         "title": "El que se escapa",
-        "video_url": "House%20(2004)%20-%20S08E19%20-%20El%20que%20se%20escapa.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S08E19%20-%20El%20que%20se%20escapa.mp4"
       },
       {
         "episode": 20,
         "title": "Post-mortem",
-        "video_url": "House%20(2004)%20-%20S08E20%20-%20Post-mortem.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S08E20%20-%20Post-mortem.mp4"
       },
       {
         "episode": 21,
         "title": "Resistiendo",
-        "video_url": "House%20(2004)%20-%20S08E21%20-%20Resistiendo.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S08E21%20-%20Resistiendo.mp4"
       },
       {
         "episode": 22,
         "title": "Todo el mundo muere",
-        "video_url": "House%20(2004)%20-%20S08E22%20-%20Todo%20el%20mundo%20muere.mp4"
+        "video_url": "https://archive.org/download/dr-house-latino/House%20(2004)%20-%20S08E22%20-%20Todo%20el%20mundo%20muere.mp4"
       }
     ]
   },
+  
+[
+  {
+    "title": "ER (Emergencias)  Temporada 4",
+    "genre": [
+      "Drama médico"
+    ],
+    "coverImage": "https://m.media-amazon.com/images/I/71TWBjk8xqL._AC_UF894,1000_QL80_.jpg",
+    "description": "La cuarta temporada de ER trae nuevos desafíos, dramas personales y casos médicos intensos en la sala de emergencias del County General.",
+    "episodes": [
+      {
+        "episode": 1,
+        "title": "Emboscada",
+        "video_url": "https://archive.org/download/ER-04/01%20-%20Emboscada.mp4"
+      },
+      {
+        "episode": 2,
+        "title": "Algo nuevo",
+        "video_url": "https://archive.org/download/ER-04/02%20-%20Algo%20nuevo.mp4"
+      },
+      {
+        "episode": 3,
+        "title": "Fuego amigo",
+        "video_url": "https://archive.org/download/ER-04/03%20-%20Fuego%20amigo.mp4"
+      },
+      {
+        "episode": 4,
+        "title": "Cuando la rama se rompe",
+        "video_url": "https://archive.org/download/ER-04/04%20-%20Cuando%20la%20rama%20se%20rompe.mp4"
+      },
+      {
+        "episode": 5,
+        "title": "Buen toque, mal toque",
+        "video_url": "https://archive.org/download/ER-04/05%20-%20Buen%20toque%2C%20mal%20toque.mp4"
+      },
+      {
+        "episode": 6,
+        "title": "Zona de impacto",
+        "video_url": "https://archive.org/download/ER-04/06%20-%20Zona%20de%20impacto.mp4"
+      },
+      {
+        "episode": 7,
+        "title": "Padres e hijos",
+        "video_url": "https://archive.org/download/ER-04/07%20-%20Padres%20e%20hijos.mp4"
+      },
+      {
+        "episode": 8,
+        "title": "Espectáculo de fenómenos",
+        "video_url": "https://archive.org/download/ER-04/08%20-%20Espect%C3%A1culo%20de%20fen%C3%B3menos.mp4"
+      },
+      {
+        "episode": 9,
+        "title": "Obstrucción de la justicia",
+        "video_url": "https://archive.org/download/ER-04/09%20-%20Obstrucci%C3%B3n%20de%20la%20justicia.mp4"
+      },
+      {
+        "episode": 10,
+        "title": "¿Ves lo que veo?",
+        "video_url": "https://archive.org/download/ER-04/10%20-%20%C2%BFVes%20lo%20que%20veo.mp4"
+      },
+      {
+        "episode": 11,
+        "title": "Piensa en cosas buenas",
+        "video_url": "https://archive.org/download/ER-04/11-%20Piensa%20en%20cosas%20buenas.mp4"
+      },
+      {
+        "episode": 12,
+        "title": "Alivio agudo",
+        "video_url": "https://archive.org/download/ER-04/12%20-%20Alivio%20agudo.mp4"
+      },
+      {
+        "episode": 13,
+        "title": "Elección de Carter",
+        "video_url": "https://archive.org/download/ER-04/13%20-%20Elecci%C3%B3n%20de%20Carter.mp4"
+      },
+      {
+        "episode": 14,
+        "title": "Medicina familiar",
+        "video_url": "https://archive.org/download/ER-04/14%20-%20Medicina%20familia.mp4"
+      },
+      {
+        "episode": 15,
+        "title": "Éxodo",
+        "video_url": "https://archive.org/download/ER-04/15%20-%20%C3%89xodo.mp4"
+      },
+      {
+        "episode": 16,
+        "title": "El cuidador de mi hermano",
+        "video_url": "https://archive.org/download/ER-04/16%20-%20El%20cuidador%20de%20mi%20hermano.mp4"
+      },
+      {
+        "episode": 17,
+        "title": "Un lío sangriento",
+        "video_url": "https://archive.org/download/ER-04/17%20-%20Un%20lio%20sangriento.mp4"
+      },
+      {
+        "episode": 18,
+        "title": "Reacción visceral",
+        "video_url": "https://archive.org/download/ER-04/18%20-%20Reacci%C3%B3n%20visceral.mp4"
+      },
+      {
+        "episode": 19,
+        "title": "Sombras de Grey",
+        "video_url": "https://archive.org/download/ER-04/19%20-%20Sombras%20de%20Grey.mp4"
+      },
+      {
+        "episode": 20,
+        "title": "Lamentar el pasado y temer al futuro",
+        "video_url": "https://archive.org/download/ER-04/20%20-%20Lamentar%20el%20pasado%20y%20temer%20al%20futuro.mp4"
+      },
+      {
+        "episode": 21,
+        "title": "Sufrir a los niños pequeños",
+        "video_url": "https://archive.org/download/ER-04/21%20-%20%20Sufrir%20a%20los%20ni%C3%B1os%20peque%C3%B1os.mp4"
+      },
+      {
+        "episode": 22,
+        "title": "Un agujero en el corazón",
+        "video_url": "https://archive.org/download/ER-04/22%20-%20Un%20agujero%20en%20el%20coraz%C3%B3n.mp4"
+      }
+    ]
+  }
+],
+  
  
  {
   "title": "Jimmy Neutron",
@@ -1367,6 +1489,7 @@
     }
   ]
 },
+  
   {
     "title": "Mini Espías (Spy Kids) (2001)",
     "description": "Los hijos de dos espías retirados deben convertirse en espías para rescatar a sus padres secuestrados por el malvado Fegan Floop.",
