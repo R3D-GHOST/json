@@ -1,6 +1,125 @@
 [
-
-
+  {
+    "title": "Kenshin, el guerrero samurái (Rurouni Kenshin)",
+    "description": "Primera entrega de la saga de acción real de Kenshin Himura.",
+    "year": 2012,
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3Gsnyo6MYrtu5mM2ACU3se147g6mJr9Pp5eaemSCW9S__RQ159MMG19LG&s=10",
+    "genre": [
+      "Acción",
+      "Samurái"
+    ],
+    "video_url": "https://archive.org/download/rob0ts.2005/1.mp4"
+  },
+  {
+    "title": "Samurai X 2: O Inferno de Kyoto (Rurouni Kenshin: Kyoto Inferno)",
+    "description": "Segunda entrega de la saga de Rurouni Kenshin.",
+    "year": 2014,
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBI1-ApNVHC5s5YdMm_-mh6Bn2pImRz3jKslOshSRABA&s=10",
+    "genre": [
+      "Acción",
+      "Samurái"
+    ],
+    "video_url": "https://archive.org/download/rob0ts.2005/2yamas.mp4"
+  },
+  {
+    "title": "Samurai X 3 - El Fin de la Leyenda (Rurouni Kenshin: The Legend Ends)",
+    "description": "Tercera entrega y conclusión del arco de Kioto.",
+    "year": 2014,
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzzWZCqo9glw6vFOJE7UTWAR8qZMhbLO0zLjIP_dRjZqI1HCbe8nmmvw&s=10",
+    "genre": [
+      "Acción",
+      "Samurái"
+    ],
+    "video_url": "https://archive.org/download/rob0ts.2005/3termina.mp4"
+  },
+  {
+    "title": "Antboy 2: La Venganza de la Furia Roja",
+    "description": "Segunda película de la saga danesa de superhéroes juveniles.",
+    "year": 2014,
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6pw6EzSxPKWBJgC0k-RCw0cER4Qe3aczX7g408FVKnQ&s=10",
+    "genre": [
+      "Aventura",
+      "Familiar"
+    ],
+    "video_url": "https://archive.org/download/rob0ts.2005/Antboy2.mp4"
+  },
+  {
+    "title": "Antboy 3: La Última Batalla",
+    "description": "Tercera entrega de la saga Antboy.",
+    "year": 2016,
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTtItbZe2DbZZ_bcujhGwPRfS7v2NrQHhlva_Jn9Uxlg&s=10",
+    "genre": [
+      "Aventura",
+      "Familiar"
+    ],
+    "video_url": "https://archive.org/download/rob0ts.2005/Antboy3.mp4"
+  },
+  {
+    "title": "Samurái X: El fin (Rurouni Kenshin: The Final)",
+    "description": "El capítulo final de la saga de acción real de Rurouni Kenshin.",
+    "year": 2021,
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ33mMxnVFV6gAqYGUP_arIQpCTSoFYE_iEzIpv56cnKLcVnlzyCJNjng&s=10",
+    "genre": [
+      "Acción",
+      "Samurái"
+    ],
+    "video_url": "https://archive.org/download/rob0ts.2005/Fin.mp4"
+  },
+  {
+    "title": "Five Nights at Freddy's",
+    "description": "Adaptación cinematográfica del popular videojuego de terror.",
+    "year": 2023,
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwaKvTE-7d9E4ycv2TLhH7OrzsspGUSylhWZA5rmuXaA&s",
+    "genre": [
+      "Terror",
+      "Misterio"
+    ],
+    "video_url": "https://archive.org/download/rob0ts.2005/FiveNi.mp4"
+  },
+  {
+    "title": "Baila conmigo (Dance With Me)",
+    "description": "Película de romance y baile protagonizada por Chayanne.",
+    "year": 1998,
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8HOYJPQlnUOhj-oMW2oLXUJ4dFW-RX5byTkQfCbo4Zg&s=10",
+    "genre": [
+      "Musical",
+      "Romance"
+    ],
+    "video_url": "https://archive.org/download/rob0ts.2005/chya.mp4"
+  },
+  {
+    "title": "Dirty Dancing",
+    "description": "Clásico del cine de baile y romance de 1987.",
+    "year": 1987,
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoAt7yUeMajDUFucq-1M53I_NE_hBcnbVc_b0IxvH6rQ&s=10",
+    "genre": [
+      "Romance",
+      "Musical"
+    ],
+    "video_url": "https://archive.org/download/rob0ts.2005/dar.mp4"
+  },
+  {
+    "title": "Dirty Dancing: Havana Nights (Dirty Dancing 2)",
+    "description": "Segunda entrega de la franquicia Dirty Dancing, ambientada en Cuba antes de la revolución.",
+    "year": 2004,
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTudGbtk6Roj9cwe3EPnPV7qTpS2j2T5XIfsrEOQMV9LQ&s=10",
+    "genre": [
+      "Romance",
+      "Musical"
+    ],
+    "video_url": "https://archive.org/download/rob0ts.2005/dar2.mp4"
+  },
+  {
+    "title": "Perros Callejeros 2: Busca y Captura",
+    "description": "Continuación de la película de cine quinqui español.",
+    "year": 1979,
+    "coverImage": "https://m.media-amazon.com/images/S/pv-target-images/cf0a6c09bf27503a6ab48ecef225a1ff2d7ab69a3d22cbf132eca9fe30d6f6bf.jpg",
+    "genre": [
+      "Crimen",
+      "Drama"
+    ],
+    "video_url": "https://archive.org/download/rob0ts.2005/perros2.mp4"
+  },
   
   {
     "title": "Supercampeones (Captain Tsubasa)",
