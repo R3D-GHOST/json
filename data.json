@@ -1,5 +1,109 @@
 [
-  
+  {
+    "title": "Rurouni Kenshin (2012)",
+    "description": "Kenshin Himura, un exasesino conocido como Battousai, busca redimirse protegiendo a los inocentes sin matar, mientras enemigos del pasado resurgen para desafiar su nuevo camino.",
+    "genre": ["Acción", "Aventura", "Drama", "Histórico"],
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3Gsnyo6MYrtu5mM2ACU3se147g6mJr9Pp5eaemSCW9S",
+    "video_url": "https://archive.org/download/rob0ts.2005/1.mp4"
+  },
+  {
+    "title": "Rurouni Kenshin: Kyoto Inferno (2014)",
+    "description": "Kenshin debe detener a Makoto Shishio, un exasesino que planea sumir a Japón en el caos tras ser traicionado por el gobierno.",
+    "genre": ["Acción", "Aventura", "Histórico"],
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBI1-ApNVHC5s5YdMm_-mh6Bn2pImRz3jKslOshSRABA",
+    "video_url": "https://archive.org/download/rob0ts.2005/2yamas.mp4"
+  },
+  {
+    "title": "Rurouni Kenshin: The Legend Ends (2014)",
+    "description": "Tras un duro entrenamiento, Kenshin se prepara para el duelo final contra Shishio y así evitar la destrucción del país.",
+    "genre": ["Acción", "Aventura", "Artes marciales"],
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzzWZCqo9glw6vFOJE7UTWAR8qZMhbLO0zLjIP_dRjZqI1HCbe8nmmvw",
+    "video_url": "https://archive.org/download/rob0ts.2005/3termina.mp4"
+  },
+  {
+    "title": "Rurouni Kenshin: The Final (2021)",
+    "description": "Enishi Yukishiro regresa para vengarse de Kenshin por la muerte de su hermana Tomoe, desatando el conflicto más personal de la vida del exasesino.",
+    "genre": ["Acción", "Drama", "Artes marciales"],
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ33mMxnVFV6gAqYGUP_arIQpCTSoFYE_iEzIpv56cnKLcVnlzyCJNjng",
+    "video_url": "https://archive.org/download/rob0ts.2005/Fin.mp4"
+  },
+  {
+    "title": "Antboy 2: Revenge of the Red Fury (2014)",
+    "description": "Pelle continúa su vida como Antboy mientras enfrenta a una nueva villana, Red Fury, que amenaza con destruir todo lo que ama.",
+    "genre": ["Aventura", "Comedia", "Familiar", "Superhéroes"],
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6pw6EzSxPKWBJgC0k-RCw0cER4Qe3aczX7g408FVKnQ",
+    "video_url": "https://archive.org/download/rob0ts.2005/Antboy2.mp4"
+  },
+  {
+    "title": "Antboy 3 (2016)",
+    "description": "Mientras Pelle intenta dejar atrás su vida como superhéroe, un nuevo enemigo surge poniendo a prueba su identidad y futuro.",
+    "genre": ["Aventura", "Comedia", "Familiar", "Superhéroes"],
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTtItbZe2DbZZ_bcujhGwPRfS7v2NrQHhlva_Jn9Uxlg",
+    "video_url": "https://archive.org/download/rob0ts.2005/Antboy3.mp4"
+  },
+  {
+    "title": "Five Nights at Freddy's (2023)",
+    "description": "Un guardia nocturno comienza a trabajar en Freddy Fazbear’s Pizza, donde descubre que los animatrónicos cobran vida y albergan oscuros secretos.",
+    "genre": ["Terror", "Suspenso"],
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwaKvTE-7d9E4ycv2TLhH7OrzsspGUSylhWZA5rmuXaA",
+    "video_url": "https://archive.org/download/rob0ts.2005/FiveNi.mp4"
+  },
+  {
+    "title": "Chhota Bheem: Kung Fu Dhamaka (2019)",
+    "description": "Bheem viaja a China para participar en un torneo de artes marciales, enfrentando a peligrosos rivales y un mal ancestral.",
+    "genre": ["Animación", "Aventura", "Acción"],
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8HOYJPQlnUOhj-oMW2oLXUJ4dFW-RX5byTkQfCbo4Zg",
+    "video_url": "https://archive.org/download/rob0ts.2005/chya.mp4"
+  },
+  {
+    "title": "Darkman (1990)",
+    "description": "Un científico dado por muerto regresa desfigurado y con nuevas habilidades para vengarse de quienes destruyeron su vida.",
+    "genre": ["Acción", "Terror", "Crimen"],
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoAt7uEmajDUFucq-1M53I_NE_hBcnbVc_b0IxvH6rQ",
+    "video_url": "https://archive.org/download/rob0ts.2005/dar.mp4"
+  },
+  {
+    "title": "Darkman II: The Return of Durant (1995)",
+    "description": "Darkman debe enfrentar nuevamente a Durant, quien ha sobrevivido y planea retomar su imperio criminal.",
+    "genre": ["Acción", "Crimen", "Terror"],
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTudGbtk6Roj9cwe3EPnPV7qTpS2j2T5XIfsrEOQMV9LQ",
+    "video_url": "https://archive.org/download/rob0ts.2005/dar2.mp4"
+  },
+  {
+    "title": "Cats & Dogs: The Revenge of Kitty Galore (2010)",
+    "description": "Gatos y perros rivalizan nuevamente, pero deberán unir fuerzas para detener a la malvada Kitty Galore y salvar al mundo.",
+    "genre": ["Familiar", "Aventura", "Comedia"],
+    "coverImage": "https://m.media-amazon.com/images/S/pv-target-images/cf0a6c09bf27503a6ab48ecef225a1ff2d7ab69a3d22cbf132eca9fe30d6f6bf.jpg",
+    "video_url": "https://archive.org/download/rob0ts.2005/perros2.mp4"
+  },
+  {
+    "title": "Dance with Me (1998)",
+    "description": "Un joven cubano llega a Estados Unidos donde descubre el amor y su pasión por el baile mientras se prepara para una competencia.",
+    "genre": ["Romance", "Drama", "Música", "Baile"],
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ33mMxnVFV6gAqYGUP_arIQpCTSoFYE_iEzIpv56cnKLcVnlzyCJNjng",
+    "video_url": "https://archive.org/download/rob0ts.2005/dar.mp4"
+  },
+  {
+    "title": "Dirty Dancing (1987)",
+    "description": "Una joven llamada Baby descubre el amor y el baile durante un verano inolvidable en un resort, junto al carismático instructor Johnny.",
+    "genre": ["Romance", "Drama", "Música"],
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoAt7uEmajDUFucq-1M53I_NE_hBcnbVc_b0IxvH6rQ",
+    "video_url": "https://archive.org/download/rob0ts.2005/FiveNi.mp4"
+  },
+  {
+    "title": "Dirty Dancing: Havana Nights (2004)",
+    "description": "Una joven estadounidense descubre la pasión por el baile en la Cuba de los años 50, donde también encuentra el amor en medio de la revolución.",
+    "genre": ["Romance", "Drama", "Música"],
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8HOYJPQlnUOhj-oMW2oLXUJ4dFW-RX5byTkQfCbo4Zg",
+    "video_url": "https://archive.org/download/rob0ts.2005/chya.mp4"
+  },
+  {
+    "title": "Perros Callejeros II: Busca y Captura (1979)",
+    "description": "La policía intensifica la búsqueda del Torete, uno de los delincuentes juveniles más buscados de Barcelona durante los años 70.",
+    "genre": ["Acción", "Crimen", "Drama"],
+    "coverImage": "https://m.media-amazon.com/images/S/pv-target-images/cf0a6c09bf27503a6ab48ecef225a1ff2d7ab69a3d22cbf132eca9fe30d6f6bf.jpg",
+    "video_url": "https://archive.org/download/rob0ts.2005/perros2.mp4"
+  },
   {
     "title": "Supercampeones (Captain Tsubasa)",
     "genre": [
