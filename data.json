@@ -1,4 +1,83 @@
 [
+  [
+  {
+    "title": "Shadowhunter",
+      "genre": [
+      "Fantasía",
+      "Acción",
+      "Drama"
+    ],
+    "coverImage": "https://m.media-amazon.com/images/M/MV5BOTEzZThhZDYtZGFhMy00Y2Q1LWE2ZmMtNzg2MjYxY2I2NzIxXkEyXkFqcGc@._V1_.jpg",
+    "description": "En su cumpleaños número 18, Clary Fray descubre que no es quien cree ser, sino que proviene de una larga línea de Shadowhunters: híbridos de ángeles y humanos que cazan demonios.",
+    "episodes": [
+      {
+        "episode": 1,
+        "title": "La Copa Mortal",
+        "video_url": "https://archive.org/download/4-5987887084453500936/4_5987887084453500926.mp4"
+      },
+      {
+        "episode": 2,
+        "title": "El Descenso al Infierno no es Fácil",
+        "video_url": "https://archive.org/download/4-5987887084453500936/4_5987887084453500927.mp4"
+      },
+      {
+        "episode": 3,
+        "title": "La Fiesta del Muerto",
+        "video_url": "https://archive.org/download/4-5987887084453500936/4_5987887084453500928.mp4"
+      },
+      {
+        "episode": 4,
+        "title": "Confusión Infernal",
+        "video_url": "https://archive.org/download/4-5987887084453500936/4_5987887084453500929.mp4"
+      },
+      {
+        "episode": 5,
+        "title": "Moo Shu Para Llevar",
+        "video_url": "https://archive.org/download/4-5987887084453500936/4_5987887084453500930.mp4"
+      },
+      {
+        "episode": 6,
+        "title": "De Hombres y Ángeles",
+        "video_url": "https://archive.org/download/4-5987887084453500936/4_5987887084453500931.mp4"
+      },
+      {
+        "episode": 7,
+        "title": "Arcanos Mayores",
+        "video_url": "https://archive.org/download/4-5987887084453500936/4_5987887084453500932.mp4"
+      },
+      {
+        "episode": 8,
+        "title": "Mala Sangre",
+        "video_url": "https://archive.org/download/4-5987887084453500936/4_5987887084453500933.mp4"
+      },
+      {
+        "episode": 9,
+        "title": "A Levantarse",
+        "video_url": "https://archive.org/download/4-5987887084453500936/4_5987887084453500934.mp4"
+      },
+      {
+        "episode": 10,
+        "title": "Este Mundo Invertido",
+        "video_url": "https://archive.org/download/4-5987887084453500936/4_5987887084453500936.mp4"
+      },
+      {
+        "episode": 11,
+        "title": "La Sangre Llama a la Sangre",
+        "video_url": "https://archive.org/download/4-5987887084453500936/4_5987887084453500940.mp4"
+      },
+      {
+        "episode": 12,
+        "title": "Malec",
+        "video_url": "https://archive.org/download/4-5987887084453500936/4_5987887084453500943.mp4"
+      },
+      {
+        "episode": 13,
+        "title": "Estrella Matutina",
+        "video_url": "https://archive.org/download/4-5987887084453500936/4_5987887084453500947.mp4"
+      }
+    ]
+  },
+    
   {
     "title": "Kenshin, el guerrero samurái (Rurouni Kenshin)",
     "description": "Primera entrega de la saga de acción real de Kenshin Himura.",
