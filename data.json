@@ -1,5 +1,366 @@
 [
-  [
+  
+  {
+    "title": "Gormiti The Supreme Eclipse Era",
+    "genre": [
+      "Animación",
+      "Fantasía",
+      "Acción"
+    ],
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcwKYXEs3a6asClHbOrWGFDd1-CuNuIY85ZA&s",
+    "description": "La tercera temporada trae una nueva amenaza bajo el Eclipse Supremo, donde los Gormiti obtienen nuevos y poderosos aspectos para enfrentarse a Lord Eclissi y su ejército de Oscuridad, con la ayuda de un nuevo Señor de la Naturaleza, Jessica (Señora del Aire).",
+    "episodes": [
+      {
+        "episode": 1,
+        "title": "Renacimiento",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%203x01%20-%20Renacimiento%28720P_HD%29.mp4"
+      },
+      {
+        "episode": 2,
+        "title": "Polvo en el Viento",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%203x02%20-%20Polvo%20en%20el%20viento%28720P_HD%29.mp4"
+      },
+      {
+        "episode": 3,
+        "title": "Fuerzas del Agua",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%203x03%20-%20Fuerzas%20del%20agua%28720P_HD%29.mp4"
+      },
+      {
+        "episode": 4,
+        "title": "Bosque de Fuego",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%203x04%20-%20Bosque%20de%20fuego%28720P_HD%29.mp4"
+      },
+      {
+        "episode": 5,
+        "title": "La Maldición de los Vientos",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%203x05%20-%20La%20maldici%C3%B3n%20de%20los%20vientos%28720P_HD%29.mp4"
+      },
+      {
+        "episode": 6,
+        "title": "Agua Negra",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%203x06%20-%20Agua%20negra%28720P_HD%29.mp4"
+      },
+      {
+        "episode": 7,
+        "title": "Rocas de Lava",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%203x07%20-%20Rocas%20de%20lava%28720P_HD%29.mp4"
+      },
+      {
+        "episode": 8,
+        "title": "Peligro Invisible",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%203x08%20-%20Peligro%20invisible%28720P_HD%29.mp4"
+      },
+      {
+        "episode": 9,
+        "title": "Ataque Subterráneo",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%203x09%20-%20Ataque%20subterr%C3%A1neo%28720P_HD%29.mp4"
+      },
+      {
+        "episode": 10,
+        "title": "El Bosque Envenenado",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%203x10%20-%20El%20bosque%20envenenado%28720P_HD%29.mp4"
+      },
+      {
+        "episode": 11,
+        "title": "La Niebla de Magor",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%203x11%20-%20La%20niebla%20de%20Magor%28720P_HD%29.mp4"
+      },
+      {
+        "episode": 12,
+        "title": "Hojas Metálicas",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%203x12%20-%20Hojas%20met%C3%A1licas%28720P_HD%29.mp4"
+      },
+      {
+        "episode": 13,
+        "title": "El Pasadizo",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%203x13%20-%20El%20pasadizo%28720P_HD%29.mp4"
+      }
+    ]
+  },
+  {
+    "title": "Gormiti The Lords of Nature Return",
+    "genre": [
+      "Animación",
+      "Fantasía",
+      "Acción"
+    ],
+    "coverImage": "https://dvdstorespain.es/503555/gormiti-2-temporada-vol-1-ep-13-16-dvd-.jpg",
+    "description": "En la segunda temporada, los Señores de la Naturaleza deben enfrentarse a nuevas amenazas y enemigos del mal, mientras profundizan en el conocimiento de sus poderes y de la mitología de Gorm.",
+    "episodes": [
+      {
+        "episode": 1,
+        "title": "Gorm se Petrifica",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%202x01%20-%20Gorm%20se%20petrifica%28720P_HD%29.mp4"
+      },
+      {
+        "episode": 2,
+        "title": "Aracnofobia",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%202x02%20-%20Aracnofobia%28720P_HD%29.mp4"
+      },
+      {
+        "episode": 3,
+        "title": "Rey por un Día",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%202x03%20-%20Rey%20por%20un%20d%C3%ADa%28720P_HD%29.mp4"
+      },
+      {
+        "episode": 4,
+        "title": "El Valle Olvidado",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%202x04%20-%20El%20valle%20olvidado%28720P_HD%29.mp4"
+      },
+      {
+        "episode": 5,
+        "title": "La Piedra Refractaria",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%202x05%20-%20La%20piedra%20refractaria%28720P_HD%29.mp4"
+      },
+      {
+        "episode": 6,
+        "title": "La Guarida de la Desesperación",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%202x06%20-%20La%20guarida%20de%20la%20desesperaci%C3%B3n%28720P_HD%29.mp4"
+      },
+      {
+        "episode": 7,
+        "title": "El Anillo de la Eternidad",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%202x07%20-%20El%20anillo%20de%20la%20eternidad%28720P_HD%29.mp4"
+      },
+      {
+        "episode": 8,
+        "title": "Los Diamantes son el Mejor Amigo del Señor del Mal",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%202x08%20-%20Los%20diamantes%20son%20el%20mejor%20amigo%20del%20se%C3%B1or%20del%20mal%28720P_HD%29.mp4"
+      },
+      {
+        "episode": 9,
+        "title": "La Aldea Abandonada",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%202x09%20-%20La%20aldea%20abandonada%28720P_HD%29.mp4"
+      },
+      {
+        "episode": 10,
+        "title": "Intercambio de Poderes",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%202x10%20-%20Intercambio%20de%20poderes%28720P_HD%29.mp4"
+      },
+      {
+        "episode": 11,
+        "title": "El Coral de la Percepción",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%202x11%20-%20El%20coral%20de%20la%20percepci%C3%B3n%28720P_HD%29.mp4"
+      },
+      {
+        "episode": 12,
+        "title": "Hibernación",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%202x12%20-%20Hibernaci%C3%B3n%28720P_HD%29.mp4"
+      },
+      {
+        "episode": 13,
+        "title": "El Huevo Solitario",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%202x13%20-%20El%20huevo%20solitario%28720P_HD%29.mp4"
+      },
+      {
+        "episode": 14,
+        "title": "Inmovilizados",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%202x14%20-%20Inmovilizados%28720P_HD%29.mp4"
+      },
+      {
+        "episode": 15,
+        "title": "Aplastados",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%202x15%20-%20Aplastados%28720P_HD%29.mp4"
+      },
+      {
+        "episode": 16,
+        "title": "Sin Alas",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%202x16%20-%20Sin%20alas%28720P_HD%29.mp4"
+      },
+      {
+        "episode": 17,
+        "title": "El Bosque Asediado",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%202x17%20-%20El%20bosque%20asediado%28720P_HD%29.mp4"
+      },
+      {
+        "episode": 18,
+        "title": "El Vuelo del Águila Nívea",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%202x18%20-%20El%20vuelo%20del%20%C3%A1guila%20nivea%28720P_HD%29.mp4"
+      },
+      {
+        "episode": 19,
+        "title": "La Perla de las Profundidades",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%202x19%20-%20La%20perla%20de%20las%20profundidades%28720P_HD%29.mp4"
+      },
+      {
+        "episode": 20,
+        "title": "La Piedra de los Mil Colores",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%202x20%20-%20La%20piedra%20de%20los%20mil%20colores%28720P_HD%29.mp4"
+      },
+      {
+        "episode": 21,
+        "title": "El Poder del Norte",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%202x21%20-%20El%20poder%20del%20norte%28720P_HD%29.mp4"
+      },
+      {
+        "episode": 22,
+        "title": "El Poder del Sur",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%202x22%20-%20El%20poder%20del%20sur%28720P_HD%29.mp4"
+      },
+      {
+        "episode": 23,
+        "title": "El Poder del Oeste",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%202x23%20-%20El%20poder%20del%20oeste%28720P_HD%29.mp4"
+      },
+      {
+        "episode": 24,
+        "title": "El Poder del Este",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%202x24%20-%20El%20poder%20del%20este%28720P_HD%29.mp4"
+      },
+      {
+        "episode": 25,
+        "title": "Eclipse Eterno (Parte I)",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%202x25%20-%20Eclipse%20eterno%20%28Parte%20I%29%28720P_HD%29.mp4"
+      },
+      {
+        "episode": 26,
+        "title": "Eclipse Eterno (Parte II)",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%202x26%20-%20Eclipse%20eterno%20%28Parte%20II%29%28720P_HD%29.mp4"
+      }
+    ]
+  },
+  {
+    "title": "Gormiti The Lords of Nature Return!",
+    "genre": [
+      "Animación",
+      "Fantasía",
+      "Acción"
+    ],
+    "coverImage": "https://static.fnac-static.com/multimedia/ES/images_produits/ES/ZoomPE/9/1/6/8420172057619/tsp20091120190529/Pack-Gormiti-1-Temporada-Volumen-3-y-4.jpg",
+    "description": "Cuatro niños comunes –Nick, Toby, Jess y Lucas– son transportados al mundo de Gorm, donde se transforman en los legendarios Señores de la Naturaleza para liderar a los Gormiti de las tribus de la Tierra, el Mar, el Aire y el Bosque, y defender Gorm de las fuerzas de la tribu del Volcán.",
+    "episodes": [
+      {
+        "episode": 1,
+        "title": "La Piedra Sulfúrea",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%201x01%20-%20La%20piedra%20sulf%C3%BArea%28720P_HD%29.mp4"
+      },
+      {
+        "episode": 2,
+        "title": "Lucas se Vuelve Verde",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%201x02%20-%20Lucas%20se%20vuelve%20verde%28720P_HD%29.mp4"
+      },
+      {
+        "episode": 3,
+        "title": "El Antiguo Amuleto",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%201x03%20-%20El%20antiguo%20amuleto%28480P%29.mp4"
+      },
+      {
+        "episode": 4,
+        "title": "El Gran Maremoto",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%201x04%20-%20El%20gran%20maremoto%28720P_HD%29.mp4"
+      },
+      {
+        "episode": 5,
+        "title": "La Maldición de la Corona",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%201x05%20-%20La%20maldici%C3%B3n%20de%20la%20corona%28720P_HD%29.mp4"
+      },
+      {
+        "episode": 6,
+        "title": "Los Antiguos Guardianes",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%201x06%20-%20Los%20antiguos%20guardianes%28720P_HD%29.mp4"
+      },
+      {
+        "episode": 7,
+        "title": "Las Estatuas de Halcón",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%201x07%20-%20Las%20estatuas%20de%20halc%C3%B3n%28720P_HD%29.mp4"
+      },
+      {
+        "episode": 8,
+        "title": "Los Diamantes de Sal Negra",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%201x08%20-%20Los%20diamantes%20de%20sal%20negra%28720P_HD%29.mp4"
+      },
+      {
+        "episode": 9,
+        "title": "El Hechizo de Magmion",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%201x09%20-%20El%20hechizo%20de%20Magmion%28720P_HD%29.mp4"
+      },
+      {
+        "episode": 10,
+        "title": "La Niebla",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%201x10%20-%20La%20niebla%28720P_HD%29.mp4"
+      },
+      {
+        "episode": 11,
+        "title": "La Raíz del Mal",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%201x11%20-%20La%20ra%C3%ADz%20del%20mal%28720P_HD%29.mp4"
+      },
+      {
+        "episode": 12,
+        "title": "El Cañón Energético",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%201x12%20-%20El%20ca%C3%B1%C3%B3n%20energ%C3%A9tico%28720P_HD%29.mp4"
+      },
+      {
+        "episode": 13,
+        "title": "Día de Asueto",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%201x13%20-%20D%C3%ADa%20de%20asueto%28720P_HD%29.mp4"
+      },
+      {
+        "episode": 14,
+        "title": "La Cosecha",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%201x14%20-%20La%20cosecha%28720P_HD%29.mp4"
+      },
+      {
+        "episode": 15,
+        "title": "Buenos Modales",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%201x15%20-%20Buenos%20modales%28720P_HD%29.mp4"
+      },
+      {
+        "episode": 16,
+        "title": "Las Manzanas de la Discordia",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%201x16%20-%20Las%20manzanas%20de%20la%20discordia%28720P_HD%29.mp4"
+      },
+      {
+        "episode": 17,
+        "title": "Ataque al Pueblo de la Tierra",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%201x17%20-%20Ataque%20al%20pueblo%20de%20la%20tierra%28720P_HD%29.mp4"
+      },
+      {
+        "episode": 18,
+        "title": "Plaga de Sapos",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%201x18%20-%20Plaga%20de%20sapos%28720P_HD%29.mp4"
+      },
+      {
+        "episode": 19,
+        "title": "La Profecía",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%201x19%20-%20La%20profec%C3%ADa%28720P_HD%29.mp4"
+      },
+      {
+        "episode": 20,
+        "title": "La Picadura de Insecticus",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%201x20%20-%20La%20picadura%20de%20Insecticus%28720P_HD%29.mp4"
+      },
+      {
+        "episode": 21,
+        "title": "La Armadura Mágica",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%201x21%20-%20La%20armadura%20m%C3%A1gica%28720P_HD%29.mp4"
+      },
+      {
+        "episode": 22,
+        "title": "El Laberinto del Caos",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%201x22%20-%20El%20laberinto%20del%20caos%28720P_HD%29.mp4"
+      },
+      {
+        "episode": 23,
+        "title": "El Soberano de las Tinieblas",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%201x23%20-%20El%20soberano%20de%20las%20tinieblas%28720P_HD%29.mp4"
+      },
+      {
+        "episode": 24,
+        "title": "Petrificados",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%201x24%20-%20Petrificados%28720P_HD%29.mp4"
+      },
+      {
+        "episode": 25,
+        "title": "Fisura Dimensional (Parte I)",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%201x25%20-%20Fisura%20dimensional%20%28Parte%20I%29%28720P_HD%29.mp4"
+      },
+      {
+        "episode": 26,
+        "title": "Fisura Dimensional (Parte II)",
+        "video_url": "https://archive.org/download/4-5987887084453500936/Gormiti%201x26%20-%20Fisura%20dimensional%20%28Parte%20II%29%28720P_HD%29.mp4"
+      }
+    ]
+  },
   {
     "title": "Shadowhunter",
       "genre": [
