@@ -1,0 +1,1272 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrimeBox+ | Streaming Premium (TV Optimized)</title>
+    <meta name="theme-color" content="#0f171e">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-app-capable" content="yes">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;600;700&family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+        /* ------------------------------------------- */
+        /* 🎨 CSS GLOBAL Y VARIABLES - ESTILO AMAZON PRIME VIDEO */
+        /* ------------------------------------------- */
+        *{ box-sizing:border-box; margin:0; padding:0; }
+        :root{ 
+            /* Colores de Amazon Prime Video */
+            --bg-primary: #0f171e; 
+            --bg-card: #1a242f; 
+            --bg-darker: #000000; 
+            --text: #ffffff; 
+            --muted: #aeb4c6; 
+            --accent: #00a8e1; 
+            --accent-2: #4ec2e7; 
+            --shadow-dark: rgba(0, 0, 0, 0.9); 
+            --shadow-accent: rgba(0, 168, 225, 0.5); 
+            --nav-height: 60px; 
+            --watched-color: #3b4d61; 
+        } 
+        /* 🚀 BASE: ¡CLAVE! Desactivar todo scroll en el body y html */
+        body, html{ 
+            font-family:'Inter','Poppins',sans-serif; 
+            background:var(--bg-primary); 
+            color:var(--text); 
+            height: 100%; 
+            width: 100%; 
+            overflow: hidden; 
+            scroll-behavior:smooth; 
+            line-height:1.45; 
+        } 
+        /* 💻 Contenedores de Vistas: Deben ser los que manejen el scroll vertical */
+        main{ 
+            position: absolute; 
+            top: 0; left: 0; right: 0; bottom: 0; 
+            /* ** AJUSTE **: ELIMINAR EL PADDING INFERIOR EXCESIVO DEL MAIN */
+            padding-bottom: 0; 
+            overflow: hidden; 
+        } 
+        /* Vistas con scroll interno */
+        #mainView, #searchView, #detailView { 
+            height: 100%; 
+            width: 100%; 
+            /* Permitir el scroll vertical SOLO dentro de estas vistas */
+            overflow-y: auto; 
+            overflow-x: hidden; 
+            position: relative; 
+            /* ** AJUSTE **: MANTENER ESPACIO PARA EL MENÚ INFERIOR */
+            padding-bottom: calc(var(--nav-height) + 10px); 
+            scroll-behavior: smooth; 
+        } 
+        
+        /* ------------------------------------------- */
+        /* ✨ ESTILO DE FOCO PARA TV (CLAVE) */
+        /* ------------------------------------------- */
+        .focused, :focus{
+            /* Resetear outline nativo */
+            outline: none !important;
+        }
+        .focused { 
+            border: 4px solid var(--accent-2) !important;
+            box-shadow: 0 0 15px var(--shadow-accent);
+            transform: scale(1.08) !important; /* Más grande para el foco de TV */
+            z-index: 100 !important; 
+            transition: transform .2s, box-shadow .2s, border-color .2s;
+        }
+        /* Ajustar los hover para que no interfieran con el foco por teclado */
+        .card:hover, .nav-item:hover, .episode-item:hover {
+            transform: scale(1.02); /* Reducir el efecto hover */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); 
+        }
+
+        /* 🔎 VISTA DE BUSCADOR */
+        #searchView { 
+            position: fixed; inset: 0; background: var(--bg-primary); z-index: 55; padding-top: 24px; display: none; padding-bottom: calc(24px + var(--nav-height)); 
+            animation: fadeIn .3s cubic-bezier(0.25, 0.46, 0.45, 0.94); 
+        } 
+        @keyframes fadeIn {from{opacity:0; transform: translateY(10px);} to{opacity:1; transform: translateY(0);}}
+        #searchHeader { 
+            display: flex; align-items: center; gap: 10px; margin-bottom: 20px; padding: 0 3vw; position: sticky; 
+            top: 0; background: var(--bg-primary); z-index: 60; padding-top: 20px; padding-bottom: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+        } 
+        #backFromSearch { font-size: 1.5rem; color: var(--muted); cursor: pointer; display: none; padding: 10px; border-radius: 4px; transition: background-color .2s; } 
+        #backFromSearch.focused, #backFromSearch:hover { background: var(--bg-card); color: var(--text); }
+
+        /* Estilo para los botones de A-Z */
+        .alpha-btn {
+            background: var(--bg-card);
+            color: var(--muted);
+            padding: 8px 12px;
+            border-radius: 4px;
+            font-weight: 600;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all .2s;
+            border: 2px solid var(--bg-card);
+            min-width: 40px;
+            text-align: center;
+        }
+        .alpha-btn.focused, .alpha-btn.active {
+            background: var(--accent);
+            color: var(--text);
+            border-color: var(--accent);
+            transform: scale(1.1);
+        }
+        
+        #searchResultsTitle { font-size: 1.4rem; padding: 0 3vw; margin-bottom: 15px; color: var(--text); font-weight: 600; } 
+        /* Cuadrícula de Búsqueda */
+        #searchResultsGrid { 
+            padding: 0 3vw; display: grid; grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: 10px; 
+        } 
+        /* 🎬 SECCIONES DE CONTENIDO */
+        #mainView { padding-top: 0; transition: opacity 0.3s ease-out; } 
+        /* ** AJUSTE **: REDUCIR MARGEN INFERIOR DE LAS SECCIONES DEL HOME */
+        .content-section { padding: 15px 0 5px 0; margin-bottom: 0px; } 
+        .section-title { font-size: 1.6rem; font-weight: 700; padding: 0 3vw; margin-bottom: 10px; border-left: 4px solid var(--accent); padding-left: 14px; } 
+        /* SLIDER DE SCROLL HORIZONTAL (Este es el que SÍ se mueve) */
+        .horizontal-scroll { 
+            display: flex; overflow-x: scroll; 
+            padding: 10px 3vw; gap: 15px; -webkit-overflow-scrolling: touch; scroll-snap-type: x mandatory; 
+            scroll-behavior: smooth; 
+        } 
+        .horizontal-scroll::-webkit-scrollbar { display: none; } 
+        /* 🃏 Tarjeta (Card) - ANIMACIONES SUAVES MEJORADAS */
+        .card{
+            flex: 0 0 140px; 
+            background:var(--bg-card); 
+            border-radius:4px; 
+            overflow:hidden; 
+            cursor:pointer; 
+            transition:transform .3s cubic-bezier(0.25, 0.46, 0.45, 0.94), box-shadow .3s ease-out, opacity .5s; 
+            opacity:0; 
+            box-shadow:0 1px 4px rgba(0,0,0,.5);
+            border: 4px solid transparent; /* Necesario para el foco */
+        }
+        .card.show{ opacity:1; transform: scale(0.98); } 
+        .card:hover{ 
+            transform:scale(1.02); 
+            box-shadow:0 10px 20px var(--shadow-accent); 
+            z-index: 10; 
+            outline: none; 
+        } 
+        .card img{ 
+            display:block; width:100%; height:200px; object-fit:cover; 
+            transition:transform .3s cubic-bezier(0.25, 0.46, 0.45, 0.94); 
+        } 
+        .card:hover img{ transform: scale(1.05); } 
+        .info{padding:8px 6px;min-height:55px; background: rgba(0,0,0,0.2);} 
+        .info h3{ font-size:0.95rem; font-weight:600; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; } 
+        .info span{display:block;margin-top:2px;color:var(--muted);font-size:.8rem;font-weight:300;} 
+        
+        /* 🌟 HERO/HEADER DE NOVEDADES (HOME) */
+        .hero-static-container { position: relative; width: 100%; margin-bottom: 20px; height: 350px; overflow: hidden; } 
+        /* 🌟 HERO/HEADER DE PORTADA (DETALLE) */
+        .detail-hero-container { position: relative; width: 100%; height: 300px; overflow: hidden; z-index: 2; } 
+        .detail-hero-container img, .hero-static-container img { width: 100%; height: 100%; object-fit: cover; filter: brightness(0.65); transition: filter 0.3s; } 
+        .hero-overlay { 
+            position: absolute; inset: 0; 
+            background: linear-gradient(0deg, var(--bg-primary) 0%, rgba(15,23,30,0.5) 50%, rgba(15,23,30,0) 100%); 
+            display: flex; flex-direction: column; justify-content: flex-end; padding: 30px 3vw; 
+        } 
+        .detail-hero-overlay { position: absolute; inset: 0; background: linear-gradient(0deg, var(--bg-primary) 0%, rgba(15,23,30,0) 50%); padding: 30px 3vw; display: flex; align-items: flex-end; } 
+        .hero-overlay h1, .detail-hero-overlay h1 { font-size: 2.5rem; font-weight: 700; margin-bottom: 8px; max-height: 2.8em; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; } 
+        .hero-overlay p { color: var(--muted); font-size: 1rem; margin-bottom: 18px; max-height: 2.8em; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; } 
+        .detail-hero-overlay h1 { font-size: 2rem; margin-bottom: 0; } 
+        .play-button-hero { 
+            background: var(--text); color: var(--bg-primary); padding: 12px 25px; border-radius: 4px; font-weight: 700; font-size: 1.05rem; cursor: pointer; 
+            transition: background-color .2s, transform .2s, box-shadow .2s; border: 4px solid transparent; display: flex; align-items: center; gap: 8px; width: fit-content; 
+        } 
+        .play-button-hero.focused, .play-button-hero:hover { background: var(--accent-2); transform: scale(1.05); box-shadow: 0 6px 15px rgba(0,0,0,0.5); border-color: var(--text); } 
+        /* ------------------------------------------- */
+        /* ⬇️ MENÚ DE NAVEGACIÓN INFERIOR (Darker) */
+        /* ------------------------------------------- */
+        #bottomNav { 
+            position: fixed; bottom: 0; left: 0; right: 0; height: var(--nav-height); background: var(--bg-darker); border-top: 1px solid rgba(255, 255, 255, 0.05); 
+            box-shadow: 0 -4px 15px var(--shadow-dark); display: flex; justify-content: space-around; align-items: center; z-index: 100; padding: 0 5px; 
+            transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+        } 
+        #bottomNav.hidden {
+            transform: translateY(100%);
+            opacity: 0;
+        }
+        .nav-item { 
+            display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 4px 0; flex: 1; color: var(--muted); font-size: 0.7rem; 
+            font-weight: 500; cursor: pointer; user-select: none; min-width: 0; 
+            transition: color 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94), transform 0.1s; 
+            border: 4px solid transparent; /* Necesario para el foco */
+            border-radius: 4px;
+        } 
+        .nav-item i { font-size: 1.2rem; margin-bottom: 3px; } 
+        .nav-item.active { color: var(--text); } 
+        .nav-item.focused, .nav-item:hover { color: var(--text); transform: scale(1.05); outline: none; } 
+        
+        /* Grid de resultados y paginación (Carga Infinita) */
+        #dynamicGrid { 
+            padding: 0 3vw; display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 10px; margin-bottom: 20px; margin-top: 20px; 
+            transition: opacity 0.5s ease-out;
+        } 
+
+        /* Indicador de Carga */
+        #loadingIndicator { 
+            display: none; 
+            text-align: center; 
+            padding: 20px; 
+            color: var(--muted);
+            font-size: 1.1rem;
+            opacity: 0; 
+            transition: opacity 0.4s ease-in-out; 
+        } 
+        #loadingIndicator.show { 
+            opacity: 1; 
+            display: block;
+        }
+        #loadingIndicator i {
+            margin-right: 10px;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* ------------------------------------------- */
+        /* 🖼️ VISTA DE DETALLE (INMERSIVA) */
+        /* ------------------------------------------- */
+        #detailView{ 
+            position:fixed; inset:0; background:var(--bg-primary); 
+            overflow-y:auto; 
+            display:none; z-index:200; 
+            animation:fade .3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        } 
+        @keyframes fade {from{opacity:0;} to{opacity:1;}}
+        /* Fondo de Portada (Difuminado) */
+        #detailBackground { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; transition: opacity 0.4s ease-in-out; opacity: 0; } 
+        #detailBackground.show { opacity: 1; } 
+        #detailBackground img { width: 100%; height: 100%; object-fit: cover; filter: blur(25px) brightness(0.4); opacity: 0.3; transition: all 0.4s ease-in-out; transform: scale(1.1); } 
+        /* Degradado para que el fondo primario cubra suavemente el detalle de la imagen en los bordes */
+        #detailView::before { content: ''; position: fixed; inset: 0; z-index: -1; background: radial-gradient(circle at center, transparent 0%, var(--bg-primary) 80%); } 
+        .detail-header{ 
+            position:sticky; top:0; z-index:10; display:flex; align-items:center; gap:16px; padding:16px 3vw; 
+            background:rgba(15, 23, 30, 0.85); backdrop-filter:blur(10px); box-shadow:0 2px 10px rgba(0,0,0,.5); transition: all 0.3s ease; 
+        } 
+        /* Botón de Volver */
+        .btn{ border:4px solid transparent; background:var(--accent); color:var(--text); padding:10px 18px; border-radius:4px; font-weight:600; cursor:pointer; transition: transform .2s, background-color .2s; } 
+        .btn.focused, .btn:hover{background:var(--accent-2);transform:scale(1.05);box-shadow: 0 4px 10px rgba(0,0,0,0.3); outline: none;}
+        .detail-title{ flex:1; font-size:1.4rem; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; font-weight:600; } 
+        /* Contenido Principal de Detalle */
+        .detail-main{ display:flex; flex-wrap:wrap; gap:35px; padding:35px 3vw; padding-top: 10px; position: relative; z-index: 5; background: transparent; } 
+        .details{flex:1 1 560px; position: relative;} 
+        .details h2{display:none;} 
+        .details p#detailDesc{ color:var(--muted); line-height:1.6; margin:10px 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; text-overflow: ellipsis; } 
+        .details p#detailGenres{color:var(--accent);font-weight:600;margin-top:15px} 
+        /* Contenedor de Botones (Añadir a favoritos + Reproducir) */
+        #detailActionButtons { display: flex; gap: 15px; margin-top: 20px; margin-bottom: 30px; align-items: center; } 
+        /* Botón de Reproducir/Ver Ahora (Principal) */
+        #reproduceBtn { 
+            background: var(--accent); color: var(--text); padding: 12px 25px; font-weight: 700; font-size: 1.05rem; 
+            display: flex; align-items: center; gap: 8px; border-radius: 4px; border: 4px solid transparent; cursor: pointer; 
+            transition: background-color .3s, transform .3s, box-shadow .3s, border-color .3s; 
+        } 
+        #reproduceBtn.focused, #reproduceBtn:hover { background: var(--accent-2); transform: scale(1.05); box-shadow: 0 6px 12px var(--shadow-accent); outline: none; border-color: var(--text); } 
+        /* Botón de Favorito */
+        #favoriteBtn { 
+            background: var(--bg-card); border: 2px solid var(--muted); border-radius: 50%; width: 45px; height: 45px; 
+            display: flex; justify-content: center; align-items: center; font-size: 1.1rem; cursor: pointer; color: var(--muted); 
+            transition: color 0.3s, background-color 0.3s, transform 0.3s, border-color 0.3s; 
+        } 
+        #favoriteBtn.focused, #favoriteBtn:hover { background-color: var(--accent); color: var(--text); border-color: var(--accent); transform: scale(1.2); outline: none; } 
+        #favoriteBtn.active { color: var(--text); background-color: var(--accent); border-color: var(--accent); transform: scale(1.15); } 
+        /* 🎬 SECCIÓN DE EPISODIOS/CAPÍTULOS - SCROLL HORIZONTAL */
+        .episodes{ margin-top:26px; padding-top:18px; border-top:1px solid rgba(255,255,255,.15); } 
+        .episodes h3{ margin-bottom:12px; text-transform:uppercase; font-size:1.2rem; padding: 0 3vw 0 0; } 
+        .episodes-list{ 
+            /* Convertir a scroll horizontal */
+            display: flex; overflow-x: scroll; 
+            padding: 10px 3vw; gap: 15px; padding-bottom: 10px; -webkit-overflow-scrolling: touch; scroll-snap-type: x mandatory; 
+            scroll-behavior: smooth; 
+        } 
+        .episodes-list::-webkit-scrollbar { display: none; } 
+        /* Aseguramos que el contenido principal del detalle se alinee con los capítulos */
+        .detail-main { padding-left: 3vw; padding-right: 3vw; } 
+        .episodes { 
+            /* Mover el título y el contenedor de episodios fuera del padding-right del detail-main */
+            margin-left: -3vw; margin-right: -3vw; padding-left: 3vw; 
+        } 
+        .episode-item{ 
+            flex-shrink: 0; width: 320px; background: var(--bg-card); border-radius: 8px; padding: 10px; cursor: pointer; 
+            transition: background-color .2s, transform .3s, border-color .2s, box-shadow .3s; border: 4px solid transparent; 
+            scroll-snap-align: start; display: flex; flex-direction: column; overflow: hidden; 
+        } 
+        .episode-item.focused, .episode-item:hover, .episode-item.active { 
+            transform: scale(1.05); box-shadow: 0 0 0 4px var(--accent-2), 0 10px 20px rgba(0, 0, 0, 0.5); background-color: #2a385f; z-index: 5; outline: none; 
+            border-color: var(--accent-2);
+        } 
+        .episode-item.watched { background-color: var(--watched-color); border-color: transparent; opacity: 0.9; } 
+        .episode-item.watched.focused:hover { opacity: 1; border-color: var(--accent-2); } 
+        .episode-thumb{ width: 100%; height: 180px; overflow: hidden; border-radius: 6px; position: relative; margin-bottom: 10px; } 
+        .episode-thumb img{ width: 100%; height: 100%; object-fit: cover; display: block; } 
+        .episode-info{ flex-grow: 1; min-width: 0; padding: 0 5px; } 
+        .episode-info strong{ display: block; font-size: 1.1rem; font-weight: 700; color: var(--text); overflow: hidden; text-overflow: ellipsis; white-space: normal; max-height: 2.5em; line-height: 1.2; } 
+        .episode-info span{ display: block; font-size: 0.9rem; color: var(--muted); margin-top: 5px; } 
+        .play-icon{ position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 2.5rem; color: var(--accent); opacity: 0.8; transition: opacity 0.3s; background: rgba(0,0,0,0.5); border-radius: 50%; padding: 10px; } 
+        .episode-item.watched .play-icon { color: #4CAF50; font-size: 2rem; background: none; opacity: 1; } 
+        .episode-item:hover .play-icon { opacity: 1; } 
+        /* 📱 Media Queries */
+        @media (max-width:900px){ 
+            .episode-item { width: 250px; } 
+            .episode-thumb { height: 140px; } 
+        } 
+        @media (max-width:680px){ 
+            .card{ flex: 1 1 auto; } 
+            .card img{ height:170px; } 
+            #dynamicGrid, #searchResultsGrid { grid-template-columns: repeat(3, 1fr); gap: 8px; } 
+            .horizontal-scroll .card { flex: 0 0 120px; } 
+            .horizontal-scroll .card img{ height:180px; } 
+        } 
+        @media (max-width:480px){ 
+            #dynamicGrid, #searchResultsGrid { grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); } 
+            .episode-item { width: 90vw; } 
+            .episodes-list { padding-right: 3vw; } 
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div id="mainView">
+            <div id="content"> 
+                </div>
+            
+            <div id="gridContainer" style="min-height: 100px;"> 
+                <h2 id="gridTitle" class="section-title" style="display:none; padding-top: 20px;"></h2>
+                <div id="dynamicGrid"></div>
+            </div>
+
+            <div id="loadingIndicator">
+                <i class="fas fa-spinner"></i> Cargando más contenido...
+            </div>
+        </div>
+
+        <div id="searchView">
+            <div id="searchHeader">
+                <i class="fas fa-arrow-left" id="backFromSearch" tabindex="0"></i>
+            </div>
+            <div id="alphaFilter" style="display: flex; justify-content: center; flex-wrap: wrap; gap: 8px; margin: 20px 3vw 30px;">
+                </div>
+            <h2 id="searchResultsTitle">Explorar por letra...</h2>
+            <div id="searchResultsGrid">
+                <p style="color:var(--muted); padding: 50px 3vw; text-align: center;">Selecciona una letra para empezar a explorar.</p>
+            </div>
+        </div>
+    </main>
+
+    <div id="detailBackground">
+        <img id="detailBackgroundImage" src="" alt="Fondo de la portada">
+    </div>
+
+    <div id="detailView">
+        <div class="detail-header">
+            <button id="backBtn" class="btn" tabindex="0">❮ Volver</button>
+            <h2 id="detailTitle" class="detail-title"></h2>
+        </div>
+        
+        <div id="detailHeroContainer" class="detail-hero-container">
+            <img id="detailHeroImage" src="" alt="Portada de la serie/película">
+            <div class="detail-hero-overlay">
+                <h1 id="detailHeroTitle"></h1>
+            </div>
+        </div>
+        
+        <div class="detail-main">
+            <div class="details">
+                <h2 id="detailName"></h2>
+                <div id="detailActionButtons">
+                    <button id="reproduceBtn" style="display:none;" tabindex="0"></button>
+                    <button id="favoriteBtn" tabindex="0"><i class="fas fa-heart"></i></button>
+                </div>
+                <p id="detailDesc"></p>
+                <p id="detailGenres"></p>
+            </div>
+        </div>
+        
+        <div id="detailEpisodes" class="episodes content-section">
+            <h3>Capítulos</h3>
+            <div class="episodes-list horizontal-scroll"> 
+            </div>
+        </div>
+        
+        <div id="recommendationsSection" class="content-section">
+            <h2 class="section-title">Recomendaciones</h2>
+            <div class="horizontal-scroll" id="recommendationsScroll"> 
+            </div>
+        </div>
+    </div>
+
+    <nav id="bottomNav">
+        <div class="nav-item active" data-tab="home" tabindex="0">
+            <i class="fas fa-house-chimney"></i> 
+            <span>Inicio</span>
+        </div>
+        <div class="nav-item" data-tab="series" tabindex="0">
+            <i class="fas fa-clapperboard"></i> 
+            <span>Series</span>
+        </div>
+        <div class="nav-item" data-tab="movies" tabindex="0">
+            <i class="fas fa-film"></i> 
+            <span>Películas</span>
+        </div>
+        <div class="nav-item" data-tab="channels" tabindex="0">
+            <i class="fas fa-tv"></i> 
+            <span>Canales</span>
+        </div>
+        <div class="nav-item" data-tab="favorites" tabindex="0">
+            <i class="fas fa-heart"></i> 
+            <span>Favoritos</span>
+        </div>
+        <div class="nav-item" data-tab="search" tabindex="0">
+            <i class="fas fa-search"></i> 
+            <span>Buscar</span>
+        </div>
+    </nav>
+    <script>
+        // --- CONSTANTES Y VARIABLES ---
+        const ANIME_JSON = "https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/data.json";
+        const M3U8_URL = "https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/CV.m3u8";
+        
+        let contentData = [], series = [], movies = [], channels = [];
+        let currentTab = 'home', currentItem = null;
+        let allContent = [];
+
+        // ** VARIABLES DE PAGINACIÓN (CARGA INFINITA) **
+        const itemsPerLoad = 30;
+        let currentPage = 0;
+        let currentList = [];
+        let isPaginating = false; // Bandera para evitar cargas múltiples
+
+        // Referencias del DOM
+        const content = document.getElementById('content');
+        const detailView = document.getElementById('detailView');
+        const detailBackground = document.getElementById('detailBackground');
+        const detailBackgroundImage = document.getElementById('detailBackgroundImage');
+        const backBtn = document.getElementById('backBtn');
+        const mainView = document.getElementById('mainView');
+        const searchView = document.getElementById('searchView');
+        const searchResultsGrid = document.getElementById('searchResultsGrid');
+        const searchResultsTitle = document.getElementById('searchResultsTitle');
+        const bottomNav = document.getElementById('bottomNav');
+        const bottomNavItems = document.querySelectorAll('.nav-item');
+        const favoriteBtn = document.getElementById('favoriteBtn');
+        const reproduceBtn = document.getElementById('reproduceBtn');
+        const detailTitle = document.getElementById('detailTitle');
+        const detailHeroImage = document.getElementById('detailHeroImage');
+        const detailHeroTitle = document.getElementById('detailHeroTitle');
+        const detailDesc = document.getElementById('detailDesc');
+        const detailGenres = document.getElementById('detailGenres');
+        const episodesSection = document.getElementById('detailEpisodes');
+        const episodesListContainer = document.querySelector('.episodes-list');
+        const loadingIndicator = document.getElementById('loadingIndicator');
+        const recommendationsSection = document.getElementById('recommendationsSection');
+        const recommendationsScroll = document.getElementById('recommendationsScroll');
+        const dynamicGrid = document.getElementById('dynamicGrid');
+        const gridTitle = document.getElementById('gridTitle');
+        const alphaFilter = document.getElementById('alphaFilter');
+        const backFromSearch = document.getElementById('backFromSearch');
+
+
+        // ----------------------------------------------------
+        // --- LÓGICA DE NAVEGACIÓN D-PAD PARA TV (CLAVE) ---
+        let currentFocus = null;
+        let focusGroup = null;
+        let menuTimeout = null;
+        let activeTabIndex = 0; // Índice de la pestaña activa en bottomNav
+
+        function getFocusableElements(container) {
+            // Define todos los selectores que pueden ser enfocables
+            const selectors = 'button, [tabindex="0"], .card, .nav-item, .episode-item, .play-button-hero, .alpha-btn';
+            const allElements = Array.from(container.querySelectorAll(selectors));
+            
+            // Filtrar solo elementos visibles
+            return allElements.filter(el => {
+                const rect = el.getBoundingClientRect();
+                return rect.width > 0 && rect.height > 0 && 
+                       window.getComputedStyle(el).visibility !== 'hidden' && 
+                       window.getComputedStyle(el).display !== 'none';
+            });
+        }
+        
+        function setFocus(element) {
+            if (!element || element === currentFocus) return;
+            
+            // Limpiar el foco anterior
+            if (currentFocus) {
+                currentFocus.classList.remove('focused');
+                currentFocus.tabIndex = -1; // Desactivar tabindex nativo
+            }
+
+            // Aplicar el nuevo foco
+            currentFocus = element;
+            currentFocus.classList.add('focused');
+            currentFocus.tabIndex = 0; // Activar tabindex nativo
+            currentFocus.focus();
+
+            // Desplazamiento si el elemento está en un scroll
+            // Prioriza el desplazamiento horizontal para sliders y vertical para las vistas principales
+            const parentScroll = currentFocus.closest('.horizontal-scroll');
+            const mainScroll = currentFocus.closest('#mainView, #searchView, #detailView');
+            
+            if (parentScroll) {
+                const rect = currentFocus.getBoundingClientRect();
+                const parentRect = parentScroll.getBoundingClientRect();
+                
+                // Desplazamiento horizontal (para secciones o episodios)
+                if (rect.left < parentRect.left || rect.right > parentRect.right) {
+                    parentScroll.scrollTo({
+                        left: currentFocus.offsetLeft - parentScroll.clientWidth / 2 + currentFocus.clientWidth / 2,
+                        behavior: 'smooth'
+                    });
+                }
+            } else if (mainScroll) {
+                // Desplazamiento vertical (para grids principales o detalles)
+                const rect = currentFocus.getBoundingClientRect();
+                const mainRect = mainScroll.getBoundingClientRect();
+                if (rect.top < mainRect.top || rect.bottom > mainRect.bottom) {
+                     mainScroll.scrollTo({
+                        top: currentFocus.offsetTop - window.innerHeight / 3, // Scroll un tercio de la pantalla por encima del elemento
+                        behavior: 'smooth'
+                    });
+                }
+            }
+        }
+
+        function findNextElement(direction) {
+            if (!currentFocus) return null;
+
+            let currentElements;
+            let container;
+            if (detailView.style.display === 'block') {
+                container = detailView;
+                currentElements = getFocusableElements(container);
+            } else if (searchView.style.display === 'block') {
+                container = searchView;
+                // Incluir el botón de volver y los filtros A-Z
+                currentElements = [backFromSearch, ...getFocusableElements(alphaFilter), ...getFocusableElements(searchResultsGrid)];
+            } else {
+                container = mainView;
+                // Si la barra de navegación no está oculta, incluirla
+                if (!bottomNav.classList.contains('hidden')) {
+                    currentElements = [...getFocusableElements(mainView), ...getFocusableElements(bottomNav)];
+                } else {
+                    currentElements = getFocusableElements(mainView);
+                }
+            }
+            
+            const currentIndex = currentElements.indexOf(currentFocus);
+            if (currentIndex === -1) return null;
+
+            // Lógica de navegación simple: usa getBoundingClientRect para encontrar el más cercano en la dirección
+            const currentRect = currentFocus.getBoundingClientRect();
+            let nextElement = null;
+            let minDistance = Infinity;
+
+            for (const el of currentElements) {
+                if (el === currentFocus) continue;
+
+                const rect = el.getBoundingClientRect();
+                const distance = calculateDistance(currentRect, rect, direction);
+
+                if (distance < minDistance) {
+                    minDistance = distance;
+                    nextElement = el;
+                }
+            }
+            
+            return nextElement;
+        }
+
+        function calculateDistance(r1, r2, direction) {
+            let dx = r2.x - r1.x;
+            let dy = r2.y - r1.y;
+
+            if (direction === 'ArrowUp' && dy < 0 && Math.abs(dy) > Math.abs(dx)) { // Arriba
+                return Math.abs(dy) + Math.abs(dx * 2);
+            } else if (direction === 'ArrowDown' && dy > 0 && Math.abs(dy) > Math.abs(dx)) { // Abajo
+                return Math.abs(dy) + Math.abs(dx * 2);
+            } else if (direction === 'ArrowLeft' && dx < 0 && Math.abs(dx) > Math.abs(dy)) { // Izquierda
+                return Math.abs(dx) + Math.abs(dy * 2);
+            } else if (direction === 'ArrowRight' && dx > 0 && Math.abs(dx) > Math.abs(dy)) { // Derecha
+                return Math.abs(dx) + Math.abs(dy * 2);
+            }
+            return Infinity; // Distancia infinita si no está en la dirección
+        }
+
+        function handleKey(e) {
+            const key = e.key;
+
+            if (['ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'Enter'].includes(key)) {
+                e.preventDefault();
+                showBottomNav(); // Mostrar la barra de navegación con cualquier movimiento de D-pad
+            }
+
+            if (key === 'Enter') {
+                if (currentFocus) {
+                    // Simular el click para ejecutar la función asociada
+                    currentFocus.click(); 
+                }
+            } else if (['ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight'].includes(key)) {
+                const nextElement = findNextElement(key);
+                if (nextElement) {
+                    setFocus(nextElement);
+                }
+            }
+        }
+
+        function showBottomNav() {
+            bottomNav.classList.remove('hidden');
+            clearTimeout(menuTimeout);
+            menuTimeout = setTimeout(() => {
+                if (detailView.style.display !== 'block' && searchView.style.display !== 'block') {
+                    bottomNav.classList.add('hidden');
+                }
+            }, 3000); // Ocultar después de 3 segundos de inactividad
+        }
+        
+        // Asignar el listener de teclas globalmente
+        document.addEventListener('keydown', handleKey);
+
+        // ----------------------------------------------------
+        // --- FUNCIONES DE ESTADO (CACHE) ---
+
+        function getLastWatchedEpisodeIndex(seriesId, episodeIndex = undefined) { 
+            try { 
+                const progress = localStorage.getItem('animebox_progress'); 
+                let progressData = progress ? JSON.parse(progress) : {}; 
+                if (episodeIndex !== undefined) { 
+                    progressData[seriesId] = episodeIndex; 
+                    localStorage.setItem('animebox_progress', JSON.stringify(progressData)); 
+                    return episodeIndex; 
+                } else { 
+                    return progressData[seriesId]; 
+                } 
+            } catch(e) { return undefined; } 
+        } 
+        function getWatchedEpisodes() { 
+            try { 
+                const watched = localStorage.getItem('animebox_watched'); 
+                return watched ? JSON.parse(watched) : {}; 
+            } catch(e) { return {}; } 
+        } 
+        function isEpisodeWatched(seriesId, episodeIndex) { 
+            const watched = getWatchedEpisodes(); 
+            return watched[seriesId] && watched[seriesId].includes(episodeIndex); 
+        } 
+        function saveWatchedEpisode(seriesId, episodeIndex) { 
+            let watched = getWatchedEpisodes(); 
+            if (!watched[seriesId]) { 
+                watched[seriesId] = []; 
+            } 
+            if (!watched[seriesId].includes(episodeIndex)) { 
+                watched[seriesId].push(episodeIndex); 
+                localStorage.setItem('animebox_watched', JSON.stringify(watched)); 
+            } 
+        } 
+        function getFavorites() { 
+            try { 
+                const favs = localStorage.getItem('animebox_favorites'); 
+                return favs ? JSON.parse(favs) : []; 
+            } catch(e) { return []; } 
+        } 
+        function saveFavorites(favs) { 
+            try { 
+                localStorage.setItem('animebox_favorites', JSON.stringify(favs)); 
+            } catch(e) { 
+                console.error("Error al guardar favoritos:", e); 
+            } 
+        } 
+        function isFavorite(item) { 
+            const favs = getFavorites(); 
+            const itemId = item.id || item.title; 
+            return favs.some(fav => (fav.id || fav.title) === itemId); 
+        } 
+        function toggleFavorite(item) { 
+            let favs = getFavorites(); 
+            const itemId = item.id || item.title; 
+            const index = favs.findIndex(fav => (fav.id || fav.title) === itemId); 
+            const itemToSave = { ...item, id: itemId }; 
+            if (index > -1) { 
+                favs.splice(index, 1); 
+                favoriteBtn.classList.remove('active'); 
+                if(currentTab === 'favorites') { 
+                    currentPage = 0; 
+                    dynamicGrid.innerHTML = '';
+                    loadMoreItems(getFavorites());
+                } 
+            } else { 
+                favs.push(itemToSave); 
+                favoriteBtn.classList.add('active'); 
+            } 
+            saveFavorites(favs); 
+        } 
+
+        // ----------------------------
+        // --- Funciones de Datos y Separación ---
+        async function fetchData(){ 
+            try { 
+                loadingIndicator.classList.add('show');
+                contentData = await (await fetch(ANIME_JSON)).json(); 
+                series = contentData.filter(item => item.episodes && item.episodes.length > 0); 
+                movies = contentData.filter(item => !item.episodes || item.episodes.length === 0); 
+                await fetchChannels(); 
+                combineAllContent(); 
+                loadingIndicator.classList.remove('show');
+                renderCurrentTab(); 
+                setFocus(bottomNavItems[0]); // Establecer foco inicial en el primer nav-item
+            } catch(e){ 
+                console.error("Error al cargar los datos:", e); 
+                contentData=[]; series=[]; movies=[]; channels=[]; 
+                content.innerHTML = `<p style="color:var(--accent); padding: 50px 3vw; text-align: center;">❌ Error al cargar los datos. Intenta recargar la página.</p>`; 
+                loadingIndicator.classList.remove('show');
+            } 
+        } 
+        async function fetchChannels(){ 
+            try { 
+                const res = await fetch(M3U8_URL); 
+                const text = await res.text(); 
+                const lines = text.split(/\r?\n/); 
+                let current = null; channels=[]; 
+                for(const lineRaw of lines){ 
+                    const line = lineRaw.trim(); 
+                    if(!line.startsWith('#') && line.length > 0 && line.includes('://')) { // Simplificar la detección de URL
+                        if (current) {
+                            current.video_url = line;
+                            channels.push(current);
+                        }
+                        current = null;
+                        continue;
+                    }
+                    if(line.startsWith('#EXTINF:')){ 
+                        const logo = (line.match(/tvg-logo="([^"]*)"/)||[])[1]||null; 
+                        const name = (line.match(/,(.*)$/)||[])[1]?.trim()||'Canal'; 
+                        const coverImage = logo || 'https://via.placeholder.com/140x200?text=TV'; 
+                        current = {id:name,title:name,coverImage,logo,type:'channel',isChannel:true, video_url:'', genre: ['En Vivo', 'Canal']}; 
+                    } 
+                } 
+            } catch(e){ 
+                console.error("Error al cargar canales:", e); 
+                channels=[]; 
+            } 
+        } 
+        function combineAllContent() { allContent = [...contentData, ...channels]; } 
+        function getRecommendations(currentItem) { 
+            if (!currentItem) return []; 
+            const currentId = currentItem.id || currentItem.title; 
+            const currentGenre = currentItem.genre || []; 
+            let filteredContent = allContent.filter(item => (item.id || item.title) !== currentId); 
+            let genreRecs = []; 
+            if (currentGenre.length > 0) { 
+                genreRecs = filteredContent 
+                    .filter(item => item.genre && item.genre.some(g => currentGenre.includes(g))) 
+                    .sort(() => 0.5 - Math.random()) 
+                    .slice(0, 7); 
+            } 
+            let fillerRecs = filteredContent 
+                .filter(item => (item.episodes ? true : false) === (currentItem.episodes ? true : false)) 
+                .filter(item => !genreRecs.includes(item)) 
+                .sort(() => 0.5 - Math.random()) 
+                .slice(0, 10 - genreRecs.length); 
+            return [...genreRecs, ...fillerRecs].slice(0, 10); 
+        } 
+
+        // ----------------------------
+        // --- Funciones de Renderizado ---
+        
+        function renderStaticHero(item) { 
+            if (!item) return null; 
+            const container = document.createElement('div'); 
+            container.className = 'hero-static-container'; 
+            const heroCover = item.coverImage || 'https://via.placeholder.com/600x350?text=Última Novedad'; 
+            const itemId = item.id || item.title; 
+            container.innerHTML = ` 
+                <img src="${heroCover}" alt="${item.title}" tabindex="-1" onerror="this.onerror=null;this.src='https://via.placeholder.com/600x350?text=Última Novedad';"> 
+                <div class="hero-overlay"> 
+                    <h1>${item.title}</h1> 
+                    <p>${item.description || 'La última adición a nuestro catálogo premium. ¡No te la pierdas!'}</p> 
+                    <button class="play-button-hero" tabindex="0" onclick="openDetail(allContent.find(i => (i.id || i.title) === '${itemId}'))"> 
+                        <i class="fas fa-play"></i> Reproducir Ahora 
+                    </button> 
+                </div> 
+            `; 
+            return container; 
+        } 
+
+        function createCardHTML(item) { 
+            const cover = item.coverImage || item.logo || 'https://via.placeholder.com/140x200?text=Portada'; 
+            const spanText = item.isChannel ? 'En vivo' : (item.genre ? item.genre[0] : ''); 
+            const card = document.createElement('div'); 
+            card.className = 'card'; 
+            card.tabIndex = 0; // Añadir tabindex
+            card.innerHTML = `<img src="${cover}" alt="${item.title}" onerror="this.onerror=null;this.src='https://via.placeholder.com/140x200?text=Portada';"><div class="info"><h3>${item.title}</h3><span>${spanText}</span></div>`; 
+            card.onclick = () => openDetail(item); 
+            // Tiempo de espera reducido para una carga inicial más rápida de las tarjetas
+            setTimeout(() => card.classList.add('show'), Math.random() * 50); 
+            return card; 
+        } 
+
+        function renderHomePage() { 
+            dynamicGrid.innerHTML = '';
+            gridTitle.style.display = 'none';
+
+            content.innerHTML = ''; 
+            const featuredItem = allContent[0]; 
+            if (featuredItem) { 
+                const heroElement = renderStaticHero(featuredItem); 
+                if (heroElement) { 
+                    content.appendChild(heroElement); 
+                } 
+            } 
+            
+            // ** LISTA DE SECCIONES ACTUALIZADA **
+            const sections = [ 
+                { title: ' Canales en Vivo', list: channels.slice(0, 10) }, 
+                { title: ' Infantil', genre: 'Infantil', listType: 'all' }, 
+                { title: ' Romance', genre: 'Romance', listType: 'all' }, 
+                { title: ' Misterio', genre: 'Misterio', listType: 'all' }, 
+                { title: ' Documentales', genre: 'Documental', listType: 'all' }, 
+                { title: ' Anime', genre: 'Anime', listType: 'all' }, 
+            ]; 
+
+            sections.forEach((section) => { 
+                let list = section.list; 
+                if (section.genre) { 
+                    let source = allContent; 
+                    // Aseguramos que haya contenido para mostrar antes de crear la sección
+                    list = source.filter(a => a.genre && a.genre.some(g => g === section.genre)).sort(() => 0.5 - Math.random()).slice(0, 10); 
+                } 
+                if (list && list.length > 0) { 
+                    const sectionDiv = document.createElement('div'); 
+                    sectionDiv.className = 'content-section'; 
+                    const titleElement = document.createElement('h2'); 
+                    titleElement.className = 'section-title'; 
+                    titleElement.textContent = section.title; 
+                    const scrollDiv = document.createElement('div'); 
+                    scrollDiv.className = 'horizontal-scroll'; 
+                    list.forEach(item => { 
+                        scrollDiv.appendChild(createCardHTML(item)); 
+                    }); 
+                    sectionDiv.appendChild(titleElement); 
+                    sectionDiv.appendChild(scrollDiv); 
+                    content.appendChild(sectionDiv); 
+                } 
+            }); 
+            content.classList.add('loaded'); 
+            
+            loadingIndicator.classList.remove('show');
+            // Re-establecer foco en el menú inferior si se está en la vista principal
+            if (!bottomNav.classList.contains('hidden')) {
+                setFocus(bottomNavItems[activeTabIndex] || bottomNavItems[0]);
+            }
+        } 
+
+        // ** FUNCIÓN CLAVE: Lógica de carga 30 en 30 (OPTIMIZADA) **
+        function loadMoreItems(list) {
+            if (isPaginating) return; 
+            isPaginating = true;
+            
+            // Si es la primera carga (página 0) o hay más por cargar, mostrar el indicador rápidamente
+            if (currentPage > 0 && dynamicGrid.children.length < list.length) {
+                loadingIndicator.classList.add('show');
+                loadingIndicator.innerHTML = `<i class="fas fa-spinner"></i> Cargando ${itemsPerLoad} más...`;
+            }
+
+            const startIndex = currentPage * itemsPerLoad;
+            const endIndex = startIndex + itemsPerLoad;
+            const itemsToLoad = list.slice(startIndex, endIndex);
+
+            if (itemsToLoad.length === 0) {
+                loadingIndicator.innerHTML = `Mostrando ${list.length} resultados. Fin del catálogo.`;
+                setTimeout(() => {
+                    loadingIndicator.classList.remove('show');
+                    isPaginating = false;
+                }, 1000);
+                return;
+            }
+
+            // Eliminar el setTimeout para que la carga sea instantánea
+            const fragment = document.createDocumentFragment();
+            itemsToLoad.forEach(item => {
+                fragment.appendChild(createCardHTML(item));
+            });
+            dynamicGrid.appendChild(fragment);
+
+            currentPage++;
+            isPaginating = false;
+            
+            // Ocultar el indicador después de la carga rápida
+            loadingIndicator.innerHTML = `Mostrando ${dynamicGrid.children.length} de ${list.length} resultados.`;
+            if (dynamicGrid.children.length === list.length) {
+                loadingIndicator.innerHTML = `Mostrando ${list.length} resultados. Fin del catálogo.`;
+            }
+
+            // Ocultar rápidamente, dejando el mensaje visible por un instante
+            setTimeout(() => loadingIndicator.classList.remove('show'), 300);
+        }
+
+        function setupGridPage(list, titleText, targetGrid=dynamicGrid, targetTitle=gridTitle) {
+            if (targetGrid === dynamicGrid) {
+                content.innerHTML = '';
+            }
+            targetTitle.textContent = titleText;
+            targetTitle.style.display = 'block';
+            targetGrid.innerHTML = '';
+            
+            if (list.length === 0) { 
+                targetGrid.innerHTML = `<p style="color:var(--muted); padding: 20px 0; text-align: center;">${currentTab === 'favorites' ? 'No tienes favoritos guardados.' : 'No hay contenido disponible.'}</p>`; 
+                loadingIndicator.classList.remove('show');
+                return;
+            }
+            
+            // Si es la cuadrícula principal, usar paginación
+            if (targetGrid === dynamicGrid) {
+                currentList = list;
+                currentPage = 0; 
+                loadMoreItems(list);
+            } else {
+                // Si es la cuadrícula de búsqueda, cargar todo (ya que el filtrado A-Z es limitado)
+                list.forEach(item => {
+                    targetGrid.appendChild(createCardHTML(item));
+                });
+            }
+
+             // Intentar establecer el foco en el primer elemento del grid
+            setTimeout(() => {
+                const firstElement = getFocusableElements(targetGrid)[0];
+                if (firstElement) {
+                    setFocus(firstElement);
+                } else if (!bottomNav.classList.contains('hidden')) {
+                    setFocus(bottomNavItems[activeTabIndex] || bottomNavItems[0]);
+                }
+            }, 100);
+        }
+
+        // ** Evento de Scroll para Carga Infinita **
+        mainView.addEventListener('scroll', () => {
+            if (currentTab === 'home' || currentTab === 'search' || isPaginating) {
+                return;
+            }
+
+            // Umbral de 300px antes de llegar al final
+            const scrollThreshold = 300; 
+            
+            if (mainView.scrollTop + mainView.clientHeight >= mainView.scrollHeight - scrollThreshold) {
+                if (dynamicGrid.children.length < currentList.length) {
+                    loadMoreItems(currentList);
+                } else {
+                    loadingIndicator.classList.remove('show');
+                }
+            }
+        });
+
+
+        // --- Lógica de Vistas (Navegación) ---
+        function showView(viewId) { 
+            // Primero, asegurarse de que todas las vistas principales están ocultas/deshabilitadas
+            mainView.style.display = 'none'; 
+            searchView.style.display = 'none'; 
+            detailView.style.display = 'none'; 
+            
+            if (viewId === 'detailView') { 
+                detailView.style.display = 'block'; 
+                bottomNav.classList.add('hidden'); // Ocultar navegación en vista de detalle
+            } else { 
+                if (viewId === 'searchView') {
+                    searchView.style.display = 'block'; 
+                } else {
+                    mainView.style.display = 'block'; 
+                }
+                showBottomNav(); // Mostrar nav en vistas principales
+            } 
+        } 
+        
+        // --- Lógica de Búsqueda A-Z ---
+        function renderAlphaFilter() {
+            alphaFilter.innerHTML = '';
+            const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+            const numbers = '0123456789'.split('');
+            const others = ['#'];
+            
+            const allFilters = [...alphabet, ...numbers, ...others];
+            
+            allFilters.forEach(letter => {
+                const btn = document.createElement('span');
+                btn.className = 'alpha-btn';
+                btn.textContent = letter;
+                btn.tabIndex = 0;
+                btn.onclick = () => filterByLetter(letter);
+                alphaFilter.appendChild(btn);
+            });
+
+            searchResultsTitle.textContent = "Explorar por letra..."; 
+            searchResultsGrid.innerHTML = `<p style="color:var(--muted); padding: 50px 3vw; text-align: center;">Selecciona una letra para empezar a explorar.</p>`;
+            
+            // Re-enfocar en el botón de volver si no hay otro foco, o en el primer filtro
+            setTimeout(() => {
+                setFocus(backFromSearch);
+            }, 50);
+        }
+
+        function filterByLetter(letter) {
+            // Limpiar clases activas y activar la actual
+            document.querySelectorAll('.alpha-btn').forEach(btn => btn.classList.remove('active'));
+            const activeBtn = Array.from(document.querySelectorAll('.alpha-btn')).find(b => b.textContent === letter);
+            if(activeBtn) activeBtn.classList.add('active');
+
+            const isNumberOrHash = !isNaN(parseInt(letter)) || letter === '#';
+            
+            const filtered = allContent.filter(item => {
+                const titleStart = item.title.toUpperCase().trim()[0];
+                if (isNumberOrHash) {
+                    // Contenido que empieza por número o símbolo
+                    return !isNaN(parseInt(titleStart)) || !titleStart.match(/[A-Z]/i);
+                } else {
+                    // Contenido que empieza por la letra
+                    return titleStart === letter;
+                }
+            }).sort((a, b) => a.title.localeCompare(b.title));
+            
+            setupGridPage(filtered, `Resultados para '${letter}' (${filtered.length})`, searchResultsGrid, searchResultsTitle);
+        }
+
+        function renderCurrentTab(){ 
+            document.getElementById('backFromSearch').style.display = 'block'; 
+            bottomNavItems.forEach(b => b.classList.remove('active')); 
+            const activeNavButton = document.querySelector(`.nav-item[data-tab="${currentTab}"]`);
+            if (activeNavButton) {
+                activeNavButton.classList.add('active');
+                activeTabIndex = Array.from(bottomNavItems).indexOf(activeNavButton);
+            }
+
+            if (currentTab === 'search') { 
+                showView('searchView'); 
+                renderAlphaFilter();
+                return; 
+            } 
+            
+            showView('mainView'); 
+            // Esto asegura que al volver de un detalle o cambiar de pestaña, estemos arriba del todo
+            mainView.scrollTo({top: 0, behavior: 'smooth'}); 
+
+            if(currentTab === 'home'){ 
+                renderHomePage(); 
+            } else if (currentTab === 'series') { 
+                setupGridPage(series, 'Todas las Series'); 
+            } else if (currentTab === 'movies') { 
+                setupGridPage(movies, 'Todas las Películas'); 
+            } else if (currentTab === 'channels') { 
+                setupGridPage(channels, 'Todos los Canales en Vivo'); 
+            } else if (currentTab === 'favorites') { 
+                setupGridPage(getFavorites(), 'Mis Favoritos'); 
+            } 
+        } 
+
+        // Eventos de Navegación Inferior
+        bottomNavItems.forEach(btn => btn.onclick = () => { 
+            currentTab = btn.dataset.tab; 
+            renderCurrentTab(); 
+            // Re-enfocar en el botón del menú después del clic
+            setTimeout(() => setFocus(btn), 50);
+        }); 
+
+        // Eventos de Buscador
+        document.getElementById('backFromSearch').onclick = () => { 
+            currentTab = 'home'; 
+            renderCurrentTab(); 
+        } 
+
+        // ** FUNCIÓN CLAVE PARA VOLVER AL DETALLE TRAS REPRODUCIR **
+        function closeDetailAndUpdate() {
+            // Solo actualizamos y mostramos el detalle si todavía tenemos un item seleccionado
+            if (currentItem) {
+                detailView.style.display='none'; 
+                detailBackground.classList.remove('show');
+                // Reabrimos el detalle para actualizar el botón "Continuar Viendo"
+                openDetail(currentItem);
+            } else {
+                // Si por alguna razón perdemos el item, volvemos al inicio seguro.
+                detailView.style.display='none'; 
+                detailBackground.classList.remove('show');
+                renderCurrentTab();
+            }
+        }
+
+        // ----------------------------
+        // --- Lógica de Detalle ---
+        function openDetail(item){ 
+            currentItem=item; 
+            const coverUrl = item.coverImage || item.logo || 'https://via.placeholder.com/140x200?text=Portada'; 
+            const seriesId = item.id || item.title; 
+            // 1. Configurar Fondo Inmersivo y Header de Detalle
+            detailBackgroundImage.src = coverUrl; 
+            detailBackground.classList.add('show'); 
+            showView('detailView'); 
+            detailView.scrollTo({top: 0, behavior: 'smooth'}); 
+            detailHeroImage.src = coverUrl; 
+            detailHeroTitle.textContent = item.title; 
+            detailTitle.textContent=item.title; 
+            // 2. Rellenar detalles básicos
+            detailDesc.textContent=item.description||'No hay descripción disponible para este contenido.'; 
+            detailGenres.textContent=Array.isArray(item.genre)&&item.genre.length?'🎭 '+item.genre.join(', '):''; 
+            // 3. Configurar Botón de Favoritos
+            favoriteBtn.onclick = () => toggleFavorite(item); 
+            if (isFavorite(item)) { 
+                favoriteBtn.classList.add('active'); 
+            } else { 
+                favoriteBtn.classList.remove('active'); 
+            } 
+            // 4. Lógica de Reproducción Dinámica
+            episodesListContainer.innerHTML=''; 
+            reproduceBtn.style.display = 'none'; 
+            episodesSection.style.display = 'block'; 
+            const isSeries = item.episodes && item.episodes.length > 0; 
+
+            if(isSeries){ 
+                let lastWatchedIndex = getLastWatchedEpisodeIndex(seriesId); 
+                let nextEpisodeIndex = lastWatchedIndex !== undefined ? lastWatchedIndex + 1 : 0; 
+                if (nextEpisodeIndex >= item.episodes.length) { 
+                    nextEpisodeIndex = item.episodes.length - 1; 
+                } else if (nextEpisodeIndex < 0) { 
+                    nextEpisodeIndex = 0; 
+                } 
+                const indexToPlayOnButton = nextEpisodeIndex; 
+                const hasStarted = lastWatchedIndex !== undefined; 
+                episodesSection.querySelector('h3').textContent = 'Capítulos'; 
+                reproduceBtn.style.display = 'flex'; 
+                if (hasStarted && lastWatchedIndex < item.episodes.length - 1) { 
+                    reproduceBtn.innerHTML = `<i class="fas fa-forward"></i> Continuar viendo (Cap. ${indexToPlayOnButton + 1})`; 
+                } else if (hasStarted && lastWatchedIndex === item.episodes.length - 1) { 
+                    reproduceBtn.innerHTML = `<i class="fas fa-check"></i> Visto, Ver último (Cap. ${indexToPlayOnButton + 1})`; 
+                } else { 
+                    reproduceBtn.innerHTML = `<i class="fas fa-play"></i> Ver Ahora (Cap. 1)`; 
+                } 
+                // Función de reproducción para el botón principal "Continuar Viendo"
+                reproduceBtn.onclick = () => { 
+                    const episodeElement = episodesListContainer.children[indexToPlayOnButton]; 
+                    if(episodeElement) { 
+                        const scrollPos = episodeElement.offsetLeft - episodesListContainer.clientWidth / 2 + episodeElement.clientWidth / 2; 
+                        episodesListContainer.scrollTo({ left: scrollPos, behavior: 'smooth' }); 
+                        // Simular clic en el elemento del episodio
+                        setTimeout(() => episodeElement.click(), 500); 
+                    } else { 
+                        console.error("No se encontró el elemento del episodio para reproducir."); 
+                        if (item.episodes[0]) { 
+                            window.open(item.episodes[0].video_url, '_blank'); 
+                            // ** VUELVE AL DETALLE Y ACTUALIZA (Serie principal) **
+                            setTimeout(closeDetailAndUpdate, 2000); 
+                        } 
+                    } 
+                }; 
+                
+                item.episodes.forEach((ep,i)=>{ 
+                    const episodeIndex = i; 
+                    const isWatched = isEpisodeWatched(seriesId, episodeIndex); 
+                    const episodeItem = document.createElement('div'); 
+                    const isActive = isSeries && episodeIndex === indexToPlayOnButton;
+                    // Asegurar tabindex en los ítems de episodio
+                    episodeItem.tabIndex = 0; 
+                    episodeItem.className = `episode-item ${isWatched ? 'watched' : ''} ${isActive ? 'active' : ''}`; 
+                    const thumbUrl = ep.thumb || item.coverImage || 'https://via.placeholder.com/320x180?text=Episodio'; 
+                    const episodeTitle = `Capítulo ${i+1}: ${ep.title || item.title}`; 
+                    const iconClass = isWatched ? 'fas fa-check-circle' : 'fas fa-play-circle'; 
+                    episodeItem.innerHTML = ` 
+                        <div class="episode-thumb"> 
+                            <img src="${thumbUrl}" alt="Ep. ${i+1}" onerror="this.onerror=null;this.src='https://via.placeholder.com/320x180?text=Episodio';"> 
+                            <i class="${iconClass} play-icon"></i> 
+                        </div> 
+                        <div class="episode-info"> 
+                            <strong>${episodeTitle}</strong> 
+                            <span>${ep.description || 'Sinopsis del episodio...'}</span> 
+                        </div> 
+                    `; 
+                    episodeItem.onclick = (e) => { 
+                        document.querySelectorAll('.episode-item').forEach(x => x.classList.remove('active')); 
+                        getLastWatchedEpisodeIndex(seriesId, episodeIndex); 
+                        episodeItem.classList.add('active'); 
+                        saveWatchedEpisode(seriesId, episodeIndex); 
+                        // Aplicar clases de visto/activo directamente
+                        episodeItem.classList.remove('active'); // Se eliminará y se volverá a poner al recargar el detalle
+                        episodeItem.classList.add('watched'); 
+                        episodeItem.querySelector('.play-icon').className = 'fas fa-check-circle play-icon'; 
+                        
+                        window.open(ep.video_url, '_blank'); 
+                        // ** VUELVE AL DETALLE Y ACTUALIZA (Episodio) **
+                        setTimeout(closeDetailAndUpdate, 2000); 
+                    }; 
+                    episodesListContainer.appendChild(episodeItem); 
+                    // Scroll y foco al episodio activo
+                    if(isActive && episodesListContainer.children.length > 0) { 
+                        setTimeout(() => { 
+                            const scrollPos = episodeItem.offsetLeft - episodesListContainer.clientWidth / 2 + episodeItem.clientWidth / 2; 
+                            episodesListContainer.scrollTo({ left: scrollPos, behavior: 'smooth' });
+                            setFocus(episodeItem);
+                        }, 50); 
+                    } 
+                }); 
+                // Si no hay episodio activo/siguiente, enfocar en el botón principal
+                if (currentFocus === null) {
+                    setFocus(reproduceBtn);
+                }
+            } else if(item.video_url){ 
+                // Caso de Película o Canal en Vivo
+                episodesSection.style.display = 'none'; 
+                reproduceBtn.style.display = 'flex'; 
+                reproduceBtn.innerHTML = `<i class="fas fa-play"></i> ${item.isChannel ? 'Ver Canal en Vivo' : 'Reproducir Ahora'}`; 
+                reproduceBtn.onclick = () => { 
+                    window.open(item.video_url, '_blank'); 
+                    // ** VUELVE AL DETALLE Y ACTUALIZA (Película/Canal) **
+                    setTimeout(closeDetailAndUpdate, 2000); 
+                }; 
+                // Enfocar en el botón principal
+                setFocus(reproduceBtn);
+            } else { 
+                episodesSection.style.display = 'none'; 
+                reproduceBtn.style.display = 'none';
+                // Enfocar en el botón de favoritos o volver
+                setFocus(favoriteBtn);
+            } 
+            // 5. Renderizar Recomendaciones (siempre al final para asegurar que los elementos estén en el DOM)
+            renderRecommendations(item); 
+        } 
+
+        function renderRecommendations(item) { 
+            recommendationsScroll.innerHTML = ''; 
+            const recommendations = getRecommendations(item); 
+            if (recommendations.length > 0) { 
+                recommendationsSection.style.display = 'block'; 
+                recommendations.forEach(rec => { 
+                    recommendationsScroll.appendChild(createCardHTML(rec)); 
+                }); 
+            } else { 
+                recommendationsSection.style.display = 'none'; 
+            } 
+        } 
+
+        // Acción de "Volver" Manual del Detalle (vuelve a la vista principal de la pestaña)
+        backBtn.onclick=()=>{ 
+            detailView.style.display='none'; 
+            detailBackground.classList.remove('show'); 
+            currentItem = null; // Limpiar el item actual para que la recarga de home sea limpia
+            renderCurrentTab(); 
+            // Enfocar en el botón de la pestaña activa
+            setTimeout(() => setFocus(bottomNavItems[activeTabIndex]), 50);
+        }; 
+
+        // ----------------------------
+        // --- Inicialización ---
+        document.addEventListener('DOMContentLoaded',async()=>{ 
+            await fetchData(); 
+            // Iniciar el temporizador para ocultar el menú si no hay interacción
+            showBottomNav(); 
+        });
+    </script>
+</body>
+</html>
