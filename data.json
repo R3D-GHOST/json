@@ -1,5 +1,134 @@
 [
+  {
+    "title": "El Internado: Laguna Negra Temporada 7",
+    "genre": ["Misterio", "Drama", "Thriller"],
+    "coverImage": "https://www.crew-united.com/Media/Images/1558/1558136/1558136.entity.jpg",
+    "description": "La temporada final donde la verdad sobre el Proyecto Géminis, los crímenes y la cura se revela por completo, concluyendo el arco de la serie.",
+    "episodes": [
+      { "episode": 1, "title": "El protocolo", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2057%20el%20protocolo.mkv" },
+      { "episode": 2, "title": "La amenaza", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2058%20la%20amenaza.mkv" },
+      { "episode": 3, "title": "El hombre misterioso", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2059%20el%20hombre%20misterioso.mkv" },
+      { "episode": 4, "title": "El tesoro", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2060%20el%20tesoro.mkv" },
+      { "episode": 5, "title": "El centro de la tierra", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2061%20el%20centro%20de%20la%20tierra.mkv" },
+      { "episode": 6, "title": "Los tres pétalos", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2062%20los%20tres%20p%C3%A9talos.mkv" },
+      { "episode": 7, "title": "El asesino de Carolina", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2063%20el%20asesino%20de%20carolina.mkv" },
+      { "episode": 8, "title": "El último deseo", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2064%20el%20%C3%BAltimo%20deseo.mkv" },
+      { "episode": 9, "title": "El principio del fin", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2065%20el%20principio%20del%20fin.mkv" },
+      { "episode": 10, "title": "La última dosis", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2066%20la%20%C3%BAltima%20dosis.mkv" },
+      { "episode": 11, "title": "Los últimos recuerdos", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2067%20los%20%C3%BAltimos%20recuerdos.mkv" },
+      { "episode": 12, "title": "Hasta que la muerte nos separe", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2068%20hasta%20que%20la%20muerte%20nos%20separe.mkv" },
+      { "episode": 13, "title": "El último aliento", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2069%20el%20%C3%BAltimo%20aliento.mkv" },
+      { "episode": 14, "title": "La luz", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2070%20la%20luz.mkv" },
+      { "episode": 15, "title": "El fin", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2071%20el%20fin.mkv" }
+    ]
+  },
   
+  {
+    "title": "El Internado: Laguna Negra Temporada 6",
+    "genre": ["Misterio", "Drama", "Thriller"],
+    "coverImage": "https://www.crew-united.com/Media/Images/1558/1558136/1558136.entity.jpg",
+    "description": "Una nueva amenaza biológica obliga al internado a entrar en cuarentena total, mientras los estudiantes buscan una cura y un escape.",
+    "episodes": [
+      { "episode": 1, "title": "Los monstruos vienen de noche", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2044%20los%20montruos%20vienen%20de%20noche.mkv" },
+      { "episode": 2, "title": "Las galletas del porvenir", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/El%20internado%2045%20las%20galletas%20del%20porvenir.mkv" },
+      { "episode": 3, "title": "El hombre lobo", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2046%20el%20hombre%20lobo.mkv" },
+      { "episode": 4, "title": "La traición", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2047%20la%20traici%C3%B3n.mkv" },
+      { "episode": 5, "title": "El baile de los culpables", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2048%20el%20baile%20de%20los%20culpables.mkv" },
+      { "episode": 6, "title": "Paula y el lobo", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2049%20paula%20y%20el%20lobo.mkv" },
+      { "episode": 7, "title": "La leyenda de Eva", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2050%20la%20leyenda%20de%20eva.mkv" },
+      { "episode": 8, "title": "La princesa de hielo", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2051%20la%20princesa%20de%20hielo.mkv" },
+      { "episode": 9, "title": "El extraterrestre", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/El%20internado%2052%20el%20extraterrestre.mkv" },
+      { "episode": 10, "title": "La habitación número 13", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2053%20la%20habitaci%C3%B3n%20numero%2013.mkv" },
+      { "episode": 11, "title": "El mago", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2054%20el%20mago.mkv" },
+      { "episode": 12, "title": "Alaska", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2055%20alaska.mkv" },
+      { "episode": 13, "title": "Después de la luz", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2056%20despues%20de%20la%20luz.mkv" }
+    ]
+  },
+  
+  {
+    "title": "El Internado: Laguna Negra Temporada 5",
+    "genre": ["Misterio", "Drama", "Thriller"],
+    "coverImage": "https://www.crew-united.com/Media/Images/1558/1558136/1558136.entity.jpg",
+    "description": "Se acercan al desenmascaramiento de Ottox. Las tensiones aumentan con la revelación de más miembros del Proyecto Géminis.",
+    "episodes": [
+      { "episode": 1, "title": "El cuaderno del Doctor Wulf", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2035%20el%20cuaderno%20del%20doctor%20wulf.mkv" },
+      { "episode": 2, "title": "Amnesia", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2036%20amnesia.mkv" },
+      { "episode": 3, "title": "El hombre del saco", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2037%20el%20hombre%20del%20saco.mkv" },
+      { "episode": 4, "title": "La novia cadáver", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2038%20la%20novia%20cadaver.mkv" },
+      { "episode": 5, "title": "La promesa", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2039%20la%20promesa.mkv" },
+      { "episode": 6, "title": "El vampiro", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2040%20el%20vampiro.mkv" },
+      { "episode": 7, "title": "El rey de la baraja", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2041%20el%20rey%20de%20la%20baraja.mkv" },
+      { "episode": 8, "title": "Paula en el País de las Maravillas", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2042%20paula%20en%20el%20pais%20de%20las%20maravillas.mkv" },
+      { "episode": 9, "title": "El último día", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2043%20el%20ultimo%20dia.mkv" }
+    ]
+  },
+  
+  {
+    "title": "El Internado: Laguna Negra Temporada 4",
+    "genre": ["Misterio", "Drama", "Thriller"],
+    "coverImage": "https://www.crew-united.com/Media/Images/1558/1558136/1558136.entity.jpg",
+    "description": "Se profundiza en el Proyecto Géminis y en el pasado de algunos personajes clave.",
+    "episodes": [
+      { "episode": 1, "title": "La maldición", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2024%20la%20maldici%C3%B3n.mkv" },
+      { "episode": 2, "title": "La sala del tesoro", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2025%20la%20sala%20del%20tesoro.mkv" },
+      { "episode": 3, "title": "El secreto mejor guardado", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2026%20el%20secreto%20mejor%20guardado.mkv" },
+      { "episode": 4, "title": "La premonición", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2027%20la%20premonici%C3%B3n.mkv" },
+      { "episode": 5, "title": "El exorcismo", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2028%20el%20exorcismo.mkv" },
+      { "episode": 6, "title": "Escrito en las estrellas", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2029%20escrito%20en%20las%20estrellas.mkv" },
+      { "episode": 7, "title": "Un gran soldado", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2030%20un%20gran%20soldado.mkv" },
+      { "episode": 8, "title": "La llave", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2031%20la%20llave.mkv" },
+      { "episode": 9, "title": "El unicornio", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2032%20el%20unicornio.mkv" },
+      { "episode": 10, "title": "Un punto en el mar", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2033%20un%20punto%20en%20el%20mar.mkv" },
+      { "episode": 11, "title": "La noche de las dos lunas", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2034%20la%20noche%20de%20las%202%20lunas.mkv" }
+    ]
+  },
+  {
+    "title": "El Internado: Laguna Negra",
+    "genre": ["Misterio", "Drama", "Thriller"],
+    "coverImage": "https://www.crew-united.com/Media/Images/1558/1558136/1558136.entity.jpg",
+    "description": "Llegada de Marcos y Paula, y el inicio de la búsqueda del hermano desaparecido de Marcos.",
+    "episodes": [
+      { "episode": 1, "title": "Los monstruos no hacen cosquillas", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%201%20los%20monstruos%20no%20hacen%20cosquillas.mkv" },
+      { "episode": 2, "title": "Todo el mundo tiene un secreto", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%202%20todo%20el%20mundo%20tiene%20un%20secreto.mkv" },
+      { "episode": 3, "title": "Ojos que no ven", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/El%20Internado%203%20ojos%20que%20no%20ven.mkv" },
+      { "episode": 4, "title": "Un mensaje en una botella", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/El%20Internado%204%20un%20mensaje%20en%20una%20botella.mkv" },
+      { "episode": 5, "title": "Un cadáver en la laguna", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%205%20un%20cadaver%20en%20la%20laguna.mkv" },
+      { "episode": 6, "title": "La noche de Santa Isabel", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%206%20la%20noche%20de%20santa%20isabel.mkv" }
+    ]
+  },
+  {
+    "title": "El Internado: Laguna Negra Temporada 2",
+    "genre": ["Misterio", "Drama", "Thriller"],
+    "coverImage": "https://www.crew-united.com/Media/Images/1558/1558136/1558136.entity.jpg",
+    "description": "Aparecen nuevos misterios y la búsqueda se intensifica con más estudiantes involucrados.",
+    "episodes": [
+      { "episode": 1, "title": "¿Con qué sueñan los peces?", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%207%20con%20que%20sue%C3%B1an%20los%20peces.mkv" },
+      { "episode": 2, "title": "Persiguiendo luciérnagas", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%208%20persiguiendo%20luciernagas.mkv" },
+      { "episode": 3, "title": "El anillo", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/El%20Internado%209%20el%20anillo.mkv" },
+      { "episode": 4, "title": "La caja de música", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2010%20la%20caja%20de%20musica.mkv" },
+      { "episode": 5, "title": "En orden alfabético", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20Internado%2011%20en%20orden%20alfab%C3%A9tico.mkv" },
+      { "episode": 6, "title": "Ver para creer", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20Internado%2012%20ver%20para%20creer.mkv" },
+      { "episode": 7, "title": "Mi amigo el monstruo", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2013%20mi%20amigo%20el%20monstruo.mkv" },
+      { "episode": 8, "title": "El Polo Norte", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2014%20el%20polo%20norte.mkv" }
+    ]
+  },
+  {
+    "title": "El Internado: Laguna Negra Temporada 3",
+    "genre": ["Misterio", "Drama", "Thriller"],
+    "coverImage": "https://www.crew-united.com/Media/Images/1558/1558136/1558136.entity.jpg",
+    "description": "Se revelan más detalles sobre Ottox y la conspiración en el internado.",
+    "episodes": [
+      { "episode": 1, "title": "El Búho", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2015%20el%20b%C3%BAho.mkv" },
+      { "episode": 2, "title": "Ocho milímetros", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2016%20ocho%20milimetros.mkv" },
+      { "episode": 3, "title": "El soldadito de plomo", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2017%20el%20soldadito%20de%20plomo.mkv" },
+      { "episode": 4, "title": "En el fondo del mar", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2018%20en%20el%20fondo%20del%20mar.mkv" },
+      { "episode": 5, "title": "La vida es sueño", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2019%20la%20vida%20es%20sue%C3%B1o.mkv" },
+      { "episode": 6, "title": "La peor cárcel del mundo", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2020%20la%20peor%20carcel%20del%20mundo.mkv" },
+      { "episode": 7, "title": "El fantasma de la profesora decapitada", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2021%20el%20fantasma%20de%20la%20profesora%20decapitada.mkv" },
+      { "episode": 8, "title": "Los cinco vengadores", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2022%20los%20cinco%20vengadores.mkv" },
+      { "episode": 9, "title": "La noche del fuego", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2023%20la%20noche%20del%20fuego.mkv" }
+    ]
+  },
   {
     "title": "Spy x Family Temporada 2",
     "genre": [
