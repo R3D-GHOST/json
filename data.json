@@ -1,6 +1,79 @@
 [
   
   {
+    "title": "Spy x Family Temporada 2",
+    "genre": [
+      "Comedia",
+      "Acción",
+      "Espionaje",
+      "Slice of Life"
+    ],
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd7TFVDmejjcOWTUkJafFoFTlW32m5QLj9WQ&s",
+    "description": "La segunda temporada sigue a Loid, Yor y Anya Forger en nuevas misiones y situaciones familiares. Destaca el arco del 'Crucero de Lujo' donde Yor, la Princesa Espina, debe proteger a un objetivo VIP, mientras la familia intenta disfrutar de unas vacaciones.",
+    "episodes": [
+      {
+        "episode": 1,
+        "title": "Sigamos a Mamá y Papá",
+        "video_url": "https://archive.org/download/spy-x-family-part-ll-07/Spy%20x%20Family%20Part%20ll%20-%2001.mp4"
+      },
+      {
+        "episode": 2,
+        "title": "La estrategia de Bond para seguir con vida / La excursión de Damian",
+        "video_url": "https://archive.org/download/spy-x-family-part-ll-07/Spy%20x%20Family%20Part%20ll%20-%2002.mp4"
+      },
+      {
+        "episode": 3,
+        "title": "Misión y familia / El elegante Bondman / El corazón de un niño / Despertar",
+        "video_url": "https://archive.org/download/spy-x-family-part-ll-07/Spy%20x%20Family%20Part%20ll%20-%2003.mp4"
+      },
+      {
+        "episode": 4,
+        "title": "El pastel de la sabiduría / El gran plan romántico del Informante II",
+        "video_url": "https://archive.org/download/spy-x-family-part-ll-07/Spy%20x%20Family%20Part%20ll%20-%2004.mp4"
+      },
+      {
+        "episode": 5,
+        "title": "Plan para cruzar la frontera",
+        "video_url": "https://archive.org/download/spy-x-family-part-ll-07/Spy%20x%20Family%20Part%20ll%20-%2005.mp4"
+      },
+      {
+        "episode": 6,
+        "title": "El temible crucero de lujo",
+        "video_url": "https://archive.org/download/spy-x-family-part-ll-07/Spy%20x%20Family%20Part%20ll%20-%2006.mp4"
+      },
+      {
+        "episode": 7,
+        "title": "¿Para quién es esta misión?",
+        "video_url": "https://archive.org/download/spy-x-family-part-ll-07/Spy%20x%20Family%20Part%20ll%20-%2007.mp4"
+      },
+      {
+        "episode": 8,
+        "title": "La sinfonía a bordo del barco / El té de hierbas de Sis",
+        "video_url": "https://archive.org/download/spy-x-family-part-ll-07/Spy%20x%20Family%20Part%20ll%20-%2008.mp4"
+      },
+      {
+        "episode": 9,
+        "title": "La mano que se conecta con el futuro",
+        "video_url": "https://archive.org/download/spy-x-family-part-ll-07/Spy%20x%20Family%20Part%20ll%20-%2009.mp4"
+      },
+      {
+        "episode": 10,
+        "title": "Disfrutar del resort al máximo / Presumiendo de vacaciones",
+        "video_url": "https://archive.org/download/spy-x-family-part-ll-07/Spy%20x%20Family%20Part%20ll%20-%2010.mp4"
+      },
+      {
+        "episode": 11,
+        "title": "Berlint enamorado / La vida cotidiana de Nightfall",
+        "video_url": "https://archive.org/download/spy-x-family-part-ll-07/Spy%20x%20Family%20Part%20ll%20-%2011.mp4"
+      },
+      {
+        "episode": 12,
+        "title": "Parte de la familia",
+        "video_url": "https://archive.org/download/spy-x-family-part-ll-07/Spy%20x%20Family%20Part%20ll%20-%2012.mp4"
+      }
+    ]
+  },
+  {
     "title": "Gormiti The Supreme Eclipse Era",
     "genre": [
       "Animación",
