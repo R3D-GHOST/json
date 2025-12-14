@@ -1,5 +1,16 @@
 [
   {
+    "title": "La Monja 2 (The Nun II)",
+    "description": "Película de terror sobrenatural que continúa la historia de la Hermana Irene enfrentándose a la fuerza demoníaca Valak.",
+    "year": 2023,
+    "coverImage": "https://es.web.img2.acsta.net/pictures/23/07/18/09/37/2734596.jpg",
+    "genre": [
+      "Terror",
+      "Misterio"
+    ],
+    "video_url": "https://archive.org/download/la-monja-2/La%20monja%202.ia.mp4"
+  },
+  {
     "title": "Spy x Family Temporada 2",
     "genre": [
       "Comedia",
