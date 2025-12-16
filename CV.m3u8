@@ -1,9 +1,7 @@
 
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRTD75K4l2MupM8fW8ykEfxNCtSsMWe5n1ujTqFGb05g&s=10" group-title="Deportes", DAZN La Liga
-#http://1play.cool:25461/streaming/clients_live.php?username=2132580232&password=27be478b47&stream=147097&extension=ts
-
-
+http://23.153.216.64:25461/streaming/clients_live.php?username=2132580232&password=27be478b47&stream=147097&extension=m3u8&token=TEcLVkZeFgkQAgBRVVgEWwxRBlBUAVFTBwZWAlwHVAEDBAIGBAQECwAQSRYVFUNcVF5tCAAXDgQHAANdU0pBRkQAEWhcUhYJEANQBFJRARsZEUYICVAWDwMbERQNAkEJFVRTBQMHDQMQHkdRHhVUS1tSXj4AUEJcUFIRXgoTD18bRwxZalJRXlNcARZcQwEbGRFbEhQXDltGW19IRgQKR0UEF1IXDBYBAAJTFkpDUlZAXUYTHRcOF3ZkEUhGAxtHUgsQXlpYFgkQX1ZBXkMdG1xAbRMBRkBHVlZeARZEWREHR08VWFdMbFFdC1oDAkVQWl1BQ14XABcfFV4LCg8XXEU6E15RFA4RBwJXBEQc
 
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjlYe25dv_PGDWk_yjy5azN3PcaSthztq20wFh1N1ksw&s=10", DAZN 2
