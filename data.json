@@ -1,5 +1,39 @@
 [
   {
+    "title": "La Monja (The Nun)",
+    "description": "Película de terror del universo de El Conjuro, centrada en el demonio Valak.",
+    "year": 2018,
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyvWcDTWvJ-6aR0-3muSyLtOPo_l-Qxi-VP8WEhk5CAQ&s=10",
+    "genre": [
+      "Terror",
+      "Misterio"
+    ],
+    "video_url": "https://archive.org/download/pett_20251216/monja.mp4"
+  },
+  {
+    "title": "Boss Level",
+    "description": "Película de acción y ciencia ficción sobre un ex-agente de las fuerzas especiales atrapado en un bucle temporal, reviviendo el mismo día de su muerte.",
+    "year": 2021,
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr2dPySgZqD-epXidNClaBuvSh46OR-50OZekoLPNeCA&s=10",
+    "genre": [
+      "Acción",
+      "Ciencia Ficción"
+    ],
+    "video_url": "https://archive.org/download/pett_20251216/mueotr.ia.mp4"
+  },
+  {
+    "title": "Pretty Woman",
+    "description": "Clásica comedia romántica de 1990 protagonizada por Julia Roberts y Richard Gere.",
+    "year": 1990,
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoCVXvk5DrTg1f3Oj4gyUconlqijEaHynrbuXuVVF8-A&s=10",
+    "genre": [
+      "Comedia",
+      "Romance"
+    ],
+    "video_url": "https://archive.org/download/pett_20251216/pett.mp4"
+  },
+  
+  {
     "title": "La Monja 2 (The Nun II)",
     "description": "Película de terror sobrenatural que continúa la historia de la Hermana Irene enfrentándose a la fuerza demoníaca Valak.",
     "year": 2023,
