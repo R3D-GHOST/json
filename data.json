@@ -1,5 +1,40 @@
 [
   {
+    "title": "Lois y Clark: Las nuevas aventuras de Superman",
+    "genre": [
+      "Acción",
+      "Aventura",
+      "Drama",
+      "Romance",
+      "Ciencia Ficción"
+    ],
+    "coverImage": "https://m.media-amazon.com/images/M/MV5BMzhmYWEwMTUtZjExNS00MjgzLTllN2UtOGExNDM4NWIzMjVjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "description": "Clark Kent llega a Metrópolis y consigue un trabajo en el Daily Planet, donde conoce a Lois Lane. Mientras intenta equilibrar su vida como periodista y su identidad secreta como Superman, debe enfrentarse a la genialidad criminal de Lex Luthor.",
+    "episodes": [
+      { "episode": 1, "title": "Piloto", "video_url": "https://archive.org/download/lois-y-clark-temporada-1-dual-audio/S01E01.mp4" },
+      { "episode": 2, "title": "Extraño visitante", "video_url": "https://archive.org/download/lois-y-clark-temporada-1-dual-audio/S01E02.mp4" },
+      { "episode": 3, "title": "Batalla sin fin", "video_url": "https://archive.org/download/lois-y-clark-temporada-1-dual-audio/S01E03.mp4" },
+      { "episode": 4, "title": "Te estoy viendo", "video_url": "https://archive.org/download/lois-y-clark-temporada-1-dual-audio/S01E04.mp4" },
+      { "episode": 5, "title": "Réquiem por un superhéroe", "video_url": "https://archive.org/download/lois-y-clark-temporada-1-dual-audio/S01E05.mp4" },
+      { "episode": 6, "title": "Estoy loco por ti", "video_url": "https://archive.org/download/lois-y-clark-temporada-1-dual-audio/S01E06.mp4" },
+      { "episode": 7, "title": "Niños inteligentes", "video_url": "https://archive.org/download/lois-y-clark-temporada-1-dual-audio/S01E07.mp4" },
+      { "episode": 8, "title": "El verde resplandor del hogar", "video_url": "https://archive.org/download/lois-y-clark-temporada-1-dual-audio/S01E08.mp4" },
+      { "episode": 9, "title": "El hombre de las barras de acero", "video_url": "https://archive.org/download/lois-y-clark-temporada-1-dual-audio/S01E09.mp4" },
+      { "episode": 10, "title": "Feromona, mi amor", "video_url": "https://archive.org/download/lois-y-clark-temporada-1-dual-audio/S01E10.mp4" },
+      { "episode": 11, "title": "Luna de miel en Metrópolis", "video_url": "https://archive.org/download/lois-y-clark-temporada-1-dual-audio/S01E11.mp4" },
+      { "episode": 12, "title": "Muy perturbado", "video_url": "https://archive.org/download/lois-y-clark-temporada-1-dual-audio/S01E12.mp4" },
+      { "episode": 13, "title": "Testigo", "video_url": "https://archive.org/download/lois-y-clark-temporada-1-dual-audio/S01E13.mp4" },
+      { "episode": 14, "title": "Ilusiones de grandeza", "video_url": "https://archive.org/download/lois-y-clark-temporada-1-dual-audio/S01E14.mp4" },
+      { "episode": 15, "title": "Los Idus de Metrópolis", "video_url": "https://archive.org/download/lois-y-clark-temporada-1-dual-audio/S01E15.mp4" },
+      { "episode": 16, "title": "El expósito", "video_url": "https://archive.org/download/lois-y-clark-temporada-1-dual-audio/S01E16.mp4" },
+      { "episode": 17, "title": "El rival", "video_url": "https://archive.org/download/lois-y-clark-temporada-1-dual-audio/S01E17.mp4" },
+      { "episode": 18, "title": "Vatman", "video_url": "https://archive.org/download/lois-y-clark-temporada-1-dual-audio/S01E18.mp4" },
+      { "episode": 19, "title": "Duro de volar", "video_url": "https://archive.org/download/lois-y-clark-temporada-1-dual-audio/S01E19.mp4" },
+      { "episode": 20, "title": "Bárbaros en el Planet", "video_url": "https://archive.org/download/lois-y-clark-temporada-1-dual-audio/S01E20.mp4" },
+      { "episode": 21, "title": "La casa de Luthor", "video_url": "https://archive.org/download/lois-y-clark-temporada-1-dual-audio/S01E21.mp4" }
+    ]
+  },
+  {
     "title": "Overlord: El Reino Sagrado (The Sacred Kingdom)",
     "description": "Película de anime que adapta el arco del Reino Sagrado. Tras el ataque del demonio Jaldabaoth, el Reino Sagrado debe buscar la ayuda del Reino Hechicero y de Ainz Ooal Gown para sobrevivir.",
     "coverImage": "https://a.storyblok.com/f/178900/1920x2560/067bb7c290/overloardsacredkingdom_baseasset_kv_3x4_1920x2560_copyright_en-us.png/m/filters:quality(95)format(webp)",
