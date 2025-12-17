@@ -284,6 +284,39 @@
             .episode-item { width: 90vw; } 
             .episodes-list { padding-right: 3vw; } 
         }
+
+/* ===== BADGES EN PORTADAS ===== */
+.card-badge{
+    position:absolute;
+    top:8px;
+    left:8px;
+    background:rgba(0,0,0,.85);
+    padding:4px 8px;
+    border-radius:4px;
+    font-size:.7rem;
+    font-weight:700;
+    display:flex;
+    align-items:center;
+    gap:5px;
+    z-index:5;
+}
+.card-badge.movie{background:#e50914}
+.card-badge.series{background:#00a8e1}
+.card-badge.channel{background:#4caf50}
+.card-badge.estreno{background:#ff9800; top:36px}
+
+.caps-badge{
+    position:absolute;
+    bottom:8px;
+    right:8px;
+    background:rgba(0,0,0,.85);
+    padding:4px 8px;
+    border-radius:4px;
+    font-size:.7rem;
+    font-weight:700;
+    z-index:5;
+}
+
     </style>
 </head>
 <body>
@@ -588,17 +621,58 @@
             return container; 
         } 
 
-        function createCardHTML(item) { 
-            const cover = item.coverImage || item.logo || 'https://via.placeholder.com/140x200?text=Portada'; 
-            const spanText = item.isChannel ? 'En vivo' : (item.genre ? item.genre[0] : ''); 
-            const card = document.createElement('div'); 
-            card.className = 'card'; 
-            card.innerHTML = `<img src="${cover}" alt="${item.title}" onerror="this.onerror=null;this.src='https://via.placeholder.com/140x200?text=Portada';"><div class="info"><h3>${item.title}</h3><span>${spanText}</span></div>`; 
-            card.onclick = () => openDetail(item); 
-            // Tiempo de espera reducido para una carga inicial más rápida de las tarjetas
-            setTimeout(() => card.classList.add('show'), Math.random() * 50); 
-            return card; 
-        } 
+    function createCardHTML(item) { 
+    const cover = item.coverImage || item.logo || 'https://via.placeholder.com/140x200?text=Portada'; 
+    const card = document.createElement('div'); 
+    card.className = 'card'; 
+
+    /* ---------- BADGES ---------- */
+    let badgeHTML = '';
+    if (item.isChannel) {
+        badgeHTML = `
+            <div class="card-badge channel">
+                <i class="fas fa-tv"></i> ${item.genre?.[0] || 'Canal'}
+            </div>`;
+    } else if (item.episodes && item.episodes.length > 0) {
+        badgeHTML = `
+            <div class="card-badge series">
+                <i class="fas fa-clapperboard"></i> Serie
+            </div>`;
+    } else {
+        badgeHTML = `
+            <div class="card-badge movie">
+                <i class="fas fa-film"></i> Película
+            </div>`;
+    }
+
+    if (item.estreno === true) {
+        badgeHTML += `
+            <div class="card-badge estreno">
+                <i class="fas fa-fire"></i> Estreno
+            </div>`;
+    }
+
+    /* ---------- CAPS ---------- */
+    const capsHTML = item.episodes && item.episodes.length
+        ? `<div class="caps-badge">${item.episodes.length} CAPS</div>`
+        : '';
+
+    card.innerHTML = `
+        ${badgeHTML}
+        ${capsHTML}
+        <img src="${cover}" alt="${item.title}" 
+             onerror="this.onerror=null;this.src='https://via.placeholder.com/140x200?text=Portada';">
+        <div class="info">
+            <h3>${item.title}</h3>
+            <span>${item.isChannel ? 'En vivo' : (item.genre ? item.genre[0] : '')}</span>
+        </div>
+    `; 
+
+    card.onclick = () => openDetail(item); 
+    setTimeout(() => card.classList.add('show'), Math.random() * 50); 
+    return card; 
+}
+
 
         function renderHomePage() { 
             dynamicGrid.innerHTML = '';
@@ -980,4 +1054,3 @@
     </script>
 </body>
 </html>
-
