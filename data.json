@@ -51,7 +51,8 @@
       "Comedia",
       "Acción",
       "Espionaje",
-      "Slice of Life"
+      "Slice of Life",
+      "Estreno"
     ],
     "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd7TFVDmejjcOWTUkJafFoFTlW32m5QLj9WQ&s",
     "description": "La segunda temporada sigue a Loid, Yor y Anya Forger en nuevas misiones y situaciones familiares. Destaca el arco del 'Crucero de Lujo' donde Yor, la Princesa Espina, debe proteger a un objetivo VIP, mientras la familia intenta disfrutar de unas vacaciones.",
@@ -484,7 +485,8 @@
       "genre": [
       "Fantasía",
       "Acción",
-      "Drama"
+      "Drama",
+      "Estreno"
     ],
     "coverImage": "https://m.media-amazon.com/images/M/MV5BOTEzZThhZDYtZGFhMy00Y2Q1LWE2ZmMtNzg2MjYxY2I2NzIxXkEyXkFqcGc@._V1_.jpg",
     "description": "En su cumpleaños número 18, Clary Fray descubre que no es quien cree ser, sino que proviene de una larga línea de Shadowhunters: híbridos de ángeles y humanos que cazan demonios.",
@@ -7018,7 +7020,8 @@
       "Manga",
       "Drama",
       "Ciencia Ficción",
-      "Psicológico"
+      "Psicológico",
+      "Estreno"
     ],
     "episodes": [
       {
@@ -7794,7 +7797,7 @@
   {
     "title": "Deadpool & Wolverine (2024)",
     "description": "Una descripción de Deadpool & Wolverine.",
-    "genre": ["Acción", "Comedia", "Superhéroes"],
+    "genre": ["Acción", "Comedia", "Superhéroes","Estreno"],
     "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsbVSt2DR6QOUBlIHBdfsTgYF6q8UaVlEQPBm4y8Rj9w&s=10",
     "video_url": "https://archive.org/download/peliculas-de-marvel-comics/UMC%202024%20Deadpool%20%26%20Wolverine.mp4"
   },
@@ -11255,7 +11258,8 @@
   "genre": [
     "Reality",
     "Competencia",
-    "Suspenso"
+    "Suspenso",
+    "Estreno"
   ],
   "episodes": [
     {
@@ -11317,7 +11321,8 @@
   "genre": [
     "Suspenso",
     "Drama",
-    "Acción"
+    "Acción",
+    "Estreno"
   ],
   "episodes": [
     {
