@@ -1,13 +1,86 @@
 [
   {
+    "title": "High School DxD",
+    "genre": [
+      "Acción",
+      "Comedia",
+      "Fantasía",
+      "Ecchi",
+      "Harem"
+    ],
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ873VfXANfp0ZNnG5iAvai8jVS2HstIAd8GR3ItL374kx0vRmFmTYWpAY&s=10",
+    "description": "Issei Hyoudou es un estudiante de secundaria pervertido que es asesinado por su primera cita en su primera salida. Sin embargo, es revivido como un demonio por la hermosa Rias Gremory para servirla como su peón en el Club de Investigación de lo Oculto.",
+    "episodes": [
+      {
+        "episode": 1,
+        "title": "¡Tuve una novia!",
+        "video_url": "https://archive.org/download/dxd-01-locura-anime/DXD01%28Locura%20Anime%29.mp4"
+      },
+      {
+        "episode": 2,
+        "title": "¡He dejado de ser humano!",
+        "video_url": "https://archive.org/download/dxd-01-locura-anime/DXD02%28Locura%20Anime%29.mp4"
+      },
+      {
+        "episode": 3,
+        "title": "¡Hice un nuevo amigo!",
+        "video_url": "https://archive.org/download/dxd-01-locura-anime/DXD03%28Locura%20Anime%29.mp4"
+      },
+      {
+        "episode": 4,
+        "title": "¡Salvaré a mi amigo!",
+        "video_url": "https://archive.org/download/dxd-01-locura-anime/DXD04%28Locura%20Anime%29.mp4"
+      },
+      {
+        "episode": 5,
+        "title": "¡Derrotaré a mi ex-novia!",
+        "video_url": "https://archive.org/download/dxd-01-locura-anime/DXD05%28Locura%20Anime%29.mp4"
+      },
+      {
+        "episode": 6,
+        "title": "¡Trabajo como un demonio!",
+        "video_url": "https://archive.org/download/dxd-01-locura-anime/DXD06%28Locura%20Anime%29.mp4"
+      },
+      {
+        "episode": 7,
+        "title": "¡Conseguiré un familiar!",
+        "video_url": "https://archive.org/download/dxd-01-locura-anime/DXD07%28Locura%20Anime%29.mp4"
+      },
+      {
+        "episode": 8,
+        "title": "¡He comenzado una pelea!",
+        "video_url": "https://archive.org/download/dxd-01-locura-anime/DXD08%28Locura%20Anime%29.mp4"
+      },
+      {
+        "episode": 9,
+        "title": "¡He comenzado mi entrenamiento!",
+        "video_url": "https://archive.org/download/dxd-01-locura-anime/DXD09%28Locura%20Anime%29.mp4"
+      },
+      {
+        "episode": 10,
+        "title": "¡La batalla decisiva comienza!",
+        "video_url": "https://archive.org/download/dxd-01-locura-anime/DXD10%28Locura%20Anime%29.mp4"
+      },
+      {
+        "episode": 11,
+        "title": "¡El Rating Game comienza!",
+        "video_url": "https://archive.org/download/dxd-01-locura-anime/DXD11%28Locura%20Anime%29.mp4"
+      },
+      {
+        "episode": 12,
+        "title": "¡He venido a cumplir mi promesa!",
+        "video_url": "https://archive.org/download/dxd-01-locura-anime/DXD12%28Locura%20Anime%29.mp4"
+      }
+    ]
+  },
+  {
     "title": "La Monja (The Nun)",
     "description": "Película de terror del universo de El Conjuro, centrada en el demonio Valak.",
     "year": 2018,
     "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyvWcDTWvJ-6aR0-3muSyLtOPo_l-Qxi-VP8WEhk5CAQ&s=10",
     "genre": [
       "Terror",
-      "Misterio",
-      "Estreno"
+      "Misterio"
     ],
     "video_url": "https://archive.org/download/pett_20251216/monja.mp4"
   },
