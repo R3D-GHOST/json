@@ -1,4 +1,48 @@
- [
+[
+  {
+    "title": "30 Minutos o Menos (30 Minutes or Less)",
+    "description": "Un repartidor de pizzas es secuestrado por dos criminales de poca monta que le atan una bomba al pecho y lo obligan a robar un banco.",
+    "coverImage": "https://pics.filmaffinity.com/30_minutos_o_menos-950574758-large.jpg",
+    "genre": [
+      "Comedia",
+      "Acción",
+      "Crimen"
+    ],
+    "video_url": "https://archive.org/download/peliculas-2011-2020/30%20Minutos%20O%20Menos.ia.mp4"
+  },
+  {
+    "title": "8 Minutos Antes de Morir (Source Code)",
+    "description": "Un militar despierta en el cuerpo de un desconocido en un tren de cercanías y descubre que forma parte de un experimento para encontrar a un terrorista en los últimos 8 minutos de vida de esa persona.",
+    "coverImage": "https://m.media-amazon.com/images/M/MV5BYjA1NzQ5OTgtNGQ2YS00ZWQ0LTliZWUtMWEyYzY3OGY0YTMzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "genre": [
+      "Ciencia Ficción",
+      "Intriga",
+      "Acción"
+    ],
+    "video_url": "https://archive.org/download/peliculas-2011-2020/8%20Minutos%20Antes%20De%20Morir.ia.mp4"
+  },
+  {
+    "title": "Abraham Lincoln: Cazador de Vampiros",
+    "description": "La historia oculta que revela la vida secreta del presidente Lincoln y la guerra que libró contra las fuerzas de los no-muertos.",
+    "coverImage": "https://pics.filmaffinity.com/abraham_lincoln_vampire_hunter-729791279-large.jpg",
+    "genre": [
+      "Fantástico",
+      "Terror",
+      "Acción"
+    ],
+    "video_url": "https://archive.org/download/peliculas-2011-2020/Abraham%20Lincoln%20Cazador%20De%20Vampiros.ia.mp4"
+  },
+  {
+    "title": "Alita: Ángel de Combate (Alita: Battle Angel)",
+    "description": "Una cyborg desactivada es revivida, pero no puede recordar nada de su pasado y emprende una búsqueda para descubrir quién es.",
+    "coverImage": "https://i.blogs.es/96c1fc/alita-angel-de-combate_poster/650_1200.jpg",
+    "genre": [
+      "Ciencia Ficción",
+      "Acción",
+      "Aventura"
+    ],
+    "video_url": "https://archive.org/download/peliculas-2011-2020/Alita%20Battle%20Angel.ia.mp4"
+  },
   {
     "title": "Zootopia",
     "description": "En una ciudad de animales antropomórficos, una coneja policía novata y un zorro estafador cínico deben trabajar juntos para descubrir una conspiración.",
