@@ -241,153 +241,53 @@
   },
   
   
-  {
-    "title": "Batman: La Serie Animada",
-    "genre": ["Acción", "Crimen", "Superhéroes", "Noir"],
-    "coverImage": "https://imgs.search.brave.com/WeHDp-qkw2wpDiQg1am3_A-GQDK0-tE2a4-aizIESUs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1QllqZ3daV1V6/TXpVdFlURmtOaTAw/TXpNMExXRmtNV1V0/TURWaU1qTXhOR0l4/TkRVeFhrRXlYa0Zx/Y0djQC5qcGc",
-    "description": "El caballero de la noche lucha contra el crimen en Ciudad Gótica, enfrentándose a villanos icónicos en una serie con una estética única y una profundidad narrativa sin precedentes.",
-    "episodes": [
-      { "episode": 1, "title": "La Gata y La Garra Parte I", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%201/S01E01%20-%20La%20Gata%20y%20La%20Garra%20Parte%20I.mp4" },
-      { "episode": 2, "title": "Alas de Piel", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%201/S01E02%20-%20Alas%20de%20Piel.mp4" },
-      { "episode": 3, "title": "Corazón de Hielo", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%201/S01E03%20-%20Corazón%20de%20Hielo.mp4" },
-      { "episode": 4, "title": "Ilusión Fatal Parte I", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%201/S01E04%20-%20Ilusión%20Fatal%20Parte%20I.mp4" },
-      { "episode": 5, "title": "Ilusión Fatal Parte II", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%201/S01E05%20-%20Ilusión%20Fatal%20Parte%20II.mp4" },
-      { "episode": 6, "title": "Nunca es demasiado tarde", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%201/S01E06%20-%20Nunca%20es%20demasiado%20tarde.mp4" },
-      { "episode": 7, "title": "A favor del Guasón", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%201/S01E07%20-%20A%20favor%20del%20Guasón.mp4" },
-      { "episode": 8, "title": "La Gata y La Garra Parte II", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%201/S01E08%20-%20La%20Gata%20y%20La%20Garra%20Parte%20II.mp4" },
-      { "episode": 9, "title": "Hermoso veneno", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%201/S01E09%20-%20Hermoso%20veneno.mp4" },
-      { "episode": 10, "title": "Nada que temer", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%201/S01E10%20-%20Nada%20que%20temer.mp4" },
-      { "episode": 17, "title": "Doble Cara Parte I", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%201/S01E17%20-%20Doble%20Cara%20%281ª%20Parte%29.mp4" },
-      { "episode": 18, "title": "Doble Cara Parte II", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%201/S01E18%20-%20Doble%20Cara%20%282ª%20Parte%29.mp4" },
-      { "episode": 38, "title": "Navidades con El Guasón", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%201/S01E38%20-%20Navidades%20con%20El%20Guasón.mp4" },
-      { "episode": 60, "title": "El fuego del olimpo", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%201/S01E60%20-%20El%20fuego%20del%20olimpo.mp4" },
-      {
-        "episode": 1,
-        "title": "La Sombra del Murciélago (Parte 1)",
-        "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%202/S02E01%20-%20La%20Sombra%20del%20Murciélago%20(Parte%201).mp4"
-      },
-      {
-        "episode": 2,
-        "title": "La Sombra del Murciélago (Parte 2)",
-        "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%202/S02E02%20-%20La%20Sombra%20del%20Murciélago%20(Parte%202).mp4"
-      },
-      {
-        "episode": 3,
-        "title": "Barro Escurridizo",
-        "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%202/S02E03%20-%20Barro%20Escurridizo.mp4"
-      },
-      {
-        "episode": 4,
-        "title": "Los Hombres Preocupados",
-        "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%202/S02E04%20-%20Los%20Hombres%20Preocupados.mp4"
-      },
-      {
-        "episode": 5,
-        "title": "El Médico del Crimen",
-        "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%202/S02E05%20-%20El%20Médico%20del%20Crimen.mp4"
-      },
-      {
-        "episode": 6,
-        "title": "Hogar y Jardín",
-        "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%202/S02E06%20-%20Hogar%20y%20Jardín.mp4"
-      },
-      {
-        "episode": 7,
-        "title": "El Circo",
-        "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%202/S02E07%20-%20El%20Circo.mp4"
-      },
-      {
-        "episode": 8,
-        "title": "Avatar",
-        "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%202/S02E08%20-%20Avatar.mp4"
-      },
-      {
-        "episode": 9,
-        "title": "El Juicio",
-        "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%202/S02E09%20-%20El%20Juicio.mp4"
-      },
-      {
-        "episode": 10,
-        "title": "Harlequinadas",
-        "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%202/S02E10%20-%20Harlequinadas.mp4"
-      },
-      {
-        "episode": 1,
-        "title": "Bane",
-        "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%203/S03E01%20-%20Bane.mp4"
-      },
-      {
-        "episode": 2,
-        "title": "La Segunda Oportunidad",
-        "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%203/S03E02%20-%20La%20Segunda%20Oportunidad.mp4"
-      },
-      {
-        "episode": 3,
-        "title": "La Reforma del Acertijo",
-        "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%203/S03E03%20-%20La%20Reforma%20del%20Acertijo.mp4"
-      },
-      {
-        "episode": 4,
-        "title": "Muñequita",
-        "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%203/S03E04%20-%20Muñequita.mp4"
-      },
-      {
-        "episode": 5,
-        "title": "Tiempo para la Libertad",
-        "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%203/S03E05%20-%20Tiempo%20para%20la%20Libertad.mp4"
-      },
-      {
-        "episode": 6,
-        "title": "Día de fiesta de Harley",
-        "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%203/S03E06%20-%20Día%20de%20fiesta%20de%20Harley.mp4"
-      },
-      {
-        "episode": 7,
-        "title": "Haciéndolos reír",
-        "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%203/S03E07%20-%20Haciéndolos%20reír.mp4"
-      },
-      {
-        "episode": 8,
-        "title": "El regreso de Batichica",
-        "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%203/S03E08%20-%20El%20regreso%20de%20Batichica.mp4"
-      },
-      {
-        "episode": 9,
-        "title": "Encierro",
-        "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%203/S03E09%20-%20Encierro.mp4"
-      },
-      {
-        "episode": 10,
-        "title": "Doctor Frío",
-        "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%203/S03E10%20-%20Doctor%20Frío.mp4"
-      },
-      {
-        "episode": 1,
-        "title": "El Trío Terrible",
-        "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%204/S04E01%20-%20El%20Trío%20Terrible.mp4"
-      },
-      {
-        "episode": 2,
-        "title": "El Duelo",
-        "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%204/S04E02%20-%20El%20Duelo.mp4"
-      },
-      {
-        "episode": 3,
-        "title": "Al Ritmo de una Gata",
-        "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%204/S04E03%20-%20Al%20Ritmo%20de%20una%20Gata.mp4"
-      },
-      {
-        "episode": 4,
-        "title": "Una bala para Bullock",
-        "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%204/S04E04%20-%20Una%20bala%20para%20Bullock.mp4"
-      },
-      {
-        "episode": 5,
-        "title": "El león y el unicornio",
-        "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%204/S04E05%20-%20El%20león%20y%20el%20unicornio.mp4"
-      }
-    ]
-  },
+{
+  "title": "Batman: La Serie Animada",
+  "genre": ["Acción", "Crimen", "Superhéroes", "Noir"],
+  "coverImage": "https://imgs.search.brave.com/WeHDp-qkw2wpDiQg1am3_A-GQDK0-tE2a4-aizIESUs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1QllqZ3daV1V6/TXpVdFlURmtOaTAw/TXpNMExXRmtNV1V0/TURWaU1qTXhOR0l4/TkRVeFhrRXlYa0Zx/Y0djQC5qcGc",
+  "description": "El caballero de la noche lucha contra el crimen en Ciudad Gótica, enfrentándose a villanos icónicos en una serie con una estética única y una profundidad narrativa sin precedentes.",
+  "episodes": [
+    { "episode": 1, "title": "La Gata y La Garra Parte I", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%201/S01E01%20-%20La%20Gata%20y%20La%20Garra%20Parte%20I.mp4" },
+    { "episode": 2, "title": "Alas de Piel", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%201/S01E02%20-%20Alas%20de%20Piel.mp4" },
+    { "episode": 3, "title": "Corazón de Hielo", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%201/S01E03%20-%20Corazón%20de%20Hielo.mp4" },
+    { "episode": 4, "title": "Ilusión Fatal Parte I", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%201/S01E04%20-%20Ilusión%20Fatal%20Parte%20I.mp4" },
+    { "episode": 5, "title": "Ilusión Fatal Parte II", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%201/S01E05%20-%20Ilusión%20Fatal%20Parte%20II.mp4" },
+    { "episode": 6, "title": "Nunca es demasiado tarde", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%201/S01E06%20-%20Nunca%20es%20demasiado%20tarde.mp4" },
+    { "episode": 7, "title": "A favor del Guasón", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%201/S01E07%20-%20A%20favor%20del%20Guasón.mp4" },
+    { "episode": 8, "title": "La Gata y La Garra Parte II", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%201/S01E08%20-%20La%20Gata%20y%20La%20Garra%20Parte%20II.mp4" },
+    { "episode": 9, "title": "Hermoso veneno", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%201/S01E09%20-%20Hermoso%20veneno.mp4" },
+    { "episode": 10, "title": "Nada que temer", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%201/S01E10%20-%20Nada%20que%20temer.mp4" },
+    { "episode": 11, "title": "Doble Cara Parte I", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%201/S01E17%20-%20Doble%20Cara%20%281ª%20Parte%29.mp4" },
+    { "episode": 12, "title": "Doble Cara Parte II", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%201/S01E18%20-%20Doble%20Cara%20%282ª%20Parte%29.mp4" },
+    { "episode": 13, "title": "Navidades con El Guasón", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%201/S01E38%20-%20Navidades%20con%20El%20Guasón.mp4" },
+    { "episode": 14, "title": "El fuego del olimpo", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%201/S01E60%20-%20El%20fuego%20del%20olimpo.mp4" },
+    { "episode": 15, "title": "La Sombra del Murciélago (Parte 1)", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%202/S02E01%20-%20La%20Sombra%20del%20Murciélago%20(Parte%201).mp4" },
+    { "episode": 16, "title": "La Sombra del Murciélago (Parte 2)", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%202/S02E02%20-%20La%20Sombra%20del%20Murciélago%20(Parte%202).mp4" },
+    { "episode": 17, "title": "Barro Escurridizo", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%202/S02E03%20-%20Barro%20Escurridizo.mp4" },
+    { "episode": 18, "title": "Los Hombres Preocupados", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%202/S02E04%20-%20Los%20Hombres%20Preocupados.mp4" },
+    { "episode": 19, "title": "El Médico del Crimen", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%202/S02E05%20-%20El%20Médico%20del%20Crimen.mp4" },
+    { "episode": 20, "title": "Hogar y Jardín", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%202/S02E06%20-%20Hogar%20y%20Jardín.mp4" },
+    { "episode": 21, "title": "El Circo", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%202/S02E07%20-%20El%20Circo.mp4" },
+    { "episode": 22, "title": "Avatar", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%202/S02E08%20-%20Avatar.mp4" },
+    { "episode": 23, "title": "El Juicio", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%202/S02E09%20-%20El%20Juicio.mp4" },
+    { "episode": 24, "title": "Harlequinadas", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%202/S02E10%20-%20Harlequinadas.mp4" },
+    { "episode": 25, "title": "Bane", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%203/S03E01%20-%20Bane.mp4" },
+    { "episode": 26, "title": "La Segunda Oportunidad", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%203/S03E02%20-%20La%20Segunda%20Oportunidad.mp4" },
+    { "episode": 27, "title": "La Reforma del Acertijo", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%203/S03E03%20-%20La%20Reforma%20del%20Acertijo.mp4" },
+    { "episode": 28, "title": "Muñequita", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%203/S03E04%20-%20Muñequita.mp4" },
+    { "episode": 29, "title": "Tiempo para la Libertad", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%203/S03E05%20-%20Tiempo%20para%20la%20Libertad.mp4" },
+    { "episode": 30, "title": "Día de fiesta de Harley", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%203/S03E06%20-%20Día%20de%20fiesta%20de%20Harley.mp4" },
+    { "episode": 31, "title": "Haciéndolos reír", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%203/S03E07%20-%20Haciéndolos%20reír.mp4" },
+    { "episode": 32, "title": "El regreso de Batichica", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%203/S03E08%20-%20El%20regreso%20de%20Batichica.mp4" },
+    { "episode": 33, "title": "Encierro", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%203/S03E09%20-%20Encierro.mp4" },
+    { "episode": 34, "title": "Doctor Frío", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%203/S03E10%20-%20Doctor%20Frío.mp4" },
+    { "episode": 35, "title": "El Trío Terrible", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%204/S04E01%20-%20El%20Trío%20Terrible.mp4" },
+    { "episode": 36, "title": "El Duelo", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%204/S04E02%20-%20El%20Duelo.mp4" },
+    { "episode": 37, "title": "Al Ritmo de una Gata", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%204/S04E03%20-%20Al%20Ritmo%20de%20una%20Gata.mp4" },
+    { "episode": 38, "title": "Una bala para Bullock", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%204/S04E04%20-%20Una%20bala%20para%20Bullock.mp4" },
+    { "episode": 39, "title": "El león y el unicornio", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%204/S04E05%20-%20El%20león%20y%20el%20unicornio.mp4" }
+  ]
+},
     
   {
     "title": "José: Los sueños del faraón (Joseph)",
