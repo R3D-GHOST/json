@@ -1,5 +1,47 @@
 [
-
+  {
+    "title": "Johnny Bravo",
+    "genre": ["Comedia", "Dibujos Animados"],
+    "coverImage": "https://imgs.search.brave.com/bEqXHqWvl-gB0BDMd9czTiBAkHEvZSjVPkaHPCrokU4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuanVzdHdhdGNo/LmNvbS9wb3N0ZXIv/MzA1MDQ1NTA4L3Mz/MzIvdGVtcG9yYWRh/LTM",
+    "description": "Johnny Bravo es un joven musculoso y rubio con un peinado pompadour y una voz similar a la de Elvis Presley. Su principal objetivo en la vida es lograr que las mujeres se enamoren de él, aunque siempre termina fallando estrepitosamente.",
+    "episodes": [
+      {
+        "episode_block": "1-3",
+        "titles": ["Johnny Bravo", "El Niño de la Selva", "Johnny Bravo y las Mujeres Amazonas"],
+        "video_url": "https://archive.org/download/juanito-bravo-1997/Temporada%201/Johnny.Bravo.S01E01-S01E02-S01E03.Johnny.Bravo.-.El.Nino.De.La.Selva.-.Johnny.Bravo.Y.Las.Mujeres.Amazonas.mp4"
+      },
+      {
+        "episode_block": "4-6",
+        "titles": ["Súper Tímido", "A Salvo en la Selva", "El Tiempo de Oscars"],
+        "video_url": "https://archive.org/download/juanito-bravo-1997/Temporada%201/Johnny.Bravo.S01E04-S01E05-S01E06.Super.Timido.-.A.Salvo.En.La.Selva.-.El.Tiempo.De.Oscars.mp4"
+      },
+      {
+        "episode_block": "7-8",
+        "titles": ["Macho Sensible", "Bravo Dooby Doo"],
+        "video_url": "https://archive.org/download/juanito-bravo-1997/Temporada%201/Johnny.Bravo.S01E07-S01E08.Macho.Sensible.-.Bravo.Dooby.Doo.mp4"
+      },
+      {
+        "episode_block": "9-11",
+        "titles": ["Cita con un Antílope", "No has visto un toro por aquí", "Crisis de Galletas"],
+        "video_url": "https://archive.org/download/juanito-bravo-1997/Temporada%201/Johnny.Bravo.S01E09-S01E10-S01E11.Cita.Con.Un.Antilope.-.No.Has.Visto.Un.Toro.Por.Aqui.-.Crisis.De.Galletas.mp4"
+      },
+      {
+        "episode_block": "12-14",
+        "titles": ["Sabía ser gracioso", "Mi bello tonto", "Nochebuena"],
+        "video_url": "https://archive.org/download/juanito-bravo-1997/Temporada%201/Johnny.Bravo.S01E12-S01E13-S01E14.Sabia.Ser.Gracioso.-.Mi.Bello.Tonto.-.Nochebuena.mp4"
+      },
+      {
+        "episode_block": "15-17",
+        "titles": ["Amigo Harney", "Johnny Legendario", "Johnny conoce a Farrah Fawcett"],
+        "video_url": "https://archive.org/download/juanito-bravo-1997/Temporada%201/Johnny.Bravo.S01E15-S01E16-S01E17.Amigo.Harney.-.Johnny.Legendario.-.Johnny.Conoce.A.Farrah.Fawcett.mp4"
+      },
+      {
+        "episode_block": "36-38",
+        "titles": ["Johnny conoce a Adam West", "Bajo la gran carpa", "Johnny conoce a Donny Osmond"],
+        "video_url": "https://archive.org/download/juanito-bravo-1997/Temporada%201/Johnny.Bravo.S01E36-S01E37-S01E38.Johnny.Conoce.A.Adam.West.-.Bajo.La.Gran.Carpa.-.Johnny.Conoce.A.Donny.Osmond.mp4"
+      }
+    ]
+  },
   
   
   {
