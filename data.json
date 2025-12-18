@@ -1,5 +1,259 @@
 [
   {
+    "title": "El Internado: Laguna Negra",
+    "genre": ["Misterio", "Drama", "Suspense", "Estreno"],
+    "coverImage": "https://imgs.search.brave.com/Z90XKp09GuwUvQvuT1YI4PmvrZKrKMw18i-U6RN7ImI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NTFCOHNUbmo1cEwu/anBn",
+    "description": "Tras la desaparición de sus padres, Marcos y Paula ingresan en el internado Laguna Negra bajo la tutela de Héctor de la Vega. Pronto descubrirán que el colegio oculta secretos oscuros relacionados con experimentos médicos y desapariciones del pasado.",
+    "episodes": [
+      { "episode": 1, "title": "Los monstruos no hacen cosquillas", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%201%20los%20monstruos%20no%20hacen%20cosquillas.mp4" },
+      { "episode": 2, "title": "Todo el mundo tiene un secreto", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%202%20todo%20el%20mundo%20tiene%20un%20secreto.mp4" },
+      { "episode": 3, "title": "Ojos que no ven", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/El%20Internado%203%20ojos%20que%20no%20ven.mp4" },
+      { "episode": 4, "title": "Un mensaje en una botella", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/El%20Internado%204%20un%20mensaje%20en%20una%20botella.mkv" },
+      { "episode": 5, "title": "Un cadaver en la laguna", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%205%20un%20cadaver%20en%20la%20laguna.mkv" },
+      { "episode": 6, "title": "La noche de Santa Isabel", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%206%20la%20noche%20de%20santa%20isabel.mkv" },
+      { "episode": 7, "title": "Con que sueñan los peces", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%207%20con%20que%20sue%C3%B1an%20los%20peces.mkv" },
+      { "episode": 8, "title": "Persiguiendo luciérnagas", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%208%20persiguiendo%20luciernagas.mkv" },
+      { "episode": 9, "title": "El anillo", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/El%20Internado%209%20el%20anillo.mkv" },
+      { "episode": 10, "title": "La caja de música", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2010%20la%20caja%20de%20musica.mp4" },
+      { "episode": 11, "title": "En orden alfabético", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20Internado%2011%20en%20orden%20alfab%C3%A9tico.mp4" },
+      { "episode": 12, "title": "Ver para creer", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20Internado%2012%20ver%20para%20creer.mp4" },
+      { "episode": 13, "title": "Mi amigo el monstruo", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2013%20mi%20amigo%20el%20monstruo.mp4" },
+      { "episode": 14, "title": "El polo norte", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2014%20el%20polo%20norte.mp4" },
+      { "episode": 15, "title": "El búho", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2015%20el%20b%C3%BAho.mp4" },
+      { "episode": 16, "title": "Ocho milímetros", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2016%20ocho%20milimetros.mp4" },
+      { "episode": 17, "title": "El soldadito de plomo", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2017%20el%20soldadito%20de%20plomo.mp4" },
+      { "episode": 18, "title": "En el fondo del mar", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2018%20en%20el%20fondo%20del%20mar.mp4" },
+      { "episode": 19, "title": "La vida es sueño", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2019%20la%20vida%20es%20sue%C3%B1o.mp4" },
+      { "episode": 20, "title": "La peor cárcel del mundo", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2020%20la%20peor%20carcel%20del%20mundo.mp4" },
+      { "episode": 21, "title": "El fantasma de la profesora decapitada", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2021%20el%20fantasma%20de%20la%20profesora%20decapitada.mp4" },
+      { "episode": 22, "title": "Los cinco vengadores", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2022%20los%20cinco%20vengadores.mp4" },
+      { "episode": 23, "title": "La noche del fuego", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2023%20la%20noche%20del%20fuego.mp4" },
+      { "episode": 24, "title": "La maldición", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2024%20la%20maldici%C3%B3n.mp4" },
+      { "episode": 25, "title": "La sala del tesoro", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2025%20la%20sala%20del%20tesoro.mp4" },
+      { "episode": 26, "title": "El secreto mejor guardado", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2026%20el%20secreto%20mejor%20guardado.mp4" },
+      { "episode": 27, "title": "La premonición", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2027%20la%20premonici%C3%B3n.mp4" },
+      { "episode": 28, "title": "El exorcismo", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2028%20el%20exorcismo.mp4" },
+      { "episode": 29, "title": "Escrito en las estrellas", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2029%20escrito%20en%20las%20estrellas.mp4" },
+      { "episode": 30, "title": "Un gran soldado", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2030%20un%20gran%20soldado.mp4" },
+      { "episode": 31, "title": "La llave", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2031%20la%20llave.mp4" },
+      { "episode": 32, "title": "El unicornio", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2032%20el%20unicornio.mp4" },
+      { "episode": 33, "title": "Un punto en el mar", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2033%20un%20punto%20en%20el%20mar.mp4" },
+      { "episode": 34, "title": "La noche de las dos lunas", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2034%20la%20noche%20de%20las%202%20lunas.mp4" },
+      { "episode": 35, "title": "El cuaderno del doctor Wulf", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2035%20el%20cuaderno%20del%20doctor%20wulf.mp4" },
+      { "episode": 36, "title": "Amnesia", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2036%20amnesia.mp4" },
+      { "episode": 37, "title": "El hombre del saco", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2037%20el%20hombre%20del%20saco.mp4" },
+      { "episode": 38, "title": "La novia cadáver", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2038%20la%20novia%20cadaver.mp4" },
+      { "episode": 39, "title": "La promesa", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2039%20la%20promesa.mp4" },
+      { "episode": 40, "title": "El vampiro", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2040%20el%20vampiro.mp4" },
+      { "episode": 41, "title": "El rey de la baraja", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2041%20el%20rey%20de%20la%20baraja.mp4" },
+      { "episode": 42, "title": "Paula en el país de las maravillas", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2042%20paula%20en%20el%20pais%20de%20las%20maravillas.mp4" },
+      { "episode": 43, "title": "El último día", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2043%20el%20ultimo%20dia.mp4" },
+      { "episode": 44, "title": "Los monstruos vienen de noche", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2044%20los%20montruos%20vienen%20de%20noche.mp4" },
+      { "episode": 45, "title": "Las galletas del porvenir", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/El%20internado%2045%20las%20galletas%20del%20porvenir.mp4" },
+      { "episode": 46, "title": "El hombre lobo", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2046%20el%20hombre%20lobo.mp4" },
+      { "episode": 47, "title": "La traición", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2047%20la%20traici%C3%B3n.mp4" },
+      { "episode": 48, "title": "El baile de los culpables", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2048%20el%20baile%20de%20los%20culpables.mp4" },
+      { "episode": 49, "title": "Paula y el lobo", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2049%20paula%20y%20el%20lobo.mp4" },
+      { "episode": 50, "title": "La leyenda de Eva", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2050%20la%20leyenda%20de%20eva.mp4" },
+      { "episode": 51, "title": "La princesa de hielo", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2051%20la%20princesa%20de%20hielo.mkv" },
+      { "episode": 52, "title": "El extraterrestre", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2052%20el%20extraterrestre.mp4" },
+      { "episode": 53, "title": "La habitación número 13", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2053%20la%20habitaci%C3%B3n%20numero%2013.mp4" },
+      { "episode": 54, "title": "El mago", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2054%20el%20mago.mp4" },
+      { "episode": 55, "title": "Alaska", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2055%20alaska.mp4" },
+      { "episode": 56, "title": "Después de la luz", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2056%20despues%20de%20la%20luz.mp4" },
+      { "episode": 57, "title": "El protocolo", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2057%20el%20protocolo.mp4" },
+      { "episode": 58, "title": "La amenaza", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2058%20la%20amenaza.mkv" },
+      { "episode": 59, "title": "El hombre misterioso", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2059%20el%20hombre%20misterioso.mkv" },
+      { "episode": 60, "title": "El tesoro", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2060%20el%20tesoro.mkv" },
+      { "episode": 61, "title": "El centro de la tierra", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2061%20el%20centro%20de%20la%20tierra.mkv" },
+      { "episode": 62, "title": "Los tres pétalos", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2062%20los%20tres%20p%C3%A9talos.mkv" },
+      { "episode": 63, "title": "El asesino de Carolina", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2063%20el%20asesino%20de%20carolina.mp4" },
+      { "episode": 64, "title": "El último deseo", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2064%20el%20%C3%BAltimo%20deseo.mp4" },
+      { "episode": 65, "title": "El principio del fin", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2065%20el%20principio%20del%20fin.mkv" },
+      { "episode": 66, "title": "La última dosis", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2066%20la%20%C3%BAltima%20dosis.mkv" },
+      { "episode": 67, "title": "Los últimos recuerdos", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2067%20los%20%C3%BAltimos%20recuerdos.mkv" },
+      { "episode": 68, "title": "Hasta que la muerte nos separe", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2068%20hasta%20que%20la%20muerte%20nos%20separe.mkv" },
+      { "episode": 69, "title": "El último aliento", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2069%20el%20%C3%BAltimo%20aliento.mkv" },
+      { "episode": 70, "title": "La luz", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2070%20la%20luz.mkv" },
+      { "episode": 71, "title": "El fin", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2071%20el%20fin.mkv" }
+    ]
+  }
+],
+  {
+    "title": "Plunderer",
+    "genre": ["Acción", "Fantasía", "Echi"],
+    "coverImage": "https://imgs.search.brave.com/7PgDIJU89hL59iMvoVlHtsx7CFyUm3kmplwaQ1qsYq8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1QllqSTFOV1k0/TmpndE56RTJNQzAw/TW1aaExUbGlNalF0/T0RsbE5EYzBZamd5/WXpBd1hrRXlYa0Zx/Y0djQC5qcGc",
+    "description": "En un mundo post-apocalíptico donde cada persona tiene un 'Contador' impreso en su cuerpo que decide su vida, Hina busca al legendario As de la serie para cumplir el último deseo de su madre. En su viaje conoce a Licht Bach, un misterioso espadachín enmascarado con un contador negativo.",
+    "episodes": [
+      { "episode": 1, "title": "El legendario As", "video_url": "https://archive.org/download/plunderer-cap-16/Plunderer%20cap%201.mp4" },
+      { "episode": 2, "title": "¡Te odio!", "video_url": "https://archive.org/download/plunderer-cap-16/Plunderer%20cap%202.mp4" },
+      { "episode": 3, "title": "Es uniforme", "video_url": "https://archive.org/download/plunderer-cap-16/Plunderer%20cap%203.mp4" },
+      { "episode": 4, "title": "Dueño del contador", "video_url": "https://archive.org/download/plunderer-cap-16/Plunderer%20cap%204.mp4" },
+      { "episode": 5, "title": "¡No te disculpes, muere!", "video_url": "https://archive.org/download/plunderer-cap-16/Plunderer%20cap%205.mp4" },
+      { "episode": 6, "title": "Corazonada", "video_url": "https://archive.org/download/plunderer-cap-16/Plunderer%20cap%206.mp4" },
+      { "episode": 7, "title": "Estaba delicioso", "video_url": "https://archive.org/download/plunderer-cap-16/Plunderer%20cap%207.mp4" },
+      { "episode": 8, "title": "Demonio del Abismo", "video_url": "https://archive.org/download/plunderer-cap-16/Plunderer%20cap%208.mp4" },
+      { "episode": 9, "title": "Plunderer", "video_url": "https://archive.org/download/plunderer-cap-16/Plunderer%20cap%209.mp4" },
+      { "episode": 10, "title": "Serio", "video_url": "https://archive.org/download/plunderer-cap-16/Plunderer%20cap%2010.mp4" },
+      { "episode": 11, "title": "No me dejes", "video_url": "https://archive.org/download/plunderer-cap-16/Plunderer%20cap%2011.mp4" },
+      { "episode": 12, "title": "Ceremonia de entrada", "video_url": "https://archive.org/download/plunderer-cap-16/Plunderer%20cap%2012.mp4" },
+      { "episode": 13, "title": "Abierto de par en par", "video_url": "https://archive.org/download/plunderer-cap-16/Plunderer%20cap%2013.mp4" },
+      { "episode": 14, "title": "Siete K撃王 (Ases)", "video_url": "https://archive.org/download/plunderer-cap-16/Plunderer%20cap%2014.mp4" },
+      { "episode": 15, "title": "Ejército que no mata", "video_url": "https://archive.org/download/plunderer-cap-16/Plunderer%20cap%2015.mp4" },
+      { "episode": 16, "title": "Ejército para matar", "video_url": "https://archive.org/download/plunderer-cap-16/Plunderer%20cap%2016.mp4" },
+      { "episode": 17, "title": "El As del Destello", "video_url": "https://archive.org/download/plunderer-cap-16/Plunderer%20cap%2017.mp4" },
+      { "episode": 18, "title": "Nacimiento de Alcia", "video_url": "https://archive.org/download/plunderer-cap-16/Plunderer%20cap%2018.mp4" },
+      { "episode": 19, "title": "Trampa", "video_url": "https://archive.org/download/plunderer-cap-16/Plunderer%20cap%2019.mp4" },
+      { "episode": 20, "title": "Lluvia", "video_url": "https://archive.org/download/plunderer-cap-16/Plunderer%20cap%2020.mp4" },
+      { "episode": 21, "title": "Padre", "video_url": "https://archive.org/download/plunderer-cap-16/Plunderer%20cap%2021.mp4" },
+      { "episode": 22, "title": "Promesa", "video_url": "https://archive.org/download/plunderer-cap-16/Plunderer%20cap%2022.mp4" },
+      { "episode": 23, "title": "Indulto", "video_url": "https://archive.org/download/plunderer-cap-16/Plunderer%20cap%2023.mp4" },
+      { "episode": 24, "title": "Mi As", "video_url": "https://archive.org/download/plunderer-cap-16/Plunderer%20cap%2024.mp4" }
+    ]
+  },
+  {
+    "title": "Rosario + Vampire",
+    "genre": ["Comedia Romántica", "Harem", "Sobrenatural", "Ecchi"],
+    "coverImage": "https://m.media-amazon.com/images/M/MV5BNTkzZDNkNjUtNjZiZi00Njc0LTgwNmYtNDliNTdmNzZkMmQwXkEyXkFqcGc@.jpg",
+    "description": "Tsukune Aono es un estudiante promedio que, por error, termina inscrito en la Academia Yokai, una escuela diseñada exclusivamente para monstruos. Allí conoce a Moka Akashiya, una hermosa vampira que se interesa en él por el sabor de su sangre, mientras intenta sobrevivir ocultando su identidad humana.",
+    "episodes": [
+      {
+        "episode": 1,
+        "title": "Vampira y Humano",
+        "video_url": "https://archive.org/download/rosario-vampire-cap-6/Rosario%20%2B%20Vampire%20cap1.mp4"
+      },
+      {
+        "episode": 2,
+        "title": "Súcubo y Humano",
+        "video_url": "https://archive.org/download/rosario-vampire-cap-6/Rosario%20%2B%20Vampire%20cap2.mp4"
+      },
+      {
+        "episode": 3,
+        "title": "Bruja y Humano",
+        "video_url": "https://archive.org/download/rosario-vampire-cap-6/Rosario%20%2B%20Vampire%20cap3.mp4"
+      },
+      {
+        "episode": 4,
+        "title": "Dinosaurio y Humano",
+        "video_url": "https://archive.org/download/rosario-vampire-cap-6/Rosario%20%2B%20Vampire%20cap4.mp4"
+      },
+      {
+        "episode": 5,
+        "title": "Chica de las Nieves y Humano",
+        "video_url": "https://archive.org/download/rosario-vampire-cap-6/Rosario%20%2B%20Vampire%20cap5.mp4"
+      },
+      {
+        "episode": 6,
+        "title": "Periódico Escolar y Humano",
+        "video_url": "https://archive.org/download/rosario-vampire-cap-6/Rosario%20%2B%20Vampire%20cap6.mp4"
+      },
+      {
+        "episode": 7,
+        "title": "Chica de Hielo y Humano",
+        "video_url": "https://archive.org/download/rosario-vampire-cap-6/Rosario%20%2B%20Vampire%20cap7.mp4"
+      },
+      {
+        "episode": 8,
+        "title": "Matemáticas y Humano",
+        "video_url": "https://archive.org/download/rosario-vampire-cap-6/Rosario%20%2B%20Vampire%20cap8.mp4"
+      },
+      {
+        "episode": 9,
+        "title": "Vacaciones de Verano y Humano",
+        "video_url": "https://archive.org/download/rosario-vampire-cap-6/Rosario%20%2B%20Vampire%20cap9.mp4"
+      },
+      {
+        "episode": 10,
+        "title": "Girasoles y Humano",
+        "video_url": "https://archive.org/download/rosario-vampire-cap-6/Rosario%20%2B%20Vampire%20%20cap10.mp4"
+      },
+      {
+        "episode": 11,
+        "title": "Luna Nueva y Humano",
+        "video_url": "https://archive.org/download/rosario-vampire-cap-6/Rosario%20%2B%20Vampire%20cap11.mp4"
+      },
+      {
+        "episode": 12,
+        "title": "Exámenes y Humano",
+        "video_url": "https://archive.org/download/rosario-vampire-cap-6/Rosario%20%2B%20Vampire%20cap12.mp4"
+      },
+      {
+        "episode": 13,
+        "title": "Rosario y Humano",
+        "video_url": "https://archive.org/download/rosario-vampire-cap-6/Rosario%20%2B%20Vampire%20cap13.mp4"
+      }
+    ]
+  },
+  {
+    "title": "Noragami",
+    "genre": ["Acción", "Aventura", "Sobrenatural", "Comedia"],
+    "coverImage": "https://pics.filmaffinity.com/noragami-751491233-mmed.jpg",
+    "description": "Yato es un dios menor cuyo sueño es tener muchísimos seguidores que lo adoren y recen plegarias por él. Sin embargo, su sueño está lejos de hacerse realidad, ya que no tiene ni siquiera un solo santuario dedicado a él. Para empeorar las cosas, la única socia que tenía para ayudarlo a resolver los problemas de la gente acaba de renunciar. Su suerte cambia cuando conoce a Hiyori Iki.",
+    "episodes": [
+      {
+        "episode": 1,
+        "title": "Un gato doméstico, un dios callejero y una cola",
+        "video_url": "https://archive.org/download/cap8_20220112/cap%201%20noragami.mp4"
+      },
+      {
+        "episode": 2,
+        "title": "Como la nieve",
+        "video_url": "https://archive.org/download/cap8_20220112/cap2.mp4"
+      },
+      {
+        "episode": 3,
+        "title": "Calamidad bidireccional",
+        "video_url": "https://archive.org/download/cap8_20220112/cap3.mp4"
+      },
+      {
+        "episode": 4,
+        "title": "Donde reside la felicidad",
+        "video_url": "https://archive.org/download/cap8_20220112/cap4.mp4"
+      },
+      {
+        "episode": 5,
+        "title": "Frontera",
+        "video_url": "https://archive.org/download/cap8_20220112/cap5.mp4"
+      },
+      {
+        "episode": 6,
+        "title": "Persona aterradora",
+        "video_url": "https://archive.org/download/cap8_20220112/cap%206.mp4"
+      },
+      {
+        "episode": 7,
+        "title": "Incertidumbre y destino",
+        "video_url": "https://archive.org/download/cap8_20220112/cap7.mp4"
+      },
+      {
+        "episode": 8,
+        "title": "Sobre la línea",
+        "video_url": "https://archive.org/download/cap8_20220112/cap8.mp4"
+      },
+      {
+        "episode": 9,
+        "title": "Nombre",
+        "video_url": "https://archive.org/download/cap8_20220112/cap9.mp4"
+      },
+      {
+        "episode": 10,
+        "title": "Abandonado",
+        "video_url": "https://archive.org/download/cap8_20220112/cap10.mp4"
+      },
+      {
+        "episode": 11,
+        "title": "Dios abandonado",
+        "video_url": "https://archive.org/download/cap8_20220112/cap11.mp4"
+      },
+      {
+        "episode": 12,
+        "title": "Un fragmento de memoria",
+        "video_url": "https://archive.org/download/cap8_20220112/cap12.mp4"
+      }
+    ]
+  },
+  
+  {
     "title": "Johnny Bravo",
     "genre": ["Comedia", "Dibujos Animados"],
     "coverImage": "https://imgs.search.brave.com/bEqXHqWvl-gB0BDMd9czTiBAkHEvZSjVPkaHPCrokU4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuanVzdHdhdGNo/LmNvbS9wb3N0ZXIv/MzA1MDQ1NTA4L3Mz/MzIvdGVtcG9yYWRh/LTM",
