@@ -1,4 +1,39 @@
 [
+  
+  {
+    "title": "Batman: La Serie Animada",
+    "genre": ["Acción", "Crimen", "Superhéroes", "Noir"],
+    "coverImage": "https://imgs.search.brave.com/WeHDp-qkw2wpDiQg1am3_A-GQDK0-tE2a4-aizIESUs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1QllqZ3daV1V6/TXpVdFlURmtOaTAw/TXpNMExXRmtNV1V0/TURWaU1qTXhOR0l4/TkRVeFhrRXlYa0Zx/Y0djQC5qcGc",
+    "description": "El caballero de la noche lucha contra el crimen en Ciudad Gótica, enfrentándose a villanos icónicos en una serie con una estética única y una profundidad narrativa sin precedentes.",
+    "episodes": [
+      { "episode": 1, "title": "La Gata y La Garra Parte I", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%201/S01E01%20-%20La%20Gata%20y%20La%20Garra%20Parte%20I.mp4" },
+      { "episode": 2, "title": "Alas de Piel", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%201/S01E02%20-%20Alas%20de%20Piel.mp4" },
+      { "episode": 3, "title": "Corazón de Hielo", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%201/S01E03%20-%20Corazón%20de%20Hielo.mp4" },
+      { "episode": 4, "title": "Ilusión Fatal Parte I", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%201/S01E04%20-%20Ilusión%20Fatal%20Parte%20I.mp4" },
+      { "episode": 5, "title": "Ilusión Fatal Parte II", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%201/S01E05%20-%20Ilusión%20Fatal%20Parte%20II.mp4" },
+      { "episode": 6, "title": "Nunca es demasiado tarde", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%201/S01E06%20-%20Nunca%20es%20demasiado%20tarde.mp4" },
+      { "episode": 7, "title": "A favor del Guasón", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%201/S01E07%20-%20A%20favor%20del%20Guasón.mp4" },
+      { "episode": 8, "title": "La Gata y La Garra Parte II", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%201/S01E08%20-%20La%20Gata%20y%20La%20Garra%20Parte%20II.mp4" },
+      { "episode": 9, "title": "Hermoso veneno", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%201/S01E09%20-%20Hermoso%20veneno.mp4" },
+      { "episode": 10, "title": "Nada que temer", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%201/S01E10%20-%20Nada%20que%20temer.mp4" },
+      { "episode": 17, "title": "Doble Cara Parte I", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%201/S01E17%20-%20Doble%20Cara%20%281ª%20Parte%29.mp4" },
+      { "episode": 18, "title": "Doble Cara Parte II", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%201/S01E18%20-%20Doble%20Cara%20%282ª%20Parte%29.mp4" },
+      { "episode": 38, "title": "Navidades con El Guasón", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%201/S01E38%20-%20Navidades%20con%20El%20Guasón.mp4" },
+      { "episode": 60, "title": "El fuego del olimpo", "video_url": "https://archive.org/download/batman-la-serie-animada-1992-latino/Temporada%201/S01E60%20-%20El%20fuego%20del%20olimpo.mp4" }
+    ]
+  },
+    
+  {
+    "title": "José: Los sueños del faraón (Joseph)",
+    "description": "Una producción épica que narra la historia bíblica de José, quien tras ser vendido como esclavo por sus hermanos, llega a ser un importante consejero del Faraón en Egipto gracias a su don para interpretar sueños.",
+    "coverImage": "https://imgs.search.brave.com/zJxxup9q6houJIhHhEDSDjjm1s9K3sNZuLfqSxLBQwA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1QlpXTmhOR0U1/TW1ZdFpqY3dZaTAw/TUdJNUxXSmlaREV0/TW1WbFptWmtZems1/WXpJelhrRXlYa0Zx/Y0djQC5qcGc",
+    "genre": [
+      "Drama",
+      "Histórico",
+      "Bíblico"
+    ],
+    "video_url": "https://archive.org/download/joselos-suenos-del-faraon-tv-joseph-1995-roger-young/Jos%C3%A9%2Clos%20sue%C3%B1os%20del%20fara%C3%B3n%20%28TV%29%20%28Joseph%2C1995%29%20Roger%20Young.mp4"
+  },
   {
     "title": "Lois y Clark: Las nuevas aventuras de Superman",
     "genre": [
