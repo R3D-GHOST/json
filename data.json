@@ -1,4 +1,70 @@
 [
+  
+  {
+    "title": "El Hilo Rojo",
+    "description": "Un drama romántico basado en la leyenda oriental que dice que un hilo rojo invisible conecta a aquellos que están destinados a encontrarse, sin importar el tiempo ni la distancia.",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR59aCGr-Y6sAIO9KitULkeJhTLZUEHpZrLIw&s",
+    "genre": [
+      "Drama",
+      "Romance",
+      "Estreno"
+    ],
+    "video_url": "https://archive.org/download/hilroj/hilroj.ia.mp4"
+  },
+    
+  {
+  "title": "Stranger Things",
+  "genre": ["Misterio", "Drama", "Ciencia Ficción", "Terror", "Estreno"],
+  "coverImage": "https://static.wikia.nocookie.net/strangerthings/images/0/09/Stranger_Things_Season_1.png/revision/latest?cb=20170110205004&path-prefix=es",
+  "description": "Tras la desaparición de un niño en un pequeño pueblo, sus amigos, su familia y la policía se ven envueltos en una serie de eventos misteriosos que involucran experimentos secretos y fuerzas sobrenaturales.",
+  "episodes": [
+    { "episode": 1, "title": "La desaparición de Will Byers", "video_url": "https://archive.org/download/hilroj/Stranger%20Things%20S1-E1%20HD-720p.mp4" },
+    { "episode": 2, "title": "La loca de la calle Maple", "video_url": "https://archive.org/download/hilroj/Stranger%20Things%20S1-E2%20HD-720p.mp4" },
+    { "episode": 3, "title": "Todo sea por un amigo", "video_url": "https://archive.org/download/hilroj/Stranger%20Things%20S1-E3%20HD-720p.mp4" },
+    { "episode": 4, "title": "El cuerpo", "video_url": "https://archive.org/download/hilroj/Stranger%20Things%20S1-E4%20HD-720p.mp4" },
+    { "episode": 5, "title": "La pulga y el acróbata", "video_url": "https://archive.org/download/hilroj/Stranger%20Things%20S1-E5%20HD-720p.mp4" },
+    { "episode": 6, "title": "El monstruo", "video_url": "https://archive.org/download/hilroj/Stranger%20Things%20S1-E6%20HD-720p.mp4" },
+    { "episode": 7, "title": "La bañera", "video_url": "https://archive.org/download/hilroj/Stranger%20Things%20S1-E7%20HD-720p.mp4" },
+    { "episode": 8, "title": "El otro lado (Final de Temporada)", "video_url": "https://archive.org/download/hilroj/Stranger%20Things%20S1-E8%20Final%20HD-720p.mp4" }
+  ]
+},
+  {
+  "title": "Bajoterra",
+  "genre": ["Acción", "Aventura", "Ciencia Ficción", "Animación"],
+  "coverImage": "https://imgs.search.brave.com/your-slugterra-image-url.jpg",
+  "description": "Eli Shane está decidido a ser el mayor héroe de todos en Bajoterra. Para lograrlo, debe coleccionar, entrenar y batirse en duelo con pequeñas criaturas llamadas slugs.",
+  "episodes": [
+    { "episode": 1, "title": "El Mundo Debajo De Nuestros Pies Parte 1", "video_url": "https://archive.org/download/hilroj/El%20Mundo%20Debajo%20De%20Nuestros%20Pies_%20Parte%201%20%5BEPISODIO%20COMPLETO%5D%20_%20Bajoterra%20Episodio%201%20_%20HD%28480P%29.mp4" },
+    { "episode": 2, "title": "El Mundo Debajo De Nuestros Pies Parte 2", "video_url": "https://archive.org/download/hilroj/El%20Mundo%20Debajo%20De%20Nuestros%20Pies_%20Parte%202%20%5BEPISODIO%20COMPLETO%5D%20_%20Bajoterra%20Episodio%202%20_%20HD%28480P%29.mp4" },
+    { "episode": 3, "title": "El Comercio", "video_url": "https://archive.org/download/hilroj/El%20Comercio%20%5BEPISODIO%20COMPLETO%5D%20_%20Bajoterra%20Episodio%203%20_%20HD%20_%20Dibujos%20Animados%20Para%20Ni%C3%B1os%28480P%29.mp4" },
+    { "episode": 4, "title": "A Brazo Partido", "video_url": "https://archive.org/download/hilroj/A%20Brazo%20Partido%20%5BEPISODIO%20COMPLETO%5D%20_%20Bajoterra%20Episodio%204%20_%20HD%20_%20Dibujos%20Animados%20Para%20Ni%C3%B1os%28480P%29.mp4" },
+    { "episode": 5, "title": "Club Slug", "video_url": "https://archive.org/download/hilroj/Club%20Slug%20%5BEPISODIO%20COMPLETO%5D%20_%20Bajoterra%20Episodio%205%20_%20HD%20_%20Dibujos%20Animados%20Para%20Ni%C3%B1os%28480P%29.mp4" },
+    { "episode": 6, "title": "La Carrera De La Slug", "video_url": "https://archive.org/download/hilroj/La%20Carrera%20De%20La%20Slug%20%5BEPISODIO%20COMPLETO%5D%20_%20Bajoterra%20Episodio%206%20_%20HD%20_%20Dibujos%20Animados%20Para%20Ni%C3%B1os%28480P%29.mp4" },
+    { "episode": 7, "title": "El Motín De Las Mecas", "video_url": "https://archive.org/download/hilroj/El%20Mot%C3%ADn%20De%20Las%20Mecas%20%5BEPISODIO%20COMPLETO%5D%20_%20Bajoterra%20Episodio%207%20_%20HD%20_%20Dibujos%20Animados%20Para%20Ni%C3%B1os%28480P%29.mp4" },
+    { "episode": 8, "title": "Deadweed", "video_url": "https://archive.org/download/hilroj/Deadweed%20%5BEPISODIO%20COMPLETO%5D%20_%20Bajoterra%20Episodio%208%20_%20HD%20_%20Dibujos%20Animados%20Para%20Ni%C3%B1os%28480P%29.mp4" },
+    { "episode": 9, "title": "Sombras Y Luz", "video_url": "https://archive.org/download/hilroj/Sombras%20Y%20Luz%20%5BEPISODIO%20COMPLETO%5D%20_%20Bajoterra%20Episodio%209%20_%20HD%20_%20Dibujos%20Animados%20Para%20Ni%C3%B1os%28720P_HD%29.mp4" },
+    { "episode": 10, "title": "Mario Bravado", "video_url": "https://archive.org/download/hilroj/Mario%20Bravado%20%5BEPISODIO%20COMPLETO%5D%20_%20Bajoterra%20Episodio%2010%20_%20HD%20_%20Dibujos%20Animados%20Para%20Ni%C3%B1os%28480P%29.mp4" },
+    { "episode": 11, "title": "Especie En Peligro", "video_url": "https://archive.org/download/hilroj/Especie%20En%20Peligro%20%5BEPISODIO%20COMPLETO%5D%20_%20Bajoterra%20Episodio%2011%20_%20HD%20_%20Dibujos%20Animados%20Para%20Ni%C3%B1os%28480P%29.mp4" },
+    { "episode": 12, "title": "Resaca", "video_url": "https://archive.org/download/hilroj/Resaca%20%5BEPISODIO%20COMPLETO%5D%20_%20Bajoterra%20Episodio%2012%20_%20HD%20_%20Dibujos%20Animados%20Para%20Ni%C3%B1os%28480P%29.mp4" },
+    { "episode": 14, "title": "El Chico Nuevo Parte 1", "video_url": "https://archive.org/download/hilroj/El%20Chico%20Nuevo_%20Pt.%201%20%5BEPISODIO%20COMPLETO%5D%20_%20Bajoterra%20Episodio%2014%20_%20HD%20_%20Dibujos%20Animados%20Para%20Ni%C3%B1os%28480P%29.mp4" },
+    { "episode": 15, "title": "El Chico Nuevo Parte 2", "video_url": "https://archive.org/download/hilroj/El%20Chico%20Nuevo_%20Pt.%202%20%5BEPISODIO%20COMPLETO%5D%20_%20Bajoterra%20Episodio%2015%20_%20HD%20_%20Dibujos%20Animados%20Para%20Ni%C3%B1os%28480P%29.mp4" },
+    { "episode": 16, "title": "Danza De La Nieve", "video_url": "https://archive.org/download/hilroj/Danza%20De%20La%20Nieve%20%5BEPISODIO%20COMPLETO%5D%20_%20Bajoterra%20Episodio%2016%20_%20HD%20_%20Dibujos%20Animados%20Para%20Ni%C3%B1os%28480P%29.mp4" },
+    { "episode": 17, "title": "Herencia", "video_url": "https://archive.org/download/hilroj/Herencia%20%5BEPISODIO%20COMPLETO%5D%20_%20Bajoterra%20Episodio%2017%20_%20HD%20_%20Dibujos%20Animados%20Para%20Ni%C3%B1os%28480P%29.mp4" },
+    { "episode": 27, "title": "El Retorno", "video_url": "https://archive.org/download/hilroj/El%20Retorno%20%5BEPISODIO%20COMPLETO%5D%20_%20Bajoterra_%20Episodio%20_27%28480P%29.mp4" },
+    { "episode": 28, "title": "Slúgbol", "video_url": "https://archive.org/download/hilroj/Sl%C3%BAgbol%20%5BEPISODIO%20COMPLETO%5D%20_%20Bajoterra_%20Episodio%20_28%28720P_HD%29.mp4" },
+    { "episode": 29, "title": "El Rey del Disparo", "video_url": "https://archive.org/download/hilroj/El%20Rey%20del%20Disparo%20%5BEPISODIO%20COMPLETO%5D%20_%20Bajoterra_%20Episodio%20_29%28480P%29.mp4" },
+    { "episode": 30, "title": "Misión Improbable", "video_url": "https://archive.org/download/hilroj/Misi%C3%B3n%20Improbable%20%5BEPISODIO%20COMPLETO%5D%20_%20Bajoterra_%20Episodio%20_30%28720P_HD%29.mp4" },
+    { "episode": 31, "title": "Las llaves del Reino", "video_url": "https://archive.org/download/hilroj/Las%20llaves%20del%20Reino%20%5BEPISODIO%20COMPLETO%5D%20_%20Bajoterra_%20Episodio%20_31%28720P_HD%29.mp4" },
+    { "episode": 32, "title": "La Emoción del Juego", "video_url": "https://archive.org/download/hilroj/La%20Emoci%C3%B3n%20del%20Juego%20%5BEPISODIO%20COMPLETO%5D%20_%20Bajoterra_%20Episodio%20_32%28480P%29.mp4" },
+    { "episode": 33, "title": "Claraboya", "video_url": "https://archive.org/download/hilroj/Claraboya%20%5BEPISODIO%20COMPLETO%5D%20_%20Bajoterra_%20Episodio%20_33%28720P_HD%29.mp4" },
+    { "episode": 34, "title": "Llega de Noche", "video_url": "https://archive.org/download/hilroj/Llega%20de%20Noche%20%5BEPISODIO%20COMPLETO%5D%20_%20Bajoterra_%20Episodio%20_34%28480P%29.mp4" },
+    { "episode": 35, "title": "Mejoras", "video_url": "https://archive.org/download/hilroj/Mejoras%20%5BEPISODIO%20COMPLETO%5D%20_%20Bajoterra_%20Episodio%20_35%28720P_HD%29.mp4" },
+    { "episode": 37, "title": "Bandolera de Hermanos", "video_url": "https://archive.org/download/hilroj/Bandolera%20de%20Hermanos%20%5BEPISODIO%20COMPLETO%5D%20_%20Bajoterra_%20Episodio%20_37%28720P_HD%29.mp4" },
+    { "episode": 38, "title": "Oscuro Como la Noche", "video_url": "https://archive.org/download/hilroj/Oscuro%20Como%20la%20Noche%20%5BEPISODIO%20COMPLETO%5D%20_%20Bajoterra_%20Episodio%20_38%28480P%29.mp4" },
+    { "episode": 39, "title": "Claro Como el Día", "video_url": "https://archive.org/download/hilroj/Claro%20Como%20el%20D%C3%ADa%20%5BEPISODIO%20COMPLETO%5D%20_%20Bajoterra_%20Episodio%20_39%28480P%29.mp4" }
+  ]
+},
+
   {
     "title": "30 Minutos o Menos (30 Minutes or Less)",
     "description": "Un repartidor de pizzas es secuestrado por dos criminales de poca monta que le atan una bomba al pecho y lo obligan a robar un banco.",
