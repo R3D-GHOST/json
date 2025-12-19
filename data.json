@@ -2,7 +2,7 @@
   {
   "title": "It: Bienvenidos a Derry",
   "genre": ["Terror", "Misterio", "Drama", "Sobrenatural", "Estreno"],
-  "coverImage": "https://image.tmdb.org/t/p/original/hYFvS39t6iTaqPscH63t5xJzY7m.jpg",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBw4IT6bZInUt9Rt33pqYldu-iQZZk7tTG2qsOq0-DrQ&s=10",
   "description": "Ambientada en el universo de Stephen King, esta precuela de 'It' explora los orígenes de Pennywise y la maldición que acecha al pueblo de Derry décadas antes de los eventos conocidos.",
   "episodes": [
     { "episode": 1, "title": "Bienvenido a Derry 1x1", "video_url": "https://archive.org/download/listderry_202512/It%20Bienvenido%20A%20Derry%201x1.ia.mp4" },
@@ -18,8 +18,6 @@
   {
     "title": "El Chico y la Garza (The Boy and the Heron)",
     "description": "Obra maestra de Hayao Miyazaki y Studio Ghibli. Durante la Segunda Guerra Mundial, el joven Mahito se muda al campo tras perder a su madre, donde encuentra una garza parlante que lo guía a un mundo fantástico compartido por los vivos y los muertos.",
-    "year": 2023,
-    "studio": "Studio Ghibli",
     "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScUnric469FJhyw_Xeo61PpP6YA2sDaGPubEO6NDNabw&s=10",
     "genre": [
       "Animación",
