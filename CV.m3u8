@@ -3,32 +3,6 @@
 #EXTINF:-1 tvg-logo="https://futbolete.com/wp-content/uploads/2025/05/donde-ver-real-madrid-sevilla-hoy-vivo.jpg" group-title="Deportes", REAL MADRID VS SEVILLA FC
 /hls/stream.m3u8
 
-#EXTM3U
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjlYe25dv_PGDWk_yjy5azN3PcaSthztq20wFh1N1ksw&s=10", DAZN 2
-#http://172.93.102.112:8989/278824_.m3u8
-
-
-
-
-
-
-
-
-
-
-
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwVl1RrdbyAHFINbw25uBqSNNstFvBlRsYv20wsiy4HOc5_EwlczdLrDE&s=10" group-title="Deportes", DAZN 1
-#http://172.93.102.112:8989/278822_.m3u8
-
-
-
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1JUh8sRfn4Z9zXwE9CKCxrrRLmQjC9UMl1TPh_IYfww&s=10" group-title="Deportes", F1
-#http://104.238.222.251:8989/278826_.m3u8
-
-
-
-
-
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Bein_Sport_en_espa%C3%B1ol_logo.svg/250px-Bein_Sport_en_espa%C3%B1ol_logo.svg.png" group-title="Deportes", BeIN Sports Xtra Ñ
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bein-sports-xtra-en-espanol/playlist.m3u8
 
