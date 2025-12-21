@@ -1,5 +1,62 @@
 [
   {
+    "title": "Kakegurui Temporada 1",
+    "year": 2017,
+    "genre": ["Anime", "Drama", "Misterio"],
+    "coverImage": "https://image.tmdb.org/t/p/original/h1MUwcwNjK3nkXFzeFowUqfy0Qw.jpg",
+    "description": "En la Academia Privada Hyakkaou, los estudiantes no son evaluados por sus capacidades académicas, sino por su habilidad en las apuestas. La llegada de Yumeko Jabami, una jugadora compulsiva que busca el riesgo absoluto, sacude los cimientos de la jerarquía escolar.",
+    "episodes": [
+      { "episode": 1, "title": "Una mujer llamada Yumeko Jabami", "video_url": "https://dl.dropboxusercontent.com/scl/fi/0oq6c0l0d1y9gpakbnjrg/K1AK53EKU4RU6I-1.mp4?rlkey=t92nl586utkbmnjx8eyraa0h4&st=02y4l533" },
+      { "episode": 2, "title": "Una mujer aburrida", "video_url": "https://dl.dropboxusercontent.com/scl/fi/jprq13l3ivt62ga6gg1ox/K1AK53EKU4RU6I-2.mp4?rlkey=0x0lhn4800ztotkosb430lrun&st=yaexqirn" },
+      { "episode": 3, "title": "La mujer de ojos rasgados", "video_url": "https://dl.dropboxusercontent.com/scl/fi/uqr7xsj0fr8u7ea1cm7he/K1AK53EKU4RU6I-3.mp4?rlkey=e9j3hcsg14btda66n8h3d6o2v&st=7dhavqka" },
+      { "episode": 4, "title": "La mujer que se convirtió en animal", "video_url": "https://dl.dropboxusercontent.com/scl/fi/wpl4lx8swswx75y8u8c1u/K1AK53EKU4RU6I-4.mp4?rlkey=853v8bvujlpar9vo2bqihm6st&st=1eiip3m5" },
+      { "episode": 5, "title": "La mujer que se convirtió en humana", "video_url": "https://dl.dropboxusercontent.com/scl/fi/debc75waz08k8zdrim1l7/K1AK53EKU4RU6I-5.mp4?rlkey=j7z846k0xbkyaepwsbzyhrrka&st=1dz8iq5n" },
+      { "episode": 6, "title": "La mujer tentadora", "video_url": "https://dl.dropboxusercontent.com/scl/fi/pvop91z26c3e6z8tiuwm2/K1AK53EKU4RU6I-6.mp4?rlkey=4dlgc58izmzdd58ixfu4jqu38&st=jtfvumdi" },
+      { "episode": 7, "title": "La mujer que rechaza", "video_url": "https://dl.dropboxusercontent.com/scl/fi/pc3em3rt3googd36fuaxm/K1AK53EKU4RU6I-7.mp4?rlkey=85qba2oaax1b7mb0h2kf6wtf7&st=ybrlyiby" },
+      { "episode": 8, "title": "La mujer que ama bailar", "video_url": "https://dl.dropboxusercontent.com/scl/fi/xrszzo1v4mksgsgya7o7w/K1AK53EKU4RU6I-8.mp4?rlkey=56zd2b54q3p0ya01ptiyyd4vk&st=jk1bx733" },
+      { "episode": 9, "title": "La mujer que miente", "video_url": "https://dl.dropboxusercontent.com/scl/fi/d55qav7qrd00s7iie3b1x/K1AK53EKU4RU6I-9.mp4?rlkey=kgocf6ltc0etk6cb61ju1ryhz&st=5rejl8f3" },
+      { "episode": 10, "title": "La mujer que elige", "video_url": "https://dl.dropboxusercontent.com/scl/fi/awwfj2qyfhmp6dcz57n4o/K1AK53EKU4RU6I-10.mp4?rlkey=q5k8ejvwyxwb40sd9li5xlnsw&st=kkhovs9w" },
+      { "episode": 11, "title": "La mujer que apuesta su vida", "video_url": "https://dl.dropboxusercontent.com/scl/fi/388c8fa10pazxq0n8oc57/K1AK53EKU4RU6I-11.mp4?rlkey=fxhzq13eyta5xnggdd1v9g99j&st=5gh6v825" },
+      { "episode": 12, "title": "La mujer jugadora", "video_url": "https://dl.dropboxusercontent.com/scl/fi/frj5t6buctymkvn0mudgi/K1AK53EKU4RU6I-12.mp4?rlkey=uk4ajyzehldti5ngg77vulvtl&st=ucjhqlr7" }
+    ]
+  },
+  {
+    "title": "Kakegurui Temporada 2",
+    "year": 2019,
+    "genre": ["Anime", "Drama", "Misterio"],
+    "coverImage": "https://image.tmdb.org/t/p/original/h1MUwcwNjK3nkXFzeFowUqfy0Qw.jpg",
+    "description": "El Consejo Estudiantil convoca elecciones generales para elegir al próximo presidente, convirtiendo a toda la escuela en un campo de batalla donde cada voto se apuesta en juegos mortales contra el clan Momobami.",
+    "episodes": [
+      { "episode": 1, "title": "Mujeres que apuestan de nuevo", "video_url": "https://dl.dropboxusercontent.com/scl/fi/axp2tasummiu4cigl9qxz/K1AK53EKU4RU6I-1.mp4?rlkey=corc0tbt8xrglmk14otngpw4w&st=vbcx733a" },
+      { "episode": 2, "title": "Las mujeres del clan Momobami", "video_url": "https://dl.dropboxusercontent.com/scl/fi/bo1d2b2jzhhhclh26ducw/K1AK53EKU4RU6I-2.mp4?rlkey=97vr3qwx9wkarlor0xvjakmog&st=i0m2oj79" },
+      { "episode": 3, "title": "Esta mujer no debe ser tocada", "video_url": "https://dl.dropboxusercontent.com/scl/fi/bxclryi1nmove5pki8zyn/K1AK53EKU4RU6I-3.mp4?rlkey=jofrwfpkqc5cpktmka32pjsmq&st=2qxyk2un" },
+      { "episode": 4, "title": "Mujeres que se comunican", "video_url": "https://dl.dropboxusercontent.com/scl/fi/qoilkrqmvntby5bl50kt/K1AK53EKU4RU6I-4.mp4?rlkey=9vqo1hqjat7smuvd8x7kdzbme&st=n2h0p12d" },
+      { "episode": 5, "title": "La mujer que cambia", "video_url": "https://dl.dropboxusercontent.com/scl/fi/re1iz8i25aebwmqc9wyp1/K1AK53EKU4RU6I-5.mp4?rlkey=ydrypr1rkbtp74aomsfj0zp5o&st=6ip1prlq" },
+      { "episode": 6, "title": "La mujer estrella de Hollywood", "video_url": "https://dl.dropboxusercontent.com/scl/fi/c7l9q0de5ej3egb2yfqik/K1AK53EKU4RU6I-6.mp4?rlkey=o76z0wxi7p6rvd10jjntdr6wp&st=nfmea205" },
+      { "episode": 7, "title": "La mujer traidora", "video_url": "https://dl.dropboxusercontent.com/scl/fi/uh66prlf6dwpymh91llju/K1AK53EKU4RU6I-7.mp4?rlkey=2dg7vdalnt25p3a47mi01jl0z&st=9s12fkdr" },
+      { "episode": 8, "title": "La mujer que no puede decir que no", "video_url": "https://dl.dropboxusercontent.com/scl/fi/9pny2yd9z8g2jt2j39y49/K1AK53EKU4RU6I-8.mp4?rlkey=gbvdad3ku61xsq4b9ugakzj5e&st=7fhwku2f" },
+      { "episode": 9, "title": "La mujer que apuesta por un lado", "video_url": "https://dl.dropboxusercontent.com/scl/fi/za0zhrr6fewq3qnijc1ub/K1AK53EKU4RU6I-9.mp4?rlkey=ltlv4tzc9uuoz91evvj967nbv&st=22wt61w9" },
+      { "episode": 10, "title": "La mujer lógica", "video_url": "https://dl.dropboxusercontent.com/scl/fi/iswl0la9dxkb5506iws9f/K1AK53EKU4RU6I-10.mp4?rlkey=4vg7g74loq3ybomstmqlknikn&st=8mfolhyi" },
+      { "episode": 11, "title": "La mujer de X", "video_url": "https://dl.dropboxusercontent.com/scl/fi/z9k61pvr2r5e1znsnfl1e/K1AK53EKU4RU6I-111.mp4?rlkey=70fx2yiih3m0lhbvdg9wft1yx&st=ti69ba8v" },
+      { "episode": 12, "title": "La mujer que apuesta todo", "video_url": "https://dl.dropboxusercontent.com/scl/fi/c13h6pxgo3bf1bdto6n8s/K1AK53EKU4RU6I-122.mp4?rlkey=bqoh7pjfq5cc2k22ajmqptkdt&st=yj7gqyae" }
+    ]
+  },
+  {
+    "title": "Kakegurui Twin",
+    "year": 2022,
+    "genre": ["Anime", "Drama", "Misterio"],
+    "coverImage": "https://image.tmdb.org/t/p/original/2e8bJIBglxY9djQJ0z81A6MroPr.jpg",
+    "description": "Precuela protagonizada por Mary Saotome, quien un año antes de la llegada de Yumeko, ingresa a la Academia Hyakkaou decidida a ascender a lo más alto a través de su ingenio y audacia en el juego.",
+    "episodes": [
+      { "episode": 1, "title": "Una mujer llamada Mary Saotome", "video_url": "https://dl.dropboxusercontent.com/scl/fi/gy1g4dnj7fgh0th4eagzk/K1AK53EKU4RU6I-1.mp4?rlkey=yu26f5ozmahmbkbxakzyuvfx0&st=jnd1qvda" },
+      { "episode": 2, "title": "Una mujer tentadora", "video_url": "https://dl.dropboxusercontent.com/scl/fi/n94jedjp0p0yydcvp1qkv/K1AK53EKU4RU6I-2.mp4?rlkey=m2pfbwq441f0524xhj7q7c9w0&st=8ikoc5r3" },
+      { "episode": 3, "title": "La mujer traidora", "video_url": "https://dl.dropboxusercontent.com/scl/fi/0wpsy40kpgvhoky49rvgq/K1AK53EKU4RU6I-3.mp4?rlkey=kkddymefcqhpmvo4erfz2efzu&st=tzqhs4ca" },
+      { "episode": 4, "title": "Mujeres que confiesan", "video_url": "https://dl.dropboxusercontent.com/scl/fi/5ilhkn7isbfe4abie9yjs/K1AK53EKU4RU6I-4.mp4?rlkey=m8auygpxkho44j9cgz6jfxx88&st=yo51qu8u" },
+      { "episode": 5, "title": "Mujeres honestas", "video_url": "https://dl.dropboxusercontent.com/scl/fi/9ekii08f3pz81ov48mdod/K1AK53EKU4RU6I-5.mp4?rlkey=7s2pmji468ry7981gzf60yo6h&st=2v47c412" },
+      { "episode": 6, "title": "La mujer que se rebela", "video_url": "https://dl.dropboxusercontent.com/scl/fi/x1ztwyo2dc9kpnubzddkq/K1AK53EKU4RU6I-6.mp4?rlkey=hp2tuxzwcwv5ezr9zhnlrd0i4&st=kbtwvmwj" }
+    ]
+  },
+  {
     "title": "Record of Ragnarok - Temporada 1",
     "year": 2021,
     "genre": ["Anime", "Acción", "Fantasía"],
