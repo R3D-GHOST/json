@@ -1,5 +1,90 @@
 [
   {
+    "title": "Las sombrías aventuras de Billy y Mandy",
+    "genre": ["Animación", "Comedia negra", "Fantasía", "Terror"],
+    "coverImage": "https://imgs.search.brave.com/pxFRj9Rq8grUegMspq-7vSuFNfBFRH2DvWpWazNcLmI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuanVzdHdhdGNo/LmNvbS9wb3N0ZXIv/ODU3MDM5Mi9zMTY2/L3RlbXBvcmFkYS0x",
+    "episodes": [
+      { "episode": 1, "title": "Cap 1", "video_url": "https://dl.dropboxusercontent.com/scl/fi/vvggqo79j1xy53tpi2es4/L3A3AS-S13OM4BRI1AS-A1V4NTUR3AS-D41E-B4I5LL6Y-1Y-1.mp4?rlkey=9py362kcqs6cgugy8dxpokmur&st=kn57e1ha" },
+      { "episode": 2, "title": "Cap 2", "video_url": "https://dl.dropboxusercontent.com/scl/fi/mpnc2fsipuwtnn11v018x/L3A3AS-S13OM4BRI1AS-A1V4NTUR3AS-D41E-B4I5LL6Y-1Y-2.mp4?rlkey=dbki9bidhxo3ebogf1z9jrjkk&st=skhjuqel" },
+      { "episode": 3, "title": "Cap 3", "video_url": "https://dl.dropboxusercontent.com/scl/fi/4520uha039r3pn9bcxgct/L3A3AS-S13OM4BRI1AS-A1V4NTUR3AS-D41E-B4I5LL6Y-1Y-3.mp4?rlkey=u2d7z999w9q9u96a9rd26mlyh&st=2ba4w7qd" },
+      { "episode": 4, "title": "Cap 4", "video_url": "https://dl.dropboxusercontent.com/scl/fi/l0ezf32m6yfx683ti3wey/L3A3AS-S13OM4BRI1AS-A1V4NTUR3AS-D41E-B4I5LL6Y-1Y-4.mp4?rlkey=z90nd5k2q26blqtq75xptqczp&st=kp4uy0or" },
+      { "episode": 5, "title": "Cap 5", "video_url": "https://dl.dropboxusercontent.com/scl/fi/6nabj53i68ozh61vehkn7/L3A3AS-S13OM4BRI1AS-A1V4NTUR3AS-D41E-B4I5LL6Y-1Y-5.mp4?rlkey=2haav4e03symhmjdvima27j30&st=dbbqz2it" },
+      { "episode": 6, "title": "Cap 6", "video_url": "https://dl.dropboxusercontent.com/scl/fi/vc18dtp8f7e3qtewf1iwt/L3A3AS-S13OM4BRI1AS-A1V4NTUR3AS-D41E-B4I5LL6Y-1Y-6.mp4?rlkey=22bgnbomy3yjq5evhmjtsixt8&st=94or6997" },
+      { "episode": 7, "title": "Cap 7", "video_url": "https://dl.dropboxusercontent.com/scl/fi/e791hxxetaicc0ehw4yko/L3A3AS-S13OM4BRI1AS-A1V4NTUR3AS-D41E-B4I5LL6Y-1Y-7.mp4?rlkey=9sw3k6tmg90lqkzgr065w57he&st=orkauygz" },
+      { "episode": 8, "title": "Cap 8", "video_url": "https://dl.dropboxusercontent.com/scl/fi/6j27f9flbjkulwj5wkz2d/L3A3AS-S13OM4BRI1AS-A1V4NTUR3AS-D41E-B4I5LL6Y-1Y-8.mp4?rlkey=14u7wsjm114g4vsxyrguhxv8k&st=89h2xniy" }
+    ]
+  },
+  {
+    "title": "Las sombrías aventuras de Billy y Mandy  Temporada 2",
+    "genre": ["Animación", "Comedia negra", "Fantasía", "Terror"],
+    "coverImage": "https://imgs.search.brave.com/Xn9igClglUh3Tcozb1-kcJ1IPIk8U5ezhaig6Ivmfhw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuanVzdHdhdGNo/LmNvbS9wb3N0ZXIv/ODU3MDU0Mi9zMTY2/L3RlbXBvcmFkYS0y",
+    "episodes": [
+      { "episode": 1, "title": "Cap 1", "video_url": "https://dl.dropboxusercontent.com/scl/fi/l06meerzkalevvxgxshur/L3A3AS-S13OM4BRI1AS-A1V4NTUR3AS-D41E-B4I5LL6Y-1Y-M1-1.mp4?rlkey=5dz8y6uzfkbc0x1i0snhfssso&st=ahmldzct" },
+      { "episode": 2, "title": "Cap 2", "video_url": "https://dl.dropboxusercontent.com/scl/fi/mc607explqzyu8r64clkt/L3A3AS-S13OM4BRI1AS-A1V4NTUR3AS-D41E-B4I5LL6Y-1Y-M1-2.mp4?rlkey=ic0e2g3mwz95n8redmx4jczbx&st=wc29u9pu" },
+      { "episode": 3, "title": "Cap 3", "video_url": "https://dl.dropboxusercontent.com/scl/fi/dvpcoxre1yhorpq4kdtg0/L3A3AS-S13OM4BRI1AS-A1V4NTUR3AS-D41E-B4I5LL6Y-1Y-M1-3.mp4?rlkey=7kf64hu23711w49tijodxxply&st=648fosps" },
+      { "episode": 4, "title": "Cap 4", "video_url": "https://dl.dropboxusercontent.com/scl/fi/j7h2isrb0a6ktyeyh81io/L3A3AS-S13OM4BRI1AS-A1V4NTUR3AS-D41E-B4I5LL6Y-1Y-M1-4.mp4?rlkey=2z3b31b4evy9efep015ew4d6l&st=z3qd7qev" },
+      { "episode": 5, "title": "Cap 5", "video_url": "https://dl.dropboxusercontent.com/scl/fi/o7os13swuq0hj8gcxztiv/L3A3AS-S13OM4BRI1AS-A1V4NTUR3AS-D41E-B4I5LL6Y-1Y-M1-5.mp4?rlkey=8ngclekxagjsyrys10q3cxt60&st=pgd6h7s7" },
+      { "episode": 6, "title": "Cap 6", "video_url": "https://dl.dropboxusercontent.com/scl/fi/hk5yhxmz1uofxcht9qe6n/L3A3AS-S13OM4BRI1AS-A1V4NTUR3AS-D41E-B4I5LL6Y-1Y-M1-6.mp4?rlkey=rye52l1k13aqtzddrmgzznnj1&st=hf0f17z9" },
+      { "episode": 7, "title": "Cap 7", "video_url": "https://dl.dropboxusercontent.com/scl/fi/px9ew2mppvlhlisfiq71m/L3A3AS-S13OM4BRI1AS-A1V4NTUR3AS-D41E-B4I5LL6Y-1Y-M1-7.mp4?rlkey=t9bex44x0ibinqj877y0ds6px&st=caeb84f7" },
+      { "episode": 8, "title": "Cap 8", "video_url": "https://dl.dropboxusercontent.com/scl/fi/5tuq6t191jqx1s4jtbryg/L3A3AS-S13OM4BRI1AS-A1V4NTUR3AS-D41E-B4I5LL6Y-1Y-M1-8.mp4?rlkey=8ptr19biij43jploqunmmznyd&st=ci3wg9zg" }
+    ]
+  },
+  {
+    "title": "Las sombrías aventuras de Billy y Mandy  Temporada 3",
+    "genre": ["Animación", "Comedia negra", "Fantasía", "Terror"],
+    "coverImage": "https://imgs.search.brave.com/3yQrAtmwr9UOhQ6DFV9vy45oq1GXVjAoLvsR4-u4FPs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9mdWxh/bml0b3ltZW5nYW5p/dGEuZXMvX25leHQv/aW1hZ2U_dXJsPWh0/dHBzOi8vaW1hZ2Uu/dG1kYi5vcmcvdC9w/L3czNDIvL3pBWFdL/NUI0UnUzWnNtZkpE/eFhyODZFOVhYYy5q/cGcmdz0zODQmcT03/NQ",
+    "episodes": [
+      { "episode": 1, "title": "Cap 1", "video_url": "https://dl.dropboxusercontent.com/scl/fi/3km2istuum2anyab1qzj3/L3A3AS-S13OM4BRI1AS-A1V4NTUR3AS-D41E-B4I5LL6Y-1Y-1.mp4?rlkey=965xlu7ct3q5eyvj3yxwenpzq&st=iz6rzuz2" },
+      { "episode": 2, "title": "Cap 2", "video_url": "https://dl.dropboxusercontent.com/scl/fi/zzur69nzotz9z5fc6f2mg/L3A3AS-S13OM4BRI1AS-A1V4NTUR3AS-D41E-B4I5LL6Y-1Y-2.mp4?rlkey=akpgjm3fl255atjekfpkbkr1t&st=wn4oanj6" },
+      { "episode": 3, "title": "Cap 3", "video_url": "https://dl.dropboxusercontent.com/scl/fi/z9rfj67t6w36cppl0q3pi/L3A3AS-S13OM4BRI1AS-A1V4NTUR3AS-D41E-B4I5LL6Y-1Y-3.mp4?rlkey=j6hihz9tic2ndj15k9tauvw14&st=2vmy20yf" },
+      { "episode": 4, "title": "Cap 4", "video_url": "https://dl.dropboxusercontent.com/scl/fi/0q6vuo5w3tasr7hdy7goa/L3A3AS-S13OM4BRI1AS-A1V4NTUR3AS-D41E-B4I5LL6Y-1Y-4.mp4?rlkey=b8n3csr6rhbcfcc0fs8hx4860&st=2150iy1z" },
+      { "episode": 5, "title": "Cap 5", "video_url": "https://dl.dropboxusercontent.com/scl/fi/anbqo9f9zonlalx9bdrw6/L3A3AS-S13OM4BRI1AS-A1V4NTUR3AS-D41E-B4I5LL6Y-1Y-5.mp4?rlkey=2vd27dmavajltepidmat7l4sc&st=ripru7f2" },
+      { "episode": 6, "title": "Cap 6", "video_url": "https://dl.dropboxusercontent.com/scl/fi/y2ym1am7p7h3bzmsbn62h/L3A3AS-S13OM4BRI1AS-A1V4NTUR3AS-D41E-B4I5LL6Y-1Y-6.mp4?rlkey=o5742jtcrrxhkcdfrlhn95suq&st=xrggch0n" },
+      { "episode": 7, "title": "Cap 7", "video_url": "https://dl.dropboxusercontent.com/scl/fi/gaqzbw5nloabquerypkzcs4/L3A3AS-S13OM4BRI1AS-A1V4NTUR3AS-D41E-B4I5LL6Y-1Y-7.mp4?rlkey=9lv9l03bfttdjr2setspwkiqq&st=ktwtajk8" },
+      { "episode": 8, "title": "Cap 8", "video_url": "https://dl.dropboxusercontent.com/scl/fi/00kshpecp55sev8305wd3/L3A3AS-S13OM4BRI1AS-A1V4NTUR3AS-D41E-B4I5LL6Y-1Y-8.mp4?rlkey=j6z51cspum8dktslgemlvgwyu&st=w3t05d92" },
+      { "episode": 9, "title": "Cap 9", "video_url": "https://dl.dropboxusercontent.com/scl/fi/vqfb5odjdcodn86bn57vb/L3A3AS-S13OM4BRI1AS-A1V4NTUR3AS-D41E-B4I5LL6Y-1Y-9.mp4?rlkey=ha53x1ypbom8gbohswjb521ao&st=rjbfedca" },
+      { "episode": 10, "title": "Cap 10", "video_url": "https://dl.dropboxusercontent.com/scl/fi/5yt6wwvewlv7v9qbosney/L3A3AS-S13OM4BRI1AS-A1V4NTUR3AS-D41E-B4I5LL6Y-1Y-10.mp4?rlkey=vt2qasswptiqqnc8ae64n5eom&st=u3r1ljw1" },
+      { "episode": 11, "title": "Cap 11", "video_url": "https://dl.dropboxusercontent.com/scl/fi/9ag31t0jwl53fawl7dst7/L3A3AS-S13OM4BRI1AS-A1V4NTUR3AS-D41E-B4I5LL6Y-1Y-11.mp4?rlkey=2tg3grkpn5mrvxmetsw2n6534&st=0mq9kkrm" },
+      { "episode": 12, "title": "Cap 12", "video_url": "https://dl.dropboxusercontent.com/scl/fi/8p15piz21pxrdg094y2z5/L3A3AS-S13OM4BRI1AS-A1V4NTUR3AS-D41E-B4I5LL6Y-1Y-12.mp4?rlkey=ma89lyhbcd4h35r1auimommnr&st=7qzru1av" },
+      { "episode": 13, "title": "Cap 13", "video_url": "https://ia600107.us.archive.org/29/items/l-3-a-3-as-s-13-om-4-bri-1-as-a-1-v-4-ntur-3-as-d-41-e-b-4-i-5-ll-6-y-1-y-15/L3A3AS%20S13OM4BRI1AS%20A1V4NTUR3AS%20D41E%20B4I5LL6Y%201Y%2013.mp4" },
+      { "episode": 14, "title": "Cap 14", "video_url": "https://ia600107.us.archive.org/29/items/l-3-a-3-as-s-13-om-4-bri-1-as-a-1-v-4-ntur-3-as-d-41-e-b-4-i-5-ll-6-y-1-y-15/L3A3AS%20S13OM4BRI1AS%20A1V4NTUR3AS%20D41E%20B4I5LL6Y%201Y%2014.mp4" },
+      { "episode": 15, "title": "Cap 15", "video_url": "https://ia800107.us.archive.org/29/items/l-3-a-3-as-s-13-om-4-bri-1-as-a-1-v-4-ntur-3-as-d-41-e-b-4-i-5-ll-6-y-1-y-15/L3A3AS%20S13OM4BRI1AS%20A1V4NTUR3AS%20D41E%20B4I5LL6Y%201Y%2015.mp4" }
+    ]
+  },
+  {
+    "title": "Las sombrías aventuras de Billy y Mandy  Temporada 4",
+    "genre": ["Animación", "Comedia negra", "Fantasía", "Terror"],
+    "coverImage": "https://imgs.search.brave.com/sKNGdKcFTZ4cRkV0l0KkD1zauDtCuYzeTRmqMUStHz0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9mdWxh/bml0b3ltZW5nYW5p/dGEuZXMvX25leHQv/aW1hZ2U_dXJsPWh0/dHBzOi8vaW1hZ2Uu/dG1kYi5vcmcvdC9w/L3czNDIvL2N3VUl1/UDRtMGppUmFhRk96/c0x3YUtyZjZFWi5q/cGcmdz0zODQmcT03/NQ",
+    "episodes": [
+      { "episode": 1, "title": "Cap 1", "video_url": "https://dl.dropboxusercontent.com/scl/fi/4k6bvfj49e60umt1bhfmb/L3A3AS-S13OM4BRI1AS-A1V4NTUR3AS-D41E-B4I5LL6Y-1Y-1.mp4?rlkey=kn7j0wxlfio8fg3x4j41tq4ay&st=qfc01f01" },
+      { "episode": 2, "title": "Cap 2", "video_url": "https://dl.dropboxusercontent.com/scl/fi/ppzqp1nasc1po7aaef80e/L3A3AS-S13OM4BRI1AS-A1V4NTUR3AS-D41E-B4I5LL6Y-1Y-2.mp4?rlkey=xn6omvf1yann1um0othtdfdmr&st=ka48timt" },
+      { "episode": 3, "title": "Cap 3", "video_url": "https://dl.dropboxusercontent.com/scl/fi/qpm5p3xabp36zm46kg5qn/L3A3AS-S13OM4BRI1AS-A1V4NTUR3AS-D41E-B4I5LL6Y-1Y-3.mp4?rlkey=ktbnsm0bu8clu2nkcgzbbqrvm&st=lkd15qtu" },
+      { "episode": 4, "title": "Cap 4", "video_url": "https://dl.dropboxusercontent.com/scl/fi/lo0cd5jfzwvvhftykhp0l/L3A3AS-S13OM4BRI1AS-A1V4NTUR3AS-D41E-B4I5LL6Y-1Y-4.mp4?rlkey=mn9ch5fgqh2m1h6ngoop0vugm&st=0xwadwum" },
+      { "episode": 5, "title": "Cap 5", "video_url": "https://dl.dropboxusercontent.com/scl/fi/ggzvxey8zhjvem7ndwz8m/L3A3AS-S13OM4BRI1AS-A1V4NTUR3AS-D41E-B4I5LL6Y-1Y-5.mp4?rlkey=225pc0nkpcvedimrjpoynmvip&st=x893ppmq" },
+      { "episode": 6, "title": "Cap 6", "video_url": "https://dl.dropboxusercontent.com/scl/fi/h1cwpqyj94nufbir4zyp5/L3A3AS-S13OM4BRI1AS-A1V4NTUR3AS-D41E-B4I5LL6Y-1Y-6.mp4?rlkey=vatv2apby5y5u8s00kwzgmx0j&st=n8cgwkgq" },
+      { "episode": 7, "title": "Cap 7", "video_url": "https://dl.dropboxusercontent.com/scl/fi/pcrk4rinw704yusxhkpeu/L3A3AS-S13OM4BRI1AS-A1V4NTUR3AS-D41E-B4I5LL6Y-1Y-7.mp4?rlkey=wm42wy9sfdtm4io0h5ehsj0ep&st=vd3ct1fp" },
+      { "episode": 8, "title": "Cap 8", "video_url": "https://dl.dropboxusercontent.com/scl/fi/bzqejuhq7zqn6k78ohqfu/L3A3AS-S13OM4BRI1AS-A1V4NTUR3AS-D41E-B4I5LL6Y-1Y-8.mp4?rlkey=rr9euixe0pus6bi3m93il7mhu&st=j25gto6t" },
+      { "episode": 9, "title": "Cap 9", "video_url": "https://dl.dropboxusercontent.com/scl/fi/xg5i62hpn5wsx8831rsru/L3A3AS-S13OM4BRI1AS-A1V4NTUR3AS-D41E-B4I5LL6Y-1Y-9.mp4?rlkey=tk8f2xbgrdp50zle7h0bf32ti&st=pzzwp5bs" },
+      { "episode": 10, "title": "Cap 10", "video_url": "https://dl.dropboxusercontent.com/scl/fi/5tcrmu6fhfp3j9ub97gdg/L3A3AS-S13OM4BRI1AS-A1V4NTUR3AS-D41E-B4I5LL6Y-1Y-10.mp4?rlkey=3tj9xiy72xkwg74kw0fqbcp6k&st=pcuwu0u3" },
+      { "episode": 11, "title": "Cap 11", "video_url": "https://ia600809.us.archive.org/27/items/l-3-a-3-as-s-13-om-4-bri-1-as-a-1-v-4-ntur-3-as-d-42EYHgEzWEdjJgYKAu8VjC4DohVYUMbvZ6Ua45MgSaYBTFv3725expKB69YsjM6Utj99E6Sn3LpcxQ4mNrwfrJLM5NGbWiQ" },
+      { "episode": 12, "title": "Cap 12", "video_url": "https://ia800809.us.archive.org/27/items/l-3-a-3-as-s-13-om-4-bri-1-as-a-1-v-4-ntur-3-as-d-42EYHgEzWEdjJgYKAu8VjC4DohVYUMbvZ6Ua45MgSaYBTFv3725expKB69YsjM6Utj99E6Sn3LpcxQ4mNrwfrJLM5NGbWiQ" }
+    ]
+  },
+  {
+    "title": "Las sombrías aventuras de Billy y Mandy  Temporada 5",
+    "genre": ["Animación", "Comedia negra", "Fantasía", "Terror"],
+    "coverImage": "https://imgs.search.brave.com/8Lj-CimJ7xUTrPZlD74Qfm1hOyO_pbwq-Mq2lt_xRiw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9mdWxh/bml0b3ltZW5nYW5p/dGEuZXMvX25leHQv/aW1hZ2U_dXJsPWh0/dHBzOi8vaW1hZ2Uu/dG1kYi5vcmcvdC9w/L3czNDIvLzhzUE9D/NDd2bEp4dXhUczZL/Z0NxdURRd21YNi5q/cGcmdz0zODQmcT03/NQ",
+    "episodes": [
+      { "episode": 1, "title": "Cap 1", "video_url": "https://dl.dropboxusercontent.com/scl/fi/08908msok9q0r7fpxd97d/L3A3AS-S13OM4BRI1AS-A1V4NTUR3AS-D41E-B4I5LL6Y-1Y-1.mp4?rlkey=vbkq5htqp782h5vays2u8sj4s&st=p78dfcil" },
+      { "episode": 2, "title": "Cap 2", "video_url": "https://dl.dropboxusercontent.com/scl/fi/dwwvwkdlf64apk80xsxcn/L3A3AS-S13OM4BRI1AS-A1V4NTUR3AS-D41E-B4I5LL6Y-1Y-2.mp4?rlkey=ebp14q7h05lwkuk44r1dus0rp&st=j735f4cu" },
+      { "episode": 3, "title": "Cap 3", "video_url": "https://dl.dropboxusercontent.com/scl/fi/s1xwuu2bt5rdi10w0aj91/L3A3AS-S13OM4BRI1AS-A1V4NTUR3AS-D41E-B4I5LL6Y-1Y-3.mp4?rlkey=nuyvvz84l81gij5iwqu76rmlh&st=zygk4g7i" },
+      { "episode": 4, "title": "Cap 4", "video_url": "https://dl.dropboxusercontent.com/scl/fi/9pant7w3u5g17h7y7guxz/L3A3AS-S13OM4BRI1AS-A1V4NTUR3AS-D41E-B4I5LL6Y-1Y-4.mp4?rlkey=lq44g5r50jmqg2hbz008nymks&st=mkpaql5j" },
+      { "episode": 5, "title": "Cap 5", "video_url": "https://dl.dropboxusercontent.com/scl/fi/h7x8cxr2kl7wg8mdv27d9/L3A3AS-S13OM4BRI1AS-A1V4NTUR3AS-D41E-B4I5LL6Y-1Y-5.mp4?rlkey=ds5710q07er591pip6da3gemr&st=p14rtfgb" },
+      { "episode": 6, "title": "Cap 6", "video_url": "https://dl.dropboxusercontent.com/scl/fi/7xth86b2l8antbdd3lvbv/L3A3AS-S13OM4BRI1AS-A1V4NTUR3AS-D41E-B4I5LL6Y-1Y-6.mp4?rlkey=3f48rv90qkqn5lhggvol2afzq&st=zxa1eyg8" }
+    ]
+  },
+  
+  {
   "title": "Generator Rex",
   "genre": ["Animación", "Acción", "Ciencia Ficción", "Aventura"],
   "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsiuxmmLcYA4Ec1j4lIct85HF6mrM7EPiih9asvd0Wm5OkxJl5Goym0R8c&s=10",
