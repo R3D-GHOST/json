@@ -1,4 +1,153 @@
 [
+  
+  {
+    "title": "The Senior",
+    "year": 2025,
+    "genre": ["Drama"],
+    "coverImage": "https://image.tmdb.org/t/p/original/sv3kE86knrukjpGTtLLfg246JFx.jpg",
+    "video_url": "https://pomf2.lain.la/f/iwn77zed.mp4"
+  },
+  {
+    "title": "JOSUÉ: La Conquista De La Tierra Prometida",
+    "year": 2025,
+    "genre": ["Bíblico", "Épico"],
+    "coverImage": "https://image.tmdb.org/t/p/original/ciY0RaYIzKwt2nEQfVAXJyoxv3c.jpg",
+    "video_url": "https://archive.org/download/josue-2025-peli-cula-completa-la-conquista-de-la-tierra-prometida/JOSU%C3%89%20%282025%29%20%20PEL%C3%8DCULA%20COMPLETA%20%20La%20Conquista%20de%20la%20Tierra%20Prometida.mp4"
+  },
+  {
+    "title": "La Última Cena",
+    "year": 2025,
+    "genre": ["Bíblico", "Drama"],
+    "coverImage": "https://image.tmdb.org/t/p/original/q85udOw3iTKH2pNQcXkUSgyWcdu.jpg",
+    "video_url": "https://dl.dropbox.com/scl/fi/f07dxn617o6fapnobp5kg/sociales.mp4?rlkey=9lqsv20g41n06bj1yd3e1phiz&st=4vo3xx0s&dl=0"
+  },
+  {
+    "title": "Dante Gebel: Mentiras Verdaderas",
+    "genre": ["Conferencia", "Espiritualidad"],
+    "coverImage": "https://image.tmdb.org/t/p/original/qbzGLgO5WBwozGbOaTWALKiTXq9.jpg",
+    "video_url": "https://archive.org/download/youtube-BMNaXf7lYmg/BMNaXf7lYmg.mp4"
+  },
+  {
+    "title": "Dios no está muerto",
+    "year": 2014,
+    "genre": ["Drama", "Cristiano"],
+    "coverImage": "https://archive.org/download/peliculas-cristianas_202112/Dios%20no%20esta%20muerto%201%20-%20%20God%27s%20Not%20Dead%20%282014%29.jpg",
+    "video_url": "https://archive.org/download/peliculas-cristianas_202112/Dios%20no%20esta%20muerto%201%20-%20%20God%27s%20Not%20Dead%20%282014%29.mp4"
+  },
+  {
+    "title": "La Pasión de Cristo",
+    "year": 2004,
+    "genre": ["Bíblico", "Drama"],
+    "coverImage": "https://archive.org/download/peliculas-cristianas_202112/La%20Pasion%20de%20Cristo%20-%20The%20Passion%20of%20the%20Christ%20%282004%29.jpg",
+    "video_url": "https://archive.org/download/peliculas-cristianas_202112/La%20Pasion%20de%20Cristo%20-%20The%20Passion%20of%20the%20Christ%20%282004%29.mp4"
+  },
+  {
+    "title": "Milagros del cielo",
+    "year": 2016,
+    "genre": ["Drama", "Basado en hechos reales"],
+    "coverImage": "https://archive.org/download/peliculas-cristianas_202112/Milagros%20del%20cielo%20-%20Miracles%20from%20Heaven%20%282016%29.jpg",
+    "video_url": "https://archive.org/download/peliculas-cristianas_202112/Milagros%20del%20cielo%20-%20Miracles%20from%20Heaven%20%282016%29.mp4"
+  },
+  {
+    "title": "La Biblia Dramatizada: Génesis",
+    "genre": ["AudioLibro", "Bíblico"],
+    "coverImage": "https://image.tmdb.org/t/p/original/qARWQT6t3FV85Qd2rmzy9WQBIU4.jpg",
+    "video_url": "https://archive.org/download/genesis-in-spanish/Genesis%20in%20Spanish.mp4"
+  },
+  {
+    "title": "Apocalipsis (Narrado)",
+    "genre": ["Bíblico"],
+    "coverImage": "https://image.tmdb.org/t/p/original/qARWQT6t3FV85Qd2rmzy9WQBIU4.jpg",
+    "video_url": "https://archive.org/download/revelation-in-spanish.ia/Revelation%20in%20Spanish.ia.mp4"
+  },
+  {
+    "title": "Avatar: La leyenda de Aang Live Action",
+    "genre": ["Acción", "Aventura", "Fantasía"],
+    "coverImage": "https://pics.filmaffinity.com/avatar_the_last_airbender-291647715-large.jpg",
+    "episodes": [
+      { "episode": 1, "title": "Capítulo 1", "video_url": "https://dl.dropboxusercontent.com/scl/fi/4snfx36cd3dno7qz15oip/AV51T6AR-mm1.mp4?rlkey=xq8slcqyq1hms3f1klmjvfvs3" },
+      { "episode": 2, "title": "Capítulo 2", "video_url": "https://dl.dropboxusercontent.com/scl/fi/cq5scv7wbe1rpm3x0xith/AV51T6AR-2.mp4?rlkey=nrusxt62pfqt50qltfa0o52ym" },
+      { "episode": 3, "title": "Capítulo 3", "video_url": "https://dl.dropboxusercontent.com/scl/fi/b1olcrnvqxy8w6ss5ul4h/AV51T6AR-3.mp4?rlkey=7d03kzu1j3195rz3sq81eqxgu" },
+      { "episode": 4, "title": "Capítulo 4", "video_url": "https://dl.dropboxusercontent.com/scl/fi/64txzsee3iqdagqjp6ko4/AV51T6AR-4.mp4?rlkey=1uedq2q1gh2nszjk6kdmq5gci" },
+      { "episode": 5, "title": "Capítulo 5", "video_url": "https://dl.dropboxusercontent.com/scl/fi/ypbpe7y07yz6h3eh0dup0/AV51T6AR-5.mp4?rlkey=7r3o4poirrnboztyeycbwiq07" },
+      { "episode": 6, "title": "Capítulo 6", "video_url": "https://dl.dropboxusercontent.com/scl/fi/aml82ofpbtix78v3l3oqm/AV51T6AR-6.mp4?rlkey=i9xkmovx255hj2y536r0jhp9q&st=m3e68oxu" },
+      { "episode": 7, "title": "Capítulo 7", "video_url": "https://dl.dropboxusercontent.com/scl/fi/wa16i8td4vaibctatr9i9/AV51T6AR-7.mp4?rlkey=jmjc6ckii0w9dutvsx9dsx3n9&st=81q8vuuh" },
+      { "episode": 8, "title": "Capítulo 8", "video_url": "https://dl.dropboxusercontent.com/scl/fi/uv5yxv840y7tmfs028bk2/AV51T6AR-8.mp4?rlkey=2jncscfc1h7xiylwkscpfclg3&st=77jc0gqh" }
+    ]
+  },
+  
+  {
+    "title": "Blood Origin",
+    "genre": ["Fantasía", "Acción", "Aventura"],
+    "coverImage": "https://imgs.search.brave.com/SKAIxGZwZYU4ya4m_MTwNApKgnCHjdRdgdHeYxz2CUM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zbS5p/Z24uY29tL3QvaWdu/X2VzL3NjcmVlbnNo/b3QvZGVmYXVsdC9i/bG9vZF83M3k4LjI4/MC5qcGc",
+    "episodes": [
+      { "episode": 1, "title": "Capítulo 1", "video_url": "https://dl.dropbox.com/scl/fi/uckjd5b2x93g58qwf1lra/lengua-bflix-1.mp4?rlkey=v3k1wxqikcpbeyj7nbqnklq7g&st=y05ht336&dl=1" },
+      { "episode": 2, "title": "Capítulo 2", "video_url": "https://dl.dropbox.com/scl/fi/xfdsg5z84eksq21ornybw/lengua-bflix-2.mp4?rlkey=uj3gd6qs57thhgh5ophq1ng1z&st=rho9i55a&dl=1" },
+      { "episode": 3, "title": "Capítulo 3", "video_url": "https://dl.dropbox.com/scl/fi/fhutx93o1oyctwlqsbrlo/lengua-bflix-3.mp4?rlkey=zylb4smei9sxjvngdn4x0efwo&st=1xnnb058&dl=1" },
+      { "episode": 4, "title": "Capítulo 4", "video_url": "https://dl.dropbox.com/scl/fi/60lav6o5di4ewg4mrl1xi/lengua-bflix-4.mp4?rlkey=bw2e7py82q15upt3qnbdlxwfs&st=o4fo39dd&dl=1" }
+    ]
+  },
+  {
+    "title": "The Witcher  Temporada 1",
+    "genre": ["Fantasía", "Drama", "Acción"],
+    "coverImage": "https://es.web.img3.acsta.net/pictures/19/12/06/09/32/5219906.jpg",
+    "episodes": [
+      { "episode": 1, "title": "Capítulo 1", "video_url": "https://dl.dropbox.com/scl/fi/s2dqvg1564em03f06dmww/fisica-1-1.mp4?rlkey=kx9qc4xghch96qz2aocogfk5o&st=srs7pnee&dl=1" },
+      { "episode": 2, "title": "Capítulo 2", "video_url": "https://dl.dropbox.com/scl/fi/ofjp9p3sllquk7pi8dtu/fisica-1-2.mp4?rlkey=jq8p0dnosdsq49wfm25ux8pns&st=ld1in8hy&dl=1" },
+      { "episode": 3, "title": "Capítulo 3", "video_url": "https://dl.dropbox.com/scl/fi/fn8moxpt9n52nxxocf3c4/fisica-1-3.mp4?rlkey=84i89i0dx7rbkna7692bapw4b&st=rbm0kydt&dl=1" },
+      { "episode": 4, "title": "Capítulo 4", "video_url": "https://dl.dropbox.com/scl/fi/6nxihl0ltpiyrj96k5q1i/fisica-1-4.mp4?rlkey=hjqjzkrvyg5ss7cohmfd88ik9&st=q8tel8d9&dl=1" },
+      { "episode": 5, "title": "Capítulo 5", "video_url": "https://dl.dropbox.com/scl/fi/hy8re4ceedwsgbbr2te9z/fisica-1-5.mp4?rlkey=q319t7zq33he4z4mupdzscbv4&st=j0vi74dk&dl=1" },
+      { "episode": 6, "title": "Capítulo 6", "video_url": "https://dl.dropbox.com/scl/fi/oz5fu8yekra544cdhpgg6/fisica-1-6.mp4?rlkey=slxxh689ozqq4ysft5wwi6vc9&st=uvnd5hs6&dl=1" },
+      { "episode": 7, "title": "Capítulo 7", "video_url": "https://dl.dropbox.com/scl/fi/mfdeua2rqy6vcekf4zzvf/fisica-1-7.mp4?rlkey=22alet9kb63ebjyt6dvti0zif&st=5u7m8jaa&dl=1" },
+      { "episode": 8, "title": "Capítulo 8", "video_url": "https://dl.dropbox.com/scl/fi/jhhm79kvt0pmcrfzcgt3n/fisica-1-8.mp4?rlkey=82chmm7rznej53thb930semxu&st=fkz95tio&dl=1" }
+    ]
+  },
+  {
+    "title": "The Witcher Temporada 2",
+    "genre": ["Fantasía", "Drama", "Acción"],
+    "coverImage": "https://es.web.img3.acsta.net/pictures/19/12/06/09/32/5219906.jpg",
+    "episodes": [
+      { "episode": 1, "title": "Capítulo 1", "video_url": "https://dl.dropbox.com/scl/fi/g47jc9bh9sgsi6ros5bk6/naturales-2-1.mp4?rlkey=lf0c2rtuhaxaw4d8or0by2yix&st=npe27fpq&dl=1" },
+      { "episode": 2, "title": "Capítulo 2", "video_url": "https://dl.dropbox.com/scl/fi/e92swln70x2j3x7qnk5b0/naturales-2-2.mp4?rlkey=pyt9s4jzk0rn7ygw8bxdt4pb6&st=vuwms2rn&dl=1" },
+      { "episode": 3, "title": "Capítulo 3", "video_url": "https://dl.dropbox.com/scl/fi/3vgzxpv538zhkvlmdo2m0/naturales-2-3.mp4?rlkey=1ysgoch9fug8aq9trbvs0qy8h&st=m311ncbz&dl=1" },
+      { "episode": 4, "title": "Capítulo 4", "video_url": "https://dl.dropbox.com/scl/fi/9v2iqy5uejnvka84hxneh/naturales-2-4.mp4?rlkey=74l3m2zp9qlgwc901pv7oypji&st=i9oqfw5e&dl=1" },
+      { "episode": 5, "title": "Capítulo 5", "video_url": "https://dl.dropbox.com/scl/fi/avnwxmqovple1vmfuz3ga/naturales-2-5.mp4?rlkey=c6vclsxxtccg44wceaagfd76l&st=guvrllf2&dl=1" },
+      { "episode": 6, "title": "Capítulo 6", "video_url": "https://dl.dropbox.com/scl/fi/7x3lqj36dddsvb8lpkv9s/naturales-2-6.mp4?rlkey=2fx3cd0od30nsb3k0vjq76x9o&st=gji34owd&dl=1" },
+      { "episode": 7, "title": "Capítulo 7", "video_url": "https://dl.dropbox.com/scl/fi/m4pitw1c4r1rjurs116v0/naturales-2-7.mp4?rlkey=dwa50owiawufq6uxh75tlxnbr&st=b446dbym&dl=1" },
+      { "episode": 8, "title": "Capítulo 8", "video_url": "https://dl.dropbox.com/scl/fi/po4xk5fkq754a9uyzc7hp/naturales-2-8.mp4?rlkey=rjkrd0wm0nxyr5xp536qf8tv5&st=qf15dit5&dl=1" }
+    ]
+  },
+  {
+    "title": "The Witcher Temporada 3",
+    "genre": ["Fantasía", "Drama", "Acción"],
+    "coverImage": "https://es.web.img3.acsta.net/pictures/19/12/06/09/32/5219906.jpg",
+    "episodes": [
+      { "episode": 1, "title": "Capítulo 1", "video_url": "https://dl.dropbox.com/scl/fi/obrjiwetm9dt8jmcrh33u/fisica-3-1.mp4?rlkey=4kgapbdkrecld5tjlonllofo7&st=w9tmnqwi&dl=1" },
+      { "episode": 2, "title": "Capítulo 2", "video_url": "https://dl.dropbox.com/scl/fi/anm99h6e4n2r9bdlh4nc6/fisica-3-2.mp4?rlkey=c6eucgaa7lkvfp39ac7oec4rg&st=5ewaukew&dl=1" },
+      { "episode": 3, "title": "Capítulo 3", "video_url": "https://dl.dropbox.com/scl/fi/ciyvz9ic9k6ye943rh8q0/fisica-3-3.mp4?rlkey=h9dl4uhs8gm7khoy9v370ex7m&st=9yjee1sz&dl=1" },
+      { "episode": 4, "title": "Capítulo 4", "video_url": "https://dl.dropbox.com/scl/fi/ohpol0ratw9vxrgzav0hx/fisica-3-4.mp4?rlkey=zlowuzkuy94rt8zeabscuvs59&st=tjwmqyaf&dl=1" },
+      { "episode": 5, "title": "Capítulo 5", "video_url": "https://dl.dropbox.com/scl/fi/mpsogaic1a8kbyzr6orj9/fisica-3-5.mp4?rlkey=pnxxxkxk6jv2udl35wdfrm9r6&st=o9dkvtgy&dl=1" },
+      { "episode": 6, "title": "Capítulo 6", "video_url": "https://dl.dropbox.com/scl/fi/1o3mbkaqerfoiqwpzbwcy/fisica-3-6.mp4?rlkey=km7olx0pfcacdgqxho4zkmn97&st=1noy3txc&dl=1" },
+      { "episode": 7, "title": "Capítulo 7", "video_url": "https://dl.dropbox.com/scl/fi/ov9tidnne95d62xwtrzbq/fisica-3-7.mp4?rlkey=h2n8sokbi7g5f0ac58d8e727s&st=soneunlt&dl=1" },
+      { "episode": 8, "title": "Capítulo 8", "video_url": "https://dl.dropbox.com/scl/fi/tn8o0ptd9sxy0epf2blh7/fisica-3-8.mp4?rlkey=3s0xe5jwptmzrl1pvm691loqi&st=e9dtezbd&dl=1" }
+    ]
+  },
+  {
+    "title": "The Witcher Temporada 4",
+    "genre": ["Fantasía", "Drama", "Acción"],
+    "coverImage": "https://es.web.img3.acsta.net/pictures/19/12/06/09/32/5219906.jpg",
+    "episodes": [
+      { "episode": 1, "title": "Capítulo 1", "video_url": "https://dl.dropbox.com/scl/fi/16u21xuwhwhpmfkip0gzp/sociales-4-1.mp4?rlkey=ab3us09zlhgw17t6yz1gvf3iw&st=lzldf9ft&dl=1" },
+      { "episode": 2, "title": "Capítulo 2", "video_url": "https://dl.dropbox.com/scl/fi/7jchwoa2t4ddvmaa980zk/sociales-4-2.mp4?rlkey=ncm8je00zncwnw46pkdtl4nzd&st=avabmdj4&dl=1" },
+      { "episode": 3, "title": "Capítulo 3", "video_url": "https://dl.dropbox.com/scl/fi/irl41pn5rx6ih8i0y7ew6/sociales-4-3.mp4?rlkey=5lypa12w0per7bdwb519si7o4&st=uc2r75hd&dl=1" },
+      { "episode": 4, "title": "Capítulo 4", "video_url": "https://dl.dropbox.com/scl/fi/tv2bwbr9kgppxb3fohuxc/sociales-4-4.mp4?rlkey=osafqsrny2jgmng5c9zxo5qk0&st=4cr0s36c&dl=1" },
+      { "episode": 5, "title": "Capítulo 5", "video_url": "https://dl.dropbox.com/scl/fi/tmi41oq6m6xf9axzl9p91/sociales-4-5.mp4?rlkey=maa75gqaha5j0vwitczk3kgtx&st=rdhqgb8s&dl=1" },
+      { "episode": 6, "title": "Capítulo 6", "video_url": "https://dl.dropbox.com/scl/fi/xzn2v38tl8sf4w4qiu2ms/sociales-4-6.mp4?rlkey=b5tu15143ypma6pr20mogrebi&st=r9mfiff0&dl=1" },
+      { "episode": 7, "title": "Capítulo 7", "video_url": "https://dl.dropbox.com/scl/fi/ahfzc2r9imro0z71m878u/sociales-4-7.mp4?rlkey=z8t9kl6kw2pm0t8p2wki5mq6e&st=xn5v7ymd&dl=1" },
+      { "episode": 8, "title": "Capítulo 8", "video_url": "https://dl.dropbox.com/scl/fi/twrqvtsv6colo1hu0e7va/sociales-4-8.mp4?rlkey=r4xuvvh13q5dwwzckmdfpakmz&st=3rfceluw&dl=1" }
+    ]
+  },
+  
   {
     "title": "Johnny Test",
     "genre": ["Animación", "Comedia", "Ciencia Ficción"],
