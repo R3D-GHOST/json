@@ -1,7 +1,7 @@
 [
   {
   "title": "Devil May Cry",
-  "genre": ["Animación", "Acción", "Fantasía oscura"],
+  "genre": ["Animación", "Acción", "Estreno", "Fantasía oscura"],
   "coverImage": "https://imagen.nextn.es/wp-content/uploads/2025/02/2502-02-Devil-May-Cry-Anime-Netflix-Fecha-Salida-Abril-Opening-01.jpg?strip=all&sharp=1",
   "description": "Basada en la popular franquicia de videojuegos de Capcom. La serie sigue a Dante, un cazador de demonios huérfano de madre y abandonado por su padre legandario, Sparda. Dante se ve envuelto en una guerra eterna entre el mundo de los humanos y las fuerzas del inframundo mientras lucha contra fuerzas siniestras que amenazan con abrir las puertas del infierno.",
   "episodes": [
@@ -126,7 +126,7 @@
   },
   {
     "title": "Avatar: La leyenda de Aang Live Action",
-    "genre": ["Acción", "Aventura", "Fantasía"],
+    "genre": ["Acción", "Aventura", "Estreno ","Fantasía"],
     "coverImage": "https://pics.filmaffinity.com/avatar_the_last_airbender-291647715-large.jpg",
     "episodes": [
       { "episode": 1, "title": "Capítulo 1", "video_url": "https://dl.dropboxusercontent.com/scl/fi/4snfx36cd3dno7qz15oip/AV51T6AR-mm1.mp4?rlkey=xq8slcqyq1hms3f1klmjvfvs3" },
