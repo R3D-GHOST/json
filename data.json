@@ -1,5 +1,80 @@
 [
   {
+  "title": "My Hero Academia: Vigilantes",
+  "year": 2024,
+  "genre": ["Animación", "Estreno", "Acción", "Superhéroes"],
+  "coverImage": "https://image.tmdb.org/t/p/original/ciuUCccIDdXZOp5dB7IwoO6m1rN.jpg",
+  "description": "En un mundo donde los héroes están regulados por el gobierno, aquellos que usan sus dones sin licencia son conocidos como Vigilantes. Esta es la historia de individuos que luchan contra el crimen en las sombras de la sociedad, enfrentando amenazas que los héroes oficiales ignoran mientras buscan su propio camino hacia la justicia.",
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "El comienzo de un vigilante",
+      "video_url": "https://archive.org/download/piko-v-/PikoV-01.mp4"
+    },
+    {
+      "episode": 2,
+      "title": "Héroes en las sombras",
+      "video_url": "https://archive.org/download/piko-v-/PikoV02.mp4"
+    },
+    {
+      "episode": 3,
+      "title": "El precio de la justicia",
+      "video_url": "https://archive.org/download/piko-v-/PikoV03.mp4"
+    },
+    {
+      "episode": 4,
+      "title": "Conexiones peligrosas",
+      "video_url": "https://archive.org/download/piko-v-/PikoV04.mp4"
+    },
+    {
+      "episode": 5,
+      "title": "El despertar de un poder",
+      "video_url": "https://archive.org/download/piko-v-/PikoV05.mp4"
+    },
+    {
+      "episode": 6,
+      "title": "La ley de los héroes",
+      "video_url": "https://archive.org/download/piko-v-/PikoV06.mp4"
+    },
+    {
+      "episode": 7,
+      "title": "Enemigos inesperados",
+      "video_url": "https://archive.org/download/piko-v-/Pikov07.mp4"
+    },
+    {
+      "episode": 8,
+      "title": "La ciudad en peligro",
+      "video_url": "https://archive.org/download/piko-v-/PikoV08.mp4"
+    },
+    {
+      "episode": 9,
+      "title": "Alianzas secretas",
+      "video_url": "https://archive.org/download/piko-v-/PikoV09.mp4"
+    },
+    {
+      "episode": 10,
+      "title": "El pasado regresa",
+      "video_url": "https://archive.org/download/piko-v-/Pikov10.mp4"
+    },
+    {
+      "episode": 11,
+      "title": "El punto de quiebre",
+      "video_url": "https://archive.org/download/piko-v-/Pikov11.mp4"
+    },
+    {
+      "episode": 12,
+      "title": "Sin vuelta atrás",
+      "video_url": "https://archive.org/download/piko-v-/Pikov12.mp4"
+    },
+    {
+      "episode": 13,
+      "title": "Justicia personal",
+      "video_url": "https://archive.org/download/piko-v-/PikoV-13.mp4"
+    }
+  ]
+  },
+  
+  {
     "title": "Kakegurui Temporada 1",
     "year": 2017,
     "genre": ["Anime", "Drama", "Misterio"],
