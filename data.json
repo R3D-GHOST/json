@@ -1,5 +1,92 @@
 [
   {
+    "title": "Bang",
+    "year": 2025,
+    "genre": ["Acción", "Estreno"],
+    "coverImage": "https://image.tmdb.org/t/p/original/8SUzKOqe2ectvhYdSnR7Vq2F3n1.jpg",
+    "video_url": "https://pomf2.lain.la/f/64p0uqsb.mp4"
+  },
+  {
+    "title": "London Calling",
+    "year": 2025,
+    "genre": ["Acción", "Suspenso"],
+    "coverImage": "https://image.tmdb.org/t/p/original/cpQ4VxBJO7vGV3IUdKzSNf4tH9V.jpg",
+    "video_url": "https://pomf2.lain.la/f/hth1an64.mp4"
+  },
+  {
+    "title": "Hostile Takeover",
+    "year": 2025,
+    "genre": ["Acción"],
+    "coverImage": "https://image.tmdb.org/t/p/original/vntwlS3CAKfoLTs90GaoK6lymBC.jpg",
+    "video_url": "https://dl.dropbox.com/scl/fi/z687by53gov6n6v0v3ycz/lengua.mp4?rlkey=rhpornxf6ofshwty1d8gs2aa0&st=eolylmmv&dl=0"
+  },
+  {
+    "title": "Sisu: Camino a la venganza",
+    "year": 2025,
+    "genre": ["Acción", "Bélico"],
+    "coverImage": "https://image.tmdb.org/t/p/original/qQyc6t9dHS5dlIUt3ccCQnRIAc1.jpg",
+    "video_url": "https://pomf2.lain.la/f/lnr9rf5k.mp4"
+  },
+  {
+    "title": "The Running Man",
+    "year": 2025,
+    "genre": ["Ciencia Ficción", "Acción"],
+    "coverImage": "https://image.tmdb.org/t/p/original/dKL78O9zxczVgjtNcQ9UkbYLzqX.jpg",
+    "video_url": "https://dl.dropbox.com/scl/fi/dosxlzcqsp8vaxsqqkgwh/f-sica.mp4?rlkey=vnk5b9aaudgknmcg6fblcy3g6&st=vw1rdanl&dl=0"
+  },
+  {
+    "title": "Hunting Season",
+    "year": 2025,
+    "genre": ["Acción", "Caza"],
+    "coverImage": "https://image.tmdb.org/t/p/original/cbryTyaWdqrKpQCw6K7zm2jrB5v.jpg",
+    "video_url": "https://pomf2.lain.la/f/t8gamu55.mp4"
+  },
+  {
+    "title": "Shadow Force",
+    "year": 2025,
+    "genre": ["Acción", "Thriller"],
+    "coverImage": "https://image.tmdb.org/t/p/original/9LCpHFXZgkqp2AWiYq0mGbfZauk.jpg",
+    "video_url": "https://dl.dropbox.com/scl/fi/y6ua2r13dk52dkdwbk4no/lengua.mp4?rlkey=s7slcokl5mxzjdn3zzrb791b1&st=j4zhltme&dl=0"
+  },
+  {
+    "title": "G20",
+    "year": 2025,
+    "genre": ["Acción", "Político"],
+    "coverImage": "https://image.tmdb.org/t/p/original/wv6oWAleCJZUk5htrGg413t3GCy.jpg",
+    "video_url": "https://1a-1791.com/video/fww1/db/s8/2/5/U/S/D/5USDy.aaa.mp4"
+  },
+  {
+    "title": "Ice Road: Vengeance",
+    "year": 2025,
+    "genre": ["Acción", "Aventura"],
+    "coverImage": "https://image.tmdb.org/t/p/original/cQN9rZj06rXMVkk76UF1DfBAico.jpg",
+    "video_url": "https://pomf2.lain.la/f/hlr3d8ia.mp4?download=1"
+  },
+  {
+    "title": "Nadie 2 (Nobody 2)",
+    "year": 2025,
+    "genre": ["Acción", "Crimen"],
+    "coverImage": "https://image.tmdb.org/t/p/original/cvtnWucN08TudAv7vDNGTcJyTRg.jpg",
+    "video_url": "https://dl.dropbox.com/scl/fi/9ei7pvi1582dca0f0ya9f/lengua.mp4?rlkey=iplzil8jujtufqy2yqdg4ozki&st=mvp830yg&dl=0"
+  },
+  {
+    "title": "Mission: Impossible - The Final Reckoning",
+    "year": 2025,
+    "genre": ["Acción", "Espionaje"],
+    "coverImage": "https://image.tmdb.org/t/p/original/iAQULg2qPYBCXXjF3pKn2FuYwY8.jpg",
+    "video_url": "https://dl.dropbox.com/scl/fi/vjk17j6msqze0a1ocgy65/eovkyoqxilgg.mp4?rlkey=23szy25dmqv96b4m45t7m71cn&st=mqxj59jj&dl=0"
+  },
+  {
+    "title": "Ballerina (John Wick Universe)",
+    "year": 2025,
+    "genre": ["Acción", "Venganza"],
+    "coverImage": "https://image.tmdb.org/t/p/original/eoV4MPGKl0MGLVT56MzrUXUaVxO.jpg",
+    "video_url": "https://archive.org/download/bailarina_202506/Bailarina.ia.mp4"
+  },
+
+
+
+  {
   "title": "My Hero Academia: Vigilantes",
   "year": 2024,
   "genre": ["Animación", "Estreno", "Acción", "Superhéroes"],
