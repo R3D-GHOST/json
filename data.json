@@ -1,4 +1,317 @@
 [
+
+
+
+
+
+  {
+    "title": "Hora de Aventura con Fionna y Cake",
+    "year": 2023,
+    "genre": ["Animación", "Aventura", "Fantasía", "Comedia"],
+    "coverImage": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/2tgXQ9NU48mNgpsEWfyVzTb2Ho8.jpg",
+    "description": "Fionna y su mejor amiga, la gata Cake, viven en una versión alternativa de Ooo sin magia. Con la ayuda del antiguo Rey Helado, Simon Petrikov, se embarcan en una aventura a través del multiverso mientras son perseguidas por un nuevo y poderoso antagonista determinado a borrarlas de la existencia.",
+    "episodes": [
+      {
+        "episode": 1,
+        "title": "Fionna Campbell",
+        "video_url": "https://dl.dropboxusercontent.com/scl/fi/muvka4exexp893dl5fksi/F1O3NNA-5Y-C1K3ACKE-1.mp4?rlkey=s31qi2exim0a7j8thmi2wwryn&st=8hzz0li5"
+      },
+      {
+        "episode": 2,
+        "title": "Simon Petrikov",
+        "video_url": "https://dl.dropboxusercontent.com/scl/fi/4dox28tw037gvs9ooycyt/F1O3NNA-5Y-C1K3ACKE-2.mp4?rlkey=jbv1wxb6xqeqcetxz7gg57ic2&st=pg0orb9k"
+      },
+      {
+        "episode": 3,
+        "title": "Cake, la gata",
+        "video_url": "https://dl.dropboxusercontent.com/scl/fi/53p74d5qar180pszng4zh/F1O3NNA-5Y-C1K3ACKE-3.mp4?rlkey=7nvkfoy2br0nrrjd0195lplug&st=klkj74dl"
+      },
+      {
+        "episode": 4,
+        "title": "Prismo, el Maestro de los Deseos",
+        "video_url": "https://dl.dropboxusercontent.com/scl/fi/g46b4oxgul58gnwxk78p7/F1O3NNA-5Y-C1K3ACKE-4.mp4?rlkey=a2mekv1e2fo09n4p6xj50h0wo&st=wnzg7pi9"
+      },
+      {
+        "episode": 5,
+        "title": "Destino",
+        "video_url": "https://dl.dropboxusercontent.com/scl/fi/z835g1nnpbk46ycadlhac/F1O3NNA-5Y-C1K3ACKE-5.mp4?rlkey=741oyr4x4g5ux1ghixaim0fk7&st=mtlc1ov2"
+      },
+      {
+        "episode": 6,
+        "title": "El Rey del Invierno",
+        "video_url": "https://dl.dropboxusercontent.com/scl/fi/1c9bnmzq9c55rp9v3xiyv/F1O3NNA-5Y-C1K3ACKE-6.mp4?rlkey=0dssgh29q688luz7y2y1kmntf&st=6iy3zcoa"
+      },
+      {
+        "episode": 7,
+        "title": "Star",
+        "video_url": "https://dl.dropboxusercontent.com/scl/fi/z3ogq3v95x9h3m2fykfeb/F1O3NNA-5Y-C1K3ACKE-7.mp4?rlkey=vbjg1r2u2w7gbo60hyfxprxr6&st=zy8vnak8"
+      },
+      {
+        "episode": 8,
+        "title": "Jerry",
+        "video_url": "https://dl.dropboxusercontent.com/scl/fi/izs94oqhr1nwseujyuhob/F1O3NNA-5Y-C1K3ACKE-8.mp4?rlkey=4tags9gxekbmk432yahi3g7ts&st=79p7eql8"
+      },
+      {
+        "episode": 9,
+        "title": "Casper y Nova",
+        "video_url": "https://dl.dropboxusercontent.com/scl/fi/9nfib8z6ts4kogoz0vmom/F1O3NNA-5Y-C1K3ACKE-9.mp4?rlkey=bw37sd0dvrx9xd29murpuf2cf&st=stbd455x"
+      },
+      {
+        "episode": 10,
+        "title": "Saludos",
+        "video_url": "https://dl.dropboxusercontent.com/scl/fi/ldvecunb7ccxy87n3pdct/F1O3NNA-5Y-C1K3ACKE-10.mp4?rlkey=guf0hemrguza0tfey7mfhayq3&st=vaxkh5xc"
+      }
+    ]
+  },
+
+
+
+  {
+    "title": "Gravity Falls",
+    "year": 2012,
+    "genre": ["Animación", "Misterio", "Comedia", "Aventura"],
+    "coverImage": "https://image.tmdb.org/t/p/original/xVb5ehzbqAyr2nBVlGKLSXziMkq.jpg",
+    "description": "Los gemelos Dipper y Mabel Pines pasan el verano con su tío abuelo Stan en Gravity Falls, Oregón, un pueblo misterioso donde ocurren eventos paranormales y habitan criaturas sobrenaturales.",
+    "episodes": [
+      { "episode": 1, "title": "Turista atrapado", "video_url": "https://dl.dropbox.com/scl/fi/500kt6cf4wp2kkg3ml1dv/GF01-1.mp4?rlkey=cpaaf6wi6okkvpmvimnrdtra6&st=hy2z936k&dl=0" },
+      { "episode": 2, "title": "La leyenda del monstruo del lago", "video_url": "https://dl.dropbox.com/scl/fi/zc64xb9ebq762ssmg3di1/GF01-2.mp4?rlkey=2oucebhgs4benkubegujqzl8a&st=jvvbys0c&dl=0" },
+      { "episode": 3, "title": "Cazadores de cabezas", "video_url": "https://dl.dropbox.com/scl/fi/aufyoqf8t53yu8l1tk1ud/GF01-3.mp4?rlkey=kzubwvshe3of2grd311rrumie&st=ehvcphnx&dl=0" },
+      { "episode": 4, "title": "La mano que mece a Mabel", "video_url": "https://dl.dropbox.com/scl/fi/3z6fzndqilqyd5pe7o20y/GF01-4.mp4?rlkey=bixbooizb05jxdb3lyfxbw8xi&st=guumj4b7&dl=0" },
+      { "episode": 5, "title": "Inconveniencia pública", "video_url": "https://dl.dropbox.com/scl/fi/2yv19oeaebfeisaxiotb7/GF01-5.mp4?rlkey=5qbcsr1o2swjhgrrwiovwvy5s&st=c738np1o&dl=0" },
+      { "episode": 6, "title": "Dipper contra la hombría", "video_url": "https://dl.dropbox.com/scl/fi/x7cj6h8nw4e2gw2kdwf0m/GF01-6.mp4?rlkey=9jomqramoyqusu50ppuuxstr5&st=ko31u8em&dl=0" },
+      { "episode": 7, "title": "Doble Dipper", "video_url": "https://dl.dropbox.com/scl/fi/hh8o9p25ghxgcpe6f1dsd/GF01-7.mp4?rlkey=cdbwmvy48k0pkzf8yeerkcfln&st=6d4tzqr7&dl=0" },
+      { "episode": 8, "title": "Tesoro irracional", "video_url": "https://dl.dropbox.com/scl/fi/6sgvrb4uswz0cbxzp45k5/GF01-8.mp4?rlkey=3ye24utxsgnh5dnt37rhh7izd&st=likeimjb&dl=0" },
+      { "episode": 9, "title": "El cerdo del viajero en el tiempo", "video_url": "https://dl.dropbox.com/scl/fi/2llr0da5v00g3t4j5bk4i/GF01-9.mp4?rlkey=wk023mv05f2odbk4uq0qmfm78&st=21slo4ft&dl=0" },
+      { "episode": 10, "title": "Pelea de luchadores", "video_url": "https://dl.dropbox.com/scl/fi/5ohad4e1b51p8357hvkss/GF01-10.mp4?rlkey=y36s26gpnd2tw4ggtsc0q7947&st=cdulzuuv&dl=0" },
+      { "episode": 11, "title": "Dipper chiquitito", "video_url": "https://dl.dropbox.com/scl/fi/dfwfoi427io8o2kxvoe77/GF01-11.mp4?rlkey=5q0aax73jth4srx1z8eptvtzs&st=kof9xooy&dl=0" },
+      { "episode": 12, "title": "Súper Halloween", "video_url": "https://dl.dropbox.com/scl/fi/rx47e5dchwdm1g7jxqn3s/GF01-12.mp4?rlkey=5vxr3rxkj3l2dbvbhrl149p4m&st=nxpiffx2&dl=0" },
+      { "episode": 13, "title": "La jefa Mabel", "video_url": "https://dl.dropbox.com/scl/fi/6tcu4nuo9fbgit5fi4guv/GF01-13.mp4?rlkey=8cqz5a558532y8wxo8nkd2xo9&st=o1ru7ezz&dl=0" },
+      { "episode": 14, "title": "Pozo sin fondo", "video_url": "https://dl.dropbox.com/scl/fi/mto358ttpzbklnxofo99f/GF01-14.mp4?rlkey=oj3su0eoxzjpqglmyx6oyeewn&st=7yue5pko&dl=0" },
+      { "episode": 15, "title": "Un rudo en la piscina", "video_url": "https://dl.dropbox.com/scl/fi/j653l9wd3zy8f03aputdt/GF01-15.mp4?rlkey=iwre77arj08nj3ci02z4t0hr7&st=uqkjskjc&dl=0" },
+      { "episode": 16, "title": "Aprovecha la alfombra", "video_url": "https://dl.dropbox.com/scl/fi/gvzau9xbo58pn956jdaxy/GF01-16.mp4?rlkey=c6im1dj7lcvlxy6y2xvld052x&st=d4lijur3&dl=0" },
+      { "episode": 17, "title": "Chicoz locoz", "video_url": "https://dl.dropbox.com/scl/fi/yrx36mx6z05sntjfsmf2a/GF01-17.mp4?rlkey=62efpojjp2j9imw2eurje8ean&st=oz6jsd6p&dl=0" },
+      { "episode": 18, "title": "La tierra antes de los cerdos", "video_url": "https://dl.dropbox.com/scl/fi/x6gph3y2c93jf5ty3c0f7/GF01-18.mp4?rlkey=6gv253736cfv4uyrxc68f8ank&st=eo2asaac&dl=0" },
+      { "episode": 19, "title": "Escapando de los sueños", "video_url": "https://dl.dropbox.com/scl/fi/sjbwdcom64d4p6pn7r9h5/GF01-19.mp4?rlkey=vouxh8t4tct2lmq6dtu1zjau8&st=itlm5gw1&dl=0" },
+      { "episode": 20, "title": "Gideon asciende", "video_url": "https://dl.dropbox.com/scl/fi/wyruv9ez4u6nzfjb5sduo/GF01-20.mp4?rlkey=x4zadvbdi3mn4lyktly9h5e7m&st=4onhpwxn&dl=0" }
+    ]
+  },
+  {
+    "title": "Gravity Falls Temporada 2",
+    "year": 2014,
+    "genre": ["Animación", "Misterio", "Comedia", "Aventura"],
+    "coverImage": "https://image.tmdb.org/t/p/original/l5TDuGc6ScT1nci1hrO0iR2WWCx.jpg",
+    "description": "En esta temporada, Dipper y Mabel comienzan a desentrañar el origen de los diarios y la verdadera identidad del autor, mientras una amenaza interdimensional llamada Bill Clave acecha el destino del mundo.",
+    "episodes": [
+      { "episode": 1, "title": "Scary-oke", "video_url": "https://dl.dropbox.com/scl/fi/hcbnidmozrtb3sxzzzzoy/GF2-1.mp4?rlkey=tqtcmot0pvreondd9bfliys6l&st=32cxr6ya&dl=0" },
+      { "episode": 2, "title": "Dentro del búnker", "video_url": "https://dl.dropbox.com/scl/fi/cckvjsyje1w6reemktc96/GF2-2.mp4?rlkey=c77octz0qpvsg9c7gfwl5oppq&st=pgggf1c3&dl=0" },
+      { "episode": 3, "title": "La guerra del golf", "video_url": "https://dl.dropbox.com/scl/fi/4fhz30dgw2fbc3zkx3foq/GF2-3.mp4?rlkey=40ouf5wtr6vo42fi6alshaj2j&st=97yvyqpi&dl=0" },
+      { "episode": 4, "title": "Ópera de calcetines", "video_url": "https://dl.dropbox.com/scl/fi/4d6y8565kut2h72pe9dg8/GF2-4.mp4?rlkey=8vwtazih5q0gih5qz5z2rg5wo&st=phzmdtpc&dl=0" },
+      { "episode": 5, "title": "Soos y la chica de verdad", "video_url": "https://dl.dropbox.com/scl/fi/rbfynft1hrz5mr449ooof/GF2-5.mp4?rlkey=7nmspsububitt4nfa27tfpmqj&st=vu1ezoo7&dl=0" },
+      { "episode": 6, "title": "La pequeña tienda de los horrores", "video_url": "https://dl.dropbox.com/scl/fi/2e90m4rfvuz07s3jaezfr/GF2-6.mp4?rlkey=pkv7m1xsh2wqs72blm6h30wsi&st=5afgo1jo&dl=0" },
+      { "episode": 7, "title": "La sociedad del ojo ciego", "video_url": "https://dl.dropbox.com/scl/fi/djplye1pozetg9udswvuu/GF2-7.mp4?rlkey=l5cvpu2ymc5svh1xaay70n709&st=kimfy1lo&dl=0" },
+      { "episode": 8, "title": "El juego de Blendin", "video_url": "https://dl.dropbox.com/scl/fi/yv94jmvmzt0orexi48nfr/GF2-8.mp4?rlkey=zrg2ichq6jucvrm9h42kqf1l2&st=ddk0zxb4&dl=0" },
+      { "episode": 9, "title": "El dios del amor", "video_url": "https://dl.dropbox.com/scl/fi/u50ttpv2npr6x5iqythy3/GF2-9.mp4?rlkey=g60zk1oumgfcb7j9vyr5fa1ya&st=8vt160vu&dl=0" },
+      { "episode": 10, "title": "El misterio de la Mansión Northwest", "video_url": "https://dl.dropbox.com/scl/fi/1u1nfw529bkzvacuphvck/GF2-10.mp4?rlkey=np5jxkotkh8tvc2zq81fxp9co&st=q4sjwo9y&dl=0" },
+      { "episode": 11, "title": "Él no es lo que parece", "video_url": "https://dl.dropbox.com/scl/fi/8t7p87p9w2kel3wpn3djo/GF2-11.mp4?rlkey=m2tewifcd13pz847a6c64xze1&st=j1pfzd6u&dl=0" },
+      { "episode": 12, "title": "Relato de dos Stans", "video_url": "https://dl.dropbox.com/scl/fi/aokd0omi8vjnekp04rpmm/GF2-12.mp4?rlkey=c3cxh6kh02yn7lza0q7nvh2an&st=fdgs24th&dl=0" },
+      { "episode": 13, "title": "Mazmorras, mazmorras y más mazmorras", "video_url": "https://dl.dropbox.com/scl/fi/h57fbhk1ntuxeejgkc4kh/GF2-13.mp4?rlkey=ktei879vw8idzvomfluv2yk53&st=svovto9w&dl=0" },
+      { "episode": 14, "title": "El candidato", "video_url": "https://dl.dropbox.com/scl/fi/z9a4amiyvislxdvp5i5yg/GF2-14.mp4?rlkey=ndwjbl6i2ahbmejvsdtfmleub&st=ht6hxiao&dl=0" },
+      { "episode": 15, "title": "La última Mabelcornio", "video_url": "https://dl.dropbox.com/scl/fi/wd5zk7tcycc6kggqvu041/GF2-15.mp4?rlkey=n22iuz23b0uncaxryil1o62nw&st=cc083bbe&dl=0" },
+      { "episode": 16, "title": "Atracción por la carretera", "video_url": "https://dl.dropbox.com/scl/fi/3vhla48sjkq6jqybnzxzv/GF2-16.mp4?rlkey=17n0ay6attoi72ekuruo55djo&st=8zxpjfdk&dl=0" },
+      { "episode": 17, "title": "Dipper y Mabel contra el futuro", "video_url": "https://dl.dropbox.com/scl/fi/io7xa529ydmm1fago8k13/GF2-17.mp4?rlkey=ab9emkwmot26lrzm7ymwqa3qw&st=xk7tsp46&dl=0" },
+      { "episode": 18, "title": "Raromagedón: Parte 1", "video_url": "https://dl.dropbox.com/scl/fi/trbns5yc4whk7pofcn6gx/GF2-18.mp4?rlkey=5p3ue9hoa5rjzozb94ymsslsq&st=yltsjqto&dl=0" },
+      { "episode": 19, "title": "Raromagedón 2: Escapando de la realidad", "video_url": "https://dl.dropbox.com/scl/fi/ovowaiycf5rg5ah8f77dm/GF2-19.mp4?rlkey=949jr7itnwx9i9nk3pywfhg07&st=adr75yrv&dl=0" },
+      { "episode": 20, "title": "Raromagedón 3: Recuperar Gravity Falls", "video_url": "https://dl.dropbox.com/scl/fi/wgjuu9mxvb3j090v5t8lj/GF2-20.mp4?rlkey=zfjz7ncnqlve1trdzsle9dkxh&st=diqk1nl9&dl=0" }
+    ]
+  },
+
+
+  {
+    "title": "Chainsaw Man",
+    "year": 2022,
+    "genre": ["Acción", "Fantasía oscura", "Gore"],
+    "coverImage": "https://img.animeflv.cc/cover/chainsaw-man.jpg",
+    "description": "Denji es un joven atrapado en la pobreza que paga las deudas de su padre fallecido trabajando como cazador de demonios con su perro demonio, Pochita. Tras una traición, Denji se fusiona con Pochita para convertirse en 'Chainsaw Man', un híbrido humano-demonio con motosierras en sus extremidades, y es reclutado por una organización estatal para cazar demonios a nivel profesional.",
+    "episodes": [
+      {
+        "episode": 1,
+        "title": "Perro y motosierra",
+        "video_url": "https://dl.dropboxusercontent.com/scl/fi/l399s3fgsp8xq7ga0e460/CH1I4NS3AW-M13AN-1.mp4?rlkey=wug74t66niaxxzrcc1248gjqe&st=vdjs8r3u"
+      },
+      {
+        "episode": 2,
+        "title": "Llegada a Tokio",
+        "video_url": "https://dl.dropboxusercontent.com/scl/fi/npea50al6wi2fw6i4wzey/CH1I4NS3AW-M13AN-2.mp4?rlkey=8412mkq3wtdpc1h51ihyltwf0&st=vlbqrbg8"
+      },
+      {
+        "episode": 3,
+        "title": "El paradero de Meowy",
+        "video_url": "https://dl.dropboxusercontent.com/scl/fi/eezw3blshavbawq68gdh3/CH1I4NS3AW-M13AN-3.mp4?rlkey=11o3xid31lr9ncnrtxsg1p7bm&st=jinj00qg"
+      },
+      {
+        "episode": 4,
+        "title": "Rescate",
+        "video_url": "https://dl.dropboxusercontent.com/scl/fi/f0z5vbdngfx7tzayl5zs4/CH1I4NS3AW-M13AN-4.mp4?rlkey=6tvqmypnhxuiu5e4idtwmukqx&st=ljrhqhvg"
+      },
+      {
+        "episode": 5,
+        "title": "El arma del diablo",
+        "video_url": "https://dl.dropboxusercontent.com/scl/fi/0zb25x8e9qpdfalrcjwia/CH1I4NS3AW-M13AN-5.mp4?rlkey=pna4845ztb1kplrhpyioxiddb&st=j3537hzm"
+      },
+      {
+        "episode": 6,
+        "title": "Matar a Denji",
+        "video_url": "https://dl.dropboxusercontent.com/scl/fi/80cn48pmlpwx7ofra2052/CH1I4NS3AW-M13AN-6.mp4?rlkey=zw6v0pth26044ukz7djzgy3k1&st=2bkbdv14"
+      },
+      {
+        "episode": 7,
+        "title": "El sabor de un beso",
+        "video_url": "https://dl.dropboxusercontent.com/scl/fi/7wuit98a18ovpkbq2s4ke/CH1I4NS3AW-M13AN-7.mp4?rlkey=7at425yxe0fflazu0xtgbek6u&st=d6is678u"
+      },
+      {
+        "episode": 8,
+        "title": "Tiroteo",
+        "video_url": "https://dl.dropboxusercontent.com/scl/fi/l1ykpfn2e8v9q60v7xb4n/CH1I4NS3AW-M13AN-8.mp4?rlkey=14ukma4yhk4q19tm7s6u981yq&st=o6cf048u"
+      },
+      {
+        "episode": 9,
+        "title": "Desde Kioto",
+        "video_url": "https://dl.dropboxusercontent.com/scl/fi/zpg3c3yarz2xnmsz5srcd/CH1I4NS3AW-M13AN-9.mp4?rlkey=99pjfv3wbnkfwvlcw72t6dmfc&st=ypidxswz"
+      },
+      {
+        "episode": 10,
+        "title": "Aún más dañado",
+        "video_url": "https://dl.dropboxusercontent.com/scl/fi/p1pgiceyk2r1o256saijv/CH1I4NS3AW-M13AN-10.mp4?rlkey=znvd40zp2oe2svelyz9a2jjqp&st=0ke3i34q"
+      },
+      {
+        "episode": 11,
+        "title": "Inicio de la misión",
+        "video_url": "https://dl.dropboxusercontent.com/scl/fi/h4xhlp0vvd2eohzs3hne3/CH1I4NS3AW-M13AN-11.mp4?rlkey=d92mbwrkeg6ogyndw34r5ly4v&st=53lsoiz0"
+      },
+      {
+        "episode": 12,
+        "title": "Katana vs. Motosierra",
+        "video_url": "https://dl.dropboxusercontent.com/scl/fi/nd35tqx2av4lj9ei1e4sx/CH1I4NS3AW-M13AN-12.mp4?rlkey=f9l421yos43sivrg1fs63nu69&st=5oc2p7bw"
+      }
+    ]
+  },
+
+
+  
+  
+  {
+    "title": "Mashle: Magic and Muscles - Temporada 1",
+    "year": 2023,
+    "genre": ["Animación", "Comedia", "Fantasía", "Acción"],
+    "coverImage": "https://image.tmdb.org/t/p/w154/sNh2gUztoJ9q2wCsvvIcXjtUsog.jpg",
+    "description": "En un mundo donde la magia lo es todo, Mash Burnedead es un joven que nació sin una pizca de poder mágico. Para poder vivir una vida tranquila con su abuelo, debe ingresar a la Academia de Magia Easton y convertirse en un 'Visionario Divino' usando solo sus músculos.",
+    "episodes": [
+      { "episode": 1, "title": "Mash Burnedead y unos músculos bien trabajados", "video_url": "https://dl.dropboxusercontent.com/scl/fi/ql0v3rsvhfl6vfw3x9mo8/M1A4S5H1LE-1.mp4?rlkey=vzzqrjp64xk3zu93nkdyhnqfi&st=uq57djl7" },
+      { "episode": 2, "title": "Mash Burnedead y el laberinto misterioso", "video_url": "https://dl.dropboxusercontent.com/scl/fi/vh3zkqvdg6hqyet17o8ql/M1A4S5H1LE-2.mp4?rlkey=qg9xjeggdw0jl9pefa8lw011r&st=vyimdohz" },
+      { "episode": 3, "title": "Mash Burnedead y alguien a quien no hacer enfadar", "video_url": "https://dl.dropboxusercontent.com/scl/fi/rmm2fqu3le1za7dx7w1rw/M1A4S5H1LE-3.mp4?rlkey=2nu3pm7u8n3l4hr5r6hgjvnxt&st=x40oiqqr" },
+      { "episode": 4, "title": "Mash Burnedead y el mago bastante fuerte", "video_url": "https://dl.dropboxusercontent.com/scl/fi/r60tep15oxkd0cs1ycggn/M1A4S5H1LE-4.mp4?rlkey=d8xy6uzdjdfbrd8m3yup3p1kq&st=tyvep9y6" },
+      { "episode": 5, "title": "Mash Burnedead y el compañero que no consigue novia", "video_url": "https://dl.dropboxusercontent.com/scl/fi/4tnkm8dngxou5zf50arfv/M1A4S5H1LE-5.mp4?rlkey=ssvkjqg2r94ywy2mt0r4uk07m&st=u6k0ffoa" },
+      { "episode": 6, "title": "Mash Burnedead y la magia de hierro", "video_url": "https://dl.dropboxusercontent.com/scl/fi/cfta6z5f2w93sbjezav1p/M1A4S5H1LE-6.mp4?rlkey=22imo2c4yfz5tsgaqtop0z7fb&st=sotccz4u" },
+      { "episode": 7, "title": "Mash Burnedead y el domador de marionetas", "video_url": "https://dl.dropboxusercontent.com/scl/fi/jpgzcmq80igwtfdf6m8go/M1A4S5H1LE-7.mp4?rlkey=ipoxz9vq4uy7k97ajv3draig2&st=r9ew0niw" },
+      { "episode": 8, "title": "Mash Burnedead y los Lobos Mágicos", "video_url": "https://dl.dropboxusercontent.com/scl/fi/8ezugojb1r5hk58ypbk4v/M1A4S5H1LE-8.mp4?rlkey=7i9bhokr81pljq5z1msva87c3&st=lxsnvs3q" },
+      { "episode": 9, "title": "Mash Burnedead y la batalla acelerada", "video_url": "https://dl.dropboxusercontent.com/scl/fi/ug2fepueibevjtvrwtayt/M1A4S5H1LE-9.mp4?rlkey=lnvcrmushe2u0spj7z8e64mph&st=s1md9259" },
+      { "episode": 10, "title": "Mash Burnedead y el Visionario Divino", "video_url": "https://dl.dropboxusercontent.com/scl/fi/0hs3jksnd6t93kxuynyg0/M1A4S5H1LE-10.mp4?rlkey=0hnjcb6q4d77i5fw8habwttwn&st=tasv3rtj" },
+      { "episode": 11, "title": "Mash Burnedead y la supervivencia del más fuerte", "video_url": "https://dl.dropboxusercontent.com/scl/fi/73icg1k8fs0ezu6zmxmul/M1A4S5H1LE-11.mp4?rlkey=x02jtqo35xupabkxg42am7d7n&st=6gucb57l" },
+      { "episode": 12, "title": "Mash Burnedead y el espejo mágico", "video_url": "https://dl.dropboxusercontent.com/scl/fi/67mosdkp0zhjx6mtsaw1y/M1A4S5H1LE-12.mp4?rlkey=66vvzolb4gsyslb58cu2gq8vu&st=4l0ryivj" }
+    ]
+  },
+  {
+    "title": "Mashle: Magic and Muscles - Temporada 2",
+    "year": 2024,
+    "genre": ["Animación", "Comedia", "Fantasía", "Acción"],
+    "coverImage": "https://image.tmdb.org/t/p/w154/sNh2gUztoJ9q2wCsvvIcXjtUsog.jpg",
+    "description": "Mash continúa su ascenso en la Academia Easton enfrentándose al examen de selección para Visionario Divino. Sin embargo, fuerzas oscuras y secretos del pasado de Mash comienzan a emerger, poniendo a prueba no solo su fuerza, sino sus lazos de amistad.",
+    "episodes": [
+      { "episode": 1, "title": "Mash Burnedead y los Visionarios Divinos", "video_url": "https://dl.dropboxusercontent.com/scl/fi/bz66u1l5ykwfeqdajmkcq/M1A4S5H1LE-1.mp4?rlkey=xvveploa3tyttkssd9lkh6s4t&st=lru88k9n" },
+      { "episode": 2, "title": "Mash Burnedead y la visita a casa", "video_url": "https://dl.dropboxusercontent.com/scl/fi/i3nikaig07klrnaxdr330/M1A4S5H1LE-2.mp4?rlkey=poe95crg8xjb51bva6dqul6xh&st=qg1xm8b4" },
+      { "episode": 3, "title": "Rayne Ames y el regalo de Dios", "video_url": "https://dl.dropboxusercontent.com/scl/fi/w1oxx9i1sr7jmnr59gom8/M1A4S5H1LE-3.mp4?rlkey=uo2wcaa0q2n2yzvgdpz19mt4v&st=dci7ioz3" },
+      { "episode": 4, "title": "Mash Burnedead y el globo fuerte", "video_url": "https://dl.dropboxusercontent.com/scl/fi/c6dsz9ibi2md1lurmql0l/M1A4S5H1LE-4.mp4?rlkey=odm8qsyj4av1eok523j7z5nkw&st=fe64mapm" },
+      { "episode": 5, "title": "Finn Ames y la amistad", "video_url": "https://dl.dropboxusercontent.com/scl/fi/hiz2h6l9yvtrjmp12ucwz/M1A4S5H1LE-5.mp4?rlkey=ss4zx4rayv74t39boucw228uo&st=08je7uhy" },
+      { "episode": 6, "title": "Mash Burnedead y el juego de las miradas", "video_url": "https://dl.dropboxusercontent.com/scl/fi/8cg46g6t5ij7yhwk76mzf/M1A4S5H1LE-6.mp4?rlkey=mvyw6it4o1myqkuvae32xe4zx&st=bt7q0v40" },
+      { "episode": 7, "title": "Mash Burnedead y el maestro de la magia", "video_url": "https://ia600309.us.archive.org/11/items/M1AS34H1L3L4/M1A4S5H1LE%207.mp4" },
+      { "episode": 8, "title": "Mash Burnedead y la torre alta", "video_url": "https://ia600309.us.archive.org/11/items/M1AS34H1L3L4/M1A4S5H1LE%208.mp4" },
+      { "episode": 9, "title": "Wahlberg Baigan y la magia de oscuridad", "video_url": "https://ia800309.us.archive.org/25/items/K5JKASFJK1/M1A4S5H1LE%209.mp4" },
+      { "episode": 10, "title": "Wahlberg Baigan y el mayor peligro", "video_url": "https://dl.dropboxusercontent.com/scl/fi/0hs3jksnd6t93kxuynyg0/M1A4S5H1LE-10.mp4?rlkey=0hnjcb6q4d77i5fw8habwttwn&st=n9tukrpy" },
+      { "episode": 11, "title": "Mash Burnedead y el origen del mejor mago", "video_url": "https://dl.dropboxusercontent.com/scl/fi/73icg1k8fs0ezu6zmxmul/M1A4S5H1LE-11.mp4?rlkey=x02jtqo35xupabkxg42am7d7n&st=10y5dqr8" },
+      { "episode": 12, "title": "Mash Burnedead y sus buenos amigos", "video_url": "https://dl.dropboxusercontent.com/scl/fi/67mosdkp0zhjx6mtsaw1y/M1A4S5H1LE-12.mp4?rlkey=66vvzolb4gsyslb58cu2gq8vu&st=z2ky8k6f" }
+    ]
+  },
+
+  {
+    "title": "Chainsaw Man - Temporada 1",
+    "year": 2022,
+    "genre": ["Acción", "Fantasía oscura", "Gore"],
+    "coverImage": "https://img.animeflv.cc/cover/chainsaw-man.jpg",
+    "description": "Denji es un joven atrapado en la pobreza que paga las deudas de su padre fallecido trabajando como cazador de demonios con su perro demonio, Pochita. Tras una traición, Denji se fusiona con Pochita para convertirse en 'Chainsaw Man', un híbrido humano-demonio con motosierras en sus extremidades, y es reclutado por una organización estatal para cazar demonios a nivel profesional.",
+    "episodes": [
+      {
+        "episode": 1,
+        "title": "Perro y motosierra",
+        "video_url": "https://dl.dropboxusercontent.com/scl/fi/l399s3fgsp8xq7ga0e460/CH1I4NS3AW-M13AN-1.mp4?rlkey=wug74t66niaxxzrcc1248gjqe&st=vdjs8r3u"
+      },
+      {
+        "episode": 2,
+        "title": "Llegada a Tokio",
+        "video_url": "https://dl.dropboxusercontent.com/scl/fi/npea50al6wi2fw6i4wzey/CH1I4NS3AW-M13AN-2.mp4?rlkey=8412mkq3wtdpc1h51ihyltwf0&st=vlbqrbg8"
+      },
+      {
+        "episode": 3,
+        "title": "El paradero de Meowy",
+        "video_url": "https://dl.dropboxusercontent.com/scl/fi/eezw3blshavbawq68gdh3/CH1I4NS3AW-M13AN-3.mp4?rlkey=11o3xid31lr9ncnrtxsg1p7bm&st=jinj00qg"
+      },
+      {
+        "episode": 4,
+        "title": "Rescate",
+        "video_url": "https://dl.dropboxusercontent.com/scl/fi/f0z5vbdngfx7tzayl5zs4/CH1I4NS3AW-M13AN-4.mp4?rlkey=6tvqmypnhxuiu5e4idtwmukqx&st=ljrhqhvg"
+      },
+      {
+        "episode": 5,
+        "title": "El arma del diablo",
+        "video_url": "https://dl.dropboxusercontent.com/scl/fi/0zb25x8e9qpdfalrcjwia/CH1I4NS3AW-M13AN-5.mp4?rlkey=pna4845ztb1kplrhpyioxiddb&st=j3537hzm"
+      },
+      {
+        "episode": 6,
+        "title": "Matar a Denji",
+        "video_url": "https://dl.dropboxusercontent.com/scl/fi/80cn48pmlpwx7ofra2052/CH1I4NS3AW-M13AN-6.mp4?rlkey=zw6v0pth26044ukz7djzgy3k1&st=2bkbdv14"
+      },
+      {
+        "episode": 7,
+        "title": "El sabor de un beso",
+        "video_url": "https://dl.dropboxusercontent.com/scl/fi/7wuit98a18ovpkbq2s4ke/CH1I4NS3AW-M13AN-7.mp4?rlkey=7at425yxe0fflazu0xtgbek6u&st=d6is678u"
+      },
+      {
+        "episode": 8,
+        "title": "Tiroteo",
+        "video_url": "https://dl.dropboxusercontent.com/scl/fi/l1ykpfn2e8v9q60v7xb4n/CH1I4NS3AW-M13AN-8.mp4?rlkey=14ukma4yhk4q19tm7s6u981yq&st=o6cf048u"
+      },
+      {
+        "episode": 9,
+        "title": "Desde Kioto",
+        "video_url": "https://dl.dropboxusercontent.com/scl/fi/zpg3c3yarz2xnmsz5srcd/CH1I4NS3AW-M13AN-9.mp4?rlkey=99pjfv3wbnkfwvlcw72t6dmfc&st=ypidxswz"
+      },
+      {
+        "episode": 10,
+        "title": "Aún más dañado",
+        "video_url": "https://dl.dropboxusercontent.com/scl/fi/p1pgiceyk2r1o256saijv/CH1I4NS3AW-M13AN-10.mp4?rlkey=znvd40zp2oe2svelyz9a2jjqp&st=0ke3i34q"
+      },
+      {
+        "episode": 11,
+        "title": "Inicio de la misión",
+        "video_url": "https://dl.dropboxusercontent.com/scl/fi/h4xhlp0vvd2eohzs3hne3/CH1I4NS3AW-M13AN-11.mp4?rlkey=d92mbwrkeg6ogyndw34r5ly4v&st=53lsoiz0"
+      },
+      {
+        "episode": 12,
+        "title": "Katana vs. Motosierra",
+        "video_url": "https://dl.dropboxusercontent.com/scl/fi/nd35tqx2av4lj9ei1e4sx/CH1I4NS3AW-M13AN-12.mp4?rlkey=f9l421yos43sivrg1fs63nu69&st=5oc2p7bw"
+      }
+    ]
+  },
+  
   {
   "title": "Captain Tsubasa",
   "year": 1983,
