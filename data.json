@@ -1,7 +1,73 @@
 [
+  {
+    "title": "Stranger Things Temporada 2",
+    "year": 2017,
+    "genre": ["Drama", "Fantasía", "Terror"],
+    "coverImage": "https://image.tmdb.org/t/p/original/74nFJmiapxKuUBXRbSu6VqGGcuo.jpg",
+    "description": "Un año después del regreso de Will, la vida parece haber vuelto a la normalidad, pero algo siniestro acecha bajo la superficie de Hawkins, amenazando a todos los que sobrevivieron.",
+    "episodes": [
+      { "episode": 1, "title": "Capítulo 1", "video_url": "https://archive.org/download/stranger-things-2/Stranger%20Things%20Temporada%202/Stranger%20Things%202x01.mkv" },
+      { "episode": 2, "title": "Capítulo 2", "video_url": "https://archive.org/download/stranger-things-2/Stranger%20Things%20Temporada%202/Stranger%20Things%202x02.mkv" },
+      { "episode": 3, "title": "Capítulo 3", "video_url": "https://archive.org/download/stranger-things-2/Stranger%20Things%20Temporada%202/Stranger%20Things%202x03.mkv" },
+      { "episode": 4, "title": "Capítulo 4", "video_url": "https://archive.org/download/stranger-things-2/Stranger%20Things%20Temporada%202/Stranger%20Things%202x04.mkv" },
+      { "episode": 5, "title": "Capítulo 5", "video_url": "https://archive.org/download/stranger-things-2/Stranger%20Things%20Temporada%202/Stranger%20Things%202x05.mkv" },
+      { "episode": 6, "title": "Capítulo 6", "video_url": "https://archive.org/download/stranger-things-2/Stranger%20Things%20Temporada%202/Stranger%20Things%202x06.mkv" },
+      { "episode": 7, "title": "Capítulo 7", "video_url": "https://archive.org/download/stranger-things-2/Stranger%20Things%20Temporada%202/Stranger%20Things%202x07.mkv" },
+      { "episode": 8, "title": "Capítulo 8", "video_url": "https://archive.org/download/stranger-things-2/Stranger%20Things%20Temporada%202/Stranger%20Things%202x08.mkv" },
+      { "episode": 9, "title": "Capítulo 9", "video_url": "https://archive.org/download/stranger-things-2/Stranger%20Things%20Temporada%202/Stranger%20Things%202x09.mkv" }
+    ]
+  },
+  {
+    "title": "Stranger Things Temporada 3",
+    "year": 2019,
+    "genre": ["Drama", "Fantasía", "Terror"],
+    "coverImage": "https://image.tmdb.org/t/p/original/sDms9g40ZBhjMIfX9YqqaqId8sK.jpg",
+    "description": "Es el verano de 1985 en Hawkins. El nuevo centro comercial Starcourt es el lugar de moda, mientras que el romance florece y el peligro se acerca desde un Upside Down que no ha terminado con ellos.",
+    "episodes": [
+      { "episode": 1, "title": "Capítulo 1", "video_url": "https://archive.org/download/stranger-things-3/Stranger%20Things%20Temporada%203/Stranger%20Things%203x01.mkv" },
+      { "episode": 2, "title": "Capítulo 2", "video_url": "https://archive.org/download/stranger-things-3/Stranger%20Things%20Temporada%203/Stranger%20Things%203x02.mkv" },
+      { "episode": 3, "title": "Capítulo 3", "video_url": "https://archive.org/download/stranger-things-3/Stranger%20Things%20Temporada%203/Stranger%20Things%203x03.mkv" },
+      { "episode": 4, "title": "Capítulo 4", "video_url": "https://archive.org/download/stranger-things-3/Stranger%20Things%20Temporada%203/Stranger%20Things%203x04.mkv" },
+      { "episode": 5, "title": "Capítulo 5", "video_url": "https://archive.org/download/stranger-things-3/Stranger%20Things%20Temporada%203/Stranger%20Things%203x05.mkv" },
+      { "episode": 6, "title": "Capítulo 6", "video_url": "https://archive.org/download/stranger-things-3/Stranger%20Things%20Temporada%203/Stranger%20Things%203x06.mkv" },
+      { "episode": 7, "title": "Capítulo 7", "video_url": "https://archive.org/download/stranger-things-3/Stranger%20Things%20Temporada%203/Stranger%20Things%203x07.mkv" },
+      { "episode": 8, "title": "Capítulo 8", "video_url": "https://archive.org/download/stranger-things-3/Stranger%20Things%20Temporada%203/Stranger%20Things%203x08.mkv" }
+    ]
+  },
+  {
+    "title": "Stranger Things Temporada 4",
+    "year": 2022,
+    "genre": ["Drama", "Fantasía", "Terror"],
+    "coverImage": "https://image.tmdb.org/t/p/original/zvGTZYDCoMSMIBkXExxRxLYimqN.jpg",
+    "description": "Han pasado seis meses desde la batalla de Starcourt. Separados por primera vez, los amigos deben enfrentarse a una nueva y terrorífica amenaza sobrenatural: Vecna.",
+    "episodes": [
+      { "episode": 1, "title": "Capítulo 1", "video_url": "https://archive.org/download/str5ng3r-th1ngs-4/Stranger%20Things%20S04E01.mp4" },
+      { "episode": 2, "title": "Capítulo 2", "video_url": "https://archive.org/download/str5ng3r-th1ngs-4/Stranger%20Things%20S04E02.mp4" },
+      { "episode": 3, "title": "Capítulo 3", "video_url": "https://archive.org/download/str5ng3r-th1ngs-4/Stranger%20Things%20S04E03.mp4" },
+      { "episode": 4, "title": "Capítulo 4", "video_url": "https://archive.org/download/str5ng3r-th1ngs-4/Stranger%20Things%20S04E04.mp4" },
+      { "episode": 5, "title": "Capítulo 5", "video_url": "https://archive.org/download/str5ng3r-th1ngs-4/Stranger%20Things%20S04E05.mp4" },
+      { "episode": 6, "title": "Capítulo 6", "video_url": "https://archive.org/download/str5ng3r-th1ngs-4/Stranger%20Things%20S04E06.mp4" },
+      { "episode": 7, "title": "Capítulo 7", "video_url": "https://archive.org/download/str5ng3r-th1ngs-4/Stranger%20Things%20S04E07.mp4" },
+      { "episode": 8, "title": "Capítulo 8", "video_url": "https://archive.org/download/str5ng3r-th1ngs-4/Stranger%20Things%20S04E08.mkv" },
+      { "episode": 9, "title": "Capítulo 9", "video_url": "https://archive.org/download/str5ng3r-th1ngs-4/Stranger%20Things%20S04E09.mkv" }
+    ]
+  },
+  {
+    "title": "Stranger Things Temporada 5",
+    "year": 2025,
+    "genre": ["Drama", "Fantasía", "Terror"],
+    "coverImage": "https://image.tmdb.org/t/p/original/5i5Fg549J27knMvhI5NRM2FT3Gn.jpg",
+    "description": "La épica conclusión de la lucha contra el Upside Down. Hawkins se enfrenta a su destino final mientras Eleven y sus amigos intentan cerrar los portales para siempre.",
+    "episodes": [
+      { "episode": 1, "title": "Capítulo 1", "video_url": "https://pomf2.lain.la/f/n58y1njg.mp4" },
+      { "episode": 2, "title": "Capítulo 2", "video_url": "https://pomf2.lain.la/f/43r2w40w.mp4" },
+      { "episode": 3, "title": "Capítulo 3", "video_url": "https://pomf2.lain.la/f/62flw549.mp4" },
+      { "episode": 4, "title": "Capítulo 4", "video_url": "https://pomf2.lain.la/f/aezjdte6.mp4" }
+    ]
+  },
   
   {
-    "title": "Las aventuras de Jackie Chan - Temporada 2",
+    "title": "Las aventuras de Jackie Chan Temporada 2",
     "year": 2001,
     "genre": ["Animación", "Acción", "Aventura"],
     "coverImage": "https://image.tmdb.org/t/p/original/m8F4HDlKpJk3GoDtq20h2dyQWwA.jpg",
@@ -49,7 +115,7 @@
     ]
   },
   {
-    "title": "Las aventuras de Jackie Chan - Temporada 3",
+    "title": "Las aventuras de Jackie Chan Temporada 3",
     "year": 2002,
     "genre": ["Animación", "Acción", "Aventura"],
     "coverImage": "https://image.tmdb.org/t/p/original/m8F4HDlKpJk3GoDtq20h2dyQWwA.jpg",
@@ -75,7 +141,7 @@
     ]
   },
   {
-    "title": "Las aventuras de Jackie Chan - Temporada 4",
+    "title": "Las aventuras de Jackie Chan Temporada 4",
     "year": 2003,
     "genre": ["Animación", "Acción", "Aventura"],
     "coverImage": "https://image.tmdb.org/t/p/original/m8F4HDlKpJk3GoDtq20h2dyQWwA.jpg",
