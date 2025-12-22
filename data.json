@@ -67,7 +67,7 @@
   
 {
   "title": "La Pantera Rosa",
-  "genres": ["Animación", "Comedia", "Clásico"],
+  "genre": ["Animación", "Comedia", "Clásico"],
   "description": "La serie original que sigue las aventuras de la pantera más famosa y sofisticada del mundo.",
   "coverImage": "https://m.media-amazon.com/images/M/MV5BNGFmM2Y2NzktZDE0Yy00OWUwLWJhYjgtNGMzMTY5YjY5MWJhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
   "episodes": [
