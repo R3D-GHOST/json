@@ -1,5 +1,140 @@
 [
   {
+    "title": "Henry Danger: La Película",
+    "description": "Henry Hart regresa para enfrentar una nueva amenaza que pone en peligro a Swellview, llevando sus habilidades de superhéroe al siguiente nivel en esta aventura de largometraje.",
+    "year": 2025,
+    "studio": "Nickelodeon",
+    "coverImage": "https://image.tmdb.org/t/p/original/dFWj2rOGsqSIX1PHFghbCBgpMnk.jpg",
+    "genre": [
+      "Acción",
+      "Comedia",
+      "Aventura",
+      "Estreno",
+    ],
+    "video_url": "https://pomf2.lain.la/f/54xqf4us.mp4?download=1"
+  },
+  {
+    "title": "Avatar: Fuego y Ceniza (Fire and Ash)",
+    "description": "En la tercera entrega de la saga, Jake Sully y Neytiri se encuentran con una nueva tribu de Na'vi, el 'Pueblo de la Ceniza', que muestra un lado más oscuro y agresivo de la cultura de Pandora.",
+    "year": 2025,
+    "studio": "20th Century Studios",
+    "coverImage": "https://image.tmdb.org/t/p/original/4n1U0Mwn7djux6VKNYDRWPgS2x6.jpg",
+    "genre": [
+      "Ciencia ficción",
+      "Acción",
+      "Aventura"
+    ],
+    "video_url": "https://pomf2.lain.la/f/hi4ypz0u.mp4"
+  },
+  {
+    "title": "Avatar 2: El camino del agua",
+    "description": "Más de una década después de los eventos de la primera película, la familia Sully busca refugio con el clan Metkayina en los arrecifes de Pandora para sobrevivir a una nueva invasión humana.",
+    "year": 2022,
+    "studio": "20th Century Studios",
+    "coverImage": "https://image.tmdb.org/t/p/original/bqOqQ2Tawum3eHKNrc94P4EeaZB.jpg",
+    "genre": [
+      "Ciencia ficción",
+      "Acción",
+      "Aventura"
+    ],
+    "video_url": "https://archive.org/download/02-madera-ser-maestro/02%20madera%20ser%20maestro%20.ia.mp4"
+  },
+  {
+    "title": "Avatar",
+    "description": "Un marine parapléjico es enviado a la luna Pandora en una misión única, pero termina dividido entre seguir sus órdenes y proteger el mundo que ahora siente como su hogar.",
+    "year": 2009,
+    "studio": "20th Century Studios",
+    "coverImage": "https://image.tmdb.org/t/p/original/t5T3LPbLLgP2OP6kloM9p2PXpJL.jpg",
+    "genre": [
+      "Ciencia ficción",
+      "Acción",
+      "Fantasía"
+    ],
+    "video_url": "https://archive.org/download/feo-guitierrez/feo%20guitierrez.mp4"
+  },
+  {
+    "title": "Nacido para ser Rey",
+    "description": "Un niño descubre la mítica espada Excalibur y debe unir a sus amigos para luchar contra una hechicera medieval.",
+    "year": 2019,
+    "studio": "20th Century Fox",
+    "coverImage": "https://i.ibb.co/m5Fjhgp/nacidoparaserrey.png",
+    "genre": ["Aventura", "Fantasía", "Familia"],
+    "video_url": "http://archive.org/download/ceccvas2/5ub1d0_p4ra_str3am1ng_A852/12.mp4"
+  },
+  {
+    "title": "Tarzán",
+    "description": "Un hombre criado por simios en la selva africana debe decidir a qué mundo pertenece tras conocer a otros humanos.",
+    "year": 1999,
+    "studio": "Disney",
+    "coverImage": "https://image.tmdb.org/t/p/original/ukgGlWbEv3pABxMHWhjkLtscP3i.jpg",
+    "genre": ["Animación", "Aventura", "Familia"],
+    "video_url": "https://archive.org/download/pack-1_20200802/Tarzan.mp4"
+  },
+  {
+    "title": "Pinocho",
+    "description": "Una marioneta de madera cobra vida y debe demostrar que es valiente y honesta para convertirse en un niño de verdad.",
+    "year": 1940,
+    "studio": "Disney",
+    "coverImage": "https://image.tmdb.org/t/p/original/lhhcYlozIjTj3jhrH7dKL0Adt3l.jpg",
+    "genre": ["Animación", "Fantasía", "Familia"],
+    "video_url": "https://archive.org/download/pack-1_20200802/TROTAMUNDOS.mp4"
+  },
+  {
+    "title": "Tiana y el sapo",
+    "description": "En Nueva Orleans, una joven trabajadora se ve envuelta en una aventura mágica tras besar a un príncipe convertido en sapo.",
+    "year": 2009,
+    "studio": "Disney",
+    "coverImage": "https://image.tmdb.org/t/p/original/mreNyXjBfjTeGhjIJLnzgAqnL6l.jpg",
+    "genre": ["Animación", "Musical", "Fantasía"],
+    "video_url": "https://archive.org/download/pack-1_20200802/Tiana%20y%20el%20sapo.mp4"
+  },
+  {
+    "title": "La sirenita",
+    "description": "Ariel, una princesa sirena, hace un trato con una bruja del mar para convertirse en humana y conquistar a un príncipe.",
+    "year": 1989,
+    "studio": "Disney",
+    "coverImage": "https://image.tmdb.org/t/p/original/2ZucaVMGVqtmi7MD4adOq51kdAX.jpg",
+    "genre": ["Animación", "Fantasía", "Musical"],
+    "video_url": "https://archive.org/download/pack-1_20200802/La%20Sirenita.mp4"
+  },
+  {
+    "title": "Frozen (2013)",
+    "description": "La optimista Anna se une a un montañés para encontrar a su hermana Elsa, cuyos poderes de hielo han atrapado al reino.",
+    "year": 2013,
+    "studio": "Disney",
+    "coverImage": "https://image.tmdb.org/t/p/original/mbPrrbt8bSLcHSBCHnRclPlMZPl.jpg",
+    "genre": ["Animación", "Aventura", "Musical"],
+    "video_url": "https://archive.org/download/pack-2_202008/Frozen.mp4"
+  },
+  {
+    "title": "The Lion King (1994)",
+    "description": "Un joven cachorro de león debe enfrentar su destino como rey de la sabana tras la traición de su tío.",
+    "year": 1994,
+    "studio": "Disney",
+    "coverImage": "https://image.tmdb.org/t/p/original/gnnehzBxfRnB3M2vGxXsfMYNDRV.jpg",
+    "genre": ["Animación", "Drama", "Aventura"],
+    "video_url": "https://archive.org/download/pack-2_202008/El%20Rey%20Leon.mp4"
+  },
+  {
+    "title": "TOY STORY (1995)",
+    "description": "Un vaquero de juguete se siente amenazado por la llegada de un nuevo y moderno astronauta.",
+    "year": 1995,
+    "studio": "Pixar",
+    "coverImage": "https://github.com/ValentinoProM123/MDMP4/releases/download/mp32/TSY_PTD1.jpg",
+    "genre": ["Animación", "Comedia", "Aventura"],
+    "video_url": "https://github.com/ValentinoProM123/MDMP4/releases/download/mp32/TSY1.mp4"
+  },
+  {
+    "title": "Mufasa: El rey león",
+    "description": "Explora el ascenso de Mufasa desde sus humildes orígenes hasta convertirse en uno de los reyes más grandes de las Tierras del Reino.",
+    "year": 2024,
+    "studio": "Disney",
+    "coverImage": "https://image.tmdb.org/t/p/original/yOivfBs1vLrPRVw2Ci4AlGkl1G3.jpg",
+    "genre": ["Aventura", "Drama", "Fantasía"],
+    "video_url": "https://archive.org/download/estrenos-2024/Mufasa%20-%20The%20Lion%20King%20%282024%29.ia.mp4"
+  },
+  
+  {
     "title": "Helluva Boss",
     "year": 2020,
     "genre": ["Animación", "Comedia negra", "Fantasía"],
