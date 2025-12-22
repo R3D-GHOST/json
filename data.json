@@ -1,7 +1,72 @@
 [
+
+
+  {
+    "title": "Kung Fu Panda 2",
+    "description": "Po ahora vive su sueño como el Guerrero Dragón, protegiendo el Valle de la Paz, pero debe enfrentar a un nuevo villano que planea usar un arma secreta imparable para conquistar China y destruir el kung fu.",
+    "year": 2011,
+    "studio": "DreamWorks Animation",
+    "coverImage": "https://i.ibb.co/QMcy429/Kung-Fu-Panda-2.jpg",
+    "genre": ["Animación", "Acción", "Aventura"],
+    "video_url": "https://godna94.pp.ua/CONENIDO_1909AASSDD/SUBMENUS//_PROTECTOR_DE_ARCHIVOS_PARA_REPRODUCCION_DE_VIDEOS_GRACIAS_POR_VISITAR.php?v=aHR0cHM6Ly9pYTYwMTUwMy51cy5hcmNoaXZlLm9yZy8zL2l0ZW1zL3ZpZGVvcGxheWJhY2sxMF8yMDIwMDMyNi9zdWIxZDBfcDRyNF81dHIzNG1pbmdfUDVGMTFYL3ZpZGVvcGxheWJhY2s0Lm1wNA==&f=.mp4"
+  },
+  {
+    "title": "Kung Fu Panda 3",
+    "description": "Po se reencuentra con su padre biológico y viaja a un paraíso secreto de pandas, donde deberá entrenar a una aldea de pandas torpes para enfrentar al espíritu maligno Kai.",
+    "year": 2016,
+    "studio": "DreamWorks Animation",
+    "coverImage": "https://i.ibb.co/1TqPG4x/Kung-Fu-Panda-3.jpg",
+    "genre": ["Animación", "Comedia", "Aventura"],
+    "video_url": "https://godna94.pp.ua/CONENIDO_1909AASSDD/SUBMENUS//_PROTECTOR_DE_ARCHIVOS_PARA_REPRODUCCION_DE_VIDEOS_GRACIAS_POR_VISITAR.php?v=aHR0cHM6Ly9pYTYwMTUwMy51cy5hcmNoaXZlLm9yZy8zL2l0ZW1zL3ZpZGVvcGxheWJhY2sxMF8yMDIwMDMyNi9zdWIxZDBfcDRyNF81dHIzNG1pbmdfUDVGMTFYL3ZpZGVvcGxheWJhY2sxMC5tcDQ=&f=.mp4"
+  },
+  {
+    "title": "Kung Fu Panda 4",
+    "description": "Po es llamado a convertirse en el Líder Espiritual del Valle de la Paz, lo que lo obliga a buscar y entrenar a un nuevo Guerrero Dragón mientras enfrenta a una hechicera que cambia de forma: La Camaleona.",
+    "year": 2024,
+    "studio": "DreamWorks Animation",
+    "coverImage": "https://i.ibb.co/d6SV8KP/KF4.jpg",
+    "genre": ["Animación", "Acción", "Fantasía"],
+    "video_url": "https://godna94.pp.ua/CONENIDO_1909AASSDD/SUBMENUS//_PROTECTOR_DE_ARCHIVOS_PARA_REPRODUCCION_DE_VIDEOS_GRACIAS_POR_VISITAR.php?v=aHR0cHM6Ly9kbC5kcm9wYm94LmNvbS9zY2wvZmkvOGZtOGQwa3R1dnEwbDhpY2dpcmxoL2t1bmc0Lm1rdj9ybGtleT1wNmxrMnRidzAwaTlkdTdtZW44MmJiMHVp&f=.mp4"
+  },
+  {
+    "title": "Un Show más: La Película",
+    "description": "Mordecai y Rigby deben viajar en el tiempo para enfrentarse a un entrenador de voleibol malvado y salvar el universo, y su amistad, de una catástrofe temporal.",
+    "year": 2015,
+    "studio": "Cartoon Network Studios",
+    "coverImage": "https://i.ibb.co/cvKsc5X/Un-Show-Mas.jpg",
+    "genre": ["Animación", "Ciencia ficción", "Comedia"],
+    "video_url": "https://godna94.pp.ua/CONENIDO_1909AASSDD/SUBMENUS//_PROTECTOR_DE_ARCHIVOS_PARA_REPRODUCCION_DE_VIDEOS_GRACIAS_POR_VISITAR.php?v=aHR0cHM6Ly9hcmNoaXZlLm9yZy9kb3dubG9hZC80YjFfMjAyMDAxMDEvNTE0Lm1wNA==&f=.mp4"
+  },
+  {
+    "title": "El jorobado de Notre Dame",
+    "description": "Quasimodo, un campanero deforme que vive en la catedral de Notre Dame, lucha por ser aceptado en la sociedad con la ayuda de la valiente gitana Esmeralda.",
+    "year": 1996,
+    "studio": "Disney",
+    "coverImage": "https://i.ibb.co/0ytKMWvz/El-jorobado-de-Notre-Dame-1996-542-x-768.jpg",
+    "genre": ["Animación", "Drama", "Musical"],
+    "video_url": "https://godna94.pp.ua/CONENIDO_1909AASSDD/SUBMENUS//_PROTECTOR_DE_ARCHIVOS_PARA_REPRODUCCION_DE_VIDEOS_GRACIAS_POR_VISITAR.php?v=aHR0cHM6Ly9hcmNoaXZlLm9yZy9kb3dubG9hZC90ZWxlbWF0aWNhXzIwMjUwNS9pbmZvcm1hdGljYS8wNC5tcDQ=&f=.mp4"
+  },
+  {
+    "title": "Elemental",
+    "description": "En una ciudad donde conviven los habitantes de fuego, agua, tierra y aire, una joven de fuego y un chico de agua descubren cuánto tienen en común.",
+    "year": 2023,
+    "studio": "Pixar",
+    "coverImage": "https://i.ibb.co/dL5QTT8/elem.jpg",
+    "genre": ["Animación", "Fantasía", "Romance"],
+    "video_url": "https://godna94.pp.ua/CONENIDO_1909AASSDD/SUBMENUS//_PROTECTOR_DE_ARCHIVOS_PARA_REPRODUCCION_DE_VIDEOS_GRACIAS_POR_VISITAR.php?v=aHR0cHM6Ly9kbC5kcm9wYm94LmNvbS9zY2wvZmkvY2pwZ3FweDB1aGx3NnBsMzRkY3Y0LzNsM20zbnRhbC5tcDQ/cmxrZXk9NXl6Z2swbDlxdmgzem5mZjc5enl6M2pqYw==&f=.mp4"
+  },
+  {
+    "title": "Hotel Transylvania: transformanía",
+    "description": "Un invento de Van Helsing sale mal y convierte a Drac y sus amigos en humanos, mientras que Johnny se convierte en un monstruo. Deben cruzar el mundo para encontrar una cura.",
+    "year": 2022,
+    "studio": "Sony Pictures Animation",
+    "coverImage": "https://i.ibb.co/6YbWNNL/hoteltran.jpg",
+    "genre": ["Animación", "Aventura", "Comedia"],
+    "video_url": "https://godna94.pp.ua/CONENIDO_1909AASSDD/SUBMENUS//_PROTECTOR_DE_ARCHIVOS_PARA_REPRODUCCION_DE_VIDEOS_GRACIAS_POR_VISITAR.php?v=aHR0cHM6Ly9pYTYwMTYwNy51cy5hcmNoaXZlLm9yZy8yNC9pdGVtcy8ob3QtdHJhbnNpLTQtaGQtNzIwcC0xNDE1NjAwL0hvdFRyYW5zaTRfSERfXzcyMHBfX18xNDE1NjAwLm1wNA==&f=.mp4"
+  },
+  
 {
   "title": "La Pantera Rosa",
-  "year": "1964",
   "genres": ["Animación", "Comedia", "Clásico"],
   "description": "La serie original que sigue las aventuras de la pantera más famosa y sofisticada del mundo.",
   "coverImage": "https://m.media-amazon.com/images/M/MV5BNGFmM2Y2NzktZDE0Yy00OWUwLWJhYjgtNGMzMTY5YjY5MWJhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
