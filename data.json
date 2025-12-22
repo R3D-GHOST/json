@@ -130,7 +130,7 @@
     "title": "Chainsaw Man",
     "year": 2022,
     "genre": ["Acción", "Fantasía oscura", "Gore"],
-    "coverImage": "https://img.animeflv.cc/cover/chainsaw-man.jpg",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkJd2JwvU_ESlKhIb2p-lLEjkHBPw_PYhouP8acfugKw&s=10",
     "description": "Denji es un joven atrapado en la pobreza que paga las deudas de su padre fallecido trabajando como cazador de demonios con su perro demonio, Pochita. Tras una traición, Denji se fusiona con Pochita para convertirse en 'Chainsaw Man', un híbrido humano-demonio con motosierras en sus extremidades, y es reclutado por una organización estatal para cazar demonios a nivel profesional.",
     "episodes": [
       {
@@ -200,7 +200,7 @@
   
   
   {
-    "title": "Mashle: Magic and Muscles - Temporada 1",
+    "title": "Mashle: Magic and Muscles",
     "year": 2023,
     "genre": ["Animación", "Comedia", "Fantasía", "Acción"],
     "coverImage": "https://image.tmdb.org/t/p/w154/sNh2gUztoJ9q2wCsvvIcXjtUsog.jpg",
@@ -221,7 +221,7 @@
     ]
   },
   {
-    "title": "Mashle: Magic and Muscles - Temporada 2",
+    "title": "Mashle: Magic and Muscles Temporada 2",
     "year": 2024,
     "genre": ["Animación", "Comedia", "Fantasía", "Acción"],
     "coverImage": "https://image.tmdb.org/t/p/w154/sNh2gUztoJ9q2wCsvvIcXjtUsog.jpg",
@@ -242,76 +242,6 @@
     ]
   },
 
-  {
-    "title": "Chainsaw Man - Temporada 1",
-    "year": 2022,
-    "genre": ["Acción", "Fantasía oscura", "Gore"],
-    "coverImage": "https://img.animeflv.cc/cover/chainsaw-man.jpg",
-    "description": "Denji es un joven atrapado en la pobreza que paga las deudas de su padre fallecido trabajando como cazador de demonios con su perro demonio, Pochita. Tras una traición, Denji se fusiona con Pochita para convertirse en 'Chainsaw Man', un híbrido humano-demonio con motosierras en sus extremidades, y es reclutado por una organización estatal para cazar demonios a nivel profesional.",
-    "episodes": [
-      {
-        "episode": 1,
-        "title": "Perro y motosierra",
-        "video_url": "https://dl.dropboxusercontent.com/scl/fi/l399s3fgsp8xq7ga0e460/CH1I4NS3AW-M13AN-1.mp4?rlkey=wug74t66niaxxzrcc1248gjqe&st=vdjs8r3u"
-      },
-      {
-        "episode": 2,
-        "title": "Llegada a Tokio",
-        "video_url": "https://dl.dropboxusercontent.com/scl/fi/npea50al6wi2fw6i4wzey/CH1I4NS3AW-M13AN-2.mp4?rlkey=8412mkq3wtdpc1h51ihyltwf0&st=vlbqrbg8"
-      },
-      {
-        "episode": 3,
-        "title": "El paradero de Meowy",
-        "video_url": "https://dl.dropboxusercontent.com/scl/fi/eezw3blshavbawq68gdh3/CH1I4NS3AW-M13AN-3.mp4?rlkey=11o3xid31lr9ncnrtxsg1p7bm&st=jinj00qg"
-      },
-      {
-        "episode": 4,
-        "title": "Rescate",
-        "video_url": "https://dl.dropboxusercontent.com/scl/fi/f0z5vbdngfx7tzayl5zs4/CH1I4NS3AW-M13AN-4.mp4?rlkey=6tvqmypnhxuiu5e4idtwmukqx&st=ljrhqhvg"
-      },
-      {
-        "episode": 5,
-        "title": "El arma del diablo",
-        "video_url": "https://dl.dropboxusercontent.com/scl/fi/0zb25x8e9qpdfalrcjwia/CH1I4NS3AW-M13AN-5.mp4?rlkey=pna4845ztb1kplrhpyioxiddb&st=j3537hzm"
-      },
-      {
-        "episode": 6,
-        "title": "Matar a Denji",
-        "video_url": "https://dl.dropboxusercontent.com/scl/fi/80cn48pmlpwx7ofra2052/CH1I4NS3AW-M13AN-6.mp4?rlkey=zw6v0pth26044ukz7djzgy3k1&st=2bkbdv14"
-      },
-      {
-        "episode": 7,
-        "title": "El sabor de un beso",
-        "video_url": "https://dl.dropboxusercontent.com/scl/fi/7wuit98a18ovpkbq2s4ke/CH1I4NS3AW-M13AN-7.mp4?rlkey=7at425yxe0fflazu0xtgbek6u&st=d6is678u"
-      },
-      {
-        "episode": 8,
-        "title": "Tiroteo",
-        "video_url": "https://dl.dropboxusercontent.com/scl/fi/l1ykpfn2e8v9q60v7xb4n/CH1I4NS3AW-M13AN-8.mp4?rlkey=14ukma4yhk4q19tm7s6u981yq&st=o6cf048u"
-      },
-      {
-        "episode": 9,
-        "title": "Desde Kioto",
-        "video_url": "https://dl.dropboxusercontent.com/scl/fi/zpg3c3yarz2xnmsz5srcd/CH1I4NS3AW-M13AN-9.mp4?rlkey=99pjfv3wbnkfwvlcw72t6dmfc&st=ypidxswz"
-      },
-      {
-        "episode": 10,
-        "title": "Aún más dañado",
-        "video_url": "https://dl.dropboxusercontent.com/scl/fi/p1pgiceyk2r1o256saijv/CH1I4NS3AW-M13AN-10.mp4?rlkey=znvd40zp2oe2svelyz9a2jjqp&st=0ke3i34q"
-      },
-      {
-        "episode": 11,
-        "title": "Inicio de la misión",
-        "video_url": "https://dl.dropboxusercontent.com/scl/fi/h4xhlp0vvd2eohzs3hne3/CH1I4NS3AW-M13AN-11.mp4?rlkey=d92mbwrkeg6ogyndw34r5ly4v&st=53lsoiz0"
-      },
-      {
-        "episode": 12,
-        "title": "Katana vs. Motosierra",
-        "video_url": "https://dl.dropboxusercontent.com/scl/fi/nd35tqx2av4lj9ei1e4sx/CH1I4NS3AW-M13AN-12.mp4?rlkey=f9l421yos43sivrg1fs63nu69&st=5oc2p7bw"
-      }
-    ]
-  },
-  
   {
   "title": "Captain Tsubasa",
   "year": 1983,
