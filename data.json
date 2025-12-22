@@ -1,5 +1,119 @@
 [
   {
+    "title": "Superman",
+    "description": "Bajo la dirección de James Gunn, esta nueva entrega sigue a Clark Kent en su esfuerzo por reconciliar su herencia kryptoniana con su educación humana, personificando la verdad, la justicia y un mañana mejor en un mundo lleno de superhéroes.",
+    "year": 2025,
+    "studio": "DC Studios",
+    "coverImage": "https://image.tmdb.org/t/p/original/lfMKNOaaS2jGT3QKUaiFA8cO7DC.jpg",
+    "genre": [
+      "Acción",
+      "Ciencia ficción",
+      "Aventura",
+      "Estreno",
+    ],
+    "video_url": "https://dl.dropbox.com/scl/fi/piqr4xf74nri17nfelcrs/matematica.mp4?rlkey=3qtsi9lgh4vikcckmur53ncup&st=6992x5pj&dl=0"
+  },
+
+  {
+    "title": "Batman vs Superman: El Origen de la Justicia",
+    "description": "Ante el temor de las acciones de un superhéroe que es casi un dios, el vigilante de Gotham se enfrenta al salvador de Metrópolis mientras el mundo decide qué tipo de héroe necesita.",
+    "year": 2016,
+    "studio": "Warner Bros. / DC",
+    "coverImage": "https://media.themoviedb.org/t/p/w220_and_h330_face/mS3t9puIjLKgoex82cu9d6G0835.jpg",
+    "genre": ["Acción", "Aventura", "Fantasía"],
+    "video_url": "https://cache004.peliscdn.online/newhls/56a6a07ac302e1a844de9156151d66c0/EP.0.1.v1.1708786973.360.m3u8"
+  },
+  {
+    "title": "Escuadrón Suicida",
+    "description": "Una agencia gubernamental secreta recluta a los supervillanos más peligrosos encarcelados para una misión defensiva desesperada a cambio de clemencia.",
+    "year": 2016,
+    "studio": "Warner Bros. / DC",
+    "coverImage": "https://media.themoviedb.org/t/p/w220_and_h330_face/9ymhU7NclJr29MpZnBQbJurYbuc.jpg",
+    "genre": ["Acción", "Aventura", "Fantasía"],
+    "video_url": "https://cache005.peliscdn.online/newhls/3183ded180a35989b3bb37953aa4c7f2/EP.0.1.v0.1708768417.720.m3u8"
+  },
+  {
+    "title": "La liga de la justicia",
+    "description": "Inspirado por el sacrificio de Superman, Bruce Wayne recluta a nuevos aliados, con la ayuda de Diana Prince, para enfrentarse a un enemigo aún mayor.",
+    "year": 2017,
+    "studio": "Warner Bros. / DC",
+    "coverImage": "https://media.themoviedb.org/t/p/w220_and_h330_face/eifGNCSDuxJeS1loAXil5bIGgvC.jpg",
+    "genre": ["Acción", "Aventura", "Ciencia ficción"],
+    "video_url": "https://dl.dropbox.com/scl/fi/396wn1jueho3p39ek8bxl/liga-de-la-justicia.mp4?rlkey=chtsh5e64db0vhy0u28i7tni1&st=f485vj4k&dl=0"
+  },
+  {
+    "title": "Aquaman",
+    "description": "Arthur Curry, el heredero del reino submarino de la Atlántida, debe dar un paso adelante para liderar a su pueblo y ser un héroe para el mundo.",
+    "year": 2018,
+    "studio": "Warner Bros. / DC",
+    "coverImage": "https://media.themoviedb.org/t/p/w220_and_h330_face/zdw7Wf97vsQ0YnGomxDqfcEdUjX.jpg",
+    "genre": ["Acción", "Aventura", "Fantasía"],
+    "video_url": "https://dl.dropbox.com/scl/fi/6rholjv3owh722tw09yo2/aquaman1.mp4?rlkey=1tsvat2botp3mkd9owi3w7no7&st=awhwr2dx&dl=0"
+  },
+  {
+    "title": "¡Shazam!",
+    "description": "Un niño huérfano de 14 años puede transformarse en un superhéroe adulto con solo gritar una palabra, gracias a un antiguo mago.",
+    "year": 2019,
+    "studio": "Warner Bros. / DC",
+    "coverImage": "https://media.themoviedb.org/t/p/w220_and_h330_face/xnopI5Xtky18MPhK40cZAGAOVeV.jpg",
+    "genre": ["Acción", "Comedia", "Fantasía"],
+    "video_url": "https://dl.dropbox.com/scl/fi/4wpqnippjks7unjxn12s7/Shazam.mp4?rlkey=fjcb6jx07c429y801xek5k3ed&st=0vxthy3g&dl=0"
+  },
+  {
+    "title": "Aves de Presa",
+    "description": "Tras separarse del Joker, Harley Quinn se une a las superheroínas Canario Negro, Cazadora y Renee Montoya para salvar a una niña de un malvado señor del crimen.",
+    "year": 2020,
+    "studio": "Warner Bros. / DC",
+    "coverImage": "https://media.themoviedb.org/t/p/w220_and_h330_face/4GCqF17I2ST5M8iSkwh1jwqvi7F.jpg",
+    "genre": ["Acción", "Crimen", "Comedia"],
+    "video_url": "https://cache018.peliscdn.online/newhls/831ef5527976c6dafbf032a6234fcc90/EP.0.1.v1.1708864877.360.m3u8"
+  },
+  {
+    "title": "El escuadrón suicida 2",
+    "description": "Los supervillanos de la prisión de Belle Reve son enviados a la remota isla de Corto Maltese en una misión de búsqueda y destrucción.",
+    "year": 2021,
+    "studio": "Warner Bros. / DC",
+    "coverImage": "https://media.themoviedb.org/t/p/w220_and_h330_face/xFw9RXKZDvevAGocgBK0zteto4U.jpg",
+    "genre": ["Acción", "Aventura", "Fantasía"],
+    "video_url": "https://dl.dropbox.com/scl/fi/7mhtl62re4j98x5om28rk/escuadron-suicida-2.mp4?rlkey=ubnvrab2mrxqcarmm71dckulc&st=fgp7rrwr&dl=0"
+  },
+  {
+    "title": "Black Adam",
+    "description": "Casi 5.000 años después de haber sido dotado de los poderes omnipotentes de los antiguos dioses, Black Adam es liberado de su tumba terrenal.",
+    "year": 2022,
+    "studio": "Warner Bros. / DC",
+    "coverImage": "https://media.themoviedb.org/t/p/w220_and_h330_face/pFlaoHTZeyNkG83vxsAJiGzfSsa.jpg",
+    "genre": ["Acción", "Fantasía", "Ciencia ficción"],
+    "video_url": "https://dl.dropbox.com/scl/fi/fimqwk7m5kcc7d4k3l0yv/Black-Adam.mp4?rlkey=5r2w0p6nxugomdpnsvb9iaw5c&st=qv03ify2&dl=0"
+  },
+  {
+    "title": "Shazam la furia de los dioses",
+    "description": "Billy Batson y sus hermanos adoptivos deben luchar contra las Hijas de Atlas para evitar que usen un arma que podría destruir el mundo.",
+    "year": 2023,
+    "studio": "Warner Bros. / DC",
+    "coverImage": "https://media.themoviedb.org/t/p/w220_and_h330_face/A3ZbZsmsvNGdprRi2lKgGEeVLEH.jpg",
+    "genre": ["Acción", "Comedia", "Fantasía"],
+    "video_url": "https://dl.dropbox.com/scl/fi/5nybutjl4ydvupezd7tu5/Shazam-La-furia-de-los-dioses.mp4?rlkey=md8ys5p0nkjtjhlxxw3uguqa7&st=faqq3iwb&dl=0"
+  },
+  {
+    "title": "Flash",
+    "description": "Barry Allen utiliza sus superpoderes para viajar en el tiempo y cambiar los acontecimientos del pasado, pero su intento de salvar a su familia altera el futuro.",
+    "year": 2023,
+    "studio": "Warner Bros. / DC",
+    "coverImage": "https://media.themoviedb.org/t/p/w220_and_h330_face/x9Qc86JEyYkAKsdzjDpS5kbaAB7.jpg",
+    "genre": ["Acción", "Aventura", "Ciencia ficción"],
+    "video_url": "https://cache013.peliscdn.online/newhls/d4dac4acdf3126b7cf4178e493851c8d/EP.0.1.v0.1709749795.360.m3u8"
+  },
+  {
+    "title": "Blue Beetle",
+    "description": "Jaime Reyes, un joven recién graduado, se encuentra en posesión de una antigua reliquia de biotecnología alienígena: el Escarabajo.",
+    "year": 2023,
+    "studio": "Warner Bros. / DC",
+    "coverImage": "https://media.themoviedb.org/t/p/w220_and_h330_face/mXLOHHc1Zeuwsl4xYKjKh2280oL.jpg",
+    "genre": ["Acción", "Ciencia ficción", "Aventura"],
+    "video_url": "https://dl.dropbox.com/scl/fi/b1sw5ja8ulgmp9qrdw9w4/blu3b3tl3.mkv?rlkey=k2ddm0sisl5vj4hbvb8hojxvl"
+  },
+  {
     "title": "Henry Danger: La Película",
     "description": "Henry Hart regresa para enfrentar una nueva amenaza que pone en peligro a Swellview, llevando sus habilidades de superhéroe al siguiente nivel en esta aventura de largometraje.",
     "year": 2025,
