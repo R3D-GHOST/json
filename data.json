@@ -1,90 +1,134 @@
 [
   {
-    "title": "Bang",
-    "year": 2025,
-    "genre": ["Acción", "Estreno"],
-    "coverImage": "https://image.tmdb.org/t/p/original/8SUzKOqe2ectvhYdSnR7Vq2F3n1.jpg",
-    "video_url": "https://pomf2.lain.la/f/64p0uqsb.mp4"
+    "title": "One Piece (Live Action)",
+    "year": 2023,
+    "genre": ["Acción", "Aventura", "Fantasía"],
+    "coverImage": "https://image.tmdb.org/t/p/original/fsQ2KHbZk12z3h3dba2ActMEudj.jpg",
+    "description": "Monkey D. Luffy es un joven aventurero que siempre ha ansiado la libertad. Decide abandonar su aldea para emprender un peligroso viaje en busca del mítico tesoro del que todos hablan, el One Piece, y convertirse así en el Rey de los Piratas.",
+    "episodes": [
+      {
+        "episode": 1,
+        "title": "Amanecer de una aventura",
+        "video_url": "https://dl.dropboxusercontent.com/scl/fi/61yr6lfgexjvv4dj30it5/O83NE-P4IWCE-L4IVE-3ACT3T4ION-ff1.mp4?rlkey=a4h1tzqebk90auu0us5dtvoi0&st=e4jm5adt"
+      },
+      {
+        "episode": 2,
+        "title": "El hombre del sombrero de paja",
+        "video_url": "https://dl.dropboxusercontent.com/scl/fi/xmcoo77bdij3b5tdz1gg0/O83NE-P4IWCE-L4IVE-3ACT3T4ION-2.mp4?rlkey=fltmujvxuelj1fekqke4qmdu6&st=9an0pgib"
+      },
+      {
+        "episode": 3,
+        "title": "No cuentes cuentos",
+        "video_url": "https://dl.dropboxusercontent.com/scl/fi/ywfn0wi7ca4p4y16tfnft/O83NE-P4IWCE-L4IVE-3ACT3T4ION-3.mp4?rlkey=km8okh6z4ojgntr633k3qqnz3&st=hfe7ylbw"
+      },
+      {
+        "episode": 4,
+        "title": "Vienen los piratas",
+        "video_url": "https://dl.dropboxusercontent.com/scl/fi/73nyzv8saa2c6h5jg593g/O83NE-P4IWCE-L4IVE-3ACT3T4ION-4.mp4?rlkey=fp37iw515h06a06xrrff42jrc&st=yuoq8ghd"
+      },
+      {
+        "episode": 5,
+        "title": "Comer en el Baratie",
+        "video_url": "https://dl.dropboxusercontent.com/scl/fi/h0kqsdb68yody14xjb6xj/O83NE-P4IWCE-L4IVE-3ACT3T4ION-5.mp4?rlkey=jhobp3fux68nn9d1qlc0gf5uo&st=sworrndy"
+      },
+      {
+        "episode": 6,
+        "title": "El cocinero y el mandadero",
+        "video_url": "https://dl.dropboxusercontent.com/scl/fi/dyhntq60oa95z7ijo8d2i/O83NE-P4IWCE-L4IVE-3ACT3T4ION-6.mp4?rlkey=50em1ujr5lbibr837duq73ofs&st=hhzotmv9"
+      },
+      {
+        "episode": 7,
+        "title": "La chica con el tatuaje de pez sierra",
+        "video_url": "https://dl.dropboxusercontent.com/scl/fi/7xvx5f2hne8bxyeqzvaal/O83NE-P4IWCE-L4IVE-3ACT3T4ION-7.mp4?rlkey=uvina5o781jlalibp8eu8cedi&st=nq1xsja4"
+      },
+      {
+        "episode": 8,
+        "title": "Lo peor del Este",
+        "video_url": "https://dl.dropboxusercontent.com/scl/fi/xpm9utvzggvyvqdut32aj/O83NE-P4IWCE-L4IVE-3ACT3T4ION-8.mp4?rlkey=f5keruwj5tr4pvu9vn5ped4wm&st=ddwxailv"
+      }
+    ]
   },
   {
-    "title": "London Calling",
-    "year": 2025,
-    "genre": ["Acción", "Suspenso"],
-    "coverImage": "https://image.tmdb.org/t/p/original/cpQ4VxBJO7vGV3IUdKzSNf4tH9V.jpg",
-    "video_url": "https://pomf2.lain.la/f/hth1an64.mp4"
+    "title": "Mr. Robot Temporada 1",
+    "year": 2015,
+    "genre": ["Drama", "Suspenso", "Crimen"],
+    "coverImage": "https://image.tmdb.org/t/p/original/1aiNh5Gak36EdpdwhvWHIXzAj50.jpg",
+    "description": "Elliot Alderson, un joven ingeniero de ciberseguridad con trastorno de ansiedad social, es reclutado por un misterioso anarquista conocido como Mr. Robot para unirse a un grupo de hackers llamado fsociety, cuyo objetivo es destruir a la corporación más grande del mundo.",
+    "episodes": [
+      { "episode": 1, "title": "eps1.0_hellofriend.mov", "video_url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-1/Mr.%20Robot%201x01.mp4" },
+      { "episode": 2, "title": "eps1.1_ones-and-zer0es.mpeg", "video_url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-1/Mr.%20Robot%201x02.mp4" },
+      { "episode": 3, "title": "eps1.2_d3bug.mkv", "video_url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-1/Mr.%20Robot%201x03.mp4" },
+      { "episode": 4, "title": "eps1.3_da3m0ns.mp4", "video_url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-1/Mr.%20Robot%201x04.mp4" },
+      { "episode": 5, "title": "eps1.4_3xpl0its.wmv", "video_url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-1/Mr.%20Robot%201x05.mp4" },
+      { "episode": 6, "title": "eps1.5_br4ve-trave1er.asf", "video_url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-1/Mr.%20Robot%201x06.mp4" },
+      { "episode": 7, "title": "eps1.6_v1ew-s0urce.flv", "video_url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-1/Mr.%20Robot%201x07.mp4" },
+      { "episode": 8, "title": "eps1.7_wh1ter0se.m4v", "video_url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-1/Mr.%20Robot%201x08.mp4" },
+      { "episode": 9, "title": "eps1.8_m1rr0r1ng.qt", "video_url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-1/Mr.%20Robot%201x09.mp4" },
+      { "episode": 10, "title": "eps1.9_zer0-day.avi", "video_url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-1/Mr.%20Robot%201x10.mp4" }
+    ]
   },
   {
-    "title": "Hostile Takeover",
-    "year": 2025,
-    "genre": ["Acción"],
-    "coverImage": "https://image.tmdb.org/t/p/original/vntwlS3CAKfoLTs90GaoK6lymBC.jpg",
-    "video_url": "https://dl.dropbox.com/scl/fi/z687by53gov6n6v0v3ycz/lengua.mp4?rlkey=rhpornxf6ofshwty1d8gs2aa0&st=eolylmmv&dl=0"
+    "title": "Mr. Robot Temporada 2",
+    "year": 2016,
+    "genre": ["Drama", "Suspenso", "Crimen"],
+    "coverImage": "https://image.tmdb.org/t/p/original/mjqAWBXM6zoxmoeC3q9J6I1wl7R.jpg",
+    "description": "Tras el ataque del 9 de mayo, Elliot lidia con las consecuencias de sus acciones y su inestable estado mental, mientras fsociety continúa su lucha y nuevas amenazas emergen del pasado.",
+    "episodes": [
+      { "episode": 1, "title": "eps2.0_unm4sk-pt1.tc", "video_url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-2/Mr.%20Robot%202x01-02.mp4" },
+      { "episode": 2, "title": "eps2.1_unm4sk-pt2.tc", "video_url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-2/Mr.%20Robot%202x01-02.mp4" },
+      { "episode": 3, "title": "eps2.2_init1.asec", "video_url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-2/Mr.%20Robot%202x03.mp4" },
+      { "episode": 4, "title": "eps2.3_logic-b0mb.hc", "video_url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-2/Mr.%20Robot%202x04.mp4" },
+      { "episode": 5, "title": "eps2.4_m4ster-s1ave.aes", "video_url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-2/Mr.%20Robot%202x05.mp4" },
+      { "episode": 6, "title": "eps2.5_h4ndshake.sme", "video_url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-2/Mr.%20Robot%202x06.mp4" },
+      { "episode": 7, "title": "eps2.6_succ3ss0r.p12", "video_url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-2/Mr.%20Robot%202x07.mp4" },
+      { "episode": 8, "title": "eps2.7_init5.fve", "video_url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-2/Mr.%20Robot%202x08.mp4" },
+      { "episode": 9, "title": "eps2.8_h1dden-pr0cess.axx", "video_url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-2/Mr.%20Robot%202x09.mp4" },
+      { "episode": 10, "title": "eps2.9_pyth0n-pt1.p7z", "video_url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-2/Mr.%20Robot%202x10.mp4" },
+      { "episode": 11, "title": "eps2.9_pyth0n-pt2.p7z", "video_url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-2/Mr.%20Robot%202x11.mp4" },
+      { "episode": 12, "title": "eps2.9_pyth0n-pt3.p7z", "video_url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-2/Mr.%20Robot%202x12.mp4" }
+    ]
   },
   {
-    "title": "Sisu: Camino a la venganza",
-    "year": 2025,
-    "genre": ["Acción", "Bélico"],
-    "coverImage": "https://image.tmdb.org/t/p/original/qQyc6t9dHS5dlIUt3ccCQnRIAc1.jpg",
-    "video_url": "https://pomf2.lain.la/f/lnr9rf5k.mp4"
+    "title": "Mr. Robot Temporada 3",
+    "year": 2017,
+    "genre": ["Drama", "Suspenso", "Crimen"],
+    "coverImage": "https://image.tmdb.org/t/p/original/AmRhiyXwFvcoqm8DpZCPkFs6vqK.jpg",
+    "description": "La brecha entre Elliot y Mr. Robot se ensancha mientras intentan deshacer el daño causado. La Fase 2 es inminente y el Dark Army muestra su verdadero poder global.",
+    "episodes": [
+      { "episode": 1, "title": "eps3.0_power-saver-mode.h", "video_url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-3/Mr.%20Robot%203x01.mp4" },
+      { "episode": 2, "title": "eps3.1_undo.gz", "video_url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-3/Mr.%20Robot%203x02.mp4" },
+      { "episode": 3, "title": "eps3.2_legacy.so", "video_url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-3/Mr.%20Robot%203x03.mp4" },
+      { "episode": 4, "title": "eps3.3_metadata.par2", "video_url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-3/Mr.%20Robot%203x04.mp4" },
+      { "episode": 5, "title": "eps3.4_runtime-err0r.r00", "video_url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-3/Mr.%20Robot%203x05.mp4" },
+      { "episode": 6, "title": "eps3.5_kill-process.inc", "video_url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-3/Mr.%20Robot%203x06.mp4" },
+      { "episode": 7, "title": "eps3.6_fredrick+tanya.chk", "video_url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-3/Mr.%20Robot%203x07.mp4" },
+      { "episode": 8, "title": "eps3.7_dont-delete-me.ko", "video_url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-3/Mr.%20Robot%203x08.mp4" },
+      { "episode": 9, "title": "eps3.8_stage3.torrent", "video_url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-3/Mr.%20Robot%203x09.mp4" },
+      { "episode": 10, "title": "eps3.9_shutdown-r", "video_url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-3/Mr.%20Robot%203x10.mp4" }
+    ]
   },
   {
-    "title": "The Running Man",
-    "year": 2025,
-    "genre": ["Ciencia Ficción", "Acción"],
-    "coverImage": "https://image.tmdb.org/t/p/original/dKL78O9zxczVgjtNcQ9UkbYLzqX.jpg",
-    "video_url": "https://dl.dropbox.com/scl/fi/dosxlzcqsp8vaxsqqkgwh/f-sica.mp4?rlkey=vnk5b9aaudgknmcg6fblcy3g6&st=vw1rdanl&dl=0"
+    "title": "Mr. Robot Temporada 4",
+    "year": 2019,
+    "genre": ["Drama", "Suspenso", "Crimen"],
+    "coverImage": "https://image.tmdb.org/t/p/original/4PxMbpF3pv5B8eYw48hZ1hy16gr.jpg",
+    "description": "En la temporada final, Elliot y Mr. Robot regresan para atacar al grupo de élite que controla el mundo: el Grupo Deus. Es una carrera contra el tiempo y contra la propia psique de Elliot.",
+    "episodes": [
+      { "episode": 1, "title": "eps4.0_hola-amigo.wav", "video_url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-4/Mr%20Robot%204x01.mp4" },
+      { "episode": 2, "title": "eps4.1_not-found.404", "video_url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-4/Mr%20Robot%204x02.mp4" },
+      { "episode": 3, "title": "eps4.2_payment-required.402", "video_url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-4/Mr%20Robot%204x03.mp4" },
+      { "episode": 4, "title": "eps4.3_forbidden.403", "video_url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-4/Mr%20Robot%204x04.mp4" },
+      { "episode": 5, "title": "eps4.4_method-not-allowed.405", "video_url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-4/Mr%20Robot%204x05.mp4" },
+      { "episode": 6, "title": "eps4.5_not-acceptable.406", "video_url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-4/Mr%20Robot%204x06.mp4" },
+      { "episode": 7, "title": "eps4.6_proxy-auth-required.407", "video_url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-4/Mr%20Robot%204x07.mp4" },
+      { "episode": 8, "title": "eps4.7_request-timeout.408", "video_url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-4/Mr%20Robot%204x08.mp4" },
+      { "episode": 9, "title": "eps4.8_conflict.409", "video_url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-4/Mr%20Robot%204x09.mp4" },
+      { "episode": 10, "title": "eps4.9_gone.410", "video_url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-4/Mr%20Robot%204x10.mp4" },
+      { "episode": 11, "title": "eps4.10_length-required.411", "video_url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-4/Mr%20Robot%204x11.mp4" },
+      { "episode": 12, "title": "eps4.11_precondition-failed.412", "video_url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-4/Mr%20Robot%204x12.mp4" },
+      { "episode": 13, "title": "eps4.12_hello-elliot.aac", "video_url": "https://archive.org/download/mr.-r0b0t-t3mp0r5d5-4/Mr%20Robot%204x13.mp4" }
+    ]
   },
-  {
-    "title": "Hunting Season",
-    "year": 2025,
-    "genre": ["Acción", "Caza"],
-    "coverImage": "https://image.tmdb.org/t/p/original/cbryTyaWdqrKpQCw6K7zm2jrB5v.jpg",
-    "video_url": "https://pomf2.lain.la/f/t8gamu55.mp4"
-  },
-  {
-    "title": "Shadow Force",
-    "year": 2025,
-    "genre": ["Acción", "Thriller"],
-    "coverImage": "https://image.tmdb.org/t/p/original/9LCpHFXZgkqp2AWiYq0mGbfZauk.jpg",
-    "video_url": "https://dl.dropbox.com/scl/fi/y6ua2r13dk52dkdwbk4no/lengua.mp4?rlkey=s7slcokl5mxzjdn3zzrb791b1&st=j4zhltme&dl=0"
-  },
-  {
-    "title": "G20",
-    "year": 2025,
-    "genre": ["Acción", "Político"],
-    "coverImage": "https://image.tmdb.org/t/p/original/wv6oWAleCJZUk5htrGg413t3GCy.jpg",
-    "video_url": "https://1a-1791.com/video/fww1/db/s8/2/5/U/S/D/5USDy.aaa.mp4"
-  },
-  {
-    "title": "Ice Road: Vengeance",
-    "year": 2025,
-    "genre": ["Acción", "Aventura"],
-    "coverImage": "https://image.tmdb.org/t/p/original/cQN9rZj06rXMVkk76UF1DfBAico.jpg",
-    "video_url": "https://pomf2.lain.la/f/hlr3d8ia.mp4?download=1"
-  },
-  {
-    "title": "Nadie 2 (Nobody 2)",
-    "year": 2025,
-    "genre": ["Acción", "Crimen"],
-    "coverImage": "https://image.tmdb.org/t/p/original/cvtnWucN08TudAv7vDNGTcJyTRg.jpg",
-    "video_url": "https://dl.dropbox.com/scl/fi/9ei7pvi1582dca0f0ya9f/lengua.mp4?rlkey=iplzil8jujtufqy2yqdg4ozki&st=mvp830yg&dl=0"
-  },
-  {
-    "title": "Mission: Impossible - The Final Reckoning",
-    "year": 2025,
-    "genre": ["Acción", "Espionaje"],
-    "coverImage": "https://image.tmdb.org/t/p/original/iAQULg2qPYBCXXjF3pKn2FuYwY8.jpg",
-    "video_url": "https://dl.dropbox.com/scl/fi/vjk17j6msqze0a1ocgy65/eovkyoqxilgg.mp4?rlkey=23szy25dmqv96b4m45t7m71cn&st=mqxj59jj&dl=0"
-  },
-  {
-    "title": "Ballerina (John Wick Universe)",
-    "year": 2025,
-    "genre": ["Acción", "Venganza"],
-    "coverImage": "https://image.tmdb.org/t/p/original/eoV4MPGKl0MGLVT56MzrUXUaVxO.jpg",
-    "video_url": "https://archive.org/download/bailarina_202506/Bailarina.ia.mp4"
-  },
-
-
 
   {
   "title": "My Hero Academia: Vigilantes",
