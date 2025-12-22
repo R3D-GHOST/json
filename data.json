@@ -1,5 +1,95 @@
 [
 
+  
+  {
+    "title": "The Chosen",
+    "year": 2019,
+    "genre": ["Drama", "Histórica", "Religioso"],
+    "coverImage": "https://image.tmdb.org/t/p/original/p6Jin9Ikm7Sg9D40oZ83pjlHz0e.jpg",
+    "description": "Un carismático pescador que lucha ante las deudas. Una mujer que lucha contra sus demonios. Un joven recaudador de impuestos marginado por su familia. En esta innovadora serie histórica, Jesús llega para cambiar las vidas de estas personas mientras realiza sus primeros milagros.",
+    "episodes": [
+      { "episode": 1, "title": "I Have Called You by Name", "video_url": "https://dl.dropbox.com/scl/fi/2ptkyuucjbzwvk7kwmo9s/sivica-1.mp4?rlkey=4oligza8yyfvfg5zcp1wf7e79&st=m1pf5n5q&dl=1" },
+      { "episode": 2, "title": "Shabbat", "video_url": "https://dl.dropbox.com/scl/fi/oxerv2hi4sp3ntv60wu22/sivica-2.mp4?rlkey=fh1vxcayn8dylvpudzj2u25k2&st=z2ydvfsr&dl=1" },
+      { "episode": 3, "title": "Jesus Loves the Little Children", "video_url": "https://dl.dropbox.com/scl/fi/c145nur2nahzo19cive8o/sivica-3.mp4?rlkey=yuen2mvzz4553ovof9g6o6d8g&st=xs40ej4l&dl=1" },
+      { "episode": 4, "title": "The Rock on Which It Is Built", "video_url": "https://dl.dropbox.com/scl/fi/bdjbifk0ls2vuz868pozq/sivica-4.mp4?rlkey=irithhsmbz8jbt2lfs4btamea&st=4qk2r52a&dl=1" },
+      { "episode": 5, "title": "The Wedding Gift", "video_url": "https://dl.dropbox.com/scl/fi/h24xe3hwum4hrq5mzcpq5/sivica-5.mp4?rlkey=dk5afc2sw3mn08da9vnvutogy&st=q1qm8q9q&dl=1" },
+      { "episode": 6, "title": "Indescribable Compassion", "video_url": "https://dl.dropbox.com/scl/fi/urp63byfzacr2q96253g8/sivica-6.mp4?rlkey=swwz8sdwu5igi7mk4uzp3rm8o&st=nfr9b657&dl=1" },
+      { "episode": 7, "title": "Invitations", "video_url": "https://dl.dropbox.com/scl/fi/jj4lp5pllh2xt21ezdtnu/sivica-7.mp4?rlkey=b5n6z85uc14r3p7q17888z6uo&st=mz1vrs17&dl=1" },
+      { "episode": 8, "title": "I Am He", "video_url": "https://dl.dropbox.com/scl/fi/xfvg5sf1mggrzw13j8iel/sivica-8.mp4?rlkey=kcbj2o0zrle7pjslfigr5cc7c&st=8dcr4vmw&dl=1" }
+    ]
+  },
+  {
+    "title": "The Chosen Temporada 2",
+    "year": 2021,
+    "genre": ["Drama", "Histórica", "Religioso"],
+    "coverImage": "https://image.tmdb.org/t/p/original/2Y0A1rabAiMhHlpw6o8e5GiIBpD.jpg",
+    "description": "La fama de Jesús comienza a extenderse por toda la región. A medida que sus seguidores crecen, también lo hacen las tensiones con las autoridades romanas y los líderes religiosos, culminando en la preparación para el Sermón de la Montaña.",
+    "episodes": [
+      { "episode": 1, "title": "Thunder", "video_url": "https://dl.dropbox.com/scl/fi/ujtjuggzshlnbd67ruwzt/recuerdos-1.mp4?rlkey=jw3413vaq0a4mjpfsemtrpy44&st=f029883q&dl=1" },
+      { "episode": 2, "title": "I Saw You", "video_url": "https://dl.dropbox.com/scl/fi/y8o0z6i56cxt5eyzgieag/recuerdos-2.mp4?rlkey=zsoybo4zur9huenhgkm6ysl7l&st=hvwmqny1&dl=1" },
+      { "episode": 3, "title": "Matthew 4:24", "video_url": "https://dl.dropbox.com/scl/fi/lum113icde2wd8kte5ygp/recuerdos-3.mp4?rlkey=hw0cuqdnry3bn679jwte7lcvq&st=vjzic9dq&dl=1" },
+      { "episode": 4, "title": "The Perfect Opportunity", "video_url": "https://dl.dropbox.com/scl/fi/tt7t4or0u52i8ai3vrs3v/recuerdos-4.mp4?rlkey=juiynxj9alnh5r5yvyqf2d5rl&st=okjo0l3w&dl=1" },
+      { "episode": 5, "title": "Spirit", "video_url": "https://dl.dropbox.com/scl/fi/kljrh6ortm4jmazfidxa2/recuerdos-5.mp4?rlkey=62o0guzhj1bg7h4e2xwl2f9zu&st=p6hqiu1b&dl=1" },
+      { "episode": 6, "title": "Unlawful", "video_url": "https://dl.dropbox.com/scl/fi/taxgl3o0e31n0a0t5sxba/recuerdos-6.mp4?rlkey=mtlbqshb3dah24nimk2jr6vaw&st=00jq07y7&dl=1" },
+      { "episode": 7, "title": "Reckoning", "video_url": "https://dl.dropbox.com/scl/fi/wvf3ulf40ydwijaeg7s5h/recuerdos-7.mp4?rlkey=o9dky0t6j7o1ja0o6962m9hmo&st=3i2yfqi9&dl=1" },
+      { "episode": 8, "title": "Beyond Mountains", "video_url": "https://dl.dropbox.com/scl/fi/1gpokrluly1mcfqumexfr/recuerdos-8.mp4?rlkey=jllk7tobht3yzbex7u4dcxwco&st=swjtifbv&dl=1" }
+    ]
+  },
+  {
+    "title": "The Chosen Temporada 3",
+    "year": 2022,
+    "genre": ["Drama", "Histórica", "Religioso"],
+    "coverImage": "https://image.tmdb.org/t/p/original/qaSYsPmJTQAjOwIQzpI9YVb5OPz.jpg",
+    "description": "Tras el Sermón de la Montaña, los doce apóstoles son enviados de dos en dos a predicar y sanar. Los desafíos aumentan cuando regresan a sus hogares y deben enfrentar las consecuencias de seguir a Jesús.",
+    "episodes": [
+      { "episode": 1, "title": "Homecoming", "video_url": "https://dl.dropbox.com/scl/fi/2j69jretnsu88hke22rb7/ciencia-1.mp4?rlkey=j7b2c4ejbni30jhtqo7yb6wp2&st=agehn9zv&dl=1" },
+      { "episode": 2, "title": "Two by Two", "video_url": "https://dl.dropbox.com/scl/fi/j3d699oqz6qezc08fh1iv/ciencia-2.mp4?rlkey=tlifk36f8wkmwvmrvm71m1jyd&st=ddllydq9&dl=1" },
+      { "episode": 3, "title": "Physician, Heal Thyself", "video_url": "https://dl.dropbox.com/scl/fi/glhqw82am121rz0mfk12c/ciencia-3.mp4?rlkey=oz7fjt3l4nxm6qy6xaf41m9fc&st=5grkckhr&dl=1" },
+      { "episode": 4, "title": "Clean, Part 1", "video_url": "https://dl.dropbox.com/scl/fi/yfant7fi4rf8puc5jhub6/ciencia-4.mp4?rlkey=k6dxhj4b0bqch2zxzuqa7w299&st=29sgjcxh&dl=1" },
+      { "episode": 5, "title": "Clean, Part 2", "video_url": "https://dl.dropbox.com/scl/fi/jr8igw2j8oyo6zhu485ho/ciencia-5.mp4?rlkey=d5yp2rvvtph3xqbcoirf6ymhs&st=ihvpe9s5&dl=1" },
+      { "episode": 6, "title": "Intensity in Tent City", "video_url": "https://dl.dropbox.com/scl/fi/muor8vb8q94qyofiqbnjq/ciencia-6.mp4?rlkey=sq30mwoju7xv6j6rhlcvewlkq&st=7kexppyn&dl=1" },
+      { "episode": 7, "title": "Ears to Hear", "video_url": "https://dl.dropbox.com/scl/fi/d52462tamcba4s460t5ly/ciencia-7.mp4?rlkey=k6qwgjmj2xv52zb2o3y1pd770&st=wev3vxny&dl=1" },
+      { "episode": 8, "title": "Sustenance", "video_url": "https://dl.dropbox.com/scl/fi/yfnhs82hd5o4j44zkguyz/ciencia-8.mp4?rlkey=luhezc4ssdouerr96lpgj0bix&st=flvbyr2t&dl=1" }
+    ]
+  },
+  {
+    "title": "The Chosen Temporada 4",
+    "year": 2024,
+    "genre": ["Drama", "Histórica", "Religioso"],
+    "coverImage": "https://image.tmdb.org/t/p/original/4wINEYDwDranj3ze79tfinY9ggf.jpg",
+    "description": "Los enemigos de Jesús se acercan, mientras que sus seguidores luchan por mantenerse al día. A medida que la oposición se vuelve letal, Jesús exige más de sus discípulos, llevándolos hacia los eventos finales en Jerusalén.",
+    "episodes": [
+      { "episode": 1, "title": "Promises", "video_url": "https://dl.dropbox.com/scl/fi/mf94lsly8g68glv03k4dq/naturales-1.mp4?rlkey=k3izhspr5a2ew1hbuskzc3ily&st=kal0xm6h&dl=1" },
+      { "episode": 2, "title": "Confessions", "video_url": "https://dl.dropbox.com/scl/fi/78rpljuirwuanzhc2x4hl/naturales-2.mp4?rlkey=2tpcif8j8m4khs2b2kenthtnu&st=jsrnn1ll&dl=1" },
+      { "episode": 3, "title": "Moon to Blood", "video_url": "https://dl.dropbox.com/scl/fi/ajh70mf1g42wl2bqwfzw8/naturales-3.mp4?rlkey=kk5dls2f71xm2rqly7vtrjyfd&st=1ofq9pog&dl=1" },
+      { "episode": 4, "title": "Calm Before", "video_url": "https://dl.dropbox.com/scl/fi/y1qxzm6855wb1ytnrjqcz/naturales-4.mp4?rlkey=w8o1owmqafcqqyhf8ylmudmst&st=xzhdqlk9&dl=1" },
+      { "episode": 5, "title": "Sitting, Serving, Spilling", "video_url": "https://dl.dropbox.com/scl/fi/tn1uro9zs03102js6x1n5/naturales-5.mp4?rlkey=1ps6r6ebqcpw5jd5198xgw82g&st=xa25qyb4&dl=1" },
+      { "episode": 6, "title": "Dedication", "video_url": "https://dl.dropbox.com/scl/fi/2k3x2dsrj9hsut2pizzu3/naturales-6.mp4?rlkey=3efrql31vua11jg1h2p0uyb16&st=k7htkap7&dl=1" },
+      { "episode": 7, "title": "The Last Supper", "video_url": "https://dl.dropbox.com/scl/fi/sbggd3sdkd1caersed69q/naturales-7.mp4?rlkey=ixt7rfofs5flkx6x56qwas6be&st=apyvjt8o&dl=1" },
+      { "episode": 8, "title": "Humble", "video_url": "https://dl.dropbox.com/scl/fi/rfud7ha49vdhm4ck7acd1/naturales-8.mp4?rlkey=hknnlj5ul4xmjjblkqsg187p0&st=ii7rs8j1&dl=1" }
+    ]
+  },
+  {
+    "title": "The Chosen La Última Cena",
+    "year": 2025,
+    "genre": ["Drama", "Religioso"],
+    "coverImage": "https://image.tmdb.org/t/p/original/sADRlqLn9na8p7S1mLWMOU04uit.jpg",
+    "description": "Una recopilación especial que profundiza en los momentos íntimos y sagrados vividos durante la última noche de Jesús con sus apóstoles.",
+    "episodes": [
+      { "episode": 1, "title": "La preparación", "video_url": "https://dl.dropbox.com/scl/fi/jw02g0ozas0izktkcx1r0/matematica-1.mp4?rlkey=3r4nrdqdnquwvqlhj4ruc3fdn&st=b8376yko&dl=1" },
+      { "episode": 2, "title": "La traición anunciada", "video_url": "https://dl.dropbox.com/scl/fi/ufc3w8ubpnhu4sskdlgn3/matematica-2.mp4?rlkey=1fpq7v2kjh0d4hy7kyr9qkx8j&st=dqzzddxd&dl=1" },
+      { "episode": 3, "title": "El lavatorio de pies", "video_url": "https://dl.dropbox.com/scl/fi/i2zdhonu60evb94ijyhxz/matematica-3.mp4?rlkey=r06wzr93ks0m32qgsw8azmo48&st=58cx3w31&dl=1" },
+      { "episode": 4, "title": "El pan y el vino", "video_url": "https://dl.dropbox.com/scl/fi/d6pyd0ucp6pci11854nh8/matematica-4.mp4?rlkey=mpz1l85wixj50wlwnu8fq7jaz&st=13m5k3fw&dl=1" },
+      { "episode": 5, "title": "El mandamiento nuevo", "video_url": "https://dl.dropbox.com/scl/fi/xenh9es3trb5q1gruya2h/matematica-5.mp4?rlkey=mtnmlzdrhazlj27gx0b8cgpsm&st=087vn45i&dl=1" },
+      { "episode": 6, "title": "La oración en Getsemaní", "video_url": "https://dl.dropbox.com/scl/fi/3vaevaimqlqw7puxc29k7/matematica-6.mp4?rlkey=040a4jroc0pxh73d87arh4lie&st=r2v0xu5f&dl=1" },
+      { "episode": 7, "title": "El beso de Judas", "video_url": "https://dl.dropbox.com/scl/fi/k9hw5oibg3akkxwrzl1sp/matematica-7.mp4?rlkey=kd1vjnya7gczziugli3fs8goq&st=h7jh1d70&dl=1" },
+      { "episode": 8, "title": "La hora de las tinieblas", "video_url": "https://dl.dropbox.com/scl/fi/tv2ur4rxj48dw98hi4p3l/matematica-8.mp4?rlkey=tzdt2fhwf6qpuyi9sfmqjgyh2&st=r5epqg8z&dl=1" }
+    ]
+  }
+]
+
+  
+
 
 
 
