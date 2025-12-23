@@ -2,9 +2,7 @@
   {
     "title": "Big Hero 6 (Grandes Héroes)",
     "description": "En la ciudad tecnológica de San Fransokyo, el joven prodigio de la robótica Hiro Hamada une fuerzas con el robot inflable Baymax y un grupo de amigos inexpertos para convertirse en héroes de alta tecnología y salvar su ciudad de un misterioso villano.",
-    "year": 2014,
-    "studio": "Walt Disney Animation Studios",
-    "coverImage": "https://archive.org/download/dino_20230311/BI6.png",
+    "coverImage": "https://imgs.search.brave.com/vw3qWA4FgxkUhlchsguAO_ST2IJC3JXvwByL6zumaRA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9teC53/ZWIuaW1nMy5hY3N0/YS5uZXQvY18zMTBf/NDIwL3BpY3R1cmVz/LzE5LzEwLzEwLzIx/LzE1LzAwNjg0NzMu/anBn",
     "genre": [
       "Animación",
       "Acción",
@@ -16,8 +14,6 @@
   {
     "title": "Mi pobre angelito 3",
     "description": "Alex Pruitt, un niño de ocho años, se queda solo en casa con varicela y debe defender su vecindario de cuatro espías internacionales que buscan un microchip ultrasecreto escondido en un coche de juguete.",
-    "year": 1997,
-    "studio": "20th Century Fox",
     "coverImage": "https://i.ibb.co/nPpsyzy/Mi-pobre-angelito-3.jpg",
     "genre": ["Comedia", "Familia", "Aventura"],
     "video_url": "https://ia601509.us.archive.org/1/items/mipobreangelito2_201911/mi%20pobre%20angelito%203.mp4"
@@ -25,8 +21,6 @@
   {
     "title": "Mi pobre angelito 4",
     "description": "Kevin McCallister se enfrenta a nuevos ladrones en una casa llena de tecnología de vanguardia mientras pasa la Navidad con su padre y su nueva novia.",
-    "year": 2002,
-    "studio": "20th Century Fox",
     "coverImage": "https://i.ibb.co/M2Y267c/mi-pobre-angelito4.jpg",
     "genre": ["Comedia", "Familia"],
     "video_url": "https://ia601509.us.archive.org/1/items/mipobreangelito2_201911/mi%20pobre%20angelito%204.mp4"
@@ -34,8 +28,6 @@
   {
     "title": "El Grinch",
     "description": "Una versión animada de la clásica historia del Grinch, un ser amargado que planea robar la Navidad de los habitantes de Villa Quién.",
-    "year": 2018,
-    "studio": "Illumination",
     "coverImage": "https://i.ibb.co/FxfxLHt/grinch.jpg",
     "genre": ["Animación", "Comedia", "Familia"],
     "video_url": "https://archive.org/download/g4t0ngr1nc/g4t0ngr1nc.mkv"
@@ -43,89 +35,69 @@
   {
     "title": "Resident Evil 1: El Huésped maldito",
     "description": "Alice y un equipo militar deben luchar contra una supercomputadora fuera de control y cientos de científicos que se han transformado en zombis carnívoros tras un accidente de laboratorio.",
-    "year": 2002,
-    "studio": "Constantin Film",
-    "coverImage": "https://archive.org/download/re7_20221226/re1.png",
+    "coverImage": "https://pics.filmaffinity.com/Resident_Evil-587544510-large.jpg",
     "genre": ["Acción", "Terror", "Ciencia ficción"],
     "video_url": "https://archive.org/download/r.-e.-h.-m/R.E.H.M.MP4"
   },
   {
     "title": "Resident Evil 2: Apocalipsis",
     "description": "Alice se despierta en un hospital de Raccoon City para encontrar la ciudad invadida por zombis. Debe escapar antes de que lancen un misil nuclear mientras es perseguida por el arma biológica Nemesis.",
-    "year": 2004,
-    "studio": "Constantin Film",
-    "coverImage": "https://archive.org/download/re7_20221226/re2.png",
+    "coverImage": "https://m.media-amazon.com/images/I/71F+oljEnEL._AC_UF1000,1000_QL80_.jpg",
     "genre": ["Acción", "Terror", "Ciencia ficción"],
     "video_url": "https://archive.org/download/6_20200518_20200518/2.MP4"
   },
   {
     "title": "Resident Evil 3: Extinción",
     "description": "Años después del desastre en Raccoon City, Alice atraviesa el desierto de Nevada con un convoy de supervivientes, intentando llegar a Alaska mientras sus poderes evolucionan.",
-    "year": 2007,
-    "studio": "Constantin Film",
-    "coverImage": "https://archive.org/download/re7_20221226/re3.png",
+    "coverImage": "https://pics.filmaffinity.com/Resident_Evil_3_Extinciaon-571197761-large.jpg",
     "genre": ["Acción", "Terror", "Ciencia ficción"],
     "video_url": "https://archive.org/download/6_20200518_20200518/3.MP4"
   },
   {
     "title": "Resident Evil 4: Resurrección",
     "description": "En un mundo asolado por un virus infeccioso, Alice continúa su búsqueda de supervivientes para llevarlos a un lugar seguro mientras se infiltra en una instalación de Umbrella en Los Ángeles.",
-    "year": 2010,
-    "studio": "Constantin Film",
-    "coverImage": "https://archive.org/download/re7_20221226/re4.png",
+    "coverImage": "https://pics.filmaffinity.com/Resident_Evil_4_Ultratumba-631276266-large.jpg",
     "genre": ["Acción", "Terror", "Aventura"],
     "video_url": "https://archive.org/download/6_20200518_20200518/4.MP4"
   },
   {
     "title": "Resident Evil 5: La venganza",
     "description": "El letal virus T de la Corporación Umbrella sigue causando estragos. Alice despierta en el corazón del centro de operaciones más secreto de Umbrella y descubre más sobre su misterioso pasado.",
-    "year": 2012,
-    "studio": "Constantin Film",
-    "coverImage": "https://archive.org/download/re7_20221226/re5.png",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT636Hmn6dG3FIrhPK7dTOzysrOmrwr3yAu9Q&s",
     "genre": ["Acción", "Terror", "Ciencia ficción"],
     "video_url": "https://archive.org/download/6_20200518_20200518/5.MP4"
   },
   {
     "title": "Resident Evil 6: Capítulo Final",
     "description": "Alice regresa a donde comenzó la pesadilla: Raccoon City, donde la Corporación Umbrella está reuniendo sus fuerzas para un ataque final contra los supervivientes del apocalipsis.",
-    "year": 2016,
-    "studio": "Constantin Film",
-    "coverImage": "https://archive.org/download/re7_20221226/re6.png",
+    "coverImage": "https://es.web.img3.acsta.net/pictures/16/11/16/10/53/216614.jpg",
     "genre": ["Acción", "Terror", "Ciencia ficción"],
     "video_url": "https://archive.org/download/6_20200518_20200518/6.mkv"
   },
   {
     "title": "Resident Evil: Degeneración",
     "description": "Película de animación digital. Siete años después de Raccoon City, un ataque terrorista desata un virus mortal en un aeropuerto de EE. UU., reuniendo a Leon S. Kennedy y Claire Redfield.",
-    "year": 2008,
-    "studio": "Capcom / Sony Pictures",
-    "coverImage": "https://archive.org/download/re7_20221226/re7.png",
+    "coverImage": "https://m.media-amazon.com/images/M/MV5BYTU0NTQ2NmEtZTQ5Yi00Nzk5LWI3MzEtY2M3MDk1MjIyMTI1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     "genre": ["Animación", "Acción", "Terror"],
     "video_url": "https://archive.org/download/ygy_20191230/ygy.mp4"
   },
   {
     "title": "Resident Evil: La maldición",
     "description": "Leon S. Kennedy se infiltra en un pequeño país de Europa del Este para investigar informes sobre el uso de Armas Biororgánicas (B.O.W.s) en una guerra civil.",
-    "year": 2012,
-    "studio": "Capcom / Sony Pictures",
-    "coverImage": "https://archive.org/download/re7_20221226/re8.png",
+    "coverImage": "https://m.media-amazon.com/images/M/MV5BMWNjOTQzY2ItNzE0My00MGFlLWFkOGEtOTRhMDAwMDlhMmFlXkEyXkFqcGc@._V1_.jpg",
     "genre": ["Animación", "Acción", "Terror"],
     "video_url": "https://dl.dropbox.com/s/qamtxim7wnrdn8v/ResidentEvilDamnation56584653453536856.mp4"
   },
   {
     "title": "Resident Evil: La Vendetta",
     "description": "Chris Redfield solicita la ayuda de Leon S. Kennedy y Rebecca Chambers para detener a un mercenario sediento de venganza que planea desatar un virus mortal en Nueva York.",
-    "year": 2017,
-    "studio": "Capcom / Sony Pictures",
-    "coverImage": "https://archive.org/download/re7_20221226/re9.png",
+    "coverImage": "https://m.media-amazon.com/images/I/81QeAmBGfML._AC_UF894,1000_QL80_.jpg",
     "genre": ["Animación", "Acción", "Terror"],
     "video_url": "https://dl.dropbox.com/s/thvijufuebq9cav/Resident%20Evil_%20Vendetta.mp4"
   },
   {
     "title": "Resident Evil: Bienvenidos a Raccoon City",
     "description": "Reinicio cinematográfico que sigue a un grupo de supervivientes que intentan descubrir la verdad detrás de la malvada Umbrella Corp mientras luchan contra horrores biológicos en Raccoon City.",
-    "year": 2021,
-    "studio": "Screen Gems",
     "coverImage": "https://i.ibb.co/hXFTYhm/raccon.jpg",
     "genre": ["Terror", "Acción", "Misterio"],
     "video_url": "https://archive.org/download/manguera_202201/R4cc0n.mp4"
@@ -142,7 +114,7 @@
   {
     "title": "Futurama: La Bestia con Billones de Brazos",
     "description": "Una grieta en el universo revela un mundo habitado por una criatura colosal del tamaño de un planeta que utiliza sus billones de tentáculos para enamorar a todos los seres vivos.",
-    "coverImage": "https://static.wikia.nocookie.net/esfuturama/images/0/09/Futurama_BillionBacks.jpg/revision/latest?cb=20100811210828",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZgnZ05EUIaaigiAEAkOLUgH5amRfPmt1TVw&s",
     "genre": ["Animación", "Ciencia ficción", "Aventura"],
     "video_url": "https://dl.dropbox.com/s/7jx5ukuuw2ftsmu/02%20-%20La%20Bestia%20con%20Billones%20de%20Brazos.mp4"
   },
