@@ -1,6 +1,60 @@
 [
 
-
+  {
+    "title": "El hoyo 2",
+    "description": "Una nueva residente se ve envuelta en la lucha contra un líder misterioso que impone una ley brutal sobre el sistema de alimentación de la plataforma, mientras la rebelión crece en las sombras de la prisión.",
+    "year": 2024,
+    "studio": "Netflix / Basque Films",
+    "coverImage": "https://m.media-amazon.com/images/M/MV5BNjc3N2UwZDQtODRiZC00ZjJkLTliYzUtYzA4ZGNiMTQ0ZTNjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "genre": [
+      "Ciencia ficción",
+      "Thriller",
+      "Drama"
+    ],
+    "video_url": "https://github.com/tokio14-dot/p3l12/releases/download/Q.3467467/02.mp4"
+  },
+  {
+    "title": "Joker",
+    "description": "Arthur Fleck, un payaso ignorado por la sociedad y con problemas mentales, se embarca en una espiral de violencia y caos en Gotham City que lo lleva a convertirse en el icónico villano de DC.",
+    "year": 2019,
+    "studio": "Warner Bros. Pictures",
+    "coverImage": "https://es.web.img3.acsta.net/pictures/19/09/17/17/03/5442885.jpg",
+    "genre": [
+      "Drama",
+      "Crimen",
+      "Thriller"
+    ],
+    "video_url": "https://github.com/tokio14-dot/p3l12/releases/download/Q.951716/j.742478456.mp4"
+  },
+  
+  {
+    "title": "El hoyo (The Platform)",
+    "description": "En una prisión distópica donde la comida desciende en una plataforma nivel por nivel, los niveles superiores comen en abundancia mientras los inferiores mueren de hambre, desatando una lucha brutal por la supervivencia y la justicia social.",
+    "year": 2019,
+    "studio": "Netflix / Basque Films",
+    "coverImage": "https://pics.filmaffinity.com/El_hoyo-987825598-large.jpg",
+    "genre": [
+      "Ciencia ficción",
+      "Thriller",
+      "Drama"
+    ],
+    "video_url": "https://github.com/tokio14-dot/p3l12/releases/download/Q.3467467/01.mp4"
+  },
+  
+  {
+    "title": "Mi Querida Oni (My Oni Girl)",
+    "description": "Un estudiante de secundaria que intenta llevarse bien con todos y no ser rechazado conoce a una chica oni en un día de nieve. Juntos emprenden un viaje místico para encontrar a la madre de la chica en esta cautivadora historia de Studio Colorido.",
+    "year": 2024,
+    "studio": "Studio Colorido",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCRPA_Iws0udT5dIYkvSxhg6fUoddxmqbJPA&s",
+    "genre": [
+      "Animación",
+      "Fantasía",
+      "Aventura"
+    ],
+    "video_url": "https://grrfff66me7t.objectstorage.sa-saopaulo-1.oci.customer-oci.com/n/grrfff66me7t/b/Cubojoselyn/o/reset%2Fpeliculas%2Fmay24%2FVer%20Mi%20Querida%20Oni%20online%20HD%20-%20Cuevana%202.mp4"
+  },
+  
   {
     "title": "Kung Fu Panda 2",
     "description": "Po ahora vive su sueño como el Guerrero Dragón, protegiendo el Valle de la Paz, pero debe enfrentar a un nuevo villano que planea usar un arma secreta imparable para conquistar China y destruir el kung fu.",
