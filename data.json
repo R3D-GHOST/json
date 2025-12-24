@@ -1,4 +1,41 @@
 [
+  
+  {
+    "title": "Transformers: el despertar de las bestias",
+    "description": "Ambientada en la década de los 90, la batalla por la Tierra ya no es solo entre Autobots y Decepticons. Una nueva facción de Transformers, los Maximals, se une a la lucha como aliados para salvar al planeta de la llegada de Unicron.",
+    "year": 2023,
+    "studio": "Paramount Pictures",
+    "coverImage": "https://i.ibb.co/1f2dXjb/beast.jpg",
+    "genre": [
+      "Acción",
+      "Ciencia ficción",
+      "Aventura"
+    ],
+    "video_url": "https://dl.dropbox.com/scl/fi/exw7880te9rw4l12779gm/D3SP3RT4RB34ST.mp4?rlkey=gkz38rhid6tej9k5rt06wexs9"
+  },
+  {
+    "title": "Moana: Un mar de aventuras",
+    "description": "Una joven entusiasta de la navegación zarpa en una audaz misión para salvar a su pueblo. Durante su travesía, Moana conoce al otrora todopoderoso semidiós Maui, quien la guía en su aventura para convertirse en una experta navegante.",
+    "coverImage": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/c2a163e6-82c6-406f-a048-1ce4de1c6967/compose?aspectRatio=1.78&format=webp&width=1200",
+    "genre": [
+      "Animación",
+      "Aventura",
+      "Familia"
+    ],
+    "video_url": "https://ia803106.us.archive.org/15/items/123a_20191206/576vg.mp4"
+  },
+  {
+    "title": "Rango",
+    "description": "Un camaleón doméstico que aspira a ser un héroe llega por accidente al pueblo de Dirt, un lugar sin ley en el desierto donde se convierte en el nuevo sheriff y debe resolver el misterio de la desaparición del agua.",
+    "coverImage": "https://i.ibb.co/DLGRCqQ/rango.jpg",
+    "genre": [
+      "Animación",
+      "Aventura",
+      "Comedia"
+    ],
+    "video_url": "https://godna94.pp.ua/CONENIDO_1909AASSDD/SUBMENUS//_PROTECTOR_DE_ARCHIVOS_PARA_REPRODUCCION_DE_VIDEOS_GRACIAS_POR_VISITAR.php?v=aHR0cHM6Ly9hcmNoaXZlLm9yZy9kb3dubG9hZC8wMDMwMF8yMDE5MDkyMC8wMDMwMC5ta3Y=&f=.mp4"
+  },
+  
   {
     "title": "Big Hero 6 (Grandes Héroes)",
     "description": "En la ciudad tecnológica de San Fransokyo, el joven prodigio de la robótica Hiro Hamada une fuerzas con el robot inflable Baymax y un grupo de amigos inexpertos para convertirse en héroes de alta tecnología y salvar su ciudad de un misterioso villano.",
