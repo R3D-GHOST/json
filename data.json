@@ -1,4 +1,45 @@
 [
+  {
+  "title": "Dandadan",
+  "genre": ["Anime", "Acción", "Sobrenatural", "Comedia"],
+  "coverImage": "https://image.tmdb.org/t/p/original/jWSIn9KfjdtgnxRwERC5vqJn4el.jpg",
+  "description": "Momo Ayase y Ken Takakura (Okarun) son dos estudiantes con creencias opuestas sobre lo oculto. Tras un desafío, ambos descubren que tanto los fantasmas como los alienígenas son reales, desatando una serie de batallas caóticas y poderes sobrenaturales.",
+  "episodes": [
+    { "episode": 1, "title": "El Origen de Momo y Okarun", "video_url": "https://archive.org/download/dandan-1/Dandan1.mp4" },
+    { "episode": 2, "title": "Turbo Abuela y el Testículo Perdido", "video_url": "https://archive.org/download/dandan-1/Dandan2.mp4" },
+    { "episode": 3, "title": "La Acrosara y los Poderes de Aira", "video_url": "https://archive.org/download/dandan-1/Dandan3.mp4" },
+    { "episode": 4, "title": "La Invasión de los Serpo", "video_url": "https://archive.org/download/dandan-1/Dandan4.mp4" },
+    { "episode": 5, "title": "La Batalla en el Templo", "video_url": "https://archive.org/download/dandan-1/Dandan5.mp4" },
+    { "episode": 6, "title": "El Regreso de Turbo Abuela", "video_url": "https://archive.org/download/dandan-1/Dandan6.mp4" },
+    { "episode": 7, "title": "El Secreto de Jiji", "video_url": "https://archive.org/download/dandan-1/Dandan7.mp4" },
+    { "episode": 8, "title": "La Maldición del Ojo", "video_url": "https://archive.org/download/dandan-1/Dandan8.mp4" },
+    { "episode": 9, "title": "La Casa Embrujada", "video_url": "https://archive.org/download/dandan-1/Dandan9.mp4" },
+    { "episode": 10, "title": "El Poder del Mal de Ojo", "video_url": "https://archive.org/download/dandan-1/Dandan10.mp4" },
+    { "episode": 11, "title": "El Conflicto Final", "video_url": "https://archive.org/download/dandan-1/Dandan11.mp4" },
+    { "episode": 12, "title": "El Desenlace y el Futuro", "video_url": "https://archive.org/download/dandan-1/Dandan12.mp4" }
+  ]
+},
+
+  {
+  "title": "Dandadan Temporada 2",
+  "genre": ["Anime","Estreno", "Acción", "Sobrenatural", "Comedia"],
+  "coverImage": "https://image.tmdb.org/t/p/original/6qfZAOEUFIrbUH3JvePclx1nXzz.jpg",
+  "description": "La historia continúa con el arco de la casa maldita y el enfrentamiento contra el Clan Kito. Momo, Okarun y Jiji deberán unir fuerzas para controlar el abrumador poder del Ojo Maligno mientras enfrentan amenazas que mezclan lo místico con lo extraterrestre.",
+  "episodes": [
+    { "episode": 1, "title": "La Leyenda de la Gran Serpiente", "video_url": "https://dl.dropbox.com/scl/fi/249eqgwtonxfat2xgknjw/01.mp4?rlkey=qxd2pgf5d77mxiwc30r03j927&st=4n3aqh2m&dl=0" },
+    { "episode": 2, "title": "El Poder del Ojo Maligno", "video_url": "https://dl.dropbox.com/scl/fi/iav73n5wb0hzags828jkb/sociales-1.mp4?rlkey=exobijxo7admu1yjca62fo0b6&st=dz01umkt&dl=0" },
+    { "episode": 3, "title": "El Pasado de Jiji", "video_url": "https://dl.dropbox.com/scl/fi/ryb0m6z0bg40o5b21bi7m/sociales-2.mp4?rlkey=f7deq0qywwxog5l6jqm72t8jl&st=7r17hkx2&dl=0" },
+    { "episode": 4, "title": "La Maldición del Volcán", "video_url": "https://dl.dropbox.com/scl/fi/vra5jcafraa3erfbi2sjk/sociales-4.mp4?rlkey=3f1vt4bobhu60vu6k56bofwmb&st=mmz2l6wq&dl=0" },
+    { "episode": 5, "title": "El Clan Kito", "video_url": "https://dl.dropbox.com/scl/fi/8wan94zh5ah2y58yiilty/sociales-5.mp4?rlkey=tvsl5704fj3ehu758a91jpshb&st=l5b65kke&dl=0" },
+    { "episode": 6, "title": "El Sacrificio", "video_url": "https://dl.dropbox.com/scl/fi/8zz7etvsy89yyyvz882dr/sociales-6.mp4?rlkey=6gihfr3v6fk7odg24h37qoq8q&st=n43ysdj6&dl=0" },
+    { "episode": 7, "title": "La Batalla en las Termas", "video_url": "https://archive.org/download/07-dandan-season-2-latino/07%20-DandaS2%20%5BMulti%20-Audio%5D.mkv" },
+    { "episode": 8, "title": "El Control del Ojo", "video_url": "https://archive.org/download/dandadan-latino-episodio-20/Dandadan%20Latino%20episodio%2020.mp4" },
+    { "episode": 9, "title": "La Amenaza del Kaiju", "video_url": "https://archive.org/download/dandadan-latino-episodio-21/Dandadan%20Latino%20episodio%2021%20-%20.mp4" },
+    { "episode": 10, "title": "La Transformación", "video_url": "https://archive.org/download/dan-2-23/Dan2-23.ia.mp4" },
+    { "episode": 11, "title": "El Último Recurso", "video_url": "" },
+    { "episode": 12, "title": "El Destino de Jiji", "video_url": "" }
+  ]
+},
   
   {
     "title": "Transformers: el despertar de las bestias",
