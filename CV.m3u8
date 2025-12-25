@@ -11,6 +11,14 @@ https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26
 
 
 
+
+#EXTINF:-1 group-title="", Eurosport 1 HD
+http://178.134.1.158:8081/eurosport/index.m3u8
+#EXTINF:-1 group-title="", Eurosport 2 HD
+http://178.217.72.66:8080/Eurosport_2_HD/video.m3u8
+#EXTINF:-1 group-title="" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/p5csyn1620551587.png",Sky Sport F1
+http://2.magmas5.com:8000/live/XXXR3str3amLine/200conxxxxQ41/218103.ts
+
 #EXTINF:-1 tvg-logo="https://www.movistarplus.es/recorte/n/galeria/F4430731" group-title="Deportes", M+ La Liga de campeones HD
 http://twbc3p54.upmdd.xyz:80/play/687033878/538012839/165359.ts
 
