@@ -1,5 +1,19 @@
 [
   {
+    "title": "Mi vecino Totoro",
+    "description": "Dos hermanas se mudan al campo con su padre para estar más cerca de su madre hospitalizada. Pronto descubren que el bosque cercano está habitado por criaturas mágicas, incluyendo a un espíritu del bosque gigante y amable llamado Totoro.",
+    "year": 1988,
+    "studio": "Studio Ghibli",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiJ8tl8UhBsCd-ZQGubnks4BoM4LRlrsJf7ESjWEmgUA&s=10",
+    "genre": [
+      "Animación",
+      "Fantasía",
+      "Familia"
+    ],
+    "video_url": "https://archive.org/download/mi-vecino-totoro-1988-doblaje-latino-original-extras/Mi%20Vecino%20Totoro%20%281988%29%20%28Doblaje%20Latino%20Original%20%2B%20Extras%29.mp4"
+  },
+  
+  {
   "title": "Ben 10",
   "genre": ["Animación", "Acción", "Aventura", "Ciencia Ficción"],
   "coverImage": "https://m.media-amazon.com/images/M/MV5BYWVjODZjNDgtYjk4ZS00OTg5LTg5NDQtZDMxZDQ4ZmM5MGJmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
