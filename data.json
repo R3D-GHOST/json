@@ -1,5 +1,132 @@
 [
   {
+    "title": "Titanic",
+    "description": "Un aristócrata de diecisiete años se enamora de un artista amable pero pobre a bordo del lujoso e imponente R.M.S. Titanic.",
+    "year": 1997,
+    "studio": "20th Century Fox / Paramount Pictures",
+    "coverImage": "https://i.ibb.co/2c80HZX/Dv-WYPm-Orydx2-T65ego-COD3-YGab-U.jpg",
+    "genre": ["Drama", "Romance"],
+    "video_url": "https://archive.org/download/t-4t-4n-1c-720p-dual-2-91-gb/T4t4n1c%20720p%20DUAL%202%2C91%20GB.mkv"
+  },
+  {
+    "title": "Peter Rabbit",
+    "description": "El aventurero conejo Peter intenta colarse en el jardín de un huraño granjero para conseguir comida, desatando una batalla de ingenio.",
+    "year": 2018,
+    "studio": "Sony Pictures",
+    "coverImage": "https://i.ibb.co/swgQD7c/Lug-Ovda-Npb-VGQK9-Ty-MRDi-Ub-Lt-Y6.jpg",
+    "genre": ["Animación", "Aventura", "Familia"],
+    "video_url": "https://archive.org/download/r-4bb-1t-0-1-720p-dual-773.5-mb/R4bb1t0%201%20720p%20DUAL%20773.5%20MB.mkv"
+  },
+  {
+    "title": "Peter Rabbit 2: Conejo en fuga",
+    "description": "Peter no logra sacudirse su reputación de travieso y decide aventurarse fuera del jardín, encontrando un mundo donde sus travesuras son apreciadas.",
+    "year": 2021,
+    "studio": "Sony Pictures",
+    "coverImage": "https://i.ibb.co/c3stxB0/Lxd1k37-WM226v-HZM4hk-Ivc-MOjt.jpg",
+    "genre": ["Animación", "Aventura", "Comedia"],
+    "video_url": "https://archive.org/download/r-4bb-1t-0-2-720p-dual-960-74-mb/R4bb1t0%202%20720p%20DUAL%20960%2C74%20MB.MKV"
+  },
+  {
+    "title": "Parque Jurásico I",
+    "description": "Un multimillonario crea un parque temático con dinosaurios vivos, pero un fallo en el sistema de seguridad permite que las criaturas escapen.",
+    "year": 1993,
+    "studio": "Universal Pictures",
+    "coverImage": "https://i.ibb.co/W6vmV3K/ABS1xqnv3vo4yr-WE5-Se1-WAsb-Nyi.jpg",
+    "genre": ["Ciencia ficción", "Aventura"],
+    "video_url": "https://ia601800.us.archive.org/30/items/jurassic.-park.-1993.720p-dual-lat.mp-4/Jurassic.Park.1993.720p-dual-lat.mp4"
+  },
+  {
+    "title": "Parque Jurásico II: El mundo perdido",
+    "description": "Ian Malcolm es enviado a una segunda isla llena de dinosaurios para rescatar a su novia y documentar la vida de las criaturas antes de que sean capturadas.",
+    "year": 1997,
+    "studio": "Universal Pictures",
+    "coverImage": "https://i.ibb.co/ZH26yX5/Er-La-Dd-OHp-YDp8-O4ut-BXlvf8j-Cf7.jpg",
+    "genre": ["Ciencia ficción", "Acción"],
+    "video_url": "https://archive.org/download/jur-4s-1c-2-720p-lat-1-78-gb/Jur4%24s1c%202%20720p%20LAT%201%2C78%20GB.mkv"
+  },
+  {
+    "title": "Parque Jurásico III",
+    "description": "El Dr. Alan Grant es engañado para viajar a la Isla Sorna, donde queda atrapado junto a un grupo que busca a un niño desaparecido.",
+    "year": 2001,
+    "studio": "Universal Pictures",
+    "coverImage": "https://i.ibb.co/hKh7yKB/5-GM4-Nqc79-PFE3-IOq-NKwm-Ox-AWk-X1.jpg",
+    "genre": ["Acción", "Aventura", "Thriller"],
+    "video_url": "https://archive.org/download/4v-4t-4r-720p-dual-2.67-gb/Jur4ss1c%203%20HD%201%2C63%20GB.mkv"
+  },
+  {
+    "title": "Jurassic World",
+    "description": "Veintidós años después de los eventos de Jurassic Park, un nuevo parque abre sus puertas, pero un dinosaurio híbrido modificado genéticamente escapa.",
+    "year": 2015,
+    "studio": "Universal Pictures",
+    "coverImage": "https://i.ibb.co/yhKdJ7n/A0-LZHXUzo5-C60-Oahvt7-Vxvwuz-Hw.jpg",
+    "genre": ["Ciencia ficción", "Aventura"],
+    "video_url": "https://archive.org/download/jur-4s-1c-w-0rld-720p-dual-1.86-gb/Jur4s%241c%20w0rld%20720p%20DUAL%201.86%20GB.mkv"
+  },
+  {
+    "title": "Jurassic World: El reino caído",
+    "description": "Owen y Claire regresan a la isla para salvar a los dinosaurios de una erupción volcánica, descubriendo una conspiración que amenaza al planeta entero.",
+    "year": 2018,
+    "studio": "Universal Pictures",
+    "coverImage": "https://i.ibb.co/tCxkcpQ/Vs3o8yt-Xcw142-SA9-DRhc-Ifj63-VI.jpg",
+    "genre": ["Acción", "Aventura"],
+    "video_url": "https://archive.org/download/jur-4s-1c-reino-c-41d-0-720p-dual-1.24-gb/Jur4s%241c%20reino%20c41d0%20720p%20DUAL%201.24%20GB.mkv"
+  },
+  {
+    "title": "Jurassic World: Dominion",
+    "description": "Dinosaurios y humanos viven juntos en todo el mundo. El equilibrio es frágil y determinará si los humanos seguirán siendo los depredadores alfa.",
+    "year": 2022,
+    "studio": "Universal Pictures",
+    "coverImage": "https://i.ibb.co/dmcLJ7j/I74y-GY5-QMgq6sece-Dhlta-PJ0xf-O.jpg",
+    "genre": ["Acción", "Aventura", "Ciencia ficción"],
+    "video_url": "https://archive.org/download/jur-4ss-1c-d0m-1n-10n-1080p-dual-3.26-gb/Jur4ss1c%20D%E2%81%B0m1n10n%201080p%20DUAL%203.26%20GB.mkv"
+  },
+  {
+    "title": "Scooby-Doo",
+    "description": "La pandilla de Mystery Inc. se reúne después de dos años para investigar sucesos extraños en un popular parque temático llamado Spooky Island.",
+    "year": 2002,
+    "studio": "Warner Bros.",
+    "coverImage": "https://i.ibb.co/Bj9k08t/VX6-NAk-WHic-HDg-GYa192-Kt47d-PWI.jpg",
+    "genre": ["Comedia", "Aventura", "Misterio"],
+    "video_url": "https://archive.org/download/c00by-d-00-1-2002-1080p-3-67-gb/%24c%E2%81%B0%E2%81%B0by-D00%201%20%282002%29%201080p%203%2C67%20GB.mkv"
+  },
+  {
+    "title": "La Máscara",
+    "description": "Un tímido empleado bancario encuentra una máscara mágica que lo transforma en un bromista salvaje con superpoderes y una cara verde.",
+    "year": 1994,
+    "studio": "New Line Cinema",
+    "coverImage": "https://i.ibb.co/fFT8r5j/SW0t-ABq2g-GGzdw-HKh-Bs2hup-EK11.jpg",
+    "genre": ["Comedia", "Fantasía", "Crimen"],
+    "video_url": "https://archive.org/download/la-m-4sc-4r-4-hd-1-68-gb/La%20m4sc4r4%20HD%201%2C68%20GB.mkv"
+  },
+  {
+    "title": "La Máscara 2: El hijo de la máscara",
+    "description": "Un aspirante a dibujante descubre que su bebé ha nacido con los poderes de la Máscara de Loki, lo que atrae la atención del mismísimo dios del engaño.",
+    "year": 2005,
+    "studio": "New Line Cinema",
+    "coverImage": "https://i.ibb.co/DfR2s0x/6-ABy1-EUjc-JKci9m-Qzr-Dpp-LWB24q.jpg",
+    "genre": ["Comedia", "Fantasía", "Familia"],
+    "video_url": "https://archive.org/download/la-m-4sc-4r-4-2-720p-lat-917-31-mb/La%20m4sc4r4%202%20720p%20LAT%20917%2C31%20MB.mkv"
+  },
+  {
+    "title": "Todopoderoso",
+    "description": "Un reportero de televisión que se queja constantemente de Dios recibe de este sus poderes divinos para ver si puede hacerlo mejor.",
+    "year": 2003,
+    "studio": "Universal Pictures",
+    "coverImage": "https://i.ibb.co/4p8tNPc/EYJCAio-ZOb-Oi-UDz8-LMTAq-Jqm-X7-R.jpg",
+    "genre": ["Comedia", "Fantasía"],
+    "video_url": "https://archive.org/download/t-0d0p-0d-3r-os-0-1-1080p-5-04-gb_202311/T0d%E2%81%B0p0d3rOs0%201%201080p%205%2C04%20GB.mkv"
+  },
+  {
+    "title": "Todopoderoso 2: El regreso de Evan",
+    "description": "Dios contacta al recién elegido congresista Evan Baxter y le ordena construir un arca ante la inminencia de una gran inundación.",
+    "year": 2007,
+    "studio": "Universal Pictures",
+    "coverImage": "https://i.ibb.co/16rJLHd/VLkmy-QPBr23-Uz-Wxx3w-TL3-RZHyeq.jpg",
+    "genre": ["Comedia", "Fantasía", "Familia"],
+    "video_url": "https://archive.org/download/t-0d0p-0d-3r-os-0-2-1080p-lat-2-37-gb/T0d%E2%81%B0p0d3rOs0%202%201080p%20LAT%202%2C37%20GB.mkv"
+  },
+  
+  {
     "title": "Space Jam: El juego del siglo",
     "description": "En un intento por ganar su libertad, los Looney Tunes reclaman la ayuda del campeón de baloncesto Michael Jordan para enfrentarse a un equipo de alienígenas en un partido de alto riesgo.",
     "year": 1996,
