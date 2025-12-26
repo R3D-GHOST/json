@@ -1,5 +1,104 @@
 [
   {
+    "title": "Space Jam: El juego del siglo",
+    "description": "En un intento por ganar su libertad, los Looney Tunes reclaman la ayuda del campeón de baloncesto Michael Jordan para enfrentarse a un equipo de alienígenas en un partido de alto riesgo.",
+    "year": 1996,
+    "studio": "Warner Bros.",
+    "coverImage": "https://i.ibb.co/C7Ljr81/Space-jam.png",
+    "genre": ["Animación", "Comedia", "Deportes"],
+    "video_url": "https://archive.org/download/sspaci-4le-j-4mb-0-1996-720p-1-81-gb/Sspaci4le%20J4m%27b0%20%281996%29%20720p%201%2C81%20GB.mkv"
+  },
+  {
+    "title": "Chucky: El Muñeco Diabólico",
+    "description": "Un asesino en serie transfiere su alma a un muñeco 'Good Guy' mediante vudú. El muñeco termina en manos de un niño, desencadenando una ola de terror.",
+    "year": 1988,
+    "studio": "United Artists",
+    "coverImage": "https://i.ibb.co/3dVt3gq/Bsywhsv.jpg",
+    "genre": ["Terror", "Slasher"],
+    "video_url": "https://ia800508.us.archive.org/6/items/cho-0ck-1y-10-720p-lat-903.14-mb/Cho0ck1y%201%E2%81%B0%20720p%20LAT%20903.14%20MB.ia.mp4"
+  },
+  {
+    "title": "Chucky: El Muñeco Diabólico 2",
+    "description": "Chucky regresa de entre los muertos para perseguir de nuevo a Andy Barclay, quien ahora vive con una familia de acogida tras los traumáticos eventos de la primera parte.",
+    "year": 1990,
+    "studio": "Universal Pictures",
+    "coverImage": "https://i.ibb.co/N1CQXZS/Z62hwt.jpg",
+    "genre": ["Terror", "Slasher"],
+    "video_url": "https://ia800503.us.archive.org/16/items/cho-0ck-1y-20-1080p-lat-873.12-mb/Cho0ck1y%202%E2%81%B0%201080p%20LAT%20873.12%20MB.ia.mp4"
+  },
+  {
+    "title": "Chucky: El Muñeco Diabólico 3",
+    "description": "Ocho años después, un Andy adolescente en una academia militar debe enfrentarse nuevamente a un reconstruido Chucky que busca un nuevo cuerpo.",
+    "year": 1991,
+    "studio": "Universal Pictures",
+    "coverImage": "https://i.ibb.co/vmBX980/Bs526wy.jpg",
+    "genre": ["Terror", "Slasher"],
+    "video_url": "https://ia800509.us.archive.org/27/items/cho-0ck-1y-30-720p-lat-941.33-mb/Cho0ck1y%203%E2%81%B0%20720p%20LAT%20941.33%20MB.mp4"
+  },
+  {
+    "title": "La Novia de Chucky",
+    "description": "Tiffany, una antigua amante del asesino Charles Lee Ray, rescata sus restos para resucitarlo, terminando ella misma convertida en una muñeca asesina.",
+    "year": 1998,
+    "studio": "Universal Pictures",
+    "coverImage": "https://i.ibb.co/8BxDB56/Nshwhwt5.jpg",
+    "genre": ["Terror", "Comedia negra"],
+    "video_url": "https://ia801200.us.archive.org/11/items/cho-0ck-1y-la-n-0v-1a-1080p-lat-1.1-gb/Cho0ck1yLaN0v1a%20%201080p%20LAT%201.1%20GB.mp4"
+  },
+  {
+    "title": "El Hijo de Chucky",
+    "description": "Glen, el hijo de Chucky y Tiffany, viaja a Hollywood para resucitar a sus padres, pero se horroriza al descubrir la naturaleza violenta de sus progenitores.",
+    "year": 2004,
+    "studio": "Rogue Pictures",
+    "coverImage": "https://i.ibb.co/mFbJd0W/DYbp4-Nw-CTQN8-JLx-Kh5i4vech3td.jpg",
+    "genre": ["Terror", "Comedia negra"],
+    "video_url": "https://archive.org/download/cho-0ck-1y-de-k-1d-1080p-dual-2-95-gb/Cho0ck1yDeK1d%201080p%20DUAL%202%2C95%20GB.mkv"
+  },
+  {
+    "title": "Crepúsculo",
+    "description": "Bella Swan se muda a un pequeño pueblo de Washington y se enamora de Edward Cullen, un misterioso compañero de clase que resulta ser un vampiro.",
+    "year": 2008,
+    "studio": "Summit Entertainment",
+    "coverImage": "https://i.ibb.co/hcdgJtS/8v-P8f-Lo-I0-GSf4q-MDUFst-Kg-Cd-Y1-H.jpg",
+    "genre": ["Fantasía", "Romance", "Drama"],
+    "video_url": "https://ia600502.us.archive.org/22/items/cr-3-ep-0scul0-20-1080p-2-gb/Cr3Ep0scul%E2%81%B0%201%E2%81%B0%201080p%201%2C87%20GB.mp4"
+  },
+  {
+    "title": "Crepúsculo: Luna Nueva",
+    "description": "Tras la partida de Edward para protegerla, Bella cae en una depresión y encuentra consuelo en su amigo Jacob Black, descubriendo el secreto de los hombres lobo.",
+    "year": 2009,
+    "studio": "Summit Entertainment",
+    "coverImage": "https://i.ibb.co/pxGkwnC/91-L4q-Gz83y8-AU6-UB5-NQn-K2-UH7f0.jpg",
+    "genre": ["Fantasía", "Romance", "Drama"],
+    "video_url": "https://ia600502.us.archive.org/22/items/cr-3-ep-0scul0-20-1080p-2-gb/Cr3Ep0scul%E2%81%B0%202%E2%81%B0%201080p%202%20GB.mp4"
+  },
+  {
+    "title": "Crepúsculo: Eclipse",
+    "description": "Seattle es azotada por una serie de asesinatos causados por un ejército de vampiros recién nacidos, obligando a vampiros y licántropos a formar una alianza.",
+    "year": 2010,
+    "studio": "Summit Entertainment",
+    "coverImage": "https://i.ibb.co/9rsZMRX/5-Y2-Yn-TI8-Hbi4cf-GZkzbws-VSwzqk.jpg",
+    "genre": ["Fantasía", "Romance", "Aventura"],
+    "video_url": "https://ia600502.us.archive.org/22/items/cr-3-ep-0scul0-20-1080p-2-gb/Cr3Ep0scul%E2%81%B0%203%E2%81%B0%201080p%201%2C9%20GB.mp4"
+  },
+  {
+    "title": "Crepúsculo: Amanecer - Parte 1",
+    "description": "La felicidad del matrimonio de Bella y Edward se ve interrumpida por un embarazo peligroso que pone a prueba la paz entre los Cullen y los Quileutes.",
+    "year": 2011,
+    "studio": "Summit Entertainment",
+    "coverImage": "https://i.ibb.co/T2mf0RC/X4ic-STCE0s-Pi-HWKXMPmer5-Sn-Agx.jpg",
+    "genre": ["Fantasía", "Romance", "Drama"],
+    "video_url": "https://ia600502.us.archive.org/22/items/cr-3-ep-0scul0-20-1080p-2-gb/Cr3Ep0scul%E2%81%B0%204%E2%81%B0%201080p%201%2C77%20GB.mp4"
+  },
+  {
+    "title": "Crepúsculo: Amanecer - Parte 2",
+    "description": "Tras el nacimiento de Renesmee, los Cullen reúnen a otros clanes de vampiros para proteger a la niña de una acusación falsa ante los Volturi.",
+    "year": 2012,
+    "studio": "Summit Entertainment",
+    "coverImage": "https://i.ibb.co/HF1wW5X/Ee51jb-Pg-Mf4-Vb9e-GX9-LPSRGp-A8-O.jpg",
+    "genre": ["Fantasía", "Romance", "Aventura"],
+    "video_url": "https://ia600502.us.archive.org/22/items/cr-3-ep-0scul0-20-1080p-2-gb/Cr3Ep0scul%E2%81%B0%205%E2%81%B0%201080p%201%2C77%20GB.mp4"
+  },
+  {
   "title": "Plunderer",
   "year": 2020,
   "genre": ["Acción", "Fantasía", "Ecchi", "Ciencia Ficción"],
