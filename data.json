@@ -1,5 +1,41 @@
 [
   {
+    "title": "Un detective suelto en Hollywood",
+    "description": "El impetuoso detective de Detroit, Axel Foley, viaja a Beverly Hills para investigar el asesinato de un amigo, chocando con la cultura local y los métodos de la policía de California.",
+    "year": 1984,
+    "studio": "Paramount Pictures",
+    "coverImage": "https://i.ibb.co/sVvwm6z/Un-Detective-Suelto-Hollywood.jpg",
+    "genre": ["Acción", "Comedia", "Crimen"],
+    "video_url": "https://archive.org/download/789456_202003/789456_0101.mp4"
+  },
+  {
+    "title": "Un detective suelto en Hollywood II",
+    "description": "Axel Foley regresa a Beverly Hills para ayudar a sus amigos de la policía a resolver una serie de robos misteriosos conocidos como los 'crímenes del alfabeto'.",
+    "year": 1987,
+    "studio": "Paramount Pictures",
+    "coverImage": "https://i.ibb.co/WgQLtTN/Un-detective-suelto-en-Hollywood-2.jpg",
+    "genre": ["Acción", "Comedia", "Crimen"],
+    "video_url": "https://archive.org/download/789456_202003/789456_0102.mp4"
+  },
+  {
+    "title": "Un detective suelto en Hollywood III",
+    "description": "Axel Foley vuelve a Los Ángeles tras la pista de los asesinos de su jefe, lo que lo lleva a un parque de atracciones llamado WonderWorld que oculta algo muy turbio.",
+    "year": 1994,
+    "studio": "Paramount Pictures",
+    "coverImage": "https://i.ibb.co/18TNDpM/Un-detective-suelto-en-Hollywood-3.jpg",
+    "genre": ["Acción", "Comedia", "Crimen"],
+    "video_url": "https://archive.org/download/789456_202003/789456_0103.mp4"
+  },
+  {
+    "title": "La Bella y la Bestia",
+    "description": "Adaptación en imagen real del clásico de Disney sobre una joven soñadora que, para salvar a su padre, acepta ser prisionera en el castillo de una Bestia que oculta un corazón noble.",
+    "year": 2017,
+    "studio": "Walt Disney Pictures",
+    "coverImage": "https://i.ibb.co/FHqjc7h/07.jpg",
+    "genre": ["Fantasía", "Musical", "Romance"],
+    "video_url": "https://ia801407.us.archive.org/16/items/lat-720-b.-3.4.-u.-t.-y-4.-n.-d-t.-h.-3-b.-3.4.-s.-t/LAT-720%20B.3.4.U.T.Y_4.N.D_T.H.3_B.3.4.S.T.mp4"
+  },
+  {
     "title": "Assassin's Creed",
     "description": "Gracias a una tecnología revolucionaria que libera sus recuerdos genéticos, Callum Lynch experimenta las aventuras de de su antepasado Aguilar en la España del siglo XV. Callum descubre que es descendiente de una misteriosa sociedad secreta, los Asesinos, y acumula conocimientos y habilidades increíbles para enfrentarse a la opresiva y poderosa organización de los Templarios en el presente.",
     "year": 2016,
