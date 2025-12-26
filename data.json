@@ -1,5 +1,78 @@
 [
   {
+    "title": "Los Ilusionistas: Nada es lo que parece",
+    "description": "Un equipo de los mejores ilusionistas del mundo, 'Los Cuatro Jinetes', realiza atracos a bancos durante sus actuaciones y reparte el botín entre su audiencia, mientras son perseguidos por un agente del FBI y una detective de la Interpol.",
+    "year": 2013,
+    "studio": "Summit Entertainment",
+    "coverImage": "https://i.ibb.co/CKCvRvP/7-FZ5-N5-YQT42e2s0k-Anqm-DPOen1a.jpg",
+    "genre": ["Misterio", "Suspenso", "Crimen"],
+    "video_url": "https://archive.org/download/3xpl-0c-1v-4-2-2001-hd-2-96-gb/1luc10n1%24t4s%201%20%282013%29%201080p%202%2C49%20GB.mkv"
+  },
+  {
+    "title": "Los Ilusionistas 2",
+    "description": "Un año después de burlar al FBI, los Jinetes regresan para una nueva actuación con el objetivo de exponer las prácticas poco éticas de un magnate de la tecnología, viéndose obligados a realizar un atraco imposible.",
+    "year": 2016,
+    "studio": "Lionsgate",
+    "coverImage": "https://i.ibb.co/fvvD6QR/9-Orn6q-HO5z-XL6-Fc-Om-HKd1tcm7-CK.jpg",
+    "genre": ["Acción", "Misterio", "Comedia"],
+    "video_url": "https://archive.org/download/3xpl-0c-1v-4-2-2001-hd-2-96-gb/1luc10n1%24t4s%202%201080p%20LAT%201.27%20GB.mp4"
+  },
+  {
+    "title": "Transformers",
+    "description": "La guerra entre los Autobots y los Decepticons llega a la Tierra. Sam Witwicky es la clave para evitar que los malvados alienígenas obtengan la 'Chispa Suprema'.",
+    "year": 2007,
+    "studio": "DreamWorks Pictures / Paramount",
+    "coverImage": "https://i.ibb.co/6JSfg8w/QJum5-Arx-WCqua-Dm-K0-OXDKec-RIeq.jpg",
+    "genre": ["Acción", "Ciencia ficción", "Aventura"],
+    "video_url": "https://archive.org/download/tr-4nf-0rm-3r-6-1080p-dual-3.57-gb/Tr4n%24f0rm3r%24%201%201080p%202%2C3%20GB.mp4"
+  },
+  {
+    "title": "Transformers 2: La venganza de los caídos",
+    "description": "Sam comienza la universidad, pero los Decepticons regresan para capturarlo después de que aprende la verdad sobre los antiguos orígenes de los Transformers.",
+    "year": 2009,
+    "studio": "Paramount Pictures",
+    "coverImage": "https://i.ibb.co/5cnCsBG/Qz-EIlh-Hiv-Icp-Kh-KVOkb61e-Bz2-Mv.jpg",
+    "genre": ["Acción", "Ciencia ficción", "Aventura"],
+    "video_url": "https://archive.org/download/tr-4nf-0rm-3r-6-1080p-dual-3.57-gb/Tr4n%24f0rm3r%24%202%201080p%202%2C41%20GB.mp4"
+  },
+  {
+    "title": "Transformers 3: El lado oscuro de la luna",
+    "description": "Los Autobots descubren una nave de Cybertron oculta en la Luna y compiten contra los Decepticons para llegar a ella y aprender sus secretos.",
+    "year": 2011,
+    "studio": "Paramount Pictures",
+    "coverImage": "https://i.ibb.co/HqGZt4b/7667g63-UHuj-NOx-NWmco-CNe-LEs-RM.jpg",
+    "genre": ["Acción", "Ciencia ficción", "Aventura"],
+    "video_url": "https://archive.org/download/tr-4nf-0rm-3r-6-1080p-dual-3.57-gb/Tr4n%24f0rm3r%24%203%201080p%20DUAL%202%2C48%20GB.mp4"
+  },
+  {
+    "title": "Transformers 4: La era de la extinción",
+    "description": "Cinco años después de la batalla de Chicago, la humanidad se ha vuelto contra los Transformers, pero un mecánico encuentra a Optimus Prime, desatando un nuevo conflicto con Dinobots incluidos.",
+    "year": 2014,
+    "studio": "Paramount Pictures",
+    "coverImage": "https://i.ibb.co/X2P1t9J/2-Wnl-Ezbgf-RYlr-ZSooj-Lh-Fj-XZGI4.jpg",
+    "genre": ["Acción", "Ciencia ficción", "Aventura"],
+    "video_url": "https://archive.org/download/tr-4nf-0rm-3r-6-1080p-dual-3.57-gb/Tr4n%24f0rm3r%24%204%201080p%202%2C65%20GB.mp4"
+  },
+  {
+    "title": "Transformers 5: El último caballero",
+    "description": "Con Optimus Prime desaparecido, una guerra entre humanos y Transformers estalla. La clave para salvar el futuro reside en los secretos enterrados del pasado de los Transformers en la Tierra.",
+    "year": 2017,
+    "studio": "Paramount Pictures",
+    "coverImage": "https://i.ibb.co/QmH9mg7/MXEBn-Mq-Fw-TJCrdd-Vhkn-CH9fq3f-B.jpg",
+    "genre": ["Acción", "Ciencia ficción", "Aventura"],
+    "video_url": "https://archive.org/download/tr-4nf-0rm-3r-6-1080p-dual-3.57-gb/Tr4n%24f0rm3r%24%205%201080p%202%2C48%20GB.mp4"
+  },
+  {
+    "title": "Transformers 6: El despertar de las bestias",
+    "description": "Ubicada en 1994, la historia presenta a los Maximals y Predacons uniéndose a la batalla existente entre Autobots y Decepticons en una lucha global para salvar la Tierra.",
+    "year": 2023,
+    "studio": "Paramount Pictures",
+    "coverImage": "https://i.ibb.co/LYccpzb/Gwlwk-Ml-CRpgpy-Cn-BDj0-Ps-Auj-Au3.jpg",
+    "genre": ["Acción", "Ciencia ficción", "Aventura"],
+    "video_url": "https://archive.org/download/tr-4nf-0rm-3r-6-1080p-dual-3.57-gb/Tr4n%24f0rm3r%24%206%201080p%20DUAL%203.57%20GB.mkv"
+  },
+  
+  {
     "title": "Titanic",
     "description": "Un aristócrata de diecisiete años se enamora de un artista amable pero pobre a bordo del lujoso e imponente R.M.S. Titanic.",
     "year": 1997,
