@@ -1,5 +1,19 @@
 [
   {
+    "title": "Assassin's Creed",
+    "description": "Gracias a una tecnología revolucionaria que libera sus recuerdos genéticos, Callum Lynch experimenta las aventuras de de su antepasado Aguilar en la España del siglo XV. Callum descubre que es descendiente de una misteriosa sociedad secreta, los Asesinos, y acumula conocimientos y habilidades increíbles para enfrentarse a la opresiva y poderosa organización de los Templarios en el presente.",
+    "year": 2016,
+    "studio": "20th Century Fox / Ubisoft Motion Pictures",
+    "coverImage": "https://i.ibb.co/86FWFvw/Assasins-Creed.jpg",
+    "genre": [
+      "Acción",
+      "Aventura",
+      "Ciencia ficción"
+    ],
+    "video_url": "https://godna94.pp.ua/CONENIDO_1909AASSDD/SUBMENUS//_PROTECTOR_DE_ARCHIVOS_PARA_REPRODUCCION_DE_VIDEOS_GRACIAS_POR_VISITAR.php?v=aHR0cHM6Ly9pYTYwMTUwOS51cy5hcmNoaXZlLm9yZy8zMi9pdGVtcy9uaHU5dGRmdHUvY3ZvdmNjLm1wNA==&f=.mp4"
+  },
+  
+  {
     "title": "Los Ilusionistas: Nada es lo que parece",
     "description": "Un equipo de los mejores ilusionistas del mundo, 'Los Cuatro Jinetes', realiza atracos a bancos durante sus actuaciones y reparte el botín entre su audiencia, mientras son perseguidos por un agente del FBI y una detective de la Interpol.",
     "year": 2013,
