@@ -884,7 +884,6 @@
   "coverImage": "https://www.crew-united.com/Media/Images/1558/1558136/1558136.entity.jpg",
   "description": "Marcos y Paula, dos hermanos cuyos padres han desaparecido en alta mar, ingresan en el internado Laguna Negra bajo la tutela de su director, Héctor de la Vega. Pronto, los estudiantes descubren que el colegio esconde secretos macabros y conspiraciones relacionadas con sucesos del pasado.",
   "episodes": [
-[
   { "episode": 1, "title": "Los monstruos no hacen cosquillas", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%201%20los%20monstruos%20no%20hacen%20cosquillas.mp4" },
   { "episode": 2, "title": "Todo el mundo tiene un secreto", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%202%20todo%20el%20mundo%20tiene%20un%20secreto.mp4" },
   { "episode": 3, "title": "Ojos que no ven", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/El%20Internado%203%20ojos%20que%20no%20ven.mp4" },
@@ -994,7 +993,6 @@
   { "episode": 70, "title": "La luz", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2070%20la%20luz.mp4" },
   { "episode": 71, "title": "El fin", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2071%20el%20fin.mp4" }
 ]
-
 },
   
   {
