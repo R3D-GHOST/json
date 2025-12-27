@@ -884,93 +884,117 @@
   "coverImage": "https://www.crew-united.com/Media/Images/1558/1558136/1558136.entity.jpg",
   "description": "Marcos y Paula, dos hermanos cuyos padres han desaparecido en alta mar, ingresan en el internado Laguna Negra bajo la tutela de su director, Héctor de la Vega. Pronto, los estudiantes descubren que el colegio esconde secretos macabros y conspiraciones relacionadas con sucesos del pasado.",
   "episodes": [
-    { "episode": 1, "title": "Los monstruos no hacen cosquillas", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%201%20los%20monstruos%20no%20hacen%20cosquillas.mp4" },
-    { "episode": 2, "title": "Todo el mundo tiene un secreto", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%202%20todo%20el%20mundo%20tiene%20un%20secreto.mp4" },
-    { "episode": 3, "title": "Ojos que no ven", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/El%20Internado%203%20ojos%20que%20no%20ven.mp4" },
-    { "episode": 4, "title": "Un mensaje en una botella", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/El%20Internado%204%20un%20mensaje%20en%20una%20botella.mp4" },
-    { "episode": 5, "title": "Un cadáver en la laguna", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%205%20un%20cadaver%20en%20la%20laguna.mp4" },
-    { "episode": 6, "title": "La noche de Santa Isabel", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%206%20la%20noche%20de%20santa%20isabel.mp4" },
-    { "episode": 7, "title": "¿Con qué sueñan los peces?", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%207%20con%20que%20suenan%20los%20peces.mp4" },
-    { "episode": 8, "title": "Persiguiendo luciérnagas", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%208%20persiguiendo%20luciernagas.mp4" },
-    { "episode": 9, "title": "El anillo", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/El%20Internado%209%20el%20anillo.mp4" },
-    { "episode": 10, "title": "La caja de música", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2010%20la%20caja%20de%20musica.mp4" },
-    { "episode": 11, "title": "En orden alfabético", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2011%20en%20orden%20alfabetico.mp4" },
-    { "episode": 12, "title": "Ver para creer", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2012%20ver%20para%20creer.mp4" },
-    { "episode": 13, "title": "Mi amigo el monstruo", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2013%20mi%20amigo%20el%20monstruo.mp4" },
-    { "episode": 14, "title": "El polo norte", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2014%20el%20polo%20norte.mp4" },
-    { "episode": 15, "title": "El hombre del saco", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2015%20el%20hombre%20del%20saco.mp4" },
-    { "episode": 16, "title": "La familia", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2016%20la%20familia.mp4" },
-    { "episode": 17, "title": "El fetiche", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2017%20el%20fetiche.mp4" },
-    { "episode": 18, "title": "El fantasma de la profesora de matemáticas", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2018%20el%20fantasma%20de%20la%20profesora%20de%20matematicas.mp4" },
-    { "episode": 19, "title": "Pulgarcito", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2019%20pulgarcito.mp4" },
-    { "episode": 20, "title": "¿Donde está Elisa?", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2020%20donde%20esta%20elisa.mp4" },
-    { "episode": 21, "title": "El tesoro de Don Joaquín", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2021%20el%20tesoro%20de%20don%20joaquin.mp4" },
-    { "episode": 22, "title": "El secreto de la Bestia", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2022%20el%20secreto%20de%20la%20bestia.mp4" },
-    { "episode": 23, "title": "La maldición", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2023%20la%20maldicion.mp4" },
-    { "episode": 24, "title": "La sala de los tesoros", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2024%20la%20sala%20de%20los%20tesoros.mp4" },
-    { "episode": 25, "title": "El secreto mejor guardado", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2025%20el%20secreto%20mejor%20guardado.mp4" },
-    { "episode": 26, "title": "La premonición", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2026%20la%20premonicion.mp4" },
-    { "episode": 27, "title": "El exorcismo", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2027%20el%20exorcismo.mp4" },
-    { "episode": 28, "title": "El veredicto", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2028%20el%20veredicto.mp4" },
-    { "episode": 29, "title": "Accidente o asesinato", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2029%20accidente%20o%20asesinato.mp4" },
-    { "episode": 30, "title": "La llave", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2030%20la%20llave.mp4" },
-    { "episode": 31, "title": "Un punto en el mar", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2031%20un%20punto%20en%20el%20mar.mp4" },
-    { "episode": 32, "title": "La noche de las dos lunas", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2032%20la%20noche%20de%20las%20dos%20lunas.mp4" },
-    { "episode": 33, "title": "El diario de la profesora", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2033%20el%20diario%20de%20la%20profesora.mp4" },
-    { "episode": 34, "title": "El país de las maravillas", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2034%20el%20pais%20de%20las%20maravillas.mp4" },
-    { "episode": 35, "title": "El número 8", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2035%20el%20numero%208.mp4" },
-    { "episode": 36, "title": "La pirámide de venganza", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2036%20la%20piramide%20de%20venganza.mp4" },
-    { "episode": 37, "title": "El asesino de Vicky", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2037%20el%20asesino%20de%20vicky.mp4" },
-    { "episode": 38, "title": "El ojo de cristal", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2038%20el%20ojo%20de%20cristal.mp4" },
-    { "episode": 39, "title": "La novia de San Juan", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2039%20la%20novia%20de%20san%20juan.mp4" },
-    { 
-      "episode": 40, 
-      "title": "La última voluntad", 
-      "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2040%20la%20ultima%20voluntad.mp4" 
-    },
-    { 
-      "episode": 41, 
-      "title": "El hombre del ventilador", 
-      "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2041%20el%20hombre%20del%20ventilador.mp4" 
-    },
-    { 
-      "episode": 42, 
-      "title": "El tercer piso", 
-      "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2042%20el%20tercer%20piso.mp4" 
-    },
+[
+  { "episode": 1, "title": "Los monstruos no hacen cosquillas", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%201%20los%20monstruos%20no%20hacen%20cosquillas.mp4" },
+  { "episode": 2, "title": "Todo el mundo tiene un secreto", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%202%20todo%20el%20mundo%20tiene%20un%20secreto.mp4" },
+  { "episode": 3, "title": "Ojos que no ven", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/El%20Internado%203%20ojos%20que%20no%20ven.mp4" },
+  { "episode": 4, "title": "Un mensaje en una botella", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/El%20Internado%204%20un%20mensaje%20en%20una%20botella.mp4" },
+  { "episode": 5, "title": "Un cadáver en la laguna", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%205%20un%20cadaver%20en%20la%20laguna.mp4" },
+  { "episode": 6, "title": "La noche de Santa Isabel", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%206%20la%20noche%20de%20santa%20isabel.mp4" },
+  { "episode": 7, "title": "Con qué sueñan los peces", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%207%20con%20que%20sue%C3%B1an%20los%20peces.mp4" },
+  { "episode": 8, "title": "Persiguiendo luciérnagas", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%208%20persiguiendo%20luciernagas.mp4" },
+  { "episode": 9, "title": "El anillo", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/El%20Internado%209%20el%20anillo.mp4" },
+  { "episode": 10, "title": "La caja de música", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2010%20la%20caja%20de%20musica.mp4" },
 
-    { "episode": 42, "title": "El tercer piso", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2042%20el%20tercer%20piso.mp4" },
-        { 
-      "episode": 43, 
-      "title": "El último día", 
-      "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2043%20el%20ultimo%20dia.mp4" 
-    },
-    { "episode": 44, "title": "Los vengadores", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2044%20los%20vengadores.mp4" },
-    { "episode": 45, "title": "Amanecer", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2045%20amanecer.mp4" },
-    { "episode": 49, "title": "La última cena", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2049%20la%20ultima%20cena.mp4" },
-    { "episode": 50, "title": "Paula", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2050%20paula.mp4" },
-    { "episode": 51, "title": "El hombre de la maleta", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2051%20el%20hombre%20de%20la%20maleta.mp4" },
-    { "episode": 52, "title": "La tía de Paula", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2052%20la%20tia%20de%20paula.mp4" },
-    { "episode": 53, "title": "El Rey de la baraja", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2053%20el%20rey%20de%20la%20baraja.mp4" },
-    { "episode": 54, "title": "El ventilador", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2054%20el%20ventilador.mp4" },
-    { "episode": 55, "title": "Siete de copas", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2055%20siete%20de%20copas.mp4" },
-    { "episode": 56, "title": "El protocolo", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2056%20el%20protocolo.mp4" },
-    { "episode": 57, "title": "La luz", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2057%20la%20luz.mp4" },
-    { "episode": 58, "title": "El baile de los culpables", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2058%20el%20baile%20de%20los%20culpables.mp4" },
-    { "episode": 59, "title": "Hasta que la muerte los separe", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2059%20hasta%20que%20la%20muerte%20los%20separe.mp4" },
-    { "episode": 60, "title": "El tesoro", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2060%20el%20tesoro.mp4" },
-    { "episode": 61, "title": "El centro de la Tierra", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2061%20el%20centro%20de%20la%20tierra.mp4" },
-    { "episode": 62, "title": "Los tres pétalos", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2062%20los%20tres%20petalos.mp4" },
-    { "episode": 63, "title": "El asesino de Carolina", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2063%20el%20asesino%20de%20carolina.mp4" },
-    { "episode": 64, "title": "El último deseo", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2064%20el%20ultimo%20deseo.mp4" },
-    { "episode": 65, "title": "El principio del fin", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2065%20el%20principio%20del%20fin.mp4" },
-    { "episode": 66, "title": "La víspera", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2066%20la%20vispera.mp4" },
-    { "episode": 67, "title": "La medusa", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2067%20la%20medusa.mp4" },
-    { "episode": 68, "title": "Incertidumbre", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2068%20incertidumbre.mp4" },
-    { "episode": 69, "title": "La última noticia", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2069%20la%20ultima%20noticia.mp4" },
-    { "episode": 70, "title": "El último matorral", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2070%20el%20ultimo%20matorral.mp4" },
-    { "episode": 71, "title": "El fin", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2071%20el%20fin.mp4" }
-  ]
+  { "episode": 11, "title": "En orden alfabético", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20Internado%2011%20en%20orden%20alfab%C3%A9tico.mp4" },
+  { "episode": 12, "title": "Ver para creer", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20Internado%2012%20ver%20para%20creer.mp4" },
+  { "episode": 13, "title": "Mi amigo el monstruo", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2013%20mi%20amigo%20el%20monstruo.mp4" },
+  { "episode": 14, "title": "El polo norte", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2014%20el%20polo%20norte.mp4" },
+  { "episode": 15, "title": "El búho", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2015%20el%20b%C3%BAho.mp4" },
+  { "episode": 16, "title": "Ocho milímetros", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2016%20ocho%20milimetros.mp4" },
+  { "episode": 17, "title": "El soldadito de plomo", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2017%20el%20soldadito%20de%20plomo.mp4" },
+  { "episode": 18, "title": "En el fondo del mar", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2018%20en%20el%20fondo%20del%20mar.mp4" },
+  { "episode": 19, "title": "La vida es sueño", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2019%20la%20vida%20es%20sue%C3%B1o.mp4" },
+  { "episode": 20, "title": "La peor cárcel del mundo", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2020%20la%20peor%20carcel%20del%20mundo.mp4" },
+
+  { "episode": 21, "title": "El fantasma de la profesora decapitada", "video_url": "https://archive.org/download/el-internado-42EYHgEzWEdjJgYKAu8VjC4DohVYUMbvZ6Ua45MgSaYBTFv3725expKB69YsjM6Utj99E6Sn3LpcxQ4mNrwfrJLM5NGbWiQ" },
+  { "episode": 22, "title": "Los cinco vengadores", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2022%20los%20cinco%20vengadores.mp4" },
+  { "episode": 23, "title": "La noche del fuego", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2023%20la%20noche%20del%20fuego.mp4" },
+  { "episode": 24, "title": "La maldición", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2024%20la%20maldici%C3%B3n.mp4" },
+  { "episode": 25, "title": "La sala del tesoro", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2025%20la%20sala%20del%20tesoro.mp4" },
+
+  { "episode": 26, "title": "El secreto mejor guardado", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2026%20el%20secreto%20mejor%20guardado.mp4" },
+  { "episode": 27, "title": "La premonición", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2027%20la%20premonici%C3%B3n.mp4" },
+  { "episode": 28, "title": "El exorcismo", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2028%20el%20exorcismo.mp4" },
+  { "episode": 29, "title": "Escrito en las estrellas", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2029%20escrito%20en%20las%20estrellas.mp4" },
+  { "episode": 30, "title": "Un gran soldado", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2030%20un%20gran%20soldado.mp4" },
+
+  { "episode": 31, "title": "La llave", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2031%20la%20llave.mp4" },
+  { "episode": 32, "title": "El unicornio", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2032%20el%20unicornio.mp4" },
+  { "episode": 33, "title": "Un punto en el mar", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2033%20un%20punto%20en%20el%20mar.mp4" },
+  { "episode": 34, "title": "La noche de las dos lunas", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2034%20la%20noche%20de%20las%202%20lunas.mp4" },
+  { "episode": 35, "title": "El cuaderno del doctor Wulf", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2035%20el%20cuaderno%20del%20doctor%20wulf.mp4" },
+
+  { "episode": 36, "title": "Amnesia", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2036%20amnesia.mp4" },
+  { "episode": 37, "title": "El hombre del saco", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2037%20el%20hombre%20del%20saco.mp4" },
+  { "episode": 38, "title": "La novia cadáver", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2038%20la%20novia%20cadaver.mp4" },
+  { "episode": 39, "title": "La promesa", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2039%20la%20promesa.mp4" },
+{
+    "episode": 40,
+    "title": "El vampiro",
+    "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2040%20el%20vampiro.mp4"
+  },
+  {
+    "episode": 41,
+    "title": "El rey de la baraja",
+    "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2041%20el%20rey%20de%20la%20baraja.mp4"
+  },
+  {
+    "episode": 42,
+    "title": "Paula en el país de las maravillas",
+    "video_url": "https://archive.org/download/el-internado-42EYHgEzWEdjJgYKAu8VjC4DohVYUMbvZ6Ua45MgSaYBTFv3725expKB69YsjM6Utj99E6Sn3LpcxQ4mNrwfrJLM5NGbWiQ"
+  },
+  {
+    "episode": 43,
+    "title": "El último día",
+    "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2043%20el%20ultimo%20dia.mp4"
+  },
+  { "episode": 44, "title": "Los monstruos vienen de noche", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2044%20los%20montruos%20vienen%20de%20noche.mp4" },
+  {
+    "episode": 45,
+    "title": "Las galletas del porvenir",
+    "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/El%20internado%2045%20las%20galletas%20del%20porvenir.mp4"
+  },
+  { "episode": 46, "title": "El hombre lobo", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2046%20el%20hombre%20lobo.mp4" },
+  {
+    "episode": 47,
+    "title": "La traición",
+    "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2047%20la%20traici%C3%B3n.mp4"
+  },
+  {
+    "episode": 48,
+    "title": "El baile de los culpables",
+    "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2048%20el%20baile%20de%20los%20culpables.mp4"
+  },
+  { "episode": 49, "title": "Paula y el lobo", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2049%20paula%20y%20el%20lobo.mp4" },
+  { "episode": 50, "title": "La leyenda de Eva", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2050%20la%20leyenda%20de%20eva.mp4" },
+
+  { "episode": 51, "title": "La princesa de hielo", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2051%20la%20princesa%20de%20hielo.mp4" },
+  { "episode": 52, "title": "El extraterrestre", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2052%20el%20extraterrestre.mp4" },
+  { "episode": 53, "title": "La habitación número 13", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2053%20la%20habitaci%C3%B3n%20numero%2013.mp4" },
+  { "episode": 54, "title": "El mago", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2054%20el%20mago.mp4" },
+  { "episode": 55, "title": "Alaska", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2055%20alaska.mp4" },
+
+  { "episode": 56, "title": "Después de la luz", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2056%20despues%20de%20la%20luz.mp4" },
+  { "episode": 57, "title": "El protocolo", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2057%20el%20protocolo.mp4" },
+  { "episode": 58, "title": "La amenaza", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2058%20la%20amenaza.mp4" },
+  { "episode": 59, "title": "El hombre misterioso", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2059%20el%20hombre%20misterioso.mp4" },
+  { "episode": 60, "title": "El tesoro", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2060%20el%20tesoro.mp4" },
+
+  { "episode": 61, "title": "El centro de la Tierra", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2061%20el%20centro%20de%20la%20tierra.mp4" },
+  { "episode": 62, "title": "Los tres pétalos", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2062%20los%20tres%20p%C3%A9talos.mp4" },
+  { "episode": 63, "title": "El asesino de Carolina", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2063%20el%20asesino%20de%20carolina.mp4" },
+  { "episode": 64, "title": "El último deseo", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2064%20el%20%C3%BAltimo%20deseo.mp4" },
+  { "episode": 65, "title": "El principio del fin", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2065%20el%20principio%20del%20fin.mp4" },
+
+  { "episode": 66, "title": "La última dosis", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2066%20la%20%C3%BAltima%20dosis.mp4" },
+  { "episode": 67, "title": "Los últimos recuerdos", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2067%20los%20%C3%BAltimos%20recuerdos.mp4" },
+  { "episode": 68, "title": "Hasta que la muerte nos separe", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2068%20hasta%20que%20la%20muerte%20nos%20separe.mp4" },
+  { "episode": 69, "title": "El último aliento", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2069%20el%20%C3%BAltimo%20aliento.mp4" },
+  { "episode": 70, "title": "La luz", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2070%20la%20luz.mp4" },
+  { "episode": 71, "title": "El fin", "video_url": "https://archive.org/download/el-internado-43-el-ultimo-dia_202512/el%20internado%2071%20el%20fin.mp4" }
+]
+
 },
   
   {
