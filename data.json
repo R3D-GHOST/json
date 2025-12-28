@@ -1,5 +1,83 @@
 [
   {
+  "title": "Ironheart",
+  "genre": ["Acción", "Estreno", "Ciencia Ficción", "Superhéroes"],
+  "coverImage": "https://raw.githubusercontent.com/tokio14-dot/imagen/refs/heads/main/Ironheart.jpg",
+  "description": "Riri Williams, una joven genio de la tecnología, construye la armadura más avanzada desde Iron Man, enfrentando desafíos que pondrán a prueba su intelecto y su valor.",
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "Corazón de hierro",
+      "video_url": "https://dl.dropbox.com/scl/fi/mqh127sic9gm9s4wddtr5/matematica-1.mp4?rlkey=d4v4sfidplax9zgy0se0krl90&st=sq0iq6rr&dl=0"
+    },
+    {
+      "episode": 2,
+      "title": "Legado de acero",
+      "video_url": "https://dl.dropbox.com/scl/fi/s9m0t82tjxbuvv5ekaley/matematica-2.mp4?rlkey=8d3j2lnxfu57gud1it0vvusmy&st=juzmaqza&dl=0"
+    },
+    {
+      "episode": 3,
+      "title": "Tecnología rebelde",
+      "video_url": "https://dl.dropbox.com/scl/fi/de544bo1cn8w443aq21qv/matematica-3.mp4?rlkey=bhtmhlmrxvpdxtg973jqk21rh&st=wzq1froe&dl=0"
+    },
+    {
+      "episode": 4,
+      "title": "Enemigos ocultos",
+      "video_url": "https://dl.dropbox.com/scl/fi/5lp7y5v2pgela0zt0vkn9/matematica-4.mp4?rlkey=9h963dvjbv366w3w72ueot1ek&st=xv8stj2g&dl=0"
+    },
+    {
+      "episode": 5,
+      "title": "Batalla tecnológica",
+      "video_url": "https://dl.dropbox.com/scl/fi/ksqfcxiay9wvdsjatcdr8/matematica-5.mp4?rlkey=9rmrxso9jmj7aaowv2tlgvrzx&st=4v3ith4p&dl=0"
+    },
+    {
+      "episode": 6,
+      "title": "Redención metálica",
+      "video_url": "https://dl.dropbox.com/scl/fi/1kzi5l76nt8ooi6x81n4i/matematica-6.mp4?rlkey=eowlrxd7661ccg8mx0i5aclal&st=h2554du2&dl=0"
+    }
+  ]
+},
+  
+  {
+  "title": "El último samurái en pie",
+  "genre": ["Acción", "Estreno", "Drama", "Artes Marciales"],
+  "coverImage": "https://image.tmdb.org/t/p/original/qEm5qyanHN1VUN3hMwh3Zg2Qnqz.jpg",
+  "description": "Un guerrero solitario navega por los desafíos del honor y el deber en un mundo que ha olvidado las tradiciones de los samuráis.",
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "El regreso del guerrero",
+      "video_url": "https://dl.dropbox.com/scl/fi/xb7twctj5bn20sd8d735e/fisica-1.mp4?rlkey=r7bfqg8v8cv5m9ycguv9oiztk&st=6m3cez3f&dl=1"
+    },
+    {
+      "episode": 2,
+      "title": "El camino del honor",
+      "video_url": "https://dl.dropbox.com/scl/fi/jn32dvri0m4515wuf3bei/fisica-2.mp4?rlkey=9omac9ty7ikz0s275z0r9w7c4&st=d7ekpcji&dl=1"
+    },
+    {
+      "episode": 3,
+      "title": "La sombra del pasado",
+      "video_url": "https://dl.dropbox.com/scl/fi/2z9ixfy3nzwbq8k97xj3q/fisica-3.mp4?rlkey=7fs991nimselnj3f3u91ut851&st=nbs8mouh&dl=1"
+    },
+    {
+      "episode": 4,
+      "title": "El juramento del samurái",
+      "video_url": "https://dl.dropbox.com/scl/fi/70dj5fiiyw4l60nd754ya/fisica-4.mp4?rlkey=xig7759b362xme0ijg4vdmy7u&st=z66aiknq&dl=1"
+    },
+    {
+      "episode": 5,
+      "title": "Batalla por el honor",
+      "video_url": "https://pomf2.lain.la/f/pv5hw0vj.mp4"
+    },
+    {
+      "episode": 6,
+      "title": "El legado eterno",
+      "video_url": "https://pomf2.lain.la/f/fvkttbda.mp4"
+    }
+  ]
+},
+  
+  {
   "title": "El Eternauta",
   "genre": ["Ciencia Ficción", "Drama", "Estreno", "Aventura"],
   "coverImage": "https://image.tmdb.org/t/p/w154/fDdyEJeX0b4CiZBlSuh2oqHAb2f.jpg",
