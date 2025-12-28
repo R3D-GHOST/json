@@ -1,4 +1,18 @@
 [
+  {
+  "title": "El Chavo Animado",
+  "genre": ["Animación", "Comedia", "Familiar"],
+  "coverImage": "https://imgs.search.brave.com/2DAijS7rDX0Aiqb4qSU-B-SEQhZVgeo4gp7-zkaz0jU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudml4LmNvbS9w/cmQvdmlkZW9zL3Zp/ZGVvOm1jcDozMTI1/Mjg2L2ZmYzlmNDQ0/YjRhN2I4ZTlmMWIw/ODJmNTQzNDFkZWI3/P3RyPXctMTA4MCxo/LTYwOCxxLTgwJnc9/MTkyMA",
+  "description": "Las aventuras del Chavo y sus amigos de la vecindad en su versión animada, enfrentando situaciones divertidas y lecciones de vida.",
+  "episodes": [
+    { "episode": 1, "title": "Temporada 1 - DVD 1", "video_url": "https://archive.org/download/el-chavo-animado-temporada-1-completa-dvd/EL_CHAVO_TEMPORADA_COMPLETA_DVD1.mp4" },
+    { "episode": 2, "title": "Temporada 1 - DVD 2", "video_url": "https://archive.org/download/el-chavo-animado-temporada-1-completa-dvd/EL_CHAVO_TEMPORADA_COMPLETA_DVD2.mp4" },
+    { "episode": 3, "title": "Temporada 1 - DVD 3", "video_url": "https://archive.org/download/el-chavo-animado-temporada-1-completa-dvd/EL_CHAVO_TEMPORADA_COMPLETA_DVD3.mp4" },
+    { "episode": 4, "title": "Temporada 2 - Disco 1 DDP", "video_url": "https://archive.org/download/el-chavo-animado-temporada-2-completa-dvd/Chavo%20Disco%201%20DDP.mp4" },
+    { "episode": 5, "title": "Temporada 2 - Disco 2 DDP", "video_url": "https://archive.org/download/el-chavo-animado-temporada-2-completa-dvd/Chavo%20Disco%202%20DDP.mp4" },
+    { "episode": 6, "title": "Temporada 2 - Disco 3 DDP", "video_url": "https://archive.org/download/el-chavo-animado-temporada-2-completa-dvd/El%20Chavo%20D3%20DDP.mp4" }
+  ]
+},
   
   {
   "title": "Moeyo Ken",
