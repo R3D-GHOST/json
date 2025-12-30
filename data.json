@@ -1,4 +1,18 @@
 [
+  
+  {
+    "title": "Drácula",
+    "description": "Una nueva y oscura reimaginación del legendario vampiro de Transilvania. La historia explora los orígenes del conde y su obsesión por encontrar a su amor perdido a través de los siglos, enfrentándose a nuevos peligros en un mundo que ha cambiado, pero que sigue temiendo a la oscuridad.",
+    "coverImage": "https://pics.filmaffinity.com/dracula_a_love_tale-553481403-large.jpg",
+    "genre": [
+      "Terror",
+      "Fantasía",
+      "Romance",
+      "Estreno"
+    ],
+    "video_url": "https://archive.org/download/plan-profa-2025-2030-250321-2/Dracula.2025.1080p-Dual-Lat.mkv"
+  },
+    
   {
   "title": "Ironheart",
   "genre": ["Acción", "Estreno", "Ciencia Ficción", "Superhéroes"],
