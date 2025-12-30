@@ -1,4 +1,23 @@
 [
+  {
+  "title": "Tokyo Magnitude 8.0",
+  "genre": ["Anime", "Drama", "Supervivencia"],
+  "coverImage": "https://imgs.search.brave.com/d5YFNxudfFWZKYLy4VHsFWaQUV_GWYWHnfS8fg3DmCE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9mci53/ZWIuaW1nNi5hY3N0/YS5uZXQvY18zMTBf/NDIwL3BpY3R1cmVz/LzIwLzA5LzI5LzEy/LzQ4LzQyMTExOTQu/anBn",
+  "description": "Tras un devastador terremoto de magnitud 8.0 en Tokio, dos hermanos luchan por regresar a casa con la ayuda de una repartidora que encuentran en el camino.",
+  "episodes": [
+    { "episode": 1, "title": "Odaiba se hunde", "video_url": "https://archive.org/download/1_20250414_20250414_2253/1.mp4" },
+    { "episode": 2, "title": "El mundo se rompe", "video_url": "https://archive.org/download/1_20250414_20250414_2253/2.mp4" },
+    { "episode": 3, "title": "El puente arde", "video_url": "https://archive.org/download/1_20250414_20250414_2253/3.mp4" },
+    { "episode": 4, "title": "La promesa de los tres", "video_url": "https://archive.org/download/1_20250414_20250414_2253/4.mp4" },
+    { "episode": 5, "title": "La escuela del llanto", "video_url": "https://archive.org/download/1_20250414_20250414_2253/5.mp4" },
+    { "episode": 6, "title": "La elección de abandonar", "video_url": "https://archive.org/download/1_20250414_20250414_2253/6.mp4" },
+    { "episode": 7, "title": "Ocaso de verano", "video_url": "https://archive.org/download/1_20250414_20250414_2253/7.mp4" },
+    { "episode": 8, "title": "Mañana blanca", "video_url": "https://archive.org/download/1_20250414_20250414_2253/8.mp4" },
+    { "episode": 9, "title": "Adiós, hoy", "video_url": "https://archive.org/download/1_20250414_20250414_2253/9.mp4" },
+    { "episode": 10, "title": "Hermana, escucha", "video_url": "https://archive.org/download/1_20250414_20250414_2253/10.mp4" },
+    { "episode": 11, "title": "Querido Yuuki", "video_url": "https://archive.org/download/1_20250414_20250414_2253/11.mp4" }
+  ]
+},
   
   {
     "title": "Drácula",
