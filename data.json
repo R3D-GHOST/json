@@ -1,5 +1,34 @@
 [
   {
+  "title": "The Eminence in Shadow",
+  "genre": ["Anime", "Acción", "Fantasía", "Isekai"],
+  "coverImage": "https://m.media-amazon.com/images/M/MV5BMDFmMWJlMWYtMDFkNi00OWViLTkzOGEtNDI0YWNmM2M5MzI5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  "description": "Cid Kagenou no quiere ser ni un héroe ni un villano, sino el cerebro en las sombras. Reencarnado en un mundo mágico, crea su propia organización, Shadow Garden, para enfrentarse a un culto que él cree ficticio, pero que resulta ser real.",
+  "episodes": [
+    { "episode": 1, "title": "Episodio 01", "video_url": "https://archive.org/download/kage-no-jitsuryokusha-ni-naritakute-en-espanol/Kage%20no%20Jitsuryokusha%20ni%20Naritakute_%20Season%2001%20Episodio%2001.mp4" },
+    { "episode": 2, "title": "Episodio 02", "video_url": "https://archive.org/download/kage-no-jitsuryokusha-ni-naritakute-en-espanol/Kage%20no%20Jitsuryokusha%20ni%20Naritakute_%20Season%2001%20Episodio%2002.mp4" },
+    { "episode": 3, "title": "Episodio 03", "video_url": "https://archive.org/download/kage-no-jitsuryokusha-ni-naritakute-en-espanol/Kage%20no%20Jitsuryokusha%20ni%20Naritakute_%20Season%2001%20Episodio%2003.mp4" },
+    { "episode": 4, "title": "Episodio 04", "video_url": "https://archive.org/download/kage-no-jitsuryokusha-ni-naritakute-en-espanol/Kage%20no%20Jitsuryokusha%20ni%20Naritakute_%20Season%2001%20Episodio%2004.mp4" },
+    { "episode": 5, "title": "Episodio 05", "video_url": "https://archive.org/download/kage-no-jitsuryokusha-ni-naritakute-en-espanol/Kage%20no%20Jitsuryokusha%20ni%20Naritakute_%20Season%2001%20Episodio%2005.mp4" },
+    { "episode": 6, "title": "Episodio 06", "video_url": "https://archive.org/download/kage-no-jitsuryokusha-ni-naritakute-en-espanol/Kage%20no%20Jitsuryokusha%20ni%20Naritakute_%20Season%2001%20Episodio%2006.mp4" },
+    { "episode": 7, "title": "Episodio 07", "video_url": "https://archive.org/download/kage-no-jitsuryokusha-ni-naritakute-en-espanol/Kage%20no%20Jitsuryokusha%20ni%20Naritakute_%20Season%2001%20Episodio%2007.mp4" },
+    { "episode": 8, "title": "Episodio 08", "video_url": "https://archive.org/download/kage-no-jitsuryokusha-ni-naritakute-en-espanol/Kage%20no%20Jitsuryokusha%20ni%20Naritakute_%20Season%2001%20Episodio%2008.mp4" },
+    { "episode": 9, "title": "Episodio 09", "video_url": "https://archive.org/download/kage-no-jitsuryokusha-ni-naritakute-en-espanol/Kage%20no%20Jitsuryokusha%20ni%20Naritakute_%20Season%2001%20Episodio%2009.mp4" },
+    { "episode": 10, "title": "Episodio 10", "video_url": "https://archive.org/download/kage-no-jitsuryokusha-ni-naritakute-en-espanol/Kage%20no%20Jitsuryokusha%20ni%20Naritakute_%20Season%2001%20Episodio%2010.mp4" },
+    { "episode": 11, "title": "Episodio 11", "video_url": "https://archive.org/download/kage-no-jitsuryokusha-ni-naritakute-en-espanol/Kage%20no%20Jitsuryokusha%20ni%20Naritakute_%20Season%2001%20Episodio%2011.mp4" },
+    { "episode": 12, "title": "Episodio 12", "video_url": "https://archive.org/download/kage-no-jitsuryokusha-ni-naritakute-en-espanol/Kage%20no%20Jitsuryokusha%20ni%20Naritakute_%20Season%2001%20Episodio%2012.mp4" },
+    { "episode": 13, "title": "Episodio 13", "video_url": "https://archive.org/download/kage-no-jitsuryokusha-ni-naritakute-en-espanol/Kage%20no%20Jitsuryokusha%20ni%20Naritakute_%20Season%2001%20Episodio%2013.mp4" },
+    { "episode": 14, "title": "Episodio 14", "video_url": "https://archive.org/download/kage-no-jitsuryokusha-ni-naritakute-en-espanol/Kage%20no%20Jitsuryokusha%20ni%20Naritakute_%20Season%2001%20Episodio%2014.mp4" },
+    { "episode": 15, "title": "Episodio 15", "video_url": "https://archive.org/download/kage-no-jitsuryokusha-ni-naritakute-en-espanol/Kage%20no%20Jitsuryokusha%20ni%20Naritakute_%20Season%2001%20Episodio%2015.mp4" },
+    { "episode": 16, "title": "Episodio 16", "video_url": "https://archive.org/download/kage-no-jitsuryokusha-ni-naritakute-en-espanol/Kage%20no%20Jitsuryokusha%20ni%20Naritakute_%20Season%2001%20Episodio%2016.mp4" },
+    { "episode": 17, "title": "Episodio 17", "video_url": "https://archive.org/download/kage-no-jitsuryokusha-ni-naritakute-en-espanol/Kage%20no%20Jitsuryokusha%20ni%20Naritakute_%20Season%2001%20Episodio%2017.mp4" },
+    { "episode": 18, "title": "Episodio 18", "video_url": "https://archive.org/download/kage-no-jitsuryokusha-ni-naritakute-en-espanol/Kage%20no%20Jitsuryokusha%20ni%20Naritakute_%20Season%2001%20Episodio%2018.mp4" },
+    { "episode": 19, "title": "Episodio 19", "video_url": "https://archive.org/download/kage-no-jitsuryokusha-ni-naritakute-en-espanol/Kage%20no%20Jitsuryokusha%20ni%20Naritakute_%20Season%2001%20Episodio%2019.mp4" },
+    { "episode": 20, "title": "Episodio 20", "video_url": "https://archive.org/download/kage-no-jitsuryokusha-ni-naritakute-en-espanol/Kage%20no%20Jitsuryokusha%20ni%20Naritakute_%20Season%2001%20Episodio%2020.mp4" }
+  ]
+},
+  
+  {
   "title": "Transformers Cybertron",
   "genre": ["Animación", "Acción", "Aventura", "Ciencia Ficción"],
   "coverImage": "https://m.media-amazon.com/images/I/91BC4lbuEYL._AC_UF894,1000_QL80_.jpg",
