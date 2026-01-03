@@ -1,5 +1,42 @@
 [
   {
+  "title": "Transformers Cybertron",
+  "genre": ["Animación", "Acción", "Aventura", "Ciencia Ficción"],
+  "coverImage": "https://m.media-amazon.com/images/I/91BC4lbuEYL._AC_UF894,1000_QL80_.jpg",
+  "description": "Para salvar su mundo, los Autobots deben encontrar las cuatro Llaves Cyber de los planetas antiguos antes de que caigan en manos de los Decepticons y el agujero negro destruya el universo.",
+  "episodes": [
+    { "episode": 1, "title": "Caído", "video_url": "https://archive.org/download/transformers-cybertron-espanol-latino/Transformers%20Cybertron%20_%20Espa%C3%B1ol%20latino/Transformers%20Cybertron%20-%20E01%20-%20Ca%C3%ADdo%20_%20Espa%C3%B1ol%20latino%20.mp4" },
+    { "episode": 2, "title": "Infierno", "video_url": "https://archive.org/download/transformers-cybertron-espanol-latino/Transformers%20Cybertron%20_%20Espa%C3%B1ol%20latino/Transfomers%20Cybertron%20-%20E02%20-%20Infierno%20_%20Espa%C3%B1ol%20Latino.mp4" },
+    { "episode": 3, "title": "Refugio", "video_url": "https://archive.org/download/transformers-cybertron-espanol-latino/Transformers%20Cybertron%20_%20Espa%C3%B1ol%20latino/Transformers%20Cybertron%20-%20E03%20-%20Refugio%20_%20Espa%C3%B1ol%20Latino%20%5Bactualizado%5D.mp4" },
+    { "episode": 4, "title": "Ocultos", "video_url": "https://archive.org/download/transformers-cybertron-espanol-latino/Transformers%20Cybertron%20_%20Espa%C3%B1ol%20latino/Transformers%20Cybertron%20-%20E04%20-%20Ocultos%20_%20Espa%C3%B1ol%20Latino.mp4" },
+    { "episode": 5, "title": "Landmine", "video_url": "https://archive.org/download/transformers-cybertron-espanol-latino/Transformers%20Cybertron%20_%20Espa%C3%B1ol%20latino/Transformers%20Cybertron%20-%20E05%20-%20Landmine%20_%20%20Espa%C3%B1ol%20Latino%20.mp4" },
+    { "episode": 6, "title": "Espacio", "video_url": "https://archive.org/download/transformers-cybertron-espanol-latino/Transformers%20Cybertron%20_%20Espa%C3%B1ol%20latino/Transformers%20Cybertron%20-%20E06%20-%20Espacio%20_%20Espa%C3%B1ol%20Latino.mp4" },
+    { "episode": 7, "title": "Arrebato", "video_url": "https://archive.org/download/transformers-cybertron-espanol-latino/Transformers%20Cybertron%20_%20Espa%C3%B1ol%20latino/Transformers%20Cybertron%20-%20E07%20-%20Arrebato%20_%20Espa%C3%B1ol%20Latino.mp4" },
+    { "episode": 8, "title": "Velocidad", "video_url": "https://archive.org/download/transformers-cybertron-espanol-latino/Transformers%20Cybertron%20_%20Espa%C3%B1ol%20latino/Transformers%20Cybertron%20-%20E08%20-%20Velocidad%20_%20Espa%C3%B1ol%20Latino.mp4" },
+    { "episode": 9, "title": "Colapso", "video_url": "https://archive.org/download/transformers-cybertron-espanol-latino/Transformers%20Cybertron%20_%20Espa%C3%B1ol%20latino/Transformers%20Cybertron%20-%20E09%20-%20Colapso%20_%20Espa%C3%B1ol%20Latino.mp4" },
+    { "episode": 10, "title": "Tiempo", "video_url": "https://archive.org/download/transformers-cybertron-espanol-latino/Transformers%20Cybertron%20_%20Espa%C3%B1ol%20latino/Transformers%20Cybertron%20-%20E10%20-%20Tiempo%20_%20Espa%C3%B1ol%20Latino%20.mp4" },
+    { "episode": 11, "title": "Busqueda", "video_url": "https://archive.org/download/transformers-cybertron-espanol-latino/Transformers%20Cybertron%20_%20Espa%C3%B1ol%20latino/Transformers%20Cybertron%20-%20E11%20-%20Busqueda%20_%20Espa%C3%B1ol%20Latino.mp4" },
+    { "episode": 12, "title": "Profundidad", "video_url": "https://archive.org/download/transformers-cybertron-espanol-latino/Transformers%20Cybertron%20_%20Espa%C3%B1ol%20latino/Transformers%20Cybertron%20-%20E12%20-%20Profundidad%20_%20Espa%C3%B1ol%20Latino%20.mp4" },
+    { "episode": 13, "title": "Nave", "video_url": "https://archive.org/download/transformers-cybertron-espanol-latino/Transformers%20Cybertron%20_%20Espa%C3%B1ol%20latino/Transformers%20Cybertron%20-%20E13%20-%20Nave%20_%20Espa%C3%B1ol%20Latino.mp4" },
+    { "episode": 14, "title": "Héroe", "video_url": "https://archive.org/download/transformers-cybertron-espanol-latino/Transformers%20Cybertron%20_%20Espa%C3%B1ol%20latino/Transformers%20Cybertron%20-%20E14%20-%20H%C3%A9roe%20_%20Espa%C3%B1ol%20Latino.mp4" },
+    { "episode": 15, "title": "Carrera", "video_url": "https://archive.org/download/transformers-cybertron-espanol-latino/Transformers%20Cybertron%20_%20Espa%C3%B1ol%20latino/Transformers%20Cybertron%20-%20E15%20-%20Carrera%20_%20Espa%C3%B1ol%20Latino.mp4" },
+    { "episode": 16, "title": "Desvio", "video_url": "https://archive.org/download/transformers-cybertron-espanol-latino/Transformers%20Cybertron%20_%20Espa%C3%B1ol%20latino/Transformers%20Cybertron%20-%20E16%20-%20Desvio%20_%20Espa%C3%B1ol%20Latino.mp4" },
+    { "episode": 17, "title": "Salvaje", "video_url": "https://archive.org/download/transformers-cybertron-espanol-latino/Transformers%20Cybertron%20_%20Espa%C3%B1ol%20latino/Transformers%20Cybertron%20-%20E17%20-%20Salvaje%20_%20Espa%C3%B1ol%20Latino%20%5Barreglado%5D.mp4" },
+    { "episode": 18, "title": "Arena", "video_url": "https://archive.org/download/transformers-cybertron-espanol-latino/Transformers%20Cybertron%20_%20Espa%C3%B1ol%20latino/Transformers%20Cybertron%20-%20E18%20-%20Arena%20_%20Espa%C3%B1ol%20Latino.mp4" },
+    { "episode": 19, "title": "Campeones", "video_url": "https://archive.org/download/transformers-cybertron-espanol-latino/Transformers%20Cybertron%20_%20Espa%C3%B1ol%20latino/Transformers%20Cybertron%20-%20E19%20-%20Campeones%20_%20Espa%C3%B1ol%20Latino.mp4" },
+    { "episode": 20, "title": "Hielo", "video_url": "https://archive.org/download/transformers-cybertron-espanol-latino/Transformers%20Cybertron%20_%20Espa%C3%B1ol%20latino/Transformers%20Cybertron%20-%20E20%20-%20Hielo%20_Espa%C3%B1ol%20Latino%20.mp4" },
+    { "episode": 21, "title": "Honor", "video_url": "https://archive.org/download/transformers-cybertron-espanol-latino/Transformers%20Cybertron%20_%20Espa%C3%B1ol%20latino/Transformers%20Cybertron%20-%20E21%20-%20Honor%20_%20Espa%C3%B1ol%20Latino.mp4" },
+    { "episode": 22, "title": "Primario", "video_url": "https://archive.org/download/transformers-cybertron-espanol-latino/Transformers%20Cybertron%20_%20Espa%C3%B1ol%20latino/Transformers%20Cybertron%20-%20E22%20-%20Primario%20_%20Espa%C3%B1ol%20Latino.mp4" },
+    { "episode": 23, "title": "Confianza", "video_url": "https://archive.org/download/transformers-cybertron-espanol-latino/Transformers%20Cybertron%20_%20Espa%C3%B1ol%20latino/Transformers%20Cybertron%20-%20E23%20-%20Confianza%20_%20Espa%C3%B1ol%20Latino.mp4" },
+    { "episode": 24, "title": "Trampa", "video_url": "https://archive.org/download/transformers-cybertron-espanol-latino/Transformers%20Cybertron%20_%20Espa%C3%B1ol%20latino/Transformers%20Cybertron%20-%20E24%20-%20Trampa%20_%20Espa%C3%B1ol%20Latino.mp4" },
+    { "episode": 25, "title": "Invasión", "video_url": "https://archive.org/download/transformers-cybertron-espanol-latino/Transformers%20Cybertron%20_%20Espa%C3%B1ol%20latino/Transformers%20Cybertron%20-%20E25%20-%20Invasi%C3%B3n%20_%20Espa%C3%B1ol%20Latino.mp4" },
+    { "episode": 26, "title": "Retirada", "video_url": "https://archive.org/download/transformers-cybertron-espanol-latino/Transformers%20Cybertron%20_%20Espa%C3%B1ol%20latino/Transformers%20Cybertron%20-%20E26%20-%20Retirada%20_%20Espa%C3%B1ol%20Latino.mp4" },
+    { "episode": 27, "title": "Revelación", "video_url": "https://archive.org/download/transformers-cybertron-espanol-latino/Transformers%20Cybertron%20_%20Espa%C3%B1ol%20latino/Transformers%20Cybertron%20-%20E27%20-%20Revelaci%C3%B3n%20_%20Espa%C3%B1ol%20Latino%20.mp4" },
+    { "episode": 28, "title": "Crítico", "video_url": "https://archive.org/download/transformers-cybertron-espanol-latino/Transformers%20Cybertron%20_%20Espa%C3%B1ol%20latino/Transformers%20Cybertron%20-%20E28%20-%20Cr%C3%ADtico%20_%20Espa%C3%B1ol%20Latino.mp4" }
+  ]
+},
+  
+  {
   "title": "My Little Pony: La Magia de la Amistad",
   "year": 2010,
   "genre": ["Animación", "Fantasía", "Aventura", "Familia"],
