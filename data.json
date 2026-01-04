@@ -1,5 +1,51 @@
 [
   {
+    "title": "Misión: Imposible - Sentencia Mortal Parte 2",
+    "description": "Ethan Hunt y su equipo de la FMI se embarcan en su misión más peligrosa hasta la fecha: localizar una nueva y aterradora arma que amenaza a toda la humanidad antes de que caiga en las manos equivocadas.",
+    "year": 2025,
+    "studio": "Paramount Pictures",
+    "coverImage": "https://image.tmdb.org/t/p/original/mX99Sre69fX7mi0XAL7978T0I8S.jpg",
+    "genre": ["Estreno", "Acción", "Aventura"],
+    "video_url": "https://pomf2.lain.la/f/duegk7w9.mp4"
+  },
+  {
+    "title": "28 Years Later",
+    "description": "Casi tres décadas después de que el virus de la rabia devastara el Reino Unido, una nueva generación lucha por sobrevivir en un mundo donde los infectados han evolucionado y las sociedades humanas están al borde del colapso.",
+    "year": 2025,
+    "studio": "Sony Pictures",
+    "coverImage": "https://image.tmdb.org/t/p/original/b91pD16P6u452wS06WntUv0H1C6.jpg",
+    "genre": ["Estreno", "Terror", "Ciencia ficción"],
+    "video_url": "https://pomf2.lain.la/f/wqb7cxbw.mp4"
+  },
+  {
+    "title": "Superman",
+    "description": "Bajo la dirección de James Gunn, esta nueva visión sigue a Clark Kent mientras intenta reconciliar su herencia kryptoniana con su educación humana en Smallville, personificando la verdad y la justicia.",
+    "year": 2025,
+    "studio": "Warner Bros. / DC Studios",
+    "coverImage": "https://image.tmdb.org/t/p/original/8oAAtjD89U78p5Q8w8V8w1m9W9m.jpg",
+    "genre": ["Estreno", "Acción", "Superhéroes"],
+    "video_url": "https://pomf2.lain.la/f/rh3oafiw.mp4"
+  },
+  {
+    "title": "The Bride!",
+    "description": "En la década de 1930, un solitario Monstruo viaja a Chicago para pedirle ayuda al Dr. Euphronius para crear una compañera. Juntos, reviven a una joven asesinada, dando origen a la Novia.",
+    "year": 2025,
+    "studio": "Warner Bros.",
+    "coverImage": "https://image.tmdb.org/t/p/original/A5Y8e0rN8zWf7j6W6m9W8m9W8m9.jpg",
+    "genre": ["Estreno", "Terror", "Drama"],
+    "video_url": "https://pomf2.lain.la/f/e2uwp5l1.mp4"
+  },
+  {
+    "title": "Novocaína",
+    "description": "Un hombre que padece una rara condición genética que le impide sentir dolor físico debe rescatar a su esposa secuestrada de un grupo de criminales altamente peligrosos.",
+    "year": 2025,
+    "studio": "Paramount Pictures",
+    "coverImage": "https://image.tmdb.org/t/p/original/qV6oWAleCJZUk5htrGg413t3GCy.jpg",
+    "genre": ["Estreno", "Acción", "Suspenso"],
+    "video_url": "https://pomf2.lain.la/f/cv4fc083.mp4?download=1"
+  },
+  
+  {
   "title": "The Eminence in Shadow",
   "genre": ["Anime", "Acción", "Fantasía", "Isekai"],
   "coverImage": "https://m.media-amazon.com/images/M/MV5BMDFmMWJlMWYtMDFkNi00OWViLTkzOGEtNDI0YWNmM2M5MzI5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
