@@ -9,7 +9,7 @@
     <meta name="apple-mobile-app-capable" content="yes">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;600;700&family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;42EYHgEzWEdjJgYKAu8VjC4DohVYUMbvZ6Ua45MgSaYBTFv3725expKB69YsjM6Utj99E6Sn3LpcxQ4mNrwfrJLM5NGbWiQstylesheet" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <style>
         /* ------------------------------------------- */
@@ -187,6 +187,7 @@
         }
 
         /* ------------------------------------------- */
+        /* ------------------------------------------- */
         /* 🖼️ VISTA DE DETALLE (INMERSIVA) */
         /* ------------------------------------------- */
         #detailView{ 
@@ -223,6 +224,7 @@
             background: var(--accent); color: var(--text); padding: 12px 25px; font-weight: 700; font-size: 1.05rem; 
             display: flex; align-items: center; gap: 8px; border-radius: 4px; border: none; cursor: pointer; 
             transition: background-color .3s, transform .3s, box-shadow .3s; 
+            text-decoration: none; /* Asegurar que el enlace no tenga subrayado */
         } 
         #reproduceBtn:hover { background: var(--accent-2); transform: translateY(-2px); box-shadow: 0 6px 12px var(--shadow-accent); outline: none; } 
         /* Botón de Favorito */
@@ -253,6 +255,7 @@
             flex-shrink: 0; width: 320px; background: var(--bg-card); border-radius: 8px; padding: 10px; cursor: pointer; 
             transition: background-color .2s, transform .3s, border-color .2s, box-shadow .3s; border: 2px solid transparent; 
             scroll-snap-align: start; display: flex; flex-direction: column; overflow: hidden; 
+            text-decoration: none; color: inherit; /* Reset para enlaces */
         } 
         .episode-item:hover, .episode-item.active { 
             transform: scale(1.05); box-shadow: 0 0 0 4px var(--accent-2), 0 10px 20px rgba(0, 0, 0, 0.5); background-color: #2a385f; z-index: 5; outline: none; 
@@ -368,7 +371,7 @@
             <div class="details">
                 <h2 id="detailName"></h2>
                 <div id="detailActionButtons">
-                    <button id="reproduceBtn" style="display:none;"></button>
+                    <a id="reproduceBtn" style="display:none;"></a>
                     <button id="favoriteBtn"><i class="fas fa-heart"></i></button>
                 </div>
                 <p id="detailDesc"></p>
@@ -579,24 +582,27 @@
             } 
         } 
         function combineAllContent() { allContent = [...contentData, ...channels]; } 
+        
+        // --- LÓGICA DE NOMBRES SIMILARES ---
         function getRecommendations(currentItem) { 
             if (!currentItem) return []; 
             const currentId = currentItem.id || currentItem.title; 
             const currentGenre = currentItem.genre || []; 
+            // Palabras clave para sagas (primera palabra del título)
+            const baseName = currentItem.title.split(' ')[0].toLowerCase().replace(/[^a-z0-9]/g, '');
+
             let filteredContent = allContent.filter(item => (item.id || item.title) !== currentId); 
-            let genreRecs = []; 
-            if (currentGenre.length > 0) { 
-                genreRecs = filteredContent 
-                    .filter(item => item.genre && item.genre.some(g => currentGenre.includes(g))) 
-                    .sort(() => 0.5 - Math.random()) 
-                    .slice(0, 7); 
-            } 
-            let fillerRecs = filteredContent 
-                .filter(item => (item.episodes ? true : false) === (currentItem.episodes ? true : false)) 
-                .filter(item => !genreRecs.includes(item)) 
-                .sort(() => 0.5 - Math.random()) 
-                .slice(0, 10 - genreRecs.length); 
-            return [...genreRecs, ...fillerRecs].slice(0, 10); 
+            
+            // Ordenar: Sagas con mismo nombre primero, luego por género
+            return filteredContent.sort((a, b) => {
+                const aSaga = a.title.toLowerCase().includes(baseName);
+                const bSaga = b.title.toLowerCase().includes(baseName);
+                if (aSaga !== bSaga) return bSaga - aSaga; // Prioridad nombres similares
+                
+                const aGenre = a.genre && a.genre.some(g => currentGenre.includes(g));
+                const bGenre = b.genre && b.genre.some(g => currentGenre.includes(g));
+                return bGenre - aGenre; // Luego mismo género
+            }).slice(0, 10);
         } 
 
         // ----------------------------
@@ -949,30 +955,24 @@
                 } else { 
                     reproduceBtn.innerHTML = `<i class="fas fa-play"></i> Ver Ahora (Cap. 1)`; 
                 } 
-                // Función de reproducción para el botón principal "Continuar Viendo"
+                
+                // --- ACTUALIZADO: REPRODUCTOR GO:BOX PARA BOTÓN PRINCIPAL ---
+                reproduceBtn.href = `go:box?url=${item.episodes[indexToPlayOnButton].video_url}`;
                 reproduceBtn.onclick = () => { 
-                    const episodeElement = episodesListContainer.children[indexToPlayOnButton]; 
-                    if(episodeElement) { 
-                        const scrollPos = episodeElement.offsetLeft - episodesListContainer.clientWidth / 2 + episodeElement.clientWidth / 2; 
-                        episodesListContainer.scrollTo({ left: scrollPos, behavior: 'smooth' }); 
-                        // Simular clic en el elemento del episodio
-                        setTimeout(() => episodeElement.click(), 500); 
-                    } else { 
-                        console.error("No se encontró el elemento del episodio para reproducir."); 
-                        if (item.episodes[0]) { 
-                            window.open(item.episodes[0].video_url, '_blank'); 
-                            // ** VUELVE AL DETALLE Y ACTUALIZA (Serie principal) **
-                            setTimeout(closeDetailAndUpdate, 2000); 
-                        } 
-                    } 
+                    saveWatchedEpisode(seriesId, indexToPlayOnButton);
+                    getLastWatchedEpisodeIndex(seriesId, indexToPlayOnButton);
+                    setTimeout(closeDetailAndUpdate, 2000); 
                 }; 
                 
                 item.episodes.forEach((ep,i)=>{ 
                     const episodeIndex = i; 
                     const isWatched = isEpisodeWatched(seriesId, episodeIndex); 
-                    const episodeItem = document.createElement('div'); 
+                    // ACTUALIZADO: EPISODEITEM AHORA ES UN ENLACE <A> PARA GO:BOX
+                    const episodeItem = document.createElement('a'); 
                     const isActive = isSeries && episodeIndex === indexToPlayOnButton; 
                     episodeItem.className = `episode-item ${isWatched ? 'watched' : ''} ${isActive ? 'active' : ''}`; 
+                    episodeItem.href = `go:box?url=${ep.video_url}`; // REPRODUCTOR GO:BOX
+
                     const thumbUrl = ep.thumb || item.coverImage || 'https://via.placeholder.com/320x180?text=Episodio'; 
                     const episodeTitle = `Episodio ${i+1}: ${ep.title || item.title}`; 
                     const iconClass = isWatched ? 'fas fa-check-circle' : 'fas fa-play-circle'; 
@@ -987,17 +987,8 @@
                         </div> 
                     `; 
                     episodeItem.onclick = (e) => { 
-                        document.querySelectorAll('.episode-item').forEach(x => x.classList.remove('active')); 
                         getLastWatchedEpisodeIndex(seriesId, episodeIndex); 
-                        episodeItem.classList.add('active'); 
                         saveWatchedEpisode(seriesId, episodeIndex); 
-                        // Aplicar clases de visto/activo directamente
-                        episodeItem.classList.remove('active'); // Se eliminará y se volverá a poner al recargar el detalle
-                        episodeItem.classList.add('watched'); 
-                        episodeItem.querySelector('.play-icon').className = 'fas fa-check-circle play-icon'; 
-                        
-                        window.open(ep.video_url, '_blank'); 
-                        // ** VUELVE AL DETALLE Y ACTUALIZA (Episodio) **
                         setTimeout(closeDetailAndUpdate, 2000); 
                     }; 
                     episodesListContainer.appendChild(episodeItem); 
@@ -1013,9 +1004,10 @@
                 episodesSection.style.display = 'none'; 
                 reproduceBtn.style.display = 'flex'; 
                 reproduceBtn.innerHTML = `<i class="fas fa-play"></i> ${item.isChannel ? 'Ver Canal en Vivo' : 'Reproducir Ahora'}`; 
+                
+                // ACTUALIZADO: REPRODUCTOR GO:BOX PARA PELÍCULA/CANAL
+                reproduceBtn.href = `go:box?url=${item.video_url}`;
                 reproduceBtn.onclick = () => { 
-                    window.open(item.video_url, '_blank'); 
-                    // ** VUELVE AL DETALLE Y ACTUALIZA (Película/Canal) **
                     setTimeout(closeDetailAndUpdate, 2000); 
                 }; 
             } else { 
