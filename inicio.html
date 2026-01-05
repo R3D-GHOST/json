@@ -956,8 +956,8 @@
                     reproduceBtn.innerHTML = `<i class="fas fa-play"></i> Ver Ahora (Cap. 1)`; 
                 } 
                 
-                // --- ACTUALIZADO: REPRODUCTOR GO:BOX PARA BOTÓN PRINCIPAL ---
-                reproduceBtn.href = `go:box?url=${item.episodes[indexToPlayOnButton].video_url}`;
+                // --- BOTÓN PRINCIPAL ---
+                reproduceBtn.href = `${item.episodes[indexToPlayOnButton].video_url}`;
                 reproduceBtn.onclick = () => { 
                     saveWatchedEpisode(seriesId, indexToPlayOnButton);
                     getLastWatchedEpisodeIndex(seriesId, indexToPlayOnButton);
@@ -967,11 +967,11 @@
                 item.episodes.forEach((ep,i)=>{ 
                     const episodeIndex = i; 
                     const isWatched = isEpisodeWatched(seriesId, episodeIndex); 
-                    // ACTUALIZADO: EPISODEITEM AHORA ES UN ENLACE <A> PARA GO:BOX
+                    // ACTUALIZADO: EPISODEITEM AHORA ES UN ENLACE <A>
                     const episodeItem = document.createElement('a'); 
                     const isActive = isSeries && episodeIndex === indexToPlayOnButton; 
                     episodeItem.className = `episode-item ${isWatched ? 'watched' : ''} ${isActive ? 'active' : ''}`; 
-                    episodeItem.href = `go:box?url=${ep.video_url}`; // REPRODUCTOR GO:BOX
+                    episodeItem.href = `${ep.video_url}`; 
 
                     const thumbUrl = ep.thumb || item.coverImage || 'https://via.placeholder.com/320x180?text=Episodio'; 
                     const episodeTitle = `Episodio ${i+1}: ${ep.title || item.title}`; 
@@ -1005,8 +1005,8 @@
                 reproduceBtn.style.display = 'flex'; 
                 reproduceBtn.innerHTML = `<i class="fas fa-play"></i> ${item.isChannel ? 'Ver Canal en Vivo' : 'Reproducir Ahora'}`; 
                 
-                // ACTUALIZADO: REPRODUCTOR GO:BOX PARA PELÍCULA/CANAL
-                reproduceBtn.href = `go:box?url=${item.video_url}`;
+                // PELÍCULA/CANAL
+                reproduceBtn.href = `${item.video_url}`;
                 reproduceBtn.onclick = () => { 
                     setTimeout(closeDetailAndUpdate, 2000); 
                 }; 
