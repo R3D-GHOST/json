@@ -1,6 +1,6 @@
 [
   {
-    "title": "Hermano Mayor - Temporada 1",
+    "title": "Hermano Mayor Temporada 1",
     "original_title": "Hermano Mayor",
     "year": 2009,
     "genre": ["Reality TV", "Social", "Educación"],
@@ -17,7 +17,7 @@
     ]
   },
   {
-    "title": "Hermano Mayor - Temporada 2",
+    "title": "Hermano Mayor Temporada 2",
     "original_title": "Hermano Mayor",
     "year": 2010,
     "genre": ["Reality TV", "Social", "Educación"],
@@ -37,7 +37,7 @@
     ]
   },
   {
-    "title": "Hermano Mayor - Temporada 3",
+    "title": "Hermano Mayor  Temporada 3",
     "original_title": "Hermano Mayor",
     "year": 2011,
     "genre": ["Reality TV", "Social", "Educación"],
@@ -59,7 +59,7 @@
     ]
   },
   {
-    "title": "Hermano Mayor - Temporada 4",
+    "title": "Hermano Mayor  Temporada 4",
     "original_title": "Hermano Mayor",
     "year": 2012,
     "genre": ["Reality TV", "Social", "Educación"],
@@ -80,6 +80,104 @@
       { "episode": 12, "title": "Aitor", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2004x12%20-%20Aitor.mp4" },
       { "episode": 13, "title": "Alex", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2004x13%20-%20Alex.mp4" },
       { "episode": 14, "title": "Best Of (Vanessa, Jonathan, Samuel y Jessica)", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2004x14%20-%20Best%20Of%20%28Vanessa%2C%20Jonathan%2C%20Samuel%20y%20Jessica%29.mp4" }
+    ]
+  },
+
+  {
+    "title": "Hermano Mayor  Temporada 6",
+    "original_title": "Hermano Mayor",
+    "year": 2014,
+    "genre": ["Reality TV", "Social", "Educación"],
+    "coverImage": "https://m.media-amazon.com/images/M/MV5BYjJmZDM4ZjItNmRiNy00ZTIwLTg5YTQtODIyMDA1OTQ2M2VmXkEyXkFqcGc@._V1_.jpg",
+    "description": "Pedro García Aguado continúa su labor mediadora enfrentando casos de extrema agresividad y falta de comunicación en el núcleo familiar.",
+    "episodes": [
+      { "episode": 1, "title": "Tamara", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2006x01%20-%20Tamara.mp4" },
+      { "episode": 2, "title": "Alfonso", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2006x02%20-%20Alfonso.mp4" },
+      { "episode": 3, "title": "Kevin", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2006x03%20-%20Kevin.mp4" },
+      { "episode": 4, "title": "Santi", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2006x04%20-%20Santi.mp4" },
+      { "episode": 5, "title": "Sergi", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2006x05%20-%20Sergi.mp4" },
+      { "episode": 6, "title": "Soraya", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2006x06%20-%20Soraya.mp4" },
+      { "episode": 7, "title": "Kiko", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2006x07%20-%20Kiko.mp4" },
+      { "episode": 8, "title": "Javi", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2006x08%20-%20Javi.mp4" },
+      { "episode": 9, "title": "Laura", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2006x09%20-%20Laura.mp4" },
+      { "episode": 10, "title": "Fran", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2006x10%20-%20Fran.mp4" },
+      { "episode": 11, "title": "Germán", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2006x11%20-%20Germ%C3%A1n.mp4" },
+      { "episode": 12, "title": "Marcos", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2006x12%20-%20Marcos.mp4" },
+      { "episode": 13, "title": "Jenni", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2006x13%20-%20Jenni.mp4" },
+      { "episode": 14, "title": "Yolanda", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2006x14%20-%20Yolanda.mp4" },
+      { "episode": 15, "title": "Jennifer", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2006x15%20-%20Jennifer.mp4" }
+    ]
+  },
+  {
+    "title": "Hermano Mayor  Temporada 7",
+    "original_title": "Hermano Mayor",
+    "year": 2014,
+    "genre": ["Reality TV", "Social", "Educación"],
+    "coverImage": "https://m.media-amazon.com/images/M/MV5BYjJmZDM4ZjItNmRiNy00ZTIwLTg5YTQtODIyMDA1OTQ2M2VmXkEyXkFqcGc@._V1_.jpg",
+    "description": "Casos de gran impacto social, incluyendo el mediático caso de Dakota, donde se exploran los límites de la autoridad parental y la rebeldía.",
+    "episodes": [
+      { "episode": 1, "title": "Juanjo", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2007x01%20-%20Juanjo.mp4" },
+      { "episode": 2, "title": "Dakota", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2007x02%20-%20Dakota.mp4" },
+      { "episode": 3, "title": "Cristina", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2007x03%20-%20Cristina.mp4" },
+      { "episode": 4, "title": "Xavi", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2007x04%20-%20Xavi.mp4" },
+      { "episode": 5, "title": "Samara", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2007x05%20-%20Samara.mp4" },
+      { "episode": 6, "title": "Joan", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2007x06%20-%20Joan.mp4" },
+      { "episode": 7, "title": "José Manuel", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2007x07%20-%20Jos%C3%A9%20Manuel.mp4" },
+      { "episode": 8, "title": "Diego", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2007x08%20-%20Diego.mp4" },
+      { "episode": 9, "title": "Lorena", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2007x09%20-%20Lorena.mp4" },
+      { "episode": 10, "title": "Ada", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2007x10%20-%20Ada.mp4" },
+      { "episode": 11, "title": "Cristian", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2007x11%20-%20Cristian.mp4" },
+      { "episode": 12, "title": "Iván", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2007x12%20-%20Iv%C3%A1n.mp4" },
+      { "episode": 13, "title": "Cintia y Eduardo", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2007x13%20-%20Cintia%20y%20Eduardo.mp4" }
+    ]
+  },
+  {
+    "title": "Hermano Mayor  Temporada 8",
+    "original_title": "Hermano Mayor",
+    "year": 2015,
+    "genre": ["Reality TV", "Social", "Educación"],
+    "coverImage": "https://m.media-amazon.com/images/M/MV5BYjJmZDM4ZjItNmRiNy00ZTIwLTg5YTQtODIyMDA1OTQ2M2VmXkEyXkFqcGc@._V1_.jpg",
+    "description": "Última temporada con Pedro García Aguado, centrada en la resolución de conflictos a través del deporte y la disciplina emocional.",
+    "episodes": [
+      { "episode": 1, "title": "Fran", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2008x1%20-%20Fran.mp4" },
+      { "episode": 2, "title": "Sergio", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2008x2%20-%20Sergio.mp4" },
+      { "episode": 3, "title": "José", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2008x3%20-%20Jos%C3%A9.mp4" },
+      { "episode": 4, "title": "Carolina", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2008x4%20-%20Carolina.mp4" },
+      { "episode": 5, "title": "María y Ricardo", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2008x5%20-%20Mar%C3%ADa%20y%20Ricardo.mp4" }
+    ]
+  },
+  {
+    "title": "Hermano Mayor Temporada 9",
+    "original_title": "Hermano Mayor",
+    "year": 2017,
+    "genre": ["Reality TV", "Social", "Educación"],
+    "coverImage": "https://m.media-amazon.com/images/M/MV5BYjJmZDM4ZjItNmRiNy00ZTIwLTg5YTQtODIyMDA1OTQ2M2VmXkEyXkFqcGc@._V1_.jpg",
+    "description": "Nueva etapa con Jero García al frente, aportando su experiencia como boxeador y mentor para reconducir la vida de jóvenes en riesgo.",
+    "episodes": [
+      { "episode": 1, "title": "Alberto", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2009x1%20-%20Alberto.mp4" },
+      { "episode": 2, "title": "Adrián", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2009x2%20-%20Adri%C3%A1n.mp4" },
+      { "episode": 3, "title": "Stephan", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2009x3%20-%20Stephan.mp4" },
+      { "episode": 4, "title": "Sabina", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2009x4%20-%20Sabina.mp4" },
+      { "episode": 5, "title": "Enrique", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2009x5%20-%20Enrique.mp4" },
+      { "episode": 6, "title": "Kevin", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2009x6%20-%20Kevin.mp4" },
+      { "episode": 7, "title": "José Antonio", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2009x7%20-%20Jos%C3%A9%20Antonio.mp4" }
+    ]
+  },
+  {
+    "title": "Hermano Mayor  Temporada 10",
+    "original_title": "Hermano Mayor",
+    "year": 2017,
+    "genre": ["Reality TV", "Social", "Educación"],
+    "coverImage": "https://m.media-amazon.com/images/M/MV5BYjJmZDM4ZjItNmRiNy00ZTIwLTg5YTQtODIyMDA1OTQ2M2VmXkEyXkFqcGc@._V1_.jpg",
+    "description": "Jero García enfrenta retos cada vez más complejos donde la tecnología y las redes sociales juegan un papel crucial en los conflictos familiares.",
+    "episodes": [
+      { "episode": 1, "title": "Amèlie", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2010x1%20-%20Am%C3%A8lie.mp4" },
+      { "episode": 2, "title": "Daniel", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2010x2%20-%20Daniel.mp4" },
+      { "episode": 3, "title": "Andrés", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2010x3%20-%20Andr%C3%A9s.mp4" },
+      { "episode": 4, "title": "Alejandro", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2010x4%20-%20Alejandro.mp4" },
+      { "episode": 5, "title": "Yedra", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2010x5%20-%20Yedra.mp4" },
+      { "episode": 6, "title": "Atenea", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2010x6%20-%20Atenea.mp4" },
+      { "episode": 7, "title": "Sheila", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2010x7%20-%20Sheila.mp4" }
     ]
   },
   {
