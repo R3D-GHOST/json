@@ -1,5 +1,114 @@
 [
   {
+    "title": "Hermano Mayor - Temporada 1",
+    "original_title": "Hermano Mayor",
+    "year": 2009,
+    "genre": ["Reality TV", "Social", "Educación"],
+    "coverImage": "https://m.media-amazon.com/images/M/MV5BYjJmZDM4ZjItNmRiNy00ZTIwLTg5YTQtODIyMDA1OTQ2M2VmXkEyXkFqcGc@._V1_.jpg",
+    "description": "Pedro García Aguado ayuda a familias con adolescentes que presentan comportamientos violentos o problemáticos, buscando restaurar la convivencia y el respeto mutuo.",
+    "episodes": [
+      { "episode": 1, "title": "Paula", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2001x1%20-%20Paula.mp4" },
+      { "episode": 2, "title": "Raúl", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2001x2%20-%20Ra%C3%BAl.mp4" },
+      { "episode": 3, "title": "Gisela", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2001x3%20-%20Gisela.mp4" },
+      { "episode": 4, "title": "Jaume", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2001x4%20-%20Jaume.mp4" },
+      { "episode": 5, "title": "Jessica", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2001x5%20-%20Jessica.mp4" },
+      { "episode": 6, "title": "Borja", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2001x6%20-%20Borja.mp4" },
+      { "episode": 7, "title": "Lidia", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2001x7%20-%20Lidia.mp4" }
+    ]
+  },
+  {
+    "title": "Hermano Mayor - Temporada 2",
+    "original_title": "Hermano Mayor",
+    "year": 2010,
+    "genre": ["Reality TV", "Social", "Educación"],
+    "coverImage": "https://m.media-amazon.com/images/M/MV5BYjJmZDM4ZjItNmRiNy00ZTIwLTg5YTQtODIyMDA1OTQ2M2VmXkEyXkFqcGc@._V1_.jpg",
+    "description": "En esta segunda entrega, el programa continúa abordando casos críticos de rebeldía juvenil, ofreciendo herramientas psicológicas y dinámicas de grupo para cambiar la dinámica familiar.",
+    "episodes": [
+      { "episode": 1, "title": "Alejandro", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2002x01%20-%20Alejandro.mp4" },
+      { "episode": 2, "title": "Yakira", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2002x02%20-%20Yakira.mp4" },
+      { "episode": 3, "title": "Adrián", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2002x03%20-%20Adri%C3%A1n.mp4" },
+      { "episode": 4, "title": "Judith", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2002x04%20-%20Judith.mp4" },
+      { "episode": 5, "title": "Andoni", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2002x05%20-%20Andoni.mp4" },
+      { "episode": 6, "title": "Natalia", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2002x06%20-%20Natalia.mp4" },
+      { "episode": 7, "title": "Juan", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2002x07%20-%20Juan.mp4" },
+      { "episode": 8, "title": "Juanma", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2002x08%20-%20Juanma.mp4" },
+      { "episode": 9, "title": "Lara", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2002x09%20-%20Lara.mp4" },
+      { "episode": 10, "title": "El regreso (Borja y Adrián)", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2002x10%20-%20El%20regreso%20%28Borja%20y%20Adri%C3%A1n%29.mp4" }
+    ]
+  },
+  {
+    "title": "Hermano Mayor - Temporada 3",
+    "original_title": "Hermano Mayor",
+    "year": 2011,
+    "genre": ["Reality TV", "Social", "Educación"],
+    "coverImage": "https://m.media-amazon.com/images/M/MV5BYjJmZDM4ZjItNmRiNy00ZTIwLTg5YTQtODIyMDA1OTQ2M2VmXkEyXkFqcGc@._V1_.jpg",
+    "description": "Nuevos desafíos donde la mediación y el autocontrol son claves para que los jóvenes reconozcan el daño causado y busquen una salida positiva a sus conflictos.",
+    "episodes": [
+      { "episode": 1, "title": "Rosana", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2003x01%20-%20Rosana.mp4" },
+      { "episode": 2, "title": "Julio", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2003x02%20-%20Julio.mp4" },
+      { "episode": 3, "title": "Andrea", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2003x03%20-%20Andrea.mp4" },
+      { "episode": 4, "title": "Javier", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2003x04%20-%20Javier.mp4" },
+      { "episode": 5, "title": "Sonia", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2003x05%20-%20Sonia.mp4" },
+      { "episode": 6, "title": "Miguel", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2003x06%20-%20Miguel.mp4" },
+      { "episode": 7, "title": "Iván", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2003x07%20-%20Iv%C3%A1n.mp4" },
+      { "episode": 8, "title": "Andrea", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2003x08%20-%20Andrea.mp4" },
+      { "episode": 9, "title": "Miguel", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2003x09%20-%20Miguel.mp4" },
+      { "episode": 10, "title": "Cristian", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2003x10%20-%20Cristian.mp4" },
+      { "episode": 11, "title": "Adrián", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2003x11%20-%20Adri%C3%A1n.mp4" },
+      { "episode": 12, "title": "Sergio", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2003x12%20-%20Sergio.mp4" }
+    ]
+  },
+  {
+    "title": "Hermano Mayor - Temporada 4",
+    "original_title": "Hermano Mayor",
+    "year": 2012,
+    "genre": ["Reality TV", "Social", "Educación"],
+    "coverImage": "https://m.media-amazon.com/images/M/MV5BYjJmZDM4ZjItNmRiNy00ZTIwLTg5YTQtODIyMDA1OTQ2M2VmXkEyXkFqcGc@._V1_.jpg",
+    "description": "La cuarta temporada profundiza en la raíz de los problemas de conducta, enfrentando a los jóvenes a situaciones límite para generar un cambio real y duradero.",
+    "episodes": [
+      { "episode": 1, "title": "Alejandro", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2004x01%20-%20Alejandro.mp4" },
+      { "episode": 2, "title": "Jonathan", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2004x02%20-%20Jonathan.mp4" },
+      { "episode": 3, "title": "Jessica", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2004x03%20-%20Jessica.mp4" },
+      { "episode": 4, "title": "Verónica", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2004x04%20-%20Ver%C3%B3nica.mp4" },
+      { "episode": 5, "title": "Toni", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2004x05%20-%20Toni.mp4" },
+      { "episode": 6, "title": "Vanessa", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2004x06%20-%20Vanessa.mp4" },
+      { "episode": 7, "title": "Marina", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2004x07%20-%20Marina.mp4" },
+      { "episode": 8, "title": "Samuel", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2004x08%20-%20Samuel.mp4" },
+      { "episode": 9, "title": "Aitor", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2004x09%20-%20Aitor.mp4" },
+      { "episode": 10, "title": "Itziar", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2004x10%20-%20Itziar.mp4" },
+      { "episode": 11, "title": "Soraya", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2004x11%20-%20Soraya.mp4" },
+      { "episode": 12, "title": "Aitor", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2004x12%20-%20Aitor.mp4" },
+      { "episode": 13, "title": "Alex", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2004x13%20-%20Alex.mp4" },
+      { "episode": 14, "title": "Best Of (Vanessa, Jonathan, Samuel y Jessica)", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2004x14%20-%20Best%20Of%20%28Vanessa%2C%20Jonathan%2C%20Samuel%20y%20Jessica%29.mp4" }
+    ]
+  },
+  {
+    "title": "Hermano Mayor - Temporada 5",
+    "original_title": "Hermano Mayor",
+    "year": 2013,
+    "genre": ["Reality TV", "Social", "Educación"],
+    "coverImage": "https://m.media-amazon.com/images/M/MV5BYjJmZDM4ZjItNmRiNy00ZTIwLTg5YTQtODIyMDA1OTQ2M2VmXkEyXkFqcGc@._V1_.jpg",
+    "description": "Pedro García Aguado enfrenta algunos de los casos más violentos de la serie, enfocándose en la recuperación de la autoestima tanto de los padres como de los hijos.",
+    "episodes": [
+      { "episode": 1, "title": "Jenny", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2005x01%20-%20Jenny.mp4" },
+      { "episode": 2, "title": "Juan Carlos", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2005x02%20-%20Juan%20Carlos.mp4" },
+      { "episode": 3, "title": "Ego", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2005x03%20-%20Ego.mp4" },
+      { "episode": 4, "title": "Fanny", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2005x04%20-%20Fanny.mp4" },
+      { "episode": 5, "title": "Dani", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2005x05%20-%20Dani.mp4" },
+      { "episode": 6, "title": "Rocío", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2005x06%20-%20Roc%C3%ADo.mp4" },
+      { "episode": 7, "title": "Aritz", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2005x07%20-%20Aritz.mp4" },
+      { "episode": 8, "title": "Dany", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2005x08%20-%20Dany.mp4" },
+      { "episode": 9, "title": "Kimberly", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2005x09%20-%20Kimberly.mp4" },
+      { "episode": 10, "title": "Raúl", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2005x10%20-%20Ra%C3%BAl.mp4" },
+      { "episode": 11, "title": "Andrea", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2005x11%20-%20Andrea.mp4" },
+      { "episode": 12, "title": "Jonathan", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2005x12%20-%20Jonathan.mp4" },
+      { "episode": 13, "title": "José", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2005x13%20-%20Jos%C3%A9.mp4" },
+      { "episode": 14, "title": "Carolina", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2005x14%20-%20Carolina.mp4" },
+      { "episode": 15, "title": "Julio", "video_url": "https://archive.org/download/hermano-mayor-hermano-mayor-programa-completo/Hermano%20Mayor%20-%2005x15%20-%20Julio.mp4" }
+    ]
+  },
+  
+  {
     "title": "Misión: Imposible - Sentencia Mortal Parte 2",
     "description": "Ethan Hunt y su equipo de la FMI se embarcan en su misión más peligrosa hasta la fecha: localizar una nueva y aterradora arma que amenaza a toda la humanidad antes de que caiga en las manos equivocadas.",
     "year": 2025,
