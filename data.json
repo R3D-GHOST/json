@@ -1,4 +1,74 @@
 [
+  
+  {
+    "title": "RoboCop: La Serie Animada",
+    "genre": ["Animación", "Acción", "Ciencia Ficción"],
+    "coverImage": "https://pics.filmaffinity.com/RoboCop_Serie_de_TV-802730331-large.jpg",
+    "description": "Basada en la película de 1987, la serie sigue a Alex Murphy, un oficial de policía transformado en un cyborg que lucha contra el crimen en una versión futurista de Detroit.",
+    "episodes": [
+      {
+        "episode": 1,
+        "title": "Oleada de crimen",
+        "video_url": "https://archive.org/download/RoboCopTV88LAT/01%20Oleada%20de%20crimen.mp4"
+      },
+      {
+        "episode": 2,
+        "title": "Scrambler",
+        "video_url": "https://archive.org/download/RoboCopTV88LAT/02%20Scrambler.mp4"
+      },
+      {
+        "episode": 3,
+        "title": "El hombre con el traje de poder",
+        "video_url": "https://archive.org/download/RoboCopTV88LAT/03%20El%20hombre%20con%20el%20traje%20de%20poder.mp4"
+      },
+      {
+        "episode": 4,
+        "title": "Espora de la muerte",
+        "video_url": "https://archive.org/download/RoboCopTV88LAT/04%20Espora%20de%20la%20muerte.mp4"
+      },
+      {
+        "episode": 5,
+        "title": "La hermandad",
+        "video_url": "https://archive.org/download/RoboCopTV88LAT/05%20La%20hermandad.mp4"
+      },
+      {
+        "episode": 6,
+        "title": "El Bombero",
+        "video_url": "https://archive.org/download/RoboCopTV88LAT/06%20El%20Bombero.mp4"
+      },
+      {
+        "episode": 7,
+        "title": "No hay noticias que buenas noticias",
+        "video_url": "https://archive.org/download/RoboCopTV88LAT/07%20No%20hay%20noticias%20que%20buenas%20noticias.mp4"
+      },
+      {
+        "episode": 8,
+        "title": "Peligro en el Bosque",
+        "video_url": "https://archive.org/download/RoboCopTV88LAT/08%20Peligro%20en%20el%20Bosque.mp4"
+      },
+      {
+        "episode": 9,
+        "title": "La noche del arquero",
+        "video_url": "https://archive.org/download/RoboCopTV88LAT/09%20La%20noche%20del%20arquero.mp4"
+      },
+      {
+        "episode": 10,
+        "title": "Rebelde sin causa en Detroit",
+        "video_url": "https://archive.org/download/RoboCopTV88LAT/10%20Rebelde%20sin%20causa%20en%20detroit.mp4"
+      },
+      {
+        "episode": 11,
+        "title": "La venganza de los robots",
+        "video_url": "https://archive.org/download/RoboCopTV88LAT/11%20La%20venganza%20de%20los%20robot.mp4"
+      },
+      {
+        "episode": 12,
+        "title": "Amenaza del pasado",
+        "video_url": "https://archive.org/download/RoboCopTV88LAT/12%20Amenaza%20del%20pasado.mp4"
+      }
+    ]
+  },
+    
   {
     "title": "Hermano Mayor Temporada 1",
     "original_title": "Hermano Mayor",
