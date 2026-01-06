@@ -1,4 +1,18 @@
 [
+  {
+    "title": "Sonic 2: La película",
+    "description": "Deseoso de demostrar que tiene lo que se necesita para ser un verdadero héroe, Sonic se une a su nuevo amigo Tails para detener el regreso del Dr. Robotnik, quien ahora cuenta con la ayuda de Knuckles el Equidna en busca de una esmeralda con el poder de destruir civilizaciones.",
+    "coverImage": "https://es.web.img3.acsta.net/pictures/22/02/18/10/20/5195258.jpg",
+    "genre": ["Acción", "Aventura", "Familia"],
+    "video_url": "https://archive.org/download/sonic-cinematic-universe/sonic%20la%20pelicula%202.mp4"
+  },
+  {
+    "title": "Sonic 3: La película",
+    "description": "Sonic, Tails y Knuckles deben enfrentarse a una nueva y poderosa amenaza: Shadow, un misterioso y oscuro erizo con habilidades que superan todo lo que han visto antes. La pandilla deberá formar alianzas inesperadas para salvar al planeta una vez más.",
+    "coverImage": "https://es.web.img3.acsta.net/img/c3/70/c3703dc747fb19cf232978ea08e8e9f4.jpg",
+    "genre": ["Estreno", "Acción", "Aventura", "Ciencia ficción"],
+    "video_url": "https://archive.org/download/sonic-cinematic-universe/sonic%20%20la%20pelicula%203.mp4"
+  },
   
   {
     "title": "RoboCop: La Serie Animada",
