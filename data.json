@@ -1,4 +1,17 @@
 [
+  
+  {
+    "title": "Astro Boy",
+    "description": "Ambientada en la futurista Ciudad Metro, un joven robot con poderes increíbles es creado por un brillante científico para reemplazar al hijo que perdió. Tras ser rechazado, Astro Boy emprende un viaje de autodescubrimiento, enfrentándose a peligrosos robots y aceptando su destino como el héroe que su mundo necesita.",
+    "coverImage": "https://fr.web.img6.acsta.net/medias/nmedia/18/72/80/48/19196418.jpg",
+    "genre": [
+      "Animación",
+      "Acción",
+      "Ciencia ficción",
+      "Familia"
+    ],
+    "video_url": "https://archive.org/download/astroboy-la-pelicula/astroboy%20la%20pelicula.mp4"
+  },
   {
     "title": "Sonic 2: La película",
     "description": "Deseoso de demostrar que tiene lo que se necesita para ser un verdadero héroe, Sonic se une a su nuevo amigo Tails para detener el regreso del Dr. Robotnik, quien ahora cuenta con la ayuda de Knuckles el Equidna en busca de una esmeralda con el poder de destruir civilizaciones.",
