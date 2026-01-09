@@ -1,4 +1,108 @@
 [
+  {
+  "title": "Escalofríos (Goosebumps): Temporada 1",
+  "genre": ["Terror", "Antología", "Fantasía", "Infantil"],
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNm93qgcakGtNwGMVKK4bZz2nzEAtbBJ8V2fvhG7UHvw&s=10",
+  "description": "Basada en los libros de R.L. Stine, esta serie de antología presenta historias de terror y suspenso donde niños y adolescentes se enfrentan a situaciones sobrenaturales, monstruos y giros inesperados.",
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "La máscara encantada - parte 1",
+      "video_url": "https://archive.org/download/escalofrios-temporada-1/1x01%20%20-%20La%20m%C3%A1scara%20encantada%20-%20parte%201.mp4"
+    },
+    {
+      "episode": 2,
+      "title": "La máscara encantada - parte 2",
+      "video_url": "https://archive.org/download/escalofrios-temporada-1/1x02%20-%20La%20m%C3%A1scara%20encantada%20-%20parte%202.mp4"
+    },
+    {
+      "episode": 3,
+      "title": "El reloj cucú",
+      "video_url": "https://archive.org/download/escalofrios-temporada-1/1x03%20-%20El%20reloj%20cuc%C3%BA.mp4"
+    },
+    {
+      "episode": 4,
+      "title": "Terror en la biblioteca",
+      "video_url": "https://archive.org/download/escalofrios-temporada-1/1x04%20-%20Terror%20en%20la%20biblioteca.mp4"
+    },
+    {
+      "episode": 5,
+      "title": "Bienvenidos al Campo de las Pesadillas - parte 1",
+      "video_url": "https://archive.org/download/escalofrios-temporada-1/1x05%20-%20Bienvenidos%20al%20Campo%20de%20las%20Pesadillas%20-%20parte%201.mp4"
+    },
+    {
+      "episode": 6,
+      "title": "Bienvenidos al Campo de las Pesadillas - parte 2",
+      "video_url": "https://archive.org/download/escalofrios-temporada-1/1x06%20-%20Bienvenidos%20al%20Campo%20de%20las%20Pesadillas%20-%20parte%202.mp4"
+    },
+    {
+      "episode": 7,
+      "title": "El fantasma del auditorio",
+      "video_url": "https://archive.org/download/escalofrios-temporada-1/1x07%20-%20El%20fantasma%20del%20auditorio.mp4"
+    },
+    {
+      "episode": 8,
+      "title": "Las lecciones de piano pueden ser mortales",
+      "video_url": "https://archive.org/download/escalofrios-temporada-1/1x08%20-%20Las%20lecciones%20de%20piano%20pueden%20ser%20mortales.mp4"
+    },
+    {
+      "episode": 9,
+      "title": "El regreso de la momia",
+      "video_url": "https://archive.org/download/escalofrios-temporada-1/1x09%20-%20El%20regreso%20de%20la%20momia.mp4"
+    },
+    {
+      "episode": 10,
+      "title": "La noche del muñeco viviente",
+      "video_url": "https://archive.org/download/escalofrios-temporada-1/1x10%20-%20La%20noche%20del%20mu%C3%B1eco%20viviente.mp4"
+    },
+    {
+      "episode": 11,
+      "title": "No bajes al sótano - parte 1",
+      "video_url": "https://archive.org/download/escalofrios-temporada-1/1x11%20-%20No%20bajes%20al%20s%C3%B3tano%20-%20parte%201.mp4"
+    },
+    {
+      "episode": 12,
+      "title": "No bajes al sótano - parte 2",
+      "video_url": "https://archive.org/download/escalofrios-temporada-1/1x12%20-%20No%20bajes%20al%20s%C3%B3tano%20-%20parte%202.mp4"
+    },
+    {
+      "episode": 13,
+      "title": "Una aventura espeluznante",
+      "video_url": "https://archive.org/download/escalofrios-temporada-1/1x13%20-%20Una%20aventura%20espeluznante.mp4"
+    },
+    {
+      "episode": 14,
+      "title": "Lo encontramos debajo del fregadero",
+      "video_url": "https://archive.org/download/escalofrios-temporada-1/1x14%20-%20Lo%20encontramos%20debajo%20del%20fregadero.mp4"
+    },
+    {
+      "episode": 15,
+      "title": "Sonríe y muere",
+      "video_url": "https://archive.org/download/escalofrios-temporada-1/1x15%20-%20Sonr%C3%ADe%20y%20muere.mp4"
+    },
+    {
+      "episode": 16,
+      "title": "Una noche en la Torre del Terror - parte 1",
+      "video_url": "https://archive.org/download/escalofrios-temporada-1/1x16%20-%20Una%20noche%20en%20la%20Torre%20del%20Terror%20-%20parte%201.mp4"
+    },
+    {
+      "episode": 17,
+      "title": "Una noche en la Torre del Terror - parte 2",
+      "video_url": "https://archive.org/download/escalofrios-temporada-1/1x17%20-%20Una%20noche%20en%20la%20Torre%20del%20Terror%20-%20parte%202.mp4"
+    },
+    {
+      "episode": 18,
+      "title": "El hombre lobo del pantano - parte 1",
+      "video_url": "https://archive.org/download/escalofrios-temporada-1/1x18%20-%20El%20hombre%20lobo%20del%20pantano%20-%20parte%201.mp4"
+    },
+    {
+      "episode": 19,
+      "title": "El hombre lobo del pantano - parte 2",
+      "video_url": "https://archive.org/download/escalofrios-temporada-1/1x19%20-%20El%20hombre%20lobo%20del%20pantano%20-%20parte%202.mp4"
+    }
+  ]
+  },
+  
   
   {
     "title": "Astro Boy",
