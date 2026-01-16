@@ -5,7 +5,7 @@
     "year": 1976,
     "genre": ["Animación", "Drama", "Aventura"],
     "description": "La historia narra las aventuras de Marco, un niño que viaja desde Génova, Italia, hacia Argentina en busca de su madre durante la época de la gran emigración italiana.",
-    "coverImage": "",
+    "coverImage": "https://www.formulatv.com/images/series/posters/1000/1051/dest_1.jpg",
     "episodes": [
       { "episode": 1, "title": "No te vayas, mamá", "video_url": "https://archive.org/download/marco-serie-completa_202508/Marco%20Episodio%2001.mp4" },
       { "episode": 2, "title": "Un niño en Génova", "video_url": "https://archive.org/download/marco-serie-completa_202508/Marco%20Episodio%2002.mp4" },
