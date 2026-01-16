@@ -1,4 +1,27 @@
 [
+  
+  {
+    "title": "Desearás al hombre de tu hermana",
+    "description": "Lucía y Ofelia son dos hermanas que siempre han tenido una relación conflictiva. Durante la boda de Lucía, el deseo y la rivalidad afloran cuando Ofelia se siente atraída por el nuevo esposo de su hermana, desatando una red de pasiones prohibidas.",
+    "coverImage": "https://m.media-amazon.com/images/I/61aGZ+GmLKL._UXNaN_FMjpg_QL85_.jpg",
+    "genre": ["Drama", "Romance", "Erótico"],
+    "video_url": "https://archive.org/download/desearas-al-hombre-de-tu-hermana-2017-ok-ru/%D0%92%D0%B8%D0%B4%D0%B5%D0%BE%20Desearas%20al%20hombre%20de%20tu%20hermana%202017%20OK%20RU.ia.mp4"
+  },
+  {
+    "title": "Atracadores (Braqueurs)",
+    "description": "Yanis lidera un equipo de atracadores de furgones blindados altamente eficiente en París. Sin embargo, un error cometido por su hermano menor los obliga a trabajar para una peligrosa banda de narcotraficantes en un golpe de alto riesgo.",
+    "coverImage": "https://m.media-amazon.com/images/I/91AFQEHJWnL._AC_UF894,1000_QL80_.jpg",
+    "genre": ["Acción", "Crimen", "Suspenso"],
+    "video_url": "https://archive.org/download/atracadores-2015/Atracadores%20%282015%29.mp4"
+  },
+  {
+    "title": "Ataque a los Titanes: La película",
+    "description": "En un mundo post-apocalíptico donde la humanidad vive rodeada de muros para protegerse de gigantes antropófagos llamados Titanes, el joven Eren Jaeger se une a la fuerza de resistencia para vengar la destrucción de su hogar.",
+    "coverImage": "https://static.wikia.nocookie.net/shingeki-no-kyojin/images/7/73/Ataque_a_los_titanes_%28Pel%C3%ADcula%29_poster.png",
+    "genre": ["Acción", "Fantasía", "Terror"],
+    "video_url": "https://archive.org/download/ataque-a-los-titanes-2015/Ataque%20A%20Los%20Titanes%20%282015%29.mp4"
+  },
+    
   {
   "title": "Lupin no Musume (La hija de Lupin)",
   "genre": ["Comedia", "Romance", "Acción"],
