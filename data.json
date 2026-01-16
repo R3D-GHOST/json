@@ -1,8 +1,21 @@
 [
-  [
+
+  {
+    "title": "That Time I Got Reincarnated as a Slime: Scarlet Bond",
+    "description": "En el país de Raja, al oeste de Tempest, se desarrolla una compleja conspiración en torno a una misteriosa mujer. Rimuru y su comandante Beni-maru se encuentran con otro superviviente de los ogros llamado Hiiro, quien solía ser como un hermano para Beni-maru. Una nueva batalla épica comienza con profundos lazos de amistad en juego.",
+    "coverImage": "https://image.tmdb.org/t/p/original/v58Y9WzB5A795R9p4S6H4f728uI.jpg",
+    "genre": [
+      "Anime",
+      "Fantasía",
+      "Acción",
+      "Aventura"
+    ],
+    "video_url": "https://archive.org/download/tensei-shitara-slime-datta-ken-guren-no-kizuna-hen-that-time-i-got-reincarnated/Tensei%20shitara%20slime%20Datta%20ken%20Guren%20no%20kizuna-hen%20%28That%20time%20i%20got%20reincarnated%29.ia.mp4"
+  },
+    
+  
   {
     "title": "Marco, de los Apeninos a los Andes",
-    "year": 1976,
     "genre": ["Animación", "Drama", "Aventura"],
     "description": "La historia narra las aventuras de Marco, un niño que viaja desde Génova, Italia, hacia Argentina en busca de su madre durante la época de la gran emigración italiana.",
     "coverImage": "https://www.formulatv.com/images/series/posters/1000/1051/dest_1.jpg",
@@ -60,8 +73,8 @@
       { "episode": 51, "title": "El reencuentro final", "video_url": "https://archive.org/download/marco-serie-completa_202508/Marco%20Episodio%2051.mp4" },
       { "episode": 52, "title": "Un nuevo comienzo", "video_url": "https://archive.org/download/marco-serie-completa_202508/Marco%20Episodio%2052.mp4" }
     ]
-  }
-]
+  },
+  
   {
     "title": "Desearás al hombre de tu hermana",
     "description": "Lucía y Ofelia son dos hermanas que siempre han tenido una relación conflictiva. Durante la boda de Lucía, el deseo y la rivalidad afloran cuando Ofelia se siente atraída por el nuevo esposo de su hermana, desatando una red de pasiones prohibidas.",
