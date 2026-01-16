@@ -1,5 +1,18 @@
 [
-
+  {
+    "title": "Los Extraños: Capítulo 1",
+    "description": "Una joven pareja se ve obligada a pasar la noche en una remota cabaña de alquiler tras sufrir una avería en su coche. Su estancia se convierte en una lucha desesperada por la supervivencia cuando tres enmascarados psicópatas llaman a su puerta para aterrorizarlos sin motivo aparente.",
+    "year": 2024,
+    "studio": "Lionsgate",
+    "coverImage": "https://storage.googleapis.com/pod_public/750/266296.jpg",
+    "genre": [
+      "Terror",
+      "Suspenso",
+      "Slasher"
+    ],
+    "video_url": "https://pomf2.lain.la/f/1uxk4m3y.mp4"
+  },
+    
   {
     "title": "That Time I Got Reincarnated as a Slime: Scarlet Bond",
     "description": "En el país de Raja, al oeste de Tempest, se desarrolla una compleja conspiración en torno a una misteriosa mujer. Rimuru y su comandante Beni-maru se encuentran con otro superviviente de los ogros llamado Hiiro, quien solía ser como un hermano para Beni-maru. Una nueva batalla épica comienza con profundos lazos de amistad en juego.",
