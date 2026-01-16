@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Capítulos</title>
+    <style>
+        body { background: #000; color: #fff; font-family: sans-serif; overflow: hidden; margin: 0; }
+        .hero-bg { position: fixed; width: 100%; height: 100%; background-size: cover; background-position: center; opacity: 0.2; filter: blur(30px); z-index: -1; }
+        .container { height: 100vh; display: flex; flex-direction: column; justify-content: center; padding-left: 10%; }
+        
+        /* Contenedor fijo donde se detienen los caps */
+        .window { width: 100%; overflow: visible; display: flex; align-items: center; position: relative; height: 300px; }
+        .strip { display: flex; gap: 30px; transition: transform 0.5s cubic-bezier(0.18, 0.89, 0.32, 1.28); position: absolute; left: 0; }
+        
+        .ep-card { 
+            flex: 0 0 350px; height: 200px; background: #1a1a1a; border: 4px solid transparent; 
+            border-radius: 10px; position: relative; transition: 0.3s; opacity: 0.5;
+        }
+        .ep-card:focus { border-color: #fff; scale: 1.15; opacity: 1; outline: none; box-shadow: 0 0 30px rgba(0,0,0,0.8); }
+        
+        .info { position: absolute; bottom: 20px; left: 20px; }
+        .ep-num { font-size: 2rem; font-weight: 900; color: #e50914; }
+        .ep-title { font-size: 1.1rem; color: #fff; }
+    </style>
+</head>
+<body>
+    <div class="hero-bg" id="bg"></div>
+    <div class="container">
+        <h1 id="serie-t" style="margin-bottom: 50px; font-size: 3rem;"></h1>
+        <div class="window">
+            <div class="strip" id="strip"></div>
+        </div>
+    </div>
+
+<script>
+    const data = JSON.parse(localStorage.getItem("serie"));
+    if(!data) window.location.href="index.html";
+    
+    document.getElementById('serie-t').innerText = data.title;
+    document.getElementById('bg').style.backgroundImage = `url(${data.coverImage||data.img})`;
+    
+    const strip = document.getElementById('strip');
+
+    data.episodes.forEach((ep, i) => {
+        const c = document.createElement('div');
+        c.className = 'ep-card';
+        c.tabIndex = 0;
+        c.innerHTML = `<div class="info"><div class="ep-num">E${ep.episode}</div><div class="ep-title">${ep.title}</div></div>`;
+        
+        c.onfocus = () => {
+            // El truco del FOCO FIJO: Movemos el strip para que el card actual esté siempre en el 10% de la pantalla
+            strip.style.transform = `translateX(${-i * 380}px)`;
+        };
+        
+        c.onkeydown = (e) => {
+            if(e.key === 'ArrowRight') strip.children[i+1]?.focus();
+            if(e.key === 'ArrowLeft') i === 0 ? window.location.href="index.html" : strip.children[i-1]?.focus();
+            if(e.key === 'Enter') window.location.href = ep.video_url;
+            if(e.key === 'Backspace') window.location.href="index.html";
+        };
+        
+        strip.appendChild(c);
+    });
+
+    // Empezar en el primer capítulo
+    setTimeout(() => strip.children[0].focus(), 100);
+</script>
+</body>
+</html>
