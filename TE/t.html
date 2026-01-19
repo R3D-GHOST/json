@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ULTRA LIGHT PRO - RAM SAVER</title>
+    <style>
+        :root { --bg: #05070a; --accent: #e50914; }
+        * { box-sizing: border-box; margin: 0; outline: none; }
+        body { 
+            font-family: sans-serif; background: var(--bg); color: #fff; 
+            overflow: hidden; height: 100vh; margin: 0; 
+        }
+
+        /* Barra de navegación minimalista */
+        .top-nav {
+            height: 60px; display: flex; align-items: center; padding: 0 40px;
+            background: #000; border-bottom: 1px solid #222; gap: 20px;
+        }
+        .nav-item { 
+            padding: 8px 20px; border-radius: 4px; background: #111; 
+            border: 2px solid transparent; cursor: pointer; font-size: 0.9rem;
+        }
+        .nav-item:focus { border-color: #fff; background: var(--accent); }
+
+        /* Contenedor de la sección activa */
+        .viewport { padding-top: 30px; transition: transform 0.3s ease; }
+        
+        .row-container { 
+            margin-bottom: 40px; min-height: 300px;
+            opacity: 0; transition: opacity 0.5s; 
+        }
+        .row-container.loaded { opacity: 1; }
+        
+        .row-title { 
+            margin-left: 50px; font-size: 1.2rem; font-weight: bold; 
+            color: #aaa; margin-bottom: 15px; 
+        }
+
+        .strip { 
+            display: flex; gap: 20px; padding: 10px 50px;
+            transition: transform 0.4s cubic-bezier(0.2, 0, 0.2, 1);
+            will-change: transform;
+        }
+
+        .card { 
+            flex: 0 0 180px; aspect-ratio: 2/3; background: #111; 
+            border-radius: 6px; border: 4px solid transparent; 
+            overflow: hidden; position: relative;
+        }
+        .card:focus { border-color: #fff; transform: scale(1.1); z-index: 10; }
+        .card img { width: 100%; height: 100%; object-fit: cover; background: #1a1a1a; }
+        
+        .card-t { 
+            position: absolute; bottom: 0; width: 100%; 
+            background: rgba(0,0,0,0.85); font-size: 0.75rem; 
+            padding: 8px; text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<div class="top-nav">
+    <div class="nav-item" tabIndex="0" id="btn-search">🔍 BUSCAR</div>
+    <div style="font-weight: 900; color: var(--accent);">ULTRA PRO</div>
+</div>
+
+<div class="viewport" id="viewport">
+    <div class="row-container" id="row-0"><div class="row-title">CANALES TV</div><div class="strip"></div></div>
+    <div class="row-container" id="row-1"><div class="row-title">PELÍCULAS</div><div class="strip"></div></div>
+    <div class="row-container" id="row-2"><div class="row-title">SERIES</div><div class="strip"></div></div>
+</div>
+
+<script>
+    const M3U = "https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/CV.m3u8";
+    const JS = "https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/data.json";
+
+    let db = { 0: [], 1: [], 2: [] };
+    let curR = 0, curC = 0;
+
+    async function init() {
+        try {
+            const [r1, r2] = await Promise.all([
+                fetch(M3U).then(r => r.text()),
+                fetch(JS).then(r => r.json())
+            ]);
+
+            // Parseo básico
+            r1.split('\n').forEach((l, i, a) => {
+                if(l.includes('#EXTINF')) db[0].push({ t: l.split(',')[1] || "Canal", img: l.match(/tvg-logo="([^"]+)"/)?.[1] || "", url: a[i+1]?.trim() });
+            });
+            r2.forEach(item => {
+                const o = { t: item.title, img: item.coverImage || item.img, url: item.video_url, raw: item };
+                item.episodes ? db[2].push(o) : db[1].push(o);
+            });
+
+            // Arrancar cargando solo la primera fila
+            loadSection(0);
+        } catch (e) { console.error("Error de carga"); }
+    }
+
+    function loadSection(rIdx) {
+        // --- PURGA DE RAM ---
+        // Borramos el contenido de las filas que NO estamos viendo
+        [0, 1, 2].forEach(i => {
+            const row = document.getElementById(`row-${i}`);
+            const strip = row.querySelector('.strip');
+            if (i !== rIdx) {
+                strip.innerHTML = ""; // Vacia el DOM por completo
+                row.classList.remove('loaded');
+            }
+        });
+
+        const activeRow = document.getElementById(`row-${rIdx}`);
+        activeRow.classList.add('loaded');
+        curC = 0;
+        
+        // Carga inicial de 2 en 2 (para no saturar la CPU)
+        renderBatch(rIdx, 0, 2); 
+        
+        // Foco inicial
+        setTimeout(() => {
+            const firstCard = activeRow.querySelector('.card');
+            if (firstCard) firstCard.focus();
+        }, 100);
+    }
+
+    function renderBatch(rIdx, start, count) {
+        const strip = document.querySelector(`#row-${rIdx} .strip`);
+        const items = db[rIdx].slice(start, start + count);
+
+        items.forEach((item, i) => {
+            const card = document.createElement('div');
+            card.className = 'card';
+            card.tabIndex = 0;
+            card.innerHTML = `<img src="${item.img}"><div class="card-t">${item.t}</div>`;
+            
+            card.onfocus = () => {
+                curC = start + i;
+                curR = rIdx;
+                // Movimiento horizontal
+                strip.style.transform = `translateX(${-curC * 200}px)`;
+                // Movimiento vertical de la vista
+                document.getElementById('viewport').style.transform = `translateY(${-curR * 320}px)`;
+                
+                // Si llegamos al final de lo cargado, cargamos los SIGUIENTES 2
+                if (curC === strip.children.length - 1 && strip.children.length < db[rIdx].length) {
+                    renderBatch(rIdx, strip.children.length, 2);
+                }
+            };
+
+            card.onkeydown = (e) => {
+                if (e.key === 'ArrowRight') strip.children[curC + 1]?.focus();
+                if (e.key === 'ArrowLeft') strip.children[curC - 1]?.focus();
+                if (e.key === 'ArrowDown' && rIdx < 2) loadSection(rIdx + 1);
+                if (e.key === 'ArrowUp') {
+                    if (rIdx > 0) loadSection(rIdx - 1);
+                    else document.getElementById('btn-search').focus();
+                }
+                if (e.key === 'Enter') {
+                    if (item.raw && item.raw.episodes) {
+                        localStorage.setItem("serie", JSON.stringify(item.raw));
+                        window.location.href = "caps.html";
+                    } else {
+                        window.location.href = item.url;
+                    }
+                }
+            };
+            strip.appendChild(card);
+        });
+    }
+
+    // Botón búsqueda
+    document.getElementById('btn-search').onkeydown = (e) => {
+        if (e.key === 'ArrowDown') loadSection(0);
+        if (e.key === 'Enter') window.location.href = "search.html";
+    };
+
+    init();
+</script>
+</body>
+</html>
