@@ -3,72 +3,123 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ULTRA LIGHT PRO - RAM SAVER</title>
+    <title>ULTRA LIGHT PRO - ELECTRIC EDITION</title>
     <style>
-        :root { --bg: #05070a; --accent: #e50914; }
+        :root { 
+            --bg: #020308; 
+            --accent: #7d00ff; 
+            --electric-blue: #00d4ff;
+            --electric-purple: #9b30ff;
+            --glass: rgba(255, 255, 255, 0.1);
+        }
+
         * { box-sizing: border-box; margin: 0; outline: none; }
+        
         body { 
-            font-family: sans-serif; background: var(--bg); color: #fff; 
-            overflow: hidden; height: 100vh; margin: 0; 
+            font-family: 'Segoe UI', Roboto, sans-serif; 
+            background: var(--bg); 
+            color: #fff; 
+            overflow: hidden; 
+            height: 100vh; 
+            margin: 0; 
         }
 
-        /* Barra de navegación minimalista */
-        .top-nav {
-            height: 60px; display: flex; align-items: center; padding: 0 40px;
-            background: #000; border-bottom: 1px solid #222; gap: 20px;
+        /* HEADER ELÉCTRICO */
+        .header-hero {
+            height: 220px;
+            width: 100%;
+            background: linear-gradient(135deg, #050a1f 0%, #1a0b2e 100%);
+            display: flex;
+            align-items: center;
+            padding: 0 50px;
+            border-bottom: 2px solid var(--electric-blue);
+            box-shadow: 0 0 20px rgba(0, 212, 255, 0.3);
+            position: relative;
+            overflow: hidden;
         }
-        .nav-item { 
-            padding: 8px 20px; border-radius: 4px; background: #111; 
-            border: 2px solid transparent; cursor: pointer; font-size: 0.9rem;
-        }
-        .nav-item:focus { border-color: #fff; background: var(--accent); }
 
-        /* Contenedor de la sección activa */
-        .viewport { padding-top: 30px; transition: transform 0.3s ease; }
+        .header-hero::after {
+            content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+            background: radial-gradient(circle at 80%, var(--electric-purple) -50%, transparent 60%);
+            opacity: 0.4;
+        }
+
+        .event-info { z-index: 2; max-width: 600px; }
+        .event-label { 
+            background: var(--electric-blue); color: #000; 
+            padding: 4px 12px; font-weight: 900; font-size: 0.7rem; 
+            border-radius: 3px; letter-spacing: 1px;
+        }
+        .event-title { font-size: 2.5rem; font-weight: 900; margin: 10px 0; text-transform: uppercase; text-shadow: 0 0 10px var(--electric-blue); }
+        .event-status { color: #00ff88; font-size: 0.9rem; font-weight: bold; }
+
+        /* VIEWPORT Y NAVEGACIÓN */
+        .viewport { 
+            padding-top: 20px; 
+            transition: transform 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+            height: calc(100vh - 220px);
+        }
         
         .row-container { 
-            margin-bottom: 40px; min-height: 300px;
-            opacity: 0; transition: opacity 0.5s; 
+            margin-bottom: 20px; 
+            opacity: 0.4; 
+            transition: opacity 0.3s; 
         }
-        .row-container.loaded { opacity: 1; }
+        .row-container.active { opacity: 1; }
         
         .row-title { 
-            margin-left: 50px; font-size: 1.2rem; font-weight: bold; 
-            color: #aaa; margin-bottom: 15px; 
+            margin-left: 50px; font-size: 1rem; font-weight: bold; 
+            color: var(--electric-blue); margin-bottom: 10px; 
+            text-transform: uppercase; letter-spacing: 2px;
         }
 
         .strip { 
-            display: flex; gap: 20px; padding: 10px 50px;
+            display: flex; gap: 15px; padding: 10px 50px;
             transition: transform 0.4s cubic-bezier(0.2, 0, 0.2, 1);
-            will-change: transform;
         }
 
         .card { 
-            flex: 0 0 180px; aspect-ratio: 2/3; background: #111; 
-            border-radius: 6px; border: 4px solid transparent; 
+            flex: 0 0 160px; aspect-ratio: 2/3; 
+            background: #0a0a15; 
+            border-radius: 8px; border: 2px solid #222; 
             overflow: hidden; position: relative;
+            transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
         }
-        .card:focus { border-color: #fff; transform: scale(1.1); z-index: 10; }
-        .card img { width: 100%; height: 100%; object-fit: cover; background: #1a1a1a; }
+
+        .card:focus { 
+            border-color: var(--electric-blue); 
+            transform: scale(1.15); 
+            z-index: 10; 
+            box-shadow: 0 0 25px var(--electric-purple);
+        }
+
+        .card img { width: 100%; height: 100%; object-fit: cover; }
         
         .card-t { 
             position: absolute; bottom: 0; width: 100%; 
-            background: rgba(0,0,0,0.85); font-size: 0.75rem; 
-            padding: 8px; text-align: center;
+            background: linear-gradient(transparent, #000); 
+            font-size: 0.7rem; padding: 15px 5px 5px; text-align: center;
         }
+
+        /* Animación de carga */
+        .loading { border-bottom: 2px solid var(--electric-blue); animation: scan 2s infinite; }
+        @keyframes scan { 0% { width: 0%; } 100% { width: 100%; } }
     </style>
 </head>
 <body>
 
-<div class="top-nav">
-    <div class="nav-item" tabIndex="0" id="btn-search">🔍 BUSCAR</div>
-    <div style="font-weight: 900; color: var(--accent);">ULTRA PRO</div>
+<div class="header-hero" id="header-hero">
+    <div class="event-info">
+        <span class="event-label">EN DIRECTO</span>
+        <div class="event-title" id="hero-name">CARGANDO...</div>
+        <div class="event-status" id="hero-status">Sincronizando señal eléctrica...</div>
+    </div>
 </div>
 
 <div class="viewport" id="viewport">
-    <div class="row-container" id="row-0"><div class="row-title">CANALES TV</div><div class="strip"></div></div>
-    <div class="row-container" id="row-1"><div class="row-title">PELÍCULAS</div><div class="strip"></div></div>
-    <div class="row-container" id="row-2"><div class="row-title">SERIES</div><div class="strip"></div></div>
+    <div class="row-container active" id="row-0"><div class="row-title">Canales</div><div class="strip"></div></div>
+    <div class="row-container" id="row-1"><div class="row-title">Películas</div><div class="strip"></div></div>
+    <div class="row-container" id="row-2"><div class="row-title">Series</div><div class="strip"></div></div>
 </div>
 
 <script>
@@ -77,6 +128,7 @@
 
     let db = { 0: [], 1: [], 2: [] };
     let curR = 0, curC = 0;
+    let eventLink = "";
 
     async function init() {
         try {
@@ -85,77 +137,93 @@
                 fetch(JS).then(r => r.json())
             ]);
 
-            // Parseo básico
-            r1.split('\n').forEach((l, i, a) => {
-                if(l.includes('#EXTINF')) db[0].push({ t: l.split(',')[1] || "Canal", img: l.match(/tvg-logo="([^"]+)"/)?.[1] || "", url: a[i+1]?.trim() });
+            // Parseo M3U
+            const lines = r1.split('\n');
+            lines.forEach((l, i) => {
+                if(l.includes('#EXTINF')) {
+                    const info = {
+                        t: l.split(',')[1] || "Canal TV",
+                        img: l.match(/tvg-logo="([^"]+)"/)?.[1] || "",
+                        url: lines[i+1]?.trim()
+                    };
+                    db[0].push(info);
+                }
             });
+
+            // Parseo JSON
             r2.forEach(item => {
                 const o = { t: item.title, img: item.coverImage || item.img, url: item.video_url, raw: item };
                 item.episodes ? db[2].push(o) : db[1].push(o);
             });
 
-            // Arrancar cargando solo la primera fila
-            loadSection(0);
-        } catch (e) { console.error("Error de carga"); }
+            setupHero();
+            renderRow(0);
+            renderRow(1);
+            renderRow(2);
+
+            // Foco inicial
+            setTimeout(() => document.querySelector('.card').focus(), 500);
+
+        } catch (e) { 
+            document.getElementById('hero-name').innerText = "ERROR DE CARGA";
+        }
     }
 
-    function loadSection(rIdx) {
-        // --- PURGA DE RAM ---
-        // Borramos el contenido de las filas que NO estamos viendo
-        [0, 1, 2].forEach(i => {
-            const row = document.getElementById(`row-${i}`);
-            const strip = row.querySelector('.strip');
-            if (i !== rIdx) {
-                strip.innerHTML = ""; // Vacia el DOM por completo
-                row.classList.remove('loaded');
-            }
-        });
+    function setupHero() {
+        // Buscar canal de EVENTOS
+        const eventChannel = db[0].find(c => c.t.toUpperCase().includes("EVENTOS"));
+        const fallbackChannel = db[0][0]; // Primer canal si no hay eventos
 
-        const activeRow = document.getElementById(`row-${rIdx}`);
-        activeRow.classList.add('loaded');
-        curC = 0;
+        const selected = (eventChannel && eventChannel.url) ? eventChannel : fallbackChannel;
         
-        // Carga inicial de 2 en 2 (para no saturar la CPU)
-        renderBatch(rIdx, 0, 2); 
-        
-        // Foco inicial
-        setTimeout(() => {
-            const firstCard = activeRow.querySelector('.card');
-            if (firstCard) firstCard.focus();
-        }, 100);
+        if(selected) {
+            document.getElementById('hero-name').innerText = selected.t;
+            document.getElementById('hero-status').innerText = "SEÑAL OPTIMIZADA - " + (selected.t.includes("EVENTOS") ? "PRIORIDAD ALTA" : "MODO BACKUP");
+            eventLink = selected.url;
+
+            // Al hacer click en el header (o Enter si tuviera foco)
+            document.getElementById('header-hero').onclick = () => window.location.href = eventLink;
+        }
     }
 
-    function renderBatch(rIdx, start, count) {
+    function renderRow(rIdx) {
         const strip = document.querySelector(`#row-${rIdx} .strip`);
-        const items = db[rIdx].slice(start, start + count);
-
-        items.forEach((item, i) => {
+        db[rIdx].forEach((item, i) => {
             const card = document.createElement('div');
             card.className = 'card';
             card.tabIndex = 0;
-            card.innerHTML = `<img src="${item.img}"><div class="card-t">${item.t}</div>`;
+            card.innerHTML = `<img src="${item.img}" loading="lazy"><div class="card-t">${item.t}</div>`;
             
             card.onfocus = () => {
-                curC = start + i;
+                curC = i;
                 curR = rIdx;
-                // Movimiento horizontal
-                strip.style.transform = `translateX(${-curC * 200}px)`;
-                // Movimiento vertical de la vista
-                document.getElementById('viewport').style.transform = `translateY(${-curR * 320}px)`;
                 
-                // Si llegamos al final de lo cargado, cargamos los SIGUIENTES 2
-                if (curC === strip.children.length - 1 && strip.children.length < db[rIdx].length) {
-                    renderBatch(rIdx, strip.children.length, 2);
-                }
+                // Movimiento Automático Horizontal
+                const moveX = -(curC * 175); // 160 width + 15 gap
+                strip.style.transform = `translateX(${moveX}px)`;
+
+                // Movimiento Automático Vertical
+                const viewport = document.getElementById('viewport');
+                const moveY = -(curR * 280); // Alto de fila aproximado
+                viewport.style.transform = `translateY(${moveY}px)`;
+
+                // Actualizar Opacidad de filas
+                document.querySelectorAll('.row-container').forEach((r, idx) => {
+                    r.classList.toggle('active', idx === curR);
+                });
             };
 
             card.onkeydown = (e) => {
-                if (e.key === 'ArrowRight') strip.children[curC + 1]?.focus();
-                if (e.key === 'ArrowLeft') strip.children[curC - 1]?.focus();
-                if (e.key === 'ArrowDown' && rIdx < 2) loadSection(rIdx + 1);
+                if (e.key === 'ArrowRight') strip.children[i + 1]?.focus();
+                if (e.key === 'ArrowLeft') strip.children[i - 1]?.focus();
+                if (e.key === 'ArrowDown') {
+                    const nextRow = document.querySelector(`#row-${rIdx + 1} .strip`);
+                    if(nextRow) nextRow.children[0]?.focus();
+                }
                 if (e.key === 'ArrowUp') {
-                    if (rIdx > 0) loadSection(rIdx - 1);
-                    else document.getElementById('btn-search').focus();
+                    const prevRow = document.querySelector(`#row-${rIdx - 1} .strip`);
+                    if(prevRow) prevRow.children[0]?.focus();
+                    else window.scrollTo(0,0);
                 }
                 if (e.key === 'Enter') {
                     if (item.raw && item.raw.episodes) {
@@ -169,12 +237,6 @@
             strip.appendChild(card);
         });
     }
-
-    // Botón búsqueda
-    document.getElementById('btn-search').onkeydown = (e) => {
-        if (e.key === 'ArrowDown') loadSection(0);
-        if (e.key === 'Enter') window.location.href = "search.html";
-    };
 
     init();
 </script>
