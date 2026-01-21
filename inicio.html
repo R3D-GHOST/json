@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>PrimeBox+ Premium</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+        *{ box-sizing:border-box; margin:0; padding:0; -webkit-tap-highlight-color: transparent; }
+        :root{ 
+            --bg: #0f171e; --bg-card: #1a242f; --accent: #00a8e1; --text: #ffffff; 
+            --muted: #aeb4c6; --yt-red: #ff0000; --check: #2ecc71;
+        } 
+        body, html{ font-family: 'Segoe UI', Roboto, sans-serif; background: var(--bg); color: var(--text); height: 100%; overflow: hidden; }
+
+        main { height: 100vh; width: 100vw; overflow-y: auto; padding-bottom: 90px; scroll-behavior: smooth; }
+        .view { display: none; }
+        .view.active { display: block; }
+
+        /* HEADER PREMIUM DINÁMICO */
+        #heroBanner { position: relative; width: 100%; height: 380px; overflow: hidden; background: #000; display: block; }
+        #heroBanner img { width: 100%; height: 100%; object-fit: cover; opacity: 0.7; transition: 0.5s; }
+        .hero-overlay { position: absolute; inset: 0; background: linear-gradient(0deg, var(--bg) 2%, transparent 80%); padding: 25px; display: flex; flex-direction: column; justify-content: flex-end; }
+        .hero-overlay h1 { font-size: 1.8rem; margin-bottom: 10px; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); }
+        .badge { padding: 4px 10px; border-radius: 4px; font-weight: bold; font-size: 0.75rem; width: fit-content; margin-bottom: 10px; text-transform: uppercase; }
+
+        /* SECCIONES */
+        .section-title { padding: 20px 15px 5px; font-size: 1.1rem; color: var(--text); font-weight: bold; }
+        .h-scroll { display: flex; overflow-x: auto; gap: 12px; padding: 10px 15px 20px; }
+        .h-scroll::-webkit-scrollbar { display: none; }
+        
+        .card { background: var(--bg-card); border-radius: 4px; overflow: hidden; position: relative; flex: 0 0 130px; }
+        .card img { width: 100%; aspect-ratio: 2/3; object-fit: cover; display: block; }
+        .card-info { padding: 8px; font-size: 0.75rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+        /* CAPS STYLE */
+        .ep-card { display: flex; background: var(--bg-card); border-radius: 8px; margin-bottom: 12px; overflow: hidden; text-decoration: none; color: white; border: 1px solid #252e39; }
+        .ep-thumb { width: 120px; height: 68px; position: relative; flex-shrink: 0; }
+        .ep-thumb img { width: 100%; height: 100%; object-fit: cover; }
+        .ep-progress { position: absolute; bottom: 0; left: 0; height: 3px; background: var(--yt-red); width: 0%; transition: 0.3s; }
+        .ep-info { padding: 10px; flex: 1; display: flex; align-items: center; justify-content: space-between; }
+        .tick-icon { color: var(--check); display: none; font-size: 1.1rem; }
+        
+        .is-watched .ep-progress { width: 100%; }
+        .is-watched .tick-icon { display: block; }
+        .is-watched img { opacity: 0.4; }
+
+        /* NAV */
+        nav { position: fixed; bottom: 0; width: 100%; height: 75px; background: #000; display: flex; border-top: 1px solid #222; z-index: 1000; }
+        .nav-item { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; color: var(--muted); font-size: 0.65rem; }
+        .nav-item.active { color: var(--accent); }
+        .nav-item i { font-size: 1.3rem; margin-bottom: 4px; }
+
+        /* DETAIL */
+        #detailView { position: fixed; inset: 0; background: var(--bg); z-index: 2000; display: none; overflow-y: auto; }
+        .btn-action { background: var(--accent); color: white; display: flex; align-items: center; justify-content: center; padding: 15px; border-radius: 6px; text-decoration: none; font-weight: bold; margin-bottom: 15px; width: 100%; border: none; font-size: 1.1rem; }
+        .btn-fav { position: absolute; top: 20px; right: 20px; background: rgba(0,0,0,0.6); color: white; border: none; width: 45px; height: 45px; border-radius: 50%; z-index: 10; font-size: 1.2rem; }
+        .btn-fav.active { color: #ff4757; }
+
+        .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; padding: 15px; }
+    </style>
+</head>
+<body>
+
+    <main id="mainScroll">
+        <div id="homeView" class="view active">
+            <div id="heroBanner"></div>
+            <div id="homeSections"></div>
+        </div>
+        
+        <div id="gridView" class="view">
+            <h2 id="gridTitle" class="section-title"></h2>
+            <div id="dynamicGrid" class="grid"></div>
+        </div>
+
+        <div id="favView" class="view">
+            <h2 class="section-title">Mis Favoritos</h2>
+            <div id="favGrid" class="grid"></div>
+        </div>
+
+        <div id="searchView" class="view">
+            <div style="padding:15px; position:sticky; top:0; background:var(--bg); z-index:100;">
+                <input type="text" id="searchInput" placeholder="Buscar películas, series o canales..." style="width:100%; padding:14px; border-radius:8px; border:none; background:var(--bg-card); color:white; outline:none; font-size:1rem;">
+            </div>
+            <div id="searchGrid" class="grid"></div>
+        </div>
+    </main>
+
+    <div id="detailView">
+        <button onclick="closeDetail()" style="position:absolute; top:20px; left:20px; z-index:10; background:rgba(0,0,0,0.7); border:none; color:white; width:40px; height:40px; border-radius:50%;"><i class="fas fa-arrow-left"></i></button>
+        <button id="favBtn" class="btn-fav" onclick="toggleFav()"><i class="fas fa-heart"></i></button>
+        <div style="width:100%; height:320px; position:relative;">
+            <img id="detImg" style="width:100%; height:100%; object-fit:cover;">
+            <div style="position:absolute; inset:0; background:linear-gradient(0deg, var(--bg) 10%, transparent);"></div>
+        </div>
+        <div style="padding:20px;">
+            <h2 id="detTitle" style="font-size:1.8rem;"></h2>
+            <p id="detDesc" style="color:var(--muted); font-size:0.95rem; margin:10px 0 25px; line-height:1.5;"></p>
+            <div id="mainAction"></div>
+            <div id="epList"></div>
+        </div>
+    </div>
+
+    <nav>
+        <div class="nav-item active" onclick="switchTab('home')"><i class="fas fa-home"></i><span>Inicio</span></div>
+        <div class="nav-item" onclick="switchTab('series')"><i class="fas fa-tv"></i><span>Series</span></div>
+        <div class="nav-item" onclick="switchTab('movies')"><i class="fas fa-film"></i><span>Películas</span></div>
+        <div class="nav-item" onclick="switchTab('favs')"><i class="fas fa-heart"></i><span>Favoritos</span></div>
+        <div class="nav-item" onclick="switchTab('channels')"><i class="fas fa-broadcast-tower"></i><span>En Vivo</span></div>
+        <div class="nav-item" onclick="switchTab('search')"><i class="fas fa-search"></i><span>Buscar</span></div>
+    </nav>
+
+    <script>
+        const DATA_JSON = "https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/data.json";
+        const M3U_URL = "https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/CV.m3u8";
+        
+        let db = { all: [], series: [], movies: [], channels: [] };
+        let favs = JSON.parse(localStorage.getItem('pb_vfinal_favs') || '[]');
+        let watched = JSON.parse(localStorage.getItem('pb_vfinal_watched') || '{}');
+        let currentFilter = [], page = 0, activeTab = 'home', currentItem = null;
+
+        async function init() {
+            try {
+                const [r1, r2] = await Promise.all([
+                    fetch(DATA_JSON).then(r=>r.json()), 
+                    fetch(M3U_URL).then(r=>r.text())
+                ]);
+                db.series = r1.filter(i => i.episodes);
+                db.movies = r1.filter(i => !i.episodes);
+                db.channels = parseM3U(r2).filter(c => c.url && c.url.trim().startsWith('http'));
+                db.all = [...db.series, ...db.movies, ...db.channels];
+                
+                renderHero();
+                renderHome();
+                setupScroll();
+            } catch(e) { console.error("Error cargando app"); }
+        }
+
+        function parseM3U(text) {
+            const lines = text.split('\n');
+            let res = [], cur = null;
+            lines.forEach(l => {
+                if(l.includes('#EXTINF')) {
+                    const isEvent = l.toLowerCase().includes('group-title="evento"');
+                    cur = { title: l.split(',')[1]?.trim(), img: l.match(/tvg-logo="([^"]*)"/)?.[1], isChannel: true, isEvent: isEvent };
+                } else if(l.startsWith('http') && cur) { 
+                    cur.url = l.trim(); res.push(cur); cur = null; 
+                }
+            });
+            return res;
+        }
+
+        function renderHero() {
+            const h = document.getElementById('heroBanner');
+            const eventItem = db.channels.find(c => c.isEvent);
+            
+            if(eventItem) {
+                h.innerHTML = `
+                    <img src="${eventItem.img || 'https://via.placeholder.com/800x450?text=Evento+en+Vivo'}">
+                    <div class="hero-overlay">
+                        <div class="badge" style="background:var(--yt-red);">EN VIVO AHORA</div>
+                        <h1>${eventItem.title}</h1>
+                        <a href="${eventItem.url}" class="btn-action" style="width:fit-content; padding: 12px 30px;">VER EVENTO</a>
+                    </div>`;
+            } else {
+                const randomItem = db.all.filter(i => !i.isChannel)[Math.floor(Math.random() * (db.all.length - db.channels.length))];
+                if(randomItem) {
+                    h.innerHTML = `
+                        <img src="${randomItem.img || randomItem.coverImage}">
+                        <div class="hero-overlay">
+                            <div class="badge" style="background:var(--accent);">DESTACADO HOY</div>
+                            <h1>${randomItem.title}</h1>
+                            <button onclick='openDetail(${JSON.stringify(randomItem).replace(/'/g, "'")})' class="btn-action" style="width:fit-content; padding: 12px 30px;">VER DETALLES</button>
+                        </div>`;
+                }
+            }
+        }
+
+        function renderHome() {
+            const container = document.getElementById('homeSections');
+            container.innerHTML = '';
+            const sections = [
+                { t: "Mis Favoritos", d: db.all.filter(i => favs.includes(i.title)) },
+                { t: "Series Premium", d: db.series },
+                { t: "Películas de Estreno", d: db.movies },
+                { t: "Canales en Vivo", d: db.channels }
+            ];
+            sections.forEach(s => {
+                if(s.d.length > 0) {
+                    const wrap = document.createElement('div');
+                    wrap.innerHTML = `<h2 class="section-title">${s.t}</h2><div class="h-scroll"></div>`;
+                    s.d.slice(0, 15).forEach(item => wrap.querySelector('.h-scroll').appendChild(createCard(item)));
+                    container.appendChild(wrap);
+                }
+            });
+        }
+
+        function createCard(item) {
+            const div = document.createElement('div');
+            div.className = 'card';
+            div.innerHTML = `<img src="${item.img || item.coverImage}" loading="lazy"><div class="card-info">${item.title}</div>`;
+            div.onclick = () => openDetail(item);
+            return div;
+        }
+
+        function switchTab(tab) {
+            activeTab = tab; page = 0;
+            document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
+            document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
+            event.currentTarget.classList.add('active');
+            
+            if(tab === 'home') {
+                document.getElementById('homeView').classList.add('active');
+                renderHome();
+            } else if(tab === 'search') {
+                document.getElementById('searchView').classList.add('active');
+            } else if(tab === 'favs') {
+                document.getElementById('favView').classList.add('active');
+                renderFavsGrid();
+            } else {
+                document.getElementById('gridView').classList.add('active');
+                document.getElementById('gridTitle').textContent = tab.toUpperCase();
+                document.getElementById('dynamicGrid').innerHTML = '';
+                currentFilter = db[tab];
+                loadMore();
+            }
+        }
+
+        function renderFavsGrid() {
+            const grid = document.getElementById('favGrid');
+            grid.innerHTML = '';
+            const myFavs = db.all.filter(i => favs.includes(i.title));
+            if(myFavs.length === 0) {
+                grid.innerHTML = '<p style="padding:20px; color:var(--muted);">No tienes favoritos aún.</p>';
+            } else {
+                myFavs.forEach(item => grid.appendChild(createCard(item)));
+            }
+        }
+
+        function loadMore() {
+            const grid = activeTab === 'search' ? document.getElementById('searchGrid') : document.getElementById('dynamicGrid');
+            const chunk = currentFilter.slice(page * 30, (page + 1) * 30);
+            chunk.forEach(item => grid.appendChild(createCard(item)));
+            page++;
+        }
+
+        function openDetail(item) {
+            if(typeof item === 'string') item = JSON.parse(item);
+            currentItem = item;
+            document.getElementById('detTitle').textContent = item.title;
+            document.getElementById('detImg').src = item.img || item.coverImage;
+            document.getElementById('detDesc').textContent = item.description || "Disfruta de este contenido premium con la mejor calidad de audio y video en PrimeBox+.";
+            document.getElementById('favBtn').classList.toggle('active', favs.includes(item.title));
+            renderEpisodes();
+            document.getElementById('detailView').style.display = 'block';
+        }
+
+        function renderEpisodes() {
+            const actionArea = document.getElementById('mainAction');
+            const epArea = document.getElementById('epList');
+            actionArea.innerHTML = ''; epArea.innerHTML = '';
+            if(currentItem.episodes) {
+                const nextIdx = currentItem.episodes.findIndex((_, i) => !watched[`${currentItem.title}_${i}`]);
+                const playIdx = nextIdx === -1 ? 0 : nextIdx;
+                actionArea.innerHTML = `<a href="${currentItem.episodes[playIdx].video_url}" onclick="setWatched(${playIdx}); renderEpisodes();" class="btn-action"><i class="fas fa-play"></i>   CONTINUAR CAP ${playIdx + 1}</a>`;
+                currentItem.episodes.forEach((ep, i) => {
+                    const id = `${currentItem.title}_${i}`;
+                    const div = document.createElement('a');
+                    div.className = `ep-card ${watched[id] ? 'is-watched' : ''}`;
+                    div.href = ep.video_url;
+                    div.onclick = (e) => { setWatched(i); renderEpisodes(); };
+                    div.innerHTML = `
+                        <div class="ep-thumb"><img src="${currentItem.img || currentItem.coverImage}"><div class="ep-progress"></div></div>
+                        <div class="ep-info"><h4>Episodio ${i+1}</h4><i class="fas fa-check-circle tick-icon"></i></div>`;
+                    epArea.appendChild(div);
+                });
+            } else {
+                actionArea.innerHTML = `<a href="${currentItem.url || currentItem.video_url}" class="btn-action"><i class="fas fa-play"></i>   REPRODUCIR AHORA</a>`;
+            }
+        }
+
+        function setWatched(idx) {
+            watched[`${currentItem.title}_${idx}`] = true;
+            localStorage.setItem('pb_vfinal_watched', JSON.stringify(watched));
+        }
+
+        function toggleFav() {
+            const name = currentItem.title;
+            if(favs.includes(name)) favs = favs.filter(n => n !== name);
+            else favs.push(name);
+            localStorage.setItem('pb_vfinal_favs', JSON.stringify(favs));
+            document.getElementById('favBtn').classList.toggle('active');
+            if(activeTab === 'favs') renderFavsGrid();
+            renderHome();
+        }
+
+        function setupScroll() {
+            document.getElementById('mainScroll').onscroll = (e) => {
+                const el = e.target;
+                if(activeTab !== 'home' && activeTab !== 'favs' && el.scrollTop + el.clientHeight >= el.scrollHeight - 300) {
+                    if(currentFilter.length > page * 30) loadMore();
+                }
+            };
+        }
+
+        document.getElementById('searchInput').oninput = (e) => {
+            const q = e.target.value.toLowerCase();
+            const grid = document.getElementById('searchGrid');
+            grid.innerHTML = '';
+            if(q.length < 2) return;
+            currentFilter = db.all.filter(i => i.title.toLowerCase().includes(q));
+            page = 0;
+            loadMore();
+        };
+
+        function closeDetail() { document.getElementById('detailView').style.display = 'none'; }
+        
+        init();
+    </script>
+</body>
+</html>
