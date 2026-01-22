@@ -1,7 +1,7 @@
 
 
 
-#EXTINF:-1 tvg-logo="" group-title="Evento", UEFA Europa League
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFY_NHY3uVwMEf2_XITM0hVGL78qcactmEZQ&s" group-title="Evento", UEFA Europa League
 http://178.134.1.158:8081/eurosport/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Bein_Sport_en_espa%C3%B1ol_logo.svg/250px-Bein_Sport_en_espa%C3%B1ol_logo.svg.png" group-title="Deportes", BeIN Sports Xtra Ñ
