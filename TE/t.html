@@ -1,251 +1,182 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>ULTRA LIGHT GÉNEROS</title>
+    <title>ULTRA SPEED TV</title>
     <style>
-        :root {
-            --bg: #000;
-            --accent: #00d4ff;
-            --card-w: 230px;
-            --card-h: 130px;
-        }
-
+        :root { --accent: #00d4ff; --card-w: 240px; }
+        
         * { box-sizing: border-box; margin: 0; padding: 0; outline: none; }
 
         body {
-            background: var(--bg);
-            color: #fff;
-            font-family: 'Segoe UI', sans-serif;
-            overflow: hidden;
+            background-color: #000;
+            background-size: cover;
+            background-position: center;
             height: 100vh;
+            width: 100vw;
+            color: #fff;
+            font-family: system-ui, -apple-system, sans-serif;
+            overflow: hidden;
+            transition: background-image 0.5s ease; /* Efecto difuminado en el body */
         }
 
-        /* Hero minimalista sin fondo */
+        /* Capa de difuminado sobre el body para no afectar rendimiento de elementos */
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            backdrop-filter: blur(40px);
+            -webkit-backdrop-filter: blur(40px);
+            z-index: -1;
+        }
+
         .hero {
-            height: 35vh;
-            padding: 40px 8%;
+            height: 50vh;
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
+            padding: 0 10% 40px;
         }
 
-        .hero-group { color: var(--accent); font-size: 0.9rem; font-weight: bold; text-transform: uppercase; }
-        .hero-title { font-size: 2.8rem; font-weight: 900; margin-top: 5px; }
-
-        /* Contenedor de géneros */
-        .genre-bar {
-            padding: 0 8%;
-            height: 40px;
-            display: flex;
-            gap: 15px;
-            overflow: hidden;
-            font-size: 0.8rem;
-            opacity: 0.6;
+        .h-title { 
+            font-size: 3.5rem; 
+            font-weight: 900; 
+            text-transform: uppercase; 
+            text-shadow: 0 5px 15px rgba(0,0,0,0.5);
         }
 
-        /* Viewport */
         .viewport {
-            height: 55vh;
+            height: 50vh;
             display: flex;
             justify-content: center;
-            align-items: center;
+            align-items: flex-start;
         }
 
         .grid {
             display: flex;
-            gap: 20px;
-            transform: translate3d(0,0,0);
+            gap: 30px;
+            will-change: transform;
         }
 
-        /* Card con animación de entrada */
         .card {
             width: var(--card-w);
-            height: var(--card-h);
-            background: #080808;
-            border-radius: 100px; /* Estilo píldora/círculo */
-            border: 2px solid #1a1a1a;
-            position: relative;
+            height: 140px;
+            background: rgba(255,255,255,0.05);
+            border-radius: 25px;
+            border: 2px solid rgba(255,255,255,0.1);
             display: flex;
             align-items: center;
             justify-content: center;
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-            opacity: 0; /* Invisible hasta que cargue */
-            transform: scale(0.8);
+            transition: all 0.2s cubic-bezier(0.2, 0, 0.2, 1);
+            opacity: 0;
+            transform: translateY(20px);
         }
 
-        .card.ready {
-            opacity: 1;
-            transform: scale(1);
-        }
+        .card.ready { opacity: 1; transform: translateY(0); }
 
         .card:focus {
-            transform: scale(1.1);
+            transform: scale(1.15);
             border-color: var(--accent);
-            background: #111;
+            background: rgba(255,255,255,0.15);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.5);
         }
 
-        /* Fondo difuminado dentro de la card */
-        .card-blur {
-            position: absolute;
-            top: 0; left: 0; width: 100%; height: 100%;
-            background-size: cover;
-            background-position: center;
-            filter: blur(10px) brightness(0.3);
-            border-radius: 100px;
-            z-index: 1;
-        }
-
-        /* Logo Circular */
         .logo-wrap {
-            width: 75px;
-            height: 75px;
+            width: 90px;
+            height: 90px;
             background: #fff;
             border-radius: 50%;
-            z-index: 2;
             display: flex;
             align-items: center;
             justify-content: center;
-            border: 3px solid rgba(255,255,255,0.1);
-            overflow: hidden;
+            padding: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
         }
 
-        .logo-wrap img { width: 70%; height: 70%; object-fit: contain; }
+        .logo-wrap img { width: 100%; height: 100%; object-fit: contain; }
 
-        .card-label {
-            position: absolute; bottom: -30px; font-size: 0.8rem; 
-            white-space: nowrap; opacity: 0; transition: 0.2s;
-        }
-        .card:focus .card-label { opacity: 1; color: var(--accent); font-weight: bold; }
+        .status { color: var(--accent); font-weight: bold; font-size: 0.9rem; letter-spacing: 2px; }
     </style>
 </head>
 <body>
 
 <div class="hero">
-    <div class="hero-group" id="h-group">CARGANDO...</div>
-    <div class="hero-title" id="h-title">SELECCIONE</div>
+    <div class="status" id="status">INICIANDO...</div>
+    <div class="h-title" id="title">ESPERE</div>
 </div>
 
-<div class="genre-bar" id="genre-list"></div>
-
 <div class="viewport">
-    <div class="grid" id="main-grid"></div>
+    <div class="grid" id="grid"></div>
 </div>
 
 <script>
-    const M3U_URL = "https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/CV.m3u8";
-    let allChannels = [];
-    let filteredChannels = [];
-    let categories = ["TODOS"];
-    let currentCategory = "TODOS";
-    let currentBlock = 0;
+    const M3U = "https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/CV.m3u8";
+    let channels = [];
+    let curBlock = 0;
     const SIZE = 4;
 
-    async function start() {
+    async function init() {
         try {
-            const res = await fetch(M3U_URL);
-            const data = await res.text();
-            parseM3U(data);
-        } catch(e) { document.getElementById('h-group').innerText = "ERROR DE CONEXIÓN"; }
-    }
-
-    function parseM3U(data) {
-        const lines = data.split('\n');
-        lines.forEach((line, i) => {
-            if(line.includes('#EXTINF')) {
-                const name = line.split(',')[1]?.trim() || "Canal";
-                const logo = line.match(/tvg-logo="([^"]+)"/)?.[1] || "";
-                const group = line.match(/group-title="([^"]+)"/)?.[1] || "OTROS";
-                const url = lines[i+1]?.trim();
-                
-                if(url && url.startsWith('http')) {
-                    allChannels.push({name, logo, group, url});
-                    if(!categories.includes(group)) categories.push(group);
+            const r = await fetch(M3U);
+            const t = await r.text();
+            const lines = t.split('\n');
+            for(let i=0; i<lines.length; i++) {
+                if(lines[i].includes('#EXTINF')) {
+                    const name = lines[i].split(',')[1]?.trim() || "Canal";
+                    const logo = lines[i].match(/tvg-logo="([^"]+)"/)?.[1] || "";
+                    const url = lines[i+1]?.trim();
+                    if(url?.startsWith('http')) channels.push({name, logo, url});
                 }
             }
-        });
-        
-        renderGenres();
-        filterByCategory("TODOS");
+            render(0);
+        } catch(e) { document.getElementById('status').innerText = "ERROR"; }
     }
 
-    function renderGenres() {
-        const container = document.getElementById('genre-list');
-        categories.forEach(cat => {
-            const span = document.createElement('span');
-            span.innerText = cat;
-            container.appendChild(span);
-        });
-    }
-
-    function filterByCategory(cat) {
-        currentCategory = cat;
-        filteredChannels = cat === "TODOS" ? allChannels : allChannels.filter(c => c.group === cat);
-        currentBlock = 0;
-        render(0);
-    }
-
-    function render(blockIdx) {
-        const grid = document.getElementById('main-grid');
+    function render(block) {
+        const grid = document.getElementById('grid');
         grid.innerHTML = '';
-        const start = blockIdx * SIZE;
-        const end = Math.min(start + SIZE, filteredChannels.length);
+        const start = block * SIZE;
+        const end = Math.min(start + SIZE, channels.length);
 
         for(let i=start; i<end; i++) {
-            const ch = filteredChannels[i];
+            const ch = channels[i];
             const card = document.createElement('div');
             card.className = 'card';
             card.tabIndex = 0;
-            
-            // Lógica de carga silenciosa
+
+            // Carga de imagen ultra rápida
             const img = new Image();
             img.src = ch.logo;
             img.onload = () => {
-                card.innerHTML = `
-                    <div class="card-blur" style="background-image: url('${ch.logo}')"></div>
-                    <div class="logo-wrap"><img src="${ch.logo}"></div>
-                    <div class="card-label">${ch.name}</div>
-                `;
-                card.classList.add('ready'); // Solo se muestra cuando la imagen está lista
+                card.innerHTML = `<div class="logo-wrap"><img src="${ch.logo}"></div>`;
+                card.classList.add('ready');
             };
 
             card.onfocus = () => {
-                document.getElementById('h-group').innerText = ch.group;
-                document.getElementById('h-title').innerText = ch.name;
+                document.getElementById('title').innerText = ch.name;
+                document.getElementById('status').innerText = `CANAL ${i + 1} DE ${channels.length}`;
+                // Cambio de fondo en el BODY
+                document.body.style.backgroundImage = `url('${ch.logo}')`;
             };
 
             card.onkeydown = (e) => {
                 if(e.key === 'Enter') window.location.href = ch.url;
-                
-                // Navegación de bloques
-                if(e.key === 'ArrowRight' && i === end - 1 && end < filteredChannels.length) {
-                    currentBlock++;
-                    render(currentBlock);
+                if(e.key === 'ArrowRight' && i === end - 1 && end < channels.length) {
+                    curBlock++; render(curBlock);
                 }
-                if(e.key === 'ArrowLeft' && i === start && blockIdx > 0) {
-                    currentBlock--;
-                    render(currentBlock);
-                    setTimeout(() => grid.children[SIZE-1].focus(), 10);
-                }
-
-                // Cambio de género (Arriba/Abajo)
-                if(e.key === 'ArrowUp' || e.key === 'ArrowDown') {
-                    let idx = categories.indexOf(currentCategory);
-                    if(e.key === 'ArrowUp') idx = idx > 0 ? idx - 1 : categories.length - 1;
-                    else idx = idx < categories.length - 1 ? idx + 1 : 0;
-                    filterByCategory(categories[idx]);
+                if(e.key === 'ArrowLeft' && i === start && block > 0) {
+                    curBlock--; render(curBlock);
+                    setTimeout(() => grid.children[SIZE-1].focus(), 1);
                 }
             };
-
             grid.appendChild(card);
         }
         grid.children[0]?.focus();
     }
 
-    start();
+    init();
 </script>
-
 </body>
 </html>
