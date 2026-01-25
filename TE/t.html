@@ -3,152 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>ULTRA LIGHT TV - LIVE</title>
+    <title>ULTRA LIGHT TV - RAM OPTIMIZED</title>
     <style>
         :root {
             --bg: #050505;
             --accent: #00d4ff;
-            --card-w: 240px; /* Tamaño optimizado para TV */
-            --card-h: 140px; /* Formato 16:9 para canales */
-            --gap: 20px;
+            --card-w: 240px;
+            --card-h: 140px;
+            --gap: 25px;
         }
 
         * { box-sizing: border-box; margin: 0; padding: 0; outline: none; }
 
         body {
-            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            font-family: 'Segoe UI', system-ui, sans-serif;
             background: var(--bg);
             color: #fff;
             overflow: hidden;
             height: 100vh;
-            width: 100vw;
         }
 
-        /* HEADER / HERO AREA */
         .header-hero {
             height: 45vh;
             width: 100%;
-            background: linear-gradient(180deg, rgba(0,0,0,0) 0%, #050505 100%), 
-                        linear-gradient(90deg, #050505 30%, transparent 100%);
+            background: linear-gradient(180deg, rgba(5,5,5,0) 0%, #050505 100%);
             display: flex;
             align-items: center;
             padding: 0 5%;
             position: relative;
-            z-index: 10;
-            overflow: hidden;
         }
 
         .hero-img {
             position: absolute;
             right: 0; top: 0;
-            width: 60%; height: 100%;
-            object-fit: cover;
+            width: 50%; height: 100%;
+            object-fit: contain;
             z-index: -1;
-            opacity: 0.5;
+            opacity: 0.4;
             mask-image: linear-gradient(to left, black, transparent);
-            -webkit-mask-image: linear-gradient(to left, black, transparent);
         }
 
         .event-info { z-index: 2; }
-        .event-title { 
-            font-size: 3.5rem; 
-            font-weight: 900; 
-            text-transform: uppercase; 
-            margin-bottom: 10px;
-            text-shadow: 2px 2px 10px rgba(0,0,0,0.8);
-        }
-        .event-desc { 
-            color: var(--accent); 
-            font-size: 1.2rem; 
-            font-weight: bold; 
-            letter-spacing: 2px;
-        }
+        .event-title { font-size: 3rem; font-weight: 900; margin-bottom: 5px; }
+        .event-desc { color: var(--accent); font-weight: bold; letter-spacing: 2px; }
 
-        /* CONTENEDOR DE CANALES */
         .viewport-wrapper {
-            height: 55vh;
-            padding-top: 20px;
-        }
-
-        .row-title {
-            padding-left: 5%; 
-            font-size: 1.5rem; 
-            font-weight: bold;
-            color: #fff; 
-            margin-bottom: 20px;
-            text-transform: uppercase;
+            height: 50vh;
+            overflow: hidden;
+            position: relative;
         }
 
         .strip-container {
-            overflow: hidden;
+            position: relative;
             width: 100%;
+            height: 250px;
             padding: 20px 0;
         }
 
         .strip {
             display: flex;
-            gap: var(--gap);
-            padding: 0 5%;
-            transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+            position: absolute;
+            left: 5%;
+            transition: transform 0.3s cubic-bezier(0.2, 0.5, 0.3, 1);
             will-change: transform;
+            gap: var(--gap);
         }
 
-        /* CARDS (CANALES) */
         .card {
             flex: 0 0 var(--card-w);
             height: var(--card-h);
-            background: #1a1a1a;
-            border-radius: 10px;
-            border: 4px solid transparent;
+            background: #111;
+            border-radius: 8px;
+            border: 4px solid #222;
             position: relative;
-            transition: all 0.3s ease;
-            cursor: pointer;
+            transition: transform 0.2s;
         }
 
         .card:focus {
-            border-color: #fff;
-            transform: scale(1.15);
-            z-index: 100;
-            box-shadow: 0 10px 30px rgba(0, 212, 255, 0.4);
+            border-color: var(--accent);
+            transform: scale(1.1);
+            z-index: 10;
         }
 
         .card img { 
-            width: 100%; 
-            height: 100%; 
-            object-fit: contain; 
-            padding: 20px; 
-            background: #111;
-            border-radius: 6px;
+            width: 100%; height: 100%; 
+            object-fit: contain; border-radius: 4px;
+            padding: 10px;
         }
 
         .card-t {
-            position: absolute; 
-            bottom: -35px; 
-            width: 100%;
-            font-size: 1rem; 
-            text-align: center;
-            white-space: nowrap; 
-            overflow: hidden; 
-            text-overflow: ellipsis;
-            opacity: 0.7;
+            position: absolute; bottom: -40px; width: 100%;
+            text-align: center; font-size: 0.9rem;
+            white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
         }
 
-        .card:focus .card-t {
-            opacity: 1;
-            font-weight: bold;
-            color: var(--accent);
-        }
-
-        /* RESPONSIVE PARA 720p y 1080p */
-        @media (min-width: 1920px) {
-            :root { --card-w: 300px; --card-h: 170px; }
-            .event-title { font-size: 4.5rem; }
-        }
-
-        @media (max-width: 1280px) {
-            :root { --card-w: 200px; --card-h: 115px; }
-            .event-title { font-size: 2.5rem; }
-        }
+        /* Clase para liberar RAM: oculta contenido de cards lejanas */
+        .is-hidden img { display: none; }
     </style>
 </head>
 <body>
@@ -156,16 +106,14 @@
 <div class="header-hero">
     <img id="hero-bg" class="hero-img" src="">
     <div class="event-info">
-        <div class="event-desc" id="hero-status">CARGANDO CANALES...</div>
-        <div class="event-title" id="hero-name">TV EN VIVO</div>
+        <div class="event-desc" id="hero-status">INICIALIZANDO...</div>
+        <div class="event-title" id="hero-name">SELECCIONE CANAL</div>
     </div>
 </div>
 
 <div class="viewport-wrapper">
-    <div class="row-title" id="category-name">Canales de TV</div>
     <div class="strip-container">
-        <div class="strip" id="channel-strip">
-            </div>
+        <div class="strip" id="channel-strip"></div>
     </div>
 </div>
 
@@ -173,15 +121,16 @@
     const M3U_URL = "https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/CV.m3u8";
     const strip = document.getElementById('channel-strip');
     let channels = [];
+    let currentIndex = 0;
+    let lastKeyTime = 0;
 
     async function loadChannels() {
         try {
             const response = await fetch(M3U_URL);
             const data = await response.text();
             parseM3U(data);
-        } catch (error) {
-            console.error("Error cargando M3U:", error);
-            document.getElementById('hero-status').innerText = "ERROR AL CARGAR";
+        } catch (e) {
+            document.getElementById('hero-status').innerText = "ERROR DE CONEXIÓN";
         }
     }
 
@@ -189,59 +138,103 @@
         const lines = content.split('\n');
         for (let i = 0; i < lines.length; i++) {
             if (lines[i].includes('#EXTINF')) {
-                const info = lines[i];
+                const name = lines[i].split(',')[1]?.trim() || "Canal";
+                const logo = lines[i].match(/tvg-logo="([^"]+)"/)?.[1] || "";
                 const url = lines[i + 1]?.trim();
-                
-                if (url && url.startsWith('http')) {
-                    const name = info.split(',')[1]?.trim() || "Canal sin nombre";
-                    const logo = info.match(/tvg-logo="([^"]+)"/)?.[1] || "";
-                    
-                    channels.push({ name, logo, url });
-                }
+                if (url && url.startsWith('http')) channels.push({ name, logo, url });
             }
         }
-        renderChannels();
+        renderInitial();
     }
 
-    function renderChannels() {
-        if (channels.length === 0) return;
-        
-        document.getElementById('hero-status').innerText = "LISTO PARA VER";
-
+    function renderInitial() {
+        document.getElementById('hero-status').innerText = "LIVE TV";
         channels.forEach((ch, idx) => {
             const card = document.createElement('div');
             card.className = 'card';
             card.tabIndex = 0;
+            // Solo cargamos imagen si está cerca del inicio para ahorrar RAM inicial
+            const imgSrc = idx < 5 ? ch.logo : ""; 
             card.innerHTML = `
-                <img src="${ch.logo}" onerror="this.src='https://via.placeholder.com/300x170?text=TV'" loading="lazy">
+                <img src="${imgSrc}" data-src="${ch.logo}" onerror="this.src='https://via.placeholder.com/240x140?text=TV'">
                 <div class="card-t">${ch.name}</div>
             `;
 
-            card.onfocus = () => {
-                // Actualizar Hero
-                document.getElementById('hero-name').innerText = ch.name;
-                document.getElementById('hero-bg').src = ch.logo;
-                
-                // Centrado dinámico (el canal enfocado se mueve a la izquierda)
-                const moveX = idx * (card.offsetWidth + 20); 
-                strip.style.transform = `translateX(${-moveX}px)`;
-            };
-
-            card.onkeydown = (e) => {
-                if (e.key === 'Enter') {
-                    // Abrir el stream
-                    window.location.href = ch.url;
-                }
-            };
-
+            card.onfocus = () => handleFocus(idx);
+            card.onkeydown = (e) => { if(e.key === 'Enter') window.location.href = ch.url; };
             strip.appendChild(card);
         });
-
-        // Foco inicial
-        setTimeout(() => {
-            strip.children[0]?.focus();
-        }, 300);
+        strip.children[0]?.focus();
     }
+
+    function handleFocus(idx) {
+        const now = Date.now();
+        const diff = now - lastKeyTime;
+        lastKeyTime = now;
+
+        let jump = 1;
+        // Si el usuario pulsa muy rápido (menos de 150ms), saltamos de 4 en 4
+        if (diff < 150) {
+            jump = 4;
+        } else if (diff < 250) {
+            jump = 2;
+        }
+
+        currentIndex = idx;
+        updateView(jump);
+    }
+
+    function updateView(jump) {
+        const cardWidth = 240 + 25; // Ancho + Gap
+        const offset = -(currentIndex * cardWidth);
+        strip.style.transform = `translateX(${offset}px)`;
+
+        // Actualizar Hero
+        const ch = channels[currentIndex];
+        document.getElementById('hero-name').innerText = ch.name;
+        document.getElementById('hero-bg').src = ch.logo;
+
+        // GESTIÓN DE RAM: Virtualización manual
+        const allCards = strip.children;
+        for (let i = 0; i < allCards.length; i++) {
+            const card = allCards[i];
+            const img = card.querySelector('img');
+            
+            // Si la card está lejos del foco (más de 5 posiciones)
+            if (Math.abs(i - currentIndex) > 6) {
+                if (!card.classList.contains('is-hidden')) {
+                    card.classList.add('is-hidden');
+                    img.src = ""; // Borrar imagen de RAM
+                }
+            } else {
+                // Cargar imagen si vuelve a estar cerca
+                if (card.classList.contains('is-hidden') || img.src === "") {
+                    card.classList.remove('is-hidden');
+                    img.src = img.getAttribute('data-src');
+                }
+            }
+        }
+    }
+
+    // Control de navegación por flechas para manejar el "salto" de 2 en 2 o 4 en 4
+    window.addEventListener('keydown', (e) => {
+        if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') {
+            const now = Date.now();
+            const speed = now - lastKeyTime;
+            let step = 1;
+
+            if (speed < 100) step = 4;
+            else if (speed < 200) step = 2;
+
+            if (e.key === 'ArrowRight' && currentIndex + step < channels.length) {
+                e.preventDefault();
+                strip.children[currentIndex + step].focus();
+            } else if (e.key === 'ArrowLeft' && currentIndex - step >= 0) {
+                e.preventDefault();
+                strip.children[currentIndex - step].focus();
+            }
+        }
+    });
 
     loadChannels();
 </script>
