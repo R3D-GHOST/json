@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>ULTRA SPEED TV</title>
+    <title>ULTRA RAM SAVER TV</title>
     <style>
         :root {
             --bg: #000;
             --accent: #00d4ff;
-            --card-w: 250px;
-            --card-h: 140px;
+            --card-w: 220px;
+            --card-h: 130px;
         }
 
         * { box-sizing: border-box; margin: 0; padding: 0; outline: none; }
@@ -17,131 +17,137 @@
         body {
             background: var(--bg);
             color: #fff;
-            font-family: sans-serif;
+            font-family: 'Segoe UI', sans-serif;
             overflow: hidden;
             height: 100vh;
+            /* Optimización de renderizado global */
+            text-rendering: optimizeSpeed;
+            image-rendering: -webkit-optimize-contrast;
         }
 
-        /* Hero simplificado para no gastar CPU */
         .hero {
-            height: 40vh;
-            padding: 50px;
+            height: 45vh;
+            padding: 40px;
             display: flex;
             flex-direction: column;
-            justify-content: center;
-            background: linear-gradient(0deg, #000 0%, transparent 100%);
+            justify-content: flex-end;
+            background: radial-gradient(circle at center, #111 0%, #000 100%);
         }
 
-        .hero-name { font-size: 4rem; font-weight: bold; text-shadow: 0 4px 10px #000; }
-        .hero-status { color: var(--accent); letter-spacing: 2px; font-size: 0.9rem; }
+        .hero-status { color: var(--accent); font-size: 0.8rem; font-weight: bold; margin-bottom: 5px; }
+        .hero-name { font-size: 3rem; font-weight: 900; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
-        /* Contenedor principal */
         .viewport {
-            height: 60vh;
+            height: 55vh;
             position: relative;
-            overflow: hidden;
+            /* Evita que el navegador calcule layouts fuera del contenedor */
+            contain: strict;
         }
 
         .strip {
             display: flex;
-            padding-left: 50px;
-            will-change: transform;
-            transition: transform 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
+            padding-left: 10%;
+            height: 250px;
             align-items: center;
-            height: 300px;
+            will-change: transform;
+            transition: transform 0.3s cubic-bezier(0.1, 0.7, 0.1, 1);
+            transform: translate3d(0,0,0);
         }
 
         .card {
             flex: 0 0 var(--card-w);
             height: var(--card-h);
-            margin-right: 20px;
-            background: #111;
-            border-radius: 15px;
-            border: 3px solid #222;
+            margin-right: 25px;
+            background: #080808;
+            border-radius: 15px; /* Bordes circulares */
+            border: 2px solid #1a1a1a;
             position: relative;
-            transition: transform 0.2s;
-            /* Círculo de carga mientras no hay imagen */
+            overflow: hidden;
             display: flex;
             align-items: center;
             justify-content: center;
-            overflow: hidden;
+            transition: transform 0.2s, border-color 0.2s;
         }
 
-        /* Efecto de fondo difuminado dentro de la card */
-        .card-bg {
+        /* Fondo Difuminado - SOLO activo en Focus para ahorrar CPU */
+        .card-blur {
             position: absolute;
-            top: 0; left: 0; width: 100%; height: 100%;
-            background-size: contain;
+            width: 120%; height: 120%;
+            background-size: cover;
             background-position: center;
-            background-repeat: no-repeat;
-            filter: blur(0px);
-            transition: opacity 0.3s;
+            filter: blur(15px);
             opacity: 0;
             z-index: 1;
+            transition: opacity 0.3s;
         }
 
-        .card.loaded .card-bg { opacity: 1; }
-
-        /* Círculo de carga (estética APK) */
-        .card::before {
-            content: "";
-            width: 40px;
-            height: 40px;
-            border: 3px solid #333;
-            border-top-color: var(--accent);
+        /* Contenedor del Logo (Círculo) */
+        .logo-circle {
+            width: 80px;
+            height: 80px;
+            background: #111;
             border-radius: 50%;
-            animation: spin 1s linear infinite;
-            position: absolute;
-            z-index: 0;
+            z-index: 2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid rgba(255,255,255,0.1);
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
         }
 
-        .card.loaded::before { display: none; }
+        .logo-circle img {
+            width: 70%; height: 70%;
+            object-fit: contain;
+        }
 
         .card:focus {
-            transform: scale(1.15);
-            border-color: #fff;
+            transform: scale(1.15) translateZ(0);
+            border-color: var(--accent);
             z-index: 10;
         }
 
-        .card-info {
-            position: absolute;
-            bottom: -45px;
-            width: 100%;
-            text-align: center;
-            font-weight: bold;
-            font-size: 1rem;
-            opacity: 0.6;
+        .card:focus .card-blur { opacity: 0.4; }
+        .card:focus .logo-circle { border-color: var(--accent); transform: scale(1.1); }
+
+        .card-label {
+            position: absolute; bottom: 8px; font-size: 0.75rem;
+            color: #aaa; z-index: 3; font-weight: bold;
         }
 
-        .card:focus .card-info { opacity: 1; color: var(--accent); }
-
+        /* Placeholder de carga */
+        .loader {
+            position: absolute; width: 30px; height: 30px;
+            border: 3px solid #222; border-top-color: var(--accent);
+            border-radius: 50%; animation: spin 0.8s linear infinite;
+        }
         @keyframes spin { to { transform: rotate(360deg); } }
     </style>
 </head>
 <body>
 
 <div class="hero">
-    <div class="hero-status" id="status">SISTEMA ULTRA-LIGHT</div>
-    <div class="hero-name" id="current-name">TV LIVE</div>
+    <div class="hero-status" id="h-status">MEMORIA OPTIMIZADA</div>
+    <div class="hero-name" id="h-name">LISTA DE CANALES</div>
 </div>
 
 <div class="viewport">
-    <div class="strip" id="strip"></div>
+    <div class="strip" id="main-strip"></div>
 </div>
 
 <script>
     const M3U_URL = "https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/CV.m3u8";
-    const strip = document.getElementById('strip');
+    const strip = document.getElementById('main-strip');
     let channels = [];
     let curIdx = 0;
-    let lastKeyTime = 0;
+    let lastKey = 0;
 
-    async function load() {
+    async function init() {
         try {
             const r = await fetch(M3U_URL);
             const d = await r.text();
             parse(d);
-        } catch(e) { document.getElementById('status').innerText = "ERROR RED"; }
+        } catch(e) { document.getElementById('h-status').innerText = "ERROR DE RED"; }
     }
 
     function parse(data) {
@@ -163,83 +169,85 @@
             const card = document.createElement('div');
             card.className = 'card';
             card.tabIndex = 0;
-            card.innerHTML = `<div class="card-bg"></div><div class="card-info">${ch.name}</div>`;
+            card.innerHTML = `
+                <div class="card-blur"></div>
+                <div class="loader"></div>
+                <div class="logo-circle"><img data-src="${ch.logo}"></div>
+                <div class="card-label">${ch.name.substring(0, 15)}</div>
+            `;
             
             card.onfocus = () => {
                 curIdx = i;
+                document.getElementById('h-name').innerText = ch.name;
                 moveStrip(i);
-                document.getElementById('current-name').innerText = ch.name;
             };
             
             card.onkeydown = (e) => { if(e.key === 'Enter') window.location.href = ch.url; };
             frag.appendChild(card);
         });
         strip.appendChild(frag);
-        setTimeout(() => {
-            strip.children[0]?.focus();
-            manageMemory();
-        }, 100);
+        setTimeout(() => { strip.children[0]?.focus(); updateMemory(); }, 200);
     }
 
     function moveStrip(idx) {
         const now = Date.now();
-        const diff = now - lastKeyTime;
-        lastKeyTime = now;
+        const delta = now - lastKey;
+        lastKey = now;
 
-        const offset = -(idx * (250 + 20));
-        strip.style.transform = `translateX(${offset}px)`;
+        const offset = -(idx * (220 + 25));
+        strip.style.transform = `translate3d(${offset}px, 0, 0)`;
 
-        // Si navegamos normal, actualizamos RAM rápido. Si volamos, esperamos.
-        clearTimeout(window.moveTO);
-        window.moveTO = setTimeout(manageMemory, diff < 100 ? 150 : 0);
+        // Control de velocidad de carga
+        clearTimeout(window.t);
+        window.t = setTimeout(updateMemory, delta < 120 ? 200 : 0);
     }
 
-    function manageMemory() {
+    function updateMemory() {
         const cards = strip.children;
-        const buffer = 4; // Cuántas imágenes cargar alrededor
+        const visibleRange = 3; // Estricto: solo carga 3 a los lados
 
         for(let i=0; i<cards.length; i++) {
             const card = cards[i];
-            const bg = card.querySelector('.card-bg');
-            const dist = Math.abs(i - curIdx);
+            const img = card.querySelector('img');
+            const blur = card.querySelector('.card-blur');
+            const loader = card.querySelector('.loader');
+            const isNear = Math.abs(i - curIdx) <= visibleRange;
 
-            if(dist <= buffer) {
-                if(!card.classList.contains('loaded')) {
-                    const img = new Image();
-                    img.src = channels[i].logo;
+            if(isNear) {
+                if(!img.src) {
+                    img.src = img.dataset.src;
                     img.onload = () => {
-                        bg.style.backgroundImage = `url(${channels[i].logo})`;
-                        card.classList.add('loaded');
+                        blur.style.backgroundImage = `url(${img.src})`;
+                        loader.style.display = 'none';
                     };
                 }
             } else {
-                // Borrar para liberar RAM
-                bg.style.backgroundImage = "";
-                card.classList.remove('loaded');
+                // Garbage collection agresivo
+                img.src = "";
+                blur.style.backgroundImage = "";
+                loader.style.display = 'block';
             }
         }
     }
 
-    // Navegación inteligente de 2 en 2 o 4 en 4
+    // Navegación inteligente (Jump logic)
     window.addEventListener('keydown', (e) => {
         if(e.key === 'ArrowRight' || e.key === 'ArrowLeft') {
-            const now = Date.now();
-            const delta = now - lastKeyTime;
-            let jump = 1;
+            const speed = Date.now() - lastKey;
+            let step = 1;
+            if(speed < 70) step = 4;
+            else if(speed < 130) step = 2;
 
-            if(delta < 80) jump = 4;
-            else if(delta < 150) jump = 2;
-
-            if(jump > 1) {
+            if(step > 1) {
                 e.preventDefault();
-                let target = e.key === 'ArrowRight' ? curIdx + jump : curIdx - jump;
-                target = Math.max(0, Math.min(target, channels.length - 1));
-                strip.children[target].focus();
+                let t = e.key === 'ArrowRight' ? curIdx + step : curIdx - step;
+                t = Math.max(0, Math.min(t, channels.length - 1));
+                strip.children[t].focus();
             }
         }
     });
 
-    load();
+    init();
 </script>
 
 </body>
