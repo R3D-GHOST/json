@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>ULTRA RAM SAVER TV</title>
+    <title>ULTRA MINIMAL TV</title>
     <style>
         :root {
             --bg: #000;
             --accent: #00d4ff;
-            --card-w: 220px;
-            --card-h: 130px;
+            --card-w: 240px;
+            --card-h: 140px;
         }
 
         * { box-sizing: border-box; margin: 0; padding: 0; outline: none; }
@@ -17,137 +17,126 @@
         body {
             background: var(--bg);
             color: #fff;
-            font-family: 'Segoe UI', sans-serif;
+            font-family: 'Segoe UI', system-ui, sans-serif;
             overflow: hidden;
             height: 100vh;
-            /* Optimización de renderizado global */
-            text-rendering: optimizeSpeed;
-            image-rendering: -webkit-optimize-contrast;
         }
 
+        /* Hero Minimal */
         .hero {
-            height: 45vh;
-            padding: 40px;
+            height: 40vh;
             display: flex;
             flex-direction: column;
-            justify-content: flex-end;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
             background: radial-gradient(circle at center, #111 0%, #000 100%);
         }
 
-        .hero-status { color: var(--accent); font-size: 0.8rem; font-weight: bold; margin-bottom: 5px; }
-        .hero-name { font-size: 3rem; font-weight: 900; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-
+        .hero-name { font-size: 2.5rem; font-weight: 800; text-transform: uppercase; margin-top: 10px; }
+        
+        /* Contenedor de Cubos */
         .viewport {
-            height: 55vh;
-            position: relative;
-            /* Evita que el navegador calcule layouts fuera del contenedor */
-            contain: strict;
-        }
-
-        .strip {
+            height: 60vh;
             display: flex;
-            padding-left: 10%;
-            height: 250px;
-            align-items: center;
-            will-change: transform;
-            transition: transform 0.3s cubic-bezier(0.1, 0.7, 0.1, 1);
-            transform: translate3d(0,0,0);
+            justify-content: center;
+            perspective: 1000px;
         }
 
+        #main-container {
+            display: flex;
+            gap: 20px;
+            transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+            will-change: transform, opacity;
+        }
+
+        /* Estilo de la Card (Cubo) */
         .card {
-            flex: 0 0 var(--card-w);
+            width: var(--card-w);
             height: var(--card-h);
-            margin-right: 25px;
-            background: #080808;
-            border-radius: 15px; /* Bordes circulares */
+            background: #0a0a0a;
+            border-radius: 20px;
             border: 2px solid #1a1a1a;
             position: relative;
-            overflow: hidden;
             display: flex;
             align-items: center;
             justify-content: center;
-            transition: transform 0.2s, border-color 0.2s;
-        }
-
-        /* Fondo Difuminado - SOLO activo en Focus para ahorrar CPU */
-        .card-blur {
-            position: absolute;
-            width: 120%; height: 120%;
-            background-size: cover;
-            background-position: center;
-            filter: blur(15px);
-            opacity: 0;
-            z-index: 1;
-            transition: opacity 0.3s;
-        }
-
-        /* Contenedor del Logo (Círculo) */
-        .logo-circle {
-            width: 80px;
-            height: 80px;
-            background: #111;
-            border-radius: 50%;
-            z-index: 2;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border: 2px solid rgba(255,255,255,0.1);
             overflow: hidden;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
-        }
-
-        .logo-circle img {
-            width: 70%; height: 70%;
-            object-fit: contain;
+            transition: transform 0.3s, border-color 0.3s, box-shadow 0.3s;
         }
 
         .card:focus {
-            transform: scale(1.15) translateZ(0);
+            transform: scale(1.1) translateZ(20px);
             border-color: var(--accent);
+            box-shadow: 0 0 40px rgba(0, 212, 255, 0.2);
             z-index: 10;
         }
 
-        .card:focus .card-blur { opacity: 0.4; }
-        .card:focus .logo-circle { border-color: var(--accent); transform: scale(1.1); }
-
-        .card-label {
-            position: absolute; bottom: 8px; font-size: 0.75rem;
-            color: #aaa; z-index: 3; font-weight: bold;
+        /* Círculo del Logo */
+        .logo-box {
+            width: 70px;
+            height: 70px;
+            background: #111;
+            border-radius: 50%;
+            border: 2px solid #222;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 2;
         }
 
-        /* Placeholder de carga */
-        .loader {
-            position: absolute; width: 30px; height: 30px;
-            border: 3px solid #222; border-top-color: var(--accent);
-            border-radius: 50%; animation: spin 0.8s linear infinite;
+        .logo-box img { width: 60%; height: 60%; object-fit: contain; }
+
+        /* Fondo difuminado dinámico */
+        .card-blur {
+            position: absolute;
+            width: 100%; height: 100%;
+            background-size: cover;
+            background-position: center;
+            filter: blur(10px);
+            opacity: 0.3;
+            z-index: 1;
         }
+
+        /* Animación de Carga */
+        .loading-spin {
+            position: absolute;
+            width: 30px; height: 30px;
+            border: 2px solid transparent;
+            border-top: 2px solid var(--accent);
+            border-radius: 50%;
+            animation: spin 0.6s linear infinite;
+        }
+
         @keyframes spin { to { transform: rotate(360deg); } }
+
+        .hidden { display: none; }
     </style>
 </head>
 <body>
 
 <div class="hero">
-    <div class="hero-status" id="h-status">MEMORIA OPTIMIZADA</div>
-    <div class="hero-name" id="h-name">LISTA DE CANALES</div>
+    <div style="color: var(--accent); font-weight: bold; font-size: 0.8rem;" id="h-info">LIVE STREAM</div>
+    <div class="hero-name" id="h-title">CARGANDO...</div>
 </div>
 
 <div class="viewport">
-    <div class="strip" id="main-strip"></div>
+    <div id="main-container"></div>
 </div>
 
 <script>
     const M3U_URL = "https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/CV.m3u8";
-    const strip = document.getElementById('main-strip');
+    const container = document.getElementById('main-container');
     let channels = [];
-    let curIdx = 0;
-    let lastKey = 0;
+    let currentBlock = 0;
+    const BLOCK_SIZE = 4;
 
     async function init() {
         try {
-            const r = await fetch(M3U_URL);
-            const d = await r.text();
-            parse(d);
-        } catch(e) { document.getElementById('h-status').innerText = "ERROR DE RED"; }
+            const res = await fetch(M3U_URL);
+            const data = await res.text();
+            parse(data);
+        } catch(e) { document.getElementById('h-title').innerText = "ERROR"; }
     }
 
     function parse(data) {
@@ -160,92 +149,60 @@
                 if(url && url.startsWith('http')) channels.push({name, logo, url});
             }
         }
-        render();
+        renderBlock(0);
     }
 
-    function render() {
-        const frag = document.createDocumentFragment();
-        channels.forEach((ch, i) => {
+    function renderBlock(blockIndex) {
+        // LIMPIEZA TOTAL DE RAM: Borrar nodos anteriores
+        container.innerHTML = ''; 
+        
+        const start = blockIndex * BLOCK_SIZE;
+        const end = Math.min(start + BLOCK_SIZE, channels.length);
+
+        for(let i = start; i < end; i++) {
+            const ch = channels[i];
             const card = document.createElement('div');
             card.className = 'card';
             card.tabIndex = 0;
             card.innerHTML = `
-                <div class="card-blur"></div>
-                <div class="loader"></div>
-                <div class="logo-circle"><img data-src="${ch.logo}"></div>
-                <div class="card-label">${ch.name.substring(0, 15)}</div>
+                <div class="card-blur" style="background-image: url('${ch.logo}')"></div>
+                <div class="loading-spin"></div>
+                <div class="logo-box"><img src="${ch.logo}" onload="this.parentElement.previousElementSibling.style.display='none'"></div>
             `;
-            
+
             card.onfocus = () => {
-                curIdx = i;
-                document.getElementById('h-name').innerText = ch.name;
-                moveStrip(i);
+                document.getElementById('h-title').innerText = ch.name;
+                document.getElementById('h-info').innerText = `BLOQUE ${blockIndex + 1} | CANAL ${i + 1}`;
             };
-            
-            card.onkeydown = (e) => { if(e.key === 'Enter') window.location.href = ch.url; };
-            frag.appendChild(card);
-        });
-        strip.appendChild(frag);
-        setTimeout(() => { strip.children[0]?.focus(); updateMemory(); }, 200);
-    }
 
-    function moveStrip(idx) {
-        const now = Date.now();
-        const delta = now - lastKey;
-        lastKey = now;
-
-        const offset = -(idx * (220 + 25));
-        strip.style.transform = `translate3d(${offset}px, 0, 0)`;
-
-        // Control de velocidad de carga
-        clearTimeout(window.t);
-        window.t = setTimeout(updateMemory, delta < 120 ? 200 : 0);
-    }
-
-    function updateMemory() {
-        const cards = strip.children;
-        const visibleRange = 3; // Estricto: solo carga 3 a los lados
-
-        for(let i=0; i<cards.length; i++) {
-            const card = cards[i];
-            const img = card.querySelector('img');
-            const blur = card.querySelector('.card-blur');
-            const loader = card.querySelector('.loader');
-            const isNear = Math.abs(i - curIdx) <= visibleRange;
-
-            if(isNear) {
-                if(!img.src) {
-                    img.src = img.dataset.src;
-                    img.onload = () => {
-                        blur.style.backgroundImage = `url(${img.src})`;
-                        loader.style.display = 'none';
-                    };
+            card.onkeydown = (e) => {
+                if(e.key === 'Enter') window.location.href = ch.url;
+                
+                // Lógica de salto de bloque
+                if(e.key === 'ArrowRight' && i === end - 1) {
+                    if((blockIndex + 1) * BLOCK_SIZE < channels.length) {
+                        currentBlock++;
+                        renderBlock(currentBlock);
+                    }
                 }
-            } else {
-                // Garbage collection agresivo
-                img.src = "";
-                blur.style.backgroundImage = "";
-                loader.style.display = 'block';
-            }
+                if(e.key === 'ArrowLeft' && i === start) {
+                    if(blockIndex > 0) {
+                        currentBlock--;
+                        renderBlock(currentBlock);
+                        // Enfocar el último del bloque anterior
+                        setTimeout(() => container.children[BLOCK_SIZE-1].focus(), 10);
+                    }
+                }
+            };
+
+            container.appendChild(card);
+        }
+
+        // Foco inicial del bloque
+        if (container.children.length > 0) {
+            container.children[0].focus();
         }
     }
-
-    // Navegación inteligente (Jump logic)
-    window.addEventListener('keydown', (e) => {
-        if(e.key === 'ArrowRight' || e.key === 'ArrowLeft') {
-            const speed = Date.now() - lastKey;
-            let step = 1;
-            if(speed < 70) step = 4;
-            else if(speed < 130) step = 2;
-
-            if(step > 1) {
-                e.preventDefault();
-                let t = e.key === 'ArrowRight' ? curIdx + step : curIdx - step;
-                t = Math.max(0, Math.min(t, channels.length - 1));
-                strip.children[t].focus();
-            }
-        }
-    });
 
     init();
 </script>
