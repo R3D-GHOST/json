@@ -3,21 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>ULTRA LIGHT PRO - AUTO SCROLL</title>
+    <title>ULTRA LIGHT TV - LIVE</title>
     <style>
         :root {
             --bg: #050505;
-            --accent: #7d00ff;
-            --electric-blue: #00d4ff;
-            --card-w: 200px;
-            --card-h: 300px;
-            --focus-left: 5%; /* Posición fija del foco */
+            --accent: #00d4ff;
+            --card-w: 240px; /* Tamaño optimizado para TV */
+            --card-h: 140px; /* Formato 16:9 para canales */
+            --gap: 20px;
         }
 
         * { box-sizing: border-box; margin: 0; padding: 0; outline: none; }
 
         body {
-            font-family: 'Segoe UI', sans-serif;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
             background: var(--bg);
             color: #fff;
             overflow: hidden;
@@ -25,93 +24,130 @@
             width: 100vw;
         }
 
-        /* HEADER */
+        /* HEADER / HERO AREA */
         .header-hero {
-            height: 38vh;
+            height: 45vh;
             width: 100%;
-            background: linear-gradient(160deg, #0a0a20 0%, #000 100%);
+            background: linear-gradient(180deg, rgba(0,0,0,0) 0%, #050505 100%), 
+                        linear-gradient(90deg, #050505 30%, transparent 100%);
             display: flex;
             align-items: center;
             padding: 0 5%;
-            border-bottom: 3px solid var(--electric-blue);
             position: relative;
             z-index: 10;
+            overflow: hidden;
         }
 
         .hero-img {
             position: absolute;
             right: 0; top: 0;
-            width: 50%; height: 100%;
+            width: 60%; height: 100%;
             object-fit: cover;
+            z-index: -1;
+            opacity: 0.5;
             mask-image: linear-gradient(to left, black, transparent);
             -webkit-mask-image: linear-gradient(to left, black, transparent);
-            opacity: 0.6;
         }
 
-        .event-info { z-index: 2; max-width: 50%; }
-        .event-title { font-size: 3rem; font-weight: 900; text-transform: uppercase; line-height: 1; margin-bottom: 10px; }
-        .event-desc { color: var(--electric-blue); font-weight: bold; }
+        .event-info { z-index: 2; }
+        .event-title { 
+            font-size: 3.5rem; 
+            font-weight: 900; 
+            text-transform: uppercase; 
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 10px rgba(0,0,0,0.8);
+        }
+        .event-desc { 
+            color: var(--accent); 
+            font-size: 1.2rem; 
+            font-weight: bold; 
+            letter-spacing: 2px;
+        }
 
-        /* CONTENEDOR DE FILAS */
+        /* CONTENEDOR DE CANALES */
         .viewport-wrapper {
-            height: 62vh;
-            overflow: hidden;
-            position: relative;
+            height: 55vh;
+            padding-top: 20px;
         }
-
-        .viewport-content {
-            padding: 40px 0;
-            transition: transform 0.5s cubic-bezier(0.2, 1, 0.3, 1);
-            will-change: transform;
-        }
-
-        .row-container {
-            margin-bottom: 50px;
-            opacity: 0.3;
-            transition: opacity 0.4s;
-        }
-        .row-container.active { opacity: 1; }
 
         .row-title {
-            padding-left: 5%; font-size: 1.2rem; font-weight: bold;
-            color: var(--electric-blue); margin-bottom: 15px;
+            padding-left: 5%; 
+            font-size: 1.5rem; 
+            font-weight: bold;
+            color: #fff; 
+            margin-bottom: 20px;
             text-transform: uppercase;
+        }
+
+        .strip-container {
+            overflow: hidden;
+            width: 100%;
+            padding: 20px 0;
         }
 
         .strip {
             display: flex;
-            gap: 25px;
-            padding: 10px 5%;
-            transition: transform 0.5s cubic-bezier(0.2, 1, 0.3, 1);
+            gap: var(--gap);
+            padding: 0 5%;
+            transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1);
             will-change: transform;
         }
 
-        /* PORTADAS */
+        /* CARDS (CANALES) */
         .card {
             flex: 0 0 var(--card-w);
             height: var(--card-h);
-            background: #111;
-            border-radius: 8px;
+            background: #1a1a1a;
+            border-radius: 10px;
             border: 4px solid transparent;
-            overflow: hidden;
             position: relative;
-            transition: transform 0.3s;
+            transition: all 0.3s ease;
+            cursor: pointer;
         }
 
         .card:focus {
             border-color: #fff;
-            transform: scale(1.1);
-            z-index: 5;
-            box-shadow: 0 0 25px rgba(125, 0, 255, 0.5);
+            transform: scale(1.15);
+            z-index: 100;
+            box-shadow: 0 10px 30px rgba(0, 212, 255, 0.4);
         }
 
-        .card img { width: 100%; height: 100%; object-fit: cover; background: #1a1a1a; }
+        .card img { 
+            width: 100%; 
+            height: 100%; 
+            object-fit: contain; 
+            padding: 20px; 
+            background: #111;
+            border-radius: 6px;
+        }
 
         .card-t {
-            position: absolute; bottom: 0; width: 100%;
-            background: rgba(0,0,0,0.85);
-            font-size: 0.8rem; padding: 10px 5px; text-align: center;
-            white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+            position: absolute; 
+            bottom: -35px; 
+            width: 100%;
+            font-size: 1rem; 
+            text-align: center;
+            white-space: nowrap; 
+            overflow: hidden; 
+            text-overflow: ellipsis;
+            opacity: 0.7;
+        }
+
+        .card:focus .card-t {
+            opacity: 1;
+            font-weight: bold;
+            color: var(--accent);
+        }
+
+        /* RESPONSIVE PARA 720p y 1080p */
+        @media (min-width: 1920px) {
+            :root { --card-w: 300px; --card-h: 170px; }
+            .event-title { font-size: 4.5rem; }
+        }
+
+        @media (max-width: 1280px) {
+            :root { --card-w: 200px; --card-h: 115px; }
+            .event-title { font-size: 2.5rem; }
         }
     </style>
 </head>
@@ -120,134 +156,95 @@
 <div class="header-hero">
     <img id="hero-bg" class="hero-img" src="">
     <div class="event-info">
-        <div class="event-title" id="hero-name">TV PRO MAX</div>
-        <div class="event-desc" id="hero-status">Selecciona un contenido</div>
+        <div class="event-desc" id="hero-status">CARGANDO CANALES...</div>
+        <div class="event-title" id="hero-name">TV EN VIVO</div>
     </div>
 </div>
 
 <div class="viewport-wrapper">
-    <div class="viewport-content" id="viewport">
-        <div class="row-container active" id="row-0" data-index="0">
-            <div class="row-title">Canales en Vivo</div>
-            <div class="strip"></div>
-        </div>
-        <div class="row-container" id="row-1" data-index="1">
-            <div class="row-title">Cine</div>
-            <div class="strip"></div>
-        </div>
-        <div class="row-container" id="row-2" data-index="2">
-            <div class="row-title">Series</div>
-            <div class="strip"></div>
-        </div>
+    <div class="row-title" id="category-name">Canales de TV</div>
+    <div class="strip-container">
+        <div class="strip" id="channel-strip">
+            </div>
     </div>
 </div>
 
 <script>
-    const M3U = "https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/CV.m3u8";
-    const JS = "https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/data.json";
+    const M3U_URL = "https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/CV.m3u8";
+    const strip = document.getElementById('channel-strip');
+    let channels = [];
 
-    let db = { 0: [], 1: [], 2: [] };
-    let activeRowIndex = 0;
-    let cardPointers = [0, 0, 0]; // Guarda en qué carta estaba el usuario en cada fila
-
-    async function init() {
+    async function loadChannels() {
         try {
-            const [resM3U, resJS] = await Promise.all([
-                fetch(M3U).then(r => r.text()),
-                fetch(JS).then(r => r.json())
-            ]);
-
-            // Parseo M3U
-            const lines = resM3U.split('\n');
-            lines.forEach((l, i) => {
-                if(l.includes('#EXTINF')){
-                    db[0].push({
-                        t: l.split(',')[1]?.trim() || "Canal",
-                        img: l.match(/tvg-logo="([^"]+)"/)?.[1] || "",
-                        url: lines[i+1]?.trim()
-                    });
-                }
-            });
-
-            // Parseo JSON
-            resJS.forEach(item => {
-                const obj = { t: item.title, img: item.coverImage || item.img, url: item.video_url, raw: item };
-                item.episodes ? db[2].push(obj) : db[1].push(obj);
-            });
-
-            render();
-        } catch (e) { console.error(e); }
+            const response = await fetch(M3U_URL);
+            const data = await response.text();
+            parseM3U(data);
+        } catch (error) {
+            console.error("Error cargando M3U:", error);
+            document.getElementById('hero-status').innerText = "ERROR AL CARGAR";
+        }
     }
 
-    function render() {
-        [0, 1, 2].forEach(rIdx => {
-            const row = document.querySelector(`#row-${rIdx}`);
-            const strip = row.querySelector('.strip');
+    function parseM3U(content) {
+        const lines = content.split('\n');
+        for (let i = 0; i < lines.length; i++) {
+            if (lines[i].includes('#EXTINF')) {
+                const info = lines[i];
+                const url = lines[i + 1]?.trim();
+                
+                if (url && url.startsWith('http')) {
+                    const name = info.split(',')[1]?.trim() || "Canal sin nombre";
+                    const logo = info.match(/tvg-logo="([^"]+)"/)?.[1] || "";
+                    
+                    channels.push({ name, logo, url });
+                }
+            }
+        }
+        renderChannels();
+    }
 
-            db[rIdx].forEach((item, cIdx) => {
-                const card = document.createElement('div');
-                card.className = 'card';
-                card.tabIndex = 0;
-                card.innerHTML = `<img src="${item.img}" loading="lazy"><div class="card-t">${item.t}</div>`;
+    function renderChannels() {
+        if (channels.length === 0) return;
+        
+        document.getElementById('hero-status').innerText = "LISTO PARA VER";
 
-                card.onfocus = () => {
-                    activeRowIndex = rIdx;
-                    cardPointers[rIdx] = cIdx;
+        channels.forEach((ch, idx) => {
+            const card = document.createElement('div');
+            card.className = 'card';
+            card.tabIndex = 0;
+            card.innerHTML = `
+                <img src="${ch.logo}" onerror="this.src='https://via.placeholder.com/300x170?text=TV'" loading="lazy">
+                <div class="card-t">${ch.name}</div>
+            `;
 
-                    // ACTUALIZAR HERO
-                    document.getElementById('hero-name').innerText = item.t;
-                    document.getElementById('hero-bg').src = item.img;
-                    document.getElementById('hero-status').innerText = rIdx === 0 ? "Transmisión en Vivo" : "Presiona OK para ver";
+            card.onfocus = () => {
+                // Actualizar Hero
+                document.getElementById('hero-name').innerText = ch.name;
+                document.getElementById('hero-bg').src = ch.logo;
+                
+                // Centrado dinámico (el canal enfocado se mueve a la izquierda)
+                const moveX = idx * (card.offsetWidth + 20); 
+                strip.style.transform = `translateX(${-moveX}px)`;
+            };
 
-                    // MOVER LA FILA (Efecto: las portadas se mueven, el foco queda a la izquierda)
-                    const moveX = cIdx * (200 + 25); // ancho carta + gap
-                    strip.style.transform = `translateX(${-moveX}px)`;
+            card.onkeydown = (e) => {
+                if (e.key === 'Enter') {
+                    // Abrir el stream
+                    window.location.href = ch.url;
+                }
+            };
 
-                    // MOVER EL VIEWPORT (Efecto: las filas suben/bajan)
-                    const moveY = rIdx * 350; // altura fila aprox
-                    document.getElementById('viewport').style.transform = `translateY(${-moveY}px)`;
-
-                    // Marcar fila activa
-                    document.querySelectorAll('.row-container').forEach((rc, idx) => {
-                        rc.classList.toggle('active', idx === rIdx);
-                    });
-                };
-
-                card.onkeydown = (e) => {
-                    if (e.key === 'Enter') {
-                        if (item.raw?.episodes) {
-                            localStorage.setItem("serie", JSON.stringify(item.raw));
-                            window.location.href = "caps.html";
-                        } else { window.location.href = item.url; }
-                    }
-
-                    // Navegación Vertical Optimizada
-                    if (e.key === 'ArrowDown' && rIdx < 2) {
-                        e.preventDefault();
-                        const nextRow = document.querySelector(`#row-${rIdx + 1} .strip`);
-                        const targetCard = nextRow.children[cardPointers[rIdx + 1]] || nextRow.children[0];
-                        if(targetCard) targetCard.focus();
-                    }
-                    if (e.key === 'ArrowUp' && rIdx > 0) {
-                        e.preventDefault();
-                        const prevRow = document.querySelector(`#row-${rIdx - 1} .strip`);
-                        const targetCard = prevRow.children[cardPointers[rIdx - 1]] || prevRow.children[0];
-                        if(targetCard) targetCard.focus();
-                    }
-                };
-
-                strip.appendChild(card);
-            });
+            strip.appendChild(card);
         });
 
-        // Foco inicial automático
+        // Foco inicial
         setTimeout(() => {
-            const first = document.querySelector('.card');
-            if(first) first.focus();
-        }, 500);
+            strip.children[0]?.focus();
+        }, 300);
     }
 
-    init();
+    loadChannels();
 </script>
+
 </body>
 </html>
