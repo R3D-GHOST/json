@@ -3,133 +3,145 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>ULTRA LIGHT TV PRO</title>
+    <title>ULTRA SPEED TV</title>
     <style>
         :root {
-            --bg: #020202;
+            --bg: #000;
             --accent: #00d4ff;
-            --card-w: 260px;
-            --card-h: 146px;
-            --gap: 20px;
+            --card-w: 250px;
+            --card-h: 140px;
         }
 
-        * { box-sizing: border-box; margin: 0; padding: 0; outline: none; -webkit-tap-highlight-color: transparent; }
+        * { box-sizing: border-box; margin: 0; padding: 0; outline: none; }
 
         body {
             background: var(--bg);
             color: #fff;
-            font-family: 'Segoe UI', Roboto, sans-serif;
+            font-family: sans-serif;
             overflow: hidden;
             height: 100vh;
-            width: 100vw;
         }
 
-        /* Capa de fondo fija para no procesar capas pesadas */
-        .bg-overlay {
-            position: fixed;
-            top: 0; left: 0; width: 100%; height: 100%;
-            background: radial-gradient(circle at top right, #111, #020202);
-            z-index: -2;
-        }
-
-        /* HEADER HERO - Simplificado para rendimiento */
+        /* Hero simplificado para no gastar CPU */
         .hero {
-            height: 45vh;
-            padding: 40px 5%;
+            height: 40vh;
+            padding: 50px;
             display: flex;
             flex-direction: column;
-            justify-content: flex-end;
-            position: relative;
+            justify-content: center;
+            background: linear-gradient(0deg, #000 0%, transparent 100%);
         }
 
-        .hero-title { font-size: 3.5rem; font-weight: 800; text-transform: uppercase; margin-bottom: 10px; }
-        .hero-status { color: var(--accent); font-weight: bold; letter-spacing: 3px; font-size: 1rem; }
+        .hero-name { font-size: 4rem; font-weight: bold; text-shadow: 0 4px 10px #000; }
+        .hero-status { color: var(--accent); letter-spacing: 2px; font-size: 0.9rem; }
 
-        /* CONTENEDOR DE ALTO RENDIMIENTO */
+        /* Contenedor principal */
         .viewport {
-            height: 55vh;
-            width: 100%;
-            overflow: hidden;
+            height: 60vh;
             position: relative;
+            overflow: hidden;
         }
 
         .strip {
             display: flex;
-            padding-left: 5%;
-            transform: translate3d(0, 0, 0); /* Force GPU */
-            transition: transform 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+            padding-left: 50px;
             will-change: transform;
+            transition: transform 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
             align-items: center;
+            height: 300px;
         }
 
         .card {
             flex: 0 0 var(--card-w);
             height: var(--card-h);
-            margin-right: var(--gap);
+            margin-right: 20px;
             background: #111;
-            border-radius: 12px;
-            border: 4px solid #1a1a1a;
+            border-radius: 15px;
+            border: 3px solid #222;
             position: relative;
-            transform: scale(0.95);
-            transition: transform 0.2s, border-color 0.2s;
+            transition: transform 0.2s;
+            /* Círculo de carga mientras no hay imagen */
+            display: flex;
+            align-items: center;
+            justify-content: center;
             overflow: hidden;
         }
 
+        /* Efecto de fondo difuminado dentro de la card */
+        .card-bg {
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            filter: blur(0px);
+            transition: opacity 0.3s;
+            opacity: 0;
+            z-index: 1;
+        }
+
+        .card.loaded .card-bg { opacity: 1; }
+
+        /* Círculo de carga (estética APK) */
+        .card::before {
+            content: "";
+            width: 40px;
+            height: 40px;
+            border: 3px solid #333;
+            border-top-color: var(--accent);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            position: absolute;
+            z-index: 0;
+        }
+
+        .card.loaded::before { display: none; }
+
         .card:focus {
-            transform: scale(1.1);
+            transform: scale(1.15);
             border-color: #fff;
             z-index: 10;
-            box-shadow: 0 0 30px rgba(0, 212, 255, 0.3);
         }
 
-        .card img {
-            width: 100%; height: 100%;
-            object-fit: contain;
-            padding: 15px;
-            pointer-events: none;
+        .card-info {
+            position: absolute;
+            bottom: -45px;
+            width: 100%;
+            text-align: center;
+            font-weight: bold;
+            font-size: 1rem;
+            opacity: 0.6;
         }
 
-        .card-label {
-            position: absolute; bottom: 0; width: 100%;
-            background: rgba(0,0,0,0.7);
-            padding: 5px; font-size: 0.8rem; text-align: center;
-            opacity: 0; transition: opacity 0.2s;
-        }
+        .card:focus .card-info { opacity: 1; color: var(--accent); }
 
-        .card:focus .card-label { opacity: 1; }
-
-        /* Optimización: Ocultar cards fuera de vista */
-        .virtual-off { visibility: hidden; pointer-events: none; }
+        @keyframes spin { to { transform: rotate(360deg); } }
     </style>
 </head>
 <body>
 
-<div class="bg-overlay"></div>
-
 <div class="hero">
-    <div id="h-status" class="hero-status">CARGANDO SISTEMA...</div>
-    <div id="h-title" class="hero-title">LIVE TV</div>
+    <div class="hero-status" id="status">SISTEMA ULTRA-LIGHT</div>
+    <div class="hero-name" id="current-name">TV LIVE</div>
 </div>
 
 <div class="viewport">
-    <div class="strip" id="main-strip"></div>
+    <div class="strip" id="strip"></div>
 </div>
 
 <script>
     const M3U_URL = "https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/CV.m3u8";
-    const strip = document.getElementById('main-strip');
+    const strip = document.getElementById('strip');
     let channels = [];
     let curIdx = 0;
-    let lastKey = 0;
+    let lastKeyTime = 0;
 
-    async function init() {
+    async function load() {
         try {
-            const res = await fetch(M3U_URL);
-            const text = await res.text();
-            parse(text);
-        } catch(e) { 
-            document.getElementById('h-status').innerText = "ERROR DE CARGA";
-        }
+            const r = await fetch(M3U_URL);
+            const d = await r.text();
+            parse(d);
+        } catch(e) { document.getElementById('status').innerText = "ERROR RED"; }
     }
 
     function parse(data) {
@@ -146,81 +158,88 @@
     }
 
     function render() {
-        const fragment = document.createDocumentFragment();
+        const frag = document.createDocumentFragment();
         channels.forEach((ch, i) => {
-            const div = document.createElement('div');
-            div.className = 'card';
-            div.tabIndex = 0;
-            div.dataset.index = i;
-            div.innerHTML = `<img src="" data-src="${ch.logo}"><div class="card-label">${ch.name}</div>`;
+            const card = document.createElement('div');
+            card.className = 'card';
+            card.tabIndex = 0;
+            card.innerHTML = `<div class="card-bg"></div><div class="card-info">${ch.name}</div>`;
             
-            div.onfocus = () => handleMove(i);
-            div.onkeydown = (e) => { if(e.key === 'Enter') window.location.href = ch.url; };
-            fragment.appendChild(div);
+            card.onfocus = () => {
+                curIdx = i;
+                moveStrip(i);
+                document.getElementById('current-name').innerText = ch.name;
+            };
+            
+            card.onkeydown = (e) => { if(e.key === 'Enter') window.location.href = ch.url; };
+            frag.appendChild(card);
         });
-        strip.appendChild(fragment);
-        document.getElementById('h-status').innerText = "SISTEMA LISTO";
-        setTimeout(() => strip.children[0]?.focus(), 500);
+        strip.appendChild(frag);
+        setTimeout(() => {
+            strip.children[0]?.focus();
+            manageMemory();
+        }, 100);
     }
 
-    function handleMove(idx) {
+    function moveStrip(idx) {
         const now = Date.now();
-        const delta = now - lastKey;
-        lastKey = now;
+        const diff = now - lastKeyTime;
+        lastKeyTime = now;
 
-        curIdx = idx;
-        const width = 260 + 20; // card + gap
-        strip.style.transform = `translate3d(${-idx * width}px, 0, 0)`;
+        const offset = -(idx * (250 + 20));
+        strip.style.transform = `translateX(${offset}px)`;
 
-        // Actualizar Info Hero
-        document.getElementById('h-title').innerText = channels[idx].name;
-
-        // MOTOR DE MEMORIA (Virtualización)
-        // Solo procesamos si el usuario no está "volando" por la lista
-        if (delta > 50) { 
-            manageMemory(idx);
-        }
+        // Si navegamos normal, actualizamos RAM rápido. Si volamos, esperamos.
+        clearTimeout(window.moveTO);
+        window.moveTO = setTimeout(manageMemory, diff < 100 ? 150 : 0);
     }
 
-    function manageMemory(centerIdx) {
+    function manageMemory() {
         const cards = strip.children;
-        const range = 6; // Cuántas cards tener listas alrededor
+        const buffer = 4; // Cuántas imágenes cargar alrededor
 
         for(let i=0; i<cards.length; i++) {
             const card = cards[i];
-            const img = card.querySelector('img');
-            const isVisible = Math.abs(i - centerIdx) <= range;
+            const bg = card.querySelector('.card-bg');
+            const dist = Math.abs(i - curIdx);
 
-            if (isVisible) {
-                card.classList.remove('virtual-off');
-                if(!img.src) img.src = img.dataset.src;
+            if(dist <= buffer) {
+                if(!card.classList.contains('loaded')) {
+                    const img = new Image();
+                    img.src = channels[i].logo;
+                    img.onload = () => {
+                        bg.style.backgroundImage = `url(${channels[i].logo})`;
+                        card.classList.add('loaded');
+                    };
+                }
             } else {
-                card.classList.add('virtual-off');
-                img.src = ""; // Flush RAM
+                // Borrar para liberar RAM
+                bg.style.backgroundImage = "";
+                card.classList.remove('loaded');
             }
         }
     }
 
-    // Navegación inteligente por velocidad
+    // Navegación inteligente de 2 en 2 o 4 en 4
     window.addEventListener('keydown', (e) => {
         if(e.key === 'ArrowRight' || e.key === 'ArrowLeft') {
             const now = Date.now();
-            const speed = now - lastKey;
-            let step = 1;
+            const delta = now - lastKeyTime;
+            let jump = 1;
 
-            if(speed < 80) step = 4; // Vuela si presionas muy rápido
-            else if(speed < 150) step = 2; // Salta de 2 en 2
+            if(delta < 80) jump = 4;
+            else if(delta < 150) jump = 2;
 
-            if(step > 1) {
+            if(jump > 1) {
                 e.preventDefault();
-                let target = e.key === 'ArrowRight' ? curIdx + step : curIdx - step;
+                let target = e.key === 'ArrowRight' ? curIdx + jump : curIdx - jump;
                 target = Math.max(0, Math.min(target, channels.length - 1));
                 strip.children[target].focus();
             }
         }
     });
 
-    init();
+    load();
 </script>
 
 </body>
