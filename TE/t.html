@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>ULTRA MINIMAL TV</title>
+    <title>ULTRA LOGO TV PRO</title>
     <style>
         :root {
             --bg: #000;
@@ -22,35 +22,35 @@
             height: 100vh;
         }
 
-        /* Hero Minimal */
+        /* Hero Area */
         .hero {
-            height: 40vh;
+            height: 45vh;
             display: flex;
             flex-direction: column;
             justify-content: center;
-            align-items: center;
-            text-align: center;
-            background: radial-gradient(circle at center, #111 0%, #000 100%);
+            padding: 0 10%;
+            background: radial-gradient(circle at 80% 20%, #111 0%, #000 80%);
         }
 
-        .hero-name { font-size: 2.5rem; font-weight: 800; text-transform: uppercase; margin-top: 10px; }
-        
-        /* Contenedor de Cubos */
+        .hero-status { color: var(--accent); font-weight: bold; font-size: 0.9rem; letter-spacing: 2px; }
+        .hero-title { font-size: 3rem; font-weight: 900; margin-top: 5px; text-transform: uppercase; }
+
+        /* Contenedor de bloque (4 canales) */
         .viewport {
-            height: 60vh;
+            height: 55vh;
             display: flex;
             justify-content: center;
-            perspective: 1000px;
+            align-items: flex-start;
         }
 
-        #main-container {
+        .grid-block {
             display: flex;
-            gap: 20px;
-            transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
-            will-change: transform, opacity;
+            gap: 25px;
+            padding-top: 20px;
+            transform: translate3d(0,0,0);
         }
 
-        /* Estilo de la Card (Cubo) */
+        /* Card Estilo Cubo con Logo Circular */
         .card {
             width: var(--card-w);
             height: var(--card-h);
@@ -58,85 +58,99 @@
             border-radius: 20px;
             border: 2px solid #1a1a1a;
             position: relative;
+            overflow: hidden;
             display: flex;
             align-items: center;
             justify-content: center;
-            overflow: hidden;
-            transition: transform 0.3s, border-color 0.3s, box-shadow 0.3s;
+            transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), border-color 0.3s;
         }
 
         .card:focus {
-            transform: scale(1.1) translateZ(20px);
+            transform: scale(1.15);
             border-color: var(--accent);
-            box-shadow: 0 0 40px rgba(0, 212, 255, 0.2);
             z-index: 10;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.8);
         }
 
-        /* Círculo del Logo */
-        .logo-box {
-            width: 70px;
-            height: 70px;
-            background: #111;
-            border-radius: 50%;
-            border: 2px solid #222;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            z-index: 2;
-        }
-
-        .logo-box img { width: 60%; height: 60%; object-fit: contain; }
-
-        /* Fondo difuminado dinámico */
+        /* Fondo Difuminado (TV-LOGO Blur) */
         .card-blur {
             position: absolute;
-            width: 100%; height: 100%;
+            top: 0; left: 0; width: 100%; height: 100%;
             background-size: cover;
             background-position: center;
-            filter: blur(10px);
-            opacity: 0.3;
+            filter: blur(12px) brightness(0.4);
             z-index: 1;
         }
 
-        /* Animación de Carga */
-        .loading-spin {
-            position: absolute;
-            width: 30px; height: 30px;
-            border: 2px solid transparent;
-            border-top: 2px solid var(--accent);
+        /* Logo Circular Nítido */
+        .logo-circle {
+            width: 85px;
+            height: 85px;
+            background: #fff;
             border-radius: 50%;
-            animation: spin 0.6s linear infinite;
+            z-index: 2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 4px solid rgba(255,255,255,0.2);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+            overflow: hidden;
         }
 
-        @keyframes spin { to { transform: rotate(360deg); } }
+        .logo-circle img {
+            width: 75%; height: 75%;
+            object-fit: contain;
+        }
 
-        .hidden { display: none; }
+        /* Animación de carga sutil */
+        .card.loading .logo-circle {
+            animation: pulse 1.5s infinite;
+        }
+
+        @keyframes pulse {
+            0% { opacity: 0.5; }
+            50% { opacity: 1; }
+            100% { opacity: 0.5; }
+        }
+
+        .card-name {
+            position: absolute;
+            bottom: 10px;
+            font-size: 0.75rem;
+            font-weight: bold;
+            color: #fff;
+            z-index: 3;
+            text-shadow: 0 2px 4px #000;
+            background: rgba(0,0,0,0.4);
+            padding: 2px 8px;
+            border-radius: 10px;
+        }
     </style>
 </head>
 <body>
 
 <div class="hero">
-    <div style="color: var(--accent); font-weight: bold; font-size: 0.8rem;" id="h-info">LIVE STREAM</div>
-    <div class="hero-name" id="h-title">CARGANDO...</div>
+    <div class="hero-status" id="h-status">CARGANDO...</div>
+    <div class="hero-title" id="h-title">SISTEMA TV</div>
 </div>
 
 <div class="viewport">
-    <div id="main-container"></div>
+    <div class="grid-block" id="grid"></div>
 </div>
 
 <script>
     const M3U_URL = "https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/CV.m3u8";
-    const container = document.getElementById('main-container');
+    const grid = document.getElementById('grid');
     let channels = [];
     let currentBlock = 0;
-    const BLOCK_SIZE = 4;
+    const SIZE = 4; // Renderizar de 4 en 4
 
-    async function init() {
+    async function load() {
         try {
-            const res = await fetch(M3U_URL);
-            const data = await res.text();
-            parse(data);
-        } catch(e) { document.getElementById('h-title').innerText = "ERROR"; }
+            const r = await fetch(M3U_URL);
+            const d = await r.text();
+            parse(d);
+        } catch(e) { document.getElementById('h-status').innerText = "ERROR DE CARGA"; }
     }
 
     function parse(data) {
@@ -149,62 +163,53 @@
                 if(url && url.startsWith('http')) channels.push({name, logo, url});
             }
         }
-        renderBlock(0);
+        render(0);
     }
 
-    function renderBlock(blockIndex) {
-        // LIMPIEZA TOTAL DE RAM: Borrar nodos anteriores
-        container.innerHTML = ''; 
-        
-        const start = blockIndex * BLOCK_SIZE;
-        const end = Math.min(start + BLOCK_SIZE, channels.length);
+    function render(blockIdx) {
+        // Limpieza de RAM agresiva: eliminamos los nodos anteriores del DOM
+        grid.innerHTML = '';
+        const start = blockIdx * SIZE;
+        const end = Math.min(start + SIZE, channels.length);
 
-        for(let i = start; i < end; i++) {
+        for(let i=start; i<end; i++) {
             const ch = channels[i];
             const card = document.createElement('div');
-            card.className = 'card';
+            card.className = 'card loading';
             card.tabIndex = 0;
             card.innerHTML = `
                 <div class="card-blur" style="background-image: url('${ch.logo}')"></div>
-                <div class="loading-spin"></div>
-                <div class="logo-box"><img src="${ch.logo}" onload="this.parentElement.previousElementSibling.style.display='none'"></div>
+                <div class="logo-circle"><img src="${ch.logo}" onload="this.closest('.card').classList.remove('loading')"></div>
+                <div class="card-name">${ch.name}</div>
             `;
 
             card.onfocus = () => {
                 document.getElementById('h-title').innerText = ch.name;
-                document.getElementById('h-info').innerText = `BLOQUE ${blockIndex + 1} | CANAL ${i + 1}`;
+                document.getElementById('h-status').innerText = `BLOQUE ${blockIdx + 1} | CANAL ${i + 1}`;
             };
 
             card.onkeydown = (e) => {
                 if(e.key === 'Enter') window.location.href = ch.url;
                 
-                // Lógica de salto de bloque
-                if(e.key === 'ArrowRight' && i === end - 1) {
-                    if((blockIndex + 1) * BLOCK_SIZE < channels.length) {
-                        currentBlock++;
-                        renderBlock(currentBlock);
-                    }
+                // Salto de bloque derecha
+                if(e.key === 'ArrowRight' && i === end - 1 && end < channels.length) {
+                    currentBlock++;
+                    render(currentBlock);
                 }
-                if(e.key === 'ArrowLeft' && i === start) {
-                    if(blockIndex > 0) {
-                        currentBlock--;
-                        renderBlock(currentBlock);
-                        // Enfocar el último del bloque anterior
-                        setTimeout(() => container.children[BLOCK_SIZE-1].focus(), 10);
-                    }
+                // Salto de bloque izquierda
+                if(e.key === 'ArrowLeft' && i === start && blockIdx > 0) {
+                    currentBlock--;
+                    render(currentBlock);
+                    setTimeout(() => grid.children[SIZE-1].focus(), 5);
                 }
             };
 
-            container.appendChild(card);
+            grid.appendChild(card);
         }
-
-        // Foco inicial del bloque
-        if (container.children.length > 0) {
-            container.children[0].focus();
-        }
+        grid.children[0]?.focus();
     }
 
-    init();
+    load();
 </script>
 
 </body>
