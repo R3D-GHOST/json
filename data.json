@@ -1,6 +1,34 @@
 [
   
   {
+    "title": "Tougen Anki",
+    "original_title": "Tougen Anki: Dark Demon of the Momotaro",
+    "genre": ["Animación", "Acción", "Fantasía", "Sobrenatural"],
+    "coverImage": "https://image.tmdb.org/t/p/original/vnasRNhwT5M3OvTAMzYn4i5fQcT.jpg",
+    "description": "Shiki Ichinose, un adolescente rebelde, descubre que posee sangre de Oni (demonio). Tras un ataque de los Momotaro, guardianes que buscan exterminar a los Oni, Shiki se une a una academia para aprender a controlar sus poderes y descubrir la verdad sobre su linaje.",
+    "episodes": [
+      { "episode": 1, "title": "Episodio 1", "video_url": "http://pomf2.lain.la/f/wkh6w5ym.mp4" },
+      { "episode": 2, "title": "Episodio 2", "video_url": "http://pomf2.lain.la/f/ynas92i8.mp4" },
+      { "episode": 3, "title": "Episodio 3", "video_url": "http://pomf2.lain.la/f/9yewblox.mp4" },
+      { "episode": 4, "title": "Episodio 4", "video_url": "http://pomf2.lain.la/f/1cb15dh0.mp4" },
+      { "episode": 5, "title": "Episodio 5", "video_url": "http://pomf2.lain.la/f/3eg90fe.mp4" },
+      { "episode": 6, "title": "Episodio 6", "video_url": "http://pomf2.lain.la/f/98aj57.mp4" },
+      { "episode": 7, "title": "Episodio 7", "video_url": "http://pomf2.lain.la/f/o69eurh.mp4" },
+      { "episode": 8, "title": "Episodio 8", "video_url": "http://pomf2.lain.la/f/1xq6xob4.mp4" },
+      { "episode": 9, "title": "Episodio 9", "video_url": "http://pomf2.lain.la/f/k5wb1spw.mp4" },
+      { "episode": 10, "title": "Episodio 10", "video_url": "http://pomf2.lain.la/f/5ix0mpr.mp4" },
+      { "episode": 11, "title": "Episodio 11", "video_url": "http://pomf2.lain.la/f/pmrzxsy.g.mp4" },
+      { "episode": 12, "title": "Episodio 12", "video_url": "http://pomf2.lain.la/f/qg9mnxo.mp4" },
+      { "episode": 13, "title": "Episodio 13", "video_url": "http://pomf2.lain.la/f/vm3bqi0m.mp4" },
+      { "episode": 14, "title": "Episodio 14", "video_url": "http://pomf2.lain.la/f/ni3an2ay.mp4" },
+      { "episode": 15, "title": "Episodio 15", "video_url": "http://pomf2.lain.la/f/o86zrpnc.mp4" },
+      { "episode": 16, "title": "Episodio 16", "video_url": "http://pomf2.lain.la/f/vm3bqi0m.mp4" },
+      { "episode": 17, "title": "Episodio 17", "video_url": "http://pomf2.lain.la/f/59shtm8l.mp4" },
+      { "episode": 18, "title": "Episodio 18", "video_url": "http://pomf2.lain.la/f/3knh26.mp4" }
+    ]
+  },
+  
+  {
     "title": "Five Nights at Freddy's 2",
     "description": "Mike Schmidt regresa para enfrentarse a nuevos horrores en la pizzería abandonada. En esta ocasión, la introducción de los modelos 'Toy' y la revelación de secretos más oscuros sobre el pasado de Fazbear Entertainment pondrán a prueba su cordura y su instinto de supervivencia durante cinco noches aún más aterradoras.",
     "year": 2025,
