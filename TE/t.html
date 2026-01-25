@@ -2,64 +2,104 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TV MINIMAL PRO</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>ULTRA LIGHT TV - LIVE</title>
     <style>
         :root {
-            --bg: #000;
+            --bg: #050505;
             --accent: #00d4ff;
-            --card-w: 260px;
-            --card-h: 150px;
+            --card-w: 240px; /* Tamaño optimizado para TV */
+            --card-h: 140px; /* Formato 16:9 para canales */
             --gap: 20px;
         }
 
+        * { box-sizing: border-box; margin: 0; padding: 0; outline: none; }
+
         body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
             background: var(--bg);
             color: #fff;
-            font-family: 'Segoe UI', sans-serif;
-            margin: 0;
             overflow: hidden;
             height: 100vh;
+            width: 100vw;
         }
 
-        /* Hero minimalista */
-        .hero {
-            height: 40vh;
-            padding: 40px 5%;
+        /* HEADER / HERO AREA */
+        .header-hero {
+            height: 45vh;
+            width: 100%;
+            background: linear-gradient(180deg, rgba(0,0,0,0) 0%, #050505 100%), 
+                        linear-gradient(90deg, #050505 30%, transparent 100%);
             display: flex;
-            flex-direction: column;
-            justify-content: flex-end;
-            background: linear-gradient(0deg, #000 0%, transparent 100%);
-        }
-
-        #hero-title { font-size: 3.5rem; margin: 0; font-weight: 800; text-transform: uppercase; }
-        #hero-tag { color: var(--accent); font-size: 1.2rem; letter-spacing: 3px; margin-bottom: 10px; }
-
-        /* Contenedor de canales */
-        .main-container {
-            height: 60vh;
+            align-items: center;
             padding: 0 5%;
+            position: relative;
+            z-index: 10;
             overflow: hidden;
         }
 
-        .strip-wrapper {
-            position: relative;
+        .hero-img {
+            position: absolute;
+            right: 0; top: 0;
+            width: 60%; height: 100%;
+            object-fit: cover;
+            z-index: -1;
+            opacity: 0.5;
+            mask-image: linear-gradient(to left, black, transparent);
+            -webkit-mask-image: linear-gradient(to left, black, transparent);
+        }
+
+        .event-info { z-index: 2; }
+        .event-title { 
+            font-size: 3.5rem; 
+            font-weight: 900; 
+            text-transform: uppercase; 
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 10px rgba(0,0,0,0.8);
+        }
+        .event-desc { 
+            color: var(--accent); 
+            font-size: 1.2rem; 
+            font-weight: bold; 
+            letter-spacing: 2px;
+        }
+
+        /* CONTENEDOR DE CANALES */
+        .viewport-wrapper {
+            height: 55vh;
+            padding-top: 20px;
+        }
+
+        .row-title {
+            padding-left: 5%; 
+            font-size: 1.5rem; 
+            font-weight: bold;
+            color: #fff; 
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+
+        .strip-container {
+            overflow: hidden;
             width: 100%;
-            transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+            padding: 20px 0;
         }
 
         .strip {
             display: flex;
             gap: var(--gap);
+            padding: 0 5%;
+            transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+            will-change: transform;
         }
 
-        /* Estilo de Tarjeta */
+        /* CARDS (CANALES) */
         .card {
             flex: 0 0 var(--card-w);
             height: var(--card-h);
-            background: #0a0a0a;
-            border-radius: 8px;
-            border: 3px solid transparent;
+            background: #1a1a1a;
+            border-radius: 10px;
+            border: 4px solid transparent;
             position: relative;
             transition: all 0.3s ease;
             cursor: pointer;
@@ -67,87 +107,129 @@
 
         .card:focus {
             border-color: #fff;
-            transform: scale(1.08);
-            z-index: 10;
+            transform: scale(1.15);
+            z-index: 100;
+            box-shadow: 0 10px 30px rgba(0, 212, 255, 0.4);
         }
 
-        .card img {
-            width: 100%; height: 100%;
-            object-fit: contain; padding: 15px;
-            opacity: 0; transition: opacity 0.6s ease;
+        .card img { 
+            width: 100%; 
+            height: 100%; 
+            object-fit: contain; 
+            padding: 20px; 
+            background: #111;
+            border-radius: 6px;
         }
 
-        .card img.visible { opacity: 1; }
-
-        .card-label {
-            position: absolute; bottom: -35px; width: 100%;
-            text-align: center; font-size: 0.9rem; color: #888;
+        .card-t {
+            position: absolute; 
+            bottom: -35px; 
+            width: 100%;
+            font-size: 1rem; 
+            text-align: center;
+            white-space: nowrap; 
+            overflow: hidden; 
+            text-overflow: ellipsis;
+            opacity: 0.7;
         }
 
-        .card:focus .card-label { color: #fff; font-weight: bold; }
+        .card:focus .card-t {
+            opacity: 1;
+            font-weight: bold;
+            color: var(--accent);
+        }
 
+        /* RESPONSIVE PARA 720p y 1080p */
+        @media (min-width: 1920px) {
+            :root { --card-w: 300px; --card-h: 170px; }
+            .event-title { font-size: 4.5rem; }
+        }
+
+        @media (max-width: 1280px) {
+            :root { --card-w: 200px; --card-h: 115px; }
+            .event-title { font-size: 2.5rem; }
+        }
     </style>
 </head>
 <body>
 
-<div class="hero">
-    <div id="hero-tag">EN VIVO</div>
-    <h1 id="hero-title">CARGANDO...</h1>
+<div class="header-hero">
+    <img id="hero-bg" class="hero-img" src="">
+    <div class="event-info">
+        <div class="event-desc" id="hero-status">CARGANDO CANALES...</div>
+        <div class="event-title" id="hero-name">TV EN VIVO</div>
+    </div>
 </div>
 
-<div class="main-container">
-    <div class="strip-wrapper" id="wrapper">
-        <div class="strip" id="strip"></div>
+<div class="viewport-wrapper">
+    <div class="row-title" id="category-name">Canales de TV</div>
+    <div class="strip-container">
+        <div class="strip" id="channel-strip">
+            </div>
     </div>
 </div>
 
 <script>
     const M3U_URL = "https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/CV.m3u8";
-    const strip = document.getElementById('strip');
-    const wrapper = document.getElementById('wrapper');
-    const heroTitle = document.getElementById('hero-title');
+    const strip = document.getElementById('channel-strip');
+    let channels = [];
 
-    async function initTV() {
+    async function loadChannels() {
         try {
-            const res = await fetch(M3U_URL);
-            const data = await res.text();
-            const channels = parseM3U(data);
-            render(channels);
-        } catch (err) {
-            heroTitle.innerText = "ERROR DE CONEXIÓN";
+            const response = await fetch(M3U_URL);
+            const data = await response.text();
+            parseM3U(data);
+        } catch (error) {
+            console.error("Error cargando M3U:", error);
+            document.getElementById('hero-status').innerText = "ERROR AL CARGAR";
         }
     }
 
-    function parseM3U(text) {
-        const lines = text.split('\n');
-        const list = [];
+    function parseM3U(content) {
+        const lines = content.split('\n');
         for (let i = 0; i < lines.length; i++) {
             if (lines[i].includes('#EXTINF')) {
-                list.push({
-                    name: lines[i].split(',')[1]?.trim() || "Canal",
-                    logo: lines[i].match(/tvg-logo="([^"]+)"/)?.[1] || "",
-                    url: lines[i+1]?.trim()
-                });
+                const info = lines[i];
+                const url = lines[i + 1]?.trim();
+                
+                if (url && url.startsWith('http')) {
+                    const name = info.split(',')[1]?.trim() || "Canal sin nombre";
+                    const logo = info.match(/tvg-logo="([^"]+)"/)?.[1] || "";
+                    
+                    channels.push({ name, logo, url });
+                }
             }
         }
-        return list;
+        renderChannels();
     }
 
-    function render(list) {
-        list.forEach((ch, idx) => {
+    function renderChannels() {
+        if (channels.length === 0) return;
+        
+        document.getElementById('hero-status').innerText = "LISTO PARA VER";
+
+        channels.forEach((ch, idx) => {
             const card = document.createElement('div');
             card.className = 'card';
             card.tabIndex = 0;
-            card.innerHTML = `<img data-src="${ch.logo}"><div class="card-label">${ch.name}</div>`;
+            card.innerHTML = `
+                <img src="${ch.logo}" onerror="this.src='https://via.placeholder.com/300x170?text=TV'" loading="lazy">
+                <div class="card-t">${ch.name}</div>
+            `;
 
             card.onfocus = () => {
-                heroTitle.innerText = ch.name;
-                moveGrid(idx);
-                loadImagesQueue(idx);
+                // Actualizar Hero
+                document.getElementById('hero-name').innerText = ch.name;
+                document.getElementById('hero-bg').src = ch.logo;
+                
+                // Centrado dinámico (el canal enfocado se mueve a la izquierda)
+                const moveX = idx * (card.offsetWidth + 20); 
+                strip.style.transform = `translateX(${-moveX}px)`;
             };
 
-            card.onclick = card.onkeydown = (e) => {
-                if (e.type === 'click' || e.key === 'Enter') {
+            card.onkeydown = (e) => {
+                if (e.key === 'Enter') {
+                    // Abrir el stream
                     window.location.href = ch.url;
                 }
             };
@@ -156,35 +238,13 @@
         });
 
         // Foco inicial
-        setTimeout(() => strip.children[0]?.focus(), 500);
+        setTimeout(() => {
+            strip.children[0]?.focus();
+        }, 300);
     }
 
-    // Scroll de 4 en 4
-    function moveGrid(idx) {
-        const blockSize = 4;
-        const currentBlock = Math.floor(idx / blockSize);
-        const cardWidth = 260 + 20; // Ancho + Gap
-        const offset = currentBlock * (cardWidth * blockSize);
-        wrapper.style.transform = `translateX(${-offset}px)`;
-    }
-
-    // Carga de imágenes 2 en 2
-    function loadImagesQueue(idx) {
-        const cards = strip.children;
-        // Cargamos la actual y la siguiente (2 en 2)
-        [idx, idx + 1].forEach(i => {
-            if (cards[i]) {
-                const img = cards[i].querySelector('img');
-                if (img && !img.src) {
-                    img.src = img.dataset.src;
-                    img.onload = () => img.classList.add('visible');
-                    img.onerror = () => { img.src = 'https://via.placeholder.com/260x150/111/fff?text=TV'; img.classList.add('visible'); };
-                }
-            }
-        });
-    }
-
-    initTV();
+    loadChannels();
 </script>
+
 </body>
 </html>
