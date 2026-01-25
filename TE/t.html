@@ -3,127 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>ULTRA SPEED TV</title>
+    <title>ULTRA LIGHT TABLE</title>
     <style>
-        :root { --accent: #00d4ff; --card-w: 240px; }
+        :root { --accent: #00d4ff; --row-h: 70px; }
         
         * { box-sizing: border-box; margin: 0; padding: 0; outline: none; }
 
         body {
-            background-color: #000;
+            background: #000;
+            color: #fff;
+            font-family: system-ui, sans-serif;
+            overflow: hidden;
+            height: 100vh;
+            display: flex;
+            transition: background 0.4s ease;
             background-size: cover;
             background-position: center;
-            height: 100vh;
-            width: 100vw;
-            color: #fff;
-            font-family: system-ui, -apple-system, sans-serif;
-            overflow: hidden;
-            transition: background-image 0.5s ease; /* Efecto difuminado en el body */
         }
 
-        /* Capa de difuminado sobre el body para no afectar rendimiento de elementos */
+        /* Overlay para el fondo difuminado del body */
         body::before {
-            content: "";
-            position: absolute;
-            top: 0; left: 0; width: 100%; height: 100%;
-            background: rgba(0, 0, 0, 0.7);
-            backdrop-filter: blur(40px);
-            -webkit-backdrop-filter: blur(40px);
+            content: ""; position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0,0,0,0.85); backdrop-filter: blur(50px); -webkit-backdrop-filter: blur(50px);
             z-index: -1;
         }
 
-        .hero {
-            height: 50vh;
+        /* Lado Izquierdo: Info del Canal */
+        .info-panel {
+            width: 40%;
             display: flex;
             flex-direction: column;
-            justify-content: flex-end;
-            padding: 0 10% 40px;
-        }
-
-        .h-title { 
-            font-size: 3.5rem; 
-            font-weight: 900; 
-            text-transform: uppercase; 
-            text-shadow: 0 5px 15px rgba(0,0,0,0.5);
-        }
-
-        .viewport {
-            height: 50vh;
-            display: flex;
             justify-content: center;
-            align-items: flex-start;
+            padding: 50px;
         }
 
-        .grid {
-            display: flex;
-            gap: 30px;
-            will-change: transform;
+        .big-logo {
+            width: 180px; height: 180px;
+            background: #fff; border-radius: 30px;
+            display: flex; align-items: center; justify-content: center;
+            padding: 20px; margin-bottom: 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+        }
+        .big-logo img { width: 100%; height: 100%; object-fit: contain; }
+
+        /* Lado Derecho: Lista tipo Tabla */
+        .list-panel {
+            width: 60%;
+            display: flex; align-items: center;
+            padding-right: 5%;
         }
 
-        .card {
-            width: var(--card-w);
-            height: 140px;
+        .table-container {
+            width: 100%;
+            display: flex; flex-direction: column;
+            gap: 10px;
+        }
+
+        .row {
+            height: var(--row-h);
             background: rgba(255,255,255,0.05);
-            border-radius: 25px;
-            border: 2px solid rgba(255,255,255,0.1);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            transition: all 0.2s cubic-bezier(0.2, 0, 0.2, 1);
-            opacity: 0;
-            transform: translateY(20px);
+            border-radius: 15px;
+            display: flex; align-items: center;
+            padding: 0 20px;
+            border: 2px solid transparent;
+            transition: all 0.2s;
+            cursor: pointer;
         }
 
-        .card.ready { opacity: 1; transform: translateY(0); }
-
-        .card:focus {
-            transform: scale(1.15);
-            border-color: var(--accent);
-            background: rgba(255,255,255,0.15);
-            box-shadow: 0 15px 35px rgba(0,0,0,0.5);
+        .row:focus {
+            background: var(--accent);
+            color: #000;
+            transform: scale(1.05);
+            border-color: #fff;
         }
 
-        .logo-wrap {
-            width: 90px;
-            height: 90px;
-            background: #fff;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 15px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-        }
+        .row-num { width: 50px; font-weight: bold; opacity: 0.5; }
+        .row-name { font-size: 1.2rem; font-weight: bold; flex-grow: 1; }
+        .row-icon { width: 40px; height: 40px; border-radius: 8px; background: #222; margin-right: 15px; overflow: hidden; }
+        .row-icon img { width: 100%; height: 100%; object-fit: contain; }
 
-        .logo-wrap img { width: 100%; height: 100%; object-fit: contain; }
-
-        .status { color: var(--accent); font-weight: bold; font-size: 0.9rem; letter-spacing: 2px; }
+        .status-top { position: absolute; top: 40px; left: 50px; color: var(--accent); font-weight: bold; letter-spacing: 2px; }
     </style>
 </head>
 <body>
 
-<div class="hero">
-    <div class="status" id="status">INICIANDO...</div>
-    <div class="h-title" id="title">ESPERE</div>
+<div class="status-top" id="status">CARGANDO...</div>
+
+<div class="info-panel">
+    <div class="big-logo" id="big-logo-wrap">
+        <img id="main-img" src="">
+    </div>
+    <h1 id="main-title">SELECCIONE</h1>
 </div>
 
-<div class="viewport">
-    <div class="grid" id="grid"></div>
+<div class="list-panel">
+    <div class="table-container" id="table"></div>
 </div>
 
 <script>
     const M3U = "https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/CV.m3u8";
     let channels = [];
-    let curBlock = 0;
-    const SIZE = 4;
+    let currentIdx = 0;
+    let currentBlock = 0;
+    const SIZE = 4; // Borra y carga de 4 en 4
 
-    async function init() {
+    async function start() {
         try {
             const r = await fetch(M3U);
-            const t = await r.text();
-            const lines = t.split('\n');
-            for(let i=0; i<lines.length; i++) {
-                if(lines[i].includes('#EXTINF')) {
+            const d = await r.text();
+            const lines = d.split('\n');
+            for(let i=0; i<lines.length; i++){
+                if(lines[i].includes('#EXTINF')){
                     const name = lines[i].split(',')[1]?.trim() || "Canal";
                     const logo = lines[i].match(/tvg-logo="([^"]+)"/)?.[1] || "";
                     const url = lines[i+1]?.trim();
@@ -131,52 +121,52 @@
                 }
             }
             render(0);
-        } catch(e) { document.getElementById('status').innerText = "ERROR"; }
+        } catch(e) { document.getElementById('status').innerText = "ERROR DE RED"; }
     }
 
     function render(block) {
-        const grid = document.getElementById('grid');
-        grid.innerHTML = '';
+        const table = document.getElementById('table');
+        table.innerHTML = ''; // BORRADO FÍSICO DE RAM
+        
         const start = block * SIZE;
         const end = Math.min(start + SIZE, channels.length);
 
         for(let i=start; i<end; i++) {
             const ch = channels[i];
-            const card = document.createElement('div');
-            card.className = 'card';
-            card.tabIndex = 0;
+            const row = document.createElement('div');
+            row.className = 'row';
+            row.tabIndex = 0;
+            row.innerHTML = `
+                <div class="row-num">${i + 1}</div>
+                <div class="row-icon"><img src="${ch.logo}" loading="lazy"></div>
+                <div class="row-name">${ch.name}</div>
+            `;
 
-            // Carga de imagen ultra rápida
-            const img = new Image();
-            img.src = ch.logo;
-            img.onload = () => {
-                card.innerHTML = `<div class="logo-wrap"><img src="${ch.logo}"></div>`;
-                card.classList.add('ready');
-            };
-
-            card.onfocus = () => {
-                document.getElementById('title').innerText = ch.name;
-                document.getElementById('status').innerText = `CANAL ${i + 1} DE ${channels.length}`;
-                // Cambio de fondo en el BODY
+            row.onfocus = () => {
+                currentIdx = i;
+                document.getElementById('main-title').innerText = ch.name;
+                document.getElementById('main-img').src = ch.logo;
                 document.body.style.backgroundImage = `url('${ch.logo}')`;
+                document.getElementById('status').innerText = `LISTA | ${i+1} DE ${channels.length}`;
             };
 
-            card.onkeydown = (e) => {
+            row.onkeydown = (e) => {
                 if(e.key === 'Enter') window.location.href = ch.url;
-                if(e.key === 'ArrowRight' && i === end - 1 && end < channels.length) {
-                    curBlock++; render(curBlock);
+                
+                if(e.key === 'ArrowDown' && i === end - 1 && end < channels.length) {
+                    currentBlock++; render(currentBlock);
                 }
-                if(e.key === 'ArrowLeft' && i === start && block > 0) {
-                    curBlock--; render(curBlock);
-                    setTimeout(() => grid.children[SIZE-1].focus(), 1);
+                if(e.key === 'ArrowUp' && i === start && block > 0) {
+                    currentBlock--; render(currentBlock);
+                    setTimeout(() => table.children[SIZE-1].focus(), 1);
                 }
             };
-            grid.appendChild(card);
+            table.appendChild(row);
         }
-        grid.children[0]?.focus();
+        table.children[0]?.focus();
     }
 
-    init();
+    start();
 </script>
 </body>
 </html>
