@@ -1,0 +1,11 @@
+// ... (Estructura similar a index.html pero con renderizado de series)
+function renderSeries() {
+    const vistas = JSON.parse(localStorage.getItem('pbox_vistos') || '{}');
+    // ... dentro del bucle de series:
+    const tieneVistos = vistas[serie.n] ? '👁️ VISTO' : '';
+    row.innerHTML = `<div class="row-name">${serie.n}</div><div class="visto-tag">${tieneVistos}</div>`;
+    row.onclick = () => {
+        localStorage.setItem('pbox_last_serie', JSON.stringify(serie));
+        location.href = 'caps.html';
+    };
+}
