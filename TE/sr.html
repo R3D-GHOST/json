@@ -2,14 +2,14 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>CATALOGO - PRIMEBOX</title>
+    <title>EXPLORAR - PRIMEBOX</title>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
         :root { --accent: #00d4ff; --bg: #050505; }
         * { box-sizing: border-box; margin: 0; padding: 0; outline: none; }
         body { background: var(--bg); color: #fff; font-family: 'Roboto', sans-serif; display: flex; height: 100vh; overflow: hidden; }
 
-        /* Lista Principal */
+        /* Lista Principal (Lateral) */
         .preview { width: 30%; background: #000; border-right: 2px solid #1a1a1a; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 20px; }
         #p-img { width: 100%; max-height: 380px; border-radius: 10px; object-fit: cover; border: 1px solid #333; margin-bottom: 15px; }
         
@@ -18,14 +18,34 @@
         .row { padding: 18px; background: #111; border: 1px solid #222; border-radius: 10px; margin-bottom: 8px; cursor: pointer; display: flex; justify-content: space-between; }
         .row:focus { background: var(--accent); color: #000; font-weight: bold; }
 
-        /* Overlay de Capítulos - SIN PORTADA PARA BAJA RAM */
-        #overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: #000; z-index: 100; display: none; flex-direction: column; padding: 30px; }
-        .cap-header { display: flex; justify-content: space-between; margin-bottom: 20px; border-bottom: 1px solid var(--accent); padding-bottom: 10px; }
-        .cap-grid { display: grid; grid-template-columns: 1fr; gap: 8px; overflow-y: auto; }
-        .cap-item { padding: 18px; background: #111; border: 1px solid #222; border-radius: 8px; cursor: pointer; font-size: 1.1rem; }
-        .cap-item:focus { background: #fff; color: #000; border-color: var(--accent); transform: translateX(10px); }
-        .btn-exit { background: #444; color: #fff; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; font-family: 'Orbitron'; font-size: 0.7rem; }
-        .btn-exit:focus { background: #ff4444; }
+        /* OVERLAY DE CAPÍTULOS HORIZONTAL */
+        #overlay { 
+            position: absolute; top: 0; left: 0; width: 100%; height: 100%; 
+            background: rgba(0,0,0,0.95); z-index: 100; display: none; 
+            flex-direction: column; padding: 40px; justify-content: center;
+        }
+        .cap-header { margin-bottom: 30px; border-left: 4px solid var(--accent); padding-left: 15px; }
+        
+        /* Contenedor de Caps de Izquierda a Derecha */
+        .cap-grid { 
+            display: flex; gap: 15px; overflow-x: auto; padding: 20px 0;
+            scroll-behavior: smooth;
+        }
+        .cap-grid::-webkit-scrollbar { height: 4px; }
+        .cap-grid::-webkit-scrollbar-thumb { background: var(--accent); }
+
+        .cap-item { 
+            min-width: 160px; height: 100px; background: #111; border: 2px solid #333; 
+            border-radius: 12px; cursor: pointer; display: flex; align-items: center; 
+            justify-content: center; font-family: 'Orbitron'; font-size: 1rem; flex-shrink: 0;
+            transition: 0.2s;
+        }
+        .cap-item:focus { 
+            background: var(--accent); color: #000; border-color: #fff; 
+            transform: scale(1.1); box-shadow: 0 0 20px rgba(0,212,255,0.4);
+        }
+        
+        .nav-info { margin-top: 20px; font-size: 0.7rem; color: #555; font-family: 'Orbitron'; }
     </style>
 </head>
 <body>
@@ -40,10 +60,13 @@
 
         <div id="overlay">
             <div class="cap-header">
-                <h2 id="c-title" style="font-family:'Orbitron'; color:var(--accent)">SELECCIONAR CAPÍTULO</h2>
-                <button class="btn-exit" id="close-btn" tabindex="99">← VOLVER</button>
+                <h2 id="c-title" style="font-family:'Orbitron'; color:var(--accent)">NOMBRE DE SERIE</h2>
+                <p style="font-size: 0.8rem; opacity: 0.6;">DERECHA/IZQUIERDA: 1 x 1 | ARRIBA/ABAJO: 4 x 4</p>
             </div>
+            
             <div class="cap-grid" id="cap-list"></div>
+            
+            <div class="nav-info">BACKSPACE PARA VOLVER AL CATÁLOGO</div>
         </div>
     </div>
 
@@ -55,7 +78,6 @@
         async function load() {
             const r = await fetch("https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/data.json");
             catalog = await r.json();
-            
             const params = new URLSearchParams(window.location.search);
             const query = params.get('q');
             
@@ -72,14 +94,13 @@
             data.forEach((item, i) => {
                 const row = document.createElement('div');
                 row.className = 'row'; row.tabIndex = i + 1;
-                row.innerHTML = `<span>${item.title.toUpperCase()}</span> <small style="opacity:0.5">${item.episodes ? 'SERIE' : 'PELI'}</small>`;
+                row.innerHTML = `<span>${item.title.toUpperCase()}</span> <small>${item.episodes ? 'SERIE' : 'PELI'}</small>`;
                 
                 row.onfocus = () => {
                     document.getElementById('p-img').src = item.coverImage || item.img;
                     document.getElementById('p-name').innerText = item.title;
                 };
                 row.onclick = () => {
-                    saveHistory(item);
                     if(item.episodes) openCaps(item); else location.href = item.video_url;
                 };
                 row.onkeydown = (e) => {
@@ -101,42 +122,44 @@
             eps.forEach((ep, i) => {
                 const div = document.createElement('div');
                 div.className = 'cap-item'; div.tabIndex = 100 + i;
-                div.innerText = `CAPÍTULO ${i + 1}`;
-                div.onclick = () => location.href = ep.video_url;
+                div.innerText = `EP ${i + 1}`;
+                
+                div.onclick = () => {
+                    // Guardar en historial antes de abrir
+                    let hist = JSON.parse(localStorage.getItem('pbox_history') || '[]');
+                    hist = hist.filter(x => x.n !== (item.title || item.n));
+                    hist.unshift({ n: item.title || item.n, u: item.video_url, eps: item.episodes, img: item.coverImage || item.img });
+                    localStorage.setItem('pbox_history', JSON.stringify(hist.slice(0, 10)));
+                    location.href = ep.video_url;
+                };
                 
                 div.onkeydown = (e) => {
                     if(e.key === 'Enter') div.click();
-                    if(e.key === 'Backspace') closeCaps();
+                    if(e.key === 'Backspace') { overlay.style.display = 'none'; mainList.querySelector('.row:focus')?.focus(); }
                     
-                    // NAVEGACIÓN BLOQUES DE 4 (CORREGIDA)
-                    if(e.key === 'ArrowDown') {
-                        e.preventDefault();
-                        const next = cl.children[i + 4] || cl.lastElementChild;
-                        if(i + 4 < eps.length) next.focus(); else if(cl.children[i+1]) cl.children[i+1].focus();
+                    // LÓGICA DE NAVEGACIÓN
+                    // Derecha e Izquierda (1 a 1)
+                    if(e.key === 'ArrowRight' && i + 1 < eps.length) {
+                        e.preventDefault(); cl.children[i+1].focus();
                     }
-                    if(e.key === 'ArrowUp') {
-                        e.preventDefault();
-                        if(i - 4 >= 0) cl.children[i-4].focus();
-                        else if(i > 0) cl.children[i-1].focus();
-                        else document.getElementById('close-btn').focus();
+                    if(e.key === 'ArrowLeft' && i - 1 >= 0) {
+                        e.preventDefault(); cl.children[i-1].focus();
+                    }
+                    // Arriba y Abajo (Salto de 4 en 4)
+                    if(e.key === 'ArrowDown' && i + 4 < eps.length) {
+                        e.preventDefault(); cl.children[i + 4].focus();
+                    }
+                    if(e.key === 'ArrowUp' && i - 4 >= 0) {
+                        e.preventDefault(); cl.children[i - 4].focus();
                     }
                 };
                 cl.appendChild(div);
             });
-            cl.firstChild.focus(); // Enfoca el primer cap pero NO lo abre
+            cl.firstChild.focus();
         }
-
-        function saveHistory(item) {
-            let hist = JSON.parse(localStorage.getItem('pbox_history') || '[]');
-            hist = hist.filter(x => x.n !== (item.title || item.n));
-            hist.unshift({ n: item.title || item.n, u: item.video_url, eps: item.episodes, img: item.coverImage || item.img });
-            localStorage.setItem('pbox_history', JSON.stringify(hist.slice(0, 10)));
-        }
-
-        function closeCaps() { overlay.style.display = 'none'; mainList.querySelector('.row:focus')?.focus(); }
-        document.getElementById('close-btn').onclick = closeCaps;
 
         load();
     </script>
 </body>
 </html>
+
