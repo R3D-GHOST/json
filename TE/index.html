@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRIMEBOX - HOME</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    <style>
+        :root { --accent: #00d4ff; --bg: #050505; --card: #111; }
+        body { background: var(--bg); color: #fff; font-family: 'Roboto', sans-serif; margin: 0; display: flex; height: 100vh; overflow: hidden; }
+        .side { width: 35%; display: flex; flex-direction: column; align-items: center; justify-content: center; background: #000; border-right: 2px solid #1a1a1a; }
+        .main { width: 65%; padding: 50px; display: flex; flex-direction: column; justify-content: center; background: linear-gradient(45deg, #050505, #0a0a0a); }
+        .logo-text { font-family: 'Orbitron'; font-size: 2.5rem; color: var(--accent); margin-bottom: 10px; }
+        .btn { height: 80px; background: var(--card); border: 2px solid #222; border-radius: 12px; margin-bottom: 15px; display: flex; align-items: center; padding: 0 30px; cursor: pointer; font-size: 1.4rem; font-weight: 700; transition: 0.2s; }
+        .btn:focus { background: var(--accent); color: #000; border-color: #fff; transform: scale(1.03); outline: none; }
+        .recent-box { margin-top: 30px; border-top: 1px solid #222; padding-top: 20px; }
+        .tag { font-family: 'Orbitron'; font-size: 0.7rem; color: var(--accent); letter-spacing: 2px; }
+    </style>
+</head>
+<body>
+    <div class="side">
+        <div class="logo-text">PRIMEBOX</div>
+        <div class="tag">TURBO RAM EDITION</div>
+    </div>
+    <div class="main">
+        <div class="btn" tabindex="1" onclick="location.href='cn.html'">📺 TV EN VIVO</div>
+        <div class="btn" tabindex="2" onclick="location.href='sr.html'">🎞️ SERIES Y PELIS</div>
+        <div id="recientes" class="recent-box"></div>
+    </div>
+    <script>
+        const last = JSON.parse(localStorage.getItem('pbox_recent') || '[]');
+        if(last.length > 0) {
+            const cont = document.getElementById('recientes');
+            cont.innerHTML = `<div class="tag" style="margin-bottom:10px">CONTINUAR VIENDO</div>`;
+            last.slice(0, 1).forEach(item => {
+                const rBtn = document.createElement('div');
+                rBtn.className = 'btn'; rBtn.tabIndex = 3;
+                rBtn.innerHTML = `🕒 ${item.n}`;
+                rBtn.onclick = () => { localStorage.setItem('pbox_tmp_serie', JSON.stringify(item)); location.href='caps.html'; };
+                cont.appendChild(rBtn);
+            });
+        }
+        document.querySelector('.btn').focus();
+    </script>
+</body>
+</html>
