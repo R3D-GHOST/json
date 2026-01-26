@@ -3,60 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PRIMEBOX - LISTA</title>
+    <title>PRIMEBOX TURBO</title>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
         :root { --accent: #00d4ff; --bg: #050505; --card: #111; }
-        * { box-sizing: border-box; margin: 0; padding: 0; }
-        
-        body { 
-            background: var(--bg); color: #fff; font-family: 'Roboto', sans-serif; 
-            height: 100vh; display: flex; overflow: hidden; 
-        }
+        * { box-sizing: border-box; margin: 0; padding: 0; outline: none; }
+        body { background: var(--bg); color: #fff; font-family: 'Roboto', sans-serif; height: 100vh; display: flex; overflow: hidden; }
 
-        /* Panel Izquierdo - Poster */
-        .preview-pane { 
-            width: 35%; background: #000; border-right: 2px solid #1a1a1a;
-            display: flex; flex-direction: column; align-items: center; justify-content: center;
-            padding: 20px; text-align: center;
-        }
-        #p-img { 
-            width: 80%; max-height: 400px; border-radius: 12px; 
-            border: 2px solid #222; object-fit: cover; box-shadow: 0 0 30px rgba(0,0,0,0.5);
-            margin-bottom: 20px;
-        }
-        .p-title { font-family: 'Orbitron'; color: var(--accent); font-size: 1.2rem; }
+        /* LISTA PRINCIPAL */
+        .preview-pane { width: 35%; background: #000; border-right: 2px solid #1a1a1a; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 20px; text-align: center; }
+        #p-img { width: 85%; max-height: 420px; border-radius: 12px; border: 2px solid #222; object-fit: cover; margin-bottom: 20px; }
+        .p-title { font-family: 'Orbitron'; color: var(--accent); font-size: 1.2rem; text-transform: uppercase; }
 
-        /* Panel Derecho - Lista */
-        .list-pane { width: 65%; display: flex; flex-direction: column; background: #080808; }
-        
-        .search-area { padding: 25px; background: #000; border-bottom: 1px solid #1a1a1a; }
-        #search { 
-            width: 100%; background: #111; border: 2px solid #333; border-radius: 8px;
-            padding: 15px; color: #fff; font-size: 1.1rem; outline: none;
-        }
+        .list-pane { width: 65%; display: flex; flex-direction: column; background: #080808; position: relative; }
+        .search-area { padding: 20px; background: #000; border-bottom: 1px solid #1a1a1a; }
+        #search { width: 100%; background: #111; border: 2px solid #333; border-radius: 8px; padding: 12px; color: #fff; font-size: 1rem; }
         #search:focus { border-color: var(--accent); }
 
-        .scroll-list { flex: 1; overflow-y: auto; padding: 10px 25px; }
-        
-        /* Fila de la lista */
-        .row { 
-            display: flex; align-items: center; padding: 15px 20px; 
-            background: var(--card); border: 1px solid #222; border-radius: 10px;
-            margin-bottom: 10px; cursor: pointer; transition: 0.1s;
-        }
-        .row:focus { 
-            background: var(--accent); color: #000; border-color: #fff; 
-            outline: none; transform: scale(1.02);
-        }
-        .row-icon { margin-right: 20px; font-size: 1.2rem; opacity: 0.6; }
+        .scroll-list { flex: 1; overflow-y: auto; padding: 10px 20px; scroll-behavior: smooth; }
+        .row { display: flex; align-items: center; padding: 15px; background: var(--card); border: 1px solid #222; border-radius: 10px; margin-bottom: 8px; cursor: pointer; }
+        .row:focus { background: var(--accent); color: #000; border-color: #fff; transform: scale(1.02); }
         .row-text { font-size: 1.1rem; font-weight: 700; flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-        .row-type { font-family: 'Orbitron'; font-size: 0.6rem; padding: 4px 8px; border: 1px solid #444; border-radius: 4px; }
-        .row:focus .row-type { border-color: #000; }
 
-        /* Indicador de visto */
-        .visto-check { color: #00ff00; margin-left: 10px; display: none; }
-        .is-visto .visto-check { display: inline; }
+        /* SELECTOR DE CAPITULOS (MODAL) */
+        #cap-overlay { 
+            position: absolute; top: 0; left: 0; width: 100%; height: 100%; 
+            background: #050505; z-index: 100; display: none; flex-direction: column; padding: 20px;
+        }
+        .cap-header { font-family: 'Orbitron'; color: var(--accent); margin-bottom: 20px; display: flex; justify-content: space-between; align-items: center; }
+        .cap-grid { display: grid; grid-template-columns: 1fr; gap: 10px; overflow-y: auto; }
+        .cap-item { padding: 18px; background: #151515; border: 1px solid #333; border-radius: 8px; cursor: pointer; display: flex; justify-content: space-between; }
+        .cap-item:focus { background: #fff; color: #000; font-weight: bold; }
+        .visto-dot { width: 10px; height: 10px; background: #333; border-radius: 50%; }
+        .is-visto .visto-dot { background: var(--accent); box-shadow: 0 0 8px var(--accent); }
     </style>
 </head>
 <body>
@@ -64,57 +43,56 @@
     <div class="preview-pane">
         <img id="p-img" src="https://i.imgur.com/8nC78yS.png">
         <div class="p-title" id="p-name">PRIMEBOX+</div>
-        <div id="p-extra" style="font-size: 0.8rem; margin-top: 10px; opacity: 0.5;">Selecciona contenido</div>
+        <div id="p-extra" style="font-size: 0.8rem; margin-top: 10px; opacity: 0.5;">LISTA DE CONTENIDO</div>
     </div>
 
     <div class="list-pane">
         <div class="search-area">
-            <input type="text" id="search" placeholder="BUSCAR POR NOMBRE..." autocomplete="off">
+            <input type="text" id="search" placeholder="BUSCAR..." autocomplete="off">
         </div>
         <div class="scroll-list" id="l"></div>
+
+        <div id="cap-overlay">
+            <div class="cap-header">
+                <div id="cap-title">SERIE</div>
+                <div style="font-size: 0.7rem;">[BACK] VOLVER</div>
+            </div>
+            <div class="cap-grid" id="cap-list"></div>
+        </div>
     </div>
 
     <script>
         let fullData = [];
         const listDiv = document.getElementById('l');
         const searchInput = document.getElementById('search');
-        const vistos = JSON.parse(localStorage.getItem('pbox_vistos') || '{}');
+        const overlay = document.getElementById('cap-overlay');
+        const capList = document.getElementById('cap-list');
 
         async function load() {
             try {
                 const r = await fetch("https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/data.json");
                 fullData = await r.json();
                 render(fullData);
-            } catch(e) { listDiv.innerText = "Error de conexión."; }
+            } catch(e) { console.error(e); }
         }
 
         function render(items) {
             listDiv.innerHTML = '';
             items.forEach((item, i) => {
-                const isSerie = !!item.episodes;
-                const yaVisto = vistos[item.title];
-                
                 const row = document.createElement('div');
-                row.className = `row ${yaVisto ? 'is-visto' : ''}`;
+                row.className = 'row';
                 row.tabIndex = 0;
-                
-                row.innerHTML = `
-                    <div class="row-icon">${isSerie ? '🎞️' : '🎬'}</div>
-                    <div class="row-text">${item.title.toUpperCase()}</div>
-                    <div class="row-type">${isSerie ? 'SERIE' : 'PELI'}</div>
-                    <span class="visto-check">✔</span>
-                `;
+                row.innerHTML = `<div class="row-text">${item.title.toUpperCase()}</div><div style="font-size:0.6rem; opacity:0.5">${item.episodes ? 'SERIE' : 'PELI'}</div>`;
 
                 row.onfocus = () => {
                     document.getElementById('p-img').src = item.coverImage || item.img;
                     document.getElementById('p-name').innerText = item.title;
-                    document.getElementById('p-extra').innerText = isSerie ? `${item.episodes.length} CAPÍTULOS` : 'PELÍCULA COMPLETA';
+                    document.getElementById('p-extra').innerText = item.episodes ? `${item.episodes.length} EPISODIOS` : 'PELÍCULA';
                 };
 
                 row.onclick = () => {
-                    const obj = { n: item.title, eps: item.episodes, u: item.video_url };
-                    localStorage.setItem('pbox_tmp_serie', JSON.stringify(obj));
-                    location.href = isSerie ? 'caps.html' : item.video_url;
+                    if(item.episodes) { openCaps(item); } 
+                    else { location.href = item.video_url; }
                 };
 
                 row.onkeydown = (e) => {
@@ -125,6 +103,46 @@
 
                 listDiv.appendChild(row);
             });
+            // AUTO-FOCO EN LA PRIMERA PELICULA AL CARGAR
+            if(items.length > 0) listDiv.firstChild.focus();
+        }
+
+        function openCaps(serie) {
+            const vistos = JSON.parse(localStorage.getItem('pbox_vistos') || '{}');
+            overlay.style.display = 'flex';
+            capList.innerHTML = '';
+            document.getElementById('cap-title').innerText = serie.n || serie.title;
+
+            serie.episodes.forEach((ep, i) => {
+                const yaVisto = vistos[serie.title]?.includes(i);
+                const cap = document.createElement('div');
+                cap.className = `cap-item ${yaVisto ? 'is-visto' : ''}`;
+                cap.tabIndex = 0;
+                cap.innerHTML = `<span>EPISODIO ${i+1}</span><div class="visto-dot"></div>`;
+                
+                cap.onclick = () => {
+                    if(!vistos[serie.title]) vistos[serie.title] = [];
+                    if(!vistos[serie.title].includes(i)) vistos[serie.title].push(i);
+                    localStorage.setItem('pbox_vistos', JSON.stringify(vistos));
+                    location.href = ep.video_url;
+                };
+
+                cap.onkeydown = (e) => {
+                    if(e.key === 'Enter') cap.click();
+                    if(e.key === 'Backspace') { overlay.style.display = 'none'; listDiv.querySelector('.row:focus')?.focus(); }
+                    // Scroll de 4 en 4
+                    if(e.key === 'ArrowDown' && (i + 4) < serie.episodes.length) {
+                         e.preventDefault();
+                         capList.children[i+4].focus();
+                    }
+                    if(e.key === 'ArrowUp' && (i - 4) >= 0) {
+                         e.preventDefault();
+                         capList.children[i-4].focus();
+                    }
+                };
+                capList.appendChild(cap);
+            });
+            capList.firstChild.focus();
         }
 
         // Buscador
@@ -135,12 +153,11 @@
         };
 
         searchInput.onkeydown = (e) => {
-            if(e.key === 'ArrowDown') listDiv.querySelector('.row')?.focus();
+            if(e.key === 'ArrowDown') listDiv.firstChild?.focus();
             if(e.key === 'Backspace' && searchInput.value === '') location.href = 'index.html';
         };
 
         load();
-        searchInput.focus();
     </script>
 </body>
 </html>
