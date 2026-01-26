@@ -34,3 +34,199 @@
             margin-bottom: 25px;
             display: flex; align-items: center; justify-content: center;
             border-radius: 12px;
+            color: #444;
+            transition: 0.2s;
+        }
+
+        .nav-item.active { background: var(--accent); color: #fff; box-shadow: 0 0 20px rgba(0,168,225,0.4); }
+
+        /* CONTENIDO PRINCIPAL */
+        main { flex: 1; display: flex; flex-direction: column; padding: 30px; }
+
+        .header { height: 100px; display: flex; flex-direction: column; justify-content: center; }
+        .header h1 { font-size: 2.2rem; text-transform: uppercase; letter-spacing: 2px; }
+        .header p { color: var(--accent); font-weight: bold; font-size: 0.8rem; }
+
+        /* GRID OPTIMIZADO PARA 300MB */
+        .content-area {
+            flex: 1;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr); /* Solo 4 por fila para no saturar */
+            gap: 20px;
+            align-content: start;
+            margin-top: 20px;
+        }
+
+        .item {
+            background: var(--card-bg);
+            border-radius: 15px;
+            overflow: hidden;
+            border: 3px solid transparent;
+            transition: transform 0.2s, border-color 0.2s;
+            position: relative;
+            height: 180px;
+        }
+
+        .item:focus {
+            transform: scale(1.1);
+            border-color: #fff;
+            z-index: 10;
+            background: #1a1a1a;
+        }
+
+        .item img {
+            width: 100%; height: 100%;
+            object-fit: cover;
+            opacity: 0.6;
+        }
+
+        .item:focus img { opacity: 1; }
+
+        .item-info {
+            position: absolute; bottom: 0; width: 100%;
+            padding: 10px;
+            background: linear-gradient(0deg, #000 0%, transparent 100%);
+            font-size: 0.8rem; font-weight: bold;
+            white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+        }
+
+        /* BADGE TIPO */
+        .tag {
+            position: absolute; top: 10px; right: 10px;
+            padding: 3px 7px; font-size: 0.6rem; border-radius: 4px;
+            background: var(--accent); font-weight: bold;
+        }
+
+        .hidden { display: none; }
+    </style>
+</head>
+<body>
+
+<nav id="sidebar">
+    <div class="nav-item active" data-type="channels" title="TV">TV</div>
+    <div class="nav-item" data-type="movies" title="Películas">🎬</div>
+    <div class="nav-item" data-type="series" title="Series">📺</div>
+</nav>
+
+<main>
+    <div class="header">
+        <p id="category-label">PRIMEBOX+ PREMIUM</p>
+        <h1 id="current-title">INICIANDO...</h1>
+    </div>
+
+    <div class="content-area" id="grid">
+        </div>
+</main>
+
+<script>
+    const M3U_URL = "https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/CV.m3u8";
+    const DATA_JSON = "https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/data.json";
+    
+    let store = { channels: [], movies: [], series: [] };
+    let activeType = 'channels';
+    let page = 0;
+    const PAGE_SIZE = 8; // Carga pequeña para CPU de TV
+
+    async function bootstrap() {
+        try {
+            const [m3uRes, jsonRes] = await Promise.all([
+                fetch(M3U_URL).then(r => r.text()),
+                fetch(DATA_JSON).then(r => r.json())
+            ]);
+
+            // Parsear TV
+            const m3uLines = m3uRes.split('\n');
+            for(let i=0; i<m3uLines.length; i++) {
+                if(m3uLines[i].includes('#EXTINF')) {
+                    const title = m3uLines[i].split(',')[1]?.trim();
+                    const img = m3uLines[i].match(/tvg-logo="([^"]*)"/)?.[1];
+                    const url = m3uLines[i+1]?.trim();
+                    if(url) store.channels.push({ title, img, url, tag: 'LIVE' });
+                }
+            }
+
+            // Parsear JSON (Películas y Series)
+            jsonRes.forEach(item => {
+                const data = { 
+                    title: item.title, 
+                    img: item.img || item.coverImage, 
+                    url: item.video_url || (item.episodes ? item.episodes[0].video_url : ""),
+                    tag: item.episodes ? 'SERIE' : 'CINE'
+                };
+                if(item.episodes) store.series.push(data);
+                else store.movies.push(data);
+            });
+
+            setupNav();
+            render('channels');
+        } catch(e) { document.getElementById('current-title').innerText = "ERROR DE CARGA"; }
+    }
+
+    function render(type, block = 0) {
+        activeType = type;
+        const grid = document.getElementById('grid');
+        if(block === 0) grid.innerHTML = ''; // Limpiar RAM al cambiar pestaña
+
+        const data = store[type];
+        const start = block * PAGE_SIZE;
+        const end = Math.min(start + PAGE_SIZE, data.length);
+
+        for(let i=start; i<end; i++) {
+            const it = data[i];
+            const div = document.createElement('div');
+            div.className = 'item';
+            div.tabIndex = 0;
+            div.innerHTML = `
+                <div class="tag">${it.tag}</div>
+                <img src="${it.img}" loading="lazy">
+                <div class="item-info">${it.title}</div>
+            `;
+
+            div.onfocus = () => {
+                document.getElementById('current-title').innerText = it.title;
+                document.getElementById('category-label').innerText = `PRIMEBOX+ | ${it.tag}`;
+            };
+
+            div.onkeydown = (e) => {
+                if(e.key === 'Enter') window.location.href = it.url;
+                
+                // Navegación de páginas para no saturar el DOM
+                if(e.key === 'ArrowRight' && i === end - 1 && end < data.length) {
+                    render(type, block + 1);
+                }
+                if(e.key === 'ArrowLeft' && i === start && block > 0) {
+                    render(type, block - 1);
+                }
+            };
+
+            grid.appendChild(div);
+        }
+        grid.children[0]?.focus();
+    }
+
+    function setupNav() {
+        const items = document.querySelectorAll('.nav-item');
+        items.forEach(nav => {
+            nav.onclick = () => {
+                items.forEach(n => n.classList.remove('active'));
+                nav.classList.add('active');
+                render(nav.dataset.type);
+            };
+        });
+
+        // Soporte para mando (Moverse de Nav a Grid)
+        window.onkeydown = (e) => {
+            if(e.key === 'ArrowRight' && document.activeElement.parentElement.id === 'sidebar') {
+                document.getElementById('grid').children[0]?.focus();
+            }
+            if(e.key === 'ArrowLeft' && document.activeElement.parentElement.id === 'grid') {
+                document.querySelector('.nav-item.active').focus();
+            }
+        };
+    }
+
+    bootstrap();
+</script>
+
+</body>
+</html>
