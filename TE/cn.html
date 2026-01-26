@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>PRIMEBOX - TV</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body { background: #050505; color: #fff; font-family: 'Roboto', sans-serif; margin: 0; display: flex; height: 100vh; }
+        .list { width: 60%; padding: 20px; overflow-y: auto; }
+        .preview { width: 40%; background: #000; display: flex; flex-direction: column; align-items: center; justify-content: center; border-left: 2px solid #1a1a1a; }
+        .item { padding: 15px; background: #111; margin-bottom: 5px; border-radius: 8px; border: 1px solid #222; cursor: pointer; display: flex; align-items: center; }
+        .item:focus { background: #00d4ff; color: #000; outline: none; }
+        img { width: 200px; height: 200px; object-fit: contain; margin-bottom: 20px; border-radius: 10px; }
+    </style>
+</head>
+<body>
+    <div class="list" id="l"></div>
+    <div class="preview">
+        <img id="p-img" src="https://i.imgur.com/8nC78yS.png">
+        <h2 id="p-name">SELECCIONE CANAL</h2>
+    </div>
+    <script>
+        async function load() {
+            const r = await fetch("https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/CV.m3u8");
+            const t = await r.text();
+            const lines = t.split('\n');
+            lines.forEach((line, i) => {
+                if(line.includes('#EXTINF')) {
+                    const name = line.split(',')[1];
+                    const logo = line.match(/tvg-logo="([^"]+)"/)?.[1];
+                    const url = lines[i+1]?.trim();
+                    const div = document.createElement('div');
+                    div.className = 'item'; div.tabIndex = 0; div.innerText = name;
+                    div.onfocus = () => { document.getElementById('p-img').src = logo; document.getElementById('p-name').innerText = name; };
+                    div.onclick = () => location.href = url;
+                    div.onkeydown = (e) => { if(e.key === 'Backspace') location.href='index.html'; if(e.key === 'Enter') div.click(); };
+                    document.getElementById('l').appendChild(div);
+                }
+            });
+            document.querySelector('.item').focus();
+        }
+        load();
+    </script>
+</body>
+</html>
