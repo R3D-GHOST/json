@@ -2,85 +2,77 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>EXPLORAR - PRIMEBOX</title>
+    <title>CATALOGO - PRIMEBOX</title>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
         :root { --accent: #00d4ff; --bg: #050505; }
         * { box-sizing: border-box; margin: 0; padding: 0; outline: none; }
         body { background: var(--bg); color: #fff; font-family: 'Roboto', sans-serif; display: flex; height: 100vh; overflow: hidden; }
 
-        /* Panel Izquierdo: Portadas fijas */
+        /* Lista Principal */
         .preview { width: 35%; background: #000; border-right: 2px solid #1a1a1a; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 20px; }
-        #p-img { width: 280px; height: 400px; border-radius: 10px; border: 2px solid #333; object-fit: cover; background: #111; margin-bottom: 20px; }
-        .p-title { font-family: 'Orbitron'; color: var(--accent); font-size: 1.2rem; text-align: center; }
-
-        /* Panel Derecho: Lista */
+        #p-img { width: 280px; height: 400px; border-radius: 12px; border: 2px solid #333; object-fit: cover; margin-bottom: 20px; }
+        
         .content { width: 65%; display: flex; flex-direction: column; background: #080808; position: relative; }
-        .search-box { padding: 20px; background: #000; }
-        #search { width: 100%; background: #111; border: 1px solid #333; border-radius: 8px; padding: 12px; color: #fff; }
+        .list { flex: 1; overflow-y: auto; padding: 20px; }
+        .row { padding: 18px; background: #111; border: 1px solid #222; border-radius: 10px; margin-bottom: 10px; cursor: pointer; display: flex; justify-content: space-between; }
+        .row:focus { background: var(--accent); color: #000; font-weight: bold; }
 
-        .list { flex: 1; overflow-y: auto; padding: 10px 20px; }
-        .row { padding: 15px; background: #111; border: 1px solid #222; border-radius: 8px; margin-bottom: 8px; cursor: pointer; display: flex; justify-content: space-between; }
-        .row:focus { background: var(--accent); color: #000; font-weight: bold; transform: scale(1.02); }
-
-        /* Selector de Caps */
-        #overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: #050505; z-index: 100; display: none; flex-direction: column; padding: 25px; }
-        .cap-list { display: grid; grid-template-columns: 1fr; gap: 8px; overflow-y: auto; }
-        .cap-item { padding: 18px; background: #151515; border: 1px solid #333; border-radius: 8px; cursor: pointer; display: flex; justify-content: space-between; }
-        .cap-item:focus { background: #fff; color: #000; outline: none; }
-        .btn-back { background: #333; color: #fff; padding: 10px 20px; border-radius: 5px; cursor: pointer; font-family: 'Orbitron'; font-size: 0.7rem; border: none; margin-bottom: 15px; width: fit-content; }
-        .btn-back:focus { background: red; }
+        /* Selector de Capítulos Mejorado */
+        #overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: #050505; z-index: 100; display: none; flex-direction: column; padding: 30px; }
+        .cap-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; border-bottom: 2px solid var(--accent); padding-bottom: 10px; }
+        .cap-grid { display: grid; grid-template-columns: 1fr; gap: 10px; overflow-y: auto; padding-right: 10px; }
+        .cap-item { padding: 20px; background: #151515; border: 1px solid #333; border-radius: 10px; cursor: pointer; font-size: 1.1rem; }
+        .cap-item:focus { background: #fff; color: #000; transform: scale(1.02); }
+        .btn-exit { background: #ff4444; color: #fff; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; font-family: 'Orbitron'; font-size: 0.8rem; }
     </style>
 </head>
 <body>
 
     <div class="preview">
-        <img id="p-img" src="https://i.imgur.com/8nC78yS.png">
-        <div class="p-title" id="p-name">PRIMEBOX</div>
+        <img id="p-img" src="">
+        <h2 id="p-name" style="font-family:'Orbitron'; color:var(--accent); text-align:center"></h2>
     </div>
 
     <div class="content">
-        <div class="search-box"><input type="text" id="search" placeholder="BUSCAR..." autocomplete="off"></div>
-        <div class="list" id="l"></div>
+        <div class="list" id="main-list"></div>
 
         <div id="overlay">
-            <button class="btn-back" id="close-caps">← VOLVER AL CATÁLOGO</button>
-            <div class="p-title" id="c-title" style="margin-bottom:20px; text-align:left"></div>
-            <div class="cap-list" id="cl"></div>
+            <div class="cap-header">
+                <h2 id="c-title" style="font-family:'Orbitron'">CAPÍTULOS</h2>
+                <button class="btn-exit" id="close-btn">VOLVAR (BACK)</button>
+            </div>
+            <div class="cap-grid" id="cap-list"></div>
         </div>
     </div>
 
     <script>
-        let db = [];
-        const l = document.getElementById('l');
-        const search = document.getElementById('search');
+        let catalog = [];
+        const mainList = document.getElementById('main-list');
         const overlay = document.getElementById('overlay');
 
-        async function init() {
+        async function load() {
             const r = await fetch("https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/data.json");
-            db = await r.json();
-            render(db);
+            catalog = await r.json();
             
-            // Si viene de "Seguir viendo" y es serie
-            if(window.location.search.includes('open')) {
+            // Ver si hay búsqueda desde el inicio
+            const urlParams = new URLSearchParams(window.location.search);
+            const query = urlParams.get('q');
+            const openNow = urlParams.get('open');
+
+            render(query ? catalog.filter(x => x.title.toLowerCase().includes(query.toLowerCase())) : catalog);
+
+            if(openNow) {
                 const tmp = JSON.parse(localStorage.getItem('pbox_tmp_serie'));
                 if(tmp) openCaps(tmp);
             }
         }
 
-        function saveHistory(item) {
-            let hist = JSON.parse(localStorage.getItem('pbox_history') || '[]');
-            hist = hist.filter(x => x.n !== (item.title || item.n));
-            const entry = { n: item.title || item.n, u: item.video_url, eps: item.episodes, img: item.coverImage || item.img };
-            hist.unshift(entry);
-            localStorage.setItem('pbox_history', JSON.stringify(hist.slice(0, 10)));
-        }
-
         function render(data) {
-            l.innerHTML = '';
+            mainList.innerHTML = '';
             data.forEach((item, i) => {
                 const row = document.createElement('div');
-                row.className = 'row'; row.tabIndex = 0;
+                row.className = 'row'; row.tabIndex = i + 1;
                 row.innerHTML = `<span>${item.title.toUpperCase()}</span> <small>${item.episodes ? 'SERIE' : 'PELI'}</small>`;
                 
                 row.onfocus = () => {
@@ -88,51 +80,68 @@
                     document.getElementById('p-name').innerText = item.title;
                 };
                 row.onclick = () => {
-                    saveHistory(item);
+                    saveToHistory(item);
                     if(item.episodes) openCaps(item); else location.href = item.video_url;
                 };
-                row.onkeydown = (e) => { 
-                    if(e.key === 'Enter') row.click(); 
+                row.onkeydown = (e) => {
+                    if(e.key === 'Enter') row.click();
                     if(e.key === 'Backspace') location.href = 'index.html';
                 };
-                l.appendChild(row);
+                mainList.appendChild(row);
             });
-            if(data.length > 0) l.firstChild.focus();
+            if(mainList.firstChild) mainList.firstChild.focus();
         }
 
         function openCaps(item) {
             overlay.style.display = 'flex';
-            const cl = document.getElementById('cl');
+            const cl = document.getElementById('cap-list');
             cl.innerHTML = '';
             document.getElementById('c-title').innerText = item.title || item.n;
-            const episodios = item.episodes || item.eps;
+            const eps = item.episodes || item.eps;
 
-            episodios.forEach((ep, i) => {
+            eps.forEach((ep, i) => {
                 const div = document.createElement('div');
-                div.className = 'cap-item'; div.tabIndex = 0;
-                div.innerHTML = `<span>CAPÍTULO ${i+1}</span>`;
+                div.className = 'cap-item'; div.tabIndex = 100 + i;
+                div.innerText = `CAPÍTULO ${i + 1}`;
+                
                 div.onclick = () => location.href = ep.video_url;
+                
                 div.onkeydown = (e) => {
                     if(e.key === 'Enter') div.click();
-                    if(e.key === 'Backspace') closeOverlay();
-                    // SCROLL 4 EN 4
-                    if(e.key === 'ArrowDown' && (i+4) < episodios.length) { e.preventDefault(); cl.children[i+4].focus(); }
-                    if(e.key === 'ArrowUp' && (i-4) >= 0) { e.preventDefault(); cl.children[i-4].focus(); }
+                    if(e.key === 'Backspace') closeCaps();
+                    
+                    // CORRECCIÓN MOVIMIENTO 4 EN 4
+                    if(e.key === 'ArrowDown') {
+                        if(i + 4 < eps.length) {
+                            e.preventDefault();
+                            cl.children[i+4].focus();
+                        }
+                    }
+                    if(e.key === 'ArrowUp') {
+                        if(i - 4 >= 0) {
+                            e.preventDefault();
+                            cl.children[i-4].focus();
+                        } else if (i === 0) {
+                            document.getElementById('close-btn').focus();
+                        }
+                    }
                 };
                 cl.appendChild(div);
             });
-            document.getElementById('close-caps').focus();
+            cl.firstChild.focus();
         }
 
-        function closeOverlay() { overlay.style.display = 'none'; l.querySelector('.row:focus')?.focus(); }
-        document.getElementById('close-caps').onclick = closeOverlay;
+        function saveToHistory(item) {
+            let hist = JSON.parse(localStorage.getItem('pbox_history') || '[]');
+            hist = hist.filter(x => x.n !== (item.title || item.n));
+            hist.unshift({ n: item.title || item.n, u: item.video_url, eps: item.episodes, img: item.coverImage || item.img });
+            localStorage.setItem('pbox_history', JSON.stringify(hist.slice(0, 10)));
+        }
 
-        search.oninput = () => {
-            const q = search.value.toLowerCase();
-            render(db.filter(x => x.title.toLowerCase().includes(q)));
-        };
+        function closeCaps() { overlay.style.display = 'none'; mainList.querySelector('.row:focus')?.focus(); }
+        document.getElementById('close-btn').onclick = closeCaps;
 
-        init();
+        load();
     </script>
 </body>
 </html>
