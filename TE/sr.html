@@ -3,159 +3,144 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PRIMEBOX - EXPLORAR</title>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    <title>PRIMEBOX - LISTA</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
         :root { --accent: #00d4ff; --bg: #050505; --card: #111; }
-        * { box-sizing: border-box; }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        
         body { 
             background: var(--bg); color: #fff; font-family: 'Roboto', sans-serif; 
-            margin: 0; display: flex; flex-direction: column; height: 100vh; overflow: hidden; 
+            height: 100vh; display: flex; overflow: hidden; 
         }
 
-        /* Cabecera y Buscador */
-        .header { 
-            padding: 20px 40px; background: #000; border-bottom: 2px solid #1a1a1a;
-            display: flex; align-items: center; gap: 30px;
+        /* Panel Izquierdo - Poster */
+        .preview-pane { 
+            width: 35%; background: #000; border-right: 2px solid #1a1a1a;
+            display: flex; flex-direction: column; align-items: center; justify-content: center;
+            padding: 20px; text-align: center;
         }
-        .search-container { flex: 1; position: relative; }
-        .search-container input {
-            width: 100%; background: #111; border: 2px solid #333; border-radius: 10px;
-            padding: 12px 20px; color: #fff; font-size: 1.1rem; font-family: 'Roboto';
+        #p-img { 
+            width: 80%; max-height: 400px; border-radius: 12px; 
+            border: 2px solid #222; object-fit: cover; box-shadow: 0 0 30px rgba(0,0,0,0.5);
+            margin-bottom: 20px;
         }
-        .search-container input:focus { border-color: var(--accent); outline: none; background: #151515; }
+        .p-title { font-family: 'Orbitron'; color: var(--accent); font-size: 1.2rem; }
+
+        /* Panel Derecho - Lista */
+        .list-pane { width: 65%; display: flex; flex-direction: column; background: #080808; }
         
-        .back-hint { font-family: 'Orbitron'; font-size: 0.7rem; color: #555; }
+        .search-area { padding: 25px; background: #000; border-bottom: 1px solid #1a1a1a; }
+        #search { 
+            width: 100%; background: #111; border: 2px solid #333; border-radius: 8px;
+            padding: 15px; color: #fff; font-size: 1.1rem; outline: none;
+        }
+        #search:focus { border-color: var(--accent); }
 
-        /* Contenedor de Scroll */
-        .grid-container { 
-            flex: 1; overflow-y: auto; padding: 30px 40px; 
-            scrollbar-width: thin; scrollbar-color: var(--accent) #111;
-        }
-        .grid { 
-            display: grid; 
-            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); 
-            gap: 25px; 
-        }
-
-        /* Tarjetas */
-        .card { 
-            background: var(--card); border-radius: 12px; overflow: hidden; 
-            border: 2px solid #222; cursor: pointer; transition: 0.2s;
-            position: relative;
-        }
-        .card img { width: 100%; height: 260px; object-fit: cover; background: #222; }
-        .card-info { padding: 12px; text-align: center; font-weight: 700; font-size: 0.85rem; }
+        .scroll-list { flex: 1; overflow-y: auto; padding: 10px 25px; }
         
-        .card:focus { 
-            border-color: var(--accent); transform: scale(1.05); outline: none; 
-            box-shadow: 0 0 20px rgba(0, 212, 255, 0.3);
+        /* Fila de la lista */
+        .row { 
+            display: flex; align-items: center; padding: 15px 20px; 
+            background: var(--card); border: 1px solid #222; border-radius: 10px;
+            margin-bottom: 10px; cursor: pointer; transition: 0.1s;
         }
-
-        .type-badge {
-            position: absolute; top: 10px; right: 10px; background: rgba(0,0,0,0.8);
-            padding: 3px 8px; border-radius: 4px; font-size: 0.6rem; color: var(--accent);
-            font-family: 'Orbitron'; border: 1px solid var(--accent);
+        .row:focus { 
+            background: var(--accent); color: #000; border-color: #fff; 
+            outline: none; transform: scale(1.02);
         }
+        .row-icon { margin-right: 20px; font-size: 1.2rem; opacity: 0.6; }
+        .row-text { font-size: 1.1rem; font-weight: 700; flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .row-type { font-family: 'Orbitron'; font-size: 0.6rem; padding: 4px 8px; border: 1px solid #444; border-radius: 4px; }
+        .row:focus .row-type { border-color: #000; }
 
-        /* Mensaje No Resultados */
-        #no-res { display: none; text-align: center; margin-top: 50px; color: #444; font-family: 'Orbitron'; }
+        /* Indicador de visto */
+        .visto-check { color: #00ff00; margin-left: 10px; display: none; }
+        .is-visto .visto-check { display: inline; }
     </style>
 </head>
 <body>
 
-    <div class="header">
-        <div class="back-hint">BACKSPACE: VOLVER</div>
-        <div class="search-container">
-            <input type="text" id="search" placeholder="BUSCAR PELÍCULA O SERIE..." autocomplete="off">
-        </div>
-        <div style="font-family:'Orbitron'; color:var(--accent)">CATÁLOGO</div>
+    <div class="preview-pane">
+        <img id="p-img" src="https://i.imgur.com/8nC78yS.png">
+        <div class="p-title" id="p-name">PRIMEBOX+</div>
+        <div id="p-extra" style="font-size: 0.8rem; margin-top: 10px; opacity: 0.5;">Selecciona contenido</div>
     </div>
 
-    <div class="grid-container">
-        <div id="no-res">SIN RESULTADOS ENCONTRADOS</div>
-        <div class="grid" id="g"></div>
+    <div class="list-pane">
+        <div class="search-area">
+            <input type="text" id="search" placeholder="BUSCAR POR NOMBRE..." autocomplete="off">
+        </div>
+        <div class="scroll-list" id="l"></div>
     </div>
 
     <script>
         let fullData = [];
-        const grid = document.getElementById('g');
+        const listDiv = document.getElementById('l');
         const searchInput = document.getElementById('search');
+        const vistos = JSON.parse(localStorage.getItem('pbox_vistos') || '{}');
 
-        async function loadData() {
+        async function load() {
             try {
                 const r = await fetch("https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/data.json");
                 fullData = await r.json();
                 render(fullData);
-            } catch (e) {
-                grid.innerHTML = "Error al cargar datos.";
-            }
+            } catch(e) { listDiv.innerText = "Error de conexión."; }
         }
 
         function render(items) {
-            grid.innerHTML = '';
-            document.getElementById('no-res').style.display = items.length ? 'none' : 'block';
-            
-            items.forEach((item, index) => {
-                const card = document.createElement('div');
-                card.className = 'card';
-                card.tabIndex = index + 2; // Para que el input sea index 1
-                
+            listDiv.innerHTML = '';
+            items.forEach((item, i) => {
                 const isSerie = !!item.episodes;
-                card.innerHTML = `
-                    <div class="type-badge">${isSerie ? 'SERIE' : 'PELI'}</div>
-                    <img src="${item.coverImage || item.img}" loading="lazy">
-                    <div class="card-info">${item.title.toUpperCase()}</div>
+                const yaVisto = vistos[item.title];
+                
+                const row = document.createElement('div');
+                row.className = `row ${yaVisto ? 'is-visto' : ''}`;
+                row.tabIndex = 0;
+                
+                row.innerHTML = `
+                    <div class="row-icon">${isSerie ? '🎞️' : '🎬'}</div>
+                    <div class="row-text">${item.title.toUpperCase()}</div>
+                    <div class="row-type">${isSerie ? 'SERIE' : 'PELI'}</div>
+                    <span class="visto-check">✔</span>
                 `;
 
-                card.onclick = () => {
+                row.onfocus = () => {
+                    document.getElementById('p-img').src = item.coverImage || item.img;
+                    document.getElementById('p-name').innerText = item.title;
+                    document.getElementById('p-extra').innerText = isSerie ? `${item.episodes.length} CAPÍTULOS` : 'PELÍCULA COMPLETA';
+                };
+
+                row.onclick = () => {
                     const obj = { n: item.title, eps: item.episodes, u: item.video_url };
                     localStorage.setItem('pbox_tmp_serie', JSON.stringify(obj));
                     location.href = isSerie ? 'caps.html' : item.video_url;
                 };
 
-                // Navegación con teclado/mando
-                card.onkeydown = (e) => {
-                    if (e.key === 'Enter') card.click();
-                    if (e.key === 'Backspace') {
-                        e.preventDefault();
-                        location.href = 'index.html';
-                    }
-                    if (e.key === 'ArrowUp' && index < 5) { // Si está en la primera fila, subir al buscador
-                        searchInput.focus();
-                    }
+                row.onkeydown = (e) => {
+                    if(e.key === 'Enter') row.click();
+                    if(e.key === 'Backspace') location.href = 'index.html';
+                    if(e.key === 'ArrowUp' && i === 0) searchInput.focus();
                 };
 
-                grid.appendChild(card);
+                listDiv.appendChild(row);
             });
         }
 
-        // Buscador con Debounce para no saturar la CPU
-        let timer;
-        searchInput.oninput = (e) => {
-            clearTimeout(timer);
-            timer = setTimeout(() => {
-                const query = e.target.value.toLowerCase();
-                const filtered = fullData.filter(x => 
-                    x.title.toLowerCase().includes(query)
-                );
-                render(filtered);
-            }, 300); 
+        // Buscador
+        searchInput.oninput = () => {
+            const q = searchInput.value.toLowerCase();
+            const filtered = fullData.filter(x => x.title.toLowerCase().includes(q));
+            render(filtered);
         };
 
-        // Al presionar abajo en el buscador, ir a la primera tarjeta
         searchInput.onkeydown = (e) => {
-            if (e.key === 'ArrowDown') {
-                const firstCard = grid.querySelector('.card');
-                if (firstCard) firstCard.focus();
-            }
-            if (e.key === 'Backspace' && searchInput.value === '') {
-                location.href = 'index.html';
-            }
+            if(e.key === 'ArrowDown') listDiv.querySelector('.row')?.focus();
+            if(e.key === 'Backspace' && searchInput.value === '') location.href = 'index.html';
         };
 
-        loadData();
-        searchInput.focus(); // Empezar con el buscador seleccionado
+        load();
+        searchInput.focus();
     </script>
 </body>
 </html>
