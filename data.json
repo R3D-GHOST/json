@@ -1,5 +1,49 @@
-
  [
+  
+  {
+    "title": "Wolverine",
+    "original_title": "Marvel Anime: Wolverine",
+    "year": 2011,
+    "genre": ["Animación", "Acción", "Ciencia Ficción"],
+    "studio": "Madhouse",
+    "coverImage": "https://images.justwatch.com/poster/306716322/s718/wolverine-anime.jpg",
+    "description": "Logan, el mutante conocido como Wolverine, viaja a Japón para rescatar a su antiguo amor, Mariko Yashida, quien ha sido obligada por su padre, un poderoso líder criminal, a contraer un matrimonio concertado.",
+    "episodes": [
+      { "episode": 1, "title": "Mariko", "video_url": "https://archive.org/download/wolverine_202306/Wolverine%2001.mp4" },
+      { "episode": 2, "title": "Yukio", "video_url": "https://archive.org/download/wolverine_202306/Wolverine%2002.mp4" },
+      { "episode": 3, "title": "Kikyo", "video_url": "https://archive.org/download/wolverine_202306/Wolverine%2003.mp4" },
+      { "episode": 4, "title": "Omega Red", "video_url": "https://archive.org/download/wolverine_202306/Wolverine%2004.mp4" },
+      { "episode": 5, "title": "Asano", "video_url": "https://archive.org/download/wolverine_202306/Wolverine%2005.mp4" },
+      { "episode": 6, "title": "Min", "video_url": "https://archive.org/download/wolverine_202306/Wolverine%2006.mp4" },
+      { "episode": 7, "title": "Vadhaka", "video_url": "https://archive.org/download/wolverine_202306/Wolverine%2007.mp4" },
+      { "episode": 8, "title": "Koh", "video_url": "https://archive.org/download/wolverine_202306/Wolverine%2008.mp4" },
+      { "episode": 9, "title": "Hell Road", "video_url": "https://archive.org/download/wolverine_202306/Wolverine%2009.mp4" },
+      { "episode": 10, "title": "Shingen", "video_url": "https://archive.org/download/wolverine_202306/Wolverine%2010.mp4" },
+      { "episode": 11, "title": "Kurohagi", "video_url": "https://archive.org/download/wolverine_202306/Wolverine%2011.mp4" },
+      { "episode": 12, "title": "Logan", "video_url": "https://archive.org/download/wolverine_202306/Wolverine%2012.mp4" }
+    ]
+  },
+   
+  {
+    "title": "Invencible",
+    "original_title": "Invincible",
+    "year": 2021,
+    "genre": ["Animación", "Acción", "Aventura", "Superhéroes"],
+    "studio": "Amazon Studios",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQffQQmB6O2y16C_5PxmL-PUDV0YCvzaIC8KxJpoAf3gQ&s",
+    "description": "Mark Grayson es un adolescente normal, excepto por el hecho de que su padre es Omni-Man, el superhéroe más poderoso del planeta. Poco después de su decimoséptimo cumpleaños, Mark comienza a desarrollar sus propios poderes y entra en el mundo de los héroes.",
+    "episodes": [
+      { "episode": 1, "title": "Ya era hora", "video_url": "https://archive.org/download/invencible-1x-08_202501/Invencible%201x01.mp4" },
+      { "episode": 2, "title": "Aquí viene lo bueno", "video_url": "https://archive.org/download/invencible-1x-08_202501/Invencible%201x02.mp4" },
+      { "episode": 3, "title": "A quién llamas feo", "video_url": "https://archive.org/download/invencible-1x-08_202501/Invencible%201x03.mp4" },
+      { "episode": 4, "title": "Neil Armstrong, come de ahí", "video_url": "https://archive.org/download/invencible-1x-08_202501/Invencible%201x04.mp4" },
+      { "episode": 5, "title": "Me ha dolido", "video_url": "https://archive.org/download/invencible-1x-08_202501/Invencible%201x05.mp4" },
+      { "episode": 6, "title": "Pareces un poco muerto", "video_url": "https://archive.org/download/invencible-1x-08_202501/Invencible%201x06.mp4" },
+      { "episode": 7, "title": "Tenemos que hablar", "video_url": "https://archive.org/download/invencible-1x-08_202501/Invencible%201x07.mp4" },
+      { "episode": 8, "title": "De donde vengo", "video_url": "https://archive.org/download/invencible-1x-08_202501/Invencible%201x08.mp4" }
+    ]
+  },
+   
   {
     "title": "Baki the Grappler",
     "original_title": "Grappler Baki",
