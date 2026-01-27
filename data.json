@@ -1,4 +1,193 @@
- [
+[
+  {
+    "title": "Serenity",
+    "description": "Disponible en Pluto TV.",
+    "year": 2024,
+    "studio": "Pluto TV",
+    "coverImage": "https://images.pluto.tv/episodes/685296960d69b4d35430db1b/poster_1750242968687.jpg?fill=blur&fit=fill&fm=jpg&h=1000&q=75&w=694",
+    "genre": ["Nuevo en Pluto TV", "El mejor cine"],
+    "video_url": "https://helmerluzo.github.io/PlutoTV_HL/vod/m3u8_ES/6/685296960d69b4d35430db1b.m3u8"
+  },
+  {
+    "title": "Han llegado",
+    "description": "Disponible en Pluto TV.",
+    "year": 2024,
+    "studio": "Pluto TV",
+    "coverImage": "https://images.pluto.tv/episodes/61ea6dd2161b65001a9c2ad9/poster.jpg?fill=blur&fit=fill&fm=jpg&h=1000&q=75&w=694",
+    "genre": ["Nuevo en Pluto TV"],
+    "video_url": "https://helmerluzo.github.io/PlutoTV_HL/vod/m3u8_ES/6/61ea6dd2161b65001a9c2ad9.m3u8"
+  },
+  {
+    "title": "Cube",
+    "description": "Disponible en Pluto TV.",
+    "year": 2024,
+    "studio": "Pluto TV",
+    "coverImage": "https://images.pluto.tv/episodes/61dec514635aeb001ac7d706/poster.jpg?fill=blur&fit=fill&fm=jpg&h=1000&q=75&w=694",
+    "genre": ["Nuevo en Pluto TV"],
+    "video_url": "https://helmerluzo.github.io/PlutoTV_HL/vod/m3u8_ES/6/61dec514635aeb001ac7d706.m3u8"
+  },
+  {
+    "title": "Grizzly Man",
+    "description": "Disponible en Pluto TV.",
+    "year": 2024,
+    "studio": "Pluto TV",
+    "coverImage": "https://images.pluto.tv/episodes/627379c273a0a1001451f581/poster.jpg?fill=blur&fit=fill&fm=jpg&h=1000&q=75&w=694",
+    "genre": ["Nuevo en Pluto TV"],
+    "video_url": "https://helmerluzo.github.io/PlutoTV_HL/vod/m3u8_ES/6/627379c273a0a1001451f581.m3u8"
+  },
+  {
+    "title": "La boda de Rosa",
+    "description": "Disponible en Pluto TV.",
+    "year": 2020,
+    "studio": "Pluto TV",
+    "coverImage": "https://images.pluto.tv/episodes/67ef891189ba442cd92561d2/poster.jpg?fill=blur&fit=fill&fm=jpg&h=1000&q=75&w=694",
+    "genre": ["Nuevo en Pluto TV"],
+    "video_url": "https://helmerluzo.github.io/PlutoTV_HL/vod/m3u8_ES/6/67ef891189ba442cd92561d2.m3u8"
+  },
+  {
+    "title": "50/50",
+    "description": "Disponible en Pluto TV.",
+    "year": 2024,
+    "studio": "Pluto TV",
+    "coverImage": "https://images.pluto.tv/episodes/67e113d1f456458f6cf34e75/poster.jpg?fill=blur&fit=fill&fm=jpg&h=1000&q=75&w=694",
+    "genre": ["Nuevo en Pluto TV"],
+    "video_url": "https://helmerluzo.github.io/PlutoTV_HL/vod/m3u8_ES/6/67e113d1f456458f6cf34e75.m3u8"
+  },
+  {
+    "title": "Más extraño que la ficción",
+    "description": "Disponible en Pluto TV.",
+    "year": 2024,
+    "studio": "Pluto TV",
+    "coverImage": "https://images.pluto.tv/episodes/67ea4314e8cf626542d281a7/poster.jpg?fill=blur&fit=fill&fm=jpg&h=1000&q=75&w=694",
+    "genre": ["Nuevo en Pluto TV"],
+    "video_url": "https://helmerluzo.github.io/PlutoTV_HL/vod/m3u8_ES/6/67ea4314e8cf626542d281a7.m3u8"
+  },
+  {
+    "title": "El duodécimo hombre",
+    "description": "Disponible en Pluto TV.",
+    "year": 2024,
+    "studio": "Pluto TV",
+    "coverImage": "https://images.pluto.tv/episodes/67b5b84a5d2668ecc5083e62/poster.jpg?fill=blur&fit=fill&fm=jpg&h=1000&q=75&w=694",
+    "genre": ["Nuevo en Pluto TV"],
+    "video_url": "https://helmerluzo.github.io/PlutoTV_HL/vod/m3u8_ES/6/67b5b84a5d2668ecc5083e62.m3u8"
+  },
+  {
+    "title": "El Partido",
+    "description": "Disponible en Pluto TV.",
+    "year": 2024,
+    "studio": "Pluto TV",
+    "coverImage": "https://images.pluto.tv/episodes/679b38898d09180014437c98/poster.jpg?fill=blur&fit=fill&fm=jpg&h=1000&q=75&w=694",
+    "genre": ["Nuevo en Pluto TV"],
+    "video_url": "https://helmerluzo.github.io/PlutoTV_HL/vod/m3u8_ES/6/679b38898d09180014437c98.m3u8"
+  },
+  {
+    "title": "El Campo Del Honor",
+    "description": "Disponible en Pluto TV.",
+    "year": 2024,
+    "studio": "Pluto TV",
+    "coverImage": "https://images.pluto.tv/episodes/679b496aff93e00013efc953/poster.jpg?fill=blur&fit=fill&fm=jpg&h=1000&q=75&w=694",
+    "genre": ["Nuevo en Pluto TV"],
+    "video_url": "https://helmerluzo.github.io/PlutoTV_HL/vod/m3u8_ES/6/679b496aff93e00013efc953.m3u8"
+  },
+  {
+    "title": "Planes de boda",
+    "description": "Disponible en Pluto TV.",
+    "year": 2024,
+    "studio": "Pluto TV",
+    "coverImage": "https://images.pluto.tv/episodes/67cadb9275fa8457009140c5/poster.jpg?fill=blur&fit=fill&fm=jpg&h=1000&q=75&w=694",
+    "genre": ["Nuevo en Pluto TV"],
+    "video_url": "https://helmerluzo.github.io/PlutoTV_HL/vod/m3u8_ES/6/67cadb9275fa8457009140c5.m3u8"
+  },
+  {
+    "title": "Larry Crowne, nunca es tarde",
+    "description": "Disponible en Pluto TV.",
+    "year": 2024,
+    "studio": "Pluto TV",
+    "coverImage": "https://images.pluto.tv/episodes/67b313e46d9b28853d680239/poster.jpg?fill=blur&fit=fill&fm=jpg&h=1000&q=75&w=694",
+    "genre": ["Nuevo en Pluto TV", "El mejor cine"],
+    "video_url": "https://helmerluzo.github.io/PlutoTV_HL/vod/m3u8_ES/6/67b313e46d9b28853d680239.m3u8"
+  },
+  {
+    "title": "Trece días",
+    "description": "Disponible en Pluto TV.",
+    "year": 2024,
+    "studio": "Pluto TV",
+    "coverImage": "https://images.pluto.tv/episodes/677e3bd8170fdf0013908d37/poster.jpg?fill=blur&fit=fill&fm=jpg&h=1000&q=75&w=694",
+    "genre": ["Nuevo en Pluto TV", "El mejor cine"],
+    "video_url": "https://helmerluzo.github.io/PlutoTV_HL/vod/m3u8_ES/6/677e3bd8170fdf0013908d37.m3u8"
+  },
+  {
+    "title": "Algo Prestado",
+    "description": "Disponible en Pluto TV.",
+    "year": 2024,
+    "studio": "Pluto TV",
+    "coverImage": "https://images.pluto.tv/episodes/675824d22678a500143c745a/poster.jpg?fill=blur&fit=fill&fm=jpg&h=1000&q=75&w=694",
+    "genre": ["Nuevo en Pluto TV"],
+    "video_url": "https://helmerluzo.github.io/PlutoTV_HL/vod/m3u8_ES/6/675824d22678a500143c745a.m3u8"
+  },
+  {
+    "title": "El zapatero",
+    "description": "Disponible en Pluto TV.",
+    "year": 2024,
+    "studio": "Pluto TV",
+    "coverImage": "https://images.pluto.tv/episodes/6729e43d2678a5001418eec6/poster.jpg?fill=blur&fit=fill&fm=jpg&h=1000&q=75&w=694",
+    "genre": ["Nuevo en Pluto TV"],
+    "video_url": "https://helmerluzo.github.io/PlutoTV_HL/vod/m3u8_ES/6/6729e43d2678a5001418eec6.m3u8"
+  },
+  {
+    "title": "Ghost In The Shell",
+    "description": "Disponible en Pluto TV.",
+    "year": 2024,
+    "studio": "Pluto TV",
+    "coverImage": "https://images.pluto.tv/episodes/6257ea018f17ad0013f6752e/poster.jpg?fill=blur&fit=fill&fm=jpg&h=1000&q=75&w=694",
+    "genre": ["Nuevo en Pluto TV"],
+    "video_url": "https://helmerluzo.github.io/PlutoTV_HL/vod/m3u8_ES/6/6257ea018f17ad0013f6752e.m3u8"
+  },
+  {
+    "title": "La buena mentira",
+    "description": "Disponible en Pluto TV.",
+    "year": 2024,
+    "studio": "Pluto TV",
+    "coverImage": "https://images.pluto.tv/episodes/672dcedf8d00c60014803570/poster.jpg?fill=blur&fit=fill&fm=jpg&h=1000&q=75&w=694",
+    "genre": ["Nuevo en Pluto TV"],
+    "video_url": "https://helmerluzo.github.io/PlutoTV_HL/vod/m3u8_ES/6/672dcedf8d00c60014803570.m3u8"
+  },
+  {
+    "title": "Reina Cristina",
+    "description": "Disponible en Pluto TV.",
+    "year": 2024,
+    "studio": "Pluto TV",
+    "coverImage": "https://images.pluto.tv/episodes/63ad7601a6bb3b001471c4eb/poster.jpg?fill=blur&fit=fill&fm=jpg&h=1000&q=75&w=694",
+    "genre": ["Pluto TV con Orgullo"],
+    "video_url": "https://helmerluzo.github.io/PlutoTV_HL/vod/m3u8_ES/6/63ad7601a6bb3b001471c4eb.m3u8"
+  },
+  {
+    "title": "El roast de Bruce Willis",
+    "description": "Disponible en Pluto TV.",
+    "year": 2024,
+    "studio": "Pluto TV",
+    "coverImage": "https://images.pluto.tv/episodes/66fa915d1a51490013414b00/poster.jpg?fill=blur&fit=fill&fm=jpg&h=1000&q=75&w=694",
+    "genre": ["Series comedia"],
+    "video_url": "https://helmerluzo.github.io/PlutoTV_HL/vod/m3u8_ES/6/66fa915d1a51490013414b00.m3u8"
+  },
+  {
+    "title": "Valkiria",
+    "description": "Disponible en Pluto TV.",
+    "year": 2024,
+    "studio": "Pluto TV",
+    "coverImage": "https://images.pluto.tv/episodes/5f4f5cf0fa72a5001a5fda18/poster.jpg?fill=blur&fit=fill&fm=jpg&h=1000&q=75&w=694",
+    "genre": ["El mejor cine"],
+    "video_url": "https://helmerluzo.github.io/PlutoTV_HL/vod/m3u8_ES/5/5f4f5cf0fa72a5001a5fda18.m3u8"
+  },
+  {
+    "title": "Código fuente",
+    "description": "Disponible en Pluto TV.",
+    "year": 2024,
+    "studio": "Pluto TV",
+    "coverImage": "https://images.pluto.tv/episodes/672dcc142678a50014518e59/poster.jpg?fill=blur&fit=fill&fm=jpg&h=1000&q=75&w=694",
+    "genre": ["El mejor cine"],
+    "video_url": "https://helmerluzo.github.io/PlutoTV_HL/vod/m3u8_ES/6/672dcc142678a50014518e59.m3u8"
+  },
   
   {
     "title": "Wolverine",
