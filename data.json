@@ -1,7 +1,7 @@
 
  [
   {
-    "title": "Baki the Grappler Temporada 2",
+    "title": "Baki the Grappler",
     "original_title": "Grappler Baki",
     "year": 2001,
     "genre": ["Animación", "Acción", "Artes Marciales"],
@@ -26,7 +26,7 @@
   },
 
   {
-    "title": "Baki the Grappler",
+    "title": "Baki",
     "original_title": "Grappler Baki",
     "year": 2001,
     "genre": ["Animación", "Acción", "Artes Marciales"],
@@ -23792,145 +23792,7 @@
     }
   ]
 },
-{
-  "title": "Las Tortugas Ninja (2003)",
-  "description": "Cuatro tortugas mutantes entrenadas en artes marciales por su maestro Splinter luchan para proteger Nueva York de amenazas como el Clan del Pie, Shredder y otros enemigos sobrenaturales, mientras aprenden sobre la amistad y la hermandad.",
-  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToqg7ISOlHI0SRwTgWEaf_11bBKSqUpQvPtc_uipAiUPqk-IhcsXdcW891&s=10",
-  "genre": ["Animación", "Acción", "Aventura", "Superhéroes"],
-  "episodes": [
-    {
-      "episode": 1,
-      "title": "Las Cosas Cambian",
-      "video_url": "https://archive.org/download/1.-las-cosas-cambian/1.%20Las%20Cosas%20Cambian.mp4"
-    },
-    {
-      "episode": 2,
-      "title": "La Mejor Ratonera",
-      "video_url": "https://archive.org/download/1.-las-cosas-cambian/2.%20La%20Mejor%20Ratonera.mp4"
-    },
-    {
-      "episode": 3,
-      "title": "El Ataque de los Ratoneros",
-      "video_url": "https://archive.org/download/1.-las-cosas-cambian/3.%20El%20Ataque%20de%20los%20Ratoneros.mp4"
-    },
-    {
-      "episode": 4,
-      "title": "Presentando a Casey Jones",
-      "video_url": "https://archive.org/download/1.-las-cosas-cambian/4.%20Presentando%20a%20Casey%20Jones.mp4"
-    },
-    {
-      "episode": 5,
-      "title": "Nano",
-      "video_url": "https://archive.org/download/1.-las-cosas-cambian/5.%20Nano.mp4"
-    },
-    {
-      "episode": 6,
-      "title": "Apagón a las Orillas de la Ciudad",
-      "video_url": "https://archive.org/download/1.-las-cosas-cambian/6.%20Apag%C3%B3n%20a%20las%20Orillas%20de%20la%20Ciudad.mp4"
-    },
-    {
-      "episode": 7,
-      "title": "La Técnica de la Invisibilidad",
-      "video_url": "https://archive.org/download/1.-las-cosas-cambian/7.%20La%20T%C3%A9cnica%20de%20la%20Invisibilidad.mp4"
-    },
-    {
-      "episode": 8,
-      "title": "Ángel Caído",
-      "video_url": "https://archive.org/download/1.-las-cosas-cambian/8.%20%C3%81ngel%20Ca%C3%ADdo.mp4"
-    },
-    {
-      "episode": 9,
-      "title": "El Basurero",
-      "video_url": "https://archive.org/download/1.-las-cosas-cambian/9.%20El%20Basurero.mp4"
-    },
-    {
-      "episode": 10,
-      "title": "Shredder Ataca Pt. 1",
-      "video_url": "https://archive.org/download/1.-las-cosas-cambian/10.%20Shredder%20Ataca%20Pt.%201.mp4"
-    },
-    {
-      "episode": 11,
-      "title": "Shredder Ataca Pt. 2",
-      "video_url": "https://archive.org/download/1.-las-cosas-cambian/11.%20Shredder%20Ataca%20Pt.%202.mp4"
-    },
-    {
-      "episode": 12,
-      "title": "La Poco Convincente Tortuga Titán",
-      "video_url": "https://archive.org/download/1.-las-cosas-cambian/12.%20La%20Poco%20Convincente%20Tortuga%20Tit%C3%A1n.mp4"
-    },
-    {
-      "episode": 13,
-      "title": "Historias del Subterráneo Pt. 1",
-      "video_url": "https://archive.org/download/1.-las-cosas-cambian/13.%20Historias%20del%20Subterr%C3%A1neo%20Pt.%201.mp4"
-    },
-    {
-      "episode": 14,
-      "title": "Historias del Subterráneo Pt. 2",
-      "video_url": "https://archive.org/download/1.-las-cosas-cambian/14.%20Historias%20del%20Subterr%C3%A1neo%20Pt.%202.mp4"
-    },
-    {
-      "episode": 15,
-      "title": "Historias del Subterráneo Pt. 3",
-      "video_url": "https://archive.org/download/1.-las-cosas-cambian/15.%20Historias%20del%20Subterr%C3%A1neo%20Pt.%203.mp4"
-    },
-    {
-      "episode": 16,
-      "title": "El Rey",
-      "video_url": "https://archive.org/download/1.-las-cosas-cambian/16.%20El%20Rey.mp4"
-    },
-    {
-      "episode": 17,
-      "title": "Shredder Contraataca Pt. 1",
-      "video_url": "https://archive.org/download/1.-las-cosas-cambian/17.%20Shredder%20Contraataca%20Pt.%201.mp4"
-    },
-    {
-      "episode": 18,
-      "title": "Shredder Contraataca Pt. 2",
-      "video_url": "https://archive.org/download/1.-las-cosas-cambian/18.%20Shredder%20Contraataca%20Pt.%202.mp4"
-    },
-    {
-      "episode": 19,
-      "title": "Historias de Leo",
-      "video_url": "https://archive.org/download/1.-las-cosas-cambian/19.%20Historias%20de%20Leo.mp4"
-    },
-    {
-      "episode": 20,
-      "title": "La Cazadora de Monstruos",
-      "video_url": "https://archive.org/download/1.-las-cosas-cambian/20.%20La%20Cazadora%20de%20Monstruos.mp4"
-    },
-    {
-      "episode": 21,
-      "title": "Regreso a Nueva York Pt. 1",
-      "video_url": "https://archive.org/download/1.-las-cosas-cambian/21.%20Regreso%20a%20Nueva%20York%20Pt.%201.mp4"
-    },
-    {
-      "episode": 22,
-      "title": "Regreso a Nueva York Pt. 2",
-      "video_url": "https://archive.org/download/1.-las-cosas-cambian/22.%20Regreso%20a%20Nueva%20York%20Pt.%202.mp4"
-    },
-    {
-      "episode": 23,
-      "title": "Regreso a Nueva York Pt. 3",
-      "video_url": "https://archive.org/download/1.-las-cosas-cambian/23.%20Regreso%20a%20Nueva%20York%20Pt.%203.mp4"
-    },
-    {
-      "episode": 24,
-      "title": "Rafael Solitario y el Cachorro",
-      "video_url": "https://archive.org/download/1.-las-cosas-cambian/24.%20Rafael%20Solitario%20y%20el%20Cachorro.mp4"
-    },
-    {
-      "episode": 25,
-      "title": "La Búsqueda de Splinter Pt. 1",
-      "video_url": "https://archive.org/download/1.-las-cosas-cambian/25.%20La%20B%C3%BAsqueda%20de%20Splinter%20Pt.%201.mp4"
-    },
-    {
-      "episode": 26,
-      "title": "La Búsqueda de Splinter Pt. 2",
-      "video_url": "https://archive.org/download/1.-las-cosas-cambian/26.%20La%20B%C3%BAsqueda%20de%20Splinter%20Pt.%202.mp4"
-    }
-  ]
-},
-
+  
 
 
 {
