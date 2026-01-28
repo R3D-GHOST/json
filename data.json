@@ -1,5 +1,78 @@
 [
   {
+    "title": "Harry Potter y la piedra filosofal",
+    "description": "En su undécimo cumpleaños, Harry Potter descubre que es un mago y es invitado a estudiar en el Colegio Hogwarts de Magia y Hechicería, donde descubre la verdad sobre sus padres y se enfrenta a un oscuro secreto.",
+    "year": 2001,
+    "studio": "Warner Bros. Pictures",
+    "coverImage": "https://i.ibb.co/SywgR6c/Harry-Potter-Piedra.jpg",
+    "genre": ["Fantasía", "Aventura", "Familia"],
+    "video_url": "http://archive.org/download/ezra_2_201904/subid0_p4r4_stre4m1ng_a85/1.mp4"
+  },
+  {
+    "title": "Harry Potter y la cámara secreta",
+    "description": "Harry regresa a Hogwarts para su segundo año, pero una misteriosa entidad está petrificando a los estudiantes. Harry deberá descubrir quién ha abierto la mítica Cámara Secreta antes de que sea tarde.",
+    "year": 2002,
+    "studio": "Warner Bros. Pictures",
+    "coverImage": "https://i.ibb.co/h9wPn3N/Harry-Potter-Camara.jpg",
+    "genre": ["Fantasía", "Aventura", "Misterio"],
+    "video_url": "http://archive.org/download/ezra_2_201904/subid0_p4r4_stre4m1ng_a85/2.mp4"
+  },
+  {
+    "title": "Harry Potter y el prisionero de Azkaban",
+    "description": "Un peligroso asesino, Sirius Black, escapa de la prisión de Azkaban y parece estar buscando a Harry. Mientras tanto, los aterradores Dementores vigilan el colegio.",
+    "year": 2004,
+    "studio": "Warner Bros. Pictures",
+    "coverImage": "https://i.ibb.co/tKfXTQ0/Harry-Potter-Azkaban.jpg",
+    "genre": ["Fantasía", "Aventura"],
+    "video_url": "http://archive.org/download/ezra_2_201904/subid0_p4r4_stre4m1ng_a85/3.mp4"
+  },
+  {
+    "title": "Harry Potter y el cáliz de fuego",
+    "description": "Harry es seleccionado misteriosamente para competir en el Torneo de los Tres Magos, una peligrosa competencia entre escuelas de magia, mientras el regreso de Lord Voldemort se vuelve inminente.",
+    "year": 2005,
+    "studio": "Warner Bros. Pictures",
+    "coverImage": "https://i.ibb.co/GvdXzyp/Harry-Potter-Caliz.jpg",
+    "genre": ["Fantasía", "Aventura", "Acción"],
+    "video_url": "http://archive.org/download/ezra_2_201904/subid0_p4r4_stre4m1ng_a85/4.mp4"
+  },
+  {
+    "title": "Harry Potter y la orden del Fénix",
+    "description": "Con el Ministerio de Magia negando el regreso de Voldemort, Harry entrena secretamente a un grupo de estudiantes (el Ejército de Dumbledore) para la guerra que se avecina.",
+    "year": 2007,
+    "studio": "Warner Bros. Pictures",
+    "coverImage": "https://i.ibb.co/M9kKs5w/Harry-Potter-Orden-Fenix.jpg",
+    "genre": ["Fantasía", "Aventura", "Drama"],
+    "video_url": "http://archive.org/download/ezra_2_201904/subid0_p4r4_stre4m1ng_a85/5.mp4"
+  },
+  {
+    "title": "Harry Potter y el misterio del príncipe",
+    "description": "Harry encuentra un antiguo libro de pociones que perteneció al 'Príncipe Mestizo' y comienza a aprender más sobre el oscuro pasado de Lord Voldemort junto a Albus Dumbledore.",
+    "year": 2009,
+    "studio": "Warner Bros. Pictures",
+    "coverImage": "https://i.ibb.co/D8LwHDf/Harry-Potter-Misterio.jpg",
+    "genre": ["Fantasía", "Aventura", "Misterio"],
+    "video_url": "http://archive.org/download/ezra_2_201904/subid0_p4r4_stre4m1ng_a85/6.mp4"
+  },
+  {
+    "title": "Harry Potter y las reliquias de la muerte Parte I",
+    "description": "Harry, Ron y Hermione abandonan Hogwarts para localizar y destruir los Horrocruxes, los secretos de la inmortalidad de Voldemort, mientras el mundo mágico cae en manos de los Mortífagos.",
+    "year": 2010,
+    "studio": "Warner Bros. Pictures",
+    "coverImage": "https://i.ibb.co/CPhyjdY/Harry-Potter-Reliquias.jpg",
+    "genre": ["Fantasía", "Aventura", "Acción"],
+    "video_url": "http://archive.org/download/ezra_2_201904/subid0_p4r4_stre4m1ng_a85/7.mp4"
+  },
+  {
+    "title": "Harry Potter y las reliquias de la muerte - Parte II",
+    "description": "La batalla final entre las fuerzas del bien y el mal llega a su punto máximo. Harry Potter debe hacer el sacrificio definitivo en su enfrentamiento final con Lord Voldemort.",
+    "year": 2011,
+    "studio": "Warner Bros. Pictures",
+    "coverImage": "https://i.ibb.co/x1xP6Jt/Harry-POtter-Reliq2.jpg",
+    "genre": ["Fantasía", "Aventura", "Acción"],
+    "video_url": "http://archive.org/download/ezra_2_201904/subid0_p4r4_stre4m1ng_a85/8.mp4"
+  },
+  
+  {
     "title": "Proyecto Extracción",
     "description": "Dos exsoldados de las fuerzas especiales (Jackie Chan y John Cena) deben escoltar a un grupo de civiles a través de la 'Autopista de la Muerte' en Bagdad hasta la seguridad de la Zona Verde.",
     "year": 2023,
