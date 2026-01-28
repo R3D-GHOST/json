@@ -1,5 +1,96 @@
 [
   {
+    "title": "Proyecto Extracción",
+    "description": "Dos exsoldados de las fuerzas especiales (Jackie Chan y John Cena) deben escoltar a un grupo de civiles a través de la 'Autopista de la Muerte' en Bagdad hasta la seguridad de la Zona Verde.",
+    "year": 2023,
+    "studio": "XYZ Films",
+    "coverImage": "https://image.tmdb.org/t/p/original/wqwDKolEd9lhrPGWwqTCpwJc2aT.jpg",
+    "genre": ["Acción", "Suspenso"],
+    "video_url": "https://dl.dropbox.com/scl/fi/af7jkq4ook02mhqveu3sm/134e.mp4?rlkey=vb7cd1pze3k31p3707kiqcbe6&st=l23j3fto&dl=0"
+  },
+  {
+    "title": "Dobles de acción",
+    "description": "Un acabado doble de acción y su fiel caballo se vuelven virales de la noche a la mañana cuando su pelea con cobradores de deudas se filtra en internet, dándole una última oportunidad de redimirse con su hija.",
+    "year": 2023,
+    "studio": "Alibaba Pictures",
+    "coverImage": "https://image.tmdb.org/t/p/original/arF1VcDtjuK4AV43FSQNKOl0J23.jpg",
+    "genre": ["Acción", "Drama", "Comedia"],
+    "video_url": "https://dl.dropbox.com/scl/fi/irhi8r05z671ydt6hx7e6/18ed88r8r.mp4?rlkey=4mpxtgcgnj87qruq8wxczhe7l&st=w7s5bwfk&dl=0"
+  },
+  {
+    "title": "Avalancha",
+    "description": "Basada en hechos reales. Un equipo de escaladores chinos intenta conquistar la peligrosa cara norte del Monte Everest en 1960 y 1975, enfrentándose a condiciones extremas y decisiones de vida o muerte.",
+    "year": 2019,
+    "studio": "Shanghai Film Group",
+    "coverImage": "https://image.tmdb.org/t/p/original/iT84QV70fF4WfMM1UERJI3QWb7A.jpg",
+    "genre": ["Aventura", "Drama", "Acción"],
+    "video_url": "https://dl.dropbox.com/scl/fi/1tq0b6zan4sscu4tfcost/2019.mp4?rlkey=bnb4ajiweon6w7yvs2046dj4b&st=1tojk3cr&dl=0"
+  },
+  {
+    "title": "El misterio del dragón",
+    "description": "El cartógrafo Jonathan Green recibe la orden de Pedro el Grande para mapear el Lejano Oriente ruso. En su viaje, llegará a China donde se enfrentará a magia negra y al legendario Rey de los Dragones.",
+    "year": 2019,
+    "studio": "Universal Pictures",
+    "coverImage": "https://image.tmdb.org/t/p/original/hM0FtHli2m2R9qqxPnIkdG2FZi9.jpg",
+    "genre": ["Fantasía", "Aventura"],
+    "video_url": "https://dl.dropbox.com/scl/fi/5sdwgupmliovsq8vrxsfv/2019a2.mp4?rlkey=10klyxeoa6l13i82kk21e4cfo&st=5rm9aypc&dl=0"
+  },
+  {
+    "title": "Enemigo Inmortal",
+    "description": "Un agente de las fuerzas especiales lucha para proteger a una joven de una banda de criminales con tecnología bioquímica avanzada, mientras descubre que tiene una conexión inesperada con ella.",
+    "year": 2017,
+    "studio": "Village Roadshow",
+    "coverImage": "https://image.tmdb.org/t/p/original/zVkZaPOlSnoxkAPtYQzCmsTzz1z.jpg",
+    "genre": ["Ciencia ficción", "Acción"],
+    "video_url": "https://archive.org/download/peliculas-completas-en-espanol-latino-castellano-enemigo-inmortal-jackie-chan-ci/--%20Pel%C3%ADculas%20completas%20en%20espa%C3%B1ol%20Latino%20%28castellano%29_EnemigoInmortal%20_Jackie%20Chan_Ciencia%20Ficcion%28480P%29_1.ia.mp4"
+  },
+  {
+    "title": "El Implacable",
+    "description": "Un humilde empresario londinense (Jackie Chan) busca justicia cuando su hija muere en un atentado terrorista. Ante la inacción de las autoridades, decide enfrentarse a un oficial del gobierno (Pierce Brosnan) con un pasado oscuro.",
+    "year": 2017,
+    "studio": "STX Entertainment",
+    "coverImage": "https://image.tmdb.org/t/p/original/jaTjBYwb8xyRTXnzcws13imJKa8.jpg",
+    "genre": ["Acción", "Suspenso", "Drama"],
+    "video_url": "https://dl.dropbox.com/scl/fi/lhp28bbtcb22wuers7dph/2017a1.mp4?rlkey=8s9hxkcvd5q4x78u1gc2js4tl&st=dap3ulzo&dl=0"
+  },
+  {
+    "title": "Kung Fu Yoga",
+    "description": "Jack, un renombrado profesor de arqueología, se une a una experta india para localizar un tesoro perdido en el Tíbet. Su aventura los llevará desde cuevas de hielo hasta la moderna Dubái.",
+    "year": 2017,
+    "studio": "Taihe Entertainment",
+    "coverImage": "https://image.tmdb.org/t/p/original/9IzVU7cx5YGIFGXSCoGKh9piozq.jpg",
+    "genre": ["Acción", "Aventura", "Comedia"],
+    "video_url": "https://dl.dropbox.com/scl/fi/1wvkz0nypj32d1fnb6c3o/2017b1.mp4?rlkey=rs5hwnisb839ujqdt4wvn5lc2&st=hmp8bh0x&dl=0"
+  },
+  {
+    "title": "The Karate Kid",
+    "description": "Dre Parker se muda a China y es acosado por el matón de la escuela. El Sr. Han (Jackie Chan), un encargado de mantenimiento que es secretamente un maestro de Kung Fu, decide entrenarlo para que pueda defenderse en un torneo.",
+    "year": 2010,
+    "studio": "Columbia Pictures",
+    "coverImage": "https://image.tmdb.org/t/p/original/2WK92VLKe87O7dSL5J6epFzL4EH.jpg",
+    "genre": ["Acción", "Drama", "Familia"],
+    "video_url": "https://archive.org/download/mini-espias-4-los-ladrones-del-tiempo-2011-pelicula-cuevana-3/THE%20KARATE%20KID%20%282010%29%20%E2%9C%94.mp4"
+  },
+  {
+    "title": "Una Pareja Explosiva (Rush Hour)",
+    "description": "El detective inspector Lee de Hong Kong y el impulsivo detective James Carter del LAPD deben trabajar juntos para rescatar a la hija secuestrada del cónsul chino en Los Ángeles.",
+    "year": 1998,
+    "studio": "New Line Cinema",
+    "coverImage": "https://image.tmdb.org/t/p/original/hEDCaLqmgJcQD30xaOCM5OcaQyk.jpg",
+    "genre": ["Acción", "Comedia", "Crimen"],
+    "video_url": "https://dl.dropbox.com/scl/fi/bh5673hqz40ijeau1nkv4/1998.mp4?rlkey=4hp81wotn0u73ujf7dbqtifa8&st=5whvghvi&dl=0"
+  },
+  {
+    "title": "El Maestro Borracho II",
+    "description": "Wong Fei-hung se ve envuelto en una lucha contra extranjeros que intentan exportar ilegalmente artefactos antiguos chinos. Para vencerlos, debe utilizar su estilo de 'boxeo borracho' a pesar de la desaprobación de su padre.",
+    "year": 1994,
+    "studio": "Golden Harvest",
+    "coverImage": "https://image.tmdb.org/t/p/original/jBcsGcLuDXYQCZGEjyRd8QM0Xmm.jpg",
+    "genre": ["Acción", "Comedia"],
+    "video_url": "https://dl.dropbox.com/scl/fi/7nxbm90ohddcst6laporo/1994.mp4?rlkey=a8lbwu6f5o7lg2mpse5iwrg55&st=ddp1qq1t&dl=0"
+  },
+  
+  {
     "title": "Los Jóvenes Titanes",
     "original_title": "Teen Titans",
     "year": 2003,
