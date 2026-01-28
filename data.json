@@ -1,6 +1,157 @@
-
 [
-
+  {
+    "title": "Ben 10: Omniverse - Temporada 1",
+    "year": 2012,
+    "genre": ["Animación", "Acción", "Ciencia Ficción"],
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn7U5so19R-bOrMIOibzOr2wGXnAjo5bRklERndyYy9w&s=10",
+    "description": "Ben Tennyson cuenta con un nuevo compañero, Rook Blonko, y un nuevo Omnitrix que le da acceso a alienígenas nunca antes vistos mientras explora una ciudad alienígena subterránea.",
+    "episodes": [
+      { "episode": 1, "title": "Muchas cosas cambian: Parte 1", "video_url": "http://archive.org/download/pejiw1/Sub1d0_p4r4_5tr34ming_A85_83N_O1/1.mp4" },
+      { "episode": 2, "title": "Muchas cosas cambian: Parte 2", "video_url": "http://archive.org/download/pejiw1/Sub1d0_p4r4_5tr34ming_A85_83N_O1/2.mp4" },
+      { "episode": 3, "title": "Una sacudida del pasado", "video_url": "http://archive.org/download/pejiw1/Sub1d0_p4r4_5tr34ming_A85_83N_O1/3.mp4" },
+      { "episode": 4, "title": "Hélix problemático", "video_url": "http://archive.org/download/pejiw1/Sub1d0_p4r4_5tr34ming_A85_83N_O1/4.mp4" },
+      { "episode": 5, "title": "Hagamos un trato", "video_url": "http://archive.org/download/pejiw1/Sub1d0_p4r4_5tr34ming_A85_83N_O1/5.mp4" },
+      { "episode": 6, "title": "Fueron ellos", "video_url": "http://archive.org/download/pejiw1/Sub1d0_p4r4_5tr34ming_A85_83N_O1/6.mp4" },
+      { "episode": 7, "title": "Adiós y gracias por todos los Smoothies", "video_url": "http://archive.org/download/pejiw1/Sub1d0_p4r4_5tr34ming_A85_83N_O1/7.mp4" },
+      { "episode": 8, "title": "Punto caliente", "video_url": "http://archive.org/download/pejiw1/Sub1d0_p4r4_5tr34ming_A85_83N_O1/8.mp4" },
+      { "episode": 9, "title": "Depredadores y presa: Parte 1", "video_url": "http://archive.org/download/pejiw1/Sub1d0_p4r4_5tr34ming_A85_83N_O1/9.mp4" },
+      { "episode": 10, "title": "Depredadores y presa: Parte 2", "video_url": "http://archive.org/download/pejiw1/Sub1d0_p4r4_5tr34ming_A85_83N_O1/10.mp4" }
+    ]
+  },
+  {
+    "title": "Ben 10: Omniverse - Temporada 2",
+    "year": 2013,
+    "genre": ["Animación", "Acción", "Ciencia Ficción"],
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn7U5so19R-bOrMIOibzOr2wGXnAjo5bRklERndyYy9w&s=10",
+    "description": "La batalla contra Malware se intensifica mientras Ben recuerda eventos clave de su pasado y enfrenta nuevas amenazas intergalácticas.",
+    "episodes": [
+      { "episode": 1, "title": "Estallido", "video_url": "http://archive.org/download/wekecir2/Sub1d0_p4r4_5tr34ming_A85_83N_O2/1.mp4" },
+      { "episode": 2, "title": "Muchos regresos felices", "video_url": "http://archive.org/download/wekecir2/Sub1d0_p4r4_5tr34ming_A85_83N_O2/2.mp4" },
+      { "episode": 3, "title": "De pesca", "video_url": "http://archive.org/download/wekecir2/Sub1d0_p4r4_5tr34ming_A85_83N_O2/3.mp4" },
+      { "episode": 4, "title": "Blukic y Driba visitan al Sr. Smoothy", "video_url": "http://archive.org/download/wekecir2/Sub1d0_p4r4_5tr34ming_A85_83N_O2/4.mp4" },
+      { "episode": 5, "title": "Factor Malware", "video_url": "http://archive.org/download/wekecir2/Sub1d0_p4r4_5tr34ming_A85_83N_O2/5.mp4" },
+      { "episode": 6, "title": "Desarrollo suspendido", "video_url": "http://archive.org/download/wekecir2/Sub1d0_p4r4_5tr34ming_A85_83N_O2/6.mp4" },
+      { "episode": 7, "title": "Hermanos en el espacio", "video_url": "http://archive.org/download/wekecir2/Sub1d0_p4r4_5tr34ming_A85_83N_O2/7.mp4" },
+      { "episode": 8, "title": "Las reglas del compromiso", "video_url": "http://archive.org/download/wekecir2/Sub1d0_p4r4_5tr34ming_A85_83N_O2/8.mp4" },
+      { "episode": 9, "title": "Confrontación: Parte 1", "video_url": "http://archive.org/download/wekecir2/Sub1d0_p4r4_5tr34ming_A85_83N_O2/9.mp4" },
+      { "episode": 10, "title": "Confrontación: Parte 2", "video_url": "http://archive.org/download/wekecir2/Sub1d0_p4r4_5tr34ming_A85_83N_O2/10.mp4" }
+    ]
+  },
+  {
+    "title": "Ben 10: Omniverse - Temporada 3",
+    "year": 2013,
+    "genre": ["Animación", "Acción", "Ciencia Ficción"],
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn7U5so19R-bOrMIOibzOr2wGXnAjo5bRklERndyYy9w&s=10",
+    "description": "Ben se enfrenta a la invasión de las ranas Incursanas y conoce a sus contrapartes de otras dimensiones.",
+    "episodes": [
+      { "episode": 1, "title": "Gracias a Dios, son los Sábados Secretos", "video_url": "http://archive.org/download/wekecir3/Sub1d0_p4r4_5tr34ming_A85_83N_O3/1.mp4" },
+      { "episode": 2, "title": "Problemas Estomacales", "video_url": "http://archive.org/download/wekecir3/Sub1d0_p4r4_5tr34ming_A85_83N_O3/2.mp4" },
+      { "episode": 3, "title": "Tienda 23", "video_url": "http://archive.org/download/wekecir3/Sub1d0_p4r4_5tr34ming_A85_83N_O3/3.mp4" },
+      { "episode": 4, "title": "Vilgax debe morir", "video_url": "http://archive.org/download/wekecir3/Sub1d0_p4r4_5tr34ming_A85_83N_O3/4.mp4" },
+      { "episode": 5, "title": "Ben otra vez", "video_url": "http://archive.org/download/wekecir3/Sub1d0_p4r4_5tr34ming_A85_83N_O3/5.mp4" },
+      { "episode": 6, "title": "Entrega especial", "video_url": "http://archive.org/download/wekecir3/Sub1d0_p4r4_5tr34ming_A85_83N_O3/6.mp4" },
+      { "episode": 7, "title": "Rad", "video_url": "http://archive.org/download/wekecir3/Sub1d0_p4r4_5tr34ming_A85_83N_O3/7.mp4" },
+      { "episode": 8, "title": "Mientras estabas lejos", "video_url": "http://archive.org/download/wekecir3/Sub1d0_p4r4_5tr34ming_A85_83N_O3/8.mp4" },
+      { "episode": 9, "title": "Las Ranas de la Guerra: Parte 1", "video_url": "http://archive.org/download/wekecir3/Sub1d0_p4r4_5tr34ming_A85_83N_O3/9.mp4" },
+      { "episode": 10, "title": "Las Ranas de la Guerra: Parte 2", "video_url": "http://archive.org/download/wekecir3/Sub1d0_p4r4_5tr34ming_A85_83N_O3/10.mp4" }
+    ]
+  },
+  {
+    "title": "Ben 10: Omniverse - Temporada 4",
+    "year": 2013,
+    "genre": ["Animación", "Acción", "Ciencia Ficción"],
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn7U5so19R-bOrMIOibzOr2wGXnAjo5bRklERndyYy9w&s=10",
+    "description": "Albedo regresa con un plan para recuperar su forma Galván, mientras Ben debe lidiar con monstruos y antiguos enemigos.",
+    "episodes": [
+      { "episode": 1, "title": "Comida a la vuelta de la esquina", "video_url": "http://archive.org/download/wekecir4/Sub1d0_p4r4_5tr34ming_A85_83N_O4/1.mp4" },
+      { "episode": 2, "title": "El máximo atraco", "video_url": "http://archive.org/download/wekecir4/Sub1d0_p4r4_5tr34ming_A85_83N_O4/2.mp4" },
+      { "episode": 3, "title": "Oh Mamá, ¿Dónde estás?", "video_url": "http://archive.org/download/wekecir4/Sub1d0_p4r4_5tr34ming_A85_83N_O4/3.mp4" },
+      { "episode": 4, "title": "El monstruo de Max", "video_url": "http://archive.org/download/wekecir4/Sub1d0_p4r4_5tr34ming_A85_83N_O4/4.mp4" },
+      { "episode": 5, "title": "La reunión del mal", "video_url": "http://archive.org/download/wekecir4/Sub1d0_p4r4_5tr34ming_A85_83N_O4/5.mp4" },
+      { "episode": 6, "title": "El regreso de los eternos", "video_url": "http://archive.org/download/wekecir4/Sub1d0_p4r4_5tr34ming_A85_83N_O4/6.mp4" },
+      { "episode": 7, "title": "El lodo es más denso que el agua", "video_url": "http://archive.org/download/wekecir4/Sub1d0_p4r4_5tr34ming_A85_83N_O4/7.mp4" },
+      { "episode": 8, "title": "Los motivos de OTTO", "video_url": "http://archive.org/download/wekecir4/Sub1d0_p4r4_5tr34ming_A85_83N_O4/8.mp4" },
+      { "episode": 9, "title": "Un puñado de cerebros", "video_url": "http://archive.org/download/wekecir4/Sub1d0_p4r4_5tr34ming_A85_83N_O4/9.mp4" },
+      { "episode": 10, "title": "Por un par de cerebros más", "video_url": "http://archive.org/download/wekecir4/Sub1d0_p4r4_5tr34ming_A85_83N_O4/10.mp4" }
+    ]
+  },
+  {
+    "title": "Ben 10: Omniverse - Temporada 5",
+    "year": 2014,
+    "genre": ["Animación", "Acción", "Ciencia Ficción"],
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn7U5so19R-bOrMIOibzOr2wGXnAjo5bRklERndyYy9w&s=10",
+    "description": "Conocida como el 'Trío Galáctico', esta temporada lleva a Ben a enfrentarse a amenazas místicas y de terror, incluyendo a Zs'Skayr.",
+    "episodes": [
+      { "episode": 1, "title": "Algo Zombozo se aproxima", "video_url": "http://archive.org/download/wekecir5/Sub1d0_p4r4_5tr34ming_A85_83N_O5/1.mp4" },
+      { "episode": 2, "title": "Misterio incorpóreo", "video_url": "http://archive.org/download/wekecir5/Sub1d0_p4r4_5tr34ming_A85_83N_O5/2.mp4" },
+      { "episode": 3, "title": "La Venganza es Mía", "video_url": "http://archive.org/download/wekecir5/Sub1d0_p4r4_5tr34ming_A85_83N_O5/3.mp4" },
+      { "episode": 4, "title": "Un Benlobo Americano en Londres", "video_url": "http://archive.org/download/wekecir5/Sub1d0_p4r4_5tr34ming_A85_83N_O5/4.mp4" },
+      { "episode": 5, "title": "Mis Dos Doctores", "video_url": "http://archive.org/download/wekecir5/Sub1d0_p4r4_5tr34ming_A85_83N_O5/5.mp4" },
+      { "episode": 6, "title": "La fiesta de los monstruos", "video_url": "http://archive.org/download/wekecir5/Sub1d0_p4r4_5tr34ming_A85_83N_O5/6.mp4" },
+      { "episode": 7, "title": "Charmcaster regresa", "video_url": "http://archive.org/download/wekecir5/Sub1d0_p4r4_5tr34ming_A85_83N_O5/7.mp4" },
+      { "episode": 8, "title": "El vampiro contraataca", "video_url": "http://archive.org/download/wekecir5/Sub1d0_p4r4_5tr34ming_A85_83N_O5/8.mp4" },
+      { "episode": 9, "title": "Triángulo Amoroso", "video_url": "http://archive.org/download/wekecir5/Sub1d0_p4r4_5tr34ming_A85_83N_O5/9.mp4" },
+      { "episode": 10, "title": "Colecciona esto", "video_url": "http://archive.org/download/wekecir5/Sub1d0_p4r4_5tr34ming_A85_83N_O5/10.mp4" }
+    ]
+  },
+  {
+    "title": "Ben 10: Omniverse - Temporada 6",
+    "year": 2014,
+    "genre": ["Animación", "Acción", "Ciencia Ficción"],
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn7U5so19R-bOrMIOibzOr2wGXnAjo5bRklERndyYy9w&s=10",
+    "description": "Ben se enfrenta a las Raíces, una facción secreta de los Plomeros, y descubre la verdad sobre los chicos Osmosianos.",
+    "episodes": [
+      { "episode": 1, "title": "El principio del último", "video_url": "http://archive.org/download/xovaf6/Sub1d0_p4r4_5tr34ming_A85_83N_O6/1.mp4" },
+      { "episode": 2, "title": "Y al final quedó Ben", "video_url": "http://archive.org/download/xovaf6/Sub1d0_p4r4_5tr34ming_A85_83N_O6/2.mp4" },
+      { "episode": 3, "title": "Los Vengers", "video_url": "http://archive.org/download/xovaf6/Sub1d0_p4r4_5tr34ming_A85_83N_O6/3.mp4" },
+      { "episode": 4, "title": "Devuélvelo", "video_url": "http://archive.org/download/xovaf6/Sub1d0_p4r4_5tr34ming_A85_83N_O6/4.mp4" },
+      { "episode": 5, "title": "Las raíces del mal", "video_url": "http://archive.org/download/xovaf6/Sub1d0_p4r4_5tr34ming_A85_83N_O6/5.mp4" },
+      { "episode": 6, "title": "Blukic y Driba van al Área 51", "video_url": "http://archive.org/download/xovaf6/Sub1d0_p4r4_5tr34ming_A85_83N_O6/6.mp4" },
+      { "episode": 7, "title": "No hay honor entre hermanos", "video_url": "http://archive.org/download/xovaf6/Sub1d0_p4r4_5tr34ming_A85_83N_O6/7.mp4" },
+      { "episode": 8, "title": "El Universo vs Tennyson", "video_url": "http://archive.org/download/xovaf6/Sub1d0_p4r4_5tr34ming_A85_83N_O6/8.mp4" },
+      { "episode": 9, "title": "Arma XI: Parte 1", "video_url": "http://archive.org/download/xovaf6/Sub1d0_p4r4_5tr34ming_A85_83N_O6/9.mp4" },
+      { "episode": 10, "title": "Arma XI: Parte 2", "video_url": "http://archive.org/download/xovaf6/Sub1d0_p4r4_5tr34ming_A85_83N_O6/10.mp4" }
+    ]
+  },
+  {
+    "title": "Ben 10: Omniverse - Temporada 7",
+    "year": 2014,
+    "genre": ["Animación", "Acción", "Ciencia Ficción"],
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn7U5so19R-bOrMIOibzOr2wGXnAjo5bRklERndyYy9w&s=10",
+    "description": "Ben viaja a través del tiempo y las dimensiones, enfrentándose a Mad Ben y otros desafíos multiversales.",
+    "episodes": [
+      { "episode": 1, "title": "Clyde 5", "video_url": "http://archive.org/download/xovaf7/Sub1d0_p4r4_5tr34ming_A85_83N_O7/1.mp4" },
+      { "episode": 2, "title": "Los Rook", "video_url": "http://archive.org/download/xovaf7/Sub1d0_p4r4_5tr34ming_A85_83N_O7/2.mp4" },
+      { "episode": 3, "title": "Escuela de Encanto", "video_url": "http://archive.org/download/xovaf7/Sub1d0_p4r4_5tr34ming_A85_83N_O7/3.mp4" },
+      { "episode": 4, "title": "La balada del Sr. Baumann", "video_url": "http://archive.org/download/xovaf7/Sub1d0_p4r4_5tr34ming_A85_83N_O7/4.mp4" },
+      { "episode": 5, "title": "Una pelea en el Museo", "video_url": "http://archive.org/download/xovaf7/Sub1d0_p4r4_5tr34ming_A85_83N_O7/5.mp4" },
+      { "episode": 6, "title": "Punto de Quiebra", "video_url": "http://archive.org/download/xovaf7/Sub1d0_p4r4_5tr34ming_A85_83N_O7/6.mp4" },
+      { "episode": 7, "title": "El color del Simio", "video_url": "http://archive.org/download/xovaf7/Sub1d0_p4r4_5tr34ming_A85_83N_O7/7.mp4" },
+      { "episode": 8, "title": "Vreedlemanía", "video_url": "http://archive.org/download/xovaf7/Sub1d0_p4r4_5tr34ming_A85_83N_O7/8.mp4" },
+      { "episode": 9, "title": "El mundo de Ben está loco, loco, loco... Parte 1", "video_url": "http://archive.org/download/xovaf7/Sub1d0_p4r4_5tr34ming_A85_83N_O7/9.mp4" },
+      { "episode": 10, "title": "El mundo de Ben está loco, loco, loco... Parte 2", "video_url": "http://archive.org/download/xovaf7/Sub1d0_p4r4_5tr34ming_A85_83N_O7/10.mp4" }
+    ]
+  },
+  {
+    "title": "Ben 10: Omniverse - Temporada 8",
+    "year": 2014,
+    "genre": ["Animación", "Acción", "Ciencia Ficción"],
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn7U5so19R-bOrMIOibzOr2wGXnAjo5bRklERndyYy9w&s=10",
+    "description": "La conclusión épica de la serie. Ben enfrenta a Maltruant en una carrera por el tiempo para evitar la recreación del universo.",
+    "episodes": [
+      { "episode": 1, "title": "Del Hedorio a la Eternidad", "video_url": "http://archive.org/download/xovaf8/Sub1d0_p4r4_5tr34ming_A85_83N_O8/1.mp4" },
+      { "episode": 2, "title": "Pegado a ti", "video_url": "http://archive.org/download/xovaf8/Sub1d0_p4r4_5tr34ming_A85_83N_O8/2.mp4" },
+      { "episode": 3, "title": "El Baile del Tiempo", "video_url": "http://archive.org/download/xovaf8/Sub1d0_p4r4_5tr34ming_A85_83N_O8/3.mp4" },
+      { "episode": 4, "title": "Secreto de Dos Santos", "video_url": "http://archive.org/download/xovaf8/Sub1d0_p4r4_5tr34ming_A85_83N_O8/4.mp4" },
+      { "episode": 5, "title": "Charmcaster regresa", "video_url": "http://archive.org/download/xovaf8/Sub1d0_p4r4_5tr34ming_A85_83N_O8/5.mp4" },
+      { "episode": 6, "title": "El conteo Final", "video_url": "http://archive.org/download/xovaf8/Sub1d0_p4r4_5tr34ming_A85_83N_O8/6.mp4" },
+      { "episode": 7, "title": "Malgax Ataca", "video_url": "http://archive.org/download/xovaf8/Sub1d0_p4r4_5tr34ming_A85_83N_O8/7.mp4" },
+      { "episode": 8, "title": "El juego más peligroso", "video_url": "http://archive.org/download/xovaf8/Sub1d0_p4r4_5tr34ming_A85_83N_O8/8.mp4" },
+      { "episode": 9, "title": "El Fin de Una Era", "video_url": "http://archive.org/download/xovaf8/Sub1d0_p4r4_5tr34ming_A85_83N_O8/9.mp4" },
+      { "episode": 10, "title": "Un Nuevo Amanecer", "video_url": "http://archive.org/download/xovaf8/Sub1d0_p4r4_5tr34ming_A85_83N_O8/10.mp4" }
+    ]
+  },
+  
 
   {
     "title": "Lucifer",
