@@ -1,7 +1,9 @@
 
 [
+
+
   {
-    "title": "Lucifer - Temporada 1",
+    "title": "Lucifer",
     "year": 2016,
     "genre": ["Crimen", "Drama", "Fantasía"],
     "coverImage": "https://pics.filmaffinity.com/lucifer-302368528-large.jpg",
@@ -22,133 +24,6 @@
       { "episode": 13, "title": "Llevadme de vuelta al infierno", "video_url": "http://ia801308.us.archive.org/30/items/2121FMUQ/113.mkv" }
     ]
   },
-  {
-    "title": "Lucifer - Temporada 2",
-    "year": 2016,
-    "genre": ["Crimen", "Drama", "Fantasía"],
-    "coverImage": "https://pics.filmaffinity.com/lucifer-302368528-large.jpg",
-    "description": "Lucifer y Amenadiel se unen con un objetivo común: encontrar a su madre, que se ha escapado del Infierno.",
-    "episodes": [
-      { "episode": 1, "title": "Todo va según el plan de mamá", "video_url": "http://ia601306.us.archive.org/13/items/035S9GSZ/201.mkv" },
-      { "episode": 2, "title": "La liante", "video_url": "http://ia801306.us.archive.org/13/items/035S9GSZ/202.mkv" },
-      { "episode": 3, "title": "Comedor de pecados", "video_url": "http://ia601306.us.archive.org/13/items/035S9GSZ/203.mkv" },
-      { "episode": 4, "title": "Cuerpos femeninos", "video_url": "http://ia801306.us.archive.org/13/items/035S9GSZ/204.mkv" },
-      { "episode": 5, "title": "Exterminador de armas", "video_url": "http://ia601306.us.archive.org/13/items/035S9GSZ/205.mkv" },
-      { "episode": 6, "title": "Monstruo", "video_url": "http://ia801306.us.archive.org/13/items/035S9GSZ/206.mkv" },
-      { "episode": 7, "title": "Mi pequeño monito", "video_url": "http://ia601306.us.archive.org/13/items/035S9GSZ/207.mkv" },
-      { "episode": 8, "title": "Un viaje a la ciudad de las puñaladas", "video_url": "http://ia801306.us.archive.org/13/items/035S9GSZ/208.mkv" },
-      { "episode": 9, "title": "Homenaje", "video_url": "http://ia801306.us.archive.org/13/items/035S9GSZ/209.mkv" },
-      { "episode": 10, "title": "Quid Pro Ho", "video_url": "http://ia601306.us.archive.org/13/items/035S9GSZ/210.mkv" },
-      { "episode": 11, "title": "Interrupción de azafata", "video_url": "http://ia801306.us.archive.org/13/items/035S9GSZ/211.mkv" },
-      { "episode": 12, "title": "Asas para el amor", "video_url": "http://ia601306.us.archive.org/13/items/035S9GSZ/212.mkv" },
-      { "episode": 13, "title": "Un buen día para morir", "video_url": "http://ia601306.us.archive.org/13/items/035S9GSZ/213.mkv" },
-      { "episode": 14, "title": "Candy Morningstar", "video_url": "http://ia801306.us.archive.org/13/items/035S9GSZ/214.mkv" },
-      { "episode": 15, "title": "Engañoso e insignificante", "video_url": "http://ia801306.us.archive.org/13/items/035S9GSZ/215.mkv" },
-      { "episode": 16, "title": "Dios Johnson", "video_url": "http://ia601306.us.archive.org/13/items/035S9GSZ/216.mkv" },
-      { "episode": 17, "title": "Sinfonía comprensiva", "video_url": "http://ia601306.us.archive.org/13/items/035S9GSZ/217.mkv" },
-      { "episode": 18, "title": "El bueno, el malo y el ardiente", "video_url": "http://ia801306.us.archive.org/13/items/035S9GSZ/218.mkv" }
-    ]
-  },
-  {
-    "title": "Lucifer - Temporada 3",
-    "year": 2017,
-    "genre": ["Crimen", "Drama", "Fantasía"],
-    "coverImage": "https://pics.filmaffinity.com/lucifer-302368528-large.jpg",
-    "description": "Lucifer regresa a Los Ángeles después de despertarse en el desierto con sus alas restauradas, enfrentando nuevos misterios y la llegada de Marcus Pierce.",
-    "episodes": [
-      { "episode": 1, "title": "¡Han vuelto!", "video_url": "http://ia601302.us.archive.org/35/items/JIV049WX/301.mkv" },
-      { "episode": 2, "title": "El que tiene las chuletas", "video_url": "http://ia801302.us.archive.org/35/items/JIV049WX/302.mkv" },
-      { "episode": 3, "title": "El Sr. y la Sra. Mazikeen Smith", "video_url": "http://ia801302.us.archive.org/35/items/JIV049WX/303.mkv" },
-      { "episode": 4, "title": "¿Qué haría Lucifer?", "video_url": "http://ia601302.us.archive.org/35/items/JIV049WX/304.mkv" },
-      { "episode": 5, "title": "Bienvenido de nuevo, Charlotte Richards", "video_url": "http://ia801302.us.archive.org/35/items/JIV049WX/305.mkv" },
-      { "episode": 6, "title": "Vegas con rábano", "video_url": "http://ia601302.us.archive.org/35/items/JIV049WX/306.mkv" },
-      { "episode": 7, "title": "Fuera el rastro", "video_url": "http://ia801302.us.archive.org/35/items/JIV049WX/307.mkv" },
-      { "episode": 8, "title": "Chloe contra Lucifer", "video_url": "http://ia601302.us.archive.org/35/items/JIV049WX/308.mkv" },
-      { "episode": 9, "title": "El pecador", "video_url": "http://ia801302.us.archive.org/35/items/JIV049WX/309.mkv" },
-      { "episode": 10, "title": "La papelera", "video_url": "http://ia801302.us.archive.org/35/items/JIV049WX/310.mkv" },
-      { "episode": 11, "title": "Ciudad de ángeles", "video_url": "http://ia601302.us.archive.org/35/items/JIV049WX/311.mkv" },
-      { "episode": 12, "title": "Todo sobre ella", "video_url": "http://ia801302.us.archive.org/35/items/JIV049WX/312.mkv" },
-      { "episode": 13, "title": "Hasta que la muerte nos separe", "video_url": "http://ia801302.us.archive.org/35/items/JIV049WX/313.mkv" },
-      { "episode": 14, "title": "Guardián de mi hermano", "video_url": "http://ia601308.us.archive.org/30/items/55JEJ0C6/314.mkv" },
-      { "episode": 15, "title": "Crucero de instituto", "video_url": "http://ia801308.us.archive.org/30/items/55JEJ0C6/315.mkv" },
-      { "episode": 16, "title": "Conejillo de indias infernal", "video_url": "http://ia601308.us.archive.org/30/items/55JEJ0C6/316.mkv" },
-      { "episode": 17, "title": "Let Pinhead sing!", "video_url": "http://ia801308.us.archive.org/30/items/55JEJ0C6/317.mkv" },
-      { "episode": 18, "title": "El último roto", "video_url": "http://ia801308.us.archive.org/30/items/55JEJ0C6/318.mkv" },
-      { "episode": 19, "title": "Laberinto de naranja", "video_url": "http://ia801308.us.archive.org/30/items/55JEJ0C6/319.mkv" },
-      { "episode": 20, "title": "El ángel de San Bernardino", "video_url": "http://ia801308.us.archive.org/30/items/55JEJ0C6/320.mkv" },
-      { "episode": 21, "title": "Todo lo que diga Pierce", "video_url": "http://ia801308.us.archive.org/30/items/55JEJ0C6/321.mkv" },
-      { "episode": 22, "title": "Todo por un equipo", "video_url": "http://ia601308.us.archive.org/30/items/55JEJ0C6/322.mkv" },
-      { "episode": 23, "title": "Quintessential Deckerstar", "video_url": "http://ia801308.us.archive.org/30/items/55JEJ0C6/323.mkv" },
-      { "episode": 24, "title": "Una buena farsa", "video_url": "http://ia801308.us.archive.org/30/items/55JEJ0C6/324.mkv" },
-      { "episode": 25, "title": "Boo Normal (Bonus)", "video_url": "http://ia801308.us.archive.org/30/items/55JEJ0C6/325.mkv" },
-      { "episode": 26, "title": "Érase una vez (Bonus)", "video_url": "http://ia601308.us.archive.org/30/items/55JEJ0C6/326.mkv" }
-    ]
-  },
-  {
-    "title": "Lucifer - Temporada 4",
-    "year": 2019,
-    "genre": ["Crimen", "Drama", "Fantasía"],
-    "coverImage": "https://pics.filmaffinity.com/lucifer-302368528-large.jpg",
-    "description": "Chloe intenta asimilar la verdadera cara de Lucifer, mientras un viejo amor del pasado, Eva, aparece en la vida de nuestro demonio favorito.",
-    "episodes": [
-      { "episode": 1, "title": "Todo está bien", "video_url": "http://ia801302.us.archive.org/31/items/H1F72Y49/401.mkv" },
-      { "episode": 2, "title": "Alguien ha estado leyendo el Infierno de Dante", "video_url": "http://ia601302.us.archive.org/31/items/H1F72Y49/402.mkv" },
-      { "episode": 3, "title": "O, hombre de poca fe, Padre", "video_url": "http://ia601302.us.archive.org/31/items/H1F72Y49/403.mkv" },
-      { "episode": 4, "title": "Todo sobre Eva", "video_url": "http://ia801302.us.archive.org/31/items/H1F72Y49/404.mkv" },
-      { "episode": 5, "title": "Morir con una erección", "video_url": "http://ia801302.us.archive.org/31/items/H1F72Y49/405.mkv" },
-      { "episode": 6, "title": "Orgulloso de estar sucio", "video_url": "http://ia801302.us.archive.org/31/items/H1F72Y49/406.mkv" },
-      { "episode": 7, "title": "Naturaleza de diablo", "video_url": "http://ia601302.us.archive.org/31/items/H1F72Y49/407.mkv" },
-      { "episode": 8, "title": "Super malo", "video_url": "http://ia801302.us.archive.org/31/items/H1F72Y49/408.mkv" },
-      { "episode": 9, "title": "Salvar a Lucifer", "video_url": "http://ia601302.us.archive.org/31/items/H1F72Y49/409.mkv" },
-      { "episode": 10, "title": "¿Quién es el nuevo Rey del Infierno?", "video_url": "http://ia801302.us.archive.org/31/items/H1F72Y49/410.mkv" }
-    ]
-  },
-  {
-    "title": "Lucifer - Temporada 5",
-    "year": 2020,
-    "genre": ["Crimen", "Drama", "Fantasía"],
-    "coverImage": "https://pics.filmaffinity.com/lucifer-302368528-large.jpg",
-    "description": "Lucifer regresa del infierno, pero hay algo diferente en él. En realidad, se trata de su hermano gemelo, Michael, quien ha venido a usurpar su vida.",
-    "episodes": [
-      { "episode": 1, "title": "Diablo realmente triste", "video_url": "http://ia801302.us.archive.org/14/items/2NXM38T6/501.mkv" },
-      { "episode": 2, "title": "Lucifer! Lucifer! Lucifer!", "video_url": "http://ia801302.us.archive.org/14/items/2NXM38T6/502.mkv" },
-      { "episode": 3, "title": "¡Diablo! ¡Diablo!", "video_url": "http://ia801302.us.archive.org/14/items/2NXM38T6/503.mkv" },
-      { "episode": 4, "title": "Nunca termina bien para el pollo", "video_url": "http://ia801302.us.archive.org/14/items/2NXM38T6/504.mkv" },
-      { "episode": 5, "title": "Detective Amenadiel", "video_url": "http://ia801302.us.archive.org/14/items/2NXM38T6/505.mkv" },
-      { "episode": 6, "title": "BlueBallz", "video_url": "http://ia801302.us.archive.org/14/items/2NXM38T6/506.mkv" },
-      { "episode": 7, "title": "Nuestra fuerza motriz", "video_url": "http://ia801302.us.archive.org/14/items/2NXM38T6/507.mkv" },
-      { "episode": 8, "title": "Alerta de spoiler", "video_url": "http://ia801302.us.archive.org/14/items/2NXM38T6/508.mkv" },
-      { "episode": 9, "title": "Cena de familia", "video_url": "http://ia601309.us.archive.org/35/items/ARSV426E/509.mkv" },
-      { "episode": 10, "title": "Karaoke celestial", "video_url": "http://ia801309.us.archive.org/35/items/ARSV426E/510.mkv" },
-      { "episode": 11, "title": "Un diablo descansado", "video_url": "http://ia801309.us.archive.org/35/items/ARSV426E/511.mkv" },
-      { "episode": 12, "title": "Daniel Espinoza: Desnudo y asustado", "video_url": "http://ia601309.us.archive.org/35/items/ARSV426E/512.mkv" },
-      { "episode": 13, "title": "Una carita de bebé", "video_url": "http://ia601309.us.archive.org/35/items/ARSV426E/513.mkv" },
-      { "episode": 14, "title": "Nada dura para siempre", "video_url": "http://ia801309.us.archive.org/35/items/ARSV426E/514.mkv" },
-      { "episode": 15, "title": "¿Así es como va a terminar?", "video_url": "http://ia801309.us.archive.org/35/items/ARSV426E/515.mkv" },
-      { "episode": 16, "title": "Una oportunidad para un final feliz", "video_url": "http://ia801309.us.archive.org/35/items/ARSV426E/516.mkv" }
-    ]
-  },
-  {
-    "title": "Lucifer - Temporada 6",
-    "year": 2021,
-    "genre": ["Crimen", "Drama", "Fantasía"],
-    "coverImage": "https://pics.filmaffinity.com/lucifer-302368528-large.jpg",
-    "description": "El capítulo final. Lucifer se prepara para convertirse en Dios, pero sus propias dudas y la llegada de una joven rebelde cambian sus planes.",
-    "episodes": [
-      { "episode": 1, "title": "Nada cambia por aquí", "video_url": "http://ia801305.us.archive.org/0/items/EG2D44P2/601.mkv" },
-      { "episode": 2, "title": "Cubo de equipaje", "video_url": "http://ia801305.us.archive.org/0/items/EG2D44P2/602.mkv" },
-      { "episode": 3, "title": "Yabba Dabba Do Me", "video_url": "http://ia601305.us.archive.org/0/items/EG2D44P2/603.mkv" },
-      { "episode": 4, "title": "Pínchame el rabo", "video_url": "http://ia801305.us.archive.org/0/items/EG2D44P2/604.mkv" },
-      { "episode": 5, "title": "El asesinato de Lucifer Morningstar", "video_url": "http://ia801305.us.archive.org/0/items/EG2D44P2/605.mkv" },
-      { "episode": 6, "title": "Mucho más sucio", "video_url": "http://ia801305.us.archive.org/0/items/EG2D44P2/606.mkv" },
-      { "episode": 7, "title": "Mi mejor amiga", "video_url": "http://ia801305.us.archive.org/0/items/EG2D44P2/607.mkv" },
-      { "episode": 8, "title": "Salvar al diablo, salvar al mundo", "video_url": "http://ia801305.us.archive.org/0/items/EG2D44P2/608.mkv" },
-      { "episode": 9, "title": "Adiós, Lucifer", "video_url": "http://ia801305.us.archive.org/0/items/EG2D44P2/609.mkv" },
-      { "episode": 10, "title": "Compañeros hasta el final", "video_url": "http://ia801305.us.archive.org/0/items/EG2D44P2/610.mkv" }
-    ]
-  },
-
-
 
 
 
