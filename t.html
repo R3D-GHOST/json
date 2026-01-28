@@ -1,402 +1,283 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>PrimeBox+ Elite</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>DixMax Pro Elite</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <style>
-        /* BASE & RESET */
         *{ box-sizing:border-box; margin:0; padding:0; -webkit-tap-highlight-color: transparent; }
-        :root{
-            --bg: #0f171e; --bg-card: #1a242f; --accent: #00a8e1; --text: #ffffff;
-            --muted: #aeb4c6; --yt-red: #ff0000; --check: #2ecc71; --progress: #f1c40f;
-            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        :root { --bg: #050505; --card-bg: #121212; --accent: #0070ff; --text: #ffffff; --muted: #888888; }
+        body, html { font-family: 'Segoe UI', Roboto, sans-serif; background-color: var(--bg); color: var(--text); height: 100%; overflow: hidden; }
+
+        /* NAVEGACIÓN SPA */
+        .page { position: absolute; inset: 0; display: none; overflow-y: auto; padding-bottom: 100px; z-index: 10; }
+        .page.active { display: block; }
+
+        /* BUSCADOR */
+        .search-container { padding: 20px; position: sticky; top: 0; background: var(--bg); z-index: 20; }
+        .search-box { 
+            background: var(--card-bg); border: 1px solid #222; border-radius: 50px; 
+            display: flex; align-items: center; padding: 0 20px; height: 50px;
         }
-        body, html{ font-family: 'Segoe UI', Roboto, sans-serif; background: var(--bg); color: var(--text); height: 100%; overflow: hidden; }
-        main { height: 100vh; width: 100vw; overflow-y: auto; padding-bottom: 100px; scroll-behavior: smooth; }
+        .search-box input { 
+            background: transparent; border: none; color: white; flex: 1; 
+            margin-left: 10px; outline: none; font-size: 1rem;
+        }
 
-        /* ANIMACIONES */
-        .view { display: none; animation: fadeInUp 0.4s ease-out; }
-        .view.active { display: block; }
-        @keyframes fadeInUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+        /* OVERLAYS */
+        .full-overlay { 
+            position: fixed; inset: 0; background: var(--bg); z-index: 10000; 
+            display: none; flex-direction: column; transform: translateY(100%);
+            transition: transform 0.4s cubic-bezier(0.32, 1, 0.23, 1);
+        }
 
-        /* HEADER */
-        #heroBanner { position: relative; width: 100%; height: 400px; overflow: hidden; background: #000; }
-        #heroBanner img { width: 100%; height: 100%; object-fit: cover; opacity: 0.6; }
-        .hero-overlay { position: absolute; inset: 0; background: linear-gradient(0deg, var(--bg) 5%, transparent 80%); padding: 25px; display: flex; flex-direction: column; justify-content: flex-end; }
-        .hero-overlay h1 { font-size: 2.2rem; margin-bottom: 15px; font-weight: 800; text-shadow: 0 2px 10px rgba(0,0,0,0.5); }
-
-        /* BADGES */
-        .badge { padding: 6px 14px; border-radius: 4px; font-weight: bold; font-size: 0.7rem; width: fit-content; margin-bottom: 10px; text-transform: uppercase; }
-        .tag-series { background: #6c5ce7; }
-        .tag-movie { background: var(--accent); }
-        .tag-live { background: var(--yt-red); animation: pulse 1.5s infinite; }
-        @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.7; } }
-
-        .section-title { padding: 25px 15px 10px; font-size: 1.3rem; font-weight: bold; }
-        .h-scroll { display: flex; overflow-x: auto; gap: 15px; padding: 0 15px 15px; }
-        .h-scroll::-webkit-scrollbar { display: none; }
-
-        /* CARDS */
-        .card { background: var(--bg-card); border-radius: 10px; overflow: hidden; position: relative; flex: 0 0 150px; transition: transform 0.2s; }
-        .card:active { transform: scale(0.95); }
-        .card img { width: 100%; aspect-ratio: 2/3; object-fit: cover; }
-        .card-info { padding: 12px; font-size: 0.85rem; background: linear-gradient(180deg, transparent, rgba(0,0,0,0.9)); position: absolute; bottom: 0; width: 100%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-
-        /* SELECTOR DE EPISODIOS PREMIUM */
-        #epList { padding: 10px 0; }
-        .ep-card { display: flex; background: #1e2936; border-radius: 12px; margin-bottom: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05); transition: 0.2s; position: relative; }
-        .ep-card:active { background: #2a3746; }
-        .ep-thumb { width: 140px; height: 80px; flex-shrink: 0; position: relative; }
-        .ep-thumb img { width: 100%; height: 100%; object-fit: cover; }
-        .ep-info { padding: 15px; flex: 1; display: flex; flex-direction: column; justify-content: center; }
-        .ep-info h4 { font-size: 0.95rem; margin-bottom: 4px; color: #eee; }
+        /* PLAYER & UI */
+        #mainVideo { width: 100%; height: 100%; background: #000; }
+        .player-ui { 
+            position: absolute; inset: 0; 
+            background: rgba(0,0,0,0.6); 
+            display: flex; flex-direction: column; 
+            justify-content: space-between; 
+            padding: 25px; 
+            transition: opacity 0.3s ease, visibility 0.3s;
+            z-index: 10001;
+        }
+        .player-ui.hidden { opacity: 0; visibility: hidden; pointer-events: none; }
         
-        /* INDICADORES DE VISTO */
-        .status-dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; margin-right: 8px; }
-        .status-text { font-size: 0.75rem; font-weight: bold; text-transform: uppercase; display: flex; align-items: center; }
-        .dot-visto { background: var(--check); box-shadow: 0 0 8px var(--check); }
-        .dot-mitad { background: var(--progress); box-shadow: 0 0 8px var(--progress); }
-        .dot-nuevo { background: #555; }
+        #videoTouchArea { position: absolute; inset: 0; z-index: 10000; }
 
-        /* REPRODUCTOR MASTER */
-        #playerView { position: fixed; inset: 0; background: #000; z-index: 5000; display: none; align-items: center; justify-content: center; }
-        #mainVideo { width: 100%; height: 100%; }
-        .player-ui { position: absolute; inset: 0; background: linear-gradient(0deg, rgba(0,0,0,0.9) 0%, transparent 50%, rgba(0,0,0,0.9) 100%); display: flex; flex-direction: column; justify-content: space-between; padding: 35px; transition: opacity 0.5s ease; z-index: 10; }
-        .player-ui.hidden { opacity: 0; cursor: none; pointer-events: none; }
-        .ui-center { display: flex; justify-content: center; align-items: center; gap: 60px; font-size: 3.5rem; }
-        .prog-container { width: 100%; height: 8px; background: rgba(255,255,255,0.2); border-radius: 4px; cursor: pointer; }
-        .prog-bar { height: 100%; background: var(--accent); width: 0%; border-radius: 4px; position: relative; }
+        .progress-rail { height: 4px; background: rgba(255,255,255,0.2); width: 100%; position: relative; cursor: pointer; border-radius: 5px; }
+        .progress-fill { height: 100%; background: var(--accent); width: 0%; border-radius: 5px; position: relative; }
+        .progress-dot { width: 14px; height: 14px; background: var(--accent); border-radius: 50%; position: absolute; right: -7px; top: -5px; box-shadow: 0 0 10px var(--accent); }
+
+        /* GRID & CARDS */
+        #hero { height: 55vh; position: relative; overflow: hidden; }
+        #hero img { width: 100%; height: 100%; object-fit: cover; }
+        .hero-grad { position: absolute; inset: 0; background: linear-gradient(transparent 50%, var(--bg)); display: flex; flex-direction: column; justify-content: flex-end; padding: 30px; }
+        
+        .section-title { padding: 20px; font-size: 1rem; font-weight: 800; color: var(--accent); text-transform: uppercase; letter-spacing: 1px; }
+        .h-scroll { display: flex; overflow-x: auto; gap: 15px; padding: 0 20px 20px; scrollbar-width: none; }
+        .card { flex: 0 0 150px; border-radius: 18px; overflow: hidden; background: var(--card-bg); position: relative; border: 1px solid #1a1a1a; }
+        .card img { width: 100%; aspect-ratio: 2/3; object-fit: cover; }
+        .card-label { position: absolute; bottom: 0; width: 100%; padding: 10px 8px; background: linear-gradient(transparent, rgba(0,0,0,0.9)); font-size: 0.75rem; font-weight: 600; }
 
         /* NAV */
-        nav { position: fixed; bottom: 0; width: 100%; height: 80px; background: rgba(15, 23, 30, 0.95); backdrop-filter: blur(20px); display: flex; border-top: 1px solid rgba(255,255,255,0.05); z-index: 1000; }
-        .nav-item { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; color: var(--muted); font-size: 0.75rem; transition: 0.3s; }
+        nav { position: fixed; bottom: 0; width: 100%; height: 75px; background: rgba(10,10,10,0.98); display: flex; border-top: 1px solid #1a1a1a; z-index: 5000; }
+        .nav-item { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; color: var(--muted); cursor: pointer; }
         .nav-item.active { color: var(--accent); }
-        .nav-item i { font-size: 1.5rem; margin-bottom: 6px; }
+        .nav-item i { font-size: 1.3rem; margin-bottom: 4px; }
+        .nav-item span { font-size: 0.65rem; font-weight: 700; }
 
-        #detailView { position: fixed; inset: 0; background: var(--bg); z-index: 2000; display: none; overflow-y: auto; padding-bottom: 40px; }
-        .btn-action { background: var(--accent); color: white; display: flex; align-items: center; justify-content: center; padding: 18px; border-radius: 10px; font-weight: bold; width: 100%; border: none; font-size: 1.1rem; box-shadow: 0 4px 15px rgba(0, 168, 225, 0.4); }
-        .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; padding: 15px; }
+        #resumeBox { position: fixed; inset: 0; background: rgba(0,0,0,0.9); z-index: 20000; display: none; align-items: center; justify-content: center; padding: 20px; }
+        .dialog { background: var(--card-bg); padding: 30px; border-radius: 24px; width: 100%; max-width: 360px; text-align: center; border: 1px solid #222; }
+        .btn-pill { width: 100%; padding: 15px; border-radius: 50px; border: none; font-weight: bold; margin-top: 12px; cursor: pointer; text-transform: uppercase; }
     </style>
 </head>
 <body>
 
-    <div id="playerView">
+    <div id="playerView" class="full-overlay">
+        <div id="videoTouchArea"></div>
         <video id="mainVideo" playsinline></video>
-        <div class="player-ui" id="playerUI">
-            <div class="ui-top">
-                <button onclick="exitPlayer()" style="background:none; border:none; color:white; font-size:2rem;"><i class="fas fa-chevron-left"></i></button>
-                <span id="playerTitle" style="font-weight:bold; margin-left:20px; font-size: 1.3rem;"></span>
+        <div class="player-ui" id="pUI">
+            <div style="z-index: 10002;">
+                <i class="fas fa-chevron-down" onclick="closePlayer()" style="font-size:1.6rem; padding:10px"></i> 
+                <span id="pTitle" style="margin-left:15px; font-weight: bold;"></span>
             </div>
-            <div class="ui-center">
-                <i class="fas fa-backward" onclick="skipVideo(-10)"></i>
-                <i class="fas fa-play" id="playIcon" onclick="togglePlay()"></i>
-                <i class="fas fa-forward" onclick="skipVideo(10)"></i>
+            <div style="display:flex; justify-content:center; gap:50px; font-size:3rem; z-index: 10002;">
+                <i class="fas fa-undo" onclick="jump(-10)"></i>
+                <i class="fas fa-play" id="playBtn" onclick="togglePlay()"></i>
+                <i class="fas fa-redo" onclick="jump(10)"></i>
             </div>
-            <div class="ui-bottom">
-                <div class="prog-container" id="progCont" onclick="seek(event)"><div class="prog-bar" id="progFill"></div></div>
-                <div style="display:flex; justify-content:space-between; font-size:1rem; margin-top:15px; color: #bbb;">
-                    <span id="curTime">00:00</span><span id="durTime">00:00</span>
-                </div>
+            <div style="z-index: 10002;">
+                <div style="font-size:0.85rem; margin-bottom:10px;"><span id="cur">0:00</span> / <span id="dur">0:00</span></div>
+                <div class="progress-rail" id="progArea"><div class="progress-fill" id="progBar"><div class="progress-dot"></div></div></div>
             </div>
         </div>
     </div>
 
-    <main id="mainScroll">
-        <div id="homeView" class="view active">
-            <div id="heroBanner"></div>
-            <div id="homeSections"></div>
+    <div id="capsView" class="full-overlay">
+        <div style="padding:25px; border-bottom:1px solid #1a1a1a; display:flex; align-items:center; gap:15px;">
+            <i class="fas fa-chevron-down" onclick="closeCaps()" style="font-size:1.5rem"></i>
+            <h2 id="capsTitle"></h2>
         </div>
-        <div id="gridView" class="view">
-            <h2 id="gridTitle" class="section-title"></h2>
-            <div id="dynamicGrid" class="grid"></div>
+        <div id="capsList" style="flex:1; overflow-y:auto; padding:20px;"></div>
+    </div>
+
+    <div id="resumeBox">
+        <div class="dialog">
+            <h3>Continuar viendo</h3>
+            <p id="resumeTxt" style="color:var(--muted); margin:15px 0;"></p>
+            <button class="btn-pill" style="background:var(--accent); color:white" onclick="doResume(true)">CONTINUAR</button>
+            <button class="btn-pill" style="background:#222; color:white" onclick="doResume(false)">REINICIAR</button>
         </div>
-        <div id="searchView" class="view">
-            <div style="padding:15px; position:sticky; top:0; background:var(--bg); z-index:100;">
-                <input type="text" id="searchInput" placeholder="Películas, series, canales..." style="width:100%; padding:16px; border-radius:12px; background:var(--bg-card); color:white; border:none; outline:none; font-size:1rem;">
-            </div>
-            <div id="searchGrid" class="grid"></div>
-        </div>
+    </div>
+
+    <main id="pg-home" class="page active"><div id="hero"></div><div id="homeContent"></div></main>
+    <main id="pg-search" class="page">
+        <div class="search-container"><div class="search-box"><i class="fas fa-search"></i><input type="text" id="searchInput" placeholder="Buscar..." oninput="searchData()"></div></div>
+        <div id="searchGrid" class="h-scroll" style="flex-wrap:wrap"></div>
     </main>
-
-    <div id="detailView">
-        <button onclick="closeDetail()" style="position:absolute; top:20px; left:20px; z-index:10; background:rgba(0,0,0,0.6); border:none; color:white; width:45px; height:45px; border-radius:50%;"><i class="fas fa-times"></i></button>
-        <div style="width:100%; height:380px; position:relative;">
-            <img id="detImg" style="width:100%; height:100%; object-fit:cover;">
-            <div style="position:absolute; inset:0; background:linear-gradient(0deg, var(--bg) 15%, transparent);"></div>
-        </div>
-        <div style="padding:20px; transform: translateY(-50px);">
-            <div id="detBadgeArea"></div>
-            <h2 id="detTitle" style="font-size:2.2rem; margin-top:10px;"></h2>
-            <p id="detDesc" style="color:var(--muted); margin:20px 0; line-height:1.6; font-size:1rem;"></p>
-            <div id="mainAction"></div>
-            <h3 class="section-title" id="epTitle" style="padding-left:0; display:none;">Episodios</h3>
-            <div id="epList"></div>
-        </div>
-    </div>
+    <main id="pg-series" class="page"><h2 class="section-title">Series</h2><div id="grid-series" class="h-scroll" style="flex-wrap:wrap"></div></main>
+    <main id="pg-live" class="page"><h2 class="section-title">Canales</h2><div id="grid-live" class="h-scroll" style="flex-wrap:wrap"></div></main>
 
     <nav>
-        <div class="nav-item active" onclick="switchTab('home', this)"><i class="fas fa-home"></i><span>Inicio</span></div>
-        <div class="nav-item" onclick="switchTab('series', this)"><i class="fas fa-tv"></i><span>Series</span></div>
-        <div class="nav-item" onclick="switchTab('movies', this)"><i class="fas fa-film"></i><span>Cine</span></div>
-        <div class="nav-item" onclick="switchTab('channels', this)"><i class="fas fa-broadcast-tower"></i><span>En Vivo</span></div>
-        <div class="nav-item" onclick="switchTab('search', this)"><i class="fas fa-search"></i><span>Buscar</span></div>
+        <div class="nav-item active" onclick="nav('home', this)"><i class="fas fa-home"></i><span>INICIO</span></div>
+        <div class="nav-item" onclick="nav('search', this)"><i class="fas fa-search"></i><span>BUSCAR</span></div>
+        <div class="nav-item" onclick="nav('series', this)"><i class="fas fa-tv"></i><span>SERIES</span></div>
+        <div class="nav-item" onclick="nav('live', this)"><i class="fas fa-broadcast-tower"></i><span>VIVO</span></div>
     </nav>
 
     <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
     <script>
-        const DATA_JSON = "https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/data.json";
-        const M3U_URL = "https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/CV.m3u8";
-
-        let db = { all: [], series: [], movies: [], channels: [] };
-        let activeTab = 'home', currentItem = null, currentEpIdx = 0, uiTimer;
-        let loadedCount = 0;
-        let userData = JSON.parse(localStorage.getItem('pb_user_progress') || '{}');
-        
-        const video = document.getElementById('mainVideo');
-        const pView = document.getElementById('playerView');
-        const hls = new Hls();
+        const API = "https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/data.json";
+        const M3U = "https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/CV.m3u8";
+        let db = { series:[], movies:[], live:[], all:[] }, timerUI, startY = 0, currentMedia = null;
+        const video = document.getElementById('mainVideo'), hls = new Hls();
+        const pUI = document.getElementById('pUI');
 
         async function init() {
             try {
-                const [r1, r2] = await Promise.all([
-                    fetch(DATA_JSON).then(r=>r.json()),
-                    fetch(M3U_URL).then(r=>r.text())
-                ]);
-                db.series = r1.filter(i => i.episodes).map(i => ({...i, type:'Serie'}));
-                db.movies = r1.filter(i => !i.episodes).map(i => ({...i, type:'Peli'}));
-                db.channels = parseM3U(r2);
-                db.all = [...db.series, ...db.movies, ...db.channels];
+                const [r1, r2] = await Promise.all([fetch(API).then(r=>r.json()), fetch(M3U).then(r=>r.text())]);
+                db.series = r1.filter(x => x.episodes);
+                db.movies = r1.filter(x => !x.episodes);
+                
+                // FILTRO M3U8: Solo añade si tiene URL válida
+                r2.split('\n').forEach((line, i, arr) => {
+                    if(line.includes('#EXTINF')){
+                        const url = arr[i+1]?.trim();
+                        if(url && url.startsWith('http')) {
+                            db.live.push({ 
+                                title: line.split(',')[1]?.trim(), 
+                                img: line.match(/tvg-logo="([^"]*)"/)?.[1], 
+                                url: url, 
+                                isLive: true, 
+                                isEvent: line.toLowerCase().includes('evento') 
+                            });
+                        }
+                    }
+                });
+
+                db.all = [...db.series, ...db.movies, ...db.live];
                 renderHero();
-                renderHome();
-                setupScroll();
-            } catch(e) { console.error(e); }
+                renderRows();
+                setupSwipe(document.getElementById('playerView'), closePlayer);
+                setupSwipe(document.getElementById('capsView'), closeCaps);
+            } catch(e) { console.error("Error", e); }
         }
 
-        function parseM3U(text) {
-            const lines = text.split('\n');
-            let res = [], cur = null;
-            lines.forEach(l => {
-                if(l.includes('#EXTINF')) {
-                    cur = { title: l.split(',')[1]?.trim(), img: l.match(/tvg-logo="([^"]*)"/)?.[1], isChannel: true, isEvent: l.toLowerCase().includes('group-title="evento"'), type: 'Live' };
-                } else if(l.startsWith('http') && cur) {
-                    cur.url = l.trim(); res.push(cur); cur = null;
-                }
-            });
-            return res;
+        // MOSTRAR/OCULTAR CONTROLES
+        function toggleUI(e) {
+            if (e && e.target !== document.getElementById('videoTouchArea') && e.target !== video) return;
+            pUI.classList.contains('hidden') ? showUI() : hideUI();
         }
-
-        function saveProgress() {
-            if(!currentItem) return;
-            const id = currentItem.isNowPlayingSeries ? `${currentItem.title}_ep${currentEpIdx}` : currentItem.title;
-            const progress = video.currentTime / video.duration;
-            userData[id] = {
-                time: video.currentTime,
-                total: video.duration,
-                status: progress > 0.9 ? 'visto' : (progress > 0.1 ? 'mitad' : 'nuevo')
-            };
-            localStorage.setItem('pb_user_progress', JSON.stringify(userData));
+        function showUI() { 
+            pUI.classList.remove('hidden'); 
+            clearTimeout(timerUI); 
+            if(!video.paused) timerUI = setTimeout(hideUI, 3000); 
         }
+        function hideUI() { pUI.classList.add('hidden'); }
+        document.getElementById('videoTouchArea').onclick = toggleUI;
+        video.onclick = toggleUI;
 
-        function playMedia(url, title, isSeries = false, epIdx = 0) {
-            currentItem.isNowPlayingSeries = isSeries;
-            currentEpIdx = epIdx;
-            document.getElementById('playerTitle').textContent = title;
-            pView.style.display = 'flex';
-            
-            if (pView.requestFullscreen) pView.requestFullscreen();
-            else if (pView.webkitRequestFullscreen) pView.webkitRequestFullscreen();
-
-            if (Hls.isSupported() && (url.includes('.m3u8') || url.includes('.ts'))) {
-                hls.loadSource(url); hls.attachMedia(video);
-                hls.on(Hls.Events.MANIFEST_PARSED, () => startAtSaved(isSeries, epIdx));
-            } else {
-                hls.detachMedia(); video.src = url; 
-                video.onloadedmetadata = () => startAtSaved(isSeries, epIdx);
-            }
-            showUI();
-        }
-
-        function startAtSaved(isSeries, epIdx) {
-            const id = isSeries ? `${currentItem.title}_ep${epIdx}` : currentItem.title;
-            if(userData[id]) video.currentTime = userData[id].time;
-            video.play();
-        }
-
-        function togglePlay() {
-            if (video.paused) { video.play(); document.getElementById('playIcon').className = 'fas fa-pause'; }
-            else { video.pause(); document.getElementById('playIcon').className = 'fas fa-play'; }
-            showUI();
-        }
-
-        function exitPlayer() {
-            saveProgress();
-            video.pause();
-            pView.style.display = 'none';
-            if (document.fullscreenElement) document.exitFullscreen();
-            if(currentItem.episodes) openDetail(currentItem); // Refrescar indicadores
-        }
-
-        function showUI() {
-            const ui = document.getElementById('playerUI');
-            ui.classList.remove('hidden');
-            clearTimeout(uiTimer);
-            uiTimer = setTimeout(() => { if (!video.paused) ui.classList.add('hidden'); }, 3000);
-        }
-
-        video.onended = () => {
-            saveProgress();
-            if (currentItem.isNowPlayingSeries && currentItem.episodes[currentEpIdx + 1]) {
-                const next = currentEpIdx + 1;
-                playMedia(currentItem.episodes[next].video_url, `Cap ${next + 1} - ${currentItem.title}`, true, next);
-            } else { exitPlayer(); }
-        };
-
-        video.ontimeupdate = () => {
-            const perc = (video.currentTime / video.duration) * 100;
-            document.getElementById('progFill').style.width = (perc || 0) + '%';
-            document.getElementById('curTime').textContent = formatTime(video.currentTime);
-            document.getElementById('durTime').textContent = formatTime(video.duration);
-            if(Math.floor(video.currentTime) % 10 === 0) saveProgress();
-        };
-
-        function formatTime(secs) {
-            if (isNaN(secs)) return "00:00";
-            const m = Math.floor(secs / 60), s = Math.floor(secs % 60);
-            return (m < 10 ? "0" + m : m) + ":" + (s < 10 ? "0" + s : s);
-        }
-
-        function skipVideo(val) { video.currentTime += val; showUI(); }
-        function seek(e) {
-            const rect = document.getElementById('progCont').getBoundingClientRect();
-            video.currentTime = ((e.clientX - rect.left) / rect.width) * video.duration;
-        }
-
-        // --- RENDERIZADO Y SCROLL DE 30 EN 30 ---
         function renderHero() {
-            const h = document.getElementById('heroBanner');
-            const event = db.channels.find(c => c.isEvent) || db.movies[0];
-            h.innerHTML = `
-                <img src="${event.img || event.coverImage}">
-                <div class="hero-overlay">
-                    <div class="badge ${event.isEvent?'tag-live':'tag-movie'}">${event.isEvent?'EN VIVO':'DESTACADO'}</div>
-                    <h1>${event.title}</h1>
-                    <button onclick="heroAction()" class="btn-action" style="width:fit-content; padding:12px 35px;">VER AHORA</button>
+            const event = db.live.find(x => x.isEvent && x.url);
+            const featured = event || db.movies[0];
+            if(!featured) return;
+            document.getElementById('hero').innerHTML = `
+                <img src="${featured.coverImage || featured.img}">
+                <div class="hero-grad">
+                    <span style="color:var(--accent); font-weight:bold; font-size:0.8rem;">${event ? '● EN VIVO' : 'PELÍCULA DESTACADA'}</span>
+                    <h1 style="font-size:2.2rem; margin:10px 0;">${featured.title}</h1>
+                    <button class="btn-pill" style="background:var(--accent); color:white; width:200px" onclick="action('${featured.title}')">REPRODUCIR</button>
                 </div>`;
-            window.heroAction = () => { currentItem = event; playMedia(event.url || event.video_url, event.title); };
         }
 
-        function renderHome() {
-            const container = document.getElementById('homeSections'); container.innerHTML = '';
-            const sections = [{t:"En Vivo", d:db.channels}, {t:"Series", d:db.series}, {t:"Películas", d:db.movies}];
+        function createCard(i) {
+            const c = document.createElement('div'); c.className = 'card';
+            c.innerHTML = `<img src="${i.img || i.coverImage}"><div class="card-label">${i.title}</div>`;
+            c.onclick = () => action(i.title);
+            return c;
+        }
+
+        function renderRows() {
+            const sections = [{t:"En Vivo", d:db.live}, {t:"Series", d:db.series}, {t:"Cine", d:db.movies}];
             sections.forEach(s => {
-                const wrap = document.createElement('div');
-                wrap.innerHTML = `<h2 class="section-title">${s.t}</h2><div class="h-scroll"></div>`;
-                s.d.slice(0,15).forEach(item => wrap.querySelector('.h-scroll').appendChild(createCard(item)));
-                container.appendChild(wrap);
+                const row = document.createElement('div');
+                row.innerHTML = `<h2 class="section-title">${s.t}</h2><div class="h-scroll"></div>`;
+                s.d.slice(0,12).forEach(i => row.querySelector('.h-scroll').appendChild(createCard(i)));
+                document.getElementById('homeContent').appendChild(row);
             });
+            db.series.forEach(i => document.getElementById('grid-series').appendChild(createCard(i)));
+            db.live.forEach(i => document.getElementById('grid-live').appendChild(createCard(i)));
         }
 
-        function createCard(item) {
-            const card = document.createElement('div');
-            card.className = 'card';
-            card.innerHTML = `<img src="${item.img || item.coverImage}"><div class="card-info">${item.title}</div>`;
-            card.onclick = () => openDetail(item);
-            return card;
-        }
-
-        function openDetail(item) {
-            currentItem = item;
-            document.getElementById('detTitle').textContent = item.title;
-            document.getElementById('detImg').src = item.img || item.coverImage;
-            document.getElementById('detDesc').textContent = item.description || "Contenido disponible en PrimeBox+ Elite.";
-            document.getElementById('detBadgeArea').innerHTML = `<span class="badge ${item.episodes?'tag-series':'tag-movie'}">${item.type}</span>`;
-            
-            const action = document.getElementById('mainAction');
-            const list = document.getElementById('epList');
-            const epTitle = document.getElementById('epTitle');
-            action.innerHTML = ''; list.innerHTML = '';
-
+        function action(title) {
+            const item = db.all.find(x => x.title === title);
             if(item.episodes) {
-                epTitle.style.display = 'block';
-                action.innerHTML = `<button onclick="playMedia('${item.episodes[0].video_url}', 'Cap 1 - ${item.title}', true, 0)" class="btn-action"><i class="fas fa-play"></i>  COMENZAR SERIE</button>`;
-                item.episodes.forEach((ep, i) => {
-                    const id = `${item.title}_ep${i}`;
-                    const prog = userData[id] || {status: 'nuevo'};
-                    const div = document.createElement('div'); 
-                    div.className = 'ep-card';
-                    div.onclick = () => playMedia(ep.video_url, `Cap ${i+1} - ${item.title}`, true, i);
-                    div.innerHTML = `
-                        <div class="ep-thumb"><img src="${item.img || item.coverImage}"></div>
-                        <div class="ep-info">
-                            <h4>Capítulo ${i+1}</h4>
-                            <div class="status-text">
-                                <span class="status-dot dot-${prog.status}"></span>
-                                <span style="color:${prog.status==='visto'?'var(--check)':(prog.status==='mitad'?'var(--progress)':'#777')}">${prog.status}</span>
-                            </div>
-                        </div>`;
+                document.getElementById('capsTitle').textContent = item.title;
+                const list = document.getElementById('capsList'); list.innerHTML = '';
+                item.episodes.forEach((ep, idx) => {
+                    const div = document.createElement('div'); div.className = 'card'; div.style.flex = '0 0 100%'; div.style.marginBottom = '10px'; div.style.padding = '20px'; div.style.display = 'flex'; div.style.alignItems = 'center';
+                    div.innerHTML = `<span style="background:var(--accent); border-radius:50%; width:30px; height:30px; display:flex; align-items:center; justify-content:center; margin-right:15px; font-weight:bold;">${idx+1}</span> Capítulo ${idx+1}`;
+                    div.onclick = (e) => { e.stopPropagation(); launch(ep.video_url, `E${idx+1} - ${item.title}`); };
                     list.appendChild(div);
                 });
-            } else {
-                epTitle.style.display = 'none';
-                const id = item.title;
-                const prog = userData[id] || {status: 'nuevo'};
-                action.innerHTML = `
-                    <button onclick="playMedia('${item.url || item.video_url}', '${item.title}')" class="btn-action">
-                        <i class="fas fa-play"></i>  ${prog.status === 'mitad' ? 'CONTINUAR' : 'REPRODUCIR'}
-                    </button>
-                    <div class="status-text" style="justify-content:center; margin-top:15px;">
-                        <span class="status-dot dot-${prog.status}"></span> ${prog.status}
-                    </div>`;
-            }
-            document.getElementById('detailView').style.display = 'block';
+                openOverlay('capsView');
+            } else { launch(item.url || item.video_url, item.title, item.isLive); }
         }
 
-        function switchTab(tab, el) {
-            activeTab = tab; loadedCount = 0;
-            document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
-            document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
-            el.classList.add('active');
-            
-            if(tab === 'home') document.getElementById('homeView').classList.add('active');
-            else if(tab === 'search') document.getElementById('searchView').classList.add('active');
-            else {
-                document.getElementById('gridView').classList.add('active');
-                document.getElementById('gridTitle').textContent = tab.charAt(0).toUpperCase() + tab.slice(1);
-                document.getElementById('dynamicGrid').innerHTML = '';
-                loadMore();
-            }
+        function launch(url, title, isLive) {
+            const cached = localStorage.getItem('c_' + title);
+            currentMedia = { url, title, isLive };
+            if(!isLive && cached && parseFloat(cached) > 10) {
+                document.getElementById('resumeTxt').textContent = "Regresa al minuto " + format(cached);
+                document.getElementById('resumeBox').style.display = 'flex';
+            } else { play(url, title, 0); }
         }
 
-        function loadMore() {
-            const grid = document.getElementById('dynamicGrid');
-            const data = db[activeTab];
-            const nextBatch = data.slice(loadedCount, loadedCount + 30);
-            nextBatch.forEach(item => grid.appendChild(createCard(item)));
-            loadedCount += nextBatch.length;
+        function play(url, title, time) {
+            window.activeT = title; document.getElementById('pTitle').textContent = title;
+            openOverlay('playerView');
+            if (Hls.isSupported() && url.includes('m3u8')) {
+                hls.loadSource(url); hls.attachMedia(video);
+                hls.on(Hls.Events.MANIFEST_PARSED, () => { video.currentTime = time; video.play(); });
+            } else { video.src = url; video.onloadedmetadata = () => { video.currentTime = time; video.play(); }; }
+            const pv = document.getElementById('playerView');
+            if(pv.requestFullscreen) pv.requestFullscreen();
+            showUI();
         }
 
-        function setupScroll() {
-            document.getElementById('mainScroll').onscroll = (e) => {
-                const el = e.target;
-                if(activeTab !== 'home' && el.scrollTop + el.clientHeight >= el.scrollHeight - 400) {
-                    if (loadedCount < db[activeTab].length) loadMore();
-                }
-            };
+        function doResume(yes) {
+            document.getElementById('resumeBox').style.display = 'none';
+            play(currentMedia.url, currentMedia.title, yes ? parseFloat(localStorage.getItem('c_' + currentMedia.title)) : 0);
         }
 
-        function closeDetail() { document.getElementById('detailView').style.display = 'none'; }
-        
-        document.getElementById('searchInput').oninput = (e) => {
-            const q = e.target.value.toLowerCase();
-            const grid = document.getElementById('searchGrid'); grid.innerHTML = '';
-            if(q.length < 2) return;
-            db.all.filter(i => i.title.toLowerCase().includes(q)).forEach(item => grid.appendChild(createCard(item)));
-        };
+        function openOverlay(id) { const el = document.getElementById(id); el.style.display = 'flex'; setTimeout(() => el.style.transform = 'translateY(0)', 10); }
+        function closePlayer() { 
+            if(video.duration && !currentMedia.isLive) localStorage.setItem('c_' + window.activeT, video.currentTime);
+            video.pause(); const el = document.getElementById('playerView'); el.style.transform = 'translateY(100%)';
+            setTimeout(() => { el.style.display = 'none'; hls.detachMedia(); }, 400); 
+            if(document.fullscreenElement) document.exitFullscreen();
+        }
+        function closeCaps() { const el = document.getElementById('capsView'); el.style.transform = 'translateY(100%)'; setTimeout(() => el.style.display = 'none', 400); }
 
-        pView.addEventListener('mousemove', showUI);
-        pView.addEventListener('touchstart', showUI);
+        function setupSwipe(el, cb) {
+            el.addEventListener('touchstart', e => { if(e.target.closest('.progress-rail') || e.target.closest('i')) return; startY = e.touches[0].clientY; el.style.transition = 'none'; });
+            el.addEventListener('touchmove', e => { if(!startY) return; let d = e.touches[0].clientY - startY; if(d > 0) el.style.transform = `translateY(${d}px)`; });
+            el.addEventListener('touchend', e => { el.style.transition = 'transform 0.4s ease'; if(startY && e.changedTouches[0].clientY - startY > 150) cb(); else el.style.transform = 'translateY(0)'; startY = 0; });
+        }
+
+        document.getElementById('progArea').onclick = (e) => { e.stopPropagation(); video.currentTime = (e.offsetX / e.currentTarget.offsetWidth) * video.duration; showUI(); };
+        function togglePlay() { video.paused ? video.play() : video.pause(); showUI(); }
+        function jump(t) { video.currentTime += t; showUI(); }
+        function format(s) { if(isNaN(s)) return "0:00"; let m=Math.floor(s/60), sec=Math.floor(s%60); return m+":"+(sec<10?"0"+sec:sec); }
+        video.ontimeupdate = () => { document.getElementById('progBar').style.width = (video.currentTime / video.duration * 100) + '%'; document.getElementById('cur').textContent = format(video.currentTime); document.getElementById('dur').textContent = format(video.duration); };
+        video.onplay = () => { document.getElementById('playBtn').className = "fas fa-pause"; showUI(); };
+        video.onpause = () => { document.getElementById('playBtn').className = "fas fa-play"; showUI(); };
+        function nav(id, btn) { document.querySelectorAll('.page').forEach(p => p.classList.remove('active')); document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active')); document.getElementById('pg-'+id).classList.add('active'); btn.classList.add('active'); }
+
         init();
     </script>
 </body>
