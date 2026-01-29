@@ -5,162 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <style>
-        :root { 
-            --bg: #000; 
-            --accent: #00e1b5; 
-            --card-bg: #121212; 
-            --surface: #1f1f1f;
-            --text-main: #ffffff;
-            --text-dim: #b3b3b3;
-        }
+        :root { --bg: #000; --accent: #00e1b5; --card-bg: #121212; --text-dim: #b3b3b3; }
+        body { background: var(--bg); color: #fff; font-family: 'Segoe UI', sans-serif; margin: 0; padding-bottom: 50px; }
 
-        body { 
-            background: var(--bg); 
-            color: var(--text-main); 
-            font-family: 'Segoe UI', Roboto, sans-serif; 
-            margin: 0; 
-            padding-bottom: 50px;
-            overflow-x: hidden;
-        }
-
-        /* Hero Header Cinematográfico */
         .hero {
-            position: relative;
-            width: 100%;
-            height: 45vh;
-            display: flex;
-            align-items: flex-end;
-            background-size: cover;
-            background-position: center;
+            position: relative; width: 100%; height: 35vh;
+            display: flex; align-items: flex-end;
+            background-size: cover; background-position: center;
         }
-
-        .hero-overlay {
-            position: absolute;
-            inset: 0;
-            background: linear-gradient(to top, var(--bg) 5%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0.7) 100%);
-        }
-
-        .back-nav {
-            position: fixed;
-            top: 0;
-            width: 100%;
-            z-index: 1000;
-            padding: 15px;
-            display: flex;
-            align-items: center;
-            background: linear-gradient(to bottom, rgba(0,0,0,0.6), transparent);
-            transition: 0.3s;
-        }
-
-        .hero-content {
-            position: relative;
-            z-index: 2;
-            padding: 20px;
-            width: 100%;
-        }
-
-        .hero-content h1 { margin: 0; font-size: 1.8rem; font-weight: 800; letter-spacing: -1px; }
+        .hero-overlay { position: absolute; inset: 0; background: linear-gradient(to top, #000 10%, transparent); }
         
-        .meta-row { display: flex; gap: 10px; margin: 8px 0; font-size: 0.85rem; color: var(--accent); font-weight: bold; }
-        .meta-row span { background: rgba(0,225,181,0.1); padding: 2px 8px; border-radius: 4px; border: 1px solid rgba(0,225,181,0.2); }
+        .back-nav { position: fixed; top: 0; z-index: 1000; padding: 20px; color: #fff; }
+        .hero-content { position: relative; z-index: 2; padding: 20px; }
+        .hero-content h1 { margin: 0; font-size: 1.6rem; font-weight: 800; }
 
-        .description { 
-            font-size: 0.9rem; 
-            color: var(--text-dim); 
-            line-height: 1.4; 
-            margin-top: 10px; 
-            display: -webkit-box;
-            -webkit-line-clamp: 3;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-        }
+        .section-label { padding: 20px 20px 10px; color: var(--accent); font-size: 0.8rem; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; }
 
-        /* Tabs / Selector de Temporada */
-        .tabs {
-            display: flex;
-            padding: 15px;
-            gap: 20px;
-            border-bottom: 1px solid #222;
-            margin-bottom: 15px;
-            position: sticky;
-            top: 60px;
-            background: var(--bg);
-            z-index: 90;
-        }
-        .tab { color: var(--text-dim); font-weight: bold; font-size: 0.9rem; text-transform: uppercase; border-bottom: 2px solid transparent; padding-bottom: 5px; }
-        .tab.active { color: var(--text-main); border-color: var(--accent); }
-
-        /* Lista de Episodios */
         #el { padding: 0 15px; }
-
-        .ep-card { 
-            background: var(--card-bg); 
-            margin-bottom: 15px; 
-            border-radius: 8px; 
-            overflow: hidden; 
-            transition: 0.3s;
-            border: 1px solid #1f1f1f;
-        }
-
+        .ep-card { background: var(--card-bg); margin-bottom: 12px; border-radius: 8px; overflow: hidden; border: 1px solid #1f1f1f; }
         .ep-main { display: flex; align-items: center; padding: 10px; gap: 15px; }
-        
-        .thumb { 
-            position: relative; 
-            width: 130px; 
-            aspect-ratio: 16/9; 
-            flex-shrink: 0; 
-            border-radius: 4px; 
-            overflow: hidden; 
-        }
+        .thumb { position: relative; width: 110px; aspect-ratio: 16/9; flex-shrink: 0; border-radius: 4px; overflow: hidden; }
         .thumb img { width: 100%; height: 100%; object-fit: cover; }
-        
-        .play-btn-circle {
-            position: absolute;
-            inset: 0;
-            margin: auto;
-            width: 30px; height: 30px;
-            background: rgba(0,0,0,0.6);
-            border: 1px solid #fff;
-            border-radius: 50%;
-            display: flex; align-items: center; justify-content: center;
-            font-size: 0.8rem;
-        }
-
-        .info { flex: 1; }
-        .info h4 { margin: 0 0 4px; font-size: 0.95rem; font-weight: 600; }
-        .ep-desc { font-size: 0.75rem; color: var(--text-dim); margin: 0; }
-
-        /* Progreso */
-        .prog-container { width: 100%; height: 4px; background: #333; }
-        .prog-bar { height: 100%; background: var(--accent); box-shadow: 0 0 10px var(--accent); }
-
-        .done-mark { color: var(--accent); margin-left: auto; font-size: 1.1rem; }
+        .info h4 { margin: 0; font-size: 0.9rem; }
+        .prog-container { width: 100%; height: 3px; background: #333; }
+        .prog-bar { height: 100%; background: var(--accent); }
     </style>
 </head>
 <body>
-
-    <div class="back-nav" id="navbar">
-        <i class="fas fa-arrow-left" onclick="history.back()" style="font-size: 1.2rem; cursor:pointer;"></i>
-    </div>
-
-    <div id="hero-section" class="hero">
-        <div class="hero-overlay"></div>
-        <div class="hero-content">
-            <h1 id="st">Título de la Serie</h1>
-            <div class="meta-row" id="meta-info">
-                <span>HD</span>
-                <span id="genre-tag">Género</span>
-                <span id="year-tag">2024</span>
-            </div>
-            <p class="description" id="desc-text">Cargando descripción de la serie...</p>
-        </div>
-    </div>
-
-    <div class="tabs">
-        <div class="tab active">Episodios</div>
-        <div class="tab">Detalles</div>
-    </div>
-
+    <div class="back-nav" onclick="history.back()"><i class="fas fa-arrow-left"></i></div>
+    <div id="hero-section" class="hero"><div class="hero-overlay"></div><div class="hero-content"><h1 id="st">Serie</h1></div></div>
+    
+    <div class="section-label">Episodios</div>
     <div id="el"></div>
 
     <script>
@@ -168,42 +43,27 @@
             const container = document.getElementById('el');
             const data = JSON.parse(localStorage.getItem('pbox_serie'));
             const progress = JSON.parse(localStorage.getItem('pbox_progress')) || {};
-
             if(!data) return;
 
-            // Rellenar Header
             document.getElementById('st').innerText = data.title;
             document.getElementById('hero-section').style.backgroundImage = `url(${data.coverImage})`;
-            document.getElementById('desc-text').innerText = data.description || "No hay descripción disponible para esta serie.";
-            document.getElementById('genre-tag').innerText = data.genre || "Serie";
-            document.getElementById('year-tag').innerText = data.year || "2024";
-
             container.innerHTML = ''; 
 
             data.episodes.forEach((ep, i) => {
                 const epKey = `${data.title}_E${i+1}`;
                 const saved = progress[epKey] || { cur: 0, dur: 1 };
                 const percent = Math.min((saved.cur / saved.dur) * 100, 100);
-                const isWatched = percent > 90;
-
+                
                 const div = document.createElement('div');
                 div.className = 'ep-card';
-                
                 div.innerHTML = `
                     <div class="ep-main">
-                        <div class="thumb">
-                            <img src="${data.coverImage}" loading="lazy">
-                            <div class="play-btn-circle"><i class="fas fa-play"></i></div>
-                        </div>
-                        <div class="info">
-                            <h4>${i+1}. Episodio ${i+1}</h4>
-                            <p class="ep-desc">Ver capítulo ahora</p>
-                        </div>
-                        ${isWatched ? '<i class="fas fa-check-circle done-mark"></i>' : ''}
+                        <div class="thumb"><img src="${data.coverImage}"></div>
+                        <div class="info"><h4>Episodio ${i+1}</h4></div>
+                        ${percent > 90 ? '<i class="fas fa-check-circle" style="color:var(--accent);margin-left:auto"></i>' : ''}
                     </div>
                     ${percent > 2 ? `<div class="prog-container"><div class="prog-bar" style="width: ${percent}%"></div></div>` : ''}
                 `;
-
                 div.onclick = () => {
                     localStorage.setItem('pbox_url', ep.video_url);
                     localStorage.setItem('pbox_title', data.title + " E" + (i+1));
@@ -213,17 +73,6 @@
                 container.appendChild(div);
             });
         }
-
-        // Efecto scroll en navbar
-        window.onscroll = () => {
-            const nav = document.getElementById('navbar');
-            if (window.scrollY > 100) {
-                nav.style.background = "rgba(0,0,0,0.9)";
-            } else {
-                nav.style.background = "linear-gradient(to bottom, rgba(0,0,0,0.6), transparent)";
-            }
-        };
-
         window.addEventListener('pageshow', updateUI);
     </script>
 </body>
