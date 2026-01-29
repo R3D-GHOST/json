@@ -246,6 +246,20 @@
             font-size: 4rem; opacity: 0.8; color: white;
         }
 
+        /* --- BOTON SKIP NEXT --- */
+        .skip-next-btn {
+            position: absolute; bottom: 80px; right: 20px;
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(5px);
+            color: white; border: 1px solid rgba(255,255,255,0.4);
+            padding: 8px 16px; border-radius: 4px;
+            font-weight: bold; cursor: pointer; font-size: 0.9rem;
+            display: none; align-items: center; gap: 8px;
+            z-index: 10002;
+            transition: background 0.2s;
+        }
+        .skip-next-btn:active { background: rgba(244, 117, 33, 0.8); border-color: var(--cr-orange); }
+
         .bottom-nav {
             position: fixed; bottom: 0; left: 0; right: 0;
             height: var(--nav-height); background: #151619;
@@ -310,9 +324,13 @@
         
         <video id="player" playsinline></video>
         
+        <button id="skipBtn" class="skip-next-btn" onclick="nextEpPlayer()">
+            Siguiente <i class="fas fa-step-forward"></i>
+        </button>
+
         <div id="videoControls">
             <div style="position:absolute; top:20px; left:20px; display:flex; align-items:center; gap:10px;">
-                <button class="ctrl-btn" onclick="closePlayer()"><i class="fas fa-arrow-left"></i></button>
+                <button class="ctrl-btn" onclick="closePlayerManually()"><i class="fas fa-arrow-left"></i></button>
                 <span id="playerTitle" style="color:white; font-weight:bold; width:200px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">Titulo</span>
             </div>
 
@@ -334,7 +352,7 @@
                     <span id="timeDisplay" style="color:white; font-size:0.8rem;">00:00 / 00:00</span>
                 </div>
                 <div>
-                    <button id="nextEpBtn" class="ctrl-btn" onclick="nextEpPlayer()"><i class="fas fa-step-forward"></i></button>
+                    <button id="nextEpBtn" class="ctrl-btn" onclick="nextEpPlayer()" style="display:none;"><i class="fas fa-step-forward"></i></button>
                     <button class="ctrl-btn" onclick="toggleFull()"><i class="fas fa-expand"></i></button>
                 </div>
             </div>
@@ -385,7 +403,8 @@
             loader: document.getElementById('infiniteLoader'),
             video: document.getElementById('player'),
             overlay: document.getElementById('videoOverlay'),
-            pMenu: document.getElementById('profileMenu')
+            pMenu: document.getElementById('profileMenu'),
+            skipBtn: document.getElementById('skipBtn')
         };
 
         async function init() {
@@ -436,8 +455,6 @@
             } else {
                 const v = document.getElementById('view-catalog');
                 v.classList.add('active');
-                
-                // IMPORTANTE: Resetear scroll al inicio para ver cabecera
                 v.scrollTop = 0;
 
                 STATE.page = 0; 
@@ -447,7 +464,7 @@
                 
                 if(tab === 'series') STATE.list = DATA.series;
                 else if(tab === 'live') STATE.list = DATA.channels;
-                else if(tab === 'movies') STATE.list = DATA.movies; // <--- Lógica para Películas
+                else if(tab === 'movies') STATE.list = DATA.movies;
                 else if(tab === 'favorites') STATE.list = DATA.all.filter(x => STATE.favs.includes(x.title));
                 
                 loadMore();
@@ -475,23 +492,16 @@
                 `;
             }
 
-            // Canales
             addShelf('Canales en Vivo', DATA.channels, c);
-            
-            // Seguir Viendo
             const watching = DATA.all.filter(x => {
                 if(x.isChannel) return false;
                 const h = STATE.hist[x.title];
                 return h && ((h.time > 0) || (h.last !== undefined));
             });
             if(watching.length) addShelf('Seguir Viendo', watching, c);
-            
-            // Géneros (Límite 15)
             addShelf('Acción', DATA.action.slice(0, 15), c);
             addShelf('Romance', DATA.romance.slice(0, 15), c);
             addShelf('Suspenso', DATA.suspense.slice(0, 15), c);
-
-            // Películas y Series (Límite 15)
             addShelf('Películas Recomendadas', DATA.movies.slice(0, 15), c);
             addShelf('Series Populares', DATA.series.slice(0, 15), c);
         }
@@ -651,13 +661,18 @@
         }
 
         function launchPlayer(url, title, idx, item, startTime=0) {
+            // Push state para el boton de atras
+            history.pushState({player: true}, null, "");
+
             PLAYER.active = true; PLAYER.item = item; PLAYER.epIdx = idx;
             els.overlay.style.display = 'flex';
             document.getElementById('bufferLoader').style.display = 'block';
-            
+            els.skipBtn.style.display = 'none'; // ocultar skip al inicio
+
             let tStr = title; if(idx !== false && idx > -1) tStr += ` - E${idx+1}`;
             document.getElementById('playerTitle').innerText = tStr;
-            document.getElementById('nextEpBtn').style.display = item.isChannel ? 'none' : 'block';
+            
+            document.getElementById('nextEpBtn').style.display = 'none';
             document.getElementById('centerIcon').className = "fas fa-pause";
             document.getElementById('bottomIcon').className = "fas fa-pause";
 
@@ -671,6 +686,10 @@
             }
             clearInterval(PLAYER.interval);
             PLAYER.interval = setInterval(saveProgress, 3000);
+
+            // AUTO FULLSCREEN
+            if (els.overlay.requestFullscreen) els.overlay.requestFullscreen().catch(e=>{});
+            else if (els.overlay.webkitRequestFullscreen) els.overlay.webkitRequestFullscreen();
         }
 
         function startVid(t) {
@@ -697,14 +716,51 @@
             localStorage.setItem('hist', JSON.stringify(STATE.hist));
         }
 
+        // Función "limpia" para cerrar el player SIN reload
         function closePlayer() {
-            saveProgress(); els.video.pause(); els.video.removeAttribute('src');
-            if(window.hls) window.hls.destroy();
-            els.overlay.style.display = 'none'; PLAYER.active = false;
+            if(!PLAYER.active) return;
+
+            saveProgress(); 
+            els.video.pause(); 
+            
+            // Limpieza profunda para evitar que se quede pillado
+            els.video.removeAttribute('src');
+            els.video.load(); // Forzar descarga
+            if(window.hls) {
+                window.hls.destroy();
+                window.hls = null;
+            }
+            
             clearInterval(PLAYER.interval);
-            if(document.getElementById('view-detail').classList.contains('active')) openDetail(PLAYER.item);
-            renderHome();
+            els.overlay.style.display = 'none';
+            PLAYER.active = false;
+
+            // Aseguramos salir de fullscreen si todavía está activo
+            if(document.fullscreenElement) document.exitFullscreen().catch(e=>{});
         }
+
+        function closePlayerManually() {
+            history.back(); // Esto dispara el popstate que llama a closePlayer
+        }
+
+        // Manejar el boton de atras Y el cambio de fullscreen
+        window.onpopstate = (event) => {
+            if (PLAYER.active) {
+                closePlayer();
+            }
+        };
+
+        // EVENTO: Si sales de pantalla completa, cerrar reproductor
+        document.addEventListener('fullscreenchange', () => {
+            if (!document.fullscreenElement && PLAYER.active) {
+                history.back(); // Simulamos el botón atrás para cerrar ordenadamente
+            }
+        });
+        document.addEventListener('webkitfullscreenchange', () => { // Safari/iOS
+             if (!document.webkitFullscreenElement && PLAYER.active) {
+                history.back();
+            }
+        });
 
         function togglePlay() {
             if(els.video.paused) {
@@ -720,20 +776,36 @@
 
         function nextEpPlayer() {
             if(PLAYER.item?.episodes && PLAYER.epIdx + 1 < PLAYER.item.episodes.length) {
+                // Ir directo al siguiente limpiamente
                 checkPlay(PLAYER.item.title, PLAYER.epIdx + 1);
+            } else {
+                closePlayerManually();
             }
         }
 
         els.video.onended = () => {
             saveProgress();
-            if(PLAYER.item?.episodes && PLAYER.epIdx + 1 < PLAYER.item.episodes.length) nextEpPlayer();
-            else closePlayer();
+            nextEpPlayer();
         };
 
         els.video.ontimeupdate = () => {
-            const p = (els.video.currentTime / els.video.duration) * 100 || 0;
+            if (!els.video.duration) return;
+            
+            const cur = els.video.currentTime;
+            const dur = els.video.duration;
+            const p = (cur / dur) * 100 || 0;
+            
             document.getElementById('progFill').style.width = p + '%';
-            document.getElementById('timeDisplay').innerText = fmt(els.video.currentTime) + " / " + fmt(els.video.duration);
+            document.getElementById('timeDisplay').innerText = fmt(cur) + " / " + fmt(dur);
+
+            // LOGICA DEL BOTON SKIP (Faltan 5 segs)
+            const remain = dur - cur;
+            if (remain <= 6 && remain > 0 && PLAYER.item?.episodes && (PLAYER.epIdx + 1 < PLAYER.item.episodes.length)) {
+                els.skipBtn.style.display = 'flex';
+                els.skipBtn.innerHTML = `Siguiente en ${Math.ceil(remain)}s <i class="fas fa-step-forward"></i>`;
+            } else {
+                els.skipBtn.style.display = 'none';
+            }
         };
         
         document.getElementById('scrubber').onclick = (e) => {
