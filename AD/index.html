@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <style>
-        :root { --bg: #000; --accent: #00e1b5; --card: #111; --text-dim: #888; --nav-bg: #000; }
-        body { font-family: 'Segoe UI', Roboto, sans-serif; background: var(--bg); color: white; margin: 0; padding-bottom: 90px; overflow-x: hidden; }
+        :root { --bg: #000; --accent: #00e1b5; --card: #111; --text-dim: #888; }
+        body { font-family: 'Segoe UI', sans-serif; background: var(--bg); color: white; margin: 0; padding-bottom: 90px; overflow-x: hidden; }
         
         /* HEADER COMÚN */
         header { 
@@ -17,184 +17,167 @@
         .search-box { flex: 1; display: flex; align-items: center; background: #161616; padding: 8px 12px; border-radius: 8px; border: 1px solid #222; margin-left: 15px; }
         .search-box input { flex: 1; background: transparent; border: none; color: white; outline: none; font-size: 0.9rem; }
 
-        /* SECCIONES (PÁGINAS VIRTUALES) */
-        .page { display: none; animation: fadeIn 0.3s ease; }
+        /* NAVEGACIÓN ENTRE SECCIONES */
+        .page { display: none; animation: fadeIn 0.2s ease; }
         .page.active { display: block; }
         @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
 
-        .section-title { font-size: 0.75rem; padding: 25px 15px 15px; text-transform: uppercase; color: var(--text-dim); letter-spacing: 2px; font-weight: 800; }
+        .section-label { font-size: 0.75rem; padding: 25px 15px 15px; text-transform: uppercase; color: var(--accent); letter-spacing: 2px; font-weight: bold; }
 
-        /* GRID CATÁLOGO (3 EN 3) */
+        /* --- ESTILOS INICIO (INDEX ORIGINAL) --- */
+        .hero-home { width: 100%; height: 40vh; background-size: cover; background-position: center; position: relative; display: flex; align-items: flex-end; }
+        .hero-overlay { position: absolute; inset: 0; background: linear-gradient(to top, #000, transparent); }
+        .hero-txt { position: relative; z-index: 2; padding: 20px; font-size: 1.5rem; font-weight: 900; }
+        .row-scroll { display: flex; overflow-x: auto; gap: 10px; padding: 0 15px; scrollbar-width: none; }
+        .row-scroll::-webkit-scrollbar { display: none; }
+        .card-h { min-width: 140px; aspect-ratio: 2/3; background: var(--card); border-radius: 6px; overflow: hidden; }
+        .card-h img { width: 100%; height: 100%; object-fit: cover; }
+
+        /* --- ESTILOS CATÁLOGO (3 EN 3) --- */
         .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; padding: 0 10px; }
-        .poster { aspect-ratio: 2/3; background: var(--card); border-radius: 6px; overflow: hidden; position: relative; }
+        .poster { aspect-ratio: 2/3; background: var(--card); border-radius: 6px; overflow: hidden; }
         .poster img { width: 100%; height: 100%; object-fit: cover; }
 
-        /* GRID CANALES (2 EN 2) */
+        /* --- ESTILOS CANALES (2 EN 2) --- */
         .grid-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; padding: 0 15px; }
-        .card-ch { aspect-ratio: 16/9; background: var(--card); border: 1px solid #1f1f1f; border-radius: 8px; overflow: hidden; display: flex; align-items: center; justify-content: center; position: relative; }
-        .card-ch img { width: 75%; height: 75%; object-fit: contain; }
+        .card-ch { aspect-ratio: 16/9; background: var(--card); border: 1px solid #1f1f1f; border-radius: 8px; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+        .card-ch img { width: 70%; height: 70%; object-fit: contain; }
 
-        .fav-indicator { position: absolute; top: 5px; right: 5px; color: var(--accent); font-size: 0.7rem; text-shadow: 0 0 5px #000; }
-
-        /* NAVBAR UNIFICADA */
-        nav { position: fixed; bottom: 0; width: 100%; height: 70px; background: var(--nav-bg); display: flex; border-top: 1px solid #1a1a1a; z-index: 2000; }
-        .nav-item { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; font-size: 0.6rem; color: #555; text-decoration: none; font-weight: bold; letter-spacing: 1px; }
+        /* NAVBAR */
+        nav { position: fixed; bottom: 0; width: 100%; height: 75px; background: #000; display: flex; border-top: 1px solid #1a1a1a; z-index: 2000; }
+        .nav-item { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; font-size: 0.6rem; color: #555; text-decoration: none; font-weight: bold; }
         .nav-item.active { color: var(--accent); }
         .nav-item i { font-size: 1.3rem; margin-bottom: 5px; }
 
-        #loading-tag { text-align: center; padding: 30px; color: var(--accent); font-size: 0.8rem; font-weight: bold; }
+        #loading { text-align: center; padding: 20px; color: var(--accent); font-size: 0.8rem; font-weight: bold; }
     </style>
 </head>
 <body>
 
-    <header id="main-header">
-        <div class="logo" id="logo-text">CATÁ<span style="color:var(--accent)">LOGO</span></div>
+    <header>
+        <div class="logo">POWER<span style="color:var(--accent)">BOX</span></div>
         <div class="search-box">
             <input type="text" id="q" placeholder="Buscar..." oninput="filtrar()">
             <i class="fas fa-search" style="font-size: 0.8rem; color: #444;"></i>
         </div>
     </header>
 
-    <main id="view-catalogo" class="page active">
-        <h2 class="section-title">Novedades y Series</h2>
-        <div id="grid-full" class="grid-3"></div>
+    <main id="view-inicio" class="page active">
+        <div class="hero-home" id="hero-img"><div class="hero-overlay"></div><div class="hero-txt" id="hero-title">Cargando...</div></div>
+        <div class="section-label">Añadidos recientemente</div>
+        <div class="row-scroll" id="row-recientes"></div>
+        <div class="section-label">Series destacadas</div>
+        <div class="row-scroll" id="row-series"></div>
+    </main>
+
+    <main id="view-catalogo" class="page">
+        <div class="section-label">Todo el contenido</div>
+        <div id="grid-catalogo" class="grid-3"></div>
     </main>
 
     <main id="view-canales" class="page">
-        <h2 class="section-title">Parrilla de Canales</h2>
-        <div id="grid-ch" class="grid-2"></div>
+        <div class="section-label">Televisión en vivo</div>
+        <div id="grid-tv" class="grid-2"></div>
     </main>
 
-    <div id="loading-tag">Cargando...</div>
+    <div id="loading">Cargando datos...</div>
 
     <nav>
-        <a href="javascript:void(0)" class="nav-item active" onclick="cambiarSeccion('catalogo', this)">
-            <i class="fas fa-th-large"></i>CATÁLOGO
-        </a>
-        <a href="javascript:void(0)" class="nav-item" onclick="cambiarSeccion('canales', this)">
-            <i class="fas fa-tv"></i>CANALES
-        </a>
+        <a href="javascript:void(0)" class="nav-item active" onclick="navegar('inicio', this)"><i class="fas fa-home"></i>INICIO</a>
+        <a href="javascript:void(0)" class="nav-item" onclick="navegar('catalogo', this)"><i class="fas fa-th-large"></i>CATÁLOGO</a>
+        <a href="javascript:void(0)" class="nav-item" onclick="navegar('canales', this)"><i class="fas fa-tv"></i>CANALES</a>
     </nav>
 
     <script>
-        const API_MOVIES = "https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/data.json";
-        const API_TV = "https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/CV.m3u8";
+        const API_M = "https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/data.json";
+        const API_T = "https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/CV.m3u8";
 
-        let dbMovies = [], filteredMovies = [];
-        let dbChannels = [], filteredChannels = [];
-        let favs = JSON.parse(localStorage.getItem('pbox_favs')) || [];
-        
-        let movieIndex = 0, tvIndex = 0;
+        let dbM = [], dbT = [], filteredM = [], filteredT = [];
+        let curM = 0, curT = 0;
         const STEP = 30;
-        let seccionActual = 'catalogo';
+        let activeTab = 'inicio';
 
-        async function cargarDatos() {
+        async function init() {
             try {
-                // Cargar Películas
-                const resM = await fetch(API_MOVIES);
-                dbMovies = await resM.json();
-                filteredMovies = dbMovies;
+                const [resM, resT] = await Promise.all([fetch(API_M), fetch(API_T)]);
+                dbM = await resM.json();
+                filteredM = dbM;
 
-                // Cargar TV
-                const resT = await fetch(API_TV);
-                const text = await resT.text();
-                const lines = text.split('\n');
+                const lines = (await resT.text()).split('\n');
                 lines.forEach((l, i) => {
                     if(l.includes('#EXTINF:')) {
-                        const url = lines[i+1]?.trim();
-                        if(url && url.startsWith('http')) {
-                            dbChannels.push({
-                                title: l.split(',')[1]?.trim() || 'Canal',
-                                logo: l.match(/tvg-logo="(.*?)"/)?.[1] || '',
-                                video_url: url,
-                                type: 'tv'
-                            });
-                        }
+                        dbT.push({ title: l.split(',')[1]?.trim(), logo: l.match(/tvg-logo="(.*?)"/)?.[1], url: lines[i+1]?.trim() });
                     }
                 });
-                filteredChannels = dbChannels;
+                filteredT = dbT;
 
+                setupInicio();
                 renderMovies(true);
-                renderChannels(true);
-                document.getElementById('loading-tag').style.display = 'none';
+                renderTV(true);
+                document.getElementById('loading').style.display = 'none';
             } catch (e) { console.error(e); }
         }
 
+        function setupInicio() {
+            const hero = dbM[0];
+            document.getElementById('hero-img').style.backgroundImage = `url(${hero.coverImage})`;
+            document.getElementById('hero-title').innerText = hero.title;
+            
+            const rec = document.getElementById('row-recientes');
+            dbM.slice(0, 10).forEach(m => rec.appendChild(createCard(m, 'card-h')));
+
+            const ser = document.getElementById('row-series');
+            dbM.filter(m => m.episodes).slice(0, 10).forEach(m => ser.appendChild(createCard(m, 'card-h')));
+        }
+
         function renderMovies(reset = false) {
-            const grid = document.getElementById('grid-full');
-            if(reset) { grid.innerHTML = ''; movieIndex = 0; }
-            const chunk = filteredMovies.slice(movieIndex, movieIndex + STEP);
-            chunk.forEach(item => {
-                const card = document.createElement('div');
-                card.className = 'poster';
-                card.innerHTML = `<img src="${item.coverImage}" loading="lazy">`;
-                card.onclick = () => openContent(item);
-                grid.appendChild(card);
-            });
-            movieIndex += STEP;
+            const grid = document.getElementById('grid-catalogo');
+            if(reset) { grid.innerHTML = ''; curM = 0; }
+            filteredM.slice(curM, curM + STEP).forEach(m => grid.appendChild(createCard(m, 'poster')));
+            curM += STEP;
         }
 
-        function renderChannels(reset = false) {
-            const grid = document.getElementById('grid-ch');
-            if(reset) { grid.innerHTML = ''; tvIndex = 0; }
-            const chunk = filteredChannels.slice(tvIndex, tvIndex + STEP);
-            chunk.forEach(c => {
-                const d = document.createElement('div');
-                d.className = 'card-ch';
-                d.innerHTML = c.logo ? `<img src="${c.logo}" loading="lazy">` : `<span>${c.title}</span>`;
-                d.onclick = () => openContent(c);
-                grid.appendChild(d);
-            });
-            tvIndex += STEP;
+        function renderTV(reset = false) {
+            const grid = document.getElementById('grid-tv');
+            if(reset) { grid.innerHTML = ''; curT = 0; }
+            filteredT.slice(curT, curT + STEP).forEach(t => grid.appendChild(createCard(t, 'card-ch')));
+            curT += STEP;
         }
 
-        function cambiarSeccion(target, el) {
-            seccionActual = target;
+        function createCard(item, cls) {
+            const d = document.createElement('div');
+            d.className = cls;
+            d.innerHTML = `<img src="${item.coverImage || item.logo}" loading="lazy">`;
+            d.onclick = () => {
+                if(item.episodes) { localStorage.setItem('pbox_serie', JSON.stringify(item)); window.location.href="capitulos.html"; }
+                else { localStorage.setItem('pbox_url', item.url || item.video_url); localStorage.setItem('pbox_title', item.title); localStorage.removeItem('pbox_serie'); window.location.href="player.html"; }
+            };
+            return d;
+        }
+
+        function navegar(tab, el) {
+            activeTab = tab;
             document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
             document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
-            
-            document.getElementById('view-' + target).classList.add('active');
+            document.getElementById('view-' + tab).classList.add('active');
             el.classList.add('active');
-
-            // Cambiar texto del logo según sección
-            const logo = document.getElementById('logo-text');
-            if(target === 'catalogo') logo.innerHTML = 'CATÁ<span style="color:var(--accent)">LOGO</span>';
-            else logo.innerHTML = 'TV EN <span style="color:var(--accent)">VIVO</span>';
-            
             window.scrollTo(0,0);
         }
 
         function filtrar() {
             const q = document.getElementById('q').value.toLowerCase();
-            if(seccionActual === 'catalogo') {
-                filteredMovies = dbMovies.filter(m => m.title.toLowerCase().includes(q));
-                renderMovies(true);
-            } else {
-                filteredChannels = dbChannels.filter(c => c.title.toLowerCase().includes(q));
-                renderChannels(true);
-            }
-        }
-
-        function openContent(item) {
-            if(item.episodes) {
-                localStorage.setItem('pbox_serie', JSON.stringify(item));
-                window.location.href = "capitulos.html";
-            } else {
-                localStorage.setItem('pbox_url', item.video_url);
-                localStorage.setItem('pbox_title', item.title);
-                localStorage.removeItem('pbox_serie');
-                window.location.href = "player.html";
-            }
+            if(activeTab === 'canales') { filteredT = dbT.filter(t => t.title.toLowerCase().includes(q)); renderTV(true); }
+            else { filteredM = dbM.filter(m => m.title.toLowerCase().includes(q)); renderMovies(true); if(activeTab === 'inicio') navegar('catalogo', document.querySelectorAll('.nav-item')[1]); }
         }
 
         window.onscroll = () => {
             if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 500) {
-                if(seccionActual === 'catalogo' && movieIndex < filteredMovies.length) renderMovies();
-                if(seccionActual === 'canales' && tvIndex < filteredChannels.length) renderChannels();
+                if(activeTab === 'catalogo') renderMovies();
+                if(activeTab === 'canales') renderTV();
             }
         };
 
-        cargarDatos();
+        init();
     </script>
 </body>
 </html>
