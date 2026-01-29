@@ -2,7 +2,7 @@
 
 
 
-#EXTINF:-1 tvg-logo="https://image-service.onefootball.com/transform?w=280&h=187&dpr=2&image=https%3A%2F%2Fcdn.foot-africa.com%2F20260128%2Fe79986f2ad180fc2b60389f960a8cf55cdf3601c4c2b938d57fedc5d5632cf2b-1200-675.webp" group-title="Evento",REAL MADRID VS BENFICA AUEFA CHAMPION LEAGUE 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuX6kkMf8tbLO4Tg13o7UugAgblPDiD23gPNB__deXAA&s=10" group-title="Evento", DAZN 
 
 
 
@@ -10,8 +10,7 @@
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bein-sports-xtra-en-espanol/playlist.m3u8
 
 
-#EXTINF:0 channel-id="f1-channel" channel-number="2960" tvg-logo="https://images.pluto.tv/channels/65c69ee3d77d450008c80438/colorLogoPNG.png" tvc-guide-art="https://images.pluto.tv/channels/65c69ee3d77d450008c80438/featuredImage.jpg?fill=blur&fit=fill&fm=jpg&h=562&q=75&w=1000" tvc-guide-title="F1 Channel" tvc-guide-description="The F1 Channel is the ultimate destination to catch up on all the action from F1, F2, F3 and F1 Academy races throughout the season, including analysis, replays and documentaries." group-title="Sports", F1 Channel
-https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/65c69ee3d77d450008c80438/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=cee4b9e6-c01c-11f0-9a74-befeec93b554&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=a50f9b90-3bc9-4b06-9692-488d8990863c&userId=&serverSideAds=true
+
 
 
 
