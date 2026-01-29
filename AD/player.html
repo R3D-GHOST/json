@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -9,69 +10,76 @@
         body { margin: 0; background: var(--bg); height: 100vh; width: 100vw; overflow: hidden; font-family: 'Segoe UI', sans-serif; }
 
         #video-wrapper { 
-            width: 100%; height: 100%; opacity: 0; 
-            transition: opacity 0.8s ease; display: flex; 
+            width: 100%; height: 100%; display: flex; 
             align-items: center; justify-content: center; background: #000;
         }
 
-        /* Fuerza el estiramiento a 16:9 si el video es 4:3 */
+        /* Fuerza el estiramiento para eliminar franjas negras (4:3 a 16:9) */
         video { 
-            width: 100vw; 
-            height: 100vh; 
-            object-fit: fill; /* Esto estira el video para llenar toda la pantalla */
-            z-index: 1; 
+            width: 100% !important; 
+            height: 100% !important; 
+            object-fit: fill !important; 
+            background: #000;
         }
 
+        /* UI Overlay */
         .ui-overlay { 
             position: absolute; inset: 0; z-index: 50; 
-            background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, transparent 50%, rgba(0,0,0,0.8) 100%); 
+            background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, transparent 50%, rgba(0,0,0,0.9) 100%); 
             display: flex; flex-direction: column; justify-content: space-between;
-            transition: opacity 0.4s;
+            transition: opacity 0.4s; opacity: 1;
         }
         .ui-overlay.hidden { opacity: 0; pointer-events: none; }
 
-        .top-bar { padding: 25px; display: flex; align-items: center; gap: 15px; color: white; }
-        .v-title { font-size: 1rem; font-weight: bold; text-shadow: 0 2px 4px #000; }
+        .top-bar { padding: 20px; display: flex; align-items: center; gap: 15px; color: white; }
+        .v-title { font-size: 0.9rem; font-weight: bold; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
-        .bottom-ctrls { width: 100%; padding: 0 20px 25px; box-sizing: border-box; }
-        .prog-container { width: 100%; height: 6px; background: rgba(255,255,255,0.2); margin-bottom: 20px; border-radius: 10px; cursor: pointer; position: relative; }
-        .bar-fill { height: 100%; background: var(--accent); width: 0%; border-radius: 10px; }
+        /* Controles */
+        .bottom-ctrls { width: 100%; padding: 0 20px 30px; box-sizing: border-box; }
+        .prog-container { width: 100%; height: 5px; background: rgba(255,255,255,0.2); margin-bottom: 20px; border-radius: 10px; cursor: pointer; }
+        .bar-fill { height: 100%; background: var(--accent); width: 0%; border-radius: 10px; position: relative; }
+        .bar-fill::after { content: ''; position: absolute; right: -5px; top: -4px; width: 12px; height: 12px; background: #fff; border-radius: 50%; }
 
         .ctrl-row { display: flex; align-items: center; justify-content: space-between; color: #fff; }
-        .left-side { display: flex; align-items: center; gap: 25px; }
-        .time-display { font-size: 0.85rem; color: #eee; font-weight: 500; }
+        .left-side { display: flex; align-items: center; gap: 20px; }
+        .time-display { font-size: 0.8rem; font-family: monospace; }
 
-        .loader { position: absolute; inset: 0; margin: auto; border: 3px solid rgba(255,255,255,0.1); border-left-color: var(--accent); border-radius: 50%; width: 50px; height: 50px; animation: spin 1s linear infinite; z-index: 100; }
+        /* Loader */
+        .loader { position: absolute; inset: 0; margin: auto; border: 4px solid rgba(255,255,255,0.1); border-left-color: var(--accent); border-radius: 50%; width: 45px; height: 45px; animation: spin 1s linear infinite; z-index: 100; }
         @keyframes spin { to { transform: rotate(360deg); } }
 
-        #next-notice { position: absolute; bottom: 100px; right: 20px; background: rgba(0,0,0,0.8); color: var(--accent); padding: 10px 15px; border-radius: 4px; font-weight: bold; display: none; z-index: 100; border: 1px solid var(--accent); }
+        #next-notice { 
+            position: absolute; top: 20px; right: 20px; background: var(--accent); 
+            color: #000; padding: 8px 15px; border-radius: 20px; font-weight: 800; 
+            font-size: 0.7rem; display: none; z-index: 1000; 
+        }
     </style>
 </head>
 <body oncontextmenu="return false;">
 
     <div class="loader" id="loader"></div>
-    <div id="next-notice">Siguiente episodio en 3...</div>
+    <div id="next-notice">SIGUIENTE EPISODIO EN 3...</div>
     
     <div id="video-wrapper" onclick="toggleUI()">
-        <video id="vid" playsinline crossorigin="anonymous"></video>
+        <video id="vid" playsinline webkit-playsinline></video>
         
         <div class="ui-overlay" id="ui">
             <div class="top-bar">
-                <i class="fas fa-chevron-left" onclick="history.back()" style="font-size: 1.2rem;"></i>
+                <i class="fas fa-arrow-left" onclick="history.back()" style="font-size: 1.3rem;"></i>
                 <div class="v-title" id="v-title">Cargando...</div>
             </div>
 
             <div class="bottom-ctrls" onclick="event.stopPropagation()">
-                <div class="prog-container" onclick="manualSeek(event)">
+                <div class="prog-container" id="p-cont">
                     <div class="bar-fill" id="fill"></div>
                 </div>
                 <div class="ctrl-row">
                     <div class="left-side">
-                        <i class="fas fa-pause" id="pp" onclick="togglePlay()" style="font-size: 1.8rem; color: var(--accent);"></i>
-                        <div class="time-display"><span id="curr">0:00</span> / <span id="rem">-0:00</span></div>
+                        <i class="fas fa-pause" id="pp" onclick="togglePlay()" style="font-size: 1.6rem; width: 30px;"></i>
+                        <div class="time-display"><span id="curr">0:00</span> / <span id="rem">0:00</span></div>
                     </div>
                     <div class="right-side">
-                        <i class="fas fa-expand" id="fs-icon" onclick="toggleFullScreen()" style="font-size: 1.5rem; padding: 10px;"></i>
+                        <i class="fas fa-expand" id="fs-btn" onclick="toggleFS()" style="font-size: 1.4rem;"></i>
                     </div>
                 </div>
             </div>
@@ -80,109 +88,118 @@
 
     <script>
         const vid = document.getElementById('vid');
-        const wrapper = document.getElementById('video-wrapper');
-        const fsIcon = document.getElementById('fs-icon');
+        const ui = document.getElementById('ui');
+        const pp = document.getElementById('pp');
         let hideTimer;
 
-        function cargarVideo() {
+        // 1. CARGA E INICIO
+        function init() {
             const url = localStorage.getItem('pbox_url');
             const title = localStorage.getItem('pbox_title');
-            const resumeAction = localStorage.getItem('pbox_resume_action');
+            const resume = localStorage.getItem('pbox_resume_action');
             const epKey = localStorage.getItem('pbox_current_ep_key');
 
+            if(!url) return history.back();
+
+            document.getElementById('v-title').innerText = title || "Reproduciendo";
             vid.src = url;
-            document.getElementById('v-title').innerText = title;
 
-            vid.onloadedmetadata = () => {
-                // LOGICA DE RETOMAR TIEMPO
-                if (resumeAction === 'yes' && epKey) {
-                    const progress = JSON.parse(localStorage.getItem('pbox_progress')) || {};
-                    if (progress[epKey]) {
-                        vid.currentTime = progress[epKey].cur;
-                    }
+            vid.addEventListener('loadedmetadata', () => {
+                // Aplicar memoria si el usuario aceptó en el modal
+                if(resume === 'yes' && epKey) {
+                    const prog = JSON.parse(localStorage.getItem('pbox_progress')) || {};
+                    if(prog[epKey]) vid.currentTime = prog[epKey].cur;
                 }
-                localStorage.removeItem('pbox_resume_action'); // Limpiar para la próxima
+                localStorage.removeItem('pbox_resume_action');
                 
-                vid.play();
-                wrapper.style.opacity = "1";
-                document.getElementById('loader').style.display = 'none';
-                resetTimer();
-            };
+                vid.play().catch(() => {
+                    // Si el navegador bloquea el auto-play, mostramos los controles
+                    ui.classList.remove('hidden');
+                });
+            });
         }
 
-        function toggleFullScreen() {
-            if (!document.fullscreenElement) {
-                document.documentElement.requestFullscreen().catch(e => console.log(e));
-                if (screen.orientation && screen.orientation.lock) screen.orientation.lock('landscape').catch(()=>{});
-                fsIcon.className = "fas fa-compress";
-            } else {
-                document.exitFullscreen();
-                fsIcon.className = "fas fa-expand";
-            }
-        }
-
+        // 2. ACTUALIZACIÓN DE TIEMPO Y BARRA
         vid.ontimeupdate = () => {
-            // Guardar progreso cada segundo
-            const epKey = localStorage.getItem('pbox_current_ep_key');
-            if(epKey && vid.duration > 0) {
-                const progress = JSON.parse(localStorage.getItem('pbox_progress')) || {};
-                progress[epKey] = { cur: vid.currentTime, dur: vid.duration };
-                localStorage.setItem('pbox_progress', JSON.stringify(progress));
-            }
+            if(vid.currentTime > 0.1) document.getElementById('loader').style.display = 'none';
 
             const p = (vid.currentTime / vid.duration) * 100;
             document.getElementById('fill').style.width = p + '%';
             document.getElementById('curr').innerText = formatTime(vid.currentTime);
-            document.getElementById('rem').innerText = "-" + formatTime(vid.duration - vid.currentTime);
+            document.getElementById('rem').innerText = formatTime(vid.duration);
+
+            // Guardar progreso automáticamente
+            const epKey = localStorage.getItem('pbox_current_ep_key');
+            if(epKey && vid.duration > 0) {
+                const prog = JSON.parse(localStorage.getItem('pbox_progress')) || {};
+                prog[epKey] = { cur: vid.currentTime, dur: vid.duration };
+                localStorage.setItem('pbox_progress', JSON.stringify(prog));
+            }
         };
 
-        function formatTime(s) {
-            if(isNaN(s)) return "0:00";
-            const m = Math.floor(s / 60);
-            const sec = Math.floor(s % 60);
-            return `${m}:${sec < 10 ? '0' : ''}${sec}`;
+        function formatTime(t) {
+            if(isNaN(t)) return "0:00";
+            const h = Math.floor(t / 3600);
+            const m = Math.floor((t % 3600) / 60);
+            const s = Math.floor(t % 60);
+            return (h > 0 ? h + ":" : "") + (m < 10 && h > 0 ? "0" : "") + m + ":" + (s < 10 ? "0" : "") + s;
         }
 
+        // 3. CONTROLES DE INTERFAZ
         function togglePlay() {
-            const btn = document.getElementById('pp');
-            if(vid.paused) { vid.play(); btn.className = 'fas fa-pause'; }
-            else { vid.pause(); btn.className = 'fas fa-play'; }
+            if(vid.paused) {
+                vid.play();
+                pp.className = "fas fa-pause";
+            } else {
+                vid.pause();
+                pp.className = "fas fa-play";
+            }
             resetTimer();
         }
 
         function toggleUI() {
-            const ui = document.getElementById('ui');
             ui.classList.toggle('hidden');
             if(!ui.classList.contains('hidden')) resetTimer();
         }
 
         function resetTimer() {
             clearTimeout(hideTimer);
-            if (!vid.paused) {
-                hideTimer = setTimeout(() => {
-                    document.getElementById('ui').classList.add('hidden');
-                }, 4000);
+            if(!vid.paused) hideTimer = setTimeout(() => ui.classList.add('hidden'), 3000);
+        }
+
+        function toggleFS() {
+            if (!document.fullscreenElement) {
+                document.documentElement.requestFullscreen();
+                if(screen.orientation && screen.orientation.lock) screen.orientation.lock('landscape').catch(()=>{});
+            } else {
+                document.exitFullscreen();
             }
         }
 
-        function manualSeek(e) {
-            const rect = e.currentTarget.getBoundingClientRect();
-            vid.currentTime = ((e.clientX - rect.left) / rect.width) * vid.duration;
-        }
+        // Click en barra para buscar tiempo
+        document.getElementById('p-cont').onclick = (e) => {
+            e.stopPropagation();
+            const rect = document.getElementById('p-cont').getBoundingClientRect();
+            const pos = (e.clientX - rect.left) / rect.width;
+            vid.currentTime = pos * vid.duration;
+        };
 
+        // 4. AUTO-SIGUIENTE EPISODIO
         vid.onended = () => {
-            const serieData = JSON.parse(localStorage.getItem('pbox_serie'));
-            const epKey = localStorage.getItem('pbox_current_ep_key');
-            if(serieData && epKey) {
-                const currentNum = parseInt(epKey.split('_E')[1]);
-                if(serieData.episodes[currentNum]) {
-                    document.getElementById('next-notice').style.display = 'block';
+            const data = JSON.parse(localStorage.getItem('pbox_serie'));
+            const key = localStorage.getItem('pbox_current_ep_key');
+            
+            if(data && key) {
+                const curIdx = parseInt(key.split('_E')[1]) - 1;
+                const nextEp = data.episodes[curIdx + 1];
+                
+                if(nextEp) {
+                    const notice = document.getElementById('next-notice');
+                    notice.style.display = 'block';
                     setTimeout(() => {
-                        const nextEp = serieData.episodes[currentNum];
                         localStorage.setItem('pbox_url', nextEp.video_url);
-                        localStorage.setItem('pbox_title', serieData.title + " E" + (currentNum + 1));
-                        localStorage.setItem('pbox_current_ep_key', serieData.title + "_E" + (currentNum + 1));
-                        localStorage.setItem('pbox_resume_action', 'no');
+                        localStorage.setItem('pbox_title', data.title + " E" + (curIdx + 2));
+                        localStorage.setItem('pbox_current_ep_key', data.title + "_E" + (curIdx + 2));
                         location.reload();
                     }, 3000);
                     return;
@@ -191,7 +208,7 @@
             history.back();
         };
 
-        cargarVideo();
+        init();
     </script>
 </body>
 </html>
