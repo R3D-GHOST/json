@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <style>
-        /* Color de acento actualizado a azul claro */
         :root { --bg: #000; --accent: #00b4ff; --card-bg: #121212; --text-dim: #b3b3b3; }
         body { background: var(--bg); color: #fff; font-family: 'Segoe UI', sans-serif; margin: 0; padding-bottom: 50px; }
 
@@ -19,58 +18,25 @@
         .meta-info { display: flex; gap: 10px; margin-bottom: 10px; font-size: 0.75rem; color: var(--accent); font-weight: bold; }
         .desc { font-size: 0.85rem; color: var(--text-dim); line-height: 1.4; margin-bottom: 20px; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
 
-        .master-btn { 
-            width: 100%; background: #fff; color: #000; border: none; padding: 12px; 
-            border-radius: 6px; font-weight: bold; display: flex; align-items: center; 
-            justify-content: center; gap: 10px; margin-bottom: 10px; transition: 0.3s;
-            cursor: pointer;
-        }
-
         .section-label { padding: 20px 20px 10px; color: var(--accent); font-size: 0.8rem; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; }
 
         #el { padding: 0 15px; }
         .ep-card { background: var(--card-bg); margin-bottom: 12px; border-radius: 8px; overflow: hidden; border: 1px solid #1f1f1f; cursor: pointer; }
         .ep-main { display: flex; align-items: center; padding: 10px; gap: 15px; }
-        .thumb { position: relative; width: 110px; aspect-ratio: 16/9; flex-shrink: 0; border-radius: 4px; overflow: hidden; }
+        .thumb { width: 110px; aspect-ratio: 16/9; flex-shrink: 0; border-radius: 4px; overflow: hidden; }
         .thumb img { width: 100%; height: 100%; object-fit: cover; }
         .info h4 { margin: 0; font-size: 0.9rem; }
-        
-        .prog-container { width: 100%; height: 3px; background: #333; }
-        .prog-bar { height: 100%; background: var(--accent); }
-
-        /* MODAL DE CONTINUAR */
-        #resume-modal {
-            display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.9);
-            z-index: 9999; align-items: center; justify-content: center; padding: 20px;
-        }
-        .modal-content { background: #1a1a1a; width: 100%; max-width: 300px; padding: 25px; border-radius: 15px; text-align: center; border: 1px solid #333; }
-        .modal-content h3 { margin: 0 0 15px; color: var(--accent); }
-        .modal-btns { display: flex; flex-direction: column; gap: 10px; }
-        .btn-m { padding: 12px; border-radius: 8px; border: none; font-weight: bold; cursor: pointer; }
-        .btn-resume { background: var(--accent); color: #000; }
-        .btn-restart { background: #333; color: #fff; }
     </style>
 </head>
 <body>
     <div class="back-nav" onclick="history.back()"><i class="fas fa-arrow-left"></i></div>
     
-    <div id="resume-modal">
-        <div class="modal-content">
-            <h3 id="modal-title">¿Continuar viendo?</h3>
-            <div class="modal-btns">
-                <button class="btn-m btn-resume" id="confirm-resume">POR DONDE ME QUEDÉ</button>
-                <button class="btn-m btn-restart" id="confirm-restart">DESDE EL INICIO</button>
-            </div>
-        </div>
-    </div>
-
     <div id="hero-section" class="hero">
         <div class="hero-overlay"></div>
         <div class="hero-content">
             <h1 id="st">Serie</h1>
             <div id="meta" class="meta-info"></div>
             <p id="desc" class="desc"></p>
-            <button id="master-btn" class="master-btn"></button>
         </div>
     </div>
     
@@ -78,13 +44,9 @@
     <div id="el"></div>
 
     <script>
-        let selectedEp = null;
-
         function updateUI() {
             const container = document.getElementById('el');
             const data = JSON.parse(localStorage.getItem('pbox_serie'));
-            const progress = JSON.parse(localStorage.getItem('pbox_progress')) || {};
-            const mBtn = document.getElementById('master-btn');
             
             if(!data) return;
 
@@ -94,78 +56,23 @@
             document.getElementById('meta').innerHTML = `<span>${data.genre || 'Serie'}</span> • <span>${data.year || '2024'}</span>`;
 
             container.innerHTML = ''; 
-            let lastWatchedIdx = -1;
-            let completedCount = 0;
 
             data.episodes.forEach((ep, i) => {
-                const epKey = `${data.title}_E${i+1}`;
-                const saved = progress[epKey] || { cur: 0, dur: 1 };
-                const percent = Math.min((saved.cur / saved.dur) * 100, 100);
-                
-                if (percent > 2) lastWatchedIdx = i;
-                if (percent > 90) completedCount++;
-
                 const div = document.createElement('div');
                 div.className = 'ep-card';
                 div.innerHTML = `
                     <div class="ep-main">
                         <div class="thumb"><img src="${data.coverImage}"></div>
                         <div class="info"><h4>Episodio ${i+1}</h4></div>
-                        ${percent > 90 ? '<i class="fas fa-check-circle" style="color:var(--accent);margin-left:auto"></i>' : ''}
+                        <i class="fas fa-play-circle" style="color:var(--accent); margin-left:auto; font-size: 1.2rem;"></i>
                     </div>
-                    ${(percent > 2 && percent < 90) ? `<div class="prog-container"><div class="prog-bar" style="width: ${percent}%"></div></div>` : ''}
                 `;
-                div.onclick = () => checkProgress(ep, i, data.title, epKey);
+                div.onclick = () => window.location.href = ep.video_url;
                 container.appendChild(div);
             });
-
-            if (completedCount === data.episodes.length) {
-                mBtn.innerHTML = `<i class="fas fa-redo"></i> Volver a ver serie`;
-                mBtn.onclick = () => checkProgress(data.episodes[0], 0, data.title, `${data.title}_E1`);
-            } else {
-                let targetIdx = 0;
-                if(lastWatchedIdx !== -1) {
-                    const lastProg = progress[`${data.title}_E${lastWatchedIdx+1}`];
-                    targetIdx = (lastProg && lastProg.cur / lastProg.dur > 0.9) ? lastWatchedIdx + 1 : lastWatchedIdx;
-                }
-                if(targetIdx >= data.episodes.length) targetIdx = data.episodes.length - 1;
-                
-                mBtn.innerHTML = lastWatchedIdx === -1 ? `<i class="fas fa-play"></i> Empezar Serie` : `<i class="fas fa-play"></i> Continuar: Ep ${targetIdx + 1}`;
-                mBtn.onclick = () => checkProgress(data.episodes[targetIdx], targetIdx, data.title, `${data.title}_E${targetIdx+1}`);
-            }
         }
-
-        function checkProgress(ep, i, title, epKey) {
-            const progress = JSON.parse(localStorage.getItem('pbox_progress')) || {};
-            const saved = progress[epKey];
-            
-            selectedEp = { ep, i, title, epKey };
-
-            if (saved && saved.cur > 10 && (saved.cur / saved.dur) < 0.9) {
-                const modal = document.getElementById('resume-modal');
-                document.getElementById('modal-title').innerText = `Episodio ${i+1}`;
-                modal.style.display = 'flex';
-            } else {
-                startPlayback(false);
-            }
-        }
-
-        function startPlayback(resume) {
-            if(!selectedEp) return;
-            
-            localStorage.setItem('pbox_url', selectedEp.ep.video_url);
-            localStorage.setItem('pbox_title', selectedEp.title + " E" + (selectedEp.i+1));
-            localStorage.setItem('pbox_current_ep_key', selectedEp.epKey);
-            localStorage.setItem('pbox_resume_action', resume ? 'yes' : 'no');
-            
-            window.location.href = "pl.html";
-        }
-
-        document.getElementById('confirm-resume').onclick = () => startPlayback(true);
-        document.getElementById('confirm-restart').onclick = () => startPlayback(false);
 
         window.addEventListener('pageshow', updateUI);
     </script>
 </body>
 </html>
-
