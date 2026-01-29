@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+        body { margin: 0; background: #000; height: 100vh; overflow: hidden; font-family: sans-serif; display: flex; align-items: center; justify-content: center; user-select: none; }
+        #bg-poster { position: absolute; width: 100%; height: 100%; background-size: cover; background-position: center; filter: blur(20px) brightness(0.2); z-index: -1; transition: background-image 0.5s ease; }
+        .v-cont { width: 100%; height: 100%; position: relative; display: flex; align-items: center; background: #000; overflow: hidden; }
+        video { width: 100%; height: 100%; z-index: 2; pointer-events: none; }
+        .loader { position: absolute; z-index: 100; border: 4px solid rgba(255,255,255,0.1); border-left-color: #00e1b5; border-radius: 50%; width: 50px; height: 50px; animation: spin 1s linear infinite; display: none; }
+        @keyframes spin { to { transform: rotate(360deg); } }
+        .ui-overlay { position: absolute; inset: 0; z-index: 50; background: radial-gradient(circle, transparent 20%, rgba(0,0,0,0.4) 100%); opacity: 1; transition: opacity 0.4s ease; display: flex; flex-direction: column; justify-content: space-between; }
+        .ui-overlay.hidden { opacity: 0; pointer-events: none; }
+        .top-bar { padding: 25px; display: flex; align-items: center; gap: 20px; color: white; background: linear-gradient(rgba(0,0,0,0.8), transparent); }
+        .back-btn { font-size: 1.6rem; cursor: pointer; }
+        .v-title { font-size: 1rem; font-weight: bold; text-shadow: 0 2px 4px #000; }
+        .bottom-ctrls { padding: 30px 0; background: linear-gradient(transparent, rgba(0,0,0,0.9)); }
+        .bar-bg { width: 92%; height: 6px; background: rgba(255,255,255,0.2); margin: 0 auto 25px; position: relative; cursor: pointer; border-radius: 10px; }
+        .bar-fill { height: 100%; background: #00e1b5; width: 0%; border-radius: 10px; position: relative; box-shadow: 0 0 10px rgba(0,225,181,0.5); }
+        .bar-fill::after { content:''; position:absolute; right:-7px; top:-5px; width:16px; height:16px; background:#fff; border-radius:50%; }
+        .btns-row { display: flex; align-items: center; justify-content: center; gap: 40px; color: #fff; font-size: 1.8rem; }
+        .btns-row i { cursor: pointer; }
+        .time-info { position: absolute; right: 4%; bottom: 35px; font-size: 0.85rem; color: #ccc; }
+        #next-notice { position: absolute; bottom: 120px; right: 20px; background: rgba(0,0,0,0.8); color: #00e1b5; padding: 10px 20px; border-radius: 5px; border: 1px solid #00e1b5; display: none; z-index: 101; font-weight: bold; animation: fadeIn 0.5s; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+    </style>
+</head>
+<body oncontextmenu="return false;">
+    <div id="bg-poster"></div>
+    <div class="loader" id="loader"></div>
+    <div id="next-notice">Siguiente episodio en 3...</div>
+    <div class="v-cont" id="player-box" onclick="toggleUI()">
+        <video id="vid" playsinline></video>
+        <div class="ui-overlay" id="ui">
+            <div class="top-bar">
+                <i class="fas fa-arrow-left back-btn" onclick="history.back(); event.stopPropagation()"></i>
+                <div class="v-title" id="v-title">Cargando...</div>
+            </div>
+            <div class="bottom-ctrls" onclick="event.stopPropagation()">
+                <div class="bar-bg" id="seek-bar" onclick="manualSeek(event)"><div class="bar-fill" id="fill"></div></div>
+                <div class="btns-row">
+                    <i class="fas fa-backward" onclick="vid.currentTime-=10"></i>
+                    <i class="fas fa-pause" id="pp" onclick="togglePlay()"></i>
+                    <i class="fas fa-forward" onclick="vid.currentTime+=10"></i>
+                    <i class="fas fa-step-forward" id="btn-next" onclick="checkNext(true)"></i>
+                </div>
+                <div class="time-info" id="ts">00:00 / 00:00</div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const vid = document.getElementById('vid');
+        const pp = document.getElementById('pp');
+        const ui = document.getElementById('ui');
+        const loader = document.getElementById('loader');
+        const notice = document.getElementById('next-notice');
+        let hideTimer;
+        function cargarVideo() {
+            const url = localStorage.getItem('pbox_url');
+            const title = localStorage.getItem('pbox_title');
+            const epKey = localStorage.getItem('pbox_current_ep_key');
+            const serieData = JSON.parse(localStorage.getItem('pbox_serie'));
+            document.getElementById('v-title').innerText = title || "Reproduciendo";
+            if(serieData) document.getElementById('bg-poster').style.backgroundImage = `url(${serieData.coverImage})`;
+            loader.style.display = 'block'; notice.style.display = 'none';
+            vid.src = url; vid.load();
+            vid.onloadedmetadata = () => {
+                loader.style.display = 'none';
+                const progress = JSON.parse(localStorage.getItem('pbox_progress')) || {};
+                if(epKey && progress[epKey]) vid.currentTime = progress[epKey].cur;
+                vid.play().catch(() => {}); resetTimer();
+            };
+        }
+        function togglePlay() {
+            if(vid.paused) { vid.play(); pp.className = 'fas fa-pause'; }
+            else { vid.pause(); pp.className = 'fas fa-play'; }
+            resetTimer();
+        }
+        function toggleUI() {
+            if (ui.classList.contains('hidden')) { ui.classList.remove('hidden'); resetTimer(); }
+            else { ui.classList.add('hidden'); }
+        }
+        function resetTimer() {
+            ui.classList.remove('hidden'); clearTimeout(hideTimer);
+            if (!vid.paused) { hideTimer = setTimeout(() => ui.classList.add('hidden'), 4000); }
+        }
+        function manualSeek(e) {
+            const rect = document.getElementById('seek-bar').getBoundingClientRect();
+            vid.currentTime = ((e.clientX - rect.left) / rect.width) * vid.duration;
+        }
+        vid.ontimeupdate = () => {
+            const p = (vid.currentTime / vid.duration) * 100;
+            document.getElementById('fill').style.width = p + '%';
+            document.getElementById('ts').innerText = format(vid.currentTime) + " / " + format(vid.duration);
+            const epKey = localStorage.getItem('pbox_current_ep_key');
+            if(epKey && vid.duration > 0) {
+                const progress = JSON.parse(localStorage.getItem('pbox_progress')) || {};
+                progress[epKey] = { cur: vid.currentTime, dur: vid.duration };
+                localStorage.setItem('pbox_progress', JSON.stringify(progress));
+            }
+        };
+        function checkNext(manual = false) {
+            const serieData = JSON.parse(localStorage.getItem('pbox_serie'));
+            const epKey = localStorage.getItem('pbox_current_ep_key');
+            if(serieData && epKey) {
+                const currentNum = parseInt(epKey.split('_E')[1]);
+                const nextIndex = currentNum; 
+                if(serieData.episodes && serieData.episodes[nextIndex]) {
+                    if(manual) { ejecutarSalto(serieData, currentNum, nextIndex); }
+                    else {
+                        notice.style.display = 'block'; let count = 3;
+                        const timer = setInterval(() => {
+                            count--; notice.innerText = `Siguiente episodio en ${count}...`;
+                            if(count <= 0) { clearInterval(timer); ejecutarSalto(serieData, currentNum, nextIndex); }
+                        }, 1000);
+                    }
+                } else if(!manual) { history.back(); }
+            }
+        }
+        function ejecutarSalto(serieData, currentNum, nextIndex) {
+            const nextEp = serieData.episodes[nextIndex];
+            localStorage.setItem('pbox_url', nextEp.video_url);
+            localStorage.setItem('pbox_title', serieData.title + " E" + (currentNum + 1));
+            localStorage.setItem('pbox_current_ep_key', serieData.title + "_E" + (currentNum + 1));
+            cargarVideo();
+        }
+        vid.onended = () => checkNext(false);
+        function format(s) { if(isNaN(s)) return "00:00"; const m = Math.floor(s/60); const sec = Math.floor(s%60); return (m<10?'0':'')+m+":"+(sec<10?'0':'')+sec; }
+        cargarVideo();
+    </script>
+</body>
+</html>
