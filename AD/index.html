@@ -47,7 +47,6 @@
         .poster { aspect-ratio: 2/3; border-radius: 8px; overflow: hidden; background: var(--card); position: relative; }
         .poster img { width: 100%; height: 100%; object-fit: cover; }
         
-        /* Indicador de progreso visual */
         .card-prog { position: absolute; bottom: 0; left: 0; height: 3px; background: var(--accent); z-index: 2; }
 
         .card-ch { aspect-ratio: 16/9; background: var(--card); border: 1px solid #222; border-radius: 8px; display: flex; align-items: center; justify-content: center; overflow: hidden; }
@@ -62,7 +61,7 @@
 <body>
 
     <header>
-        <div class="logo"><span style="color:var(--accent)"></span></div>
+        <div class="logo"><span style="color:var(--accent)">MOV</span>FLIX</div>
         <div class="search-wrapper" id="search-wrapper">
             <input type="text" class="search-input-box" id="q" placeholder="Buscar..." oninput="filtrar()">
             <div class="search-circle" onclick="toggleSearch()">
@@ -126,7 +125,6 @@
                 lines.forEach((l, i) => {
                     if(l.includes('#EXTINF:')) {
                         const url = lines[i+1]?.trim();
-                        // Filtro: Solo canales con URL válida
                         if(url && url.startsWith('http')) {
                             const group = l.match(/group-title="(.*?)"/);
                             dbT.push({ 
@@ -147,42 +145,62 @@
             } catch (e) { console.error(e); }
         }
 
+        // --- LÓGICA DE FILTRADO ANTI-REPETICIÓN ---
         function setupInicio() {
-            // 1. Continuar Viendo (Lógica de 10s y máx 15)
             const rowCont = document.getElementById('row-continuar');
             const secCont = document.getElementById('sec-continuar');
+            const rec = document.getElementById('row-recientes');
+            const ser = document.getElementById('row-series');
+            
+            rowCont.innerHTML = '';
+            rec.innerHTML = '';
+            ser.innerHTML = '';
+
             const progress = JSON.parse(localStorage.getItem('pbox_progress') || '{}');
             
-            // Filtramos las películas/series con progreso > 10s y las ordenamos por las más recientes
+            // 1. Obtener claves, filtrar por tiempo y ordenar por lo más reciente visto
             const keys = Object.keys(progress)
                 .filter(k => progress[k].cur > 10)
-                .slice(-15) // Máximo 15
                 .reverse();
 
-            if(keys.length > 0) {
-                secCont.style.display = 'block';
-                keys.forEach(k => {
-                    // Buscamos el item en la DB (por título simple o base de la serie)
-                    const baseTitle = k.split('_E')[0]; 
+            const titulosVistos = new Set();
+            const itemsUnicos = [];
+
+            // Agrupar: Si es "Serie_E1" y "Serie_E2", solo dejamos el último
+            keys.forEach(k => {
+                const baseTitle = k.split('_E')[0]; 
+                if (!titulosVistos.has(baseTitle)) {
+                    titulosVistos.add(baseTitle);
                     const item = dbM.find(m => m.title === baseTitle || m.title === k);
-                    if(item) {
-                        const card = createCard(item, 'poster', true);
-                        const percent = (progress[k].cur / progress[k].dur) * 100;
-                        const bar = document.createElement('div');
-                        bar.className = 'card-prog';
-                        bar.style.width = `${percent}%`;
-                        card.appendChild(bar);
-                        rowCont.appendChild(card);
-                    }
+                    if(item) itemsUnicos.push({ item, key: k });
+                }
+            });
+
+            // Mostrar Continuar Viendo
+            if(itemsUnicos.length > 0) {
+                secCont.style.display = 'block';
+                itemsUnicos.slice(0, 15).forEach(obj => {
+                    const card = createCard(obj.item, 'poster', true);
+                    const percent = (progress[obj.key].cur / progress[obj.key].dur) * 100;
+                    const bar = document.createElement('div');
+                    bar.className = 'card-prog';
+                    bar.style.width = `${percent}%`;
+                    card.appendChild(bar);
+                    rowCont.appendChild(card);
                 });
+            } else {
+                secCont.style.display = 'none';
             }
 
-            // 2. Recientes y Series
-            const rec = document.getElementById('row-recientes');
-            dbM.slice(0, 15).forEach(m => rec.appendChild(createCard(m, 'poster', true)));
+            // 2. Recientes (Excluyendo lo que ya sale arriba)
+            dbM.filter(m => !titulosVistos.has(m.title))
+               .slice(0, 15)
+               .forEach(m => rec.appendChild(createCard(m, 'poster', true)));
             
-            const ser = document.getElementById('row-series');
-            dbM.filter(m => m.episodes).slice(0, 15).forEach(m => ser.appendChild(createCard(m, 'poster', true)));
+            // 3. Series (Excluyendo lo que ya sale arriba)
+            dbM.filter(m => m.episodes && !titulosVistos.has(m.title))
+               .slice(0, 15)
+               .forEach(m => ser.appendChild(createCard(m, 'poster', true)));
         }
 
         function renderDynamicHeader() {
@@ -197,7 +215,7 @@
                 title.innerText = evento.title;
                 tag.innerText = "Evento en vivo";
                 btn.onclick = () => openContent(evento);
-            } else {
+            } else if(dbM.length > 0) {
                 const random = dbM[Math.floor(Math.random() * dbM.length)];
                 header.style.backgroundImage = `url(${random.coverImage})`;
                 title.innerText = random.title;
