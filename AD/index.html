@@ -5,108 +5,265 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <style>
-        :root { --bg: #000; --accent: #00e1b5; --card: #111; }
-        body { font-family: 'Segoe UI', sans-serif; background: var(--bg); color: white; margin: 0; padding-bottom: 90px; overflow-x: hidden; }
-        header { height: 65px; display: flex; align-items: center; justify-content: space-between; padding: 0 15px; background: #000; border-bottom: 1px solid #222; position: sticky; top: 0; z-index: 100; }
-        .logo { font-weight: 900; font-size: 1.3rem; }
-        .logo span { color: var(--accent); }
-        .section-title { font-size: 0.8rem; padding: 20px 15px 10px; text-transform: uppercase; color: var(--accent); letter-spacing: 1px; }
-        .scroll-x { display: flex; overflow-x: auto; padding: 0 15px 15px; gap: 12px; scrollbar-width: none; }
-        .scroll-x::-webkit-scrollbar { display: none; }
-        .card-ch { flex: 0 0 140px; height: 80px; background: var(--card); border: 1px solid #222; cursor: pointer; }
-        .card-ch img { width: 100%; height: 100%; object-fit: cover; }
-        .poster { flex: 0 0 130px; aspect-ratio: 2/3; background: var(--card); border: 1px solid #222; position: relative; }
+        :root { --bg: #000; --accent: #00e1b5; --card: #121212; --nav: rgba(10, 10, 10, 0.96); }
+        
+        body { 
+            font-family: 'Segoe UI', Roboto, sans-serif; background: var(--bg); 
+            color: white; margin: 0; padding-bottom: 90px; overflow-x: hidden;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        /* --- ANIMACIONES NATIVAS --- */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .anim-fade { animation: fadeInUp 0.4s ease forwards; }
+
+        /* --- HEADER --- */
+        header { 
+            background: var(--bg); position: sticky; top: 0; z-index: 1000; 
+            padding: 15px; border-bottom: 1px solid #1a1a1a;
+        }
+        .header-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 15px; }
+        .logo { font-weight: 900; font-size: 1.4rem; letter-spacing: -1px; }
+        
+        .search-box { 
+            position: relative; transition: all 0.3s;
+        }
+        .search-box input { 
+            width: 100%; background: #161616; border: 1px solid #222; padding: 12px 15px 12px 45px; 
+            border-radius: 12px; color: #fff; outline: none; box-sizing: border-box;
+        }
+        .search-box i { position: absolute; left: 15px; top: 50%; transform: translateY(-50%); color: #555; }
+
+        /* --- SECCIONES --- */
+        .view-section { display: none; padding-bottom: 20px; }
+        .view-section.active { display: block; }
+        
+        .section-title { font-size: 0.75rem; padding: 25px 15px 12px; text-transform: uppercase; color: var(--accent); letter-spacing: 2px; font-weight: 800; }
+
+        /* --- GRIDS --- */
+        .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; padding: 0 10px; }
+        .grid-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; padding: 0 15px; }
+
+        .poster { 
+            aspect-ratio: 2/3; background: var(--card); border-radius: 8px; 
+            overflow: hidden; position: relative; opacity: 0;
+        }
         .poster img { width: 100%; height: 100%; object-fit: cover; }
-        #fav-modal { display:none; position:fixed; inset:0; background:rgba(0,0,0,0.85); z-index:1000; align-items:center; justify-content:center; }
-        .modal-content { background:#151515; padding:30px; border:2px solid var(--accent); text-align:center; width:80%; }
-        nav { position: fixed; bottom: 0; width: 100%; height: 70px; background: #000; display: flex; border-top: 1px solid #222; }
-        .nav-item { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; font-size: 0.6rem; color: #555; text-decoration: none; }
-        .nav-item.active { color: var(--accent); }
-        .nav-item i { font-size: 1.2rem; margin-bottom: 4px; }
-        .fav-icon { position:absolute; top:5px; right:5px; color:var(--accent); font-size:0.7rem; }
+        
+        .card-ch { 
+            aspect-ratio: 16/9; background: var(--card); border: 1px solid #1f1f1f; 
+            border-radius: 10px; overflow: hidden; display: flex; align-items: center; 
+            justify-content: center; position: relative; opacity: 0;
+        }
+        .card-ch img { width: 75%; height: 75%; object-fit: contain; }
+
+        .fav-indicator { position: absolute; top: 6px; right: 6px; color: var(--accent); font-size: 0.8rem; text-shadow: 0 0 5px #000; }
+
+        /* --- NAV BAR --- */
+        nav { 
+            position: fixed; bottom: 0; width: 100%; height: 75px; 
+            background: var(--nav); backdrop-filter: blur(15px);
+            display: flex; border-top: 1px solid #1a1a1a; z-index: 2000;
+        }
+        .nav-item { 
+            flex: 1; display: flex; flex-direction: column; align-items: center; 
+            justify-content: center; font-size: 0.65rem; color: #666; 
+            text-decoration: none; font-weight: bold; transition: 0.3s;
+        }
+        .nav-item.active { color: var(--accent); transform: translateY(-2px); }
+        .nav-item i { font-size: 1.4rem; margin-bottom: 4px; }
+
+        #loader { text-align: center; padding: 20px; color: var(--accent); font-size: 0.8rem; font-weight: bold; }
     </style>
 </head>
 <body>
-    <div id="fav-modal"><div class="modal-content"><p>Máximo de favoritos permitido superado (6)</p><button onclick="this.parentElement.parentElement.style.display='none'" style="background:var(--accent); border:none; padding:10px 20px; font-weight:bold;">OK</button></div></div>
-    <header><div class="logo">BOX<span>PLUS</span></div><i class="fas fa-search" onclick="location.href='buscar.html'"></i></header>
-    <main>
-        <div id="sec-ch"><h2 class="section-title">Canales destacados</h2><div id="list-ch" class="scroll-x"></div></div>
-        <div id="sec-favs" style="display:none"><h2 class="section-title">Mis Favoritos</h2><div id="list-favs" class="scroll-x"></div></div>
-        <div id="genres-container"></div>
+
+    <header>
+        <div class="header-top">
+            <div class="logo">POWER<span style="color:var(--accent)">BOX</span></div>
+            <i class="fas fa-heart" id="fav-trigger" onclick="switchTab('favs')" style="color: #444; font-size: 1.2rem;"></i>
+        </div>
+        <div class="search-box">
+            <i class="fas fa-search"></i>
+            <input type="text" id="q" placeholder="Buscar películas o canales..." oninput="handleSearch()">
+        </div>
+    </header>
+
+    <main id="main-content">
+        <div id="view-catalogo" class="view-section active">
+            <h2 class="section-title">Contenido</h2>
+            <div id="grid-movies" class="grid-3"></div>
+        </div>
+
+        <div id="view-canales" class="view-section">
+            <h2 class="section-title">TV en Vivo</h2>
+            <div id="grid-tv" class="grid-2"></div>
+        </div>
+
+        <div id="view-favs" class="view-section">
+            <h2 class="section-title">Mis Favoritos</h2>
+            <div id="grid-favs" class="grid-3"></div>
+        </div>
+
+        <div id="loader">Cargando...</div>
     </main>
+
     <nav>
-        <a href="index.html" class="nav-item active"><i class="fas fa-home"></i>INICIO</a>
-        <a href="canales.html" class="nav-item"><i class="fas fa-tv"></i>CANALES</a>
-        <a href="catalogo.html" class="nav-item"><i class="fas fa-th-large"></i>CATÁLOGO</a>
+        <a href="javascript:void(0)" onclick="switchTab('catalogo')" class="nav-item active" id="btn-cat">
+            <i class="fas fa-th-large"></i><span>CATÁLOGO</span>
+        </a>
+        <a href="javascript:void(0)" onclick="switchTab('canales')" class="nav-item" id="btn-tv">
+            <i class="fas fa-tv"></i><span>CANALES</span>
+        </a>
     </nav>
+
     <script>
-        const M3U = "https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/CV.m3u8";
-        const DATA = "https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/data.json";
-        let favs = JSON.parse(localStorage.getItem('pbox_favs')) || [];
-        let globalData = [];
+        const API_MOVIES = "https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/data.json";
+        const API_TV = "https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/CV.m3u8";
+
+        let db = { movies: [], tv: [], favs: JSON.parse(localStorage.getItem('pbox_favs')) || [] };
+        let currentView = 'catalogo';
+        let indices = { catalogo: 0, canales: 0 };
+        const STEP = 30;
+
         async function init() {
             try {
-                const [rM3u, rData] = await Promise.all([fetch(M3U).then(res => res.text()), fetch(DATA).then(res => res.json())]);
-                globalData = rData;
-                const chBox = document.getElementById('list-ch');
-                const lines = rM3u.split('\n');
-                let count = 0;
-                for(let i=0; i<lines.length; i++) {
-                    if(lines[i].includes('#EXTINF:') && count < 15) {
-                        let url = lines[i+1]?.trim();
-                        if(url && url.startsWith('http')) {
-                            const d = document.createElement('div');
-                            d.className = 'card-ch';
-                            d.innerHTML = `<img src="${lines[i].match(/tvg-logo="(.*?)"/)?.[1] || ''}">`;
-                            d.onclick = () => { localStorage.setItem('pbox_url', url); window.location.href="player.html"; };
-                            chBox.appendChild(d);
-                            count++;
-                        }
+                const resM = await fetch(API_MOVIES);
+                db.movies = await resM.json();
+
+                const resT = await fetch(API_TV);
+                const text = await resT.text();
+                const lines = text.split('\n');
+                lines.forEach((l, i) => {
+                    if(l.includes('#EXTINF:')) {
+                        db.tv.push({
+                            title: l.split(',')[1]?.trim() || 'Canal',
+                            logo: l.match(/tvg-logo="(.*?)"/)?.[1] || '',
+                            url: lines[i+1]?.trim(),
+                            type: 'tv'
+                        });
                     }
-                }
-                renderAllSections();
-            } catch(e) { console.error(e); }
+                });
+                renderChunk();
+            } catch (e) { console.error(e); }
         }
-        function renderAllSections() {
-            document.getElementById('list-favs').innerHTML = "";
-            document.getElementById('genres-container').innerHTML = "";
-            if(favs.length > 0) {
-                document.getElementById('sec-favs').style.display = 'block';
-                const fList = globalData.filter(i => favs.includes(i.title));
-                fList.forEach(i => document.getElementById('list-favs').appendChild(renderItem(i)));
-            } else { document.getElementById('sec-favs').style.display = 'none'; }
-            ["Estreno", "Acción", "Anime","Romance","Terror","Infantil",].forEach(g => {
-                const filtered = globalData.filter(i => i.genre?.includes(g) || g === "Estreno").slice(0, 15);
-                if(filtered.length > 0) {
-                    const sec = document.createElement('div');
-                    sec.innerHTML = `<h2 class="section-title">${g}</h2><div class="scroll-x"></div>`;
-                    filtered.forEach(i => sec.querySelector('.scroll-x').appendChild(renderItem(i)));
-                    document.getElementById('genres-container').appendChild(sec);
-                }
+
+        function renderChunk() {
+            const isCat = currentView === 'catalogo';
+            const grid = isCat ? document.getElementById('grid-movies') : document.getElementById('grid-tv');
+            const data = isCat ? db.movies : db.tv;
+            const start = indices[currentView];
+            const chunk = data.slice(start, start + STEP);
+
+            chunk.forEach((item, i) => {
+                const el = document.createElement('div');
+                el.className = (isCat ? 'poster' : 'card-ch') + ' anim-fade';
+                el.style.animationDelay = `${(i % 10) * 0.05}s`;
+                
+                const isFav = db.favs.some(f => f.title === item.title);
+                const img = isCat ? item.coverImage : item.logo;
+                
+                el.innerHTML = `
+                    <img src="${img}" loading="lazy" onclick='openItem(${JSON.stringify(item)})'>
+                    ${isFav ? '<i class="fas fa-bookmark fav-indicator"></i>' : ''}
+                `;
+                
+                // Long press para favoritos
+                el.oncontextmenu = (e) => {
+                    e.preventDefault();
+                    toggleFav(item);
+                };
+
+                grid.appendChild(el);
+            });
+            indices[currentView] += STEP;
+            document.getElementById('loader').style.display = 'none';
+        }
+
+        function switchTab(view) {
+            currentView = view;
+            document.querySelectorAll('.view-section').forEach(s => s.classList.remove('active'));
+            document.getElementById(`view-${view}`).classList.add('active');
+            
+            document.getElementById('btn-cat').classList.toggle('active', view === 'catalogo');
+            document.getElementById('btn-tv').classList.toggle('active', view === 'canales');
+            document.getElementById('fav-trigger').style.color = view === 'favs' ? 'var(--accent)' : '#444';
+
+            if(view === 'favs') renderFavs();
+            window.scrollTo(0,0);
+        }
+
+        function renderFavs() {
+            const grid = document.getElementById('grid-favs');
+            grid.innerHTML = '';
+            db.favs.forEach(item => {
+                const el = document.createElement('div');
+                el.className = (item.type === 'tv' ? 'card-ch' : 'poster') + ' anim-fade';
+                el.innerHTML = `<img src="${item.coverImage || item.logo}" onclick='openItem(${JSON.stringify(item)})'>`;
+                grid.appendChild(el);
             });
         }
-        function renderItem(item) {
-            const d = document.createElement('div'); 
-            d.className = 'poster';
-            const isFav = favs.includes(item.title);
-            d.innerHTML = `<img src="${item.coverImage}">${isFav ? '<i class="fas fa-bookmark fav-icon"></i>' : ''}`;
-            d.onclick = () => { 
-                localStorage.setItem(item.episodes ? 'pbox_serie' : 'pbox_url', item.episodes ? JSON.stringify(item) : item.video_url); 
-                window.location.href = item.episodes ? 'capitulos.html' : 'player.html'; 
-            };
-            let t; 
-            d.ontouchstart = () => {
-                t = setTimeout(() => {
-                    if(favs.includes(item.title)) { favs = favs.filter(f => f !== item.title); }
-                    else if(favs.length < 6) { favs.push(item.title); }
-                    else { document.getElementById('fav-modal').style.display = 'flex'; return; }
-                    localStorage.setItem('pbox_favs', JSON.stringify(favs));
-                    renderAllSections();
-                }, 800);
-            };
-            d.ontouchend = () => clearTimeout(t);
-            return d;
+
+        function handleSearch() {
+            const q = document.getElementById('q').value.toLowerCase();
+            if(q.length > 0) {
+                document.getElementById('loader').style.display = 'none';
+                const fM = db.movies.filter(m => m.title.toLowerCase().includes(q));
+                const fT = db.tv.filter(t => t.title.toLowerCase().includes(q));
+                // Render rápido filtrado (sin chunk para búsqueda)
+                renderStatic('grid-movies', fM, 'poster');
+                renderStatic('grid-tv', fT, 'card-ch');
+            } else {
+                indices = { catalogo: 0, canales: 0 };
+                document.getElementById('grid-movies').innerHTML = '';
+                document.getElementById('grid-tv').innerHTML = '';
+                renderChunk();
+            }
         }
+
+        function renderStatic(id, data, cls) {
+            const grid = document.getElementById(id);
+            grid.innerHTML = '';
+            data.slice(0, 50).forEach(item => {
+                const el = document.createElement('div');
+                el.className = cls + ' anim-fade';
+                el.innerHTML = `<img src="${item.coverImage || item.logo}" onclick='openItem(${JSON.stringify(item)})'>`;
+                grid.appendChild(el);
+            });
+        }
+
+        function toggleFav(item) {
+            const idx = db.favs.findIndex(f => f.title === item.title);
+            if(idx > -1) db.favs.splice(idx, 1);
+            else db.favs.push(item);
+            localStorage.setItem('pbox_favs', JSON.stringify(db.favs));
+            alert(idx > -1 ? "Eliminado de favoritos" : "Añadido a favoritos");
+            location.reload();
+        }
+
+        window.openItem = (item) => {
+            if(item.episodes) {
+                localStorage.setItem('pbox_serie', JSON.stringify(item));
+                window.location.href = "capitulos.html";
+            } else {
+                localStorage.setItem('pbox_url', item.url || item.video_url);
+                localStorage.setItem('pbox_title', item.title);
+                localStorage.removeItem('pbox_serie');
+                window.location.href = "player.html";
+            }
+        };
+
+        window.onscroll = () => {
+            if(currentView === 'favs') return;
+            if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 500) {
+                renderChunk();
+            }
+        };
+
         init();
     </script>
 </body>
