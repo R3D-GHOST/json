@@ -23,7 +23,6 @@
             border-radius: 6px; font-weight: bold; display: flex; align-items: center; 
             justify-content: center; gap: 10px; margin-bottom: 10px; transition: 0.3s;
         }
-        .master-btn.completed { background: var(--accent); color: #000; }
 
         .section-label { padding: 20px 20px 10px; color: var(--accent); font-size: 0.8rem; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; }
 
@@ -141,13 +140,12 @@
             
             selectedEp = { ep, i, title, epKey };
 
-            // Si hay progreso guardado (más de 10 seg y menos de 90%)
             if (saved && saved.cur > 10 && (saved.cur / saved.dur) < 0.9) {
                 const modal = document.getElementById('resume-modal');
                 document.getElementById('modal-title').innerText = `Episodio ${i+1}`;
                 modal.style.display = 'flex';
             } else {
-                startPlayback(false); // Iniciar de cero
+                startPlayback(false);
             }
         }
 
@@ -157,11 +155,10 @@
             localStorage.setItem('pbox_url', selectedEp.ep.video_url);
             localStorage.setItem('pbox_title', selectedEp.title + " E" + (selectedEp.i+1));
             localStorage.setItem('pbox_current_ep_key', selectedEp.epKey);
-            
-            // Le decimos al player si debe retomar o no
             localStorage.setItem('pbox_resume_action', resume ? 'yes' : 'no');
             
-            window.location.href = "player.html";
+            // REDIRECCIÓN ACTUALIZADA A pl.html
+            window.location.href = "pl.html";
         }
 
         document.getElementById('confirm-resume').onclick = () => startPlayback(true);
