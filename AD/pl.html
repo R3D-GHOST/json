@@ -13,227 +13,231 @@
             display: flex; align-items: center; justify-content: center;
         }
 
-        #video-wrapper { 
-            position: relative; width: 100%; height: 100%; 
-            background: #000; display: flex; align-items: center; justify-content: center;
-        }
+        #video-container { position: relative; width: 100%; height: 100%; background: #000; }
+        video { width: 100%; height: 100%; object-fit: contain; }
 
-        video { 
-            max-width: 100%; max-height: 100%; width: auto; height: auto;
-            object-fit: contain; z-index: 1;
-        }
-
+        /* Interfaz */
         .ui-overlay { 
-            position: absolute; inset: 0; z-index: 50; 
-            background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, transparent 40%, transparent 60%, rgba(0,0,0,0.8) 100%); 
+            position: absolute; inset: 0; z-index: 10; 
+            background: linear-gradient(to top, rgba(0,0,0,0.7) 0%, transparent 50%, rgba(0,0,0,0.7) 100%);
             display: flex; flex-direction: column; justify-content: space-between;
-            transition: opacity 0.4s; opacity: 1;
+            transition: opacity 0.3s;
         }
-        .ui-overlay.hidden { opacity: 0; pointer-events: none; }
+        .hidden { opacity: 0; pointer-events: none; }
 
-        .top-bar { padding: 20px; display: flex; align-items: center; gap: 15px; color: white; }
-        .v-title { font-size: 0.9rem; font-weight: bold; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .top { padding: 15px; display: flex; align-items: center; gap: 10px; color: white; }
+        .bottom { padding: 15px 25px 35px; }
+        
+        /* Barra de Progreso */
+        .progress-area { width: 100%; height: 5px; background: rgba(255,255,255,0.2); cursor: pointer; margin-bottom: 15px; border-radius: 5px; }
+        .progress-bar { height: 100%; background: var(--accent); width: 0%; border-radius: 5px; position: relative; }
+        .progress-bar::after { content: ''; position: absolute; right: -5px; top: -4px; width: 13px; height: 13px; background: #fff; border-radius: 50%; }
 
-        .bottom-ctrls { width: 100%; padding: 0 20px 30px; box-sizing: border-box; }
-        .prog-container { width: 100%; height: 6px; background: rgba(255,255,255,0.2); margin-bottom: 20px; border-radius: 10px; cursor: pointer; position: relative; }
-        .bar-fill { height: 100%; background: var(--accent); width: 0%; border-radius: 10px; position: relative; pointer-events: none; }
-        .bar-fill::after { content: ''; position: absolute; right: -6px; top: -3px; width: 12px; height: 12px; background: #fff; border-radius: 50%; box-shadow: 0 0 5px rgba(0,0,0,0.5); }
+        .controls { display: flex; align-items: center; justify-content: space-between; color: white; }
+        .btn { cursor: pointer; font-size: 1.5rem; transition: transform 0.1s; }
+        .btn:active { transform: scale(0.9); }
 
-        .ctrl-row { display: flex; align-items: center; justify-content: space-between; color: #fff; }
-        .left-side { display: flex; align-items: center; gap: 20px; }
-        .time-display { font-size: 0.8rem; font-family: monospace; }
+        /* Loader */
+        .loader { 
+            position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+            width: 50px; height: 50px; border: 5px solid rgba(255,255,255,0.1);
+            border-top-color: var(--accent); border-radius: 50%;
+            animation: spin 1s linear infinite; z-index: 20; display: none;
+        }
+        @keyframes spin { to { transform: translate(-50%, -50%) rotate(360deg); } }
 
-        .loader { position: absolute; inset: 0; margin: auto; border: 4px solid rgba(255,255,255,0.1); border-left-color: var(--accent); border-radius: 50%; width: 45px; height: 45px; animation: spin 1s linear infinite; z-index: 100; }
-        @keyframes spin { to { transform: rotate(360deg); } }
-
-        #next-notice { 
-            position: absolute; top: 20px; right: 20px; background: var(--accent); 
-            color: #000; padding: 8px 15px; border-radius: 20px; font-weight: 800; 
-            font-size: 0.7rem; display: none; z-index: 1000; 
+        #error-msg {
+            position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+            color: white; background: rgba(255,0,0,0.6); padding: 10px 20px;
+            border-radius: 5px; display: none; z-index: 30; font-size: 0.8rem;
         }
     </style>
 </head>
 <body oncontextmenu="return false;">
 
-    <div class="loader" id="loader"></div>
-    <div id="next-notice">SIGUIENTE EPISODIO EN 3...</div>
-    
-    <div id="video-wrapper" onclick="toggleUI()">
-        <video id="vid" playsinline webkit-playsinline preload="auto" crossorigin="anonymous"></video>
+    <div id="video-container">
+        <div class="loader" id="loader"></div>
+        <div id="error-msg">Error al cargar el video</div>
         
-        <div class="ui-overlay" id="ui">
-            <div class="top-bar">
-                <i class="fas fa-arrow-left" onclick="history.back()" style="font-size: 1.3rem; color: white; cursor: pointer;"></i>
-                <div class="v-title" id="v-title">Cargando...</div>
+        <video id="main-video" playsinline webkit-playsinline crossorigin="anonymous"></video>
+
+        <div class="ui-overlay" id="ui" onclick="handleTap(event)">
+            <div class="top">
+                <i class="fas fa-arrow-left btn" onclick="history.back()"></i>
+                <span id="video-title">Cargando...</span>
             </div>
 
-            <div class="bottom-ctrls" onclick="event.stopPropagation()">
-                <div class="prog-container" id="p-cont">
-                    <div class="bar-fill" id="fill"></div>
+            <div class="bottom" onclick="event.stopPropagation()">
+                <div class="progress-area" id="progress-area">
+                    <div class="progress-bar" id="progress-bar"></div>
                 </div>
-                <div class="ctrl-row">
-                    <div class="left-side">
-                        <i class="fas fa-play" id="pp" onclick="togglePlay()" style="font-size: 1.6rem; width: 30px; cursor: pointer;"></i>
-                        <div class="time-display"><span id="curr">0:00</span> / <span id="rem">0:00</span></div>
+                <div class="controls">
+                    <div style="display: flex; align-items: center; gap: 20px;">
+                        <i class="fas fa-play btn" id="play-btn" onclick="togglePlay()"></i>
+                        <span style="font-size: 0.8rem; font-family: monospace;" id="time">0:00 / 0:00</span>
                     </div>
-                    <div class="right-side">
-                        <i class="fas fa-expand" id="fs-btn" onclick="toggleFS()" style="font-size: 1.4rem; cursor: pointer;"></i>
-                    </div>
+                    <i class="fas fa-expand btn" onclick="toggleFull()"></i>
                 </div>
             </div>
         </div>
     </div>
 
-    <script>
-        const vid = document.getElementById('vid');
-        const ui = document.getElementById('ui');
-        const pp = document.getElementById('pp');
-        const loader = document.getElementById('loader');
-        let hideTimer;
-        let hls = null;
+<script>
+    const video = document.getElementById('main-video');
+    const ui = document.getElementById('ui');
+    const loader = document.getElementById('loader');
+    const playBtn = document.getElementById('play-btn');
+    const progressBar = document.getElementById('progress-bar');
+    const progressArea = document.getElementById('progress-area');
+    let hls = null;
+    let hideTimeout;
 
-        function loadSource(url) {
-            // Si el video es M3U8 (HLS)
-            if (url.includes('.m3u8')) {
-                if (Hls.isSupported()) {
-                    if (hls) hls.destroy();
-                    hls = new Hls();
-                    hls.loadSource(url);
-                    hls.attachMedia(vid);
-                } 
-                // Para Safari (soporte nativo de HLS sin librería)
-                else if (vid.canPlayType('application/vnd.apple.mpegurl')) {
-                    vid.src = url;
-                }
-            } else {
-                // Para MP4, MKV y otros formatos nativos
-                vid.src = url;
-            }
-            vid.load();
-        }
+    function initPlayer() {
+        const url = localStorage.getItem('pbox_url') || "";
+        const title = localStorage.getItem('pbox_title') || "Video";
+        document.getElementById('video-title').innerText = title;
 
-        function init() {
-            const url = localStorage.getItem('pbox_url');
-            const title = localStorage.getItem('pbox_title');
-            const resume = localStorage.getItem('pbox_resume_action');
-            const epKey = localStorage.getItem('pbox_current_ep_key');
+        if (!url) return;
 
-            if(!url) return history.back();
-
-            document.getElementById('v-title').innerText = title || "Reproduciendo";
-            
-            loadSource(url);
-
-            vid.addEventListener('loadedmetadata', () => {
-                if(resume === 'yes' && epKey) {
-                    const prog = JSON.parse(localStorage.getItem('pbox_progress')) || {};
-                    if(prog[epKey]) vid.currentTime = prog[epKey].cur;
-                }
-                localStorage.removeItem('pbox_resume_action');
-                
-                vid.play().then(() => {
-                    pp.className = "fas fa-pause";
-                    resetTimer();
-                }).catch(() => {
-                    ui.classList.remove('hidden');
-                    pp.className = "fas fa-play";
+        // Lógica de "Dos en Uno": HLS para streams/TS y Native para MP4/MKV
+        if (url.includes('.m3u8') || url.includes('.ts')) {
+            if (Hls.isSupported()) {
+                if (hls) hls.destroy();
+                hls = new Hls({
+                    debug: false,
+                    enableWorker: true,
+                    lowLatencyMode: true
                 });
-            });
+                hls.loadSource(url);
+                hls.attachMedia(video);
+                hls.on(Hls.Events.ERROR, (event, data) => {
+                    if (data.fatal) {
+                        console.error("Error Fatal HLS:", data.type);
+                        document.getElementById('error-msg').style.display = 'block';
+                    }
+                });
+            } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                // Soporte nativo para Safari/iOS
+                video.src = url;
+            }
+        } else {
+            // Carga estándar para MP4, MKV, etc.
+            video.src = url;
         }
 
-        vid.onwaiting = () => loader.style.display = 'block';
-        vid.onplaying = () => loader.style.display = 'none';
-        
-        vid.ontimeupdate = () => {
-            if(vid.duration) {
-                const p = (vid.currentTime / vid.duration) * 100;
-                document.getElementById('fill').style.width = p + '%';
-                document.getElementById('curr').innerText = formatTime(vid.currentTime);
-                document.getElementById('rem').innerText = formatTime(vid.duration);
+        video.load();
+    }
 
-                const epKey = localStorage.getItem('pbox_current_ep_key');
-                if(epKey) {
-                    const prog = JSON.parse(localStorage.getItem('pbox_progress')) || {};
-                    prog[epKey] = { cur: vid.currentTime, dur: vid.duration };
-                    localStorage.setItem('pbox_progress', JSON.stringify(prog));
-                }
-            }
-        };
-
-        function formatTime(t) {
-            if(isNaN(t)) return "0:00";
-            const h = Math.floor(t / 3600);
-            const m = Math.floor((t % 3600) / 60);
-            const s = Math.floor(t % 60);
-            return (h > 0 ? h + ":" : "") + (m < 10 && h > 0 ? "0" : "") + m + ":" + (s < 10 ? "0" : "") + s;
-        }
-
-        function togglePlay() {
-            if(vid.paused) {
-                vid.play();
-                pp.className = "fas fa-pause";
-            } else {
-                vid.pause();
-                pp.className = "fas fa-play";
-            }
+    // Controles de UI
+    function togglePlay() {
+        if (video.paused) {
+            video.play();
+            playBtn.className = "fas fa-pause";
             resetTimer();
+        } else {
+            video.pause();
+            playBtn.className = "fas fa-play";
+            clearTimeout(hideTimeout);
+            ui.classList.remove('hidden');
         }
+    }
 
-        function toggleUI() {
-            if (ui.classList.contains('hidden')) {
-                ui.classList.remove('hidden');
-                resetTimer();
-            } else {
-                ui.classList.add('hidden');
+    function handleTap(e) {
+        if (ui.classList.contains('hidden')) {
+            ui.classList.remove('hidden');
+            resetTimer();
+        } else {
+            if (e.target === ui) ui.classList.add('hidden');
+        }
+    }
+
+    function resetTimer() {
+        clearTimeout(hideTimeout);
+        if (!video.paused) {
+            hideTimeout = setTimeout(() => ui.classList.add('hidden'), 3500);
+        }
+    }
+
+    // Eventos de carga
+    video.onwaiting = () => loader.style.display = 'block';
+    video.onplaying = () => { loader.style.display = 'none'; resetTimer(); };
+    video.onerror = () => { document.getElementById('error-msg').style.display = 'block'; };
+
+    // Barra de progreso y tiempo
+    video.ontimeupdate = () => {
+        const percent = (video.currentTime / video.duration) * 100;
+        progressBar.style.width = percent + '%';
+        
+        const cur = formatTime(video.currentTime);
+        const dur = formatTime(video.duration);
+        document.getElementById('time').innerText = `${cur} / ${dur}`;
+
+        // Guardar progreso
+        const epKey = localStorage.getItem('pbox_current_ep_key');
+        if (epKey && video.currentTime > 0) {
+            const prog = JSON.parse(localStorage.getItem('pbox_progress') || "{}");
+            prog[epKey] = { cur: video.currentTime, dur: video.duration };
+            localStorage.setItem('pbox_progress', JSON.stringify(prog));
+        }
+    };
+
+    function formatTime(s) {
+        if (isNaN(s)) return "0:00";
+        const h = Math.floor(s / 3600);
+        const m = Math.floor((s % 3600) / 60);
+        const sec = Math.floor(s % 60);
+        return (h > 0 ? h + ":" : "") + (m < 10 && h > 0 ? "0" : "") + m + ":" + (sec < 10 ? "0" : "") + sec;
+    }
+
+    progressArea.onclick = (e) => {
+        const rect = progressArea.getBoundingClientRect();
+        const pos = (e.clientX - rect.left) / rect.width;
+        video.currentTime = pos * video.duration;
+    };
+
+    function toggleFull() {
+        if (!document.fullscreenElement) {
+            document.documentElement.requestFullscreen();
+            screen.orientation.lock('landscape').catch(() => {});
+        } else {
+            document.exitFullscreen();
+        }
+    }
+
+    // Auto-Play al iniciar y resumir
+    video.onloadedmetadata = () => {
+        const epKey = localStorage.getItem('pbox_current_ep_key');
+        const resume = localStorage.getItem('pbox_resume_action');
+        if (resume === 'yes' && epKey) {
+            const prog = JSON.parse(localStorage.getItem('pbox_progress') || "{}");
+            if (prog[epKey]) video.currentTime = prog[epKey].cur;
+        }
+        localStorage.removeItem('pbox_resume_action');
+        video.play().catch(() => {
+            ui.classList.remove('hidden'); // Mostrar controles si el navegador bloquea autoplay
+        });
+        playBtn.className = "fas fa-pause";
+    };
+
+    // Siguiente episodio
+    video.onended = () => {
+        const data = JSON.parse(localStorage.getItem('pbox_serie'));
+        const key = localStorage.getItem('pbox_current_ep_key');
+        if (data && key) {
+            const curIdx = parseInt(key.split('_E')[1]) - 1;
+            const next = data.episodes[curIdx + 1];
+            if (next) {
+                localStorage.setItem('pbox_url', next.video_url);
+                localStorage.setItem('pbox_title', data.title + " E" + (curIdx + 2));
+                localStorage.setItem('pbox_current_ep_key', data.title + "_E" + (curIdx + 2));
+                location.reload();
+                return;
             }
         }
+        history.back();
+    };
 
-        function resetTimer() {
-            clearTimeout(hideTimer);
-            if(!vid.paused) {
-                hideTimer = setTimeout(() => ui.classList.add('hidden'), 3000);
-            }
-        }
-
-        function toggleFS() {
-            if (!document.fullscreenElement) {
-                document.documentElement.requestFullscreen().catch(e => console.log(e));
-                if(screen.orientation && screen.orientation.lock) screen.orientation.lock('landscape').catch(()=>{});
-            } else {
-                if (document.exitFullscreen) document.exitFullscreen();
-            }
-        }
-
-        document.getElementById('p-cont').onclick = (e) => {
-            const rect = document.getElementById('p-cont').getBoundingClientRect();
-            const pos = (e.clientX - rect.left) / rect.width;
-            vid.currentTime = pos * vid.duration;
-        };
-
-        vid.onended = () => {
-            const data = JSON.parse(localStorage.getItem('pbox_serie'));
-            const key = localStorage.getItem('pbox_current_ep_key');
-            
-            if(data && key) {
-                const curIdx = parseInt(key.split('_E')[1]) - 1;
-                const nextEp = data.episodes[curIdx + 1];
-                
-                if(nextEp) {
-                    const notice = document.getElementById('next-notice');
-                    notice.style.display = 'block';
-                    setTimeout(() => {
-                        localStorage.setItem('pbox_url', nextEp.video_url);
-                        localStorage.setItem('pbox_title', data.title + " E" + (curIdx + 2));
-                        localStorage.setItem('pbox_current_ep_key', data.title + "_E" + (curIdx + 2));
-                        location.reload();
-                    }, 3000);
-                    return;
-                }
-            }
-            history.back();
-        };
-
-        init();
-    </script>
+    initPlayer();
+</script>
 </body>
 </html>
