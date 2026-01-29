@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+        :root { --accent: #00e1b5; --bg-card: #121212; }
+        body { background: #000; color: #fff; font-family: 'Segoe UI', sans-serif; margin: 0; padding-bottom: 30px; }
+        .header { display: flex; align-items: center; gap: 15px; padding: 20px; background: rgba(0,0,0,0.9); position: sticky; top: 0; z-index: 100; backdrop-filter: blur(10px); border-bottom: 1px solid #222; }
+        .header h2 { font-size: 1.2rem; margin: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        #el { padding: 15px; }
+        .ep-card { display: flex; flex-direction: column; background: var(--bg-card); margin-bottom: 15px; border-radius: 8px; overflow: hidden; border: 1px solid #222; }
+        .ep-card.active { border-color: var(--accent); background: #1a1a1a; }
+        .ep-content { display: flex; align-items: center; padding: 12px; gap: 15px; }
+        .img-box { position: relative; width: 105px; height: 60px; flex-shrink: 0; }
+        .img-box img { width: 100%; height: 100%; object-fit: cover; border-radius: 4px; }
+        .info { flex: 1; }
+        .info h4 { margin: 0; font-size: 0.9rem; color: #fff; }
+        .status-txt { font-size: 0.7rem; color: #777; margin-top: 3px; }
+        .progress-container { width: 100%; height: 4px; background: #222; }
+        .progress-bar { height: 100%; background: var(--accent); width: 0%; }
+        .icon-play { color: var(--accent); font-size: 1.2rem; margin-left: auto; }
+        .tag-v { color: var(--accent); font-size: 0.6rem; font-weight: 900; text-transform: uppercase; margin-bottom: 2px; display: block; animation: pulse 1.5s infinite; }
+        @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+    </style>
+</head>
+<body>
+    <div class="header"><i class="fas fa-arrow-left" onclick="history.back()"></i><h2 id="st">Cargando...</h2></div>
+    <div id="el"></div>
+    <script>
+        function updateUI() {
+            const container = document.getElementById('el'); container.innerHTML = ''; 
+            const data = JSON.parse(localStorage.getItem('pbox_serie'));
+            const progress = JSON.parse(localStorage.getItem('pbox_progress')) || {};
+            if(!data) return;
+            document.getElementById('st').innerText = data.title;
+            data.episodes.forEach((ep, i) => {
+                const epKey = `${data.title}_E${i+1}`;
+                const saved = progress[epKey] || { cur: 0, dur: 1 };
+                const percent = Math.min((saved.cur / saved.dur) * 100, 100);
+                const isWatched = percent > 90;
+                const isStarted = percent > 1 && !isWatched;
+                const div = document.createElement('div');
+                div.className = `ep-card ${isStarted ? 'active' : ''}`;
+                div.innerHTML = `<div class="ep-content"><div class="img-box"><img src="${data.coverImage}"></div><div class="info">${isStarted ? '<span class="tag-v">Continuar viendo</span>' : ''}<h4>Episodio ${i+1}</h4><span class="status-txt">${isWatched ? 'Completado' : (isStarted ? 'Viendo ahora' : 'Sin empezar')}</span></div><i class="fas ${isWatched ? 'fa-check-circle' : 'fa-play-circle'} icon-play"></i></div><div class="progress-container"><div class="progress-bar" style="width: ${percent}%"></div></div>`;
+                div.onclick = () => {
+                    localStorage.setItem('pbox_url', ep.video_url);
+                    localStorage.setItem('pbox_title', data.title + " E" + (i+1));
+                    localStorage.setItem('pbox_current_ep_key', epKey);
+                    window.location.href = "player.html";
+                };
+                container.appendChild(div);
+            });
+        }
+        window.addEventListener('pageshow', updateUI);
+    </script>
+</body>
+</html>
