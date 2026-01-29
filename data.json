@@ -1,6 +1,56 @@
 [
   
   {
+    "title": "Deadpool",
+    "description": "Un antiguo agente de las fuerzas especiales convertido en mercenario, Wade Wilson, es sometido a un experimento clandestino que lo deja con poderes de curación acelerada y un retorcido sentido del humor. Armado con sus nuevas habilidades, persigue al hombre que casi destruye su vida.",
+    "year": 2016,
+    "studio": "20th Century Fox / Marvel",
+    "coverImage": "https://es.web.img3.acsta.net/pictures/15/12/04/10/48/099822.jpg",
+    "genre": [
+      "Acción",
+      "Comedia",
+      "Superhéroes"
+    ],
+    "video_url": "http://archive.org/download/00000_202008/00015.mp4"
+  },
+    
+  {
+    "title": "Deadpool 2",
+    "description": "Tras sobrevivir a un ataque bovino casi fatal, el desfigurado chef de una cafetería lucha por cumplir su sueño de convertirse en el barman más sexy de Mayberry. En su lugar, Deadpool debe reunir a un equipo de mutantes llamado X-Force para proteger a un joven de un soldado del futuro que viaja en el tiempo.",
+    "year": 2018,
+    "studio": "20th Century Fox / Marvel",
+    "coverImage": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/f0179ff3-49ca-4527-acb9-295f58d69500/compose?aspectRatio=1.78&format=webp&width=1200",
+    "genre": [
+      "Acción",
+      "Comedia",
+      "Superhéroes"
+    ],
+    "video_url": "http://archive.org/download/00000_202009/000000011.mp4"
+  },
+    
+  {
+    "title": "Juego de Tronos - Temporada 2",
+    "original_title": "Game of Thrones - Season 2",
+    "year": 2012,
+    "genre": ["Drama", "Fantasía", "Aventura"],
+    "studio": "HBO",
+    "coverImage": "https://es.web.img3.acsta.net/medias/nmedia/18/89/08/62/20043497.jpg",
+    "description": "Cinco reyes compiten por el Trono de Hierro. Mientras las alianzas se rompen y surgen nuevas fuerzas, Tyrion Lannister lucha por salvar Desembarco del Rey, y Daenerys busca aliados en el Este.",
+    "episodes": [
+      { "episode": 1, "title": "T2 - Capítulo 1", "video_url": "https://content.jwplatform.com/videos/BLuiyK9W-OFfruZQQ.mp4" },
+      { "episode": 2, "title": "T2 - Capítulo 2", "video_url": "https://content.jwplatform.com/videos/8ELLtgR4-OFfruZQQ.mp4" },
+      { "episode": 3, "title": "T2 - Capítulo 3", "video_url": "https://content.jwplatform.com/videos/JW34ZylH-OFfruZQQ.mp4" },
+      { "episode": 4, "title": "T2 - Capítulo 4", "video_url": "https://content.jwplatform.com/videos/vZt67SBn-OFfruZQQ.mp4" },
+      { "episode": 5, "title": "T2 - Capítulo 5", "video_url": "https://content.jwplatform.com/videos/WHGzH1Cv-OFfruZQQ.mp4" },
+      { "episode": 6, "title": "T2 - Capítulo 6", "video_url": "https://content.jwplatform.com/videos/4G8oiJcK-OFfruZQQ.mp4" },
+      { "episode": 7, "title": "T2 - Capítulo 7", "video_url": "https://content.jwplatform.com/videos/O4y7iCQ6-OFfruZQQ.mp4" },
+      { "episode": 8, "title": "T2 - Capítulo 8", "video_url": "https://content.jwplatform.com/videos/uIrCVw2K-OFfruZQQ.mp4" },
+      { "episode": 9, "title": "T2 - Capítulo 9", "video_url": "https://content.jwplatform.com/videos/Wc8i5i7D-OFfruZQQ.mp4" },
+      { "episode": 10, "title": "T2 - Capítulo 10", "video_url": "https://content.jwplatform.com/videos/dJ6eP6sQ-OFfruZQQ.mp4" }
+    ]
+  },
+    
+  {
     "title": "Jumaru: El Guerrero Samurái",
     "original_title": "Kurenai Sanshiro",
     "year": 1969,
