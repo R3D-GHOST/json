@@ -5,59 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <style>
-        :root { --bg: #000; --accent: #00e1b5; --card: #111; --text-dim: #888; }
+        :root { --bg: #000; --accent: #00e1b5; --card: #111; --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1); }
+        * { -webkit-tap-highlight-color: transparent; box-sizing: border-box; }
         body { font-family: 'Segoe UI', sans-serif; background: var(--bg); color: white; margin: 0; padding-bottom: 90px; overflow-x: hidden; }
-        
-        /* HEADER DINÁMICO */
-        header { 
-            height: 65px; display: flex; align-items: center; justify-content: space-between; 
-            padding: 0 15px; background: rgba(0,0,0,0.8); position: sticky; top: 0; z-index: 1000; backdrop-filter: blur(10px);
-        }
+
+        /* HEADER & SEARCH (Igual que antes para consistencia) */
+        header { height: 65px; display: flex; align-items: center; justify-content: space-between; padding: 0 15px; background: rgba(0,0,0,0.8); position: sticky; top: 0; z-index: 1000; backdrop-filter: blur(20px); border-bottom: 1px solid rgba(255,255,255,0.05); }
         .logo { font-weight: 900; font-size: 1.3rem; letter-spacing: -1px; }
-
-        /* BUSCADOR CIRCULAR INTERACTIVO */
         .search-wrapper { position: relative; display: flex; align-items: center; }
-        .search-input-box { 
-            width: 0; opacity: 0; background: #222; border: none; color: white; 
-            padding: 8px 0; border-radius: 20px; transition: all 0.4s ease; outline: none;
-        }
-        .search-wrapper.active .search-input-box { width: 180px; opacity: 1; padding: 8px 15px; margin-right: 10px; border: 1px solid var(--accent); }
-        .search-circle { 
-            width: 40px; height: 40px; background: #222; border-radius: 50%; 
-            display: flex; align-items: center; justify-content: center; cursor: pointer; transition: 0.3s;
-        }
-        .search-wrapper.active .search-circle { background: var(--accent); color: #000; }
+        .search-input-box { width: 0; opacity: 0; background: #1a1a1a; border: none; color: white; padding: 10px 0; border-radius: 25px; transition: var(--transition); outline: none; font-size: 14px; }
+        .search-wrapper.active .search-input-box { width: 180px; opacity: 1; padding: 10px 18px; margin-right: 10px; border: 1px solid var(--accent); }
+        .search-circle { width: 40px; height: 40px; background: #1a1a1a; border-radius: 50%; display: flex; align-items: center; justify-content: center; cursor: pointer; }
 
-        /* BANNER DINÁMICO (EVENTO O ALEATORIO) */
-        #dynamic-header { 
-            width: 100%; height: 45vh; background-size: cover; background-position: center; 
-            position: relative; display: flex; align-items: flex-end; transition: 0.5s;
-        }
-        .hero-overlay { position: absolute; inset: 0; background: linear-gradient(to top, #000 5%, transparent 60%, rgba(0,0,0,0.4)); }
-        .hero-content { position: relative; z-index: 10; padding: 25px; width: 100%; }
-        .hero-tag { background: var(--accent); color: #000; padding: 3px 10px; border-radius: 4px; font-size: 0.7rem; font-weight: bold; text-transform: uppercase; margin-bottom: 8px; display: inline-block; }
-        .hero-title { font-size: 1.8rem; font-weight: 900; margin: 0 0 15px; text-shadow: 0 2px 10px #000; }
-        .btn-play { background: #fff; color: #000; border: none; padding: 10px 25px; border-radius: 5px; font-weight: bold; display: flex; align-items: center; gap: 8px; width: fit-content; }
+        /* PAGINACIÓN SPA */
+        .page { display: none; opacity: 0; transform: translateY(10px); transition: 0.4s ease; }
+        .page.active { display: block; opacity: 1; transform: translateY(0); }
 
-        /* SECCIONES Y GRIDS */
-        .page { display: none; }
-        .page.active { display: block; }
-        .section-label { font-size: 0.75rem; padding: 25px 15px 12px; text-transform: uppercase; color: var(--accent); letter-spacing: 2px; font-weight: 800; }
-        .row-scroll { display: flex; overflow-x: auto; gap: 12px; padding: 0 15px; }
-        .row-scroll::-webkit-scrollbar { display: none; }
-        .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; padding: 0 10px; }
-        .grid-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; padding: 0 15px; }
-        
-        .poster { aspect-ratio: 2/3; border-radius: 8px; overflow: hidden; background: var(--card); }
+        /* ESTILO GUÍA DE CANALES (LISTA) */
+        .channel-list { padding: 10px 15px; }
+        .channel-item { 
+            display: flex; align-items: center; padding: 12px; 
+            background: #0a0a0a; border-radius: 12px; margin-bottom: 8px;
+            border: 1px solid rgba(255,255,255,0.03); transition: 0.2s;
+        }
+        .channel-item:active { transform: scale(0.97); background: #161616; }
+        .ch-logo-container { width: 50px; height: 50px; background: #111; border-radius: 8px; overflow: hidden; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+        .ch-logo-container img { width: 80%; height: 80%; object-fit: contain; }
+        .ch-info { margin-left: 15px; flex: 1; }
+        .ch-info h4 { margin: 0; font-size: 0.95rem; font-weight: 600; color: #fff; }
+        .ch-info p { margin: 3px 0 0; font-size: 0.7rem; color: var(--accent); font-weight: bold; text-transform: uppercase; }
+        .ch-play-icon { color: #333; font-size: 1rem; padding-right: 5px; }
+
+        /* ESTILO CATÁLOGO (3x3) */
+        .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; padding: 0 15px; }
+        .poster { aspect-ratio: 2/3; background: #111; border-radius: 10px; overflow: hidden; }
         .poster img { width: 100%; height: 100%; object-fit: cover; }
-        .card-ch { aspect-ratio: 16/9; background: var(--card); border: 1px solid #222; border-radius: 8px; display: flex; align-items: center; justify-content: center; overflow: hidden; }
-        .card-ch img { width: 70%; height: 70%; object-fit: contain; }
 
         /* NAVBAR */
-        nav { position: fixed; bottom: 0; width: 100%; height: 75px; background: #000; display: flex; border-top: 1px solid #1a1a1a; z-index: 2000; }
-        .nav-item { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; font-size: 0.6rem; color: #555; text-decoration: none; font-weight: bold; }
+        nav { position: fixed; bottom: 0; width: 100%; height: 75px; background: rgba(0,0,0,0.9); backdrop-filter: blur(20px); display: flex; border-top: 1px solid rgba(255,255,255,0.05); z-index: 2000; }
+        .nav-item { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; font-size: 0.6rem; color: #555; text-decoration: none; font-weight: 700; }
         .nav-item.active { color: var(--accent); }
-        .nav-item i { font-size: 1.3rem; margin-bottom: 5px; }
+        .nav-item i { font-size: 1.4rem; margin-bottom: 4px; }
+
+        .section-label { font-size: 0.75rem; padding: 25px 20px 12px; text-transform: uppercase; color: var(--accent); letter-spacing: 2px; font-weight: 800; }
     </style>
 </head>
 <body>
@@ -66,42 +56,36 @@
         <div class="logo">PLAY<span style="color:var(--accent)">BOX</span></div>
         <div class="search-wrapper" id="search-wrapper">
             <input type="text" class="search-input-box" id="q" placeholder="Buscar..." oninput="filtrar()">
-            <div class="search-circle" onclick="toggleSearch()">
-                <i class="fas fa-search"></i>
-            </div>
+            <div class="search-circle" onclick="toggleSearch()"><i class="fas fa-search"></i></div>
         </div>
     </header>
 
     <main id="view-inicio" class="page active">
-        <div id="dynamic-header">
-            <div class="hero-overlay"></div>
-            <div class="hero-content">
-                <span class="hero-tag" id="hero-tag">Destacado</span>
-                <h1 class="hero-title" id="hero-title">Cargando...</h1>
-                <button class="btn-play" id="hero-btn"><i class="fas fa-play"></i> VER AHORA</button>
+        <div id="dynamic-header" style="width:100%; height:40vh; background-size:cover; background-position:center; position:relative; display:flex; align-items:flex-end;">
+            <div style="position:absolute; inset:0; background:linear-gradient(to top, #000, transparent);"></div>
+            <div style="position:relative; padding:25px; z-index:10;">
+                <h1 id="hero-title" style="margin:0; font-size:1.8rem;">Cargando...</h1>
+                <button id="hero-btn" style="margin-top:10px; padding:10px 20px; border-radius:8px; border:none; background:#fff; font-weight:bold;"><i class="fas fa-play"></i> REPRODUCIR</button>
             </div>
         </div>
-
-        <div class="section-label">Añadidos recientemente</div>
-        <div class="row-scroll" id="row-recientes"></div>
-        <div class="section-label">Series recomendadas</div>
-        <div class="row-scroll" id="row-series"></div>
+        <div class="section-label">Recientes</div>
+        <div id="row-recientes" style="display:flex; overflow-x:auto; gap:10px; padding:0 15px;"></div>
     </main>
 
     <main id="view-catalogo" class="page">
-        <div class="section-label">Todo el catálogo</div>
+        <div class="section-label">Películas y Series</div>
         <div id="grid-catalogo" class="grid-3"></div>
     </main>
 
     <main id="view-canales" class="page">
-        <div class="section-label">Canales en vivo</div>
-        <div id="grid-tv" class="grid-2"></div>
+        <div class="section-label">Guía de Canales</div>
+        <div id="list-tv" class="channel-list"></div>
     </main>
 
     <nav>
-        <a href="javascript:void(0)" class="nav-item active" onclick="navegar('inicio', this)"><i class="fas fa-home"></i>INICIO</a>
-        <a href="javascript:void(0)" class="nav-item" onclick="navegar('catalogo', this)"><i class="fas fa-th-large"></i>CATÁLOGO</a>
-        <a href="javascript:void(0)" class="nav-item" onclick="navegar('canales', this)"><i class="fas fa-tv"></i>CANALES</a>
+        <a href="javascript:void(0)" class="nav-item active" onclick="navegar('inicio', this)"><i class="fas fa-house"></i>INICIO</a>
+        <a href="javascript:void(0)" class="nav-item" onclick="navegar('catalogo', this)"><i class="fas fa-clapperboard"></i>CINE</a>
+        <a href="javascript:void(0)" class="nav-item" onclick="navegar('canales', this)"><i class="fas fa-list"></i>TV EN VIVO</a>
     </nav>
 
     <script>
@@ -118,85 +102,81 @@
                 dbM = await resM.json();
                 
                 const lines = (await resT.text()).split('\n');
-                lines.forEach((l, i) => {
-                    if(l.includes('#EXTINF:')) {
-                        const group = l.match(/group-title="(.*?)"/);
-                        dbT.push({ 
-                            title: l.split(',')[1]?.trim(), 
-                            logo: l.match(/tvg-logo="(.*?)"/)?.[1], 
-                            url: lines[i+1]?.trim(),
-                            isEvent: group && group[1].toUpperCase() === "EVENTO"
-                        });
+                for(let i=0; i<lines.length; i++){
+                    if(lines[i].includes('#EXTINF:')){
+                        const url = lines[i+1]?.trim();
+                        // FILTRO: Solo si la URL existe y es válida
+                        if(url && url.startsWith('http')){
+                            const groupMatch = lines[i].match(/group-title="(.*?)"/);
+                            dbT.push({
+                                title: lines[i].split(',')[1]?.trim() || "Canal sin nombre",
+                                logo: lines[i].match(/tvg-logo="(.*?)"/)?.[1] || "",
+                                group: groupMatch ? groupMatch[1] : "General",
+                                url: url
+                            });
+                        }
                     }
-                });
+                }
 
                 filteredM = dbM; filteredT = dbT;
-                renderDynamicHeader();
-                setupInicio();
+                setupHero();
                 renderMovies(true);
                 renderTV(true);
             } catch (e) { console.error(e); }
         }
 
-        function renderDynamicHeader() {
-            const evento = dbT.find(t => t.isEvent && t.url && t.url.startsWith('http'));
+        function setupHero() {
+            const random = dbM[Math.floor(Math.random() * dbM.length)];
             const header = document.getElementById('dynamic-header');
-            const title = document.getElementById('hero-title');
-            const tag = document.getElementById('hero-tag');
-            const btn = document.getElementById('hero-btn');
+            header.style.backgroundImage = `url(${random.coverImage})`;
+            document.getElementById('hero-title').innerText = random.title;
+            document.getElementById('hero-btn').onclick = () => openContent(random);
 
-            if(evento) {
-                header.style.backgroundImage = `url(${evento.logo})`;
-                title.innerText = evento.title;
-                tag.innerText = "Evento en vivo";
-                tag.style.background = "var(--accent)";
-                btn.onclick = () => openContent(evento);
-            } else {
-                const random = dbM[Math.floor(Math.random() * dbM.length)];
-                header.style.backgroundImage = `url(${random.coverImage})`;
-                title.innerText = random.title;
-                tag.innerText = random.episodes ? "Serie sugerida" : "Película sugerida";
-                tag.style.background = "#fff";
-                btn.onclick = () => openContent(random);
-            }
-        }
-
-        function toggleSearch() {
-            const wrapper = document.getElementById('search-wrapper');
-            const input = document.getElementById('q');
-            wrapper.classList.toggle('active');
-            if(wrapper.classList.contains('active')) input.focus();
-            else { input.value = ''; filtrar(); }
-        }
-
-        function setupInicio() {
-            const rec = document.getElementById('row-recientes');
-            dbM.slice(0, 10).forEach(m => rec.appendChild(createCard(m, 'poster', true)));
-            const ser = document.getElementById('row-series');
-            dbM.filter(m => m.episodes).slice(0, 10).forEach(m => ser.appendChild(createCard(m, 'poster', true)));
+            const row = document.getElementById('row-recientes');
+            dbM.slice(0,10).forEach(m => {
+                const d = document.createElement('div');
+                d.className = 'poster';
+                d.style.minWidth = "110px";
+                d.innerHTML = `<img src="${m.coverImage}" loading="lazy">`;
+                d.onclick = () => openContent(m);
+                row.appendChild(d);
+            });
         }
 
         function renderMovies(reset = false) {
             const grid = document.getElementById('grid-catalogo');
             if(reset) { grid.innerHTML = ''; curM = 0; }
-            filteredM.slice(curM, curM + 30).forEach(m => grid.appendChild(createCard(m, 'poster')));
+            filteredM.slice(curM, curM + 30).forEach(m => {
+                const d = document.createElement('div');
+                d.className = 'poster';
+                d.innerHTML = `<img src="${m.coverImage}" loading="lazy">`;
+                d.onclick = () => openContent(m);
+                grid.appendChild(d);
+            });
             curM += 30;
         }
 
         function renderTV(reset = false) {
-            const grid = document.getElementById('grid-tv');
-            if(reset) { grid.innerHTML = ''; curT = 0; }
-            filteredT.slice(curT, curT + 30).forEach(t => grid.appendChild(createCard(t, 'card-ch')));
+            const list = document.getElementById('list-tv');
+            if(reset) { list.innerHTML = ''; curT = 0; }
+            
+            filteredT.slice(curT, curT + 30).forEach(t => {
+                const item = document.createElement('div');
+                item.className = 'channel-item';
+                item.innerHTML = `
+                    <div class="ch-logo-container">
+                        <img src="${t.logo}" onerror="this.src='https://cdn-icons-png.flaticon.com/512/716/716429.png'">
+                    </div>
+                    <div class="ch-info">
+                        <h4>${t.title}</h4>
+                        <p>${t.group}</p>
+                    </div>
+                    <div class="ch-play-icon"><i class="fas fa-chevron-right"></i></div>
+                `;
+                item.onclick = () => openContent(t);
+                list.appendChild(item);
+            });
             curT += 30;
-        }
-
-        function createCard(item, cls, isRow = false) {
-            const d = document.createElement('div');
-            d.className = cls;
-            if(isRow) d.style.minWidth = "120px";
-            d.innerHTML = `<img src="${item.coverImage || item.logo}" loading="lazy">`;
-            d.onclick = () => openContent(item);
-            return d;
         }
 
         function openContent(item) {
@@ -212,21 +192,26 @@
         }
 
         function navegar(tab, el) {
-            activeTab = tab;
             document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
             document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
             document.getElementById('view-' + tab).classList.add('active');
             el.classList.add('active');
+            activeTab = tab;
             window.scrollTo(0,0);
+        }
+
+        function toggleSearch() {
+            document.getElementById('search-wrapper').classList.toggle('active');
         }
 
         function filtrar() {
             const q = document.getElementById('q').value.toLowerCase();
-            if(activeTab === 'canales') { 
-                filteredT = dbT.filter(t => t.title.toLowerCase().includes(q)); renderTV(true); 
-            } else { 
-                filteredM = dbM.filter(m => m.title.toLowerCase().includes(q)); renderMovies(true); 
-                if(activeTab === 'inicio' && q.length > 0) navegar('catalogo', document.querySelectorAll('.nav-item')[1]);
+            if(activeTab === 'canales') {
+                filteredT = dbT.filter(t => t.title.toLowerCase().includes(q));
+                renderTV(true);
+            } else {
+                filteredM = dbM.filter(m => m.title.toLowerCase().includes(q));
+                renderMovies(true);
             }
         }
 
