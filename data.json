@@ -1,4 +1,26 @@
 [
+  {
+    "title": "Battery",
+    "original_title": "Battery: The Animation",
+    "year": 2016,
+    "genre": ["Animación", "Deportes", "Drama"],
+    "studio": "Zero-G",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWPMLL1OAgbHF5X_0y5O49pVwsxZswcq393w&s",
+    "description": "Takumi Harada es un joven lanzador de béisbol con un talento excepcional pero con una actitud arrogante. Tras mudarse a una ciudad montañosa, conoce a Gou Nagakura, un receptor que tiene la habilidad necesaria para formar una 'batería' (dúo de lanzador y receptor) con él.",
+    "episodes": [
+      { "episode": 1, "title": "Episodio 1", "video_url": "https://archive.org/download/battery-01-espanol-latino-xeimt-tdt-1280x720-h-264-aac/Battery%20-%2001%20%5BEspa%C3%B1ol%20Latino%5D%20%28XEIMT-TDT%201280x720%20H264%20AAC%29.mp4" },
+      { "episode": 2, "title": "Episodio 2", "video_url": "https://archive.org/download/battery-01-espanol-latino-xeimt-tdt-1280x720-h-264-aac/Battery%20-%2002%20%5BEspa%C3%B1ol%20Latino%5D%20%28XHCDM-TDT%201280x720%20H264%20AAC%29.mp4" },
+      { "episode": 3, "title": "Episodio 3", "video_url": "https://archive.org/download/battery-01-espanol-latino-xeimt-tdt-1280x720-h-264-aac/Battery%20-%2003%20%5BEspa%C3%B1ol%20Latino%5D%20%28XHCDM-TDT%201280x720%20H264%20AAC%29.mp4" },
+      { "episode": 4, "title": "Episodio 4", "video_url": "https://archive.org/download/battery-01-espanol-latino-xeimt-tdt-1280x720-h-264-aac/Battery%20-%2004%20%5BEspa%C3%B1ol%20Latino%5D%20%28XHCDM-TDT%201280x720%20H264%20AAC%29.mp4" },
+      { "episode": 5, "title": "Episodio 5", "video_url": "https://archive.org/download/battery-01-espanol-latino-xeimt-tdt-1280x720-h-264-aac/Battery%20-%2005%20%5BEspa%C3%B1ol%20Latino%5D%20%28XHCDM-TDT%201280x720%20H264%20AAC%29.mp4" },
+      { "episode": 6, "title": "Episodio 6", "video_url": "https://archive.org/download/battery-01-espanol-latino-xeimt-tdt-1280x720-h-264-aac/Battery%20-%2006%20%5BEspa%C3%B1ol%20Latino%5D%20%28XHCDM-TDT%201280x720%20H264%20AAC%29.mp4" },
+      { "episode": 7, "title": "Episodio 7", "video_url": "https://archive.org/download/battery-01-espanol-latino-xeimt-tdt-1280x720-h-264-aac/Battery%20-%2007%20%5BEspa%C3%B1ol%20Latino%5D%20%28XHCDM-TDT%201280x720%20H264%20AAC%29.mp4" },
+      { "episode": 8, "title": "Episodio 8", "video_url": "https://archive.org/download/battery-01-espanol-latino-xeimt-tdt-1280x720-h-264-aac/Battery%20-%2008%20%5BEspa%C3%B1ol%20Latino%5D%20%28XHCDM-TDT%201280x720%20H264%20AAC%29.mp4" },
+      { "episode": 9, "title": "Episodio 9", "video_url": "https://archive.org/download/battery-01-espanol-latino-xeimt-tdt-1280x720-h-264-aac/Battery%20-%2009%20%5BEspa%C3%B1ol%20Latino%5D%20%28XHCDM-TDT%201280x720%20H264%20AAC%29.mp4" },
+      { "episode": 10, "title": "Episodio 10", "video_url": "https://archive.org/download/battery-01-espanol-latino-xeimt-tdt-1280x720-h-264-aac/Battery%20-%2010%20%5BEspa%C3%B1ol%20Latino%5D%20%28XHCDM-TDT%201280x720%20H264%20AAC%29.mp4" },
+      { "episode": 11, "title": "Episodio 11 (Final)", "video_url": "https://archive.org/download/battery-01-espanol-latino-xeimt-tdt-1280x720-h-264-aac/Battery%20-%2011%20%5BEspa%C3%B1ol%20Latino%5D%20%28XHCDM-TDT%201280x720%20H264%20AAC%29.mp4" }
+    ]
+  },
   
   {
     "title": "Boku no Ita Jikan (Las Horas de mi Vida)",
