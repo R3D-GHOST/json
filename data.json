@@ -1,6 +1,44 @@
 [
   
   {
+    "title": "Jumaru: El Guerrero Samurái",
+    "original_title": "Kurenai Sanshiro",
+    "year": 1969,
+    "genre": ["Animación", "Artes Marciales", "Aventura"],
+    "studio": "Tatsunoko Production",
+    "coverImage": "https://m.media-amazon.com/images/M/MV5BMjZjMzBiOTctMDUyMy00MTk5LWIxNmItNDI0MGRmNGY1Mjc5XkEyXkFqcGc@._V1_.jpg",
+    "description": "Sanshiro Kurenai es un experto en artes marciales que recorre el mundo en su motocicleta buscando al asesino de su padre, un hombre con un solo ojo, acompañado por su fiel perro y un niño llamado Kenbo.",
+    "episodes": [
+      { "episode": 1, "title": "El Enemigo Invencible", "video_url": "https://archive.org/download/11-los-guerreros-del-kilimangiaro/01%20-%20El%20Enemigo%20Invencible.mp4" },
+      { "episode": 2, "title": "El Hombre Del Rascacielos", "video_url": "https://archive.org/download/11-los-guerreros-del-kilimangiaro/02%20-%20El%20Hombre%20Del%20Rascacielos.mp4" },
+      { "episode": 3, "title": "La Venganza De Los Gatos Salvajes", "video_url": "https://archive.org/download/11-los-guerreros-del-kilimangiaro/03%20-%20La%20Venganza%20De%20Los%20Gatos%20Salvajes.mp4" },
+      { "episode": 4, "title": "El Emblema Del Rey", "video_url": "https://archive.org/download/11-los-guerreros-del-kilimangiaro/04%20-%20El%20Emblema%20Del%20Rey.mp4" },
+      { "episode": 5, "title": "El Momento De La Verdad", "video_url": "https://archive.org/download/11-los-guerreros-del-kilimangiaro/05%20-%20El%20Momento%20De%20La%20Verdad.mp4" },
+      { "episode": 6, "title": "La Mortal Estrella Cruzada", "video_url": "https://archive.org/download/11-los-guerreros-del-kilimangiaro/06%20-%20La%20Mortal%20Estrella%20Cruzada.mp4" },
+      { "episode": 7, "title": "El Oro Español", "video_url": "https://archive.org/download/11-los-guerreros-del-kilimangiaro/07%20-%20El%20Oro%20Espa%C3%B1ol.mp4" },
+      { "episode": 8, "title": "Los Super Hombre Sombra", "video_url": "https://archive.org/download/11-los-guerreros-del-kilimangiaro/08%20-%20Los%20Super%20Hombre%20Sombra.mp4" },
+      { "episode": 9, "title": "Duelo En La Nieve", "video_url": "https://archive.org/download/11-los-guerreros-del-kilimangiaro/09%20-%20Duelo%20En%20La%20Nieve.mp4" },
+      { "episode": 10, "title": "El Castillo De Sandoria", "video_url": "https://archive.org/download/11-los-guerreros-del-kilimangiaro/10%20-%20El%20Castillo%20De%20Sandoria.mp4" },
+      { "episode": 11, "title": "Los Guerreros Del Kilimangiaro", "video_url": "https://archive.org/download/11-los-guerreros-del-kilimangiaro/11%20-%20Los%20Guerreros%20Del%20Kilimangiaro.mp4" },
+      { "episode": 12, "title": "Duelo Al Atardecer", "video_url": "https://archive.org/download/11-los-guerreros-del-kilimangiaro/12%20-%20Duelo%20Al%20Atardecer.mp4" },
+      { "episode": 13, "title": "La Fortaleza De La Muerte", "video_url": "https://archive.org/download/11-los-guerreros-del-kilimangiaro/13%20-%20La%20Fortaleza%20De%20La%20Muerte.mp4" },
+      { "episode": 14, "title": "Olimpiada De Asesinos", "video_url": "https://archive.org/download/11-los-guerreros-del-kilimangiaro/14%20-%20Olimpiada%20De%20Asesinos.mp4" },
+      { "episode": 15, "title": "La Determinación Del Perro Vengador", "video_url": "https://archive.org/download/11-los-guerreros-del-kilimangiaro/15%20-%20La%20Determinaci%C3%B3n%20Del%20Perro%20Vengador.mp4" },
+      { "episode": 16, "title": "El Infierno De Sanshiro", "video_url": "https://archive.org/download/11-los-guerreros-del-kilimangiaro/16%20-%20El%20Infierno%20De%20Sanshiro.mp4" },
+      { "episode": 17, "title": "El General Tuerto Demoniaco", "video_url": "https://archive.org/download/11-los-guerreros-del-kilimangiaro/17%20-%20El%20General%20Tuerto%20Demoniaco.mp4" },
+      { "episode": 18, "title": "El Almirante Tuerto", "video_url": "https://archive.org/download/11-los-guerreros-del-kilimangiaro/18%20-%20El%20Almirante%20Tuerto.mp4" },
+      { "episode": 19, "title": "Compensación Por La Traición", "video_url": "https://archive.org/download/11-los-guerreros-del-kilimangiaro/19%20-%20Compensaci%C3%B3n%20Por%20La%20Traici%C3%B3n.mp4" },
+      { "episode": 20, "title": "El Tigre Blanco Tuerto (1a Parte)", "video_url": "https://archive.org/download/11-los-guerreros-del-kilimangiaro/20%20-%20El%20Tigre%20Blanco%20Tuerto%20%281a%20Parte%29.mp4" },
+      { "episode": 21, "title": "El Tigre Blanco Tuerto (2a Parte)", "video_url": "https://archive.org/download/11-los-guerreros-del-kilimangiaro/21%20-%20El%20Tigre%20Blanco%20Tuerto%20%282a%20Parte%29.mp4" },
+      { "episode": 22, "title": "El Mortal Estilo Magma", "video_url": "https://archive.org/download/11-los-guerreros-del-kilimangiaro/22%20-%20El%20Mortal%20Estilo%20Magma.mp4" },
+      { "episode": 23, "title": "Sanshiro Una Situación", "video_url": "https://archive.org/download/11-los-guerreros-del-kilimangiaro/23%20-%20Sanshiro%20Una%20Situaci%C3%B3n.mp4" },
+      { "episode": 24, "title": "Cielo Y Tierra Quebrantados", "video_url": "https://archive.org/download/11-los-guerreros-del-kilimangiaro/24%20-%20Lo%20M%C3%A1s%20Importante%20El%20Cielo%20Y%20La%20Tierra%20Quebrantados.mp4" },
+      { "episode": 25, "title": "El Valle De Los Hombres Mono", "video_url": "https://archive.org/download/11-los-guerreros-del-kilimangiaro/25%20-%20El%20Valle%20De%20Los%20Hombres%20Mono.mp4" },
+      { "episode": 26, "title": "La Espada Oculta De La Hermosa Joven", "video_url": "https://archive.org/download/11-los-guerreros-del-kilimangiaro/26%20-%20La%20Espada%20Oculta%20De%20La%20Hermosa%20Joven.mp4" }
+    ]
+  },
+    
+  {
     "title": "Peaky Blinders",
     "original_title": "Peaky Blinders",
     "year": 2013,
