@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <style>
-        :root { --accent: #00e1b5; --bg: #000; }
+        /* Cambiado: --accent de verde a azul claro (#00b4ff) */
+        :root { --accent: #00b4ff; --bg: #000; }
         body { margin: 0; background: var(--bg); height: 100vh; width: 100vw; overflow: hidden; font-family: 'Segoe UI', sans-serif; }
 
         #video-wrapper { 
@@ -13,7 +14,7 @@
             align-items: center; justify-content: center; background: #000;
         }
 
-        /* Fuerza el estiramiento para eliminar franjas negras (4:3 a 16:9) */
+        /* Fuerza el estiramiento para eliminar franjas negras */
         video { 
             width: 100% !important; 
             height: 100% !important; 
@@ -47,6 +48,7 @@
         .loader { position: absolute; inset: 0; margin: auto; border: 4px solid rgba(255,255,255,0.1); border-left-color: var(--accent); border-radius: 50%; width: 45px; height: 45px; animation: spin 1s linear infinite; z-index: 100; }
         @keyframes spin { to { transform: rotate(360deg); } }
 
+        /* Aviso Siguiente Episodio */
         #next-notice { 
             position: absolute; top: 20px; right: 20px; background: var(--accent); 
             color: #000; padding: 8px 15px; border-radius: 20px; font-weight: 800; 
@@ -64,7 +66,7 @@
         
         <div class="ui-overlay" id="ui">
             <div class="top-bar">
-                <i class="fas fa-arrow-left" onclick="history.back()" style="font-size: 1.3rem;"></i>
+                <i class="fas fa-arrow-left" onclick="history.back()" style="font-size: 1.3rem; color: white;"></i>
                 <div class="v-title" id="v-title">Cargando...</div>
             </div>
 
@@ -91,7 +93,6 @@
         const pp = document.getElementById('pp');
         let hideTimer;
 
-        // 1. CARGA E INICIO
         function init() {
             const url = localStorage.getItem('pbox_url');
             const title = localStorage.getItem('pbox_title');
@@ -116,7 +117,6 @@
             });
         }
 
-        // 2. ACTUALIZACIÓN DE TIEMPO Y BARRA
         vid.ontimeupdate = () => {
             if(vid.currentTime > 0.1) document.getElementById('loader').style.display = 'none';
 
@@ -141,7 +141,6 @@
             return (h > 0 ? h + ":" : "") + (m < 10 && h > 0 ? "0" : "") + m + ":" + (s < 10 ? "0" : "") + s;
         }
 
-        // 3. CONTROLES DE INTERFAZ
         function togglePlay() {
             if(vid.paused) {
                 vid.play();
@@ -179,7 +178,6 @@
             vid.currentTime = pos * vid.duration;
         };
 
-        // 4. AUTO-SIGUIENTE EPISODIO (Actualizado para recargar pl.html)
         vid.onended = () => {
             const data = JSON.parse(localStorage.getItem('pbox_serie'));
             const key = localStorage.getItem('pbox_current_ep_key');
@@ -195,7 +193,7 @@
                         localStorage.setItem('pbox_url', nextEp.video_url);
                         localStorage.setItem('pbox_title', data.title + " E" + (curIdx + 2));
                         localStorage.setItem('pbox_current_ep_key', data.title + "_E" + (curIdx + 2));
-                        location.reload(); // Recarga pl.html con los nuevos datos
+                        location.reload();
                     }, 3000);
                     return;
                 }
