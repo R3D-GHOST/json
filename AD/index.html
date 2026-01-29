@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <style>
-        :root { --bg: #000; --accent: #00e1b5; --card: #111; --text-dim: #888; }
+        /* Cambiado: --accent de verde a azul claro (#00b4ff) */
+        :root { --bg: #000; --accent: #00b4ff; --card: #111; --text-dim: #888; }
         body { font-family: 'Segoe UI', sans-serif; background: var(--bg); color: white; margin: 0; padding-bottom: 90px; overflow-x: hidden; }
         
         header { 
@@ -145,7 +146,6 @@
             } catch (e) { console.error(e); }
         }
 
-        // --- LÓGICA DE FILTRADO ANTI-REPETICIÓN ---
         function setupInicio() {
             const rowCont = document.getElementById('row-continuar');
             const secCont = document.getElementById('sec-continuar');
@@ -157,16 +157,11 @@
             ser.innerHTML = '';
 
             const progress = JSON.parse(localStorage.getItem('pbox_progress') || '{}');
-            
-            // 1. Obtener claves, filtrar por tiempo y ordenar por lo más reciente visto
-            const keys = Object.keys(progress)
-                .filter(k => progress[k].cur > 10)
-                .reverse();
+            const keys = Object.keys(progress).filter(k => progress[k].cur > 10).reverse();
 
             const titulosVistos = new Set();
             const itemsUnicos = [];
 
-            // Agrupar: Si es "Serie_E1" y "Serie_E2", solo dejamos el último
             keys.forEach(k => {
                 const baseTitle = k.split('_E')[0]; 
                 if (!titulosVistos.has(baseTitle)) {
@@ -176,7 +171,6 @@
                 }
             });
 
-            // Mostrar Continuar Viendo
             if(itemsUnicos.length > 0) {
                 secCont.style.display = 'block';
                 itemsUnicos.slice(0, 15).forEach(obj => {
@@ -192,15 +186,8 @@
                 secCont.style.display = 'none';
             }
 
-            // 2. Recientes (Excluyendo lo que ya sale arriba)
-            dbM.filter(m => !titulosVistos.has(m.title))
-               .slice(0, 15)
-               .forEach(m => rec.appendChild(createCard(m, 'poster', true)));
-            
-            // 3. Series (Excluyendo lo que ya sale arriba)
-            dbM.filter(m => m.episodes && !titulosVistos.has(m.title))
-               .slice(0, 15)
-               .forEach(m => ser.appendChild(createCard(m, 'poster', true)));
+            dbM.filter(m => !titulosVistos.has(m.title)).slice(0, 15).forEach(m => rec.appendChild(createCard(m, 'poster', true)));
+            dbM.filter(m => m.episodes && !titulosVistos.has(m.title)).slice(0, 15).forEach(m => ser.appendChild(createCard(m, 'poster', true)));
         }
 
         function renderDynamicHeader() {
