@@ -9,7 +9,6 @@
         * { -webkit-tap-highlight-color: transparent; box-sizing: border-box; }
         body { font-family: 'Segoe UI', sans-serif; background: var(--bg); color: white; margin: 0; padding-bottom: 90px; overflow-x: hidden; }
 
-        /* HEADER & SEARCH */
         header { height: 65px; display: flex; align-items: center; justify-content: space-between; padding: 0 15px; background: rgba(0,0,0,0.8); position: sticky; top: 0; z-index: 1000; backdrop-filter: blur(20px); }
         .logo { font-weight: 900; font-size: 1.3rem; letter-spacing: -1px; }
         .search-wrapper { position: relative; display: flex; align-items: center; }
@@ -17,33 +16,29 @@
         .search-wrapper.active .search-input-box { width: 180px; opacity: 1; padding: 10px 18px; margin-right: 10px; border: 1px solid var(--accent); }
         .search-circle { width: 40px; height: 40px; background: #1a1a1a; border-radius: 50%; display: flex; align-items: center; justify-content: center; cursor: pointer; }
 
-        /* PAGINACIÓN */
         .page { display: none; opacity: 0; transform: translateY(10px); transition: 0.4s ease; }
         .page.active { display: block; opacity: 1; transform: translateY(0); }
 
-        /* HERO BANNER */
         #dynamic-header { width: 100%; height: 45vh; background-size: cover; background-position: center; position: relative; display: flex; align-items: flex-end; }
         .hero-overlay { position: absolute; inset: 0; background: linear-gradient(to top, #000 15%, transparent); }
         .hero-content { position: relative; padding: 25px; z-index: 10; width: 100%; }
         .hero-title { font-size: 1.8rem; font-weight: 900; margin: 0; text-shadow: 0 2px 10px #000; }
         
-        /* SECCIONES GÉNEROS (SCROLL HORIZONTAL) */
         .section-label { font-size: 0.75rem; padding: 25px 20px 12px; text-transform: uppercase; color: var(--accent); letter-spacing: 2px; font-weight: 800; }
         .row-scroll { display: flex; overflow-x: auto; gap: 12px; padding: 0 20px; scroll-snap-type: x mandatory; }
         .row-scroll::-webkit-scrollbar { display: none; }
-        .poster { min-width: 120px; aspect-ratio: 2/3; background: #111; border-radius: 10px; overflow: hidden; flex-shrink: 0; scroll-snap-align: start; transition: 0.2s; }
+        
+        .poster { min-width: 120px; aspect-ratio: 2/3; background: #111; border-radius: 10px; overflow: hidden; flex-shrink: 0; scroll-snap-align: start; transition: 0.2s; cursor: pointer; }
         .poster:active { transform: scale(0.95); }
         .poster img { width: 100%; height: 100%; object-fit: cover; }
 
-        /* GUÍA DE CANALES (LISTA) */
-        .channel-item { display: flex; align-items: center; padding: 12px 20px; border-bottom: 1px solid #111; transition: 0.2s; }
+        .channel-item { display: flex; align-items: center; padding: 12px 20px; border-bottom: 1px solid #111; transition: 0.2s; cursor: pointer; }
         .channel-item:active { background: #111; }
         .ch-logo { width: 45px; height: 45px; border-radius: 8px; background: #1a1a1a; object-fit: contain; padding: 5px; }
         .ch-info { margin-left: 15px; flex: 1; }
         .ch-info h4 { margin: 0; font-size: 0.9rem; }
         .ch-info span { font-size: 0.7rem; color: var(--accent); font-weight: bold; }
 
-        /* NAVBAR */
         nav { position: fixed; bottom: 0; width: 100%; height: 75px; background: rgba(0,0,0,0.95); display: flex; border-top: 1px solid #111; z-index: 2000; }
         .nav-item { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; font-size: 0.6rem; color: #555; text-decoration: none; font-weight: bold; }
         .nav-item.active { color: var(--accent); }
@@ -65,10 +60,9 @@
             <div class="hero-overlay"></div>
             <div class="hero-content">
                 <h1 id="hero-title">Cargando...</h1>
-                <button onclick="playHero()" style="margin-top:10px; padding:10px 20px; border-radius:8px; border:none; background:#fff; font-weight:bold;">VER AHORA</button>
+                <button id="hero-btn" style="margin-top:10px; padding:10px 20px; border-radius:8px; border:none; background:#fff; font-weight:bold; cursor:pointer;">VER AHORA</button>
             </div>
         </div>
-
         <div id="generos-container"></div>
     </main>
 
@@ -92,7 +86,7 @@
         const API_M = "https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/data.json";
         const API_T = "https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/CV.m3u8";
 
-        let dbM = [], dbT = [], filteredM = [], heroItem = null;
+        let dbM = [], dbT = [], heroItem = null;
         let activeTab = 'inicio';
 
         async function init() {
@@ -100,7 +94,6 @@
                 const [resM, resT] = await Promise.all([fetch(API_M), fetch(API_T)]);
                 dbM = await resM.json();
                 
-                // Parsear M3U8 y Filtrar canales sin URL
                 const lines = (await resT.text()).split('\n');
                 for(let i=0; i<lines.length; i++){
                     if(lines[i].includes('#EXTINF:')){
@@ -115,45 +108,51 @@
                         }
                     }
                 }
-
                 setupInicio();
-                renderMovies(true);
+                renderMovies();
                 renderTV();
             } catch (e) { console.error(e); }
         }
 
         function setupInicio() {
-            // Hero Aleatorio
             heroItem = dbM[Math.floor(Math.random() * dbM.length)];
             document.getElementById('dynamic-header').style.backgroundImage = `url(${heroItem.coverImage})`;
             document.getElementById('hero-title').innerText = heroItem.title;
+            document.getElementById('hero-btn').onclick = () => openContent(heroItem);
 
             const container = document.getElementById('generos-container');
-            const generos = ["Anime", "Romance", "Estreno", "Misterio", "Suspense", "Terror"];
+            container.innerHTML = "";
+            const generos = ["Anime", "Terror", "Romance", "Estreno", "Misterio", "Suspense"];
 
             generos.forEach(gen => {
-                const filtrados = dbM.filter(m => m.genre && m.genre.toLowerCase().includes(gen.toLowerCase()));
+                const filtrados = dbM.filter(m => 
+                    (m.genre && m.genre.toLowerCase().includes(gen.toLowerCase())) || 
+                    (gen === "Estreno" && m.year == "2024")
+                );
+                
                 if(filtrados.length > 0) {
-                    const section = document.createElement('div');
-                    section.innerHTML = `
-                        <div class="section-label">${gen}</div>
-                        <div class="row-scroll">
-                            ${filtrados.map(m => `
-                                <div class="poster" onclick='openContent(${JSON.stringify(m)})'>
-                                    <img src="${m.coverImage}" loading="lazy">
-                                </div>
-                            `).join('')}
-                        </div>
-                    `;
-                    container.appendChild(section);
+                    const sec = document.createElement('div');
+                    sec.innerHTML = `<div class="section-label">${gen}</div>`;
+                    const row = document.createElement('div');
+                    row.className = "row-scroll";
+                    
+                    filtrados.forEach(m => {
+                        const d = document.createElement('div');
+                        d.className = 'poster';
+                        d.innerHTML = `<img src="${m.coverImage}" loading="lazy">`;
+                        d.onclick = () => openContent(m);
+                        row.appendChild(d);
+                    });
+                    sec.appendChild(row);
+                    container.appendChild(sec);
                 }
             });
         }
 
-        function renderMovies(reset = false) {
+        function renderMovies() {
             const grid = document.getElementById('grid-catalogo');
-            if(reset) grid.innerHTML = '';
-            dbM.slice(0, 60).forEach(m => {
+            grid.innerHTML = '';
+            dbM.slice(0, 90).forEach(m => {
                 const d = document.createElement('div');
                 d.className = 'poster';
                 d.innerHTML = `<img src="${m.coverImage}" loading="lazy">`;
@@ -164,6 +163,7 @@
 
         function renderTV() {
             const list = document.getElementById('list-tv');
+            list.innerHTML = "";
             dbT.forEach(t => {
                 const item = document.createElement('div');
                 item.className = 'channel-item';
@@ -173,7 +173,6 @@
                         <h4>${t.title}</h4>
                         <span>EN VIVO • ${t.group}</span>
                     </div>
-                    <i class="fas fa-play-circle" style="color:#333"></i>
                 `;
                 item.onclick = () => openContent(t);
                 list.appendChild(item);
@@ -183,16 +182,14 @@
         function openContent(item) {
             if(item.episodes) {
                 localStorage.setItem('pbox_serie', JSON.stringify(item));
-                window.location.href="capitulos.html";
+                window.location.href = "cap.html"; // Renombrado
             } else {
                 localStorage.setItem('pbox_url', item.url || item.video_url);
                 localStorage.setItem('pbox_title', item.title);
                 localStorage.removeItem('pbox_serie');
-                window.location.href="player.html";
+                window.location.href = "pl.html"; // Renombrado
             }
         }
-
-        function playHero() { if(heroItem) openContent(heroItem); }
 
         function navegar(tab, el) {
             document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
@@ -207,7 +204,25 @@
 
         function filtrar() {
             const q = document.getElementById('q').value.toLowerCase();
-            // Lógica de filtrado para catálogo y canales...
+            if(activeTab === 'canales') {
+                const items = document.querySelectorAll('.channel-item');
+                items.forEach(it => {
+                    const txt = it.querySelector('h4').innerText.toLowerCase();
+                    it.style.display = txt.includes(q) ? 'flex' : 'none';
+                });
+            } else {
+                const grid = document.getElementById('grid-catalogo');
+                grid.innerHTML = "";
+                const matched = dbM.filter(m => m.title.toLowerCase().includes(q));
+                matched.slice(0, 60).forEach(m => {
+                    const d = document.createElement('div');
+                    d.className = 'poster';
+                    d.innerHTML = `<img src="${m.coverImage}" loading="lazy">`;
+                    d.onclick = () => openContent(m);
+                    grid.appendChild(d);
+                });
+                if(q.length > 0 && activeTab !== 'catalogo') navegar('catalogo', document.querySelectorAll('.nav-item')[1]);
+            }
         }
 
         init();
