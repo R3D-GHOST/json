@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -105,7 +104,6 @@
             vid.src = url;
 
             vid.addEventListener('loadedmetadata', () => {
-                // Aplicar memoria si el usuario aceptó en el modal
                 if(resume === 'yes' && epKey) {
                     const prog = JSON.parse(localStorage.getItem('pbox_progress')) || {};
                     if(prog[epKey]) vid.currentTime = prog[epKey].cur;
@@ -113,7 +111,6 @@
                 localStorage.removeItem('pbox_resume_action');
                 
                 vid.play().catch(() => {
-                    // Si el navegador bloquea el auto-play, mostramos los controles
                     ui.classList.remove('hidden');
                 });
             });
@@ -128,7 +125,6 @@
             document.getElementById('curr').innerText = formatTime(vid.currentTime);
             document.getElementById('rem').innerText = formatTime(vid.duration);
 
-            // Guardar progreso automáticamente
             const epKey = localStorage.getItem('pbox_current_ep_key');
             if(epKey && vid.duration > 0) {
                 const prog = JSON.parse(localStorage.getItem('pbox_progress')) || {};
@@ -176,7 +172,6 @@
             }
         }
 
-        // Click en barra para buscar tiempo
         document.getElementById('p-cont').onclick = (e) => {
             e.stopPropagation();
             const rect = document.getElementById('p-cont').getBoundingClientRect();
@@ -184,7 +179,7 @@
             vid.currentTime = pos * vid.duration;
         };
 
-        // 4. AUTO-SIGUIENTE EPISODIO
+        // 4. AUTO-SIGUIENTE EPISODIO (Actualizado para recargar pl.html)
         vid.onended = () => {
             const data = JSON.parse(localStorage.getItem('pbox_serie'));
             const key = localStorage.getItem('pbox_current_ep_key');
@@ -200,7 +195,7 @@
                         localStorage.setItem('pbox_url', nextEp.video_url);
                         localStorage.setItem('pbox_title', data.title + " E" + (curIdx + 2));
                         localStorage.setItem('pbox_current_ep_key', data.title + "_E" + (curIdx + 2));
-                        location.reload();
+                        location.reload(); // Recarga pl.html con los nuevos datos
                     }, 3000);
                     return;
                 }
