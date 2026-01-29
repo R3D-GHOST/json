@@ -6,25 +6,27 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <style>
         body { margin: 0; background: #000; height: 100vh; overflow: hidden; font-family: sans-serif; }
-        
-        /* El contenedor de video empieza invisible */
-        #video-wrapper { 
-            width: 100%; height: 100%; opacity: 0; 
-            transition: opacity 0.8s ease-in-out; 
-            display: flex; align-items: center; justify-content: center;
-        }
-
+        #video-wrapper { width: 100%; height: 100%; opacity: 0; transition: opacity 0.8s; display: flex; align-items: center; justify-content: center; }
         video { width: 100%; height: auto; max-height: 100%; pointer-events: none; }
+        
+        /* Modal de Continuar */
+        #resume-modal { 
+            position: fixed; inset: 0; z-index: 200; background: rgba(0,0,0,0.9); 
+            display: none; flex-direction: column; align-items: center; justify-content: center; 
+        }
+        .modal-btns { display: flex; gap: 20px; margin-top: 20px; }
+        .btn { padding: 12px 25px; border-radius: 4px; border: none; font-weight: bold; cursor: pointer; }
+        .btn-accent { background: var(--accent, #00e1b5); color: #000; }
+        .btn-outline { background: transparent; color: #fff; border: 1px solid #555; }
 
         .loader { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 100; border: 3px solid rgba(255,255,255,0.1); border-left-color: #00e1b5; border-radius: 50%; width: 45px; height: 45px; animation: spin 1s linear infinite; }
         @keyframes spin { to { transform: rotate(360deg); } }
 
         .ui-overlay { position: absolute; inset: 0; z-index: 50; background: linear-gradient(to top, rgba(0,0,0,0.7) 0%, transparent 40%, rgba(0,0,0,0.7) 100%); transition: 0.4s; }
         .ui-overlay.hidden { opacity: 0; pointer-events: none; }
-
         .top-bar { padding: 20px; display: flex; align-items: center; gap: 15px; color: white; }
-        .bottom-ctrls { position: absolute; bottom: 0; width: 100%; padding-bottom: 30px; }
-        .bar-bg { width: 90%; height: 4px; background: rgba(255,255,255,0.2); margin: 0 auto 20px; border-radius: 10px; cursor: pointer; }
+        .bottom-ctrls { position: absolute; bottom: 0; width: 100%; padding-bottom: 35px; }
+        .bar-bg { width: 90%; height: 4px; background: rgba(255,255,255,0.2); margin: 0 auto 20px; border-radius: 10px; position: relative; }
         .bar-fill { height: 100%; background: #00e1b5; width: 0%; border-radius: 10px; }
         .btns-row { display: flex; align-items: center; justify-content: center; gap: 50px; color: #fff; font-size: 1.5rem; }
         
@@ -34,11 +36,20 @@
 <body oncontextmenu="return false;">
 
     <div class="loader" id="loader"></div>
+    
+    <div id="resume-modal">
+        <h3 style="color:white; margin:0;">¿Continuar viendo?</h3>
+        <p id="resume-time" style="color:#888; font-size:0.9rem;"></p>
+        <div class="modal-btns">
+            <button class="btn btn-accent" onclick="startFrom(true)">CONTINUAR</button>
+            <button class="btn btn-outline" onclick="startFrom(false)">DESDE EL INICIO</button>
+        </div>
+    </div>
+
     <div id="next-notice">Siguiente episodio en 3...</div>
     
     <div id="video-wrapper" onclick="toggleUI()">
         <video id="vid" playsinline></video>
-        
         <div class="ui-overlay" id="ui">
             <div class="top-bar">
                 <i class="fas fa-arrow-left" onclick="history.back()"></i>
@@ -59,33 +70,50 @@
         const vid = document.getElementById('vid');
         const wrapper = document.getElementById('video-wrapper');
         const loader = document.getElementById('loader');
+        const modal = document.getElementById('resume-modal');
         let hideTimer;
-
-        function launchFullScreen() {
-            const el = document.documentElement;
-            if (el.requestFullscreen) el.requestFullscreen();
-            else if (el.webkitRequestFullscreen) el.webkitRequestFullscreen();
-        }
-
-        // Si se sale de pantalla completa, cerrar.
-        document.addEventListener('fullscreenchange', () => {
-            if (!document.fullscreenElement) history.back();
-        });
+        let savedTime = 0;
 
         function cargarVideo() {
-            vid.src = localStorage.getItem('pbox_url');
+            const url = localStorage.getItem('pbox_url');
+            const epKey = localStorage.getItem('pbox_current_ep_key');
+            const progress = JSON.parse(localStorage.getItem('pbox_progress')) || {};
+            
+            vid.src = url;
             document.getElementById('v-title').innerText = localStorage.getItem('pbox_title');
-            vid.load();
+            
+            // Comprobar si hay progreso guardado
+            if(epKey && progress[epKey] && progress[epKey].cur > 10) {
+                savedTime = progress[epKey].cur;
+                document.getElementById('resume-time').innerText = "Te quedaste en el minuto " + Math.floor(savedTime/60);
+                modal.style.display = 'flex';
+                loader.style.display = 'none';
+            } else {
+                startFrom(false);
+            }
+        }
+
+        function startFrom(resume) {
+            modal.style.display = 'none';
+            loader.style.display = 'block';
+            if(resume) vid.currentTime = savedTime;
             vid.play().catch(() => {});
+            launchFullScreen();
         }
 
         vid.ontimeupdate = () => {
-            // ANIMACIÓN: Solo mostrar cuando el video avance más de 0.5 segundos
-            if (vid.currentTime > 0.5) {
+            if (vid.currentTime > 0.8) {
                 wrapper.style.opacity = "1";
                 loader.style.display = "none";
-                launchFullScreen();
             }
+            // Guardar progreso cada 5 segundos
+            const epKey = localStorage.getItem('pbox_current_ep_key');
+            if(epKey && vid.duration > 0) {
+                const progress = JSON.parse(localStorage.getItem('pbox_progress')) || {};
+                progress[epKey] = { cur: vid.currentTime, dur: vid.duration };
+                localStorage.setItem('pbox_progress', JSON.stringify(progress));
+            }
+
             const p = (vid.currentTime / vid.duration) * 100;
             document.getElementById('fill').style.width = p + '%';
         };
@@ -98,9 +126,8 @@
         }
 
         function toggleUI() {
-            const ui = document.getElementById('ui');
-            ui.classList.toggle('hidden');
-            if(!ui.classList.contains('hidden')) resetTimer();
+            document.getElementById('ui').classList.toggle('hidden');
+            resetTimer();
         }
 
         function resetTimer() {
@@ -113,7 +140,36 @@
             vid.currentTime = ((e.clientX - rect.left) / rect.width) * vid.duration;
         }
 
-        vid.onended = () => history.back(); // O saltar al siguiente si prefieres
+        // --- LÓGICA AUTOPLAY SIGUIENTE CAP ---
+        vid.onended = () => {
+            const serieData = JSON.parse(localStorage.getItem('pbox_serie'));
+            const epKey = localStorage.getItem('pbox_current_ep_key');
+            
+            if(serieData && epKey) {
+                const currentNum = parseInt(epKey.split('_E')[1]); // Obtiene el número del cap actual
+                const nextIdx = currentNum; // Los arrays empiezan en 0, así que el sig. cap es el índice 'currentNum'
+                
+                if(serieData.episodes[nextIdx]) {
+                    const notice = document.getElementById('next-notice');
+                    notice.style.display = 'block';
+                    setTimeout(() => {
+                        const nextEp = serieData.episodes[nextIdx];
+                        localStorage.setItem('pbox_url', nextEp.video_url);
+                        localStorage.setItem('pbox_title', serieData.title + " E" + (nextIdx + 1));
+                        localStorage.setItem('pbox_current_ep_key', serieData.title + "_E" + (nextIdx + 1));
+                        location.reload(); // Recarga para el nuevo cap
+                    }, 3000);
+                    return;
+                }
+            }
+            history.back(); // Si no hay más caps, sale.
+        };
+
+        function launchFullScreen() {
+            const el = document.documentElement;
+            if (el.requestFullscreen) el.requestFullscreen();
+            else if (el.webkitRequestFullscreen) el.webkitRequestFullscreen();
+        }
 
         cargarVideo();
     </script>
