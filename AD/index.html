@@ -3,21 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>StreamBox - Pro</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <style>
         :root { --bg: #000; --accent: #00b4ff; --card: #111; --text-dim: #888; --line: #1a1a1a; }
-        body { font-family: 'Segoe UI', sans-serif; background: var(--bg); color: white; margin: 0; padding-bottom: 90px; overflow-x: hidden; }
         
+        body { 
+            font-family: 'Segoe UI', Roboto, sans-serif; 
+            background: var(--bg); 
+            color: white; 
+            margin: 0; 
+            padding-bottom: 90px; 
+            overflow-x: hidden; 
+            user-select: none;
+        }
+
+        /* Header */
         header { 
             height: 65px; display: flex; align-items: center; justify-content: space-between; 
-            padding: 0 15px; background: rgba(0,0,0,0.8); position: sticky; top: 0; z-index: 1000; backdrop-filter: blur(10px);
+            padding: 0 15px; background: rgba(0,0,0,0.85); position: sticky; top: 0; z-index: 1000; backdrop-filter: blur(15px);
         }
-        .logo { font-weight: 900; font-size: 1.3rem; letter-spacing: -1px; text-transform: uppercase; }
+        .logo { font-weight: 900; font-size: 1.4rem; letter-spacing: -1px; color: var(--accent); }
 
+        /* Buscador */
         .search-wrapper { position: relative; display: flex; align-items: center; }
         .search-input-box { 
-            width: 0; opacity: 0; background: #222; border: none; color: white; 
-            padding: 8px 0; border-radius: 20px; transition: all 0.4s ease; outline: none;
+            width: 0; opacity: 0; background: #1a1a1a; border: none; color: white; 
+            padding: 8px 0; border-radius: 20px; transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); outline: none;
         }
         .search-wrapper.active .search-input-box { width: 180px; opacity: 1; padding: 8px 15px; margin-right: 10px; border: 1px solid var(--accent); }
         .search-circle { 
@@ -26,53 +38,73 @@
         }
         .search-wrapper.active .search-circle { background: var(--accent); color: #000; }
 
+        /* Hero / Destacado */
         #dynamic-header { 
-            width: 100%; height: 45vh; background-size: cover; background-position: center; 
+            width: 100%; height: 50vh; background-size: cover; background-position: center; 
             position: relative; display: flex; align-items: flex-end; transition: 0.5s;
         }
-        .hero-overlay { position: absolute; inset: 0; background: linear-gradient(to top, #000 5%, transparent 60%, rgba(0,0,0,0.4)); }
+        .hero-overlay { position: absolute; inset: 0; background: linear-gradient(to top, #000 5%, transparent 70%, rgba(0,0,0,0.5)); }
         .hero-content { position: relative; z-index: 10; padding: 25px; width: 100%; }
-        .hero-tag { background: var(--accent); color: #000; padding: 3px 10px; border-radius: 4px; font-size: 0.7rem; font-weight: bold; text-transform: uppercase; margin-bottom: 8px; display: inline-block; }
-        .hero-title { font-size: 1.8rem; font-weight: 900; margin: 0 0 15px; text-shadow: 0 2px 10px #000; }
-        .btn-play { background: #fff; color: #000; border: none; padding: 10px 25px; border-radius: 5px; font-weight: bold; display: flex; align-items: center; gap: 8px; width: fit-content; }
+        .hero-tag { background: var(--accent); color: #000; padding: 4px 12px; border-radius: 4px; font-size: 0.7rem; font-weight: bold; text-transform: uppercase; margin-bottom: 10px; display: inline-block; }
+        .hero-title { font-size: 2rem; font-weight: 900; margin: 0 0 18px; text-shadow: 0 2px 15px rgba(0,0,0,0.8); line-height: 1.1; }
+        .btn-play { background: #fff; color: #000; border: none; padding: 12px 28px; border-radius: 6px; font-weight: bold; display: flex; align-items: center; gap: 10px; cursor: pointer; }
 
-        .page { display: none; }
+        /* Secciones y Layout */
+        .page { display: none; animation: fadeIn 0.4s ease; }
         .page.active { display: block; }
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
         .section-label { font-size: 0.75rem; padding: 25px 15px 12px; text-transform: uppercase; color: var(--accent); letter-spacing: 2px; font-weight: 800; }
         
-        /* Estilos de Contenedores */
         .row-scroll { display: flex; overflow-x: auto; gap: 12px; padding: 0 15px; scrollbar-width: none; }
         .row-scroll::-webkit-scrollbar { display: none; }
-        .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; padding: 0 10px; }
         
-        /* Lista de Canales (Guía) */
+        .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; padding: 0 15px; }
+
+        /* Portadas Unificadas */
+        .poster { 
+            aspect-ratio: 2/3; 
+            border-radius: 8px; 
+            overflow: hidden; 
+            background: #111; 
+            position: relative;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+        /* Tamaño fijo para las filas (Continuar, Recientes, etc) */
+        .row-scroll .poster { 
+            min-width: 125px; 
+            max-width: 125px; 
+        }
+        .poster img { width: 100%; height: 100%; object-fit: cover; transition: 0.3s; }
+        .poster:active img { transform: scale(0.95); }
+
+        /* Barra de progreso */
+        .card-prog { position: absolute; bottom: 0; left: 0; height: 4px; background: var(--accent); z-index: 5; border-radius: 0 2px 2px 0; }
+
+        /* Canales */
         .list-channels { display: flex; flex-direction: column; padding: 0 15px; }
         .channel-item { 
-            display: flex; align-items: center; padding: 12px; background: var(--card); 
-            border-bottom: 1px solid var(--line); border-radius: 4px; margin-bottom: 5px; gap: 15px;
+            display: flex; align-items: center; padding: 12px; background: #0f0f0f; 
+            border: 1px solid var(--line); border-radius: 8px; margin-bottom: 8px; gap: 15px;
         }
-        .channel-item img { width: 50px; height: 35px; object-fit: contain; background: #000; border-radius: 4px; }
+        .channel-item img { width: 60px; height: 40px; object-fit: contain; background: #000; border-radius: 4px; }
         .channel-info { flex: 1; }
-        .channel-name { font-weight: 600; font-size: 0.95rem; }
-        .channel-live { font-size: 0.7rem; color: var(--accent); text-transform: uppercase; font-weight: 800; margin-top: 2px; }
+        .channel-name { font-weight: 600; font-size: 0.95rem; margin-bottom: 2px; }
+        .channel-live { font-size: 0.65rem; color: #00ff88; text-transform: uppercase; font-weight: 800; display: flex; align-items: center; gap: 5px; }
 
-        /* Poster de Película */
-        .poster { aspect-ratio: 2/3; border-radius: 8px; overflow: hidden; background: var(--card); position: relative; }
-        .poster img { width: 100%; height: 100%; object-fit: cover; }
-        .card-prog { position: absolute; bottom: 0; left: 0; height: 3px; background: var(--accent); z-index: 2; }
-
-        nav { position: fixed; bottom: 0; width: 100%; height: 75px; background: #000; display: flex; border-top: 1px solid var(--line); z-index: 2000; }
-        .nav-item { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; font-size: 0.6rem; color: #555; text-decoration: none; font-weight: bold; }
+        /* Navegación */
+        nav { position: fixed; bottom: 0; width: 100%; height: 75px; background: rgba(0,0,0,0.95); display: flex; border-top: 1px solid var(--line); z-index: 2000; backdrop-filter: blur(10px); }
+        .nav-item { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; font-size: 0.6rem; color: #666; text-decoration: none; font-weight: bold; transition: 0.3s; }
         .nav-item.active { color: var(--accent); }
-        .nav-item i { font-size: 1.3rem; margin-bottom: 5px; }
+        .nav-item i { font-size: 1.4rem; margin-bottom: 4px; }
     </style>
 </head>
 <body>
 
     <header>
-        <div class="logo"><span style="color:var(--accent)"></span></div>
+        <div class="logo">STREAM<span>BOX</span></div>
         <div class="search-wrapper" id="search-wrapper">
-            <input type="text" class="search-input-box" id="q" placeholder="Buscar..." oninput="filtrar()">
+            <input type="text" class="search-input-box" id="q" placeholder="Películas, series..." oninput="filtrar()">
             <div class="search-circle" onclick="toggleSearch()">
                 <i class="fas fa-search"></i>
             </div>
@@ -83,17 +115,20 @@
         <div id="dynamic-header">
             <div class="hero-overlay"></div>
             <div class="hero-content">
-                <span class="hero-tag" id="hero-tag">Destacado</span>
-                <h1 class="hero-title" id="hero-title">Cargando...</h1>
+                <span class="hero-tag" id="hero-tag">Cargando</span>
+                <h1 class="hero-title" id="hero-title">...</h1>
                 <button class="btn-play" id="hero-btn"><i class="fas fa-play"></i> VER AHORA</button>
             </div>
         </div>
+
         <div id="sec-continuar" style="display:none">
             <div class="section-label">Continuar viendo</div>
             <div class="row-scroll" id="row-continuar"></div>
         </div>
+
         <div class="section-label">Añadidos recientemente</div>
         <div class="row-scroll" id="row-recientes"></div>
+
         <div class="section-label">Series recomendadas</div>
         <div class="row-scroll" id="row-series"></div>
     </main>
@@ -104,7 +139,7 @@
     </main>
 
     <main id="view-canales" class="page">
-        <div class="section-label">Guía de canales</div>
+        <div class="section-label">Televisión en vivo</div>
         <div id="list-tv" class="list-channels"></div>
     </main>
 
@@ -135,7 +170,7 @@
                         if(url && url.startsWith('http')) {
                             const group = l.match(/group-title="(.*?)"/);
                             dbT.push({ 
-                                title: l.split(',')[1]?.trim() || "Canal sin nombre", 
+                                title: l.split(',')[1]?.trim() || "Canal TV", 
                                 logo: l.match(/tvg-logo="(.*?)"/)?.[1] || "https://via.placeholder.com/100x60?text=TV", 
                                 url: url,
                                 isEvent: group && group[1].toUpperCase() === "EVENTO"
@@ -149,7 +184,7 @@
                 setupInicio();
                 renderMovies(true);
                 renderTV(true);
-            } catch (e) { console.error(e); }
+            } catch (e) { console.error("Error cargando datos:", e); }
         }
 
         function setupInicio() {
@@ -169,7 +204,7 @@
                     titulosVistos.add(baseTitle);
                     const item = dbM.find(m => m.title === baseTitle || m.title === k);
                     if(item) {
-                        const card = createCard(item, 'poster', true);
+                        const card = createCard(item, 'poster');
                         const percent = (progress[k].cur / progress[k].dur) * 100;
                         const bar = document.createElement('div');
                         bar.className = 'card-prog'; bar.style.width = `${percent}%`;
@@ -181,20 +216,19 @@
 
             document.getElementById('sec-continuar').style.display = titulosVistos.size > 0 ? 'block' : 'none';
 
-            dbM.filter(m => !titulosVistos.has(m.title)).slice(0, 15).forEach(m => rec.appendChild(createCard(m, 'poster', true)));
-            dbM.filter(m => m.episodes && !titulosVistos.has(m.title)).slice(0, 15).forEach(m => ser.appendChild(createCard(m, 'poster', true)));
+            // Carruseles de inicio
+            dbM.filter(m => !titulosVistos.has(m.title)).slice(0, 15).forEach(m => rec.appendChild(createCard(m, 'poster')));
+            dbM.filter(m => m.episodes && !titulosVistos.has(m.title)).slice(0, 15).forEach(m => ser.appendChild(createCard(m, 'poster')));
         }
 
-        function createCard(item, cls, isRow = false) {
+        function createCard(item, cls) {
             const d = document.createElement('div');
             d.className = cls;
-            if(isRow) d.style.minWidth = "120px";
-            d.innerHTML = `<img src="${item.coverImage || item.logo}" loading="lazy">`;
+            d.innerHTML = `<img src="${item.coverImage || item.logo}" loading="lazy" onerror="this.src='https://via.placeholder.com/200x300?text=No+Image'">`;
             d.onclick = () => openContent(item);
             return d;
         }
 
-        // Nueva función para renderizar ítems de canal en lista
         function createChannelItem(item) {
             const d = document.createElement('div');
             d.className = 'channel-item';
@@ -202,9 +236,9 @@
                 <img src="${item.logo}" onerror="this.src='https://via.placeholder.com/100x60?text=TV'">
                 <div class="channel-info">
                     <div class="channel-name">${item.title}</div>
-                    <div class="channel-live"><i class="fas fa-circle" style="font-size:0.5rem"></i> En Vivo</div>
+                    <div class="channel-live"><i class="fas fa-circle" style="font-size:0.5rem; color:#00ff88"></i> EN VIVO</div>
                 </div>
-                <i class="fas fa-play-circle" style="font-size: 1.5rem; color: var(--accent)"></i>
+                <i class="fas fa-play-circle" style="font-size: 1.6rem; color: var(--accent)"></i>
             `;
             d.onclick = () => openContent(item);
             return d;
@@ -215,12 +249,12 @@
             const grid = document.getElementById('grid-catalogo');
             if(reset) { grid.innerHTML = ''; curM = 0; }
             
-            const batch = filteredM.slice(curM, curM + 30);
+            const batch = filteredM.slice(curM, curM + 24);
             if(batch.length === 0) return;
             
             isLoading = true;
             batch.forEach(m => grid.appendChild(createCard(m, 'poster')));
-            curM += 30;
+            curM += 24;
             isLoading = false;
         }
 
@@ -299,7 +333,7 @@
         }
 
         window.onscroll = () => {
-            if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 600) {
+            if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 800) {
                 if(activeTab === 'catalogo') renderMovies();
                 if(activeTab === 'canales') renderTV();
             }
