@@ -8,14 +8,12 @@
         :root { --bg: #000; --accent: #00e1b5; --card: #111; --text-dim: #888; }
         body { font-family: 'Segoe UI', sans-serif; background: var(--bg); color: white; margin: 0; padding-bottom: 90px; overflow-x: hidden; }
         
-        /* HEADER DINÁMICO */
         header { 
             height: 65px; display: flex; align-items: center; justify-content: space-between; 
             padding: 0 15px; background: rgba(0,0,0,0.8); position: sticky; top: 0; z-index: 1000; backdrop-filter: blur(10px);
         }
-        .logo { font-weight: 900; font-size: 1.3rem; letter-spacing: -1px; }
+        .logo { font-weight: 900; font-size: 1.3rem; letter-spacing: -1px; text-transform: uppercase; }
 
-        /* BUSCADOR CIRCULAR INTERACTIVO */
         .search-wrapper { position: relative; display: flex; align-items: center; }
         .search-input-box { 
             width: 0; opacity: 0; background: #222; border: none; color: white; 
@@ -28,7 +26,6 @@
         }
         .search-wrapper.active .search-circle { background: var(--accent); color: #000; }
 
-        /* BANNER DINÁMICO (EVENTO O ALEATORIO) */
         #dynamic-header { 
             width: 100%; height: 45vh; background-size: cover; background-position: center; 
             position: relative; display: flex; align-items: flex-end; transition: 0.5s;
@@ -39,7 +36,6 @@
         .hero-title { font-size: 1.8rem; font-weight: 900; margin: 0 0 15px; text-shadow: 0 2px 10px #000; }
         .btn-play { background: #fff; color: #000; border: none; padding: 10px 25px; border-radius: 5px; font-weight: bold; display: flex; align-items: center; gap: 8px; width: fit-content; }
 
-        /* SECCIONES Y GRIDS */
         .page { display: none; }
         .page.active { display: block; }
         .section-label { font-size: 0.75rem; padding: 25px 15px 12px; text-transform: uppercase; color: var(--accent); letter-spacing: 2px; font-weight: 800; }
@@ -48,12 +44,15 @@
         .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; padding: 0 10px; }
         .grid-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; padding: 0 15px; }
         
-        .poster { aspect-ratio: 2/3; border-radius: 8px; overflow: hidden; background: var(--card); }
+        .poster { aspect-ratio: 2/3; border-radius: 8px; overflow: hidden; background: var(--card); position: relative; }
         .poster img { width: 100%; height: 100%; object-fit: cover; }
+        
+        /* Indicador de progreso visual */
+        .card-prog { position: absolute; bottom: 0; left: 0; height: 3px; background: var(--accent); z-index: 2; }
+
         .card-ch { aspect-ratio: 16/9; background: var(--card); border: 1px solid #222; border-radius: 8px; display: flex; align-items: center; justify-content: center; overflow: hidden; }
         .card-ch img { width: 70%; height: 70%; object-fit: contain; }
 
-        /* NAVBAR */
         nav { position: fixed; bottom: 0; width: 100%; height: 75px; background: #000; display: flex; border-top: 1px solid #1a1a1a; z-index: 2000; }
         .nav-item { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; font-size: 0.6rem; color: #555; text-decoration: none; font-weight: bold; }
         .nav-item.active { color: var(--accent); }
@@ -63,7 +62,7 @@
 <body>
 
     <header>
-        <div class="logo">PLAY<span style="color:var(--accent)">BOX</span></div>
+        <div class="logo">STREAM<span style="color:var(--accent)">HUB</span></div>
         <div class="search-wrapper" id="search-wrapper">
             <input type="text" class="search-input-box" id="q" placeholder="Buscar..." oninput="filtrar()">
             <div class="search-circle" onclick="toggleSearch()">
@@ -82,8 +81,14 @@
             </div>
         </div>
 
+        <div id="sec-continuar" style="display:none">
+            <div class="section-label">Continuar viendo</div>
+            <div class="row-scroll" id="row-continuar"></div>
+        </div>
+
         <div class="section-label">Añadidos recientemente</div>
         <div class="row-scroll" id="row-recientes"></div>
+        
         <div class="section-label">Series recomendadas</div>
         <div class="row-scroll" id="row-series"></div>
     </main>
@@ -120,13 +125,17 @@
                 const lines = (await resT.text()).split('\n');
                 lines.forEach((l, i) => {
                     if(l.includes('#EXTINF:')) {
-                        const group = l.match(/group-title="(.*?)"/);
-                        dbT.push({ 
-                            title: l.split(',')[1]?.trim(), 
-                            logo: l.match(/tvg-logo="(.*?)"/)?.[1], 
-                            url: lines[i+1]?.trim(),
-                            isEvent: group && group[1].toUpperCase() === "EVENTO"
-                        });
+                        const url = lines[i+1]?.trim();
+                        // Filtro: Solo canales con URL válida
+                        if(url && url.startsWith('http')) {
+                            const group = l.match(/group-title="(.*?)"/);
+                            dbT.push({ 
+                                title: l.split(',')[1]?.trim(), 
+                                logo: l.match(/tvg-logo="(.*?)"/)?.[1], 
+                                url: url,
+                                isEvent: group && group[1].toUpperCase() === "EVENTO"
+                            });
+                        }
                     }
                 });
 
@@ -138,8 +147,46 @@
             } catch (e) { console.error(e); }
         }
 
+        function setupInicio() {
+            // 1. Continuar Viendo (Lógica de 10s y máx 15)
+            const rowCont = document.getElementById('row-continuar');
+            const secCont = document.getElementById('sec-continuar');
+            const progress = JSON.parse(localStorage.getItem('pbox_progress') || '{}');
+            
+            // Filtramos las películas/series con progreso > 10s y las ordenamos por las más recientes
+            const keys = Object.keys(progress)
+                .filter(k => progress[k].cur > 10)
+                .slice(-15) // Máximo 15
+                .reverse();
+
+            if(keys.length > 0) {
+                secCont.style.display = 'block';
+                keys.forEach(k => {
+                    // Buscamos el item en la DB (por título simple o base de la serie)
+                    const baseTitle = k.split('_E')[0]; 
+                    const item = dbM.find(m => m.title === baseTitle || m.title === k);
+                    if(item) {
+                        const card = createCard(item, 'poster', true);
+                        const percent = (progress[k].cur / progress[k].dur) * 100;
+                        const bar = document.createElement('div');
+                        bar.className = 'card-prog';
+                        bar.style.width = `${percent}%`;
+                        card.appendChild(bar);
+                        rowCont.appendChild(card);
+                    }
+                });
+            }
+
+            // 2. Recientes y Series
+            const rec = document.getElementById('row-recientes');
+            dbM.slice(0, 15).forEach(m => rec.appendChild(createCard(m, 'poster', true)));
+            
+            const ser = document.getElementById('row-series');
+            dbM.filter(m => m.episodes).slice(0, 15).forEach(m => ser.appendChild(createCard(m, 'poster', true)));
+        }
+
         function renderDynamicHeader() {
-            const evento = dbT.find(t => t.isEvent && t.url && t.url.startsWith('http'));
+            const evento = dbT.find(t => t.isEvent);
             const header = document.getElementById('dynamic-header');
             const title = document.getElementById('hero-title');
             const tag = document.getElementById('hero-tag');
@@ -149,45 +196,14 @@
                 header.style.backgroundImage = `url(${evento.logo})`;
                 title.innerText = evento.title;
                 tag.innerText = "Evento en vivo";
-                tag.style.background = "var(--accent)";
                 btn.onclick = () => openContent(evento);
             } else {
                 const random = dbM[Math.floor(Math.random() * dbM.length)];
                 header.style.backgroundImage = `url(${random.coverImage})`;
                 title.innerText = random.title;
                 tag.innerText = random.episodes ? "Serie sugerida" : "Película sugerida";
-                tag.style.background = "#fff";
                 btn.onclick = () => openContent(random);
             }
-        }
-
-        function toggleSearch() {
-            const wrapper = document.getElementById('search-wrapper');
-            const input = document.getElementById('q');
-            wrapper.classList.toggle('active');
-            if(wrapper.classList.contains('active')) input.focus();
-            else { input.value = ''; filtrar(); }
-        }
-
-        function setupInicio() {
-            const rec = document.getElementById('row-recientes');
-            dbM.slice(0, 10).forEach(m => rec.appendChild(createCard(m, 'poster', true)));
-            const ser = document.getElementById('row-series');
-            dbM.filter(m => m.episodes).slice(0, 10).forEach(m => ser.appendChild(createCard(m, 'poster', true)));
-        }
-
-        function renderMovies(reset = false) {
-            const grid = document.getElementById('grid-catalogo');
-            if(reset) { grid.innerHTML = ''; curM = 0; }
-            filteredM.slice(curM, curM + 30).forEach(m => grid.appendChild(createCard(m, 'poster')));
-            curM += 30;
-        }
-
-        function renderTV(reset = false) {
-            const grid = document.getElementById('grid-tv');
-            if(reset) { grid.innerHTML = ''; curT = 0; }
-            filteredT.slice(curT, curT + 30).forEach(t => grid.appendChild(createCard(t, 'card-ch')));
-            curT += 30;
         }
 
         function createCard(item, cls, isRow = false) {
@@ -218,6 +234,28 @@
             document.getElementById('view-' + tab).classList.add('active');
             el.classList.add('active');
             window.scrollTo(0,0);
+        }
+
+        function renderMovies(reset = false) {
+            const grid = document.getElementById('grid-catalogo');
+            if(reset) { grid.innerHTML = ''; curM = 0; }
+            filteredM.slice(curM, curM + 30).forEach(m => grid.appendChild(createCard(m, 'poster')));
+            curM += 30;
+        }
+
+        function renderTV(reset = false) {
+            const grid = document.getElementById('grid-tv');
+            if(reset) { grid.innerHTML = ''; curT = 0; }
+            filteredT.slice(curT, curT + 30).forEach(t => grid.appendChild(createCard(t, 'card-ch')));
+            curT += 30;
+        }
+
+        function toggleSearch() {
+            const wrapper = document.getElementById('search-wrapper');
+            const input = document.getElementById('q');
+            wrapper.classList.toggle('active');
+            if(wrapper.classList.contains('active')) input.focus();
+            else { input.value = ''; filtrar(); }
         }
 
         function filtrar() {
