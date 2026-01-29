@@ -1,5 +1,123 @@
 [
   {
+    "title": "Misterios Del Titanic",
+    "description": "James Cameron regresa al lugar de su mayor éxito cinematográfico, el pecio del Titanic, acompañado por un equipo de historiadores y expertos marinos para explorar el interior del barco como nunca antes.",
+    "year": 2003,
+    "studio": "Netflix",
+    "coverImage": "https://content.jwplatform.com/v2/media/o2E37V3E/poster.jpg?width=720",
+    "genre": ["Documental"],
+    "video_url": "https://content.jwplatform.com/videos/o2E37V3E-THiuP2Ag.mp4"
+  },
+  {
+    "title": "Un Paseo Para Recordar",
+    "description": "Landon Carter es un joven rebelde que se ve obligado a participar en una obra de teatro escolar. Allí conoce a Jamie Sullivan, la hija del reverendo, quien cambiará su vida de una manera que nunca imaginó.",
+    "year": 2002,
+    "studio": "Warner Bros.",
+    "coverImage": "https://content.jwplatform.com/v2/media/kefS5lYS/poster.jpg?width=720",
+    "genre": ["Romance", "Drama"],
+    "video_url": "https://cdn.jwplayer.com/videos/kefS5lYS-6XqMq52b.mp4"
+  },
+  {
+    "title": "La Momia Regresa",
+    "description": "El cuerpo de Imhotep es transportado a un museo en Londres, donde vuelve a despertar para desatar su furia. Rick y Evelyn deben enfrentarse a una amenaza aún mayor: el Rey Escorpión.",
+    "year": 2001,
+    "studio": "Universal Pictures",
+    "coverImage": "https://content.jwplatform.com/v2/media/EgN1x209/poster.jpg?width=720",
+    "genre": ["Acción", "Aventura", "Fantasía"],
+    "video_url": "https://cdn.jwplayer.com/videos/EgN1x209-A8bbuR7f.mp4"
+  },
+  {
+    "title": "La Caída Del Halcón Negro",
+    "description": "Basada en hechos reales, narra la misión de un grupo de soldados de élite estadounidenses en Mogadiscio, Somalia, que se convierte en una desesperada batalla por la supervivencia tras ser derribados.",
+    "year": 2001,
+    "studio": "Columbia Pictures",
+    "coverImage": "https://content.jwplatform.com/v2/media/9usIVQjV/poster.jpg?width=720",
+    "genre": ["Bélico", "Acción", "Historia"],
+    "video_url": "https://content.jwplatform.com/videos/9usIVQjV-tCazV2g1.mp4"
+  },
+  {
+    "title": "Spirit: El Corcel Indomable",
+    "description": "Un valiente semental mustang viaja a través de la frontera estadounidense, entabla amistad con un joven guerrero lakota y encuentra el amor mientras lucha por recuperar su libertad.",
+    "year": 2002,
+    "studio": "DreamWorks Animation",
+    "coverImage": "https://static.wikia.nocookie.net/cine/images/9/95/Spirit.jpg",
+    "genre": ["Animación", "Aventura", "Familia"],
+    "video_url": "https://cdn.jwplayer.com/videos/ir8iKMME-4og03H3s.mp4"
+  },
+  {
+    "title": "Troya",
+    "description": "La adaptación épica de la Ilíada de Homero que narra la guerra entre los griegos y los troyanos tras el rapto de Helena, destacando la legendaria figura de Aquiles.",
+    "year": 2004,
+    "studio": "Warner Bros.",
+    "coverImage": "https://assets-jpcust.jwpsrv.com/thumbnails/lcknon3g-720.jpg",
+    "genre": ["Épico", "Acción", "Drama"],
+    "video_url": "https://cdn.jwplayer.com/videos/h5wXjCyq-4og03H3s.mp4"
+  },
+  {
+    "title": "Grandes Héroes (Big Hero 6)",
+    "description": "Hiro Hamada, un prodigio de la robótica, une fuerzas con un robot inflable llamado Baymax y sus amigos para formar un equipo de héroes de alta tecnología en San Fransokyo.",
+    "year": 2014,
+    "studio": "Disney",
+    "coverImage": "https://content.jwplatform.com/v2/media/ndzRpXLB/poster.jpg?width=720",
+    "genre": ["Animación", "Ciencia ficción", "Acción"],
+    "video_url": "https://content.jwplatform.com/videos/ndzRpXLB-fLxnl7pD.mp4"
+  },
+  {
+    "title": "Forrest Gump",
+    "description": "La vida de Forrest Gump, un hombre con un coeficiente intelectual bajo pero un corazón enorme, que presencia y participa en algunos de los eventos más importantes de la historia de EE. UU.",
+    "year": 1994,
+    "studio": "Paramount Pictures",
+    "coverImage": "https://content.jwplatform.com/v2/media/chNHvmdw/poster.jpg?width=720",
+    "genre": ["Drama", "Romance"],
+    "video_url": "https://content.jwplatform.com/videos/chNHvmdw-fLxnl7pD.mp4"
+  },
+  {
+    "title": "El Club De La Pelea",
+    "description": "Un empleado de oficina insomne y un carismático vendedor de jabón forman un club de lucha clandestino que evoluciona hacia algo mucho más siniestro y revolucionario.",
+    "year": 1999,
+    "studio": "20th Century Fox",
+    "coverImage": "https://content.jwplatform.com/v2/media/xz58ji8I/poster.jpg?width=720",
+    "genre": ["Drama", "Suspenso"],
+    "video_url": "https://content.jwplatform.com/videos/xz58ji8I-cYK6OWDB.mp4"
+  },
+  {
+    "title": "Transformers",
+    "description": "La guerra entre los heroicos Autobots y los malvados Decepticons se traslada a la Tierra, donde un joven llamado Sam Witwicky tiene la clave para salvar a la humanidad.",
+    "year": 2007,
+    "studio": "Paramount Pictures / Netflix",
+    "coverImage": "https://content.jwplatform.com/v2/media/5ECkiwIl/poster.jpg?width=720",
+    "genre": ["Acción", "Ciencia ficción"],
+    "video_url": "https://content.jwplatform.com/videos/5ECkiwIl-j5xkbKxc.mp4"
+  },
+  {
+    "title": "El Lobo De Wall Street",
+    "description": "La verdadera historia de Jordan Belfort, desde su ascenso como un exitoso corredor de bolsa hasta su caída involucrando crímenes federales y una vida de excesos.",
+    "year": 2013,
+    "studio": "Paramount Pictures",
+    "coverImage": "https://content.jwplatform.com/v2/media/zfUzDIU8/poster.jpg?width=720",
+    "genre": ["Biografía", "Comedia", "Drama"],
+    "video_url": "https://content.jwplatform.com/videos/zfUzDIU8-H6HLvZxB.mp4"
+  },
+  {
+    "title": "Matrix",
+    "description": "Un programador de computadoras descubre que el mundo en el que vive es una simulación virtual creada por máquinas, y se une a una rebelión para liberar a la humanidad.",
+    "year": 1999,
+    "studio": "Warner Bros.",
+    "coverImage": "https://content.jwplatform.com/v2/media/BdE5Y7qC/poster.jpg?width=720",
+    "genre": ["Ciencia ficción", "Acción"],
+    "video_url": "https://content.jwplatform.com/videos/BdE5Y7qC-eYck8VyA.mp4"
+  },
+  {
+    "title": "Siempre A Tu Lado (Hachiko)",
+    "description": "Un profesor universitario adopta a un perro de raza Akita. La lealtad del animal hacia su dueño se convierte en una leyenda que conmueve a toda una ciudad.",
+    "year": 2009,
+    "studio": "Stage 6 Films",
+    "coverImage": "https://content.jwplatform.com/v2/media/Q5r2eRdV/poster.jpg?width=720",
+    "genre": ["Drama", "Familia"],
+    "video_url": "https://content.jwplatform.com/videos/Q5r2eRdV-H6HLvZxB.mp4"
+  },
+  
+  {
     "title": "Battery",
     "original_title": "Battery: The Animation",
     "year": 2016,
