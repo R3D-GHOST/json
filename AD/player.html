@@ -11,12 +11,17 @@
         #video-wrapper { 
             width: 100%; height: 100%; opacity: 0; 
             transition: opacity 0.8s ease; display: flex; 
-            align-items: center; justify-content: center;
+            align-items: center; justify-content: center; background: #000;
         }
 
-        video { width: 100%; height: auto; max-height: 100%; z-index: 1; pointer-events: none; }
+        /* Fuerza el estiramiento a 16:9 si el video es 4:3 */
+        video { 
+            width: 100vw; 
+            height: 100vh; 
+            object-fit: fill; /* Esto estira el video para llenar toda la pantalla */
+            z-index: 1; 
+        }
 
-        /* UI Overlay */
         .ui-overlay { 
             position: absolute; inset: 0; z-index: 50; 
             background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, transparent 50%, rgba(0,0,0,0.8) 100%); 
@@ -28,11 +33,9 @@
         .top-bar { padding: 25px; display: flex; align-items: center; gap: 15px; color: white; }
         .v-title { font-size: 1rem; font-weight: bold; text-shadow: 0 2px 4px #000; }
 
-        /* Controles estilo YouTube con colores Originales */
         .bottom-ctrls { width: 100%; padding: 0 20px 25px; box-sizing: border-box; }
-        
-        .prog-container { width: 100%; height: 4px; background: rgba(255,255,255,0.2); margin-bottom: 20px; border-radius: 10px; cursor: pointer; position: relative; }
-        .bar-fill { height: 100%; background: var(--accent); width: 0%; border-radius: 10px; box-shadow: 0 0 10px rgba(0,225,181,0.5); }
+        .prog-container { width: 100%; height: 6px; background: rgba(255,255,255,0.2); margin-bottom: 20px; border-radius: 10px; cursor: pointer; position: relative; }
+        .bar-fill { height: 100%; background: var(--accent); width: 0%; border-radius: 10px; }
 
         .ctrl-row { display: flex; align-items: center; justify-content: space-between; color: #fff; }
         .left-side { display: flex; align-items: center; gap: 25px; }
@@ -50,11 +53,11 @@
     <div id="next-notice">Siguiente episodio en 3...</div>
     
     <div id="video-wrapper" onclick="toggleUI()">
-        <video id="vid" playsinline></video>
+        <video id="vid" playsinline crossorigin="anonymous"></video>
         
         <div class="ui-overlay" id="ui">
             <div class="top-bar">
-                <i class="fas fa-chevron-left" onclick="history.back()"></i>
+                <i class="fas fa-chevron-left" onclick="history.back()" style="font-size: 1.2rem;"></i>
                 <div class="v-title" id="v-title">Cargando...</div>
             </div>
 
@@ -64,11 +67,11 @@
                 </div>
                 <div class="ctrl-row">
                     <div class="left-side">
-                        <i class="fas fa-pause" id="pp" onclick="togglePlay()" style="font-size: 1.5rem; color: var(--accent);"></i>
+                        <i class="fas fa-pause" id="pp" onclick="togglePlay()" style="font-size: 1.8rem; color: var(--accent);"></i>
                         <div class="time-display"><span id="curr">0:00</span> / <span id="rem">-0:00</span></div>
                     </div>
                     <div class="right-side">
-                        <i class="fas fa-expand" id="fs-icon" onclick="toggleFullScreen()" style="font-size: 1.3rem;"></i>
+                        <i class="fas fa-expand" id="fs-icon" onclick="toggleFullScreen()" style="font-size: 1.5rem; padding: 10px;"></i>
                     </div>
                 </div>
             </div>
@@ -82,45 +85,44 @@
         let hideTimer;
 
         function cargarVideo() {
-            vid.src = localStorage.getItem('pbox_url');
-            document.getElementById('v-title').innerText = localStorage.getItem('pbox_title');
-            vid.load();
-            
-            // Intento de reproducción automática (puede requerir un toque previo en el catálogo)
-            vid.play().then(() => {
-                if(window.innerHeight < window.innerWidth) toggleFullScreen(); 
-            }).catch(() => {
-                console.log("Esperando interacción del usuario");
-            });
-        }
+            const url = localStorage.getItem('pbox_url');
+            const title = localStorage.getItem('pbox_title');
+            const resumeAction = localStorage.getItem('pbox_resume_action');
+            const epKey = localStorage.getItem('pbox_current_ep_key');
 
-        // Función para cambiar entre Fullscreen y modo normal
-        function toggleFullScreen() {
-            if (!document.fullscreenElement && !document.webkitFullscreenElement) {
-                const el = document.documentElement;
-                if (el.requestFullscreen) el.requestFullscreen();
-                else if (el.webkitRequestFullscreen) el.webkitRequestFullscreen();
-                fsIcon.className = "fas fa-compress"; // Cambia al icono opuesto
-                if (screen.orientation && screen.orientation.lock) screen.orientation.lock('landscape').catch(()=>{});
-            } else {
-                if (document.exitFullscreen) document.exitFullscreen();
-                else if (document.webkitExitFullscreen) document.webkitExitFullscreen();
-                fsIcon.className = "fas fa-expand"; // Vuelve al original
-            }
-        }
+            vid.src = url;
+            document.getElementById('v-title').innerText = title;
 
-        // Listener para actualizar el icono si el usuario usa gestos del sistema
-        document.addEventListener('fullscreenchange', () => {
-            if (!document.fullscreenElement) fsIcon.className = "fas fa-expand";
-        });
-
-        vid.ontimeupdate = () => {
-            if (vid.currentTime > 0.5) {
+            vid.onloadedmetadata = () => {
+                // LOGICA DE RETOMAR TIEMPO
+                if (resumeAction === 'yes' && epKey) {
+                    const progress = JSON.parse(localStorage.getItem('pbox_progress')) || {};
+                    if (progress[epKey]) {
+                        vid.currentTime = progress[epKey].cur;
+                    }
+                }
+                localStorage.removeItem('pbox_resume_action'); // Limpiar para la próxima
+                
+                vid.play();
                 wrapper.style.opacity = "1";
                 document.getElementById('loader').style.display = 'none';
+                resetTimer();
+            };
+        }
+
+        function toggleFullScreen() {
+            if (!document.fullscreenElement) {
+                document.documentElement.requestFullscreen().catch(e => console.log(e));
+                if (screen.orientation && screen.orientation.lock) screen.orientation.lock('landscape').catch(()=>{});
+                fsIcon.className = "fas fa-compress";
+            } else {
+                document.exitFullscreen();
+                fsIcon.className = "fas fa-expand";
             }
-            
-            // Guardar progreso
+        }
+
+        vid.ontimeupdate = () => {
+            // Guardar progreso cada segundo
             const epKey = localStorage.getItem('pbox_current_ep_key');
             if(epKey && vid.duration > 0) {
                 const progress = JSON.parse(localStorage.getItem('pbox_progress')) || {};
@@ -149,13 +151,18 @@
         }
 
         function toggleUI() {
-            document.getElementById('ui').classList.toggle('hidden');
-            resetTimer();
+            const ui = document.getElementById('ui');
+            ui.classList.toggle('hidden');
+            if(!ui.classList.contains('hidden')) resetTimer();
         }
 
         function resetTimer() {
             clearTimeout(hideTimer);
-            if (!vid.paused) hideTimer = setTimeout(() => document.getElementById('ui').classList.add('hidden'), 3500);
+            if (!vid.paused) {
+                hideTimer = setTimeout(() => {
+                    document.getElementById('ui').classList.add('hidden');
+                }, 4000);
+            }
         }
 
         function manualSeek(e) {
@@ -175,6 +182,7 @@
                         localStorage.setItem('pbox_url', nextEp.video_url);
                         localStorage.setItem('pbox_title', serieData.title + " E" + (currentNum + 1));
                         localStorage.setItem('pbox_current_ep_key', serieData.title + "_E" + (currentNum + 1));
+                        localStorage.setItem('pbox_resume_action', 'no');
                         location.reload();
                     }, 3000);
                     return;
