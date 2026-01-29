@@ -6,49 +6,20 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <style>
         :root { --bg: #000; --accent: #00e1b5; --card: #111; --text-dim: #555; }
-        body { font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background: var(--bg); color: white; margin: 0; padding-bottom: 90px; }
-        
-        header { 
-            height: 65px; display: flex; align-items: center; padding: 0 15px; 
-            background: rgba(0,0,0,0.95); position: sticky; top: 0; z-index: 100; 
-            border-bottom: 1px solid #222; 
-        }
-        
-        .search-box { 
-            flex: 1; display: flex; align-items: center; background: #1a1a1a; 
-            padding: 8px 12px; border-radius: 4px; border: 1px solid #333; margin-left: 15px;
-        }
-        .search-box input { 
-            flex: 1; background: transparent; border: none; color: white; 
-            outline: none; font-size: 0.9rem; 
-        }
-
-        .section-title { 
-            font-size: 0.8rem; padding: 20px 15px 10px; text-transform: uppercase; 
-            color: var(--accent); letter-spacing: 1px; font-weight: bold;
-        }
-
-        .grid-2 { 
-            display: grid; grid-template-columns: repeat(2, 1fr); 
-            gap: 10px; padding: 0 15px; 
-        }
-        
-        .poster { 
-            aspect-ratio: 2/3; background: var(--card); border-radius: 4px; 
-            overflow: hidden; position: relative; transition: transform 0.2s;
-            border: 1px solid #222;
-        }
+        body { font-family: 'Segoe UI', sans-serif; background: var(--bg); color: white; margin: 0; padding-bottom: 90px; }
+        header { height: 65px; display: flex; align-items: center; padding: 0 15px; background: rgba(0,0,0,0.95); position: sticky; top: 0; z-index: 100; border-bottom: 1px solid #222; }
+        .search-box { flex: 1; display: flex; align-items: center; background: #1a1a1a; padding: 8px 12px; border-radius: 4px; border: 1px solid #333; margin-left: 15px; }
+        .search-box input { flex: 1; background: transparent; border: none; color: white; outline: none; font-size: 0.9rem; }
+        .section-title { font-size: 0.8rem; padding: 20px 15px 10px; text-transform: uppercase; color: var(--accent); letter-spacing: 1px; font-weight: bold; }
+        .grid-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; padding: 0 15px; }
+        .poster { aspect-ratio: 2/3; background: var(--card); border-radius: 4px; overflow: hidden; position: relative; border: 1px solid #222; }
         .poster img { width: 100%; height: 100%; object-fit: cover; }
-        .fav-indicator { 
-            position: absolute; top: 8px; right: 8px; color: var(--accent); 
-            font-size: 0.9rem; text-shadow: 0 0 10px rgba(0,0,0,0.8);
-        }
-
-        /* NAVBAR UNIFICADA (Igual que Index) */
+        .fav-indicator { position: absolute; top: 8px; right: 8px; color: var(--accent); font-size: 0.9rem; }
         nav { position: fixed; bottom: 0; width: 100%; height: 70px; background: #000; display: flex; border-top: 1px solid #222; z-index: 1000; }
         .nav-item { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; font-size: 0.6rem; color: var(--text-dim); text-decoration: none; font-weight: bold; }
         .nav-item.active { color: var(--accent); }
         .nav-item i { font-size: 1.2rem; margin-bottom: 4px; }
+        #loading-tag { text-align: center; padding: 20px; color: var(--accent); font-size: 0.8rem; display: none; }
     </style>
 </head>
 <body>
@@ -63,6 +34,7 @@
     <main>
         <h2 class="section-title" id="res-title">Todo el contenido</h2>
         <div id="grid-full" class="grid-2"></div>
+        <div id="loading-tag">Cargando más...</div>
     </main>
 
     <nav>
@@ -74,20 +46,26 @@
     <script>
         const DATA_URL = "https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/data.json";
         let localData = []; 
+        let filteredData = [];
         let favs = JSON.parse(localStorage.getItem('pbox_favs')) || [];
+        let currentIndex = 0;
+        const step = 30;
 
         async function cargarCatalogo() {
             try {
                 const res = await fetch(DATA_URL);
                 localData = await res.json();
-                renderizar(localData);
+                filteredData = localData;
+                renderNextChunk(true);
             } catch (e) { console.error(e); }
         }
 
-        function renderizar(lista) {
+        function renderNextChunk(reset = false) {
             const grid = document.getElementById('grid-full');
-            grid.innerHTML = '';
-            lista.forEach(item => {
+            if(reset) { grid.innerHTML = ''; currentIndex = 0; }
+            
+            const chunk = filteredData.slice(currentIndex, currentIndex + step);
+            chunk.forEach(item => {
                 const card = document.createElement('div');
                 card.className = 'poster';
                 const esFav = favs.includes(item.title);
@@ -104,14 +82,23 @@
                 };
                 grid.appendChild(card);
             });
+            currentIndex += step;
         }
 
         function filtrar() {
             const query = document.getElementById('q').value.toLowerCase();
-            const filtrados = localData.filter(i => i.title.toLowerCase().includes(query));
-            document.getElementById('res-title').innerText = query ? `Resultados (${filtrados.length})` : "Todo el contenido";
-            renderizar(filtrados);
+            filteredData = localData.filter(i => i.title.toLowerCase().includes(query));
+            document.getElementById('res-title').innerText = query ? `Resultados (${filteredData.length})` : "Todo el contenido";
+            renderNextChunk(true);
         }
+
+        // Detector de Scroll para cargar más
+        window.onscroll = () => {
+            if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 500) {
+                if(currentIndex < filteredData.length) renderNextChunk();
+            }
+        };
+
         cargarCatalogo();
     </script>
 </body>
