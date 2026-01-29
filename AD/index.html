@@ -49,37 +49,24 @@
         .hero-title { font-size: 2rem; font-weight: 900; margin: 0 0 18px; text-shadow: 0 2px 15px rgba(0,0,0,0.8); line-height: 1.1; }
         .btn-play { background: #fff; color: #000; border: none; padding: 12px 28px; border-radius: 6px; font-weight: bold; display: flex; align-items: center; gap: 10px; cursor: pointer; }
 
-        /* Secciones y Layout */
+        /* Layout */
         .page { display: none; animation: fadeIn 0.4s ease; }
         .page.active { display: block; }
         @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
 
         .section-label { font-size: 0.75rem; padding: 25px 15px 12px; text-transform: uppercase; color: var(--accent); letter-spacing: 2px; font-weight: 800; }
-        
         .row-scroll { display: flex; overflow-x: auto; gap: 12px; padding: 0 15px; scrollbar-width: none; }
         .row-scroll::-webkit-scrollbar { display: none; }
-        
         .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; padding: 0 15px; }
 
-        /* Portadas Unificadas */
+        /* Portadas */
         .poster { 
-            aspect-ratio: 2/3; 
-            border-radius: 8px; 
-            overflow: hidden; 
-            background: #111; 
-            position: relative;
+            aspect-ratio: 2/3; border-radius: 8px; overflow: hidden; background: #111; position: relative;
             box-shadow: 0 4px 10px rgba(0,0,0,0.3);
         }
-        /* Tamaño fijo para las filas (Continuar, Recientes, etc) */
-        .row-scroll .poster { 
-            min-width: 125px; 
-            max-width: 125px; 
-        }
+        .row-scroll .poster { min-width: 125px; max-width: 125px; }
         .poster img { width: 100%; height: 100%; object-fit: cover; transition: 0.3s; }
         .poster:active img { transform: scale(0.95); }
-
-        /* Barra de progreso */
-        .card-prog { position: absolute; bottom: 0; left: 0; height: 4px; background: var(--accent); z-index: 5; border-radius: 0 2px 2px 0; }
 
         /* Canales */
         .list-channels { display: flex; flex-direction: column; padding: 0 15px; }
@@ -89,12 +76,12 @@
         }
         .channel-item img { width: 60px; height: 40px; object-fit: contain; background: #000; border-radius: 4px; }
         .channel-info { flex: 1; }
-        .channel-name { font-weight: 600; font-size: 0.95rem; margin-bottom: 2px; }
+        .channel-name { font-weight: 600; font-size: 0.95rem; }
         .channel-live { font-size: 0.65rem; color: #00ff88; text-transform: uppercase; font-weight: 800; display: flex; align-items: center; gap: 5px; }
 
         /* Navegación */
         nav { position: fixed; bottom: 0; width: 100%; height: 75px; background: rgba(0,0,0,0.95); display: flex; border-top: 1px solid var(--line); z-index: 2000; backdrop-filter: blur(10px); }
-        .nav-item { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; font-size: 0.6rem; color: #666; text-decoration: none; font-weight: bold; transition: 0.3s; }
+        .nav-item { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; font-size: 0.6rem; color: #666; text-decoration: none; font-weight: bold; }
         .nav-item.active { color: var(--accent); }
         .nav-item i { font-size: 1.4rem; margin-bottom: 4px; }
     </style>
@@ -102,9 +89,9 @@
 <body>
 
     <header>
-        <div class="logo"><span></span></div>
+        <div class="logo"><span>STREAMBOX</span></div>
         <div class="search-wrapper" id="search-wrapper">
-            <input type="text" class="search-input-box" id="q" placeholder="Películas, series..." oninput="filtrar()">
+            <input type="text" class="search-input-box" id="q" placeholder="Buscar..." oninput="filtrar()">
             <div class="search-circle" onclick="toggleSearch()">
                 <i class="fas fa-search"></i>
             </div>
@@ -119,11 +106,6 @@
                 <h1 class="hero-title" id="hero-title">...</h1>
                 <button class="btn-play" id="hero-btn"><i class="fas fa-play"></i> VER AHORA</button>
             </div>
-        </div>
-
-        <div id="sec-continuar" style="display:none">
-            <div class="section-label">Continuar viendo</div>
-            <div class="row-scroll" id="row-continuar"></div>
         </div>
 
         <div class="section-label">Añadidos recientemente</div>
@@ -188,43 +170,18 @@
         }
 
         function setupInicio() {
-            const rowCont = document.getElementById('row-continuar');
             const rec = document.getElementById('row-recientes');
             const ser = document.getElementById('row-series');
-            const progress = JSON.parse(localStorage.getItem('pbox_progress') || '{}');
-            
-            rowCont.innerHTML = ''; rec.innerHTML = ''; ser.innerHTML = '';
+            rec.innerHTML = ''; ser.innerHTML = '';
 
-            const keys = Object.keys(progress).filter(k => progress[k].cur > 10).reverse();
-            const titulosVistos = new Set();
-            
-            keys.forEach(k => {
-                const baseTitle = k.split('_E')[0]; 
-                if (!titulosVistos.has(baseTitle)) {
-                    titulosVistos.add(baseTitle);
-                    const item = dbM.find(m => m.title === baseTitle || m.title === k);
-                    if(item) {
-                        const card = createCard(item, 'poster');
-                        const percent = (progress[k].cur / progress[k].dur) * 100;
-                        const bar = document.createElement('div');
-                        bar.className = 'card-prog'; bar.style.width = `${percent}%`;
-                        card.appendChild(bar);
-                        rowCont.appendChild(card);
-                    }
-                }
-            });
-
-            document.getElementById('sec-continuar').style.display = titulosVistos.size > 0 ? 'block' : 'none';
-
-            // Carruseles de inicio
-            dbM.filter(m => !titulosVistos.has(m.title)).slice(0, 15).forEach(m => rec.appendChild(createCard(m, 'poster')));
-            dbM.filter(m => m.episodes && !titulosVistos.has(m.title)).slice(0, 15).forEach(m => ser.appendChild(createCard(m, 'poster')));
+            dbM.slice(0, 15).forEach(m => rec.appendChild(createCard(m, 'poster')));
+            dbM.filter(m => m.episodes).slice(0, 15).forEach(m => ser.appendChild(createCard(m, 'poster')));
         }
 
         function createCard(item, cls) {
             const d = document.createElement('div');
             d.className = cls;
-            d.innerHTML = `<img src="${item.coverImage || item.logo}" loading="lazy" onerror="this.src='https://via.placeholder.com/200x300?text=No+Image'">`;
+            d.innerHTML = `<img src="${item.coverImage || item.logo}" loading="lazy">`;
             d.onclick = () => openContent(item);
             return d;
         }
@@ -233,7 +190,7 @@
             const d = document.createElement('div');
             d.className = 'channel-item';
             d.innerHTML = `
-                <img src="${item.logo}" onerror="this.src='https://via.placeholder.com/100x60?text=TV'">
+                <img src="${item.logo}">
                 <div class="channel-info">
                     <div class="channel-name">${item.title}</div>
                     <div class="channel-live"><i class="fas fa-circle" style="font-size:0.5rem; color:#00ff88"></i> EN VIVO</div>
@@ -244,14 +201,23 @@
             return d;
         }
 
+        function openContent(item) {
+            const url = item.url || item.video_url;
+            if(item.episodes) {
+                localStorage.setItem('pbox_serie', JSON.stringify(item));
+                window.location.href="cap.html";
+            } else {
+                // REPRODUCTOR <A>: Abrir directamente la URL
+                if(url) window.location.href = url;
+            }
+        }
+
         function renderMovies(reset = false) {
             if(isLoading) return;
             const grid = document.getElementById('grid-catalogo');
             if(reset) { grid.innerHTML = ''; curM = 0; }
-            
             const batch = filteredM.slice(curM, curM + 24);
             if(batch.length === 0) return;
-            
             isLoading = true;
             batch.forEach(m => grid.appendChild(createCard(m, 'poster')));
             curM += 24;
@@ -262,10 +228,8 @@
             if(isLoading) return;
             const list = document.getElementById('list-tv');
             if(reset) { list.innerHTML = ''; curT = 0; }
-            
             const batch = filteredT.slice(curT, curT + 30);
             if(batch.length === 0) return;
-
             isLoading = true;
             batch.forEach(t => list.appendChild(createChannelItem(t)));
             curT += 30;
@@ -290,18 +254,6 @@
                 title.innerText = random.title;
                 tag.innerText = random.episodes ? "Serie sugerida" : "Película sugerida";
                 btn.onclick = () => openContent(random);
-            }
-        }
-
-        function openContent(item) {
-            if(item.episodes) {
-                localStorage.setItem('pbox_serie', JSON.stringify(item));
-                window.location.href="cap.html";
-            } else {
-                localStorage.setItem('pbox_url', item.url || item.video_url);
-                localStorage.setItem('pbox_title', item.title);
-                localStorage.removeItem('pbox_serie');
-                window.location.href="pl.html";
             }
         }
 
