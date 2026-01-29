@@ -11,36 +11,37 @@
             margin: 0; background: var(--bg); height: 100vh; width: 100vw; 
             overflow: hidden; font-family: 'Segoe UI', sans-serif; 
             display: flex; align-items: center; justify-content: center;
+            user-select: none; -webkit-user-select: none;
         }
 
-        #video-container { position: relative; width: 100%; height: 100%; background: #000; }
-        video { width: 100%; height: 100%; object-fit: contain; }
+        #video-container { position: relative; width: 100%; height: 100%; background: #000; overflow: hidden; }
+        video { width: 100%; height: 100%; object-fit: contain; cursor: pointer; }
 
         /* Interfaz */
         .ui-overlay { 
             position: absolute; inset: 0; z-index: 10; 
-            background: linear-gradient(to top, rgba(0,0,0,0.7) 0%, transparent 50%, rgba(0,0,0,0.7) 100%);
+            background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, transparent 40%, transparent 60%, rgba(0,0,0,0.8) 100%);
             display: flex; flex-direction: column; justify-content: space-between;
-            transition: opacity 0.3s;
+            transition: opacity 0.4s ease;
         }
         .hidden { opacity: 0; pointer-events: none; }
 
-        .top { padding: 15px; display: flex; align-items: center; gap: 10px; color: white; }
-        .bottom { padding: 15px 25px 35px; }
+        .top { padding: 20px; display: flex; align-items: center; gap: 15px; color: white; }
+        .bottom { padding: 10px 25px 40px; }
         
         /* Barra de Progreso */
-        .progress-area { width: 100%; height: 5px; background: rgba(255,255,255,0.2); cursor: pointer; margin-bottom: 15px; border-radius: 5px; }
-        .progress-bar { height: 100%; background: var(--accent); width: 0%; border-radius: 5px; position: relative; }
-        .progress-bar::after { content: ''; position: absolute; right: -5px; top: -4px; width: 13px; height: 13px; background: #fff; border-radius: 50%; }
+        .progress-area { width: 100%; height: 6px; background: rgba(255,255,255,0.2); cursor: pointer; margin-bottom: 20px; border-radius: 10px; position: relative; }
+        .progress-bar { height: 100%; background: var(--accent); width: 0%; border-radius: 10px; position: relative; transition: width 0.1s linear; }
+        .progress-bar::after { content: ''; position: absolute; right: -7px; top: -5px; width: 16px; height: 16px; background: #fff; border-radius: 50%; box-shadow: 0 0 10px rgba(0,0,0,0.5); }
 
         .controls { display: flex; align-items: center; justify-content: space-between; color: white; }
-        .btn { cursor: pointer; font-size: 1.5rem; transition: transform 0.1s; }
-        .btn:active { transform: scale(0.9); }
+        .btn { cursor: pointer; font-size: 1.6rem; transition: transform 0.2s; text-shadow: 0 0 5px rgba(0,0,0,0.5); }
+        .btn:active { transform: scale(0.85); }
 
         /* Loader */
         .loader { 
             position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
-            width: 50px; height: 50px; border: 5px solid rgba(255,255,255,0.1);
+            width: 60px; height: 60px; border: 6px solid rgba(255,255,255,0.1);
             border-top-color: var(--accent); border-radius: 50%;
             animation: spin 1s linear infinite; z-index: 20; display: none;
         }
@@ -48,8 +49,8 @@
 
         #error-msg {
             position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
-            color: white; background: rgba(255,0,0,0.6); padding: 10px 20px;
-            border-radius: 5px; display: none; z-index: 30; font-size: 0.8rem;
+            color: white; background: rgba(255,0,0,0.8); padding: 15px 25px;
+            border-radius: 8px; display: none; z-index: 30; font-weight: bold;
         }
     </style>
 </head>
@@ -57,24 +58,24 @@
 
     <div id="video-container">
         <div class="loader" id="loader"></div>
-        <div id="error-msg">Error al cargar el video</div>
+        <div id="error-msg">Error: No se pudo cargar el video</div>
         
         <video id="main-video" playsinline webkit-playsinline crossorigin="anonymous"></video>
 
-        <div class="ui-overlay" id="ui" onclick="handleTap(event)">
+        <div class="ui-overlay" id="ui">
             <div class="top">
                 <i class="fas fa-arrow-left btn" onclick="history.back()"></i>
-                <span id="video-title">Cargando...</span>
+                <span id="video-title" style="font-weight: 600; font-size: 1.1rem;">Cargando...</span>
             </div>
 
-            <div class="bottom" onclick="event.stopPropagation()">
+            <div class="bottom">
                 <div class="progress-area" id="progress-area">
                     <div class="progress-bar" id="progress-bar"></div>
                 </div>
                 <div class="controls">
-                    <div style="display: flex; align-items: center; gap: 20px;">
-                        <i class="fas fa-play btn" id="play-btn" onclick="togglePlay()"></i>
-                        <span style="font-size: 0.8rem; font-family: monospace;" id="time">0:00 / 0:00</span>
+                    <div style="display: flex; align-items: center; gap: 25px;">
+                        <i class="fas fa-play btn" id="play-btn"></i>
+                        <span style="font-size: 0.9rem; font-family: 'Courier New', monospace; letter-spacing: 1px;" id="time">00:00 / 00:00</span>
                     </div>
                     <i class="fas fa-expand btn" onclick="toggleFull()"></i>
                 </div>
@@ -97,38 +98,39 @@
         const title = localStorage.getItem('pbox_title') || "Video";
         document.getElementById('video-title').innerText = title;
 
-        if (!url) return;
+        if (!url) {
+            showError("URL no encontrada");
+            return;
+        }
 
-        // Lógica de "Dos en Uno": HLS para streams/TS y Native para MP4/MKV
         if (url.includes('.m3u8') || url.includes('.ts')) {
             if (Hls.isSupported()) {
                 if (hls) hls.destroy();
-                hls = new Hls({
-                    debug: false,
-                    enableWorker: true,
-                    lowLatencyMode: true
-                });
+                hls = new Hls({ lowLatencyMode: true });
                 hls.loadSource(url);
                 hls.attachMedia(video);
+                hls.on(Hls.Events.MANIFEST_PARSED, () => {
+                    attemptPlay();
+                });
                 hls.on(Hls.Events.ERROR, (event, data) => {
-                    if (data.fatal) {
-                        console.error("Error Fatal HLS:", data.type);
-                        document.getElementById('error-msg').style.display = 'block';
-                    }
+                    if (data.fatal) showError("Error de transmisión");
                 });
             } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
-                // Soporte nativo para Safari/iOS
                 video.src = url;
             }
         } else {
-            // Carga estándar para MP4, MKV, etc.
             video.src = url;
         }
-
         video.load();
     }
 
-    // Controles de UI
+    function attemptPlay() {
+        video.play().catch(() => {
+            ui.classList.remove('hidden');
+            playBtn.className = "fas fa-play";
+        });
+    }
+
     function togglePlay() {
         if (video.paused) {
             video.play();
@@ -142,54 +144,67 @@
         }
     }
 
-    function handleTap(e) {
+    // Manejo de toques en el video
+    video.addEventListener('click', () => {
         if (ui.classList.contains('hidden')) {
             ui.classList.remove('hidden');
             resetTimer();
         } else {
-            if (e.target === ui) ui.classList.add('hidden');
+            togglePlay();
         }
-    }
+    });
+
+    playBtn.onclick = (e) => { e.stopPropagation(); togglePlay(); };
 
     function resetTimer() {
         clearTimeout(hideTimeout);
         if (!video.paused) {
-            hideTimeout = setTimeout(() => ui.classList.add('hidden'), 3500);
+            hideTimeout = setTimeout(() => ui.classList.add('hidden'), 3000);
         }
+    }
+
+    function showError(msg) {
+        const err = document.getElementById('error-msg');
+        err.innerText = msg;
+        err.style.display = 'block';
+        loader.style.display = 'none';
     }
 
     // Eventos de carga
     video.onwaiting = () => loader.style.display = 'block';
-    video.onplaying = () => { loader.style.display = 'none'; resetTimer(); };
-    video.onerror = () => { document.getElementById('error-msg').style.display = 'block'; };
+    video.onplaying = () => { 
+        loader.style.display = 'none'; 
+        playBtn.className = "fas fa-pause";
+        resetTimer(); 
+    };
 
-    // Barra de progreso y tiempo
+    // Barra de progreso
     video.ontimeupdate = () => {
-        const percent = (video.currentTime / video.duration) * 100;
-        progressBar.style.width = percent + '%';
-        
-        const cur = formatTime(video.currentTime);
-        const dur = formatTime(video.duration);
-        document.getElementById('time').innerText = `${cur} / ${dur}`;
-
-        // Guardar progreso
-        const epKey = localStorage.getItem('pbox_current_ep_key');
-        if (epKey && video.currentTime > 0) {
-            const prog = JSON.parse(localStorage.getItem('pbox_progress') || "{}");
-            prog[epKey] = { cur: video.currentTime, dur: video.duration };
-            localStorage.setItem('pbox_progress', JSON.stringify(prog));
+        if (video.duration) {
+            const percent = (video.currentTime / video.duration) * 100;
+            progressBar.style.width = percent + '%';
+            document.getElementById('time').innerText = `${formatTime(video.currentTime)} / ${formatTime(video.duration)}`;
+            
+            // Guardar progreso localmente
+            const epKey = localStorage.getItem('pbox_current_ep_key');
+            if (epKey) {
+                const prog = JSON.parse(localStorage.getItem('pbox_progress') || "{}");
+                prog[epKey] = { cur: video.currentTime, dur: video.duration };
+                localStorage.setItem('pbox_progress', JSON.stringify(prog));
+            }
         }
     };
 
     function formatTime(s) {
-        if (isNaN(s)) return "0:00";
+        if (isNaN(s)) return "00:00";
         const h = Math.floor(s / 3600);
         const m = Math.floor((s % 3600) / 60);
         const sec = Math.floor(s % 60);
-        return (h > 0 ? h + ":" : "") + (m < 10 && h > 0 ? "0" : "") + m + ":" + (sec < 10 ? "0" : "") + sec;
+        return (h > 0 ? h + ":" : "") + (m < 10 ? "0" + m : m) + ":" + (sec < 10 ? "0" + sec : sec);
     }
 
     progressArea.onclick = (e) => {
+        e.stopPropagation();
         const rect = progressArea.getBoundingClientRect();
         const pos = (e.clientX - rect.left) / rect.width;
         video.currentTime = pos * video.duration;
@@ -197,14 +212,15 @@
 
     function toggleFull() {
         if (!document.fullscreenElement) {
-            document.documentElement.requestFullscreen();
+            document.getElementById('video-container').requestFullscreen().catch(err => {
+                video.webkitEnterFullscreen(); // iOS
+            });
             screen.orientation.lock('landscape').catch(() => {});
         } else {
             document.exitFullscreen();
         }
     }
 
-    // Auto-Play al iniciar y resumir
     video.onloadedmetadata = () => {
         const epKey = localStorage.getItem('pbox_current_ep_key');
         const resume = localStorage.getItem('pbox_resume_action');
@@ -213,13 +229,9 @@
             if (prog[epKey]) video.currentTime = prog[epKey].cur;
         }
         localStorage.removeItem('pbox_resume_action');
-        video.play().catch(() => {
-            ui.classList.remove('hidden'); // Mostrar controles si el navegador bloquea autoplay
-        });
-        playBtn.className = "fas fa-pause";
+        attemptPlay();
     };
 
-    // Siguiente episodio
     video.onended = () => {
         const data = JSON.parse(localStorage.getItem('pbox_serie'));
         const key = localStorage.getItem('pbox_current_ep_key');
