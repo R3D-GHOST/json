@@ -54,7 +54,6 @@
         .view-container.active { display: block; animation: fadeIn 0.3s ease; }
         @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
 
-        /* --- ANIMACIONES DE CARGA --- */
         @keyframes cardPop {
             from { opacity: 0; transform: translateY(20px); }
             to { opacity: 1; transform: translateY(0); }
@@ -77,6 +76,18 @@
             letter-spacing: 1px; text-transform: uppercase;
             text-shadow: 0 2px 4px rgba(0,0,0,0.8);
         }
+
+        /* ESTILO BOTON EVENTO HEADER */
+        .event-header-btn {
+            background: linear-gradient(45deg, #ff0000, #ff4d4d);
+            color: white; font-weight: 900; font-size: 0.75rem;
+            padding: 5px 10px; border-radius: 20px;
+            box-shadow: 0 0 10px red;
+            display: flex; align-items: center; gap: 5px;
+            cursor: pointer; margin-right: 10px;
+            animation: pulseEvent 2s infinite;
+        }
+        @keyframes pulseEvent { 0%{transform:scale(1);} 50%{transform:scale(1.05); box-shadow: 0 0 15px red;} 100%{transform:scale(1);} }
 
         .profile-wrapper { position: relative; }
         .profile-menu {
@@ -219,7 +230,14 @@
             position: fixed; inset: 0; background: black; z-index: 9999;
             display: none; flex-direction: column; justify-content: center;
         }
-        video { width: 100%; height: 100%; background: black; }
+
+        /* MODIFICACION: Video Stretch 16:9 forzado y oculto inicialmente */
+        video { 
+            width: 100%; height: 100%; background: black; 
+            object-fit: fill; /* ESTO FUERZA A QUE SE ESTIRE Y QUITE LAS BARRAS NEGRAS */
+            opacity: 0; transition: opacity 0.5s; /* Se iniciará invisible para el Fake Loader */
+        }
+        video.ready { opacity: 1; } /* Clase que añadiremos cuando cargue 1s */
         
         #videoControls {
             position: absolute; inset: 0; 
@@ -246,7 +264,6 @@
             font-size: 4rem; opacity: 0.8; color: white;
         }
 
-        /* --- BOTON SKIP NEXT --- */
         .skip-next-btn {
             position: absolute; bottom: 80px; right: 20px;
             background: rgba(255, 255, 255, 0.2);
@@ -279,10 +296,12 @@
 
     <div class="app-header">
         <div class="logo-text"></div>
-        <div style="display:flex; align-items:center; gap:15px;">
-            <i class="fas fa-search" style="color:white; font-size:1.2rem;" onclick="navTo('search')"></i>
+        <div style="display:flex; align-items:center; gap:5px;">
+            <div id="headerEventArea"></div>
+            
+            <i class="fas fa-search" style="color:white; font-size:1.2rem; padding:10px;" onclick="navTo('search')"></i>
             <div class="profile-wrapper">
-                <i class="fas fa-user-circle" style="color:white; font-size:1.6rem;" onclick="toggleProfile()"></i>
+                <i class="fas fa-user-circle" style="color:white; font-size:1.6rem; padding:5px;" onclick="toggleProfile()"></i>
                 <div id="profileMenu" class="profile-menu">
                     <div class="menu-opt" onclick="copyAppLink()"><i class="fas fa-link"></i> Copiar Link</div>
                     <div class="menu-opt" onclick="clearFavs()"><i class="fas fa-trash"></i> Borrar Favoritos</div>
@@ -318,7 +337,16 @@
     </main>
 
     <div id="videoOverlay">
-        <div id="bufferLoader" style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); color:var(--cr-orange); font-size:3rem; display:none;">
+        <div id="fakeLoader" style="position:absolute; top:0; left:0; right:0; bottom:0; background:black; display:flex; flex-direction:column; align-items:center; justify-content:center; z-index:2;">
+            <div style="color:var(--cr-orange); margin-bottom:15px; font-size:3rem;"><i class="fas fa-play-circle fa-beat"></i></div>
+            <div style="color:white; font-weight:bold; letter-spacing:1px;">CARGANDO VIDEO...</div>
+            <div style="width:150px; height:4px; background:#333; margin-top:15px; border-radius:2px; overflow:hidden;">
+                <div style="width:100%; height:100%; background:var(--cr-orange); animation: loadBar 1.5s infinite;"></div>
+            </div>
+            <style>@keyframes loadBar { 0%{transform:translateX(-100%)} 100%{transform:translateX(100%)} }</style>
+        </div>
+        
+        <div id="bufferLoader" style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); color:var(--cr-orange); font-size:3rem; display:none; z-index:1;">
             <i class="fas fa-circle-notch fa-spin"></i>
         </div>
         
@@ -383,14 +411,14 @@
             app: "https://play.google.com/store/apps/details?id=box.plus3&hl=es_419"
         };
 
-        let DATA = { all: [], series: [], movies: [], channels: [], action: [], romance: [], suspense: [] };
+        let DATA = { all: [], series: [], movies: [], channels: [], action: [], romance: [], suspense: [], eventChannel: null };
         let STATE = { 
             list: [], page: 0, 
             isLoading: false,
             favs: JSON.parse(localStorage.getItem('favs')||'[]'),
             hist: JSON.parse(localStorage.getItem('hist')||'{}')
         };
-        let PLAYER = { active: false, item: null, epIdx: -1, interval: null, tempResume: null };
+        let PLAYER = { active: false, item: null, epIdx: -1, interval: null, tempResume: null, fakeLoading: false };
 
         const hlsConfig = {
             enableWorker: true,
@@ -404,7 +432,9 @@
             video: document.getElementById('player'),
             overlay: document.getElementById('videoOverlay'),
             pMenu: document.getElementById('profileMenu'),
-            skipBtn: document.getElementById('skipBtn')
+            skipBtn: document.getElementById('skipBtn'),
+            fakeLoader: document.getElementById('fakeLoader'),
+            headerEvent: document.getElementById('headerEventArea')
         };
 
         async function init() {
@@ -433,9 +463,22 @@
             txt.split('\n').forEach(l => {
                 l = l.trim();
                 if(l.startsWith('#EXTINF:')) {
-                    curr = { title: l.split(',')[1], coverImage: l.match(/tvg-logo="([^"]*)"/)?.[1], isChannel: true };
+                    // Detectar grupo EVENTO
+                    const isEvent = l.toLowerCase().includes('group-title="evento"');
+                    curr = { 
+                        title: l.split(',')[1], 
+                        coverImage: l.match(/tvg-logo="([^"]*)"/)?.[1], 
+                        isChannel: true,
+                        isEvent: isEvent 
+                    };
                 } else if(l.includes('://') && curr) {
-                    curr.video_url = l; DATA.channels.push(curr); curr = null;
+                    curr.video_url = l; 
+                    if(curr.isEvent) {
+                        DATA.eventChannel = curr; // Guardar el canal de evento
+                    } else {
+                        DATA.channels.push(curr); 
+                    }
+                    curr = null;
                 }
             });
         }
@@ -443,7 +486,7 @@
         function navTo(tab) {
             document.querySelectorAll('.view-container').forEach(v => v.classList.remove('active'));
             document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
-            if(event) event.currentTarget?.classList.add('active'); 
+            if(event && event.currentTarget) event.currentTarget.classList.add('active'); 
             els.pMenu.classList.remove('show');
 
             if(tab === 'home') {
@@ -475,6 +518,17 @@
             const c = document.getElementById('home-content');
             const h = document.getElementById('hero-container');
             c.innerHTML = '';
+
+            // LOGICA BOTON EVENTO HEADER
+            if(DATA.eventChannel) {
+                els.headerEvent.innerHTML = `
+                    <div class="event-header-btn" onclick="launchPlayer('${DATA.eventChannel.video_url}', '${DATA.eventChannel.title}', false, DATA.eventChannel)">
+                        <i class="fas fa-broadcast-tower"></i> EVENTO
+                    </div>
+                `;
+            } else {
+                els.headerEvent.innerHTML = '';
+            }
 
             if(DATA.series.length) {
                 const item = DATA.series[Math.floor(Math.random() * DATA.series.length)];
@@ -661,13 +715,19 @@
         }
 
         function launchPlayer(url, title, idx, item, startTime=0) {
-            // Push state para el boton de atras
             history.pushState({player: true}, null, "");
 
             PLAYER.active = true; PLAYER.item = item; PLAYER.epIdx = idx;
+            
+            // FAKE LOADING SETUP
+            PLAYER.fakeLoading = true;
+            els.video.classList.remove('ready'); // Ocultar video
+            els.fakeLoader.style.display = 'flex'; // Mostrar fake loader
+            document.getElementById('videoControls').classList.add('hidden'); // Ocultar controles
+            
             els.overlay.style.display = 'flex';
-            document.getElementById('bufferLoader').style.display = 'block';
-            els.skipBtn.style.display = 'none'; // ocultar skip al inicio
+            document.getElementById('bufferLoader').style.display = 'none';
+            els.skipBtn.style.display = 'none'; 
 
             let tStr = title; if(idx !== false && idx > -1) tStr += ` - E${idx+1}`;
             document.getElementById('playerTitle').innerText = tStr;
@@ -687,7 +747,6 @@
             clearInterval(PLAYER.interval);
             PLAYER.interval = setInterval(saveProgress, 3000);
 
-            // AUTO FULLSCREEN
             if (els.overlay.requestFullscreen) els.overlay.requestFullscreen().catch(e=>{});
             else if (els.overlay.webkitRequestFullscreen) els.overlay.webkitRequestFullscreen();
         }
@@ -699,7 +758,10 @@
                  document.getElementById('bottomIcon').className = "fas fa-play";
             });
             els.video.onplaying = () => document.getElementById('bufferLoader').style.display = 'none';
-            els.video.onwaiting = () => document.getElementById('bufferLoader').style.display = 'block';
+            els.video.onwaiting = () => {
+                // Solo mostrar buffer si YA pasó el fake loading
+                if(!PLAYER.fakeLoading) document.getElementById('bufferLoader').style.display = 'block';
+            };
         }
 
         function saveProgress() {
@@ -716,51 +778,26 @@
             localStorage.setItem('hist', JSON.stringify(STATE.hist));
         }
 
-        // Función "limpia" para cerrar el player SIN reload
         function closePlayer() {
             if(!PLAYER.active) return;
-
             saveProgress(); 
             els.video.pause(); 
-            
-            // Limpieza profunda para evitar que se quede pillado
             els.video.removeAttribute('src');
-            els.video.load(); // Forzar descarga
-            if(window.hls) {
-                window.hls.destroy();
-                window.hls = null;
-            }
+            els.video.load(); 
+            if(window.hls) { window.hls.destroy(); window.hls = null; }
             
             clearInterval(PLAYER.interval);
             els.overlay.style.display = 'none';
             PLAYER.active = false;
-
-            // Aseguramos salir de fullscreen si todavía está activo
             if(document.fullscreenElement) document.exitFullscreen().catch(e=>{});
         }
 
-        function closePlayerManually() {
-            history.back(); // Esto dispara el popstate que llama a closePlayer
-        }
+        function closePlayerManually() { history.back(); }
 
-        // Manejar el boton de atras Y el cambio de fullscreen
-        window.onpopstate = (event) => {
-            if (PLAYER.active) {
-                closePlayer();
-            }
-        };
+        window.onpopstate = (event) => { if (PLAYER.active) closePlayer(); };
 
-        // EVENTO: Si sales de pantalla completa, cerrar reproductor
-        document.addEventListener('fullscreenchange', () => {
-            if (!document.fullscreenElement && PLAYER.active) {
-                history.back(); // Simulamos el botón atrás para cerrar ordenadamente
-            }
-        });
-        document.addEventListener('webkitfullscreenchange', () => { // Safari/iOS
-             if (!document.webkitFullscreenElement && PLAYER.active) {
-                history.back();
-            }
-        });
+        document.addEventListener('fullscreenchange', () => { if (!document.fullscreenElement && PLAYER.active) history.back(); });
+        document.addEventListener('webkitfullscreenchange', () => { if (!document.webkitFullscreenElement && PLAYER.active) history.back(); });
 
         function togglePlay() {
             if(els.video.paused) {
@@ -776,29 +813,35 @@
 
         function nextEpPlayer() {
             if(PLAYER.item?.episodes && PLAYER.epIdx + 1 < PLAYER.item.episodes.length) {
-                // Ir directo al siguiente limpiamente
                 checkPlay(PLAYER.item.title, PLAYER.epIdx + 1);
             } else {
                 closePlayerManually();
             }
         }
 
-        els.video.onended = () => {
-            saveProgress();
-            nextEpPlayer();
-        };
+        els.video.onended = () => { saveProgress(); nextEpPlayer(); };
 
         els.video.ontimeupdate = () => {
             if (!els.video.duration) return;
             
             const cur = els.video.currentTime;
+            
+            // LOGICA FAKE LOADING 
+            // Si está activo el fake load y ya pasó 1 segundo de video real
+            if(PLAYER.fakeLoading && cur > 1) {
+                PLAYER.fakeLoading = false;
+                els.fakeLoader.style.display = 'none';
+                els.video.classList.add('ready'); // Muestra el video
+                document.getElementById('videoControls').classList.remove('hidden'); // Muestra controles
+                showC(); // Inicia temporizador de ocultar controles
+            }
+
             const dur = els.video.duration;
             const p = (cur / dur) * 100 || 0;
             
             document.getElementById('progFill').style.width = p + '%';
             document.getElementById('timeDisplay').innerText = fmt(cur) + " / " + fmt(dur);
 
-            // LOGICA DEL BOTON SKIP (Faltan 5 segs)
             const remain = dur - cur;
             if (remain <= 6 && remain > 0 && PLAYER.item?.episodes && (PLAYER.epIdx + 1 < PLAYER.item.episodes.length)) {
                 els.skipBtn.style.display = 'flex';
@@ -859,6 +902,7 @@
         
         let ct;
         const showC = () => {
+            if(PLAYER.fakeLoading) return; // No mostrar controles mientras carga falso
             document.getElementById('videoControls').classList.remove('hidden');
             clearTimeout(ct);
             ct = setTimeout(() => { if(!els.video.paused) document.getElementById('videoControls').classList.add('hidden'); }, 3000);
