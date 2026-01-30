@@ -1,5 +1,30 @@
 [
   {
+    "title": "Overlord",
+    "original_title": "Overlord",
+    "year": 2015,
+    "genre": ["Animación", "Acción", "Fantasía", "Isekai"],
+    "studio": "Madhouse",
+    "coverImage": "https://m.media-amazon.com/images/M/MV5BYjNjNDBmZjAtMGZiMS00ODBkLWFjYWItZWQ1ZjEwOGNmZDBjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "description": "Cuando un popular MMORPG anuncia su cierre, Momonga decide quedarse hasta el último segundo. Sin embargo, el juego no se apaga y él es transportado a un mundo nuevo transformado en su avatar, el poderoso hechicero esqueleto Ainz Ooal Gown.",
+    "episodes": [
+      { "episode": 1, "title": "Fin y principio", "video_url": "https://archive.org/download/overlord-temporada-1-latino/01.mp4" },
+      { "episode": 2, "title": "Guardianes de piso", "video_url": "https://archive.org/download/overlord-temporada-1-latino/02.mp4" },
+      { "episode": 3, "title": "Batalla en el Pueblo de Carne", "video_url": "https://archive.org/download/overlord-temporada-1-latino/03.mp4" },
+      { "episode": 4, "title": "Gobernante de la muerte", "video_url": "https://archive.org/download/overlord-temporada-1-latino/04.mp4" },
+      { "episode": 5, "title": "Dos aventureros", "video_url": "https://archive.org/download/overlord-temporada-1-latino/05.mp4" },
+      { "episode": 6, "title": "Viaje", "video_url": "https://archive.org/download/overlord-temporada-1-latino/06.mp4" },
+      { "episode": 7, "title": "Rey del Bosque Sabio", "video_url": "https://archive.org/download/overlord-temporada-1-latino/07.mp4" },
+      { "episode": 8, "title": "Espadas gemelas de la muerte", "video_url": "https://archive.org/download/overlord-temporada-1-latino/08.mp4" },
+      { "episode": 9, "title": "Guerrero Oscuro", "video_url": "https://archive.org/download/overlord-temporada-1-latino/09.mp4" },
+      { "episode": 10, "title": "Vampiro Verdadero", "video_url": "https://archive.org/download/overlord-temporada-1-latino/10.mp4" },
+      { "episode": 11, "title": "Confusión y comprensión", "video_url": "https://archive.org/download/overlord-temporada-1-latino/11.mp4" },
+      { "episode": 12, "title": "Doncella de sangre sagrada", "video_url": "https://archive.org/download/overlord-temporada-1-latino/12.mp4" },
+      { "episode": 13, "title": "Jugador contra No Muerto", "video_url": "https://archive.org/download/overlord-temporada-1-latino/13.mp4" }
+    ]
+  },
+  
+  {
     "title": "Misterios Del Titanic",
     "description": "James Cameron regresa al lugar de su mayor éxito cinematográfico, el pecio del Titanic, acompañado por un equipo de historiadores y expertos marinos para explorar el interior del barco como nunca antes.",
     "year": 2003,
