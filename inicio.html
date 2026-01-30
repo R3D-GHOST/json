@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>AnimeRoll | Premium</title>
+    <title>AnimeRoll | Vortex Edition</title>
     <meta name="theme-color" content="#000000">
     <meta name="mobile-web-app-capable" content="yes">
     
@@ -21,7 +21,6 @@
             --cr-orange: #f47521; 
             --cr-text: #ffffff;
             --cr-subtext: #a0a0a0;
-            --cr-hover: #dadada;
             --nav-height: 60px;
         }
 
@@ -59,10 +58,7 @@
             to { opacity: 1; transform: translateY(0); }
         }
 
-        .card-animate {
-            animation: cardPop 0.4s ease forwards;
-            opacity: 0;
-        }
+        .card-animate { animation: cardPop 0.4s ease forwards; opacity: 0; }
 
         .app-header {
             position: absolute; top: 0; left: 0; right: 0;
@@ -77,7 +73,6 @@
             text-shadow: 0 2px 4px rgba(0,0,0,0.8);
         }
 
-        /* ESTILO BOTON EVENTO HEADER */
         .event-header-btn {
             background: linear-gradient(45deg, #ff0000, #ff4d4d);
             color: white; font-weight: 900; font-size: 0.75rem;
@@ -89,23 +84,53 @@
         }
         @keyframes pulseEvent { 0%{transform:scale(1);} 50%{transform:scale(1.05); box-shadow: 0 0 15px red;} 100%{transform:scale(1);} }
 
+        /* PERFIL */
         .profile-wrapper { position: relative; }
         .profile-menu {
-            position: absolute; top: 40px; right: 0; 
-            background: var(--cr-bg-card); border: 1px solid #333;
-            width: 180px; border-radius: 4px; display: none; flex-direction: column;
-            box-shadow: 0 4px 15px black; overflow: hidden;
+            position: absolute; top: 50px; right: 0; 
+            background: #1a1b20; border: 1px solid #333;
+            width: 260px; border-radius: 8px; display: none; flex-direction: column;
+            box-shadow: 0 4px 25px black; overflow: hidden; z-index: 100;
         }
         .profile-menu.show { display: flex; animation: slideDown 0.2s; }
         @keyframes slideDown { from{opacity:0; transform:translateY(-10px);} to{opacity:1; transform:translateY(0);} }
         
+        .profile-header {
+            background: linear-gradient(135deg, #2a2d35, #151619);
+            padding: 15px; border-bottom: 1px solid #333;
+            text-align: center;
+        }
+        .user-avatar {
+            width: 60px; height: 60px; background: var(--cr-orange); border-radius: 50%;
+            margin: 0 auto 10px; display: flex; align-items: center; justify-content: center;
+            font-size: 1.5rem; color: #000; font-weight: bold; border: 2px solid white;
+        }
+        .user-name { font-weight: bold; font-size: 1rem; margin-bottom: 5px; color: white; }
+        
+        .stats-grid {
+            display: grid; grid-template-columns: 1fr 1fr; gap: 8px; padding: 10px;
+            background: #111;
+        }
+        .stat-box {
+            background: #23252b; padding: 8px; border-radius: 4px; text-align: center;
+        }
+        .stat-val { font-size: 0.9rem; font-weight: bold; color: var(--cr-orange); }
+        .stat-label { font-size: 0.65rem; color: #888; text-transform: uppercase; margin-top: 2px;}
+        
+        .last-seen-box {
+            padding: 10px; border-top: 1px solid #222; background: #1a1b20;
+            font-size: 0.8rem; color: #ccc;
+        }
+        .last-seen-title { color: white; font-weight: bold; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
         .menu-opt {
             padding: 12px 15px; display: flex; align-items: center; gap: 10px;
-            font-size: 0.9rem; color: #ccc; cursor: pointer; border-bottom: 1px solid #333;
+            font-size: 0.9rem; color: #ccc; cursor: pointer; border-top: 1px solid #333;
+            background: #23252b;
         }
-        .menu-opt:active { background: #333; color: var(--cr-orange); }
-        .menu-opt:last-child { border-bottom: none; }
+        .menu-opt:active { background: #333; color: red; }
 
+        /* HERO & LISTS */
         .hero-section {
             width: 100%; height: 50vh; max-height: 480px;
             position: relative;
@@ -139,14 +164,23 @@
             scroll-snap-type: x mandatory; 
         }
 
+        /* CONFIGURACIÓN DE GRILLA (CATÁLOGO GENERAL) */
         .catalog-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); 
             gap: 12px; padding: 15px;
             align-content: start;
         }
+        
+        /* CONFIGURACIÓN DE GRILLA (MODO DENSO - SERIES Y PELICULAS 3 COLUMNAS) */
+        .catalog-grid.dense-grid {
+            grid-template-columns: repeat(3, 1fr) !important;
+            gap: 10px !important;
+        }
+        
         @media(min-width: 600px) {
             .catalog-grid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 18px; }
+            .catalog-grid.dense-grid { grid-template-columns: repeat(4, 1fr) !important; }
         }
 
         .media-card {
@@ -163,8 +197,9 @@
 
         .media-card img { 
             width: 100%; height: 100%; object-fit: cover; 
-            transition: opacity 0.3s; 
+            opacity: 0; transition: opacity 0.4s ease-in; 
         }
+        .media-card img.loaded { opacity: 1; }
 
         .card-info-overlay {
             position: absolute; inset: 0;
@@ -231,13 +266,12 @@
             display: none; flex-direction: column; justify-content: center;
         }
 
-        /* MODIFICACION: Video Stretch 16:9 forzado y oculto inicialmente */
         video { 
             width: 100%; height: 100%; background: black; 
-            object-fit: fill; /* ESTO FUERZA A QUE SE ESTIRE Y QUITE LAS BARRAS NEGRAS */
-            opacity: 0; transition: opacity 0.5s; /* Se iniciará invisible para el Fake Loader */
+            object-fit: fill; 
+            opacity: 0; transition: opacity 0.5s; 
         }
-        video.ready { opacity: 1; } /* Clase que añadiremos cuando cargue 1s */
+        video.ready { opacity: 1; }
         
         #videoControls {
             position: absolute; inset: 0; 
@@ -303,8 +337,29 @@
             <div class="profile-wrapper">
                 <i class="fas fa-user-circle" style="color:white; font-size:1.6rem; padding:5px;" onclick="toggleProfile()"></i>
                 <div id="profileMenu" class="profile-menu">
-                    <div class="menu-opt" onclick="copyAppLink()"><i class="fas fa-link"></i> Copiar Link</div>
-                    <div class="menu-opt" onclick="clearFavs()"><i class="fas fa-trash"></i> Borrar Favoritos</div>
+                    <div class="profile-header">
+                        <div class="user-avatar">V</div>
+                        <div class="user-name">Usuario Vortex</div>
+                        <div style="font-size:0.75rem; color:#888;">Miembro Gratis</div>
+                    </div>
+                    
+                    <div class="stats-grid">
+                        <div class="stat-box">
+                            <div id="statTime" class="stat-val">0h 0m</div>
+                            <div class="stat-label">Tiempo Total</div>
+                        </div>
+                        <div class="stat-box">
+                            <div id="statCompleted" class="stat-val">0</div>
+                            <div class="stat-label">Completados</div>
+                        </div>
+                    </div>
+
+                    <div class="last-seen-box">
+                        <span style="color:#777; font-size:0.7rem;">Último visto:</span>
+                        <span id="statLastTitle" class="last-seen-title">-</span>
+                    </div>
+
+                    <div class="menu-opt" onclick="clearFavs()"><i class="fas fa-trash"></i> Borrar Historial/Favs</div>
                 </div>
             </div>
         </div>
@@ -408,10 +463,17 @@
         const URLS = {
             json: "https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/data.json",
             m3u8: "https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/CV.m3u8",
-            app: "https://play.google.com/store/apps/details?id=box.plus3&hl=es_419"
+            fallbackImg: "https://via.placeholder.com/200x300/111/444?text=Vortex" 
         };
 
-        let DATA = { all: [], series: [], movies: [], channels: [], action: [], romance: [], suspense: [], eventChannel: null };
+        // Arrays para los nuevos géneros
+        let DATA = { 
+            all: [], series: [], movies: [], channels: [], 
+            action: [], romance: [], suspense: [], 
+            premiere: [], anime: [], superheroes: [], kids: [], horror: [],
+            eventChannel: null 
+        };
+
         let STATE = { 
             list: [], page: 0, 
             isLoading: false,
@@ -439,17 +501,45 @@
 
         async function init() {
             try {
-                const [d, m] = await Promise.all([
-                    fetch(URLS.json).then(r=>r.json()),
-                    fetch(URLS.m3u8).then(r=>r.text())
-                ]);
+                const CACHE_KEY = 'vortex_data_cache';
+                const CACHE_TIME_KEY = 'vortex_cache_time';
+                const ONE_HOUR = 60 * 60 * 1000; 
+
+                let d = null;
+                const cachedData = localStorage.getItem(CACHE_KEY);
+                const cachedTime = localStorage.getItem(CACHE_TIME_KEY);
+                const now = Date.now();
+
+                if (cachedData && cachedTime && (now - cachedTime < ONE_HOUR)) {
+                    console.log("Cargando desde Caché local...");
+                    d = JSON.parse(cachedData);
+                } else {
+                    console.log("Descargando datos nuevos...");
+                    d = await fetch(URLS.json).then(r => r.json());
+                    try {
+                        localStorage.setItem(CACHE_KEY, JSON.stringify(d));
+                        localStorage.setItem(CACHE_TIME_KEY, now);
+                    } catch (e) { console.warn("Memoria llena", e); }
+                }
+
+                const m = await fetch(URLS.m3u8).then(r => r.text());
                 
                 DATA.series = d.filter(x => x.episodes?.length > 0);
                 DATA.movies = d.filter(x => !x.episodes || x.episodes.length === 0);
                 
-                DATA.action = d.filter(x => x.genre?.some(g => g.toLowerCase().includes('acción') || g.toLowerCase().includes('action')));
-                DATA.romance = d.filter(x => x.genre?.some(g => g.toLowerCase().includes('romance')));
-                DATA.suspense = d.filter(x => x.genre?.some(g => g.toLowerCase().includes('suspenso') || g.toLowerCase().includes('suspense') || g.toLowerCase().includes('thriller')));
+                // LÓGICA DE GÉNEROS MEJORADA
+                const checkGenre = (x, tags) => x.genre?.some(g => tags.some(t => g.toLowerCase().includes(t)));
+
+                DATA.action = d.filter(x => checkGenre(x, ['acción', 'action']));
+                DATA.romance = d.filter(x => checkGenre(x, ['romance']));
+                DATA.suspense = d.filter(x => checkGenre(x, ['suspenso', 'suspense', 'thriller']));
+                
+                // Nuevos Géneros
+                DATA.premiere = d.filter(x => checkGenre(x, ['estreno', 'nuevo', '2024', '2025', '2026']));
+                DATA.anime = d.filter(x => checkGenre(x, ['anime', 'animación japonesa']));
+                DATA.superheroes = d.filter(x => checkGenre(x, ['super', 'héroe', 'marvel', 'dc', 'hero']));
+                DATA.kids = d.filter(x => checkGenre(x, ['infantil', 'niños', 'kids', 'family']));
+                DATA.horror = d.filter(x => checkGenre(x, ['terror', 'miedo', 'horror']));
 
                 parseChannels(m);
                 DATA.all = [...d, ...DATA.channels];
@@ -458,32 +548,56 @@
             } catch(e) { console.error(e); }
         }
 
+        // PARSER MEJORADO: Detecta si es XML o M3U
         function parseChannels(txt) {
-            let curr = null;
-            txt.split('\n').forEach(l => {
-                l = l.trim();
-                if(l.startsWith('#EXTINF:')) {
-                    // Detectar grupo EVENTO
-                    const isEvent = l.toLowerCase().includes('group-title="evento"');
-                    curr = { 
-                        title: l.split(',')[1], 
-                        coverImage: l.match(/tvg-logo="([^"]*)"/)?.[1], 
+            if(txt.trim().startsWith('<')) {
+                // Modo XML simple (ejemplo ficticio básico, se adapta según estructura real)
+                // Buscando tags tipo <channel name="...">url</channel> o similar
+                // Como no hay especificación exacta XML, usamos regex genérico para estructuras comunes
+                const regex = /<channel.*?name="(.*?)".*?>(.*?)<\/channel>/g;
+                let match;
+                while ((match = regex.exec(txt)) !== null) {
+                    DATA.channels.push({
+                        title: match[1],
+                        video_url: match[2],
+                        coverImage: URLS.fallbackImg,
                         isChannel: true,
-                        isEvent: isEvent 
-                    };
-                } else if(l.includes('://') && curr) {
-                    curr.video_url = l; 
-                    if(curr.isEvent) {
-                        DATA.eventChannel = curr; // Guardar el canal de evento
-                    } else {
-                        DATA.channels.push(curr); 
-                    }
-                    curr = null;
+                        isEvent: false
+                    });
                 }
-            });
+            } else {
+                // Modo M3U / M3U8 (Original)
+                let curr = null;
+                txt.split('\n').forEach(l => {
+                    l = l.trim();
+                    if(l.startsWith('#EXTINF:')) {
+                        const isEvent = l.toLowerCase().includes('group-title="evento"');
+                        curr = { 
+                            title: l.split(',')[1], 
+                            coverImage: l.match(/tvg-logo="([^"]*)"/)?.[1], 
+                            isChannel: true,
+                            isEvent: isEvent 
+                        };
+                    } else if(l.includes('://') && curr) {
+                        curr.video_url = l; 
+                        if(curr.isEvent) {
+                            DATA.eventChannel = curr;
+                        } else {
+                            DATA.channels.push(curr); 
+                        }
+                        curr = null;
+                    }
+                });
+            }
         }
 
         function navTo(tab) {
+            if (tab !== 'search') {
+                const sInput = document.getElementById('searchInput');
+                const sGrid = document.getElementById('search-grid');
+                if(sInput.value !== '') { sInput.value = ''; sGrid.innerHTML = ''; }
+            }
+
             document.querySelectorAll('.view-container').forEach(v => v.classList.remove('active'));
             document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
             if(event && event.currentTarget) event.currentTarget.classList.add('active'); 
@@ -491,7 +605,8 @@
 
             if(tab === 'home') {
                 document.getElementById('view-home').classList.add('active');
-                renderHome();
+                // IMPORTANTE: Forzamos re-renderizado para actualizar "Seguir Viendo"
+                renderHome(); 
             } else if (tab === 'search') {
                 document.getElementById('view-search').classList.add('active');
                 document.getElementById('searchInput').focus();
@@ -499,6 +614,13 @@
                 const v = document.getElementById('view-catalog');
                 v.classList.add('active');
                 v.scrollTop = 0;
+
+                // CAMBIO: Detectar si es pelicula o serie para cambiar la grilla a 3 columnas (dense-grid)
+                if(tab === 'movies' || tab === 'series') {
+                    els.grid.classList.add('dense-grid');
+                } else {
+                    els.grid.classList.remove('dense-grid');
+                }
 
                 STATE.page = 0; 
                 STATE.isLoading = false;
@@ -517,9 +639,31 @@
         function renderHome() {
             const c = document.getElementById('home-content');
             const h = document.getElementById('hero-container');
+            
+            // Si el Hero no existe, lo creamos. Si existe, no lo tocamos para que no parpadee,
+            // pero limpiamos el contenido de las listas (shelves).
+            if(!h.innerHTML) {
+                if(DATA.series.length) {
+                    const item = DATA.series[Math.floor(Math.random() * DATA.series.length)];
+                    const img = item.coverImage || URLS.fallbackImg;
+                    h.innerHTML = `
+                        <div class="hero-section">
+                            <img class="hero-img" src="${img}" onerror="this.src='${URLS.fallbackImg}'">
+                            <div class="hero-overlay">
+                                <h1 style="font-size:2rem; font-weight:900; line-height:1; margin-bottom:5px; text-shadow:0 2px 5px black;">${item.title}</h1>
+                                <p style="color:#ccc; margin-bottom:15px; font-size:0.9rem;">${item.genre?.join(' • ') || 'Anime'}</p>
+                                <button class="btn-cr" onclick='openDetail(DATA.all.find(x=>x.title=="${item.title}"))'>
+                                    <i class="fas fa-play"></i> VER AHORA
+                                </button>
+                            </div>
+                        </div>
+                    `;
+                }
+            }
+
+            // Limpiamos siempre las listas para regenerarlas con el orden actualizado
             c.innerHTML = '';
 
-            // LOGICA BOTON EVENTO HEADER
             if(DATA.eventChannel) {
                 els.headerEvent.innerHTML = `
                     <div class="event-header-btn" onclick="launchPlayer('${DATA.eventChannel.video_url}', '${DATA.eventChannel.title}', false, DATA.eventChannel)">
@@ -530,32 +674,33 @@
                 els.headerEvent.innerHTML = '';
             }
 
-            if(DATA.series.length) {
-                const item = DATA.series[Math.floor(Math.random() * DATA.series.length)];
-                h.innerHTML = `
-                    <div class="hero-section">
-                        <img class="hero-img" src="${item.coverImage}">
-                        <div class="hero-overlay">
-                            <h1 style="font-size:2rem; font-weight:900; line-height:1; margin-bottom:5px; text-shadow:0 2px 5px black;">${item.title}</h1>
-                            <p style="color:#ccc; margin-bottom:15px; font-size:0.9rem;">${item.genre?.join(' • ') || 'Anime'}</p>
-                            <button class="btn-cr" onclick='openDetail(DATA.all.find(x=>x.title=="${item.title}"))'>
-                                <i class="fas fa-play"></i> VER AHORA
-                            </button>
-                        </div>
-                    </div>
-                `;
-            }
-
             addShelf('Canales en Vivo', DATA.channels, c);
+
+            // LOGICA SEGUIR VIENDO ACTUALIZADA
             const watching = DATA.all.filter(x => {
                 if(x.isChannel) return false;
                 const h = STATE.hist[x.title];
                 return h && ((h.time > 0) || (h.last !== undefined));
             });
+            
+            // Ordenar por 'updated' (timestamp) descendente para mostrar lo último visto primero
+            watching.sort((a, b) => {
+                const ta = STATE.hist[a.title]?.updated || 0;
+                const tb = STATE.hist[b.title]?.updated || 0;
+                return tb - ta;
+            });
+
             if(watching.length) addShelf('Seguir Viendo', watching, c);
+
+            // NUEVAS ESTANTERIAS
+            addShelf('Estrenos', DATA.premiere.slice(0, 15), c);
+            addShelf('Anime', DATA.anime.slice(0, 15), c);
+            addShelf('Superhéroes', DATA.superheroes.slice(0, 15), c);
             addShelf('Acción', DATA.action.slice(0, 15), c);
-            addShelf('Romance', DATA.romance.slice(0, 15), c);
-            addShelf('Suspenso', DATA.suspense.slice(0, 15), c);
+            addShelf('Terror', DATA.horror.slice(0, 15), c);
+            addShelf('Infantil', DATA.kids.slice(0, 15), c);
+            
+            // Generales
             addShelf('Películas Recomendadas', DATA.movies.slice(0, 15), c);
             addShelf('Series Populares', DATA.series.slice(0, 15), c);
         }
@@ -575,7 +720,7 @@
             d.className = grid ? 'media-card card-animate' : 'media-card';
             if(grid) d.style.width = '100%';
 
-            const img = item.coverImage || item.logo || 'https://via.placeholder.com/150';
+            const imgUrl = item.coverImage || item.logo || URLS.fallbackImg;
             const hist = STATE.hist[item.title];
             
             let pct = 0;
@@ -589,7 +734,10 @@
             }
 
             d.innerHTML = `
-                <img src="${img}" loading="lazy">
+                <img src="${imgUrl}" loading="lazy" 
+                     onload="this.classList.add('loaded')" 
+                     onerror="this.src='${URLS.fallbackImg}'; this.classList.add('loaded');">
+                     
                 <div class="card-info-overlay">
                     <div class="card-title-text">${item.title}</div>
                 </div>
@@ -633,15 +781,15 @@
             
             detailView.scrollTop = 0;
 
-            const bg = item.coverImage || item.logo;
+            const bg = item.coverImage || item.logo || URLS.fallbackImg;
             const isFav = STATE.favs.includes(item.title);
             const c = document.getElementById('detail-content-area');
 
             let html = `
-                <div class="detail-hero"><img src="${bg}"></div>
+                <div class="detail-hero"><img src="${bg}" onerror="this.src='${URLS.fallbackImg}'"></div>
                 <div class="detail-content">
                     <div style="display:flex; gap:15px; align-items:flex-end;">
-                        <img src="${bg}" class="poster-float">
+                        <img src="${bg}" class="poster-float" onerror="this.src='${URLS.fallbackImg}'">
                         <div style="flex:1;">
                             <h1 style="font-size:1.4rem; color:var(--cr-orange); margin-bottom:5px; line-height:1.1;">${item.title}</h1>
                             <div style="color:#aaa; font-size:0.8rem;">${item.genre?.join(' | ') || 'Anime'}</div>
@@ -662,11 +810,13 @@
                 html += `<div style="margin-top:30px; border-bottom:1px solid #333; padding-bottom:10px; font-weight:bold; color:white;">EPISODIOS</div><div>`;
                 item.episodes.forEach((ep, i) => {
                     const h = STATE.hist[item.title]?.eps?.[i];
+                    // Recalcular progreso en tiempo real al abrir detalle
                     const pct = h ? (h.time/h.dur)*100 : 0;
+                    const thumb = ep.thumb || bg;
                     html += `
                         <div class="episode-row" onclick="checkPlay('${item.title}', ${i})">
                             <div class="ep-thumb">
-                                <img src="${ep.thumb||bg}" style="width:100%; height:100%; object-fit:cover;">
+                                <img src="${thumb}" style="width:100%; height:100%; object-fit:cover;" onerror="this.src='${URLS.fallbackImg}'">
                                 ${pct>0?`<div class="ep-prog-bar"><div class="ep-prog-val" style="width:${pct}%"></div></div>`:''}
                             </div>
                             <div style="flex:1;">
@@ -719,11 +869,10 @@
 
             PLAYER.active = true; PLAYER.item = item; PLAYER.epIdx = idx;
             
-            // FAKE LOADING SETUP
             PLAYER.fakeLoading = true;
-            els.video.classList.remove('ready'); // Ocultar video
-            els.fakeLoader.style.display = 'flex'; // Mostrar fake loader
-            document.getElementById('videoControls').classList.add('hidden'); // Ocultar controles
+            els.video.classList.remove('ready'); 
+            els.fakeLoader.style.display = 'flex'; 
+            document.getElementById('videoControls').classList.add('hidden');
             
             els.overlay.style.display = 'flex';
             document.getElementById('bufferLoader').style.display = 'none';
@@ -736,14 +885,31 @@
             document.getElementById('centerIcon').className = "fas fa-pause";
             document.getElementById('bottomIcon').className = "fas fa-pause";
 
+            // LOGICA DE REPRODUCTOR ACTUALIZADA PARA SOPORTAR TODO
             if(Hls.isSupported() && (url.includes('.m3u8') || url.includes('.ts'))) {
+                // HLS (Streaming)
                 if(window.hls) window.hls.destroy();
                 window.hls = new Hls(hlsConfig);
-                window.hls.loadSource(url); window.hls.attachMedia(els.video);
+                window.hls.loadSource(url); 
+                window.hls.attachMedia(els.video);
                 window.hls.on(Hls.Events.MANIFEST_PARSED, () => startVid(startTime));
+                window.hls.on(Hls.Events.ERROR, (e, data) => {
+                    if(data.fatal) {
+                         // Si falla HLS, intentamos nativo por si acaso
+                         console.warn("HLS falló, intentando nativo...");
+                         window.hls.destroy();
+                         els.video.src = url;
+                         startVid(startTime);
+                    }
+                });
             } else {
-                els.video.src = url; startVid(startTime);
+                // MP4, MKV, AVI, etc. (Nativo del navegador)
+                // Nota: MKV y AVI dependen del navegador, pero ya no se bloquean.
+                if(window.hls) { window.hls.destroy(); window.hls = null; }
+                els.video.src = url; 
+                startVid(startTime);
             }
+
             clearInterval(PLAYER.interval);
             PLAYER.interval = setInterval(saveProgress, 3000);
 
@@ -753,13 +919,21 @@
 
         function startVid(t) {
             els.video.currentTime = t;
-            els.video.play().catch(()=>{
-                 document.getElementById('centerIcon').className = "fas fa-play";
-                 document.getElementById('bottomIcon').className = "fas fa-play";
-            });
+            const playPromise = els.video.play();
+            
+            if (playPromise !== undefined) {
+                playPromise.then(_ => {
+                    // Reproducción iniciada
+                }).catch(error => {
+                    // Error de auto-play o formato no soportado
+                    console.error("Error al reproducir:", error);
+                    document.getElementById('centerIcon').className = "fas fa-play";
+                    document.getElementById('bottomIcon').className = "fas fa-play";
+                });
+            }
+
             els.video.onplaying = () => document.getElementById('bufferLoader').style.display = 'none';
             els.video.onwaiting = () => {
-                // Solo mostrar buffer si YA pasó el fake loading
                 if(!PLAYER.fakeLoading) document.getElementById('bufferLoader').style.display = 'block';
             };
         }
@@ -767,7 +941,11 @@
         function saveProgress() {
             if(!PLAYER.active || PLAYER.item?.isChannel || els.video.paused) return;
             const t = els.video.currentTime, d = els.video.duration, title = PLAYER.item.title;
+            const now = Date.now();
+            
             if(!STATE.hist[title]) STATE.hist[title] = {};
+            STATE.hist[title].updated = now; 
+
             if(PLAYER.epIdx > -1) {
                 if(!STATE.hist[title].eps) STATE.hist[title].eps = {};
                 STATE.hist[title].eps[PLAYER.epIdx] = { time: t, dur: d };
@@ -782,7 +960,7 @@
             if(!PLAYER.active) return;
             saveProgress(); 
             els.video.pause(); 
-            els.video.removeAttribute('src');
+            els.video.removeAttribute('src'); // Detener descarga
             els.video.load(); 
             if(window.hls) { window.hls.destroy(); window.hls = null; }
             
@@ -826,14 +1004,12 @@
             
             const cur = els.video.currentTime;
             
-            // LOGICA FAKE LOADING 
-            // Si está activo el fake load y ya pasó 1 segundo de video real
-            if(PLAYER.fakeLoading && cur > 1) {
+            if(PLAYER.fakeLoading && cur > 0.5) { // Reducido el tiempo de espera visual
                 PLAYER.fakeLoading = false;
                 els.fakeLoader.style.display = 'none';
-                els.video.classList.add('ready'); // Muestra el video
-                document.getElementById('videoControls').classList.remove('hidden'); // Muestra controles
-                showC(); // Inicia temporizador de ocultar controles
+                els.video.classList.add('ready'); 
+                document.getElementById('videoControls').classList.remove('hidden');
+                showC(); 
             }
 
             const dur = els.video.duration;
@@ -857,17 +1033,52 @@
         };
         
         function toggleFull() { document.fullscreenElement ? document.exitFullscreen() : els.overlay.requestFullscreen(); }
-        function toggleProfile() { els.pMenu.classList.toggle('show'); }
+        
+        function toggleProfile() { 
+            const m = els.pMenu;
+            if(m.classList.contains('show')) {
+                m.classList.remove('show');
+            } else {
+                updateProfileStats();
+                m.classList.add('show');
+            }
+        }
 
-        function copyAppLink() { 
-            navigator.clipboard.writeText(URLS.app).then(() => {
-                alert("Link de la app copiado."); els.pMenu.classList.remove('show');
+        function updateProfileStats() {
+            let totalSecs = 0;
+            let finishedCount = 0;
+            let lastSeen = { title: "Nada aún", time: 0 };
+
+            Object.entries(STATE.hist).forEach(([k, v]) => {
+                if(v.updated && v.updated > lastSeen.time) {
+                    lastSeen = { title: k, time: v.updated };
+                }
+
+                if(v.eps) {
+                    Object.values(v.eps).forEach(ep => {
+                        totalSecs += ep.time || 0;
+                        if(ep.dur && (ep.time/ep.dur) > 0.9) finishedCount++;
+                    });
+                } else {
+                    totalSecs += v.time || 0;
+                    if(v.dur && (v.time/v.dur) > 0.9) finishedCount++;
+                }
             });
+
+            const hours = Math.floor(totalSecs / 3600);
+            const mins = Math.floor((totalSecs % 3600) / 60);
+
+            document.getElementById('statTime').innerText = `${hours}h ${mins}m`;
+            document.getElementById('statCompleted').innerText = finishedCount;
+            document.getElementById('statLastTitle').innerText = lastSeen.title;
         }
 
         function clearFavs() {
-            if(confirm('¿Borrar favoritos?')) {
-                STATE.favs = []; localStorage.setItem('favs', '[]');
+            if(confirm('¿Borrar historial y favoritos?')) {
+                STATE.favs = []; 
+                STATE.hist = {};
+                localStorage.setItem('favs', '[]');
+                localStorage.setItem('hist', '{}');
                 navTo('home');
             }
         }
@@ -902,7 +1113,7 @@
         
         let ct;
         const showC = () => {
-            if(PLAYER.fakeLoading) return; // No mostrar controles mientras carga falso
+            if(PLAYER.fakeLoading) return; 
             document.getElementById('videoControls').classList.remove('hidden');
             clearTimeout(ct);
             ct = setTimeout(() => { if(!els.video.paused) document.getElementById('videoControls').classList.add('hidden'); }, 3000);
