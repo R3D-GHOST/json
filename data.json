@@ -1,5 +1,29 @@
 [
   {
+    "title": "Komi-san Temporada 2",
+    "original_title": "Komi-san wa, Komyushō Desu.",
+    "year": 2022,
+    "genre": ["Animación", "Comedia", "Recuentos de la vida", "Romance"],
+    "studio": "OLM",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkyw8Q3oG8D6FCSLwPuIA0NMbyFbbt9kCAnEWPpELzLorpv3mBTkPnik2m&s=10",
+    "description": "Komi-san continúa su misión de hacer 100 amigos con la ayuda de Tadano. En esta segunda temporada, nuevos retos sociales, un viaje escolar y la llegada del invierno pondrán a prueba su crecimiento y su relación con sus compañeros de clase.",
+    "episodes": [
+      { "episode": 1, "title": "Llegó el invierno / Es un malentendido", "video_url": "https://archive.org/download/komi-san-s-02-/Komi-san%20S02E01.mp4" },
+      { "episode": 2, "title": "Tifón / Fantasías / Gatito", "video_url": "https://archive.org/download/komi-san-s-02-/Komi-san%20S02E02.mp4" },
+      { "episode": 3, "title": "Sentimientos / Fantasías 2 / Invitación a comer", "video_url": "https://archive.org/download/komi-san-s-02-/Komi-san%20S02E03.mp4" },
+      { "episode": 4, "title": "Feliz Navidad", "video_url": "https://archive.org/download/komi-san-s-02-/Komi-san%20S02E04.mp4" },
+      { "episode": 5, "title": "Muñeco de nieve / Batalla de bolas de nieve / Año Nuevo", "video_url": "https://archive.org/download/komi-san-s-02-/Komi-san%20S02E05.mp4" },
+      { "episode": 6, "title": "Cada uno de sus años nuevos / Helado / Papas fritas", "video_url": "https://archive.org/download/komi-san-s-02-/Komi-san%20S02E06.mp4" },
+      { "episode": 7, "title": "Es solo un viaje escolar", "video_url": "https://archive.org/download/komi-san-s-02-/Komi-san%20S02E07.mp4" },
+      { "episode": 8, "title": "El segundo día del viaje escolar", "video_url": "https://archive.org/download/komi-san-s-02-/Komi-san%20S02E08.mp4" },
+      { "episode": 9, "title": "San Valentín", "video_url": "https://archive.org/download/komi-san-s-02-/Komi-san%20S02E09.mp4" },
+      { "episode": 10, "title": "Pijama / Regalos / White Day", "video_url": "https://archive.org/download/komi-san-s-02-/Komi-san%20S02E10.mp4" },
+      { "episode": 11, "title": "Solo faltan 100 amigos / ¡Qué ricas las donas!", "video_url": "https://archive.org/download/komi-san-s-02-/Komi-san%20S02E11.mp4" },
+      { "episode": 12, "title": "Es solo el final del primer año", "video_url": "https://archive.org/download/komi-san-s-02-/Komi-san%20S02E12.mp4" }
+    ]
+  },
+  
+  {
     "title": "The Fruit of Evolution",
     "original_title": "Shinka no Mi: Shiranai Uchi ni Kachigumi Jinsei",
     "year": 2021,
