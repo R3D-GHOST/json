@@ -1,5 +1,18 @@
 [
   {
+    "title": "La vida de Brian",
+    "description": "Brian Cohen nace en un establo de Belén el mismo día que Jesucristo. Debido a una serie de equívocos hilarantes, Brian pasa su vida siendo confundido con un mesías, lo que lo lleva a enfrentarse a los romanos y a un grupo de revolucionarios bastante ineficaces.",
+    "year": 1979,
+    "studio": "HandMade Films",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm2iR3M0jgWG_Ib9Ohat6DXoKobVsFFcZXmkiLsmWDww&s=10",
+    "genre": [
+      "Comedia",
+      "Sátira"
+    ],
+    "video_url": "https://archive.org/download/la-vida-de-brian-1979-360-p-1/LA%20VIDA%20DE%20BRIAN%20%281979%29%28360P%29_1.mp4"
+  },
+  
+  {
     "title": "One Piece ",
     "original_title": "Wan Pīsu",
     "year": 1999,
