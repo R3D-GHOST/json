@@ -1,5 +1,29 @@
 [
   {
+    "title": "The Fruit of Evolution",
+    "original_title": "Shinka no Mi: Shiranai Uchi ni Kachigumi Jinsei",
+    "year": 2021,
+    "genre": ["Animación", "Aventura", "Comedia", "Fantasía", "Isekai"],
+    "studio": "Hotline",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQq4sQePkF6_D2eW2rEvbrBRLmN_-ABaBoJCx4kIiYIQ&s=10",
+    "description": "Seiichi Hiiragi es un joven con sobrepeso y baja autoestima que es transportado junto a su clase a otro mundo. Tras quedar solo en la selva, consume la 'Fruta de la Evolución', lo que cambia su vida y su apariencia física por completo, iniciando una aventura llena de situaciones absurdas.",
+    "episodes": [
+      { "episode": 1, "title": "Antes de darme cuenta, mi vida era de ganador", "video_url": "https://archive.org/download/the-fruit-of-evolution-latino/The%20Fruit%20of%20Evolution%2001.mkv" },
+      { "episode": 2, "title": "Saria, la gorila definitiva", "video_url": "https://archive.org/download/the-fruit-of-evolution-latino/The%20Fruit%20of%20Evolution%2002.mkv" },
+      { "episode": 3, "title": "Desastre en la Ciudad de Terl", "video_url": "https://archive.org/download/the-fruit-of-evolution-latino/The%20Fruit%20of%20Evolution%2003.mkv" },
+      { "episode": 4, "title": "Altria, la doncella de la desgracia", "video_url": "https://archive.org/download/the-fruit-of-evolution-latino/The%20Fruit%20of%20Evolution%2004.mkv" },
+      { "episode": 5, "title": "Vicios deliciosos", "video_url": "https://archive.org/download/the-fruit-of-evolution-latino/The%20Fruit%20of%20Evolution%2005.mkv" },
+      { "episode": 6, "title": "La academia de la magia", "video_url": "https://archive.org/download/the-fruit-of-evolution-latino/The%20Fruit%20of%20Evolution%2006.mkv" },
+      { "episode": 7, "title": "Lulune, la burra glotona", "video_url": "https://archive.org/download/the-fruit-of-evolution-latino/The%20Fruit%20of%20Evolution%2007.mkv" },
+      { "episode": 8, "title": "El caballero oscuro", "video_url": "https://archive.org/download/the-fruit-of-evolution-latino/The%20Fruit%20of%20Evolution%2008.mkv" },
+      { "episode": 9, "title": "La fruta del amor", "video_url": "https://archive.org/download/the-fruit-of-evolution-latino/The%20Fruit%20of%20Evolution%2009.mkv" },
+      { "episode": 10, "title": "El imperio de Kaiser se acerca", "video_url": "https://archive.org/download/the-fruit-of-evolution-latino/The%20Fruit%20of%20Evolution%2010.mkv" },
+      { "episode": 11, "title": "Monstruos contra la escuela de magia", "video_url": "https://archive.org/download/the-fruit-of-evolution-latino/The%20Fruit%20of%20Evolution%2011.mkv" },
+      { "episode": 12, "title": "Antes de saberlo, es el final", "video_url": "https://archive.org/download/the-fruit-of-evolution-latino/The%20Fruit%20of%20Evolution%2012.mkv" }
+    ]
+  },
+  
+  {
     "title": "Claymore",
     "original_title": "Kureimoa",
     "year": 2007,
