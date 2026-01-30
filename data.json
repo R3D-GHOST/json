@@ -1,5 +1,30 @@
 [
   {
+    "title": "Gleipnir",
+    "original_title": "Gureipuniru",
+    "year": 2020,
+    "genre": ["Animación", "Acción", "Echi", "Sobrenatural"],
+    "studio": "Pine Jam",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvEDvdraaEoJKgpcPQWBJ-K6FB67dXmoSD1lpmmFnMKw&s=10",
+    "description": "Shuichi Kagaya es un estudiante de secundaria con un secreto: puede transformarse en un monstruo que parece un disfraz de perro gigante con una cremallera en la espalda. Su vida cambia cuando conoce a Claire Aoki, quien puede introducirse dentro de él para pelear juntos.",
+    "episodes": [
+      { "episode": 1, "title": "Algo dentro de mí", "video_url": "https://archive.org/download/gleipnir-latino/Gleipnir%20Latino/%28Locura%20Anime%29%20Glr-01.mkv" },
+      { "episode": 2, "title": "Lo que significa estar vacío", "video_url": "https://archive.org/download/gleipnir-latino/Gleipnir%20Latino/%28Locura%20Anime%29%20Glr-02.mkv" },
+      { "episode": 3, "title": "Elena", "video_url": "https://archive.org/download/gleipnir-latino/Gleipnir%20Latino/%28Locura%20Anime%29%20Glr-03.mkv" },
+      { "episode": 4, "title": "Deseo de convertirme en alguien más", "video_url": "https://archive.org/download/gleipnir-latino/Gleipnir%20Latino/%28Locura%20Anime%29%20Glr-04.mkv" },
+      { "episode": 5, "title": "Enemigos locos", "video_url": "https://archive.org/download/gleipnir-latino/Gleipnir%20Latino/%28Locura%20Anime%29%20Glr-05.mkv" },
+      { "episode": 6, "title": "Recolectores", "video_url": "https://archive.org/download/gleipnir-latino/Gleipnir%20Latino/%28Locura%20Anime%29%20Glr-06.mkv" },
+      { "episode": 7, "title": "Metamorfosis", "video_url": "https://archive.org/download/gleipnir-latino/Gleipnir%20Latino/%28Locura%20Anime%29%20Glr-07.mkv" },
+      { "episode": 8, "title": "Sombra de un recuerdo", "video_url": "https://archive.org/download/gleipnir-latino/Gleipnir%20Latino/%28Locura%20Anime%29%20Glr-08.mkv" },
+      { "episode": 9, "title": "Marcas que no se borran", "video_url": "https://archive.org/download/gleipnir-latino/Gleipnir%20Latino/%28Locura%20Anime%29%20Glr-09.mkv" },
+      { "episode": 10, "title": "Hermosa flor", "video_url": "https://archive.org/download/gleipnir-latino/Gleipnir%20Latino/%28Locura%20Anime%29%20Glr-10.mkv" },
+      { "episode": 11, "title": "El precio de una moneda", "video_url": "https://archive.org/download/gleipnir-latino/Gleipnir%20Latino/%28Locura%20Anime%29%20Glr-11.mkv" },
+      { "episode": 12, "title": "Donde la promesa fue hecha", "video_url": "https://archive.org/download/gleipnir-latino/Gleipnir%20Latino/%28Locura%20Anime%29%20Glr-12.mkv" },
+      { "episode": 13, "title": "Nosotros dos somos uno solo", "video_url": "https://archive.org/download/gleipnir-latino/Gleipnir%20Latino/%28Locura%20Anime%29%20Glr-13.mkv" }
+    ]
+  },
+  
+  {
     "title": "Overlord",
     "original_title": "Overlord",
     "year": 2015,
