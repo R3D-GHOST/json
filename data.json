@@ -1,5 +1,29 @@
 [
   {
+    "title": "Azur Lane",
+    "original_title": "Azuru Rēn",
+    "year": 2019,
+    "genre": ["Animación", "Acción", "Sci-Fi", "Militar"],
+    "studio": "Bibury Animation Studios",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU6ZQLqqYGQW4uK3xD8fit-TzylT4bDzxvfqjgz5_MoQ&s=10",
+    "description": "En un mundo donde barcos de guerra antropomórficos luchan contra una misteriosa amenaza alienígena llamada 'Sirens', la alianza Azur Lane se divide debido a diferencias ideológicas sobre el uso de tecnología enemiga.",
+    "episodes": [
+      { "episode": 1, "title": "¡Zarpamos! ¡Azur Lane!", "video_url": "https://archive.org/download/azul-lane-latino/01-converted.mp4" },
+      { "episode": 2, "title": "Oleaje: Lazos que nos unen", "video_url": "https://archive.org/download/azul-lane-latino/02-converted.mp4" },
+      { "episode": 3, "title": "Elegancia: Bajo la luna", "video_url": "https://archive.org/download/azul-lane-latino/03-converted.mp4" },
+      { "episode": 4, "title": "Tempestad: El rastro del valor", "video_url": "https://archive.org/download/azul-lane-latino/04-converted.mp4" },
+      { "episode": 5, "title": "Reunión: Tomados de la mano", "video_url": "https://archive.org/download/azul-lane-latino/05-converted.mp4" },
+      { "episode": 6, "title": "Cicatrices: Lazos rotos", "video_url": "https://archive.org/download/azul-lane-latino/06-converted.mp4" },
+      { "episode": 7, "title": "Luz muerta: Un camino sin retorno", "video_url": "https://archive.org/download/azul-lane-latino/07-converted.mp4" },
+      { "episode": 8, "title": "Sombra: El fin de la esperanza", "video_url": "https://archive.org/download/azul-lane-latino/08-converted.mp4" },
+      { "episode": 9, "title": "Esperanza: La luz en la oscuridad", "video_url": "https://archive.org/download/azul-lane-latino/09-converted.mp4" },
+      { "episode": 10, "title": "Ecos: El pasado resuena", "video_url": "https://archive.org/download/azul-lane-latino/10-converted.mp4" },
+      { "episode": 11, "title": "Destino: Hacia el mañana", "video_url": "https://archive.org/download/azul-lane-latino/11-converted.mp4" },
+      { "episode": 12, "title": "Azur Lane: El futuro brilla", "video_url": "https://archive.org/download/azul-lane-latino/12-converted.mp4" }
+    ]
+  },
+  
+  {
     "title": "Gleipnir",
     "original_title": "Gureipuniru",
     "year": 2020,
