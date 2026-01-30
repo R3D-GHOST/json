@@ -1,5 +1,43 @@
 [
   {
+    "title": "Claymore",
+    "original_title": "Kureimoa",
+    "year": 2007,
+    "genre": ["Animación", "Acción", "Fantasía Oscura", "Aventura"],
+    "studio": "Madhouse",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDvJmta_BALZTAi1nsK2GpJagTcQG3WFmpFDLBSrE_hQ&s=10",
+    "description": "En un mundo acosado por seres demoníacos conocidos como Yoma, una organización secreta crea guerreras mitad humanas y mitad yoma llamadas 'Claymores'. Clare, una de ellas, viaja de ciudad en ciudad eliminando monstruos mientras lucha por mantener su humanidad.",
+    "episodes": [
+      { "episode": 1, "title": "La Gran Espada", "video_url": "https://archive.org/download/claimore-latino/01-converted.mp4" },
+      { "episode": 2, "title": "La Carta Negra", "video_url": "https://archive.org/download/claimore-latino/02-converted.mp4" },
+      { "episode": 3, "title": "Oscuridad en el Paraíso", "video_url": "https://archive.org/download/claimore-latino/03-converted.mp4" },
+      { "episode": 4, "title": "El Despertar de Clare", "video_url": "https://archive.org/download/claimore-latino/04-converted.mp4" },
+      { "episode": 5, "title": "Teresa la de la Sonrisa Tenue", "video_url": "https://archive.org/download/claimore-latino/05-converted.mp4" },
+      { "episode": 6, "title": "Teresa y Clare", "video_url": "https://archive.org/download/claimore-latino/06-converted.mp4" },
+      { "episode": 7, "title": "La Marca de la Muerte", "video_url": "https://archive.org/download/claimore-latino/07-converted.mp4" },
+      { "episode": 8, "title": "Despertar", "video_url": "https://archive.org/download/claimore-latino/08-converted.mp4" },
+      { "episode": 9, "title": "Las Segadoras (1ª Parte)", "video_url": "https://archive.org/download/claimore-latino/09-converted.mp4" },
+      { "episode": 10, "title": "Las Segadoras (2ª Parte)", "video_url": "https://archive.org/download/claimore-latino/10-converted.mp4" },
+      { "episode": 11, "title": "Las Segadoras (3ª Parte)", "video_url": "https://archive.org/download/claimore-latino/11-converted.mp4" },
+      { "episode": 12, "title": "Lápidas Eternas (1ª Parte)", "video_url": "https://archive.org/download/claimore-latino/12-converted.mp4" },
+      { "episode": 13, "title": "Lápidas Eternas (2ª Parte)", "video_url": "https://archive.org/download/claimore-latino/13-converted.mp4" },
+      { "episode": 14, "title": "Derecho a Combatir", "video_url": "https://archive.org/download/claimore-latino/14-converted.mp4" },
+      { "episode": 15, "title": "La Guarida de la Bruja (1ª Parte)", "video_url": "https://archive.org/download/claimore-latino/15-converted.mp4" },
+      { "episode": 16, "title": "La Guarida de la Bruja (2ª Parte)", "video_url": "https://archive.org/download/claimore-latino/16-converted.mp4" },
+      { "episode": 17, "title": "La Guarida de la Bruja (3ª Parte)", "video_url": "https://archive.org/download/claimore-latino/17-converted.mp4" },
+      { "episode": 18, "title": "Guerra en el Norte (1ª Parte)", "video_url": "https://archive.org/download/claimore-latino/18-converted.mp4" },
+      { "episode": 19, "title": "Guerra en el Norte (2ª Parte)", "video_url": "https://archive.org/download/claimore-latino/19-converted.mp4" },
+      { "episode": 20, "title": "Guerra en el Norte (3ª Parte)", "video_url": "https://archive.org/download/claimore-latino/20-converted.mp4" },
+      { "episode": 21, "title": "La Invasión de Pieta (1ª Parte)", "video_url": "https://archive.org/download/claimore-latino/21-converted.mp4" },
+      { "episode": 22, "title": "La Invasión de Pieta (2ª Parte)", "video_url": "https://archive.org/download/claimore-latino/22-converted.mp4" },
+      { "episode": 23, "title": "Punto Crítico (1ª Parte)", "video_url": "https://archive.org/download/claimore-latino/23-converted.mp4" },
+      { "episode": 24, "title": "Punto Crítico (2ª Parte)", "video_url": "https://archive.org/download/claimore-latino/24-converted.mp4" },
+      { "episode": 25, "title": "Para Quién es la Espada", "video_url": "https://archive.org/download/claimore-latino/25-converted.mp4" },
+      { "episode": 26, "title": "Hacia los Sucesores", "video_url": "https://archive.org/download/claimore-latino/26-converted.mp4" }
+    ]
+  },
+  
+  {
     "title": "La vida de Brian",
     "description": "Brian Cohen nace en un establo de Belén el mismo día que Jesucristo. Debido a una serie de equívocos hilarantes, Brian pasa su vida siendo confundido con un mesías, lo que lo lleva a enfrentarse a los romanos y a un grupo de revolucionarios bastante ineficaces.",
     "year": 1979,
