@@ -1,5 +1,31 @@
 [
 
+  
+  {
+  "title": "Yuusha, Yamemasu",
+  "original_title": "I'm Quitting Heroing",
+  "year": 2022,
+  "genre": ["Animación", "Aventura", "Fantasía", "Comedia"],
+  "studio": "EMT Squared",
+  "coverImage": "https://m.media-amazon.com/images/M/MV5BN2Y5NGM4MmItYjJkMS00YjRkLTk4NzAtNjEyNGQ3ZmQxZTJkXkEyXkFqcGc@._V1_.jpg",
+  "description": "Después de salvar al mundo, el héroe Leo Demonhart es temido por las personas que protegió. Exiliado, decide buscar empleo en el ejército de la Reina Demonio Echidna, a quien él mismo derrotó, para ayudarla a reconstruir su imperio y resolver sus problemas administrativos.",
+  "episodes": [
+    { "episode": 1, "title": "¡El próximo empleo del héroe es en el ejército del Rey Demonio!", "video_url": "https://archive.org/download/yuusha-yamemasu_202408/Yuusha%2C%20Yamemasu%20-%2001%20%5BMLF%5D.mp4" },
+    { "episode": 2, "title": "Facilítale el trabajo a tu futuro yo", "video_url": "https://archive.org/download/yuusha-yamemasu_202408/Yuusha%2C%20Yamemasu%20-%2002%20%5BMLF%5D.mp4" },
+    { "episode": 3, "title": "Un poco de amabilidad puede causar problemas", "video_url": "https://archive.org/download/yuusha-yamemasu_202408/Yuusha%2C%20Yamemasu%20-%2003%20%5BMLF%5D.mp4" },
+    { "episode": 4, "title": "El Infierno de las Citas", "video_url": "https://archive.org/download/yuusha-yamemasu_202408/Yuusha%2C%20Yamemasu%20-%2004%20%5BMLF%5D.mp4" },
+    { "episode": 5, "title": "Para cuando quieras renunciar a tu trabajo", "video_url": "https://archive.org/download/yuusha-yamemasu_202408/Yuusha%2C%20Yamemasu%20-%2005%20%5BMLF%5D.mp4" },
+    { "episode": 6, "title": "El héroe cuenta su historia", "video_url": "https://archive.org/download/yuusha-yamemasu_202408/Yuusha%2C%20Yamemasu%20-%2006%20%5BMLF%5D.mp4" },
+    { "episode": 7, "title": "Un buen guerrero no siempre es un buen jefe", "video_url": "https://archive.org/download/yuusha-yamemasu_202408/Yuusha%2C%20Yamemasu%20-%2007%20%5BMLF%5D.mp4" },
+    { "episode": 8, "title": "Echidna: El nombre de una madre", "video_url": "https://archive.org/download/yuusha-yamemasu_202408/Yuusha%2C%20Yamemasu%20-%2008%20%5BMLF%5D.mp4" },
+    { "episode": 9, "title": "Quiero dejar de ser el héroe", "video_url": "https://archive.org/download/yuusha-yamemasu_202408/Yuusha%2C%20Yamemasu%20-%2009%20%5BMLF%5D.mp4" },
+    { "episode": 10, "title": "Salvaré el mundo, aunque eso signifique destruirlo", "video_url": "https://archive.org/download/yuusha-yamemasu_202408/Yuusha%2C%20Yamemasu%20-%2010%20%5BMLF%5D.mp4" },
+    { "episode": 11, "title": "Lo que hace a un héroe", "video_url": "https://archive.org/download/yuusha-yamemasu_202408/Yuusha%2C%20Yamemasu%20-%2011%20%5BMLF%5D.mp4" },
+    { "episode": 12, "title": "Dejo de ser el héroe", "video_url": "https://archive.org/download/yuusha-yamemasu_202408/Yuusha%2C%20Yamemasu%20-%2012%20%5BMLF%5D.mp4" }
+  ]
+},
+
+
 {
   "title": "Captain Tsubasa 2018",
   "original_title": "Kyaputen Tsubasa",
