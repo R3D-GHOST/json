@@ -1,29 +1,19 @@
 [
-  {
-    "title": "Danmachi",
-    "original_title": "Dungeon ni Deai o Motomeru no wa Machigatteiru Darō ka",
-    "year": 2015,
-    "genre": ["Animación", "Acción", "Aventura", "Fantasía"],
-    "studio": "J.C.Staff",
-    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVJFckgb7W_EJ4U-pKBQJrfjduUhUh54uHqic5PQA5bjUaMWu5XdANDlaY&s=10",
-    "description": "En la ciudad de Orario, los aventureros exploran un gigantesco laberinto subterráneo conocido como 'La Mazmorra'. Bell Cranel, un aventurero novato y único miembro de la Familia de la diosa Hestia, lucha por volverse más fuerte tras ser salvado por la legendaria espadachín Aiz Wallenstein.",
-    "episodes": [
-      { "episode": 1, "title": "Bell Cranel: Aventurero", "video_url": "https://archive.org/download/danmachi-s1-latino/Danmachi%20S1%20Latino/DanmachoS1%2001.mkv" },
-      { "episode": 2, "title": "El festival del monstruo", "video_url": "https://archive.org/download/danmachi-s1-latino/Danmachi%20S1%20Latino/DanmachoS1%2002.mkv" },
-      { "episode": 3, "title": "El arma de un dios", "video_url": "https://archive.org/download/danmachi-s1-latino/Danmachi%20S1%20Latino/DanmachoS1%2003.mkv" },
-      { "episode": 4, "title": "La debilidad", "video_url": "https://archive.org/download/danmachi-s1-latino/Danmachi%20S1%20Latino/DanmachoS1%2004.mkv" },
-      { "episode": 5, "title": "Grimorio", "video_url": "https://archive.org/download/danmachi-s1-latino/Danmachi%20S1%20Latino/DanmachoS1%2005.mkv" },
-      { "episode": 6, "title": "Lyliruca Arde", "video_url": "https://archive.org/download/danmachi-s1-latino/Danmachi%20S1%20Latino/DanmachoS1%2006.mkv" },
-      { "episode": 7, "title": "La princesa de la espada", "video_url": "https://archive.org/download/danmachi-s1-latino/Danmachi%20S1%20Latino/DanmachoS1%2007.mkv" },
-      { "episode": 8, "title": "Querer ser un héroe", "video_url": "https://archive.org/download/danmachi-s1-latino/Danmachi%20S1%20Latino/DanmachoS1%2008.mkv" },
-      { "episode": 9, "title": "Herrero de magias", "video_url": "https://archive.org/download/danmachi-s1-latino/Danmachi%20S1%20Latino/DanmachoS1%2009.mkv" },
-      { "episode": 10, "title": "Procesión de monstruos", "video_url": "https://archive.org/download/danmachi-s1-latino/Danmachi%20S1%20Latino/DanmachoS1%2010.mkv" },
-      { "episode": 11, "title": "El descanso del laberinto", "video_url": "https://archive.org/download/danmachi-s1-latino/Danmachi%20S1%20Latino/DanmachoS1%2011.mkv" },
-      { "episode": 12, "title": "Show", "video_url": "https://archive.org/download/danmachi-s1-latino/Danmachi%20S1%20Latino/DanmachoS1%2012.mkv" },
-      { "episode": 13, "title": "La historia de una familia", "video_url": "https://archive.org/download/danmachi-s1-latino/Danmachi%20S1%20Latino/DanmachoS1%2013.mkv" }
-    ]
-  },
 
+  {
+    "title": "Barbie",
+    "description": "Barbie lleva una vida ideal en Barbieland, donde todo es perfecto. Sin embargo, cuando comienza a experimentar una crisis existencial, debe viajar al mundo real acompañada de Ken para descubrir quién es realmente y cuál es su propósito.",
+    "year": 2023,
+    "studio": "Warner Bros. Pictures",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFEmxQCtMGOt7vlex_BZhAy6TnXnnmi-dhZ4C5ciZ1uA&s=10",
+    "genre": [
+      "Comedia",
+      "Fantasía",
+      "Aventura"
+    ],
+    "video_url": "https://archive.org/download/barbie_202405/Barbie.mp4"
+  },
+  
 {
     "title": "Isekai wa Smartphone to Tomo ni Temporada 2",
     "original_title": "In Another World With My Smartphone 2",
@@ -1494,7 +1484,7 @@
       "Suspenso",
       "Estreno"
     ],
-    "video_url": "https://archive.org/download/fnaf-1080p-hd-espanol-latino/FNAF_1080p_HD%20espa%C3%B1ol%20latino.mp4"
+    "video_url": "https://dn710205.ca.archive.org/0/items/fnaf-1080p-hd-espanol-latino/FNAF_1080p_HD%20espa%C3%B1ol%20latino.mp4"
   },
     
   {
