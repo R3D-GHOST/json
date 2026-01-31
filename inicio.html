@@ -166,11 +166,12 @@
 
         /* CONFIGURACIÓN DE GRILLA (CATÁLOGO GENERAL) */
         .catalog-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); 
-            gap: 12px; padding: 15px;
-            align-content: start;
-        }
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important; /* 3 columnas iguales para todo */
+    gap: 12px; 
+    padding: 15px;
+    align-content: start;
+}
         
         /* CONFIGURACIÓN DE GRILLA (MODO DENSO - SERIES Y PELICULAS 3 COLUMNAS) */
         .catalog-grid.dense-grid {
@@ -179,26 +180,36 @@
         }
         
         @media(min-width: 600px) {
-            .catalog-grid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 18px; }
-            .catalog-grid.dense-grid { grid-template-columns: repeat(4, 1fr) !important; }
+        .catalog-grid { 
+        grid-template-columns: repeat(3, 1fr) !important; /* 5 columnas en PC/Tablet */
+    }            .catalog-grid.dense-grid { grid-template-columns: repeat(3, 1fr) !important; }
         }
 
-        .media-card {
-            flex: 0 0 120px; 
-            width: 100%; 
-            cursor: pointer; position: relative;
-            scroll-snap-align: start;
-            aspect-ratio: 2/3;
-            overflow: hidden;
-            border-radius: 4px;
-            background: var(--cr-bg-card);
-        }
+.media-card {
+    flex: 0 0 120px; /* Tamaño en el scroll horizontal */
+    width: 100%; 
+    cursor: pointer; 
+    position: relative;
+    scroll-snap-align: start;
+    aspect-ratio: 2 / 3 !important; /* Proporción vertical fija */
+    overflow: hidden;
+    border-radius: 6px;
+    background: var(--cr-bg-card);
+    border: 1px solid #333;
+}
+
+
+        
         @media(min-width: 600px) { .media-card { flex: 0 0 160px; } }
 
-        .media-card img { 
-            width: 100%; height: 100%; object-fit: cover; 
-            opacity: 0; transition: opacity 0.4s ease-in; 
-        }
+   
+   .media-card img { 
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; /* Esto estira la imagen para llenar el póster */
+    opacity: 0; 
+    transition: opacity 0.4s ease-in; 
+}
         .media-card img.loaded { opacity: 1; }
 
         .card-info-overlay {
@@ -326,6 +337,15 @@
 
     </style>
 </head>
+
+<div id="filterBtn" style="position: fixed; bottom: 80px; right: 20px; width: 55px; height: 55px; background: #f47521; border-radius: 50%; display: none; align-items: center; justify-content: center; color: black; font-size: 1.3rem; box-shadow: 0 4px 15px rgba(0,0,0,0.5); z-index: 1000; cursor: pointer;" onclick="toggleFilterMenu()">
+    <i class="fas fa-filter"></i>
+</div>
+
+<div id="filterMenu" style="position: fixed; bottom: 145px; right: 20px; background: #23252b; border: 1px solid #444; border-radius: 12px; width: 200px; max-height: 350px; overflow-y: auto; display: none; flex-direction: column; box-shadow: 0 5px 25px rgba(0,0,0,0.8); z-index: 1001; padding: 5px;">
+    <div id="genreList"></div>
+</div>
+
 <body>
 
     <div class="app-header">
@@ -459,670 +479,830 @@
         </div>
     </div>
 
+    
     <script>
-        const URLS = {
-            json: "https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/data.json",
-            m3u8: "https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/CV.m3u8",
-            fallbackImg: "https://via.placeholder.com/200x300/111/444?text=Vortex" 
-        };
-
-        // Arrays para los nuevos géneros
-        let DATA = { 
-            all: [], series: [], movies: [], channels: [], 
-            action: [], romance: [], suspense: [], 
-            premiere: [], anime: [], superheroes: [], kids: [], horror: [],
-            eventChannel: null 
-        };
-
-        let STATE = { 
-            list: [], page: 0, 
-            isLoading: false,
-            favs: JSON.parse(localStorage.getItem('favs')||'[]'),
-            hist: JSON.parse(localStorage.getItem('hist')||'{}')
-        };
-        let PLAYER = { active: false, item: null, epIdx: -1, interval: null, tempResume: null, fakeLoading: false };
-
-        const hlsConfig = {
-            enableWorker: true,
-            lowLatencyMode: true,
-            backBufferLength: 60
-        };
-
-        const els = {
-            grid: document.getElementById('grid-container'),
-            loader: document.getElementById('infiniteLoader'),
-            video: document.getElementById('player'),
-            overlay: document.getElementById('videoOverlay'),
-            pMenu: document.getElementById('profileMenu'),
-            skipBtn: document.getElementById('skipBtn'),
-            fakeLoader: document.getElementById('fakeLoader'),
-            headerEvent: document.getElementById('headerEventArea')
-        };
-
-        async function init() {
-            try {
-                const CACHE_KEY = 'vortex_data_cache';
-                const CACHE_TIME_KEY = 'vortex_cache_time';
-                const ONE_HOUR = 60 * 60 * 1000; 
-
-                let d = null;
-                const cachedData = localStorage.getItem(CACHE_KEY);
-                const cachedTime = localStorage.getItem(CACHE_TIME_KEY);
-                const now = Date.now();
-
-                if (cachedData && cachedTime && (now - cachedTime < ONE_HOUR)) {
-                    console.log("Cargando desde Caché local...");
-                    d = JSON.parse(cachedData);
-                } else {
-                    console.log("Descargando datos nuevos...");
-                    d = await fetch(URLS.json).then(r => r.json());
-                    try {
-                        localStorage.setItem(CACHE_KEY, JSON.stringify(d));
-                        localStorage.setItem(CACHE_TIME_KEY, now);
-                    } catch (e) { console.warn("Memoria llena", e); }
-                }
-
-                const m = await fetch(URLS.m3u8).then(r => r.text());
-                
-                DATA.series = d.filter(x => x.episodes?.length > 0);
-                DATA.movies = d.filter(x => !x.episodes || x.episodes.length === 0);
-                
-                // LÓGICA DE GÉNEROS MEJORADA
-                const checkGenre = (x, tags) => x.genre?.some(g => tags.some(t => g.toLowerCase().includes(t)));
-
-                DATA.action = d.filter(x => checkGenre(x, ['acción', 'action']));
-                DATA.romance = d.filter(x => checkGenre(x, ['romance']));
-                DATA.suspense = d.filter(x => checkGenre(x, ['suspenso', 'suspense', 'thriller']));
-                
-                // Nuevos Géneros
-                DATA.premiere = d.filter(x => checkGenre(x, ['estreno', 'nuevo', '2024', '2025', '2026']));
-                DATA.anime = d.filter(x => checkGenre(x, ['anime', 'animación japonesa']));
-                DATA.superheroes = d.filter(x => checkGenre(x, ['super', 'héroe', 'marvel', 'dc', 'hero']));
-                DATA.kids = d.filter(x => checkGenre(x, ['infantil', 'niños', 'kids', 'family']));
-                DATA.horror = d.filter(x => checkGenre(x, ['terror', 'miedo', 'horror']));
-
-                parseChannels(m);
-                DATA.all = [...d, ...DATA.channels];
-                
-                renderHome();
-            } catch(e) { console.error(e); }
-        }
-
-        // PARSER MEJORADO: Detecta si es XML o M3U
-        function parseChannels(txt) {
-            if(txt.trim().startsWith('<')) {
-                // Modo XML simple (ejemplo ficticio básico, se adapta según estructura real)
-                // Buscando tags tipo <channel name="...">url</channel> o similar
-                // Como no hay especificación exacta XML, usamos regex genérico para estructuras comunes
-                const regex = /<channel.*?name="(.*?)".*?>(.*?)<\/channel>/g;
-                let match;
-                while ((match = regex.exec(txt)) !== null) {
-                    DATA.channels.push({
-                        title: match[1],
-                        video_url: match[2],
-                        coverImage: URLS.fallbackImg,
-                        isChannel: true,
-                        isEvent: false
-                    });
-                }
-            } else {
-                // Modo M3U / M3U8 (Original)
-                let curr = null;
-                txt.split('\n').forEach(l => {
-                    l = l.trim();
-                    if(l.startsWith('#EXTINF:')) {
-                        const isEvent = l.toLowerCase().includes('group-title="evento"');
-                        curr = { 
-                            title: l.split(',')[1], 
-                            coverImage: l.match(/tvg-logo="([^"]*)"/)?.[1], 
-                            isChannel: true,
-                            isEvent: isEvent 
-                        };
-                    } else if(l.includes('://') && curr) {
-                        curr.video_url = l; 
-                        if(curr.isEvent) {
-                            DATA.eventChannel = curr;
-                        } else {
-                            DATA.channels.push(curr); 
-                        }
-                        curr = null;
-                    }
-                });
-            }
-        }
-
-        function navTo(tab) {
-            if (tab !== 'search') {
-                const sInput = document.getElementById('searchInput');
-                const sGrid = document.getElementById('search-grid');
-                if(sInput.value !== '') { sInput.value = ''; sGrid.innerHTML = ''; }
-            }
-
-            document.querySelectorAll('.view-container').forEach(v => v.classList.remove('active'));
-            document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
-            if(event && event.currentTarget) event.currentTarget.classList.add('active'); 
-            els.pMenu.classList.remove('show');
-
-            if(tab === 'home') {
-                document.getElementById('view-home').classList.add('active');
-                // IMPORTANTE: Forzamos re-renderizado para actualizar "Seguir Viendo"
-                renderHome(); 
-            } else if (tab === 'search') {
-                document.getElementById('view-search').classList.add('active');
-                document.getElementById('searchInput').focus();
-            } else {
-                const v = document.getElementById('view-catalog');
-                v.classList.add('active');
-                v.scrollTop = 0;
-
-                // CAMBIO: Detectar si es pelicula o serie para cambiar la grilla a 3 columnas (dense-grid)
-                if(tab === 'movies' || tab === 'series') {
-                    els.grid.classList.add('dense-grid');
-                } else {
-                    els.grid.classList.remove('dense-grid');
-                }
-
-                STATE.page = 0; 
-                STATE.isLoading = false;
-                els.grid.innerHTML = '';
-                document.getElementById('catalogTitle').innerText = tab === 'favorites' ? 'FAVORITOS' : tab.toUpperCase();
-                
-                if(tab === 'series') STATE.list = DATA.series;
-                else if(tab === 'live') STATE.list = DATA.channels;
-                else if(tab === 'movies') STATE.list = DATA.movies;
-                else if(tab === 'favorites') STATE.list = DATA.all.filter(x => STATE.favs.includes(x.title));
-                
-                loadMore();
-            }
-        }
-
-        function renderHome() {
-            const c = document.getElementById('home-content');
-            const h = document.getElementById('hero-container');
-            
-            // Si el Hero no existe, lo creamos. Si existe, no lo tocamos para que no parpadee,
-            // pero limpiamos el contenido de las listas (shelves).
-            if(!h.innerHTML) {
-                if(DATA.series.length) {
-                    const item = DATA.series[Math.floor(Math.random() * DATA.series.length)];
-                    const img = item.coverImage || URLS.fallbackImg;
-                    h.innerHTML = `
-                        <div class="hero-section">
-                            <img class="hero-img" src="${img}" onerror="this.src='${URLS.fallbackImg}'">
-                            <div class="hero-overlay">
-                                <h1 style="font-size:2rem; font-weight:900; line-height:1; margin-bottom:5px; text-shadow:0 2px 5px black;">${item.title}</h1>
-                                <p style="color:#ccc; margin-bottom:15px; font-size:0.9rem;">${item.genre?.join(' • ') || 'Anime'}</p>
-                                <button class="btn-cr" onclick='openDetail(DATA.all.find(x=>x.title=="${item.title}"))'>
-                                    <i class="fas fa-play"></i> VER AHORA
-                                </button>
-                            </div>
-                        </div>
-                    `;
-                }
-            }
-
-            // Limpiamos siempre las listas para regenerarlas con el orden actualizado
-            c.innerHTML = '';
-
-            if(DATA.eventChannel) {
-                els.headerEvent.innerHTML = `
-                    <div class="event-header-btn" onclick="launchPlayer('${DATA.eventChannel.video_url}', '${DATA.eventChannel.title}', false, DATA.eventChannel)">
-                        <i class="fas fa-broadcast-tower"></i> EVENTO
-                    </div>
-                `;
-            } else {
-                els.headerEvent.innerHTML = '';
-            }
-
-            addShelf('Canales en Vivo', DATA.channels, c);
-
-            // LOGICA SEGUIR VIENDO ACTUALIZADA
-            const watching = DATA.all.filter(x => {
-                if(x.isChannel) return false;
-                const h = STATE.hist[x.title];
-                return h && ((h.time > 0) || (h.last !== undefined));
-            });
-            
-            // Ordenar por 'updated' (timestamp) descendente para mostrar lo último visto primero
-            watching.sort((a, b) => {
-                const ta = STATE.hist[a.title]?.updated || 0;
-                const tb = STATE.hist[b.title]?.updated || 0;
-                return tb - ta;
-            });
-
-            if(watching.length) addShelf('Seguir Viendo', watching, c);
-
-            // NUEVAS ESTANTERIAS
-            addShelf('Estrenos', DATA.premiere.slice(0, 15), c);
-            addShelf('Anime', DATA.anime.slice(0, 15), c);
-            addShelf('Superhéroes', DATA.superheroes.slice(0, 15), c);
-            addShelf('Acción', DATA.action.slice(0, 15), c);
-            addShelf('Terror', DATA.horror.slice(0, 15), c);
-            addShelf('Infantil', DATA.kids.slice(0, 15), c);
-            
-            // Generales
-            addShelf('Películas Recomendadas', DATA.movies.slice(0, 15), c);
-            addShelf('Series Populares', DATA.series.slice(0, 15), c);
-        }
-
-        function addShelf(t, list, p) {
-            if(!list.length) return;
-            const d = document.createElement('div');
-            d.className = 'shelf';
-            d.innerHTML = `<div class="shelf-title">${t}</div><div class="shelf-scroll"></div>`;
-            const s = d.querySelector('.shelf-scroll');
-            list.forEach(i => s.appendChild(createCard(i)));
-            p.appendChild(d);
-        }
-
-        function createCard(item, grid=false) {
-            const d = document.createElement('div');
-            d.className = grid ? 'media-card card-animate' : 'media-card';
-            if(grid) d.style.width = '100%';
-
-            const imgUrl = item.coverImage || item.logo || URLS.fallbackImg;
-            const hist = STATE.hist[item.title];
-            
-            let pct = 0;
-            if(!item.isChannel && hist) {
-                if(item.episodes && hist.last !== undefined) {
-                    const lastEp = hist.eps?.[hist.last];
-                    if(lastEp) pct = (lastEp.time / lastEp.dur) * 100;
-                } else if(!item.episodes) {
-                    pct = (hist.time/hist.dur)*100;
-                }
-            }
-
-            d.innerHTML = `
-                <img src="${imgUrl}" loading="lazy" 
-                     onload="this.classList.add('loaded')" 
-                     onerror="this.src='${URLS.fallbackImg}'; this.classList.add('loaded');">
-                     
-                <div class="card-info-overlay">
-                    <div class="card-title-text">${item.title}</div>
-                </div>
-                ${item.episodes ? `<div class="badge-ep">${item.episodes.length} EP</div>` : ''}
-                ${item.isChannel ? `<div class="live-badge">LIVE</div>` : ''}
-                ${pct > 0 && pct < 95 ? `<div class="card-prog-bg"><div class="card-prog-fill" style="width:${pct}%"></div></div>` : ''}
-                ${pct > 95 ? `<div class="live-badge" style="background:#4caf50; left:5px; right:auto;">VISTO</div>` : ''}
-            `;
-            d.onclick = () => openDetail(item);
-            return d;
-        }
-
-        function loadMore() {
-            if (STATE.isLoading) return;
-            const chunk = STATE.list.slice(STATE.page, STATE.page + 20);
-            if(!chunk.length) { els.loader.style.display='none'; return; }
-            
-            STATE.isLoading = true;
-            els.loader.style.display='block';
-            
-            setTimeout(() => {
-                chunk.forEach((i, idx) => {
-                    const card = createCard(i, true);
-                    card.style.animationDelay = `${idx * 50}ms`;
-                    els.grid.appendChild(card);
-                });
-                STATE.page += 20;
-                STATE.isLoading = false;
-                els.loader.style.display='none';
-            }, 400);
-        }
         
-        document.getElementById('view-catalog').onscroll = (e) => {
-            if(e.target.scrollTop + e.target.clientHeight >= e.target.scrollHeight - 150) loadMore();
-        };
+const URLS = {
+    json: "https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/data.json",
+    m3u8: "https://raw.githubusercontent.com/R3D-GHOST/json/refs/heads/main/CV.m3u8",
+    fallbackImg: "https://via.placeholder.com/200x300/111/444?text=Vortex"
+};
 
-        function openDetail(item) {
-            document.querySelectorAll('.view-container').forEach(v => v.classList.remove('active'));
-            const detailView = document.getElementById('view-detail');
-            detailView.classList.add('active');
-            
-            detailView.scrollTop = 0;
+let DATA = {
+    all: [], series: [], movies: [], channels: [],
+    action: [], romance: [], suspense: [],
+    premiere: [], anime: [], superheroes: [], kids: [], horror: [],
+    eventChannel: null
+};
 
-            const bg = item.coverImage || item.logo || URLS.fallbackImg;
-            const isFav = STATE.favs.includes(item.title);
-            const c = document.getElementById('detail-content-area');
+let STATE = {
+    list: [], page: 0,
+    isLoading: false,
+    favs: JSON.parse(localStorage.getItem('favs') || '[]'),
+    hist: JSON.parse(localStorage.getItem('hist') || '{}')
+};
 
-            let html = `
-                <div class="detail-hero"><img src="${bg}" onerror="this.src='${URLS.fallbackImg}'"></div>
-                <div class="detail-content">
-                    <div style="display:flex; gap:15px; align-items:flex-end;">
-                        <img src="${bg}" class="poster-float" onerror="this.src='${URLS.fallbackImg}'">
-                        <div style="flex:1;">
-                            <h1 style="font-size:1.4rem; color:var(--cr-orange); margin-bottom:5px; line-height:1.1;">${item.title}</h1>
-                            <div style="color:#aaa; font-size:0.8rem;">${item.genre?.join(' | ') || 'Anime'}</div>
-                        </div>
-                    </div>
-                    <div class="action-row">
-                        <button class="btn-cr" style="flex:1; justify-content:center;" onclick="playMain('${item.title}')">
-                            <i class="fas fa-play"></i> REPRODUCIR
+let PLAYER = { active: false, item: null, epIdx: -1, interval: null, tempResume: null, fakeLoading: false, controlsTimeout: null };
+
+const hlsConfig = {
+    enableWorker: true,
+    lowLatencyMode: true,
+    backBufferLength: 60
+};
+
+const els = {
+    grid: document.getElementById('grid-container'),
+    loader: document.getElementById('infiniteLoader'),
+    video: document.getElementById('player'),
+    overlay: document.getElementById('videoOverlay'),
+    pMenu: document.getElementById('profileMenu'),
+    skipBtn: document.getElementById('skipBtn'),
+    fakeLoader: document.getElementById('fakeLoader'),
+    headerEvent: document.getElementById('headerEventArea'),
+    controls: document.getElementById('videoControls') // Referencia añadida
+};
+
+async function init() {
+    try {
+        console.log("Descargando datos actualizados...");
+        const d = await fetch(URLS.json + "?t=" + Date.now()).then(r => r.json());
+        const m = await fetch(URLS.m3u8 + "?t=" + Date.now()).then(r => r.text());
+
+        localStorage.removeItem('vortex_data_cache');
+        localStorage.removeItem('vortex_cache_time');
+
+        DATA.series = d.filter(x => x.episodes?.length > 0);
+        DATA.movies = d.filter(x => !x.episodes || x.episodes.length === 0);
+
+        const checkGenre = (x, tags) => x.genre?.some(g => tags.some(t => g.toLowerCase().includes(t)));
+
+        DATA.action = d.filter(x => checkGenre(x, ['acción', 'action']));
+        DATA.romance = d.filter(x => checkGenre(x, ['romance']));
+        DATA.suspense = d.filter(x => checkGenre(x, ['suspenso', 'suspense', 'thriller']));
+        DATA.premiere = d.filter(x => checkGenre(x, ['estreno', 'nuevo', '2024', '2025', '2026']));
+        DATA.anime = d.filter(x => checkGenre(x, ['anime', 'animación japonesa']));
+        DATA.superheroes = d.filter(x => checkGenre(x, ['super', 'héroe', 'marvel', 'dc', 'hero']));
+        DATA.kids = d.filter(x => checkGenre(x, ['infantil', 'niños', 'kids', 'family']));
+        DATA.horror = d.filter(x => checkGenre(x, ['terror', 'miedo', 'horror']));
+
+        parseChannels(m);
+        DATA.all = [...d, ...DATA.channels];
+
+        renderHome();
+        setupPlayerGestures(); // Iniciamos los gestos aquí
+    } catch (e) { console.error(e); }
+}
+
+function parseChannels(txt) {
+    if (txt.trim().startsWith('<')) {
+        const regex = /<channel.*?name="(.*?)".*?>(.*?)<\/channel>/g;
+        let match;
+        while ((match = regex.exec(txt)) !== null) {
+            DATA.channels.push({
+                title: match[1],
+                video_url: match[2],
+                coverImage: URLS.fallbackImg,
+                isChannel: true,
+                isEvent: false
+            });
+        }
+    } else {
+        let curr = null;
+        txt.split('\n').forEach(l => {
+            l = l.trim();
+            if (l.startsWith('#EXTINF:')) {
+                const isEvent = l.toLowerCase().includes('group-title="evento"');
+                curr = {
+                    title: l.split(',')[1],
+                    coverImage: l.match(/tvg-logo="([^"]*)"/)?.[1],
+                    isChannel: true,
+                    isEvent: isEvent
+                };
+            } else if (l.includes('://') && curr) {
+                curr.video_url = l;
+                if (curr.isEvent) {
+                    DATA.eventChannel = curr;
+                } else {
+                    DATA.channels.push(curr);
+                }
+                curr = null;
+            }
+        });
+    }
+}
+
+function navTo(tab) {
+    if (tab !== 'search') {
+        const sInput = document.getElementById('searchInput');
+        const sGrid = document.getElementById('search-grid');
+        if (sInput && sInput.value !== '') { sInput.value = ''; sGrid.innerHTML = ''; }
+    }
+
+    document.querySelectorAll('.view-container').forEach(v => v.classList.remove('active'));
+    document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
+
+    if (event && event.currentTarget && event.currentTarget.classList.contains('nav-item')) {
+        event.currentTarget.classList.add('active');
+    }
+    els.pMenu.classList.remove('show');
+
+    const fBtn = document.getElementById('filterBtn');
+    const fMenu = document.getElementById('filterMenu');
+    if (fBtn) {
+        if (tab === 'movies' || tab === 'series') {
+            fBtn.style.display = 'flex';
+            prepareGenreFilter(tab);
+        } else {
+            fBtn.style.display = 'none';
+            if (fMenu) fMenu.style.display = 'none';
+        }
+    }
+
+    if (tab === 'home') {
+        document.getElementById('view-home').classList.add('active');
+        renderHome();
+    } else if (tab === 'search') {
+        document.getElementById('view-search').classList.add('active');
+        document.getElementById('searchInput').focus();
+    } else {
+        const v = document.getElementById('view-catalog');
+        v.classList.add('active');
+        v.scrollTop = 0;
+
+        if (tab === 'movies' || tab === 'series') els.grid.classList.add('dense-grid');
+        else els.grid.classList.remove('dense-grid');
+
+        STATE.page = 0;
+        STATE.isLoading = false;
+        els.grid.innerHTML = '';
+        document.getElementById('catalogTitle').innerText = tab === 'favorites' ? 'FAVORITOS' : tab.toUpperCase();
+
+        if (tab === 'series') STATE.list = DATA.series;
+        else if (tab === 'live') STATE.list = DATA.channels;
+        else if (tab === 'movies') STATE.list = DATA.movies;
+        else if (tab === 'favorites') STATE.list = DATA.all.filter(x => STATE.favs.includes(x.title));
+
+        loadMore();
+    }
+}
+
+function renderHome() {
+    const c = document.getElementById('home-content');
+    const h = document.getElementById('hero-container');
+
+    if (!h.innerHTML) {
+        if (DATA.series.length) {
+            const item = DATA.series[Math.floor(Math.random() * DATA.series.length)];
+            const img = item.coverImage || URLS.fallbackImg;
+            h.innerHTML = `
+                <div class="hero-section">
+                    <img class="hero-img" src="${img}" onerror="this.src='${URLS.fallbackImg}'">
+                    <div class="hero-overlay">
+                        <h1 style="font-size:2rem; font-weight:900; line-height:1; margin-bottom:5px; text-shadow:0 2px 5px black;">${item.title}</h1>
+                        <p style="color:#ccc; margin-bottom:15px; font-size:0.9rem;">${item.genre?.join(' • ') || 'Anime'}</p>
+                        <button class="btn-cr" onclick='openDetail(DATA.all.find(x=>x.title=="${item.title}"))'>
+                            <i class="fas fa-play"></i> VER AHORA
                         </button>
-                        <button class="btn-fav ${isFav?'active':''}" onclick="toggleFav('${item.title}', this)">
-                            <i class="${isFav?'fas':'far'} fa-heart"></i>
-                        </button>
                     </div>
-                    <p style="margin-top:20px; color:#ccc; line-height:1.5; font-size:0.9rem;">${item.description || 'Sin descripción.'}</p>
+                </div>
             `;
-
-            if(item.episodes) {
-                html += `<div style="margin-top:30px; border-bottom:1px solid #333; padding-bottom:10px; font-weight:bold; color:white;">EPISODIOS</div><div>`;
-                item.episodes.forEach((ep, i) => {
-                    const h = STATE.hist[item.title]?.eps?.[i];
-                    // Recalcular progreso en tiempo real al abrir detalle
-                    const pct = h ? (h.time/h.dur)*100 : 0;
-                    const thumb = ep.thumb || bg;
-                    html += `
-                        <div class="episode-row" onclick="checkPlay('${item.title}', ${i})">
-                            <div class="ep-thumb">
-                                <img src="${thumb}" style="width:100%; height:100%; object-fit:cover;" onerror="this.src='${URLS.fallbackImg}'">
-                                ${pct>0?`<div class="ep-prog-bar"><div class="ep-prog-val" style="width:${pct}%"></div></div>`:''}
-                            </div>
-                            <div style="flex:1;">
-                                <h4 style="font-size:0.9rem; color:${pct>90?'#777':'white'}; margin-bottom:4px;">Capítulo ${i+1}</h4>
-                                <span style="font-size:0.75rem; color:#777;">${item.title}</span>
-                            </div>
-                            ${pct>90?`<i class="fas fa-check-circle ep-seen"></i>`:''}
-                        </div>
-                    `;
-                });
-                html += '</div>';
-            }
-            c.innerHTML = html + '</div>';
         }
+    }
+    c.innerHTML = '';
 
-        function playMain(title) {
-            const item = DATA.all.find(x => x.title === title);
-            if(item.isChannel) launchPlayer(item.video_url, item.title, false, item);
-            else if(item.episodes) {
-                const idx = STATE.hist[title]?.last || 0;
-                checkPlay(title, idx);
-            } else {
-                checkPlay(title, -1);
-            }
+    if (DATA.eventChannel) {
+        els.headerEvent.innerHTML = `
+            <div class="event-header-btn" onclick="launchPlayer('${DATA.eventChannel.video_url}', '${DATA.eventChannel.title}', false, DATA.eventChannel)">
+                <i class="fas fa-broadcast-tower"></i> EVENTO
+            </div>
+        `;
+    } else {
+        els.headerEvent.innerHTML = '';
+    }
+
+    addShelf('Canales en Vivo', DATA.channels, c);
+
+    const watching = DATA.all.filter(x => {
+        if (x.isChannel) return false;
+        const h = STATE.hist[x.title];
+        return h && ((h.time > 0) || (h.last !== undefined));
+    });
+
+    watching.sort((a, b) => {
+        const ta = STATE.hist[a.title]?.updated || 0;
+        const tb = STATE.hist[b.title]?.updated || 0;
+        return tb - ta;
+    });
+
+    if (watching.length) addShelf('Seguir Viendo', watching, c);
+
+    addShelf('Estreno', DATA.premiere.slice(0, 15), c);
+    addShelf('Anime', DATA.anime.slice(0, 15), c);
+    addShelf('Superhéroes', DATA.superheroes.slice(0, 15), c);
+    addShelf('Acción', DATA.action.slice(0, 15), c);
+    addShelf('Terror', DATA.horror.slice(0, 15), c);
+    addShelf('Infantil', DATA.kids.slice(0, 15), c);
+    addShelf('Películas Recomendadas', DATA.movies.slice(0, 15), c);
+    addShelf('Series Populares', DATA.series.slice(0, 15), c);
+}
+
+function addShelf(t, list, p) {
+    if (!list.length) return;
+    const d = document.createElement('div');
+    d.className = 'shelf';
+    d.innerHTML = `<div class="shelf-title">${t}</div><div class="shelf-scroll"></div>`;
+    const s = d.querySelector('.shelf-scroll');
+    list.forEach(i => s.appendChild(createCard(i)));
+    p.appendChild(d);
+}
+
+function createCard(item, grid = false) {
+    const d = document.createElement('div');
+    d.className = grid ? 'media-card card-animate' : 'media-card';
+    if (grid) d.style.width = '100%';
+
+    const imgUrl = item.coverImage || item.logo || URLS.fallbackImg;
+    const hist = STATE.hist[item.title];
+
+    let pct = 0;
+    if (!item.isChannel && hist) {
+        if (item.episodes && hist.last !== undefined) {
+            const lastEp = hist.eps?.[hist.last];
+            if (lastEp) pct = (lastEp.time / lastEp.dur) * 100;
+        } else if (!item.episodes) {
+            pct = (hist.time / hist.dur) * 100;
         }
+    }
 
-        function checkPlay(title, idx) {
-            const item = DATA.all.find(x => x.title === title);
-            const url = idx === -1 ? item.video_url : item.episodes[idx].video_url;
-            let time = (idx === -1) ? (STATE.hist[title]?.time || 0) : (STATE.hist[title]?.eps?.[idx]?.time || 0);
-            let dur = (idx === -1) ? (STATE.hist[title]?.dur || 0) : (STATE.hist[title]?.eps?.[idx]?.dur || 0);
+    d.innerHTML = `
+        <img src="${imgUrl}" loading="lazy" 
+             onload="this.classList.add('loaded')" 
+             onerror="this.src='${URLS.fallbackImg}'; this.classList.add('loaded');">
+             
+        <div class="card-info-overlay">
+            <div class="card-title-text">${item.title}</div>
+        </div>
+        ${item.episodes ? `<div class="badge-ep">${item.episodes.length} EP</div>` : ''}
+        ${item.isChannel ? `<div class="live-badge">LIVE</div>` : ''}
+        ${pct > 0 && pct < 95 ? `<div class="card-prog-bg"><div class="card-prog-fill" style="width:${pct}%"></div></div>` : ''}
+        ${pct > 95 ? `<div class="live-badge" style="background:#4caf50; left:5px; right:auto;">VISTO</div>` : ''}
+    `;
+    d.onclick = () => openDetail(item);
+    return d;
+}
 
-            if(time > 30 && time < dur * 0.95) {
-                PLAYER.tempResume = { url, title, idx, time, item };
-                document.getElementById('resumeTimeStr').innerText = Math.floor(time/60) + " min";
-                document.getElementById('resumeModal').style.display = 'flex';
-            } else {
-                launchPlayer(url, title, idx, item);
-            }
-        }
+function loadMore() {
+    if (STATE.isLoading) return;
+    const chunk = STATE.list.slice(STATE.page, STATE.page + 20);
+    if (!chunk.length) { els.loader.style.display = 'none'; return; }
 
-        function confirmResume(yes) {
-            document.getElementById('resumeModal').style.display = 'none';
-            const { url, title, idx, time, item } = PLAYER.tempResume;
-            launchPlayer(url, title, idx, item, yes ? time : 0);
-        }
+    STATE.isLoading = true;
+    els.loader.style.display = 'block';
 
-        function launchPlayer(url, title, idx, item, startTime=0) {
-            history.pushState({player: true}, null, "");
+    setTimeout(() => {
+        chunk.forEach((i, idx) => {
+            const card = createCard(i, true);
+            card.style.animationDelay = `${idx * 50}ms`;
+            els.grid.appendChild(card);
+        });
+        STATE.page += 30;
+        STATE.isLoading = false;
+        els.loader.style.display = 'none';
+    }, 400);
+}
 
-            PLAYER.active = true; PLAYER.item = item; PLAYER.epIdx = idx;
-            
-            PLAYER.fakeLoading = true;
-            els.video.classList.remove('ready'); 
-            els.fakeLoader.style.display = 'flex'; 
-            document.getElementById('videoControls').classList.add('hidden');
-            
-            els.overlay.style.display = 'flex';
-            document.getElementById('bufferLoader').style.display = 'none';
-            els.skipBtn.style.display = 'none'; 
+document.getElementById('view-catalog').onscroll = (e) => {
+    if (e.target.scrollTop + e.target.clientHeight >= e.target.scrollHeight - 150) loadMore();
+};
 
-            let tStr = title; if(idx !== false && idx > -1) tStr += ` - E${idx+1}`;
-            document.getElementById('playerTitle').innerText = tStr;
-            
-            document.getElementById('nextEpBtn').style.display = 'none';
-            document.getElementById('centerIcon').className = "fas fa-pause";
-            document.getElementById('bottomIcon').className = "fas fa-pause";
+function openDetail(item) {
+    const fBtn = document.getElementById('filterBtn');
+    if (fBtn) fBtn.style.display = 'none';
 
-            // LOGICA DE REPRODUCTOR ACTUALIZADA PARA SOPORTAR TODO
-            if(Hls.isSupported() && (url.includes('.m3u8') || url.includes('.ts'))) {
-                // HLS (Streaming)
-                if(window.hls) window.hls.destroy();
-                window.hls = new Hls(hlsConfig);
-                window.hls.loadSource(url); 
-                window.hls.attachMedia(els.video);
-                window.hls.on(Hls.Events.MANIFEST_PARSED, () => startVid(startTime));
-                window.hls.on(Hls.Events.ERROR, (e, data) => {
-                    if(data.fatal) {
-                         // Si falla HLS, intentamos nativo por si acaso
-                         console.warn("HLS falló, intentando nativo...");
-                         window.hls.destroy();
-                         els.video.src = url;
-                         startVid(startTime);
-                    }
-                });
-            } else {
-                // MP4, MKV, AVI, etc. (Nativo del navegador)
-                // Nota: MKV y AVI dependen del navegador, pero ya no se bloquean.
-                if(window.hls) { window.hls.destroy(); window.hls = null; }
-                els.video.src = url; 
+    document.querySelectorAll('.view-container').forEach(v => v.classList.remove('active'));
+    const detailView = document.getElementById('view-detail');
+    detailView.classList.add('active');
+
+    detailView.scrollTop = 0;
+
+    const bg = item.coverImage || item.logo || URLS.fallbackImg;
+    const isFav = STATE.favs.includes(item.title);
+    const c = document.getElementById('detail-content-area');
+
+    let html = `
+        <div class="detail-hero"><img src="${bg}" onerror="this.src='${URLS.fallbackImg}'"></div>
+        <div class="detail-content">
+            <div style="display:flex; gap:15px; align-items:flex-end;">
+                <img src="${bg}" class="poster-float" onerror="this.src='${URLS.fallbackImg}'">
+                <div style="flex:1;">
+                    <h1 style="font-size:1.4rem; color:var(--cr-orange); margin-bottom:5px; line-height:1.1;">${item.title}</h1>
+                    <div style="color:#aaa; font-size:0.8rem;">${item.genre?.join(' | ') || 'Contenido'}</div>
+                </div>
+            </div>
+            <div class="action-row">
+                <button class="btn-cr" style="flex:1; justify-content:center;" onclick="playMain('${item.title}')">
+                    <i class="fas fa-play"></i> REPRODUCIR
+                </button>
+                <button class="btn-fav ${isFav ? 'active' : ''}" onclick="toggleFav('${item.title}', this)">
+                    <i class="${isFav ? 'fas' : 'far'} fa-heart"></i>
+                </button>
+            </div>
+            <p style="margin-top:20px; color:#ccc; line-height:1.5; font-size:0.9rem;">${item.description || 'Sin descripción.'}</p>
+    `;
+
+    if (item.episodes) {
+        html += `<div style="margin-top:30px; border-bottom:1px solid #333; padding-bottom:10px; font-weight:bold; color:white;">EPISODIOS</div><div>`;
+        item.episodes.forEach((ep, i) => {
+            const h = STATE.hist[item.title]?.eps?.[i];
+            const pct = h ? (h.time / h.dur) * 100 : 0;
+            const thumb = ep.thumb || bg;
+            html += `
+                <div class="episode-row" onclick="checkPlay('${item.title}', ${i})">
+                    <div class="ep-thumb">
+                        <img src="${thumb}" style="width:100%; height:100%; object-fit:cover;" onerror="this.src='${URLS.fallbackImg}'">
+                        ${pct > 0 ? `<div class="ep-prog-bar"><div class="ep-prog-val" style="width:${pct}%"></div></div>` : ''}
+                    </div>
+                    <div style="flex:1;">
+                        <h4 style="font-size:0.9rem; color:${pct > 90 ? '#777' : 'white'}; margin-bottom:4px;">Capítulo ${i + 1}</h4>
+                        <span style="font-size:0.75rem; color:#777;">${item.title}</span>
+                    </div>
+                    ${pct > 90 ? `<i class="fas fa-check-circle ep-seen"></i>` : ''}
+                </div>
+            `;
+        });
+        html += '</div>';
+    }
+    c.innerHTML = html + '</div>';
+}
+
+function playMain(title) {
+    const item = DATA.all.find(x => x.title === title);
+    if (item.isChannel) launchPlayer(item.video_url, item.title, false, item);
+    else if (item.episodes) {
+        const idx = STATE.hist[title]?.last || 0;
+        checkPlay(title, idx);
+    } else {
+        checkPlay(title, -1);
+    }
+}
+
+function checkPlay(title, idx) {
+    const item = DATA.all.find(x => x.title === title);
+    const url = idx === -1 ? item.video_url : item.episodes[idx].video_url;
+    let time = (idx === -1) ? (STATE.hist[title]?.time || 0) : (STATE.hist[title]?.eps?.[idx]?.time || 0);
+    let dur = (idx === -1) ? (STATE.hist[title]?.dur || 0) : (STATE.hist[title]?.eps?.[idx]?.dur || 0);
+
+    if (time > 30 && time < dur * 0.95) {
+        PLAYER.tempResume = { url, title, idx, time, item };
+        document.getElementById('resumeTimeStr').innerText = Math.floor(time / 60) + " min";
+        document.getElementById('resumeModal').style.display = 'flex';
+    } else {
+        launchPlayer(url, title, idx, item);
+    }
+}
+
+function confirmResume(yes) {
+    document.getElementById('resumeModal').style.display = 'none';
+    const { url, title, idx, time, item } = PLAYER.tempResume;
+    launchPlayer(url, title, idx, item, yes ? time : 0);
+}
+
+// --- LOGICA DEL REPRODUCTOR MEJORADA (ESTILO YOUTUBE) ---
+
+function launchPlayer(url, title, idx, item, startTime = 0) {
+    history.pushState({ player: true }, null, "");
+
+    PLAYER.active = true; PLAYER.item = item; PLAYER.epIdx = idx;
+
+    // Estado inicial visual
+    PLAYER.fakeLoading = true;
+    els.video.classList.remove('ready');
+    els.fakeLoader.style.display = 'flex';
+    els.controls.classList.add('hidden'); // Empezar oculto hasta que cargue
+    els.overlay.style.display = 'flex';
+    document.getElementById('bufferLoader').style.display = 'none';
+    els.skipBtn.style.display = 'none';
+
+    // Ocultar botón fullscreen si existe (Petición del usuario)
+    const fsBtn = document.querySelector('button[onclick="toggleFull()"]');
+    if(fsBtn) fsBtn.style.display = 'none';
+    // Ocultar cualquier icono que use fa-expand
+    const fsIcons = document.querySelectorAll('.fa-expand');
+    fsIcons.forEach(ic => ic.parentElement.style.display = 'none');
+
+    let tStr = title; if (idx !== false && idx > -1) tStr += ` - E${idx + 1}`;
+    document.getElementById('playerTitle').innerText = tStr;
+
+    document.getElementById('nextEpBtn').style.display = 'none';
+    updatePlayPauseIcons(false); // Icono de pausa por defecto
+
+    if (Hls.isSupported() && (url.includes('.m3u8') || url.includes('.ts'))) {
+        if (window.hls) window.hls.destroy();
+        window.hls = new Hls(hlsConfig);
+        window.hls.loadSource(url);
+        window.hls.attachMedia(els.video);
+        window.hls.on(Hls.Events.MANIFEST_PARSED, () => startVid(startTime));
+        window.hls.on(Hls.Events.ERROR, (e, data) => {
+            if (data.fatal) {
+                console.warn("HLS falló, intentando nativo...");
+                window.hls.destroy();
+                els.video.src = url;
                 startVid(startTime);
             }
+        });
+    } else {
+        if (window.hls) { window.hls.destroy(); window.hls = null; }
+        els.video.src = url;
+        startVid(startTime);
+    }
 
-            clearInterval(PLAYER.interval);
-            PLAYER.interval = setInterval(saveProgress, 3000);
+    clearInterval(PLAYER.interval);
+    PLAYER.interval = setInterval(saveProgress, 3000);
 
-            if (els.overlay.requestFullscreen) els.overlay.requestFullscreen().catch(e=>{});
-            else if (els.overlay.webkitRequestFullscreen) els.overlay.webkitRequestFullscreen();
+    if (els.overlay.requestFullscreen) els.overlay.requestFullscreen().catch(e => { });
+    else if (els.overlay.webkitRequestFullscreen) els.overlay.webkitRequestFullscreen();
+}
+
+function startVid(t) {
+    els.video.currentTime = t;
+    const playPromise = els.video.play();
+
+    if (playPromise !== undefined) {
+        playPromise.then(_ => {
+            updatePlayPauseIcons(true);
+        }).catch(error => {
+            console.error("Error al reproducir:", error);
+            updatePlayPauseIcons(false);
+        });
+    }
+
+    els.video.onplaying = () => {
+        document.getElementById('bufferLoader').style.display = 'none';
+        updatePlayPauseIcons(true);
+    };
+    els.video.onpause = () => updatePlayPauseIcons(false);
+    els.video.onwaiting = () => {
+        if (!PLAYER.fakeLoading) document.getElementById('bufferLoader').style.display = 'block';
+    };
+}
+
+// Nueva función unificada para actualizar iconos
+function updatePlayPauseIcons(isPlaying) {
+    const cls = isPlaying ? "fas fa-pause" : "fas fa-play";
+    if(document.getElementById('centerIcon')) document.getElementById('centerIcon').className = cls;
+    if(document.getElementById('bottomIcon')) document.getElementById('bottomIcon').className = cls;
+}
+
+function saveProgress() {
+    if (!PLAYER.active || PLAYER.item?.isChannel || els.video.paused) return;
+    const t = els.video.currentTime, d = els.video.duration, title = PLAYER.item.title;
+    const now = Date.now();
+
+    if (!STATE.hist[title]) STATE.hist[title] = {};
+    STATE.hist[title].updated = now;
+
+    if (PLAYER.epIdx > -1) {
+        if (!STATE.hist[title].eps) STATE.hist[title].eps = {};
+        STATE.hist[title].eps[PLAYER.epIdx] = { time: t, dur: d };
+        STATE.hist[title].last = PLAYER.epIdx;
+    } else {
+        STATE.hist[title].time = t; STATE.hist[title].dur = d;
+    }
+    localStorage.setItem('hist', JSON.stringify(STATE.hist));
+}
+
+function closePlayer() {
+    if (!PLAYER.active) return;
+    saveProgress();
+    els.video.pause();
+    els.video.removeAttribute('src');
+    els.video.load();
+    if (window.hls) { window.hls.destroy(); window.hls = null; }
+
+    clearInterval(PLAYER.interval);
+    els.overlay.style.display = 'none';
+    PLAYER.active = false;
+    if (document.fullscreenElement) document.exitFullscreen().catch(e => { });
+}
+
+function closePlayerManually() { history.back(); }
+
+window.onpopstate = (event) => { if (PLAYER.active) closePlayer(); };
+
+document.addEventListener('fullscreenchange', () => { if (!document.fullscreenElement && PLAYER.active) history.back(); });
+document.addEventListener('webkitfullscreenchange', () => { if (!document.webkitFullscreenElement && PLAYER.active) history.back(); });
+
+function togglePlay() {
+    if (els.video.paused) {
+        els.video.play();
+        activateAutoHide(); // Si damos play, activamos el auto-ocultar
+    } else {
+        els.video.pause();
+        showControls(); // Si pausamos, mostramos controles y NO se ocultan
+    }
+}
+
+function nextEpPlayer() {
+    if (PLAYER.item?.episodes && PLAYER.epIdx + 1 < PLAYER.item.episodes.length) {
+        checkPlay(PLAYER.item.title, PLAYER.epIdx + 1);
+    } else {
+        closePlayerManually();
+    }
+}
+
+els.video.onended = () => { saveProgress(); nextEpPlayer(); };
+
+els.video.ontimeupdate = () => {
+    if (!els.video.duration) return;
+
+    const cur = els.video.currentTime;
+
+    if (PLAYER.fakeLoading && cur > 0.5) {
+        PLAYER.fakeLoading = false;
+        els.fakeLoader.style.display = 'none';
+        els.video.classList.add('ready');
+        showControls(); // Mostrar controles al iniciar video real
+        activateAutoHide(); // Iniciar timer de ocultar
+    }
+
+    const dur = els.video.duration;
+    const p = (cur / dur) * 100 || 0;
+
+    document.getElementById('progFill').style.width = p + '%';
+    document.getElementById('timeDisplay').innerText = fmt(cur) + " / " + fmt(dur);
+
+    const remain = dur - cur;
+    if (remain <= 6 && remain > 0 && PLAYER.item?.episodes && (PLAYER.epIdx + 1 < PLAYER.item.episodes.length)) {
+        els.skipBtn.style.display = 'flex';
+        els.skipBtn.innerHTML = `Siguiente en ${Math.ceil(remain)}s <i class="fas fa-step-forward"></i>`;
+    } else {
+        els.skipBtn.style.display = 'none';
+    }
+};
+
+document.getElementById('scrubber').onclick = (e) => {
+    const r = e.currentTarget.getBoundingClientRect();
+    els.video.currentTime = ((e.clientX - r.left) / r.width) * els.video.duration;
+};
+
+// Se mantiene toggleFull pero se oculta el botón visualmente
+function toggleFull() { document.fullscreenElement ? document.exitFullscreen() : els.overlay.requestFullscreen(); }
+
+// --- GESTIÓN DE CONTROLES E INTERFAZ (CORE YOUTUBE LOGIC) ---
+
+function showControls() {
+    els.controls.classList.remove('hidden');
+    clearTimeout(PLAYER.controlsTimeout);
+}
+
+function hideControls() {
+    // Solo ocultamos si NO está pausado. En YouTube si está pausado los controles se quedan.
+    if (!els.video.paused) {
+        els.controls.classList.add('hidden');
+    }
+}
+
+function activateAutoHide() {
+    clearTimeout(PLAYER.controlsTimeout);
+    if (!els.video.paused) {
+        PLAYER.controlsTimeout = setTimeout(() => {
+            hideControls();
+        }, 3000); // 3 Segundos para ocultar
+    }
+}
+
+function setupPlayerGestures() {
+    let lastTap = 0;
+    let tapTimeout;
+
+    // Usamos 'click' en el overlay general para manejar la lógica de mostrar/ocultar
+    // y detectamos doble click manualmente con timestamps para mayor control.
+    els.overlay.addEventListener('click', (e) => {
+        // Ignorar si se hace click en controles interactivos
+        if (e.target.closest('.ctrl-btn') || 
+            e.target.closest('.progress-area') || 
+            e.target.closest('.skip-next-btn') ||
+            e.target.closest('.event-header-btn')) {
+            activateAutoHide(); // Reiniciar timer si se toca un control
+            return;
         }
 
-        function startVid(t) {
-            els.video.currentTime = t;
-            const playPromise = els.video.play();
-            
-            if (playPromise !== undefined) {
-                playPromise.then(_ => {
-                    // Reproducción iniciada
-                }).catch(error => {
-                    // Error de auto-play o formato no soportado
-                    console.error("Error al reproducir:", error);
-                    document.getElementById('centerIcon').className = "fas fa-play";
-                    document.getElementById('bottomIcon').className = "fas fa-play";
-                });
-            }
-
-            els.video.onplaying = () => document.getElementById('bufferLoader').style.display = 'none';
-            els.video.onwaiting = () => {
-                if(!PLAYER.fakeLoading) document.getElementById('bufferLoader').style.display = 'block';
-            };
-        }
-
-        function saveProgress() {
-            if(!PLAYER.active || PLAYER.item?.isChannel || els.video.paused) return;
-            const t = els.video.currentTime, d = els.video.duration, title = PLAYER.item.title;
-            const now = Date.now();
-            
-            if(!STATE.hist[title]) STATE.hist[title] = {};
-            STATE.hist[title].updated = now; 
-
-            if(PLAYER.epIdx > -1) {
-                if(!STATE.hist[title].eps) STATE.hist[title].eps = {};
-                STATE.hist[title].eps[PLAYER.epIdx] = { time: t, dur: d };
-                STATE.hist[title].last = PLAYER.epIdx;
-            } else {
-                STATE.hist[title].time = t; STATE.hist[title].dur = d;
-            }
-            localStorage.setItem('hist', JSON.stringify(STATE.hist));
-        }
-
-        function closePlayer() {
-            if(!PLAYER.active) return;
-            saveProgress(); 
-            els.video.pause(); 
-            els.video.removeAttribute('src'); // Detener descarga
-            els.video.load(); 
-            if(window.hls) { window.hls.destroy(); window.hls = null; }
-            
-            clearInterval(PLAYER.interval);
-            els.overlay.style.display = 'none';
-            PLAYER.active = false;
-            if(document.fullscreenElement) document.exitFullscreen().catch(e=>{});
-        }
-
-        function closePlayerManually() { history.back(); }
-
-        window.onpopstate = (event) => { if (PLAYER.active) closePlayer(); };
-
-        document.addEventListener('fullscreenchange', () => { if (!document.fullscreenElement && PLAYER.active) history.back(); });
-        document.addEventListener('webkitfullscreenchange', () => { if (!document.webkitFullscreenElement && PLAYER.active) history.back(); });
-
-        function togglePlay() {
-            if(els.video.paused) {
-                els.video.play();
-                document.getElementById('centerIcon').className = "fas fa-pause";
-                document.getElementById('bottomIcon').className = "fas fa-pause";
-            } else {
-                els.video.pause();
-                document.getElementById('centerIcon').className = "fas fa-play";
-                document.getElementById('bottomIcon').className = "fas fa-play";
-            }
-        }
-
-        function nextEpPlayer() {
-            if(PLAYER.item?.episodes && PLAYER.epIdx + 1 < PLAYER.item.episodes.length) {
-                checkPlay(PLAYER.item.title, PLAYER.epIdx + 1);
-            } else {
-                closePlayerManually();
-            }
-        }
-
-        els.video.onended = () => { saveProgress(); nextEpPlayer(); };
-
-        els.video.ontimeupdate = () => {
-            if (!els.video.duration) return;
-            
-            const cur = els.video.currentTime;
-            
-            if(PLAYER.fakeLoading && cur > 0.5) { // Reducido el tiempo de espera visual
-                PLAYER.fakeLoading = false;
-                els.fakeLoader.style.display = 'none';
-                els.video.classList.add('ready'); 
-                document.getElementById('videoControls').classList.remove('hidden');
-                showC(); 
-            }
-
-            const dur = els.video.duration;
-            const p = (cur / dur) * 100 || 0;
-            
-            document.getElementById('progFill').style.width = p + '%';
-            document.getElementById('timeDisplay').innerText = fmt(cur) + " / " + fmt(dur);
-
-            const remain = dur - cur;
-            if (remain <= 6 && remain > 0 && PLAYER.item?.episodes && (PLAYER.epIdx + 1 < PLAYER.item.episodes.length)) {
-                els.skipBtn.style.display = 'flex';
-                els.skipBtn.innerHTML = `Siguiente en ${Math.ceil(remain)}s <i class="fas fa-step-forward"></i>`;
-            } else {
-                els.skipBtn.style.display = 'none';
-            }
-        };
+        const now = Date.now();
+        const timeDiff = now - lastTap;
         
-        document.getElementById('scrubber').onclick = (e) => {
-            const r = e.currentTarget.getBoundingClientRect();
-            els.video.currentTime = ((e.clientX - r.left)/r.width) * els.video.duration;
-        };
-        
-        function toggleFull() { document.fullscreenElement ? document.exitFullscreen() : els.overlay.requestFullscreen(); }
-        
-        function toggleProfile() { 
-            const m = els.pMenu;
-            if(m.classList.contains('show')) {
-                m.classList.remove('show');
+        if (timeDiff < 300 && timeDiff > 0) {
+            // --- DOBLE TOQUE DETECTADO ---
+            clearTimeout(tapTimeout); // Cancelar el toggle del toque simple
+            
+            const rect = els.overlay.getBoundingClientRect();
+            const x = e.clientX - rect.left;
+            
+            // Decidir lado (Izquierda: Retroceder, Derecha: Avanzar)
+            if (x < rect.width / 2) {
+                seekVideo(-10);
             } else {
-                updateProfileStats();
-                m.classList.add('show');
+                seekVideo(10);
             }
+            
+            // Al hacer doble toque, mostramos controles momentáneamente
+            showControls();
+            activateAutoHide();
+
+        } else {
+            // --- POSIBLE TOQUE SIMPLE ---
+            // Esperamos 300ms para asegurar que no viene un segundo toque
+            tapTimeout = setTimeout(() => {
+                toggleControlsUI();
+            }, 300);
+        }
+        
+        lastTap = now;
+    });
+
+    // Soporte táctil mejorado para botones (evita el delay de 300ms del navegador)
+    document.querySelectorAll('.ctrl-btn').forEach(btn => {
+        btn.addEventListener('touchend', (e) => {
+            e.preventDefault(); // Evitar doble disparo
+            btn.click();
+        });
+    });
+}
+
+function toggleControlsUI() {
+    if (els.controls.classList.contains('hidden')) {
+        showControls();
+        activateAutoHide();
+    } else {
+        // Si están visibles, forzamos ocultar (incluso si está pausado, el usuario quiere ver la imagen limpia)
+        els.controls.classList.add('hidden');
+        clearTimeout(PLAYER.controlsTimeout);
+    }
+}
+
+function seekVideo(seconds) {
+    els.video.currentTime = Math.max(0, Math.min(els.video.duration, els.video.currentTime + seconds));
+    
+    // Animación visual (Icono flash)
+    const iconClass = seconds > 0 ? "fas fa-forward" : "fas fa-backward";
+    const side = seconds > 0 ? "right: 25%" : "left: 25%";
+    
+    let icon = document.createElement('div');
+    icon.innerHTML = `<i class="${iconClass}"></i><br><span style="font-size:0.8rem; font-weight:bold;">10s</span>`;
+    // CSS Inline para la animación
+    icon.style.cssText = `
+        position: absolute; top: 50%; ${side}; transform: translateY(-50%);
+        font-size: 2rem; color: white; background: rgba(0,0,0,0.4);
+        padding: 20px; border-radius: 50%; z-index: 200; pointer-events: none;
+        display: flex; flex-direction: column; align-items: center;
+        animation: fadeOut 0.6s forwards;
+    `;
+    
+    // Keyframe para fadeOut si no existe en CSS
+    if(!document.getElementById('animStyles')) {
+        const style = document.createElement('style');
+        style.id = 'animStyles';
+        style.innerHTML = `@keyframes fadeOut { 0% { opacity: 1; transform: translateY(-50%) scale(0.8); } 50% { transform: translateY(-50%) scale(1.1); } 100% { opacity: 0; transform: translateY(-50%) scale(1); } }`;
+        document.head.appendChild(style);
+    }
+    
+    els.overlay.appendChild(icon);
+    setTimeout(() => icon.remove(), 600);
+}
+
+// --- FIN LOGICA REPRODUCTOR ---
+
+function toggleProfile() {
+    const m = els.pMenu;
+    if (m.classList.contains('show')) {
+        m.classList.remove('show');
+    } else {
+        updateProfileStats();
+        m.classList.add('show');
+    }
+}
+
+function updateProfileStats() {
+    let totalSecs = 0;
+    let finishedCount = 0;
+    let lastSeen = { title: "Nada aún", time: 0 };
+
+    Object.entries(STATE.hist).forEach(([k, v]) => {
+        if (v.updated && v.updated > lastSeen.time) {
+            lastSeen = { title: k, time: v.updated };
         }
 
-        function updateProfileStats() {
-            let totalSecs = 0;
-            let finishedCount = 0;
-            let lastSeen = { title: "Nada aún", time: 0 };
-
-            Object.entries(STATE.hist).forEach(([k, v]) => {
-                if(v.updated && v.updated > lastSeen.time) {
-                    lastSeen = { title: k, time: v.updated };
-                }
-
-                if(v.eps) {
-                    Object.values(v.eps).forEach(ep => {
-                        totalSecs += ep.time || 0;
-                        if(ep.dur && (ep.time/ep.dur) > 0.9) finishedCount++;
-                    });
-                } else {
-                    totalSecs += v.time || 0;
-                    if(v.dur && (v.time/v.dur) > 0.9) finishedCount++;
-                }
+        if (v.eps) {
+            Object.values(v.eps).forEach(ep => {
+                totalSecs += ep.time || 0;
+                if (ep.dur && (ep.time / ep.dur) > 0.9) finishedCount++;
             });
-
-            const hours = Math.floor(totalSecs / 3600);
-            const mins = Math.floor((totalSecs % 3600) / 60);
-
-            document.getElementById('statTime').innerText = `${hours}h ${mins}m`;
-            document.getElementById('statCompleted').innerText = finishedCount;
-            document.getElementById('statLastTitle').innerText = lastSeen.title;
+        } else {
+            totalSecs += v.time || 0;
+            if (v.dur && (v.time / v.dur) > 0.9) finishedCount++;
         }
+    });
 
-        function clearFavs() {
-            if(confirm('¿Borrar historial y favoritos?')) {
-                STATE.favs = []; 
-                STATE.hist = {};
-                localStorage.setItem('favs', '[]');
-                localStorage.setItem('hist', '{}');
-                navTo('home');
-            }
-        }
+    const hours = Math.floor(totalSecs / 3600);
+    const mins = Math.floor((totalSecs % 3600) / 60);
 
-        document.getElementById('searchInput').oninput = (e) => {
-            const v = e.target.value.toLowerCase(), g = document.getElementById('search-grid');
-            g.innerHTML = '';
-            if(v.length > 1) {
-                const r = DATA.all.filter(x => x.title.toLowerCase().includes(v));
-                r.forEach(i => g.appendChild(createCard(i, true)));
-            }
-        };
+    document.getElementById('statTime').innerText = `${hours}h ${mins}m`;
+    document.getElementById('statCompleted').innerText = finishedCount;
+    document.getElementById('statLastTitle').innerText = lastSeen.title;
+}
 
-        function toggleFav(t, btn) {
-            if(STATE.favs.includes(t)) {
-                STATE.favs = STATE.favs.filter(x=>x!==t);
-                btn.classList.remove('active');
-                btn.querySelector('i').className = 'far fa-heart';
-            } else {
-                STATE.favs.push(t);
-                btn.classList.add('active');
-                btn.querySelector('i').className = 'fas fa-heart';
-            }
-            localStorage.setItem('favs', JSON.stringify(STATE.favs));
-        }
+function clearFavs() {
+    if (confirm('¿Borrar historial y favoritos?')) {
+        STATE.favs = [];
+        STATE.hist = {};
+        localStorage.setItem('favs', '[]');
+        localStorage.setItem('hist', '{}');
+        navTo('home');
+    }
+}
 
-        function fmt(s) {
-            if(isNaN(s)) return "00:00";
-            const m = Math.floor(s/60), sec = Math.floor(s%60);
-            return `${m}:${sec<10?'0'+sec:sec}`;
-        }
-        
-        let ct;
-        const showC = () => {
-            if(PLAYER.fakeLoading) return; 
-            document.getElementById('videoControls').classList.remove('hidden');
-            clearTimeout(ct);
-            ct = setTimeout(() => { if(!els.video.paused) document.getElementById('videoControls').classList.add('hidden'); }, 3000);
-        };
-        els.overlay.onmousemove = showC; els.overlay.ontouchstart = showC;
+document.getElementById('searchInput').oninput = (e) => {
+    const v = e.target.value.toLowerCase(), g = document.getElementById('search-grid');
+    g.innerHTML = '';
+    if (v.length > 1) {
+        const r = DATA.all.filter(x => x.title.toLowerCase().includes(v));
+        r.forEach(i => g.appendChild(createCard(i, true)));
+    }
+};
 
-        window.onclick = (e) => { if(!e.target.closest('.profile-wrapper')) els.pMenu.classList.remove('show'); };
+function toggleFav(t, btn) {
+    if (STATE.favs.includes(t)) {
+        STATE.favs = STATE.favs.filter(x => x !== t);
+        btn.classList.remove('active');
+        btn.querySelector('i').className = 'far fa-heart';
+    } else {
+        STATE.favs.push(t);
+        btn.classList.add('active');
+        btn.querySelector('i').className = 'fas fa-heart';
+    }
+    localStorage.setItem('favs', JSON.stringify(STATE.favs));
+}
 
-        init();
-    </script>
+function fmt(s) {
+    if (isNaN(s)) return "00:00";
+    const m = Math.floor(s / 60), sec = Math.floor(s % 60);
+    return `${m}:${sec < 10 ? '0' + sec : sec}`;
+}
+
+window.onclick = (e) => { if (!e.target.closest('.profile-wrapper')) els.pMenu.classList.remove('show'); };
+
+function toggleFilterMenu() {
+    const menu = document.getElementById('filterMenu');
+    menu.style.display = menu.style.display === 'flex' ? 'none' : 'flex';
+}
+
+function prepareGenreFilter(type) {
+    const source = type === 'series' ? DATA.series : DATA.movies;
+    const genres = new Set();
+    
+    source.forEach(item => {
+        if(item.genre) item.genre.forEach(g => genres.add(g));
+    });
+
+    const listDiv = document.getElementById('genreList');
+    listDiv.innerHTML = '';
+
+    const allOpt = document.createElement('div');
+    allOpt.style = "padding: 10px; font-size: 0.9rem; cursor: pointer; color: var(--cr-orange); border-bottom: 1px solid #333;";
+    allOpt.innerText = "⭐ Ver Todos";
+    allOpt.onclick = () => { applyGenreFilter(null, type); };
+    listDiv.appendChild(allOpt);
+
+    Array.from(genres).sort().forEach(genre => {
+        const opt = document.createElement('div');
+        opt.style = "padding: 10px; font-size: 0.85rem; cursor: pointer; border-bottom: 1px solid #2a2a2a; color: #ccc;";
+        opt.innerText = genre;
+        opt.onclick = () => { applyGenreFilter(genre, type); };
+        listDiv.appendChild(opt);
+    });
+}
+
+function applyGenreFilter(genre, type) {
+    const source = type === 'series' ? DATA.series : DATA.movies;
+    
+    if (genre === null) {
+        STATE.list = source;
+        document.getElementById('catalogTitle').innerText = type.toUpperCase();
+    } else {
+        STATE.list = source.filter(x => x.genre && x.genre.includes(genre));
+        document.getElementById('catalogTitle').innerText = `${genre.toUpperCase()}`;
+    }
+
+    STATE.page = 0;
+    els.grid.innerHTML = '';
+    loadMore();
+    document.getElementById('filterMenu').style.display = 'none';
+    document.getElementById('view-catalog').scrollTop = 0;
+}
+
+init();
+
+
+
+</script>
 </body>
 </html>
