@@ -1,5 +1,28 @@
 [
-
+  {
+    "title": "Junji Ito Maniac: Relatos japoneses de lo macabro",
+    "original_title": "Itō Junji: Maniac",
+    "year": 2023,
+    "genre": ["Animación", "Terror", "Suspenso", "Antología"],
+    "studio": "Studio Deen",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ48Q0Zq1n9jWnq8lRy2g4jj_bfk7GjVXZ7zyvKRhu-lg&s=10",
+    "description": "Una selección de 20 escalofriantes historias cortas del maestro del manga de terror Junji Ito. Desde los extraños hermanos Hikizuri hasta la inquietante Tomie, esta antología explora lo grotesco, lo surrealista y lo profundamente perturbador de la mente humana.",
+    "episodes": [
+      { "episode": 1, "title": "Los extraños hermanos Hikizuri", "video_url": "https://archive.org/download/itou-junji-maniac-latino-/Itou%20Junji%20Maniac%20Latino%2001.mp4" },
+      { "episode": 2, "title": "La historia del túnel / El camión de los helados", "video_url": "https://archive.org/download/itou-junji-maniac-latino-/Itou%20Junji%20Maniac%20Latino%2002.mp4" },
+      { "episode": 3, "title": "Colgados / El globo colgante", "video_url": "https://archive.org/download/itou-junji-maniac-latino-/Itou%20Junji%20Maniac%20Latino%2003.mp4" },
+      { "episode": 4, "title": "Cuatro capas de paredes / El sueño de la habitación", "video_url": "https://archive.org/download/itou-junji-maniac-latino-/Itou%20Junji%20Maniac%20Latino%2004.mp4" },
+      { "episode": 5, "title": "Intruso / El pelo largo de la buhardilla", "video_url": "https://archive.org/download/itou-junji-maniac-latino-/Itou%20Junji%20Maniac%20Latino%2005.mp4" },
+      { "episode": 6, "title": "Moho / La visión de la biblioteca", "video_url": "https://archive.org/download/itou-junji-maniac-latino-/Itou%20Junji%20Maniac%20Latino%2006.mp4" },
+      { "episode": 7, "title": "La ciudad de las tumbas", "video_url": "https://archive.org/download/itou-junji-maniac-latino-/Itou%20Junji%20Maniac%20Latino%2007.mp4" },
+      { "episode": 8, "title": "Terror en las capas / Lo que el mar arrastró", "video_url": "https://archive.org/download/itou-junji-maniac-latino-/Itou%20Junji%20Maniac%20Latino%2008.mp4" },
+      { "episode": 9, "title": "Tomie: Foto", "video_url": "https://archive.org/download/itou-junji-maniac-latino-/Itou%20Junji%20Maniac%20Latino%2009.mp4" },
+      { "episode": 10, "title": "Laberinto insoportable / El matón", "video_url": "https://archive.org/download/itou-junji-maniac-latino-/Itou%20Junji%20Maniac%20Latino%2010.mp4" },
+      { "episode": 11, "title": "El callejón / Escultura sin cabeza", "video_url": "https://archive.org/download/itou-junji-maniac-latino-/Itou%20Junji%20Maniac%20Latino%2011.mp4" },
+      { "episode": 12, "title": "La mujer que susurra / Soichi y su mascota", "video_url": "https://archive.org/download/itou-junji-maniac-latino-/Itou%20Junji%20Maniac%20Latino%2012.mp4" }
+    ]
+  },
+  
   {
     "title": "Barbie",
     "description": "Barbie lleva una vida ideal en Barbieland, donde todo es perfecto. Sin embargo, cuando comienza a experimentar una crisis existencial, debe viajar al mundo real acompañada de Ken para descubrir quién es realmente y cuál es su propósito.",
