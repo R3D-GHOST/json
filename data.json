@@ -1,4 +1,135 @@
 [
+
+
+
+  {
+  "title": "Hora de Aventura Temporada 10",
+  "original_title": "Adventure Time",
+  "year": 2017,
+  "genre": ["Animación", "Aventura", "Comedia", "Fantasía"],
+  "studio": "Cartoon Network Studios",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSJZyy3hJPyjDkG6wBiDiYRpFuKZOI-VkFtdSCntgXmA&s=10",
+  "description": "La décima y última temporada de la serie cierra las épicas crónicas de Ooo. La trama principal se centra en la inminente Guerra de los Dulces entre la Dulce Princesa y su tío Gumbald, mientras una amenaza ancestral mucho más peligrosa, GOLB, acecha en el horizonte. La temporada culmina con 'Ven Conmigo' (Come Along with Me), un final extendido que define el destino de Finn, Jake y todos los habitantes del reino.",
+  "episodes": [
+    { "episode": 1, "title": "The Wild Hunt", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-10-Completo/Hora%20De%20Aventura_S10E01_The%20Wild%20Hunt.ia.mp4" },
+    { "episode": 2, "title": "Beemo Siempre Cerrado", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-10-Completo/Hora%20De%20Aventura_S10E02_Beemo%20Siempre%20Cerrado.ia.mp4" },
+    { "episode": 3, "title": "El Hijo Del Oso Rapero", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-10-Completo/Hora%20De%20Aventura_S10E03_El%20Hijo%20Del%20Oso%20Rapero.ia.mp4" },
+    { "episode": 4, "title": "Bonnibel Dulce Goma", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-10-Completo/Hora%20De%20Aventura_S10E04_Bonnibel%20Dulce%20Goma.ia.mp4" },
+    { "episode": 5, "title": "Diecisiete", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-10-Completo/Hora%20De%20Aventura_S10E05_Diecisiete.ia.mp4" },
+    { "episode": 6, "title": "Anillo De Fuego", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-10-Completo/Hora%20De%20Aventura_S10E06_Anillo%20De%20Fuego.ia.mp4" },
+    { "episode": 7, "title": "Marcy Y Hunson", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-10-Completo/Hora%20De%20Aventura_S10E07_Marcy%20Y%20Hunson.ia.mp4" },
+    { "episode": 8, "title": "La Primera Investigación", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-10-Completo/Hora%20De%20Aventura_S10E08_La%20Primera%20Investigaci%C3%B3n.ia.mp4" },
+    { "episode": 9, "title": "Blenanas", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-10-Completo/Hora%20De%20Aventura_S10E09_Blenanas.ia.mp4" },
+    { "episode": 10, "title": "El Templo De Marte", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-10-Completo/Hora%20De%20Aventura_S10E10_El%20Templo%20De%20Marte.ia.mp4" },
+    { "episode": 11, "title": "Jake El Niño Estrella", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-10-Completo/Hora%20De%20Aventura_S10E11_Jake%20El%20Ni%C3%B1o%20Estrella.ia.mp4" },
+    { "episode": 12, "title": "Gumbaldia", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-10-Completo/Hora%20De%20Aventura_S10E12_Gumbaldia.ia.mp4" },
+    { "episode": 13, "title": "Ven Conmigo (Gran Final)", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-10-Completo/Hora%20De%20Aventura_S10E13_Ven%20Conmigo.ia.mp4" }
+  ]
+},
+
+  {
+  "title": "Hora de Aventura Temporada 9",
+  "original_title": "Adventure Time",
+  "year": 2017,
+  "genre": ["Animación", "Aventura", "Comedia", "Fantasía"],
+  "studio": "Cartoon Network Studios",
+  "coverImage": "https://es.web.img3.acsta.net/pictures/19/12/17/02/19/2271479.jpg",
+  "description": "La novena temporada se centra principalmente en la miniserie 'Elements' (Elementos). Tras regresar de las islas, Finn, Jake y Susana descubren que Ooo ha sido dividida en cuatro sectores elementales (Caramelo, Hielo, Slime y Fuego) debido a un hechizo de Paciencia St. Pim. La temporada sigue los esfuerzos de los héroes por restaurar el mundo a su estado normal y lidiar con las consecuencias de la transformación de Jake y el destino del Lich.",
+  "episodes": [
+    { "episode": 1, "title": "Orbe", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-9-Completo/Hora%20De%20Aventura_S09E01_Orbe.ia.mp4" },
+    { "episode": 2, "title": "Ganchos De Cielo (Elementos Parte 1)", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-9-Completo/Hora%20De%20Aventura_S09E02_Elementos%20Parte%201_%20Ganchos%20De%20Cielo.ia.mp4" },
+    { "episode": 3, "title": "Hecho A La Medida (Elementos Parte 2)", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-9-Completo/Hora%20De%20Aventura_S09E03_Elementos%20Parte%202_%20Hecho%20A%20La%20Medida.ia.mp4" },
+    { "episode": 4, "title": "Luz Invernal (Elementos Parte 3)", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-9-Completo/Hora%20De%20Aventura_S09E04_Elementos%20Parte%203_%20Luz%20Invernal.ia.mp4" },
+    { "episode": 5, "title": "Nublado (Elementos Parte 4)", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-9-Completo/Hora%20De%20Aventura_S09E05_Elementos%20Parte%204_%20Nublado.ia.mp4" },
+    { "episode": 6, "title": "Saliva Central (Elementos Parte 5)", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-9-Completo/Hora%20De%20Aventura_S09E06_Elementos%20Parte%205_%20Saliva%20Central.ia.mp4" },
+    { "episode": 7, "title": "Guerrero Feliz (Elementos Parte 6)", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-9-Completo/Hora%20De%20Aventura_S09E07_Elementos%20Parte%206_%20Guerrero%20Feliz.ia.mp4" },
+    { "episode": 8, "title": "Corazón De Héroe (Elementos Parte 7)", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-9-Completo/Hora%20De%20Aventura_S09E08_Elementos%20Parte%207_%20Coraz%C3%B3n%20De%20H%C3%A9roe.ia.mp4" },
+    { "episode": 9, "title": "Ganchos De Cielo II (Elementos Parte 8)", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-9-Completo/Hora%20De%20Aventura_S09E09_Elementos%20Parte%208_%20Ganchos%20De%20Cielo%20II.ia.mp4" },
+    { "episode": 10, "title": "Abstracto", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-9-Completo/Hora%20De%20Aventura_S09E10_Abstracto.ia.mp4" },
+    { "episode": 11, "title": "Historias", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-9-Completo/Hora%20De%20Aventura_S09E11_Historias.ia.mp4" },
+    { "episode": 12, "title": "Fiona Y Cake Y Fiona", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-9-Completo/Hora%20De%20Aventura_S09E12_Fiona%20Y%20Cake%20Y%20Fiona.ia.mp4" },
+    { "episode": 13, "title": "Susurros", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-9-Completo/Hora%20De%20Aventura_S09E13_Susurros.ia.mp4" },
+    { "episode": 14, "title": "Doble Cara", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-9-Completo/Hora%20De%20Aventura_S09E14_Doble%20Cara.ia.mp4" }
+  ]
+  },
+  
+
+  {
+  "title": "Hora de Aventura Temporada 8",
+  "original_title": "Adventure Time",
+  "year": 2016,
+  "genre": ["Animación", "Aventura", "Comedia", "Fantasía"],
+  "studio": "Cartoon Network Studios",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfZFJuglQdbalthR-0ui-X_TfG8JxkFqUISjhhZBWT_g&s=10",
+  "description": "La octava temporada marca un hito crucial con la miniserie 'Islands' (Islas), donde Finn, Jake, BMO y Susana Salvaje viajan a través del océano para descubrir el destino de la humanidad y el pasado de Finn. Además de resolver el misterio de los humanos, la temporada explora la redención del Hombre Rey y las consecuencias de la creación de Fern, la copia de pasto de Finn.",
+  "episodes": [
+    { "episode": 1, "title": "Rompió Su Corona", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-8-Completo/Hora%20De%20Aventura_S08E01_Rompi%C3%B3%20Su%20Corona.ia.mp4" },
+    { "episode": 2, "title": "No Veas", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-8-Completo/Hora%20De%20Aventura_S08E02_No%20Veas.ia.mp4" },
+    { "episode": 3, "title": "Más Allá De La Gruta", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-8-Completo/Hora%20De%20Aventura_S08E03_M%C3%A1s%20All%C3%A1%20De%20La%20Gruta.ia.mp4" },
+    { "episode": 4, "title": "Arcoiris De La Dimensión De Cristal", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-8-Completo/Hora%20De%20Aventura_S08E04_Arcoiris%20De%20La%20Dimensi%C3%B3n%20De%20Cristal.ia.mp4" },
+    { "episode": 5, "title": "Soy Una Espada", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-8-Completo/Hora%20De%20Aventura_S08E05_Soy%20Una%20Espada.ia.mp4" },
+    { "episode": 6, "title": "Canelita", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-8-Completo/Hora%20De%20Aventura_S08E06_Canelita.ia.mp4" },
+    { "episode": 7, "title": "Hombre Normal", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-8-Completo/Hora%20De%20Aventura_S08E07_Hombre%20Normal.ia.mp4" },
+    { "episode": 8, "title": "Elemental", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-8-Completo/Hora%20De%20Aventura_S08E08_Elemental.ia.mp4" },
+    { "episode": 9, "title": "Cinco Mesas Pequeñas", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-8-Completo/Hora%20De%20Aventura_S08E09_Cinco%20Mesas%20Peque%C3%B1as.ia.mp4" },
+    { "episode": 10, "title": "El Hoyo Musical", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-8-Completo/Hora%20De%20Aventura_S08E10_El%20Hoyo%20Musical.ia.mp4" },
+    { "episode": 11, "title": "Guerra De Cartas De Padres E Hijas", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-8-Completo/Hora%20De%20Aventura_S08E11_Guerra%20De%20Cartas%20De%20Padres%20E%20Hijas.ia.mp4" },
+    { "episode": 12, "title": "Pre-Inicio", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-8-Completo/Hora%20De%20Aventura_S08E12_Pre-Inicio.ia.mp4" },
+    { "episode": 13, "title": "Reinicio", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-8-Completo/Hora%20De%20Aventura_S08E13_Reinicio.ia.mp4" },
+    { "episode": 14, "title": "Dos Espadas", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-8-Completo/Hora%20De%20Aventura_S08E14_Dos%20Espadas.ia.mp4" },
+    { "episode": 15, "title": "No Hacer Daño", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-8-Completo/Hora%20De%20Aventura_S08E15_No%20Hacer%20Da%C3%B1o.ia.mp4" },
+    { "episode": 16, "title": "Ruedas", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-8-Completo/Hora%20De%20Aventura_S08E16_Ruedas.ia.mp4" },
+    { "episode": 17, "title": "Gran Extrañeza", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-8-Completo/Hora%20De%20Aventura_S08E17_Gran%20Extra%C3%B1eza.ia.mp4" },
+    { "episode": 18, "title": "Caballo Y Balón", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-8-Completo/Hora%20De%20Aventura_S08E18_Caballo%20Y%20Bal%C3%B3n.ia.mp4" },
+    { "episode": 19, "title": "Los Dulces Tienen Poder", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-8-Completo/Hora%20De%20Aventura_S08E19_Los%20Dulces%20Tienen%20Poder.ia.mp4" },
+    { "episode": 20, "title": "La Invitación (Islas Parte 1)", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-8-Completo/Hora%20De%20Aventura_S08E20_La%20Invitaci%C3%B3n.ia.mp4" },
+    { "episode": 21, "title": "Whipple El Dragón Feliz (Islas Parte 2)", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-8-Completo/Hora%20De%20Aventura_S08E21_Whipple%20El%20Drag%C3%B3n%20Feliz.ia.mp4" },
+    { "episode": 22, "title": "La Isla Misteriosa (Islas Parte 3)", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-8-Completo/Hora%20De%20Aventura_S08E22_La%20Isla%20Misteriosa.ia.mp4" },
+    { "episode": 23, "title": "Recursos Imaginarios (Islas Parte 4)", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-8-Completo/Hora%20De%20Aventura_S08E23_Recursos%20Imaginarios.ia.mp4" },
+    { "episode": 24, "title": "El Escondite (Islas Parte 5)", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-8-Completo/Hora%20De%20Aventura_S08E24_El%20Escondite.ia.mp4" },
+    { "episode": 25, "title": "Min Y Marty (Islas Parte 6)", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-8-Completo/Hora%20De%20Aventura_S08E25_Min%20Y%20Marty.ia.mp4" },
+    { "episode": 26, "title": "Ayudantes (Islas Parte 7)", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-8-Completo/Hora%20De%20Aventura_S08E26_Ayudantes.ia.mp4" },
+    { "episode": 27, "title": "La Nube De Luz (Islas Parte 8)", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-8-Completo/Hora%20De%20Aventura_S08E27_La%20Nube%20De%20Luz.ia.mp4" }
+  ]
+},
+  
+
+{
+  "title": "Hora de Aventura Temporada 7",
+  "original_title": "Adventure Time",
+  "year": 2015,
+  "genre": ["Animación", "Aventura", "Comedia", "Fantasía"],
+  "studio": "Cartoon Network Studios",
+  "coverImage": "https://m.media-amazon.com/images/I/61-rjBWSjAL._AC_UF1000,1000_QL80_.jpg",
+  "description": "La séptima temporada destaca por incluir la aclamada miniserie 'Stakes' (Estacas), que explora el pasado de Marceline y su lucha contra antiguos enemigos vampiros. Además, la temporada profundiza en la historia del Dulce Reino con la introducción de Neddy, el hermano de la Dulce Princesa, y continúa explorando el crecimiento emocional de Finn y los misterios de Ooo.",
+  "episodes": [
+    { "episode": 1, "title": "Bonnie Y Neddy", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-7-Completo/Hora%20de%20Aventura_S07E01_Bonnie%20Y%20Neddy.ia.mp4" },
+    { "episode": 2, "title": "Plagas", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-7-Completo/Hora%20de%20Aventura_S07E02_Plagas.ia.mp4" },
+    { "episode": 3, "title": "Soda De Crema De Cereza", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-7-Completo/Hora%20de%20Aventura_S07E03_Soda%20De%20Crema%20De%20Cereza.ia.mp4" },
+    { "episode": 4, "title": "Mamá Dijo", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-7-Completo/Hora%20de%20Aventura_S07E04_Mam%C3%A1%20Dijo.ia.mp4" },
+    { "episode": 5, "title": "Fútbol", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-7-Completo/Hora%20de%20Aventura_S07E05_F%C3%BAtbol.ia.mp4" },
+    { "episode": 6, "title": "Marceline La Reina Vampiro (Estacas Parte 1)", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-7-Completo/Hora%20de%20Aventura_S07E06_Marceline%20La%20Reina%20Vampiro.ia.mp4" },
+    { "episode": 7, "title": "Todo Se Queda (Estacas Parte 2)", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-7-Completo/Hora%20de%20Aventura_S07E07_Todo%20Se%20Queda.ia.mp4" },
+    { "episode": 8, "title": "Sobre Los Vampiros (Estacas Parte 3)", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-7-Completo/Hora%20de%20Aventura_S07E08_Sobre%20Los%20Vampiros.ia.mp4" },
+    { "episode": 9, "title": "Los Ojos De La Emperatriz (Estacas Parte 4)", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-7-Completo/Hora%20de%20Aventura_S07E09_Los%20Ojos%20De%20La%20Emperatriz.ia.mp4" },
+    { "episode": 10, "title": "¿Puedo Pasar? (Estacas Parte 5)", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-7-Completo/Hora%20de%20Aventura_S07E10_%C2%BFPuedo%20Pasar_.ia.mp4" },
+    { "episode": 11, "title": "Llévenla De Vuelta (Estacas Parte 6)", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-7-Completo/Hora%20de%20Aventura_S07E11_Ll%C3%A9venla%20De%20Vuelta.ia.mp4" },
+    { "episode": 12, "title": "Jaque Mate (Estacas Parte 7)", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-7-Completo/Hora%20de%20Aventura_S07E12_Jaque%20Mate.ia.mp4" },
+    { "episode": 13, "title": "La Nube Oscura (Estacas Parte 8)", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-7-Completo/Hora%20de%20Aventura_S07E13_La%20Nube%20Oscura.ia.mp4" },
+    { "episode": 14, "title": "Mientras Más Moe, Más Sabes", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-7-Completo/Hora%20de%20Aventura_S07E14_Mientras%20M%C3%A1s%20Moe%2C%20M%C3%A1s%20Sabes.ia.mp4" },
+    { "episode": 15, "title": "Lluvias De Verano", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-7-Completo/Hora%20de%20Aventura_S07E15_Lluvias%20De%20Verano.ia.mp4" },
+    { "episode": 16, "title": "Cara De Ángel", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-7-Completo/Hora%20de%20Aventura_S07E16_Cara%20De%20%C3%81ngel.ia.mp4" },
+    { "episode": 17, "title": "El Presidente Marsopa Está Perdido", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-7-Completo/Hora%20de%20Aventura_S07E17_El%20Presidente%20Marsopa%20Est%C3%A1%20Perdido.ia.mp4" },
+    { "episode": 18, "title": "Chicas Con Ojos En Blancos", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-7-Completo/Hora%20de%20Aventura_S07E18_Chicas%20Con%20Ojos%20En%20Blancos.ia.mp4" },
+    { "episode": 20, "title": "El Rescate Del Rey", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-7-Completo/Hora%20de%20Aventura_S07E20_El%20Rescate%20Del%20Rey.ia.mp4" },
+    { "episode": 21, "title": "Pillos", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-7-Completo/Hora%20de%20Aventura_S07E21_Pillos.ia.mp4" },
+    { "episode": 22, "title": "El Cruce", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-7-Completo/Hora%20de%20Aventura_S07E22_El%20Cruce.ia.mp4" },
+    { "episode": 23, "title": "La Sala De Egresos", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-7-Completo/Hora%20de%20Aventura_S07E23_La%20Sala%20De%20Egresos.ia.mp4" },
+    { "episode": 24, "title": "El Encanto De La Flauta", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-7-Completo/Hora%20de%20Aventura_S07E24_El%20Encanto%20De%20La%20Flauta.ia.mp4" },
+    { "episode": 25, "title": "La Delgada Línea Amarilla", "video_url": "https://archive.org/download/Hora-De-Aventura-Temporada-7-Completo/Hora%20de%20Aventura_S07E25_La%20Delgada%20L%C3%ADnea%20Amarilla.ia.mp4" }
+  ]
+},
+
   
 {
   "title": "Hora de Aventura Temporada 6",
