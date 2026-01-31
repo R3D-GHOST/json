@@ -1,6 +1,28 @@
 [
 
-
+  
+{
+  "title": "De Yakuza a Amo de Casa",
+  "original_title": "Gokushufudo",
+  "year": 2021,
+  "genre": ["Animación", "Comedia", "Recuentos de la vida"],
+  "studio": "J.C.Staff",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8iHOSxx7AO0Sn2CjiqjMZUp3VJXVwysWQncTlUxbBdw&s=10",
+  "description": "Tatsu, un legendario y temido yakuza conocido como el 'Dragón Inmortal', se retira del mundo del crimen para convertirse en un amo de casa ejemplar. A pesar de su apariencia intimidante y su tendencia a ver situaciones cotidianas como misiones de la mafia, Tatsu se dedica con pasión a las tareas del hogar, cocinar para su esposa Miku y ahorrar dinero en el supermercado.",
+  "episodes": [
+    { "episode": 1, "title": "Episodio 1", "video_url": "https://archive.org/download/de-yakuza-a-amo-de-casa-temp-1/100%20De%20yakuza%20a%20amo%20de%20casa%20cap%201.mkv" },
+    { "episode": 2, "title": "Episodio 2", "video_url": "https://archive.org/download/de-yakuza-a-amo-de-casa-temp-1/100%20De%20yakuza%20a%20amo%20de%20casa%20cap%202.mkv" },
+    { "episode": 3, "title": "Episodio 3", "video_url": "https://archive.org/download/de-yakuza-a-amo-de-casa-temp-1/100%20De%20yakuza%20a%20amo%20de%20casa%20cap%203.mkv" },
+    { "episode": 4, "title": "Episodio 4", "video_url": "https://archive.org/download/de-yakuza-a-amo-de-casa-temp-1/100%20De%20yakuza%20a%20amo%20de%20casa%20cap%204.mkv" },
+    { "episode": 5, "title": "Episodio 5", "video_url": "https://archive.org/download/de-yakuza-a-amo-de-casa-temp-1/100%20De%20yakuza%20a%20amo%20de%20casa%20cap%205.mkv" },
+    { "episode": 6, "title": "Episodio 6", "video_url": "https://archive.org/download/de-yakuza-a-amo-de-casa-temp-1/100%20De%20yakuza%20a%20amo%20de%20casa%20cap%206.mkv" },
+    { "episode": 7, "title": "Episodio 7", "video_url": "https://archive.org/download/de-yakuza-a-amo-de-casa-temp-1/100%20De%20yakuza%20a%20amo%20de%20casa%20cap%207.mkv" },
+    { "episode": 8, "title": "Episodio 8", "video_url": "https://archive.org/download/de-yakuza-a-amo-de-casa-temp-1/100%20De%20yakuza%20a%20amo%20de%20casa%20cap%208.mkv" },
+    { "episode": 9, "title": "Episodio 9", "video_url": "https://archive.org/download/de-yakuza-a-amo-de-casa-temp-1/100%20De%20yakuza%20a%20amo%20de%20casa%20cap%209.mkv" },
+    { "episode": 10, "title": "Episodio 10", "video_url": "https://archive.org/download/de-yakuza-a-amo-de-casa-temp-1/100%20De%20yakuza%20a%20amo%20de%20casa%20cap%2010.mkv" }
+  ]
+},
+  
 
   {
   "title": "Hora de Aventura Temporada 10",
