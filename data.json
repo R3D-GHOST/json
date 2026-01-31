@@ -1,4 +1,44 @@
 [
+{
+  "title": "Las Tortugas Ninja 2003",
+  "original_title": "Teenage Mutant Ninja Turtles",
+  "year": 2003,
+  "genre": ["Animación", "Acción", "Aventura", "Sci-Fi"],
+  "studio": "4Kids Entertainment",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzL9YIorPLOtbXD1_rbrSHR4PhLEiy9oluA2gorL4VGA&s=10",
+  "description": "Cuatro tortugas mutantes expertas en ninjutsu emergen de las alcantarillas de Nueva York. Bajo la guía de su maestro Splinter, Leonardo, Raphael, Donatello y Michelangelo deberán enfrentarse al Clan del Pie y a su temible líder, Shredder.",
+  "episodes": [
+    { "episode": 1, "title": "Las cosas cambian", "video_url": "https://archive.org/download/t-01-e-26-la-busqueda-de-splinter-parte-2/T01E01%20Las%20Cosas%20Cambian.mkv" },
+    { "episode": 2, "title": "La mejor ratonera", "video_url": "https://archive.org/download/t-01-e-26-la-busqueda-de-splinter-parte-2/T01E02%20La%20Mejor%20Ratonera.mkv" },
+    { "episode": 3, "title": "El ataque de los ratoneros", "video_url": "https://archive.org/download/t-01-e-26-la-busqueda-de-splinter-parte-2/T01E03%20El%20Ataque%20de%20los%20Ratoneros.mkv" },
+    { "episode": 4, "title": "Presentando a Casey Jones", "video_url": "https://archive.org/download/t-01-e-26-la-busqueda-de-splinter-parte-2/T01E04%20Presentando%20a%20Casey%20Jones.mkv" },
+    { "episode": 5, "title": "Nano", "video_url": "https://archive.org/download/t-01-e-26-la-busqueda-de-splinter-parte-2/T01E05%20Nano.mkv" },
+    { "episode": 6, "title": "Apagón a las orillas de la ciudad", "video_url": "https://archive.org/download/t-01-e-26-la-busqueda-de-splinter-parte-2/T01E06%20Apag%C3%B3n%20a%20las%20Orillas%20de%20la%20Ciudad.mkv" },
+    { "episode": 7, "title": "La técnica de la invisibilidad", "video_url": "https://archive.org/download/t-01-e-26-la-busqueda-de-splinter-parte-2/T01E07%20La%20T%C3%A9cnica%20de%20la%20Invisibilidad.mkv" },
+    { "episode": 8, "title": "Ángel caído", "video_url": "https://archive.org/download/t-01-e-26-la-busqueda-de-splinter-parte-2/T01E08%20%C3%81ngel%20Ca%C3%ADdo.mkv" },
+    { "episode": 9, "title": "El basurero", "video_url": "https://archive.org/download/t-01-e-26-la-busqueda-de-splinter-parte-2/T01E09%20El%20Basurero.mkv" },
+    { "episode": 10, "title": "Shredder ataca (Parte 1)", "video_url": "https://archive.org/download/t-01-e-26-la-busqueda-de-splinter-parte-2/T01E10%20Shredder%20Ataca%20Parte%201.mkv" },
+    { "episode": 11, "title": "Shredder ataca (Parte 2)", "video_url": "https://archive.org/download/t-01-e-26-la-busqueda-de-splinter-parte-2/T01E11%20Shredder%20Ataca%20Parte%202.mkv" },
+    { "episode": 12, "title": "La poco convincente Tortuga Titán", "video_url": "https://archive.org/download/t-01-e-26-la-busqueda-de-splinter-parte-2/T01E12%20La%20Poco%20Convincente%20Tortuga%20Tit%C3%A1n.mkv" },
+    { "episode": 13, "title": "Historias del subterráneo (Parte 1)", "video_url": "https://archive.org/download/t-01-e-26-la-busqueda-de-splinter-parte-2/T01E13%20Historias%20del%20Subterr%C3%A1neo%20Parte%201.mkv" },
+    { "episode": 14, "title": "Historias del subterráneo (Parte 2)", "video_url": "https://archive.org/download/t-01-e-26-la-busqueda-de-splinter-parte-2/T01E14%20Historias%20del%20Subterr%C3%A1neo%20Parte%202.mkv" },
+    { "episode": 15, "title": "Historias del subterráneo (Parte 3)", "video_url": "https://archive.org/download/t-01-e-26-la-busqueda-de-splinter-parte-2/T01E15%20Historias%20del%20Subterr%C3%A1neo%20Parte%203.mkv" },
+    { "episode": 16, "title": "El rey", "video_url": "https://archive.org/download/t-01-e-26-la-busqueda-de-splinter-parte-2/T01E16%20El%20Rey.mkv" },
+    { "episode": 17, "title": "Shredder contraataca (Parte 1)", "video_url": "https://archive.org/download/t-01-e-26-la-busqueda-de-splinter-parte-2/T01E17%20Shredder%20Contraataca%20Parte%201.mkv" },
+    { "episode": 18, "title": "Shredder contraataca (Parte 2)", "video_url": "https://archive.org/download/t-01-e-26-la-busqueda-de-splinter-parte-2/T01E18%20Shredder%20Contraataca%20Parte%202.mkv" },
+    { "episode": 19, "title": "Historias de Leo", "video_url": "https://archive.org/download/t-01-e-26-la-busqueda-de-splinter-parte-2/T01E19%20Historias%20de%20Leo.mkv" },
+    { "episode": 20, "title": "La cazadora de monstruos", "video_url": "https://archive.org/download/t-01-e-26-la-busqueda-de-splinter-parte-2/T01E20%20La%20Cazadora%20de%20Monstruos.mkv" },
+    { "episode": 21, "title": "Regreso a Nueva York (Parte 1)", "video_url": "https://archive.org/download/t-01-e-26-la-busqueda-de-splinter-parte-2/T01E21%20Regreso%20a%20Nueva%20York%20Parte%201.mkv" },
+    { "episode": 22, "title": "Regreso a Nueva York (Parte 2)", "video_url": "https://archive.org/download/t-01-e-26-la-busqueda-de-splinter-parte-2/T01E22%20Regreso%20a%20Nueva%20York%20Parte%202.mkv" },
+    { "episode": 23, "title": "Regreso a Nueva York (Parte 3)", "video_url": "https://archive.org/download/t-01-e-26-la-busqueda-de-splinter-parte-2/T01E23%20Regreso%20a%20Nueva%20York%20Parte%203.mkv" },
+    { "episode": 24, "title": "Rafael solitario y el cachorro", "video_url": "https://archive.org/download/t-01-e-26-la-busqueda-de-splinter-parte-2/T01E24%20Rafael%20Solitario%20y%20el%20Cachorro.mkv" },
+    { "episode": 25, "title": "La búsqueda de Splinter (Parte 1)", "video_url": "https://archive.org/download/t-01-e-26-la-busqueda-de-splinter-parte-2/T01E25%20La%20B%C3%BAsqueda%20de%20Splinter%20Parte%201.mkv" },
+    { "episode": 26, "title": "La búsqueda de Splinter (Parte 2)", "video_url": "https://archive.org/download/t-01-e-26-la-busqueda-de-splinter-parte-2/T01E26%20La%20B%C3%BAsqueda%20de%20Splinter%20Parte%202.mkv" }
+  ]
+},
+
+  
+  
   {
     "title": "Junji Ito Maniac: Relatos japoneses de lo macabro",
     "original_title": "Itō Junji: Maniac",
