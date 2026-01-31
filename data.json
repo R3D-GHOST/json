@@ -1,4 +1,28 @@
 [
+  {
+  "title": "Kenja no Mago",
+  "original_title": "Wise Man's Grandchild",
+  "year": 2019,
+  "genre": ["Animación", "Acción", "Fantasía", "Isekai", "Comedia"],
+  "studio": "Silver Link",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwxnSVnxJ0JwObthG2VJyTn579QPwEU7h54JukErIJOQ&s=10",
+  "description": "Un joven oficinista muere y reencarna en un mundo de magia como un bebé. Es adoptado por el héroe patriota Merlin Walford, quien lo cría como su nieto bajo el nombre de Shin. Merlin le enseña magia poderosa, pero olvida enseñarle algo fundamental: el sentido común.",
+  "episodes": [
+    { "episode": 1, "title": "Un bebé aparece en el bosque", "video_url": "https://archive.org/download/kenja-no-mago-cap-5/Kenja%20no%20Mago%20cap1.mp4" },
+    { "episode": 2, "title": "Un novato poco común va a la capital", "video_url": "https://archive.org/download/kenja-no-mago-cap-5/Kenja%20no%20Mago%20cap2.mp4" },
+    { "episode": 3, "title": "Surge una situación de emergencia", "video_url": "https://archive.org/download/kenja-no-mago-cap-5/Kenja%20no%20Mago%20cap3.mp4" },
+    { "episode": 4, "title": "El nombre del instigador", "video_url": "https://archive.org/download/kenja-no-mago-cap-5/Kenja%20no%20Mago%20cap4.mp4" },
+    { "episode": 5, "title": "Un nuevo héroe sin precedentes", "video_url": "https://archive.org/download/kenja-no-mago-cap-5/Kenja%20no%20Mago%20cap5.mp4" },
+    { "episode": 6, "title": "Guerra y entrenamiento conjunto", "video_url": "https://archive.org/download/kenja-no-mago-cap-5/Kenja%20no%20Mago%20cap6.mp4" },
+    { "episode": 7, "title": "¡Vayamos al campamento!", "video_url": "https://archive.org/download/kenja-no-mago-cap-5/Kenja%20no%20Mago%20cap7.mp4" },
+    { "episode": 8, "title": "Un juramento bajo el cielo estrellado", "video_url": "https://archive.org/download/kenja-no-mago-cap-5/Kenja%20no%20Mago%20cap8.mp4" },
+    { "episode": 9, "title": "El nieto, la herramienta mágica y la fiesta", "video_url": "https://archive.org/download/kenja-no-mago-cap-5/Kenja%20no%20Mago%20cap9.mp4" },
+    { "episode": 10, "title": "La caída del imperio", "video_url": "https://archive.org/download/kenja-no-mago-cap-5/Kenja%20no%20Mago%20cap10.mp4" },
+    { "episode": 11, "title": "El grupo de magos más fuerte", "video_url": "https://archive.org/download/kenja-no-mago-cap-5/Kenja%20no%20Mago%20cap11.mp4" },
+    { "episode": 12, "title": "Shin y sus compañeros vuelan al mundo", "video_url": "https://archive.org/download/kenja-no-mago-cap-5/Kenja%20no%20Mago%20cap12.mp4" }
+  ]
+},
+
 {
   "title": "Las Tortugas Ninja 2003",
   "original_title": "Teenage Mutant Ninja Turtles",
