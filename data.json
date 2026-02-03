@@ -1,5 +1,23 @@
 [
 
+  
+{
+  "title": "El Quijote de Miguel de Cervantes",
+  "original_title": "El Quijote de Miguel de Cervantes (Miniserie)",
+  "year": 1991,
+  "genre": ["Drama", "Aventura", "Literatura"],
+  "studio": "RTVE",
+  "coverImage": "https://pics.filmaffinity.com/El_Quijote_de_Miguel_de_Cervantes_Miniserie_de_TV-305432475-large.jpg",
+  "description": "Aclamada adaptación de la primera parte de la obra maestra de Miguel de Cervantes. La serie sigue al hidalgo Alonso Quijano, quien, tras perder el juicio por leer libros de caballería, decide convertirse en caballero andante bajo el nombre de Don Quijote de la Mancha. Junto a su fiel escudero Sancho Panza, recorre las tierras de Castilla viviendo aventuras donde la realidad y la fantasía se confunden.",
+  "episodes": [
+    { "episode": 1, "title": "Episodio 1", "video_url": "https://archive.org/download/el-quijote-cap-1/Quijote-1.mkv" },
+    { "episode": 2, "title": "Episodio 2", "video_url": "https://archive.org/download/el-quijote-cap-1/Quijote-2.mkv" },
+    { "episode": 3, "title": "Episodio 3", "video_url": "https://archive.org/download/el-quijote-cap-1/Quijote-3.mkv" },
+    { "episode": 4, "title": "Episodio 4", "video_url": "https://archive.org/download/el-quijote-cap-1/Quijote-4.mkv" },
+    { "episode": 5, "title": "Episodio 5", "video_url": "https://archive.org/download/el-quijote-cap-1/Quijote-5.mkv" }
+  ]
+},
+  
   {
   "title": "De Yakuza a Amo de Casa",
   "original_title": "Gokushufudo",
