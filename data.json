@@ -1,9 +1,40 @@
 [
 
   {
+  "title": "Tenjou Tenge",
+  "genre": ["Animación", "Acción", "Artes Marciales", "Ecchi"],
+  "coverImage": "https://m.media-amazon.com/images/M/MV5BYTY4YTZlMTktODRiNy00YjFmLWIzNWQtNzBlNDA0ZDM4NzFhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  "description": "Souichiro Nagi y Bob Makihara son dos delincuentes que llegan a la Academia Todo con el objetivo de dominarla mediante la fuerza. Sin embargo, pronto descubren que esta no es una escuela ordinaria, sino una institución dedicada a preservar y enseñar las artes marciales. Tras ser derrotados por Maya Natsume, terminan uniéndose al Club Juken, viéndose envueltos en un antiguo conflicto entre familias con poderes sobrenaturales.",
+  "episodes": [
+    { "episode": 1, "title": "Santuario", "video_url": "https://archive.org/download/tenjou-tenge-castellano/%5BH87%5D%20Tenjho%20Tenge%2001%20%5BCast%5D.mp4" },
+    { "episode": 2, "title": "Derrota", "video_url": "https://archive.org/download/tenjou-tenge-castellano/%5BH87%5D%20Tenjho%20Tenge%2002%20%5BCast%5D.mp4" },
+    { "episode": 3, "title": "Ejecutor", "video_url": "https://archive.org/download/tenjou-tenge-castellano/%5BH87%5D%20Tenjho%20Tenge%2003%20%5BCast%5D.mp4" },
+    { "episode": 4, "title": "Duda", "video_url": "https://archive.org/download/tenjou-tenge-castellano/%5BH87%5D%20Tenjho%20Tenge%2004%20%5BCast%5D.mp4" },
+    { "episode": 5, "title": "Castigo", "video_url": "https://archive.org/download/tenjou-tenge-castellano/%5BH87%5D%20Tenjho%20Tenge%2005%20%5BCast%5D.mp4" },
+    { "episode": 6, "title": "Ilusión", "video_url": "https://archive.org/download/tenjou-tenge-castellano/%5BH87%5D%20Tenjho%20Tenge%2006%20%5BCast%5D.mp4" },
+    { "episode": 7, "title": "Ruptura", "video_url": "https://archive.org/download/tenjou-tenge-castellano/%5BH87%5D%20Tenjho%20Tenge%2007%20%5BCast%5D.mp4" },
+    { "episode": 8, "title": "Ojo de Dragón", "video_url": "https://archive.org/download/tenjou-tenge-castellano/%5BH87%5D%20Tenjho%20Tenge%2008%20%5BCast%5D.mp4" },
+    { "episode": 9, "title": "Reglamento", "video_url": "https://archive.org/download/tenjou-tenge-castellano/%5BH87%5D%20Tenjho%20Tenge%2009%20%5BCast%5D.mp4" },
+    { "episode": 10, "title": "Memoria", "video_url": "https://archive.org/download/tenjou-tenge-castellano/%5BH87%5D%20Tenjho%20Tenge%2010%20%5BCast%5D.mp4" },
+    { "episode": 11, "title": "Dotado", "video_url": "https://archive.org/download/tenjou-tenge-castellano/%5BH87%5D%20Tenjho%20Tenge%2011%20%5BCast%5D.mp4" },
+    { "episode": 12, "title": "Infierno", "video_url": "https://archive.org/download/tenjou-tenge-castellano/%5BH87%5D%20Tenjho%20Tenge%2012%20%5BCast%5D.mp4" },
+    { "episode": 13, "title": "Locura", "video_url": "https://archive.org/download/tenjou-tenge-castellano/%5BH87%5D%20Tenjho%20Tenge%2013%20%5BCast%5D.mp4" },
+    { "episode": 14, "title": "Responsabilidad", "video_url": "https://archive.org/download/tenjou-tenge-castellano/%5BH87%5D%20Tenjho%20Tenge%2014%20%5BCast%5D.mp4" },
+    { "episode": 15, "title": "Acompañante", "video_url": "https://archive.org/download/tenjou-tenge-castellano/%5BH87%5D%20Tenjho%20Tenge%2015%20%5BCast%5D.mp4" },
+    { "episode": 16, "title": "Destrucción", "video_url": "https://archive.org/download/tenjou-tenge-castellano/%5BH87%5D%20Tenjho%20Tenge%2016%20%5BCast%5D.mp4" },
+    { "episode": 17, "title": "Deseo", "video_url": "https://archive.org/download/tenjou-tenge-castellano/%5BH87%5D%20Tenjho%20Tenge%2017%20%5BCast%5D.mp4" },
+    { "episode": 18, "title": "Amanecer", "video_url": "https://archive.org/download/tenjou-tenge-castellano/%5BH87%5D%20Tenjho%20Tenge%2018%20%5BCast%5D.mp4" },
+    { "episode": 19, "title": "Renacimiento", "video_url": "https://archive.org/download/tenjou-tenge-castellano/%5BH87%5D%20Tenjho%20Tenge%2019%20%5BCast%5D.mp4" },
+    { "episode": 20, "title": "Ataque", "video_url": "https://archive.org/download/tenjou-tenge-castellano/%5BH87%5D%20Tenjho%20Tenge%2020%20%5BCast%5D.mp4" },
+    { "episode": 21, "title": "Resurrección", "video_url": "https://archive.org/download/tenjou-tenge-castellano/%5BH87%5D%20Tenjho%20Tenge%2021%20%5BCast%5D.mp4" },
+    { "episode": 22, "title": "Prejuicio", "video_url": "https://archive.org/download/tenjou-tenge-castellano/%5BH87%5D%20Tenjho%20Tenge%2022%20%5BCast%5D.mp4" },
+    { "episode": 23, "title": "Encantamiento", "video_url": "https://archive.org/download/tenjou-tenge-castellano/%5BH87%5D%20Tenjho%20Tenge%2023%20%5BCast%5D.mp4" },
+    { "episode": 24, "title": "Vagabundeo", "video_url": "https://archive.org/download/tenjou-tenge-castellano/%5BH87%5D%20Tenjho%20Tenge%2024%20%5BCast%5D.mp4" }
+  ]
+},
+  
+  {
   "title": "Agallas, el perro cobarde",
-  "original_title": "Courage the Cowardly Dog",
-  "year": 1999,
   "genre": ["Animación", "Comedia", "Terror", "Fantasía"],
   "studio": "Cartoon Network Studios",
   "coverImage": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/7768bbde-9895-494b-8469-bd7ff909ac64/9245d7bb-6931-11f0-8bc4-12a55bbe282b?host=wbd-images.prod-vod.h264.io&partner=beamcom&w=1024&w=1024",
