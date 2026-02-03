@@ -1,6 +1,28 @@
 [
 
   {
+  "title": "Btooom!",
+  "genre": ["Animación", "Acción", "Supervivencia", "Psicológico"],
+  "studio": "Madhouse",
+  "coverImage": "https://m.media-amazon.com/images/M/MV5BN2M4MGU5MTQtNDEwMi00NjMxLWEwM2MtYTc1YTQ4ZDA2ZDM3XkEyXkFqcGc@._V1_.jpg",
+  "description": "Ryouta Sakamoto es un joven desempleado que es uno de los mejores jugadores del mundo del videojuego de combate online 'Btooom!'. Un día, despierta en una isla tropical sin recordar cómo llegó allí. Pronto descubre que está atrapado en una versión real de su juego favorito, donde debe usar bombas llamadas 'BIM' para matar a otros participantes y recolectar chips para poder escapar y sobrevivir.",
+  "episodes": [
+    { "episode": 1, "title": "Start", "video_url": "https://archive.org/download/btooom-completa-castellano/Btooom%21%20Episodio%2001%20-%202012.mp4" },
+    { "episode": 2, "title": "La chica de la sangre purulenta", "video_url": "https://archive.org/download/btooom-completa-castellano/Btooom%21%20Episodio%2002%20-%202012.mp4" },
+    { "episode": 3, "title": "Supervivencia", "video_url": "https://archive.org/download/btooom-completa-castellano/Btooom%21%20Episodio%2003%20-%202012.mp4" },
+    { "episode": 4, "title": "El mejor del mundo", "video_url": "https://archive.org/download/btooom-completa-castellano/Btooom%21%20Episodio%2004%20-%202012.mp4" },
+    { "episode": 5, "title": "Ataque", "video_url": "https://archive.org/download/btooom-completa-castellano/Btooom%21%20Episodio%2005%20-%202012.mp4" },
+    { "episode": 6, "title": "Noche de sacrificio", "video_url": "https://archive.org/download/btooom-completa-castellano/Btooom%21%20Episodio%2006%20-%202012.mp4" },
+    { "episode": 7, "title": "Esposa virtual", "video_url": "https://archive.org/download/btooom-completa-castellano/Btooom%21%20Episodio%2007%20-%202012.mp4" },
+    { "episode": 8, "title": "El fantasma blanco", "video_url": "https://archive.org/download/btooom-completa-castellano/Btooom%21%20Episodio%2008%20-%202012.mp4" },
+    { "episode": 9, "title": "El Btooom! más rápido", "video_url": "https://archive.org/download/btooom-completa-castellano/Btooom%21%20Episodio%2009%20-%202012.mp4" },
+    { "episode": 10, "title": "Nivel alto", "video_url": "https://archive.org/download/btooom-completa-castellano/Btooom%21%20Episodio%2010%20-%202012.mp4" },
+    { "episode": 11, "title": "Resurrección", "video_url": "https://archive.org/download/btooom-completa-castellano/Btooom%21%20Episodio%2011%20-%202012.mp4" },
+    { "episode": 12, "title": "Vínculos", "video_url": "https://archive.org/download/btooom-completa-castellano/Btooom%21%20Episodio%2012%20-%202012.mp4" }
+  ]
+},
+  
+  {
   "title": "Tenjou Tenge",
   "genre": ["Animación", "Acción", "Artes Marciales", "Ecchi"],
   "coverImage": "https://m.media-amazon.com/images/M/MV5BYTY4YTZlMTktODRiNy00YjFmLWIzNWQtNzBlNDA0ZDM4NzFhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
