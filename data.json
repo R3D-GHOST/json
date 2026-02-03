@@ -1,5 +1,31 @@
 [
 
+  {
+  "title": "Agallas, el perro cobarde",
+  "original_title": "Courage the Cowardly Dog",
+  "year": 1999,
+  "genre": ["Animación", "Comedia", "Terror", "Fantasía"],
+  "studio": "Cartoon Network Studios",
+  "coverImage": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/7768bbde-9895-494b-8469-bd7ff909ac64/9245d7bb-6931-11f0-8bc4-12a55bbe282b?host=wbd-images.prod-vod.h264.io&partner=beamcom&w=1024&w=1024",
+  "description": "En medio de Ninguna Parte, vive Agallas con su dueña Muriel y su marido Eustace Habichuela. Aunque es un perro extremadamente asustadizo, Agallas debe enfrentarse a monstruos, extraterrestres y fenómenos paranormales para salvar a sus dueños de los peligros más bizarros y terroríficos.",
+  "episodes": [
+    { "episode": 0, "title": "Piloto: El Pollo del Espacio Exterior", "video_url": "https://archive.org/download/Agallas-el-perro-cobarde/Agallas%2C%20el%20perro%20cobarde/Temporada%201/1x00%20Piloto.mkv" },
+    { "episode": 1, "title": "Una noche en el motel Gatoz + El estofado colonial de la abuela", "video_url": "https://archive.org/download/Agallas-el-perro-cobarde/Agallas%2C%20el%20perro%20cobarde/Temporada%201/1x01%20Una%20noche%20en%20el%20motel%20Gatoz%20%2B%20El%20estofado%20colonial%20de%20la%20abuela.mkv" },
+    { "episode": 2, "title": "La sombra de agallas + Le Quack especialista en amnesia", "video_url": "https://archive.org/download/Agallas-el-perro-cobarde/Agallas%2C%20el%20perro%20cobarde/Temporada%201/1x02%20La%20sombra%20de%20agallas%20%2B%20Le%20Quack%20especialista%20en%20amnesia.mkv" },
+    { "episode": 3, "title": "Agallas encuentra al bigfoot + Cabeza caliente", "video_url": "https://archive.org/download/Agallas-el-perro-cobarde/Agallas%2C%20el%20perro%20cobarde/Temporada%201/1x03%20Agallas%20encuentra%20al%20bigfoot%20%2B%20Cabeza%20caliente.mkv" },
+    { "episode": 4, "title": "El demonio en el colchón + Fred el raro", "video_url": "https://archive.org/download/Agallas-el-perro-cobarde/Agallas%2C%20el%20perro%20cobarde/Temporada%201/1x04%20El%20demonio%20en%20el%20colch%C3%B3n%20%2B%20Fred%20el%20raro.mkv" },
+    { "episode": 5, "title": "La noche del topolobo + El día de la madre", "video_url": "https://archive.org/download/Agallas-el-perro-cobarde/Agallas%2C%20el%20perro%20cobarde/Temporada%201/1x05%20La%20noche%20del%20topolobo%20%2B%20El%20d%C3%ADa%20de%20la%20madre..mkv" },
+    { "episode": 6, "title": "Los hermanos pato + Shirley la médium", "video_url": "https://archive.org/download/Agallas-el-perro-cobarde/Agallas%2C%20el%20perro%20cobarde/Temporada%201/1x06%20Los%20hermanos%20pato%20%2B%20Shirley%20la%20m%C3%A9dium.mkv" },
+    { "episode": 7, "title": "La maldición del Rey Ramsés + Atrapado en el pie", "video_url": "https://archive.org/download/Agallas-el-perro-cobarde/Agallas%2C%20el%20perro%20cobarde/Temporada%201/1x07%20La%20maldici%C3%B3n%20del%20Rey%20Rams%C3%A9s%20%2B%20Atrapado%20en%20el%20pie.mkv" },
+    { "episode": 8, "title": "El jorobado de Quimismo + Los dioses deben de ser gansos", "video_url": "https://archive.org/download/Agallas-el-perro-cobarde/Agallas%2C%20el%20perro%20cobarde/Temporada%201/1x08%20El%20jorobado%20de%20Quimismo%20%2B%20Los%20dioses%20deben%20de%20ser%20gansos.mkv" },
+    { "episode": 9, "title": "La reina del charco oscuro + Todo el mundo quiere dirigir", "video_url": "https://archive.org/download/Agallas-el-perro-cobarde/Agallas%2C%20el%20perro%20cobarde/Temporada%201/1x09%20La%20reina%20del%20charco%20oscuro%20%2B%20Todo%20el%20mundo%20quiere%20dirigir.mkv" },
+    { "episode": 10, "title": "El patito precioso, maravilloso, adorable y encantador", "video_url": "https://archive.org/download/Agallas-el-perro-cobarde/Agallas%2C%20el%20perro%20cobarde/Temporada%201/1x10%20El%20patito%20precioso%2C%20maravilloso%2C%20adorable%20y%20encantador.mkv" },
+    { "episode": 11, "title": "Cabezas de ternera + Club Katz", "video_url": "https://archive.org/download/Agallas-el-perro-cobarde/Agallas%2C%20el%20perro%20cobarde/Temporada%201/1x11%20Cabezas%20de%20ternera%20%2B%20Club%20Katz.mkv" },
+    { "episode": 12, "title": "La venganza de los pollos del espacio + Viaje al centro de Quimismo", "video_url": "https://archive.org/download/Agallas-el-perro-cobarde/Agallas%2C%20el%20perro%20cobarde/Temporada%201/1x12%20La%20venganza%20de%20los%20pollos%20del%20espacio%20exterior%20%2B%20Viaje%20al%20centro%20de%20Quimismo.mkv" },
+    { "episode": 13, "title": "La pequeña Muriel + El gran Fusilli", "video_url": "https://archive.org/download/Agallas-el-perro-cobarde/Agallas%2C%20el%20perro%20cobarde/Temporada%201/1x13%20La%20peque%C3%B1a%20Muriel%20%2B%20El%20gran%20Fusilli.mkv" }
+  ]
+},
+  
   
 {
   "title": "El Quijote de Miguel de Cervantes",
