@@ -1,6 +1,53 @@
 [
 
   {
+  "title": "Overlord III",
+  "original_title": "Overlord Season 3",
+  "year": 2018,
+  "genre": ["Animación", "Acción", "Aventura", "Fantasía"],
+  "studio": "Madhouse",
+  "coverImage": "https://m.media-amazon.com/images/I/51bXs-RZcaL._AC_UF350,350_QL80_.jpg",
+  "description": "En la tercera temporada, Ainz Ooal Gown sigue consolidando el poder de la Gran Tumba de Nazarick. La historia se centra en la llegada de trabajadores (Workers) que intentan saquear Nazarick y las brutales consecuencias que enfrentan, así como en la fundación del Reino Hechicero. La temporada culmina con la épica batalla en las Planicies de Katze, donde el mundo entero presencia el terrorífico poder de Ainz.",
+  "episodes": [
+    { "episode": 1, "title": "Retornando a la rutina del Gobernante", "video_url": "https://archive.org/download/overlord-temporada-3-latino/OV.3-1L4T.mp4" },
+    { "episode": 2, "title": "Carneva de nuevo", "video_url": "https://archive.org/download/overlord-temporada-3-latino/OV.3-2L4T.mp4" },
+    { "episode": 3, "title": "La agitación de Enri y sus días frenéticos", "video_url": "https://archive.org/download/overlord-temporada-3-latino/OV.3-3L4T.mp4" },
+    { "episode": 4, "title": "El gigante del este, el demonio del oeste", "video_url": "https://archive.org/download/overlord-temporada-3-latino/OV.3-4L4T.mp4" },
+    { "episode": 5, "title": "Dos líderes", "video_url": "https://archive.org/download/overlord-temporada-3-latino/OV.3-5L4T.mp4" },
+    { "episode": 6, "title": "Invitación a la muerte", "video_url": "https://archive.org/download/overlord-temporada-3-latino/OV.3-6L4T.mp4" },
+    { "episode": 7, "title": "Mariposas en la red", "video_url": "https://archive.org/download/overlord-temporada-3-latino/OV.3-7L4T.mp4" },
+    { "episode": 8, "title": "Un puñado de esperanza", "video_url": "https://archive.org/download/overlord-temporada-3-latino/OV.3-8L4T.mp4" },
+    { "episode": 9, "title": "Guerra de palabras", "video_url": "https://archive.org/download/overlord-temporada-3-latino/OV.3-9L4T.mp4" },
+    { "episode": 10, "title": "Preparativos para la guerra", "video_url": "https://archive.org/download/overlord-temporada-3-latino/OV.3-10L4T.mp4" },
+    { "episode": 11, "title": "Otra batalla", "video_url": "https://archive.org/download/overlord-temporada-3-latino/OV.3-11L4T.mp4" },
+    { "episode": 12, "title": "Masacre", "video_url": "https://archive.org/download/overlord-temporada-3-latino/OV.3-12L4T.mp4" },
+    { "episode": 13, "title": "PVP (Jugador contra Jugador)", "video_url": "https://archive.org/download/overlord-temporada-3-latino/OV.3-13L4T.mp4" }
+  ]
+},
+  
+{
+  "title": "Overlord II",
+  "original_title": "Overlord Season 2",
+  "year": 2018,
+  "genre": ["Animación", "Acción", "Aventura", "Fantasía"],
+  "studio": "Madhouse",
+  "coverImage": "https://ramenparados.com/wp-content/uploads/2017/11/overlord-2-anime.jpg",
+  "description": "En la segunda temporada, Ainz Ooal Gown continúa expandiendo su influencia en este nuevo mundo. La historia se divide principalmente en dos arcos: la subyugación de las tribus de hombres lagarto por parte de Cocytus para probar su valía, y la infiltración de Sebas Tian en el submundo criminal de la capital del Reino de Re-Estize, donde se enfrentará a la organización 'Ocho Dedos'.",
+  "episodes": [
+    { "episode": 1, "title": "El amanecer de la desesperación", "video_url": "https://archive.org/download/overlord-temporada-2-latino/OV.2-1.mp4" },
+    { "episode": 2, "title": "Partida", "video_url": "https://archive.org/download/overlord-temporada-2-latino/OV.2-2.mp4" },
+    { "episode": 3, "title": "Hombres lagarto reuniéndose", "video_url": "https://archive.org/download/overlord-temporada-2-latino/OV.2-3.mp4" },
+    { "episode": 4, "title": "Ejército de la muerte", "video_url": "https://archive.org/download/overlord-temporada-2-latino/OV.2-4.mp4" },
+    { "episode": 5, "title": "El Dios de la gélida escarcha", "video_url": "https://archive.org/download/overlord-temporada-2-latino/OV.2-5.mp4" },
+    { "episode": 6, "title": "Aquellos que salvan, aquellos que son salvados", "video_url": "https://archive.org/download/overlord-temporada-2-latino/OV.2-6.mp4" },
+    { "episode": 7, "title": "Amor azul pálido", "video_url": "https://archive.org/download/overlord-temporada-2-latino/OV.2-7.mp4" },
+    { "episode": 8, "title": "Sentimientos de un niño", "video_url": "https://archive.org/download/overlord-temporada-2-latino/OV.2-8.mp4" },
+    { "episode": 9, "title": "Chispas en ascenso", "video_url": "https://archive.org/download/overlord-temporada-2-latino/OV.2-9.mp4" }
+  ]
+},
+  
+  
+  {
   "title": "Gaikotsu Kishi-sama: Skeleton Knight in Another World",
   "original_title": "Gaikotsu Kishi-sama, Tadaima Isekai e Odekakechuu",
   "year": 2022,
