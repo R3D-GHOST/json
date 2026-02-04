@@ -1,6 +1,56 @@
 [
 
   {
+  "title": "Gaikotsu Kishi-sama: Skeleton Knight in Another World",
+  "original_title": "Gaikotsu Kishi-sama, Tadaima Isekai e Odekakechuu",
+  "year": 2022,
+  "genre": ["Animación", "Acción", "Aventura", "Fantasía"],
+  "studio": "Studio Kai / HORNETS",
+  "coverImage": "https://m.media-amazon.com/images/M/MV5BMjdmMGRmY2MtMWIwZC00NjU0LTkzM2YtNTM2ZmRhYzMyMjA3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  "description": "Un gamer se queda dormido y despierta en el mundo del juego que estaba jugando. Sin embargo, se encuentra habitando el cuerpo de su avatar: un caballero con una armadura imponente, pero que debajo de ella es un esqueleto. Temiendo ser confundido con un monstruo, intenta pasar desapercibido como un mercenario, pero su sentido de la justicia lo lleva a involucrarse en grandes conflictos para proteger a los inocentes.",
+  "episodes": [
+    { "episode": 1, "title": "El caballero errante parte para hacer del mundo un lugar mejor", "video_url": "https://archive.org/download/gaikotsu-12_202310/Gaikotsu%2001.mp4" },
+    { "episode": 2, "title": "Una oferta de la hermosa guerrera", "video_url": "https://archive.org/download/gaikotsu-12_202310/Gaikotsu%2002.mp4" },
+    { "episode": 3, "title": "La danza de las elfas", "video_url": "https://archive.org/download/gaikotsu-12_202310/Gaikotsu%2003.mp4" },
+    { "episode": 4, "title": "Infiltración en el mercado de esclavos", "video_url": "https://archive.org/download/gaikotsu-12_202310/Gaikotsu%2004.mp4" },
+    { "episode": 5, "title": "Revelaciones y conexiones", "video_url": "https://archive.org/download/gaikotsu-12_202310/Gaikotsu%2005.mp4" },
+    { "episode": 6, "title": "Aprendiendo sobre el mundo", "video_url": "https://archive.org/download/gaikotsu-12_202310/Gaikotsu%2006.mp4" },
+    { "episode": 7, "title": "Ideales en conflicto", "video_url": "https://archive.org/download/gaikotsu-12_202310/Gaikotsu%2007.mp4" },
+    { "episode": 8, "title": "Lazos de alianza", "video_url": "https://archive.org/download/gaikotsu-12_202310/Gaikotsu%2008.mp4" },
+    { "episode": 9, "title": "La capital en caos", "video_url": "https://archive.org/download/gaikotsu-12_202310/Gaikotsu%2009.mp4" },
+    { "episode": 10, "title": "Esperanza en el desierto", "video_url": "https://archive.org/download/gaikotsu-12_202310/Gaikotsu%2010.mp4" },
+    { "episode": 11, "title": "La bestia salvaje", "video_url": "https://archive.org/download/gaikotsu-12_202310/Gaikotsu%2011.mp4" },
+    { "episode": 12, "title": "Cambiando el destino", "video_url": "https://archive.org/download/gaikotsu-12_202310/Gaikotsu%2012.mp4" },
+    { "episode": 13, "title": "Hacia un mañana mejor", "video_url": "https://archive.org/download/gaikotsu-12_202310/Gaikotsu%2013.mp4" }
+  ]
+},
+  
+  {
+  "title": "Isekai Ojisan: Mi tío es de otro mundo",
+  "year": 2022,
+  "genre": ["Animación", "Comedia", "Fantasía"],
+  "studio": "Atelier Pontdarc",
+  "coverImage": "https://m.media-amazon.com/images/M/MV5BNjY4MmVhOTItOTU4Mi00N2UxLWFhMGYtNmJkNmIzYzFhYzkxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  "description": "Después de estar en coma durante 17 años, el tío de Takafumi despierta hablando un lenguaje extraño y poseyendo poderes mágicos. Resulta que durante todo ese tiempo estuvo transportado en otro mundo llamado Granbahamal. Ahora, Takafumi debe ayudar a su tío a adaptarse a la sociedad moderna de Japón mientras descubren juntos las bizaras y a menudo dolorosas memorias de sus aventuras en el mundo de fantasía.",
+  "episodes": [
+    { "episode": 1, "title": "¡He regresado del mundo de Granbahamal después de 17 años!", "video_url": "https://archive.org/download/ojisan-12/Ojisan%2001.mp4" },
+    { "episode": 2, "title": "¡Lo primero que hice fue ir a por 'Guardian Heroes'!", "video_url": "https://archive.org/download/ojisan-12/Ojisan%2002.mp4" },
+    { "episode": 3, "title": "Tu tía es una tía también", "video_url": "https://archive.org/download/ojisan-12/Ojisan%2003.mp4" },
+    { "episode": 4, "title": "¡Me ayudaste en los momentos difíciles!", "video_url": "https://archive.org/download/ojisan-12/Ojisan%2004.mp4" },
+    { "episode": 5, "title": "Casi me matan, ¿sabes?", "video_url": "https://archive.org/download/ojisan-12/Ojisan%2005.mp4" },
+    { "episode": 6, "title": "¡Me pusieron en una exhibición de monstruos!", "video_url": "https://archive.org/download/ojisan-12/Ojisan%2006.mp4" },
+    { "episode": 7, "title": "¡Como puedes ver, los juegos de SEGA son útiles para la vida!", "video_url": "https://archive.org/download/ojisan-12/Ojisan%2007.mp4" },
+    { "episode": 8, "title": "Me transformé en el ser más fuerte que conocía", "video_url": "https://archive.org/download/ojisan-12/Ojisan%2008.mp4" },
+    { "episode": 9, "title": "El espíritu del hielo pide una recompensa por el poder de la magia", "video_url": "https://archive.org/download/ojisan-12/Ojisan%2009.mp4" },
+    { "episode": 10, "title": "El valor solo surge cuando eres el blanco de las miradas", "video_url": "https://archive.org/download/ojisan-12/Ojisan%2010.mp4" },
+    { "episode": 11, "title": "Me detuvieron para decirme algo importante", "video_url": "https://archive.org/download/ojisan-12/Ojisan%2011.mp4" },
+    { "episode": 12, "title": "Los nombres son importantes, o eso me dijeron", "video_url": "https://archive.org/download/ojisan-12/Ojisan%2012.mp4" },
+    { "episode": 13, "title": "Gracias a todos", "video_url": "https://archive.org/download/ojisan-12/Ojisan%2013.mp4" }
+  ]
+},
+
+  
+  {
   "title": "Btooom!",
   "genre": ["Animación", "Acción", "Supervivencia", "Psicológico"],
   "studio": "Madhouse",
