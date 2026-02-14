@@ -1,5 +1,41 @@
 [
-
+{
+  "title": "Sword Art Online",
+  "original_title": "Sword Art Online",
+  "year": 2012,
+  "genre": ["Animación", "Acción", "Aventura", "Ciencia Ficción", "Romance"],
+  "studio": "A-1 Pictures",
+  "coverImage": "https://pics.filmaffinity.com/sodo_ato_onrain_sword_art_online-443242211-large.jpg",
+  "description": "En el año 2022, miles de jugadores quedan atrapados dentro de un videojuego de realidad virtual masiva llamado Sword Art Online (SAO). El creador del juego, Akihiko Kayaba, les informa que la única forma de escapar es completar los 100 pisos de Aincrad, pero con una condición mortal: si mueren en el juego, también morirán en la vida real. Kirito, un jugador solitario, luchará para sobrevivir y liberar a los jugadores atrapados.",
+  "episodes": [
+    { "episode": 1, "title": "Mundo de espadas", "video_url": "https://archive.org/download/sword-art-online-latino-04_202602/Sword%20Art%20Online%20LATINO-01.mp4" },
+    { "episode": 2, "title": "Beater", "video_url": "https://archive.org/download/sword-art-online-latino-04_202602/Sword%20Art%20Online%20LATINO-02.mp4" },
+    { "episode": 3, "title": "El reno de nariz roja", "video_url": "https://archive.org/download/sword-art-online-latino-04_202602/Sword%20Art%20Online%20LATINO-03.mp4" },
+    { "episode": 4, "title": "El espadachín negro", "video_url": "https://archive.org/download/sword-art-online-latino-04_202602/Sword%20Art%20Online%20LATINO-04.mp4" },
+    { "episode": 5, "title": "Incidente en la zona segura", "video_url": "https://archive.org/download/sword-art-online-latino-04_202602/Sword%20Art%20Online%20LATINO-05.mp4" },
+    { "episode": 6, "title": "Vengador ilusorio", "video_url": "https://archive.org/download/sword-art-online-latino-04_202602/Sword%20Art%20Online%20LATINO-06.mp4" },
+    { "episode": 7, "title": "La temperatura del corazón", "video_url": "https://archive.org/download/sword-art-online-latino-04_202602/Sword%20Art%20Online%20LATINO-07.mp4" },
+    { "episode": 8, "title": "La danza de la espada negra y blanca", "video_url": "https://archive.org/download/sword-art-online-latino-04_202602/Sword%20Art%20Online%20LATINO-08.mp4" },
+    { "episode": 9, "title": "El demonio de ojos azules", "video_url": "https://archive.org/download/sword-art-online-latino-04_202602/Sword%20Art%20Online%20LATINO-09.mp4" },
+    { "episode": 10, "title": "Instinto asesino", "video_url": "https://archive.org/download/sword-art-online-latino-04_202602/Sword%20Art%20Online%20LATINO-10.mp4" },
+    { "episode": 11, "title": "La chica del rocío matinal", "video_url": "https://archive.org/download/sword-art-online-latino-04_202602/Sword%20Art%20Online%20LATINO-11.mp4" },
+    { "episode": 12, "title": "El corazón de Yui", "video_url": "https://archive.org/download/sword-art-online-latino-04_202602/Sword%20Art%20Online%20LATINO-12.mp4" },
+    { "episode": 13, "title": "Al borde del abismo", "video_url": "https://archive.org/download/sword-art-online-latino-04_202602/Sword%20Art%20Online%20LATINO-13.mp4" },
+    { "episode": 14, "title": "El fin del mundo", "video_url": "https://archive.org/download/sword-art-online-latino-04_202602/Sword%20Art%20Online%20LATINO-14.mp4" },
+    { "episode": 15, "title": "Regreso", "video_url": "https://archive.org/download/sword-art-online-latino-04_202602/Sword%20Art%20Online%20LATINO-15.mp4" },
+    { "episode": 16, "title": "País de hadas", "video_url": "https://archive.org/download/sword-art-online-latino-04_202602/Sword%20Art%20Online%20LATINO-16.mp4" },
+    { "episode": 17, "title": "La reina cautiva", "video_url": "https://archive.org/download/sword-art-online-latino-04_202602/Sword%20Art%20Online%20LATINO-17.mp4" },
+    { "episode": 18, "title": "Hacia el Árbol del Mundo", "video_url": "https://archive.org/download/sword-art-online-latino-04_202602/Sword%20Art%20Online%20LATINO-18.mp4" },
+    { "episode": 19, "title": "El corredor de Lugru", "video_url": "https://archive.org/download/sword-art-online-latino-04_202602/Sword%20Art%20Online%20LATINO-19.mp4" },
+    { "episode": 20, "title": "General de las llamas", "video_url": "https://archive.org/download/sword-art-online-latino-04_202602/Sword%20Art%20Online%20LATINO-20.mp4" },
+    { "episode": 21, "title": "La verdad sobre Alfheim", "video_url": "https://archive.org/download/sword-art-online-latino-04_202602/Sword%20Art%20Online%20LATINO-21.mp4" },
+    { "episode": 22, "title": "La gran búsqueda", "video_url": "https://archive.org/download/sword-art-online-latino-04_202602/Sword%20Art%20Online%20LATINO-22.mp4" },
+    { "episode": 23, "title": "Lazos", "video_url": "https://archive.org/download/sword-art-online-latino-04_202602/Sword%20Art%20Online%20LATINO-23.mp4" },
+    { "episode": 24, "title": "Héroe dorado", "video_url": "https://archive.org/download/sword-art-online-latino-04_202602/Sword%20Art%20Online%20LATINO-24.mp4" },
+    { "episode": 25, "title": "Semilla del mundo", "video_url": "https://archive.org/download/sword-art-online-latino-04_202602/Sword%20Art%20Online%20LATINO-25.mp4" }
+  ]
+},
+  
   {
   "title": "Overlord III",
   "original_title": "Overlord Season 3",
