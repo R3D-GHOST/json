@@ -1,5 +1,15 @@
 [
   {
+    "title": "Buenos Muchachos",
+    "description": "La historia de Henry Hill y su vida en la mafia, basada en hechos reales. Un clásico del cine de gánsteres.",
+    "year": 1990,
+    "studio": "Warner Bros. / External",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjyLUiQ3gjivQNnQjZt7AA-viCQMp2IMADWg&s",
+    "genre": ["Crimen", "Drama"],
+    "video_url": "https://pomf2.lain.la/f/0ep0qypn.mp4"
+},
+  
+  {
     "title": "Bandolero!",
     "description": "Un clásico del western donde un falso verdugo rescata a su hermano de la horca.",
     "year": 1968,
