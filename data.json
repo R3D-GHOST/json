@@ -1,5 +1,15 @@
 [
   {
+    "title": "Five Nights at Freddy’s 2",
+    "description": "Secuela de la adaptación cinematográfica del popular videojuego de terror. La supervivencia nocturna continúa.",
+    "year": 2025,
+    "studio": "Internet Archive",
+    "coverImage": "https://pics.filmaffinity.com/five_nights_at_freddy_s_2-190185835-large.jpg",
+    "genre": ["Terror", "Misterio"],
+    "video_url": "https://archive.org/download/1-registro-nacional-alimento/Five.Nights.at.Freddys.2.2025.1080p-Dual-Lat.mkv"
+  },
+  
+  {
     "title": "Buenos Muchachos",
     "description": "La historia de Henry Hill y su vida en la mafia, basada en hechos reales. Un clásico del cine de gánsteres.",
     "year": 1990,
